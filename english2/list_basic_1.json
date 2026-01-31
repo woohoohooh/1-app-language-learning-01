@@ -1,0 +1,16 @@
+{
+  "name": "Basic English",
+  "level": "Beginner",
+  "theme": "General",
+  "filename": "english/list_basic_1.json",
+  "words": [
+    {"english": "hello", "translation": "привет"},
+    {"english": "world", "translation": "мир"},
+    {"english": "apple", "translation": "яблоко"},
+    {"english": "book", "translation": "книга"},
+    {"english": "cat", "translation": "кошка"},
+    {"english": "house", "translation": "дом"},
+    {"english": "water", "translation": "вода"},
+    {"english": "friend", "translation": "друг"}
+  ]
+}

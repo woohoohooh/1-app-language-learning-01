@@ -1,0 +1,53 @@
+{
+  "theme": "Управление людьми",
+  "level": "Advanced",
+  "name": "Words",
+  "filename": "english/list_advanced_11_people_management.json",
+  "words": [
+    { "english":"management","translation":"управление","audio":["audio/management.wav"],"english_words":"effective management","translation_words":"эффективное управление","audio_words":["audio/management_words.wav"],"english_sentences":"Management shapes organizational outcomes.","translation_sentences":"Управление формирует результаты организации.","audio_sentences":["audio/management_sentences.wav"] },
+{ "english":"manager","translation":"руководитель","audio":["audio/manager.wav"],"english_words":"experienced manager","translation_words":"опытный руководитель","audio_words":["audio/manager_words.wav"],"english_sentences":"The manager coordinates daily operations.","translation_sentences":"Руководитель координирует ежедневные процессы.","audio_sentences":["audio/manager_sentences.wav"] },
+{ "english":"team","translation":"команда","audio":["audio/team.wav"],"english_words":"strong team","translation_words":"сильная команда","audio_words":["audio/team_words.wav"],"english_sentences":"The team achieved impressive results.","translation_sentences":"Команда достигла впечатляющих результатов.","audio_sentences":["audio/team_sentences.wav"] },
+{ "english":"teamwork","translation":"командная работа","audio":["audio/teamwork.wav"],"english_words":"effective teamwork","translation_words":"эффективная командная работа","audio_words":["audio/teamwork_words.wav"],"english_sentences":"Teamwork improves problem solving.","translation_sentences":"Командная работа улучшает решение проблем.","audio_sentences":["audio/teamwork_sentences.wav"] },
+{ "english":"collaboration","translation":"сотрудничество","audio":["audio/collaboration.wav"],"english_words":"cross team collaboration","translation_words":"межкомандное сотрудничество","audio_words":["audio/collaboration_words.wav"],"english_sentences":"Collaboration accelerates innovation.","translation_sentences":"Сотрудничество ускоряет инновации.","audio_sentences":["audio/collaboration_sentences.wav"] },
+{ "english":"supervision","translation":"надзор, руководство","audio":["audio/supervision.wav"],"english_words":"close supervision","translation_words":"плотный надзор","audio_words":["audio/supervision_words.wav"],"english_sentences":"Supervision ensures task accuracy.","translation_sentences":"Надзор обеспечивает точность выполнения задач.","audio_sentences":["audio/supervision_sentences.wav"] },
+{ "english":"coordination","translation":"координация","audio":["audio/coordination.wav"],"english_words":"project coordination","translation_words":"координация проекта","audio_words":["audio/coordination_words.wav"],"english_sentences":"Coordination aligns multiple efforts.","translation_sentences":"Координация согласует множество усилий.","audio_sentences":["audio/coordination_sentences.wav"] },
+{ "english":"workload","translation":"рабочая нагрузка","audio":["audio/workload.wav"],"english_words":"heavy workload","translation_words":"высокая нагрузка","audio_words":["audio/workload_words.wav"],"english_sentences":"Workload distribution affects morale.","translation_sentences":"Распределение нагрузки влияет на мораль.","audio_sentences":["audio/workload_sentences.wav"] },
+{ "english":"capacity","translation":"загруженность, ресурс","audio":["audio/capacity.wav"],"english_words":"current capacity","translation_words":"текущая загруженность","audio_words":["audio/capacity_words.wav"],"english_sentences":"Capacity limits must be respected.","translation_sentences":"Ограничения ресурсов нужно учитывать.","audio_sentences":["audio/capacity_sentences.wav"] },
+{ "english":"availability","translation":"доступность","audio":["audio/availability.wav"],"english_words":"staff availability","translation_words":"доступность персонала","audio_words":["audio/availability_words.wav"],"english_sentences":"Availability impacts scheduling decisions.","translation_sentences":"Доступность влияет на планирование.","audio_sentences":["audio/availability_sentences.wav"] },
+{ "english":"performance review","translation":"оценка эффективности","audio":["audio/performance_review.wav"],"english_words":"annual performance review","translation_words":"годовая оценка эффективности","audio_words":["audio/performance_review_words.wav"],"english_sentences":"The performance review highlighted strengths.","translation_sentences":"Оценка эффективности выявила сильные стороны.","audio_sentences":["audio/performance_review_sentences.wav"] },
+{ "english":"evaluation","translation":"оценка","audio":["audio/evaluation.wav"],"english_words":"objective evaluation","translation_words":"объективная оценка","audio_words":["audio/evaluation_words.wav"],"english_sentences":"Evaluation supports fair decisions.","translation_sentences":"Оценка поддерживает справедливые решения.","audio_sentences":["audio/evaluation_sentences.wav"] },
+{ "english":"assessment","translation":"анализ, оценивание","audio":["audio/assessment.wav"],"english_words":"risk assessment","translation_words":"оценка рисков","audio_words":["audio/assessment_words.wav"],"english_sentences":"Assessment identifies improvement areas.","translation_sentences":"Анализ выявляет зоны улучшения.","audio_sentences":["audio/assessment_sentences.wav"] },
+{ "english":"expectation","translation":"ожидание","audio":["audio/expectation.wav"],"english_words":"clear expectations","translation_words":"чёткие ожидания","audio_words":["audio/expectation_words.wav"],"english_sentences":"Expectation alignment reduces conflict.","translation_sentences":"Согласование ожиданий снижает конфликты.","audio_sentences":["audio/expectation_sentences.wav"] },
+{ "english":"goal-setting","translation":"постановка целей","audio":["audio/goal_setting.wav"],"english_words":"effective goal setting","translation_words":"эффективная постановка целей","audio_words":["audio/goal_setting_words.wav"],"english_sentences":"Goal-setting clarifies priorities.","translation_sentences":"Постановка целей проясняет приоритеты.","audio_sentences":["audio/goal_setting_sentences.wav"] },
+{ "english":"motivation","translation":"мотивация","audio":["audio/motivation.wav"],"english_words":"employee motivation","translation_words":"мотивация сотрудников","audio_words":["audio/motivation_words.wav"],"english_sentences":"Motivation influences long term engagement.","translation_sentences":"Мотивация влияет на долгосрочную вовлечённость.","audio_sentences":["audio/motivation_sentences.wav"] },
+{ "english":"engagement","translation":"вовлечённость","audio":["audio/engagement.wav"],"english_words":"team engagement","translation_words":"вовлечённость команды","audio_words":["audio/engagement_words.wav"],"english_sentences":"Engagement strengthens workplace culture.","translation_sentences":"Вовлечённость укрепляет культуру работы.","audio_sentences":["audio/engagement_sentences.wav"] },
+{ "english":"commitment","translation":"приверженность","audio":["audio/commitment.wav"],"english_words":"long term commitment","translation_words":"долгосрочная приверженность","audio_words":["audio/commitment_words.wav"],"english_sentences":"Commitment builds organizational stability.","translation_sentences":"Приверженность создаёт стабильность организации.","audio_sentences":["audio/commitment_sentences.wav"] },
+{ "english":"retention","translation":"удержание сотрудников","audio":["audio/retention.wav"],"english_words":"employee retention","translation_words":"удержание сотрудников","audio_words":["audio/retention_words.wav"],"english_sentences":"Retention strategies reduce hiring costs.","translation_sentences":"Стратегии удержания снижают затраты на найм.","audio_sentences":["audio/retention_sentences.wav"] },
+{ "english":"turnover","translation":"текучесть кадров","audio":["audio/turnover.wav"],"english_words":"high turnover","translation_words":"высокая текучесть","audio_words":["audio/turnover_words.wav"],"english_sentences":"Turnover signals management issues.","translation_sentences":"Текучесть указывает на проблемы управления.","audio_sentences":["audio/turnover_sentences.wav"] },
+
+
+    { "english": "onboarding", "translation": "адаптация новых сотрудников", "audio": ["audio/onboarding.wav"] },
+    { "english": "training", "translation": "обучение", "audio": ["audio/training.wav"] },
+    { "english": "upskilling", "translation": "повышение навыков", "audio": ["audio/upskilling.wav"] },
+    { "english": "career growth", "translation": "карьерный рост", "audio": ["audio/career_growth.wav"] },
+    { "english": "succession", "translation": "преемственность", "audio": ["audio/succession.wav"] },
+
+    { "english": "conflict", "translation": "конфликт", "audio": ["audio/conflict.wav"] },
+    { "english": "resolution", "translation": "разрешение", "audio": ["audio/resolution.wav"] },
+    { "english": "discipline", "translation": "дисциплина", "audio": ["audio/discipline.wav"] },
+    { "english": "policy", "translation": "политика, правило", "audio": ["audio/policy.wav"] },
+    { "english": "procedure", "translation": "процедура", "audio": ["audio/procedure.wav"] },
+
+    { "english": "responsibility", "translation": "ответственность", "audio": ["audio/responsibility.wav"] },
+    { "english": "role", "translation": "роль", "audio": ["audio/role.wav"] },
+    { "english": "ownership", "translation": "зона ответственности", "audio": ["audio/ownership.wav"] },
+    { "english": "authority", "translation": "полномочия", "audio": ["audio/authority.wav"] },
+    { "english": "accountability", "translation": "подотчётность", "audio": ["audio/accountability.wav"] },
+
+    { "english": "workplace culture", "translation": "рабочая культура", "audio": ["audio/workplace_culture.wav"] },
+    { "english": "employee satisfaction", "translation": "удовлетворённость сотрудников", "audio": ["audio/employee_satisfaction.wav"] },
+    { "english": "burnout", "translation": "выгорание", "audio": ["audio/burnout.wav"] },
+    { "english": "well-being", "translation": "благополучие", "audio": ["audio/well_being.wav"] },
+    { "english": "morale", "translation": "моральный дух", "audio": ["audio/morale.wav"] }
+  ]
+}

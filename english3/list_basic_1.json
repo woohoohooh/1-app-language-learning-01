@@ -1,0 +1,64 @@
+{
+  "name": "Basic English",
+  "level": "Beginner",
+  "theme": "General",
+  "filename": "english/list_basic_1.json",
+  "words": [
+    {
+      "english": "hello",
+      "translation": "привет",
+      "audio": [
+        "audio/hello/1.wav"
+      ]
+    },
+    {
+      "english": "world",
+      "translation": "мир",
+      "audio": [
+        "audio/world/1.wav"
+      ]
+    },
+    {
+      "english": "apple",
+      "translation": "яблоко",
+      "audio": [
+        "audio/apple/1.wav"
+      ]
+    },
+    {
+      "english": "book",
+      "translation": "книга",
+      "audio": [
+        "audio/book/1.wav"
+      ]
+    },
+    {
+      "english": "cat",
+      "translation": "кошка",
+      "audio": [
+        "audio/cat/1.wav"
+      ]
+    },
+    {
+      "english": "house",
+      "translation": "дом",
+      "audio": [
+        "audio/house/1.wav"
+      ]
+    },
+    {
+      "english": "water",
+      "translation": "вода",
+      "audio": [
+        "audio/water/1.wav"
+      ]
+    },
+    {
+      "english": "friend",
+      "translation": "друг",
+      "audio": [
+        "audio/friend/1.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Часто используемые слова",
+  "level": "Начинаюй (Beginner)",
+  "theme": "Слова",
+  "filename": "english/list_basic_1.json",
+  "words": [
+    {
+      "english": "hello",
+      "translation": "привет",
+      "audio": [
+        "audio/accurate/acce ss.wav"
+      ]
+    }
+  ]
+}

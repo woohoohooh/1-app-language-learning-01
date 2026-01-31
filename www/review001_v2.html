@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Review001_v2 — Small-to-large translate-on-drag</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+html,body{height:100%;margin:0;background:#121212;color:#fff;font-family:Nunito,Arial,sans-serif;overflow:hidden}
+.background-gradient{position:fixed;inset:0;pointer-events:none;z-index:0}
+.gradient-overlay{position:absolute;width:200%;height:200%;top:-50%;left:-50%;opacity:0;transition:opacity .15s}
+.gradient-known{background:radial-gradient(circle at center, rgba(76,175,80,0) 0%, rgba(76,175,80,0.12) 30%, rgba(76,175,80,0.28) 60%, rgba(76,175,80,0.45) 100%)}
+.gradient-review{background:radial-gradient(circle at center, rgba(255,152,0,0) 0%, rgba(255,152,0,0.12) 30%, rgba(255,152,0,0.28) 60%, rgba(255,152,0,0.45) 100%)}
+.container{position:relative;z-index:2;height:100vh;display:flex;align-items:center;justify-content:center}
+.word-small{font-size:28px;color:#ddd;text-align:center}
+.word-large{font-size:64px;font-weight:800;text-align:center;display:none;}
+.top-area{position:absolute;top:12px;left:12px;z-index:3}
+.back-button{width:44px;height:44px;border-radius:10px;background:rgba(255,255,255,0.02);display:flex;align-items:center;justify-content:center;cursor:pointer;border:1px solid rgba(255,255,255,0.04)}
+.bottom-hint{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);color:#999;font-size:13px;z-index:3}
+.progress{position:absolute;top:16px;right:16px;color:#aaa;z-index:3}
+</style>
+</head>
+<body>
+<div class="background-gradient">
+  <div class="gradient-overlay gradient-known" id="gradient-known"></div>
+  <div class="gradient-overlay gradient-review" id="gradient-review"></div>
+</div>
+<div class="top-area"><div id="back" class="back-button"></div></div>
+<div class="container">
+  <div id="small" class="word-small">Loading...</div>
+  <div id="large" class="word-large"></div>
+  <div id="progress" class="progress"></div>
+  <div id="hint" class="bottom-hint">Hold & drag anywhere to mark.</div>
+</div>
+<script>
+// V2: word shown small; on drag start the large translation appears centered and is drag-target
+const params=new URLSearchParams(window.location.search);const listId=params.get('list');const sessionId=params.get('session');
+const small=document.getElementById('small'),large=document.getElementById('large'),progress=document.getElementById('progress');
+let q=[],i=0,current=null,isCombined=false;
+const WordDB={saveWordStatus(l,e,s){localStorage.setItem(`word_${l}_${e}`,s)},getWordStatus(l,e){return localStorage.getItem(`word_${l}_${e}`)||'new'},updateListStatus(listData){if(!listData||!Array.isArray(listData.words))return listData;listData.words.forEach(w=>{w.status=this.getWordStatus(listData.filename,w.english)});return listData},getWordsForReview(listData){const r=[];const n=[];listData.words.forEach(w=>{const s=this.getWordStatus(listData.filename,w.english);w.status=s;if(s==='review')r.push(w);else if(s==='new')n.push(w)});return r.concat(n)}};
+async function fetchJson(p){try{const r=await fetch(p);if(!r.ok)return null;return await r.json();}catch(e){return null}}
+async function load(){if(sessionId){const s=JSON.parse(localStorage.getItem(sessionId)||'{}');q=s.words||[];isCombined=true}else if(listId){let list=await fetchJson(decodeURIComponent(listId));if(!list)list=await fetchJson(`english/${decodeURIComponent(listId)}`)||null; if(!list){const idx=await fetchJson('english/list.json'); if(Array.isArray(idx)){const found=idx.find(f=>f===decodeURIComponent(listId)||f.endsWith(decodeURIComponent(listId))); if(found){list=await fetchJson(`english/${found}`); if(list)list.filename=`english/${found}`}}} if(!list){const defs=['english/list_basic_1.json','english/list_intermediate_1.json','english/list_advanced_1.json']; for(const d of defs){const l=await fetchJson(d); if(l){list=l; list.filename=d; break}}} if(!list){small.textContent='Error loading list';return} if(!list.filename)list.filename=`english/${decodeURIComponent(listId)}`; WordDB.updateListStatus(list);q=WordDB.getWordsForReview(list)} if(!q||q.length===0){small.textContent='No words';return} i=0;show()}
+function show(){current=q[i];small.textContent=current.english;large.style.display='none';large.textContent='';progress.textContent=`${i+1}/${q.length}`}
+
+let active=false, sx=0, sy=0, lx=0, ly=0; const DRAG=40;
+function down(e){const p=(e.touches&&e.touches[0])||e; sx=p.clientX; sy=p.clientY; lx=sx; ly=sy; active=true; // show large translation
+ large.textContent=current.russian||current.translation||''; large.style.display='block'; large.style.transform='translate(0,0)'; large.style.opacity='1'; }
+function move(e){if(!active) return; const p=(e.touches&&e.touches[0])||e; const dx=p.clientX-sx; const dy=p.clientY-sy; lx=p.clientX; ly=p.clientY; large.style.transform=`translate(${dx}px,${dy}px)`; const absX=Math.abs(dx), absY=Math.abs(dy); const r=Math.min(Math.max(absX,absY)/200,1); if(absX>absY){ if(dx>0){document.getElementById('gradient-review').style.opacity=r; document.getElementById('gradient-known').style.opacity=0;} else {document.getElementById('gradient-known').style.opacity=r; document.getElementById('gradient-review').style.opacity=0;} } else { if(dy>0){document.getElementById('gradient-review').style.opacity=r; document.getElementById('gradient-known').style.opacity=0;} else {document.getElementById('gradient-known').style.opacity=r; document.getElementById('gradient-review').style.opacity=0;} } }
+function up(e){if(!active) return; active=false; large.style.transition='transform .22s ease, opacity .12s'; const dx=lx-sx, dy=ly-sy; document.getElementById('gradient-known').style.opacity=0; document.getElementById('gradient-review').style.opacity=0; if(Math.abs(dx)<DRAG && Math.abs(dy)<DRAG){ // short tap: show small translation briefly
+ large.style.display='none'; small.textContent=current.russian||current.translation||''; setTimeout(()=>{ small.textContent=current.english; },800); return; } let action = Math.abs(dx)>Math.abs(dy) ? (dx>0?'review':'known') : (dy>0?'review':'known'); if(!isCombined) WordDB.saveWordStatus(current.filename||listId,current.english,action); // animate out
+ large.style.transform = `translate(${(dx>0?1:-1)*window.innerWidth}px,${(dy>0?1:-1)*window.innerHeight}px)`; large.style.opacity='0'; setTimeout(()=>{ i++; if(i>=q.length){ small.textContent='Done'; large.style.display='none'; return; } large.style.opacity='1'; large.style.transform=''; show(); },260); }
+
+window.addEventListener('mousedown',down); window.addEventListener('touchstart',down,{passive:false}); window.addEventListener('mousemove',move); window.addEventListener('touchmove',move,{passive:false}); window.addEventListener('mouseup',up); window.addEventListener('touchend',up);
+
+document.getElementById('back').addEventListener('click',()=>{window.location.href='index.html'});
+window.addEventListener('keydown',e=>{ if(e.key==='ArrowLeft'||e.key==='a') { if(!isCombined) WordDB.saveWordStatus(current.filename||listId,current.english,'known'); up(); } if(e.key==='ArrowRight'||e.key==='d') { if(!isCombined) WordDB.saveWordStatus(current.filename||listId,current.english,'review'); up(); }});
+
+load();
+</script>
+</body>
+</html>

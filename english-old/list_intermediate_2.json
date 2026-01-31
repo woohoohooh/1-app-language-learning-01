@@ -1,0 +1,495 @@
+{
+  "name": "Intermediate English",
+  "level": "Intermediate",
+  "theme": "General",
+  "filename": "english/list_intermediate_2.json",
+  "words": [
+    {
+      "english": "achieve",
+      "translation": "достигать",
+      "audio": [
+        "audio/achieve/1.wav"
+      ]
+    },
+    {
+      "english": "allow",
+      "translation": "позволять",
+      "audio": [
+        "audio/allow/1.wav"
+      ]
+    },
+    {
+      "english": "appear",
+      "translation": "появляться",
+      "audio": [
+        "audio/appear/1.wav"
+      ]
+    },
+    {
+      "english": "belong",
+      "translation": "принадлежать",
+      "audio": [
+        "audio/belong/1.wav"
+      ]
+    },
+    {
+      "english": "compare",
+      "translation": "сравнивать",
+      "audio": [
+        "audio/compare/1.wav"
+      ]
+    },
+    {
+      "english": "confirm",
+      "translation": "подтверждать",
+      "audio": [
+        "audio/confirm/1.wav"
+      ]
+    },
+    {
+      "english": "contain",
+      "translation": "содержать",
+      "audio": [
+        "audio/contain/1.wav"
+      ]
+    },
+    {
+      "english": "continue",
+      "translation": "продолжать",
+      "audio": [
+        "audio/continue/1.wav"
+      ]
+    },
+    {
+      "english": "depend",
+      "translation": "зависеть",
+      "audio": [
+        "audio/depend/1.wav"
+      ]
+    },
+    {
+      "english": "describe",
+      "translation": "описывать",
+      "audio": [
+        "audio/describe/1.wav"
+      ]
+    },
+    {
+      "english": "expect",
+      "translation": "ожидать",
+      "audio": [
+        "audio/expect/1.wav"
+      ]
+    },
+    {
+      "english": "fail",
+      "translation": "терпеть неудачу",
+      "audio": [
+        "audio/fail/1.wav"
+      ]
+    },
+    {
+      "english": "focus",
+      "translation": "сосредотачиваться",
+      "audio": [
+        "audio/focus/1.wav"
+      ]
+    },
+    {
+      "english": "gain",
+      "translation": "получать",
+      "audio": [
+        "audio/gain/1.wav"
+      ]
+    },
+    {
+      "english": "happen",
+      "translation": "происходить",
+      "audio": [
+        "audio/happen/1.wav"
+      ]
+    },
+    {
+      "english": "include",
+      "translation": "включать",
+      "audio": [
+        "audio/include/1.wav"
+      ]
+    },
+    {
+      "english": "involve",
+      "translation": "вовлекать",
+      "audio": [
+        "audio/involve/1.wav"
+      ]
+    },
+    {
+      "english": "limit",
+      "translation": "ограничивать",
+      "audio": [
+        "audio/limit/1.wav"
+      ]
+    },
+    {
+      "english": "notice",
+      "translation": "замечать",
+      "audio": [
+        "audio/notice/1.wav"
+      ]
+    },
+    {
+      "english": "perform",
+      "translation": "выполнять",
+      "audio": [
+        "audio/perform/1.wav"
+      ]
+    },
+    {
+      "english": "prepare",
+      "translation": "подготавливать",
+      "audio": [
+        "audio/prepare/1.wav"
+      ]
+    },
+    {
+      "english": "prevent",
+      "translation": "предотвращать",
+      "audio": [
+        "audio/prevent/1.wav"
+      ]
+    },
+    {
+      "english": "realize",
+      "translation": "осознавать",
+      "audio": [
+        "audio/realize/1.wav"
+      ]
+    },
+    {
+      "english": "recognize",
+      "translation": "узнавать",
+      "audio": [
+        "audio/recognize/1.wav"
+      ]
+    },
+    {
+      "english": "require",
+      "translation": "требовать",
+      "audio": [
+        "audio/require/1.wav"
+      ]
+    },
+    {
+      "english": "respond",
+      "translation": "реагировать",
+      "audio": [
+        "audio/respond/1.wav"
+      ]
+    },
+    {
+      "english": "remain",
+      "translation": "оставаться",
+      "audio": [
+        "audio/remain/1.wav"
+      ]
+    },
+    {
+      "english": "replace",
+      "translation": "заменять",
+      "audio": [
+        "audio/replace/1.wav"
+      ]
+    },
+    {
+      "english": "represent",
+      "translation": "представлять",
+      "audio": [
+        "audio/represent/1.wav"
+      ]
+    },
+    {
+      "english": "survive",
+      "translation": "выживать",
+      "audio": [
+        "audio/survive/1.wav"
+      ]
+    },
+    {
+      "english": "attitude",
+      "translation": "отношение",
+      "audio": [
+        "audio/attitude/1.wav"
+      ]
+    },
+    {
+      "english": "background",
+      "translation": "предыстория",
+      "audio": [
+        "audio/background/1.wav"
+      ]
+    },
+    {
+      "english": "behavior",
+      "translation": "поведение",
+      "audio": [
+        "audio/behavior/1.wav"
+      ]
+    },
+    {
+      "english": "benefit",
+      "translation": "выгода",
+      "audio": [
+        "audio/benefit/1.wav"
+      ]
+    },
+    {
+      "english": "challenge",
+      "translation": "вызов",
+      "audio": [
+      ]
+    },
+    {
+      "english": "context",
+      "translation": "контекст",
+      "audio": [
+        "audio/context/1.wav"
+      ]
+    },
+    {
+      "english": "goal",
+      "translation": "цель",
+      "audio": [
+        "audio/goal/1.wav"
+      ]
+    },
+    {
+      "english": "habit",
+      "translation": "привычка",
+      "audio": [
+        "audio/habit/1.wav"
+      ]
+    },
+    {
+      "english": "impact",
+      "translation": "влияние",
+      "audio": [
+        "audio/impact/1.wav"
+      ]
+    },
+    {
+      "english": "risk",
+      "translation": "риск",
+      "audio": [
+        "audio/risk/1.wav"
+      ]
+    },
+    {
+      "english": "skill",
+      "translation": "навык",
+      "audio": [
+        "audio/skill/1.wav"
+      ]
+    },
+    {
+      "english": "strength",
+      "translation": "сила",
+      "audio": [
+        "audio/strength/1.wav"
+      ]
+    },
+    {
+      "english": "weakness",
+      "translation": "слабость",
+      "audio": [
+        "audio/weakness/1.wav"
+      ]
+    },
+    {
+      "english": "task",
+      "translation": "задача",
+      "audio": [
+        "audio/task/1.wav"
+      ]
+    },
+    {
+      "english": "trend",
+      "translation": "тенденция",
+      "audio": [
+        "audio/trend/1.wav"
+      ]
+    },
+    {
+      "english": "value",
+      "translation": "ценность",
+      "audio": [
+        "audio/value/1.wav"
+      ]
+    },
+    {
+      "english": "variety",
+      "translation": "разнообразие",
+      "audio": [
+        "audio/variety/1.wav"
+      ]
+    },
+    {
+      "english": "pressure",
+      "translation": "давление",
+      "audio": [
+        "audio/pressure/1.wav"
+      ]
+    },
+    {
+      "english": "knowledge",
+      "translation": "знание",
+      "audio": [
+      ]
+    },
+    {
+      "english": "confidence",
+      "translation": "уверенность",
+      "audio": [
+        "audio/confidence/1.wav"
+      ]
+    },
+    {
+      "english": "accurate",
+      "translation": "точный",
+      "audio": [
+        "audio/accurate/1.wav"
+      ]
+    },
+    {
+      "english": "aware",
+      "translation": "осведомлённый",
+      "audio": [
+        "audio/aware/1.wav"
+      ]
+    },
+    {
+      "english": "complex",
+      "translation": "сложный",
+      "audio": [
+        "audio/complex/1.wav"
+      ]
+    },
+    {
+      "english": "effective",
+      "translation": "эффективный",
+      "audio": [
+        "audio/effective/1.wav"
+      ]
+    },
+    {
+      "english": "flexible",
+      "translation": "гибкий",
+      "audio": [
+        "audio/flexible/1.wav"
+      ]
+    },
+    {
+      "english": "independent",
+      "translation": "независимый",
+      "audio": [
+      ]
+    },
+    {
+      "english": "negative",
+      "translation": "негативный",
+      "audio": [
+        "audio/negative/1.wav"
+      ]
+    },
+    {
+      "english": "positive",
+      "translation": "позитивный",
+      "audio": [
+        "audio/positive/1.wav"
+      ]
+    },
+    {
+      "english": "reliable",
+      "translation": "надёжный",
+      "audio": [
+        "audio/reliable/1.wav"
+      ]
+    },
+    {
+      "english": "specific",
+      "translation": "конкретный",
+      "audio": [
+        "audio/specific/1.wav"
+      ]
+    },
+    {
+      "english": "basically",
+      "translation": "в основном",
+      "audio": [
+        "audio/basically/1.wav"
+      ]
+    },
+    {
+      "english": "currently",
+      "translation": "в настоящее время",
+      "audio": [
+        "audio/currently/1.wav"
+      ]
+    },
+    {
+      "english": "eventually",
+      "translation": "в итоге",
+      "audio": [
+        "audio/eventually/1.wav"
+      ]
+    },
+    {
+      "english": "frequently",
+      "translation": "часто",
+      "audio": [
+        "audio/frequently/1.wav"
+      ]
+    },
+    {
+      "english": "gradually",
+      "translation": "постепенно",
+      "audio": [
+        "audio/gradually/1.wav"
+      ]
+    },
+    {
+      "english": "immediately",
+      "translation": "немедленно",
+      "audio": [
+        "audio/immediately/1.wav"
+      ]
+    },
+    {
+      "english": "naturally",
+      "translation": "естественно",
+      "audio": [
+        "audio/naturally/1.wav"
+      ]
+    },
+    {
+      "english": "normally",
+      "translation": "обычно",
+      "audio": [
+        "audio/normally/1.wav"
+      ]
+    },
+    {
+      "english": "seriously",
+      "translation": "серьёзно",
+      "audio": [
+        "audio/seriously/1.wav"
+      ]
+    },
+    {
+      "english": "strongly",
+      "translation": "сильно",
+      "audio": [
+        "audio/strongly/1.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "name": "Intermediate English",
+  "level": "General",
+  "theme": "Intermediate",
+  "filename": "english/list_intermediate_1.json",
+  "words": [
+    {
+      "english": "although",
+      "translation": "хотя",
+      "audio": [
+        "audio/although/1.wav"
+      ]
+    },
+    {
+      "english": "through",
+      "translation": "через",
+      "audio": [
+        "audio/through/1.wav"
+      ]
+    },
+    {
+      "english": "between",
+      "translation": "между",
+      "audio": [
+        "audio/between/1.wav"
+      ]
+    },
+    {
+      "english": "during",
+      "translation": "в течение",
+      "audio": [
+        "audio/during/1.wav"
+      ]
+    },
+    {
+      "english": "without",
+      "translation": "без",
+      "audio": [
+        "audio/without/1.wav"
+      ]
+    },
+    {
+      "english": "within",
+      "translation": "внутри",
+      "audio": [
+        "audio/within/1.wav"
+      ]
+    },
+    {
+      "english": "towards",
+      "translation": "по направлению к",
+      "audio": [
+        "audio/towards/1.wav"
+      ]
+    },
+    {
+      "english": "instead",
+      "translation": "вместо",
+      "audio": [
+        "audio/instead/1.wav"
+      ]
+    },
+    {
+      "english": "however",
+      "translation": "однако",
+      "audio": [
+        "audio/however/1.wav"
+      ]
+    },
+    {
+      "english": "therefore",
+      "translation": "поэтому",
+      "audio": [
+        "audio/therefore/1.wav"
+      ]
+    },
+    {
+      "english": "increase",
+      "translation": "увеличивать",
+      "audio": [
+        "audio/increase/1.wav"
+      ]
+    },
+    {
+      "english": "reduce",
+      "translation": "уменьшать",
+      "audio": [
+        "audio/reduce/1.wav"
+      ]
+    },
+    {
+      "english": "improve",
+      "translation": "улучшать",
+      "audio": [
+        "audio/improve/1.wav"
+      ]
+    },
+    {
+      "english": "develop",
+      "translation": "развивать",
+      "audio": [
+        "audio/develop/1.wav"
+      ]
+    },
+    {
+      "english": "manage",
+      "translation": "управлять",
+      "audio": [
+        "audio/manage/1.wav"
+      ]
+    },
+    {
+      "english": "support",
+      "translation": "поддерживать",
+      "audio": [
+        "audio/support/1.wav"
+      ]
+    },
+    {
+      "english": "consider",
+      "translation": "рассматривать",
+      "audio": [
+        "audio/consider/1.wav"
+      ]
+    },
+    {
+      "english": "decide",
+      "translation": "решать",
+      "audio": [
+        "audio/decide/1.wav"
+      ]
+    },
+    {
+      "english": "suggest",
+      "translation": "предлагать",
+      "audio": [
+        "audio/suggest/1.wav"
+      ]
+    },
+    {
+      "english": "avoid",
+      "translation": "избегать",
+      "audio": [
+        "audio/avoid/1.wav"
+      ]
+    },
+    {
+      "english": "result",
+      "translation": "результат",
+      "audio": [
+        "audio/result/1.wav"
+      ]
+    },
+    {
+      "english": "reason",
+      "translation": "причина",
+      "audio": [
+        "audio/reason/1.wav"
+      ]
+    },
+    {
+      "english": "effect",
+      "translation": "эффект",
+      "audio": [
+        "audio/effect/1.wav"
+      ]
+    },
+    {
+      "english": "choice",
+      "translation": "выбор",
+      "audio": [
+        "audio/choice/1.wav"
+      ]
+    },
+    {
+      "english": "experience",
+      "translation": "опыт",
+      "audio": [
+        "audio/experience/1.wav"
+      ]
+    },
+    {
+      "english": "opinion",
+      "translation": "мнение",
+      "audio": [
+        "audio/opinion/1.wav"
+      ]
+    },
+    {
+      "english": "difference",
+      "translation": "разница",
+      "audio": [
+        "audio/difference/1.wav"
+      ]
+    },
+    {
+      "english": "problem",
+      "translation": "проблема",
+      "audio": [
+        "audio/problem/1.wav"
+      ]
+    },
+    {
+      "english": "solution",
+      "translation": "решение",
+      "audio": [
+        "audio/solution/1.wav"
+      ]
+    },
+    {
+      "english": "opportunity",
+      "translation": "возможность",
+      "audio": [
+        "audio/opportunity/1.wav"
+      ]
+    },
+    {
+      "english": "successful",
+      "translation": "успешный",
+      "audio": [
+        "audio/successful/1.wav"
+      ]
+    },
+    {
+      "english": "available",
+      "translation": "доступный",
+      "audio": [
+        "audio/available/1.wav"
+      ]
+    },
+    {
+      "english": "common",
+      "translation": "распространённый",
+      "audio": [
+        "audio/common/1.wav"
+      ]
+    },
+    {
+      "english": "likely",
+      "translation": "вероятный",
+      "audio": [
+        "audio/likely/1.wav"
+      ]
+    },
+    {
+      "english": "important",
+      "translation": "важный",
+      "audio": [
+        "audio/important/1.wav"
+      ]
+    },
+    {
+      "english": "necessary",
+      "translation": "необходимый",
+      "audio": [
+        "audio/necessary/1.wav"
+      ]
+    },
+    {
+      "english": "possible",
+      "translation": "возможный",
+      "audio": [
+        "audio/possible/1.wav"
+      ]
+    },
+    {
+      "english": "private",
+      "translation": "частный",
+      "audio": [
+        "audio/private/1.wav"
+      ]
+    },
+    {
+      "english": "public",
+      "translation": "публичный",
+      "audio": [
+        "audio/public/1.wav"
+      ]
+    },
+    {
+      "english": "recent",
+      "translation": "недавний",
+      "audio": [
+        "audio/recent/1.wav"
+      ]
+    },
+    {
+      "english": "actually",
+      "translation": "на самом деле",
+      "audio": [
+        "audio/actually/1.wav"
+      ]
+    },
+    {
+      "english": "especially",
+      "translation": "особенно",
+      "audio": [
+        "audio/especially/1.wav"
+      ]
+    },
+    {
+      "english": "probably",
+      "translation": "вероятно",
+      "audio": [
+        "audio/probably/1.wav"
+      ]
+    },
+    {
+      "english": "generally",
+      "translation": "в целом",
+      "audio": [
+        "audio/generally/1.wav"
+      ]
+    },
+    {
+      "english": "clearly",
+      "translation": "ясно",
+      "audio": [
+        "audio/clearly/1.wav"
+      ]
+    },
+    {
+      "english": "finally",
+      "translation": "в конце концов",
+      "audio": [
+        "audio/finally/1.wav"
+      ]
+    },
+    {
+      "english": "suddenly",
+      "translation": "внезапно",
+      "audio": [
+        "audio/suddenly/1.wav"
+      ]
+    },
+    {
+      "english": "already",
+      "translation": "уже",
+      "audio": [
+        "audio/already/1.wav"
+      ]
+    },
+    {
+      "english": "nearly",
+      "translation": "почти",
+      "audio": [
+        "audio/nearly/1.wav"
+      ]
+    },
+    {
+      "english": "completely",
+      "translation": "полностью",
+      "audio": [
+        "audio/completely/1.wav"
+      ]
+    },
+    {
+      "english": "customer",
+      "translation": "клиент",
+      "audio": [
+        "audio/customer/1.wav"
+      ]
+    },
+    {
+      "english": "company",
+      "translation": "компания",
+      "audio": [
+        "audio/company/1.wav"
+      ]
+    },
+    {
+      "english": "employee",
+      "translation": "сотрудник",
+      "audio": [
+        "audio/employee/1.wav"
+      ]
+    },
+    {
+      "english": "manager",
+      "translation": "менеджер",
+      "audio": [
+        "audio/manager/1.wav"
+      ]
+    },
+    {
+      "english": "project",
+      "translation": "проект",
+      "audio": [
+        "audio/project/1.wav"
+      ]
+    },
+    {
+      "english": "meeting",
+      "translation": "встреча",
+      "audio": [
+        "audio/meeting/1.wav"
+      ]
+    },
+    {
+      "english": "agreement",
+      "translation": "соглашение",
+      "audio": [
+        "audio/agreement/1.wav"
+      ]
+    },
+    {
+      "english": "payment",
+      "translation": "платёж",
+      "audio": [
+        "audio/payment/1.wav"
+      ]
+    },
+    {
+      "english": "service",
+      "translation": "услуга",
+      "audio": [
+        "audio/service/1.wav"
+      ]
+    },
+    {
+      "english": "quality",
+      "translation": "качество",
+      "audio": [
+        "audio/quality/1.wav"
+      ]
+    }
+  ]
+}

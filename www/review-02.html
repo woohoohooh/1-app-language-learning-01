@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Read & Listen - Always Free English</title>
+    <!-- PWA мета-теги -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#121212">
+    <!-- Шрифты -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Nunito', Arial, sans-serif;
+            background-color: #121212;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #ffffff;
+            overflow: hidden;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .background-icon {
+            position: absolute;
+            font-size: 200px;
+            font-weight: 800;
+            color: rgba(255, 255, 255, 0.03);
+            z-index: 0;
+            pointer-events: none;
+            user-select: none;
+            opacity: 0.05;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .text-card {
+            position: absolute;
+            width: 90%;
+            max-width: 800px;
+            height: auto;
+            max-height: 70vh;
+            padding: 30px;
+            background-color: #1e1e1e;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            text-align: left;
+            overflow-y: auto;
+            z-index: 4;
+            border: 2px solid #333;
+            font-size: 22px;
+            line-height: 1.6;
+            color: #ffffff;
+            cursor: pointer;
+            word-break: break-word;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+        }
+        .text-card::-webkit-scrollbar {
+            width: 8px;
+        }
+        .text-card::-webkit-scrollbar-track {
+            background: #333;
+            border-radius: 4px;
+        }
+        .text-card::-webkit-scrollbar-thumb {
+            background: #4caf50;
+            border-radius: 4px;
+        }
+        .text-card span {
+            transition: color 0.3s ease;
+            white-space: pre-wrap;
+            position: relative;
+            display: inline-block;
+            padding: 2px 4px;
+            margin: 0 1px;
+            border-radius: 4px;
+        }
+        .text-card .current-word {
+            color: #4caf50;
+            font-weight: 700;
+        }
+        .text-card .word-spoken {
+            color: #888888;
+        }
+        .hint {
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
+            color: #666;
+            z-index: 2;
+            pointer-events: none;
+            padding: 0 20px;
+            box-sizing: border-box;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease;
+        }
+        .hint.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        .play-icon {
+            position: absolute;
+            bottom: 70px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(76, 175, 80, 0.2);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #4caf50;
+            font-size: 20px;
+            cursor: pointer;
+            z-index: 10;
+            border: 2px solid #4caf50;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        .play-icon.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        .play-icon:hover {
+            background-color: rgba(76, 175, 80, 0.3);
+        }
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: #ffffff;
+            z-index: 5;
+        }
+        .loader-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(18, 18, 18, 0.95);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        .loader-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        .loader-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid #333;
+            border-top: 4px solid #4caf50;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        /* Стили для мобильных */
+        @media (max-width: 768px) {
+            .text-card {
+                font-size: 18px;
+                padding: 20px;
+                max-height: 65vh;
+            }
+            .background-icon {
+                font-size: 150px;
+            }
+            .play-icon {
+                bottom: 80px;
+                right: 20px;
+                width: 45px;
+                height: 45px;
+            }
+        }
+        @media (max-width: 480px) {
+            .text-card {
+                font-size: 16px;
+                padding: 15px;
+            }
+            .hint {
+                font-size: 14px;
+                bottom: 20px;
+            }
+            .background-icon {
+                font-size: 120px;
+            }
+            .play-icon {
+                bottom: 60px;
+                width: 40px;
+                height: 40px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Фоновая иконка -->
+        <div class="background-icon">📖</div>
+
+        <!-- Оверлей загрузки -->
+        <div class="loader-overlay" id="loader-overlay">
+            <div class="loader-spinner"></div>
+        </div>
+
+        <!-- Карточка текста -->
+        <div id="text-card" class="text-card"></div>
+
+        <!-- Кнопка воспроизведения -->
+        <div class="play-icon" id="play-icon">▶</div>
+
+        <!-- Подсказка -->
+        <div class="hint" id="hint">Читайте или слушайте аудио</div>
+
+        <div class="loading" id="loading">Загрузка...</div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Элементы
+            const textCard = document.getElementById('text-card');
+            const playIcon = document.getElementById('play-icon');
+            const hint = document.getElementById('hint');
+            const loadingEl = document.getElementById('loading');
+            const loaderOverlay = document.getElementById('loader-overlay');
+
+            // Тексты для чтения
+            const texts = [
+                "The approach we take can define the outcome. We must consider every factor and assume nothing. The benefit of this strategy is to improve our process and maintain focus. Evidence shows that this will impact the result positively. We need to measure the risk and set priority. The overall vision should guide us through uncertainty.",
+                "In this context, the demand for resources is high. We must contribute effectively to meet the requirement. The pattern of variation tends to limit our options. Support is key to achieve the objective. The trade-off involves a tendency toward a certain trend. We estimate the scope and structure accordingly.",
+                "To support the value, we must limit uncertainty and focus on the role. The process involves a strategy to improve the outcome. We define the requirement and estimate the impact. The evidence shows a pattern in the trend. Overall, the priority is to maintain the vision through effective measures."
+            ];
+
+            // Переменные состояния
+            let currentTextIndex = 0;
+            let wordElements = [];
+            let currentWordIndex = -1;
+            let utterance = null;
+            let isPlaying = false;
+            let autoPlayEnabled = true; // Автовоспроизведение включено по умолчанию
+            let isUIHidden = true;
+
+            // Функция для получения качественного женского голоса
+            function getQualityVoice() {
+                const voices = speechSynthesis.getVoices();
+
+                // Предпочтительные голоса (женские, качественные)
+                const preferredVoices = [
+                    'Samantha', // macOS
+                    'Microsoft Zira Desktop', // Windows
+                    'Google US English', // Chrome
+                    'English (United States)',
+                    'en-us',
+                    'en-US'
+                ];
+
+                // Сначала ищем предпочтительные голоса
+                for (const name of preferredVoices) {
+                    const voice = voices.find(v =>
+                        v.name.includes(name) &&
+                        v.lang.includes('en')
+                    );
+                    if (voice) return voice;
+                }
+
+                // Затем ищем любой женский голос
+                const femaleVoice = voices.find(voice =>
+                    voice.lang.includes('en') &&
+                    (voice.name.toLowerCase().includes('female') ||
+                     voice.name.includes('Samantha') ||
+                     voice.name.includes('Zira'))
+                );
+
+                // Если не нашли, берем первый английский голос
+                return femaleVoice || voices.find(voice => voice.lang.includes('en')) || voices[0];
+            }
+
+            // Показать подсказку на 3 секунды
+            function showHint() {
+                hint.classList.add('visible');
+                setTimeout(() => {
+                    hint.classList.remove('visible');
+                }, 3000);
+            }
+
+            // Показать/скрыть UI
+            function toggleUI() {
+                isUIHidden = !isUIHidden;
+                if (isUIHidden) {
+                    hint.classList.remove('visible');
+                    playIcon.classList.remove('visible');
+                } else {
+                    hint.classList.add('visible');
+                    playIcon.classList.add('visible');
+                }
+            }
+
+            // Загрузка и отображение текста
+            function loadText(index) {
+                currentTextIndex = index % texts.length;
+                const text = texts[currentTextIndex];
+
+                // Разбиваем текст на слова
+                const words = text.split(/\s+/);
+                textCard.innerHTML = words.map((word, index) => {
+                    return `<span id="word-${index}">${word}</span>`;
+                }).join(' ');
+
+                wordElements = Array.from(textCard.querySelectorAll('span'));
+                resetWordHighlights();
+
+                // Если автовоспроизведение включено, запускаем аудио
+                if (autoPlayEnabled) {
+                    setTimeout(startSpeech, 500);
+                }
+            }
+
+            // Сброс подсветки слов
+            function resetWordHighlights() {
+                wordElements.forEach(span => {
+                    span.classList.remove('current-word', 'word-spoken');
+                });
+                currentWordIndex = -1;
+            }
+
+            // Обновление подсветки слов
+            function updateWordHighlights(index) {
+                // Отмечаем предыдущие слова как прочитанные
+                for (let i = 0; i < index; i++) {
+                    if (wordElements[i]) {
+                        wordElements[i].classList.remove('current-word');
+                        wordElements[i].classList.add('word-spoken');
+                    }
+                }
+
+                // Подсвечиваем текущее слово
+                if (wordElements[index]) {
+                    wordElements[index].classList.remove('word-spoken');
+                    wordElements[index].classList.add('current-word');
+
+                    // Прокручиваем к текущему слову
+                    const wordElement = wordElements[index];
+                    const container = textCard;
+                    const wordTop = wordElement.offsetTop;
+                    const containerHeight = container.clientHeight;
+                    const wordHeight = wordElement.offsetHeight;
+
+                    container.scrollTo({
+                        top: wordTop - containerHeight / 2 + wordHeight / 2,
+                        behavior: 'smooth'
+                    });
+                }
+            }
+
+            // Начать воспроизведение аудио
+            function startSpeech() {
+                if ('speechSynthesis' in window) {
+                    stopSpeech();
+
+                    utterance = new SpeechSynthesisUtterance(texts[currentTextIndex]);
+                    const qualityVoice = getQualityVoice();
+
+                    if (qualityVoice) {
+                        utterance.voice = qualityVoice;
+                    }
+
+                    utterance.lang = 'en-US';
+                    utterance.rate = 0.9; // Немного замедленно для лучшего восприятия
+                    utterance.pitch = 1.0;
+                    utterance.volume = 1;
+
+                    // Отслеживание произносимых слов
+                    let wordIndex = 0;
+                    utterance.onboundary = (event) => {
+                        if (event.name === 'word') {
+                            currentWordIndex = wordIndex;
+                            updateWordHighlights(currentWordIndex);
+
+                            // Переходим к следующему слову
+                            const words = texts[currentTextIndex].split(/\s+/);
+                            if (wordIndex < words.length - 1) {
+                                wordIndex++;
+                            }
+                        }
+                    };
+
+                    utterance.onend = () => {
+                        // Отмечаем все слова как прочитанные
+                        wordElements.forEach(span => {
+                            span.classList.remove('current-word');
+                            span.classList.add('word-spoken');
+                        });
+
+                        stopSpeech();
+
+                        // Переход к следующему тексту через 2 секунды
+                        setTimeout(() => {
+                            currentTextIndex = (currentTextIndex + 1) % texts.length;
+                            loadText(currentTextIndex);
+                        }, 2000);
+                    };
+
+                    utterance.onerror = (event) => {
+                        console.error('Speech synthesis error:', event);
+                        stopSpeech();
+                    };
+
+                    speechSynthesis.speak(utterance);
+                    isPlaying = true;
+                    playIcon.textContent = '■';
+                } else {
+                    alert('Text-to-speech not supported in this browser.');
+                }
+            }
+
+            // Пауза воспроизведения
+            function pauseSpeech() {
+                if (speechSynthesis.speaking) {
+                    speechSynthesis.pause();
+                    isPlaying = false;
+                    playIcon.textContent = '▶';
+                }
+            }
+
+            // Возобновить воспроизведение
+            function resumeSpeech() {
+                if (speechSynthesis.paused) {
+                    speechSynthesis.resume();
+                    isPlaying = true;
+                    playIcon.textContent = '■';
+                }
+            }
+
+            // Остановить воспроизведение
+            function stopSpeech() {
+                if (utterance) {
+                    speechSynthesis.cancel();
+                    utterance = null;
+                }
+                isPlaying = false;
+                playIcon.textContent = '▶';
+            }
+
+            // Переключить воспроизведение
+            function togglePlay() {
+                if (isPlaying) {
+                    if (speechSynthesis.paused) {
+                        resumeSpeech();
+                    } else {
+                        pauseSpeech();
+                    }
+                } else {
+                    startSpeech();
+                }
+            }
+
+            // Переключить автовоспроизведение
+            function toggleAutoPlay() {
+                autoPlayEnabled = !autoPlayEnabled;
+                if (!autoPlayEnabled) {
+                    stopSpeech();
+                }
+            }
+
+            // Инициализация
+            async function init() {
+                loadingEl.style.display = 'none';
+                textCard.style.display = 'block';
+
+                // Ждем загрузки голосов
+                let voicesLoaded = false;
+
+                function loadVoices() {
+                    if (speechSynthesis.getVoices().length > 0) {
+                        voicesLoaded = true;
+                        console.log('Voices loaded:', speechSynthesis.getVoices());
+                        loadText(0);
+                        showHint();
+                    }
+                }
+
+                if (speechSynthesis.getVoices().length > 0) {
+                    voicesLoaded = true;
+                    loadVoices();
+                } else {
+                    speechSynthesis.onvoiceschanged = loadVoices;
+                    // Таймаут на случай, если голоса не загрузятся
+                    setTimeout(() => {
+                        if (!voicesLoaded) {
+                            console.warn('Voices not loaded, using default');
+                            loadText(0);
+                            showHint();
+                        }
+                    }, 2000);
+                }
+            }
+
+            // Обработчики событий
+            textCard.addEventListener('click', (e) => {
+                if (e.target === textCard) {
+                    toggleAutoPlay();
+                    if (!autoPlayEnabled) {
+                        stopSpeech();
+                    }
+                }
+            });
+
+            playIcon.addEventListener('click', togglePlay);
+            playIcon.addEventListener('touchstart', (e) => {
+                e.preventDefault();
+                togglePlay();
+            });
+
+            // Тап по экрану показывает/скрывает UI
+            document.addEventListener('click', (e) => {
+                if (e.target === textCard || e.target === playIcon) return;
+                toggleUI();
+            });
+
+            document.addEventListener('keydown', (e) => {
+                if (e.code === 'Space') {
+                    e.preventDefault();
+                    togglePlay();
+                } else if (e.key === 'Escape') {
+                    toggleUI();
+                }
+            });
+
+            // Запуск инициализации
+            init();
+        });
+    </script>
+</body>
+</html>

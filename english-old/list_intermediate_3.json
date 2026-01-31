@@ -1,0 +1,492 @@
+{
+  "name": "Intermediate English",
+  "level": "Intermediate",
+  "theme": "General",
+  "filename": "english/list_intermediate_3.json",
+  "words": [
+    {
+      "english": "accept",
+      "translation": "принимать",
+      "audio": [
+        "audio/accept/1.wav"
+      ]
+    },
+    {
+      "english": "affect",
+      "translation": "влиять",
+      "audio": [
+        "audio/affect/1.wav"
+      ]
+    },
+    {
+      "english": "apply",
+      "translation": "применять",
+      "audio": [
+        "audio/apply/1.wav"
+      ]
+    },
+    {
+      "english": "argue",
+      "translation": "спорить",
+      "audio": [
+        "audio/argue/1.wav"
+      ]
+    },
+    {
+      "english": "assume",
+      "translation": "предполагать",
+      "audio": [
+        "audio/assume/1.wav"
+      ]
+    },
+    {
+      "english": "balance",
+      "translation": "баланс",
+      "audio": [
+        "audio/balance/1.wav"
+      ]
+    },
+    {
+      "english": "cancel",
+      "translation": "отменять",
+      "audio": [
+        "audio/cancel/1.wav"
+      ]
+    },
+    {
+      "english": "collect",
+      "translation": "собирать",
+      "audio": [
+        "audio/collect/1.wav"
+      ]
+    },
+    {
+      "english": "communicate",
+      "translation": "общаться",
+      "audio": [
+        "audio/communicate/1.wav"
+      ]
+    },
+    {
+      "english": "complain",
+      "translation": "жаловаться",
+      "audio": [
+        "audio/complain/1.wav"
+      ]
+    },
+    {
+      "english": "connect",
+      "translation": "соединять",
+      "audio": [
+        "audio/connect/1.wav"
+      ]
+    },
+    {
+      "english": "control",
+      "translation": "контролировать",
+      "audio": [
+        "audio/control/1.wav"
+      ]
+    },
+    {
+      "english": "create",
+      "translation": "создавать",
+      "audio": [
+        "audio/create/1.wav"
+      ]
+    },
+    {
+      "english": "damage",
+      "translation": "повреждать",
+      "audio": [
+        "audio/damage/1.wav"
+      ]
+    },
+    {
+      "english": "deliver",
+      "translation": "доставлять",
+      "audio": [
+        "audio/deliver/1.wav"
+      ]
+    },
+    {
+      "english": "demand",
+      "translation": "требовать",
+      "audio": [
+        "audio/demand/1.wav"
+      ]
+    },
+    {
+      "english": "discuss",
+      "translation": "обсуждать",
+      "audio": [
+        "audio/discuss/1.wav"
+      ]
+    },
+    {
+      "english": "encourage",
+      "translation": "поощрять",
+      "audio": [
+      ]
+    },
+    {
+      "english": "enter",
+      "translation": "входить",
+      "audio": [
+        "audio/enter/1.wav"
+      ]
+    },
+    {
+      "english": "establish",
+      "translation": "устанавливать",
+      "audio": [
+        "audio/establish/1.wav"
+      ]
+    },
+    {
+      "english": "estimate",
+      "translation": "оценивать",
+      "audio": [
+        "audio/estimate/1.wav"
+      ]
+    },
+    {
+      "english": "handle",
+      "translation": "справляться",
+      "audio": [
+        "audio/handle/1.wav"
+      ]
+    },
+    {
+      "english": "identify",
+      "translation": "определять",
+      "audio": [
+        "audio/identify/1.wav"
+      ]
+    },
+    {
+      "english": "ignore",
+      "translation": "игнорировать",
+      "audio": [
+        "audio/ignore/1.wav"
+      ]
+    },
+    {
+      "english": "inform",
+      "translation": "информировать",
+      "audio": [
+        "audio/inform/1.wav"
+      ]
+    },
+    {
+      "english": "insist",
+      "translation": "настаивать",
+      "audio": [
+        "audio/insist/1.wav"
+      ]
+    },
+    {
+      "english": "maintain",
+      "translation": "поддерживать",
+      "audio": [
+        "audio/maintain/1.wav"
+      ]
+    },
+    {
+      "english": "mention",
+      "translation": "упоминать",
+      "audio": [
+        "audio/mention/1.wav"
+      ]
+    },
+    {
+      "english": "miss",
+      "translation": "пропускать",
+      "audio": [
+        "audio/miss/1.wav"
+      ]
+    },
+    {
+      "english": "operate",
+      "translation": "управлять",
+      "audio": [
+        "audio/operate/1.wav"
+      ]
+    },
+    {
+      "english": "organize",
+      "translation": "организовывать",
+      "audio": [
+        "audio/organize/1.wav"
+      ]
+    },
+    {
+      "english": "persuade",
+      "translation": "убеждать",
+      "audio": [
+        "audio/persuade/1.wav"
+      ]
+    },
+    {
+      "english": "predict",
+      "translation": "предсказывать",
+      "audio": [
+      ]
+    },
+    {
+      "english": "prefer",
+      "translation": "предпочитать",
+      "audio": [
+        "audio/prefer/1.wav"
+      ]
+    },
+    {
+      "english": "promise",
+      "translation": "обещать",
+      "audio": [
+        "audio/promise/1.wav"
+      ]
+    },
+    {
+      "english": "protect",
+      "translation": "защищать",
+      "audio": [
+        "audio/protect/1.wav"
+      ]
+    },
+    {
+      "english": "prove",
+      "translation": "доказывать",
+      "audio": [
+      ]
+    },
+    {
+      "english": "publish",
+      "translation": "публиковать",
+      "audio": [
+        "audio/publish/1.wav"
+      ]
+    },
+    {
+      "english": "remove",
+      "translation": "удалять",
+      "audio": [
+        "audio/remove/1.wav"
+      ]
+    },
+    {
+      "english": "request",
+      "translation": "запрашивать",
+      "audio": [
+        "audio/request/1.wav"
+      ]
+    },
+    {
+      "english": "respect",
+      "translation": "уважение",
+      "audio": [
+        "audio/respect/1.wav"
+      ]
+    },
+    {
+      "english": "select",
+      "translation": "выбирать",
+      "audio": [
+        "audio/select/1.wav"
+      ]
+    },
+    {
+      "english": "share",
+      "translation": "делиться",
+      "audio": [
+        "audio/share/1.wav"
+      ]
+    },
+    {
+      "english": "solve",
+      "translation": "решать",
+      "audio": [
+        "audio/solve/1.wav"
+      ]
+    },
+    {
+      "english": "supply",
+      "translation": "поставлять",
+      "audio": [
+        "audio/supply/1.wav"
+      ]
+    },
+    {
+      "english": "trust",
+      "translation": "доверять",
+      "audio": [
+        "audio/trust/1.wav"
+      ]
+    },
+    {
+      "english": "warn",
+      "translation": "предупреждать",
+      "audio": [
+        "audio/warn/1.wav"
+      ]
+    },
+    {
+      "english": "waste",
+      "translation": "тратить впустую",
+      "audio": [
+        "audio/waste/1.wav"
+      ]
+    },
+    {
+      "english": "wonder",
+      "translation": "задаваться вопросом",
+      "audio": [
+        "audio/wonder/1.wav"
+      ]
+    },
+    {
+      "english": "adapt",
+      "translation": "адаптироваться",
+      "audio": [
+        "audio/adapt/1.wav"
+      ]
+    },
+    {
+      "english": "average",
+      "translation": "средний",
+      "audio": [
+      ]
+    },
+    {
+      "english": "brief",
+      "translation": "краткий",
+      "audio": [
+      ]
+    },
+    {
+      "english": "certain",
+      "translation": "определённый",
+      "audio": [
+        "audio/certain/1.wav"
+      ]
+    },
+    {
+      "english": "constant",
+      "translation": "постоянный",
+      "audio": [
+        "audio/constant/1.wav"
+      ]
+    },
+    {
+      "english": "current",
+      "translation": "текущий",
+      "audio": [
+        "audio/current/1.wav"
+      ]
+    },
+    {
+      "english": "equal",
+      "translation": "равный",
+      "audio": [
+        "audio/equal/1.wav"
+      ]
+    },
+    {
+      "english": "familiar",
+      "translation": "знакомый",
+      "audio": [
+        "audio/familiar/1.wav"
+      ]
+    },
+    {
+      "english": "formal",
+      "translation": "официальный",
+      "audio": [
+        "audio/formal/1.wav"
+      ]
+    },
+    {
+      "english": "regular",
+      "translation": "регулярный",
+      "audio": [
+        "audio/regular/1.wav"
+      ]
+    },
+    {
+      "english": "responsible",
+      "translation": "ответственный",
+      "audio": [
+        "audio/responsible/1.wav"
+      ]
+    },
+    {
+      "english": "simply",
+      "translation": "просто",
+      "audio": [
+        "audio/simply/1.wav"
+      ]
+    },
+    {
+      "english": "slightly",
+      "translation": "незначительно",
+      "audio": [
+        "audio/slightly/1.wav"
+      ]
+    },
+    {
+      "english": "rarely",
+      "translation": "редко",
+      "audio": [
+        "audio/rarely/1.wav"
+      ]
+    },
+    {
+      "english": "mostly",
+      "translation": "в основном",
+      "audio": [
+        "audio/mostly/1.wav"
+      ]
+    },
+    {
+      "english": "exactly",
+      "translation": "точно",
+      "audio": [
+        "audio/exactly/1.wav"
+      ]
+    },
+    {
+      "english": "forward",
+      "translation": "вперёд",
+      "audio": [
+        "audio/forward/1.wav"
+      ]
+    },
+    {
+      "english": "ahead",
+      "translation": "впереди",
+      "audio": [
+        "audio/ahead/1.wav"
+      ]
+    },
+    {
+      "english": "inside",
+      "translation": "внутри",
+      "audio": [
+        "audio/inside/1.wav"
+      ]
+    },
+    {
+      "english": "outside",
+      "translation": "снаружи",
+      "audio": [
+        "audio/outside/1.wav"
+      ]
+    },
+    {
+      "english": "overall",
+      "translation": "в целом",
+      "audio": [
+      ]
+    }
+  ]
+}

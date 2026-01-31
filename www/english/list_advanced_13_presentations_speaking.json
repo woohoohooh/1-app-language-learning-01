@@ -1,0 +1,49 @@
+{
+  "theme": "Презентации и выступления",
+  "level": "Advanced",
+  "name": "Words",
+  "filename": "english/list_advanced_13_presentations_speaking.json.json",
+  "words": [
+    { "english": "presentation", "translation": "презентация", "audio": ["audio/presentation.wav"] },
+    { "english": "speaker", "translation": "выступающий", "audio": ["audio/speaker.wav"] },
+    { "english": "audience", "translation": "аудитория", "audio": ["audio/audience.wav"] },
+    { "english": "speech", "translation": "выступление, речь", "audio": ["audio/speech.wav"] },
+    { "english": "talk", "translation": "доклад, выступление", "audio": ["audio/talk.wav"] },
+
+    { "english": "slide", "translation": "слайд", "audio": ["audio/slide.wav"] },
+    { "english": "deck", "translation": "презентация (набор слайдов)", "audio": ["audio/deck.wav"] },
+    { "english": "visuals", "translation": "визуальные материалы", "audio": ["audio/visuals.wav"] },
+    { "english": "chart", "translation": "график", "audio": ["audio/chart.wav"] },
+    { "english": "diagram", "translation": "диаграмма", "audio": ["audio/diagram.wav"] },
+
+    { "english": "structure", "translation": "структура", "audio": ["audio/structure.wav"] },
+    { "english": "outline", "translation": "план", "audio": ["audio/outline.wav"] },
+    { "english": "flow", "translation": "логичность, поток", "audio": ["audio/flow.wav"] },
+    { "english": "transition", "translation": "переход", "audio": ["audio/transition.wav"] },
+    { "english": "timing", "translation": "тайминг", "audio": ["audio/timing.wav"] },
+
+    { "english": "delivery", "translation": "подача", "audio": ["audio/delivery.wav"] },
+    { "english": "clarity", "translation": "ясность", "audio": ["audio/clarity.wav"] },
+    { "english": "confidence", "translation": "уверенность", "audio": ["audio/confidence.wav"] },
+    { "english": "engagement", "translation": "вовлечённость", "audio": ["audio/engagement.wav"] },
+    { "english": "impact", "translation": "впечатление, эффект", "audio": ["audio/impact.wav"] },
+
+    { "english": "key point", "translation": "ключевой пункт", "audio": ["audio/key_point.wav"] },
+    { "english": "takeaway", "translation": "основной вывод", "audio": ["audio/takeaway.wav"] },
+    { "english": "highlight", "translation": "выделение, акцент", "audio": ["audio/highlight.wav"] },
+    { "english": "example", "translation": "пример", "audio": ["audio/example.wav"] },
+    { "english": "comparison", "translation": "сравнение", "audio": ["audio/comparison.wav"] },
+
+    { "english": "demonstration", "translation": "демонстрация", "audio": ["audio/demonstration.wav"] },
+    { "english": "walkthrough", "translation": "пошаговый показ", "audio": ["audio/walkthrough.wav"] },
+    { "english": "demo", "translation": "демо", "audio": ["audio/demo.wav"] },
+    { "english": "pitch", "translation": "питч", "audio": ["audio/pitch.wav"] },
+    { "english": "proposal", "translation": "предложение", "audio": ["audio/proposal.wav"] },
+
+    { "english": "question", "translation": "вопрос", "audio": ["audio/question.wav"] },
+    { "english": "answer", "translation": "ответ", "audio": ["audio/answer.wav"] },
+    { "english": "discussion", "translation": "обсуждение", "audio": ["audio/discussion.wav"] },
+    { "english": "feedback", "translation": "обратная связь", "audio": ["audio/feedback.wav"] },
+    { "english": "reaction", "translation": "реакция", "audio": ["audio/reaction.wav"] }
+  ]
+}

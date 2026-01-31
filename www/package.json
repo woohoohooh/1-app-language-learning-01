@@ -1,0 +1,23 @@
+{
+  "name": "always-free-english",
+  "version": "1.0.0",
+  "description": "English learning app with flashcards",
+  "scripts": {
+    "build": "echo 'Building for production...'",
+    "generate-icons": "python generate_icons.py",
+    "optimize-images": "npx sharp-cli icon.png --resize 192 --output icon-192x192.png",
+    "serve": "npx http-server . -p 8080 -c-1",
+    "android": "npx cap copy android && npx cap open android",
+    "ios": "npx cap copy ios && npx cap open ios"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.0.0",
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/ios": "^5.0.0"
+  },
+  "capacitor": {
+    "appName": "Always Free English",
+    "appId": "com.alwaysfree.english",
+    "webDir": "."
+  }
+}

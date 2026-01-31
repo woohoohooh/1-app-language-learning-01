@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Review — variant 1004 (overlay translation, drag from anywhere)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        html,body{height:100%;margin:0;background:#121212;color:#fff;font-family:Nunito,Arial,sans-serif;overflow:hidden}
+        .center{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+        .token{font-size:56px;font-weight:800;color:#fff}
+        .overlay{position:fixed;bottom:18%;left:50%;transform:translateX(-50%);background:rgba(0,0,0,0.45);padding:12px 20px;border-radius:12px;color:#4caf50;font-weight:800;font-size:48px;opacity:0;transition:opacity .12s}
+    </style>
+</head>
+<body>
+    <div class="center"><div id="token" class="token">Loading...</div></div>
+    <div id="overlay" class="overlay"></div>
+    <script>
+    const params=new URLSearchParams(window.location.search); const listId=params.get('list'); const token=document.getElementById('token'); const overlay=document.getElementById('overlay');
+    async function fetchJson(p){try{const r=await fetch(p); if(!r.ok) return null; return await r.json();}catch(e){return null}}
+    let words=[], idx=0; async function load(){ const r=decodeURIComponent(listId||''); let l=await fetchJson(r)||await fetchJson(`english/${r}`); if(!l){ token.textContent='Error'; return;} words=l.words||[]; show(); }
+    function play(w){ try{ new Audio((w.audio&&w.audio[0])||`audio/${w.english.toLowerCase().replace(/[^a-z0-9]/g,'_')}.wav`).play().catch(()=>{});}catch(e){} }
+    function show(){ const w=words[idx]; token.textContent=w.english; overlay.textContent=''; overlay.style.opacity='0'; play(w); }
+    // drag from anywhere: on drag show overlay translation and follow draggable token
+    let active=false, sx=0, sy=0, lx=0, ly=0; const START=2, TH=40; let dragToken=null;
+    function down(e){ const p=(e.touches&&e.touches[0])||e; sx=p.clientX; sy=p.clientY; lx=sx; ly=sy; active=false; }
+    function mv(e){ if(sx==null) return; const p=(e.touches&&e.touches[0])||e; const dx=p.clientX-sx, dy=p.clientY-sy; lx=p.clientX; ly=p.clientY; if(!active && Math.max(Math.abs(dx),Math.abs(dy))>=START){ active=true; const w=words[idx]; overlay.textContent=w.translation||w.russian||''; overlay.style.opacity='1'; createDragToken(w.english); }
+        if(active && dragToken){ dragToken.style.left=`${lx}px`; dragToken.style.top=`${ly}px`; }
+    }
+    function up(e){ if(sx==null) return; if(!active){ sx=null; document.querySelector('.center').classList.toggle('hidden-ui'); return; } const dx=lx-sx, dy=ly-sy; if(Math.abs(dx)<TH && Math.abs(dy)<TH){ hideDragToken(); overlay.style.opacity='1'; sx=null; return; } fly(dx,dy); setTimeout(()=>{ idx++; if(idx>=words.length){ token.textContent='Done'; return;} hideDragToken(); show(); },320); sx=null; }
+    function createDragToken(text){ if(dragToken) return; dragToken=document.createElement('div'); dragToken.style.position='fixed'; dragToken.style.left=`${lx}px`; dragToken.style.top=`${ly}px`; dragToken.style.transform='translate(-50%,-50%)'; dragToken.style.fontSize='36px'; dragToken.style.fontWeight='800'; dragToken.style.color='#fff'; dragToken.style.pointerEvents='none'; dragToken.textContent=text; document.body.appendChild(dragToken); }
+    function hideDragToken(){ if(!dragToken) return; dragToken.remove(); dragToken=null; }
+    function fly(dx,dy){ if(!dragToken) return; dragToken.style.transition='transform .32s ease,opacity .22s'; const ox=(dx>0?1:-1)*(window.innerWidth+200); const oy=(dy>0?1:-1)*(window.innerHeight+200); dragToken.style.transform=`translate(${ox}px, ${oy}px)`; dragToken.style.opacity='0'; overlay.style.opacity='0'; }
+    window.addEventListener('mousedown',down); window.addEventListener('touchstart',down,{passive:false}); window.addEventListener('mousemove',mv); window.addEventListener('touchmove',mv,{passive:false}); window.addEventListener('mouseup',up); window.addEventListener('touchend',up);
+    load();
+    </script>
+</body>
+</html>

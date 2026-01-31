@@ -1,0 +1,64 @@
+{
+  "name": "Basic English",
+  "level": "Beginner",
+  "theme": "General",
+  "filename": "english/list_basic_2.json",
+  "words": [
+    {
+      "english": "цуаhello",
+      "translation": "уацпривет",
+      "audio": [
+        "audio/цуаhello/1.wav"
+      ]
+    },
+    {
+      "english": "уцаworld",
+      "translation": "уацмир",
+      "audio": [
+        "audio/уцаworld/1.wav"
+      ]
+    },
+    {
+      "english": "ауцapple",
+      "translation": "яауцблоко",
+      "audio": [
+        "audio/ауцapple/1.wav"
+      ]
+    },
+    {
+      "english": "ауцbook",
+      "translation": "кнцауига",
+      "audio": [
+        "audio/ауцbook/1.wav"
+      ]
+    },
+    {
+      "english": "ауцcat",
+      "translation": "кошауцка",
+      "audio": [
+        "audio/ауцcat/1.wav"
+      ]
+    },
+    {
+      "english": "ауhouse",
+      "translation": "доцам",
+      "audio": [
+        "audio/ауhouse/1.wav"
+      ]
+    },
+    {
+      "english": "ауцwater",
+      "translation": "воцауда",
+      "audio": [
+        "audio/ауцwater/1.wav"
+      ]
+    },
+    {
+      "english": "ауцfriend",
+      "translation": "дауцруг",
+      "audio": [
+        "audio/ауцfriend/1.wav"
+      ]
+    }
+  ]
+}

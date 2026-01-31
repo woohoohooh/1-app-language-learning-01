@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentence Builder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Nunito', Arial, sans-serif;
+            background-color: #121212;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #ffffff;
+            overflow: hidden;
+            touch-action: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+        }
+        .top-area {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 20%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+            z-index: 10;
+            opacity: 0;
+            transition: all 0.3s ease;
+            pointer-events: none;
+        }
+        .top-area:hover {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .back-button {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .back-icon {
+            font-size: 60px;
+            color: #2196f3;
+            font-weight: 900;
+            transition: all 0.3s ease;
+            filter: drop-shadow(0 0 12px rgba(33, 150, 243, 0.4));
+            opacity: 0.7;
+        }
+        .back-button:hover .back-icon {
+            opacity: 1;
+            transform: scale(1.15);
+            filter: drop-shadow(0 0 20px rgba(33, 150, 243, 0.7));
+        }
+        .progress-section {
+            text-align: right;
+            max-width: 400px;
+        }
+        .progress-info {
+            font-size: 24px;
+            font-weight: 700;
+            color: #4caf50;
+            margin-bottom: 8px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .progress-stats {
+            font-size: 20px;
+            font-weight: 600;
+            color: #bbbbbb;
+            display: flex;
+            gap: 15px;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 12px;
+            background-color: rgba(30, 30, 30, 0.8);
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+        .stat-known {
+            color: #4caf50;
+        }
+        .stat-review {
+            color: #ff9800;
+        }
+        .stat-new {
+            color: #2196f3;
+        }
+        .russian-sentence {
+            font-size: 26px;
+            color: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            max-width: 800px;
+            line-height: 1.6;
+            padding: 0 20px;
+            margin-bottom: 40px;
+        }
+        .english-sentence {
+            font-size: 28px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            max-width: 800px;
+            line-height: 1.6;
+            padding: 0 20px;
+            margin-bottom: 60px;
+        }
+        .word-gap {
+            display: inline-block;
+            min-width: 180px;
+            height: 70px;
+            background-color: rgba(76, 175, 80, 0.15);
+            border-radius: 12px;
+            border: 3px solid #4caf50;
+            margin: 0 8px;
+            vertical-align: middle;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        .word-gap.has-word {
+            background-color: rgba(76, 175, 80, 0.25);
+        }
+        .word-gap span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 28px;
+            font-weight: 800;
+            color: #4caf50;
+        }
+        .words-container {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            width: 100%;
+            max-width: 500px;
+            margin-top: 20px;
+        }
+        .word-option {
+            padding: 25px 30px;
+            font-size: 26px;
+            font-weight: 800;
+            background-color: #1e1e1e;
+            border: 3px solid #333;
+            border-radius: 15px;
+            color: #ffffff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            opacity: 1;
+            transform: scale(1);
+        }
+        .word-option:hover {
+            border-color: #4caf50;
+            transform: translateY(-3px);
+        }
+        .word-option.correct {
+            border-color: #4caf50;
+            background-color: rgba(76, 175, 80, 0.1);
+            animation: pulse 0.5s ease;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .word-option.removed {
+            opacity: 0;
+            transform: scale(0.8);
+            pointer-events: none;
+        }
+        .error-flash {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(244, 67, 54, 0.2);
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 5;
+        }
+        .error-flash.active {
+            opacity: 1;
+            animation: flash 0.5s ease;
+        }
+        @keyframes flash {
+            0% { opacity: 0; }
+            50% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+        .completion-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.5s ease;
+        }
+        .completion-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        .completion-title {
+            font-size: 36px;
+            font-weight: 800;
+            color: #4caf50;
+            margin-bottom: 20px;
+        }
+        .completion-stats {
+            font-size: 24px;
+            color: #bbbbbb;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .completion-button {
+            padding: 20px 40px;
+            font-size: 22px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 12px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .completion-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.5);
+        }
+        .loading {
+            font-size: 24px;
+            color: #bbbbbb;
+            text-align: center;
+            padding: 60px;
+        }
+        @media (max-width: 768px) {
+            .russian-sentence {
+                font-size: 22px;
+                margin-bottom: 30px;
+            }
+            .english-sentence {
+                font-size: 24px;
+                margin-bottom: 40px;
+            }
+            .word-gap {
+                min-width: 140px;
+                height: 60px;
+            }
+            .word-option {
+                padding: 20px 25px;
+                font-size: 22px;
+            }
+            .progress-info {
+                font-size: 20px;
+            }
+            .progress-stats {
+                font-size: 16px;
+                gap: 10px;
+            }
+        }
+        @media (max-width: 480px) {
+            .words-container {
+                gap: 20px;
+            }
+            .word-option {
+                padding: 18px 20px;
+                font-size: 20px;
+            }
+            .russian-sentence {
+                font-size: 20px;
+                margin-bottom: 25px;
+            }
+            .english-sentence {
+                font-size: 22px;
+                margin-bottom: 30px;
+            }
+            .word-gap {
+                min-width: 120px;
+                height: 50px;
+            }
+            .completion-title {
+                font-size: 28px;
+            }
+            .completion-stats {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-area">
+            <div class="back-button">
+                <div class="back-icon">←</div>
+            </div>
+            <div class="progress-section">
+                <div class="progress-info" id="progress-info">Loading...</div>
+                <div class="progress-stats" id="progress-stats"></div>
+            </div>
+        </div>
+
+        <div class="russian-sentence" id="russian-sentence"></div>
+
+        <div class="english-sentence" id="english-sentence"></div>
+
+        <div class="words-container" id="words-container"></div>
+
+        <div class="error-flash" id="error-flash"></div>
+
+        <div class="completion-overlay" id="completion-overlay">
+            <div class="completion-title">Excellent! 🎉</div>
+            <div class="completion-stats" id="completion-stats"></div>
+            <button class="completion-button" id="completion-button">Finish</button>
+        </div>
+
+        <div class="loading" id="loading">Loading sentences...</div>
+    </div>
+
+    <script>
+        // English sentences with gaps
+        const ENGLISH_SENTENCES = {
+            "approach": "We need to use a different <gap> to solve this problem.",
+            "assume": "You shouldn't <gap> anything without proof.",
+            "benefit": "The main <gap> of this method is obvious.",
+            "concern": "My main <gap> is the team's safety.",
+            "context": "In this <gap>, it makes perfect sense.",
+            "contribute": "Everyone can <gap> to the common cause.",
+            "consider": "We should <gap> alternative options.",
+            "define": "Let's clearly <gap> our objectives.",
+            "demand": "The <gap> exceeds the supply.",
+            "depend": "Success will <gap> on our actions.",
+            "effective": "This method is very <gap> in practice.",
+            "estimate": "It's hard to accurately <gap> completion time.",
+            "evidence": "There's no convincing <gap> for this claim.",
+            "expectation": "My <gap> were too high.",
+            "factor": "This is a key <gap> for success.",
+            "focus": "We need to <gap> on the main task.",
+            "impact": "This decision will have a big <gap>.",
+            "improve": "We constantly strive to <gap> processes.",
+            "issue": "The main <gap> remains unresolved.",
+            "limit": "There are certain <gap> to our capabilities.",
+            "maintain": "It's important to <gap> high quality.",
+            "measure": "How will we <gap> success?",
+            "objective": "Our main <gap> is the result.",
+            "outcome": "A positive <gap> is quite likely.",
+            "overall": "<gap>, the situation is improving.",
+            "pattern": "This is a typical <gap> of behavior.",
+            "priority": "This is our top <gap> now.",
+            "process": "The entire <gap> will take several days.",
+            "requirement": "The main <gap> is work experience.",
+            "resource": "We have enough <gap> for this.",
+            "result": "The final <gap> is impressive.",
+            "risk": "There's a certain <gap> of failure.",
+            "role": "Your <gap> is very important.",
+            "scope": "We expanded the <gap> of the project.",
+            "strategy": "We need a clear <gap> of action.",
+            "structure": "We changed the company's <gap>.",
+            "support": "I fully <gap> this idea.",
+            "tendency": "There's a positive <gap> noticeable.",
+            "trade-off": "We'll have to find a <gap>.",
+            "trend": "This is a general market <gap>.",
+            "uncertainty": "There's some <gap> in forecasts.",
+            "value": "I really <gap> this cooperation.",
+            "variation": "A small <gap> is acceptable.",
+            "vision": "We have a clear <gap> of the future.",
+            "workflow": "We optimized the <gap> of the process."
+        };
+
+        // Russian translations
+        const RUSSIAN_SENTENCES = {
+            "approach": "Нужно использовать другой подход для решения этой проблемы.",
+            "assume": "Не стоит ничего предполагать без доказательств.",
+            "benefit": "Основная выгода этого метода очевидна.",
+            "concern": "Моя главная забота - безопасность команды.",
+            "context": "В данном контексте это имеет полный смысл.",
+            "contribute": "Каждый может внести вклад в общее дело.",
+            "consider": "Следует рассмотреть альтернативные варианты.",
+            "define": "Давайте четко определим наши цели.",
+            "demand": "Спрос превышает предложение.",
+            "depend": "Успех будет зависеть от наших действий.",
+            "effective": "Этот метод очень эффективен на практике.",
+            "estimate": "Трудно точно оценить время завершения.",
+            "evidence": "Нет убедительных доказательств для этого утверждения.",
+            "expectation": "Мои ожидания были слишком высокими.",
+            "factor": "Это ключевой фактор успеха.",
+            "focus": "Нужно сосредоточиться на главной задаче.",
+            "impact": "Это решение окажет большое влияние.",
+            "improve": "Мы постоянно стремимся улучшать процессы.",
+            "issue": "Основной вопрос остается нерешенным.",
+            "limit": "Существуют определенные ограничения наших возможностей.",
+            "maintain": "Важно поддерживать высокое качество.",
+            "measure": "Как мы будем измерять успех?",
+            "objective": "Наша главная цель - результат.",
+            "outcome": "Позитивный исход вполне вероятен.",
+            "overall": "В целом, ситуация улучшается.",
+            "pattern": "Это типичная модель поведения.",
+            "priority": "Это наш главный приоритет сейчас.",
+            "process": "Весь процесс займет несколько дней.",
+            "requirement": "Основное требование - опыт работы.",
+            "resource": "У нас достаточно ресурсов для этого.",
+            "result": "Конечный результат впечатляет.",
+            "risk": "Существует определенный риск неудачи.",
+            "role": "Ваша роль очень важна.",
+            "scope": "Мы расширили рамки проекта.",
+            "strategy": "Нам нужна четкая стратегия действий.",
+            "structure": "Мы изменили структуру компании.",
+            "support": "Я полностью поддерживаю эту идею.",
+            "tendency": "Заметна положительная тенденция.",
+            "trade-off": "Придется искать компромисс.",
+            "trend": "Это общая тенденция рынка.",
+            "uncertainty": "Есть некоторая неопределенность в прогнозах.",
+            "value": "Я очень ценю это сотрудничество.",
+            "variation": "Небольшое изменение допустимо.",
+            "vision": "У нас есть четкое видение будущего.",
+            "workflow": "Мы оптимизировали рабочий процесс."
+        };
+
+        const WordDB = {
+            saveWordStatus(listId, english, status) {
+                const key = `word_${listId}_${english}`;
+                localStorage.setItem(key, status);
+            },
+            getWordStatus(listId, english) {
+                const key = `word_${listId}_${english}`;
+                return localStorage.getItem(key) || 'new';
+            },
+            updateListStatus(listData) {
+                if (!listData.words) return listData;
+                listData.words.forEach(word => {
+                    const status = this.getWordStatus(listData.filename, word.english);
+                    word.status = status;
+                });
+                return listData;
+            },
+            getWordsForReview(listData) {
+                const reviewedWords = [];
+                const newWords = [];
+                listData.words.forEach(word => {
+                    const status = this.getWordStatus(listData.filename, word.english);
+                    word.status = status;
+                    if (status === 'review') {
+                        reviewedWords.push(word);
+                    } else if (status === 'new') {
+                        newWords.push(word);
+                    }
+                });
+                return [...reviewedWords, ...newWords];
+            },
+            getListProgress(listId, totalWords) {
+                let known = 0;
+                let review = 0;
+                let newWords = totalWords;
+                const keys = Object.keys(localStorage);
+                keys.forEach(key => {
+                    if (key.startsWith(`word_${listId}_`)) {
+                        const status = localStorage.getItem(key);
+                        if (status === 'known') known++;
+                        if (status === 'review') review++;
+                    }
+                });
+                newWords = totalWords - known - review;
+                return { known, review, new: newWords };
+            }
+        };
+
+        class SentenceGame {
+            constructor(listId) {
+                this.listId = listId;
+                this.words = [];
+                this.sentences = [];
+                this.currentIndex = 0;
+                this.currentSentence = null;
+                this.options = [];
+                this.selectedWord = null;
+                this.totalSentences = 0;
+                this.completed = 0;
+                this.errors = 0;
+            }
+
+            async loadGame() {
+                try {
+                    const response = await fetch(this.listId);
+                    const data = await response.json();
+
+                    this.words = WordDB.getWordsForReview(data);
+                    if (this.words.length === 0) {
+                        throw new Error('No words to review');
+                    }
+
+                    this.prepareSentences();
+                    return true;
+                } catch (error) {
+                    console.error('Error loading game:', error);
+                    return false;
+                }
+            }
+
+            prepareSentences() {
+                this.sentences = [];
+                const usedWords = new Set();
+
+                this.words.forEach(word => {
+                    if (usedWords.has(word.english)) return;
+
+                    const englishSentence = ENGLISH_SENTENCES[word.english] ||
+                        `This is a good example of using the word <gap>.`;
+
+                    const russianSentence = RUSSIAN_SENTENCES[word.english] ||
+                        `Это хороший пример использования слова.`;
+
+                    this.sentences.push({
+                        english: englishSentence,
+                        russian: russianSentence,
+                        targetWord: word
+                    });
+
+                    usedWords.add(word.english);
+                });
+
+                this.totalSentences = Math.min(this.sentences.length, 15);
+                this.sentences = this.sentences.slice(0, this.totalSentences);
+                this.shuffleArray(this.sentences);
+            }
+
+            getCurrentSentence() {
+                if (this.currentIndex >= this.totalSentences) {
+                    return null;
+                }
+
+                this.currentSentence = this.sentences[this.currentIndex];
+                this.prepareOptions();
+                this.selectedWord = null;
+                return this.currentSentence;
+            }
+
+            prepareOptions() {
+                const correctWord = this.currentSentence.targetWord;
+                const otherWords = this.words.filter(w =>
+                    w.english !== correctWord.english
+                );
+
+                this.shuffleArray(otherWords);
+                const wrongWords = otherWords.slice(0, 2);
+
+                this.options = [correctWord, ...wrongWords];
+                this.shuffleArray(this.options);
+            }
+
+            selectWord(word) {
+                this.selectedWord = word;
+                return word.english === this.currentSentence.targetWord.english;
+            }
+
+            checkAnswer() {
+                const isCorrect = this.selectedWord &&
+                    this.selectedWord.english === this.currentSentence.targetWord.english;
+
+                if (isCorrect) {
+                    this.completed++;
+                    return true;
+                } else {
+                    this.errors++;
+                    return false;
+                }
+            }
+
+            completeCurrent() {
+                const targetWord = this.currentSentence.targetWord;
+                let status = 'new';
+
+                if (this.errors === 0) {
+                    status = 'known';
+                } else if (this.errors <= 2) {
+                    status = 'review';
+                }
+
+                WordDB.saveWordStatus(this.listId, targetWord.english, status);
+                this.errors = 0;
+                this.currentIndex++;
+            }
+
+            getProgress() {
+                return {
+                    current: this.currentIndex + 1,
+                    total: this.totalSentences,
+                    completed: this.completed,
+                    remaining: this.totalSentences - this.currentIndex
+                };
+            }
+
+            playAudio() {
+                const word = this.currentSentence.targetWord;
+
+                if (word.audio && word.audio.length > 0) {
+                    const audio = new Audio(word.audio[0]);
+                    audio.play().catch(e => console.log('Audio play failed:', e));
+                } else {
+                    this.speakText(this.currentSentence.english.replace('<gap>', word.english));
+                }
+            }
+
+            speakText(text) {
+                if ('speechSynthesis' in window) {
+                    // Cancel any ongoing speech
+                    speechSynthesis.cancel();
+
+                    const utterance = new SpeechSynthesisUtterance(text);
+                    utterance.lang = 'en-US';
+                    utterance.rate = 0.9;
+
+                    // Try to find a female voice
+                    const voices = speechSynthesis.getVoices();
+                    let femaleVoice = null;
+
+                    // First try to find specific female voices
+                    const femaleVoiceNames = [
+                        'Samantha', 'Karen', 'Tessa', 'Susan', 'Allison',
+                        'Serena', 'Ava', 'Zoe', 'Female', 'Woman'
+                    ];
+
+                    for (const voiceName of femaleVoiceNames) {
+                        femaleVoice = voices.find(voice =>
+                            voice.name.includes(voiceName)
+                        );
+                        if (femaleVoice) break;
+                    }
+
+                    // If no specific female voice found, try any female-sounding voice
+                    if (!femaleVoice) {
+                        femaleVoice = voices.find(voice =>
+                            voice.name.toLowerCase().includes('female') ||
+                            voice.name.toLowerCase().includes('woman')
+                        );
+                    }
+
+                    if (femaleVoice) {
+                        utterance.voice = femaleVoice;
+                    }
+
+                    utterance.onstart = () => {
+                        console.log('Speech started');
+                    };
+
+                    utterance.onend = () => {
+                        console.log('Speech ended');
+                    };
+
+                    utterance.onerror = (event) => {
+                        console.log('Speech error:', event);
+                    };
+
+                    // Wait a bit for voices to load if needed
+                    if (speechSynthesis.getVoices().length === 0) {
+                        speechSynthesis.addEventListener('voiceschanged', () => {
+                            speechSynthesis.speak(utterance);
+                        });
+                    } else {
+                        speechSynthesis.speak(utterance);
+                    }
+                }
+            }
+
+            shuffleArray(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+        }
+
+        class GameUI {
+            constructor() {
+                this.game = null;
+                this.russianSentence = document.getElementById('russian-sentence');
+                this.englishSentence = document.getElementById('english-sentence');
+                this.wordsContainer = document.getElementById('words-container');
+                this.progressInfo = document.getElementById('progress-info');
+                this.progressStats = document.getElementById('progress-stats');
+                this.errorFlash = document.getElementById('error-flash');
+                this.completionOverlay = document.getElementById('completion-overlay');
+                this.completionStats = document.getElementById('completion-stats');
+                this.backButton = document.querySelector('.back-button');
+                this.completionButton = document.getElementById('completion-button');
+                this.loading = document.getElementById('loading');
+
+                this.bindEvents();
+            }
+
+            async init() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const listId = urlParams.get('list');
+
+
+                this.game = new SentenceGame(listId);
+                const loaded = await this.game.loadGame();
+
+                if (!loaded) {
+                    this.showError();
+                    return;
+                }
+
+                this.loading.style.display = 'none';
+                this.startGame();
+            }
+
+            startGame() {
+                if (!this.game.getCurrentSentence()) {
+                    this.showCompletion();
+                    return;
+                }
+
+                this.updateUI();
+            }
+
+            updateUI() {
+                this.updateProgress();
+                this.updateSentences();
+                this.updateOptions();
+            }
+
+            updateProgress() {
+                const progress = this.game.getProgress();
+                this.progressInfo.textContent =
+                    `${progress.current}/${progress.total} (${progress.remaining} left)`;
+            }
+
+            updateSentences() {
+                // Russian sentence
+                this.russianSentence.textContent = this.game.currentSentence.russian;
+
+                // English sentence with gap
+                const englishText = this.game.currentSentence.english;
+                const parts = englishText.split('<gap>');
+
+                // If word is selected, show it in the gap
+                const gapContent = this.game.selectedWord ?
+                    `<span>${this.game.selectedWord.english}</span>` : '';
+
+                const gapClass = this.game.selectedWord ? 'word-gap has-word' : 'word-gap';
+
+                this.englishSentence.innerHTML = `
+                    ${parts[0]}
+                    <div class="${gapClass}">${gapContent}</div>
+                    ${parts[1]}
+                `;
+            }
+
+            updateOptions() {
+                this.wordsContainer.innerHTML = '';
+
+                this.game.options.forEach((word, index) => {
+                    // Skip the word if it's already selected
+                    if (this.game.selectedWord && word.english === this.game.selectedWord.english) {
+                        return;
+                    }
+
+                    const option = document.createElement('div');
+                    option.className = 'word-option';
+                    option.textContent = word.english;
+                    option.dataset.index = index;
+
+                    option.addEventListener('click', () => this.onOptionClick(word));
+
+                    this.wordsContainer.appendChild(option);
+                });
+            }
+
+            onOptionClick(word) {
+                // Select the word
+                const isCorrect = this.game.selectWord(word);
+
+                // Update display
+                this.updateSentences();
+                this.updateOptions();
+
+                if (isCorrect) {
+                    // Highlight correct word briefly
+                    const options = this.wordsContainer.querySelectorAll('.word-option');
+                    options.forEach(opt => {
+                        if (opt.textContent === word.english) {
+                            opt.classList.add('correct');
+                        }
+                    });
+
+                    // Check answer
+                    this.game.checkAnswer();
+
+                    // Play audio
+                    this.game.playAudio();
+
+                    // Complete current sentence and move to next after delay
+                    setTimeout(() => {
+                        this.game.completeCurrent();
+
+                        if (this.game.getCurrentSentence()) {
+                            this.startGame();
+                        } else {
+                            this.showCompletion();
+                        }
+                    }, 1500);
+                } else {
+                    // Show error flash
+                    this.errorFlash.classList.add('active');
+                    setTimeout(() => {
+                        this.errorFlash.classList.remove('active');
+                    }, 500);
+
+                    // Remove incorrect option
+                    const options = this.wordsContainer.querySelectorAll('.word-option');
+                    options.forEach(opt => {
+                        if (opt.textContent === word.english) {
+                            opt.classList.add('removed');
+                            setTimeout(() => {
+                                opt.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+
+                    // Check answer (counts error)
+                    this.game.checkAnswer();
+
+                    // Reset selection
+                    this.game.selectedWord = null;
+                    setTimeout(() => {
+                        this.updateSentences();
+                    }, 300);
+                }
+            }
+
+            showCompletion() {
+                const progress = this.game.getProgress();
+                const accuracy = progress.total > 0 ?
+                    Math.round((progress.completed / progress.total) * 100) : 0;
+
+                this.completionStats.innerHTML = `
+                    Completed: ${progress.completed}/${progress.total}<br>
+                    Accuracy: ${accuracy}%
+                `;
+
+                this.completionOverlay.classList.add('active');
+            }
+
+            showError() {
+                this.loading.innerHTML = `
+                    <div style="margin-bottom: 20px;">⚠️</div>
+                    <div>No words to review</div>
+                    <button onclick="window.location.href='index.html'"
+                            style="margin-top: 20px; padding: 12px 24px; background: #4caf50;
+                                   color: white; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
+                        Back to Lists
+                    </button>
+                `;
+            }
+
+            bindEvents() {
+                this.backButton.addEventListener('click', () => {
+                    window.location.href = 'index.html';
+                });
+
+                this.completionButton.addEventListener('click', () => {
+                    window.location.href = 'index.html';
+                });
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const gameUI = new GameUI();
+            gameUI.init();
+        });
+    </script>
+</body>
+</html>

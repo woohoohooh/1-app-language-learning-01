@@ -1,0 +1,740 @@
+============================================================
+ДЕТАЛЬНЫЙ ОТЧЕТ О ПРОВЕРКЕ АУДИОФАЙЛОВ
+============================================================
+
+ОБЩАЯ СТАТИСТИКА:
+- Всего слов в JSON файлах: 1571
+- Слов с audio ссылками: 1571
+- Слов без audio ссылок: 0
+- Всего .wav файлов в папке audio: 1147
+
+РЕЗУЛЬТАТЫ ПРОВЕРКИ:
+1. Строгая проверка (точное имя файла): 815 слов
+2. Средняя строгость (нет аудио): 0 слов
+3. Мягкая проверка (нет всех аудио): 815 слов
+
+============================================================
+СЛОВА БЕЗ АУДИО (строгая проверка):
+============================================================
+1. A/B testing
+2. API
+3. April
+4. August
+5. CV
+6. DIY
+7. December
+8. February
+9. Friday
+10. January
+11. July
+12. June
+13. March
+14. May
+15. Monday
+16. November
+17. October
+18. ROI
+19. SSD
+20. Saturday
+21. September
+22. Sunday
+23. Thursday
+24. Tuesday
+25. USB cable
+26. UX
+27. Wednesday
+28. Wi-Fi
+29. about
+30. accelerator
+31. activity
+32. acute
+33. ad creative
+34. adult
+35. adventure
+36. advertising
+37. afraid
+38. airport
+39. algorithm
+40. allergy
+41. always
+42. ambulance
+43. analysis
+44. analytics
+45. angry
+46. apartment
+47. apple
+48. application
+49. approximately
+50. architecture
+51. arrangement
+52. article
+53. assistance
+54. audience
+55. audiobook
+56. aunt
+57. authentication
+58. baby
+59. backend
+60. backlog
+61. backup
+62. bad
+63. balcony
+64. banana
+65. bank
+66. basket
+67. bathroom
+68. battery
+69. bear market
+70. bed
+71. bedroom
+72. before
+73. bicycle
+74. big
+75. bike
+76. blog
+77. bluetooth
+78. boy
+79. brand
+80. brand identity
+81. branding
+82. breach
+83. bread
+84. breakfast
+85. breaking news
+86. bridge
+87. broadcast
+88. brother
+89. browser
+90. bug
+91. building
+92. built-in
+93. bull market
+94. bus stop
+95. business model
+96. butter
+97. buy
+98. cafe
+99. cake
+100. calendar
+101. calories
+102. campaign
+103. camping
+104. capital
+105. car rental
+106. card
+107. carry-on
+108. cart
+109. cash flow
+110. cashier
+111. ceiling
+112. certificate
+113. chair
+114. challenge
+115. channel
+116. charger
+117. chat
+118. cheap
+119. check-in
+120. check-out
+121. checkup
+122. cheese
+123. chest
+124. chicken
+125. child
+126. children
+127. chocolate
+128. chronic
+129. cinema
+130. classmate
+131. clause
+132. clean
+133. clinic
+134. clock
+135. closed
+136. closing
+137. cloud
+138. cloud storage
+139. cloudy
+140. coach
+141. code
+142. code review
+143. codebase
+144. coffee
+145. cofounder
+146. coin
+147. cold
+148. color
+149. comment
+150. compatibility
+151. compensation
+152. competition
+153. competitor
+154. completion
+155. component
+156. computer
+157. concept
+158. concert
+159. concession
+160. conference
+161. confident
+162. confidentiality
+163. consensus
+164. console
+165. constraint
+166. consultation
+167. content marketing
+168. conversion
+169. conversion rate
+170. cook
+171. cookie
+172. cool
+173. cool-down
+174. coordination
+175. copyright
+176. copywriting
+177. correction
+178. counteroffer
+179. counterparty
+180. couple
+181. course
+182. court
+183. cousin
+184. coverage
+185. craft
+186. crash
+187. creative
+188. credit
+189. credit card
+190. crossroad
+191. cryptocurrency
+192. cycling
+193. dad
+194. data
+195. database
+196. daughter
+197. debate
+198. debit card
+199. debt
+200. debugging
+201. decentralization
+202. deck
+203. default
+204. degree
+205. deployment
+206. deposit
+207. desktop
+208. dessert
+209. device
+210. diagnosis
+211. different
+212. digital
+213. digital marketing
+214. digital product
+215. dinner
+216. dirty
+217. disclosure
+218. discount
+219. display
+220. dispute
+221. diversification
+222. diversity
+223. doctor
+224. door
+225. dosage
+226. download
+227. drink
+228. duty
+229. easy
+230. economy
+231. editing
+232. editor
+233. education
+234. egg
+235. email
+236. email marketing
+237. employer
+238. encryption
+239. end user
+240. endpoint
+241. endurance
+242. entrance
+243. entrepreneur
+244. environment
+245. episode
+246. equipment
+247. equity
+248. estimation
+249. evening
+250. exam
+251. exchange rate
+252. excited
+253. execution
+254. exercise
+255. expansion
+256. expensive
+257. experiment
+258. expertise
+259. expiration
+260. exploration
+261. exposure
+262. external
+263. face
+264. family
+265. father
+266. field
+267. file
+268. find
+269. finger
+270. fish
+271. fitness
+272. fix
+273. flexibility
+274. floor
+275. follow-up
+276. follower
+277. following
+278. food
+279. foot
+280. foreign currency
+281. forest
+282. founder
+283. framework
+284. free time
+285. freedom
+286. freelance
+287. fridge
+288. frontend
+289. fruit
+290. full-stack
+291. full-time
+292. funds
+293. funnel
+294. future
+295. gadget
+296. game
+297. gaming
+298. gender
+299. generation
+300. genre
+301. girl
+302. grandfather
+303. grandmother
+304. grandparent
+305. gym
+306. hair
+307. hall
+308. handover
+309. happy
+310. hard drive
+311. hardware
+312. hash
+313. have
+314. headline
+315. headphones
+316. healthcare
+317. hear
+318. heart rate
+319. hedging
+320. hiking
+321. hobby
+322. home
+323. homework
+324. hospital
+325. hospitalization
+326. hostel
+327. hot
+328. hotel
+329. house
+330. hungry
+331. hurt
+332. husband
+333. hybrid
+334. identity
+335. incident
+336. income
+337. incubator
+338. index
+339. industry
+340. infection
+341. inflammation
+342. injury
+343. instructor
+344. integration
+345. integration test
+346. intellectual property
+347. interface
+348. internet
+349. iteration
+350. jogging
+351. journalist
+352. journey
+353. judge
+354. juice
+355. kettle
+356. keyboard
+357. kitchen
+358. knee
+359. knowledge
+360. lake
+361. lamp
+362. laptop
+363. law
+364. lawsuit
+365. layer
+366. layout
+367. lead
+368. lead generation
+369. leadership
+370. leak
+371. lecture
+372. ledger
+373. legal
+374. legislation
+375. leisure
+376. lesson
+377. library
+378. lifestyle
+379. link
+380. living room
+381. loan
+382. login
+383. lunch
+384. maintenance
+385. malware
+386. margin
+387. market
+388. market segment
+389. marketing
+390. marketing campaign
+391. marketing channel
+392. marketplace
+393. marriage
+394. married
+395. match
+396. material
+397. meal
+398. meat
+399. medical
+400. medication
+401. medicine
+402. mental health
+403. mentor
+404. message
+405. method
+406. metrics
+407. microphone
+408. microwave
+409. milestone
+410. milk
+411. miner
+412. mining
+413. mirror
+414. mobile banking
+415. mockup
+416. moderation
+417. monitor
+418. month
+419. mortgage
+420. mother
+421. mountain
+422. mouse
+423. mouth
+424. movement
+425. movie
+426. multiplayer
+427. museum
+428. music
+429. name
+430. nature
+431. need
+432. negotiator
+433. neighbor
+434. never
+435. new
+436. news
+437. node
+438. non-fungible token
+439. nose
+440. notification
+441. objection
+442. occupation
+443. offer
+444. office
+445. offline
+446. often
+447. okay
+448. onion
+449. online
+450. online advertising
+451. online banking
+452. online course
+453. only
+454. operating system
+455. orange
+456. organic traffic
+457. organization
+458. outlet
+459. outlook
+460. oven
+461. overall
+462. overlap
+463. package
+464. paid traffic
+465. pain
+466. parent
+467. part-time
+468. party
+469. password
+470. pasta
+471. penalty
+472. people
+473. pharmacy
+474. photography
+475. pipeline
+476. pitch
+477. pivot
+478. playlist
+479. podcast
+480. police
+481. portable
+482. portfolio
+483. post
+484. post office
+485. potato
+486. power cable
+487. practice
+488. prescription
+489. presentation
+490. price
+491. pricing
+492. printer
+493. prioritization
+494. procedure
+495. processor
+496. product team
+497. production
+498. profile
+499. program
+500. programming
+501. proof
+502. proof of stake
+503. proof of work
+504. prospect
+505. protocol
+506. prototype
+507. provider
+508. provision
+509. query
+510. quit
+511. quota
+512. quote
+513. rainy
+514. reading
+515. really
+516. referral
+517. relative
+518. relocation
+519. remote
+520. reply
+521. repository
+522. repost
+523. restaurant
+524. resume
+525. return
+526. rice
+527. right
+528. rights
+529. roadmap
+530. role
+531. rumor
+532. running
+533. sale
+534. sales
+535. salt
+536. same
+537. sauce
+538. scaling
+539. scanner
+540. scared
+541. schema
+542. school
+543. screen
+544. search engine
+545. second
+546. seed phrase
+547. self-esteem
+548. sell
+549. seller
+550. selling
+551. sentiment
+552. series
+553. server
+554. settings
+555. settlement
+556. she
+557. shelf
+558. shop
+559. shoulder
+560. sick
+561. similar
+562. sister
+563. sky
+564. sleep
+565. smartphone
+566. snow
+567. snowy
+568. social media
+569. sofa
+570. software
+571. sometimes
+572. soup
+573. source code
+574. speaker
+575. specialist
+576. spreadsheet
+577. square
+578. staff
+579. stage
+580. staging
+581. staking
+582. startup
+583. statement
+584. status
+585. steps
+586. stock
+587. stomach
+588. stop
+589. storage
+590. store
+591. story
+592. stove
+593. streaming
+594. street
+595. stretching
+596. student
+597. study
+598. subscribe
+599. subscription
+600. subway
+601. sugar
+602. sunny
+603. supermarket
+604. surgery
+605. surprised
+606. sweet
+607. swimming
+608. symptom
+609. sync
+610. tablet
+611. target audience
+612. taste
+613. teacher
+614. team
+615. teammate
+616. technology
+617. tell
+618. tendency
+619. testing
+620. theater
+621. therapy
+622. they
+623. thinking
+624. time zone
+625. timeline
+626. timestamp
+627. tired
+628. today
+629. token
+630. tomato
+631. tomorrow
+632. tooth
+633. topic
+634. touchpad
+635. touchpoint
+636. touchscreen
+637. tournament
+638. town
+639. tracker
+640. trade-off
+641. trademark
+642. tradition
+643. transportation
+644. trash
+645. traveling
+646. treadmill
+647. treatment
+648. tree
+649. uncle
+650. unique selling point
+651. unit test
+652. university
+653. unsubscribe
+654. upload
+655. usability
+656. user
+657. user flow
+658. user needs
+659. user testing
+660. username
+661. validation
+662. variable
+663. variation
+664. vegetable
+665. verification
+666. version
+667. very
+668. video call
+669. violation
+670. viral
+671. virtual
+672. virus
+673. visual
+674. volatility
+675. wage
+676. wake up
+677. walk
+678. wall
+679. wallet
+680. want
+681. wardrobe
+682. warm
+683. warm-up
+684. wash
+685. washing machine
+686. water
+687. weather
+688. web page
+689. webcam
+690. website
+691. wedding
+692. week
+693. weekday
+694. weekend
+695. weights
+696. well-being
+697. when
+698. where
+699. who
+700. why
+701. wife
+702. windy
+703. wireframe
+704. wireless
+705. woman
+706. workout
+707. workplace
+708. world
+709. worried
+710. writing
+711. wrong
+712. year
+713. yesterday
+714. yield
+715. yield farming
+716. yoga
+
+Всего: 716 уникальных слов
+
+============================================================
+ПРИМЕРЫ ПРОБЛЕМНЫХ СЛОВ (первые 20):
+============================================================

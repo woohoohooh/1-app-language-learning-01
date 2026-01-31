@@ -1,0 +1,1835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Review Words - Always Free English</title>
+    <!-- PWA мета-теги -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#121212">
+    <!-- Шрифты -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Nunito', Arial, sans-serif;
+            background-color: #121212;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            touch-action: none;
+            color: #ffffff;
+            overflow: hidden;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        /* ЭФФЕКТНЫЙ ФОН С ГРАДИЕНТОМ И ЧАСТИЦАМИ */
+        .background-effects {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        /* Анимированный фон градиента */
+        .animated-background {
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            top: -50%;
+            left: -50%;
+            background:
+                radial-gradient(circle at 20% 30%, rgba(76, 175, 80, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(255, 152, 0, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, rgba(33, 150, 243, 0.03) 0%, transparent 50%);
+            animation: gradientFloat 20s ease-in-out infinite;
+        }
+
+        /* Частицы для фона */
+        .particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .particle {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 50%;
+            animation: particleFloat 15s infinite linear;
+        }
+
+        /* Зоны с эффектом свечения */
+        .zone-glow {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            filter: blur(60px);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .zone-left {
+            left: 15%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background: radial-gradient(circle, rgba(76, 175, 80, 0.3) 0%, rgba(76, 175, 80, 0) 70%);
+        }
+
+        .zone-right {
+            right: 15%;
+            top: 50%;
+            transform: translate(50%, -50%);
+            background: radial-gradient(circle, rgba(255, 152, 0, 0.3) 0%, rgba(255, 152, 0, 0) 70%);
+        }
+
+        .zone-top {
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: radial-gradient(circle, rgba(76, 175, 80, 0.3) 0%, rgba(76, 175, 80, 0) 70%);
+        }
+
+        .zone-bottom {
+            bottom: 25%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            background: radial-gradient(circle, rgba(255, 152, 0, 0.3) 0%, rgba(255, 152, 0, 0) 70%);
+        }
+
+        /* Контейнер для плавного фона */
+        .background-gradient {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .gradient-overlay {
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            top: -50%;
+            left: -50%;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+            filter: blur(40px);
+        }
+
+        .gradient-known {
+            background: radial-gradient(circle at center,
+                rgba(76, 175, 80, 0.15) 0%,
+                rgba(76, 175, 80, 0.3) 30%,
+                rgba(76, 175, 80, 0.4) 50%,
+                rgba(76, 175, 80, 0.5) 70%,
+                rgba(76, 175, 80, 0.6) 100%);
+        }
+
+        .gradient-review {
+            background: radial-gradient(circle at center,
+                rgba(255, 152, 0, 0.15) 0%,
+                rgba(255, 152, 0, 0.3) 30%,
+                rgba(255, 152, 0, 0.4) 50%,
+                rgba(255, 152, 0, 0.5) 70%,
+                rgba(255, 152, 0, 0.6) 100%);
+        }
+
+        /* Горизонтальные зоны для ПК */
+        .horizontal-left-overlay, .horizontal-right-overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .horizontal-left-overlay {
+            left: 0;
+            justify-content: center;
+        }
+
+        .horizontal-right-overlay {
+            right: 0;
+            justify-content: center;
+        }
+
+        /* Вертикальные зоны для мобильных */
+        .vertical-top-overlay, .vertical-bottom-overlay {
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 100%;
+            display: none;
+            align-items: center;
+            background-color: transparent;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .vertical-top-overlay {
+            top: 0;
+            height: 50%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .vertical-bottom-overlay {
+            bottom: 0;
+            height: 50%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .zone-icon {
+            font-size: 80px;
+            opacity: 0;
+            font-weight: 800;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            pointer-events: none;
+            transform: scale(0.8);
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .horizontal-left-overlay .zone-icon,
+        .vertical-top-overlay .zone-icon {
+            color: #4caf50;
+            filter: drop-shadow(0 0 20px rgba(76, 175, 80, 0.7));
+        }
+
+        .horizontal-right-overlay .zone-icon,
+        .vertical-bottom-overlay .zone-icon {
+            color: #ff9800;
+            filter: drop-shadow(0 0 20px rgba(255, 152, 0, 0.7));
+        }
+
+        /* ЭФФЕКТНЫЙ КРУГ С СОВРЕМЕННЫМ ДИЗАЙНОМ */
+        .word-circle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 280px;
+            height: 280px;
+            background:
+                radial-gradient(circle at 30% 30%,
+                    rgba(255, 255, 255, 0.1) 0%,
+                    rgba(255, 255, 255, 0.05) 30%,
+                    transparent 70%),
+                radial-gradient(circle at 70% 70%,
+                    rgba(255, 255, 255, 0.05) 0%,
+                    transparent 60%),
+                linear-gradient(145deg,
+                    rgba(40, 40, 40, 0.95) 0%,
+                    rgba(30, 30, 30, 0.9) 100%);
+            border-radius: 50%;
+            box-shadow:
+                0 20px 50px rgba(0, 0, 0, 0.7),
+                0 0 0 1px rgba(255, 255, 255, 0.08),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1),
+                inset 0 -1px 0 rgba(0, 0, 0, 0.5);
+            text-align: center;
+            cursor: grab;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            z-index: 10;
+            transition:
+                transform 0.2s ease-out,
+                box-shadow 0.3s ease,
+                opacity 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform-origin: center;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            overflow: hidden;
+        }
+
+        /* Эффект свечения при наведении */
+        .word-circle::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg,
+                rgba(255, 255, 255, 0.1),
+                rgba(255, 255, 255, 0.05),
+                rgba(255, 255, 255, 0.1));
+            border-radius: 50%;
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .word-circle:hover::before {
+            opacity: 1;
+        }
+
+        .word-circle:active {
+            cursor: grabbing;
+            box-shadow:
+                0 25px 60px rgba(0, 0, 0, 0.8),
+                0 0 0 1px rgba(255, 255, 255, 0.12),
+                inset 0 1px 0 rgba(255, 255, 255, 0.15);
+            transform: translate(-50%, -50%) scale(0.98);
+        }
+
+        .english {
+            font-size: 28px;
+            font-weight: 800;
+            color: #ffffff;
+            transition:
+                transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+                opacity 0.3s ease;
+            margin: 0;
+            padding: 0 30px;
+            text-align: center;
+            line-height: 1.4;
+            text-shadow:
+                0 2px 10px rgba(0, 0, 0, 0.5),
+                0 0 20px rgba(255, 255, 255, 0.1);
+            max-width: 90%;
+            z-index: 2;
+        }
+
+        /* ЭФФЕКТНЫЙ ПЕРЕВОД С АНИМАЦИЕЙ */
+        .translation-behind {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 22px;
+            font-weight: 700;
+            color: #4caf50;
+            opacity: 0;
+            transition:
+                opacity 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+                transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            pointer-events: none;
+            z-index: 1;
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+            text-shadow:
+                0 2px 8px rgba(0, 0, 0, 0.7),
+                0 0 15px rgba(76, 175, 80, 0.4);
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+            transform: translate(-50%, -50%) scale(0.9);
+        }
+
+        .translation-behind.show {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        /* Эффект частиц при улетании */
+        .particle-trail {
+            position: fixed;
+            pointer-events: none;
+            z-index: 100;
+        }
+
+        .trail-particle {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 100;
+        }
+
+        /* Эффект волны при отпускании */
+        .ripple-effect {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            transform: scale(0);
+            animation: ripple 0.6s ease-out;
+            pointer-events: none;
+            z-index: 5;
+        }
+
+        /* Индикатор перевода */
+        .hint-translation {
+            position: absolute;
+            bottom: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .word-circle:hover .hint-translation {
+            opacity: 1;
+        }
+
+        /* Мобильный хедер */
+        .mobile-header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+            min-height: 70px;
+            background: rgba(18, 18, 18, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            display: none;
+            flex-direction: column;
+            align-items: stretch;
+            z-index: 50;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            transition:
+                opacity 0.3s ease,
+                visibility 0.3s ease,
+                transform 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            padding-top: env(safe-area-inset-top);
+            transform: translateY(-100%);
+        }
+
+        .mobile-header.visible {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+            transform: translateY(0);
+        }
+
+        .mobile-header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Андроид-стрелка */
+        .mobile-back-button {
+            width: 44px;
+            height: 44px;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            color: #ffffff;
+            font-size: 24px;
+            padding: 0;
+            margin: 0;
+            position: relative;
+            transition: all 0.2s ease;
+        }
+
+        .mobile-back-button:active {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(0.95);
+        }
+
+        .mobile-back-button:before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%) rotate(45deg);
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #ffffff;
+            border-bottom: 2px solid #ffffff;
+        }
+
+        .mobile-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #ffffff;
+            text-align: center;
+            flex: 1;
+            margin: 0 10px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            line-height: 1.2;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Полоса прогресса внизу */
+        .bottom-progress-container {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            z-index: 50;
+            transition:
+                opacity 0.3s ease,
+                transform 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+        }
+
+        .bottom-progress-container.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .bottom-progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #4caf50, #2196f3);
+            width: 0%;
+            transition: width 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+            border-radius: 0 2px 2px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .bottom-progress-bar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(90deg,
+                transparent,
+                rgba(255, 255, 255, 0.4),
+                transparent);
+            animation: progressShine 2s infinite;
+        }
+
+        /* Инструкция для мобильных */
+        .mobile-hint {
+            position: absolute;
+            bottom: calc(var(--safe-area-bottom, 0px) + 30px);
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+            z-index: 20;
+            pointer-events: none;
+            transition:
+                opacity 0.3s ease,
+                visibility 0.3s ease,
+                transform 0.3s ease;
+            padding: 0 20px;
+            box-sizing: border-box;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+        }
+
+        .mobile-hint.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        /* Инструкция для ПК */
+        .pc-hint {
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+            z-index: 20;
+            pointer-events: none;
+            transition:
+                opacity 0.3s ease,
+                visibility 0.3s ease,
+                transform 0.3s ease;
+            padding: 0 20px;
+            box-sizing: border-box;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+        }
+
+        .pc-hint.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        /* PC хедер */
+        .top-area {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 20%;
+            z-index: 30;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            padding: 0 20px;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+        }
+
+        .top-area.visible {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+
+        /* Стрелка для ПК */
+        .back-button {
+            width: 44px;
+            height: 44px;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            color: #ffffff;
+            font-size: 24px;
+            padding: 0;
+            margin: 20px 0 0 20px;
+            position: relative;
+            transition: all 0.2s ease;
+        }
+
+        .back-button:hover {
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .back-button:active {
+            transform: scale(0.95);
+        }
+
+        .back-button:before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%) rotate(45deg);
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #ffffff;
+            border-bottom: 2px solid #ffffff;
+        }
+
+        /* Заголовок раздела */
+        .section-title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-top: 30px;
+            z-index: 25;
+            pointer-events: none;
+            opacity: 0;
+            visibility: hidden;
+            transition:
+                opacity 0.3s ease,
+                visibility 0.3s ease,
+                transform 0.3s ease;
+            transform: translateY(-20px);
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .section-title.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        /* Загрузчик */
+        .loader-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(18, 18, 18, 0.95);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            opacity: 0;
+            visibility: hidden;
+            transition:
+                opacity 0.3s ease,
+                visibility 0.3s ease;
+        }
+
+        .loader-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .loader-spinner {
+            width: 60px;
+            height: 60px;
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            border-top: 3px solid #4caf50;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            box-shadow: 0 0 20px rgba(76, 175, 80, 0.3);
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: #ffffff;
+            z-index: 5;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* УЛУЧШЕННЫЕ АНИМАЦИИ ДЛЯ УЛЕТАНИЯ */
+        @keyframes swipeLeft {
+            0% {
+                transform: translate(-50%, -50%) rotate(0deg);
+                opacity: 1;
+            }
+            50% {
+                transform: translate(-200px, -50%) rotate(-20deg);
+                opacity: 0.8;
+            }
+            100% {
+                transform: translate(-1000px, -50%) rotate(-45deg);
+                opacity: 0;
+            }
+        }
+
+        @keyframes swipeRight {
+            0% {
+                transform: translate(-50%, -50%) rotate(0deg);
+                opacity: 1;
+            }
+            50% {
+                transform: translate(200px, -50%) rotate(20deg);
+                opacity: 0.8;
+            }
+            100% {
+                transform: translate(1000px, -50%) rotate(45deg);
+                opacity: 0;
+            }
+        }
+
+        @keyframes swipeUp {
+            0% {
+                transform: translate(-50%, -50%) rotate(0deg);
+                opacity: 1;
+            }
+            50% {
+                transform: translate(-50%, -200px) rotate(-20deg);
+                opacity: 0.8;
+            }
+            100% {
+                transform: translate(-50%, -1000px) rotate(-45deg);
+                opacity: 0;
+            }
+        }
+
+        @keyframes swipeDown {
+            0% {
+                transform: translate(-50%, -50%) rotate(0deg);
+                opacity: 1;
+            }
+            50% {
+                transform: translate(-50%, 200px) rotate(20deg);
+                opacity: 0.8;
+            }
+            100% {
+                transform: translate(-50%, 1000px) rotate(45deg);
+                opacity: 0;
+            }
+        }
+
+        /* Анимации для эффектов */
+        @keyframes gradientFloat {
+            0%, 100% {
+                transform: translate(0, 0) scale(1);
+            }
+            50% {
+                transform: translate(50px, 50px) scale(1.1);
+            }
+        }
+
+        @keyframes particleFloat {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        @keyframes ripple {
+            to {
+                transform: scale(4);
+                opacity: 0;
+            }
+        }
+
+        @keyframes progressShine {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+
+        @keyframes particleExplosion {
+            0% {
+                transform: translate(0, 0) scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: translate(var(--tx), var(--ty)) scale(0);
+                opacity: 0;
+            }
+        }
+
+        .swipe-left {
+            animation: swipeLeft 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+        }
+
+        .swipe-right {
+            animation: swipeRight 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+        }
+
+        .swipe-up {
+            animation: swipeUp 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+        }
+
+        .swipe-down {
+            animation: swipeDown 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+        }
+
+        /* Мобильные стили */
+        @media (max-width: 768px) {
+            :root {
+                --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+            }
+
+            .horizontal-left-overlay,
+            .horizontal-right-overlay {
+                display: none !important;
+            }
+
+            .vertical-top-overlay,
+            .vertical-bottom-overlay {
+                display: flex;
+            }
+
+            .mobile-header {
+                display: flex;
+            }
+
+            .top-area {
+                display: none;
+            }
+
+            .section-title {
+                display: none;
+            }
+
+            .pc-hint {
+                display: none;
+            }
+
+            .word-circle {
+                width: 240px;
+                height: 240px;
+            }
+
+            .english {
+                font-size: 24px;
+                padding: 0 20px;
+            }
+
+            .translation-behind {
+                font-size: 18px;
+                width: 210px;
+                height: 210px;
+            }
+
+            .zone-icon {
+                font-size: 70px;
+            }
+
+            .mobile-back-button {
+                width: 40px;
+                height: 40px;
+            }
+
+            .mobile-back-button:before {
+                width: 8px;
+                height: 8px;
+            }
+
+            .bottom-progress-container {
+                bottom: calc(env(safe-area-inset-bottom, 0px));
+            }
+        }
+
+        @media (max-width: 480px) {
+            .word-circle {
+                width: 220px;
+                height: 220px;
+            }
+
+            .english {
+                font-size: 22px;
+            }
+
+            .translation-behind {
+                font-size: 16px;
+                width: 190px;
+                height: 190px;
+            }
+
+            .zone-icon {
+                font-size: 60px;
+            }
+
+            .hint-translation {
+                bottom: -30px;
+                font-size: 11px;
+            }
+        }
+
+        /* Десктопные стили */
+        @media (min-width: 769px) {
+            .mobile-header {
+                display: none;
+            }
+
+            .section-title {
+                display: block;
+            }
+
+            .mobile-hint {
+                display: none;
+            }
+
+            .pc-hint {
+                display: block;
+            }
+
+            .word-circle {
+                width: 280px;
+                height: 280px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Эффекты фона -->
+        <div class="background-effects">
+            <div class="animated-background"></div>
+            <div class="particles" id="particles"></div>
+
+            <!-- Свечение зон -->
+            <div class="zone-glow zone-left" id="zone-glow-left"></div>
+            <div class="zone-glow zone-right" id="zone-glow-right"></div>
+            <div class="zone-glow zone-top" id="zone-glow-top"></div>
+            <div class="zone-glow zone-bottom" id="zone-glow-bottom"></div>
+        </div>
+
+        <!-- Плавный фон для зон -->
+        <div class="background-gradient">
+            <div class="gradient-overlay gradient-known" id="gradient-known"></div>
+            <div class="gradient-overlay gradient-review" id="gradient-review"></div>
+        </div>
+
+        <!-- Зоны для ПК -->
+        <div class="horizontal-left-overlay">
+            <div class="zone-icon">✓</div>
+        </div>
+        <div class="horizontal-right-overlay">
+            <div class="zone-icon">↻</div>
+        </div>
+
+        <!-- Зоны для мобильных -->
+        <div class="vertical-top-overlay">
+            <div class="zone-icon">✓</div>
+        </div>
+        <div class="vertical-bottom-overlay">
+            <div class="zone-icon">↻</div>
+        </div>
+
+        <!-- Загрузчик -->
+        <div class="loader-overlay" id="loader-overlay">
+            <div class="loader-spinner"></div>
+        </div>
+
+        <!-- PC хедер -->
+        <div class="top-area" id="top-area">
+            <div class="back-button" id="back-button"></div>
+        </div>
+
+        <!-- Заголовок раздела для ПК -->
+        <div class="section-title" id="section-title">Review Words</div>
+
+        <!-- Мобильный хедер -->
+        <div class="mobile-header" id="mobile-header">
+            <div class="mobile-header-top">
+                <div class="mobile-back-button" id="mobile-back-button"></div>
+                <div class="mobile-title" id="mobile-title">Review Words</div>
+            </div>
+        </div>
+
+        <!-- Полоса прогресса внизу -->
+        <div class="bottom-progress-container" id="bottom-progress-container">
+            <div class="bottom-progress-bar" id="bottom-progress-bar"></div>
+        </div>
+
+        <!-- Инструкции -->
+        <div class="mobile-hint" id="mobile-hint">Вверх — слово знаете, вниз — для повтора</div>
+        <div class="pc-hint" id="pc-hint">Влево — слово знаете, вправо — для повтора</div>
+
+        <!-- Контейнер для эффектов частиц -->
+        <div class="particle-trail" id="particle-trail"></div>
+
+        <!-- Элементы интерфейса -->
+        <div class="translation-behind" id="translation-behind"></div>
+        <div id="word-circle" class="word-circle">
+            <div class="english"></div>
+            <div class="hint-translation">Нажмите для перевода</div>
+        </div>
+        <div class="loading" id="loading">Loading words...</div>
+    </div>
+    <script>
+        const WordDB = {
+            saveWordStatus(listId, english, status) {
+                const key = `word_${listId}_${english}`;
+                localStorage.setItem(key, status);
+            },
+            getWordStatus(listId, english) {
+                const key = `word_${listId}_${english}`;
+                return localStorage.getItem(key) || 'new';
+            },
+            updateListStatus(listData) {
+                if (!listData.words) return listData;
+                listData.words.forEach(word => {
+                    const status = this.getWordStatus(listData.filename, word.english);
+                    word.status = status;
+                });
+                return listData;
+            },
+            getWordsForReview(listData) {
+                const reviewedWords = [];
+                const newWords = [];
+                listData.words.forEach(word => {
+                    const status = this.getWordStatus(listData.filename, word.english);
+                    word.status = status;
+                    if (status === 'review') {
+                        reviewedWords.push(word);
+                    } else if (status === 'new') {
+                        newWords.push(word);
+                    }
+                });
+                return [...reviewedWords, ...newWords];
+            }
+        };
+
+        // Менеджер визуальных эффектов
+        const EffectsManager = {
+            // Создание частиц фона
+            createBackgroundParticles() {
+                const particlesContainer = document.getElementById('particles');
+                const particleCount = 30;
+
+                for (let i = 0; i < particleCount; i++) {
+                    const particle = document.createElement('div');
+                    particle.className = 'particle';
+
+                    // Случайная позиция
+                    particle.style.left = `${Math.random() * 100}%`;
+                    particle.style.top = `${Math.random() * 100}%`;
+
+                    // Случайный размер
+                    const size = 1 + Math.random() * 4;
+                    particle.style.width = `${size}px`;
+                    particle.style.height = `${size}px`;
+
+                    // Случайная задержка анимации
+                    particle.style.animationDelay = `${Math.random() * 15}s`;
+                    particle.style.animationDuration = `${10 + Math.random() * 20}s`;
+
+                    particlesContainer.appendChild(particle);
+                }
+            },
+
+            // Эффект волны
+            createRippleEffect(x, y, color = 'rgba(255, 255, 255, 0.1)') {
+                const ripple = document.createElement('div');
+                ripple.className = 'ripple-effect';
+                ripple.style.left = `${x}px`;
+                ripple.style.top = `${y}px`;
+                ripple.style.background = color;
+                ripple.style.width = '100px';
+                ripple.style.height = '100px';
+
+                document.querySelector('.container').appendChild(ripple);
+
+                // Удаление после анимации
+                setTimeout(() => ripple.remove(), 600);
+            },
+
+            // Эффект частиц при улетании
+            createParticleTrail(x, y, color, count = 15) {
+                const trailContainer = document.getElementById('particle-trail');
+
+                for (let i = 0; i < count; i++) {
+                    const particle = document.createElement('div');
+                    particle.className = 'trail-particle';
+                    particle.style.background = color;
+                    particle.style.left = `${x}px`;
+                    particle.style.top = `${y}px`;
+
+                    // Случайное направление
+                    const angle = Math.random() * Math.PI * 2;
+                    const distance = 50 + Math.random() * 100;
+                    const tx = Math.cos(angle) * distance;
+                    const ty = Math.sin(angle) * distance;
+
+                    particle.style.setProperty('--tx', `${tx}px`);
+                    particle.style.setProperty('--ty', `${ty}px`);
+
+                    particle.style.animation = `particleExplosion 0.6s ease-out forwards`;
+                    particle.style.animationDelay = `${Math.random() * 0.2}s`;
+
+                    trailContainer.appendChild(particle);
+
+                    // Удаление после анимации
+                    setTimeout(() => particle.remove(), 600);
+                }
+            },
+
+            // Показ/скрытие свечения зон
+            updateZoneGlow(isMobile, deltaX, deltaY) {
+                const glowLeft = document.getElementById('zone-glow-left');
+                const glowRight = document.getElementById('zone-glow-right');
+                const glowTop = document.getElementById('zone-glow-top');
+                const glowBottom = document.getElementById('zone-glow-bottom');
+
+                // Сбрасываем все свечения
+                [glowLeft, glowRight, glowTop, glowBottom].forEach(glow => {
+                    glow.style.opacity = '0';
+                });
+
+                if (isMobile) {
+                    // Вертикальные зоны для мобильных
+                    if (deltaY < -50) {
+                        glowTop.style.opacity = '0.6';
+                    } else if (deltaY > 50) {
+                        glowBottom.style.opacity = '0.6';
+                    }
+                } else {
+                    // Горизонтальные зоны для ПК
+                    if (deltaX < -80) {
+                        glowLeft.style.opacity = '0.6';
+                    } else if (deltaX > 80) {
+                        glowRight.style.opacity = '0.6';
+                    }
+                }
+            },
+
+            // Анимация иконок в зонах
+            updateZoneIcons(isMobile, deltaX, deltaY) {
+                const icons = document.querySelectorAll('.zone-icon');
+
+                // Сбрасываем все иконки
+                icons.forEach(icon => {
+                    icon.style.opacity = '0';
+                    icon.style.transform = 'scale(0.8)';
+                });
+
+                if (isMobile) {
+                    // Вертикальные зоны
+                    if (deltaY < -30) {
+                        const topIcon = document.querySelector('.vertical-top-overlay .zone-icon');
+                        if (topIcon) {
+                            const intensity = Math.min(Math.abs(deltaY) / 100, 1);
+                            topIcon.style.opacity = intensity.toString();
+                            topIcon.style.transform = `scale(${0.8 + intensity * 0.4})`;
+                        }
+                    } else if (deltaY > 30) {
+                        const bottomIcon = document.querySelector('.vertical-bottom-overlay .zone-icon');
+                        if (bottomIcon) {
+                            const intensity = Math.min(Math.abs(deltaY) / 100, 1);
+                            bottomIcon.style.opacity = intensity.toString();
+                            bottomIcon.style.transform = `scale(${0.8 + intensity * 0.4})`;
+                        }
+                    }
+                } else {
+                    // Горизонтальные зоны
+                    if (deltaX < -50) {
+                        const leftIcon = document.querySelector('.horizontal-left-overlay .zone-icon');
+                        if (leftIcon) {
+                            const intensity = Math.min(Math.abs(deltaX) / 150, 1);
+                            leftIcon.style.opacity = intensity.toString();
+                            leftIcon.style.transform = `scale(${0.8 + intensity * 0.4})`;
+                        }
+                    } else if (deltaX > 50) {
+                        const rightIcon = document.querySelector('.horizontal-right-overlay .zone-icon');
+                        if (rightIcon) {
+                            const intensity = Math.min(Math.abs(deltaX) / 150, 1);
+                            rightIcon.style.opacity = intensity.toString();
+                            rightIcon.style.transform = `scale(${0.8 + intensity * 0.4})`;
+                        }
+                    }
+                }
+            }
+        };
+
+        const AudioManager = {
+            audioContext: null,
+            audioElements: new Map(),
+
+            init() {
+                if (!this.audioContext) {
+                    this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                }
+            },
+
+            async playWordAudio(word) {
+                try {
+                    const audioPath = `audio/${word.english.toLowerCase().replace(/[^a-z0-9]/g, '_')}.wav`;
+
+                    if (this.audioElements.has(word.english)) {
+                        const audio = this.audioElements.get(word.english);
+                        audio.currentTime = 0;
+                        await audio.play();
+                        return;
+                    }
+
+                    const audio = new Audio(audioPath);
+                    audio.preload = 'auto';
+
+                    audio.addEventListener('canplaythrough', async () => {
+                        try {
+                            await audio.play();
+                            this.audioElements.set(word.english, audio);
+                        } catch (err) {
+                            console.log(`Could not play audio for: ${word.english}`);
+                        }
+                    });
+
+                    audio.addEventListener('error', () => {
+                        console.log(`Audio file not found: ${audioPath}`);
+                    });
+
+                } catch (error) {
+                    console.log(`Audio playback issue for: ${word.english}`);
+                }
+            },
+
+            async testAudio() {
+                try {
+                    const testAudio = new Audio();
+                    testAudio.src = 'audio/test.wav';
+                    await testAudio.play();
+                    console.log('Audio test: OK');
+                } catch (error) {
+                    console.log('Audio test: No audio files found');
+                }
+            }
+        };
+
+        const Utils = {
+            shuffleArray(array) {
+                const shuffled = [...array];
+                for (let i = shuffled.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                }
+                return shuffled;
+            },
+
+            isMobileDevice() {
+                return window.innerWidth <= 768 ||
+                       'ontouchstart' in window ||
+                       navigator.maxTouchPoints > 0;
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const listId = urlParams.get('list');
+            const sessionId = urlParams.get('session');
+
+            if (!listId && !sessionId) {
+                window.location.href = 'index.html';
+                return;
+            }
+
+            // Инициализация эффектов
+            EffectsManager.createBackgroundParticles();
+
+            let wordQueue = [];
+            let currentList = null;
+            let isCombinedMode = false;
+            const isMobile = Utils.isMobileDevice();
+            const wordCircle = document.getElementById('word-circle');
+            const englishEl = wordCircle.querySelector('.english');
+            const translationBehind = document.getElementById('translation-behind');
+            const backButton = document.getElementById('back-button');
+            const mobileBackButton = document.getElementById('mobile-back-button');
+            const mobileHeader = document.getElementById('mobile-header');
+            const mobileHint = document.getElementById('mobile-hint');
+            const pcHint = document.getElementById('pc-hint');
+            const loadingEl = document.getElementById('loading');
+            const loaderOverlay = document.getElementById('loader-overlay');
+            const mobileTitle = document.getElementById('mobile-title');
+            const sectionTitle = document.getElementById('section-title');
+            const bottomProgressContainer = document.getElementById('bottom-progress-container');
+            const bottomProgressBar = document.getElementById('bottom-progress-bar');
+            const topArea = document.getElementById('top-area');
+
+            // Элементы для эффектов
+            const gradientKnown = document.getElementById('gradient-known');
+            const gradientReview = document.getElementById('gradient-review');
+
+            let currentWord = null;
+            let isDragging = false;
+            let currentIndex = 0;
+            let isProcessingAction = false;
+            let dragStartTime = 0;
+            let startX = 0;
+            let startY = 0;
+            let currentX = 0;
+            let currentY = 0;
+            let initialTranslateX = 0;
+            let initialTranslateY = 0;
+
+            let isUIHidden = true;
+
+            AudioManager.init();
+
+            async function loadData() {
+                try {
+                    if (sessionId) {
+                        isCombinedMode = true;
+                        const sessionData = JSON.parse(localStorage.getItem(sessionId) || '{}');
+                        if (!sessionData.words || sessionData.words.length === 0) {
+                            throw new Error('Session data not found');
+                        }
+                        wordQueue = sessionData.words;
+                        currentList = { filename: 'combined' };
+                        mobileTitle.textContent = 'Multiple Lists';
+                        sectionTitle.textContent = 'Multiple Lists';
+                    } else if (listId) {
+                        isCombinedMode = false;
+                        if (listId.startsWith('default_')) {
+                            const defaultLists = JSON.parse(localStorage.getItem('default_lists') || '[]');
+                            currentList = defaultLists.find(list => list.filename === listId);
+                            if (!currentList) {
+                                throw new Error('Default list not found');
+                            }
+                        } else {
+                            const response = await fetch(listId);
+                            if (!response.ok) {
+                                throw new Error(`HTTP error! status: ${response.status}`);
+                            }
+                            const text = await response.text();
+                            currentList = JSON.parse(text);
+                        }
+                        if (!currentList.words || !Array.isArray(currentList.words)) {
+                            throw new Error('Invalid list format');
+                        }
+                        currentList.filename = listId;
+                        mobileTitle.textContent = currentList.name || 'Review Words';
+                        sectionTitle.textContent = currentList.name || 'Review Words';
+                        WordDB.updateListStatus(currentList);
+                        const wordsForReview = WordDB.getWordsForReview(currentList);
+                        wordQueue = Utils.shuffleArray(wordsForReview);
+                    }
+
+                    if (wordQueue.length === 0) {
+                        showLoader();
+                        setTimeout(() => {
+                            window.location.href = 'index.html';
+                        }, 800);
+                        return;
+                    }
+
+                    loadingEl.style.display = 'none';
+                    wordCircle.style.display = 'flex';
+                    currentIndex = 0;
+                    showNextWord();
+                    updateProgress();
+
+                    isUIHidden = true;
+                    updateUIVisibility();
+
+                    setTimeout(() => {
+                        AudioManager.testAudio();
+                    }, 1000);
+
+                } catch (error) {
+                    console.error('Error loading data:', error);
+                    loadingEl.textContent = 'Error loading words.';
+                    setTimeout(() => {
+                        window.location.href = 'index.html';
+                    }, 2000);
+                }
+            }
+
+            function showLoader() {
+                loaderOverlay.classList.add('active');
+            }
+
+            function hideLoader() {
+                loaderOverlay.classList.remove('active');
+            }
+
+            function showNextWord() {
+                if (currentIndex >= wordQueue.length) {
+                    showLoader();
+                    setTimeout(() => {
+                        window.location.href = 'index.html';
+                    }, 800);
+                    return;
+                }
+                currentWord = wordQueue[currentIndex];
+                englishEl.textContent = currentWord.english;
+                translationBehind.textContent = currentWord.russian || currentWord.translation || '';
+                resetCirclePosition();
+                hideLoader();
+
+                if (currentWord.english) {
+                    setTimeout(() => {
+                        AudioManager.playWordAudio(currentWord);
+                    }, 300);
+                }
+            }
+
+            function resetCirclePosition() {
+                wordCircle.style.transform = 'translate(-50%, -50%) rotate(0deg) scale(1)';
+                wordCircle.style.transition = 'transform 0.3s ease';
+                englishEl.style.transform = 'scale(1)';
+                translationBehind.classList.remove('show');
+                resetZones();
+                wordCircle.classList.remove('swipe-left', 'swipe-right', 'swipe-up', 'swipe-down');
+
+                gradientKnown.style.opacity = 0;
+                gradientReview.style.opacity = 0;
+
+                // Сбрасываем свечения зон
+                EffectsManager.updateZoneGlow(isMobile, 0, 0);
+                EffectsManager.updateZoneIcons(isMobile, 0, 0);
+            }
+
+            function updateProgress() {
+                const totalWords = wordQueue.length;
+                const currentPosition = currentIndex;
+                const progressPercentage = (currentPosition / totalWords) * 100;
+                bottomProgressBar.style.width = `${progressPercentage}%`;
+            }
+
+            function updateUIVisibility() {
+                if (isMobile) {
+                    if (isUIHidden) {
+                        mobileHeader.classList.remove('visible');
+                        mobileHint.classList.remove('visible');
+                        bottomProgressContainer.classList.remove('visible');
+                    } else {
+                        mobileHeader.classList.add('visible');
+                        mobileHint.classList.add('visible');
+                        bottomProgressContainer.classList.add('visible');
+                    }
+                } else {
+                    if (isUIHidden) {
+                        topArea.classList.remove('visible');
+                        bottomProgressContainer.classList.remove('visible');
+                        sectionTitle.classList.remove('visible');
+                        pcHint.classList.remove('visible');
+                    } else {
+                        topArea.classList.add('visible');
+                        bottomProgressContainer.classList.add('visible');
+                        sectionTitle.classList.add('visible');
+                        pcHint.classList.add('visible');
+                    }
+                }
+            }
+
+            function toggleUI() {
+                isUIHidden = !isUIHidden;
+                updateUIVisibility();
+            }
+
+            function startDrag(e) {
+                if (isProcessingAction) return;
+                e.preventDefault();
+                e.stopPropagation();
+
+                isDragging = true;
+                dragStartTime = Date.now();
+                const transform = window.getComputedStyle(wordCircle).transform;
+                const matrix = new DOMMatrix(transform);
+                initialTranslateX = matrix.m41;
+                initialTranslateY = matrix.m42;
+                const clientX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+                const clientY = e.type === 'touchstart' ? e.touches[0].clientY : e.clientY;
+                startX = clientX;
+                startY = clientY;
+                wordCircle.style.transition = 'none';
+                englishEl.style.transform = 'scale(1.4)';
+                translationBehind.classList.add('show');
+
+                // Создаем эффект волны
+                EffectsManager.createRippleEffect(clientX, clientY);
+
+                if (!isUIHidden) {
+                    isUIHidden = true;
+                    updateUIVisibility();
+                }
+            }
+
+            function drag(e) {
+                if (!isDragging) return;
+                e.preventDefault();
+                e.stopPropagation();
+
+                const clientX = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+                const clientY = e.type === 'touchmove' ? e.touches[0].clientY : e.clientY;
+                const deltaX = clientX - startX;
+                const deltaY = clientY - startY;
+
+                if (isMobile) {
+                    const rotation = deltaY / 15;
+                    wordCircle.style.transform = `translate(-50%, ${initialTranslateY + deltaY}px) rotate(${rotation}deg) scale(0.95)`;
+                    currentY = deltaY;
+                    checkZonesMobile(deltaX, deltaY);
+                } else {
+                    const rotation = deltaX / 20;
+                    wordCircle.style.transform = `translate(${initialTranslateX + deltaX}px, -50%) rotate(${rotation}deg) scale(0.95)`;
+                    currentX = deltaX;
+                    checkZonesDesktop(deltaX, deltaY);
+                }
+            }
+
+            function checkZonesDesktop(deltaX, deltaY) {
+                const swipeThreshold = 120;
+                const minThreshold = 30;
+
+                gradientKnown.style.opacity = '0';
+                gradientReview.style.opacity = '0';
+
+                if (deltaX < -minThreshold) {
+                    const intensity = Math.min(Math.abs(deltaX) / swipeThreshold, 1);
+                    gradientKnown.style.opacity = intensity * 0.8;
+                } else if (deltaX > minThreshold) {
+                    const intensity = Math.min(Math.abs(deltaX) / swipeThreshold, 1);
+                    gradientReview.style.opacity = intensity * 0.8;
+                }
+
+                // Обновляем эффекты зон
+                EffectsManager.updateZoneGlow(false, deltaX, deltaY);
+                EffectsManager.updateZoneIcons(false, deltaX, deltaY);
+            }
+
+            function checkZonesMobile(deltaX, deltaY) {
+                const swipeThreshold = 80;
+                const minThreshold = 20;
+
+                gradientKnown.style.opacity = '0';
+                gradientReview.style.opacity = '0';
+
+                if (deltaY < -minThreshold) {
+                    const intensity = Math.min(Math.abs(deltaY) / swipeThreshold, 1);
+                    gradientKnown.style.opacity = intensity * 0.8;
+                } else if (deltaY > minThreshold) {
+                    const intensity = Math.min(Math.abs(deltaY) / swipeThreshold, 1);
+                    gradientReview.style.opacity = intensity * 0.8;
+                }
+
+                // Обновляем эффекты зон
+                EffectsManager.updateZoneGlow(true, deltaX, deltaY);
+                EffectsManager.updateZoneIcons(true, deltaX, deltaY);
+            }
+
+            function resetZones() {
+                gradientKnown.style.opacity = '0';
+                gradientReview.style.opacity = '0';
+                EffectsManager.updateZoneGlow(isMobile, 0, 0);
+                EffectsManager.updateZoneIcons(isMobile, 0, 0);
+            }
+
+            function endDrag(e) {
+                if (!isDragging || isProcessingAction) {
+                    isDragging = false;
+                    return;
+                }
+                e.preventDefault();
+                e.stopPropagation();
+
+                const dragDuration = Date.now() - dragStartTime;
+                if (dragDuration < 100) {
+                    isDragging = false;
+                    resetCirclePosition();
+                    translationBehind.classList.remove('show');
+                    resetZones();
+                    return;
+                }
+
+                isProcessingAction = true;
+                isDragging = false;
+                englishEl.style.transform = 'scale(1)';
+
+                let action = null;
+                let swipeClass = '';
+                let particleColor = '';
+
+                if (isMobile) {
+                    const delta = currentY;
+                    const swipeThreshold = 80;
+
+                    if (delta < -swipeThreshold) {
+                        action = 'known';
+                        swipeClass = 'swipe-up';
+                        particleColor = 'rgba(76, 175, 80, 0.8)';
+                    } else if (delta > swipeThreshold) {
+                        action = 'review';
+                        swipeClass = 'swipe-down';
+                        particleColor = 'rgba(255, 152, 0, 0.8)';
+                    }
+                } else {
+                    const delta = currentX;
+                    const swipeThreshold = 120;
+
+                    if (delta < -swipeThreshold) {
+                        action = 'known';
+                        swipeClass = 'swipe-left';
+                        particleColor = 'rgba(76, 175, 80, 0.8)';
+                    } else if (delta > swipeThreshold) {
+                        action = 'review';
+                        swipeClass = 'swipe-right';
+                        particleColor = 'rgba(255, 152, 0, 0.8)';
+                    }
+                }
+
+                if (!action) {
+                    resetCirclePosition();
+                    translationBehind.classList.remove('show');
+                    resetZones();
+                    isProcessingAction = false;
+                    return;
+                }
+
+                translationBehind.classList.remove('show');
+                resetZones();
+                wordCircle.classList.add(swipeClass);
+
+                // Создаем эффект частиц при улетании
+                const circleRect = wordCircle.getBoundingClientRect();
+                const centerX = circleRect.left + circleRect.width / 2;
+                const centerY = circleRect.top + circleRect.height / 2;
+                EffectsManager.createParticleTrail(centerX, centerY, particleColor, 20);
+
+                if (!isCombinedMode) {
+                    WordDB.saveWordStatus(currentList.filename, currentWord.english, action);
+                }
+
+                currentIndex++;
+                updateProgress();
+
+                setTimeout(() => {
+                    showNextWord();
+                    isProcessingAction = false;
+                }, 600);
+            }
+
+            function goBack() {
+                window.location.href = 'index.html';
+            }
+
+            function handleScreenTap(e) {
+                if (isDragging || isProcessingAction) return;
+
+                const isCircleClick = e.target.closest('#word-circle');
+                const isBackButton = e.target.closest('#back-button, #mobile-back-button');
+
+                if (!isCircleClick && !isBackButton) {
+                    toggleUI();
+                }
+            }
+
+            function toggleTranslation() {
+                if (!isProcessingAction && !isDragging) {
+                    translationBehind.classList.toggle('show');
+                }
+            }
+
+            // Инициализация событий
+            backButton.addEventListener('click', goBack);
+            mobileBackButton.addEventListener('click', goBack);
+
+            wordCircle.addEventListener('click', (e) => {
+                if (!isDragging) {
+                    toggleTranslation();
+                }
+            });
+
+            wordCircle.addEventListener('mousedown', startDrag);
+            wordCircle.addEventListener('touchstart', startDrag, { passive: false });
+            document.addEventListener('mousemove', drag);
+            document.addEventListener('touchmove', drag, { passive: false });
+            document.addEventListener('mouseup', endDrag);
+            document.addEventListener('touchend', endDrag);
+
+            document.addEventListener('click', handleScreenTap);
+            document.addEventListener('touchend', handleScreenTap, { passive: true });
+            wordCircle.addEventListener('contextmenu', (e) => e.preventDefault());
+
+            // Обработчики клавиатуры
+            document.addEventListener('keydown', (e) => {
+                if (isProcessingAction) return;
+                if (e.key === 'ArrowLeft' || e.key === 'a') {
+                    processAction('known');
+                } else if (e.key === 'ArrowRight' || e.key === 'd') {
+                    processAction('review');
+                } else if (e.key === ' ' || e.key === 'Enter') {
+                    e.preventDefault();
+                    toggleTranslation();
+                } else if (e.key === 'Escape') {
+                    goBack();
+                } else if (e.key === 'h') {
+                    toggleUI();
+                } else if (e.key === 'p' || e.key === 'P') {
+                    if (currentWord) {
+                        AudioManager.playWordAudio(currentWord);
+                    }
+                } else if (e.key === 'ArrowUp' || e.key === 'w') {
+                    processAction('known');
+                } else if (e.key === 'ArrowDown' || e.key === 's') {
+                    processAction('review');
+                }
+            });
+
+            async function processAction(action) {
+                if (isProcessingAction) return;
+                isProcessingAction = true;
+
+                if (!isCombinedMode) {
+                    WordDB.saveWordStatus(currentList.filename, currentWord.english, action);
+                }
+
+                currentIndex++;
+                updateProgress();
+
+                // Анимация улетания при клавиатурном управлении
+                let swipeClass = '';
+                let particleColor = '';
+
+                if (isMobile) {
+                    swipeClass = action === 'known' ? 'swipe-up' : 'swipe-down';
+                    particleColor = action === 'known' ? 'rgba(76, 175, 80, 0.8)' : 'rgba(255, 152, 0, 0.8)';
+                } else {
+                    swipeClass = action === 'known' ? 'swipe-left' : 'swipe-right';
+                    particleColor = action === 'known' ? 'rgba(76, 175, 80, 0.8)' : 'rgba(255, 152, 0, 0.8)';
+                }
+
+                wordCircle.classList.add(swipeClass);
+
+                // Эффект частиц
+                const circleRect = wordCircle.getBoundingClientRect();
+                const centerX = circleRect.left + circleRect.width / 2;
+                const centerY = circleRect.top + circleRect.height / 2;
+                EffectsManager.createParticleTrail(centerX, centerY, particleColor, 15);
+
+                await new Promise(resolve => setTimeout(resolve, 400));
+                showNextWord();
+                isProcessingAction = false;
+            }
+
+            // Начальная загрузка
+            wordCircle.style.display = 'none';
+            loadData();
+        });
+    </script>
+</body>
+</html>

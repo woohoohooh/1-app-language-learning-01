@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Practice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Nunito', Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #333;
+            margin-bottom: 20px;
+            flex-shrink: 0;
+        }
+
+        .title {
+            font-size: 28px;
+            font-weight: 800;
+            color: #4caf50;
+        }
+
+        .list-info {
+            text-align: right;
+        }
+
+        .list-name {
+            font-size: 20px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .list-stats {
+            font-size: 14px;
+            color: #bbbbbb;
+            margin-top: 5px;
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex: 1;
+            gap: 30px;
+            overflow: hidden;
+        }
+
+        .text-section {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+        }
+
+        .audio-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            min-width: 300px;
+            background-color: #1e1e1e;
+            border-radius: 12px;
+            padding: 20px;
+            border: 2px solid #333;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #4caf50;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-title .icon {
+            font-size: 24px;
+        }
+
+        .text-container {
+            flex: 1;
+            background-color: #1e1e1e;
+            border-radius: 12px;
+            padding: 25px;
+            border: 2px solid #333;
+            overflow-y: auto;
+            line-height: 1.8;
+            font-size: 18px;
+            position: relative;
+            user-select: none;
+        }
+
+        .sentence {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .sentence.active {
+            background-color: rgba(76, 175, 80, 0.1);
+            border-left: 4px solid #4caf50;
+        }
+
+        .word {
+            padding: 2px 4px;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .word.highlight {
+            background-color: rgba(76, 175, 80, 0.3);
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        .word.learning {
+            background-color: rgba(255, 152, 0, 0.3);
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        .word-tooltip {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #333;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            white-space: nowrap;
+            z-index: 100;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.2s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            margin-bottom: 8px;
+        }
+
+        .word:hover .word-tooltip {
+            opacity: 1;
+        }
+
+        .audio-controls {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .player {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .play-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .play-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .play-btn.playing {
+            background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+        }
+
+        .time-display {
+            font-size: 16px;
+            color: #bbbbbb;
+            font-weight: 600;
+            min-width: 100px;
+        }
+
+        .progress-bar {
+            flex: 1;
+            height: 6px;
+            background-color: #333;
+            border-radius: 3px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4caf50, #8bc34a);
+            width: 0%;
+            transition: width 0.1s linear;
+        }
+
+        .speed-control {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .speed-btn {
+            padding: 8px 16px;
+            background-color: #2a2a2a;
+            border: 2px solid #333;
+            border-radius: 6px;
+            color: #bbbbbb;
+            font-family: 'Nunito', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .speed-btn:hover {
+            border-color: #4caf50;
+            color: #ffffff;
+        }
+
+        .speed-btn.active {
+            background-color: #4caf50;
+            border-color: #4caf50;
+            color: white;
+        }
+
+        .word-list {
+            margin-top: 20px;
+            flex: 1;
+            overflow-y: auto;
+            background-color: #2a2a2a;
+            border-radius: 8px;
+            padding: 15px;
+        }
+
+        .word-list-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #4caf50;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .word-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            margin-bottom: 8px;
+            background-color: #333;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .word-item:hover {
+            background-color: #3a3a3a;
+        }
+
+        .word-item.playing {
+            background-color: rgba(76, 175, 80, 0.2);
+            border-left: 3px solid #4caf50;
+        }
+
+        .word-text {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .word-translation {
+            font-size: 14px;
+            color: #bbbbbb;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            justify-content: space-between;
+            flex-shrink: 0;
+        }
+
+        .control-btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-family: 'Nunito', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 150px;
+        }
+
+        .control-btn.back {
+            background-color: #333;
+            color: #ffffff;
+        }
+
+        .control-btn.back:hover {
+            background-color: #444;
+            transform: translateY(-2px);
+        }
+
+        .control-btn.next {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .control-btn.next:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        .loader {
+            width: 50px;
+            height: 50px;
+            border: 4px solid #333;
+            border-top: 4px solid #4caf50;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+
+            .audio-section {
+                min-width: 100%;
+            }
+
+            .text-container {
+                font-size: 16px;
+            }
+
+            .controls {
+                flex-direction: column;
+            }
+
+            .control-btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Reading Practice</h1>
+            <div class="list-info">
+                <div class="list-name" id="list-name">Loading...</div>
+                <div class="list-stats" id="list-stats"></div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="text-section">
+                <div class="section-title">
+                    <span class="icon">📖</span>
+                    Text with Audio
+                </div>
+                <div class="text-container" id="text-container">
+                    Loading text...
+                </div>
+            </div>
+
+            <div class="audio-section">
+                <div class="section-title">
+                    <span class="icon">🎵</span>
+                    Audio Controls
+                </div>
+
+                <div class="audio-controls">
+                    <div class="player">
+                        <button class="play-btn" id="play-btn">
+                            ▶
+                        </button>
+                        <div class="time-display" id="time-display">
+                            00:00 / 00:00
+                        </div>
+                    </div>
+
+                    <div class="progress-bar" id="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+
+                    <div class="speed-control">
+                        <span style="color: #bbbbbb; font-weight: 600;">Speed:</span>
+                        <button class="speed-btn" data-speed="0.75">0.75x</button>
+                        <button class="speed-btn active" data-speed="1">1x</button>
+                        <button class="speed-btn" data-speed="1.25">1.25x</button>
+                        <button class="speed-btn" data-speed="1.5">1.5x</button>
+                    </div>
+
+                    <div class="word-list">
+                        <div class="word-list-title">
+                            Words in this text
+                            <span id="word-count">0 words</span>
+                        </div>
+                        <div id="word-list-container">
+                            <!-- Words will be inserted here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="control-btn back" id="back-btn">
+                ← Back to Lists
+            </button>
+            <button class="control-btn next" id="next-text-btn">
+                Next Text →
+            </button>
+        </div>
+    </div>
+
+    <div class="loading" id="loading" style="display: none;">
+        <div class="loader"></div>
+        Loading...
+    </div>
+
+    <script>
+        // Тексты для практики (можно расширять)
+        const TEXTS = [
+            {
+                title: "Business Meeting",
+                content: `The project team held a meeting to discuss the new strategy. They needed to estimate the required resources and identify potential risks. Each member contributed their perspective on how to improve the workflow. The main objective was to define clear priorities and establish measurable outcomes.`,
+                audio: null, // Будет генерироваться из отдельных слов
+                duration: 45 // секунд
+            },
+            {
+                title: "Market Analysis",
+                content: `Market trends show significant variation this quarter. Companies must adapt their approach to maintain competitive advantage. The overall demand for innovative solutions continues to grow. Businesses that focus on customer value tend to achieve better results in uncertain market conditions.`,
+                audio: null,
+                duration: 38
+            },
+            {
+                title: "Professional Development",
+                content: `Continuous learning is essential for career growth. Employees should consider how their skills contribute to organizational success. Regular feedback helps individuals understand their role and scope for improvement. Effective training programs support professional development and enhance team performance.`,
+                audio: null,
+                duration: 42
+            }
+        ];
+
+        class ReadingPractice {
+            constructor() {
+                this.currentList = null;
+                this.currentTextIndex = 0;
+                this.audio = new Audio();
+                this.isPlaying = false;
+                this.currentTime = 0;
+                this.totalTime = 0;
+                this.playbackRate = 1.0;
+                this.currentSentenceIndex = 0;
+                this.currentWordIndex = 0;
+                this.wordTimings = [];
+                this.sentenceElements = [];
+                this.wordElements = [];
+
+                this.initializeElements();
+                this.loadData();
+            }
+
+            initializeElements() {
+                // Получаем элементы DOM
+                this.textContainer = document.getElementById('text-container');
+                this.playBtn = document.getElementById('play-btn');
+                this.timeDisplay = document.getElementById('time-display');
+                this.progressBar = document.getElementById('progress-bar');
+                this.progressFill = document.getElementById('progress-fill');
+                this.backBtn = document.getElementById('back-btn');
+                this.nextTextBtn = document.getElementById('next-text-btn');
+                this.listNameEl = document.getElementById('list-name');
+                this.listStatsEl = document.getElementById('list-stats');
+                this.wordListContainer = document.getElementById('word-list-container');
+                this.wordCountEl = document.getElementById('word-count');
+                this.loadingEl = document.getElementById('loading');
+
+                // Назначаем обработчики событий
+                this.playBtn.addEventListener('click', () => this.togglePlay());
+                this.progressBar.addEventListener('click', (e) => this.seekAudio(e));
+                this.backBtn.addEventListener('click', () => this.goBack());
+                this.nextTextBtn.addEventListener('click', () => this.nextText());
+
+                // Обработчики скорости воспроизведения
+                document.querySelectorAll('.speed-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => this.setPlaybackSpeed(e));
+                });
+
+                // Обработчики событий аудио
+                this.audio.addEventListener('timeupdate', () => this.updateProgress());
+                this.audio.addEventListener('ended', () => this.onAudioEnd());
+                this.audio.addEventListener('loadedmetadata', () => {
+                    this.totalTime = this.audio.duration;
+                    this.updateTimeDisplay();
+                });
+            }
+
+            async loadData() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const listId = urlParams.get('list');
+
+                try {
+                    this.showLoading();
+
+                    // Загружаем список слов
+                    const response = await fetch(listId);
+                    this.currentList = await response.json();
+                    this.currentList.filename = listId;
+
+                    // Загружаем сохраненный индекс текста или используем 0
+                    const savedIndex = localStorage.getItem(`text_index_${listId}`);
+                    this.currentTextIndex = savedIndex ? parseInt(savedIndex) : 0;
+
+                    this.updateListInfo();
+                    this.loadText();
+
+                } catch (error) {
+                    console.error('Error loading data:', error);
+                    alert('Error loading list. Returning to main page.');
+                    window.location.href = 'index.html';
+                } finally {
+                    this.hideLoading();
+                }
+            }
+
+            showLoading() {
+                this.loadingEl.style.display = 'flex';
+            }
+
+            hideLoading() {
+                this.loadingEl.style.display = 'none';
+            }
+
+            updateListInfo() {
+                this.listNameEl.textContent = this.currentList.name;
+
+                const progress = this.getListProgress();
+                const totalWords = this.currentList.words.length;
+                const learnedWords = progress.known;
+
+                this.listStatsEl.textContent =
+                    `${learnedWords}/${totalWords} words learned • ${this.currentList.level}`;
+            }
+
+            getListProgress() {
+                const listId = this.currentList.filename;
+                const totalWords = this.currentList.words.length;
+
+                let known = 0;
+                let review = 0;
+
+                const keys = Object.keys(localStorage);
+                keys.forEach(key => {
+                    if (key.startsWith(`word_${listId}_`)) {
+                        const status = localStorage.getItem(key);
+                        if (status === 'known') known++;
+                        if (status === 'review') review++;
+                    }
+                });
+
+                const newWords = totalWords - known - review;
+
+                return { known, review, new: newWords };
+            }
+
+            loadText() {
+                const textData = TEXTS[this.currentTextIndex];
+
+                // Очищаем контейнеры
+                this.textContainer.innerHTML = '';
+                this.wordListContainer.innerHTML = '';
+                this.sentenceElements = [];
+                this.wordElements = [];
+                this.wordTimings = [];
+
+                // Разбиваем текст на предложения
+                const sentences = textData.content.split(/[.!?]+/).filter(s => s.trim());
+
+                // Создаем элементы для каждого предложения
+                sentences.forEach((sentence, sentenceIndex) => {
+                    const sentenceDiv = document.createElement('div');
+                    sentenceDiv.className = 'sentence';
+                    sentenceDiv.dataset.index = sentenceIndex;
+
+                    // Разбиваем предложение на слова
+                    const words = sentence.trim().split(/\s+/);
+
+                    words.forEach((word, wordIndex) => {
+                        const wordSpan = document.createElement('span');
+                        const cleanWord = word.replace(/[.,;:]/g, '').toLowerCase();
+
+                        wordSpan.className = 'word';
+                        wordSpan.textContent = word + ' ';
+                        wordSpan.dataset.word = cleanWord;
+                        wordSpan.dataset.sentenceIndex = sentenceIndex;
+                        wordSpan.dataset.wordIndex = wordIndex;
+
+                        // Проверяем, есть ли это слово в нашем списке для изучения
+                        const wordData = this.currentList.words.find(w =>
+                            w.english.toLowerCase() === cleanWord
+                        );
+
+                        if (wordData) {
+                            // Создаем тултип с переводом
+                            const tooltip = document.createElement('div');
+                            tooltip.className = 'word-tooltip';
+                            tooltip.textContent = wordData.translation;
+                            wordSpan.appendChild(tooltip);
+
+                            // Определяем статус слова
+                            const status = localStorage.getItem(
+                                `word_${this.currentList.filename}_${wordData.english}`
+                            ) || 'new';
+
+                            if (status === 'known') {
+                                wordSpan.classList.add('highlight');
+                            } else if (status === 'review' || status === 'new') {
+                                wordSpan.classList.add('learning');
+                            }
+
+                            // Сохраняем данные для синхронизации
+                            this.wordTimings.push({
+                                sentenceIndex,
+                                wordIndex,
+                                word: cleanWord,
+                                startTime: 0, // Будет рассчитано позже
+                                duration: 0.8, // Примерная длительность слова
+                                audioFile: wordData.audio ? wordData.audio[0] : null
+                            });
+
+                            // Добавляем в список слов
+                            this.addWordToList(wordData);
+                        }
+
+                        sentenceDiv.appendChild(wordSpan);
+                        this.wordElements.push(wordSpan);
+                    });
+
+                    this.textContainer.appendChild(sentenceDiv);
+                    this.sentenceElements.push(sentenceDiv);
+                });
+
+                // Обновляем счетчик слов
+                this.wordCountEl.textContent = `${this.wordTimings.length} words`;
+
+                // Синхронизируем тайминги (в реальном приложении это было бы рассчитано точнее)
+                this.syncTimings();
+
+                // Генерируем аудио (в реальном приложении это было бы предзаписанным аудио)
+                this.generateAudio();
+            }
+
+            addWordToList(wordData) {
+                const wordItem = document.createElement('div');
+                wordItem.className = 'word-item';
+                wordItem.dataset.word = wordData.english.toLowerCase();
+
+                const wordText = document.createElement('div');
+                wordText.className = 'word-text';
+                wordText.textContent = wordData.english;
+
+                const wordTranslation = document.createElement('div');
+                wordTranslation.className = 'word-translation';
+                wordTranslation.textContent = wordData.translation;
+
+                wordItem.appendChild(wordText);
+                wordItem.appendChild(wordTranslation);
+
+                wordItem.addEventListener('click', () => {
+                    this.playWordAudio(wordData);
+                });
+
+                this.wordListContainer.appendChild(wordItem);
+            }
+
+            syncTimings() {
+                // В реальном приложении здесь была бы сложная логика синхронизации
+                // с использованием Web Speech API или предзаписанных таймингов
+                const totalDuration = TEXTS[this.currentTextIndex].duration;
+                const wordCount = this.wordTimings.length;
+                const avgWordDuration = totalDuration / wordCount;
+
+                let currentTime = 0;
+                this.wordTimings.forEach((timing, index) => {
+                    timing.startTime = currentTime;
+                    // Случайное небольшое изменение для реалистичности
+                    const variation = Math.random() * 0.3 + 0.85;
+                    timing.duration = avgWordDuration * variation;
+                    currentTime += timing.duration;
+                });
+            }
+
+            generateAudio() {
+                // В реальном приложении здесь был бы предзаписанный аудиофайл
+                // или генерация через Text-to-Speech API
+                this.audio.src = ''; // Очищаем источник
+                this.totalTime = TEXTS[this.currentTextIndex].duration;
+                this.updateTimeDisplay();
+            }
+
+            togglePlay() {
+                if (this.isPlaying) {
+                    this.pauseAudio();
+                } else {
+                    this.playAudio();
+                }
+            }
+
+            playAudio() {
+                this.isPlaying = true;
+                this.playBtn.textContent = '⏸';
+                this.playBtn.classList.add('playing');
+
+                // Запускаем виртуальное воспроизведение (в реальном приложении здесь был бы настоящий audio.play())
+                this.startPlaybackSimulation();
+            }
+
+            pauseAudio() {
+                this.isPlaying = false;
+                this.playBtn.textContent = '▶';
+                this.playBtn.classList.remove('playing');
+
+                // Останавливаем симуляцию
+                clearTimeout(this.playbackTimer);
+            }
+
+            startPlaybackSimulation() {
+                this.currentTime = 0;
+                this.updateProgress();
+
+                const step = () => {
+                    if (!this.isPlaying) return;
+
+                    this.currentTime += 0.1; // Увеличиваем время на 100мс
+
+                    if (this.currentTime >= this.totalTime) {
+                        this.onAudioEnd();
+                        return;
+                    }
+
+                    this.updateProgress();
+                    this.highlightCurrentWord();
+
+                    this.playbackTimer = setTimeout(step, 100); // 100ms interval
+                };
+
+                step();
+            }
+
+            updateProgress() {
+                const progress = (this.currentTime / this.totalTime) * 100;
+                this.progressFill.style.width = `${progress}%`;
+                this.updateTimeDisplay();
+            }
+
+            updateTimeDisplay() {
+                const formatTime = (seconds) => {
+                    const mins = Math.floor(seconds / 60);
+                    const secs = Math.floor(seconds % 60);
+                    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+                };
+
+                this.timeDisplay.textContent =
+                    `${formatTime(this.currentTime)} / ${formatTime(this.totalTime)}`;
+            }
+
+            highlightCurrentWord() {
+                // Снимаем выделение со всех слов
+                this.wordElements.forEach(el => el.classList.remove('active-word'));
+                this.sentenceElements.forEach(el => el.classList.remove('active'));
+
+                // Находим текущее слово
+                const currentTiming = this.wordTimings.find(t =>
+                    this.currentTime >= t.startTime &&
+                    this.currentTime < t.startTime + t.duration
+                );
+
+                if (currentTiming) {
+                    // Выделяем текущее предложение
+                    const sentenceEl = this.sentenceElements[currentTiming.sentenceIndex];
+                    if (sentenceEl) {
+                        sentenceEl.classList.add('active');
+                        sentenceEl.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'center'
+                        });
+                    }
+
+                    // Выделяем текущее слово
+                    const wordEl = this.wordElements.find(el =>
+                        el.dataset.sentenceIndex == currentTiming.sentenceIndex &&
+                        el.dataset.wordIndex == currentTiming.wordIndex
+                    );
+
+                    if (wordEl) {
+                        wordEl.classList.add('active-word');
+
+                        // Также выделяем слово в списке
+                        document.querySelectorAll('.word-item').forEach(item => {
+                            item.classList.remove('playing');
+                            if (item.dataset.word === currentTiming.word) {
+                                item.classList.add('playing');
+                                item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            }
+                        });
+                    }
+                }
+            }
+
+            seekAudio(e) {
+                const rect = this.progressBar.getBoundingClientRect();
+                const clickX = e.clientX - rect.left;
+                const percentage = clickX / rect.width;
+
+                this.currentTime = percentage * this.totalTime;
+                this.updateProgress();
+                this.highlightCurrentWord();
+            }
+
+            setPlaybackSpeed(e) {
+                const speed = parseFloat(e.target.dataset.speed);
+                this.playbackRate = speed;
+
+                // Обновляем UI
+                document.querySelectorAll('.speed-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                e.target.classList.add('active');
+
+                // В реальном приложении здесь бы было: this.audio.playbackRate = speed;
+            }
+
+            playWordAudio(wordData) {
+                if (wordData.audio && wordData.audio.length > 0) {
+                    const wordAudio = new Audio(wordData.audio[0]);
+                    wordAudio.play();
+
+                    // Временно выделяем слово
+                    const wordEl = this.wordElements.find(el =>
+                        el.dataset.word === wordData.english.toLowerCase()
+                    );
+
+                    if (wordEl) {
+                        wordEl.style.backgroundColor = 'rgba(33, 150, 243, 0.5)';
+                        setTimeout(() => {
+                            wordEl.style.backgroundColor = '';
+                        }, 1000);
+                    }
+                }
+            }
+
+            onAudioEnd() {
+                this.isPlaying = false;
+                this.playBtn.textContent = '▶';
+                this.playBtn.classList.remove('playing');
+                this.currentTime = 0;
+                this.updateProgress();
+
+                // Снимаем выделения
+                this.wordElements.forEach(el => el.classList.remove('active-word'));
+                this.sentenceElements.forEach(el => el.classList.remove('active'));
+                document.querySelectorAll('.word-item').forEach(item => {
+                    item.classList.remove('playing');
+                });
+            }
+
+            nextText() {
+                this.currentTextIndex = (this.currentTextIndex + 1) % TEXTS.length;
+
+                // Сохраняем индекс текста
+                localStorage.setItem(`text_index_${this.currentList.filename}`, this.currentTextIndex);
+
+                this.loadText();
+                this.pauseAudio();
+            }
+
+            goBack() {
+                window.location.href = 'index.html';
+            }
+        }
+
+        // Инициализация приложения
+        document.addEventListener('DOMContentLoaded', () => {
+            window.readingApp = new ReadingPractice();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космический геометрический шутер</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            touch-action: none;
+            user-select: none;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #gameContainer {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            height: 700px;
+            margin: 0 auto;
+            overflow: hidden;
+            background:
+                radial-gradient(circle at 20% 30%, rgba(30, 10, 60, 0.3) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(10, 30, 60, 0.3) 0%, transparent 40%),
+                linear-gradient(to bottom, #0a0a1a 0%, #000033 100%);
+            border-radius: 20px;
+            box-shadow:
+                0 0 50px rgba(0, 50, 255, 0.2),
+                inset 0 0 100px rgba(100, 150, 255, 0.05);
+        }
+
+        canvas {
+            display: block;
+        }
+
+        #ui {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        #healthBar {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 120px;
+            height: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        #healthFill {
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(to right, #ff3355, #ff9933);
+            border-radius: 5px;
+            transition: width 0.3s;
+        }
+
+        #message {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            text-align: center;
+            color: #aaffff;
+            text-shadow: 0 0 10px rgba(100, 200, 255, 0.8);
+            opacity: 0;
+            transition: opacity 0.5s;
+            pointer-events: none;
+            padding: 15px 25px;
+            background-color: rgba(0, 20, 50, 0.5);
+            border-radius: 10px;
+            border: 1px solid rgba(100, 200, 255, 0.3);
+        }
+
+        #controlsInfo {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: rgba(200, 220, 255, 0.7);
+            font-size: 14px;
+            pointer-events: none;
+        }
+
+        #instructions {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: rgba(200, 220, 255, 0.7);
+            font-size: 14px;
+            text-align: right;
+            pointer-events: none;
+        }
+
+        .glow {
+            filter: drop-shadow(0 0 5px currentColor);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="margin-bottom: 10px; color: #aaffff; text-shadow: 0 0 10px rgba(100, 200, 255, 0.7);">КОСМИЧЕСКИЙ ШУТЕР</h1>
+    <p style="margin-bottom: 20px; color: #88aaff; text-align: center; max-width: 400px;">Управляйте кораблем, перетаскивая его по экрану. Уворачивайтесь от врагов и их выстрелов!</p>
+
+    <div id="gameContainer">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui">
+            <div id="healthBar">
+                <div id="healthFill"></div>
+            </div>
+            <div id="instructions">
+                ЖИЗНИ: <span id="healthValue">100</span><br>
+                ВРАГОВ: <span id="enemiesCount">0</span>
+            </div>
+            <div id="message"></div>
+            <div id="controlsInfo">Перетаскивайте корабль пальцем для управления</div>
+        </div>
+    </div>
+
+    <script>
+        // Получаем элементы DOM
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+        const gameContainer = document.getElementById('gameContainer');
+        const healthFill = document.getElementById('healthFill');
+        const healthValue = document.getElementById('healthValue');
+        const enemiesCount = document.getElementById('enemiesCount');
+        const message = document.getElementById('message');
+
+        // Устанавливаем размеры canvas
+        canvas.width = gameContainer.clientWidth;
+        canvas.height = gameContainer.clientHeight;
+
+        // Основные переменные игры
+        let gameState = 'playing'; // 'playing', 'gameOver', 'bossFight'
+        let score = 0;
+        let playerHealth = 100;
+        let level = 1;
+        let enemiesDefeated = 0;
+        let bossActive = false;
+        let frames = 0;
+
+        // Класс игрока
+        class Player {
+            constructor() {
+                this.x = canvas.width / 2;
+                this.y = canvas.height - 80;
+                this.width = 40;
+                this.height = 40;
+                this.speed = 8;
+                this.dragStartX = null;
+                this.dragOffsetX = 0;
+                this.color = '#33aaff';
+                this.glowColor = '#33aaff';
+                this.trail = [];
+                this.maxTrail = 10;
+            }
+
+            draw() {
+                // Рисуем след
+                for (let i = 0; i < this.trail.length; i++) {
+                    const point = this.trail[i];
+                    const alpha = i / this.trail.length * 0.5;
+
+                    ctx.save();
+                    ctx.globalAlpha = alpha;
+                    ctx.fillStyle = this.color;
+                    ctx.beginPath();
+                    ctx.arc(point.x, point.y, this.width / 2 * (i / this.trail.length), 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.restore();
+                }
+
+                // Рисуем корабль (геометрическая форма)
+                ctx.save();
+
+                // Внешнее свечение
+                ctx.shadowColor = this.glowColor;
+                ctx.shadowBlur = 15;
+
+                // Основной корпус (шестиугольник)
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.moveTo(this.x, this.y - this.height/2);
+                ctx.lineTo(this.x + this.width/2, this.y - this.height/4);
+                ctx.lineTo(this.x + this.width/2, this.y + this.height/4);
+                ctx.lineTo(this.x, this.y + this.height/2);
+                ctx.lineTo(this.x - this.width/2, this.y + this.height/4);
+                ctx.lineTo(this.x - this.width/2, this.y - this.height/4);
+                ctx.closePath();
+                ctx.fill();
+
+                // Внутренний слой
+                ctx.fillStyle = '#aaddff';
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.width/3, 0, Math.PI * 2);
+                ctx.fill();
+
+                // Центральное ядро
+                ctx.fillStyle = '#ffffff';
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.width/6, 0, Math.PI * 2);
+                ctx.fill();
+
+                ctx.restore();
+
+                // Обновляем след
+                this.trail.push({x: this.x, y: this.y});
+                if (this.trail.length > this.maxTrail) {
+                    this.trail.shift();
+                }
+            }
+
+            update(mouseX) {
+                if (mouseX !== null) {
+                    // Плавное движение к целевой позиции
+                    const targetX = mouseX + this.dragOffsetX;
+                    const dx = targetX - this.x;
+                    this.x += dx * 0.2; // Плавное движение
+                }
+
+                // Ограничиваем движение в пределах экрана
+                this.x = Math.max(this.width/2, Math.min(canvas.width - this.width/2, this.x));
+            }
+
+            startDrag(clientX) {
+                this.dragStartX = clientX;
+                this.dragOffsetX = this.x - clientX;
+            }
+
+            updateDrag(clientX) {
+                if (this.dragStartX !== null) {
+                    this.x = clientX + this.dragOffsetX;
+                }
+            }
+
+            endDrag() {
+                this.dragStartX = null;
+            }
+
+            takeDamage(damage) {
+                playerHealth -= damage;
+                if (playerHealth < 0) playerHealth = 0;
+
+                // Обновляем полоску здоровья
+                healthFill.style.width = `${playerHealth}%`;
+                healthValue.textContent = playerHealth;
+
+                // Мигание корабля при получении урона
+                this.color = '#ff5555';
+                this.glowColor = '#ff5555';
+                setTimeout(() => {
+                    this.color = '#33aaff';
+                    this.glowColor = '#33aaff';
+                }, 200);
+
+                if (playerHealth <= 0) {
+                    gameState = 'gameOver';
+                    showMessage("КОРАБЛЬ УНИЧТОЖЕН!");
+                }
+            }
+        }
+
+        // Класс врагов
+        class Enemy {
+            constructor(type = 'basic') {
+                this.type = type;
+                this.width = type === 'boss' ? 80 : (type === 'shooter' ? 35 : 30);
+                this.height = type === 'boss' ? 80 : (type === 'shooter' ? 35 : 30);
+                this.x = Math.random() * (canvas.width - this.width);
+                this.y = -this.height;
+                this.speed = type === 'boss' ? 0.8 : (Math.random() * 2 + 1 + level * 0.2);
+                this.color = this.getColor();
+                this.glowColor = this.color;
+                this.health = type === 'boss' ? 50 : (type === 'shooter' ? 3 : 1);
+                this.maxHealth = this.health;
+                this.shootCooldown = 0;
+                this.shootInterval = type === 'boss' ? 60 : (type === 'shooter' ? 120 : 0);
+                this.bullets = [];
+                this.angle = 0;
+                this.rotationSpeed = type === 'boss' ? 0.02 : (Math.random() * 0.04 - 0.02);
+                this.shape = Math.floor(Math.random() * 3); // 0: круг, 1: квадрат, 2: треугольник
+            }
+
+            getColor() {
+                const colors = ['#ff5555', '#ffaa33', '#aa55ff', '#55ffaa', '#ff55aa'];
+                return colors[Math.floor(Math.random() * colors.length)];
+            }
+
+            draw() {
+                ctx.save();
+
+                // Свечение врага
+                ctx.shadowColor = this.glowColor;
+                ctx.shadowBlur = 15;
+
+                ctx.translate(this.x + this.width/2, this.y + this.height/2);
+                ctx.rotate(this.angle);
+
+                // Рисуем в зависимости от формы
+                switch(this.shape) {
+                    case 0: // Круг
+                        ctx.fillStyle = this.color;
+                        ctx.beginPath();
+                        ctx.arc(0, 0, this.width/2, 0, Math.PI * 2);
+                        ctx.fill();
+
+                        // Внутренний круг
+                        ctx.fillStyle = '#ffffff';
+                        ctx.beginPath();
+                        ctx.arc(0, 0, this.width/4, 0, Math.PI * 2);
+                        ctx.fill();
+                        break;
+
+                    case 1: // Квадрат
+                        ctx.fillStyle = this.color;
+                        ctx.fillRect(-this.width/2, -this.height/2, this.width, this.height);
+
+                        // Внутренний квадрат
+                        ctx.fillStyle = '#ffffff';
+                        ctx.fillRect(-this.width/4, -this.height/4, this.width/2, this.height/2);
+                        break;
+
+                    case 2: // Треугольник
+                        ctx.fillStyle = this.color;
+                        ctx.beginPath();
+                        ctx.moveTo(0, -this.height/2);
+                        ctx.lineTo(this.width/2, this.height/2);
+                        ctx.lineTo(-this.width/2, this.height/2);
+                        ctx.closePath();
+                        ctx.fill();
+
+                        // Внутренний треугольник
+                        ctx.fillStyle = '#ffffff';
+                        ctx.beginPath();
+                        ctx.moveTo(0, -this.height/4);
+                        ctx.lineTo(this.width/4, this.height/4);
+                        ctx.lineTo(-this.width/4, this.height/4);
+                        ctx.closePath();
+                        ctx.fill();
+                        break;
+                }
+
+                ctx.restore();
+
+                // Рисуем здоровье для босса
+                if (this.type === 'boss') {
+                    const healthWidth = 100;
+                    const healthHeight = 8;
+                    const healthX = this.x + this.width/2 - healthWidth/2;
+                    const healthY = this.y - 15;
+
+                    // Фон здоровья
+                    ctx.fillStyle = 'rgba(255, 255, 255, 0.2)';
+                    ctx.fillRect(healthX, healthY, healthWidth, healthHeight);
+
+                    // Здоровье
+                    const healthPercent = this.health / this.maxHealth;
+                    ctx.fillStyle = healthPercent > 0.5 ? '#55ff55' : (healthPercent > 0.2 ? '#ffff55' : '#ff5555');
+                    ctx.fillRect(healthX, healthY, healthWidth * healthPercent, healthHeight);
+                }
+
+                // Рисуем пули врага
+                for (let bullet of this.bullets) {
+                    bullet.draw();
+                }
+            }
+
+            update() {
+                this.y += this.speed;
+                this.angle += this.rotationSpeed;
+
+                // Стрельба
+                if (this.shootInterval > 0) {
+                    this.shootCooldown++;
+                    if (this.shootCooldown >= this.shootInterval) {
+                        this.shoot();
+                        this.shootCooldown = 0;
+                    }
+                }
+
+                // Обновляем пули
+                for (let i = this.bullets.length - 1; i >= 0; i--) {
+                    this.bullets[i].update();
+
+                    // Удаляем пули, вышедшие за экран
+                    if (this.bullets[i].y > canvas.height) {
+                        this.bullets.splice(i, 1);
+                    }
+                }
+
+                // Возвращаем true, если враг вышел за экран
+                return this.y > canvas.height;
+            }
+
+            shoot() {
+                if (this.type === 'boss') {
+                    // Босс стреляет веером
+                    for (let i = 0; i < 8; i++) {
+                        const angle = (i / 8) * Math.PI * 2;
+                        this.bullets.push(new Bullet(
+                            this.x + this.width/2,
+                            this.y + this.height,
+                            Math.sin(angle) * 3,
+                            3,
+                            '#ff5555',
+                            'enemy'
+                        ));
+                    }
+                } else {
+                    // Обычный стрелок стреляет вниз
+                    this.bullets.push(new Bullet(
+                        this.x + this.width/2,
+                        this.y + this.height,
+                        0,
+                        5,
+                        '#ffaa33',
+                        'enemy'
+                    ));
+                }
+            }
+
+            takeDamage(damage = 1) {
+                this.health -= damage;
+
+                // Мигание при получении урона
+                const originalColor = this.color;
+                this.color = '#ffffff';
+                setTimeout(() => {
+                    this.color = originalColor;
+                }, 100);
+
+                return this.health <= 0;
+            }
+
+            getBullets() {
+                return this.bullets;
+            }
+        }
+
+        // Класс пуль
+        class Bullet {
+            constructor(x, y, dx, dy, color, source) {
+                this.x = x;
+                this.y = y;
+                this.dx = dx;
+                this.dy = dy;
+                this.radius = source === 'player' ? 6 : 4;
+                this.color = color;
+                this.source = source; // 'player' или 'enemy'
+                this.glowColor = color;
+            }
+
+            draw() {
+                ctx.save();
+                ctx.shadowColor = this.glowColor;
+                ctx.shadowBlur = 10;
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+            }
+
+            update() {
+                this.x += this.dx;
+                this.y += this.dy;
+            }
+
+            isOffScreen() {
+                return this.y < 0 || this.y > canvas.height || this.x < 0 || this.x > canvas.width;
+            }
+        }
+
+        // Создаем игрока
+        const player = new Player();
+
+        // Массивы объектов
+        let enemies = [];
+        let particles = [];
+
+        // Переменные для управления
+        let mouseX = null;
+        let isDragging = false;
+
+        // Функция для создания частиц эффекта
+        function createParticles(x, y, color, count = 10) {
+            for (let i = 0; i < count; i++) {
+                particles.push({
+                    x: x,
+                    y: y,
+                    dx: (Math.random() - 0.5) * 6,
+                    dy: (Math.random() - 0.5) * 6,
+                    radius: Math.random() * 3 + 2,
+                    color: color,
+                    life: 30
+                });
+            }
+        }
+
+        // Показать сообщение
+        function showMessage(text, duration = 2000) {
+            message.textContent = text;
+            message.style.opacity = '1';
+
+            setTimeout(() => {
+                message.style.opacity = '0';
+            }, duration);
+        }
+
+        // Создание врагов
+        function spawnEnemy() {
+            if (gameState !== 'playing') return;
+
+            // Шанс появления стрелка увеличивается с уровнем
+            let enemyType = 'basic';
+            const rand = Math.random();
+
+            if (!bossActive) {
+                if (rand < 0.1 + level * 0.05) {
+                    enemyType = 'shooter';
+                }
+
+                // Шанс появления босса после определенного количества убитых врагов
+                if (enemiesDefeated > 10 && !bossActive && rand < 0.01) {
+                    enemyType = 'boss';
+                    bossActive = true;
+                    showMessage("БОСС АКТИВИРОВАН!", 3000);
+                }
+            }
+
+            enemies.push(new Enemy(enemyType));
+
+            // Обновляем счетчик врагов
+            enemiesCount.textContent = enemies.length;
+        }
+
+        // Проверка столкновений
+        function checkCollisions() {
+            // Проверка столкновений врагов с игроком
+            for (let i = enemies.length - 1; i >= 0; i--) {
+                const enemy = enemies[i];
+
+                // Столкновение врага с игроком
+                const dx = player.x - enemy.x;
+                const dy = player.y - enemy.y;
+                const distance = Math.sqrt(dx * dx + dy * dy);
+                const minDistance = player.width/2 + enemy.width/2;
+
+                if (distance < minDistance) {
+                    // Урон игроку
+                    player.takeDamage(enemy.type === 'boss' ? 20 : 10);
+
+                    // Создаем эффект взрыва
+                    createParticles(enemy.x + enemy.width/2, enemy.y + enemy.height/2, enemy.color, 15);
+
+                    // Удаляем врага
+                    enemies.splice(i, 1);
+                    enemiesDefeated++;
+                    enemiesCount.textContent = enemies.length;
+                    continue;
+                }
+
+                // Проверка столкновений пуль врага с игроком
+                for (let j = enemy.bullets.length - 1; j >= 0; j--) {
+                    const bullet = enemy.bullets[j];
+
+                    const bulletDx = player.x - bullet.x;
+                    const bulletDy = player.y - bullet.y;
+                    const bulletDistance = Math.sqrt(bulletDx * bulletDx + bulletDy * bulletDy);
+
+                    if (bulletDistance < player.width/2 + bullet.radius) {
+                        // Урон игроку
+                        player.takeDamage(enemy.type === 'boss' ? 5 : 2);
+
+                        // Создаем эффект
+                        createParticles(bullet.x, bullet.y, bullet.color, 5);
+
+                        // Удаляем пулю
+                        enemy.bullets.splice(j, 1);
+                    }
+                }
+            }
+        }
+
+        // Обновление игры
+        function update() {
+            if (gameState !== 'playing') return;
+
+            frames++;
+
+            // Обновляем игрока
+            player.update(mouseX);
+
+            // Спавним врагов периодически
+            if (frames % (60 - Math.min(level * 5, 40)) === 0) {
+                spawnEnemy();
+            }
+
+            // Обновляем врагов
+            for (let i = enemies.length - 1; i >= 0; i--) {
+                const enemy = enemies[i];
+                const isOffScreen = enemy.update();
+
+                // Удаляем врагов, вышедших за экран
+                if (isOffScreen && enemy.type !== 'boss') {
+                    enemies.splice(i, 1);
+                    enemiesCount.textContent = enemies.length;
+                }
+
+                // Если босс уничтожен
+                if (enemy.type === 'boss' && enemy.health <= 0) {
+                    createParticles(enemy.x + enemy.width/2, enemy.y + enemy.height/2, enemy.color, 30);
+                    enemies.splice(i, 1);
+                    bossActive = false;
+                    level++;
+                    showMessage(`УРОВЕНЬ ${level}`, 2000);
+                    enemiesDefeated = 0;
+                    enemiesCount.textContent = enemies.length;
+                }
+            }
+
+            // Проверяем столкновения
+            checkCollisions();
+
+            // Обновляем частицы
+            for (let i = particles.length - 1; i >= 0; i--) {
+                particles[i].x += particles[i].dx;
+                particles[i].y += particles[i].dy;
+                particles[i].life--;
+
+                if (particles[i].life <= 0) {
+                    particles.splice(i, 1);
+                }
+            }
+        }
+
+        // Отрисовка игры
+        function draw() {
+            // Очищаем canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Рисуем космический фон (звезды)
+            for (let i = 0; i < 100; i++) {
+                const x = (i * 7) % canvas.width;
+                const y = (i * 13) % canvas.height;
+                const size = (i % 3 + 1) * 0.5;
+                const alpha = 0.3 + Math.sin(frames * 0.05 + i) * 0.2;
+
+                ctx.fillStyle = `rgba(255, 255, 255, ${alpha})`;
+                ctx.beginPath();
+                ctx.arc(x, y, size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            // Рисуем туманность
+            ctx.save();
+            ctx.globalAlpha = 0.03;
+            ctx.fillStyle = '#3355ff';
+            ctx.beginPath();
+            ctx.arc(canvas.width * 0.3, canvas.height * 0.4, 150, 0, Math.PI * 2);
+            ctx.fill();
+
+            ctx.fillStyle = '#aa33ff';
+            ctx.beginPath();
+            ctx.arc(canvas.width * 0.7, canvas.height * 0.6, 100, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.restore();
+
+            // Рисуем врагов
+            for (let enemy of enemies) {
+                enemy.draw();
+            }
+
+            // Рисуем игрока
+            player.draw();
+
+            // Рисуем частицы
+            for (let particle of particles) {
+                ctx.save();
+                ctx.globalAlpha = particle.life / 30;
+                ctx.fillStyle = particle.color;
+                ctx.beginPath();
+                ctx.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+            }
+
+            // Если игра окончена
+            if (gameState === 'gameOver') {
+                ctx.save();
+                ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                ctx.fillStyle = '#ff5555';
+                ctx.font = 'bold 30px Arial';
+                ctx.textAlign = 'center';
+                ctx.fillText('ИГРА ОКОНЧЕНА', canvas.width/2, canvas.height/2 - 30);
+
+                ctx.fillStyle = '#ffffff';
+                ctx.font = '20px Arial';
+                ctx.fillText('Нажмите для перезапуска', canvas.width/2, canvas.height/2 + 20);
+                ctx.restore();
+            }
+        }
+
+        // Игровой цикл
+        function gameLoop() {
+            update();
+            draw();
+            requestAnimationFrame(gameLoop);
+        }
+
+        // Обработчики событий управления
+        gameContainer.addEventListener('mousedown', (e) => {
+            if (gameState === 'gameOver') {
+                // Перезапуск игры
+                playerHealth = 100;
+                healthFill.style.width = '100%';
+                healthValue.textContent = '100';
+                enemies = [];
+                particles = [];
+                gameState = 'playing';
+                level = 1;
+                enemiesDefeated = 0;
+                bossActive = false;
+                showMessage("НОВАЯ ИГРА");
+                return;
+            }
+
+            const rect = canvas.getBoundingClientRect();
+            mouseX = e.clientX - rect.left;
+            player.startDrag(mouseX);
+            isDragging = true;
+        });
+
+        gameContainer.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+
+            const rect = canvas.getBoundingClientRect();
+            mouseX = e.clientX - rect.left;
+            player.updateDrag(mouseX);
+        });
+
+        gameContainer.addEventListener('mouseup', () => {
+            mouseX = null;
+            player.endDrag();
+            isDragging = false;
+        });
+
+        gameContainer.addEventListener('mouseleave', () => {
+            mouseX = null;
+            player.endDrag();
+            isDragging = false;
+        });
+
+        // Сенсорные события для мобильных устройств
+        gameContainer.addEventListener('touchstart', (e) => {
+            e.preventDefault();
+            if (gameState === 'gameOver') {
+                // Перезапуск игры
+                playerHealth = 100;
+                healthFill.style.width = '100%';
+                healthValue.textContent = '100';
+                enemies = [];
+                particles = [];
+                gameState = 'playing';
+                level = 1;
+                enemiesDefeated = 0;
+                bossActive = false;
+                showMessage("НОВАЯ ИГРА");
+                return;
+            }
+
+            const rect = canvas.getBoundingClientRect();
+            mouseX = e.touches[0].clientX - rect.left;
+            player.startDrag(mouseX);
+            isDragging = true;
+        });
+
+        gameContainer.addEventListener('touchmove', (e) => {
+            e.preventDefault();
+            if (!isDragging) return;
+
+            const rect = canvas.getBoundingClientRect();
+            mouseX = e.touches[0].clientX - rect.left;
+            player.updateDrag(mouseX);
+        });
+
+        gameContainer.addEventListener('touchend', () => {
+            mouseX = null;
+            player.endDrag();
+            isDragging = false;
+        });
+
+        // Запуск игры
+        gameLoop();
+
+        // Адаптация к изменению размера окна
+        window.addEventListener('resize', () => {
+            canvas.width = gameContainer.clientWidth;
+            canvas.height = gameContainer.clientHeight;
+        });
+
+        // Начальное сообщение
+        setTimeout(() => {
+            showMessage("УКЛОНЯЙТЕСЬ ОТ ВРАГОВ!", 3000);
+        }, 1000);
+    </script>
+</body>
+</html>

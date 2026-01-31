@@ -1,0 +1,498 @@
+{
+  "name": "Advanced English",
+  "level": "Intermediate",
+  "theme": "General",
+  "filename": "english/list_intermediate_4.json",
+  "words": [
+    {
+      "english": "access",
+      "translation": "доступ",
+      "audio": [
+        "audio/access/1.wav"
+      ]
+    },
+    {
+      "english": "advertise",
+      "translation": "рекламировать",
+      "audio": [
+        "audio/advertise/1.wav"
+      ]
+    },
+    {
+      "english": "advise",
+      "translation": "советовать",
+      "audio": [
+        "audio/advise/1.wav"
+      ]
+    },
+    {
+      "english": "analyze",
+      "translation": "анализировать",
+      "audio": [
+        "audio/analyze/1.wav"
+      ]
+    },
+    {
+      "english": "announce",
+      "translation": "объявлять",
+      "audio": [
+        "audio/announce/1.wav"
+      ]
+    },
+    {
+      "english": "approve",
+      "translation": "одобрять",
+      "audio": [
+        "audio/approve/1.wav"
+      ]
+    },
+    {
+      "english": "arrange",
+      "translation": "организовывать",
+      "audio": [
+        "audio/arrange/1.wav"
+      ]
+    },
+    {
+      "english": "attach",
+      "translation": "прикреплять",
+      "audio": [
+        "audio/attach/1.wav"
+      ]
+    },
+    {
+      "english": "attract",
+      "translation": "привлекать",
+      "audio": [
+        "audio/attract/1.wav"
+      ]
+    },
+    {
+      "english": "avoidance",
+      "translation": "избегание",
+      "audio": [
+        "audio/avoidance/1.wav"
+      ]
+    },
+    {
+      "english": "believe",
+      "translation": "верить",
+      "audio": [
+        "audio/believe/1.wav"
+      ]
+    },
+    {
+      "english": "borrow",
+      "translation": "одалживать",
+      "audio": [
+        "audio/borrow/1.wav"
+      ]
+    },
+    {
+      "english": "calculate",
+      "translation": "рассчитывать",
+      "audio": [
+        "audio/calculate/1.wav"
+      ]
+    },
+    {
+      "english": "compete",
+      "translation": "конкурировать",
+      "audio": [
+        "audio/compete/1.wav"
+      ]
+    },
+    {
+      "english": "compliment",
+      "translation": "комплимент",
+      "audio": [
+        "audio/compliment/1.wav"
+      ]
+    },
+    {
+      "english": "concentrate",
+      "translation": "концентрироваться",
+      "audio": [
+        "audio/concentrate/1.wav"
+      ]
+    },
+    {
+      "english": "confirming",
+      "translation": "подтверждение",
+      "audio": [
+        "audio/confirming/1.wav"
+      ]
+    },
+    {
+      "english": "consume",
+      "translation": "потреблять",
+      "audio": [
+        "audio/consume/1.wav"
+      ]
+    },
+    {
+      "english": "contribute",
+      "translation": "вносить вклад",
+      "audio": [
+        "audio/contribute/1.wav"
+      ]
+    },
+    {
+      "english": "convince",
+      "translation": "убеждать",
+      "audio": [
+        "audio/convince/1.wav"
+      ]
+    },
+    {
+      "english": "delay",
+      "translation": "задерживать",
+      "audio": [
+        "audio/delay/1.wav"
+      ]
+    },
+    {
+      "english": "deny",
+      "translation": "отрицать",
+      "audio": [
+        "audio/deny/1.wav"
+      ]
+    },
+    {
+      "english": "design",
+      "translation": "дизайн",
+      "audio": [
+        "audio/design/1.wav"
+      ]
+    },
+    {
+      "english": "determine",
+      "translation": "определять",
+      "audio": [
+        "audio/determine/1.wav"
+      ]
+    },
+    {
+      "english": "disagree",
+      "translation": "не соглашаться",
+      "audio": [
+        "audio/disagree/1.wav"
+      ]
+    },
+    {
+      "english": "discover",
+      "translation": "обнаруживать",
+      "audio": [
+        "audio/discover/1.wav"
+      ]
+    },
+    {
+      "english": "divide",
+      "translation": "делить",
+      "audio": [
+        "audio/divide/1.wav"
+      ]
+    },
+    {
+      "english": "enable",
+      "translation": "давать возможность",
+      "audio": [
+        "audio/enable/1.wav"
+      ]
+    },
+    {
+      "english": "exchange",
+      "translation": "обменивать",
+      "audio": [
+        "audio/exchange/1.wav"
+      ]
+    },
+    {
+      "english": "expand",
+      "translation": "расширять",
+      "audio": [
+        "audio/expand/1.wav"
+      ]
+    },
+    {
+      "english": "explore",
+      "translation": "исследовать",
+      "audio": [
+        "audio/explore/1.wav"
+      ]
+    },
+    {
+      "english": "extend",
+      "translation": "продлевать",
+      "audio": [
+        "audio/extend/1.wav"
+      ]
+    },
+    {
+      "english": "feature",
+      "translation": "характеристика",
+      "audio": [
+        "audio/feature/1.wav"
+      ]
+    },
+    {
+      "english": "figure",
+      "translation": "цифра",
+      "audio": [
+        "audio/figure/1.wav"
+      ]
+    },
+    {
+      "english": "freeze",
+      "translation": "замораживать",
+      "audio": [
+        "audio/freeze/1.wav"
+      ]
+    },
+    {
+      "english": "generate",
+      "translation": "генерировать",
+      "audio": [
+        "audio/generate/1.wav"
+      ]
+    },
+    {
+      "english": "guarantee",
+      "translation": "гарантировать",
+      "audio": [
+        "audio/guarantee/1.wav"
+      ]
+    },
+    {
+      "english": "hire",
+      "translation": "нанимать",
+      "audio": [
+        "audio/hire/1.wav"
+      ]
+    },
+    {
+      "english": "implement",
+      "translation": "внедрять",
+      "audio": [
+        "audio/implement/1.wav"
+      ]
+    },
+    {
+      "english": "impress",
+      "translation": "впечатлять",
+      "audio": [
+        "audio/impress/1.wav"
+      ]
+    },
+    {
+      "english": "indicate",
+      "translation": "указывать",
+      "audio": [
+        "audio/indicate/1.wav"
+      ]
+    },
+    {
+      "english": "install",
+      "translation": "устанавливать",
+      "audio": [
+        "audio/install/1.wav"
+      ]
+    },
+    {
+      "english": "intend",
+      "translation": "намереваться",
+      "audio": [
+        "audio/intend/1.wav"
+      ]
+    },
+    {
+      "english": "interrupt",
+      "translation": "прерывать",
+      "audio": [
+        "audio/interrupt/1.wav"
+      ]
+    },
+    {
+      "english": "invest",
+      "translation": "инвестировать",
+      "audio": [
+        "audio/invest/1.wav"
+      ]
+    },
+    {
+      "english": "justify",
+      "translation": "оправдывать",
+      "audio": [
+        "audio/justify/1.wav"
+      ]
+    },
+    {
+      "english": "launch",
+      "translation": "запускать",
+      "audio": [
+        "audio/launch/1.wav"
+      ]
+    },
+    {
+      "english": "measure",
+      "translation": "измерять",
+      "audio": [
+        "audio/measure/1.wav"
+      ]
+    },
+    {
+      "english": "negotiate",
+      "translation": "вести переговоры",
+      "audio": [
+        "audio/negotiate/1.wav"
+      ]
+    },
+    {
+      "english": "observe",
+      "translation": "наблюдать",
+      "audio": [
+        "audio/observe/1.wav"
+      ]
+    },
+    {
+      "english": "participate",
+      "translation": "участвовать",
+      "audio": [
+        "audio/participate/1.wav"
+      ]
+    },
+    {
+      "english": "perspective",
+      "translation": "точка зрения",
+      "audio": [
+        "audio/perspective/1.wav"
+      ]
+    },
+    {
+      "english": "promote",
+      "translation": "продвигать",
+      "audio": [
+        "audio/promote/1.wav"
+      ]
+    },
+    {
+      "english": "purchase",
+      "translation": "покупать",
+      "audio": [
+        "audio/purchase/1.wav"
+      ]
+    },
+    {
+      "english": "react",
+      "translation": "реагировать",
+      "audio": [
+        "audio/react/1.wav"
+      ]
+    },
+    {
+      "english": "recover",
+      "translation": "восстанавливаться",
+      "audio": [
+        "audio/recover/1.wav"
+      ]
+    },
+    {
+      "english": "refund",
+      "translation": "возврат",
+      "audio": [
+        "audio/refund/1.wav"
+      ]
+    },
+    {
+      "english": "reject",
+      "translation": "отклонять",
+      "audio": [
+        "audio/reject/1.wav"
+      ]
+    },
+    {
+      "english": "release",
+      "translation": "выпускать",
+      "audio": [
+        "audio/release/1.wav"
+      ]
+    },
+    {
+      "english": "schedule",
+      "translation": "расписание",
+      "audio": [
+        "audio/schedule/1.wav"
+      ]
+    },
+    {
+      "english": "sufficient",
+      "translation": "достаточный",
+      "audio": [
+        "audio/sufficient/1.wav"
+      ]
+    },
+    {
+      "english": "temporary",
+      "translation": "временный",
+      "audio": [
+        "audio/temporary/1.wav"
+      ]
+    },
+    {
+      "english": "typical",
+      "translation": "типичный",
+      "audio": [
+        "audio/typical/1.wav"
+      ]
+    },
+    {
+      "english": "unique",
+      "translation": "уникальный",
+      "audio": [
+        "audio/unique/1.wav"
+      ]
+    },
+    {
+      "english": "visible",
+      "translation": "видимый",
+      "audio": [
+        "audio/visible/1.wav"
+      ]
+    },
+    {
+      "english": "willing",
+      "translation": "готовый",
+      "audio": [
+        "audio/willing/1.wav"
+      ]
+    },
+    {
+      "english": "roughly",
+      "translation": "примерно",
+      "audio": [
+        "audio/roughly/1.wav"
+      ]
+    },
+    {
+      "english": "totally",
+      "translation": "полностью",
+      "audio": [
+        "audio/totally/1.wav"
+      ]
+    },
+    {
+      "english": "partly",
+      "translation": "частично",
+      "audio": [
+        "audio/partly/1.wav"
+      ]
+    },
+    {
+      "english": "widely",
+      "translation": "широко",
+      "audio": [
+        "audio/widely/1.wav"
+      ]
+    }
+  ]
+}

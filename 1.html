@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Игровые мобы</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            touch-action: none;
+        }
+        body {
+            overflow: hidden;
+            background: #000;
+            height: 100vh;
+            position: relative;
+            font-family: monospace;
+        }
+        canvas {
+            display: block;
+            width: 100vw;
+            height: 100vh;
+        }
+        .counter {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 24px;
+            color: white;
+            background: rgba(0,0,0,0.7);
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.3);
+            z-index: 100;
+        }
+        .title {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 18px;
+            color: white;
+            background: rgba(0,0,0,0.7);
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.3);
+            max-width: 500px;
+            z-index: 100;
+        }
+        .health-bar {
+            position: absolute;
+            top: 70px;
+            left: 20px;
+            width: 200px;
+            height: 20px;
+            background: rgba(0,0,0,0.7);
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.3);
+            overflow: hidden;
+            z-index: 100;
+        }
+        .health-fill {
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(to right, #ff0000, #00ff00);
+            transition: width 0.3s;
+        }
+        .damage-effect {
+            position: absolute;
+            pointer-events: none;
+            z-index: 50;
+        }
+    </style>
+</head>
+<body>
+    <div class="title" id="title">Моб 1: Мистический дух</div>
+    <div class="counter" id="counter">Здоровье: 1/1</div>
+    <div class="health-bar">
+        <div class="health-fill" id="healthFill"></div>
+    </div>
+    <canvas id="game"></canvas>
+    <script>
+        const canvas = document.getElementById('game');
+        const ctx = canvas.getContext('2d');
+        const titleElement = document.getElementById('title');
+        const counterElement = document.getElementById('counter');
+        const healthFillElement = document.getElementById('healthFill');
+
+        let currentMob = 0;
+        const mobs = [
+            { id: 1, title: "Моб 1: Мистический дух", health: 1, maxHealth: 1, scaleFactor: 2.0 },
+            { id: 2, title: "Моб 2: Энергетический вихрь", health: 1, maxHealth: 1, scaleFactor: 2.0 },
+            { id: 3, title: "Моб 3: Древнее дерево с корнями", health: 1, maxHealth: 1, scaleFactor: 2.0 }
+        ];
+
+        let damageEffects = [];
+        let mobPosition = { x: 0, y: 0 };
+        let mobScale = 1;
+        let mobRotation = 0;
+        let isMobAlive = true;
+        let attackAnimation = 0;
+        let deathAnimation = 0;
+
+        function resize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            mobPosition.x = canvas.width / 2;
+            mobPosition.y = canvas.height / 2;
+        }
+        window.addEventListener('resize', resize);
+        resize();
+
+        const groundLevel = canvas.height * 0.7;
+
+        class DamageEffect {
+            constructor(x, y, type) {
+                this.x = x;
+                this.y = y;
+                this.type = type;
+                this.life = 1.0;
+                this.size = type === 'hit' ? 20 : 50;
+                this.particles = [];
+
+                if(type === 'hit') {
+                    for(let i = 0; i < 8; i++) {
+                        this.particles.push({
+                            x: 0,
+                            y: 0,
+                            vx: (Math.random() - 0.5) * 10,
+                            vy: (Math.random() - 0.5) * 10 - 5,
+                            life: 1.0
+                        });
+                    }
+                } else {
+                    for(let i = 0; i < 20; i++) {
+                        this.particles.push({
+                            x: 0,
+                            y: 0,
+                            vx: (Math.random() - 0.5) * 15,
+                            vy: (Math.random() - 0.5) * 15 - 8,
+                            life: 1.0,
+                            color: `hsl(${Math.random() * 60}, 100%, 60%)`
+                        });
+                    }
+                }
+            }
+
+            update() {
+                this.life -= 0.03;
+                this.particles.forEach(p => {
+                    p.x += p.vx;
+                    p.y += p.vy;
+                    p.vy += 0.3;
+                    p.life -= 0.02;
+                });
+                return this.life > 0;
+            }
+
+            draw() {
+                if(this.type === 'hit') {
+                    ctx.save();
+                    ctx.translate(this.x, this.y);
+
+                    ctx.fillStyle = `rgba(255, 50, 50, ${this.life * 0.7})`;
+                    ctx.beginPath();
+                    ctx.arc(0, 0, this.size * this.life, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    this.particles.forEach(p => {
+                        if(p.life > 0) {
+                            ctx.fillStyle = `rgba(255, 100, 100, ${p.life})`;
+                            ctx.beginPath();
+                            ctx.arc(p.x, p.y, 3 * p.life, 0, Math.PI * 2);
+                            ctx.fill();
+                        }
+                    });
+
+                    ctx.restore();
+                } else {
+                    ctx.save();
+                    ctx.translate(this.x, this.y);
+
+                    ctx.fillStyle = `rgba(255, 200, 50, ${this.life * 0.5})`;
+                    ctx.beginPath();
+                    ctx.arc(0, 0, this.size * (1 - this.life), 0, Math.PI * 2);
+                    ctx.fill();
+
+                    this.particles.forEach(p => {
+                        if(p.life > 0) {
+                            ctx.fillStyle = p.color.replace(')', `, ${p.life})`).replace('hsl', 'hsla');
+                            ctx.beginPath();
+                            ctx.arc(p.x, p.y, 4 * p.life, 0, Math.PI * 2);
+                            ctx.fill();
+                        }
+                    });
+
+                    ctx.restore();
+                }
+            }
+        }
+
+        function drawGround() {
+            ctx.fillStyle = '#000';
+            ctx.fillRect(0, groundLevel, canvas.width, canvas.height - groundLevel);
+
+            for(let i = 0; i < canvas.width; i += 3) {
+                const heightVar = Math.sin(i * 0.015 + Date.now() * 0.0008) * 4;
+                const darkness = 15 + Math.sin(i * 0.025) * 8;
+                ctx.fillStyle = `rgba(${darkness}, ${darkness}, ${darkness}, 0.9)`;
+                ctx.fillRect(i, groundLevel + heightVar, 3, canvas.height - groundLevel);
+            }
+        }
+
+        function drawAtmosphere() {
+            const gradient = ctx.createLinearGradient(0, 0, 0, groundLevel);
+            gradient.addColorStop(0, 'rgba(8, 8, 18, 0.95)');
+            gradient.addColorStop(0.5, 'rgba(12, 12, 25, 0.85)');
+            gradient.addColorStop(1, 'rgba(25, 25, 40, 0.7)');
+
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, canvas.width, groundLevel);
+
+            const starCount = 60;
+            for(let i = 0; i < starCount; i++) {
+                const x = (i * 13.7) % canvas.width;
+                const y = (i * 9.3) % groundLevel;
+                const size = Math.sin(Date.now() * 0.0004 + i) * 0.6 + 1;
+                const brightness = 0.15 + Math.sin(Date.now() * 0.0006 + i) * 0.25;
+
+                ctx.fillStyle = `rgba(255, 255, 255, ${brightness})`;
+                ctx.beginPath();
+                ctx.arc(x, y, size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function drawMob1() {
+            ctx.save();
+            ctx.translate(mobPosition.x, mobPosition.y);
+            ctx.scale(mobScale * mobs[currentMob].scaleFactor, mobScale * mobs[currentMob].scaleFactor);
+            ctx.rotate(mobRotation);
+
+            const time = Date.now();
+            const pulse = Math.sin(time * 0.0015) * 0.2 + 1;
+
+            if(attackAnimation > 0) {
+                const shake = Math.sin(attackAnimation * 30) * 5;
+                ctx.translate(shake, 0);
+            }
+
+            const glow = Math.sin(time * 0.002) * 0.3 + 0.7;
+            const gradient = ctx.createRadialGradient(0, 0, 0, 0, 0, 40);
+            gradient.addColorStop(0, `rgba(180, 100, 230, ${glow * 0.9})`);
+            gradient.addColorStop(1, `rgba(130, 50, 200, 0)`);
+
+            ctx.fillStyle = gradient;
+            ctx.beginPath();
+            ctx.arc(0, 0, 40 * pulse, 0, Math.PI * 2);
+            ctx.fill();
+
+            const symbols = ['☉', '☾', '♆', '⚷', '♇', '⚸'];
+            const symbolCount = symbols.length;
+
+            for(let i = 0; i < symbolCount; i++) {
+                const angle = (Math.PI * 2 / symbolCount) * i + time * 0.0003;
+                const radius = 60 + Math.sin(time * 0.001 + i) * 10;
+                const symbolGlow = Math.sin(time * 0.002 + i) * 0.4 + 0.6;
+
+                ctx.save();
+                ctx.translate(Math.cos(angle) * radius, Math.sin(angle) * radius);
+                ctx.rotate(angle + Math.PI/2);
+
+                ctx.fillStyle = `rgba(200, 150, 250, ${symbolGlow})`;
+                ctx.font = '20px monospace';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(symbols[i], 0, 0);
+
+                ctx.strokeStyle = `rgba(180, 130, 230, ${symbolGlow * 0.5})`;
+                ctx.strokeText(symbols[i], 0, 0);
+
+                ctx.restore();
+            }
+
+            const lines = 8;
+            for(let i = 0; i < lines; i++) {
+                const lineAngle = (Math.PI * 2 / lines) * i + time * 0.0002;
+                const lineLength = 80 + Math.sin(time * 0.001 + i) * 20;
+
+                ctx.strokeStyle = `rgba(150, 100, 220, ${0.4 + Math.sin(time * 0.003 + i) * 0.3})`;
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.moveTo(0, 0);
+                ctx.lineTo(Math.cos(lineAngle) * lineLength, Math.sin(lineAngle) * lineLength);
+                ctx.stroke();
+
+                ctx.fillStyle = `rgba(180, 130, 240, ${0.6 + Math.sin(time * 0.002 + i) * 0.3})`;
+                ctx.beginPath();
+                ctx.arc(Math.cos(lineAngle) * lineLength, Math.sin(lineAngle) * lineLength, 6, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            ctx.fillStyle = `rgba(255, 255, 200, ${glow})`;
+            ctx.shadowColor = 'rgba(200, 150, 255, 0.8)';
+            ctx.shadowBlur = 15;
+            ctx.beginPath();
+            ctx.arc(-15, -15, 8 * pulse, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.beginPath();
+            ctx.arc(15, -15, 8 * pulse, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.shadowBlur = 0;
+
+            if(attackAnimation > 0) {
+                ctx.strokeStyle = `rgba(200, 150, 255, ${attackAnimation})`;
+                ctx.lineWidth = 3;
+                ctx.beginPath();
+                ctx.arc(0, 0, 100 * (1 - attackAnimation), 0, Math.PI * 2);
+                ctx.stroke();
+            }
+
+            ctx.restore();
+        }
+
+        function drawMob2() {
+            ctx.save();
+            ctx.translate(mobPosition.x, mobPosition.y);
+            ctx.scale(mobScale * mobs[currentMob].scaleFactor, mobScale * mobs[currentMob].scaleFactor);
+            ctx.rotate(mobRotation);
+
+            const time = Date.now();
+            const rotation = time * 0.0005;
+
+            if(attackAnimation > 0) {
+                const shake = Math.sin(attackAnimation * 30) * 5;
+                ctx.translate(shake, 0);
+            }
+
+            const vortexGlow = Math.sin(time * 0.002) * 0.4 + 0.6;
+            const gradient = ctx.createRadialGradient(0, 0, 0, 0, 0, 50);
+            gradient.addColorStop(0, `rgba(80, 150, 255, ${vortexGlow * 0.9})`);
+            gradient.addColorStop(0.7, `rgba(50, 120, 255, ${vortexGlow * 0.4})`);
+            gradient.addColorStop(1, `rgba(30, 100, 255, 0)`);
+
+            ctx.fillStyle = gradient;
+            ctx.beginPath();
+            ctx.arc(0, 0, 50, 0, Math.PI * 2);
+            ctx.fill();
+
+            const arms = 3;
+            for(let i = 0; i < arms; i++) {
+                const armAngle = (Math.PI * 2 / arms) * i + rotation;
+
+                ctx.strokeStyle = `rgba(100, 180, 255, ${0.7})`;
+                ctx.lineWidth = 4;
+                ctx.beginPath();
+
+                for(let j = 0; j <= 10; j++) {
+                    const progress = j / 10;
+                    const spiralRadius = 60 * progress;
+                    const spiralAngle = armAngle + progress * Math.PI * 2;
+
+                    const pointX = Math.cos(spiralAngle) * spiralRadius;
+                    const pointY = Math.sin(spiralAngle) * spiralRadius;
+
+                    if(j === 0) ctx.moveTo(pointX, pointY);
+                    else ctx.lineTo(pointX, pointY);
+                }
+                ctx.stroke();
+            }
+
+            const particles = 12;
+            for(let i = 0; i < particles; i++) {
+                const particleAngle = (Math.PI * 2 / particles) * i + rotation * 2;
+                const particleRadius = 40;
+                const particleX = Math.cos(particleAngle) * particleRadius;
+                const particleY = Math.sin(particleAngle) * particleRadius;
+                const particleSize = 4 + Math.sin(time * 0.01 + i) * 3;
+
+                ctx.fillStyle = `rgba(100, 200, 255, ${0.8 + Math.sin(time * 0.005 + i) * 0.1})`;
+                ctx.beginPath();
+                ctx.arc(particleX, particleY, particleSize, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            ctx.fillStyle = `rgba(255, 255, 255, ${vortexGlow})`;
+            ctx.shadowColor = 'rgba(100, 180, 255, 0.8)';
+            ctx.shadowBlur = 20;
+            ctx.beginPath();
+            ctx.arc(0, 0, 15, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.shadowBlur = 0;
+
+            const rays = 6;
+            for(let i = 0; i < rays; i++) {
+                const rayAngle = (Math.PI * 2 / rays) * i + rotation;
+                const rayLength = 90;
+
+                ctx.strokeStyle = `rgba(80, 160, 255, ${0.5 + Math.sin(time * 0.003 + i) * 0.2})`;
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.moveTo(0, 0);
+                ctx.lineTo(Math.cos(rayAngle) * rayLength, Math.sin(rayAngle) * rayLength);
+                ctx.stroke();
+            }
+
+            if(attackAnimation > 0) {
+                ctx.strokeStyle = `rgba(100, 180, 255, ${attackAnimation})`;
+                ctx.lineWidth = 3;
+                ctx.beginPath();
+                ctx.arc(0, 0, 120 * (1 - attackAnimation), 0, Math.PI * 2);
+                ctx.stroke();
+            }
+
+            ctx.restore();
+        }
+
+        function drawMob3() {
+            const centerX = mobPosition.x;
+            const baseY = groundLevel;
+
+            // Функция для рисования корней
+            function drawRoot(x, y, length, angle, width, depth, time) {
+                if(depth > 8 || width < 0.3) return;
+
+                const pulse = Math.sin(time * 0.002 + depth) * 0.5 + 0.5;
+                const currentWidth = width * (0.8 + pulse * 0.4);
+
+                ctx.strokeStyle = `rgba(255, 255, 255, ${0.15 + width/15})`;
+                ctx.lineWidth = currentWidth;
+                ctx.lineCap = 'round';
+
+                const endX = x + Math.cos(angle) * length * (0.9 + Math.sin(time * 0.001 + depth) * 0.2);
+                const endY = y + Math.sin(angle) * length * (0.9 + Math.cos(time * 0.001 + depth) * 0.2);
+
+                ctx.beginPath();
+                ctx.moveTo(x, y);
+                ctx.lineTo(endX, endY);
+                ctx.stroke();
+
+                if(depth < 4 || Math.random() < 0.6) {
+                    drawRoot(endX, endY, length * 0.8, angle - Math.PI/5, width * 0.7, depth + 1, time);
+                }
+                if(depth < 4 || Math.random() < 0.6) {
+                    drawRoot(endX, endY, length * 0.8, angle + Math.PI/5, width * 0.7, depth + 1, time);
+                }
+                if(depth < 3 && Math.random() < 0.4) {
+                    drawRoot(endX, endY, length * 0.6, angle + Math.PI/2.5, width * 0.6, depth + 1, time);
+                }
+            }
+
+            const time = Date.now();
+            const sway = Math.sin(time * 0.001) * 15;
+
+            // Рисуем корни
+            drawRoot(centerX, baseY, 120, -Math.PI/2, 6, 0, time);
+            drawRoot(centerX - 40, baseY, 90, -Math.PI/2 - 0.4, 4, 0, time);
+            drawRoot(centerX + 40, baseY, 90, -Math.PI/2 + 0.4, 4, 0, time);
+
+            // Рисуем ствол
+            const trunkHeight = 300;
+            ctx.save();
+            ctx.translate(centerX, baseY);
+            ctx.scale(mobScale * mobs[currentMob].scaleFactor, mobScale * mobs[currentMob].scaleFactor);
+            ctx.rotate(mobRotation);
+
+            if(attackAnimation > 0) {
+                const shake = Math.sin(attackAnimation * 30) * 5;
+                ctx.translate(shake, 0);
+            }
+
+            ctx.strokeStyle = 'rgba(220, 220, 220, 0.9)';
+            ctx.lineWidth = 25;
+            ctx.lineCap = 'round';
+
+            ctx.beginPath();
+            ctx.moveTo(sway * 0.3, 0);
+            for(let i = 0; i <= 10; i++) {
+                const y = -(i/10) * trunkHeight;
+                const xSway = Math.sin(time * 0.001 + i * 0.5) * 10;
+                ctx.lineTo(xSway, y);
+            }
+            ctx.stroke();
+
+            // Рисуем ветви
+            const branchCount = 7;
+            for(let i = 0; i < branchCount; i++) {
+                const yPos = -80 - i * 40;
+                const angle = Math.PI/3 + Math.sin(time * 0.001 + i) * 0.3;
+                const length = 100 - i * 10;
+
+                ctx.strokeStyle = `rgba(200, 200, 200, ${0.9 - i * 0.1})`;
+                ctx.lineWidth = 15 - i * 1.5;
+
+                ctx.beginPath();
+                ctx.moveTo(0, yPos);
+                ctx.lineTo(
+                    Math.cos(angle) * length,
+                    yPos + Math.sin(angle) * length
+                );
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.moveTo(0, yPos);
+                ctx.lineTo(
+                    -Math.cos(angle) * length,
+                    yPos + Math.sin(angle) * length
+                );
+                ctx.stroke();
+            }
+
+            if(attackAnimation > 0) {
+                ctx.strokeStyle = `rgba(200, 200, 200, ${attackAnimation})`;
+                ctx.lineWidth = 3;
+                ctx.beginPath();
+                ctx.arc(0, -trunkHeight/2, 150 * (1 - attackAnimation), 0, Math.PI * 2);
+                ctx.stroke();
+            }
+
+            ctx.restore();
+        }
+
+        const mobDrawers = [
+            drawMob1,
+            drawMob2,
+            drawMob3
+        ];
+
+        function updateMob() {
+            titleElement.textContent = mobs[currentMob].title;
+            counterElement.textContent = `Здоровье: ${mobs[currentMob].health}/${mobs[currentMob].maxHealth}`;
+            healthFillElement.style.width = `${(mobs[currentMob].health / mobs[currentMob].maxHealth) * 100}%`;
+
+            mobScale = 1;
+            mobRotation = 0;
+            isMobAlive = true;
+            deathAnimation = 0;
+
+            mobPosition.x = canvas.width / 2;
+            mobPosition.y = canvas.height / 2;
+        }
+
+        function damageMob() {
+            if(!isMobAlive) return;
+
+            mobs[currentMob].health--;
+
+            damageEffects.push(new DamageEffect(mobPosition.x, mobPosition.y, 'hit'));
+            attackAnimation = 1.0;
+
+            mobScale = 0.9;
+
+            counterElement.textContent = `Здоровье: ${mobs[currentMob].health}/${mobs[currentMob].maxHealth}`;
+            healthFillElement.style.width = `${(mobs[currentMob].health / mobs[currentMob].maxHealth) * 100}%`;
+
+            if(mobs[currentMob].health <= 0) {
+                isMobAlive = false;
+                deathAnimation = 1.0;
+                damageEffects.push(new DamageEffect(mobPosition.x, mobPosition.y, 'death'));
+
+                setTimeout(() => {
+                    currentMob = (currentMob + 1) % mobs.length;
+                    mobs[currentMob].health = mobs[currentMob].maxHealth;
+                    updateMob();
+                }, 0);
+            }
+        }
+
+        function drawScene() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            drawAtmosphere();
+            drawGround();
+
+            if(attackAnimation > 0) {
+                attackAnimation -= 0.05;
+                mobScale = Math.min(mobScale + 0.02, 1);
+            }
+
+            if(deathAnimation > 0) {
+                deathAnimation -= 0.02;
+                mobScale *= 0.98;
+                mobRotation += 0.1;
+            }
+
+            if(isMobAlive || deathAnimation > 0) {
+                mobDrawers[currentMob]();
+            }
+
+            damageEffects = damageEffects.filter(effect => effect.update());
+            damageEffects.forEach(effect => effect.draw());
+        }
+
+        canvas.addEventListener('click', (e) => {
+            if(!isMobAlive) return;
+
+            const rect = canvas.getBoundingClientRect();
+            const clickX = e.clientX - rect.left;
+            const clickY = e.clientY - rect.top;
+
+            // Для дерева проверяем клик по всей его области
+            let isHit = false;
+
+            if(currentMob === 2) {
+                // Для дерева проверяем клик по стволу и ветвям
+                const distanceX = Math.abs(clickX - mobPosition.x);
+                const distanceY = Math.abs(clickY - groundLevel);
+
+                // Проверяем попадание в ствол (шире обычной проверки)
+                if(distanceX < 100 * mobs[currentMob].scaleFactor &&
+                   clickY < groundLevel && clickY > groundLevel - 350) {
+                    isHit = true;
+                }
+            } else {
+                // Для других мобов стандартная проверка
+                const distance = Math.sqrt(
+                    Math.pow(clickX - mobPosition.x, 2) +
+                    Math.pow(clickY - mobPosition.y, 2)
+                );
+                isHit = distance < 100 * mobs[currentMob].scaleFactor;
+            }
+
+            if(isHit) {
+                damageMob();
+            }
+        });
+        
+        updateMob();
+        
+        function gameLoop() {
+            drawScene();
+            requestAnimationFrame(gameLoop);
+        }
+        
+        gameLoop();
+    </script>
+</body>
+</html>

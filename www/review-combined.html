@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Review Combined - Always Free English</title>
+    <!-- PWA мета-теги -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#121212">
+    <!-- Шрифты -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Nunito', Arial, sans-serif;
+            background-color: #121212;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            touch-action: none;
+            color: #ffffff;
+            overflow: hidden;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        /* Контейнер для плавного фона */
+        .background-gradient {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+        .gradient-overlay {
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            top: -50%;
+            left: -50%;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+        }
+        .gradient-known {
+            background: radial-gradient(circle at center,
+                rgba(76, 175, 80, 0) 0%,
+                rgba(76, 175, 80, 0.1) 30%,
+                rgba(76, 175, 80, 0.25) 50%,
+                rgba(76, 175, 80, 0.35) 70%,
+                rgba(76, 175, 80, 0.5) 100%);
+        }
+        .gradient-review {
+            background: radial-gradient(circle at center,
+                rgba(255, 152, 0, 0) 0%,
+                rgba(255, 152, 0, 0.1) 30%,
+                rgba(255, 152, 0, 0.25) 50%,
+                rgba(255, 152, 0, 0.35) 70%,
+                rgba(255, 152, 0, 0.5) 100%);
+        }
+        /* Горизонтальные зоны для ПК по умолчанию */
+        .horizontal-left-overlay, .horizontal-right-overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            z-index: 1;
+            pointer-events: none;
+        }
+        .horizontal-left-overlay {
+            left: 0;
+            justify-content: center;
+        }
+        .horizontal-right-overlay {
+            right: 0;
+            justify-content: center;
+        }
+        /* Вертикальные зоны для мобильных (скрыты по умолчанию) */
+        .vertical-top-overlay, .vertical-bottom-overlay {
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 100%;
+            display: none;
+            align-items: center;
+            background-color: transparent;
+            z-index: 1;
+            pointer-events: none;
+        }
+        .vertical-top-overlay {
+            top: 0;
+            height: 50%;
+            justify-content: center;
+            align-items: center;
+        }
+        .vertical-bottom-overlay {
+            bottom: 0;
+            height: 50%;
+            justify-content: center;
+            align-items: center;
+        }
+        .icon {
+            font-size: 70px;
+            opacity: 0.3;
+            font-weight: 800;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            pointer-events: none;
+        }
+        .horizontal-left-overlay .icon,
+        .vertical-top-overlay .icon {
+            color: #4caf50;
+            filter: drop-shadow(0 0 8px rgba(76, 175, 80, 0.5));
+        }
+        .horizontal-right-overlay .icon,
+        .vertical-bottom-overlay .icon {
+            color: #ff9800;
+            filter: drop-shadow(0 0 8px rgba(255, 152, 0, 0.5));
+        }
+        /* Фоновые иконки (белые, без цвета) */
+        .background-icon {
+            position: absolute;
+            font-size: 200px;
+            font-weight: 800;
+            color: rgba(255, 255, 255, 0.03);
+            z-index: 0;
+            pointer-events: none;
+            user-select: none;
+            opacity: 0.8;
+        }
+        /* Для мобильных */
+        .background-icon-mobile-top {
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 180px;
+            opacity: 0.05;
+        }
+        .background-icon-mobile-bottom {
+            bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 180px;
+            opacity: 0.05;
+        }
+        /* Для ПК */
+        .background-icon-pc-left {
+            top: 50%;
+            left: 10%;
+            transform: translateY(-50%);
+            font-size: 200px;
+            opacity: 0.05;
+        }
+        .background-icon-pc-right {
+            top: 50%;
+            right: 10%;
+            transform: translateY(-50%);
+            font-size: 200px;
+            opacity: 0.05;
+        }
+        .word-card {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 80%;
+            max-width: 280px;
+            height: 170px;
+            padding: 0 15px;
+            background-color: #1e1e1e;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            cursor: grab;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            z-index: 4;
+            transition: transform 0.2s ease-out;
+            border: 2px solid #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform-origin: center;
+            transform-style: preserve-3d;
+        }
+        .word-card:active {
+            cursor: grabbing;
+        }
+        .english {
+            font-size: 26px;
+            font-weight: 800;
+            color: #ffffff;
+            transition: transform 0.3s ease;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            line-height: 1.4;
+        }
+        .translation-behind {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            font-weight: 700;
+            color: #4caf50;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            pointer-events: none;
+            z-index: 3;
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .translation-behind.show {
+            opacity: 0.9;
+        }
+        /* Мобильный хедер - позиционирование поверх */
+        .mobile-header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+            min-height: 70px;
+            background-color: rgba(18, 18, 18, 0.95);
+            backdrop-filter: blur(10px);
+            display: none;
+            flex-direction: column;
+            align-items: stretch;
+            z-index: 20;
+            border-bottom: 1px solid #333;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            padding-top: env(safe-area-inset-top);
+        }
+        .mobile-header.visible {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+        .mobile-header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        /* Новая андроид-стрелка */
+        .mobile-back-button {
+            width: 44px;
+            height: 44px;
+            background-color: transparent;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            color: #ffffff;
+            font-size: 24px;
+            padding: 0;
+            margin: 0;
+            position: relative;
+        }
+        .mobile-back-button:before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%) rotate(45deg);
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #ffffff;
+            border-bottom: 2px solid #ffffff;
+        }
+        .mobile-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #ffffff;
+            text-align: center;
+            flex: 1;
+            margin: 0 10px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            line-height: 1.2;
+        }
+        /* Прогресс-бар под заголовком (удален в мобильной версии) */
+        .progress-bar-container {
+            display: none;
+        }
+        /* Полоса прогресса внизу - поверх контента */
+        .bottom-progress-container {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 6px;
+            background-color: rgba(255, 255, 255, 0.1);
+            z-index: 20;
+            transition: opacity 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+        }
+        .bottom-progress-container.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        .bottom-progress-bar {
+            height: 100%;
+            background-color: #ffffff;
+            width: 0%;
+            transition: width 0.3s ease;
+            border-radius: 0;
+        }
+        /* Инструкция для мобильных */
+        .mobile-hint {
+            position: absolute;
+            bottom: calc(var(--safe-area-bottom, 0px) + 30px);
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            z-index: 2;
+            pointer-events: none;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+            padding: 0 20px;
+            box-sizing: border-box;
+            opacity: 0;
+            visibility: hidden;
+        }
+        .mobile-hint.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        /* Инструкция для ПК */
+        .pc-hint {
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            z-index: 2;
+            pointer-events: none;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+            padding: 0 20px;
+            box-sizing: border-box;
+            opacity: 0;
+            visibility: hidden;
+        }
+        .pc-hint.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        /* PC хедер (скрыт по умолчанию) */
+        .top-area {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 20%;
+            z-index: 10;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .top-area.visible {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+        /* Новая стрелка как в мобильной версии для ПК */
+        .back-button {
+            width: 44px;
+            height: 44px;
+            background-color: transparent;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            color: #ffffff;
+            font-size: 24px;
+            padding: 0;
+            margin: 20px 0 0 20px;
+            position: relative;
+        }
+        .back-button:before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%) rotate(45deg);
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #ffffff;
+            border-bottom: 2px solid #ffffff;
+        }
+        /* Заголовок раздела по центру для ПК */
+        .section-title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-top: 30px;
+            z-index: 1;
+            pointer-events: none;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        .section-title.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        .loader-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(18, 18, 18, 0.95);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        .loader-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        .loader-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid #333;
+            border-top: 4px solid #4caf50;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: #ffffff;
+            z-index: 5;
+        }
+        /* Анимации для улетания карточки */
+        @keyframes swipeLeft {
+            to {
+                transform: translate(-1000px, -50%) rotate(-30deg);
+                opacity: 0;
+            }
+        }
+        @keyframes swipeRight {
+            to {
+                transform: translate(1000px, -50%) rotate(30deg);
+                opacity: 0;
+            }
+        }
+        @keyframes swipeUp {
+            to {
+                transform: translate(-50%, -1000px) rotate(-30deg);
+                opacity: 0;
+            }
+        }
+        @keyframes swipeDown {
+            to {
+                transform: translate(-50%, 1000px) rotate(30deg);
+                opacity: 0;
+            }
+        }
+        .swipe-left {
+            animation: swipeLeft 0.5s ease forwards;
+        }
+        .swipe-right {
+            animation: swipeRight 0.5s ease forwards;
+        }
+        .swipe-up {
+            animation: swipeUp 0.5s ease forwards;
+        }
+        .swipe-down {
+            animation: swipeDown 0.5s ease forwards;
+        }
+        /* Мобильные стили */
+        @media (max-width: 768px) {
+            :root {
+                --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+            }
+
+            .horizontal-left-overlay,
+            .horizontal-right-overlay {
+                display: none !important;
+            }
+            .vertical-top-overlay,
+            .vertical-bottom-overlay {
+                display: flex;
+            }
+            .mobile-header {
+                display: flex;
+            }
+            .top-area {
+                display: none;
+            }
+            .section-title {
+                display: none;
+            }
+            .pc-hint {
+                display: none;
+            }
+            .word-card {
+                width: 85%;
+                height: 170px;
+                max-width: 280px;
+                top: 50%;
+            }
+            .english {
+                font-size: 26px;
+            }
+            .translation-behind {
+                font-size: 20px;
+            }
+            .icon {
+                font-size: 70px;
+            }
+            .mobile-back-button {
+                width: 40px;
+                height: 40px;
+            }
+            .mobile-back-button:before {
+                width: 8px;
+                height: 8px;
+            }
+            .bottom-progress-container {
+                bottom: calc(env(safe-area-inset-bottom, 0px));
+            }
+            /* Показываем мобильные фоновые иконки */
+            .background-icon-mobile-top,
+            .background-icon-mobile-bottom {
+                display: block;
+            }
+            .background-icon-pc-left,
+            .background-icon-pc-right {
+                display: none;
+            }
+        }
+        @media (max-width: 480px) {
+            .word-card {
+                height: 160px;
+                max-width: 260px;
+            }
+            .english {
+                font-size: 24px;
+            }
+            .translation-behind {
+                font-size: 18px;
+            }
+            .icon {
+                font-size: 60px;
+            }
+            .background-icon-mobile-top,
+            .background-icon-mobile-bottom {
+                font-size: 150px;
+            }
+        }
+        /* Десктопные стили */
+        @media (min-width: 769px) {
+            .mobile-header {
+                display: none;
+            }
+            .section-title {
+                display: block;
+            }
+            .mobile-hint {
+                display: none;
+            }
+            .pc-hint {
+                display: block;
+            }
+            /* Показываем ПК фоновые иконки */
+            .background-icon-pc-left,
+            .background-icon-pc-right {
+                display: block;
+            }
+            .background-icon-mobile-top,
+            .background-icon-mobile-bottom {
+                display: none;
+            }
+        }
+        /* Безопасная зона для iPhone */
+        @supports (padding: max(0px)) {
+            .mobile-header {
+                padding-left: max(20px, env(safe-area-inset-left));
+                padding-right: max(20px, env(safe-area-inset-right));
+                padding-top: env(safe-area-inset-top);
+                min-height: calc(70px + env(safe-area-inset-top));
+            }
+            .mobile-hint {
+                bottom: calc(env(safe-area-inset-bottom, 0px) + 30px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Фоновые иконки для мобильных -->
+        <div class="background-icon background-icon-mobile-top"></div>
+        <div class="background-icon background-icon-mobile-bottom"></div>
+
+        <!-- Фоновые иконки для ПК -->
+        <div class="background-icon background-icon-pc-left"></div>
+        <div class="background-icon background-icon-pc-right"></div>
+
+        <!-- Плавный фон для зон -->
+        <div class="background-gradient">
+            <div class="gradient-overlay gradient-known" id="gradient-known"></div>
+            <div class="gradient-overlay gradient-review" id="gradient-review"></div>
+        </div>
+
+        <!-- Горизонтальные зоны для ПК -->
+        <div class="horizontal-left-overlay">
+            <div class="icon"></div>
+        </div>
+        <div class="horizontal-right-overlay">
+            <div class="icon"></div>
+        </div>
+        <!-- Вертикальные зоны для мобильных -->
+        <div class="vertical-top-overlay">
+            <div class="icon"></div>
+        </div>
+        <div class="vertical-bottom-overlay">
+            <div class="icon"></div>
+        </div>
+        <div class="loader-overlay" id="loader-overlay">
+            <div class="loader-spinner"></div>
+        </div>
+        <!-- PC хедер -->
+        <div class="top-area" id="top-area">
+            <div class="back-button" id="back-button"></div>
+        </div>
+        <!-- Заголовок раздела для ПК -->
+        <div class="section-title" id="section-title">Review Combined</div>
+        <!-- Мобильный хедер -->
+        <div class="mobile-header" id="mobile-header">
+            <div class="mobile-header-top">
+                <div class="mobile-back-button" id="mobile-back-button"></div>
+                <div class="mobile-title" id="mobile-title">Слова из выбранных карточек</div>
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+        </div>
+        <!-- Полоса прогресса внизу -->
+        <div class="bottom-progress-container" id="bottom-progress-container">
+            <div class="bottom-progress-bar" id="bottom-progress-bar"></div>
+        </div>
+        <!-- Мобильная инструкция -->
+        <div class="mobile-hint" id="mobile-hint">Вверх — слово знаете, вниз — для повтора</div>
+        <!-- Инструкция для ПК -->
+        <div class="pc-hint" id="pc-hint">Влево — слово знаете, вправо — для повтора</div>
+        <div class="translation-behind" id="translation-behind"></div>
+        <div id="word-card" class="word-card">
+            <div class="english"></div>
+        </div>
+        <div class="loading" id="loading">Загрузка слов...</div>
+    </div>
+    <script>
+        const WordDB = {
+            saveWordStatus(listId, english, status) {
+                const key = `word_${listId}_${english}`;
+                localStorage.setItem(key, status);
+            }
+        };
+
+        const Utils = {
+            shuffleArray(array) {
+                const shuffled = [...array];
+                for (let i = shuffled.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                }
+                return shuffled;
+            },
+            isMobileDevice() {
+                return window.innerWidth <= 768 ||
+                       'ontouchstart' in window ||
+                       navigator.maxTouchPoints > 0;
+            },
+            getRandomAudioFile(audioArray) {
+                if (!audioArray || audioArray.length === 0) return null;
+                const randomIndex = Math.floor(Math.random() * audioArray.length);
+                return audioArray[randomIndex];
+            }
+        };
+
+        const AudioManager = {
+            currentAudio: null,
+            isPlaying: false,
+
+            async playAudio(audioFiles) {
+                // Останавливаем текущее воспроизведение
+                await this.stopAudio();
+
+                const audioFile = Utils.getRandomAudioFile(audioFiles);
+                if (!audioFile) return;
+
+                this.currentAudio = new Audio(audioFile);
+
+                return new Promise((resolve, reject) => {
+                    this.currentAudio.addEventListener('ended', () => {
+                        this.isPlaying = false;
+                        resolve();
+                    });
+
+                    this.currentAudio.addEventListener('error', (error) => {
+                        this.isPlaying = false;
+                        reject(error);
+                    });
+
+                    const playPromise = this.currentAudio.play();
+                    if (playPromise !== undefined) {
+                        playPromise.then(() => {
+                            this.isPlaying = true;
+                        }).catch(error => {
+                            this.isPlaying = false;
+                            reject(error);
+                        });
+                    }
+                });
+            },
+
+            async stopAudio() {
+                if (this.currentAudio) {
+                    this.currentAudio.pause();
+                    this.currentAudio.currentTime = 0;
+                    this.isPlaying = false;
+                }
+                // Ждем немного чтобы остановка точно произошла
+                await new Promise(resolve => setTimeout(resolve, 50));
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const sessionId = urlParams.get('session');
+
+            if (!sessionId) {
+                window.location.href = 'index.html';
+                return;
+            }
+
+            let sessionData = null;
+            let wordQueue = [];
+            const isMobile = Utils.isMobileDevice();
+            const wordCard = document.getElementById('word-card');
+            const englishEl = wordCard.querySelector('.english');
+            const translationBehind = document.getElementById('translation-behind');
+            const backButton = document.getElementById('back-button');
+            const mobileBackButton = document.getElementById('mobile-back-button');
+            const mobileHeader = document.getElementById('mobile-header');
+            const mobileHint = document.getElementById('mobile-hint');
+            const pcHint = document.getElementById('pc-hint');
+            const loadingEl = document.getElementById('loading');
+            const loaderOverlay = document.getElementById('loader-overlay');
+            const mobileTitle = document.getElementById('mobile-title');
+            const sectionTitle = document.getElementById('section-title');
+            const bottomProgressContainer = document.getElementById('bottom-progress-container');
+            const bottomProgressBar = document.getElementById('bottom-progress-bar');
+            const topArea = document.getElementById('top-area');
+
+            // Элементы для плавного фона
+            const gradientKnown = document.getElementById('gradient-known');
+            const gradientReview = document.getElementById('gradient-review');
+
+            let currentWord = null;
+            let isDragging = false;
+            let currentIndex = 0;
+            let isProcessingAction = false;
+            let dragStartTime = 0;
+            let startX = 0;
+            let startY = 0;
+            let currentX = 0;
+            let currentY = 0;
+            let initialTranslateX = 0;
+            let initialTranslateY = 0;
+
+            // Флаги для управления UI
+            let isUIHidden = true;
+
+            function showLoader() {
+                loaderOverlay.classList.add('active');
+            }
+
+            function hideLoader() {
+                loaderOverlay.classList.remove('active');
+            }
+
+            function loadSession() {
+                try {
+                    const sessionJson = localStorage.getItem(sessionId);
+                    if (!sessionJson) {
+                        throw new Error('Session not found');
+                    }
+
+                    sessionData = JSON.parse(sessionJson);
+                    wordQueue = sessionData.words || [];
+                    currentIndex = 0;
+
+                    if (wordQueue.length === 0) {
+                        showLoader();
+                        setTimeout(() => {
+                            window.location.href = 'index.html';
+                        }, 800);
+                        return;
+                    }
+
+                    loadingEl.style.display = 'none';
+                    wordCard.style.display = 'flex';
+                    showNextWord();
+                    updateProgress();
+
+                    // UI изначально скрыт
+                    isUIHidden = true;
+                    updateUIVisibility();
+                } catch (error) {
+                    loadingEl.textContent = 'Error loading session.';
+                    setTimeout(() => {
+                        window.location.href = 'index.html';
+                    }, 2000);
+                }
+            }
+
+            function showNextWord() {
+                if (currentIndex >= wordQueue.length) {
+                    showLoader();
+                    setTimeout(() => {
+                        window.location.href = 'index.html';
+                    }, 800);
+                    return;
+                }
+
+                currentWord = wordQueue[currentIndex];
+                englishEl.textContent = currentWord.english;
+                translationBehind.textContent = currentWord.translation || currentWord.russian || '';
+                resetCardPosition();
+                hideLoader();
+            }
+
+            function resetCardPosition() {
+                wordCard.style.transform = 'translate(-50%, -50%) rotate(0deg) scale(1)';
+                wordCard.style.transition = 'transform 0.3s ease';
+                englishEl.style.transform = 'scale(1)';
+                translationBehind.classList.remove('show');
+                resetZones();
+                wordCard.classList.remove('swipe-left', 'swipe-right', 'swipe-up', 'swipe-down');
+
+                // Скрываем градиенты
+                gradientKnown.style.opacity = 0;
+                gradientReview.style.opacity = 0;
+            }
+
+            function updateProgress() {
+                const totalWords = wordQueue.length;
+                const currentPosition = currentIndex;
+                const progressPercentage = (currentPosition / totalWords) * 100;
+
+                // Обновляем новую полосу внизу
+                bottomProgressBar.style.width = `${progressPercentage}%`;
+            }
+
+            function updateUIVisibility() {
+                if (isMobile) {
+                    if (isUIHidden) {
+                        mobileHeader.classList.remove('visible');
+                        mobileHint.classList.remove('visible');
+                        bottomProgressContainer.classList.remove('visible');
+                    } else {
+                        mobileHeader.classList.add('visible');
+                        mobileHint.classList.add('visible');
+                        bottomProgressContainer.classList.add('visible');
+                    }
+                } else {
+                    if (isUIHidden) {
+                        topArea.classList.remove('visible');
+                        bottomProgressContainer.classList.remove('visible');
+                        sectionTitle.classList.remove('visible');
+                        pcHint.classList.remove('visible');
+                    } else {
+                        topArea.classList.add('visible');
+                        bottomProgressContainer.classList.add('visible');
+                        sectionTitle.classList.add('visible');
+                        pcHint.classList.add('visible');
+                    }
+                }
+            }
+
+            function toggleUI() {
+                isUIHidden = !isUIHidden;
+                updateUIVisibility();
+            }
+
+            async function startDrag(e) {
+                if (isProcessingAction) return;
+                e.preventDefault();
+                e.stopPropagation();
+
+                isDragging = true;
+                dragStartTime = Date.now();
+                const transform = window.getComputedStyle(wordCard).transform;
+                const matrix = new DOMMatrix(transform);
+                initialTranslateX = matrix.m41;
+                initialTranslateY = matrix.m42;
+                const clientX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+                const clientY = e.type === 'touchstart' ? e.touches[0].clientY : e.clientY;
+                startX = clientX;
+                startY = clientY;
+                wordCard.style.transition = 'none';
+                englishEl.style.transform = 'scale(1.8)';
+                translationBehind.classList.add('show');
+
+                // Скрываем UI при начале драга
+                if (!isUIHidden) {
+                    isUIHidden = true;
+                    updateUIVisibility();
+                }
+
+                // Автоматически проигрываем аудио при начале перетаскивания
+                if (currentWord.audio && currentWord.audio.length > 0) {
+                    try {
+                        await AudioManager.playAudio(currentWord.audio);
+                    } catch (error) {
+                        console.warn('Audio play failed:', error);
+                    }
+                }
+            }
+
+            function drag(e) {
+                if (!isDragging) return;
+                e.preventDefault();
+                e.stopPropagation();
+
+                const clientX = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+                const clientY = e.type === 'touchmove' ? e.touches[0].clientY : e.clientY;
+                const deltaX = clientX - startX;
+                const deltaY = clientY - startY;
+
+                if (isMobile) {
+                    // Для мобильных - вертикальный свайп
+                    const rotation = deltaY / 15;
+                    wordCard.style.transform = `translate(-50%, ${initialTranslateY + deltaY}px) rotate(${rotation}deg) scale(0.95)`;
+                    currentY = deltaY;
+                    checkZonesMobile();
+                } else {
+                    // Для ПК - горизонтальный свайп
+                    const rotation = deltaX / 20;
+                    wordCard.style.transform = `translate(${initialTranslateX + deltaX}px, -50%) rotate(${rotation}deg) scale(0.95)`;
+                    currentX = deltaX;
+                    checkZonesDesktop();
+                }
+            }
+
+            function checkZonesDesktop() {
+                const delta = currentX;
+                const swipeThreshold = 120;
+                const minThreshold = 30;
+
+                // Сбрасываем градиенты
+                gradientKnown.style.opacity = '0';
+                gradientReview.style.opacity = '0';
+
+                if (delta < -minThreshold) {
+                    // Движение влево (известно)
+                    const intensity = Math.min(Math.abs(delta) / swipeThreshold, 1);
+                    gradientKnown.style.opacity = intensity * 0.8;
+                } else if (delta > minThreshold) {
+                    // Движение вправо (повторить)
+                    const intensity = Math.min(Math.abs(delta) / swipeThreshold, 1);
+                    gradientReview.style.opacity = intensity * 0.8;
+                }
+            }
+
+            function checkZonesMobile() {
+                const delta = currentY;
+                const swipeThreshold = 80;
+                const minThreshold = 20;
+
+                // Сбрасываем градиенты
+                gradientKnown.style.opacity = '0';
+                gradientReview.style.opacity = '0';
+
+                if (delta < -minThreshold) {
+                    // Движение вверх (известно)
+                    const intensity = Math.min(Math.abs(delta) / swipeThreshold, 1);
+                    gradientKnown.style.opacity = intensity * 0.8;
+                } else if (delta > minThreshold) {
+                    // Движение вниз (повторить)
+                    const intensity = Math.min(Math.abs(delta) / swipeThreshold, 1);
+                    gradientReview.style.opacity = intensity * 0.8;
+                }
+            }
+
+            function resetZones() {
+                // Сбрасываем градиенты
+                gradientKnown.style.opacity = '0';
+                gradientReview.style.opacity = '0';
+            }
+
+            async function endDrag(e) {
+                if (!isDragging || isProcessingAction) {
+                    isDragging = false;
+                    return;
+                }
+                e.preventDefault();
+                e.stopPropagation();
+
+                const dragDuration = Date.now() - dragStartTime;
+                if (dragDuration < 100) {
+                    isDragging = false;
+                    resetCardPosition();
+                    translationBehind.classList.remove('show');
+                    resetZones();
+                    return;
+                }
+
+                isProcessingAction = true;
+                isDragging = false;
+                englishEl.style.transform = 'scale(1)';
+
+                let action = null;
+                let swipeClass = '';
+
+                if (isMobile) {
+                    // Для мобильных проверяем вертикальное перемещение
+                    const delta = currentY;
+                    const swipeThreshold = 80;
+
+                    if (delta < -swipeThreshold) {
+                        action = 'known';
+                        swipeClass = 'swipe-up';
+                    } else if (delta > swipeThreshold) {
+                        action = 'review';
+                        swipeClass = 'swipe-down';
+                    }
+                } else {
+                    // Для ПК проверяем горизонтальное перемещение
+                    const delta = currentX;
+                    const swipeThreshold = 120;
+
+                    if (delta < -swipeThreshold) {
+                        action = 'known';
+                        swipeClass = 'swipe-left';
+                    } else if (delta > swipeThreshold) {
+                        action = 'review';
+                        swipeClass = 'swipe-right';
+                    }
+                }
+
+                if (!action) {
+                    resetCardPosition();
+                    translationBehind.classList.remove('show');
+                    resetZones();
+                    isProcessingAction = false;
+                    return;
+                }
+
+                translationBehind.classList.remove('show');
+                resetZones();
+                wordCard.classList.add(swipeClass);
+
+                // Ждем пока аудио доиграет, если оно еще играет
+                if (AudioManager.isPlaying && AudioManager.currentAudio) {
+                    await new Promise((resolve) => {
+                        AudioManager.currentAudio.addEventListener('ended', resolve, { once: true });
+                        // На всякий случай таймаут
+                        setTimeout(resolve, 5000);
+                    });
+                }
+
+                // Сохраняем статус для слова
+                if (currentWord._listId) {
+                    WordDB.saveWordStatus(currentWord._listId, currentWord.english, action);
+                }
+
+                currentIndex++;
+                updateProgress();
+
+                setTimeout(() => {
+                    showNextWord();
+                    isProcessingAction = false;
+                }, 500);
+            }
+
+            function goBack() {
+                window.location.href = 'index.html';
+            }
+
+            function handleScreenTap(e) {
+                if (isDragging || isProcessingAction) return;
+
+                // Проверяем, что клик не по карточке или кнопке назад
+                const isCardClick = e.target.closest('#word-card');
+                const isBackButton = e.target.closest('#back-button, #mobile-back-button');
+
+                if (!isCardClick && !isBackButton) {
+                    toggleUI();
+                }
+            }
+
+            // Инициализация событий
+            backButton.addEventListener('click', goBack);
+            mobileBackButton.addEventListener('click', goBack);
+
+            // Обработчики для свайпа карточки
+            wordCard.addEventListener('mousedown', startDrag);
+            wordCard.addEventListener('touchstart', startDrag, { passive: false });
+            document.addEventListener('mousemove', drag);
+            document.addEventListener('touchmove', drag, { passive: false });
+            document.addEventListener('mouseup', endDrag);
+            document.addEventListener('touchend', endDrag);
+
+            // Обработчик для тапа по экрану (переключение UI)
+            document.addEventListener('click', handleScreenTap);
+            document.addEventListener('touchend', handleScreenTap, { passive: true });
+            wordCard.addEventListener('contextmenu', (e) => e.preventDefault());
+
+            // Обработчики клавиатуры
+            document.addEventListener('keydown', (e) => {
+                if (isProcessingAction) return;
+                if (e.key === 'ArrowLeft' || e.key === 'a') {
+                    processAction('known');
+                } else if (e.key === 'ArrowRight' || e.key === 'd') {
+                    processAction('review');
+                } else if (e.key === ' ') {
+                    translationBehind.classList.toggle('show');
+                } else if (e.key === 'Escape') {
+                    goBack();
+                } else if (e.key === 'h') {
+                    toggleUI();
+                }
+            });
+
+            async function processAction(action) {
+                if (isProcessingAction) return;
+                isProcessingAction = true;
+
+                if (currentWord._listId) {
+                    WordDB.saveWordStatus(currentWord._listId, currentWord.english, action);
+                }
+
+                currentIndex++;
+                updateProgress();
+                await new Promise(resolve => setTimeout(resolve, 200));
+                showNextWord();
+                isProcessingAction = false;
+            }
+
+            // Начальная загрузка
+            wordCard.style.display = 'none';
+            loadSession();
+        });
+    </script>
+</body>
+</html>

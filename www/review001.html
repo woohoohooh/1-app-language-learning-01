@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Review001 — Large swap-on-drag</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        html,body{height:100%;margin:0;background:#121212;color:#fff;font-family:Nunito,Arial,sans-serif;overflow:hidden}
+        .background-gradient{position:fixed;inset:0;pointer-events:none;z-index:0}
+        .gradient-overlay{position:absolute;width:200%;height:200%;top:-50%;left:-50%;opacity:0;transition:opacity 0.15s}
+        .gradient-known{background:radial-gradient(circle at center, rgba(76,175,80,0) 0%, rgba(76,175,80,0.12) 30%, rgba(76,175,80,0.28) 60%, rgba(76,175,80,0.45) 100%)}
+        .gradient-review{background:radial-gradient(circle at center, rgba(255,152,0,0) 0%, rgba(255,152,0,0.12) 30%, rgba(255,152,0,0.28) 60%, rgba(255,152,0,0.45) 100%)}
+
+        .container{position:relative;z-index:2;height:100vh;display:flex;align-items:center;justify-content:center}
+        .word-large{font-size:64px;font-weight:800;text-align:center;user-select:none;transition:transform .08s ease, opacity .08s}
+        .word-small{font-size:26px;font-weight:700;text-align:center;color:#ddd}
+
+        .top-area{position:absolute;top:0;left:0;right:0;height:72px;display:flex;align-items:center;justify-content:center;z-index:3;pointer-events:none}
+        .top-inner{width:100%;max-width:900px;display:flex;align-items:center;gap:12px;padding:12px 20px;box-sizing:border-box;pointer-events:auto}
+        /* Header: left/back, center/title, right/progress */
+        .top-left, .top-center, .top-right {display:flex;align-items:center}
+        .top-left {flex: 0 0 auto}
+        .top-center {flex: 1 1 auto; justify-content: center}
+        .top-right {flex: 0 0 auto}
+        .back-button{width:44px;height:44px;border-radius:10px;background:rgba(255,255,255,0.02);display:flex;align-items:center;justify-content:center;cursor:pointer;border:1px solid rgba(255,255,255,0.04);z-index:5}
+        .back-button:before{content:'';width:10px;height:10px;border-left:2px solid #fff;border-bottom:2px solid #fff;transform:translateY(1px) rotate(45deg);display:block}
+        .section-title{font-weight:700;z-index:4}
+
+        /* prevent wrapping on small screens like review.html */
+        .bottom-hint{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);color:#999;font-size:13px;z-index:3;white-space:nowrap;max-width:calc(100% - 40px);overflow:hidden;text-overflow:ellipsis}
+
+        /* progress sits inside the header on the right, aligned with the title */
+        .progress{position:relative;color:#aaa;z-index:3;font-weight:400}
+
+        /* when translation is shown (dragging mode) enlarge text */
+        .dragging { font-size:64px; color:#4caf50 }
+
+        .hidden-ui{opacity:0;visibility:hidden;pointer-events:none}
+        .visible-ui{opacity:1;visibility:visible;pointer-events:auto}
+
+        @media (max-width:768px){ .word-large{font-size:48px} }
+    </style>
+</head>
+<body>
+    <div class="background-gradient">
+        <div class="gradient-overlay gradient-known" id="gradient-known"></div>
+        <div class="gradient-overlay gradient-review" id="gradient-review"></div>
+    </div>
+
+    <div class="top-area hidden-ui" id="top-area">
+        <div class="top-inner">
+                <div class="top-left"><div class="back-button" id="back-button" title="Back"></div></div>
+                <div class="top-center"><div class="section-title" id="section-title">Review Words</div></div>
+                <div class="top-right"><div id="progress" class="progress"></div></div>
+            </div>
+    </div>
+
+    <div class="container">
+        <div id="wordContainer">
+            <div id="wordLarge" class="word-large">Loading...</div>
+            <div id="wordSmall" class="word-small" style="display:none"></div>
+        </div>
+        <div id="hint" class="bottom-hint hidden-ui"></div>
+    </div>
+
+    <script>
+    // Variant 1 adjusted: click does NOT show translation; UI is hidden initially (top/bottom) and toggles on tap; translation appears only after drag start.
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const listId = urlParams.get('list');
+    const sessionId = urlParams.get('session');
+
+    const wordLarge = document.getElementById('wordLarge');
+    const wordSmall = document.getElementById('wordSmall');
+    const progressEl = document.getElementById('progress');
+    const backButton = document.getElementById('back-button');
+    const topArea = document.getElementById('top-area');
+    const sectionTitle = document.getElementById('section-title');
+    const gradientKnown = document.getElementById('gradient-known');
+    const gradientReview = document.getElementById('gradient-review');
+    const hintEl = document.getElementById('hint');
+
+    let wordQueue = [];
+    let currentIndex = 0;
+    let currentWord = null;
+    let currentList = null;
+    let isCombined = false;
+
+    // UI visibility
+    let isUIHidden = true;
+    function updateUIVisibility(){
+        if(isUIHidden){ topArea.classList.add('hidden-ui'); topArea.classList.remove('visible-ui'); hintEl.classList.add('hidden-ui'); hintEl.classList.remove('visible-ui'); progressEl.classList.add('hidden-ui'); progressEl.classList.remove('visible-ui'); }
+        else { topArea.classList.remove('hidden-ui'); topArea.classList.add('visible-ui'); hintEl.classList.remove('hidden-ui'); hintEl.classList.add('visible-ui'); progressEl.classList.remove('hidden-ui'); progressEl.classList.add('visible-ui'); }
+    }
+
+    // small mobile detect
+    const isMobile = window.innerWidth <= 768 || 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+    // Set hint text like review.html
+    function setHintText(){ if(isMobile) hintEl.textContent = 'Вверх — слово знаете, вниз — для повтора'; else hintEl.textContent = 'Влево — слово знаете, вправо — для повтора'; }
+    setHintText();
+
+    // WordDB helpers
+    const WordDB = {
+        saveWordStatus(listId, english, status) {
+            const key = `word_${listId}_${english}`;
+            localStorage.setItem(key, status);
+        },
+        getWordStatus(listId, english) {
+            const key = `word_${listId}_${english}`;
+            return localStorage.getItem(key) || 'new';
+        },
+        updateListStatus(listData) {
+            if (!listData || !Array.isArray(listData.words)) return listData;
+            listData.words.forEach(word => {
+                const status = this.getWordStatus(listData.filename, word.english);
+                word.status = status;
+            });
+            return listData;
+        },
+        getWordsForReview(listData) {
+            const reviewed = [];
+            const fresh = [];
+            listData.words.forEach(word => {
+                const status = this.getWordStatus(listData.filename, word.english);
+                word.status = status;
+                if (status === 'review') reviewed.push(word);
+                else if (status === 'new') fresh.push(word);
+            });
+            return reviewed.concat(fresh);
+        }
+    };
+
+    const AudioManager = {
+        audioElements: new Map(),
+        async play(word){ if(!word) return; try{ let src=(word.audio&&word.audio[0])||`audio/${word.english.toLowerCase().replace(/[^a-z0-9]/g,'_')}.wav`; if(src && !src.startsWith('audio/') && !src.startsWith('http')) src=`audio/${src}`; if(this.audioElements.has(word.english)){const a=this.audioElements.get(word.english); a.currentTime=0; await a.play(); return;} const a=new Audio(src); a.preload='auto'; a.addEventListener('canplaythrough', async ()=>{ try{ await a.play(); this.audioElements.set(word.english,a);}catch(e){} }); a.addEventListener('error',()=>{});}catch(e){} }
+    };
+
+    async function fetchJson(path){
+        try{
+            const r = await fetch(path);
+            if (r && r.ok) return await r.json();
+        } catch (e) {
+            // ignore and allow fallback attempts
+        }
+        // if path is relative, try resolving relative to current document path
+        try{
+            const base = (location && location.pathname) ? location.pathname.replace(/\/[^/]*$/, '/') : '';
+            const alt = base + path.replace(/^\.\//, '');
+            const r2 = await fetch(alt);
+            if (r2 && r2.ok) return await r2.json();
+        }catch(e){}
+        // try absolute origin if available
+        try{
+            if (location && location.origin && !location.origin.startsWith('file')){
+                const abs = location.origin + '/' + path.replace(/^\//, '');
+                const r3 = await fetch(abs);
+                if (r3 && r3.ok) return await r3.json();
+            }
+        }catch(e){}
+        return null;
+    }
+
+    // Try multiple candidate paths to resolve the requested list reliably
+    async function resolveListJson(requested){
+         const tried = [];
+         const variants = new Set();
+         const decoded = tryDecodeURIComponent(requested);
+         variants.add(requested);
+         if (decoded !== requested) variants.add(decoded);
+         // ensure no leading slash and with leading slash
+         if (!requested.startsWith('/')) variants.add('/' + requested);
+         variants.add(requested.replace(/^\/+/, ''));
+         // relative variants
+         variants.add('./' + requested);
+         variants.add('./' + requested.replace(/^\/+/, ''));
+         // english/ prefix variants
+         if (!requested.startsWith('english/')){
+            variants.add('english/' + requested);
+            variants.add('./english/' + requested);
+         }
+         // also try removing leading folders and searching by filename
+         try{
+            const parts = requested.split('/');
+            const filename = parts[parts.length-1];
+            if (filename) variants.add('english/' + filename);
+            variants.add('./english/' + filename);
+         }catch(e){}
+
+        for (const candidate of variants) {
+            tried.push(candidate);
+            const json = await fetchJson(candidate);
+            if (json) {
+                // ensure filename field is set
+                if (!json.filename) json.filename = candidate.startsWith('english/') ? candidate : candidate.replace(/^\.\//, '');
+                console.info('review001: loaded list from', candidate);
+                return json;
+            }
+        }
+
+        console.warn('review001: tried list paths:', tried);
+        // expose to window for debugging
+        try { window.__review001_tried = tried; } catch (e) {}
+        return null;
+    }
+
+    function tryDecodeURIComponent(v){ try { return decodeURIComponent(v); } catch(e){ return v; } }
+
+    async function loadList(){
+         try{
+            // show quick diagnostic while resolving
+            if (listId) wordLarge.textContent = `Loading: ${listId}`;
+            else if (sessionId) wordLarge.textContent = 'Loading session...';
+             if(sessionId){ const session = JSON.parse(localStorage.getItem(sessionId)||'{}'); wordQueue = session.words || []; isCombined = true; currentList = { filename: 'combined', name: 'Multiple Lists' }; }
+             else if(listId){
+                 const requested = listId || '';
+                 // handle default_ lists stored in localStorage
+                 const decodedRequested = tryDecodeURIComponent(requested);
+                 if (decodedRequested.startsWith('default_')) {
+                     try {
+                         const defaultLists = JSON.parse(localStorage.getItem('default_lists') || '[]');
+                         const found = defaultLists.find(l => l.filename === decodedRequested || l.filename === requested);
+                         if (found) {
+                             currentList = found;
+                             WordDB.updateListStatus(currentList);
+                             wordQueue = WordDB.getWordsForReview(currentList);
+                             sectionTitle.textContent = currentList.theme || currentList.name || 'Review Words';
+                             currentIndex = 0; showWord(); updateProgress();
+                             return;
+                         }
+                     } catch (e) { console.warn('Failed to read default_lists from localStorage', e); }
+                 }
+
+                 let list = await resolveListJson(requested);
+                 if(!list){
+                     try{
+                         const idx = await fetchJson('english/list.json');
+                         if(Array.isArray(idx)){
+                             // try to match by filename part
+                             const filenamePart = requested.split('/').pop() || requested;
+                             let found = idx.find(f => f === requested || f === filenamePart || f.endsWith(requested) || f.endsWith(filenamePart));
+                             if(found){ const candidate = `english/${found}`; const fetched = await fetchJson(candidate); if(fetched){ list = fetched; list.filename = candidate; } }
+                         }
+                     }catch(e){ console.warn('Failed reading english/list.json', e); }
+                 }
+                 if(!list){ const defaults = ['english/list_basic_1.json','english/list_intermediate_1.json','english/list_advanced_1.json']; for(const d of defaults){ const l = await fetchJson(d); if(l){ list = l; list.filename = d; break; } } }
+                 if(!list){
+                     // show tried candidates if available
+                     let tried = (window && window.__review001_tried) ? window.__review001_tried : [];
+                     let sample = tried.slice(0,6).join(', ');
+                     wordLarge.textContent = `Error loading list. Tried: ${sample}${tried.length>6? ' ...':''}`;
+                     console.error('review001: could not resolve list param', requested, 'tried:', tried);
+                     return;
+                 }
+                 if(!list.filename) list.filename = requested.startsWith('english/') ? requested : `english/${requested}`;
+                 currentList = list;
+                 // prefer theme for header title
+                 sectionTitle.textContent = currentList.theme || currentList.name || 'Review Words';
+                 WordDB.updateListStatus(list);
+                 wordQueue = WordDB.getWordsForReview(list);
+             }
+
+             if(!wordQueue || wordQueue.length === 0){ wordLarge.textContent = 'No words'; return; }
+             currentIndex = 0; showWord(); updateProgress();
+         }catch(e){ console.error('review001 loadList error', e); wordLarge.textContent = 'Error loading list.'; }
+     }
+
+    function showWord(){ currentWord = wordQueue[currentIndex];
+        // show English by default when a word appears and play its audio
+        wordLarge.textContent = currentWord.english;
+        wordLarge.classList.remove('dragging');
+        wordSmall.style.display = 'none';
+        // Play pronunciation when the word appears
+        try { AudioManager.play(currentWord); } catch (e) { /* ignore */ }
+    }
+    function updateProgress(){ progressEl.textContent = `${currentIndex+1}/${wordQueue.length}`; }
+
+    // Draggable English implementation: we create a floating element that follows the pointer while translation remains in place
+    // create draggable element once
+    let draggableEl = null;
+    function ensureDraggableEl() {
+        if (draggableEl) return;
+        draggableEl = document.createElement('div');
+        draggableEl.style.position = 'fixed';
+        draggableEl.style.pointerEvents = 'none';
+        draggableEl.style.zIndex = 9999;
+        draggableEl.style.left = '50%';
+        draggableEl.style.top = '50%';
+        draggableEl.style.transform = 'translate(-50%, -50%)';
+        draggableEl.style.fontSize = window.getComputedStyle(wordLarge).fontSize || '64px';
+        draggableEl.style.fontWeight = '800';
+        draggableEl.style.color = '#fff';
+        draggableEl.style.textAlign = 'center';
+        draggableEl.style.transition = 'transform 0.06s linear, opacity 0.12s';
+        document.body.appendChild(draggableEl);
+        draggableEl.style.opacity = '0';
+    }
+
+    // Drag handling: don't show translation on click. Only start dragging when movement exceeds START_DRAG threshold.
+     let isPointerActive = false; let startX=0, startY=0, lastX=0, lastY=0; let draggingStarted=false;
+     const START_DRAG = 2; // px small movement to detect drag start (reduced for immediate pickup)
+     const DRAG_THRESHOLD = 40; // px to count as action on release
+
+     function onPointerDown(e){ const p=(e.touches&&e.touches[0])||e; startX=p.clientX; startY=p.clientY; lastX=startX; lastY=startY; isPointerActive=true; draggingStarted=false; /* do not change word on down */
+         // remove transitions so movement feels instant
+         try{ wordLarge.style.transition = 'none'; }catch(ex){}
++        // prepare draggable element
++        ensureDraggableEl();
++        // initial text of draggable is the english but hidden until drag starts
++        draggableEl.textContent = currentWord ? currentWord.english : '';
++        draggableEl.style.opacity = '0';
+         e.preventDefault && e.preventDefault(); }
+
+     function onPointerMove(e){ if(!isPointerActive) return; const p=(e.touches&&e.touches[0])||e; const dx=p.clientX-startX; const dy=p.clientY-startY; lastX=p.clientX; lastY=p.clientY; const moved = Math.max(Math.abs(dx), Math.abs(dy)); if(!draggingStarted && moved >= START_DRAG){ // start dragging: switch to translation
+-            draggingStarted = true;
+-            const translation = currentWord.russian || currentWord.translation || '';
+-            wordLarge.textContent = translation || '';
+-            wordLarge.classList.add('dragging');
+-            // hide UI while dragging
+-            isUIHidden = true; updateUIVisibility();
+-            AudioManager.play(currentWord);
++            draggingStarted = true;
++            // show translation in the main spot and keep it there
++            const translation = currentWord.russian || currentWord.translation || '';
++            wordLarge.textContent = translation || '';
++            wordLarge.classList.add('dragging');
++            // show draggable english element and position it at pointer
++            draggableEl.textContent = currentWord.english;
++            draggableEl.style.left = `${p.clientX}px`;
++            draggableEl.style.top = `${p.clientY}px`;
++            draggableEl.style.transform = 'translate(-50%, -50%)';
++            draggableEl.style.opacity = '1';
++            // hide UI while dragging
++            isUIHidden = true; updateUIVisibility();
++            // play word again on drag start
++            AudioManager.play(currentWord);
+         }
+-        if(draggingStarted){ wordLarge.style.transform = `translate(${dx}px, ${dy}px)`; const absX=Math.abs(dx), absY=Math.abs(dy); const primary=Math.max(absX,absY); const ratio=Math.min(primary/200,1); if(Math.abs(dx) > Math.abs(dy)){ if(dx>0){ gradientReview.style.opacity = String(ratio); gradientKnown.style.opacity='0'; } else { gradientKnown.style.opacity = String(ratio); gradientReview.style.opacity='0'; } } else { if(dy>0){ gradientReview.style.opacity = String(ratio); gradientKnown.style.opacity='0'; } else { gradientKnown.style.opacity = String(ratio); gradientReview.style.opacity='0'; } } }
++        if(draggingStarted){
++            // move draggable element with pointer
++            draggableEl.style.left = `${p.clientX}px`;
++            draggableEl.style.top = `${p.clientY}px`;
++            // visual gradient based on movement relative to start
++            const absX=Math.abs(dx), absY=Math.abs(dy); const primary=Math.max(absX,absY); const ratio=Math.min(primary/200,1);
++            if(Math.abs(dx) > Math.abs(dy)){
++                if(dx>0){ gradientReview.style.opacity = String(ratio); gradientKnown.style.opacity='0'; }
++                else { gradientKnown.style.opacity = String(ratio); gradientReview.style.opacity='0'; }
++            } else {
++                if(dy>0){ gradientReview.style.opacity = String(ratio); gradientKnown.style.opacity='0'; }
++                else { gradientKnown.style.opacity = String(ratio); gradientReview.style.opacity='0'; }
++            }
++        }
+         e.preventDefault && e.preventDefault(); }
+
+     function onPointerUp(e){ if(!isPointerActive) return; isPointerActive=false; if(!draggingStarted){ // treat as tap - toggle UI visibility
+             isUIHidden = !isUIHidden; updateUIVisibility(); return; }
+         // if draggingStarted handle release
+-        wordLarge.style.transition = 'transform 0.25s ease, opacity 0.2s ease'; const dx = lastX - startX; const dy = lastY - startY; gradientKnown.style.opacity='0'; gradientReview.style.opacity='0'; if(Math.abs(dx) < DRAG_THRESHOLD && Math.abs(dy) < DRAG_THRESHOLD){ // too small - restore english
+-            wordLarge.textContent = currentWord.english; wordLarge.classList.remove('dragging'); wordLarge.style.transform = ''; return; }
+-        let action = null; if(Math.abs(dx) > Math.abs(dy)) action = dx > 0 ? 'review' : 'known'; else action = dy > 0 ? 'review' : 'known'; const offX = (dx > 0 ? 1 : -1) * window.innerWidth; const offY = (dy > 0 ? 1 : -1) * window.innerHeight; wordLarge.style.transform = `translate(${offX}px, ${offY}px) scale(0.95)`; wordLarge.style.opacity = '0'; if(!isCombined) WordDB.saveWordStatus(currentWord.filename || listId || 'local', currentWord.english, action); setTimeout(()=>{ currentIndex++; if(currentIndex >= wordQueue.length){ wordLarge.textContent = 'Done'; wordLarge.style.transform=''; wordLarge.style.opacity='1'; progressEl.textContent = `${wordQueue.length}/${wordQueue.length}`; return; } wordLarge.style.opacity='1'; wordLarge.style.transform=''; showWord(); updateProgress(); }, 260);
++        wordLarge.style.transition = 'transform 0.25s ease, opacity 0.2s ease';
++        const dx = lastX - startX; const dy = lastY - startY; gradientKnown.style.opacity='0'; gradientReview.style.opacity='0';
++        if(Math.abs(dx) < DRAG_THRESHOLD && Math.abs(dy) < DRAG_THRESHOLD){ // too small - cancel action: hide draggable and keep translation
++            // animate draggable back to center then hide
++            draggableEl.style.transition = 'transform 0.18s ease, opacity 0.12s';
++            draggableEl.style.opacity = '0';
++            setTimeout(()=>{ draggableEl.style.transition = ''; draggableEl.style.transform = 'translate(-50%, -50%)'; }, 160);
++            // leave translation visible
++            return;
++        }
++
++        let action = null;
++        if(Math.abs(dx) > Math.abs(dy)) action = dx > 0 ? 'review' : 'known'; else action = dy > 0 ? 'review' : 'known';
++
++        // animate draggable off-screen in action direction
++        const offX = (dx > 0 ? 1 : -1) * (window.innerWidth + 200);
++        const offY = (dy > 0 ? 1 : -1) * (window.innerHeight + 200);
++        draggableEl.style.transition = 'transform 0.32s ease, opacity 0.22s ease';
++        draggableEl.style.transform = `translate(${offX}px, ${offY}px)`;
++        draggableEl.style.opacity = '0';
++
++        // persist
++        if(!isCombined) WordDB.saveWordStatus(currentWord.filename || listId || 'local', currentWord.english, action);
++
++        setTimeout(()=>{
++            // cleanup draggable element (reset)
++            draggableEl.style.transition = '';
++            draggableEl.style.transform = 'translate(-50%, -50%)';
++            draggableEl.style.opacity = '0';
++
++            currentIndex++;
++            if(currentIndex >= wordQueue.length){ wordLarge.textContent = 'Done'; wordLarge.style.transform=''; wordLarge.style.opacity='1'; progressEl.textContent = `${wordQueue.length}/${wordQueue.length}`; return; }
++            // show next word (will play audio on appear)
++            wordLarge.style.opacity = '1'; wordLarge.style.transform=''; showWord(); updateProgress();
++        }, 320);
+     }
+
+    // Back button
+    backButton.addEventListener('click', ()=>{ window.location.href = 'index.html'; });
+
+    // Pointer events
+    window.addEventListener('mousedown', onPointerDown);
+    window.addEventListener('touchstart', onPointerDown, {passive:false});
+    window.addEventListener('mousemove', onPointerMove);
+    window.addEventListener('touchmove', onPointerMove, {passive:false});
+    window.addEventListener('mouseup', onPointerUp);
+    window.addEventListener('touchend', onPointerUp);
+
+    // Keyboard
+    window.addEventListener('keydown', (e)=>{ if(e.key==='ArrowLeft' || e.key==='a' || e.key==='ArrowUp') applyActionKeyboard('known'); else if(e.key==='ArrowRight' || e.key==='d' || e.key==='ArrowDown') applyActionKeyboard('review'); });
+    function applyActionKeyboard(action){ if(!currentWord) return; if(!isCombined) WordDB.saveWordStatus(currentWord.filename || listId || 'local', currentWord.english, action); wordLarge.style.transition='transform .25s ease, opacity .18s'; wordLarge.style.transform = action==='review' ? `translate(${window.innerWidth}px,0)` : `translate(-${window.innerWidth}px,0)`; wordLarge.style.opacity='0'; setTimeout(()=>{ currentIndex++; if(currentIndex>=wordQueue.length){ wordLarge.textContent='Done'; return; } wordLarge.style.opacity='1'; wordLarge.style.transform=''; showWord(); updateProgress(); },260); }
+
+    // Initial UI hidden
+    updateUIVisibility();
+    // load
+    loadList();
+    </script>
+</body>
+</html>

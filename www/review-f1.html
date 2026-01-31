@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Bounce</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+            user-select: none;
+        }
+
+        body {
+            background: #0a0e17;
+            overflow: hidden;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #e0f7ff;
+        }
+
+        #gameContainer {
+            position: relative;
+            width: 360px;
+            height: 640px;
+            background:
+                radial-gradient(circle at 20% 30%, rgba(20, 60, 120, 0.2) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(120, 30, 100, 0.15) 0%, transparent 40%),
+                #0a0e17;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow:
+                0 0 0 1px rgba(64, 156, 255, 0.1),
+                inset 0 0 0 1px rgba(64, 156, 255, 0.05),
+                0 20px 60px rgba(0, 0, 0, 0.8);
+        }
+
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        #ui {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 100;
+        }
+
+        #trajectory {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .controlHint {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
+            color: rgba(64, 220, 255, 0.6);
+            text-align: center;
+            text-shadow: 0 0 10px rgba(64, 156, 255, 0.5);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.4; }
+            50% { opacity: 1; }
+        }
+
+        .particleEffect {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 50;
+        }
+
+        #debug {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            color: rgba(64, 220, 255, 0.7);
+            font-size: 12px;
+            font-family: monospace;
+            pointer-events: none;
+        }
+
+        .vibration {
+            animation: vibrate 0.1s linear;
+        }
+
+        @keyframes vibrate {
+            0%, 100% { transform: translate(0, 0); }
+            25% { transform: translate(-1px, 1px); }
+            50% { transform: translate(1px, -1px); }
+            75% { transform: translate(-1px, -1px); }
+        }
+    </style>
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas"></canvas>
+        <canvas id="trajectory"></canvas>
+        <div id="ui">
+            <div class="controlHint">← ТЯНИ И ОТПУСКАЙ →</div>
+            <div id="debug"></div>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+        const trajectoryCanvas = document.getElementById('trajectory');
+        const trajectoryCtx = trajectoryCanvas.getContext('2d');
+        const debug = document.getElementById('debug');
+
+        // Установка размеров
+        canvas.width = 360;
+        canvas.height = 640;
+        trajectoryCanvas.width = 360;
+        trajectoryCanvas.height = 640;
+
+        // Конфигурация игры
+        const config = {
+            particle: {
+                radius: 12,
+                speed: 6,
+                glow: true
+            },
+            colors: {
+                particle: '#40dcff',
+                particleGlow: 'rgba(64, 220, 255, 0.4)',
+                target: '#ff4080',
+                targetGlow: 'rgba(255, 64, 128, 0.3)',
+                trajectory: 'rgba(64, 156, 255, 0.15)',
+                wall: 'rgba(255, 255, 255, 0.08)',
+                backgroundGrid: 'rgba(64, 156, 255, 0.03)',
+                quantumEffect: '#9d4dff'
+            },
+            physics: {
+                bounceLoss: 0.92,
+                minSpeed: 1.5,
+                gravity: 0
+            }
+        };
+
+        // Игровые объекты
+        let particle = {
+            x: 180,
+            y: 500,
+            vx: 0,
+            vy: 0,
+            radius: config.particle.radius,
+            active: false
+        };
+
+        let targets = [];
+        let walls = [];
+        let particles = [];
+        let isDragging = false;
+        let dragStart = { x: 0, y: 0 };
+        let dragEnd = { x: 0, y: 0 };
+        let isFirstLaunch = true;
+
+        // Инициализация
+        function init() {
+            createWalls();
+            generateTargets();
+            drawBackground();
+            requestAnimationFrame(gameLoop);
+        }
+
+        function createWalls() {
+            const padding = 20;
+            walls = [
+                { x: padding, y: padding, width: canvas.width - 2*padding, height: 15 }, // верх
+                { x: padding, y: canvas.height - padding - 15, width: canvas.width - 2*padding, height: 15 }, // низ
+                { x: padding, y: padding, width: 15, height: canvas.height - 2*padding }, // лево
+                { x: canvas.width - padding - 15, y: padding, width: 15, height: canvas.height - 2*padding } // право
+            ];
+        }
+
+        function generateTargets() {
+            targets = [];
+            const rows = 4;
+            const cols = 3;
+            const spacing = 70;
+            const offsetX = 90;
+            const offsetY = 150;
+
+            for (let i = 0; i < rows; i++) {
+                for (let j = 0; j < cols; j++) {
+                    targets.push({
+                        x: offsetX + j * spacing,
+                        y: offsetY + i * spacing,
+                        radius: 18,
+                        active: true,
+                        type: Math.floor(Math.random() * 3) // 0, 1, 2 для вариаций
+                    });
+                }
+            }
+        }
+
+        function drawBackground() {
+            ctx.fillStyle = config.colors.backgroundGrid;
+            ctx.strokeStyle = config.colors.backgroundGrid;
+            ctx.lineWidth = 0.5;
+
+            // Вертикальные линии
+            for (let x = 20; x < canvas.width; x += 40) {
+                ctx.beginPath();
+                ctx.moveTo(x, 0);
+                ctx.lineTo(x, canvas.height);
+                ctx.stroke();
+            }
+
+            // Горизонтальные линии
+            for (let y = 20; y < canvas.height; y += 40) {
+                ctx.beginPath();
+                ctx.moveTo(0, y);
+                ctx.lineTo(canvas.width, y);
+                ctx.stroke();
+            }
+        }
+
+        function drawParticle() {
+            ctx.save();
+            ctx.translate(particle.x, particle.y);
+
+            // Свечение
+            if (config.particle.glow) {
+                const gradient = ctx.createRadialGradient(0, 0, 0, 0, 0, particle.radius * 2);
+                gradient.addColorStop(0, config.colors.particleGlow);
+                gradient.addColorStop(1, 'transparent');
+                ctx.fillStyle = gradient;
+                ctx.beginPath();
+                ctx.arc(0, 0, particle.radius * 2, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            // Ядро частицы
+            ctx.fillStyle = config.colors.particle;
+            ctx.beginPath();
+            ctx.arc(0, 0, particle.radius, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Внутреннее свечение
+            const innerGradient = ctx.createRadialGradient(0, 0, 0, 0, 0, particle.radius);
+            innerGradient.addColorStop(0, '#ffffff');
+            innerGradient.addColorStop(0.6, config.colors.particle);
+            ctx.fillStyle = innerGradient;
+            ctx.beginPath();
+            ctx.arc(0, 0, particle.radius * 0.7, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Квантовые точки
+            ctx.fillStyle = '#ffffff';
+            for (let i = 0; i < 3; i++) {
+                const angle = Date.now() / 1000 + i * Math.PI * 2 / 3;
+                const dotRadius = 2;
+                const dotDistance = particle.radius * 0.5;
+                ctx.beginPath();
+                ctx.arc(
+                    Math.cos(angle) * dotDistance,
+                    Math.sin(angle) * dotDistance,
+                    dotRadius,
+                    0,
+                    Math.PI * 2
+                );
+                ctx.fill();
+            }
+
+            ctx.restore();
+        }
+
+        function drawTargets() {
+            targets.forEach(target => {
+                if (!target.active) return;
+
+                ctx.save();
+                ctx.translate(target.x, target.y);
+
+                // Свечение цели
+                const glowGradient = ctx.createRadialGradient(0, 0, 0, 0, 0, target.radius * 2);
+                glowGradient.addColorStop(0, config.colors.targetGlow);
+                glowGradient.addColorStop(1, 'transparent');
+                ctx.fillStyle = glowGradient;
+                ctx.beginPath();
+                ctx.arc(0, 0, target.radius * 2, 0, Math.PI * 2);
+                ctx.fill();
+
+                // Кристалл
+                ctx.fillStyle = config.colors.target;
+                ctx.beginPath();
+
+                // Разная форма в зависимости от типа
+                if (target.type === 0) {
+                    // Шестиугольник
+                    for (let i = 0; i < 6; i++) {
+                        const angle = (i * Math.PI) / 3;
+                        const x = Math.cos(angle) * target.radius;
+                        const y = Math.sin(angle) * target.radius;
+                        if (i === 0) ctx.moveTo(x, y);
+                        else ctx.lineTo(x, y);
+                    }
+                } else if (target.type === 1) {
+                    // Квадрат с поворотом
+                    ctx.rotate(Math.PI / 4);
+                    ctx.rect(-target.radius * 0.7, -target.radius * 0.7,
+                            target.radius * 1.4, target.radius * 1.4);
+                } else {
+                    // Треугольник
+                    for (let i = 0; i < 3; i++) {
+                        const angle = (i * Math.PI * 2) / 3 - Math.PI / 2;
+                        const x = Math.cos(angle) * target.radius;
+                        const y = Math.sin(angle) * target.radius;
+                        if (i === 0) ctx.moveTo(x, y);
+                        else ctx.lineTo(x, y);
+                    }
+                }
+
+                ctx.closePath();
+                ctx.fill();
+
+                // Внутреннее свечение
+                const innerGradient = ctx.createRadialGradient(0, 0, 0, 0, 0, target.radius);
+                innerGradient.addColorStop(0, '#ffffff');
+                innerGradient.addColorStop(0.7, config.colors.target);
+                ctx.fillStyle = innerGradient;
+
+                ctx.beginPath();
+                ctx.arc(0, 0, target.radius * 0.4, 0, Math.PI * 2);
+                ctx.fill();
+
+                ctx.restore();
+            });
+        }
+
+        function drawWalls() {
+            ctx.fillStyle = config.colors.wall;
+            walls.forEach(wall => {
+                // Скругленные углы
+                ctx.beginPath();
+                const radius = 8;
+                ctx.roundRect(wall.x, wall.y, wall.width, wall.height, radius);
+                ctx.fill();
+
+                // Свечение краев
+                ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)';
+                ctx.lineWidth = 1;
+                ctx.stroke();
+            });
+        }
+
+        function drawTrajectory() {
+            if (!isDragging) return;
+
+            trajectoryCtx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const dx = dragEnd.x - particle.x;
+            const dy = dragEnd.y - particle.y;
+            const power = Math.min(Math.sqrt(dx*dx + dy*dy) / 100, 2);
+
+            trajectoryCtx.strokeStyle = config.colors.trajectory;
+            trajectoryCtx.lineWidth = 3;
+            trajectoryCtx.setLineDash([5, 3]);
+
+            trajectoryCtx.beginPath();
+            trajectoryCtx.moveTo(particle.x, particle.y);
+
+            // Симуляция траектории
+            let simX = particle.x;
+            let simY = particle.y;
+            let simVX = -dx * 0.1;
+            let simVY = -dy * 0.1;
+            let steps = 0;
+
+            while (steps < 50 && simVX * simVX + simVY * simVY > 0.1) {
+                simX += simVX;
+                simY += simVY;
+
+                // Отскок от стен
+                walls.forEach(wall => {
+                    if (simX + particle.radius > wall.x &&
+                        simX - particle.radius < wall.x + wall.width &&
+                        simY + particle.radius > wall.y &&
+                        simY - particle.radius < wall.y + wall.height) {
+
+                        // Определяем сторону столкновения
+                        const left = Math.abs((simX + particle.radius) - wall.x);
+                        const right = Math.abs((simX - particle.radius) - (wall.x + wall.width));
+                        const top = Math.abs((simY + particle.radius) - wall.y);
+                        const bottom = Math.abs((simY - particle.radius) - (wall.y + wall.height));
+
+                        const min = Math.min(left, right, top, bottom);
+
+                        if (min === left || min === right) simVX *= -config.physics.bounceLoss;
+                        if (min === top || min === bottom) simVY *= -config.physics.bounceLoss;
+                    }
+                });
+
+                trajectoryCtx.lineTo(simX, simY);
+                steps++;
+            }
+
+            trajectoryCtx.stroke();
+            trajectoryCtx.setLineDash([]);
+
+            // Направляющая стрелка
+            const angle = Math.atan2(dy, dx);
+            const arrowLength = 30 * power;
+
+            trajectoryCtx.strokeStyle = config.colors.particle;
+            trajectoryCtx.lineWidth = 2;
+            trajectoryCtx.fillStyle = config.colors.particle;
+
+            trajectoryCtx.beginPath();
+            trajectoryCtx.moveTo(particle.x, particle.y);
+            trajectoryCtx.lineTo(
+                particle.x + Math.cos(angle) * arrowLength,
+                particle.y + Math.sin(angle) * arrowLength
+            );
+            trajectoryCtx.stroke();
+
+            // Наконечник стрелки
+            trajectoryCtx.beginPath();
+            trajectoryCtx.moveTo(
+                particle.x + Math.cos(angle) * arrowLength,
+                particle.y + Math.sin(angle) * arrowLength
+            );
+            trajectoryCtx.lineTo(
+                particle.x + Math.cos(angle - Math.PI/6) * arrowLength * 0.6,
+                particle.y + Math.sin(angle - Math.PI/6) * arrowLength * 0.6
+            );
+            trajectoryCtx.lineTo(
+                particle.x + Math.cos(angle + Math.PI/6) * arrowLength * 0.6,
+                particle.y + Math.sin(angle + Math.PI/6) * arrowLength * 0.6
+            );
+            trajectoryCtx.closePath();
+            trajectoryCtx.fill();
+        }
+
+        function updateParticle() {
+            if (!particle.active) return;
+
+            particle.x += particle.vx;
+            particle.y += particle.vy;
+
+            // Гравитация
+            particle.vy += config.physics.gravity;
+
+            // Отскок от стен
+            let bounced = false;
+            walls.forEach(wall => {
+                if (particle.x + particle.radius > wall.x &&
+                    particle.x - particle.radius < wall.x + wall.width &&
+                    particle.y + particle.radius > wall.y &&
+                    particle.y - particle.radius < wall.y + wall.height) {
+
+                    // Определяем сторону столкновения
+                    const left = Math.abs((particle.x + particle.radius) - wall.x);
+                    const right = Math.abs((particle.x - particle.radius) - (wall.x + wall.width));
+                    const top = Math.abs((particle.y + particle.radius) - wall.y);
+                    const bottom = Math.abs((particle.y - particle.radius) - (wall.y + wall.height));
+
+                    const min = Math.min(left, right, top, bottom);
+
+                    if (min === left) {
+                        particle.x = wall.x - particle.radius;
+                        particle.vx *= -config.physics.bounceLoss;
+                    } else if (min === right) {
+                        particle.x = wall.x + wall.width + particle.radius;
+                        particle.vx *= -config.physics.bounceLoss;
+                    }
+
+                    if (min === top) {
+                        particle.y = wall.y - particle.radius;
+                        particle.vy *= -config.physics.bounceLoss;
+                    } else if (min === bottom) {
+                        particle.y = wall.y + wall.height + particle.radius;
+                        particle.vy *= -config.physics.bounceLoss;
+                    }
+
+                    bounced = true;
+                    createBounceEffect(particle.x, particle.y);
+                }
+            });
+
+            // Проверка столкновений с целями
+            targets.forEach(target => {
+                if (!target.active) return;
+
+                const dx = particle.x - target.x;
+                const dy = particle.y - target.y;
+                const distance = Math.sqrt(dx*dx + dy*dy);
+
+                if (distance < particle.radius + target.radius) {
+                    target.active = false;
+                    createExplosion(target.x, target.y, target.type);
+
+                    // Отскок
+                    const angle = Math.atan2(dy, dx);
+                    const speed = Math.sqrt(particle.vx*particle.vx + particle.vy*particle.vy);
+                    particle.vx = Math.cos(angle) * speed * 0.8;
+                    particle.vy = Math.sin(angle) * speed * 0.8;
+                }
+            });
+
+            // Замедление
+            const speed = Math.sqrt(particle.vx*particle.vx + particle.vy*particle.vy);
+            if (speed < config.physics.minSpeed) {
+                particle.active = false;
+                particle.vx = 0;
+                particle.vy = 0;
+
+                // Если это был первый запуск, показываем подсказку
+                if (isFirstLaunch) {
+                    isFirstLaunch = false;
+                }
+            }
+        }
+
+        function createExplosion(x, y, type) {
+            const colors = [
+                config.colors.quantumEffect,
+                config.colors.particle,
+                config.colors.target
+            ];
+            const color = colors[type];
+
+            for (let i = 0; i < 12; i++) {
+                const angle = (i * Math.PI * 2) / 12;
+                const speed = 2 + Math.random() * 3;
+
+                particles.push({
+                    x, y,
+                    vx: Math.cos(angle) * speed,
+                    vy: Math.sin(angle) * speed,
+                    radius: 2 + Math.random() * 4,
+                    color: color,
+                    life: 30 + Math.random() * 20
+                });
+            }
+
+            // Визуальный эффект
+            document.getElementById('gameContainer').classList.add('vibration');
+            setTimeout(() => {
+                document.getElementById('gameContainer').classList.remove('vibration');
+            }, 100);
+        }
+
+        function createBounceEffect(x, y) {
+            for (let i = 0; i < 8; i++) {
+                const angle = Math.random() * Math.PI * 2;
+                const speed = 0.5 + Math.random() * 1;
+
+                particles.push({
+                    x, y,
+                    vx: Math.cos(angle) * speed,
+                    vy: Math.sin(angle) * speed,
+                    radius: 1 + Math.random() * 2,
+                    color: config.colors.particle,
+                    life: 15 + Math.random() * 15
+                });
+            }
+        }
+
+        function updateParticles() {
+            for (let i = particles.length - 1; i >= 0; i--) {
+                const p = particles[i];
+
+                p.x += p.vx;
+                p.y += p.vy;
+                p.vy += 0.1; // гравитация для частиц
+                p.life--;
+
+                if (p.life <= 0) {
+                    particles.splice(i, 1);
+                }
+            }
+        }
+
+        function drawParticles() {
+            particles.forEach(p => {
+                ctx.fillStyle = p.color;
+                ctx.globalAlpha = p.life / 50;
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+                ctx.fill();
+            });
+            ctx.globalAlpha = 1;
+        }
+
+        function gameLoop() {
+            // Очистка
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            drawBackground();
+
+            // Обновление
+            updateParticle();
+            updateParticles();
+
+            // Отрисовка
+            drawWalls();
+            drawTargets();
+            drawParticles();
+            drawParticle();
+            drawTrajectory();
+
+            // Отладка
+            debug.textContent = `Active: ${particle.active ? 'YES' : 'NO'}\n` +
+                              `Targets: ${targets.filter(t => t.active).length}`;
+
+            requestAnimationFrame(gameLoop);
+        }
+
+        // Обработчики событий
+        canvas.addEventListener('touchstart', handleStart);
+        canvas.addEventListener('mousedown', handleStart);
+
+        canvas.addEventListener('touchmove', handleMove);
+        canvas.addEventListener('mousemove', handleMove);
+
+        canvas.addEventListener('touchend', handleEnd);
+        canvas.addEventListener('mouseup', handleEnd);
+
+        function handleStart(e) {
+            e.preventDefault();
+            const pos = getEventPosition(e);
+
+            if (!particle.active &&
+                Math.abs(pos.x - particle.x) < particle.radius * 2 &&
+                Math.abs(pos.y - particle.y) < particle.radius * 2) {
+
+                isDragging = true;
+                dragStart.x = pos.x;
+                dragStart.y = pos.y;
+                dragEnd.x = pos.x;
+                dragEnd.y = pos.y;
+            }
+        }
+
+        function handleMove(e) {
+            if (!isDragging) return;
+            e.preventDefault();
+
+            const pos = getEventPosition(e);
+            dragEnd.x = pos.x;
+            dragEnd.y = pos.y;
+        }
+
+        function handleEnd(e) {
+            if (!isDragging) return;
+            e.preventDefault();
+
+            isDragging = false;
+            trajectoryCtx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const dx = dragEnd.x - particle.x;
+            const dy = dragEnd.y - particle.y;
+            const distance = Math.sqrt(dx*dx + dy*dy);
+
+            if (distance > 20) { // Минимальная сила для запуска
+                particle.active = true;
+                particle.vx = -dx * 0.15;
+                particle.vy = -dy * 0.15;
+            }
+        }
+
+        function getEventPosition(e) {
+            if (e.type.includes('touch')) {
+                const touch = e.touches[0] || e.changedTouches[0];
+                const rect = canvas.getBoundingClientRect();
+                return {
+                    x: touch.clientX - rect.left,
+                    y: touch.clientY - rect.top
+                };
+            } else {
+                const rect = canvas.getBoundingClientRect();
+                return {
+                    x: e.clientX - rect.left,
+                    y: e.clientY - rect.top
+                };
+            }
+        }
+
+        // Запуск игры
+        init();
+    </script>
+</body>
+</html>

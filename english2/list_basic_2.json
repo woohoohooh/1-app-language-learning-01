@@ -1,0 +1,16 @@
+{
+  "name": "Basic English",
+  "level": "Beginner",
+  "theme": "General",
+  "filename": "english/list_basic_2.json",
+  "words": [
+    {"english": "цуаhello", "translation": "уацпривет"},
+    {"english": "уцаworld", "translation": "уацмир"},
+    {"english": "ауцapple", "translation": "яауцблоко"},
+    {"english": "ауцbook", "translation": "кнцауига"},
+    {"english": "ауцcat", "translation": "кошауцка"},
+    {"english": "ауhouse", "translation": "доцам"},
+    {"english": "ауцwater", "translation": "воцауда"},
+    {"english": "ауцfriend", "translation": "дауцруг"}
+  ]
+}
