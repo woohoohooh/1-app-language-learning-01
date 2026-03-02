@@ -1,0 +1,367 @@
+{
+  "theme": "Маркетинг и реклама",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "digital-marketing-strategy",
+      "english": "digital marketing strategy",
+      "translation": "стратегия цифрового маркетинга",
+      "audio": [
+        "audio/phrases/digital marketing strategy.wav"
+      ]
+    },
+    {
+      "id": "online-advertising-formats",
+      "english": "online advertising formats",
+      "translation": "форматы онлайн рекламы",
+      "audio": [
+        "audio/phrases/online advertising formats.wav"
+      ]
+    },
+    {
+      "id": "strong-global-brand",
+      "english": "strong global brand",
+      "translation": "сильный глобальный бренд",
+      "audio": [
+        "audio/phrases/strong global brand.wav"
+      ]
+    },
+    {
+      "id": "consistent-branding-elements",
+      "english": "consistent branding elements",
+      "translation": "последовательные элементы брендинга",
+      "audio": [
+        "audio/phrases/consistent branding elements.wav"
+      ]
+    },
+    {
+      "id": "increase-brand-awareness",
+      "english": "increase brand awareness",
+      "translation": "повысить узнаваемость бренда",
+      "audio": [
+        "audio/phrases/increase brand awareness.wav"
+      ]
+    },
+    {
+      "id": "launch-a-campaign",
+      "english": "launch a campaign",
+      "translation": "запустить кампанию",
+      "audio": [
+        "audio/phrases/launch a campaign.wav"
+      ]
+    },
+    {
+      "id": "product-promotion-plan",
+      "english": "product promotion plan",
+      "translation": "план продвижения продукта",
+      "audio": [
+        "audio/phrases/product promotion plan.wav"
+      ]
+    },
+    {
+      "id": "successful-product-launch",
+      "english": "successful product launch",
+      "translation": "успешный запуск продукта",
+      "audio": [
+        "audio/phrases/successful product launch.wav"
+      ]
+    },
+    {
+      "id": "expand-audience-reach",
+      "english": "expand audience reach",
+      "translation": "расширить охват аудитории",
+      "audio": [
+        "audio/phrases/expand audience reach.wav"
+      ]
+    },
+    {
+      "id": "track-ad-impressions",
+      "english": "track ad impressions",
+      "translation": "отслеживать показы рекламы",
+      "audio": [
+        "audio/phrases/track ad impressions.wav"
+      ]
+    },
+    {
+      "id": "engage-the-audience",
+      "english": "engage the audience",
+      "translation": "вовлекать аудиторию",
+      "audio": [
+        "audio/phrases/engage the audience.wav"
+      ]
+    },
+    {
+      "id": "define-target-audience",
+      "english": "define target audience",
+      "translation": "определить целевую аудиторию",
+      "audio": [
+        "audio/phrases/define target audience.wav"
+      ]
+    },
+    {
+      "id": "market-segment-analysis",
+      "english": "market segment analysis",
+      "translation": "анализ рыночного сегмента",
+      "audio": [
+        "audio/phrases/market segment analysis.wav"
+      ]
+    },
+    {
+      "id": "study-demographics-data",
+      "english": "study demographics data",
+      "translation": "изучать демографические данные",
+      "audio": [
+        "audio/phrases/study demographics data.wav"
+      ]
+    },
+    {
+      "id": "build-a-persona",
+      "english": "build a persona",
+      "translation": "создать персону",
+      "audio": [
+        "audio/phrases/build a persona.wav"
+      ]
+    },
+    {
+      "id": "choose-the-channel",
+      "english": "choose the channel",
+      "translation": "выбрать канал",
+      "audio": [
+        "audio/phrases/choose the channel.wav"
+      ]
+    },
+    {
+      "id": "advertising-platform-tools",
+      "english": "advertising platform tools",
+      "translation": "инструменты рекламной платформы",
+      "audio": [
+        "audio/phrases/advertising platform tools.wav"
+      ]
+    },
+    {
+      "id": "social-media-presence",
+      "english": "social media presence",
+      "translation": "присутствие в соцсетях",
+      "audio": [
+        "audio/phrases/social media presence.wav"
+      ]
+    },
+    {
+      "id": "email-marketing-campaign",
+      "english": "email marketing campaign",
+      "translation": "email-маркетинговая кампания",
+      "audio": [
+        "audio/phrases/email marketing campaign.wav"
+      ]
+    },
+    {
+      "id": "valuable-content-creation",
+      "english": "valuable content creation",
+      "translation": "создание ценного контента",
+      "audio": [
+        "audio/phrases/valuable content creation.wav"
+      ]
+    },
+    {
+      "id": "persuasive-ad-copy",
+      "english": "persuasive ad copy",
+      "translation": "убедительный рекламный текст",
+      "audio": [
+        "audio/phrases/persuasive ad copy.wav"
+      ]
+    },
+    {
+      "id": "catchy-headline",
+      "english": "catchy headline",
+      "translation": "цепляющий заголовок",
+      "audio": [
+        "audio/phrases/catchy headline.wav"
+      ]
+    },
+    {
+      "id": "clear-brand-message",
+      "english": "clear brand message",
+      "translation": "чёткое сообщение бренда",
+      "audio": [
+        "audio/phrases/clear brand message.wav"
+      ]
+    },
+    {
+      "id": "strong-visual-identity",
+      "english": "strong visual identity",
+      "translation": "сильная визуальная айдентика",
+      "audio": [
+        "audio/phrases/strong visual identity.wav"
+      ]
+    },
+    {
+      "id": "creative-concept-idea",
+      "english": "creative concept idea",
+      "translation": "идея креативной концепции",
+      "audio": [
+        "audio/phrases/creative concept idea.wav"
+      ]
+    },
+    {
+      "id": "increase-website-traffic",
+      "english": "increase website traffic",
+      "translation": "увеличить трафик сайта",
+      "audio": [
+        "audio/phrases/increase website traffic.wav"
+      ]
+    },
+    {
+      "id": "qualified-sales-lead",
+      "english": "qualified sales lead",
+      "translation": "качественный лид продаж",
+      "audio": [
+        "audio/phrases/qualified sales lead.wav"
+      ]
+    },
+    {
+      "id": "lead-generation-tactics",
+      "english": "lead generation tactics",
+      "translation": "тактики лидогенерации",
+      "audio": [
+        "audio/phrases/lead generation tactics.wav"
+      ]
+    },
+    {
+      "id": "improve-conversion-rate",
+      "english": "improve conversion rate",
+      "translation": "повысить коэффициент конверсии",
+      "audio": [
+        "audio/phrases/improve conversion rate.wav"
+      ]
+    },
+    {
+      "id": "high-bounce-rate",
+      "english": "high bounce rate",
+      "translation": "высокий показатель отказов",
+      "audio": [
+        "audio/phrases/high bounce rate.wav"
+      ]
+    },
+    {
+      "id": "lower-acquisition-cost",
+      "english": "lower acquisition cost",
+      "translation": "снизить стоимость привлечения",
+      "audio": [
+        "audio/phrases/lower acquisition cost.wav"
+      ]
+    },
+    {
+      "id": "marketing-budget-planning",
+      "english": "marketing budget planning",
+      "translation": "планирование маркетингового бюджета",
+      "audio": [
+        "audio/phrases/marketing budget planning.wav"
+      ]
+    },
+    {
+      "id": "measure-marketing-roi",
+      "english": "measure marketing roi",
+      "translation": "измерять маркетинговый ROI",
+      "audio": [
+        "audio/phrases/measure marketing roi.wav"
+      ]
+    },
+    {
+      "id": "reduce-cpa-value",
+      "english": "reduce cpa value",
+      "translation": "снизить значение CPA",
+      "audio": [
+        "audio/phrases/reduce cpa value.wav"
+      ]
+    },
+    {
+      "id": "increase-ctr-ads",
+      "english": "increase ctr ads",
+      "translation": "повысить кликабельность рекламы",
+      "audio": [
+        "audio/phrases/increase ctr ads.wav"
+      ]
+    },
+    {
+      "id": "conversion-optimization-process",
+      "english": "conversion optimization process",
+      "translation": "процесс оптимизации конверсии",
+      "audio": [
+        "audio/phrases/conversion optimization process.wav"
+      ]
+    },
+    {
+      "id": "testing-new-hypotheses",
+      "english": "testing new hypotheses",
+      "translation": "тестирование новых гипотез",
+      "audio": [
+        "audio/phrases/testing new hypotheses.wav"
+      ]
+    },
+    {
+      "id": "campaign-performance-review",
+      "english": "campaign performance review",
+      "translation": "оценка эффективности кампании",
+      "audio": [
+        "audio/phrases/campaign performance review.wav"
+      ]
+    },
+    {
+      "id": "sustainable-business-growth",
+      "english": "sustainable business growth",
+      "translation": "устойчивый рост бизнеса",
+      "audio": [
+        "audio/phrases/sustainable business growth.wav"
+      ]
+    },
+    {
+      "id": "scaling-operations-efficiently",
+      "english": "scaling operations efficiently",
+      "translation": "эффективно масштабировать операции",
+      "audio": [
+        "audio/phrases/scaling operations efficiently.wav"
+      ]
+    },
+    {
+      "id": "retargeting-ad-strategy",
+      "english": "retargeting ad strategy",
+      "translation": "стратегия ретаргетинга",
+      "audio": [
+        "audio/phrases/retargeting ad strategy.wav"
+      ]
+    },
+    {
+      "id": "remarketing-email-flow",
+      "english": "remarketing email flow",
+      "translation": "email-цепочка ремаркетинга",
+      "audio": [
+        "audio/phrases/remarketing email flow.wav"
+      ]
+    },
+    {
+      "id": "work-with-influencer",
+      "english": "work with influencer",
+      "translation": "работать с инфлюенсером",
+      "audio": [
+        "audio/phrases/work with influencer.wav"
+      ]
+    },
+    {
+      "id": "strategic-partnership-model",
+      "english": "strategic partnership model",
+      "translation": "модель стратегического партнёрства",
+      "audio": [
+        "audio/phrases/strategic partnership model.wav"
+      ]
+    },
+    {
+      "id": "affiliate-marketing-program",
+      "english": "affiliate marketing program",
+      "translation": "аффилиатная маркетинговая программа",
+      "audio": [
+        "audio/phrases/affiliate marketing program.wav"
+      ]
+    }
+  ]
+}

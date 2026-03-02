@@ -1,0 +1,207 @@
+{
+  "theme": "Финансы и банки",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "bank",
+      "english": "bank",
+      "translation": "банк"
+    },
+    {
+      "id": "branch",
+      "english": "branch",
+      "translation": "отделение банка"
+    },
+    {
+      "id": "account",
+      "english": "account",
+      "translation": "счёт"
+    },
+    {
+      "id": "balance",
+      "english": "balance",
+      "translation": "баланс счёта"
+    },
+    {
+      "id": "statement",
+      "english": "statement",
+      "translation": "выписка по счёту"
+    },
+    {
+      "id": "deposit",
+      "english": "deposit",
+      "translation": "вклад"
+    },
+    {
+      "id": "withdrawal",
+      "english": "withdrawal",
+      "translation": "снятие средств"
+    },
+    {
+      "id": "transfer",
+      "english": "transfer",
+      "translation": "перевод денег"
+    },
+    {
+      "id": "transaction",
+      "english": "transaction",
+      "translation": "транзакция"
+    },
+    {
+      "id": "payment",
+      "english": "payment",
+      "translation": "платёж"
+    },
+    {
+      "id": "cash",
+      "english": "cash",
+      "translation": "наличные деньги"
+    },
+    {
+      "id": "currency",
+      "english": "currency",
+      "translation": "валюта"
+    },
+    {
+      "id": "exchange-rate",
+      "english": "exchange rate",
+      "translation": "обменный курс"
+    },
+    {
+      "id": "foreign-currency",
+      "english": "foreign currency",
+      "translation": "иностранная валюта"
+    },
+    {
+      "id": "funds",
+      "english": "funds",
+      "translation": "денежные средства"
+    },
+    {
+      "id": "card",
+      "english": "card",
+      "translation": "банковская карта"
+    },
+    {
+      "id": "credit-card",
+      "english": "credit card",
+      "translation": "кредитная карта"
+    },
+    {
+      "id": "debit-card",
+      "english": "debit card",
+      "translation": "дебетовая карта"
+    },
+    {
+      "id": "pin",
+      "english": "PIN",
+      "translation": "ПИН-код"
+    },
+    {
+      "id": "atm",
+      "english": "ATM",
+      "translation": "банкомат"
+    },
+    {
+      "id": "loan",
+      "english": "loan",
+      "translation": "кредит"
+    },
+    {
+      "id": "credit",
+      "english": "credit",
+      "translation": "кредит"
+    },
+    {
+      "id": "interest",
+      "english": "interest",
+      "translation": "проценты"
+    },
+    {
+      "id": "interest-rate",
+      "english": "interest rate",
+      "translation": "процентная ставка"
+    },
+    {
+      "id": "repayment",
+      "english": "repayment",
+      "translation": "погашение"
+    },
+    {
+      "id": "debt",
+      "english": "debt",
+      "translation": "долг"
+    },
+    {
+      "id": "installment",
+      "english": "installment",
+      "translation": "платёж в рассрочку"
+    },
+    {
+      "id": "mortgage",
+      "english": "mortgage",
+      "translation": "ипотека"
+    },
+    {
+      "id": "fee",
+      "english": "fee",
+      "translation": "комиссия"
+    },
+    {
+      "id": "charge",
+      "english": "charge",
+      "translation": "списание"
+    },
+    {
+      "id": "online-banking",
+      "english": "online banking",
+      "translation": "онлайн-банкинг"
+    },
+    {
+      "id": "mobile-banking",
+      "english": "mobile banking",
+      "translation": "мобильный банк"
+    },
+    {
+      "id": "authorization",
+      "english": "authorization",
+      "translation": "авторизация"
+    },
+    {
+      "id": "verification",
+      "english": "verification",
+      "translation": "проверка"
+    },
+    {
+      "id": "security",
+      "english": "security",
+      "translation": "безопасность"
+    },
+    {
+      "id": "tax",
+      "english": "tax",
+      "translation": "налог"
+    },
+    {
+      "id": "refund",
+      "english": "refund",
+      "translation": "возврат денег"
+    },
+    {
+      "id": "fine",
+      "english": "fine",
+      "translation": "штраф"
+    },
+    {
+      "id": "insurance",
+      "english": "insurance",
+      "translation": "страхование"
+    },
+    {
+      "id": "coverage",
+      "english": "coverage",
+      "translation": "страховое покрытие"
+    }
+  ]
+}

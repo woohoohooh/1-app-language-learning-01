@@ -1,0 +1,367 @@
+{
+  "theme": "Частые слова",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "he-managed-the-project-well.",
+      "english": "He managed the project well.",
+      "translation": "Он хорошо управлял проектом.",
+      "audio": [
+        "audio/sentences/He managed the project well..wav"
+      ]
+    },
+    {
+      "id": "she-wants-to-improve-her-skills.",
+      "english": "She wants to improve her skills.",
+      "translation": "Она хочет улучшить свои навыки.",
+      "audio": [
+        "audio/sentences/She wants to improve her skills..wav"
+      ]
+    },
+    {
+      "id": "the-company-increased-its-revenue.",
+      "english": "The company increased its revenue.",
+      "translation": "Компания увеличила свою выручку.",
+      "audio": [
+        "audio/sentences/The company increased its revenue..wav"
+      ]
+    },
+    {
+      "id": "they-reduced-expenses-last-year.",
+      "english": "They reduced expenses last year.",
+      "translation": "Они уменьшили расходы в прошлом году.",
+      "audio": [
+        "audio/sentences/They reduced expenses last year..wav"
+      ]
+    },
+    {
+      "id": "the-weather-affected-the-schedule.",
+      "english": "The weather affected the schedule.",
+      "translation": "Погода повлияла на расписание.",
+      "audio": [
+        "audio/sentences/The weather affected the schedule..wav"
+      ]
+    },
+    {
+      "id": "success-depends-on-many-factors.",
+      "english": "Success depends on many factors.",
+      "translation": "Успех зависит от многих факторов.",
+      "audio": [
+        "audio/sentences/Success depends on many factors..wav"
+      ]
+    },
+    {
+      "id": "they-supported-him-during-the-event.",
+      "english": "They supported him during the event.",
+      "translation": "Они поддержали его во время мероприятия.",
+      "audio": [
+        "audio/sentences/They supported him during the event..wav"
+      ]
+    },
+    {
+      "id": "the-task-requires-precision.",
+      "english": "The task requires precision.",
+      "translation": "Задача требует точности.",
+      "audio": [
+        "audio/sentences/The task requires precision..wav"
+      ]
+    },
+    {
+      "id": "we-expect-improvement-soon.",
+      "english": "We expect improvement soon.",
+      "translation": "Мы ожидаем улучшений скоро.",
+      "audio": [
+        "audio/sentences/We expect improvement soon..wav"
+      ]
+    },
+    {
+      "id": "he-avoided-conflict-at-work.",
+      "english": "He avoided conflict at work.",
+      "translation": "Он избегал конфликта на работе.",
+      "audio": [
+        "audio/sentences/He avoided conflict at work..wav"
+      ]
+    },
+    {
+      "id": "she-suggested-a-new-idea.",
+      "english": "She suggested a new idea.",
+      "translation": "Она предложила новую идею.",
+      "audio": [
+        "audio/sentences/She suggested a new idea..wav"
+      ]
+    },
+    {
+      "id": "he-decided-to-stay.",
+      "english": "He decided to stay.",
+      "translation": "Он решил остаться.",
+      "audio": [
+        "audio/sentences/He decided to stay..wav"
+      ]
+    },
+    {
+      "id": "they-allowed-visitors-yesterday.",
+      "english": "They allowed visitors yesterday.",
+      "translation": "Они разрешили посетителей вчера.",
+      "audio": [
+        "audio/sentences/They allowed visitors yesterday..wav"
+      ]
+    },
+    {
+      "id": "this-measure-prevents-accidents.",
+      "english": "This measure prevents accidents.",
+      "translation": "Эта мера предотвращает несчастные случаи.",
+      "audio": [
+        "audio/sentences/This measure prevents accidents..wav"
+      ]
+    },
+    {
+      "id": "we-will-consider-your-request.",
+      "english": "We will consider your request.",
+      "translation": "Мы рассмотрим ваш запрос.",
+      "audio": [
+        "audio/sentences/We will consider your request..wav"
+      ]
+    },
+    {
+      "id": "there-is-no-reason-to-worry.",
+      "english": "There is no reason to worry.",
+      "translation": "Нет причины беспокоиться.",
+      "audio": [
+        "audio/sentences/There is no reason to worry..wav"
+      ]
+    },
+    {
+      "id": "the-result-surprised-everyone.",
+      "english": "The result surprised everyone.",
+      "translation": "Результат удивил всех.",
+      "audio": [
+        "audio/sentences/The result surprised everyone..wav"
+      ]
+    },
+    {
+      "id": "the-purpose-is-to-improve-quality.",
+      "english": "The purpose is to improve quality.",
+      "translation": "Цель — улучшить качество.",
+      "audio": [
+        "audio/sentences/The purpose is to improve quality..wav"
+      ]
+    },
+    {
+      "id": "it-was-a-difficult-choice.",
+      "english": "It was a difficult choice.",
+      "translation": "Это был сложный выбор.",
+      "audio": [
+        "audio/sentences/It was a difficult choice..wav"
+      ]
+    },
+    {
+      "id": "this-opportunity-could-change-everything.",
+      "english": "This opportunity could change everything.",
+      "translation": "Эта возможность может изменить всё.",
+      "audio": [
+        "audio/sentences/This opportunity could change everything..wav"
+      ]
+    },
+    {
+      "id": "the-challenge-motivated-him.",
+      "english": "The challenge motivated him.",
+      "translation": "Этот вызов его мотивировал.",
+      "audio": [
+        "audio/sentences/The challenge motivated him..wav"
+      ]
+    },
+    {
+      "id": "she-gained-valuable-experience.",
+      "english": "She gained valuable experience.",
+      "translation": "Она получила ценный опыт.",
+      "audio": [
+        "audio/sentences/She gained valuable experience..wav"
+      ]
+    },
+    {
+      "id": "they-took-a-financial-risk.",
+      "english": "They took a financial risk.",
+      "translation": "Они пошли на финансовый риск.",
+      "audio": [
+        "audio/sentences/They took a financial risk..wav"
+      ]
+    },
+    {
+      "id": "the-new-policy-offers-many-benefits.",
+      "english": "The new policy offers many benefits.",
+      "translation": "Новая политика приносит много пользы.",
+      "audio": [
+        "audio/sentences/The new policy offers many benefits..wav"
+      ]
+    },
+    {
+      "id": "the-news-had-a-strong-impact-on-society.",
+      "english": "The news had a strong impact on society.",
+      "translation": "Новость оказала сильное влияние на общество.",
+      "audio": [
+        "audio/sentences/The news had a strong impact on society..wav"
+      ]
+    },
+    {
+      "id": "they-discussed-several-important-issues.",
+      "english": "They discussed several important issues.",
+      "translation": "Они обсудили несколько важных проблем.",
+      "audio": [
+        "audio/sentences/They discussed several important issues..wav"
+      ]
+    },
+    {
+      "id": "we-finally-found-a-solution.",
+      "english": "We finally found a solution.",
+      "translation": "Мы наконец нашли решение.",
+      "audio": [
+        "audio/sentences/We finally found a solution..wav"
+      ]
+    },
+    {
+      "id": "the-process-takes-some-time.",
+      "english": "The process takes some time.",
+      "translation": "Процесс занимает некоторое время.",
+      "audio": [
+        "audio/sentences/The process takes some time..wav"
+      ]
+    },
+    {
+      "id": "she-showed-steady-progress-this-month.",
+      "english": "She showed steady progress this month.",
+      "translation": "Она показала устойчивый прогресс в этом месяце.",
+      "audio": [
+        "audio/sentences/She showed steady progress this month..wav"
+      ]
+    },
+    {
+      "id": "the-final-result-met-expectations.",
+      "english": "The final result met expectations.",
+      "translation": "Конечный итог оправдал ожидания.",
+      "audio": [
+        "audio/sentences/The final result met expectations..wav"
+      ]
+    },
+    {
+      "id": "the-product-is-available-online.",
+      "english": "The product is available online.",
+      "translation": "Товар доступен онлайн.",
+      "audio": [
+        "audio/sentences/The product is available online..wav"
+      ]
+    },
+    {
+      "id": "the-product-is-available-online.",
+      "english": "The product is available online.",
+      "translation": "Товар доступен онлайн.",
+      "audio": [
+        "audio/sentences/The product is available online..wav"
+      ]
+    },
+    {
+      "id": "the-general-rule-applies-here.",
+      "english": "The general rule applies here.",
+      "translation": "Общее правило действует здесь.",
+      "audio": [
+        "audio/sentences/The general rule applies here..wav"
+      ]
+    },
+    {
+      "id": "we-need-a-specific-answer.",
+      "english": "We need a specific answer.",
+      "translation": "Нам нужен конкретный ответ.",
+      "audio": [
+        "audio/sentences/We need a specific answer..wav"
+      ]
+    },
+    {
+      "id": "the-houses-look-similar.",
+      "english": "The houses look similar.",
+      "translation": "Дома выглядят похожими.",
+      "audio": [
+        "audio/sentences/The houses look similar..wav"
+      ]
+    },
+    {
+      "id": "it-is-likely-to-happen-soon.",
+      "english": "It is likely to happen soon.",
+      "translation": "Это вероятно случится скоро.",
+      "audio": [
+        "audio/sentences/It is likely to happen soon..wav"
+      ]
+    },
+    {
+      "id": "another-option-is-possible.",
+      "english": "Another option is possible.",
+      "translation": "Другой вариант возможен.",
+      "audio": [
+        "audio/sentences/Another option is possible..wav"
+      ]
+    },
+    {
+      "id": "the-new-method-is-effective.",
+      "english": "The new method is effective.",
+      "translation": "Новый метод эффективен.",
+      "audio": [
+        "audio/sentences/The new method is effective..wav"
+      ]
+    },
+    {
+      "id": "the-system-is-highly-efficient.",
+      "english": "The system is highly efficient.",
+      "translation": "Система очень результативна.",
+      "audio": [
+        "audio/sentences/The system is highly efficient..wav"
+      ]
+    },
+    {
+      "id": "it-is-important-to-listen.",
+      "english": "It is important to listen.",
+      "translation": "Важно слушать.",
+      "audio": [
+        "audio/sentences/It is important to listen..wav"
+      ]
+    },
+    {
+      "id": "we-met-recently-at-work.",
+      "english": "We met recently at work.",
+      "translation": "Мы недавно встретились на работе.",
+      "audio": [
+        "audio/sentences/We met recently at work..wav"
+      ]
+    },
+    {
+      "id": "she-currently-works-abroad.",
+      "english": "She currently works abroad.",
+      "translation": "Она сейчас работает за границей.",
+      "audio": [
+        "audio/sentences/She currently works abroad..wav"
+      ]
+    },
+    {
+      "id": "i-like-this-part-especially.",
+      "english": "I like this part especially.",
+      "translation": "Мне особенно нравится эта часть.",
+      "audio": [
+        "audio/sentences/I like this part especially..wav"
+      ]
+    },
+    {
+      "id": "eventually-they-reached-agreement.",
+      "english": "Eventually they reached agreement.",
+      "translation": "В конечном итоге они пришли к соглашению.",
+      "audio": [
+        "audio/sentences/Eventually they reached agreement..wav"
+      ]
+    },
+    {
+      "id": "the-trip-takes-approximately-one-hour.",
+      "english": "The trip takes approximately one hour.",
+      "translation": "Поездка занимает примерно час.",
+      "audio": [
+        "audio/sentences/The trip takes approximately one hour..wav"
+      ]
+    }
+  ]
+}

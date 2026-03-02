@@ -1,0 +1,167 @@
+{
+  "theme": "Веб-разработка",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "software-evolves-faster-than-most-industries.",
+      "english": "Software evolves faster than most industries.",
+      "translation": "Программное обеспечение развивается быстрее большинства отраслей.",
+      "audio": [
+        "audio/sentences/Software evolves faster than most industries..wav"
+      ]
+    },
+    {
+      "id": "the-application-runs-on-multiple-platforms.",
+      "english": "The application runs on multiple platforms.",
+      "translation": "Приложение работает на нескольких платформах.",
+      "audio": [
+        "audio/sentences/The application runs on multiple platforms..wav"
+      ]
+    },
+    {
+      "id": "the-codebase-became-harder-to-maintain.",
+      "english": "The codebase became harder to maintain.",
+      "translation": "Кодовая база стала сложнее в поддержке.",
+      "audio": [
+        "audio/sentences/The codebase became harder to maintain..wav"
+      ]
+    },
+    {
+      "id": "the-repository-stores-project-history.",
+      "english": "The repository stores project history.",
+      "translation": "Репозиторий хранит историю проекта.",
+      "audio": [
+        "audio/sentences/The repository stores project history..wav"
+      ]
+    },
+    {
+      "id": "each-commit-should-describe-one-change.",
+      "english": "Each commit should describe one change.",
+      "translation": "Каждый коммит должен описывать одно изменение.",
+      "audio": [
+        "audio/sentences/Each commit should describe one change..wav"
+      ]
+    },
+    {
+      "id": "the-branch-isolates-unfinished-work.",
+      "english": "The branch isolates unfinished work.",
+      "translation": "Ветка изолирует незавершённую работу.",
+      "audio": [
+        "audio/sentences/The branch isolates unfinished work..wav"
+      ]
+    },
+    {
+      "id": "the-merge-introduced-unexpected-issues.",
+      "english": "The merge introduced unexpected issues.",
+      "translation": "Слияние привело к неожиданным проблемам.",
+      "audio": [
+        "audio/sentences/The merge introduced unexpected issues..wav"
+      ]
+    },
+    {
+      "id": "the-pull-request-awaits-code-review.",
+      "english": "The pull request awaits code review.",
+      "translation": "Пулл-реквест ожидает код-ревью.",
+      "audio": [
+        "audio/sentences/The pull request awaits code review..wav"
+      ]
+    },
+    {
+      "id": "version-control-tracks-every-modification.",
+      "english": "Version control tracks every modification.",
+      "translation": "Контроль версий отслеживает каждое изменение.",
+      "audio": [
+        "audio/sentences/Version control tracks every modification..wav"
+      ]
+    },
+    {
+      "id": "deployment-requires-careful-preparation.",
+      "english": "Deployment requires careful preparation.",
+      "translation": "Развёртывание требует тщательной подготовки.",
+      "audio": [
+        "audio/sentences/Deployment requires careful preparation..wav"
+      ]
+    },
+    {
+      "id": "the-build-failed-due-to-dependency-errors.",
+      "english": "The build failed due to dependency errors.",
+      "translation": "Сборка не удалась из-за ошибок зависимостей.",
+      "audio": [
+        "audio/sentences/The build failed due to dependency errors..wav"
+      ]
+    },
+    {
+      "id": "the-release-introduced-breaking-changes.",
+      "english": "The release introduced breaking changes.",
+      "translation": "Релиз внёс несовместимые изменения.",
+      "audio": [
+        "audio/sentences/The release introduced breaking changes..wav"
+      ]
+    },
+    {
+      "id": "the-pipeline-automates-repetitive-tasks.",
+      "english": "The pipeline automates repetitive tasks.",
+      "translation": "Пайплайн автоматизирует повторяющиеся задачи.",
+      "audio": [
+        "audio/sentences/The pipeline automates repetitive tasks..wav"
+      ]
+    },
+    {
+      "id": "automation-reduces-manual-effort-significantly.",
+      "english": "Automation reduces manual effort significantly.",
+      "translation": "Автоматизация значительно снижает ручную работу.",
+      "audio": [
+        "audio/sentences/Automation reduces manual effort significantly..wav"
+      ]
+    },
+    {
+      "id": "integration-connects-independent-services.",
+      "english": "Integration connects independent services.",
+      "translation": "Интеграция связывает независимые сервисы.",
+      "audio": [
+        "audio/sentences/Integration connects independent services..wav"
+      ]
+    },
+    {
+      "id": "the-framework-enforces-project-structure.",
+      "english": "The framework enforces project structure.",
+      "translation": "Фреймворк задаёт структуру проекта.",
+      "audio": [
+        "audio/sentences/The framework enforces project structure..wav"
+      ]
+    },
+    {
+      "id": "the-library-simplifies-complex-operations.",
+      "english": "The library simplifies complex operations.",
+      "translation": "Библиотека упрощает сложные операции.",
+      "audio": [
+        "audio/sentences/The library simplifies complex operations..wav"
+      ]
+    },
+    {
+      "id": "each-dependency-increases-maintenance-risk.",
+      "english": "Each dependency increases maintenance risk.",
+      "translation": "Каждая зависимость увеличивает риск поддержки.",
+      "audio": [
+        "audio/sentences/Each dependency increases maintenance risk..wav"
+      ]
+    },
+    {
+      "id": "the-package-contains-reusable-components.",
+      "english": "The package contains reusable components.",
+      "translation": "Пакет содержит переиспользуемые компоненты.",
+      "audio": [
+        "audio/sentences/The package contains reusable components..wav"
+      ]
+    },
+    {
+      "id": "each-module-handles-a-single-responsibility.",
+      "english": "Each module handles a single responsibility.",
+      "translation": "Каждый модуль отвечает за одну задачу.",
+      "audio": [
+        "audio/sentences/Each module handles a single responsibility..wav"
+      ]
+    }
+  ]
+}

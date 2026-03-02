@@ -1,0 +1,167 @@
+{
+  "theme": "Путешествия",
+  "level": "Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "destination",
+      "translation": "пункт назначения"
+    },
+    {
+      "english": "trip",
+      "translation": "поездка"
+    },
+    {
+      "english": "route",
+      "translation": "маршрут"
+    },
+    {
+      "english": "schedule",
+      "translation": "расписание"
+    },
+    {
+      "english": "reservation",
+      "translation": "бронирование"
+    },
+    {
+      "english": "booking",
+      "translation": "бронирование"
+    },
+    {
+      "english": "confirmation",
+      "translation": "подтверждение"
+    },
+    {
+      "english": "cancellation",
+      "translation": "отмена"
+    },
+    {
+      "english": "accommodation",
+      "translation": "проживание"
+    },
+    {
+      "english": "hostel",
+      "translation": "хостел"
+    },
+    {
+      "english": "apartment",
+      "translation": "апартаменты"
+    },
+    {
+      "english": "check-in",
+      "translation": "регистрация заезда"
+    },
+    {
+      "english": "check-out",
+      "translation": "выезд"
+    },
+    {
+      "english": "border",
+      "translation": "граница"
+    },
+    {
+      "english": "customs",
+      "translation": "таможня"
+    },
+    {
+      "english": "immigration",
+      "translation": "иммиграционный контроль"
+    },
+    {
+      "english": "visa",
+      "translation": "виза"
+    },
+    {
+      "english": "document",
+      "translation": "документ"
+    },
+    {
+      "english": "luggage",
+      "translation": "багаж"
+    },
+    {
+      "english": "baggage",
+      "translation": "багаж"
+    },
+    {
+      "english": "carry-on",
+      "translation": "ручная кладь"
+    },
+    {
+      "english": "lost",
+      "translation": "потерянный"
+    },
+    {
+      "english": "damage",
+      "translation": "повреждение"
+    },
+    {
+      "english": "transportation",
+      "translation": "транспорт"
+    },
+    {
+      "english": "public transport",
+      "translation": "общественный транспорт"
+    },
+    {
+      "english": "transfer",
+      "translation": "трансфер"
+    },
+    {
+      "english": "car rental",
+      "translation": "аренда автомобиля"
+    },
+    {
+      "english": "navigation",
+      "translation": "навигация"
+    },
+    {
+      "english": "currency",
+      "translation": "валюта"
+    },
+    {
+      "english": "exchange",
+      "translation": "обмен"
+    },
+    {
+      "english": "payment",
+      "translation": "оплата"
+    },
+    {
+      "english": "receipt",
+      "translation": "чек"
+    },
+    {
+      "english": "insurance",
+      "translation": "страховка"
+    },
+    {
+      "english": "emergency",
+      "translation": "чрезвычайная ситуация"
+    },
+    {
+      "english": "assistance",
+      "translation": "помощь"
+    },
+    {
+      "english": "complaint",
+      "translation": "жалоба"
+    },
+    {
+      "english": "support",
+      "translation": "поддержка"
+    },
+    {
+      "english": "journey",
+      "translation": "путешествие"
+    },
+    {
+      "english": "availability",
+      "translation": "наличие"
+    },
+    {
+      "english": "fee",
+      "translation": "комиссия"
+    }
+  ]
+}

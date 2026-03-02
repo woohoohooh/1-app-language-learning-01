@@ -1,0 +1,367 @@
+{
+  "theme": "Компьютеры и гаджеты",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "use-a-computer",
+      "english": "use a computer",
+      "translation": "использовать компьютер",
+      "audio": [
+        "audio/phrases/use a computer.wav"
+      ]
+    },
+    {
+      "id": "carry-a-laptop",
+      "english": "carry a laptop",
+      "translation": "носить ноутбук",
+      "audio": [
+        "audio/phrases/carry a laptop.wav"
+      ]
+    },
+    {
+      "id": "upgrade-the-desktop",
+      "english": "upgrade the desktop",
+      "translation": "обновить стационарник",
+      "audio": [
+        "audio/phrases/upgrade the desktop.wav"
+      ]
+    },
+    {
+      "id": "charge-the-tablet",
+      "english": "charge the tablet",
+      "translation": "зарядить планшет",
+      "audio": [
+        "audio/phrases/charge the tablet.wav"
+      ]
+    },
+    {
+      "id": "unlock-the-smartphone",
+      "english": "unlock the smartphone",
+      "translation": "разблокировать смартфон",
+      "audio": [
+        "audio/phrases/unlock the smartphone.wav"
+      ]
+    },
+    {
+      "id": "connect-the-device",
+      "english": "connect the device",
+      "translation": "подключить устройство",
+      "audio": [
+        "audio/phrases/connect the device.wav"
+      ]
+    },
+    {
+      "id": "use-cool-gadgets",
+      "english": "use cool gadgets",
+      "translation": "использовать крутые гаджеты",
+      "audio": [
+        "audio/phrases/use cool gadgets.wav"
+      ]
+    },
+    {
+      "id": "clean-the-screen",
+      "english": "clean the screen",
+      "translation": "очистить экран",
+      "audio": [
+        "audio/phrases/clean the screen.wav"
+      ]
+    },
+    {
+      "id": "adjust-the-display",
+      "english": "adjust the display",
+      "translation": "настроить дисплей",
+      "audio": [
+        "audio/phrases/adjust the display.wav"
+      ]
+    },
+    {
+      "id": "tap-the-touchscreen",
+      "english": "tap the touchscreen",
+      "translation": "нажать на сенсорный экран",
+      "audio": [
+        "audio/phrases/tap the touchscreen.wav"
+      ]
+    },
+    {
+      "id": "use-the-keyboard",
+      "english": "use the keyboard",
+      "translation": "использовать клавиатуру",
+      "audio": [
+        "audio/phrases/use the keyboard.wav"
+      ]
+    },
+    {
+      "id": "click-the-mouse",
+      "english": "click the mouse",
+      "translation": "кликнуть мышью",
+      "audio": [
+        "audio/phrases/click the mouse.wav"
+      ]
+    },
+    {
+      "id": "use-the-touchpad",
+      "english": "use the touchpad",
+      "translation": "использовать тачпад",
+      "audio": [
+        "audio/phrases/use the touchpad.wav"
+      ]
+    },
+    {
+      "id": "turn-on-monitor",
+      "english": "turn on monitor",
+      "translation": "включить монитор",
+      "audio": [
+        "audio/phrases/turn on monitor.wav"
+      ]
+    },
+    {
+      "id": "pair-the-speakers",
+      "english": "pair the speakers",
+      "translation": "подключить динамики",
+      "audio": [
+        "audio/phrases/pair the speakers.wav"
+      ]
+    },
+    {
+      "id": "wear-headphones",
+      "english": "wear headphones",
+      "translation": "надеть наушники",
+      "audio": [
+        "audio/phrases/wear headphones.wav"
+      ]
+    },
+    {
+      "id": "test-the-microphone",
+      "english": "test the microphone",
+      "translation": "проверить микрофон",
+      "audio": [
+        "audio/phrases/test the microphone.wav"
+      ]
+    },
+    {
+      "id": "enable-the-webcam",
+      "english": "enable the webcam",
+      "translation": "включить веб-камеру",
+      "audio": [
+        "audio/phrases/enable the webcam.wav"
+      ]
+    },
+    {
+      "id": "install-the-printer",
+      "english": "install the printer",
+      "translation": "установить принтер",
+      "audio": [
+        "audio/phrases/install the printer.wav"
+      ]
+    },
+    {
+      "id": "start-the-scanner",
+      "english": "start the scanner",
+      "translation": "запустить сканер",
+      "audio": [
+        "audio/phrases/start the scanner.wav"
+      ]
+    },
+    {
+      "id": "upgrade-the-processor",
+      "english": "upgrade the processor",
+      "translation": "обновить процессор",
+      "audio": [
+        "audio/phrases/upgrade the processor.wav"
+      ]
+    },
+    {
+      "id": "expand-the-memory",
+      "english": "expand the memory",
+      "translation": "расширить память",
+      "audio": [
+        "audio/phrases/expand the memory.wav"
+      ]
+    },
+    {
+      "id": "fast-storage-access",
+      "english": "fast storage access",
+      "translation": "быстрый доступ к памяти",
+      "audio": [
+        "audio/phrases/fast storage access.wav"
+      ]
+    },
+    {
+      "id": "replace-hard-drive",
+      "english": "replace hard drive",
+      "translation": "заменить жёсткий диск",
+      "audio": [
+        "audio/phrases/replace hard drive.wav"
+      ]
+    },
+    {
+      "id": "install-ssd-module",
+      "english": "install ssd module",
+      "translation": "установить модуль ssd",
+      "audio": [
+        "audio/phrases/install ssd module.wav"
+      ]
+    },
+    {
+      "id": "check-battery-level",
+      "english": "check battery level",
+      "translation": "проверить уровень батареи",
+      "audio": [
+        "audio/phrases/check battery level.wav"
+      ]
+    },
+    {
+      "id": "connect-the-charger",
+      "english": "connect the charger",
+      "translation": "подключить зарядное устройство",
+      "audio": [
+        "audio/phrases/connect the charger.wav"
+      ]
+    },
+    {
+      "id": "plug-the-power-cable",
+      "english": "plug the power cable",
+      "translation": "вставить кабель питания",
+      "audio": [
+        "audio/phrases/plug the power cable.wav"
+      ]
+    },
+    {
+      "id": "use-a-usb-cable",
+      "english": "use a usb cable",
+      "translation": "использовать usb-кабель",
+      "audio": [
+        "audio/phrases/use a usb cable.wav"
+      ]
+    },
+    {
+      "id": "attach-the-adapter",
+      "english": "attach the adapter",
+      "translation": "подключить адаптер",
+      "audio": [
+        "audio/phrases/attach the adapter.wav"
+      ]
+    },
+    {
+      "id": "update-operating-system",
+      "english": "update operating system",
+      "translation": "обновить операционную систему",
+      "audio": [
+        "audio/phrases/update operating system.wav"
+      ]
+    },
+    {
+      "id": "install-new-software",
+      "english": "install new software",
+      "translation": "установить новое ПО",
+      "audio": [
+        "audio/phrases/install new software.wav"
+      ]
+    },
+    {
+      "id": "upgrade-hardware-components",
+      "english": "upgrade hardware components",
+      "translation": "обновить аппаратные компоненты",
+      "audio": [
+        "audio/phrases/upgrade hardware components.wav"
+      ]
+    },
+    {
+      "id": "open-the-application",
+      "english": "open the application",
+      "translation": "открыть приложение",
+      "audio": [
+        "audio/phrases/open the application.wav"
+      ]
+    },
+    {
+      "id": "update-the-driver",
+      "english": "update the driver",
+      "translation": "обновить драйвер",
+      "audio": [
+        "audio/phrases/update the driver.wav"
+      ]
+    },
+    {
+      "id": "improve-performance",
+      "english": "improve performance",
+      "translation": "улучшить производительность",
+      "audio": [
+        "audio/phrases/improve performance.wav"
+      ]
+    },
+    {
+      "id": "change-screen-resolution",
+      "english": "change screen resolution",
+      "translation": "изменить разрешение экрана",
+      "audio": [
+        "audio/phrases/change screen resolution.wav"
+      ]
+    },
+    {
+      "id": "open-device-settings",
+      "english": "open device settings",
+      "translation": "открыть настройки устройства",
+      "audio": [
+        "audio/phrases/open device settings.wav"
+      ]
+    },
+    {
+      "id": "download-the-update",
+      "english": "download the update",
+      "translation": "скачать обновление",
+      "audio": [
+        "audio/phrases/download the update.wav"
+      ]
+    },
+    {
+      "id": "check-compatibility-list",
+      "english": "check compatibility list",
+      "translation": "проверить список совместимости",
+      "audio": [
+        "audio/phrases/check compatibility list.wav"
+      ]
+    },
+    {
+      "id": "enable-wireless-mode",
+      "english": "enable wireless mode",
+      "translation": "включить беспроводной режим",
+      "audio": [
+        "audio/phrases/enable wireless mode.wav"
+      ]
+    },
+    {
+      "id": "turn-on-bluetooth",
+      "english": "turn on bluetooth",
+      "translation": "включить bluetooth",
+      "audio": [
+        "audio/phrases/turn on bluetooth.wav"
+      ]
+    },
+    {
+      "id": "join-the-wifi-network",
+      "english": "join the wifi network",
+      "translation": "подключиться к сети wifi",
+      "audio": [
+        "audio/phrases/join the wifi network.wav"
+      ]
+    },
+    {
+      "id": "carry-a-portable-device",
+      "english": "carry a portable device",
+      "translation": "нести портативное устройство",
+      "audio": [
+        "audio/phrases/carry a portable device.wav"
+      ]
+    },
+    {
+      "id": "use-built-in-tools",
+      "english": "use built-in tools",
+      "translation": "использовать встроенные инструменты",
+      "audio": [
+        "audio/phrases/use built-in tools.wav"
+      ]
+    }
+  ]
+}

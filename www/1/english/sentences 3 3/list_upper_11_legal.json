@@ -1,0 +1,327 @@
+{
+  "theme": "Юриспруденция",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "law",
+      "english": "law",
+      "translation": "закон",
+      "audio": [
+        "audio/words/law.wav"
+      ]
+    },
+    {
+      "id": "legal",
+      "english": "legal",
+      "translation": "юридический",
+      "audio": [
+        "audio/words/legal.wav"
+      ]
+    },
+    {
+      "id": "contract",
+      "english": "contract",
+      "translation": "договор",
+      "audio": [
+        "audio/words/contract.wav"
+      ]
+    },
+    {
+      "id": "agreement",
+      "english": "agreement",
+      "translation": "соглашение",
+      "audio": [
+        "audio/words/agreement.wav"
+      ]
+    },
+    {
+      "id": "clause",
+      "english": "clause",
+      "translation": "пункт договора",
+      "audio": [
+        "audio/words/clause.wav"
+      ]
+    },
+    {
+      "id": "terms",
+      "english": "terms",
+      "translation": "условия",
+      "audio": [
+        "audio/words/terms.wav"
+      ]
+    },
+    {
+      "id": "conditions",
+      "english": "conditions",
+      "translation": "условия",
+      "audio": [
+        "audio/words/conditions.wav"
+      ]
+    },
+    {
+      "id": "obligation",
+      "english": "obligation",
+      "translation": "обязательство",
+      "audio": [
+        "audio/words/obligation.wav"
+      ]
+    },
+    {
+      "id": "liability",
+      "english": "liability",
+      "translation": "ответственность",
+      "audio": [
+        "audio/words/liability.wav"
+      ]
+    },
+    {
+      "id": "penalty",
+      "english": "penalty",
+      "translation": "штраф",
+      "audio": [
+        "audio/words/penalty.wav"
+      ]
+    },
+    {
+      "id": "breach",
+      "english": "breach",
+      "translation": "нарушение",
+      "audio": [
+        "audio/words/breach.wav"
+      ]
+    },
+    {
+      "id": "violation",
+      "english": "violation",
+      "translation": "нарушение",
+      "audio": [
+        "audio/words/violation.wav"
+      ]
+    },
+    {
+      "id": "compliance",
+      "english": "compliance",
+      "translation": "соответствие требованиям",
+      "audio": [
+        "audio/words/compliance.wav"
+      ]
+    },
+    {
+      "id": "regulation",
+      "english": "regulation",
+      "translation": "регулирование",
+      "audio": [
+        "audio/words/regulation.wav"
+      ]
+    },
+    {
+      "id": "policy",
+      "english": "policy",
+      "translation": "политика",
+      "audio": [
+        "audio/words/policy.wav"
+      ]
+    },
+    {
+      "id": "rights",
+      "english": "rights",
+      "translation": "права",
+      "audio": [
+        "audio/words/rights.wav"
+      ]
+    },
+    {
+      "id": "duties",
+      "english": "duties",
+      "translation": "обязанности",
+      "audio": [
+        "audio/words/duties.wav"
+      ]
+    },
+    {
+      "id": "party",
+      "english": "party",
+      "translation": "сторона",
+      "audio": [
+        "audio/words/party.wav"
+      ]
+    },
+    {
+      "id": "third-party",
+      "english": "third party",
+      "translation": "третья сторона",
+      "audio": [
+        "audio/words/third party.wav"
+      ]
+    },
+    {
+      "id": "counterparty",
+      "english": "counterparty",
+      "translation": "контрагент",
+      "audio": [
+        "audio/words/counterparty.wav"
+      ]
+    },
+    {
+      "id": "signature",
+      "english": "signature",
+      "translation": "подпись",
+      "audio": [
+        "audio/words/signature.wav"
+      ]
+    },
+    {
+      "id": "amendment",
+      "english": "amendment",
+      "translation": "поправка",
+      "audio": [
+        "audio/words/amendment.wav"
+      ]
+    },
+    {
+      "id": "termination",
+      "english": "termination",
+      "translation": "расторжение",
+      "audio": [
+        "audio/words/termination.wav"
+      ]
+    },
+    {
+      "id": "expiration",
+      "english": "expiration",
+      "translation": "истечение срока",
+      "audio": [
+        "audio/words/expiration.wav"
+      ]
+    },
+    {
+      "id": "renewal",
+      "english": "renewal",
+      "translation": "продление",
+      "audio": [
+        "audio/words/renewal.wav"
+      ]
+    },
+    {
+      "id": "dispute",
+      "english": "dispute",
+      "translation": "спор",
+      "audio": [
+        "audio/words/dispute.wav"
+      ]
+    },
+    {
+      "id": "claim",
+      "english": "claim",
+      "translation": "претензия",
+      "audio": [
+        "audio/words/claim.wav"
+      ]
+    },
+    {
+      "id": "lawsuit",
+      "english": "lawsuit",
+      "translation": "судебный иск",
+      "audio": [
+        "audio/words/lawsuit.wav"
+      ]
+    },
+    {
+      "id": "court",
+      "english": "court",
+      "translation": "суд",
+      "audio": [
+        "audio/words/court.wav"
+      ]
+    },
+    {
+      "id": "settlement",
+      "english": "settlement",
+      "translation": "мировое соглашение",
+      "audio": [
+        "audio/words/settlement.wav"
+      ]
+    },
+    {
+      "id": "jurisdiction",
+      "english": "jurisdiction",
+      "translation": "юрисдикция",
+      "audio": [
+        "audio/words/jurisdiction.wav"
+      ]
+    },
+    {
+      "id": "intellectual-property",
+      "english": "intellectual property",
+      "translation": "интеллектуальная собственность",
+      "audio": [
+        "audio/words/intellectual property.wav"
+      ]
+    },
+    {
+      "id": "copyright",
+      "english": "copyright",
+      "translation": "авторское право",
+      "audio": [
+        "audio/words/copyright.wav"
+      ]
+    },
+    {
+      "id": "trademark",
+      "english": "trademark",
+      "translation": "товарный знак",
+      "audio": [
+        "audio/words/trademark.wav"
+      ]
+    },
+    {
+      "id": "confidentiality",
+      "english": "confidentiality",
+      "translation": "конфиденциальность",
+      "audio": [
+        "audio/words/confidentiality.wav"
+      ]
+    },
+    {
+      "id": "privacy",
+      "english": "privacy",
+      "translation": "приватность",
+      "audio": [
+        "audio/words/privacy.wav"
+      ]
+    },
+    {
+      "id": "consent",
+      "english": "consent",
+      "translation": "согласие",
+      "audio": [
+        "audio/words/consent.wav"
+      ]
+    },
+    {
+      "id": "authorization",
+      "english": "authorization",
+      "translation": "разрешение",
+      "audio": [
+        "audio/words/authorization.wav"
+      ]
+    },
+    {
+      "id": "representation",
+      "english": "representation",
+      "translation": "заявление/гарантия",
+      "audio": [
+        "audio/words/representation.wav"
+      ]
+    },
+    {
+      "id": "warranty",
+      "english": "warranty",
+      "translation": "гарантия",
+      "audio": [
+        "audio/words/warranty.wav"
+      ]
+    }
+  ]
+}

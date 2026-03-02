@@ -1,0 +1,367 @@
+{
+  "theme": "Аналитика и данные",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "data-quality-check",
+      "english": "data quality check",
+      "translation": "проверка качества данных",
+      "audio": [
+        "audio/phrases/data quality check.wav"
+      ]
+    },
+    {
+      "id": "advanced-analytics-tools",
+      "english": "advanced analytics tools",
+      "translation": "продвинутые аналитические инструменты",
+      "audio": [
+        "audio/phrases/advanced analytics tools.wav"
+      ]
+    },
+    {
+      "id": "large-dataset-sample",
+      "english": "large dataset sample",
+      "translation": "большой набор данных",
+      "audio": [
+        "audio/phrases/large dataset sample.wav"
+      ]
+    },
+    {
+      "id": "central-database-system",
+      "english": "central database system",
+      "translation": "центральная база данных",
+      "audio": [
+        "audio/phrases/central database system.wav"
+      ]
+    },
+    {
+      "id": "summary-table-view",
+      "english": "summary table view",
+      "translation": "сводная таблица",
+      "audio": [
+        "audio/phrases/summary table view.wav"
+      ]
+    },
+    {
+      "id": "single-record-entry",
+      "english": "single record entry",
+      "translation": "отдельная запись",
+      "audio": [
+        "audio/phrases/single record entry.wav"
+      ]
+    },
+    {
+      "id": "required-data-field",
+      "english": "required data field",
+      "translation": "обязательное поле данных",
+      "audio": [
+        "audio/phrases/required data field.wav"
+      ]
+    },
+    {
+      "id": "numeric-column-values",
+      "english": "numeric column values",
+      "translation": "числовые значения столбца",
+      "audio": [
+        "audio/phrases/numeric column values.wav"
+      ]
+    },
+    {
+      "id": "highlight-selected-row",
+      "english": "highlight selected row",
+      "translation": "выделить выбранную строку",
+      "audio": [
+        "audio/phrases/highlight selected row.wav"
+      ]
+    },
+    {
+      "id": "missing-value-issue",
+      "english": "missing value issue",
+      "translation": "проблема отсутствующего значения",
+      "audio": [
+        "audio/phrases/missing value issue.wav"
+      ]
+    },
+    {
+      "id": "performance-metric-overview",
+      "english": "performance metric overview",
+      "translation": "обзор метрики эффективности",
+      "audio": [
+        "audio/phrases/performance metric overview.wav"
+      ]
+    },
+    {
+      "id": "key-kpi-target",
+      "english": "key kpi target",
+      "translation": "ключевая цель показателя",
+      "audio": [
+        "audio/phrases/key kpi target.wav"
+      ]
+    },
+    {
+      "id": "leading-indicator-signal",
+      "english": "leading indicator signal",
+      "translation": "опережающий показатель",
+      "audio": [
+        "audio/phrases/leading indicator signal.wav"
+      ]
+    },
+    {
+      "id": "accurate-measurement-process",
+      "english": "accurate measurement process",
+      "translation": "точный процесс измерения",
+      "audio": [
+        "audio/phrases/accurate measurement process.wav"
+      ]
+    },
+    {
+      "id": "industry-benchmark-level",
+      "english": "industry benchmark level",
+      "translation": "отраслевой бенчмарк",
+      "audio": [
+        "audio/phrases/industry benchmark level.wav"
+      ]
+    },
+    {
+      "id": "market-trend-shift",
+      "english": "market trend shift",
+      "translation": "сдвиг рыночного тренда",
+      "audio": [
+        "audio/phrases/market trend shift.wav"
+      ]
+    },
+    {
+      "id": "usage-pattern-emerges",
+      "english": "usage pattern emerges",
+      "translation": "проявляется закономерность использования",
+      "audio": [
+        "audio/phrases/usage pattern emerges.wav"
+      ]
+    },
+    {
+      "id": "strong-correlation-observed",
+      "english": "strong correlation observed",
+      "translation": "обнаружена сильная корреляция",
+      "audio": [
+        "audio/phrases/strong correlation observed.wav"
+      ]
+    },
+    {
+      "id": "normal-distribution-curve",
+      "english": "normal distribution curve",
+      "translation": "нормальное распределение",
+      "audio": [
+        "audio/phrases/normal distribution curve.wav"
+      ]
+    },
+    {
+      "id": "high-variance-values",
+      "english": "high variance values",
+      "translation": "высокие значения дисперсии",
+      "audio": [
+        "audio/phrases/high variance values.wav"
+      ]
+    },
+    {
+      "id": "average-response-time",
+      "english": "average response time",
+      "translation": "среднее время отклика",
+      "audio": [
+        "audio/phrases/average response time.wav"
+      ]
+    },
+    {
+      "id": "median-income-level",
+      "english": "median income level",
+      "translation": "уровень медианного дохода",
+      "audio": [
+        "audio/phrases/median income level.wav"
+      ]
+    },
+    {
+      "id": "remove-extreme-outlier",
+      "english": "remove extreme outlier",
+      "translation": "убрать крайний выброс",
+      "audio": [
+        "audio/phrases/remove extreme outlier.wav"
+      ]
+    },
+    {
+      "id": "random-sample-group",
+      "english": "random sample group",
+      "translation": "случайная выборка",
+      "audio": [
+        "audio/phrases/random sample group.wav"
+      ]
+    },
+    {
+      "id": "target-population-defined",
+      "english": "target population defined",
+      "translation": "определена целевая совокупность",
+      "audio": [
+        "audio/phrases/target population defined.wav"
+      ]
+    },
+    {
+      "id": "in-depth-analysis",
+      "english": "in depth analysis",
+      "translation": "углублённый анализ",
+      "audio": [
+        "audio/phrases/in depth analysis.wav"
+      ]
+    },
+    {
+      "id": "actionable-insight-gained",
+      "english": "actionable insight gained",
+      "translation": "получен полезный инсайт",
+      "audio": [
+        "audio/phrases/actionable insight gained.wav"
+      ]
+    },
+    {
+      "id": "correct-interpretation-needed",
+      "english": "correct interpretation needed",
+      "translation": "нужна правильная интерпретация",
+      "audio": [
+        "audio/phrases/correct interpretation needed.wav"
+      ]
+    },
+    {
+      "id": "test-initial-hypothesis",
+      "english": "test initial hypothesis",
+      "translation": "проверить исходную гипотезу",
+      "audio": [
+        "audio/phrases/test initial hypothesis.wav"
+      ]
+    },
+    {
+      "id": "model-validation-step",
+      "english": "model validation step",
+      "translation": "этап валидации модели",
+      "audio": [
+        "audio/phrases/model validation step.wav"
+      ]
+    },
+    {
+      "id": "interactive-dashboard-view",
+      "english": "interactive dashboard view",
+      "translation": "интерактивный дашборд",
+      "audio": [
+        "audio/phrases/interactive dashboard view.wav"
+      ]
+    },
+    {
+      "id": "monthly-performance-report",
+      "english": "monthly performance report",
+      "translation": "ежемесячный отчёт по эффективности",
+      "audio": [
+        "audio/phrases/monthly performance report.wav"
+      ]
+    },
+    {
+      "id": "clear-data-visualization",
+      "english": "clear data visualization",
+      "translation": "наглядная визуализация данных",
+      "audio": [
+        "audio/phrases/clear data visualization.wav"
+      ]
+    },
+    {
+      "id": "line-chart-example",
+      "english": "line chart example",
+      "translation": "пример линейного графика",
+      "audio": [
+        "audio/phrases/line chart example.wav"
+      ]
+    },
+    {
+      "id": "process-flow-diagram",
+      "english": "process flow diagram",
+      "translation": "диаграмма процесса",
+      "audio": [
+        "audio/phrases/process flow diagram.wav"
+      ]
+    },
+    {
+      "id": "run-sql-query",
+      "english": "run sql query",
+      "translation": "выполнить sql запрос",
+      "audio": [
+        "audio/phrases/run sql query.wav"
+      ]
+    },
+    {
+      "id": "apply-time-filter",
+      "english": "apply time filter",
+      "translation": "применить временной фильтр",
+      "audio": [
+        "audio/phrases/apply time filter.wav"
+      ]
+    },
+    {
+      "id": "data-aggregation-step",
+      "english": "data aggregation step",
+      "translation": "этап агрегации данных",
+      "audio": [
+        "audio/phrases/data aggregation step.wav"
+      ]
+    },
+    {
+      "id": "customer-segmentation-model",
+      "english": "customer segmentation model",
+      "translation": "модель сегментации клиентов",
+      "audio": [
+        "audio/phrases/customer segmentation model.wav"
+      ]
+    },
+    {
+      "id": "automated-data-pipeline",
+      "english": "automated data pipeline",
+      "translation": "автоматизированный конвейер данных",
+      "audio": [
+        "audio/phrases/automated data pipeline.wav"
+      ]
+    },
+    {
+      "id": "high-data-quality",
+      "english": "high data quality",
+      "translation": "высокое качество данных",
+      "audio": [
+        "audio/phrases/high data quality.wav"
+      ]
+    },
+    {
+      "id": "reliable-data-source",
+      "english": "reliable data source",
+      "translation": "надёжный источник данных",
+      "audio": [
+        "audio/phrases/reliable data source.wav"
+      ]
+    },
+    {
+      "id": "collect-raw-data",
+      "english": "collect raw data",
+      "translation": "собирать сырые данные",
+      "audio": [
+        "audio/phrases/collect raw data.wav"
+      ]
+    },
+    {
+      "id": "use-processed-data",
+      "english": "use processed data",
+      "translation": "использовать обработанные данные",
+      "audio": [
+        "audio/phrases/use processed data.wav"
+      ]
+    },
+    {
+      "id": "maintain-data-integrity",
+      "english": "maintain data integrity",
+      "translation": "поддерживать целостность данных",
+      "audio": [
+        "audio/phrases/maintain data integrity.wav"
+      ]
+    }
+  ]
+}

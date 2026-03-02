@@ -1,0 +1,182 @@
+{
+  "theme": "Презентации и выступления",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "presentation",
+      "english": "presentation",
+      "translation": "презентация"
+    },
+    {
+      "id": "speaker",
+      "english": "speaker",
+      "translation": "выступающий"
+    },
+    {
+      "id": "audience",
+      "english": "audience",
+      "translation": "аудитория"
+    },
+    {
+      "id": "speech",
+      "english": "speech",
+      "translation": "речь"
+    },
+    {
+      "id": "talk",
+      "english": "talk",
+      "translation": "доклад"
+    },
+    {
+      "id": "slide",
+      "english": "slide",
+      "translation": "слайд"
+    },
+    {
+      "id": "deck",
+      "english": "deck",
+      "translation": "презентация"
+    },
+    {
+      "id": "visuals",
+      "english": "visuals",
+      "translation": "визуальные материалы"
+    },
+    {
+      "id": "chart",
+      "english": "chart",
+      "translation": "график"
+    },
+    {
+      "id": "diagram",
+      "english": "diagram",
+      "translation": "диаграмма"
+    },
+    {
+      "id": "structure",
+      "english": "structure",
+      "translation": "структура"
+    },
+    {
+      "id": "outline",
+      "english": "outline",
+      "translation": "план"
+    },
+    {
+      "id": "flow",
+      "english": "flow",
+      "translation": "поток"
+    },
+    {
+      "id": "transition",
+      "english": "transition",
+      "translation": "переход"
+    },
+    {
+      "id": "timing",
+      "english": "timing",
+      "translation": "тайминг"
+    },
+    {
+      "id": "delivery",
+      "english": "delivery",
+      "translation": "подача"
+    },
+    {
+      "id": "clarity",
+      "english": "clarity",
+      "translation": "ясность"
+    },
+    {
+      "id": "confidence",
+      "english": "confidence",
+      "translation": "уверенность"
+    },
+    {
+      "id": "engagement",
+      "english": "engagement",
+      "translation": "вовлечённость"
+    },
+    {
+      "id": "impact",
+      "english": "impact",
+      "translation": "эффект"
+    },
+    {
+      "id": "key-point",
+      "english": "key point",
+      "translation": "ключевой пункт"
+    },
+    {
+      "id": "takeaway",
+      "english": "takeaway",
+      "translation": "основной вывод"
+    },
+    {
+      "id": "highlight",
+      "english": "highlight",
+      "translation": "акцент"
+    },
+    {
+      "id": "example",
+      "english": "example",
+      "translation": "пример"
+    },
+    {
+      "id": "comparison",
+      "english": "comparison",
+      "translation": "сравнение"
+    },
+    {
+      "id": "demonstration",
+      "english": "demonstration",
+      "translation": "демонстрация"
+    },
+    {
+      "id": "walkthrough",
+      "english": "walkthrough",
+      "translation": "пошаговый показ"
+    },
+    {
+      "id": "demo",
+      "english": "demo",
+      "translation": "демо"
+    },
+    {
+      "id": "pitch",
+      "english": "pitch",
+      "translation": "питч"
+    },
+    {
+      "id": "proposal",
+      "english": "proposal",
+      "translation": "предложение"
+    },
+    {
+      "id": "question",
+      "english": "question",
+      "translation": "вопрос"
+    },
+    {
+      "id": "answer",
+      "english": "answer",
+      "translation": "ответ"
+    },
+    {
+      "id": "discussion",
+      "english": "discussion",
+      "translation": "обсуждение"
+    },
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "обратная связь"
+    },
+    {
+      "id": "reaction",
+      "english": "reaction",
+      "translation": "реакция"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "theme": "Работа в международной среде",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "international",
+      "english": "international",
+      "translation": "международный",
+      "audio": [
+        "audio/words/international.wav"
+      ]
+    },
+    {
+      "id": "global",
+      "english": "global",
+      "translation": "глобальный",
+      "audio": [
+        "audio/words/global.wav"
+      ]
+    },
+    {
+      "id": "cross-cultural",
+      "english": "cross-cultural",
+      "translation": "межкультурный",
+      "audio": [
+        "audio/words/cross-cultural.wav"
+      ]
+    },
+    {
+      "id": "multinational",
+      "english": "multinational",
+      "translation": "многонациональный",
+      "audio": [
+        "audio/words/multinational.wav"
+      ]
+    },
+    {
+      "id": "foreign",
+      "english": "foreign",
+      "translation": "иностранный",
+      "audio": [
+        "audio/words/foreign.wav"
+      ]
+    },
+    {
+      "id": "colleague",
+      "english": "colleague",
+      "translation": "коллега",
+      "audio": [
+        "audio/words/colleague.wav"
+      ]
+    },
+    {
+      "id": "counterpart",
+      "english": "counterpart",
+      "translation": "коллега с другой стороны",
+      "audio": [
+        "audio/words/counterpart.wav"
+      ]
+    },
+    {
+      "id": "stakeholder",
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона",
+      "audio": [
+        "audio/words/stakeholder.wav"
+      ]
+    },
+    {
+      "id": "client",
+      "english": "client",
+      "translation": "клиент",
+      "audio": [
+        "audio/words/client.wav"
+      ]
+    },
+    {
+      "id": "partner",
+      "english": "partner",
+      "translation": "партнёр",
+      "audio": [
+        "audio/words/partner.wav"
+      ]
+    },
+    {
+      "id": "timezone",
+      "english": "timezone",
+      "translation": "часовой пояс",
+      "audio": [
+        "audio/words/timezone.wav"
+      ]
+    },
+    {
+      "id": "schedule",
+      "english": "schedule",
+      "translation": "график",
+      "audio": [
+        "audio/words/schedule.wav"
+      ]
+    },
+    {
+      "id": "availability",
+      "english": "availability",
+      "translation": "доступность",
+      "audio": [
+        "audio/words/availability.wav"
+      ]
+    },
+    {
+      "id": "deadline",
+      "english": "deadline",
+      "translation": "дедлайн",
+      "audio": [
+        "audio/words/deadline.wav"
+      ]
+    },
+    {
+      "id": "overlap",
+      "english": "overlap",
+      "translation": "пересечение",
+      "audio": [
+        "audio/words/overlap.wav"
+      ]
+    },
+    {
+      "id": "remote",
+      "english": "remote",
+      "translation": "удалённый",
+      "audio": [
+        "audio/words/remote.wav"
+      ]
+    },
+    {
+      "id": "distributed-team",
+      "english": "distributed team",
+      "translation": "распределённая команда",
+      "audio": [
+        "audio/words/distributed team.wav"
+      ]
+    },
+    {
+      "id": "headquarters",
+      "english": "headquarters",
+      "translation": "штаб-квартира",
+      "audio": [
+        "audio/words/headquarters.wav"
+      ]
+    },
+    {
+      "id": "branch",
+      "english": "branch",
+      "translation": "филиал",
+      "audio": [
+        "audio/words/branch.wav"
+      ]
+    },
+    {
+      "id": "office",
+      "english": "office",
+      "translation": "офис",
+      "audio": [
+        "audio/words/office.wav"
+      ]
+    },
+    {
+      "id": "language-barrier",
+      "english": "language barrier",
+      "translation": "языковой барьер",
+      "audio": [
+        "audio/words/language barrier.wav"
+      ]
+    },
+    {
+      "id": "accent",
+      "english": "accent",
+      "translation": "акцент",
+      "audio": [
+        "audio/words/accent.wav"
+      ]
+    },
+    {
+      "id": "fluency",
+      "english": "fluency",
+      "translation": "беглость речи",
+      "audio": [
+        "audio/words/fluency.wav"
+      ]
+    },
+    {
+      "id": "clarity",
+      "english": "clarity",
+      "translation": "ясность",
+      "audio": [
+        "audio/words/clarity.wav"
+      ]
+    },
+    {
+      "id": "misunderstanding",
+      "english": "misunderstanding",
+      "translation": "недопонимание",
+      "audio": [
+        "audio/words/misunderstanding.wav"
+      ]
+    },
+    {
+      "id": "expectations",
+      "english": "expectations",
+      "translation": "ожидания",
+      "audio": [
+        "audio/words/expectations.wav"
+      ]
+    },
+    {
+      "id": "requirements",
+      "english": "requirements",
+      "translation": "требования",
+      "audio": [
+        "audio/words/requirements.wav"
+      ]
+    },
+    {
+      "id": "responsibility",
+      "english": "responsibility",
+      "translation": "ответственность",
+      "audio": [
+        "audio/words/responsibility.wav"
+      ]
+    },
+    {
+      "id": "authority",
+      "english": "authority",
+      "translation": "полномочия",
+      "audio": [
+        "audio/words/authority.wav"
+      ]
+    },
+    {
+      "id": "decision",
+      "english": "decision",
+      "translation": "решение",
+      "audio": [
+        "audio/words/decision.wav"
+      ]
+    },
+    {
+      "id": "work-permit",
+      "english": "work permit",
+      "translation": "разрешение на работу",
+      "audio": [
+        "audio/words/work permit.wav"
+      ]
+    },
+    {
+      "id": "visa",
+      "english": "visa",
+      "translation": "виза",
+      "audio": [
+        "audio/words/visa.wav"
+      ]
+    },
+    {
+      "id": "relocation",
+      "english": "relocation",
+      "translation": "релокация",
+      "audio": [
+        "audio/words/relocation.wav"
+      ]
+    },
+    {
+      "id": "contract",
+      "english": "contract",
+      "translation": "контракт",
+      "audio": [
+        "audio/words/contract.wav"
+      ]
+    },
+    {
+      "id": "compliance",
+      "english": "compliance",
+      "translation": "соответствие требованиям",
+      "audio": [
+        "audio/words/compliance.wav"
+      ]
+    },
+    {
+      "id": "business-trip",
+      "english": "business trip",
+      "translation": "командировка",
+      "audio": [
+        "audio/words/business trip.wav"
+      ]
+    },
+    {
+      "id": "negotiation",
+      "english": "negotiation",
+      "translation": "переговоры",
+      "audio": [
+        "audio/words/negotiation.wav"
+      ]
+    },
+    {
+      "id": "agreement",
+      "english": "agreement",
+      "translation": "соглашение",
+      "audio": [
+        "audio/words/agreement.wav"
+      ]
+    },
+    {
+      "id": "approval",
+      "english": "approval",
+      "translation": "утверждение",
+      "audio": [
+        "audio/words/approval.wav"
+      ]
+    },
+    {
+      "id": "coordination",
+      "english": "coordination",
+      "translation": "координация",
+      "audio": [
+        "audio/words/coordination.wav"
+      ]
+    }
+  ]
+}

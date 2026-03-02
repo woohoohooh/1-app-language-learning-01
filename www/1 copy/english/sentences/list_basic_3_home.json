@@ -1,0 +1,327 @@
+{
+  "theme": "Дом и быт",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "they-live-in-a-big-house.",
+      "english": "They live in a big house.",
+      "translation": "Они живут в большом доме.",
+      "audio": [
+        "audio/sentences/They live in a big house..wav"
+      ]
+    },
+    {
+      "id": "she-found-a-new-apartment.",
+      "english": "She found a new apartment.",
+      "translation": "Она нашла новую квартиру.",
+      "audio": [
+        "audio/sentences/She found a new apartment..wav"
+      ]
+    },
+    {
+      "id": "this-room-feels-very-cozy.",
+      "english": "This room feels very cozy.",
+      "translation": "Эта комната кажется очень уютной.",
+      "audio": [
+        "audio/sentences/This room feels very cozy..wav"
+      ]
+    },
+    {
+      "id": "we-cook-dinner-in-the-kitchen.",
+      "english": "We cook dinner in the kitchen.",
+      "translation": "Мы готовим ужин на кухне.",
+      "audio": [
+        "audio/sentences/We cook dinner in the kitchen..wav"
+      ]
+    },
+    {
+      "id": "the-bathroom-is-very-clean.",
+      "english": "The bathroom is very clean.",
+      "translation": "Ванная комната очень чистая.",
+      "audio": [
+        "audio/sentences/The bathroom is very clean..wav"
+      ]
+    },
+    {
+      "id": "my-bedroom-is-upstairs.",
+      "english": "My bedroom is upstairs.",
+      "translation": "Моя спальня находится наверху.",
+      "audio": [
+        "audio/sentences/My bedroom is upstairs..wav"
+      ]
+    },
+    {
+      "id": "we-relax-in-the-living-room.",
+      "english": "We relax in the living room.",
+      "translation": "Мы отдыхаем в гостиной.",
+      "audio": [
+        "audio/sentences/We relax in the living room..wav"
+      ]
+    },
+    {
+      "id": "she-drinks-coffee-on-the-balcony.",
+      "english": "She drinks coffee on the balcony.",
+      "translation": "Она пьёт кофе на балконе.",
+      "audio": [
+        "audio/sentences/She drinks coffee on the balcony..wav"
+      ]
+    },
+    {
+      "id": "please-lock-the-door.",
+      "english": "Please lock the door.",
+      "translation": "Пожалуйста, закрой дверь на замок.",
+      "audio": [
+        "audio/sentences/Please lock the door..wav"
+      ]
+    },
+    {
+      "id": "the-window-lets-in-light.",
+      "english": "The window lets in light.",
+      "translation": "Окно пропускает свет.",
+      "audio": [
+        "audio/sentences/The window lets in light..wav"
+      ]
+    },
+    {
+      "id": "pictures-hang-on-the-wall.",
+      "english": "Pictures hang on the wall.",
+      "translation": "Картины висят на стене.",
+      "audio": [
+        "audio/sentences/Pictures hang on the wall..wav"
+      ]
+    },
+    {
+      "id": "the-ceiling-is-very-high.",
+      "english": "The ceiling is very high.",
+      "translation": "Потолок очень высокий.",
+      "audio": [
+        "audio/sentences/The ceiling is very high..wav"
+      ]
+    },
+    {
+      "id": "the-bed-looks-comfortable.",
+      "english": "The bed looks comfortable.",
+      "translation": "Кровать выглядит удобной.",
+      "audio": [
+        "audio/sentences/The bed looks comfortable..wav"
+      ]
+    },
+    {
+      "id": "they-bought-a-new-sofa.",
+      "english": "They bought a new sofa.",
+      "translation": "Они купили новый диван.",
+      "audio": [
+        "audio/sentences/They bought a new sofa..wav"
+      ]
+    },
+    {
+      "id": "he-pulled-a-chair-closer.",
+      "english": "He pulled a chair closer.",
+      "translation": "Он пододвинул стул ближе.",
+      "audio": [
+        "audio/sentences/He pulled a chair closer..wav"
+      ]
+    },
+    {
+      "id": "dinner-is-on-the-table.",
+      "english": "Dinner is on the table.",
+      "translation": "Ужин на столе.",
+      "audio": [
+        "audio/sentences/Dinner is on the table..wav"
+      ]
+    },
+    {
+      "id": "her-laptop-is-on-the-desk.",
+      "english": "Her laptop is on the desk.",
+      "translation": "Её ноутбук стоит на столе.",
+      "audio": [
+        "audio/sentences/Her laptop is on the desk..wav"
+      ]
+    },
+    {
+      "id": "the-wardrobe-is-full.",
+      "english": "The wardrobe is full.",
+      "translation": "Шкаф полностью заполнен.",
+      "audio": [
+        "audio/sentences/The wardrobe is full..wav"
+      ]
+    },
+    {
+      "id": "books-are-on-the-shelf.",
+      "english": "Books are on the shelf.",
+      "translation": "Книги стоят на полке.",
+      "audio": [
+        "audio/sentences/Books are on the shelf..wav"
+      ]
+    },
+    {
+      "id": "the-mirror-is-on-the-wall.",
+      "english": "The mirror is on the wall.",
+      "translation": "Зеркало висит на стене.",
+      "audio": [
+        "audio/sentences/The mirror is on the wall..wav"
+      ]
+    },
+    {
+      "id": "the-lamp-is-very-bright.",
+      "english": "The lamp is very bright.",
+      "translation": "Лампа очень яркая.",
+      "audio": [
+        "audio/sentences/The lamp is very bright..wav"
+      ]
+    },
+    {
+      "id": "the-fridge-is-full-of-food.",
+      "english": "The fridge is full of food.",
+      "translation": "Холодильник полон еды.",
+      "audio": [
+        "audio/sentences/The fridge is full of food..wav"
+      ]
+    },
+    {
+      "id": "the-oven-is-already-hot.",
+      "english": "The oven is already hot.",
+      "translation": "Духовка уже нагрелась.",
+      "audio": [
+        "audio/sentences/The oven is already hot..wav"
+      ]
+    },
+    {
+      "id": "the-pot-is-on-the-stove.",
+      "english": "The pot is on the stove.",
+      "translation": "Кастрюля стоит на плите.",
+      "audio": [
+        "audio/sentences/The pot is on the stove..wav"
+      ]
+    },
+    {
+      "id": "he-heated-food-in-the-microwave.",
+      "english": "He heated food in the microwave.",
+      "translation": "Он разогрел еду в микроволновке.",
+      "audio": [
+        "audio/sentences/He heated food in the microwave..wav"
+      ]
+    },
+    {
+      "id": "the-kettle-starts-to-whistle.",
+      "english": "The kettle starts to whistle.",
+      "translation": "Чайник начинает свистеть.",
+      "audio": [
+        "audio/sentences/The kettle starts to whistle..wav"
+      ]
+    },
+    {
+      "id": "the-washing-machine-is-running.",
+      "english": "The washing machine is running.",
+      "translation": "Стиральная машина работает.",
+      "audio": [
+        "audio/sentences/The washing machine is running..wav"
+      ]
+    },
+    {
+      "id": "the-floor-is-dirty.",
+      "english": "The floor is dirty.",
+      "translation": "Пол грязный.",
+      "audio": [
+        "audio/sentences/The floor is dirty..wav"
+      ]
+    },
+    {
+      "id": "they-cook-together-every-evening.",
+      "english": "They cook together every evening.",
+      "translation": "Они готовят вместе каждый вечер.",
+      "audio": [
+        "audio/sentences/They cook together every evening..wav"
+      ]
+    },
+    {
+      "id": "i-sleep-better-at-home.",
+      "english": "I sleep better at home.",
+      "translation": "Я лучше сплю дома.",
+      "audio": [
+        "audio/sentences/I sleep better at home..wav"
+      ]
+    },
+    {
+      "id": "she-wakes-up-at-seven.",
+      "english": "She wakes up at seven.",
+      "translation": "Она просыпается в семь.",
+      "audio": [
+        "audio/sentences/She wakes up at seven..wav"
+      ]
+    },
+    {
+      "id": "the-key-is-in-my-pocket.",
+      "english": "The key is in my pocket.",
+      "translation": "Ключ у меня в кармане.",
+      "audio": [
+        "audio/sentences/The key is in my pocket..wav"
+      ]
+    },
+    {
+      "id": "he-checked-the-lock-twice.",
+      "english": "He checked the lock twice.",
+      "translation": "Он проверил замок дважды.",
+      "audio": [
+        "audio/sentences/He checked the lock twice..wav"
+      ]
+    },
+    {
+      "id": "the-trash-smells-bad.",
+      "english": "The trash smells bad.",
+      "translation": "Мусор плохо пахнет.",
+      "audio": [
+        "audio/sentences/The trash smells bad..wav"
+      ]
+    },
+    {
+      "id": "the-hall-looks-bright.",
+      "english": "The hall looks bright.",
+      "translation": "Холл выглядит светлым.",
+      "audio": [
+        "audio/sentences/The hall looks bright..wav"
+      ]
+    },
+    {
+      "id": "the-floor-feels-cold.",
+      "english": "The floor feels cold.",
+      "translation": "Пол кажется холодным.",
+      "audio": [
+        "audio/sentences/The floor feels cold..wav"
+      ]
+    },
+    {
+      "id": "the-light-fills-the-room.",
+      "english": "The light fills the room.",
+      "translation": "Свет наполняет комнату.",
+      "audio": [
+        "audio/sentences/The light fills the room..wav"
+      ]
+    },
+    {
+      "id": "the-house-looks-clean.",
+      "english": "The house looks clean.",
+      "translation": "Дом выглядит чистым.",
+      "audio": [
+        "audio/sentences/The house looks clean..wav"
+      ]
+    },
+    {
+      "id": "she-washes-clothes-at-home.",
+      "english": "She washes clothes at home.",
+      "translation": "Она моет одежду дома.",
+      "audio": [
+        "audio/sentences/She washes clothes at home..wav"
+      ]
+    },
+    {
+      "id": "she-left-her-bag-inside.",
+      "english": "She left her bag inside.",
+      "translation": "Она оставила сумку внутри.",
+      "audio": [
+        "audio/sentences/She left her bag inside..wav"
+      ]
+    }
+  ]
+}

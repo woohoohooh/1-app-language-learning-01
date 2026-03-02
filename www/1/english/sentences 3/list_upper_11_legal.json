@@ -1,0 +1,167 @@
+{
+  "theme": "Юриспруденция",
+  "level": "Upper-Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "law",
+      "translation": "закон"
+    },
+    {
+      "english": "legal",
+      "translation": "юридический"
+    },
+    {
+      "english": "contract",
+      "translation": "договор"
+    },
+    {
+      "english": "agreement",
+      "translation": "соглашение"
+    },
+    {
+      "english": "clause",
+      "translation": "пункт договора"
+    },
+    {
+      "english": "terms",
+      "translation": "условия"
+    },
+    {
+      "english": "conditions",
+      "translation": "условия"
+    },
+    {
+      "english": "obligation",
+      "translation": "обязательство"
+    },
+    {
+      "english": "liability",
+      "translation": "ответственность"
+    },
+    {
+      "english": "penalty",
+      "translation": "штраф"
+    },
+    {
+      "english": "breach",
+      "translation": "нарушение"
+    },
+    {
+      "english": "violation",
+      "translation": "нарушение"
+    },
+    {
+      "english": "compliance",
+      "translation": "соответствие требованиям"
+    },
+    {
+      "english": "regulation",
+      "translation": "регулирование"
+    },
+    {
+      "english": "policy",
+      "translation": "политика"
+    },
+    {
+      "english": "rights",
+      "translation": "права"
+    },
+    {
+      "english": "duties",
+      "translation": "обязанности"
+    },
+    {
+      "english": "party",
+      "translation": "сторона"
+    },
+    {
+      "english": "third party",
+      "translation": "третья сторона"
+    },
+    {
+      "english": "counterparty",
+      "translation": "контрагент"
+    },
+    {
+      "english": "signature",
+      "translation": "подпись"
+    },
+    {
+      "english": "amendment",
+      "translation": "поправка"
+    },
+    {
+      "english": "termination",
+      "translation": "расторжение"
+    },
+    {
+      "english": "expiration",
+      "translation": "истечение срока"
+    },
+    {
+      "english": "renewal",
+      "translation": "продление"
+    },
+    {
+      "english": "dispute",
+      "translation": "спор"
+    },
+    {
+      "english": "claim",
+      "translation": "претензия"
+    },
+    {
+      "english": "lawsuit",
+      "translation": "судебный иск"
+    },
+    {
+      "english": "court",
+      "translation": "суд"
+    },
+    {
+      "english": "settlement",
+      "translation": "мировое соглашение"
+    },
+    {
+      "english": "jurisdiction",
+      "translation": "юрисдикция"
+    },
+    {
+      "english": "intellectual property",
+      "translation": "интеллектуальная собственность"
+    },
+    {
+      "english": "copyright",
+      "translation": "авторское право"
+    },
+    {
+      "english": "trademark",
+      "translation": "товарный знак"
+    },
+    {
+      "english": "confidentiality",
+      "translation": "конфиденциальность"
+    },
+    {
+      "english": "privacy",
+      "translation": "приватность"
+    },
+    {
+      "english": "consent",
+      "translation": "согласие"
+    },
+    {
+      "english": "authorization",
+      "translation": "разрешение"
+    },
+    {
+      "english": "representation",
+      "translation": "заявление/гарантия"
+    },
+    {
+      "english": "warranty",
+      "translation": "гарантия"
+    }
+  ]
+}

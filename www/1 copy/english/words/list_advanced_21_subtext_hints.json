@@ -1,0 +1,239 @@
+{
+  "theme": "Подтекст и намёки",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "subtext",
+      "english": "subtext",
+      "translation": "подтекст",
+      "audio": [
+        "audio/words/subtext.wav"
+      ]
+    },
+    {
+      "id": "hint",
+      "english": "hint",
+      "translation": "намёк",
+      "audio": [
+        "audio/words/hint.wav"
+      ]
+    },
+    {
+      "id": "signal",
+      "english": "signal",
+      "translation": "сигнал",
+      "audio": [
+        "audio/words/signal.wav"
+      ]
+    },
+    {
+      "id": "cue",
+      "english": "cue",
+      "translation": "подсказка",
+      "audio": [
+        "audio/words/cue.wav"
+      ]
+    },
+    {
+      "id": "clue",
+      "english": "clue",
+      "translation": "зацепка",
+      "audio": [
+        "audio/words/clue.wav"
+      ]
+    },
+    {
+      "id": "meaning",
+      "english": "meaning",
+      "translation": "смысл",
+      "audio": [
+        "audio/words/meaning.wav"
+      ]
+    },
+    {
+      "id": "interpretation",
+      "english": "interpretation",
+      "translation": "интерпретация",
+      "audio": [
+        "audio/words/interpretation.wav"
+      ]
+    },
+    {
+      "id": "reading",
+      "english": "reading",
+      "translation": "трактовка",
+      "audio": [
+        "audio/words/reading.wav"
+      ]
+    },
+    {
+      "id": "intention",
+      "english": "intention",
+      "translation": "намерение",
+      "audio": [
+        "audio/words/intention.wav"
+      ]
+    },
+    {
+      "id": "message",
+      "english": "message",
+      "translation": "посыл",
+      "audio": [
+        "audio/words/message.wav"
+      ]
+    },
+    {
+      "id": "suggestion",
+      "english": "suggestion",
+      "translation": "косвенное предложение",
+      "audio": [
+        "audio/words/suggestion.wav"
+      ]
+    },
+    {
+      "id": "reference",
+      "english": "reference",
+      "translation": "отсылка",
+      "audio": [
+        "audio/words/reference.wav"
+      ]
+    },
+    {
+      "id": "allusion",
+      "english": "allusion",
+      "translation": "аллюзия",
+      "audio": [
+        "audio/words/allusion.wav"
+      ]
+    },
+    {
+      "id": "implication",
+      "english": "implication",
+      "translation": "скрытый смысл",
+      "audio": [
+        "audio/words/implication.wav"
+      ]
+    },
+    {
+      "id": "assumption",
+      "english": "assumption",
+      "translation": "предположение",
+      "audio": [
+        "audio/words/assumption.wav"
+      ]
+    },
+    {
+      "id": "emphasis",
+      "english": "emphasis",
+      "translation": "акцент",
+      "audio": [
+        "audio/words/emphasis.wav"
+      ]
+    },
+    {
+      "id": "choice-of-words",
+      "english": "choice of words",
+      "translation": "выбор слов",
+      "audio": [
+        "audio/words/choice of words.wav"
+      ]
+    },
+    {
+      "id": "framing",
+      "english": "framing",
+      "translation": "формулировка, подача",
+      "audio": [
+        "audio/words/framing.wav"
+      ]
+    },
+    {
+      "id": "positioning",
+      "english": "positioning",
+      "translation": "позиционирование",
+      "audio": [
+        "audio/words/positioning.wav"
+      ]
+    },
+    {
+      "id": "hesitation",
+      "english": "hesitation",
+      "translation": "заминка",
+      "audio": [
+        "audio/words/hesitation.wav"
+      ]
+    },
+    {
+      "id": "pause",
+      "english": "pause",
+      "translation": "пауза",
+      "audio": [
+        "audio/words/pause.wav"
+      ]
+    },
+    {
+      "id": "silence",
+      "english": "silence",
+      "translation": "молчание",
+      "audio": [
+        "audio/words/silence.wav"
+      ]
+    },
+    {
+      "id": "avoidance",
+      "english": "avoidance",
+      "translation": "уход от темы",
+      "audio": [
+        "audio/words/avoidance.wav"
+      ]
+    },
+    {
+      "id": "evasion",
+      "english": "evasion",
+      "translation": "уклонение",
+      "audio": [
+        "audio/words/evasion.wav"
+      ]
+    },
+    {
+      "id": "indirectness",
+      "english": "indirectness",
+      "translation": "косвенность",
+      "audio": [
+        "audio/words/indirectness.wav"
+      ]
+    },
+    {
+      "id": "implicitness",
+      "english": "implicitness",
+      "translation": "неявность",
+      "audio": [
+        "audio/words/implicitness.wav"
+      ]
+    },
+    {
+      "id": "nuance",
+      "english": "nuance",
+      "translation": "нюанс",
+      "audio": [
+        "audio/words/nuance.wav"
+      ]
+    },
+    {
+      "id": "subtlety",
+      "english": "subtlety",
+      "translation": "тонкость",
+      "audio": [
+        "audio/words/subtlety.wav"
+      ]
+    },
+    {
+      "id": "undertone",
+      "english": "undertone",
+      "translation": "подтекстовый оттенок",
+      "audio": [
+        "audio/words/undertone.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "theme": "Движение и транспорт",
+  "level": "",
+  "name": "Words",
+  "items": [
+    {
+      "id": "move",
+      "english": "move",
+      "translation": "двигаться"
+    },
+    {
+      "id": "walk",
+      "english": "walk",
+      "translation": "идти пешком"
+    },
+    {
+      "id": "run",
+      "english": "run",
+      "translation": "бежать"
+    },
+    {
+      "id": "stop_action",
+      "english": "stop",
+      "translation": "останавливаться"
+    },
+    {
+      "id": "road",
+      "english": "road",
+      "translation": "дорога"
+    },
+    {
+      "id": "street",
+      "english": "street",
+      "translation": "улица"
+    },
+    {
+      "id": "way",
+      "english": "way",
+      "translation": "путь"
+    },
+    {
+      "id": "direction",
+      "english": "direction",
+      "translation": "направление"
+    },
+    {
+      "id": "car",
+      "english": "car",
+      "translation": "машина"
+    },
+    {
+      "id": "bus",
+      "english": "bus",
+      "translation": "автобус"
+    },
+    {
+      "id": "train",
+      "english": "train",
+      "translation": "поезд"
+    },
+    {
+      "id": "taxi",
+      "english": "taxi",
+      "translation": "такси"
+    },
+    {
+      "id": "subway",
+      "english": "subway",
+      "translation": "метро"
+    },
+    {
+      "id": "bike",
+      "english": "bike",
+      "translation": "велосипед"
+    },
+    {
+      "id": "bicycle",
+      "english": "bicycle",
+      "translation": "велосипед"
+    },
+    {
+      "id": "station",
+      "english": "station",
+      "translation": "станция"
+    },
+    {
+      "id": "bus_stop",
+      "english": "stop",
+      "translation": "остановка"
+    },
+    {
+      "id": "ticket",
+      "english": "ticket",
+      "translation": "билет"
+    },
+    {
+      "id": "ride",
+      "english": "ride",
+      "translation": "поездка"
+    },
+    {
+      "id": "trip",
+      "english": "trip",
+      "translation": "путешествие"
+    },
+    {
+      "id": "drive",
+      "english": "drive",
+      "translation": "вести машину"
+    },
+    {
+      "id": "arrive",
+      "english": "arrive",
+      "translation": "прибывать"
+    },
+    {
+      "id": "go",
+      "english": "go",
+      "translation": "идти"
+    },
+    {
+      "id": "come",
+      "english": "come",
+      "translation": "приходить"
+    },
+    {
+      "id": "leave",
+      "english": "leave",
+      "translation": "уезжать"
+    }
+  ]
+}

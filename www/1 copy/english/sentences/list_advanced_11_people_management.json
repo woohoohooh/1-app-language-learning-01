@@ -1,0 +1,327 @@
+{
+  "theme": "Управление людьми",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "management-shapes-organizational-outcomes.",
+      "english": "Management shapes organizational outcomes.",
+      "translation": "Управление формирует результаты организации.",
+      "audio": [
+        "audio/sentences/Management shapes organizational outcomes..wav"
+      ]
+    },
+    {
+      "id": "the-manager-coordinates-daily-operations.",
+      "english": "The manager coordinates daily operations.",
+      "translation": "Руководитель координирует ежедневные процессы.",
+      "audio": [
+        "audio/sentences/The manager coordinates daily operations..wav"
+      ]
+    },
+    {
+      "id": "the-team-achieved-impressive-results.",
+      "english": "The team achieved impressive results.",
+      "translation": "Команда достигла впечатляющих результатов.",
+      "audio": [
+        "audio/sentences/The team achieved impressive results..wav"
+      ]
+    },
+    {
+      "id": "teamwork-improves-problem-solving.",
+      "english": "Teamwork improves problem solving.",
+      "translation": "Командная работа улучшает решение проблем.",
+      "audio": [
+        "audio/sentences/Teamwork improves problem solving..wav"
+      ]
+    },
+    {
+      "id": "collaboration-accelerates-innovation.",
+      "english": "Collaboration accelerates innovation.",
+      "translation": "Сотрудничество ускоряет инновации.",
+      "audio": [
+        "audio/sentences/Collaboration accelerates innovation..wav"
+      ]
+    },
+    {
+      "id": "supervision-ensures-task-accuracy.",
+      "english": "Supervision ensures task accuracy.",
+      "translation": "Надзор обеспечивает точность выполнения задач.",
+      "audio": [
+        "audio/sentences/Supervision ensures task accuracy..wav"
+      ]
+    },
+    {
+      "id": "coordination-aligns-multiple-efforts.",
+      "english": "Coordination aligns multiple efforts.",
+      "translation": "Координация согласует множество усилий.",
+      "audio": [
+        "audio/sentences/Coordination aligns multiple efforts..wav"
+      ]
+    },
+    {
+      "id": "workload-distribution-affects-morale.",
+      "english": "Workload distribution affects morale.",
+      "translation": "Распределение нагрузки влияет на мораль.",
+      "audio": [
+        "audio/sentences/Workload distribution affects morale..wav"
+      ]
+    },
+    {
+      "id": "capacity-limits-must-be-respected.",
+      "english": "Capacity limits must be respected.",
+      "translation": "Ограничения ресурсов нужно учитывать.",
+      "audio": [
+        "audio/sentences/Capacity limits must be respected..wav"
+      ]
+    },
+    {
+      "id": "availability-impacts-scheduling-decisions.",
+      "english": "Availability impacts scheduling decisions.",
+      "translation": "Доступность влияет на планирование.",
+      "audio": [
+        "audio/sentences/Availability impacts scheduling decisions..wav"
+      ]
+    },
+    {
+      "id": "the-performance-review-highlighted-strengths.",
+      "english": "The performance review highlighted strengths.",
+      "translation": "Оценка эффективности выявила сильные стороны.",
+      "audio": [
+        "audio/sentences/The performance review highlighted strengths..wav"
+      ]
+    },
+    {
+      "id": "evaluation-supports-fair-decisions.",
+      "english": "Evaluation supports fair decisions.",
+      "translation": "Оценка поддерживает справедливые решения.",
+      "audio": [
+        "audio/sentences/Evaluation supports fair decisions..wav"
+      ]
+    },
+    {
+      "id": "assessment-identifies-improvement-areas.",
+      "english": "Assessment identifies improvement areas.",
+      "translation": "Оценивание выявляет зоны улучшения.",
+      "audio": [
+        "audio/sentences/Assessment identifies improvement areas..wav"
+      ]
+    },
+    {
+      "id": "expectation-alignment-reduces-conflict.",
+      "english": "Expectation alignment reduces conflict.",
+      "translation": "Согласование ожиданий снижает конфликты.",
+      "audio": [
+        "audio/sentences/Expectation alignment reduces conflict..wav"
+      ]
+    },
+    {
+      "id": "goal-setting-clarifies-priorities.",
+      "english": "Goal-setting clarifies priorities.",
+      "translation": "Постановка целей проясняет приоритеты.",
+      "audio": [
+        "audio/sentences/Goal-setting clarifies priorities..wav"
+      ]
+    },
+    {
+      "id": "motivation-influences-long-term-engagement.",
+      "english": "Motivation influences long term engagement.",
+      "translation": "Мотивация влияет на долгосрочную вовлечённость.",
+      "audio": [
+        "audio/sentences/Motivation influences long term engagement..wav"
+      ]
+    },
+    {
+      "id": "engagement-strengthens-workplace-culture.",
+      "english": "Engagement strengthens workplace culture.",
+      "translation": "Вовлечённость укрепляет культуру работы.",
+      "audio": [
+        "audio/sentences/Engagement strengthens workplace culture..wav"
+      ]
+    },
+    {
+      "id": "commitment-builds-organizational-stability.",
+      "english": "Commitment builds organizational stability.",
+      "translation": "Приверженность создаёт стабильность организации.",
+      "audio": [
+        "audio/sentences/Commitment builds organizational stability..wav"
+      ]
+    },
+    {
+      "id": "retention-strategies-reduce-hiring-costs.",
+      "english": "Retention strategies reduce hiring costs.",
+      "translation": "Стратегии удержания снижают затраты на найм.",
+      "audio": [
+        "audio/sentences/Retention strategies reduce hiring costs..wav"
+      ]
+    },
+    {
+      "id": "turnover-signals-management-issues.",
+      "english": "Turnover signals management issues.",
+      "translation": "Текучесть указывает на проблемы управления.",
+      "audio": [
+        "audio/sentences/Turnover signals management issues..wav"
+      ]
+    },
+    {
+      "id": "onboarding-sets-expectations-from-day-one.",
+      "english": "Onboarding sets expectations from day one.",
+      "translation": "Адаптация формирует ожидания с первого дня.",
+      "audio": [
+        "audio/sentences/Onboarding sets expectations from day one..wav"
+      ]
+    },
+    {
+      "id": "training-improves-professional-competence.",
+      "english": "Training improves professional competence.",
+      "translation": "Обучение повышает профессиональную компетентность.",
+      "audio": [
+        "audio/sentences/Training improves professional competence..wav"
+      ]
+    },
+    {
+      "id": "upskilling-prepares-teams-for-change.",
+      "english": "Upskilling prepares teams for change.",
+      "translation": "Повышение навыков готовит команды к изменениям.",
+      "audio": [
+        "audio/sentences/Upskilling prepares teams for change..wav"
+      ]
+    },
+    {
+      "id": "career-growth-motivates-high-performers.",
+      "english": "Career growth motivates high performers.",
+      "translation": "Карьерный рост мотивирует сильных сотрудников.",
+      "audio": [
+        "audio/sentences/Career growth motivates high performers..wav"
+      ]
+    },
+    {
+      "id": "succession-ensures-leadership-continuity.",
+      "english": "Succession ensures leadership continuity.",
+      "translation": "Преемственность обеспечивает непрерывность руководства.",
+      "audio": [
+        "audio/sentences/Succession ensures leadership continuity..wav"
+      ]
+    },
+    {
+      "id": "conflict-requires-careful-handling.",
+      "english": "Conflict requires careful handling.",
+      "translation": "Конфликт требует аккуратного подхода.",
+      "audio": [
+        "audio/sentences/Conflict requires careful handling..wav"
+      ]
+    },
+    {
+      "id": "resolution-restores-team-trust.",
+      "english": "Resolution restores team trust.",
+      "translation": "Разрешение восстанавливает доверие в команде.",
+      "audio": [
+        "audio/sentences/Resolution restores team trust..wav"
+      ]
+    },
+    {
+      "id": "discipline-supports-consistent-performance.",
+      "english": "Discipline supports consistent performance.",
+      "translation": "Дисциплина поддерживает стабильные результаты.",
+      "audio": [
+        "audio/sentences/Discipline supports consistent performance..wav"
+      ]
+    },
+    {
+      "id": "policy-guides-employee-behavior.",
+      "english": "Policy guides employee behavior.",
+      "translation": "Политика направляет поведение сотрудников.",
+      "audio": [
+        "audio/sentences/Policy guides employee behavior..wav"
+      ]
+    },
+    {
+      "id": "procedure-reduces-operational-risk.",
+      "english": "Procedure reduces operational risk.",
+      "translation": "Процедура снижает операционные риски.",
+      "audio": [
+        "audio/sentences/Procedure reduces operational risk..wav"
+      ]
+    },
+    {
+      "id": "responsibility-defines-ownership-clearly.",
+      "english": "Responsibility defines ownership clearly.",
+      "translation": "Ответственность чётко определяет зоны влияния.",
+      "audio": [
+        "audio/sentences/Responsibility defines ownership clearly..wav"
+      ]
+    },
+    {
+      "id": "each-role-supports-team-balance.",
+      "english": "Each role supports team balance.",
+      "translation": "Каждая роль поддерживает баланс команды.",
+      "audio": [
+        "audio/sentences/Each role supports team balance..wav"
+      ]
+    },
+    {
+      "id": "ownership-drives-proactive-behavior.",
+      "english": "Ownership drives proactive behavior.",
+      "translation": "Ответственность стимулирует проактивность.",
+      "audio": [
+        "audio/sentences/Ownership drives proactive behavior..wav"
+      ]
+    },
+    {
+      "id": "authority-must-match-responsibility.",
+      "english": "Authority must match responsibility.",
+      "translation": "Полномочия должны соответствовать ответственности.",
+      "audio": [
+        "audio/sentences/Authority must match responsibility..wav"
+      ]
+    },
+    {
+      "id": "accountability-improves-execution-quality.",
+      "english": "Accountability improves execution quality.",
+      "translation": "Подотчётность повышает качество исполнения.",
+      "audio": [
+        "audio/sentences/Accountability improves execution quality..wav"
+      ]
+    },
+    {
+      "id": "workplace-culture-shapes-daily-interactions.",
+      "english": "Workplace culture shapes daily interactions.",
+      "translation": "Рабочая культура формирует ежедневные взаимодействия.",
+      "audio": [
+        "audio/sentences/Workplace culture shapes daily interactions..wav"
+      ]
+    },
+    {
+      "id": "employee-satisfaction-reduces-turnover.",
+      "english": "Employee satisfaction reduces turnover.",
+      "translation": "Удовлетворённость сотрудников снижает текучесть.",
+      "audio": [
+        "audio/sentences/Employee satisfaction reduces turnover..wav"
+      ]
+    },
+    {
+      "id": "burnout-affects-long-term-performance.",
+      "english": "Burnout affects long term performance.",
+      "translation": "Выгорание влияет на долгосрочную результативность.",
+      "audio": [
+        "audio/sentences/Burnout affects long term performance..wav"
+      ]
+    },
+    {
+      "id": "well-being-supports-sustainable-productivity.",
+      "english": "Well-being supports sustainable productivity.",
+      "translation": "Благополучие поддерживает устойчивую продуктивность.",
+      "audio": [
+        "audio/sentences/Well-being supports sustainable productivity..wav"
+      ]
+    },
+    {
+      "id": "morale-influences-team-resilience.",
+      "english": "Morale influences team resilience.",
+      "translation": "Моральный дух влияет на устойчивость команды.",
+      "audio": [
+        "audio/sentences/Morale influences team resilience..wav"
+      ]
+    }
+  ]
+}

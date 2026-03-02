@@ -1,0 +1,1145 @@
+{
+  "theme": "Часто используемые слова (расширенные)",
+  "level": "Intermediate",
+  "name": "Words",
+  "filename": "english/list_intermediate_1_common.json",
+  "words": [
+{
+  "english": "manage",
+  "translation": "управлять",
+  "audio": [
+    "audio/manage_kore.wav",
+    "audio/manage_zephyr.wav",
+    "audio/manage_puck.wav",
+    "audio/manage_charon.wav",
+    "audio/manage_fenrir.wav"
+  ],
+  "english_words": "manage your team",
+  "translation_words": "управлять своей командой",
+  "audio_words": [
+    "audio/manage_kore_phrase.wav",
+    "audio/manage_zephyr_phrase.wav",
+    "audio/manage_puck_phrase.wav",
+    "audio/manage_charon_phrase.wav",
+    "audio/manage_fenrir_phrase.wav"
+  ],
+  "english_sentences": "He managed the project well.",
+  "translation_sentences": "Он хорошо управлял проектом.",
+  "audio_sentences": [
+    "audio/manage_kore_sentence.wav",
+    "audio/manage_zephyr_sentence.wav",
+    "audio/manage_puck_sentence.wav",
+    "audio/manage_charon_sentence.wav",
+    "audio/manage_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "improve",
+  "translation": "улучшать",
+  "audio": [
+    "audio/improve_kore.wav",
+    "audio/improve_zephyr.wav",
+    "audio/improve_puck.wav",
+    "audio/improve_charon.wav",
+    "audio/improve_fenrir.wav"
+  ],
+  "english_words": "improve the process",
+  "translation_words": "улучшить процесс",
+  "audio_words": [
+    "audio/improve_kore_phrase.wav",
+    "audio/improve_zephyr_phrase.wav",
+    "audio/improve_puck_phrase.wav",
+    "audio/improve_charon_phrase.wav",
+    "audio/improve_fenrir_phrase.wav"
+  ],
+  "english_sentences": "She wants to improve her skills.",
+  "translation_sentences": "Она хочет улучшить свои навыки.",
+  "audio_sentences": [
+    "audio/improve_kore_sentence.wav",
+    "audio/improve_zephyr_sentence.wav",
+    "audio/improve_puck_sentence.wav",
+    "audio/improve_charon_sentence.wav",
+    "audio/improve_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "increase",
+  "translation": "увеличивать",
+  "audio": [
+    "audio/increase_kore.wav",
+    "audio/increase_zephyr.wav",
+    "audio/increase_puck.wav",
+    "audio/increase_charon.wav",
+    "audio/increase_fenrir.wav"
+  ],
+  "english_words": "increase production",
+  "translation_words": "увеличить производство",
+  "audio_words": [
+    "audio/increase_kore_phrase.wav",
+    "audio/increase_zephyr_phrase.wav",
+    "audio/increase_puck_phrase.wav",
+    "audio/increase_charon_phrase.wav",
+    "audio/increase_fenrir_phrase.wav"
+  ],
+  "english_sentences": "The company increased its revenue.",
+  "translation_sentences": "Компания увеличила свою выручку.",
+  "audio_sentences": [
+    "audio/increase_kore_sentence.wav",
+    "audio/increase_zephyr_sentence.wav",
+    "audio/increase_puck_sentence.wav",
+    "audio/increase_charon_sentence.wav",
+    "audio/increase_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "reduce",
+  "translation": "уменьшать",
+  "audio": [
+    "audio/reduce_kore.wav",
+    "audio/reduce_zephyr.wav",
+    "audio/reduce_puck.wav",
+    "audio/reduce_charon.wav",
+    "audio/reduce_fenrir.wav"
+  ],
+  "english_words": "reduce the cost",
+  "translation_words": "уменьшить стоимость",
+  "audio_words": [
+    "audio/reduce_kore_phrase.wav",
+    "audio/reduce_zephyr_phrase.wav",
+    "audio/reduce_puck_phrase.wav",
+    "audio/reduce_charon_phrase.wav",
+    "audio/reduce_fenrir_phrase.wav"
+  ],
+  "english_sentences": "They reduced expenses last year.",
+  "translation_sentences": "Они уменьшили расходы в прошлом году.",
+  "audio_sentences": [
+    "audio/reduce_kore_sentence.wav",
+    "audio/reduce_zephyr_sentence.wav",
+    "audio/reduce_puck_sentence.wav",
+    "audio/reduce_charon_sentence.wav",
+    "audio/reduce_fenrir_sentence.wav"
+  ]
+},
+{
+  "english":"affect",
+  "translation":"влиять",
+  "audio": [
+    "audio/affect_kore.wav",
+    "audio/affect_zephyr.wav",
+    "audio/affect_puck.wav",
+    "audio/affect_charon.wav",
+    "audio/affect_fenrir.wav"
+  ],
+  "english_words":"affect the outcome",
+  "translation_words":"влиять на результат",
+  "audio_words": [
+    "audio/affect_kore_phrase.wav",
+    "audio/affect_zephyr_phrase.wav",
+    "audio/affect_puck_phrase.wav",
+    "audio/affect_charon_phrase.wav",
+    "audio/affect_fenrir_phrase.wav"
+  ],
+  "english_sentences":"The weather affected the schedule.",
+  "translation_sentences":"Погода повлияла на расписание.",
+  "audio_sentences": [
+    "audio/affect_kore_sentence.wav",
+    "audio/affect_zephyr_sentence.wav",
+    "audio/affect_puck_sentence.wav",
+    "audio/affect_charon_sentence.wav",
+    "audio/affect_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "depend",
+  "translation": "зависеть",
+  "audio": [
+    "audio/depend_kore.wav",
+    "audio/depend_zephyr.wav",
+    "audio/depend_puck.wav",
+    "audio/depend_charon.wav",
+    "audio/depend_fenrir.wav"
+  ],
+  "english_words": "depend on timing",
+  "translation_words": "зависеть от времени",
+  "audio_words": [
+    "audio/depend_kore_phrase.wav",
+    "audio/depend_zephyr_phrase.wav",
+    "audio/depend_puck_phrase.wav",
+    "audio/depend_charon_phrase.wav",
+    "audio/depend_fenrir_phrase.wav"
+  ],
+  "english_sentences": "Success depends on many factors.",
+  "translation_sentences": "Успех зависит от многих факторов.",
+  "audio_sentences": [
+    "audio/depend_kore_sentence.wav",
+    "audio/depend_zephyr_sentence.wav",
+    "audio/depend_puck_sentence.wav",
+    "audio/depend_charon_sentence.wav",
+    "audio/depend_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "support",
+  "translation": "поддерживать",
+  "audio": [
+    "audio/support_kore.wav",
+    "audio/support_zephyr.wav",
+    "audio/support_puck.wav",
+    "audio/support_charon.wav",
+    "audio/support_fenrir.wav"
+  ],
+  "english_words": "support your idea",
+  "translation_words": "поддержать твою идею",
+  "audio_words": [
+    "audio/support_kore_phrase.wav",
+    "audio/support_zephyr_phrase.wav",
+    "audio/support_puck_phrase.wav",
+    "audio/support_charon_phrase.wav",
+    "audio/support_fenrir_phrase.wav"
+  ],
+  "english_sentences": "They supported him during the event.",
+  "translation_sentences": "Они поддержали его во время мероприятия.",
+  "audio_sentences": [
+    "audio/support_kore_sentence.wav",
+    "audio/support_zephyr_sentence.wav",
+    "audio/support_puck_sentence.wav",
+    "audio/support_charon_sentence.wav",
+    "audio/support_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "require",
+  "translation": "требовать",
+  "audio": [
+    "audio/require_kore.wav",
+    "audio/require_zephyr.wav",
+    "audio/require_puck.wav",
+    "audio/require_charon.wav",
+    "audio/require_fenrir.wav"
+  ],
+  "english_words": "require attention",
+  "translation_words": "требовать внимания",
+  "audio_words": [
+    "audio/require_kore_phrase.wav",
+    "audio/require_zephyr_phrase.wav",
+    "audio/require_puck_phrase.wav",
+    "audio/require_charon_phrase.wav",
+    "audio/require_fenrir_phrase.wav"
+  ],
+  "english_sentences": "The task requires precision.",
+  "translation_sentences": "Задача требует точности.",
+  "audio_sentences": [
+    "audio/require_kore_sentence.wav",
+    "audio/require_zephyr_sentence.wav",
+    "audio/require_puck_sentence.wav",
+    "audio/require_charon_sentence.wav",
+    "audio/require_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "expect",
+  "translation": "ожидать",
+  "audio": [
+    "audio/expect_kore.wav",
+    "audio/expect_zephyr.wav",
+    "audio/expect_puck.wav",
+    "audio/expect_charon.wav",
+    "audio/expect_fenrir.wav"
+  ],
+  "english_words": "expect good results",
+  "translation_words": "ожидать хороших результатов",
+  "audio_words": [
+    "audio/expect_kore_phrase.wav",
+    "audio/expect_zephyr_phrase.wav",
+    "audio/expect_puck_phrase.wav",
+    "audio/expect_charon_phrase.wav",
+    "audio/expect_fenrir_phrase.wav"
+  ],
+  "english_sentences": "We expect improvement soon.",
+  "translation_sentences": "Мы ожидаем улучшений скоро.",
+  "audio_sentences": [
+    "audio/expect_kore_sentence.wav",
+    "audio/expect_zephyr_sentence.wav",
+    "audio/expect_puck_sentence.wav",
+    "audio/expect_charon_sentence.wav",
+    "audio/expect_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "avoid",
+  "translation": "избегать",
+  "audio": [
+    "audio/avoid_kore.wav",
+    "audio/avoid_zephyr.wav",
+    "audio/avoid_puck.wav",
+    "audio/avoid_charon.wav",
+    "audio/avoid_fenrir.wav"
+  ],
+  "english_words": "avoid mistakes",
+  "translation_words": "избегать ошибок",
+  "audio_words": [
+    "audio/avoid_kore_phrase.wav",
+    "audio/avoid_zephyr_phrase.wav",
+    "audio/avoid_puck_phrase.wav",
+    "audio/avoid_charon_phrase.wav",
+    "audio/avoid_fenrir_phrase.wav"
+  ],
+  "english_sentences": "He avoided conflict at work.",
+  "translation_sentences": "Он избегал конфликта на работе.",
+  "audio_sentences": [
+    "audio/avoid_kore_sentence.wav",
+    "audio/avoid_zephyr_sentence.wav",
+    "audio/avoid_puck_sentence.wav",
+    "audio/avoid_charon_sentence.wav",
+    "audio/avoid_fenrir_sentence.wav"
+  ]
+},
+    {
+  "english": "suggest",
+  "translation": "предлагать",
+  "audio": [
+    "audio/suggest_kore.wav",
+    "audio/suggest_zephyr.wav",
+    "audio/suggest_puck.wav",
+    "audio/suggest_charon.wav",
+    "audio/suggest_fenrir.wav"
+  ],
+  "english_words": "suggest a plan",
+  "translation_words": "предложить план",
+  "audio_words": [
+    "audio/suggest_kore_phrase.wav",
+    "audio/suggest_zephyr_phrase.wav",
+    "audio/suggest_puck_phrase.wav",
+    "audio/suggest_charon_phrase.wav",
+    "audio/suggest_fenrir_phrase.wav"
+  ],
+  "english_sentences": "She suggested a new idea.",
+  "translation_sentences": "Она предложила новую идею.",
+  "audio_sentences": [
+    "audio/suggest_kore_sentence.wav",
+    "audio/suggest_zephyr_sentence.wav",
+    "audio/suggest_puck_sentence.wav",
+    "audio/suggest_charon_sentence.wav",
+    "audio/suggest_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "decide",
+  "translation": "решать",
+  "audio": [
+    "audio/decide_kore.wav",
+    "audio/decide_zephyr.wav",
+    "audio/decide_puck.wav",
+    "audio/decide_charon.wav",
+    "audio/decide_fenrir.wav"
+  ],
+  "english_words": "decide later",
+  "translation_words": "решить позже",
+  "audio_words": [
+    "audio/decide_kore_phrase.wav",
+    "audio/decide_zephyr_phrase.wav",
+    "audio/decide_puck_phrase.wav",
+    "audio/decide_charon_phrase.wav",
+    "audio/decide_fenrir_phrase.wav"
+  ],
+  "english_sentences": "He decided to stay.",
+  "translation_sentences": "Он решил остаться.",
+  "audio_sentences": [
+    "audio/decide_kore_sentence.wav",
+    "audio/decide_zephyr_sentence.wav",
+    "audio/decide_puck_sentence.wav",
+    "audio/decide_charon_sentence.wav",
+    "audio/decide_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "allow",
+  "translation": "разрешать",
+  "audio": [
+    "audio/allow_kore.wav",
+    "audio/allow_zephyr.wav",
+    "audio/allow_puck.wav",
+    "audio/allow_charon.wav",
+    "audio/allow_fenrir.wav"
+  ],
+  "english_words": "allow access",
+  "translation_words": "разрешить доступ",
+  "audio_words": [
+    "audio/allow_kore_phrase.wav",
+    "audio/allow_zephyr_phrase.wav",
+    "audio/allow_puck_phrase.wav",
+    "audio/allow_charon_phrase.wav",
+    "audio/allow_fenrir_phrase.wav"
+  ],
+  "english_sentences": "They allowed visitors yesterday.",
+  "translation_sentences": "Они разрешили посетителей вчера.",
+  "audio_sentences": [
+    "audio/allow_kore_sentence.wav",
+    "audio/allow_zephyr_sentence.wav",
+    "audio/allow_puck_sentence.wav",
+    "audio/allow_charon_sentence.wav",
+    "audio/allow_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "prevent",
+  "translation": "предотвращать",
+  "audio": [
+    "audio/prevent_kore.wav",
+    "audio/prevent_zephyr.wav",
+    "audio/prevent_puck.wav",
+    "audio/prevent_charon.wav",
+    "audio/prevent_fenrir.wav"
+  ],
+  "english_words": "prevent damage",
+  "translation_words": "предотвратить ущерб",
+  "audio_words": [
+    "audio/prevent_kore_phrase.wav",
+    "audio/prevent_zephyr_phrase.wav",
+    "audio/prevent_puck_phrase.wav",
+    "audio/prevent_charon_phrase.wav",
+    "audio/prevent_fenrir_phrase.wav"
+  ],
+  "english_sentences": "This measure prevents accidents.",
+  "translation_sentences": "Эта мера предотвращает несчастные случаи.",
+  "audio_sentences": [
+    "audio/prevent_kore_sentence.wav",
+    "audio/prevent_zephyr_sentence.wav",
+    "audio/prevent_puck_sentence.wav",
+    "audio/prevent_charon_sentence.wav",
+    "audio/prevent_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "consider",
+  "translation": "рассматривать",
+  "audio": [
+    "audio/consider_kore.wav",
+    "audio/consider_zephyr.wav",
+    "audio/consider_puck.wav",
+    "audio/consider_charon.wav",
+    "audio/consider_fenrir.wav"
+  ],
+  "english_words": "consider options",
+  "translation_words": "рассмотреть варианты",
+  "audio_words": [
+    "audio/consider_kore_phrase.wav",
+    "audio/consider_zephyr_phrase.wav",
+    "audio/consider_puck_phrase.wav",
+    "audio/consider_charon_phrase.wav",
+    "audio/consider_fenrir_phrase.wav"
+  ],
+  "english_sentences": "We will consider your request.",
+  "translation_sentences": "Мы рассмотрим ваш запрос.",
+  "audio_sentences": [
+    "audio/consider_kore_sentence.wav",
+    "audio/consider_zephyr_sentence.wav",
+    "audio/consider_puck_sentence.wav",
+    "audio/consider_charon_sentence.wav",
+    "audio/consider_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "reason",
+  "translation": "причина",
+  "audio": [
+    "audio/reason_kore.wav",
+    "audio/reason_zephyr.wav",
+    "audio/reason_puck.wav",
+    "audio/reason_charon.wav",
+    "audio/reason_fenrir.wav"
+  ],
+  "english_words": "good reason",
+  "translation_words": "веская причина",
+  "audio_words": [
+    "audio/reason_kore_phrase.wav",
+    "audio/reason_zephyr_phrase.wav",
+    "audio/reason_puck_phrase.wav",
+    "audio/reason_charon_phrase.wav",
+    "audio/reason_fenrir_phrase.wav"
+  ],
+  "english_sentences": "There is no reason to worry.",
+  "translation_sentences": "Нет причины беспокоиться.",
+  "audio_sentences": [
+    "audio/reason_kore_sentence.wav",
+    "audio/reason_zephyr_sentence.wav",
+    "audio/reason_puck_sentence.wav",
+    "audio/reason_charon_sentence.wav",
+    "audio/reason_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "result",
+  "translation": "результат",
+  "audio": [
+    "audio/result_kore.wav",
+    "audio/result_zephyr.wav",
+    "audio/result_puck.wav",
+    "audio/result_charon.wav",
+    "audio/result_fenrir.wav"
+  ],
+  "english_words": "positive result",
+  "translation_words": "положительный результат",
+  "audio_words": [
+    "audio/result_kore_phrase.wav",
+    "audio/result_zephyr_phrase.wav",
+    "audio/result_puck_phrase.wav",
+    "audio/result_charon_phrase.wav",
+    "audio/result_fenrir_phrase.wav"
+  ],
+  "english_sentences": "The result surprised everyone.",
+  "translation_sentences": "Результат удивил всех.",
+  "audio_sentences": [
+    "audio/result_kore_sentence.wav",
+    "audio/result_zephyr_sentence.wav",
+    "audio/result_puck_sentence.wav",
+    "audio/result_charon_sentence.wav",
+    "audio/result_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "purpose",
+  "translation": "цель",
+  "audio": [
+    "audio/purpose_kore.wav",
+    "audio/purpose_zephyr.wav",
+    "audio/purpose_puck.wav",
+    "audio/purpose_charon.wav",
+    "audio/purpose_fenrir.wav"
+  ],
+  "english_words": "clear purpose",
+  "translation_words": "ясная цель",
+  "audio_words": [
+    "audio/purpose_kore_phrase.wav",
+    "audio/purpose_zephyr_phrase.wav",
+    "audio/purpose_puck_phrase.wav",
+    "audio/purpose_charon_phrase.wav",
+    "audio/purpose_fenrir_phrase.wav"
+  ],
+  "english_sentences": "The purpose is to improve quality.",
+  "translation_sentences": "Цель — улучшить качество.",
+  "audio_sentences": [
+    "audio/purpose_kore_sentence.wav",
+    "audio/purpose_zephyr_sentence.wav",
+    "audio/purpose_puck_sentence.wav",
+    "audio/purpose_charon_sentence.wav",
+    "audio/purpose_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "choice",
+  "translation": "выбор",
+  "audio": [
+    "audio/choice_kore.wav",
+    "audio/choice_zephyr.wav",
+    "audio/choice_puck.wav",
+    "audio/choice_charon.wav",
+    "audio/choice_fenrir.wav"
+  ],
+  "english_words": "difficult choice",
+  "translation_words": "сложный выбор",
+  "audio_words": [
+    "audio/choice_kore_phrase.wav",
+    "audio/choice_zephyr_phrase.wav",
+    "audio/choice_puck_phrase.wav",
+    "audio/choice_charon_phrase.wav",
+    "audio/choice_fenrir_phrase.wav"
+  ],
+  "english_sentences": "It was a difficult choice.",
+  "translation_sentences": "Это был сложный выбор.",
+  "audio_sentences": [
+    "audio/choice_kore_sentence.wav",
+    "audio/choice_zephyr_sentence.wav",
+    "audio/choice_puck_sentence.wav",
+    "audio/choice_charon_sentence.wav",
+    "audio/choice_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "opportunity",
+  "translation": "возможность",
+  "audio": [
+    "audio/opportunity_kore.wav",
+    "audio/opportunity_zephyr.wav",
+    "audio/opportunity_puck.wav",
+    "audio/opportunity_charon.wav",
+    "audio/opportunity_fenrir.wav"
+  ],
+  "english_words": "big opportunity",
+  "translation_words": "большая возможность",
+  "audio_words": [
+    "audio/opportunity_kore_phrase.wav",
+    "audio/opportunity_zephyr_phrase.wav",
+    "audio/opportunity_puck_phrase.wav",
+    "audio/opportunity_charon_phrase.wav",
+    "audio/opportunity_fenrir_phrase.wav"
+  ],
+  "english_sentences": "This opportunity could change everything.",
+  "translation_sentences": "Эта возможность может изменить всё.",
+  "audio_sentences": [
+    "audio/opportunity_kore_sentence.wav",
+    "audio/opportunity_zephyr_sentence.wav",
+    "audio/opportunity_puck_sentence.wav",
+    "audio/opportunity_charon_sentence.wav",
+    "audio/opportunity_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "challenge",
+  "translation": "вызов",
+  "audio": [
+    "audio/challenge_kore.wav",
+    "audio/challenge_zephyr.wav",
+    "audio/challenge_puck.wav",
+    "audio/challenge_charon.wav",
+    "audio/challenge_fenrir.wav"
+  ],
+  "english_words": "serious challenge",
+  "translation_words": "серьёзный вызов",
+  "audio_words": [
+    "audio/challenge_kore_phrase.wav",
+    "audio/challenge_zephyr_phrase.wav",
+    "audio/challenge_puck_phrase.wav",
+    "audio/challenge_charon_phrase.wav",
+    "audio/challenge_fenrir_phrase.wav"
+  ],
+  "english_sentences": "The challenge motivated him.",
+  "translation_sentences": "Этот вызов его мотивировал.",
+  "audio_sentences": [
+    "audio/challenge_kore_sentence.wav",
+    "audio/challenge_zephyr_sentence.wav",
+    "audio/challenge_puck_sentence.wav",
+    "audio/challenge_charon_sentence.wav",
+    "audio/challenge_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "experience",
+  "translation": "опыт",
+  "audio": [
+    "audio/experience_kore.wav",
+    "audio/experience_zephyr.wav",
+    "audio/experience_puck.wav",
+    "audio/experience_charon.wav",
+    "audio/experience_fenrir.wav"
+  ],
+  "english_words": "work experience",
+  "translation_words": "рабочий опыт",
+  "audio_words": [
+    "audio/experience_kore_phrase.wav",
+    "audio/experience_zephyr_phrase.wav",
+    "audio/experience_puck_phrase.wav",
+    "audio/experience_charon_phrase.wav",
+    "audio/experience_fenrir_phrase.wav"
+  ],
+  "english_sentences": "She gained valuable experience.",
+  "translation_sentences": "Она получила ценный опыт.",
+  "audio_sentences": [
+    "audio/experience_kore_sentence.wav",
+    "audio/experience_zephyr_sentence.wav",
+    "audio/experience_puck_sentence.wav",
+    "audio/experience_charon_sentence.wav",
+    "audio/experience_fenrir_sentence.wav"
+  ]
+},
+ {
+  "english": "risk",
+  "translation": "риск",
+  "audio": [
+    "audio/risk_kore.wav",
+    "audio/risk_zephyr.wav",
+    "audio/risk_puck.wav",
+    "audio/risk_charon.wav",
+    "audio/risk_fenrir.wav"
+  ],
+  "english_words": "take a risk",
+  "translation_words": "пойти на риск",
+  "audio_words": [
+    "audio/risk_kore_phrase.wav",
+    "audio/risk_zephyr_phrase.wav",
+    "audio/risk_puck_phrase.wav",
+    "audio/risk_charon_phrase.wav",
+    "audio/risk_fenrir_phrase.wav"
+  ],
+  "english_sentences": "They took a financial risk.",
+  "translation_sentences": "Они пошли на финансовый риск.",
+  "audio_sentences": [
+    "audio/risk_kore_sentence.wav",
+    "audio/risk_zephyr_sentence.wav",
+    "audio/risk_puck_sentence.wav",
+    "audio/risk_charon_sentence.wav",
+    "audio/risk_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "benefit",
+  "translation": "польза",
+  "audio": [
+    "audio/benefit_kore.wav",
+    "audio/benefit_zephyr.wav",
+    "audio/benefit_puck.wav",
+    "audio/benefit_charon.wav",
+    "audio/benefit_fenrir.wav"
+  ],
+  "english_words": "health benefits",
+  "translation_words": "польза для здоровья",
+  "audio_words": [
+    "audio/benefit_kore_phrase.wav",
+    "audio/benefit_zephyr_phrase.wav",
+    "audio/benefit_puck_phrase.wav",
+    "audio/benefit_charon_phrase.wav",
+    "audio/benefit_fenrir_phrase.wav"
+  ],
+  "english_sentences": "The new policy offers many benefits.",
+  "translation_sentences": "Новая политика приносит много пользы.",
+  "audio_sentences": [
+    "audio/benefit_kore_sentence.wav",
+    "audio/benefit_zephyr_sentence.wav",
+    "audio/benefit_puck_sentence.wav",
+    "audio/benefit_charon_sentence.wav",
+    "audio/benefit_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "impact",
+  "translation": "влияние",
+  "audio": [
+    "audio/impact_kore.wav",
+    "audio/impact_zephyr.wav",
+    "audio/impact_puck.wav",
+    "audio/impact_charon.wav",
+    "audio/impact_fenrir.wav"
+  ],
+  "english_words": "strong impact",
+  "translation_words": "сильное влияние",
+  "audio_words": [
+    "audio/impact_kore_phrase.wav",
+    "audio/impact_zephyr_phrase.wav",
+    "audio/impact_puck_phrase.wav",
+    "audio/impact_charon_phrase.wav",
+    "audio/impact_fenrir_phrase.wav"
+  ],
+  "english_sentences": "The news had a strong impact on society.",
+  "translation_sentences": "Новость оказала сильное влияние на общество.",
+  "audio_sentences": [
+    "audio/impact_kore_sentence.wav",
+    "audio/impact_zephyr_sentence.wav",
+    "audio/impact_puck_sentence.wav",
+    "audio/impact_charon_sentence.wav",
+    "audio/impact_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "issue",
+  "translation": "проблема",
+  "audio": [
+    "audio/issue_kore.wav",
+    "audio/issue_zephyr.wav",
+    "audio/issue_puck.wav",
+    "audio/issue_charon.wav",
+    "audio/issue_fenrir.wav"
+  ],
+  "english_words": "common issue",
+  "translation_words": "распространённая проблема",
+  "audio_words": [
+    "audio/issue_kore_phrase.wav",
+    "audio/issue_zephyr_phrase.wav",
+    "audio/issue_puck_phrase.wav",
+    "audio/issue_charon_phrase.wav",
+    "audio/issue_fenrir_phrase.wav"
+  ],
+  "english_sentences": "They discussed several important issues.",
+  "translation_sentences": "Они обсудили несколько важных проблем.",
+  "audio_sentences": [
+    "audio/issue_kore_sentence.wav",
+    "audio/issue_zephyr_sentence.wav",
+    "audio/issue_puck_sentence.wav",
+    "audio/issue_charon_sentence.wav",
+    "audio/issue_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "solution",
+  "translation": "решение",
+  "audio": [
+    "audio/solution_kore.wav",
+    "audio/solution_zephyr.wav",
+    "audio/solution_puck.wav",
+    "audio/solution_charon.wav",
+    "audio/solution_fenrir.wav"
+  ],
+  "english_words": "find solution",
+  "translation_words": "найти решение",
+  "audio_words": [
+    "audio/solution_kore_phrase.wav",
+    "audio/solution_zephyr_phrase.wav",
+    "audio/solution_puck_phrase.wav",
+    "audio/solution_charon_phrase.wav",
+    "audio/solution_fenrir_phrase.wav"
+  ],
+  "english_sentences": "We finally found a solution.",
+  "translation_sentences": "Мы наконец нашли решение.",
+  "audio_sentences": [
+    "audio/solution_kore_sentence.wav",
+    "audio/solution_zephyr_sentence.wav",
+    "audio/solution_puck_sentence.wav",
+    "audio/solution_charon_sentence.wav",
+    "audio/solution_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "process",
+  "translation": "процесс",
+  "audio": [
+    "audio/process_kore.wav",
+    "audio/process_zephyr.wav",
+    "audio/process_puck.wav",
+    "audio/process_charon.wav",
+    "audio/process_fenrir.wav"
+  ],
+  "english_words": "slow process",
+  "translation_words": "медленный процесс",
+  "audio_words": [
+    "audio/process_kore_phrase.wav",
+    "audio/process_zephyr_phrase.wav",
+    "audio/process_puck_phrase.wav",
+    "audio/process_charon_phrase.wav",
+    "audio/process_fenrir_phrase.wav"
+  ],
+  "english_sentences": "The process takes some time.",
+  "translation_sentences": "Процесс занимает некоторое время.",
+  "audio_sentences": [
+    "audio/process_kore_sentence.wav",
+    "audio/process_zephyr_sentence.wav",
+    "audio/process_puck_sentence.wav",
+    "audio/process_charon_sentence.wav",
+    "audio/process_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "progress",
+  "translation": "прогресс",
+  "audio": [
+    "audio/progress_kore.wav",
+    "audio/progress_zephyr.wav",
+    "audio/progress_puck.wav",
+    "audio/progress_charon.wav",
+    "audio/progress_fenrir.wav"
+  ],
+  "english_words": "steady progress",
+  "translation_words": "устойчивый прогресс",
+  "audio_words": [
+    "audio/progress_kore_phrase.wav",
+    "audio/progress_zephyr_phrase.wav",
+    "audio/progress_puck_phrase.wav",
+    "audio/progress_charon_phrase.wav",
+    "audio/progress_fenrir_phrase.wav"
+  ],
+  "english_sentences": "She showed steady progress this month.",
+  "translation_sentences": "Она показала устойчивый прогресс в этом месяце.",
+  "audio_sentences": [
+    "audio/progress_kore_sentence.wav",
+    "audio/progress_zephyr_sentence.wav",
+    "audio/progress_puck_sentence.wav",
+    "audio/progress_charon_sentence.wav",
+    "audio/progress_fenrir_sentence.wav"
+  ]
+},
+{ "english":"result","translation":"итог","audio":["audio/result.wav"],"english_words":"final result","translation_words":"конечный итог","audio_words":["audio/result_words.wav"],"english_sentences":"The final result met expectations.","translation_sentences":"Конечный итог оправдал ожидания.","audio_sentences":["audio/result_sentences.wav"] },
+    {
+  "english": "available",
+  "translation": "доступный",
+  "audio": [
+    "audio/available_kore.wav",
+    "audio/available_zephyr.wav",
+    "audio/available_puck.wav",
+    "audio/available_charon.wav",
+    "audio/available_fenrir.wav"
+  ],
+  "english_words": "available now",
+  "translation_words": "доступный сейчас",
+  "audio_words": [
+    "audio/available_kore_phrase.wav",
+    "audio/available_zephyr_phrase.wav",
+    "audio/available_puck_phrase.wav",
+    "audio/available_charon_phrase.wav",
+    "audio/available_fenrir_phrase.wav"
+  ],
+  "english_sentences": "The product is available online.",
+  "translation_sentences": "Товар доступен онлайн.",
+  "audio_sentences": [
+    "audio/available_kore_sentence.wav",
+    "audio/available_zephyr_sentence.wav",
+    "audio/available_puck_sentence.wav",
+    "audio/available_charon_sentence.wav",
+    "audio/available_fenrir_sentence.wav"
+  ]
+},
+    {
+  "english": "common",
+  "translation": "доступный",
+  "audio": [
+    "audio/common_kore.wav",
+    "audio/common_zephyr.wav",
+    "audio/common_puck.wav",
+    "audio/common_charon.wav",
+    "audio/common_fenrir.wav"
+  ],
+  "english_words": "available now",
+  "translation_words": "доступный сейчас",
+  "audio_words": [
+    "audio/common_kore_phrase.wav",
+    "audio/common_zephyr_phrase.wav",
+    "audio/common_puck_phrase.wav",
+    "audio/common_charon_phrase.wav",
+    "audio/common_fenrir_phrase.wav"
+  ],
+  "english_sentences": "The product is available online.",
+  "translation_sentences": "Товар доступен онлайн.",
+  "audio_sentences": [
+    "audio/common_kore_sentence.wav",
+    "audio/common_zephyr_sentence.wav",
+    "audio/common_puck_sentence.wav",
+    "audio/common_charon_sentence.wav",
+    "audio/common_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "general",
+  "translation": "общий",
+  "audio": [
+    "audio/general_kore.wav",
+    "audio/general_zephyr.wav",
+    "audio/general_puck.wav",
+    "audio/general_charon.wav",
+    "audio/general_fenrir.wav"
+  ],
+  "english_words": "general idea",
+  "translation_words": "общая идея",
+  "audio_words": [
+    "audio/general_kore_phrase.wav",
+    "audio/general_zephyr_phrase.wav",
+    "audio/general_puck_phrase.wav",
+    "audio/general_charon_phrase.wav",
+    "audio/general_fenrir_phrase.wav"
+  ],
+  "english_sentences": "The general rule applies here.",
+  "translation_sentences": "Общее правило действует здесь.",
+  "audio_sentences": [
+    "audio/general_kore_sentence.wav",
+    "audio/general_zephyr_sentence.wav",
+    "audio/general_puck_sentence.wav",
+    "audio/general_charon_sentence.wav",
+    "audio/general_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "specific",
+  "translation": "конкретный",
+  "audio": [
+    "audio/specific_kore.wav",
+    "audio/specific_zephyr.wav",
+    "audio/specific_puck.wav",
+    "audio/specific_charon.wav",
+    "audio/specific_fenrir.wav"
+  ],
+  "english_words": "specific goal",
+  "translation_words": "конкретная цель",
+  "audio_words": [
+    "audio/specific_kore_phrase.wav",
+    "audio/specific_zephyr_phrase.wav",
+    "audio/specific_puck_phrase.wav",
+    "audio/specific_charon_phrase.wav",
+    "audio/specific_fenrir_phrase.wav"
+  ],
+  "english_sentences": "We need a specific answer.",
+  "translation_sentences": "Нам нужен конкретный ответ.",
+  "audio_sentences": [
+    "audio/specific_kore_sentence.wav",
+    "audio/specific_zephyr_sentence.wav",
+    "audio/specific_puck_sentence.wav",
+    "audio/specific_charon_sentence.wav",
+    "audio/specific_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "similar",
+  "translation": "похожий",
+  "audio": [
+    "audio/similar_kore.wav",
+    "audio/similar_zephyr.wav",
+    "audio/similar_puck.wav",
+    "audio/similar_charon.wav",
+    "audio/similar_fenrir.wav"
+  ],
+  "english_words": "similar idea",
+  "translation_words": "похожая идея",
+  "audio_words": [
+    "audio/similar_kore_phrase.wav",
+    "audio/similar_zephyr_phrase.wav",
+    "audio/similar_puck_phrase.wav",
+    "audio/similar_charon_phrase.wav",
+    "audio/similar_fenrir_phrase.wav"
+  ],
+  "english_sentences": "The houses look similar.",
+  "translation_sentences": "Дома выглядят похожими.",
+  "audio_sentences": [
+    "audio/similar_kore_sentence.wav",
+    "audio/similar_zephyr_sentence.wav",
+    "audio/similar_puck_sentence.wav",
+    "audio/similar_charon_sentence.wav",
+    "audio/similar_fenrir_sentence.wav"
+  ]
+},
+{ "english":"likely","translation":"вероятный","audio":["audio/likely.wav"],"english_words":"likely result","translation_words":"вероятный результат","audio_words":["audio/likely_words.wav"],"english_sentences":"It is likely to happen soon.","translation_sentences":"Это вероятно случится скоро.","audio_sentences":["audio/likely_sentences.wav"] },
+{ "english":"possible","translation":"возможный","audio":["audio/possible.wav"],"english_words":"possible answer","translation_words":"возможный ответ","audio_words":["audio/possible_words.wav"],"english_sentences":"Another option is possible.","translation_sentences":"Другой вариант возможен.","audio_sentences":["audio/possible_sentences.wav"] },
+{ "english":"effective","translation":"эффективный","audio":["audio/effective.wav"],"audio_words":["audio/effective_words.wav"],"english_words":"effective tool","translation_words":"эффективный инструмент","english_sentences":"The new method is effective.","translation_sentences":"Новый метод эффективен.","audio_sentences":["audio/effective_sentences.wav"] },
+{
+  "english": "efficient",
+  "translation": "результативный",
+  "audio": [
+    "audio/efficient_kore.wav",
+    "audio/efficient_zephyr.wav",
+    "audio/efficient_puck.wav",
+    "audio/efficient_charon.wav",
+    "audio/efficient_fenrir.wav"
+  ],
+  "english_words": "efficient solution",
+  "translation_words": "результативное решение",
+  "audio_words": [
+    "audio/efficient_kore_phrase.wav",
+    "audio/efficient_zephyr_phrase.wav",
+    "audio/efficient_puck_phrase.wav",
+    "audio/efficient_charon_phrase.wav",
+    "audio/efficient_fenrir_phrase.wav"
+  ],
+  "english_sentences": "The system is highly efficient.",
+  "translation_sentences": "Система очень результативна.",
+  "audio_sentences": [
+    "audio/efficient_kore_sentence.wav",
+    "audio/efficient_zephyr_sentence.wav",
+    "audio/efficient_puck_sentence.wav",
+    "audio/efficient_charon_sentence.wav",
+    "audio/efficient_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "important",
+  "translation": "важный",
+  "audio": [
+    "audio/important_kore.wav",
+    "audio/important_zephyr.wav",
+    "audio/important_puck.wav",
+    "audio/important_charon.wav",
+    "audio/important_fenrir.wav"
+  ],
+  "english_words": "important detail",
+  "translation_words": "важная деталь",
+  "audio_words": [
+    "audio/important_kore_phrase.wav",
+    "audio/important_zephyr_phrase.wav",
+    "audio/important_puck_phrase.wav",
+    "audio/important_charon_phrase.wav",
+    "audio/important_fenrir_phrase.wav"
+  ],
+  "english_sentences": "It is important to listen.",
+  "translation_sentences": "Важно слушать.",
+  "audio_sentences": [
+    "audio/important_kore_sentence.wav",
+    "audio/important_zephyr_sentence.wav",
+    "audio/important_puck_sentence.wav",
+    "audio/important_charon_sentence.wav",
+    "audio/important_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "recently",
+  "translation": "недавно",
+  "audio": [
+    "audio/recently_kore.wav",
+    "audio/recently_zephyr.wav",
+    "audio/recently_puck.wav",
+    "audio/recently_charon.wav",
+    "audio/recently_fenrir.wav"
+  ],
+  "english_words": "recently discovered",
+  "translation_words": "недавно обнаруженный",
+  "audio_words": [
+    "audio/recently_kore_phrase.wav",
+    "audio/recently_zephyr_phrase.wav",
+    "audio/recently_puck_phrase.wav",
+    "audio/recently_charon_phrase.wav",
+    "audio/recently_fenrir_phrase.wav"
+  ],
+  "english_sentences": "We met recently at work.",
+  "translation_sentences": "Мы недавно встретились на работе.",
+  "audio_sentences": [
+    "audio/recently_kore_sentence.wav",
+    "audio/recently_zephyr_sentence.wav",
+    "audio/recently_puck_sentence.wav",
+    "audio/recently_charon_sentence.wav",
+    "audio/recently_fenrir_sentence.wav"
+  ]
+},
+{ "english":"currently","translation":"в настоящее время","audio":["audio/currently.wav"],"english_words":"currently active","translation_words":"в настоящее время активный","audio_words":["audio/currently_words.wav"],"english_sentences":"She currently works abroad.","translation_sentences":"Она сейчас работает за границей.","audio_sentences":["audio/currently_sentences.wav"] },
+{
+  "english": "especially",
+  "translation": "особенно",
+  "audio": [
+    "audio/especially_kore.wav",
+    "audio/especially_zephyr.wav",
+    "audio/especially_puck.wav",
+    "audio/especially_charon.wav",
+    "audio/especially_fenrir.wav"
+  ],
+  "english_words": "especially useful",
+  "translation_words": "особенно полезный",
+  "audio_words": [
+    "audio/especially_kore_phrase.wav",
+    "audio/especially_zephyr_phrase.wav",
+    "audio/especially_puck_phrase.wav",
+    "audio/especially_charon_phrase.wav",
+    "audio/especially_fenrir_phrase.wav"
+  ],
+  "english_sentences": "I like this part especially.",
+  "translation_sentences": "Мне особенно нравится эта часть.",
+  "audio_sentences": [
+    "audio/especially_kore_sentence.wav",
+    "audio/especially_zephyr_sentence.wav",
+    "audio/especially_puck_sentence.wav",
+    "audio/especially_charon_sentence.wav",
+    "audio/especially_fenrir_sentence.wav"
+  ]
+},
+{ "english":"eventually","translation":"в конечном итоге","audio":["audio/eventually.wav"],"english_words":"eventually possible","translation_words":"в конечном итоге возможный","audio_words":["audio/eventually_words.wav"],"english_sentences":"Eventually they reached agreement.","translation_sentences":"В конечном итоге они пришли к соглашению.","audio_sentences":["audio/eventually_sentences.wav"] },
+{
+  "english": "approximately",
+  "translation": "примерно",
+  "audio": [
+    "audio/approximately_kore.wav",
+    "audio/approximately_zephyr.wav",
+    "audio/approximately_puck.wav",
+    "audio/approximately_charon.wav",
+    "audio/approximately_fenrir.wav"
+  ],
+  "english_words": "approximately equal",
+  "translation_words": "примерно равный",
+  "audio_words": [
+    "audio/approximately_kore_phrase.wav",
+    "audio/approximately_zephyr_phrase.wav",
+    "audio/approximately_puck_phrase.wav",
+    "audio/approximately_charon_phrase.wav",
+    "audio/approximately_fenrir_phrase.wav"
+  ],
+  "english_sentences": "The trip takes approximately one hour.",
+  "translation_sentences": "Поездка занимает примерно час.",
+  "audio_sentences": [
+    "audio/approximately_kore_sentence.wav",
+    "audio/approximately_zephyr_sentence.wav",
+    "audio/approximately_puck_sentence.wav",
+    "audio/approximately_charon_sentence.wav",
+    "audio/approximately_fenrir_sentence.wav"
+  ]
+}
+  ]
+}

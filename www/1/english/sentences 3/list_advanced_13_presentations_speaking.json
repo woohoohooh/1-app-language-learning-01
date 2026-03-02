@@ -1,0 +1,147 @@
+{
+  "theme": "Презентации и выступления",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "presentation",
+      "translation": "презентация"
+    },
+    {
+      "english": "speaker",
+      "translation": "выступающий"
+    },
+    {
+      "english": "audience",
+      "translation": "аудитория"
+    },
+    {
+      "english": "speech",
+      "translation": "речь"
+    },
+    {
+      "english": "talk",
+      "translation": "доклад"
+    },
+    {
+      "english": "slide",
+      "translation": "слайд"
+    },
+    {
+      "english": "deck",
+      "translation": "презентация"
+    },
+    {
+      "english": "visuals",
+      "translation": "визуальные материалы"
+    },
+    {
+      "english": "chart",
+      "translation": "график"
+    },
+    {
+      "english": "diagram",
+      "translation": "диаграмма"
+    },
+    {
+      "english": "structure",
+      "translation": "структура"
+    },
+    {
+      "english": "outline",
+      "translation": "план"
+    },
+    {
+      "english": "flow",
+      "translation": "поток"
+    },
+    {
+      "english": "transition",
+      "translation": "переход"
+    },
+    {
+      "english": "timing",
+      "translation": "тайминг"
+    },
+    {
+      "english": "delivery",
+      "translation": "подача"
+    },
+    {
+      "english": "clarity",
+      "translation": "ясность"
+    },
+    {
+      "english": "confidence",
+      "translation": "уверенность"
+    },
+    {
+      "english": "engagement",
+      "translation": "вовлечённость"
+    },
+    {
+      "english": "impact",
+      "translation": "эффект"
+    },
+    {
+      "english": "key point",
+      "translation": "ключевой пункт"
+    },
+    {
+      "english": "takeaway",
+      "translation": "основной вывод"
+    },
+    {
+      "english": "highlight",
+      "translation": "акцент"
+    },
+    {
+      "english": "example",
+      "translation": "пример"
+    },
+    {
+      "english": "comparison",
+      "translation": "сравнение"
+    },
+    {
+      "english": "demonstration",
+      "translation": "демонстрация"
+    },
+    {
+      "english": "walkthrough",
+      "translation": "пошаговый показ"
+    },
+    {
+      "english": "demo",
+      "translation": "демо"
+    },
+    {
+      "english": "pitch",
+      "translation": "питч"
+    },
+    {
+      "english": "proposal",
+      "translation": "предложение"
+    },
+    {
+      "english": "question",
+      "translation": "вопрос"
+    },
+    {
+      "english": "answer",
+      "translation": "ответ"
+    },
+    {
+      "english": "discussion",
+      "translation": "обсуждение"
+    },
+    {
+      "english": "feedback",
+      "translation": "обратная связь"
+    },
+    {
+      "english": "reaction",
+      "translation": "реакция"
+    }
+  ]
+}

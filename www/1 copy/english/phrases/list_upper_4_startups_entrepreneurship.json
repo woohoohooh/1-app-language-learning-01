@@ -1,0 +1,367 @@
+{
+  "theme": "Предпринимательство",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "early-stage-startup",
+      "english": "early stage startup",
+      "translation": "стартап на ранней стадии",
+      "audio": [
+        "audio/phrases/early stage startup.wav"
+      ]
+    },
+    {
+      "id": "company-founder-role",
+      "english": "company founder role",
+      "translation": "роль основателя компании",
+      "audio": [
+        "audio/phrases/company founder role.wav"
+      ]
+    },
+    {
+      "id": "trusted-co-founder",
+      "english": "trusted co founder",
+      "translation": "надёжный сооснователь",
+      "audio": [
+        "audio/phrases/trusted co founder.wav"
+      ]
+    },
+    {
+      "id": "experienced-entrepreneur-mindset",
+      "english": "experienced entrepreneur mindset",
+      "translation": "мышление опытного предпринимателя",
+      "audio": [
+        "audio/phrases/experienced entrepreneur mindset.wav"
+      ]
+    },
+    {
+      "id": "clear-long-term-vision",
+      "english": "clear long term vision",
+      "translation": "чёткое долгосрочное видение",
+      "audio": [
+        "audio/phrases/clear long term vision.wav"
+      ]
+    },
+    {
+      "id": "simple-business-idea",
+      "english": "simple business idea",
+      "translation": "простая бизнес идея",
+      "audio": [
+        "audio/phrases/simple business idea.wav"
+      ]
+    },
+    {
+      "id": "initial-product-concept",
+      "english": "initial product concept",
+      "translation": "начальная концепция продукта",
+      "audio": [
+        "audio/phrases/initial product concept.wav"
+      ]
+    },
+    {
+      "id": "real-user-problem",
+      "english": "real user problem",
+      "translation": "реальная проблема пользователя",
+      "audio": [
+        "audio/phrases/real user problem.wav"
+      ]
+    },
+    {
+      "id": "scalable-digital-solution",
+      "english": "scalable digital solution",
+      "translation": "масштабируемое цифровое решение",
+      "audio": [
+        "audio/phrases/scalable digital solution.wav"
+      ]
+    },
+    {
+      "id": "unique-customer-value",
+      "english": "unique customer value",
+      "translation": "уникальная ценность для клиента",
+      "audio": [
+        "audio/phrases/unique customer value.wav"
+      ]
+    },
+    {
+      "id": "target-global-market",
+      "english": "target global market",
+      "translation": "целевой глобальный рынок",
+      "audio": [
+        "audio/phrases/target global market.wav"
+      ]
+    },
+    {
+      "id": "specific-user-niche",
+      "english": "specific user niche",
+      "translation": "конкретная пользовательская ниша",
+      "audio": [
+        "audio/phrases/specific user niche.wav"
+      ]
+    },
+    {
+      "id": "growing-market-demand",
+      "english": "growing market demand",
+      "translation": "растущий рыночный спрос",
+      "audio": [
+        "audio/phrases/growing market demand.wav"
+      ]
+    },
+    {
+      "id": "intense-market-competition",
+      "english": "intense market competition",
+      "translation": "жёсткая рыночная конкуренция",
+      "audio": [
+        "audio/phrases/intense market competition.wav"
+      ]
+    },
+    {
+      "id": "strong-competitive-advantage",
+      "english": "strong competitive advantage",
+      "translation": "сильное конкурентное преимущество",
+      "audio": [
+        "audio/phrases/strong competitive advantage.wav"
+      ]
+    },
+    {
+      "id": "minimum-viable-product",
+      "english": "minimum viable product",
+      "translation": "минимально жизнеспособный продукт",
+      "audio": [
+        "audio/phrases/minimum viable product.wav"
+      ]
+    },
+    {
+      "id": "subscription-based-service",
+      "english": "subscription based service",
+      "translation": "сервис по подписке",
+      "audio": [
+        "audio/phrases/subscription based service.wav"
+      ]
+    },
+    {
+      "id": "digital-growth-platform",
+      "english": "digital growth platform",
+      "translation": "цифровая платформа роста",
+      "audio": [
+        "audio/phrases/digital growth platform.wav"
+      ]
+    },
+    {
+      "id": "requested-product-feature",
+      "english": "requested product feature",
+      "translation": "запрошенная функция продукта",
+      "audio": [
+        "audio/phrases/requested product feature.wav"
+      ]
+    },
+    {
+      "id": "clear-product-roadmap",
+      "english": "clear product roadmap",
+      "translation": "чёткая продуктовая дорожная карта",
+      "audio": [
+        "audio/phrases/clear product roadmap.wav"
+      ]
+    },
+    {
+      "id": "successful-product-launch",
+      "english": "successful product launch",
+      "translation": "успешный запуск продукта",
+      "audio": [
+        "audio/phrases/successful product launch.wav"
+      ]
+    },
+    {
+      "id": "steady-user-growth",
+      "english": "steady user growth",
+      "translation": "стабильный рост пользователей",
+      "audio": [
+        "audio/phrases/steady user growth.wav"
+      ]
+    },
+    {
+      "id": "scaling-operations-globally",
+      "english": "scaling operations globally",
+      "translation": "масштабирование операций глобально",
+      "audio": [
+        "audio/phrases/scaling operations globally.wav"
+      ]
+    },
+    {
+      "id": "strategic-business-pivot",
+      "english": "strategic business pivot",
+      "translation": "стратегический поворот бизнеса",
+      "audio": [
+        "audio/phrases/strategic business pivot.wav"
+      ]
+    },
+    {
+      "id": "monthly-recurring-revenue",
+      "english": "monthly recurring revenue",
+      "translation": "ежемесячная регулярная выручка",
+      "audio": [
+        "audio/phrases/monthly recurring revenue.wav"
+      ]
+    },
+    {
+      "id": "sustainable-long-term-profit",
+      "english": "sustainable long term profit",
+      "translation": "устойчивая долгосрочная прибыль",
+      "audio": [
+        "audio/phrases/sustainable long term profit.wav"
+      ]
+    },
+    {
+      "id": "flexible-pricing-model",
+      "english": "flexible pricing model",
+      "translation": "гибкая модель ценообразования",
+      "audio": [
+        "audio/phrases/flexible pricing model.wav"
+      ]
+    },
+    {
+      "id": "clear-monetization-strategy",
+      "english": "clear monetization strategy",
+      "translation": "чёткая стратегия монетизации",
+      "audio": [
+        "audio/phrases/clear monetization strategy.wav"
+      ]
+    },
+    {
+      "id": "annual-paid-subscription",
+      "english": "annual paid subscription",
+      "translation": "годовая платная подписка",
+      "audio": [
+        "audio/phrases/annual paid subscription.wav"
+      ]
+    },
+    {
+      "id": "early-stage-investment",
+      "english": "early stage investment",
+      "translation": "инвестиции на ранней стадии",
+      "audio": [
+        "audio/phrases/early stage investment.wav"
+      ]
+    },
+    {
+      "id": "strategic-lead-investor",
+      "english": "strategic lead investor",
+      "translation": "стратегический ведущий инвестор",
+      "audio": [
+        "audio/phrases/strategic lead investor.wav"
+      ]
+    },
+    {
+      "id": "series-a-funding",
+      "english": "series a funding",
+      "translation": "раунд финансирования серии A",
+      "audio": [
+        "audio/phrases/series a funding.wav"
+      ]
+    },
+    {
+      "id": "current-company-valuation",
+      "english": "current company valuation",
+      "translation": "текущая оценка компании",
+      "audio": [
+        "audio/phrases/current company valuation.wav"
+      ]
+    },
+    {
+      "id": "founder-equity-split",
+      "english": "founder equity split",
+      "translation": "распределение долей основателей",
+      "audio": [
+        "audio/phrases/founder equity split.wav"
+      ]
+    },
+    {
+      "id": "short-investor-pitch",
+      "english": "short investor pitch",
+      "translation": "короткий питч для инвестора",
+      "audio": [
+        "audio/phrases/short investor pitch.wav"
+      ]
+    },
+    {
+      "id": "updated-pitch-deck",
+      "english": "updated pitch deck",
+      "translation": "обновлённая презентация",
+      "audio": [
+        "audio/phrases/updated pitch deck.wav"
+      ]
+    },
+    {
+      "id": "key-performance-metrics",
+      "english": "key performance metrics",
+      "translation": "ключевые показатели эффективности",
+      "audio": [
+        "audio/phrases/key performance metrics.wav"
+      ]
+    },
+    {
+      "id": "defined-team-kpis",
+      "english": "defined team kpis",
+      "translation": "определённые показатели команды",
+      "audio": [
+        "audio/phrases/defined team kpis.wav"
+      ]
+    },
+    {
+      "id": "honest-user-feedback",
+      "english": "honest user feedback",
+      "translation": "честная обратная связь пользователей",
+      "audio": [
+        "audio/phrases/honest user feedback.wav"
+      ]
+    },
+    {
+      "id": "calculated-business-risk",
+      "english": "calculated business risk",
+      "translation": "просчитанный бизнес риск",
+      "audio": [
+        "audio/phrases/calculated business risk.wav"
+      ]
+    },
+    {
+      "id": "early-startup-failure",
+      "english": "early startup failure",
+      "translation": "ранний провал стартапа",
+      "audio": [
+        "audio/phrases/early startup failure.wav"
+      ]
+    },
+    {
+      "id": "new-market-opportunity",
+      "english": "new market opportunity",
+      "translation": "новая рыночная возможность",
+      "audio": [
+        "audio/phrases/new market opportunity.wav"
+      ]
+    },
+    {
+      "id": "critical-leadership-decision",
+      "english": "critical leadership decision",
+      "translation": "критическое управленческое решение",
+      "audio": [
+        "audio/phrases/critical leadership decision.wav"
+      ]
+    },
+    {
+      "id": "long-term-strategy",
+      "english": "long term strategy",
+      "translation": "долгосрочная стратегия",
+      "audio": [
+        "audio/phrases/long term strategy.wav"
+      ]
+    },
+    {
+      "id": "early-user-traction",
+      "english": "early user traction",
+      "translation": "ранний рост интереса пользователей",
+      "audio": [
+        "audio/phrases/early user traction.wav"
+      ]
+    }
+  ]
+}

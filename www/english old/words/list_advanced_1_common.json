@@ -1,0 +1,109 @@
+{
+  "theme": "Часто используемые слова",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "assumption",
+      "english": "assumption",{
+  "theme": "Часто используемые слова",
+  "level": "Advanced",
+  "name": "Words",
+  "filename": "english/list_advanced_1_common.json",
+  "words": [
+    { "english":"assumption","translation":"предположение","audio":["audio/assumption.wav"],"english_words":"basic assumption","translation_words":"базовое предположение","audio_words":["audio/assumption_words.wav"],"english_sentences":"This assumption may be wrong.","translation_sentences":"Это предположение может быть неверным.","audio_sentences":["audio/assumption_sentences.wav"] },
+{ "english":"perspective","translation":"точка зрения","audio":["audio/perspective.wav"],"english_words":"new perspective","translation_words":"новая точка зрения","audio_words":["audio/perspective_words.wav"],"english_sentences":"Try to see it from another perspective.","translation_sentences":"Попробуй посмотреть на это с другой точки зрения.","audio_sentences":["audio/perspective_sentences.wav"] },
+{ "english":"context","translation":"контекст","audio":["audio/context.wav"],"english_words":"in context","translation_words":"в контексте","audio_words":["audio/context_words.wav"],"english_sentences":"The word changes meaning in this context.","translation_sentences":"Слово меняет значение в этом контексте.","audio_sentences":["audio/context_sentences.wav"] },
+{ "english":"implication","translation":"следствие","audio":["audio/implication.wav"],"english_words":"hidden implication","translation_words":"скрытое следствие","audio_words":["audio/implication_words.wav"],"english_sentences":"He explained the implication of the decision.","translation_sentences":"Он объяснил следствие этого решения.","audio_sentences":["audio/implication_sentences.wav"] },
+{ "english":"bias","translation":"предвзятость","audio":["audio/bias.wav"],"english_words":"personal bias","translation_words":"личная предвзятость","audio_words":["audio/bias_words.wav"],"english_sentences":"Bias can affect judgment.","translation_sentences":"Предвзятость может влиять на суждение.","audio_sentences":["audio/bias_sentences.wav"] },
+{ "english":"insight","translation":"понимание","audio":["audio/insight.wav"],"english_words":"useful insight","translation_words":"полезное понимание","audio_words":["audio/insight_words.wav"],"english_sentences":"The report offers valuable insight.","translation_sentences":"Отчёт даёт ценное понимание.","audio_sentences":["audio/insight_sentences.wav"] },
+{ "english":"constraint","translation":"ограничение","audio":["audio/constraint.wav"],"english_words":"time constraint","translation_words":"временное ограничение","audio_words":["audio/constraint_words.wav"],"english_sentences":"Budget is the main constraint.","translation_sentences":"Бюджет — главное ограничение.","audio_sentences":["audio/constraint_sentences.wav"] },
+{ "english":"trade-off","translation":"компромисс","audio":["audio/trade-off.wav"],"english_words":"clear trade-off","translation_words":"явный компромисс","audio_words":["audio/trade-off_words.wav"],"english_sentences":"There is always a trade-off involved.","translation_sentences":"Здесь всегда есть определённый компромисс.","audio_sentences":["audio/trade-off_sentences.wav"] },
+{ "english":"uncertainty","translation":"неопределённость","audio":["audio/uncertainty.wav"],"english_words":"high uncertainty","translation_words":"высокая неопределённость","audio_words":["audio/uncertainty_words.wav"],"english_sentences":"Uncertainty makes planning difficult.","translation_sentences":"Неопределённость усложняет планирование.","audio_sentences":["audio/uncertainty_sentences.wav"] },
+{ "english":"outcome","translation":"результат","audio":["audio/outcome.wav"],"english_words":"final outcome","translation_words":"итоговый результат","audio_words":["audio/outcome_words.wav"],"english_sentences":"The outcome depends on many choices.","translation_sentences":"Результат зависит от многих решений.","audio_sentences":["audio/outcome_sentences.wav"] },
+
+    { "english":"approach","translation":"подход","audio":["audio/approach.wav"],"english_words":"practical approach","translation_words":"практичный подход","audio_words":["audio/approach_words.wav"],"english_sentences":"This approach works in most cases.","translation_sentences":"Этот подход работает в большинстве случаев.","audio_sentences":["audio/approach_sentences.wav"] },
+{ "english":"framework","translation":"структура","audio":["audio/framework.wav"],"english_words":"clear framework","translation_words":"чёткая структура","audio_words":["audio/framework_words.wav"],"english_sentences":"We use a simple framework for planning.","translation_sentences":"Мы используем структуру для планирования.","audio_sentences":["audio/framework_sentences.wav"] },
+{ "english":"strategy","translation":"стратегия","audio":["audio/strategy.wav"],"english_words":"long-term strategy","translation_words":"долгосрочная стратегия","audio_words":["audio/strategy_words.wav"],"english_sentences":"Their strategy focuses on growth.","translation_sentences":"Их стратегия сосредоточена на росте.","audio_sentences":["audio/strategy_sentences.wav"] },
+{ "english":"execution","translation":"реализация","audio":["audio/execution.wav"],"english_words":"strong execution","translation_words":"качественная реализация","audio_words":["audio/execution_words.wav"],"english_sentences":"Good execution decides the result.","translation_sentences":"Хорошая реализация определяет результат.","audio_sentences":["audio/execution_sentences.wav"] },
+{ "english":"alignment","translation":"согласованность","audio":["audio/alignment.wav"],"english_words":"team alignment","translation_words":"согласованность команды","audio_words":["audio/alignment_words.wav"],"english_sentences":"Alignment keeps everyone moving together.","translation_sentences":"Согласованность помогает всем двигаться вместе.","audio_sentences":["audio/alignment_sentences.wav"] },
+{ "english":"priority","translation":"приоритет","audio":["audio/priority.wav"],"english_words":"top priority","translation_words":"главный приоритет","audio_words":["audio/priority_words.wav"],"english_sentences":"Safety is our first priority.","translation_sentences":"Безопасность — наш первый приоритет.","audio_sentences":["audio/priority_sentences.wav"] },
+{ "english":"initiative","translation":"инициатива","audio":["audio/initiative.wav"],"english_words":"new initiative","translation_words":"новая инициатива","audio_words":["audio/initiative_words.wav"],"english_sentences":"She launched an initiative at work.","translation_sentences":"Она запустила инициативу на работе.","audio_sentences":["audio/initiative_sentences.wav"] },
+{ "english":"accountability","translation":"ответственность","audio":["audio/accountability.wav"],"english_words":"shared accountability","translation_words":"общая ответственность","audio_words":["audio/accountability_words.wav"],"english_sentences":"Accountability builds trust in teams.","translation_sentences":"Ответственность укрепляет доверие в командах.","audio_sentences":["audio/accountability_sentences.wav"] },
+{ "english":"ownership","translation":"ответственность","audio":["audio/ownership.wav"],"english_words":"take ownership","translation_words":"взять ответственность","audio_words":["audio/ownership_words.wav"],"english_sentences":"He took ownership of the problem.","translation_sentences":"Он взял ответственность за проблему.","audio_sentences":["audio/ownership_sentences.wav"] },
+{
+  "english": "stakeholder",
+  "translation": "заинтересованная сторона",
+  "audio": ["audio/stakeholder.wav"],
+  "english_words": "key stakeholder",
+  "translation_words": "ключевая заинтересованная сторона",
+  "audio_words": ["audio/stakeholder_words.wav"],
+  "english_sentences": "Each stakeholder has different goals.",
+  "translation_sentences": "У каждой заинтересованной стороны свои цели.",
+  "audio_sentences": ["audio/stakeholder_sentences.wav"]
+},
+
+
+    { "english":"credibility","translation":"доверие","audio":["audio/credibility.wav"],"english_words":"build credibility","translation_words":"выстроить доверие","audio_words":["audio/credibility_words.wav"],"english_sentences":"Credibility takes time to develop.","translation_sentences":"Доверие формируется со временем.","audio_sentences":["audio/credibility_sentences.wav"] },
+{ "english":"transparency","translation":"прозрачность","audio":["audio/transparency.wav"],"english_words":"full transparency","translation_words":"полная прозрачность","audio_words":["audio/transparency_words.wav"],"english_sentences":"Transparency improves communication.","translation_sentences":"Прозрачность улучшает коммуникацию.","audio_sentences":["audio/transparency_sentences.wav"] },
+{ "english":"integrity","translation":"честность","audio":["audio/integrity.wav"],"english_words":"personal integrity","translation_words":"личная честность","audio_words":["audio/integrity_words.wav"],"english_sentences":"Integrity matters in leadership.","translation_sentences":"Честность важна в лидерстве.","audio_sentences":["audio/integrity_sentences.wav"] },
+{ "english":"consistency","translation":"последовательность","audio":["audio/consistency.wav"],"english_words":"maintain consistency","translation_words":"сохранять последовательность","audio_words":["audio/consistency_words.wav"],"english_sentences":"Consistency helps people trust systems.","translation_sentences":"Последовательность помогает людям доверять системам.","audio_sentences":["audio/consistency_sentences.wav"] },
+{ "english":"reliability","translation":"надёжность","audio":["audio/reliability.wav"],"english_words":"system reliability","translation_words":"надёжность системы","audio_words":["audio/reliability_words.wav"],"english_sentences":"Reliability is critical for users.","translation_sentences":"Надёжность критически важна для пользователей.","audio_sentences":["audio/reliability_sentences.wav"] },
+{ "english":"efficiency","translation":"эффективность","audio":["audio/efficiency.wav"],"english_words":"improve efficiency","translation_words":"повысить эффективность","audio_words":["audio/efficiency_words.wav"],"english_sentences":"Efficiency saves both time and effort.","translation_sentences":"Эффективность экономит время и усилия.","audio_sentences":["audio/efficiency_sentences.wav"] },
+{ "english":"scalability","translation":"масштабируемость","audio":["audio/scalability.wav"],"english_words":"limited scalability","translation_words":"ограниченная масштабируемость","audio_words":["audio/scalability_words.wav"],"english_sentences":"Scalability becomes important as demand grows.","translation_sentences":"Масштабируемость становится важной при росте спроса.","audio_sentences":["audio/scalability_sentences.wav"] },
+{ "english":"sustainability","translation":"устойчивость","audio":["audio/sustainability.wav"],"english_words":"long-term sustainability","translation_words":"долгосрочная устойчивость","audio_words":["audio/sustainability_words.wav"],"english_sentences":"Sustainability requires careful planning.","translation_sentences":"Устойчивость требует тщательного планирования.","audio_sentences":["audio/sustainability_sentences.wav"] },
+
+    { "english":"evaluation","translation":"оценка","audio":["audio/evaluation.wav"],"english_words":"initial evaluation","translation_words":"первичная оценка","audio_words":["audio/evaluation_words.wav"],"english_sentences":"The evaluation took several days.","translation_sentences":"Оценка заняла несколько дней.","audio_sentences":["audio/evaluation_sentences.wav"] },
+{ "english":"assessment","translation":"оценка","audio":["audio/assessment.wav"],"english_words":"risk assessment","translation_words":"оценка рисков","audio_words":["audio/assessment_words.wav"],"english_sentences":"They completed an assessment of the plan.","translation_sentences":"Они завершили оценку плана.","audio_sentences":["audio/assessment_sentences.wav"] },
+{ "english":"feedback","translation":"обратная связь","audio":["audio/feedback.wav"],"english_words":"honest feedback","translation_words":"честная обратная связь","audio_words":["audio/feedback_words.wav"],"english_sentences":"Feedback helps teams grow faster.","translation_sentences":"Обратная связь помогает командам расти быстрее.","audio_sentences":["audio/feedback_sentences.wav"] },
+{ "english":"iteration","translation":"итерация","audio":["audio/iteration.wav"],"english_words":"next iteration","translation_words":"следующая итерация","audio_words":["audio/iteration_words.wav"],"english_sentences":"Each iteration improves the product.","translation_sentences":"Каждая итерация улучшает продукт.","audio_sentences":["audio/iteration_sentences.wav"] },
+{ "english":"refinement","translation":"доработка","audio":["audio/refinement.wav"],"english_words":"design refinement","translation_words":"доработка дизайна","audio_words":["audio/refinement_words.wav"],"english_sentences":"Refinement continues after testing.","translation_sentences":"Доработка продолжается после тестирования.","audio_sentences":["audio/refinement_sentences.wav"] },
+{ "english":"optimization","translation":"оптимизация","audio":["audio/optimization.wav"],"english_words":"process optimization","translation_words":"оптимизация процесса","audio_words":["audio/optimization_words.wav"],"english_sentences":"Optimization reduced overall costs.","translation_sentences":"Оптимизация снизила общие затраты.","audio_sentences":["audio/optimization_sentences.wav"] },
+{ "english":"trend","translation":"тенденция","audio":["audio/trend.wav"],"english_words":"growing trend","translation_words":"растущая тенденция","audio_words":["audio/trend_words.wav"],"english_sentences":"This trend affects many industries.","translation_sentences":"Эта тенденция влияет на многие отрасли.","audio_sentences":["audio/trend_sentences.wav"] },
+{ "english":"pattern","translation":"шаблон","audio":["audio/pattern.wav"],"english_words":"clear pattern","translation_words":"чёткий шаблон","audio_words":["audio/pattern_words.wav"],"english_sentences":"A pattern emerged over time.","translation_sentences":"Со временем проявился шаблон.","audio_sentences":["audio/pattern_sentences.wav"] },
+{ "english":"signal","translation":"сигнал","audio":["audio/signal.wav"],"english_words":"strong signal","translation_words":"сильный сигнал","audio_words":["audio/signal_words.wav"],"english_sentences":"This signal indicates a problem.","translation_sentences":"Этот сигнал указывает на проблему.","audio_sentences":["audio/signal_sentences.wav"] },
+{
+  "english": "noise",
+  "translation": "информационный шум",
+  "audio": ["audio/noise.wav"],
+  "english_words": "background noise",
+  "translation_words": "фоновый информационный шум",
+  "audio_words": ["audio/noise_words.wav"],
+  "english_sentences": "Noise can hide useful data.",
+  "translation_sentences": "Информационный шум может скрывать полезные данные.",
+  "audio_sentences": ["audio/noise_sentences.wav"]
+},
+
+{ "english":"insightful","translation":"проницательный","audio":["audio/insightful.wav"],"english_words":"insightful comment","translation_words":"проницательный комментарий","audio_words":["audio/insightful_words.wav"],"english_sentences":"She gave an insightful response.","translation_sentences":"Она дала проницательный ответ.","audio_sentences":["audio/insightful_sentences.wav"] },
+{ "english":"meaningful","translation":"значимый","audio":["audio/meaningful.wav"],"english_words":"meaningful change","translation_words":"значимое изменение","audio_words":["audio/meaningful_words.wav"],"english_sentences":"The discussion led to meaningful results.","translation_sentences":"Обсуждение привело к значимым результатам.","audio_sentences":["audio/meaningful_sentences.wav"] },
+
+    { "english":"complexity","translation":"сложность","audio":["audio/complexity.wav"],"english_words":"system complexity","translation_words":"сложность системы","audio_words":["audio/complexity_words.wav"],"english_sentences":"Complexity increases as projects grow.","translation_sentences":"Сложность растёт по мере увеличения проектов.","audio_sentences":["audio/complexity_sentences.wav"] },
+{ "english":"ambiguity","translation":"двусмысленность","audio":["audio/ambiguity.wav"],"english_words":"reduce ambiguity","translation_words":"снизить двусмысленность","audio_words":["audio/ambiguity_words.wav"],"english_sentences":"Ambiguity can slow decision making.","translation_sentences":"Двусмысленность может замедлять принятие решений.","audio_sentences":["audio/ambiguity_sentences.wav"] },
+{ "english":"clarity","translation":"ясность","audio":["audio/clarity.wav"],"english_words":"need clarity","translation_words":"нужна ясность","audio_words":["audio/clarity_words.wav"],"english_sentences":"Clarity helps everyone understand goals.","translation_sentences":"Ясность помогает всем понимать цели.","audio_sentences":["audio/clarity_sentences.wav"] },
+{ "english":"coherence","translation":"связность","audio":["audio/coherence.wav"],"english_words":"logical coherence","translation_words":"логическая связность","audio_words":["audio/coherence_words.wav"],"english_sentences":"Coherence makes ideas easier to follow.","translation_sentences":"Связность облегчает восприятие идей.","audio_sentences":["audio/coherence_sentences.wav"] },
+{ "english":"relevance","translation":"актуальность","audio":["audio/relevance.wav"],"english_words":"topic relevance","translation_words":"актуальность темы","audio_words":["audio/relevance_words.wav"],"english_sentences":"Relevance depends on the audience.","translation_sentences":"Актуальность зависит от аудитории.","audio_sentences":["audio/relevance_sentences.wav"] },
+{
+  "english": "impact",
+  "translation": "влияние",
+  "audio": ["audio/impact.wav"],
+  "english_words": "long-term impact",
+  "translation_words": "долгосрочное влияние",
+  "audio_words": ["audio/impact_words.wav"],
+  "english_sentences": "The change had a strong impact.",
+  "translation_sentences": "Изменение оказало сильное влияние.",
+  "audio_sentences": ["audio/impact_sentences.wav"]
+},
+
+{ "english":"value","translation":"ценность","audio":["audio/value.wav"],"english_words":"create value","translation_words":"создавать ценность","audio_words":["audio/value_words.wav"],"english_sentences":"This feature adds real value.","translation_sentences":"Эта функция добавляет реальную ценность.","audio_sentences":["audio/value_sentences.wav"] },
+{ "english":"benefit","translation":"выгода","audio":["audio/benefit.wav"],"english_words":"clear benefit","translation_words":"очевидная выгода","audio_words":["audio/benefit_words.wav"],"english_sentences":"The main benefit is simplicity.","translation_sentences":"Главная выгода — простота.","audio_sentences":["audio/benefit_sentences.wav"] },
+{ "english":"risk","translation":"риск","audio":["audio/risk.wav"],"english_words":"high risk","translation_words":"высокий риск","audio_words":["audio/risk_words.wav"],"english_sentences":"Every decision involves some risk.","translation_sentences":"Каждое решение связано с определённым риском.","audio_sentences":["audio/risk_sentences.wav"] },
+{ "english":"opportunity","translation":"возможность","audio":["audio/opportunity.wav"],"english_words":"new opportunity","translation_words":"новая возможность","audio_words":["audio/opportunity_words.wav"],"english_sentences":"This creates an opportunity for growth.","translation_sentences":"Это создаёт возможность для роста.","audio_sentences":["audio/opportunity_sentences.wav"] }
+
+  ]
+},
+
+      "translation": "предположение",
+      "audio": ["audio/words/assumption.wav"]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "theme": "Сложные разговоры",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "conflict",
+      "translation": "конфликт"
+    },
+    {
+      "english": "tension",
+      "translation": "напряжение"
+    },
+    {
+      "english": "disagreement",
+      "translation": "разногласие"
+    },
+    {
+      "english": "confrontation",
+      "translation": "противостояние"
+    },
+    {
+      "english": "clash",
+      "translation": "столкновение"
+    },
+    {
+      "english": "misunderstanding",
+      "translation": "недопонимание"
+    },
+    {
+      "english": "sensitivity",
+      "translation": "чувствительность темы"
+    },
+    {
+      "english": "discomfort",
+      "translation": "дискомфорт"
+    },
+    {
+      "english": "awkwardness",
+      "translation": "неловкость"
+    },
+    {
+      "english": "pressure",
+      "translation": "давление"
+    },
+    {
+      "english": "criticism",
+      "translation": "критика"
+    },
+    {
+      "english": "complaint",
+      "translation": "жалоба"
+    },
+    {
+      "english": "accusation",
+      "translation": "обвинение"
+    },
+    {
+      "english": "blame",
+      "translation": "вина"
+    },
+    {
+      "english": "responsibility",
+      "translation": "ответственность"
+    },
+    {
+      "english": "boundaries",
+      "translation": "границы"
+    },
+    {
+      "english": "expectations",
+      "translation": "ожидания"
+    },
+    {
+      "english": "demands",
+      "translation": "требования"
+    },
+    {
+      "english": "objections",
+      "translation": "возражения"
+    },
+    {
+      "english": "concerns",
+      "translation": "опасения"
+    },
+    {
+      "english": "compromise",
+      "translation": "компромисс"
+    },
+    {
+      "english": "resolution",
+      "translation": "урегулирование"
+    },
+    {
+      "english": "negotiation",
+      "translation": "переговоры"
+    },
+    {
+      "english": "mediation",
+      "translation": "посредничество"
+    },
+    {
+      "english": "agreement",
+      "translation": "соглашение"
+    },
+    {
+      "english": "assertiveness",
+      "translation": "уверенная позиция"
+    },
+    {
+      "english": "defensiveness",
+      "translation": "оборонительная реакция"
+    },
+    {
+      "english": "openness",
+      "translation": "открытость"
+    },
+    {
+      "english": "empathy",
+      "translation": "эмпатия"
+    },
+    {
+      "english": "respect",
+      "translation": "уважение"
+    },
+    {
+      "english": "escalation",
+      "translation": "обострение"
+    },
+    {
+      "english": "de-escalation",
+      "translation": "снижение напряжения"
+    },
+    {
+      "english": "consequences",
+      "translation": "последствия"
+    },
+    {
+      "english": "outcome",
+      "translation": "итог"
+    },
+    {
+      "english": "closure",
+      "translation": "завершение"
+    }
+  ]
+}

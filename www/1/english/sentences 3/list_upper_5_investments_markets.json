@@ -1,0 +1,167 @@
+{
+  "theme": "Инвестиции и финрынки",
+  "level": "Upper-Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "investment",
+      "translation": "инвестиция"
+    },
+    {
+      "english": "investor",
+      "translation": "инвестор"
+    },
+    {
+      "english": "market",
+      "translation": "рынок"
+    },
+    {
+      "english": "asset",
+      "translation": "актив"
+    },
+    {
+      "english": "portfolio",
+      "translation": "портфель"
+    },
+    {
+      "english": "stock",
+      "translation": "акция"
+    },
+    {
+      "english": "bond",
+      "translation": "облигация"
+    },
+    {
+      "english": "fund",
+      "translation": "фонд"
+    },
+    {
+      "english": "ETF",
+      "translation": "биржевой фонд"
+    },
+    {
+      "english": "index",
+      "translation": "индекс"
+    },
+    {
+      "english": "exchange",
+      "translation": "биржа"
+    },
+    {
+      "english": "ticker",
+      "translation": "биржевой тикер"
+    },
+    {
+      "english": "price",
+      "translation": "цена"
+    },
+    {
+      "english": "value",
+      "translation": "стоимость"
+    },
+    {
+      "english": "return",
+      "translation": "доходность"
+    },
+    {
+      "english": "profit",
+      "translation": "прибыль"
+    },
+    {
+      "english": "loss",
+      "translation": "убыток"
+    },
+    {
+      "english": "yield",
+      "translation": "доход"
+    },
+    {
+      "english": "dividend",
+      "translation": "дивиденд"
+    },
+    {
+      "english": "risk",
+      "translation": "риск"
+    },
+    {
+      "english": "volatility",
+      "translation": "волатильность"
+    },
+    {
+      "english": "liquidity",
+      "translation": "ликвидность"
+    },
+    {
+      "english": "exposure",
+      "translation": "подверженность риску"
+    },
+    {
+      "english": "diversification",
+      "translation": "диверсификация"
+    },
+    {
+      "english": "trend",
+      "translation": "тренд"
+    },
+    {
+      "english": "growth",
+      "translation": "рост"
+    },
+    {
+      "english": "decline",
+      "translation": "спад"
+    },
+    {
+      "english": "crash",
+      "translation": "обвал"
+    },
+    {
+      "english": "recovery",
+      "translation": "восстановление"
+    },
+    {
+      "english": "analysis",
+      "translation": "анализ"
+    },
+    {
+      "english": "forecast",
+      "translation": "прогноз"
+    },
+    {
+      "english": "indicator",
+      "translation": "показатель"
+    },
+    {
+      "english": "performance",
+      "translation": "результативность"
+    },
+    {
+      "english": "benchmark",
+      "translation": "ориентир для сравнения"
+    },
+    {
+      "english": "capital",
+      "translation": "капитал"
+    },
+    {
+      "english": "valuation",
+      "translation": "оценка стоимости"
+    },
+    {
+      "english": "allocation",
+      "translation": "распределение"
+    },
+    {
+      "english": "strategy",
+      "translation": "стратегия"
+    },
+    {
+      "english": "long-term",
+      "translation": "долгосрочный"
+    },
+    {
+      "english": "share",
+      "translation": "акция"
+    }
+  ]
+}

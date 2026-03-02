@@ -1,0 +1,131 @@
+{
+  "theme": "Цифры, количество, размеры",
+  "level": "Beginner",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "zero",
+      "translation": "ноль"
+    },
+    {
+      "english": "one",
+      "translation": "один"
+    },
+    {
+      "english": "two",
+      "translation": "два"
+    },
+    {
+      "english": "three",
+      "translation": "три"
+    },
+    {
+      "english": "four",
+      "translation": "четыре"
+    },
+    {
+      "english": "five",
+      "translation": "пять"
+    },
+    {
+      "english": "six",
+      "translation": "шесть"
+    },
+    {
+      "english": "seven",
+      "translation": "семь"
+    },
+    {
+      "english": "eight",
+      "translation": "восемь"
+    },
+    {
+      "english": "nine",
+      "translation": "девять"
+    },
+    {
+      "english": "ten",
+      "translation": "десять"
+    },
+    {
+      "english": "many",
+      "translation": "много"
+    },
+    {
+      "english": "much",
+      "translation": "много"
+    },
+    {
+      "english": "few",
+      "translation": "мало"
+    },
+    {
+      "english": "little",
+      "translation": "мало"
+    },
+    {
+      "english": "all",
+      "translation": "все"
+    },
+    {
+      "english": "more",
+      "translation": "больше"
+    },
+    {
+      "english": "less",
+      "translation": "меньше"
+    },
+    {
+      "english": "enough",
+      "translation": "достаточно"
+    },
+    {
+      "english": "big",
+      "translation": "большой"
+    },
+    {
+      "english": "small",
+      "translation": "маленький"
+    },
+    {
+      "english": "large",
+      "translation": "большой"
+    },
+    {
+      "english": "long",
+      "translation": "длинный"
+    },
+    {
+      "english": "high",
+      "translation": "высокий"
+    },
+    {
+      "english": "low",
+      "translation": "низкий"
+    },
+    {
+      "english": "size",
+      "translation": "размер"
+    },
+    {
+      "english": "amount",
+      "translation": "количество"
+    },
+    {
+      "english": "number",
+      "translation": "число"
+    },
+    {
+      "english": "some",
+      "translation": "несколько"
+    },
+    {
+      "english": "none",
+      "translation": "ничего"
+    },
+    {
+      "english": "short",
+      "translation": "короткий"
+    }
+  ]
+}

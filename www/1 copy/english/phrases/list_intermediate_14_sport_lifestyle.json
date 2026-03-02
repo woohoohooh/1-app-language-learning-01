@@ -1,0 +1,367 @@
+{
+  "theme": "Спорт и активный образ жизни",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "enjoy-sport-activities",
+      "english": "enjoy sport activities",
+      "translation": "наслаждаться спортивными занятиями",
+      "audio": [
+        "audio/phrases/enjoy sport activities.wav"
+      ]
+    },
+    {
+      "id": "attend-fitness-classes",
+      "english": "attend fitness classes",
+      "translation": "посещать фитнес-занятия",
+      "audio": [
+        "audio/phrases/attend fitness classes.wav"
+      ]
+    },
+    {
+      "id": "track-daily-activity",
+      "english": "track daily activity",
+      "translation": "отслеживать ежедневную активность",
+      "audio": [
+        "audio/phrases/track daily activity.wav"
+      ]
+    },
+    {
+      "id": "adopt-healthy-lifestyle",
+      "english": "adopt healthy lifestyle",
+      "translation": "принять здоровый образ жизни",
+      "audio": [
+        "audio/phrases/adopt healthy lifestyle.wav"
+      ]
+    },
+    {
+      "id": "practice-movement-drills",
+      "english": "practice movement drills",
+      "translation": "практиковать движения",
+      "audio": [
+        "audio/phrases/practice movement drills.wav"
+      ]
+    },
+    {
+      "id": "attend-training-session",
+      "english": "attend training session",
+      "translation": "посещать тренировку",
+      "audio": [
+        "audio/phrases/attend training session.wav"
+      ]
+    },
+    {
+      "id": "do-morning-workout",
+      "english": "do morning workout",
+      "translation": "делать утреннюю тренировку",
+      "audio": [
+        "audio/phrases/do morning workout.wav"
+      ]
+    },
+    {
+      "id": "perform-daily-exercise",
+      "english": "perform daily exercise",
+      "translation": "выполнять ежедневные упражнения",
+      "audio": [
+        "audio/phrases/perform daily exercise.wav"
+      ]
+    },
+    {
+      "id": "start-training-program",
+      "english": "start training program",
+      "translation": "начать тренировочную программу",
+      "audio": [
+        "audio/phrases/start training program.wav"
+      ]
+    },
+    {
+      "id": "visit-local-gym",
+      "english": "visit local gym",
+      "translation": "посещать местный спортзал",
+      "audio": [
+        "audio/phrases/visit local gym.wav"
+      ]
+    },
+    {
+      "id": "use-gym-equipment",
+      "english": "use gym equipment",
+      "translation": "использовать спортивное оборудование",
+      "audio": [
+        "audio/phrases/use gym equipment.wav"
+      ]
+    },
+    {
+      "id": "run-on-treadmill",
+      "english": "run on treadmill",
+      "translation": "бегать на беговой дорожке",
+      "audio": [
+        "audio/phrases/run on treadmill.wav"
+      ]
+    },
+    {
+      "id": "roll-out-yoga-mat",
+      "english": "roll out yoga mat",
+      "translation": "развернуть коврик для йоги",
+      "audio": [
+        "audio/phrases/roll out yoga mat.wav"
+      ]
+    },
+    {
+      "id": "train-for-strength",
+      "english": "train for strength",
+      "translation": "тренироваться для силы",
+      "audio": [
+        "audio/phrases/train for strength.wav"
+      ]
+    },
+    {
+      "id": "build-endurance-gradually",
+      "english": "build endurance gradually",
+      "translation": "развивать выносливость постепенно",
+      "audio": [
+        "audio/phrases/build endurance gradually.wav"
+      ]
+    },
+    {
+      "id": "improve-flexibility-exercises",
+      "english": "improve flexibility exercises",
+      "translation": "улучшать гибкость упражнениями",
+      "audio": [
+        "audio/phrases/improve flexibility exercises.wav"
+      ]
+    },
+    {
+      "id": "practice-balance-skills",
+      "english": "practice balance skills",
+      "translation": "практиковать навыки баланса",
+      "audio": [
+        "audio/phrases/practice balance skills.wav"
+      ]
+    },
+    {
+      "id": "train-coordination-daily",
+      "english": "train coordination daily",
+      "translation": "тренировать координацию ежедневно",
+      "audio": [
+        "audio/phrases/train coordination daily.wav"
+      ]
+    },
+    {
+      "id": "go-running-morning",
+      "english": "go running morning",
+      "translation": "бегать утром",
+      "audio": [
+        "audio/phrases/go running morning.wav"
+      ]
+    },
+    {
+      "id": "do-light-jogging",
+      "english": "do light jogging",
+      "translation": "заниматься лёгким бегом",
+      "audio": [
+        "audio/phrases/do light jogging.wav"
+      ]
+    },
+    {
+      "id": "practice-cycling-outdoors",
+      "english": "practice cycling outdoors",
+      "translation": "кататься на велосипеде на улице",
+      "audio": [
+        "audio/phrases/practice cycling outdoors.wav"
+      ]
+    },
+    {
+      "id": "learn-swimming-techniques",
+      "english": "learn swimming techniques",
+      "translation": "изучать техники плавания",
+      "audio": [
+        "audio/phrases/learn swimming techniques.wav"
+      ]
+    },
+    {
+      "id": "practice-yoga-daily",
+      "english": "practice yoga daily",
+      "translation": "заниматься йогой ежедневно",
+      "audio": [
+        "audio/phrases/practice yoga daily.wav"
+      ]
+    },
+    {
+      "id": "work-with-team",
+      "english": "work with team",
+      "translation": "работать с командой",
+      "audio": [
+        "audio/phrases/work with team.wav"
+      ]
+    },
+    {
+      "id": "enter-the-competition",
+      "english": "enter the competition",
+      "translation": "участвовать в соревновании",
+      "audio": [
+        "audio/phrases/enter the competition.wav"
+      ]
+    },
+    {
+      "id": "watch-football-match",
+      "english": "watch football match",
+      "translation": "смотреть футбольный матч",
+      "audio": [
+        "audio/phrases/watch football match.wav"
+      ]
+    },
+    {
+      "id": "organize-a-tournament",
+      "english": "organize a tournament",
+      "translation": "организовать турнир",
+      "audio": [
+        "audio/phrases/organize a tournament.wav"
+      ]
+    },
+    {
+      "id": "follow-coach-instructions",
+      "english": "follow coach instructions",
+      "translation": "следовать инструкциям тренера",
+      "audio": [
+        "audio/phrases/follow coach instructions.wav"
+      ]
+    },
+    {
+      "id": "set-clear-goal",
+      "english": "set clear goal",
+      "translation": "ставить ясную цель",
+      "audio": [
+        "audio/phrases/set clear goal.wav"
+      ]
+    },
+    {
+      "id": "track-progress-regularly",
+      "english": "track progress regularly",
+      "translation": "регулярно отслеживать прогресс",
+      "audio": [
+        "audio/phrases/track progress regularly.wav"
+      ]
+    },
+    {
+      "id": "analyze-final-result",
+      "english": "analyze final result",
+      "translation": "анализировать конечный результат",
+      "audio": [
+        "audio/phrases/analyze final result.wav"
+      ]
+    },
+    {
+      "id": "improve-performance-level",
+      "english": "improve performance level",
+      "translation": "повысить уровень результативности",
+      "audio": [
+        "audio/phrases/improve performance level.wav"
+      ]
+    },
+    {
+      "id": "celebrate-achievement-today",
+      "english": "celebrate achievement today",
+      "translation": "отпраздновать достижение сегодня",
+      "audio": [
+        "audio/phrases/celebrate achievement today.wav"
+      ]
+    },
+    {
+      "id": "focus-on-recovery",
+      "english": "focus on recovery",
+      "translation": "сосредоточиться на восстановлении",
+      "audio": [
+        "audio/phrases/focus on recovery.wav"
+      ]
+    },
+    {
+      "id": "take-proper-rest",
+      "english": "take proper rest",
+      "translation": "делать полноценный отдых",
+      "audio": [
+        "audio/phrases/take proper rest.wav"
+      ]
+    },
+    {
+      "id": "do-stretching-exercises",
+      "english": "do stretching exercises",
+      "translation": "делать упражнения на растяжку",
+      "audio": [
+        "audio/phrases/do stretching exercises.wav"
+      ]
+    },
+    {
+      "id": "perform-warm-up-routine",
+      "english": "perform warm-up routine",
+      "translation": "выполнять разминку",
+      "audio": [
+        "audio/phrases/perform warm-up routine.wav"
+      ]
+    },
+    {
+      "id": "do-cool-down-exercises",
+      "english": "do cool-down exercises",
+      "translation": "делать заминку после тренировки",
+      "audio": [
+        "audio/phrases/do cool-down exercises.wav"
+      ]
+    },
+    {
+      "id": "count-daily-steps",
+      "english": "count daily steps",
+      "translation": "считать ежедневные шаги",
+      "audio": [
+        "audio/phrases/count daily steps.wav"
+      ]
+    },
+    {
+      "id": "burn-calories-fast",
+      "english": "burn calories fast",
+      "translation": "сжигать калории быстро",
+      "audio": [
+        "audio/phrases/burn calories fast.wav"
+      ]
+    },
+    {
+      "id": "monitor-heart-rate",
+      "english": "monitor heart rate",
+      "translation": "контролировать пульс",
+      "audio": [
+        "audio/phrases/monitor heart rate.wav"
+      ]
+    },
+    {
+      "id": "use-fitness-tracker",
+      "english": "use fitness tracker",
+      "translation": "использовать фитнес-трекер",
+      "audio": [
+        "audio/phrases/use fitness tracker.wav"
+      ]
+    },
+    {
+      "id": "plan-daily-schedule",
+      "english": "plan daily schedule",
+      "translation": "планировать ежедневное расписание",
+      "audio": [
+        "audio/phrases/plan daily schedule.wav"
+      ]
+    },
+    {
+      "id": "follow-a-fitness-routine",
+      "english": "follow a fitness routine",
+      "translation": "следовать фитнес-режиму",
+      "audio": [
+        "audio/phrases/follow a fitness routine.wav"
+      ]
+    },
+    {
+      "id": "lift-heavy-weights",
+      "english": "lift heavy weights",
+      "translation": "поднимать тяжёлые веса",
+      "audio": [
+        "audio/phrases/lift heavy weights.wav"
+      ]
+    }
+  ]
+}

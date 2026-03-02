@@ -1,0 +1,327 @@
+{
+  "theme": "Будущее технологий",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "modern-technology-shapes",
+      "english": "modern technology shapes",
+      "translation": "современная технология формирует",
+      "audio": [
+        "audio/phrases/modern technology shapes.wav"
+      ]
+    },
+    {
+      "id": "constant-innovation-drives",
+      "english": "constant innovation drives",
+      "translation": "постоянные инновации двигают",
+      "audio": [
+        "audio/phrases/constant innovation drives.wav"
+      ]
+    },
+    {
+      "id": "future-technologies-emerge",
+      "english": "future technologies emerge",
+      "translation": "будущие технологии появляются",
+      "audio": [
+        "audio/phrases/future technologies emerge.wav"
+      ]
+    },
+    {
+      "id": "global-tech-trend",
+      "english": "global tech trend",
+      "translation": "глобальный технологический тренд",
+      "audio": [
+        "audio/phrases/global tech trend.wav"
+      ]
+    },
+    {
+      "id": "rapid-development-continues",
+      "english": "rapid development continues",
+      "translation": "быстрое развитие продолжается",
+      "audio": [
+        "audio/phrases/rapid development continues.wav"
+      ]
+    },
+    {
+      "id": "automation-reduces-costs",
+      "english": "automation reduces costs",
+      "translation": "автоматизация снижает затраты",
+      "audio": [
+        "audio/phrases/automation reduces costs.wav"
+      ]
+    },
+    {
+      "id": "digitalization-accelerates-change",
+      "english": "digitalization accelerates change",
+      "translation": "цифровизация ускоряет изменения",
+      "audio": [
+        "audio/phrases/digitalization accelerates change.wav"
+      ]
+    },
+    {
+      "id": "digital-transformation-process",
+      "english": "digital transformation process",
+      "translation": "процесс цифровой трансформации",
+      "audio": [
+        "audio/phrases/digital transformation process.wav"
+      ]
+    },
+    {
+      "id": "market-disruption-risk",
+      "english": "market disruption risk",
+      "translation": "риск радикального изменения рынка",
+      "audio": [
+        "audio/phrases/market disruption risk.wav"
+      ]
+    },
+    {
+      "id": "system-scalability-matters",
+      "english": "system scalability matters",
+      "translation": "масштабируемость системы важна",
+      "audio": [
+        "audio/phrases/system scalability matters.wav"
+      ]
+    },
+    {
+      "id": "digital-platform-evolves",
+      "english": "digital platform evolves",
+      "translation": "цифровая платформа развивается",
+      "audio": [
+        "audio/phrases/digital platform evolves.wav"
+      ]
+    },
+    {
+      "id": "tech-ecosystem-grows",
+      "english": "tech ecosystem grows",
+      "translation": "технологическая экосистема растёт",
+      "audio": [
+        "audio/phrases/tech ecosystem grows.wav"
+      ]
+    },
+    {
+      "id": "critical-infrastructure-investment",
+      "english": "critical infrastructure investment",
+      "translation": "инвестиции в инфраструктуру",
+      "audio": [
+        "audio/phrases/critical infrastructure investment.wav"
+      ]
+    },
+    {
+      "id": "system-architecture-design",
+      "english": "system architecture design",
+      "translation": "дизайн архитектуры системы",
+      "audio": [
+        "audio/phrases/system architecture design.wav"
+      ]
+    },
+    {
+      "id": "seamless-integration-needed",
+      "english": "seamless integration needed",
+      "translation": "нужна бесшовная интеграция",
+      "audio": [
+        "audio/phrases/seamless integration needed.wav"
+      ]
+    },
+    {
+      "id": "cloud-infrastructure-scales",
+      "english": "cloud infrastructure scales",
+      "translation": "облачная инфраструктура масштабируется",
+      "audio": [
+        "audio/phrases/cloud infrastructure scales.wav"
+      ]
+    },
+    {
+      "id": "edge-computing-reduces-latency",
+      "english": "edge computing reduces latency",
+      "translation": "периферийные вычисления снижают задержку",
+      "audio": [
+        "audio/phrases/edge computing reduces latency.wav"
+      ]
+    },
+    {
+      "id": "virtualization-increases-efficiency",
+      "english": "virtualization increases efficiency",
+      "translation": "виртуализация повышает эффективность",
+      "audio": [
+        "audio/phrases/virtualization increases efficiency.wav"
+      ]
+    },
+    {
+      "id": "automation-tools-simplify",
+      "english": "automation tools simplify",
+      "translation": "инструменты автоматизации упрощают",
+      "audio": [
+        "audio/phrases/automation tools simplify.wav"
+      ]
+    },
+    {
+      "id": "smart-systems-adapt",
+      "english": "smart systems adapt",
+      "translation": "умные системы адаптируются",
+      "audio": [
+        "audio/phrases/smart systems adapt.wav"
+      ]
+    },
+    {
+      "id": "robotics-advances-rapidly",
+      "english": "robotics advances rapidly",
+      "translation": "робототехника быстро развивается",
+      "audio": [
+        "audio/phrases/robotics advances rapidly.wav"
+      ]
+    },
+    {
+      "id": "vehicle-autonomy-increases",
+      "english": "vehicle autonomy increases",
+      "translation": "автономность транспорта растёт",
+      "audio": [
+        "audio/phrases/vehicle autonomy increases.wav"
+      ]
+    },
+    {
+      "id": "global-connectivity-expands",
+      "english": "global connectivity expands",
+      "translation": "глобальная связанность расширяется",
+      "audio": [
+        "audio/phrases/global connectivity expands.wav"
+      ]
+    },
+    {
+      "id": "5g-network-rollout",
+      "english": "5G network rollout",
+      "translation": "развёртывание сети 5G",
+      "audio": [
+        "audio/phrases/5G network rollout.wav"
+      ]
+    },
+    {
+      "id": "internet-of-things-connects",
+      "english": "internet of things connects",
+      "translation": "интернет вещей соединяет",
+      "audio": [
+        "audio/phrases/internet of things connects.wav"
+      ]
+    },
+    {
+      "id": "virtual-reality-experience",
+      "english": "virtual reality experience",
+      "translation": "опыт виртуальной реальности",
+      "audio": [
+        "audio/phrases/virtual reality experience.wav"
+      ]
+    },
+    {
+      "id": "augmented-reality-layers",
+      "english": "augmented reality layers",
+      "translation": "слои дополненной реальности",
+      "audio": [
+        "audio/phrases/augmented reality layers.wav"
+      ]
+    },
+    {
+      "id": "metaverse-platforms-emerge",
+      "english": "metaverse platforms emerge",
+      "translation": "платформы метавселенной появляются",
+      "audio": [
+        "audio/phrases/metaverse platforms emerge.wav"
+      ]
+    },
+    {
+      "id": "digital-twin-model",
+      "english": "digital twin model",
+      "translation": "модель цифрового двойника",
+      "audio": [
+        "audio/phrases/digital twin model.wav"
+      ]
+    },
+    {
+      "id": "system-simulation-testing",
+      "english": "system simulation testing",
+      "translation": "тестирование через симуляцию",
+      "audio": [
+        "audio/phrases/system simulation testing.wav"
+      ]
+    },
+    {
+      "id": "sustainability-goals-defined",
+      "english": "sustainability goals defined",
+      "translation": "цели устойчивого развития определены",
+      "audio": [
+        "audio/phrases/sustainability goals defined.wav"
+      ]
+    },
+    {
+      "id": "green-technology-solutions",
+      "english": "green technology solutions",
+      "translation": "решения зелёных технологий",
+      "audio": [
+        "audio/phrases/green technology solutions.wav"
+      ]
+    },
+    {
+      "id": "energy-efficiency-improves",
+      "english": "energy efficiency improves",
+      "translation": "энергоэффективность повышается",
+      "audio": [
+        "audio/phrases/energy efficiency improves.wav"
+      ]
+    },
+    {
+      "id": "smart-city-solutions",
+      "english": "smart city solutions",
+      "translation": "решения умного города",
+      "audio": [
+        "audio/phrases/smart city solutions.wav"
+      ]
+    },
+    {
+      "id": "urban-mobility-shifts",
+      "english": "urban mobility shifts",
+      "translation": "городская мобильность меняется",
+      "audio": [
+        "audio/phrases/urban mobility shifts.wav"
+      ]
+    },
+    {
+      "id": "user-experience-design",
+      "english": "user experience design",
+      "translation": "дизайн пользовательского опыта",
+      "audio": [
+        "audio/phrases/user experience design.wav"
+      ]
+    },
+    {
+      "id": "human-centered-design-approach",
+      "english": "human-centered design approach",
+      "translation": "подход дизайна, ориентированного на человека",
+      "audio": [
+        "audio/phrases/human-centered design approach.wav"
+      ]
+    },
+    {
+      "id": "rapid-adaptation-required",
+      "english": "rapid adaptation required",
+      "translation": "требуется быстрая адаптация",
+      "audio": [
+        "audio/phrases/rapid adaptation required.wav"
+      ]
+    },
+    {
+      "id": "technology-adoption-grows",
+      "english": "technology adoption grows",
+      "translation": "внедрение технологий растёт",
+      "audio": [
+        "audio/phrases/technology adoption grows.wav"
+      ]
+    },
+    {
+      "id": "social-impact-measured",
+      "english": "social impact measured",
+      "translation": "социальное влияние измеряется",
+      "audio": [
+        "audio/phrases/social impact measured.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "theme": "Хобби и развлечения",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "enjoy-a-hobby",
+      "english": "enjoy a hobby",
+      "translation": "наслаждаться хобби",
+      "audio": [
+        "audio/phrases/enjoy a hobby.wav"
+      ]
+    },
+    {
+      "id": "follow-your-interest",
+      "english": "follow your interest",
+      "translation": "следовать своему интересу",
+      "audio": [
+        "audio/phrases/follow your interest.wav"
+      ]
+    },
+    {
+      "id": "spend-leisure-time",
+      "english": "spend leisure time",
+      "translation": "проводить досуг",
+      "audio": [
+        "audio/phrases/spend leisure time.wav"
+      ]
+    },
+    {
+      "id": "use-free-time-wisely",
+      "english": "use free time wisely",
+      "translation": "использовать свободное время с умом",
+      "audio": [
+        "audio/phrases/use free time wisely.wav"
+      ]
+    },
+    {
+      "id": "enjoy-entertainment-options",
+      "english": "enjoy entertainment options",
+      "translation": "наслаждаться развлечениями",
+      "audio": [
+        "audio/phrases/enjoy entertainment options.wav"
+      ]
+    },
+    {
+      "id": "have-fun-together",
+      "english": "have fun together",
+      "translation": "веселиться вместе",
+      "audio": [
+        "audio/phrases/have fun together.wav"
+      ]
+    },
+    {
+      "id": "practice-relaxation-techniques",
+      "english": "practice relaxation techniques",
+      "translation": "практиковать техники расслабления",
+      "audio": [
+        "audio/phrases/practice relaxation techniques.wav"
+      ]
+    },
+    {
+      "id": "face-the-challenge",
+      "english": "face the challenge",
+      "translation": "принять вызов",
+      "audio": [
+        "audio/phrases/face the challenge.wav"
+      ]
+    },
+    {
+      "id": "listen-to-music",
+      "english": "listen to music",
+      "translation": "слушать музыку",
+      "audio": [
+        "audio/phrases/listen to music.wav"
+      ]
+    },
+    {
+      "id": "attend-a-concert",
+      "english": "attend a concert",
+      "translation": "посетить концерт",
+      "audio": [
+        "audio/phrases/attend a concert.wav"
+      ]
+    },
+    {
+      "id": "create-a-playlist",
+      "english": "create a playlist",
+      "translation": "создать плейлист",
+      "audio": [
+        "audio/phrases/create a playlist.wav"
+      ]
+    },
+    {
+      "id": "listen-to-podcast",
+      "english": "listen to podcast",
+      "translation": "слушать подкаст",
+      "audio": [
+        "audio/phrases/listen to podcast.wav"
+      ]
+    },
+    {
+      "id": "enjoy-audiobook-reading",
+      "english": "enjoy audiobook reading",
+      "translation": "наслаждаться аудиокнигой",
+      "audio": [
+        "audio/phrases/enjoy audiobook reading.wav"
+      ]
+    },
+    {
+      "id": "watch-a-movie",
+      "english": "watch a movie",
+      "translation": "смотреть фильм",
+      "audio": [
+        "audio/phrases/watch a movie.wav"
+      ]
+    },
+    {
+      "id": "follow-a-series",
+      "english": "follow a series",
+      "translation": "смотреть сериал",
+      "audio": [
+        "audio/phrases/follow a series.wav"
+      ]
+    },
+    {
+      "id": "use-streaming-service",
+      "english": "use streaming service",
+      "translation": "использовать стриминговый сервис",
+      "audio": [
+        "audio/phrases/use streaming service.wav"
+      ]
+    },
+    {
+      "id": "watch-next-episode",
+      "english": "watch next episode",
+      "translation": "посмотреть следующий эпизод",
+      "audio": [
+        "audio/phrases/watch next episode.wav"
+      ]
+    },
+    {
+      "id": "explore-different-genre",
+      "english": "explore different genre",
+      "translation": "исследовать разные жанры",
+      "audio": [
+        "audio/phrases/explore different genre.wav"
+      ]
+    },
+    {
+      "id": "play-a-game",
+      "english": "play a game",
+      "translation": "играть в игру",
+      "audio": [
+        "audio/phrases/play a game.wav"
+      ]
+    },
+    {
+      "id": "play-gaming-sessions",
+      "english": "play gaming sessions",
+      "translation": "играть в игровые сессии",
+      "audio": [
+        "audio/phrases/play gaming sessions.wav"
+      ]
+    },
+    {
+      "id": "set-up-console-quickly",
+      "english": "set up console quickly",
+      "translation": "быстро настроить консоль",
+      "audio": [
+        "audio/phrases/set up console quickly.wav"
+      ]
+    },
+    {
+      "id": "join-multiplayer-game",
+      "english": "join multiplayer game",
+      "translation": "присоединиться к многопользовательской игре",
+      "audio": [
+        "audio/phrases/join multiplayer game.wav"
+      ]
+    },
+    {
+      "id": "plan-a-strategy",
+      "english": "plan a strategy",
+      "translation": "планировать стратегию",
+      "audio": [
+        "audio/phrases/plan a strategy.wav"
+      ]
+    },
+    {
+      "id": "enjoy-reading-books",
+      "english": "enjoy reading books",
+      "translation": "наслаждаться чтением книг",
+      "audio": [
+        "audio/phrases/enjoy reading books.wav"
+      ]
+    },
+    {
+      "id": "practice-writing-skills",
+      "english": "practice writing skills",
+      "translation": "практиковать навыки письма",
+      "audio": [
+        "audio/phrases/practice writing skills.wav"
+      ]
+    },
+    {
+      "id": "update-blog-content",
+      "english": "update blog content",
+      "translation": "обновлять контент блога",
+      "audio": [
+        "audio/phrases/update blog content.wav"
+      ]
+    },
+    {
+      "id": "learn-photography-techniques",
+      "english": "learn photography techniques",
+      "translation": "изучать техники фотографии",
+      "audio": [
+        "audio/phrases/learn photography techniques.wav"
+      ]
+    },
+    {
+      "id": "practice-video-editing",
+      "english": "practice video editing",
+      "translation": "практиковать видеомонтаж",
+      "audio": [
+        "audio/phrases/practice video editing.wav"
+      ]
+    },
+    {
+      "id": "enjoy-traveling-abroad",
+      "english": "enjoy traveling abroad",
+      "translation": "наслаждаться путешествиями за границей",
+      "audio": [
+        "audio/phrases/enjoy traveling abroad.wav"
+      ]
+    },
+    {
+      "id": "seek-adventure-daily",
+      "english": "seek adventure daily",
+      "translation": "искать приключения каждый день",
+      "audio": [
+        "audio/phrases/seek adventure daily.wav"
+      ]
+    },
+    {
+      "id": "join-exploration-trip",
+      "english": "join exploration trip",
+      "translation": "присоединиться к исследовательской поездке",
+      "audio": [
+        "audio/phrases/join exploration trip.wav"
+      ]
+    },
+    {
+      "id": "plan-camping-trip",
+      "english": "plan camping trip",
+      "translation": "планировать поездку в кемпинг",
+      "audio": [
+        "audio/phrases/plan camping trip.wav"
+      ]
+    },
+    {
+      "id": "go-hiking-trails",
+      "english": "go hiking trails",
+      "translation": "ходить по походным тропам",
+      "audio": [
+        "audio/phrases/go hiking trails.wav"
+      ]
+    },
+    {
+      "id": "develop-creative-ideas",
+      "english": "develop creative ideas",
+      "translation": "развивать творческие идеи",
+      "audio": [
+        "audio/phrases/develop creative ideas.wav"
+      ]
+    },
+    {
+      "id": "expand-collection-slowly",
+      "english": "expand collection slowly",
+      "translation": "расширять коллекцию постепенно",
+      "audio": [
+        "audio/phrases/expand collection slowly.wav"
+      ]
+    },
+    {
+      "id": "study-design-patterns",
+      "english": "study design patterns",
+      "translation": "изучать паттерны дизайна",
+      "audio": [
+        "audio/phrases/study design patterns.wav"
+      ]
+    },
+    {
+      "id": "try-diy-projects",
+      "english": "try DIY projects",
+      "translation": "пробовать проекты сделай сам",
+      "audio": [
+        "audio/phrases/try DIY projects.wav"
+      ]
+    },
+    {
+      "id": "engage-in-an-activity",
+      "english": "engage in an activity",
+      "translation": "заниматься активностью",
+      "audio": [
+        "audio/phrases/engage in an activity.wav"
+      ]
+    },
+    {
+      "id": "gain-experience-quickly",
+      "english": "gain experience quickly",
+      "translation": "быстро получить опыт",
+      "audio": [
+        "audio/phrases/gain experience quickly.wav"
+      ]
+    },
+    {
+      "id": "learn-craft-skills",
+      "english": "learn craft skills",
+      "translation": "изучать навыки рукоделия",
+      "audio": [
+        "audio/phrases/learn craft skills.wav"
+      ]
+    }
+  ]
+}

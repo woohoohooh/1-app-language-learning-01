@@ -1,0 +1,711 @@
+{
+  "theme": "Частые слова (база)",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "i",
+      "english": "I",
+      "translation": "я",
+      "audio": [
+        "audio/words/I.wav"
+      ]
+    },
+    {
+      "id": "you",
+      "english": "you",
+      "translation": "ты",
+      "audio": [
+        "audio/words/you.wav"
+      ]
+    },
+    {
+      "id": "he",
+      "english": "he",
+      "translation": "он",
+      "audio": [
+        "audio/words/he.wav"
+      ]
+    },
+    {
+      "id": "she",
+      "english": "she",
+      "translation": "она",
+      "audio": [
+        "audio/words/she.wav"
+      ]
+    },
+    {
+      "id": "we",
+      "english": "we",
+      "translation": "мы",
+      "audio": [
+        "audio/words/we.wav"
+      ]
+    },
+    {
+      "id": "they",
+      "english": "they",
+      "translation": "они",
+      "audio": [
+        "audio/words/they.wav"
+      ]
+    },
+    {
+      "id": "be",
+      "english": "be",
+      "translation": "быть",
+      "audio": [
+        "audio/words/be.wav"
+      ]
+    },
+    {
+      "id": "have",
+      "english": "have",
+      "translation": "иметь",
+      "audio": [
+        "audio/words/have.wav"
+      ]
+    },
+    {
+      "id": "do",
+      "english": "do",
+      "translation": "делать",
+      "audio": [
+        "audio/words/do.wav"
+      ]
+    },
+    {
+      "id": "say",
+      "english": "say",
+      "translation": "говорить",
+      "audio": [
+        "audio/words/say.wav"
+      ]
+    },
+    {
+      "id": "come",
+      "english": "come",
+      "translation": "приходить",
+      "audio": [
+        "audio/words/come.wav"
+      ]
+    },
+    {
+      "id": "see",
+      "english": "see",
+      "translation": "видеть",
+      "audio": [
+        "audio/words/see.wav"
+      ]
+    },
+    {
+      "id": "hear",
+      "english": "hear",
+      "translation": "слышать",
+      "audio": [
+        "audio/words/hear.wav"
+      ]
+    },
+    {
+      "id": "know",
+      "english": "know",
+      "translation": "знать",
+      "audio": [
+        "audio/words/know.wav"
+      ]
+    },
+    {
+      "id": "think",
+      "english": "think",
+      "translation": "думать",
+      "audio": [
+        "audio/words/think.wav"
+      ]
+    },
+    {
+      "id": "want",
+      "english": "want",
+      "translation": "хотеть",
+      "audio": [
+        "audio/words/want.wav"
+      ]
+    },
+    {
+      "id": "need",
+      "english": "need",
+      "translation": "нуждаться",
+      "audio": [
+        "audio/words/need.wav"
+      ]
+    },
+    {
+      "id": "like",
+      "english": "like",
+      "translation": "нравиться",
+      "audio": [
+        "audio/words/like.wav"
+      ]
+    },
+    {
+      "id": "use",
+      "english": "use",
+      "translation": "использовать",
+      "audio": [
+        "audio/words/use.wav"
+      ]
+    },
+    {
+      "id": "try",
+      "english": "try",
+      "translation": "пытаться",
+      "audio": [
+        "audio/words/try.wav"
+      ]
+    },
+    {
+      "id": "ask",
+      "english": "ask",
+      "translation": "спрашивать",
+      "audio": [
+        "audio/words/ask.wav"
+      ]
+    },
+    {
+      "id": "give",
+      "english": "give",
+      "translation": "давать",
+      "audio": [
+        "audio/words/give.wav"
+      ]
+    },
+    {
+      "id": "take",
+      "english": "take",
+      "translation": "брать",
+      "audio": [
+        "audio/words/take.wav"
+      ]
+    },
+    {
+      "id": "find",
+      "english": "find",
+      "translation": "находить",
+      "audio": [
+        "audio/words/find.wav"
+      ]
+    },
+    {
+      "id": "tell",
+      "english": "tell",
+      "translation": "рассказывать",
+      "audio": [
+        "audio/words/tell.wav"
+      ]
+    },
+    {
+      "id": "feel",
+      "english": "feel",
+      "translation": "чувствовать",
+      "audio": [
+        "audio/words/feel.wav"
+      ]
+    },
+    {
+      "id": "bring",
+      "english": "bring",
+      "translation": "приносить",
+      "audio": [
+        "audio/words/bring.wav"
+      ]
+    },
+    {
+      "id": "time",
+      "english": "time",
+      "translation": "время",
+      "audio": [
+        "audio/words/time.wav"
+      ]
+    },
+    {
+      "id": "day",
+      "english": "day",
+      "translation": "день",
+      "audio": [
+        "audio/words/day.wav"
+      ]
+    },
+    {
+      "id": "year",
+      "english": "year",
+      "translation": "год",
+      "audio": [
+        "audio/words/year.wav"
+      ]
+    },
+    {
+      "id": "people",
+      "english": "people",
+      "translation": "люди",
+      "audio": [
+        "audio/words/people.wav"
+      ]
+    },
+    {
+      "id": "person",
+      "english": "person",
+      "translation": "человек",
+      "audio": [
+        "audio/words/person.wav"
+      ]
+    },
+    {
+      "id": "life",
+      "english": "life",
+      "translation": "жизнь",
+      "audio": [
+        "audio/words/life.wav"
+      ]
+    },
+    {
+      "id": "thing",
+      "english": "thing",
+      "translation": "вещь",
+      "audio": [
+        "audio/words/thing.wav"
+      ]
+    },
+    {
+      "id": "place",
+      "english": "place",
+      "translation": "место",
+      "audio": [
+        "audio/words/place.wav"
+      ]
+    },
+    {
+      "id": "problem",
+      "english": "problem",
+      "translation": "проблема",
+      "audio": [
+        "audio/words/problem.wav"
+      ]
+    },
+    {
+      "id": "question",
+      "english": "question",
+      "translation": "вопрос",
+      "audio": [
+        "audio/words/question.wav"
+      ]
+    },
+    {
+      "id": "home",
+      "english": "home",
+      "translation": "дом",
+      "audio": [
+        "audio/words/home.wav"
+      ]
+    },
+    {
+      "id": "world",
+      "english": "world",
+      "translation": "мир",
+      "audio": [
+        "audio/words/world.wav"
+      ]
+    },
+    {
+      "id": "friend",
+      "english": "friend",
+      "translation": "друг",
+      "audio": [
+        "audio/words/friend.wav"
+      ]
+    },
+    {
+      "id": "family",
+      "english": "family",
+      "translation": "семья",
+      "audio": [
+        "audio/words/family.wav"
+      ]
+    },
+    {
+      "id": "good",
+      "english": "good",
+      "translation": "хороший",
+      "audio": [
+        "audio/words/good.wav"
+      ]
+    },
+    {
+      "id": "bad",
+      "english": "bad",
+      "translation": "плохой",
+      "audio": [
+        "audio/words/bad.wav"
+      ]
+    },
+    {
+      "id": "big",
+      "english": "big",
+      "translation": "большой",
+      "audio": [
+        "audio/words/big.wav"
+      ]
+    },
+    {
+      "id": "small",
+      "english": "small",
+      "translation": "маленький",
+      "audio": [
+        "audio/words/small.wav"
+      ]
+    },
+    {
+      "id": "new",
+      "english": "new",
+      "translation": "новый",
+      "audio": [
+        "audio/words/new.wav"
+      ]
+    },
+    {
+      "id": "old",
+      "english": "old",
+      "translation": "старый",
+      "audio": [
+        "audio/words/old.wav"
+      ]
+    },
+    {
+      "id": "same",
+      "english": "same",
+      "translation": "одинаковый",
+      "audio": [
+        "audio/words/same.wav"
+      ]
+    },
+    {
+      "id": "different",
+      "english": "different",
+      "translation": "разный",
+      "audio": [
+        "audio/words/different.wav"
+      ]
+    },
+    {
+      "id": "important",
+      "english": "important",
+      "translation": "важный",
+      "audio": [
+        "audio/words/important.wav"
+      ]
+    },
+    {
+      "id": "easy",
+      "english": "easy",
+      "translation": "лёгкий",
+      "audio": [
+        "audio/words/easy.wav"
+      ]
+    },
+    {
+      "id": "hard",
+      "english": "hard",
+      "translation": "трудный",
+      "audio": [
+        "audio/words/hard.wav"
+      ]
+    },
+    {
+      "id": "wrong",
+      "english": "wrong",
+      "translation": "неправильный",
+      "audio": [
+        "audio/words/wrong.wav"
+      ]
+    },
+    {
+      "id": "very",
+      "english": "very",
+      "translation": "очень",
+      "audio": [
+        "audio/words/very.wav"
+      ]
+    },
+    {
+      "id": "really",
+      "english": "really",
+      "translation": "действительно",
+      "audio": [
+        "audio/words/really.wav"
+      ]
+    },
+    {
+      "id": "only",
+      "english": "only",
+      "translation": "только",
+      "audio": [
+        "audio/words/only.wav"
+      ]
+    },
+    {
+      "id": "now",
+      "english": "now",
+      "translation": "сейчас",
+      "audio": [
+        "audio/words/now.wav"
+      ]
+    },
+    {
+      "id": "here",
+      "english": "here",
+      "translation": "здесь",
+      "audio": [
+        "audio/words/here.wav"
+      ]
+    },
+    {
+      "id": "there",
+      "english": "there",
+      "translation": "там",
+      "audio": [
+        "audio/words/there.wav"
+      ]
+    },
+    {
+      "id": "always",
+      "english": "always",
+      "translation": "всегда",
+      "audio": [
+        "audio/words/always.wav"
+      ]
+    },
+    {
+      "id": "often",
+      "english": "often",
+      "translation": "часто",
+      "audio": [
+        "audio/words/often.wav"
+      ]
+    },
+    {
+      "id": "sometimes",
+      "english": "sometimes",
+      "translation": "иногда",
+      "audio": [
+        "audio/words/sometimes.wav"
+      ]
+    },
+    {
+      "id": "never",
+      "english": "never",
+      "translation": "никогда",
+      "audio": [
+        "audio/words/never.wav"
+      ]
+    },
+    {
+      "id": "in",
+      "english": "in",
+      "translation": "в",
+      "audio": [
+        "audio/words/in.wav"
+      ]
+    },
+    {
+      "id": "on",
+      "english": "on",
+      "translation": "на",
+      "audio": [
+        "audio/words/on.wav"
+      ]
+    },
+    {
+      "id": "with",
+      "english": "with",
+      "translation": "с",
+      "audio": [
+        "audio/words/with.wav"
+      ]
+    },
+    {
+      "id": "without",
+      "english": "without",
+      "translation": "без",
+      "audio": [
+        "audio/words/without.wav"
+      ]
+    },
+    {
+      "id": "for",
+      "english": "for",
+      "translation": "для",
+      "audio": [
+        "audio/words/for.wav"
+      ]
+    },
+    {
+      "id": "before",
+      "english": "before",
+      "translation": "до",
+      "audio": [
+        "audio/words/before.wav"
+      ]
+    },
+    {
+      "id": "after",
+      "english": "after",
+      "translation": "после",
+      "audio": [
+        "audio/words/after.wav"
+      ]
+    },
+    {
+      "id": "what",
+      "english": "what",
+      "translation": "что",
+      "audio": [
+        "audio/words/what.wav"
+      ]
+    },
+    {
+      "id": "who",
+      "english": "who",
+      "translation": "кто",
+      "audio": [
+        "audio/words/who.wav"
+      ]
+    },
+    {
+      "id": "where",
+      "english": "where",
+      "translation": "где",
+      "audio": [
+        "audio/words/where.wav"
+      ]
+    },
+    {
+      "id": "when",
+      "english": "when",
+      "translation": "когда",
+      "audio": [
+        "audio/words/when.wav"
+      ]
+    },
+    {
+      "id": "why",
+      "english": "why",
+      "translation": "почему",
+      "audio": [
+        "audio/words/why.wav"
+      ]
+    },
+    {
+      "id": "how",
+      "english": "how",
+      "translation": "как",
+      "audio": [
+        "audio/words/how.wav"
+      ]
+    },
+    {
+      "id": "it",
+      "english": "it",
+      "translation": "это",
+      "audio": [
+        "audio/words/it.wav"
+      ]
+    },
+    {
+      "id": "make",
+      "english": "make",
+      "translation": "делать",
+      "audio": [
+        "audio/words/make.wav"
+      ]
+    },
+    {
+      "id": "go",
+      "english": "go",
+      "translation": "идти",
+      "audio": [
+        "audio/words/go.wav"
+      ]
+    },
+    {
+      "id": "work",
+      "english": "work",
+      "translation": "работать",
+      "audio": [
+        "audio/words/work.wav"
+      ]
+    },
+    {
+      "id": "leave",
+      "english": "leave",
+      "translation": "уходить",
+      "audio": [
+        "audio/words/leave.wav"
+      ]
+    },
+    {
+      "id": "way",
+      "english": "way",
+      "translation": "способ",
+      "audio": [
+        "audio/words/way.wav"
+      ]
+    },
+    {
+      "id": "right",
+      "english": "right",
+      "translation": "правильный",
+      "audio": [
+        "audio/words/right.wav"
+      ]
+    },
+    {
+      "id": "just",
+      "english": "just",
+      "translation": "только что",
+      "audio": [
+        "audio/words/just.wav"
+      ]
+    },
+    {
+      "id": "at",
+      "english": "at",
+      "translation": "у",
+      "audio": [
+        "audio/words/at.wav"
+      ]
+    },
+    {
+      "id": "to",
+      "english": "to",
+      "translation": "к",
+      "audio": [
+        "audio/words/to.wav"
+      ]
+    },
+    {
+      "id": "from",
+      "english": "from",
+      "translation": "из",
+      "audio": [
+        "audio/words/from.wav"
+      ]
+    },
+    {
+      "id": "about",
+      "english": "about",
+      "translation": "о",
+      "audio": [
+        "audio/words/about.wav"
+      ]
+    }
+  ]
+}

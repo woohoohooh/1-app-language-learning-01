@@ -1,0 +1,232 @@
+{
+  "theme": "Маркетинг и реклама",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "marketing",
+      "english": "marketing",
+      "translation": "маркетинг"
+    },
+    {
+      "id": "advertising",
+      "english": "advertising",
+      "translation": "реклама"
+    },
+    {
+      "id": "brand",
+      "english": "brand",
+      "translation": "бренд"
+    },
+    {
+      "id": "branding",
+      "english": "branding",
+      "translation": "брендинг"
+    },
+    {
+      "id": "awareness",
+      "english": "awareness",
+      "translation": "узнаваемость"
+    },
+    {
+      "id": "campaign",
+      "english": "campaign",
+      "translation": "кампания"
+    },
+    {
+      "id": "promotion",
+      "english": "promotion",
+      "translation": "продвижение"
+    },
+    {
+      "id": "launch",
+      "english": "launch",
+      "translation": "запуск"
+    },
+    {
+      "id": "reach",
+      "english": "reach",
+      "translation": "охват"
+    },
+    {
+      "id": "impression",
+      "english": "impression",
+      "translation": "показ"
+    },
+    {
+      "id": "audience",
+      "english": "audience",
+      "translation": "аудитория"
+    },
+    {
+      "id": "target-audience",
+      "english": "target audience",
+      "translation": "целевая аудитория"
+    },
+    {
+      "id": "segment",
+      "english": "segment",
+      "translation": "сегмент"
+    },
+    {
+      "id": "demographics",
+      "english": "demographics",
+      "translation": "демография"
+    },
+    {
+      "id": "persona",
+      "english": "persona",
+      "translation": "персона"
+    },
+    {
+      "id": "channel",
+      "english": "channel",
+      "translation": "канал"
+    },
+    {
+      "id": "platform",
+      "english": "platform",
+      "translation": "платформа"
+    },
+    {
+      "id": "social-media",
+      "english": "social media",
+      "translation": "социальные сети"
+    },
+    {
+      "id": "email-marketing",
+      "english": "email marketing",
+      "translation": "email-маркетинг"
+    },
+    {
+      "id": "content",
+      "english": "content",
+      "translation": "контент"
+    },
+    {
+      "id": "copy",
+      "english": "copy",
+      "translation": "рекламный текст"
+    },
+    {
+      "id": "headline",
+      "english": "headline",
+      "translation": "заголовок"
+    },
+    {
+      "id": "message",
+      "english": "message",
+      "translation": "сообщение"
+    },
+    {
+      "id": "visual",
+      "english": "visual",
+      "translation": "визуал"
+    },
+    {
+      "id": "creative",
+      "english": "creative",
+      "translation": "креатив"
+    },
+    {
+      "id": "traffic",
+      "english": "traffic",
+      "translation": "трафик"
+    },
+    {
+      "id": "lead",
+      "english": "lead",
+      "translation": "лид"
+    },
+    {
+      "id": "lead-generation",
+      "english": "lead generation",
+      "translation": "лидогенерация"
+    },
+    {
+      "id": "conversion-rate",
+      "english": "conversion rate",
+      "translation": "коэффициент конверсии"
+    },
+    {
+      "id": "bounce-rate",
+      "english": "bounce rate",
+      "translation": "показатель отказов"
+    },
+    {
+      "id": "cost",
+      "english": "cost",
+      "translation": "стоимость"
+    },
+    {
+      "id": "budget",
+      "english": "budget",
+      "translation": "бюджет"
+    },
+    {
+      "id": "roi",
+      "english": "ROI",
+      "translation": "окупаемость инвестиций"
+    },
+    {
+      "id": "cpa",
+      "english": "CPA",
+      "translation": "стоимость за действие"
+    },
+    {
+      "id": "ctr",
+      "english": "CTR",
+      "translation": "кликабельность"
+    },
+    {
+      "id": "optimization",
+      "english": "optimization",
+      "translation": "оптимизация"
+    },
+    {
+      "id": "testing",
+      "english": "testing",
+      "translation": "тестирование"
+    },
+    {
+      "id": "performance",
+      "english": "performance",
+      "translation": "эффективность"
+    },
+    {
+      "id": "growth",
+      "english": "growth",
+      "translation": "рост"
+    },
+    {
+      "id": "scaling",
+      "english": "scaling",
+      "translation": "масштабирование"
+    },
+    {
+      "id": "retargeting",
+      "english": "retargeting",
+      "translation": "ретаргетинг"
+    },
+    {
+      "id": "remarketing",
+      "english": "remarketing",
+      "translation": "ремаркетинг"
+    },
+    {
+      "id": "influencer",
+      "english": "influencer",
+      "translation": "инфлюенсер"
+    },
+    {
+      "id": "partnership",
+      "english": "partnership",
+      "translation": "партнёрство"
+    },
+    {
+      "id": "affiliate",
+      "english": "affiliate",
+      "translation": "партнёр"
+    }
+  ]
+}

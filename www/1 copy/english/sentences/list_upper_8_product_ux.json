@@ -1,0 +1,367 @@
+{
+  "theme": "Продукты, UX, разработка",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-product-solves-a-real-user-problem.",
+      "english": "The product solves a real user problem.",
+      "translation": "Продукт решает реальную проблему пользователя.",
+      "audio": [
+        "audio/sentences/The product solves a real user problem..wav"
+      ]
+    },
+    {
+      "id": "this-feature-improves-daily-usage.",
+      "english": "This feature improves daily usage.",
+      "translation": "Эта функция улучшает ежедневное использование.",
+      "audio": [
+        "audio/sentences/This feature improves daily usage..wav"
+      ]
+    },
+    {
+      "id": "the-functionality-meets-business-needs.",
+      "english": "The functionality meets business needs.",
+      "translation": "Функциональность соответствует бизнес-потребностям.",
+      "audio": [
+        "audio/sentences/The functionality meets business needs..wav"
+      ]
+    },
+    {
+      "id": "the-roadmap-outlines-future-development.",
+      "english": "The roadmap outlines future development.",
+      "translation": "Дорожная карта описывает будущее развитие.",
+      "audio": [
+        "audio/sentences/The roadmap outlines future development..wav"
+      ]
+    },
+    {
+      "id": "the-vision-guides-strategic-decisions.",
+      "english": "The vision guides strategic decisions.",
+      "translation": "Видение направляет стратегические решения.",
+      "audio": [
+        "audio/sentences/The vision guides strategic decisions..wav"
+      ]
+    },
+    {
+      "id": "the-strategy-balances-risk-and-reward.",
+      "english": "The strategy balances risk and reward.",
+      "translation": "Стратегия балансирует риск и выгоду.",
+      "audio": [
+        "audio/sentences/The strategy balances risk and reward..wav"
+      ]
+    },
+    {
+      "id": "each-goal-requires-measurable-outcomes.",
+      "english": "Each goal requires measurable outcomes.",
+      "translation": "Каждая цель требует измеримых результатов.",
+      "audio": [
+        "audio/sentences/Each goal requires measurable outcomes..wav"
+      ]
+    },
+    {
+      "id": "customer-value-became-the-priority.",
+      "english": "Customer value became the priority.",
+      "translation": "Ценность для клиента стала приоритетом.",
+      "audio": [
+        "audio/sentences/Customer value became the priority..wav"
+      ]
+    },
+    {
+      "id": "the-scope-changed-during-development.",
+      "english": "The scope changed during development.",
+      "translation": "Объём работ изменился в ходе разработки.",
+      "audio": [
+        "audio/sentences/The scope changed during development..wav"
+      ]
+    },
+    {
+      "id": "each-requirement-must-be-documented.",
+      "english": "Each requirement must be documented.",
+      "translation": "Каждое требование должно быть задокументировано.",
+      "audio": [
+        "audio/sentences/Each requirement must be documented..wav"
+      ]
+    },
+    {
+      "id": "the-user-expects-fast-interactions.",
+      "english": "The user expects fast interactions.",
+      "translation": "Пользователь ожидает быстрых взаимодействий.",
+      "audio": [
+        "audio/sentences/The user expects fast interactions..wav"
+      ]
+    },
+    {
+      "id": "the-customer-influences-product-direction.",
+      "english": "The customer influences product direction.",
+      "translation": "Клиент влияет на направление продукта.",
+      "audio": [
+        "audio/sentences/The customer influences product direction..wav"
+      ]
+    },
+    {
+      "id": "user-experience-impacts-long-term-retention.",
+      "english": "User experience impacts long-term retention.",
+      "translation": "Пользовательский опыт влияет на долгосрочное удержание.",
+      "audio": [
+        "audio/sentences/User experience impacts long-term retention..wav"
+      ]
+    },
+    {
+      "id": "the-user-interface-feels-intuitive.",
+      "english": "The user interface feels intuitive.",
+      "translation": "Пользовательский интерфейс кажется интуитивным.",
+      "audio": [
+        "audio/sentences/The user interface feels intuitive..wav"
+      ]
+    },
+    {
+      "id": "usability-testing-revealed-several-issues.",
+      "english": "Usability testing revealed several issues.",
+      "translation": "Тестирование удобства выявило несколько проблем.",
+      "audio": [
+        "audio/sentences/Usability testing revealed several issues..wav"
+      ]
+    },
+    {
+      "id": "design-supports-brand-perception.",
+      "english": "Design supports brand perception.",
+      "translation": "Дизайн поддерживает восприятие бренда.",
+      "audio": [
+        "audio/sentences/Design supports brand perception..wav"
+      ]
+    },
+    {
+      "id": "the-layout-adapts-to-screen-sizes.",
+      "english": "The layout adapts to screen sizes.",
+      "translation": "Расположение элементов адаптируется к экранам.",
+      "audio": [
+        "audio/sentences/The layout adapts to screen sizes..wav"
+      ]
+    },
+    {
+      "id": "the-prototype-demonstrates-core-ideas.",
+      "english": "The prototype demonstrates core ideas.",
+      "translation": "Прототип демонстрирует основные идеи.",
+      "audio": [
+        "audio/sentences/The prototype demonstrates core ideas..wav"
+      ]
+    },
+    {
+      "id": "wireframes-focus-on-information-flow.",
+      "english": "Wireframes focus on information flow.",
+      "translation": "Вайрфреймы фокусируются на потоке информации.",
+      "audio": [
+        "audio/sentences/Wireframes focus on information flow..wav"
+      ]
+    },
+    {
+      "id": "the-mockup-reflects-the-final-style.",
+      "english": "The mockup reflects the final style.",
+      "translation": "Макет отражает финальный стиль.",
+      "audio": [
+        "audio/sentences/The mockup reflects the final style..wav"
+      ]
+    },
+    {
+      "id": "feedback-helps-refine-product-decisions.",
+      "english": "Feedback helps refine product decisions.",
+      "translation": "Обратная связь помогает уточнять решения.",
+      "audio": [
+        "audio/sentences/Feedback helps refine product decisions..wav"
+      ]
+    },
+    {
+      "id": "each-iteration-improves-overall-quality.",
+      "english": "Each iteration improves overall quality.",
+      "translation": "Каждая итерация повышает общее качество.",
+      "audio": [
+        "audio/sentences/Each iteration improves overall quality..wav"
+      ]
+    },
+    {
+      "id": "improvement-requires-consistent-effort.",
+      "english": "Improvement requires consistent effort.",
+      "translation": "Улучшение требует постоянных усилий.",
+      "audio": [
+        "audio/sentences/Improvement requires consistent effort..wav"
+      ]
+    },
+    {
+      "id": "the-update-fixed-critical-issues.",
+      "english": "The update fixed critical issues.",
+      "translation": "Обновление исправило критические проблемы.",
+      "audio": [
+        "audio/sentences/The update fixed critical issues..wav"
+      ]
+    },
+    {
+      "id": "this-metric-shows-real-user-behavior.",
+      "english": "This metric shows real user behavior.",
+      "translation": "Эта метрика показывает реальное поведение пользователей.",
+      "audio": [
+        "audio/sentences/This metric shows real user behavior..wav"
+      ]
+    },
+    {
+      "id": "analytics-helps-teams-make-informed-decisions.",
+      "english": "Analytics helps teams make informed decisions.",
+      "translation": "Аналитика помогает командам принимать обоснованные решения.",
+      "audio": [
+        "audio/sentences/Analytics helps teams make informed decisions..wav"
+      ]
+    },
+    {
+      "id": "small-changes-can-improve-conversion-significantly.",
+      "english": "Small changes can improve conversion significantly.",
+      "translation": "Небольшие изменения могут значительно улучшить конверсию.",
+      "audio": [
+        "audio/sentences/Small changes can improve conversion significantly..wav"
+      ]
+    },
+    {
+      "id": "retention-reflects-long-term-product-value.",
+      "english": "Retention reflects long-term product value.",
+      "translation": "Удержание отражает долгосрочную ценность продукта.",
+      "audio": [
+        "audio/sentences/Retention reflects long-term product value..wav"
+      ]
+    },
+    {
+      "id": "high-engagement-often-leads-to-better-retention.",
+      "english": "High engagement often leads to better retention.",
+      "translation": "Высокая вовлечённость часто ведёт к лучшему удержанию.",
+      "audio": [
+        "audio/sentences/High engagement often leads to better retention..wav"
+      ]
+    },
+    {
+      "id": "the-team-tested-a-new-hypothesis.",
+      "english": "The team tested a new hypothesis.",
+      "translation": "Команда протестировала новую гипотезу.",
+      "audio": [
+        "audio/sentences/The team tested a new hypothesis..wav"
+      ]
+    },
+    {
+      "id": "each-experiment-provides-useful-insights.",
+      "english": "Each experiment provides useful insights.",
+      "translation": "Каждый эксперимент даёт полезные инсайты.",
+      "audio": [
+        "audio/sentences/Each experiment provides useful insights..wav"
+      ]
+    },
+    {
+      "id": "a/b-testing-compares-two-product-versions.",
+      "english": "A/B testing compares two product versions.",
+      "translation": "A/B тестирование сравнивает две версии продукта.",
+      "audio": [
+        "audio/sentences/A/B testing compares two product versions..wav"
+      ]
+    },
+    {
+      "id": "validation-reduces-product-risks.",
+      "english": "Validation reduces product risks.",
+      "translation": "Проверка снижает продуктовые риски.",
+      "audio": [
+        "audio/sentences/Validation reduces product risks..wav"
+      ]
+    },
+    {
+      "id": "every-assumption-should-be-verified.",
+      "english": "Every assumption should be verified.",
+      "translation": "Каждое предположение должно быть проверено.",
+      "audio": [
+        "audio/sentences/Every assumption should be verified..wav"
+      ]
+    },
+    {
+      "id": "the-backlog-reflects-current-priorities.",
+      "english": "The backlog reflects current priorities.",
+      "translation": "Бэклог отражает текущие приоритеты.",
+      "audio": [
+        "audio/sentences/The backlog reflects current priorities..wav"
+      ]
+    },
+    {
+      "id": "each-task-has-a-clear-goal.",
+      "english": "Each task has a clear goal.",
+      "translation": "Каждая задача имеет чёткую цель.",
+      "audio": [
+        "audio/sentences/Each task has a clear goal..wav"
+      ]
+    },
+    {
+      "id": "the-ticket-describes-the-issue-clearly.",
+      "english": "The ticket describes the issue clearly.",
+      "translation": "Тикет чётко описывает проблему.",
+      "audio": [
+        "audio/sentences/The ticket describes the issue clearly..wav"
+      ]
+    },
+    {
+      "id": "the-estimate-was-more-accurate-than-expected.",
+      "english": "The estimate was more accurate than expected.",
+      "translation": "Оценка оказалась точнее, чем ожидалось.",
+      "audio": [
+        "audio/sentences/The estimate was more accurate than expected..wav"
+      ]
+    },
+    {
+      "id": "the-deadline-was-moved-forward.",
+      "english": "The deadline was moved forward.",
+      "translation": "Дедлайн был перенесён раньше.",
+      "audio": [
+        "audio/sentences/The deadline was moved forward..wav"
+      ]
+    },
+    {
+      "id": "each-stakeholder-has-different-expectations.",
+      "english": "Each stakeholder has different expectations.",
+      "translation": "У каждого стейкхолдера разные ожидания.",
+      "audio": [
+        "audio/sentences/Each stakeholder has different expectations..wav"
+      ]
+    },
+    {
+      "id": "alignment-improves-execution-speed.",
+      "english": "Alignment improves execution speed.",
+      "translation": "Согласованность повышает скорость выполнения.",
+      "audio": [
+        "audio/sentences/Alignment improves execution speed..wav"
+      ]
+    },
+    {
+      "id": "the-decision-was-based-on-data.",
+      "english": "The decision was based on data.",
+      "translation": "Решение было основано на данных.",
+      "audio": [
+        "audio/sentences/The decision was based on data..wav"
+      ]
+    },
+    {
+      "id": "every-feature-involves-a-trade-off.",
+      "english": "Every feature involves a trade-off.",
+      "translation": "Каждая функция предполагает компромисс.",
+      "audio": [
+        "audio/sentences/Every feature involves a trade-off..wav"
+      ]
+    },
+    {
+      "id": "the-outcome-exceeded-initial-expectations.",
+      "english": "The outcome exceeded initial expectations.",
+      "translation": "Результат превзошёл первоначальные ожидания.",
+      "audio": [
+        "audio/sentences/The outcome exceeded initial expectations..wav"
+      ]
+    },
+    {
+      "id": "the-review-identified-design-flaws.",
+      "english": "The review identified design flaws.",
+      "translation": "Ревью выявило недостатки дизайна.",
+      "audio": [
+        "audio/sentences/The review identified design flaws..wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "theme": "Программирование и IT",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "programming",
+      "english": "programming",
+      "translation": "программирование"
+    },
+    {
+      "id": "developer",
+      "english": "developer",
+      "translation": "разработчик"
+    },
+    {
+      "id": "software",
+      "english": "software",
+      "translation": "программное обеспечение"
+    },
+    {
+      "id": "application",
+      "english": "application",
+      "translation": "приложение"
+    },
+    {
+      "id": "system",
+      "english": "system",
+      "translation": "система"
+    },
+    {
+      "id": "code",
+      "english": "code",
+      "translation": "код"
+    },
+    {
+      "id": "source-code",
+      "english": "source code",
+      "translation": "исходный код"
+    },
+    {
+      "id": "function",
+      "english": "function",
+      "translation": "функция"
+    },
+    {
+      "id": "method",
+      "english": "method",
+      "translation": "метод"
+    },
+    {
+      "id": "variable",
+      "english": "variable",
+      "translation": "переменная"
+    },
+    {
+      "id": "logic",
+      "english": "logic",
+      "translation": "логика"
+    },
+    {
+      "id": "algorithm",
+      "english": "algorithm",
+      "translation": "алгоритм"
+    },
+    {
+      "id": "structure",
+      "english": "structure",
+      "translation": "структура"
+    },
+    {
+      "id": "data",
+      "english": "data",
+      "translation": "данные"
+    },
+    {
+      "id": "database",
+      "english": "database",
+      "translation": "база данных"
+    },
+    {
+      "id": "server",
+      "english": "server",
+      "translation": "сервер"
+    },
+    {
+      "id": "client",
+      "english": "client",
+      "translation": "клиент"
+    },
+    {
+      "id": "backend",
+      "english": "backend",
+      "translation": "бэкенд"
+    },
+    {
+      "id": "frontend",
+      "english": "frontend",
+      "translation": "фронтенд"
+    },
+    {
+      "id": "api",
+      "english": "API",
+      "translation": "API"
+    },
+    {
+      "id": "request",
+      "english": "request",
+      "translation": "запрос"
+    },
+    {
+      "id": "response",
+      "english": "response",
+      "translation": "ответ"
+    },
+    {
+      "id": "integration",
+      "english": "integration",
+      "translation": "интеграция"
+    },
+    {
+      "id": "deployment",
+      "english": "deployment",
+      "translation": "развёртывание"
+    },
+    {
+      "id": "environment",
+      "english": "environment",
+      "translation": "окружение"
+    },
+    {
+      "id": "framework",
+      "english": "framework",
+      "translation": "фреймворк"
+    },
+    {
+      "id": "library",
+      "english": "library",
+      "translation": "библиотека"
+    },
+    {
+      "id": "dependency",
+      "english": "dependency",
+      "translation": "зависимость"
+    },
+    {
+      "id": "package",
+      "english": "package",
+      "translation": "пакет"
+    },
+    {
+      "id": "version",
+      "english": "version",
+      "translation": "версия"
+    },
+    {
+      "id": "bug",
+      "english": "bug",
+      "translation": "баг"
+    },
+    {
+      "id": "issue",
+      "english": "issue",
+      "translation": "проблема"
+    },
+    {
+      "id": "fix",
+      "english": "fix",
+      "translation": "исправление"
+    },
+    {
+      "id": "debugging",
+      "english": "debugging",
+      "translation": "отладка"
+    },
+    {
+      "id": "testing",
+      "english": "testing",
+      "translation": "тестирование"
+    },
+    {
+      "id": "performance",
+      "english": "performance",
+      "translation": "производительность"
+    },
+    {
+      "id": "optimization",
+      "english": "optimization",
+      "translation": "оптимизация"
+    },
+    {
+      "id": "security",
+      "english": "security",
+      "translation": "безопасность"
+    },
+    {
+      "id": "access",
+      "english": "access",
+      "translation": "доступ"
+    },
+    {
+      "id": "permission",
+      "english": "permission",
+      "translation": "разрешение"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "theme": "Погода и природа",
+  "level": "Beginner",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "weather",
+      "translation": "погода"
+    },
+    {
+      "english": "nature",
+      "translation": "природа"
+    },
+    {
+      "english": "sun",
+      "translation": "солнце"
+    },
+    {
+      "english": "sunny",
+      "translation": "солнечно"
+    },
+    {
+      "english": "cloud",
+      "translation": "облако"
+    },
+    {
+      "english": "cloudy",
+      "translation": "облачно"
+    },
+    {
+      "english": "rain",
+      "translation": "дождь"
+    },
+    {
+      "english": "rainy",
+      "translation": "дождливо"
+    },
+    {
+      "english": "snow",
+      "translation": "снег"
+    },
+    {
+      "english": "snowy",
+      "translation": "снежно"
+    },
+    {
+      "english": "wind",
+      "translation": "ветер"
+    },
+    {
+      "english": "windy",
+      "translation": "ветрено"
+    },
+    {
+      "english": "hot",
+      "translation": "жарко"
+    },
+    {
+      "english": "warm",
+      "translation": "тепло"
+    },
+    {
+      "english": "cool",
+      "translation": "прохладно"
+    },
+    {
+      "english": "cold",
+      "translation": "холодно"
+    },
+    {
+      "english": "sky",
+      "translation": "небо"
+    },
+    {
+      "english": "air",
+      "translation": "воздух"
+    },
+    {
+      "english": "tree",
+      "translation": "дерево"
+    },
+    {
+      "english": "forest",
+      "translation": "лес"
+    },
+    {
+      "english": "field",
+      "translation": "поле"
+    },
+    {
+      "english": "river",
+      "translation": "река"
+    },
+    {
+      "english": "lake",
+      "translation": "озеро"
+    },
+    {
+      "english": "sea",
+      "translation": "море"
+    },
+    {
+      "english": "mountain",
+      "translation": "гора"
+    },
+    {
+      "english": "day",
+      "translation": "день"
+    },
+    {
+      "english": "night",
+      "translation": "ночь"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "theme": "Лидерство",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "leadership",
+      "english": "leadership",
+      "translation": "лидерство",
+      "audio": [
+        "audio/words/leadership.wav"
+      ]
+    },
+    {
+      "id": "leader",
+      "english": "leader",
+      "translation": "лидер",
+      "audio": [
+        "audio/words/leader.wav"
+      ]
+    },
+    {
+      "id": "authority",
+      "english": "authority",
+      "translation": "авторитет",
+      "audio": [
+        "audio/words/authority.wav"
+      ]
+    },
+    {
+      "id": "responsibility",
+      "english": "responsibility",
+      "translation": "ответственность",
+      "audio": [
+        "audio/words/responsibility.wav"
+      ]
+    },
+    {
+      "id": "ownership",
+      "english": "ownership",
+      "translation": "владение ответственностью",
+      "audio": [
+        "audio/words/ownership.wav"
+      ]
+    },
+    {
+      "id": "vision",
+      "english": "vision",
+      "translation": "видение",
+      "audio": [
+        "audio/words/vision.wav"
+      ]
+    },
+    {
+      "id": "direction",
+      "english": "direction",
+      "translation": "направление",
+      "audio": [
+        "audio/words/direction.wav"
+      ]
+    },
+    {
+      "id": "strategy",
+      "english": "strategy",
+      "translation": "стратегия",
+      "audio": [
+        "audio/words/strategy.wav"
+      ]
+    },
+    {
+      "id": "alignment",
+      "english": "alignment",
+      "translation": "согласованность",
+      "audio": [
+        "audio/words/alignment.wav"
+      ]
+    },
+    {
+      "id": "priority",
+      "english": "priority",
+      "translation": "приоритет",
+      "audio": [
+        "audio/words/priority.wav"
+      ]
+    },
+    {
+      "id": "initiative",
+      "english": "initiative",
+      "translation": "инициатива",
+      "audio": [
+        "audio/words/initiative.wav"
+      ]
+    },
+    {
+      "id": "accountability",
+      "english": "accountability",
+      "translation": "подотчётность",
+      "audio": [
+        "audio/words/accountability.wav"
+      ]
+    },
+    {
+      "id": "empowerment",
+      "english": "empowerment",
+      "translation": "делегирование полномочий",
+      "audio": [
+        "audio/words/empowerment.wav"
+      ]
+    },
+    {
+      "id": "delegation",
+      "english": "delegation",
+      "translation": "делегирование",
+      "audio": [
+        "audio/words/delegation.wav"
+      ]
+    },
+    {
+      "id": "autonomy",
+      "english": "autonomy",
+      "translation": "самостоятельность",
+      "audio": [
+        "audio/words/autonomy.wav"
+      ]
+    },
+    {
+      "id": "influence",
+      "english": "influence",
+      "translation": "влияние",
+      "audio": [
+        "audio/words/influence.wav"
+      ]
+    },
+    {
+      "id": "credibility",
+      "english": "credibility",
+      "translation": "доверие",
+      "audio": [
+        "audio/words/credibility.wav"
+      ]
+    },
+    {
+      "id": "trust",
+      "english": "trust",
+      "translation": "доверие",
+      "audio": [
+        "audio/words/trust.wav"
+      ]
+    },
+    {
+      "id": "respect",
+      "english": "respect",
+      "translation": "уважение",
+      "audio": [
+        "audio/words/respect.wav"
+      ]
+    },
+    {
+      "id": "integrity",
+      "english": "integrity",
+      "translation": "честность",
+      "audio": [
+        "audio/words/integrity.wav"
+      ]
+    },
+    {
+      "id": "mentorship",
+      "english": "mentorship",
+      "translation": "наставничество",
+      "audio": [
+        "audio/words/mentorship.wav"
+      ]
+    },
+    {
+      "id": "coaching",
+      "english": "coaching",
+      "translation": "коучинг",
+      "audio": [
+        "audio/words/coaching.wav"
+      ]
+    },
+    {
+      "id": "development",
+      "english": "development",
+      "translation": "развитие",
+      "audio": [
+        "audio/words/development.wav"
+      ]
+    },
+    {
+      "id": "growth",
+      "english": "growth",
+      "translation": "рост",
+      "audio": [
+        "audio/words/growth.wav"
+      ]
+    },
+    {
+      "id": "potential",
+      "english": "potential",
+      "translation": "потенциал",
+      "audio": [
+        "audio/words/potential.wav"
+      ]
+    },
+    {
+      "id": "motivation",
+      "english": "motivation",
+      "translation": "мотивация",
+      "audio": [
+        "audio/words/motivation.wav"
+      ]
+    },
+    {
+      "id": "commitment",
+      "english": "commitment",
+      "translation": "приверженность",
+      "audio": [
+        "audio/words/commitment.wav"
+      ]
+    },
+    {
+      "id": "engagement",
+      "english": "engagement",
+      "translation": "вовлечённость",
+      "audio": [
+        "audio/words/engagement.wav"
+      ]
+    },
+    {
+      "id": "performance",
+      "english": "performance",
+      "translation": "результативность",
+      "audio": [
+        "audio/words/performance.wav"
+      ]
+    },
+    {
+      "id": "execution",
+      "english": "execution",
+      "translation": "исполнение",
+      "audio": [
+        "audio/words/execution.wav"
+      ]
+    },
+    {
+      "id": "ownership-mindset",
+      "english": "ownership mindset",
+      "translation": "мышление ответственности",
+      "audio": [
+        "audio/words/ownership mindset.wav"
+      ]
+    },
+    {
+      "id": "role-model",
+      "english": "role model",
+      "translation": "пример для подражания",
+      "audio": [
+        "audio/words/role model.wav"
+      ]
+    },
+    {
+      "id": "decision-maker",
+      "english": "decision-maker",
+      "translation": "лицо, принимающее решения",
+      "audio": [
+        "audio/words/decision-maker.wav"
+      ]
+    },
+    {
+      "id": "stakeholder",
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона",
+      "audio": [
+        "audio/words/stakeholder.wav"
+      ]
+    },
+    {
+      "id": "successor",
+      "english": "successor",
+      "translation": "преемник",
+      "audio": [
+        "audio/words/successor.wav"
+      ]
+    }
+  ]
+}

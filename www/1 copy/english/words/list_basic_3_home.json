@@ -1,0 +1,327 @@
+{
+  "theme": "Дом и быт",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "house",
+      "english": "house",
+      "translation": "дом",
+      "audio": [
+        "audio/words/house.wav"
+      ]
+    },
+    {
+      "id": "apartment",
+      "english": "apartment",
+      "translation": "квартира",
+      "audio": [
+        "audio/words/apartment.wav"
+      ]
+    },
+    {
+      "id": "room",
+      "english": "room",
+      "translation": "комната",
+      "audio": [
+        "audio/words/room.wav"
+      ]
+    },
+    {
+      "id": "kitchen",
+      "english": "kitchen",
+      "translation": "кухня",
+      "audio": [
+        "audio/words/kitchen.wav"
+      ]
+    },
+    {
+      "id": "bathroom",
+      "english": "bathroom",
+      "translation": "ванная комната",
+      "audio": [
+        "audio/words/bathroom.wav"
+      ]
+    },
+    {
+      "id": "bedroom",
+      "english": "bedroom",
+      "translation": "спальня",
+      "audio": [
+        "audio/words/bedroom.wav"
+      ]
+    },
+    {
+      "id": "living-room",
+      "english": "living room",
+      "translation": "гостиная",
+      "audio": [
+        "audio/words/living room.wav"
+      ]
+    },
+    {
+      "id": "balcony",
+      "english": "balcony",
+      "translation": "балкон",
+      "audio": [
+        "audio/words/balcony.wav"
+      ]
+    },
+    {
+      "id": "door",
+      "english": "door",
+      "translation": "дверь",
+      "audio": [
+        "audio/words/door.wav"
+      ]
+    },
+    {
+      "id": "window",
+      "english": "window",
+      "translation": "окно",
+      "audio": [
+        "audio/words/window.wav"
+      ]
+    },
+    {
+      "id": "wall",
+      "english": "wall",
+      "translation": "стена",
+      "audio": [
+        "audio/words/wall.wav"
+      ]
+    },
+    {
+      "id": "ceiling",
+      "english": "ceiling",
+      "translation": "потолок",
+      "audio": [
+        "audio/words/ceiling.wav"
+      ]
+    },
+    {
+      "id": "bed",
+      "english": "bed",
+      "translation": "кровать",
+      "audio": [
+        "audio/words/bed.wav"
+      ]
+    },
+    {
+      "id": "sofa",
+      "english": "sofa",
+      "translation": "диван",
+      "audio": [
+        "audio/words/sofa.wav"
+      ]
+    },
+    {
+      "id": "chair",
+      "english": "chair",
+      "translation": "стул",
+      "audio": [
+        "audio/words/chair.wav"
+      ]
+    },
+    {
+      "id": "table",
+      "english": "table",
+      "translation": "стол",
+      "audio": [
+        "audio/words/table.wav"
+      ]
+    },
+    {
+      "id": "desk",
+      "english": "desk",
+      "translation": "рабочий стол",
+      "audio": [
+        "audio/words/desk.wav"
+      ]
+    },
+    {
+      "id": "wardrobe",
+      "english": "wardrobe",
+      "translation": "шкаф",
+      "audio": [
+        "audio/words/wardrobe.wav"
+      ]
+    },
+    {
+      "id": "shelf",
+      "english": "shelf",
+      "translation": "полка",
+      "audio": [
+        "audio/words/shelf.wav"
+      ]
+    },
+    {
+      "id": "mirror",
+      "english": "mirror",
+      "translation": "зеркало",
+      "audio": [
+        "audio/words/mirror.wav"
+      ]
+    },
+    {
+      "id": "lamp",
+      "english": "lamp",
+      "translation": "лампа",
+      "audio": [
+        "audio/words/lamp.wav"
+      ]
+    },
+    {
+      "id": "fridge",
+      "english": "fridge",
+      "translation": "холодильник",
+      "audio": [
+        "audio/words/fridge.wav"
+      ]
+    },
+    {
+      "id": "oven",
+      "english": "oven",
+      "translation": "духовка",
+      "audio": [
+        "audio/words/oven.wav"
+      ]
+    },
+    {
+      "id": "stove",
+      "english": "stove",
+      "translation": "плита",
+      "audio": [
+        "audio/words/stove.wav"
+      ]
+    },
+    {
+      "id": "microwave",
+      "english": "microwave",
+      "translation": "микроволновка",
+      "audio": [
+        "audio/words/microwave.wav"
+      ]
+    },
+    {
+      "id": "kettle",
+      "english": "kettle",
+      "translation": "чайник",
+      "audio": [
+        "audio/words/kettle.wav"
+      ]
+    },
+    {
+      "id": "washing-machine",
+      "english": "washing machine",
+      "translation": "стиральная машина",
+      "audio": [
+        "audio/words/washing machine.wav"
+      ]
+    },
+    {
+      "id": "dirty",
+      "english": "dirty",
+      "translation": "грязный",
+      "audio": [
+        "audio/words/dirty.wav"
+      ]
+    },
+    {
+      "id": "cook",
+      "english": "cook",
+      "translation": "готовить",
+      "audio": [
+        "audio/words/cook.wav"
+      ]
+    },
+    {
+      "id": "sleep",
+      "english": "sleep",
+      "translation": "спать",
+      "audio": [
+        "audio/words/sleep.wav"
+      ]
+    },
+    {
+      "id": "wake-up",
+      "english": "wake up",
+      "translation": "просыпаться",
+      "audio": [
+        "audio/words/wake up.wav"
+      ]
+    },
+    {
+      "id": "key",
+      "english": "key",
+      "translation": "ключ",
+      "audio": [
+        "audio/words/key.wav"
+      ]
+    },
+    {
+      "id": "lock",
+      "english": "lock",
+      "translation": "замок",
+      "audio": [
+        "audio/words/lock.wav"
+      ]
+    },
+    {
+      "id": "trash",
+      "english": "trash",
+      "translation": "мусор",
+      "audio": [
+        "audio/words/trash.wav"
+      ]
+    },
+    {
+      "id": "hall",
+      "english": "hall",
+      "translation": "холл",
+      "audio": [
+        "audio/words/hall.wav"
+      ]
+    },
+    {
+      "id": "floor",
+      "english": "floor",
+      "translation": "пол",
+      "audio": [
+        "audio/words/floor.wav"
+      ]
+    },
+    {
+      "id": "light",
+      "english": "light",
+      "translation": "свет",
+      "audio": [
+        "audio/words/light.wav"
+      ]
+    },
+    {
+      "id": "clean",
+      "english": "clean",
+      "translation": "чистый",
+      "audio": [
+        "audio/words/clean.wav"
+      ]
+    },
+    {
+      "id": "wash",
+      "english": "wash",
+      "translation": "мыть",
+      "audio": [
+        "audio/words/wash.wav"
+      ]
+    },
+    {
+      "id": "bag",
+      "english": "bag",
+      "translation": "сумка",
+      "audio": [
+        "audio/words/bag.wav"
+      ]
+    }
+  ]
+}

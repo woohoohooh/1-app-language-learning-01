@@ -1,0 +1,287 @@
+{
+  "theme": "Принятие решений",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-decision-was-based-on-available-data.",
+      "english": "The decision was based on available data.",
+      "translation": "Решение было основано на доступных данных.",
+      "audio": [
+        "audio/sentences/The decision was based on available data..wav"
+      ]
+    },
+    {
+      "id": "she-made-a-difficult-choice.",
+      "english": "She made a difficult choice.",
+      "translation": "Она сделала сложный выбор.",
+      "audio": [
+        "audio/sentences/She made a difficult choice..wav"
+      ]
+    },
+    {
+      "id": "this-option-saves-time.",
+      "english": "This option saves time.",
+      "translation": "Этот вариант экономит время.",
+      "audio": [
+        "audio/sentences/This option saves time..wav"
+      ]
+    },
+    {
+      "id": "an-alternative-was-considered.",
+      "english": "An alternative was considered.",
+      "translation": "Была рассмотрена альтернатива.",
+      "audio": [
+        "audio/sentences/An alternative was considered..wav"
+      ]
+    },
+    {
+      "id": "the-selection-process-took-weeks.",
+      "english": "The selection process took weeks.",
+      "translation": "Процесс отбора занял недели.",
+      "audio": [
+        "audio/sentences/The selection process took weeks..wav"
+      ]
+    },
+    {
+      "id": "this-approach-reduces-errors.",
+      "english": "This approach reduces errors.",
+      "translation": "Этот подход снижает количество ошибок.",
+      "audio": [
+        "audio/sentences/This approach reduces errors..wav"
+      ]
+    },
+    {
+      "id": "the-strategy-focuses-on-growth.",
+      "english": "The strategy focuses on growth.",
+      "translation": "Стратегия ориентирована на рост.",
+      "audio": [
+        "audio/sentences/The strategy focuses on growth..wav"
+      ]
+    },
+    {
+      "id": "the-plan-changed-overnight.",
+      "english": "The plan changed overnight.",
+      "translation": "План изменился за ночь.",
+      "audio": [
+        "audio/sentences/The plan changed overnight..wav"
+      ]
+    },
+    {
+      "id": "the-project-took-a-new-direction.",
+      "english": "The project took a new direction.",
+      "translation": "Проект принял новое направление.",
+      "audio": [
+        "audio/sentences/The project took a new direction..wav"
+      ]
+    },
+    {
+      "id": "safety-is-the-top-priority.",
+      "english": "Safety is the top priority.",
+      "translation": "Безопасность — главный приоритет.",
+      "audio": [
+        "audio/sentences/Safety is the top priority..wav"
+      ]
+    },
+    {
+      "id": "the-criteria-were-clearly-defined.",
+      "english": "The criteria were clearly defined.",
+      "translation": "Критерии были чётко определены.",
+      "audio": [
+        "audio/sentences/The criteria were clearly defined..wav"
+      ]
+    },
+    {
+      "id": "time-was-a-major-constraint.",
+      "english": "Time was a major constraint.",
+      "translation": "Время было серьёзным ограничением.",
+      "audio": [
+        "audio/sentences/Time was a major constraint..wav"
+      ]
+    },
+    {
+      "id": "every-decision-involves-a-trade-off.",
+      "english": "Every decision involves a trade-off.",
+      "translation": "Каждое решение предполагает компромисс.",
+      "audio": [
+        "audio/sentences/Every decision involves a trade-off..wav"
+      ]
+    },
+    {
+      "id": "feasibility-was-carefully-assessed.",
+      "english": "Feasibility was carefully assessed.",
+      "translation": "Осуществимость была тщательно оценена.",
+      "audio": [
+        "audio/sentences/Feasibility was carefully assessed..wav"
+      ]
+    },
+    {
+      "id": "viability-depends-on-market-demand.",
+      "english": "Viability depends on market demand.",
+      "translation": "Жизнеспособность зависит от спроса рынка.",
+      "audio": [
+        "audio/sentences/Viability depends on market demand..wav"
+      ]
+    },
+    {
+      "id": "risk-must-be-evaluated-objectively.",
+      "english": "Risk must be evaluated objectively.",
+      "translation": "Риск должен оцениваться объективно.",
+      "audio": [
+        "audio/sentences/Risk must be evaluated objectively..wav"
+      ]
+    },
+    {
+      "id": "uncertainty-affects-final-outcomes.",
+      "english": "Uncertainty affects final outcomes.",
+      "translation": "Неопределённость влияет на итоговые результаты.",
+      "audio": [
+        "audio/sentences/Uncertainty affects final outcomes..wav"
+      ]
+    },
+    {
+      "id": "the-probability-was-higher-than-expected.",
+      "english": "The probability was higher than expected.",
+      "translation": "Вероятность оказалась выше ожидаемой.",
+      "audio": [
+        "audio/sentences/The probability was higher than expected..wav"
+      ]
+    },
+    {
+      "id": "the-impact-was-felt-immediately.",
+      "english": "The impact was felt immediately.",
+      "translation": "Влияние ощущалось сразу.",
+      "audio": [
+        "audio/sentences/The impact was felt immediately..wav"
+      ]
+    },
+    {
+      "id": "the-outcome-surprised-everyone.",
+      "english": "The outcome surprised everyone.",
+      "translation": "Результат удивил всех.",
+      "audio": [
+        "audio/sentences/The outcome surprised everyone..wav"
+      ]
+    },
+    {
+      "id": "every-action-has-a-consequence.",
+      "english": "Every action has a consequence.",
+      "translation": "Каждое действие имеет последствие.",
+      "audio": [
+        "audio/sentences/Every action has a consequence..wav"
+      ]
+    },
+    {
+      "id": "the-decision-had-major-implications.",
+      "english": "The decision had major implications.",
+      "translation": "Решение имело серьёзные последствия.",
+      "audio": [
+        "audio/sentences/The decision had major implications..wav"
+      ]
+    },
+    {
+      "id": "the-benefit-outweighed-the-risks.",
+      "english": "The benefit outweighed the risks.",
+      "translation": "Выгода перевесила риски.",
+      "audio": [
+        "audio/sentences/The benefit outweighed the risks..wav"
+      ]
+    },
+    {
+      "id": "the-drawback-became-obvious-later.",
+      "english": "The drawback became obvious later.",
+      "translation": "Недостаток стал очевиден позже.",
+      "audio": [
+        "audio/sentences/The drawback became obvious later..wav"
+      ]
+    },
+    {
+      "id": "the-cost-increased-over-time.",
+      "english": "The cost increased over time.",
+      "translation": "Со временем стоимость выросла.",
+      "audio": [
+        "audio/sentences/The cost increased over time..wav"
+      ]
+    },
+    {
+      "id": "his-judgment-was-questioned.",
+      "english": "His judgment was questioned.",
+      "translation": "Его суждение было поставлено под сомнение.",
+      "audio": [
+        "audio/sentences/His judgment was questioned..wav"
+      ]
+    },
+    {
+      "id": "the-evaluation-took-several-days.",
+      "english": "The evaluation took several days.",
+      "translation": "Оценивание заняло несколько дней.",
+      "audio": [
+        "audio/sentences/The evaluation took several days..wav"
+      ]
+    },
+    {
+      "id": "the-assessment-revealed-weaknesses.",
+      "english": "The assessment revealed weaknesses.",
+      "translation": "Оценка выявила слабые места.",
+      "audio": [
+        "audio/sentences/The assessment revealed weaknesses..wav"
+      ]
+    },
+    {
+      "id": "the-proposal-is-under-consideration.",
+      "english": "The proposal is under consideration.",
+      "translation": "Предложение находится на рассмотрении.",
+      "audio": [
+        "audio/sentences/The proposal is under consideration..wav"
+      ]
+    },
+    {
+      "id": "after-deliberation,-they-agreed.",
+      "english": "After deliberation, they agreed.",
+      "translation": "После обдумывания они согласились.",
+      "audio": [
+        "audio/sentences/After deliberation, they agreed..wav"
+      ]
+    },
+    {
+      "id": "commitment-requires-discipline.",
+      "english": "Commitment requires discipline.",
+      "translation": "Обязательство требует дисциплины.",
+      "audio": [
+        "audio/sentences/Commitment requires discipline..wav"
+      ]
+    },
+    {
+      "id": "she-accepted-full-responsibility.",
+      "english": "She accepted full responsibility.",
+      "translation": "Она приняла полную ответственность.",
+      "audio": [
+        "audio/sentences/She accepted full responsibility..wav"
+      ]
+    },
+    {
+      "id": "accountability-improves-trust.",
+      "english": "Accountability improves trust.",
+      "translation": "Ответственность повышает доверие.",
+      "audio": [
+        "audio/sentences/Accountability improves trust..wav"
+      ]
+    },
+    {
+      "id": "confidence-affects-performance.",
+      "english": "Confidence affects performance.",
+      "translation": "Уверенность влияет на результат.",
+      "audio": [
+        "audio/sentences/Confidence affects performance..wav"
+      ]
+    },
+    {
+      "id": "hesitation-delayed-the-decision.",
+      "english": "Hesitation delayed the decision.",
+      "translation": "Колебание замедлило принятие решения.",
+      "audio": [
+        "audio/sentences/Hesitation delayed the decision..wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "theme": "Компьютеры и гаджеты",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "computer",
+      "english": "computer",
+      "translation": "компьютер",
+      "audio": [
+        "audio/words/computer.wav"
+      ]
+    },
+    {
+      "id": "laptop",
+      "english": "laptop",
+      "translation": "ноутбук",
+      "audio": [
+        "audio/words/laptop.wav"
+      ]
+    },
+    {
+      "id": "desktop",
+      "english": "desktop",
+      "translation": "стационарный компьютер",
+      "audio": [
+        "audio/words/desktop.wav"
+      ]
+    },
+    {
+      "id": "tablet",
+      "english": "tablet",
+      "translation": "планшет",
+      "audio": [
+        "audio/words/tablet.wav"
+      ]
+    },
+    {
+      "id": "smartphone",
+      "english": "smartphone",
+      "translation": "смартфон",
+      "audio": [
+        "audio/words/smartphone.wav"
+      ]
+    },
+    {
+      "id": "device",
+      "english": "device",
+      "translation": "устройство",
+      "audio": [
+        "audio/words/device.wav"
+      ]
+    },
+    {
+      "id": "gadget",
+      "english": "gadget",
+      "translation": "гаджет",
+      "audio": [
+        "audio/words/gadget.wav"
+      ]
+    },
+    {
+      "id": "screen",
+      "english": "screen",
+      "translation": "экран",
+      "audio": [
+        "audio/words/screen.wav"
+      ]
+    },
+    {
+      "id": "display",
+      "english": "display",
+      "translation": "дисплей",
+      "audio": [
+        "audio/words/display.wav"
+      ]
+    },
+    {
+      "id": "touchscreen",
+      "english": "touchscreen",
+      "translation": "сенсорный экран",
+      "audio": [
+        "audio/words/touchscreen.wav"
+      ]
+    },
+    {
+      "id": "keyboard",
+      "english": "keyboard",
+      "translation": "клавиатура",
+      "audio": [
+        "audio/words/keyboard.wav"
+      ]
+    },
+    {
+      "id": "mouse",
+      "english": "mouse",
+      "translation": "мышь",
+      "audio": [
+        "audio/words/mouse.wav"
+      ]
+    },
+    {
+      "id": "touchpad",
+      "english": "touchpad",
+      "translation": "тачпад",
+      "audio": [
+        "audio/words/touchpad.wav"
+      ]
+    },
+    {
+      "id": "monitor",
+      "english": "monitor",
+      "translation": "монитор",
+      "audio": [
+        "audio/words/monitor.wav"
+      ]
+    },
+    {
+      "id": "speaker",
+      "english": "speaker",
+      "translation": "динамик",
+      "audio": [
+        "audio/words/speaker.wav"
+      ]
+    },
+    {
+      "id": "headphones",
+      "english": "headphones",
+      "translation": "наушники",
+      "audio": [
+        "audio/words/headphones.wav"
+      ]
+    },
+    {
+      "id": "microphone",
+      "english": "microphone",
+      "translation": "микрофон",
+      "audio": [
+        "audio/words/microphone.wav"
+      ]
+    },
+    {
+      "id": "webcam",
+      "english": "webcam",
+      "translation": "веб-камера",
+      "audio": [
+        "audio/words/webcam.wav"
+      ]
+    },
+    {
+      "id": "printer",
+      "english": "printer",
+      "translation": "принтер",
+      "audio": [
+        "audio/words/printer.wav"
+      ]
+    },
+    {
+      "id": "scanner",
+      "english": "scanner",
+      "translation": "сканер",
+      "audio": [
+        "audio/words/scanner.wav"
+      ]
+    },
+    {
+      "id": "processor",
+      "english": "processor",
+      "translation": "процессор",
+      "audio": [
+        "audio/words/processor.wav"
+      ]
+    },
+    {
+      "id": "memory",
+      "english": "memory",
+      "translation": "оперативная память",
+      "audio": [
+        "audio/words/memory.wav"
+      ]
+    },
+    {
+      "id": "storage",
+      "english": "storage",
+      "translation": "память",
+      "audio": [
+        "audio/words/storage.wav"
+      ]
+    },
+    {
+      "id": "hard-drive",
+      "english": "hard drive",
+      "translation": "жёсткий диск",
+      "audio": [
+        "audio/words/hard drive.wav"
+      ]
+    },
+    {
+      "id": "ssd",
+      "english": "SSD",
+      "translation": "SSD-накопитель",
+      "audio": [
+        "audio/words/SSD.wav"
+      ]
+    },
+    {
+      "id": "battery",
+      "english": "battery",
+      "translation": "батарея",
+      "audio": [
+        "audio/words/battery.wav"
+      ]
+    },
+    {
+      "id": "charger",
+      "english": "charger",
+      "translation": "зарядное устройство",
+      "audio": [
+        "audio/words/charger.wav"
+      ]
+    },
+    {
+      "id": "power-cable",
+      "english": "power cable",
+      "translation": "кабель питания",
+      "audio": [
+        "audio/words/power cable.wav"
+      ]
+    },
+    {
+      "id": "usb-cable",
+      "english": "USB cable",
+      "translation": "USB-кабель",
+      "audio": [
+        "audio/words/USB cable.wav"
+      ]
+    },
+    {
+      "id": "adapter",
+      "english": "adapter",
+      "translation": "адаптер",
+      "audio": [
+        "audio/words/adapter.wav"
+      ]
+    },
+    {
+      "id": "operating-system",
+      "english": "operating system",
+      "translation": "операционная система",
+      "audio": [
+        "audio/words/operating system.wav"
+      ]
+    },
+    {
+      "id": "software",
+      "english": "software",
+      "translation": "программное обеспечение",
+      "audio": [
+        "audio/words/software.wav"
+      ]
+    },
+    {
+      "id": "hardware",
+      "english": "hardware",
+      "translation": "аппаратное обеспечение",
+      "audio": [
+        "audio/words/hardware.wav"
+      ]
+    },
+    {
+      "id": "application",
+      "english": "application",
+      "translation": "приложение",
+      "audio": [
+        "audio/words/application.wav"
+      ]
+    },
+    {
+      "id": "driver",
+      "english": "driver",
+      "translation": "драйвер",
+      "audio": [
+        "audio/words/driver.wav"
+      ]
+    },
+    {
+      "id": "performance",
+      "english": "performance",
+      "translation": "производительность",
+      "audio": [
+        "audio/words/performance.wav"
+      ]
+    },
+    {
+      "id": "resolution",
+      "english": "resolution",
+      "translation": "разрешение",
+      "audio": [
+        "audio/words/resolution.wav"
+      ]
+    },
+    {
+      "id": "settings",
+      "english": "settings",
+      "translation": "настройки",
+      "audio": [
+        "audio/words/settings.wav"
+      ]
+    },
+    {
+      "id": "update",
+      "english": "update",
+      "translation": "обновление",
+      "audio": [
+        "audio/words/update.wav"
+      ]
+    },
+    {
+      "id": "compatibility",
+      "english": "compatibility",
+      "translation": "совместимость",
+      "audio": [
+        "audio/words/compatibility.wav"
+      ]
+    },
+    {
+      "id": "wireless",
+      "english": "wireless",
+      "translation": "беспроводной",
+      "audio": [
+        "audio/words/wireless.wav"
+      ]
+    },
+    {
+      "id": "bluetooth",
+      "english": "bluetooth",
+      "translation": "Bluetooth",
+      "audio": [
+        "audio/words/bluetooth.wav"
+      ]
+    },
+    {
+      "id": "wi-fi",
+      "english": "Wi-Fi",
+      "translation": "Wi-Fi",
+      "audio": [
+        "audio/words/Wi-Fi.wav"
+      ]
+    },
+    {
+      "id": "portable",
+      "english": "portable",
+      "translation": "портативный",
+      "audio": [
+        "audio/words/portable.wav"
+      ]
+    },
+    {
+      "id": "built-in",
+      "english": "built-in",
+      "translation": "встроенный",
+      "audio": [
+        "audio/words/built-in.wav"
+      ]
+    }
+  ]
+}

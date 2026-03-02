@@ -1,0 +1,232 @@
+{
+  "theme": "Компьютеры и гаджеты",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "computer",
+      "english": "computer",
+      "translation": "компьютер"
+    },
+    {
+      "id": "laptop",
+      "english": "laptop",
+      "translation": "ноутбук"
+    },
+    {
+      "id": "desktop",
+      "english": "desktop",
+      "translation": "стационарный компьютер"
+    },
+    {
+      "id": "tablet",
+      "english": "tablet",
+      "translation": "планшет"
+    },
+    {
+      "id": "smartphone",
+      "english": "smartphone",
+      "translation": "смартфон"
+    },
+    {
+      "id": "device",
+      "english": "device",
+      "translation": "устройство"
+    },
+    {
+      "id": "gadget",
+      "english": "gadget",
+      "translation": "гаджет"
+    },
+    {
+      "id": "screen",
+      "english": "screen",
+      "translation": "экран"
+    },
+    {
+      "id": "display",
+      "english": "display",
+      "translation": "дисплей"
+    },
+    {
+      "id": "touchscreen",
+      "english": "touchscreen",
+      "translation": "сенсорный экран"
+    },
+    {
+      "id": "keyboard",
+      "english": "keyboard",
+      "translation": "клавиатура"
+    },
+    {
+      "id": "mouse",
+      "english": "mouse",
+      "translation": "мышь"
+    },
+    {
+      "id": "touchpad",
+      "english": "touchpad",
+      "translation": "тачпад"
+    },
+    {
+      "id": "monitor",
+      "english": "monitor",
+      "translation": "монитор"
+    },
+    {
+      "id": "speaker",
+      "english": "speaker",
+      "translation": "динамик"
+    },
+    {
+      "id": "headphones",
+      "english": "headphones",
+      "translation": "наушники"
+    },
+    {
+      "id": "microphone",
+      "english": "microphone",
+      "translation": "микрофон"
+    },
+    {
+      "id": "webcam",
+      "english": "webcam",
+      "translation": "веб-камера"
+    },
+    {
+      "id": "printer",
+      "english": "printer",
+      "translation": "принтер"
+    },
+    {
+      "id": "scanner",
+      "english": "scanner",
+      "translation": "сканер"
+    },
+    {
+      "id": "processor",
+      "english": "processor",
+      "translation": "процессор"
+    },
+    {
+      "id": "memory",
+      "english": "memory",
+      "translation": "оперативная память"
+    },
+    {
+      "id": "storage",
+      "english": "storage",
+      "translation": "память"
+    },
+    {
+      "id": "hard-drive",
+      "english": "hard drive",
+      "translation": "жёсткий диск"
+    },
+    {
+      "id": "ssd",
+      "english": "SSD",
+      "translation": "SSD-накопитель"
+    },
+    {
+      "id": "battery",
+      "english": "battery",
+      "translation": "батарея"
+    },
+    {
+      "id": "charger",
+      "english": "charger",
+      "translation": "зарядное устройство"
+    },
+    {
+      "id": "power-cable",
+      "english": "power cable",
+      "translation": "кабель питания"
+    },
+    {
+      "id": "usb-cable",
+      "english": "USB cable",
+      "translation": "USB-кабель"
+    },
+    {
+      "id": "adapter",
+      "english": "adapter",
+      "translation": "адаптер"
+    },
+    {
+      "id": "operating-system",
+      "english": "operating system",
+      "translation": "операционная система"
+    },
+    {
+      "id": "software",
+      "english": "software",
+      "translation": "программное обеспечение"
+    },
+    {
+      "id": "hardware",
+      "english": "hardware",
+      "translation": "аппаратное обеспечение"
+    },
+    {
+      "id": "application",
+      "english": "application",
+      "translation": "приложение"
+    },
+    {
+      "id": "driver",
+      "english": "driver",
+      "translation": "драйвер"
+    },
+    {
+      "id": "performance",
+      "english": "performance",
+      "translation": "производительность"
+    },
+    {
+      "id": "resolution",
+      "english": "resolution",
+      "translation": "разрешение"
+    },
+    {
+      "id": "settings",
+      "english": "settings",
+      "translation": "настройки"
+    },
+    {
+      "id": "update",
+      "english": "update",
+      "translation": "обновление"
+    },
+    {
+      "id": "compatibility",
+      "english": "compatibility",
+      "translation": "совместимость"
+    },
+    {
+      "id": "wireless",
+      "english": "wireless",
+      "translation": "беспроводной"
+    },
+    {
+      "id": "bluetooth",
+      "english": "bluetooth",
+      "translation": "Bluetooth"
+    },
+    {
+      "id": "wi-fi",
+      "english": "Wi-Fi",
+      "translation": "Wi-Fi"
+    },
+    {
+      "id": "portable",
+      "english": "portable",
+      "translation": "портативный"
+    },
+    {
+      "id": "built-in",
+      "english": "built-in",
+      "translation": "встроенный"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "theme": "Ирония и сарказм",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "irony-often-depends-on-context.",
+      "english": "Irony often depends on context.",
+      "translation": "Ирония часто зависит от контекста.",
+      "audio": [
+        "audio/sentences/Irony often depends on context..wav"
+      ]
+    },
+    {
+      "id": "sarcasm-can-confuse-listeners.",
+      "english": "Sarcasm can confuse listeners.",
+      "translation": "Сарказм может сбивать слушателей с толку.",
+      "audio": [
+        "audio/sentences/Sarcasm can confuse listeners..wav"
+      ]
+    },
+    {
+      "id": "mockery-crossed-professional-boundaries.",
+      "english": "Mockery crossed professional boundaries.",
+      "translation": "Насмешка перешла профессиональные границы.",
+      "audio": [
+        "audio/sentences/Mockery crossed professional boundaries..wav"
+      ]
+    },
+    {
+      "id": "ridicule-damaged-team-trust.",
+      "english": "Ridicule damaged team trust.",
+      "translation": "Высмеивание подорвало доверие в команде.",
+      "audio": [
+        "audio/sentences/Ridicule damaged team trust..wav"
+      ]
+    },
+    {
+      "id": "satire-highlights-social-flaws.",
+      "english": "Satire highlights social flaws.",
+      "translation": "Сатира подчёркивает социальные изъяны.",
+      "audio": [
+        "audio/sentences/Satire highlights social flaws..wav"
+      ]
+    },
+    {
+      "id": "humor-helps-ease-tension.",
+      "english": "Humor helps ease tension.",
+      "translation": "Юмор помогает снять напряжение.",
+      "audio": [
+        "audio/sentences/Humor helps ease tension..wav"
+      ]
+    },
+    {
+      "id": "wit-impressed-the-audience.",
+      "english": "Wit impressed the audience.",
+      "translation": "Остроумие впечатлило аудиторию.",
+      "audio": [
+        "audio/sentences/Wit impressed the audience..wav"
+      ]
+    },
+    {
+      "id": "dry-humor-is-easy-to-miss.",
+      "english": "Dry humor is easy to miss.",
+      "translation": "Сухой юмор легко не заметить.",
+      "audio": [
+        "audio/sentences/Dry humor is easy to miss..wav"
+      ]
+    },
+    {
+      "id": "dark-humor-divides-opinions.",
+      "english": "Dark humor divides opinions.",
+      "translation": "Чёрный юмор разделяет мнения.",
+      "audio": [
+        "audio/sentences/Dark humor divides opinions..wav"
+      ]
+    },
+    {
+      "id": "deadpan-delivery-changed-the-meaning.",
+      "english": "Deadpan delivery changed the meaning.",
+      "translation": "Невозмутимая подача изменила смысл.",
+      "audio": [
+        "audio/sentences/Deadpan delivery changed the meaning..wav"
+      ]
+    },
+    {
+      "id": "tone-affects-interpretation.",
+      "english": "Tone affects interpretation.",
+      "translation": "Тон влияет на интерпретацию.",
+      "audio": [
+        "audio/sentences/Tone affects interpretation..wav"
+      ]
+    },
+    {
+      "id": "context-changes-the-message.",
+      "english": "Context changes the message.",
+      "translation": "Контекст меняет сообщение.",
+      "audio": [
+        "audio/sentences/Context changes the message..wav"
+      ]
+    },
+    {
+      "id": "delivery-matters-more-than-words.",
+      "english": "Delivery matters more than words.",
+      "translation": "Подача важнее самих слов.",
+      "audio": [
+        "audio/sentences/Delivery matters more than words..wav"
+      ]
+    },
+    {
+      "id": "exaggeration-added-dramatic-effect.",
+      "english": "Exaggeration added dramatic effect.",
+      "translation": "Преувеличение добавило драматизма.",
+      "audio": [
+        "audio/sentences/Exaggeration added dramatic effect..wav"
+      ]
+    },
+    {
+      "id": "understatement-sounded-polite.",
+      "english": "Understatement sounded polite.",
+      "translation": "Преуменьшение звучало вежливо.",
+      "audio": [
+        "audio/sentences/Understatement sounded polite..wav"
+      ]
+    },
+    {
+      "id": "double-meaning-caused-confusion.",
+      "english": "Double meaning caused confusion.",
+      "translation": "Двойной смысл вызвал путаницу.",
+      "audio": [
+        "audio/sentences/Double meaning caused confusion..wav"
+      ]
+    },
+    {
+      "id": "subtlety-requires-attention.",
+      "english": "Subtlety requires attention.",
+      "translation": "Тонкость требует внимания.",
+      "audio": [
+        "audio/sentences/Subtlety requires attention..wav"
+      ]
+    },
+    {
+      "id": "ambiguity-left-room-for-debate.",
+      "english": "Ambiguity left room for debate.",
+      "translation": "Двусмысленность оставила место для спора.",
+      "audio": [
+        "audio/sentences/Ambiguity left room for debate..wav"
+      ]
+    },
+    {
+      "id": "the-implication-was-obvious.",
+      "english": "The implication was obvious.",
+      "translation": "Подразумеваемый смысл был очевиден.",
+      "audio": [
+        "audio/sentences/The implication was obvious..wav"
+      ]
+    },
+    {
+      "id": "innuendo-made-the-comment-risky.",
+      "english": "Innuendo made the comment risky.",
+      "translation": "Намёк сделал комментарий рискованным.",
+      "audio": [
+        "audio/sentences/Innuendo made the comment risky..wav"
+      ]
+    },
+    {
+      "id": "cynicism-shaped-his-worldview.",
+      "english": "Cynicism shaped his worldview.",
+      "translation": "Цинизм сформировал его взгляды.",
+      "audio": [
+        "audio/sentences/Cynicism shaped his worldview..wav"
+      ]
+    },
+    {
+      "id": "skepticism-encouraged-critical-thinking.",
+      "english": "Skepticism encouraged critical thinking.",
+      "translation": "Скептицизм поощрял критическое мышление.",
+      "audio": [
+        "audio/sentences/Skepticism encouraged critical thinking..wav"
+      ]
+    },
+    {
+      "id": "detachment-helped-him-stay-calm.",
+      "english": "Detachment helped him stay calm.",
+      "translation": "Отстранённость помогла ему сохранять спокойствие.",
+      "audio": [
+        "audio/sentences/Detachment helped him stay calm..wav"
+      ]
+    },
+    {
+      "id": "contempt-was-clear-in-his-voice.",
+      "english": "Contempt was clear in his voice.",
+      "translation": "В его голосе было слышно презрение.",
+      "audio": [
+        "audio/sentences/Contempt was clear in his voice..wav"
+      ]
+    },
+    {
+      "id": "dismissiveness-hurt-collaboration.",
+      "english": "Dismissiveness hurt collaboration.",
+      "translation": "Пренебрежительность навредила сотрудничеству.",
+      "audio": [
+        "audio/sentences/Dismissiveness hurt collaboration..wav"
+      ]
+    },
+    {
+      "id": "playfulness-changed-the-mood.",
+      "english": "Playfulness changed the mood.",
+      "translation": "Игривость изменила настроение.",
+      "audio": [
+        "audio/sentences/Playfulness changed the mood..wav"
+      ]
+    },
+    {
+      "id": "teasing-remained-harmless.",
+      "english": "Teasing remained harmless.",
+      "translation": "Поддразнивание оставалось безобидным.",
+      "audio": [
+        "audio/sentences/Teasing remained harmless..wav"
+      ]
+    },
+    {
+      "id": "banter-strengthened-team-bonds.",
+      "english": "Banter strengthened team bonds.",
+      "translation": "Перепалка укрепила командные связи.",
+      "audio": [
+        "audio/sentences/Banter strengthened team bonds..wav"
+      ]
+    },
+    {
+      "id": "self-irony-reduced-tension.",
+      "english": "Self-irony reduced tension.",
+      "translation": "Самоирония снизила напряжение.",
+      "audio": [
+        "audio/sentences/Self-irony reduced tension..wav"
+      ]
+    },
+    {
+      "id": "self-deprecation-built-trust.",
+      "english": "Self-deprecation built trust.",
+      "translation": "Самоироничное принижение вызвало доверие.",
+      "audio": [
+        "audio/sentences/Self-deprecation built trust..wav"
+      ]
+    },
+    {
+      "id": "overstatement-weakened-credibility.",
+      "english": "Overstatement weakened credibility.",
+      "translation": "Чрезмерное утверждение ослабило доверие.",
+      "audio": [
+        "audio/sentences/Overstatement weakened credibility..wav"
+      ]
+    },
+    {
+      "id": "contrast-emphasized-the-point.",
+      "english": "Contrast emphasized the point.",
+      "translation": "Контраст подчеркнул мысль.",
+      "audio": [
+        "audio/sentences/Contrast emphasized the point..wav"
+      ]
+    },
+    {
+      "id": "absurdity-made-everyone-pause.",
+      "english": "Absurdity made everyone pause.",
+      "translation": "Абсурдность заставила всех задуматься.",
+      "audio": [
+        "audio/sentences/Absurdity made everyone pause..wav"
+      ]
+    },
+    {
+      "id": "parody-mirrored-reality.",
+      "english": "Parody mirrored reality.",
+      "translation": "Пародия отразила реальность.",
+      "audio": [
+        "audio/sentences/Parody mirrored reality..wav"
+      ]
+    },
+    {
+      "id": "caricature-exaggerated-key-traits.",
+      "english": "Caricature exaggerated key traits.",
+      "translation": "Карикатура преувеличила ключевые черты.",
+      "audio": [
+        "audio/sentences/Caricature exaggerated key traits..wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "theme": "Подтекст и намёки",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-subtext-reveals-his-true-feelings.",
+      "english": "The subtext reveals his true feelings.",
+      "translation": "Подтекст раскрывает его истинные чувства.",
+      "audio": [
+        "audio/sentences/The subtext reveals his true feelings..wav"
+      ]
+    },
+    {
+      "id": "she-gave-a-subtle-hint-during-the-talk.",
+      "english": "She gave a subtle hint during the talk.",
+      "translation": "Она дала тонкий намёк во время разговора.",
+      "audio": [
+        "audio/sentences/She gave a subtle hint during the talk..wav"
+      ]
+    },
+    {
+      "id": "his-silence-was-a-strong-signal.",
+      "english": "His silence was a strong signal.",
+      "translation": "Его молчание было сильным сигналом.",
+      "audio": [
+        "audio/sentences/His silence was a strong signal..wav"
+      ]
+    },
+    {
+      "id": "that-gesture-was-an-important-cue.",
+      "english": "That gesture was an important cue.",
+      "translation": "Этот жест был важной подсказкой.",
+      "audio": [
+        "audio/sentences/That gesture was an important cue..wav"
+      ]
+    },
+    {
+      "id": "one-clue-changed-the-whole-understanding.",
+      "english": "One clue changed the whole understanding.",
+      "translation": "Одна зацепка изменила всё понимание.",
+      "audio": [
+        "audio/sentences/One clue changed the whole understanding..wav"
+      ]
+    },
+    {
+      "id": "the-meaning-depends-on-the-context.",
+      "english": "The meaning depends on the context.",
+      "translation": "Смысл зависит от контекста.",
+      "audio": [
+        "audio/sentences/The meaning depends on the context..wav"
+      ]
+    },
+    {
+      "id": "her-interpretation-differed-from-mine.",
+      "english": "Her interpretation differed from mine.",
+      "translation": "Её интерпретация отличалась от моей.",
+      "audio": [
+        "audio/sentences/Her interpretation differed from mine..wav"
+      ]
+    },
+    {
+      "id": "this-reading-focuses-on-tone.",
+      "english": "This reading focuses on tone.",
+      "translation": "Эта трактовка сосредоточена на тоне.",
+      "audio": [
+        "audio/sentences/This reading focuses on tone..wav"
+      ]
+    },
+    {
+      "id": "his-intention-was-easy-to-miss.",
+      "english": "His intention was easy to miss.",
+      "translation": "Его намерение было легко упустить.",
+      "audio": [
+        "audio/sentences/His intention was easy to miss..wav"
+      ]
+    },
+    {
+      "id": "the-message-came-through-indirectly.",
+      "english": "The message came through indirectly.",
+      "translation": "Посыл был передан косвенно.",
+      "audio": [
+        "audio/sentences/The message came through indirectly..wav"
+      ]
+    },
+    {
+      "id": "it-sounded-more-like-a-suggestion.",
+      "english": "It sounded more like a suggestion.",
+      "translation": "Это звучало скорее как косвенное предложение.",
+      "audio": [
+        "audio/sentences/It sounded more like a suggestion..wav"
+      ]
+    },
+    {
+      "id": "the-reference-was-easy-to-overlook.",
+      "english": "The reference was easy to overlook.",
+      "translation": "Отсылку было легко не заметить.",
+      "audio": [
+        "audio/sentences/The reference was easy to overlook..wav"
+      ]
+    },
+    {
+      "id": "the-speech-contained-a-clever-allusion.",
+      "english": "The speech contained a clever allusion.",
+      "translation": "Речь содержала изящную аллюзию.",
+      "audio": [
+        "audio/sentences/The speech contained a clever allusion..wav"
+      ]
+    },
+    {
+      "id": "the-implication-was-hard-to-ignore.",
+      "english": "The implication was hard to ignore.",
+      "translation": "Скрытый смысл было трудно игнорировать.",
+      "audio": [
+        "audio/sentences/The implication was hard to ignore..wav"
+      ]
+    },
+    {
+      "id": "that-assumption-led-to-confusion.",
+      "english": "That assumption led to confusion.",
+      "translation": "Это предположение привело к путанице.",
+      "audio": [
+        "audio/sentences/That assumption led to confusion..wav"
+      ]
+    },
+    {
+      "id": "the-emphasis-changed-how-it-sounded.",
+      "english": "The emphasis changed how it sounded.",
+      "translation": "Акцент изменил то, как это прозвучало.",
+      "audio": [
+        "audio/sentences/The emphasis changed how it sounded..wav"
+      ]
+    },
+    {
+      "id": "her-choice-of-words-felt-intentional.",
+      "english": "Her choice of words felt intentional.",
+      "translation": "Её выбор слов казался намеренным.",
+      "audio": [
+        "audio/sentences/Her choice of words felt intentional..wav"
+      ]
+    },
+    {
+      "id": "the-framing-shaped-the-audience-reaction.",
+      "english": "The framing shaped the audience reaction.",
+      "translation": "Формулировка сформировала реакцию аудитории.",
+      "audio": [
+        "audio/sentences/The framing shaped the audience reaction..wav"
+      ]
+    },
+    {
+      "id": "his-positioning-suggested-quiet-confidence.",
+      "english": "His positioning suggested quiet confidence.",
+      "translation": "Его позиционирование намекало на спокойную уверенность.",
+      "audio": [
+        "audio/sentences/His positioning suggested quiet confidence..wav"
+      ]
+    },
+    {
+      "id": "the-hesitation-revealed-uncertainty.",
+      "english": "The hesitation revealed uncertainty.",
+      "translation": "Заминка выдала неуверенность.",
+      "audio": [
+        "audio/sentences/The hesitation revealed uncertainty..wav"
+      ]
+    },
+    {
+      "id": "the-pause-carried-more-meaning-than-words.",
+      "english": "The pause carried more meaning than words.",
+      "translation": "Пауза несла больше смысла, чем слова.",
+      "audio": [
+        "audio/sentences/The pause carried more meaning than words..wav"
+      ]
+    },
+    {
+      "id": "silence-became-his-strongest-response.",
+      "english": "Silence became his strongest response.",
+      "translation": "Молчание стало его самым сильным ответом.",
+      "audio": [
+        "audio/sentences/Silence became his strongest response..wav"
+      ]
+    },
+    {
+      "id": "the-avoidance-was-impossible-to-miss.",
+      "english": "The avoidance was impossible to miss.",
+      "translation": "Уход от темы было невозможно не заметить.",
+      "audio": [
+        "audio/sentences/The avoidance was impossible to miss..wav"
+      ]
+    },
+    {
+      "id": "his-evasion-delayed-the-real-answer.",
+      "english": "His evasion delayed the real answer.",
+      "translation": "Его уклонение отсрочило настоящий ответ.",
+      "audio": [
+        "audio/sentences/His evasion delayed the real answer..wav"
+      ]
+    },
+    {
+      "id": "indirectness-softened-the-criticism.",
+      "english": "Indirectness softened the criticism.",
+      "translation": "Косвенность смягчила критику.",
+      "audio": [
+        "audio/sentences/Indirectness softened the criticism..wav"
+      ]
+    },
+    {
+      "id": "implicitness-required-careful-listening.",
+      "english": "Implicitness required careful listening.",
+      "translation": "Неявность требовала внимательного слушания.",
+      "audio": [
+        "audio/sentences/Implicitness required careful listening..wav"
+      ]
+    },
+    {
+      "id": "one-nuance-changed-the-interpretation.",
+      "english": "One nuance changed the interpretation.",
+      "translation": "Один нюанс изменил трактовку.",
+      "audio": [
+        "audio/sentences/One nuance changed the interpretation..wav"
+      ]
+    },
+    {
+      "id": "the-subtlety-made-it-hard-to-respond.",
+      "english": "The subtlety made it hard to respond.",
+      "translation": "Эта тонкость усложнила ответ.",
+      "audio": [
+        "audio/sentences/The subtlety made it hard to respond..wav"
+      ]
+    },
+    {
+      "id": "an-undertone-of-tension-remained.",
+      "english": "An undertone of tension remained.",
+      "translation": "Сохранился подтекстовый оттенок напряжения.",
+      "audio": [
+        "audio/sentences/An undertone of tension remained..wav"
+      ]
+    }
+  ]
+}

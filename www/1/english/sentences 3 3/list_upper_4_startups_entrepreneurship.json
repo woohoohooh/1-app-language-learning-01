@@ -1,0 +1,367 @@
+{
+  "theme": "Предпринимательство",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "startup",
+      "english": "startup",
+      "translation": "стартап",
+      "audio": [
+        "audio/words/startup.wav"
+      ]
+    },
+    {
+      "id": "founder",
+      "english": "founder",
+      "translation": "основатель",
+      "audio": [
+        "audio/words/founder.wav"
+      ]
+    },
+    {
+      "id": "co-founder",
+      "english": "co-founder",
+      "translation": "сооснователь",
+      "audio": [
+        "audio/words/co-founder.wav"
+      ]
+    },
+    {
+      "id": "entrepreneur",
+      "english": "entrepreneur",
+      "translation": "предприниматель",
+      "audio": [
+        "audio/words/entrepreneur.wav"
+      ]
+    },
+    {
+      "id": "vision",
+      "english": "vision",
+      "translation": "видение",
+      "audio": [
+        "audio/words/vision.wav"
+      ]
+    },
+    {
+      "id": "idea",
+      "english": "idea",
+      "translation": "идея",
+      "audio": [
+        "audio/words/idea.wav"
+      ]
+    },
+    {
+      "id": "concept",
+      "english": "concept",
+      "translation": "концепция",
+      "audio": [
+        "audio/words/concept.wav"
+      ]
+    },
+    {
+      "id": "problem",
+      "english": "problem",
+      "translation": "проблема",
+      "audio": [
+        "audio/words/problem.wav"
+      ]
+    },
+    {
+      "id": "solution",
+      "english": "solution",
+      "translation": "решение",
+      "audio": [
+        "audio/words/solution.wav"
+      ]
+    },
+    {
+      "id": "value",
+      "english": "value",
+      "translation": "ценность",
+      "audio": [
+        "audio/words/value.wav"
+      ]
+    },
+    {
+      "id": "market",
+      "english": "market",
+      "translation": "рынок",
+      "audio": [
+        "audio/words/market.wav"
+      ]
+    },
+    {
+      "id": "niche",
+      "english": "niche",
+      "translation": "ниша",
+      "audio": [
+        "audio/words/niche.wav"
+      ]
+    },
+    {
+      "id": "demand",
+      "english": "demand",
+      "translation": "спрос",
+      "audio": [
+        "audio/words/demand.wav"
+      ]
+    },
+    {
+      "id": "competition",
+      "english": "competition",
+      "translation": "конкуренция",
+      "audio": [
+        "audio/words/competition.wav"
+      ]
+    },
+    {
+      "id": "advantage",
+      "english": "advantage",
+      "translation": "преимущество",
+      "audio": [
+        "audio/words/advantage.wav"
+      ]
+    },
+    {
+      "id": "product",
+      "english": "product",
+      "translation": "продукт",
+      "audio": [
+        "audio/words/product.wav"
+      ]
+    },
+    {
+      "id": "service",
+      "english": "service",
+      "translation": "сервис",
+      "audio": [
+        "audio/words/service.wav"
+      ]
+    },
+    {
+      "id": "platform",
+      "english": "platform",
+      "translation": "платформа",
+      "audio": [
+        "audio/words/platform.wav"
+      ]
+    },
+    {
+      "id": "feature",
+      "english": "feature",
+      "translation": "функция",
+      "audio": [
+        "audio/words/feature.wav"
+      ]
+    },
+    {
+      "id": "roadmap",
+      "english": "roadmap",
+      "translation": "дорожная карта",
+      "audio": [
+        "audio/words/roadmap.wav"
+      ]
+    },
+    {
+      "id": "launch",
+      "english": "launch",
+      "translation": "запуск",
+      "audio": [
+        "audio/words/launch.wav"
+      ]
+    },
+    {
+      "id": "growth",
+      "english": "growth",
+      "translation": "рост",
+      "audio": [
+        "audio/words/growth.wav"
+      ]
+    },
+    {
+      "id": "scaling",
+      "english": "scaling",
+      "translation": "масштабирование",
+      "audio": [
+        "audio/words/scaling.wav"
+      ]
+    },
+    {
+      "id": "pivot",
+      "english": "pivot",
+      "translation": "смена стратегии",
+      "audio": [
+        "audio/words/pivot.wav"
+      ]
+    },
+    {
+      "id": "revenue",
+      "english": "revenue",
+      "translation": "выручка",
+      "audio": [
+        "audio/words/revenue.wav"
+      ]
+    },
+    {
+      "id": "profit",
+      "english": "profit",
+      "translation": "прибыль",
+      "audio": [
+        "audio/words/profit.wav"
+      ]
+    },
+    {
+      "id": "pricing",
+      "english": "pricing",
+      "translation": "ценообразование",
+      "audio": [
+        "audio/words/pricing.wav"
+      ]
+    },
+    {
+      "id": "monetization",
+      "english": "monetization",
+      "translation": "монетизация",
+      "audio": [
+        "audio/words/monetization.wav"
+      ]
+    },
+    {
+      "id": "subscription",
+      "english": "subscription",
+      "translation": "подписка",
+      "audio": [
+        "audio/words/subscription.wav"
+      ]
+    },
+    {
+      "id": "investment",
+      "english": "investment",
+      "translation": "инвестиции",
+      "audio": [
+        "audio/words/investment.wav"
+      ]
+    },
+    {
+      "id": "investor",
+      "english": "investor",
+      "translation": "инвестор",
+      "audio": [
+        "audio/words/investor.wav"
+      ]
+    },
+    {
+      "id": "funding",
+      "english": "funding",
+      "translation": "финансирование",
+      "audio": [
+        "audio/words/funding.wav"
+      ]
+    },
+    {
+      "id": "valuation",
+      "english": "valuation",
+      "translation": "оценка компании",
+      "audio": [
+        "audio/words/valuation.wav"
+      ]
+    },
+    {
+      "id": "equity",
+      "english": "equity",
+      "translation": "доля",
+      "audio": [
+        "audio/words/equity.wav"
+      ]
+    },
+    {
+      "id": "pitch",
+      "english": "pitch",
+      "translation": "питч",
+      "audio": [
+        "audio/words/pitch.wav"
+      ]
+    },
+    {
+      "id": "deck",
+      "english": "deck",
+      "translation": "презентация",
+      "audio": [
+        "audio/words/deck.wav"
+      ]
+    },
+    {
+      "id": "metrics",
+      "english": "metrics",
+      "translation": "метрики",
+      "audio": [
+        "audio/words/metrics.wav"
+      ]
+    },
+    {
+      "id": "kpis",
+      "english": "KPIs",
+      "translation": "ключевые показатели",
+      "audio": [
+        "audio/words/KPIs.wav"
+      ]
+    },
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "обратная связь",
+      "audio": [
+        "audio/words/feedback.wav"
+      ]
+    },
+    {
+      "id": "risk",
+      "english": "risk",
+      "translation": "риск",
+      "audio": [
+        "audio/words/risk.wav"
+      ]
+    },
+    {
+      "id": "failure",
+      "english": "failure",
+      "translation": "провал",
+      "audio": [
+        "audio/words/failure.wav"
+      ]
+    },
+    {
+      "id": "opportunity",
+      "english": "opportunity",
+      "translation": "возможность",
+      "audio": [
+        "audio/words/opportunity.wav"
+      ]
+    },
+    {
+      "id": "decision",
+      "english": "decision",
+      "translation": "решение",
+      "audio": [
+        "audio/words/decision.wav"
+      ]
+    },
+    {
+      "id": "strategy",
+      "english": "strategy",
+      "translation": "стратегия",
+      "audio": [
+        "audio/words/strategy.wav"
+      ]
+    },
+    {
+      "id": "traction",
+      "english": "traction",
+      "translation": "рост интереса",
+      "audio": [
+        "audio/words/traction.wav"
+      ]
+    }
+  ]
+}

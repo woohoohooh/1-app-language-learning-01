@@ -1,0 +1,367 @@
+{
+  "theme": "Продукты, UX, разработка",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "digital-product-strategy",
+      "english": "digital product strategy",
+      "translation": "стратегия цифрового продукта",
+      "audio": [
+        "audio/phrases/digital product strategy.wav"
+      ]
+    },
+    {
+      "id": "core-feature-set",
+      "english": "core feature set",
+      "translation": "набор ключевых функций",
+      "audio": [
+        "audio/phrases/core feature set.wav"
+      ]
+    },
+    {
+      "id": "extended-functionality-options",
+      "english": "extended functionality options",
+      "translation": "расширенные возможности функциональности",
+      "audio": [
+        "audio/phrases/extended functionality options.wav"
+      ]
+    },
+    {
+      "id": "clear-product-roadmap",
+      "english": "clear product roadmap",
+      "translation": "чёткая продуктовая дорожная карта",
+      "audio": [
+        "audio/phrases/clear product roadmap.wav"
+      ]
+    },
+    {
+      "id": "long-term-vision",
+      "english": "long term vision",
+      "translation": "долгосрочное видение",
+      "audio": [
+        "audio/phrases/long term vision.wav"
+      ]
+    },
+    {
+      "id": "growth-strategy-planning",
+      "english": "growth strategy planning",
+      "translation": "планирование стратегии роста",
+      "audio": [
+        "audio/phrases/growth strategy planning.wav"
+      ]
+    },
+    {
+      "id": "clear-business-goal",
+      "english": "clear business goal",
+      "translation": "чёткая бизнес-цель",
+      "audio": [
+        "audio/phrases/clear business goal.wav"
+      ]
+    },
+    {
+      "id": "top-priority-task",
+      "english": "top priority task",
+      "translation": "задача с высшим приоритетом",
+      "audio": [
+        "audio/phrases/top priority task.wav"
+      ]
+    },
+    {
+      "id": "project-scope-definition",
+      "english": "project scope definition",
+      "translation": "определение объёма проекта",
+      "audio": [
+        "audio/phrases/project scope definition.wav"
+      ]
+    },
+    {
+      "id": "technical-requirement-list",
+      "english": "technical requirement list",
+      "translation": "список технических требований",
+      "audio": [
+        "audio/phrases/technical requirement list.wav"
+      ]
+    },
+    {
+      "id": "active-user-behavior",
+      "english": "active user behavior",
+      "translation": "поведение активного пользователя",
+      "audio": [
+        "audio/phrases/active user behavior.wav"
+      ]
+    },
+    {
+      "id": "paying-customer-needs",
+      "english": "paying customer needs",
+      "translation": "потребности платящего клиента",
+      "audio": [
+        "audio/phrases/paying customer needs.wav"
+      ]
+    },
+    {
+      "id": "smooth-user-experience",
+      "english": "smooth user experience",
+      "translation": "плавный пользовательский опыт",
+      "audio": [
+        "audio/phrases/smooth user experience.wav"
+      ]
+    },
+    {
+      "id": "clean-user-interface",
+      "english": "clean user interface",
+      "translation": "чистый пользовательский интерфейс",
+      "audio": [
+        "audio/phrases/clean user interface.wav"
+      ]
+    },
+    {
+      "id": "high-usability-level",
+      "english": "high usability level",
+      "translation": "высокий уровень удобства",
+      "audio": [
+        "audio/phrases/high usability level.wav"
+      ]
+    },
+    {
+      "id": "modern-design-approach",
+      "english": "modern design approach",
+      "translation": "современный подход к дизайну",
+      "audio": [
+        "audio/phrases/modern design approach.wav"
+      ]
+    },
+    {
+      "id": "responsive-layout-structure",
+      "english": "responsive layout structure",
+      "translation": "адаптивная структура компоновки",
+      "audio": [
+        "audio/phrases/responsive layout structure.wav"
+      ]
+    },
+    {
+      "id": "interactive-prototype-version",
+      "english": "interactive prototype version",
+      "translation": "интерактивная версия прототипа",
+      "audio": [
+        "audio/phrases/interactive prototype version.wav"
+      ]
+    },
+    {
+      "id": "basic-wireframe-structure",
+      "english": "basic wireframe structure",
+      "translation": "базовая структура вайрфрейма",
+      "audio": [
+        "audio/phrases/basic wireframe structure.wav"
+      ]
+    },
+    {
+      "id": "visual-mockup-review",
+      "english": "visual mockup review",
+      "translation": "обзор визуального макета",
+      "audio": [
+        "audio/phrases/visual mockup review.wav"
+      ]
+    },
+    {
+      "id": "collect-user-feedback",
+      "english": "collect user feedback",
+      "translation": "собрать обратную связь пользователей",
+      "audio": [
+        "audio/phrases/collect user feedback.wav"
+      ]
+    },
+    {
+      "id": "fast-iteration-cycle",
+      "english": "fast iteration cycle",
+      "translation": "быстрый цикл итераций",
+      "audio": [
+        "audio/phrases/fast iteration cycle.wav"
+      ]
+    },
+    {
+      "id": "continuous-improvement-mindset",
+      "english": "continuous improvement mindset",
+      "translation": "мышление непрерывного улучшения",
+      "audio": [
+        "audio/phrases/continuous improvement mindset.wav"
+      ]
+    },
+    {
+      "id": "regular-update-schedule",
+      "english": "regular update schedule",
+      "translation": "регулярный график обновлений",
+      "audio": [
+        "audio/phrases/regular update schedule.wav"
+      ]
+    },
+    {
+      "id": "track-key-metrics",
+      "english": "track key metrics",
+      "translation": "отслеживать ключевые метрики",
+      "audio": [
+        "audio/phrases/track key metrics.wav"
+      ]
+    },
+    {
+      "id": "product-analytics-tools",
+      "english": "product analytics tools",
+      "translation": "инструменты продуктовой аналитики",
+      "audio": [
+        "audio/phrases/product analytics tools.wav"
+      ]
+    },
+    {
+      "id": "increase-conversion-rate",
+      "english": "increase conversion rate",
+      "translation": "повысить коэффициент конверсии",
+      "audio": [
+        "audio/phrases/increase conversion rate.wav"
+      ]
+    },
+    {
+      "id": "focus-on-retention",
+      "english": "focus on retention",
+      "translation": "сосредоточиться на удержании",
+      "audio": [
+        "audio/phrases/focus on retention.wav"
+      ]
+    },
+    {
+      "id": "boost-user-engagement",
+      "english": "boost user engagement",
+      "translation": "повысить вовлечённость пользователей",
+      "audio": [
+        "audio/phrases/boost user engagement.wav"
+      ]
+    },
+    {
+      "id": "form-a-hypothesis",
+      "english": "form a hypothesis",
+      "translation": "сформировать гипотезу",
+      "audio": [
+        "audio/phrases/form a hypothesis.wav"
+      ]
+    },
+    {
+      "id": "run-an-experiment",
+      "english": "run an experiment",
+      "translation": "провести эксперимент",
+      "audio": [
+        "audio/phrases/run an experiment.wav"
+      ]
+    },
+    {
+      "id": "a/b-testing-results",
+      "english": "A/B testing results",
+      "translation": "результаты A/B тестирования",
+      "audio": [
+        "audio/phrases/A/B testing results.wav"
+      ]
+    },
+    {
+      "id": "idea-validation-process",
+      "english": "idea validation process",
+      "translation": "процесс проверки идеи",
+      "audio": [
+        "audio/phrases/idea validation process.wav"
+      ]
+    },
+    {
+      "id": "challenge-assumptions",
+      "english": "challenge assumptions",
+      "translation": "оспаривать предположения",
+      "audio": [
+        "audio/phrases/challenge assumptions.wav"
+      ]
+    },
+    {
+      "id": "prioritize-the-backlog",
+      "english": "prioritize the backlog",
+      "translation": "приоритизировать бэклог",
+      "audio": [
+        "audio/phrases/prioritize the backlog.wav"
+      ]
+    },
+    {
+      "id": "complete-the-task",
+      "english": "complete the task",
+      "translation": "выполнить задачу",
+      "audio": [
+        "audio/phrases/complete the task.wav"
+      ]
+    },
+    {
+      "id": "open-a-ticket",
+      "english": "open a ticket",
+      "translation": "создать тикет",
+      "audio": [
+        "audio/phrases/open a ticket.wav"
+      ]
+    },
+    {
+      "id": "time-estimate",
+      "english": "time estimate",
+      "translation": "оценка времени",
+      "audio": [
+        "audio/phrases/time estimate.wav"
+      ]
+    },
+    {
+      "id": "meet-the-deadline",
+      "english": "meet the deadline",
+      "translation": "уложиться в дедлайн",
+      "audio": [
+        "audio/phrases/meet the deadline.wav"
+      ]
+    },
+    {
+      "id": "key-stakeholder-input",
+      "english": "key stakeholder input",
+      "translation": "мнение ключевого стейкхолдера",
+      "audio": [
+        "audio/phrases/key stakeholder input.wav"
+      ]
+    },
+    {
+      "id": "team-alignment",
+      "english": "team alignment",
+      "translation": "согласованность команды",
+      "audio": [
+        "audio/phrases/team alignment.wav"
+      ]
+    },
+    {
+      "id": "make-a-decision",
+      "english": "make a decision",
+      "translation": "принять решение",
+      "audio": [
+        "audio/phrases/make a decision.wav"
+      ]
+    },
+    {
+      "id": "design-trade-offs",
+      "english": "design trade-offs",
+      "translation": "дизайнерские компромиссы",
+      "audio": [
+        "audio/phrases/design trade-offs.wav"
+      ]
+    },
+    {
+      "id": "desired-outcome",
+      "english": "desired outcome",
+      "translation": "желаемый результат",
+      "audio": [
+        "audio/phrases/desired outcome.wav"
+      ]
+    },
+    {
+      "id": "internal-review-process",
+      "english": "internal review process",
+      "translation": "процесс внутреннего ревью",
+      "audio": [
+        "audio/phrases/internal review process.wav"
+      ]
+    }
+  ]
+}

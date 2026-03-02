@@ -1,0 +1,127 @@
+{
+  "theme": "Тело и здоровье",
+  "level": "Beginner",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "body",
+      "translation": "тело"
+    },
+    {
+      "english": "head",
+      "translation": "голова"
+    },
+    {
+      "english": "face",
+      "translation": "лицо"
+    },
+    {
+      "english": "hair",
+      "translation": "волосы"
+    },
+    {
+      "english": "eye",
+      "translation": "глаз"
+    },
+    {
+      "english": "ear",
+      "translation": "ухо"
+    },
+    {
+      "english": "nose",
+      "translation": "нос"
+    },
+    {
+      "english": "mouth",
+      "translation": "рот"
+    },
+    {
+      "english": "tooth",
+      "translation": "зуб"
+    },
+    {
+      "english": "neck",
+      "translation": "шея"
+    },
+    {
+      "english": "shoulder",
+      "translation": "плечо"
+    },
+    {
+      "english": "arm",
+      "translation": "рука"
+    },
+    {
+      "english": "hand",
+      "translation": "кисть"
+    },
+    {
+      "english": "finger",
+      "translation": "палец"
+    },
+    {
+      "english": "chest",
+      "translation": "грудь"
+    },
+    {
+      "english": "back",
+      "translation": "спина"
+    },
+    {
+      "english": "stomach",
+      "translation": "живот"
+    },
+    {
+      "english": "leg",
+      "translation": "нога"
+    },
+    {
+      "english": "knee",
+      "translation": "колено"
+    },
+    {
+      "english": "foot",
+      "translation": "ступня"
+    },
+    {
+      "english": "health",
+      "translation": "здоровье"
+    },
+    {
+      "english": "healthy",
+      "translation": "здоровый"
+    },
+    {
+      "english": "sick",
+      "translation": "больной"
+    },
+    {
+      "english": "pain",
+      "translation": "боль"
+    },
+    {
+      "english": "hurt",
+      "translation": "болеть"
+    },
+    {
+      "english": "doctor",
+      "translation": "врач"
+    },
+    {
+      "english": "medicine",
+      "translation": "лекарство"
+    },
+    {
+      "english": "hospital",
+      "translation": "больница"
+    },
+    {
+      "english": "sleep",
+      "translation": "сон"
+    },
+    {
+      "english": "rest",
+      "translation": "отдых"
+    }
+  ]
+}

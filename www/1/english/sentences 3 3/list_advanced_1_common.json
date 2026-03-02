@@ -1,0 +1,407 @@
+{
+  "theme": "Частые слова (продвинуто)",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "assumption",
+      "english": "assumption",
+      "translation": "предположение",
+      "audio": [
+        "audio/words/assumption.wav"
+      ]
+    },
+    {
+      "id": "perspective",
+      "english": "perspective",
+      "translation": "точка зрения",
+      "audio": [
+        "audio/words/perspective.wav"
+      ]
+    },
+    {
+      "id": "context",
+      "english": "context",
+      "translation": "контекст",
+      "audio": [
+        "audio/words/context.wav"
+      ]
+    },
+    {
+      "id": "implication",
+      "english": "implication",
+      "translation": "следствие",
+      "audio": [
+        "audio/words/implication.wav"
+      ]
+    },
+    {
+      "id": "bias",
+      "english": "bias",
+      "translation": "предвзятость",
+      "audio": [
+        "audio/words/bias.wav"
+      ]
+    },
+    {
+      "id": "insight",
+      "english": "insight",
+      "translation": "понимание",
+      "audio": [
+        "audio/words/insight.wav"
+      ]
+    },
+    {
+      "id": "constraint",
+      "english": "constraint",
+      "translation": "ограничение",
+      "audio": [
+        "audio/words/constraint.wav"
+      ]
+    },
+    {
+      "id": "trade-off",
+      "english": "trade-off",
+      "translation": "компромисс",
+      "audio": [
+        "audio/words/trade-off.wav"
+      ]
+    },
+    {
+      "id": "uncertainty",
+      "english": "uncertainty",
+      "translation": "неопределённость",
+      "audio": [
+        "audio/words/uncertainty.wav"
+      ]
+    },
+    {
+      "id": "outcome",
+      "english": "outcome",
+      "translation": "результат",
+      "audio": [
+        "audio/words/outcome.wav"
+      ]
+    },
+    {
+      "id": "approach",
+      "english": "approach",
+      "translation": "подход",
+      "audio": [
+        "audio/words/approach.wav"
+      ]
+    },
+    {
+      "id": "framework",
+      "english": "framework",
+      "translation": "структура",
+      "audio": [
+        "audio/words/framework.wav"
+      ]
+    },
+    {
+      "id": "strategy",
+      "english": "strategy",
+      "translation": "стратегия",
+      "audio": [
+        "audio/words/strategy.wav"
+      ]
+    },
+    {
+      "id": "execution",
+      "english": "execution",
+      "translation": "реализация",
+      "audio": [
+        "audio/words/execution.wav"
+      ]
+    },
+    {
+      "id": "alignment",
+      "english": "alignment",
+      "translation": "согласованность",
+      "audio": [
+        "audio/words/alignment.wav"
+      ]
+    },
+    {
+      "id": "priority",
+      "english": "priority",
+      "translation": "приоритет",
+      "audio": [
+        "audio/words/priority.wav"
+      ]
+    },
+    {
+      "id": "initiative",
+      "english": "initiative",
+      "translation": "инициатива",
+      "audio": [
+        "audio/words/initiative.wav"
+      ]
+    },
+    {
+      "id": "accountability",
+      "english": "accountability",
+      "translation": "ответственность",
+      "audio": [
+        "audio/words/accountability.wav"
+      ]
+    },
+    {
+      "id": "ownership",
+      "english": "ownership",
+      "translation": "ответственность",
+      "audio": [
+        "audio/words/ownership.wav"
+      ]
+    },
+    {
+      "id": "stakeholder",
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона",
+      "audio": [
+        "audio/words/stakeholder.wav"
+      ]
+    },
+    {
+      "id": "credibility",
+      "english": "credibility",
+      "translation": "доверие",
+      "audio": [
+        "audio/words/credibility.wav"
+      ]
+    },
+    {
+      "id": "transparency",
+      "english": "transparency",
+      "translation": "прозрачность",
+      "audio": [
+        "audio/words/transparency.wav"
+      ]
+    },
+    {
+      "id": "integrity",
+      "english": "integrity",
+      "translation": "честность",
+      "audio": [
+        "audio/words/integrity.wav"
+      ]
+    },
+    {
+      "id": "consistency",
+      "english": "consistency",
+      "translation": "последовательность",
+      "audio": [
+        "audio/words/consistency.wav"
+      ]
+    },
+    {
+      "id": "reliability",
+      "english": "reliability",
+      "translation": "надёжность",
+      "audio": [
+        "audio/words/reliability.wav"
+      ]
+    },
+    {
+      "id": "efficiency",
+      "english": "efficiency",
+      "translation": "эффективность",
+      "audio": [
+        "audio/words/efficiency.wav"
+      ]
+    },
+    {
+      "id": "scalability",
+      "english": "scalability",
+      "translation": "масштабируемость",
+      "audio": [
+        "audio/words/scalability.wav"
+      ]
+    },
+    {
+      "id": "sustainability",
+      "english": "sustainability",
+      "translation": "устойчивость",
+      "audio": [
+        "audio/words/sustainability.wav"
+      ]
+    },
+    {
+      "id": "evaluation",
+      "english": "evaluation",
+      "translation": "оценка",
+      "audio": [
+        "audio/words/evaluation.wav"
+      ]
+    },
+    {
+      "id": "assessment",
+      "english": "assessment",
+      "translation": "оценка",
+      "audio": [
+        "audio/words/assessment.wav"
+      ]
+    },
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "обратная связь",
+      "audio": [
+        "audio/words/feedback.wav"
+      ]
+    },
+    {
+      "id": "iteration",
+      "english": "iteration",
+      "translation": "итерация",
+      "audio": [
+        "audio/words/iteration.wav"
+      ]
+    },
+    {
+      "id": "refinement",
+      "english": "refinement",
+      "translation": "доработка",
+      "audio": [
+        "audio/words/refinement.wav"
+      ]
+    },
+    {
+      "id": "optimization",
+      "english": "optimization",
+      "translation": "оптимизация",
+      "audio": [
+        "audio/words/optimization.wav"
+      ]
+    },
+    {
+      "id": "trend",
+      "english": "trend",
+      "translation": "тенденция",
+      "audio": [
+        "audio/words/trend.wav"
+      ]
+    },
+    {
+      "id": "pattern",
+      "english": "pattern",
+      "translation": "шаблон",
+      "audio": [
+        "audio/words/pattern.wav"
+      ]
+    },
+    {
+      "id": "signal",
+      "english": "signal",
+      "translation": "сигнал",
+      "audio": [
+        "audio/words/signal.wav"
+      ]
+    },
+    {
+      "id": "noise",
+      "english": "noise",
+      "translation": "информационный шум",
+      "audio": [
+        "audio/words/noise.wav"
+      ]
+    },
+    {
+      "id": "insightful",
+      "english": "insightful",
+      "translation": "проницательный",
+      "audio": [
+        "audio/words/insightful.wav"
+      ]
+    },
+    {
+      "id": "meaningful",
+      "english": "meaningful",
+      "translation": "значимый",
+      "audio": [
+        "audio/words/meaningful.wav"
+      ]
+    },
+    {
+      "id": "complexity",
+      "english": "complexity",
+      "translation": "сложность",
+      "audio": [
+        "audio/words/complexity.wav"
+      ]
+    },
+    {
+      "id": "ambiguity",
+      "english": "ambiguity",
+      "translation": "двусмысленность",
+      "audio": [
+        "audio/words/ambiguity.wav"
+      ]
+    },
+    {
+      "id": "clarity",
+      "english": "clarity",
+      "translation": "ясность",
+      "audio": [
+        "audio/words/clarity.wav"
+      ]
+    },
+    {
+      "id": "coherence",
+      "english": "coherence",
+      "translation": "связность",
+      "audio": [
+        "audio/words/coherence.wav"
+      ]
+    },
+    {
+      "id": "relevance",
+      "english": "relevance",
+      "translation": "актуальность",
+      "audio": [
+        "audio/words/relevance.wav"
+      ]
+    },
+    {
+      "id": "impact",
+      "english": "impact",
+      "translation": "влияние",
+      "audio": [
+        "audio/words/impact.wav"
+      ]
+    },
+    {
+      "id": "value",
+      "english": "value",
+      "translation": "ценность",
+      "audio": [
+        "audio/words/value.wav"
+      ]
+    },
+    {
+      "id": "benefit",
+      "english": "benefit",
+      "translation": "выгода",
+      "audio": [
+        "audio/words/benefit.wav"
+      ]
+    },
+    {
+      "id": "risk",
+      "english": "risk",
+      "translation": "риск",
+      "audio": [
+        "audio/words/risk.wav"
+      ]
+    },
+    {
+      "id": "opportunity",
+      "english": "opportunity",
+      "translation": "возможность",
+      "audio": [
+        "audio/words/opportunity.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "theme": "Обратная связь",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "обратная связь"
+    },
+    {
+      "id": "communication",
+      "english": "communication",
+      "translation": "коммуникация"
+    },
+    {
+      "id": "interaction",
+      "english": "interaction",
+      "translation": "взаимодействие"
+    },
+    {
+      "id": "dialogue",
+      "english": "dialogue",
+      "translation": "диалог"
+    },
+    {
+      "id": "exchange",
+      "english": "exchange",
+      "translation": "обмен"
+    },
+    {
+      "id": "clarity",
+      "english": "clarity",
+      "translation": "ясность"
+    },
+    {
+      "id": "alignment",
+      "english": "alignment",
+      "translation": "согласованность"
+    },
+    {
+      "id": "transparency",
+      "english": "transparency",
+      "translation": "прозрачность"
+    },
+    {
+      "id": "consistency",
+      "english": "consistency",
+      "translation": "последовательность"
+    },
+    {
+      "id": "tone",
+      "english": "tone",
+      "translation": "тон"
+    },
+    {
+      "id": "listening",
+      "english": "listening",
+      "translation": "слушание"
+    },
+    {
+      "id": "attention",
+      "english": "attention",
+      "translation": "внимание"
+    },
+    {
+      "id": "response",
+      "english": "response",
+      "translation": "ответ"
+    },
+    {
+      "id": "reaction",
+      "english": "reaction",
+      "translation": "реакция"
+    },
+    {
+      "id": "interpretation",
+      "english": "interpretation",
+      "translation": "интерпретация"
+    },
+    {
+      "id": "message",
+      "english": "message",
+      "translation": "сообщение"
+    },
+    {
+      "id": "intent",
+      "english": "intent",
+      "translation": "намерение"
+    },
+    {
+      "id": "meaning",
+      "english": "meaning",
+      "translation": "смысл"
+    },
+    {
+      "id": "context",
+      "english": "context",
+      "translation": "контекст"
+    },
+    {
+      "id": "signal",
+      "english": "signal",
+      "translation": "сигнал"
+    },
+    {
+      "id": "miscommunication",
+      "english": "miscommunication",
+      "translation": "недопонимание"
+    },
+    {
+      "id": "ambiguity",
+      "english": "ambiguity",
+      "translation": "двусмысленность"
+    },
+    {
+      "id": "assumption",
+      "english": "assumption",
+      "translation": "предположение"
+    },
+    {
+      "id": "perception",
+      "english": "perception",
+      "translation": "восприятие"
+    },
+    {
+      "id": "expectation",
+      "english": "expectation",
+      "translation": "ожидание"
+    },
+    {
+      "id": "evaluation",
+      "english": "evaluation",
+      "translation": "оценка"
+    },
+    {
+      "id": "assessment",
+      "english": "assessment",
+      "translation": "оценивание"
+    },
+    {
+      "id": "recognition",
+      "english": "recognition",
+      "translation": "признание"
+    },
+    {
+      "id": "acknowledgment",
+      "english": "acknowledgment",
+      "translation": "подтверждение"
+    },
+    {
+      "id": "appreciation",
+      "english": "appreciation",
+      "translation": "признательность"
+    },
+    {
+      "id": "suggestion",
+      "english": "suggestion",
+      "translation": "предложение"
+    },
+    {
+      "id": "recommendation",
+      "english": "recommendation",
+      "translation": "рекомендация"
+    },
+    {
+      "id": "guidance",
+      "english": "guidance",
+      "translation": "наставление"
+    },
+    {
+      "id": "direction",
+      "english": "direction",
+      "translation": "направление"
+    },
+    {
+      "id": "instruction",
+      "english": "instruction",
+      "translation": "инструкция"
+    },
+    {
+      "id": "engagement",
+      "english": "engagement",
+      "translation": "вовлечённость"
+    },
+    {
+      "id": "participation",
+      "english": "participation",
+      "translation": "участие"
+    },
+    {
+      "id": "alignment",
+      "english": "alignment",
+      "translation": "согласование"
+    },
+    {
+      "id": "follow-up",
+      "english": "follow-up",
+      "translation": "дальнейшее взаимодействие"
+    }
+  ]
+}

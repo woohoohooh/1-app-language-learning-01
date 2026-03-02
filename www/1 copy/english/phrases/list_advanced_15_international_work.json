@@ -1,0 +1,327 @@
+{
+  "theme": "Работа в международной среде",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "international-project",
+      "english": "international project",
+      "translation": "международный проект",
+      "audio": [
+        "audio/phrases/international project.wav"
+      ]
+    },
+    {
+      "id": "global-market",
+      "english": "global market",
+      "translation": "глобальный рынок",
+      "audio": [
+        "audio/phrases/global market.wav"
+      ]
+    },
+    {
+      "id": "cross-cultural-team",
+      "english": "cross-cultural team",
+      "translation": "межкультурная команда",
+      "audio": [
+        "audio/phrases/cross-cultural team.wav"
+      ]
+    },
+    {
+      "id": "multinational-company",
+      "english": "multinational company",
+      "translation": "многонациональная компания",
+      "audio": [
+        "audio/phrases/multinational company.wav"
+      ]
+    },
+    {
+      "id": "foreign-market",
+      "english": "foreign market",
+      "translation": "иностранный рынок",
+      "audio": [
+        "audio/phrases/foreign market.wav"
+      ]
+    },
+    {
+      "id": "helpful-colleague",
+      "english": "helpful colleague",
+      "translation": "полезный коллега",
+      "audio": [
+        "audio/phrases/helpful colleague.wav"
+      ]
+    },
+    {
+      "id": "local-counterpart",
+      "english": "local counterpart",
+      "translation": "местный коллега",
+      "audio": [
+        "audio/phrases/local counterpart.wav"
+      ]
+    },
+    {
+      "id": "key-stakeholder",
+      "english": "key stakeholder",
+      "translation": "ключевая заинтересованная сторона",
+      "audio": [
+        "audio/phrases/key stakeholder.wav"
+      ]
+    },
+    {
+      "id": "international-client",
+      "english": "international client",
+      "translation": "международный клиент",
+      "audio": [
+        "audio/phrases/international client.wav"
+      ]
+    },
+    {
+      "id": "business-partner",
+      "english": "business partner",
+      "translation": "деловой партнёр",
+      "audio": [
+        "audio/phrases/business partner.wav"
+      ]
+    },
+    {
+      "id": "different-timezone",
+      "english": "different timezone",
+      "translation": "другой часовой пояс",
+      "audio": [
+        "audio/phrases/different timezone.wav"
+      ]
+    },
+    {
+      "id": "tight-schedule",
+      "english": "tight schedule",
+      "translation": "плотный график",
+      "audio": [
+        "audio/phrases/tight schedule.wav"
+      ]
+    },
+    {
+      "id": "check-availability",
+      "english": "check availability",
+      "translation": "проверить доступность",
+      "audio": [
+        "audio/phrases/check availability.wav"
+      ]
+    },
+    {
+      "id": "meet-deadline",
+      "english": "meet deadline",
+      "translation": "уложиться в дедлайн",
+      "audio": [
+        "audio/phrases/meet deadline.wav"
+      ]
+    },
+    {
+      "id": "time-overlap",
+      "english": "time overlap",
+      "translation": "пересечение по времени",
+      "audio": [
+        "audio/phrases/time overlap.wav"
+      ]
+    },
+    {
+      "id": "remote-work",
+      "english": "remote work",
+      "translation": "удалённая работа",
+      "audio": [
+        "audio/phrases/remote work.wav"
+      ]
+    },
+    {
+      "id": "distributed-team-setup",
+      "english": "distributed team setup",
+      "translation": "формат распределённой команды",
+      "audio": [
+        "audio/phrases/distributed team setup.wav"
+      ]
+    },
+    {
+      "id": "company-headquarters",
+      "english": "company headquarters",
+      "translation": "штаб-квартира компании",
+      "audio": [
+        "audio/phrases/company headquarters.wav"
+      ]
+    },
+    {
+      "id": "local-branch",
+      "english": "local branch",
+      "translation": "местный филиал",
+      "audio": [
+        "audio/phrases/local branch.wav"
+      ]
+    },
+    {
+      "id": "main-office",
+      "english": "main office",
+      "translation": "главный офис",
+      "audio": [
+        "audio/phrases/main office.wav"
+      ]
+    },
+    {
+      "id": "language-barrier-issue",
+      "english": "language barrier issue",
+      "translation": "проблема языкового барьера",
+      "audio": [
+        "audio/phrases/language barrier issue.wav"
+      ]
+    },
+    {
+      "id": "strong-accent",
+      "english": "strong accent",
+      "translation": "сильный акцент",
+      "audio": [
+        "audio/phrases/strong accent.wav"
+      ]
+    },
+    {
+      "id": "language-fluency",
+      "english": "language fluency",
+      "translation": "беглость языка",
+      "audio": [
+        "audio/phrases/language fluency.wav"
+      ]
+    },
+    {
+      "id": "message-clarity",
+      "english": "message clarity",
+      "translation": "ясность сообщения",
+      "audio": [
+        "audio/phrases/message clarity.wav"
+      ]
+    },
+    {
+      "id": "cause-misunderstanding",
+      "english": "cause misunderstanding",
+      "translation": "вызывать недопонимание",
+      "audio": [
+        "audio/phrases/cause misunderstanding.wav"
+      ]
+    },
+    {
+      "id": "clear-expectations",
+      "english": "clear expectations",
+      "translation": "чёткие ожидания",
+      "audio": [
+        "audio/phrases/clear expectations.wav"
+      ]
+    },
+    {
+      "id": "project-requirements",
+      "english": "project requirements",
+      "translation": "требования проекта",
+      "audio": [
+        "audio/phrases/project requirements.wav"
+      ]
+    },
+    {
+      "id": "shared-responsibility",
+      "english": "shared responsibility",
+      "translation": "общая ответственность",
+      "audio": [
+        "audio/phrases/shared responsibility.wav"
+      ]
+    },
+    {
+      "id": "decision-authority",
+      "english": "decision authority",
+      "translation": "полномочия на решение",
+      "audio": [
+        "audio/phrases/decision authority.wav"
+      ]
+    },
+    {
+      "id": "final-decision",
+      "english": "final decision",
+      "translation": "окончательное решение",
+      "audio": [
+        "audio/phrases/final decision.wav"
+      ]
+    },
+    {
+      "id": "valid-work-permit",
+      "english": "valid work permit",
+      "translation": "действующее разрешение на работу",
+      "audio": [
+        "audio/phrases/valid work permit.wav"
+      ]
+    },
+    {
+      "id": "business-visa",
+      "english": "business visa",
+      "translation": "деловая виза",
+      "audio": [
+        "audio/phrases/business visa.wav"
+      ]
+    },
+    {
+      "id": "team-relocation",
+      "english": "team relocation",
+      "translation": "релокация команды",
+      "audio": [
+        "audio/phrases/team relocation.wav"
+      ]
+    },
+    {
+      "id": "sign-contract",
+      "english": "sign contract",
+      "translation": "подписать контракт",
+      "audio": [
+        "audio/phrases/sign contract.wav"
+      ]
+    },
+    {
+      "id": "legal-compliance",
+      "english": "legal compliance",
+      "translation": "соответствие закону",
+      "audio": [
+        "audio/phrases/legal compliance.wav"
+      ]
+    },
+    {
+      "id": "short-business-trip",
+      "english": "short business trip",
+      "translation": "короткая командировка",
+      "audio": [
+        "audio/phrases/short business trip.wav"
+      ]
+    },
+    {
+      "id": "contract-negotiation",
+      "english": "contract negotiation",
+      "translation": "переговоры по контракту",
+      "audio": [
+        "audio/phrases/contract negotiation.wav"
+      ]
+    },
+    {
+      "id": "mutual-agreement",
+      "english": "mutual agreement",
+      "translation": "взаимное соглашение",
+      "audio": [
+        "audio/phrases/mutual agreement.wav"
+      ]
+    },
+    {
+      "id": "final-approval",
+      "english": "final approval",
+      "translation": "окончательное утверждение",
+      "audio": [
+        "audio/phrases/final approval.wav"
+      ]
+    },
+    {
+      "id": "team-coordination",
+      "english": "team coordination",
+      "translation": "координация команды",
+      "audio": [
+        "audio/phrases/team coordination.wav"
+      ]
+    }
+  ]
+}

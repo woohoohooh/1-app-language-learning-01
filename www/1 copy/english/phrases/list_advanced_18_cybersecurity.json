@@ -1,0 +1,367 @@
+{
+  "theme": "Цифровая безопасность",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "system-security",
+      "english": "system security",
+      "translation": "безопасность системы",
+      "audio": [
+        "audio/phrases/system security.wav"
+      ]
+    },
+    {
+      "id": "cybersecurity-standards",
+      "english": "cybersecurity standards",
+      "translation": "стандарты кибербезопасности",
+      "audio": [
+        "audio/phrases/cybersecurity standards.wav"
+      ]
+    },
+    {
+      "id": "user-privacy",
+      "english": "user privacy",
+      "translation": "конфиденциальность пользователя",
+      "audio": [
+        "audio/phrases/user privacy.wav"
+      ]
+    },
+    {
+      "id": "data-protection",
+      "english": "data protection",
+      "translation": "защита данных",
+      "audio": [
+        "audio/phrases/data protection.wav"
+      ]
+    },
+    {
+      "id": "serious-threat",
+      "english": "serious threat",
+      "translation": "серьёзная угроза",
+      "audio": [
+        "audio/phrases/serious threat.wav"
+      ]
+    },
+    {
+      "id": "cyber-attack",
+      "english": "cyber attack",
+      "translation": "кибератака",
+      "audio": [
+        "audio/phrases/cyber attack.wav"
+      ]
+    },
+    {
+      "id": "data-breach",
+      "english": "data breach",
+      "translation": "утечка данных",
+      "audio": [
+        "audio/phrases/data breach.wav"
+      ]
+    },
+    {
+      "id": "system-vulnerability",
+      "english": "system vulnerability",
+      "translation": "уязвимость системы",
+      "audio": [
+        "audio/phrases/system vulnerability.wav"
+      ]
+    },
+    {
+      "id": "high-risk",
+      "english": "high risk",
+      "translation": "высокий риск",
+      "audio": [
+        "audio/phrases/high risk.wav"
+      ]
+    },
+    {
+      "id": "security-incident",
+      "english": "security incident",
+      "translation": "инцидент безопасности",
+      "audio": [
+        "audio/phrases/security incident.wav"
+      ]
+    },
+    {
+      "id": "detect-malware",
+      "english": "detect malware",
+      "translation": "обнаружить вредоносное ПО",
+      "audio": [
+        "audio/phrases/detect malware.wav"
+      ]
+    },
+    {
+      "id": "computer-virus",
+      "english": "computer virus",
+      "translation": "компьютерный вирус",
+      "audio": [
+        "audio/phrases/computer virus.wav"
+      ]
+    },
+    {
+      "id": "ransomware-attack",
+      "english": "ransomware attack",
+      "translation": "атака вымогательского ПО",
+      "audio": [
+        "audio/phrases/ransomware attack.wav"
+      ]
+    },
+    {
+      "id": "hidden-spyware",
+      "english": "hidden spyware",
+      "translation": "скрытое шпионское ПО",
+      "audio": [
+        "audio/phrases/hidden spyware.wav"
+      ]
+    },
+    {
+      "id": "trojan-program",
+      "english": "trojan program",
+      "translation": "троянская программа",
+      "audio": [
+        "audio/phrases/trojan program.wav"
+      ]
+    },
+    {
+      "id": "phishing-email",
+      "english": "phishing email",
+      "translation": "фишинговое письмо",
+      "audio": [
+        "audio/phrases/phishing email.wav"
+      ]
+    },
+    {
+      "id": "online-scam",
+      "english": "online scam",
+      "translation": "онлайн мошенничество",
+      "audio": [
+        "audio/phrases/online scam.wav"
+      ]
+    },
+    {
+      "id": "financial-fraud",
+      "english": "financial fraud",
+      "translation": "финансовое мошенничество",
+      "audio": [
+        "audio/phrases/financial fraud.wav"
+      ]
+    },
+    {
+      "id": "identity-spoofing",
+      "english": "identity spoofing",
+      "translation": "подмена личности",
+      "audio": [
+        "audio/phrases/identity spoofing.wav"
+      ]
+    },
+    {
+      "id": "social-engineering-tactics",
+      "english": "social engineering tactics",
+      "translation": "приёмы социальной инженерии",
+      "audio": [
+        "audio/phrases/social engineering tactics.wav"
+      ]
+    },
+    {
+      "id": "authentication-process",
+      "english": "authentication process",
+      "translation": "процесс аутентификации",
+      "audio": [
+        "audio/phrases/authentication process.wav"
+      ]
+    },
+    {
+      "id": "authorization-level",
+      "english": "authorization level",
+      "translation": "уровень авторизации",
+      "audio": [
+        "audio/phrases/authorization level.wav"
+      ]
+    },
+    {
+      "id": "strong-password",
+      "english": "strong password",
+      "translation": "надёжный пароль",
+      "audio": [
+        "audio/phrases/strong password.wav"
+      ]
+    },
+    {
+      "id": "user-credentials",
+      "english": "user credentials",
+      "translation": "учётные данные пользователя",
+      "audio": [
+        "audio/phrases/user credentials.wav"
+      ]
+    },
+    {
+      "id": "access-control",
+      "english": "access control",
+      "translation": "контроль доступа",
+      "audio": [
+        "audio/phrases/access control.wav"
+      ]
+    },
+    {
+      "id": "data-encryption",
+      "english": "data encryption",
+      "translation": "шифрование данных",
+      "audio": [
+        "audio/phrases/data encryption.wav"
+      ]
+    },
+    {
+      "id": "secure-decryption",
+      "english": "secure decryption",
+      "translation": "безопасная расшифровка",
+      "audio": [
+        "audio/phrases/secure decryption.wav"
+      ]
+    },
+    {
+      "id": "encryption-key",
+      "english": "encryption key",
+      "translation": "ключ шифрования",
+      "audio": [
+        "audio/phrases/encryption key.wav"
+      ]
+    },
+    {
+      "id": "digital-certificate",
+      "english": "digital certificate",
+      "translation": "цифровой сертификат",
+      "audio": [
+        "audio/phrases/digital certificate.wav"
+      ]
+    },
+    {
+      "id": "password-hash",
+      "english": "password hash",
+      "translation": "хэш пароля",
+      "audio": [
+        "audio/phrases/password hash.wav"
+      ]
+    },
+    {
+      "id": "network-firewall",
+      "english": "network firewall",
+      "translation": "сетевой экран",
+      "audio": [
+        "audio/phrases/network firewall.wav"
+      ]
+    },
+    {
+      "id": "antivirus-software",
+      "english": "antivirus software",
+      "translation": "антивирусное ПО",
+      "audio": [
+        "audio/phrases/antivirus software.wav"
+      ]
+    },
+    {
+      "id": "secure-vpn",
+      "english": "secure vpn",
+      "translation": "безопасный vpn",
+      "audio": [
+        "audio/phrases/secure vpn.wav"
+      ]
+    },
+    {
+      "id": "internal-network",
+      "english": "internal network",
+      "translation": "внутренняя сеть",
+      "audio": [
+        "audio/phrases/internal network.wav"
+      ]
+    },
+    {
+      "id": "endpoint-device",
+      "english": "endpoint device",
+      "translation": "конечное устройство",
+      "audio": [
+        "audio/phrases/endpoint device.wav"
+      ]
+    },
+    {
+      "id": "system-monitoring",
+      "english": "system monitoring",
+      "translation": "мониторинг системы",
+      "audio": [
+        "audio/phrases/system monitoring.wav"
+      ]
+    },
+    {
+      "id": "event-logging",
+      "english": "event logging",
+      "translation": "журналирование событий",
+      "audio": [
+        "audio/phrases/event logging.wav"
+      ]
+    },
+    {
+      "id": "threat-detection",
+      "english": "threat detection",
+      "translation": "обнаружение угроз",
+      "audio": [
+        "audio/phrases/threat detection.wav"
+      ]
+    },
+    {
+      "id": "incident-response",
+      "english": "incident response",
+      "translation": "реагирование на инцидент",
+      "audio": [
+        "audio/phrases/incident response.wav"
+      ]
+    },
+    {
+      "id": "risk-mitigation",
+      "english": "risk mitigation",
+      "translation": "снижение риска",
+      "audio": [
+        "audio/phrases/risk mitigation.wav"
+      ]
+    },
+    {
+      "id": "data-backup",
+      "english": "data backup",
+      "translation": "резервное копирование данных",
+      "audio": [
+        "audio/phrases/data backup.wav"
+      ]
+    },
+    {
+      "id": "system-recovery",
+      "english": "system recovery",
+      "translation": "восстановление системы",
+      "audio": [
+        "audio/phrases/system recovery.wav"
+      ]
+    },
+    {
+      "id": "legal-compliance",
+      "english": "legal compliance",
+      "translation": "соответствие требованиям закона",
+      "audio": [
+        "audio/phrases/legal compliance.wav"
+      ]
+    },
+    {
+      "id": "security-policy",
+      "english": "security policy",
+      "translation": "политика безопасности",
+      "audio": [
+        "audio/phrases/security policy.wav"
+      ]
+    },
+    {
+      "id": "industry-regulation",
+      "english": "industry regulation",
+      "translation": "отраслевое регулирование",
+      "audio": [
+        "audio/phrases/industry regulation.wav"
+      ]
+    }
+  ]
+}

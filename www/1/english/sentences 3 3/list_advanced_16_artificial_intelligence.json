@@ -1,0 +1,327 @@
+{
+  "theme": "Искусственный интеллект",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "artificial-intelligence",
+      "english": "artificial intelligence",
+      "translation": "искусственный интеллект",
+      "audio": [
+        "audio/words/artificial intelligence.wav"
+      ]
+    },
+    {
+      "id": "ai",
+      "english": "AI",
+      "translation": "ИИ",
+      "audio": [
+        "audio/words/AI.wav"
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "english": "machine learning",
+      "translation": "машинное обучение",
+      "audio": [
+        "audio/words/machine learning.wav"
+      ]
+    },
+    {
+      "id": "deep-learning",
+      "english": "deep learning",
+      "translation": "глубинное обучение",
+      "audio": [
+        "audio/words/deep learning.wav"
+      ]
+    },
+    {
+      "id": "neural-network",
+      "english": "neural network",
+      "translation": "нейронная сеть",
+      "audio": [
+        "audio/words/neural network.wav"
+      ]
+    },
+    {
+      "id": "algorithm",
+      "english": "algorithm",
+      "translation": "алгоритм",
+      "audio": [
+        "audio/words/algorithm.wav"
+      ]
+    },
+    {
+      "id": "model",
+      "english": "model",
+      "translation": "модель",
+      "audio": [
+        "audio/words/model.wav"
+      ]
+    },
+    {
+      "id": "dataset",
+      "english": "dataset",
+      "translation": "набор данных",
+      "audio": [
+        "audio/words/dataset.wav"
+      ]
+    },
+    {
+      "id": "training",
+      "english": "training",
+      "translation": "обучение",
+      "audio": [
+        "audio/words/training.wav"
+      ]
+    },
+    {
+      "id": "inference",
+      "english": "inference",
+      "translation": "инференс",
+      "audio": [
+        "audio/words/inference.wav"
+      ]
+    },
+    {
+      "id": "input",
+      "english": "input",
+      "translation": "входные данные",
+      "audio": [
+        "audio/words/input.wav"
+      ]
+    },
+    {
+      "id": "output",
+      "english": "output",
+      "translation": "выходные данные",
+      "audio": [
+        "audio/words/output.wav"
+      ]
+    },
+    {
+      "id": "feature",
+      "english": "feature",
+      "translation": "признак",
+      "audio": [
+        "audio/words/feature.wav"
+      ]
+    },
+    {
+      "id": "parameter",
+      "english": "parameter",
+      "translation": "параметр",
+      "audio": [
+        "audio/words/parameter.wav"
+      ]
+    },
+    {
+      "id": "weight",
+      "english": "weight",
+      "translation": "вес",
+      "audio": [
+        "audio/words/weight.wav"
+      ]
+    },
+    {
+      "id": "accuracy",
+      "english": "accuracy",
+      "translation": "точность",
+      "audio": [
+        "audio/words/accuracy.wav"
+      ]
+    },
+    {
+      "id": "performance",
+      "english": "performance",
+      "translation": "производительность",
+      "audio": [
+        "audio/words/performance.wav"
+      ]
+    },
+    {
+      "id": "prediction",
+      "english": "prediction",
+      "translation": "предсказание",
+      "audio": [
+        "audio/words/prediction.wav"
+      ]
+    },
+    {
+      "id": "classification",
+      "english": "classification",
+      "translation": "классификация",
+      "audio": [
+        "audio/words/classification.wav"
+      ]
+    },
+    {
+      "id": "regression",
+      "english": "regression",
+      "translation": "регрессия",
+      "audio": [
+        "audio/words/regression.wav"
+      ]
+    },
+    {
+      "id": "automation",
+      "english": "automation",
+      "translation": "автоматизация",
+      "audio": [
+        "audio/words/automation.wav"
+      ]
+    },
+    {
+      "id": "optimization",
+      "english": "optimization",
+      "translation": "оптимизация",
+      "audio": [
+        "audio/words/optimization.wav"
+      ]
+    },
+    {
+      "id": "scalability",
+      "english": "scalability",
+      "translation": "масштабируемость",
+      "audio": [
+        "audio/words/scalability.wav"
+      ]
+    },
+    {
+      "id": "deployment",
+      "english": "deployment",
+      "translation": "развёртывание",
+      "audio": [
+        "audio/words/deployment.wav"
+      ]
+    },
+    {
+      "id": "integration",
+      "english": "integration",
+      "translation": "интеграция",
+      "audio": [
+        "audio/words/integration.wav"
+      ]
+    },
+    {
+      "id": "natural-language-processing",
+      "english": "natural language processing",
+      "translation": "обработка естественного языка",
+      "audio": [
+        "audio/words/natural language processing.wav"
+      ]
+    },
+    {
+      "id": "computer-vision",
+      "english": "computer vision",
+      "translation": "компьютерное зрение",
+      "audio": [
+        "audio/words/computer vision.wav"
+      ]
+    },
+    {
+      "id": "speech-recognition",
+      "english": "speech recognition",
+      "translation": "распознавание речи",
+      "audio": [
+        "audio/words/speech recognition.wav"
+      ]
+    },
+    {
+      "id": "chatbot",
+      "english": "chatbot",
+      "translation": "чат-бот",
+      "audio": [
+        "audio/words/chatbot.wav"
+      ]
+    },
+    {
+      "id": "assistant",
+      "english": "assistant",
+      "translation": "ассистент",
+      "audio": [
+        "audio/words/assistant.wav"
+      ]
+    },
+    {
+      "id": "bias",
+      "english": "bias",
+      "translation": "предвзятость",
+      "audio": [
+        "audio/words/bias.wav"
+      ]
+    },
+    {
+      "id": "ethics",
+      "english": "ethics",
+      "translation": "этика",
+      "audio": [
+        "audio/words/ethics.wav"
+      ]
+    },
+    {
+      "id": "privacy",
+      "english": "privacy",
+      "translation": "конфиденциальность",
+      "audio": [
+        "audio/words/privacy.wav"
+      ]
+    },
+    {
+      "id": "security",
+      "english": "security",
+      "translation": "безопасность",
+      "audio": [
+        "audio/words/security.wav"
+      ]
+    },
+    {
+      "id": "transparency",
+      "english": "transparency",
+      "translation": "прозрачность",
+      "audio": [
+        "audio/words/transparency.wav"
+      ]
+    },
+    {
+      "id": "use-case",
+      "english": "use case",
+      "translation": "сценарий использования",
+      "audio": [
+        "audio/words/use case.wav"
+      ]
+    },
+    {
+      "id": "application",
+      "english": "application",
+      "translation": "применение",
+      "audio": [
+        "audio/words/application.wav"
+      ]
+    },
+    {
+      "id": "limitation",
+      "english": "limitation",
+      "translation": "ограничение",
+      "audio": [
+        "audio/words/limitation.wav"
+      ]
+    },
+    {
+      "id": "capability",
+      "english": "capability",
+      "translation": "возможность",
+      "audio": [
+        "audio/words/capability.wav"
+      ]
+    },
+    {
+      "id": "impact",
+      "english": "impact",
+      "translation": "влияние",
+      "audio": [
+        "audio/words/impact.wav"
+      ]
+    }
+  ]
+}

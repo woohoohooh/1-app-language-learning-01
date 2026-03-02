@@ -1,0 +1,327 @@
+{
+  "theme": "Будущее технологий",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "technology",
+      "english": "technology",
+      "translation": "технология",
+      "audio": [
+        "audio/words/technology.wav"
+      ]
+    },
+    {
+      "id": "innovation",
+      "english": "innovation",
+      "translation": "инновация",
+      "audio": [
+        "audio/words/innovation.wav"
+      ]
+    },
+    {
+      "id": "future",
+      "english": "future",
+      "translation": "будущее",
+      "audio": [
+        "audio/words/future.wav"
+      ]
+    },
+    {
+      "id": "trend",
+      "english": "trend",
+      "translation": "тренд",
+      "audio": [
+        "audio/words/trend.wav"
+      ]
+    },
+    {
+      "id": "development",
+      "english": "development",
+      "translation": "развитие",
+      "audio": [
+        "audio/words/development.wav"
+      ]
+    },
+    {
+      "id": "automation",
+      "english": "automation",
+      "translation": "автоматизация",
+      "audio": [
+        "audio/words/automation.wav"
+      ]
+    },
+    {
+      "id": "digitalization",
+      "english": "digitalization",
+      "translation": "цифровизация",
+      "audio": [
+        "audio/words/digitalization.wav"
+      ]
+    },
+    {
+      "id": "transformation",
+      "english": "transformation",
+      "translation": "трансформация",
+      "audio": [
+        "audio/words/transformation.wav"
+      ]
+    },
+    {
+      "id": "disruption",
+      "english": "disruption",
+      "translation": "радикальное изменение",
+      "audio": [
+        "audio/words/disruption.wav"
+      ]
+    },
+    {
+      "id": "scalability",
+      "english": "scalability",
+      "translation": "масштабируемость",
+      "audio": [
+        "audio/words/scalability.wav"
+      ]
+    },
+    {
+      "id": "platform",
+      "english": "platform",
+      "translation": "платформа",
+      "audio": [
+        "audio/words/platform.wav"
+      ]
+    },
+    {
+      "id": "ecosystem",
+      "english": "ecosystem",
+      "translation": "экосистема",
+      "audio": [
+        "audio/words/ecosystem.wav"
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "english": "infrastructure",
+      "translation": "инфраструктура",
+      "audio": [
+        "audio/words/infrastructure.wav"
+      ]
+    },
+    {
+      "id": "architecture",
+      "english": "architecture",
+      "translation": "архитектура",
+      "audio": [
+        "audio/words/architecture.wav"
+      ]
+    },
+    {
+      "id": "integration",
+      "english": "integration",
+      "translation": "интеграция",
+      "audio": [
+        "audio/words/integration.wav"
+      ]
+    },
+    {
+      "id": "cloud",
+      "english": "cloud",
+      "translation": "облако",
+      "audio": [
+        "audio/words/cloud.wav"
+      ]
+    },
+    {
+      "id": "edge-computing",
+      "english": "edge computing",
+      "translation": "периферийные вычисления",
+      "audio": [
+        "audio/words/edge computing.wav"
+      ]
+    },
+    {
+      "id": "virtualization",
+      "english": "virtualization",
+      "translation": "виртуализация",
+      "audio": [
+        "audio/words/virtualization.wav"
+      ]
+    },
+    {
+      "id": "automation-tools",
+      "english": "automation tools",
+      "translation": "инструменты автоматизации",
+      "audio": [
+        "audio/words/automation tools.wav"
+      ]
+    },
+    {
+      "id": "smart-systems",
+      "english": "smart systems",
+      "translation": "умные системы",
+      "audio": [
+        "audio/words/smart systems.wav"
+      ]
+    },
+    {
+      "id": "robotics",
+      "english": "robotics",
+      "translation": "робототехника",
+      "audio": [
+        "audio/words/robotics.wav"
+      ]
+    },
+    {
+      "id": "autonomy",
+      "english": "autonomy",
+      "translation": "автономность",
+      "audio": [
+        "audio/words/autonomy.wav"
+      ]
+    },
+    {
+      "id": "connectivity",
+      "english": "connectivity",
+      "translation": "связанность",
+      "audio": [
+        "audio/words/connectivity.wav"
+      ]
+    },
+    {
+      "id": "5g",
+      "english": "5G",
+      "translation": "5G",
+      "audio": [
+        "audio/words/5G.wav"
+      ]
+    },
+    {
+      "id": "internet-of-things",
+      "english": "internet of things",
+      "translation": "интернет вещей",
+      "audio": [
+        "audio/words/internet of things.wav"
+      ]
+    },
+    {
+      "id": "virtual-reality",
+      "english": "virtual reality",
+      "translation": "виртуальная реальность",
+      "audio": [
+        "audio/words/virtual reality.wav"
+      ]
+    },
+    {
+      "id": "augmented-reality",
+      "english": "augmented reality",
+      "translation": "дополненная реальность",
+      "audio": [
+        "audio/words/augmented reality.wav"
+      ]
+    },
+    {
+      "id": "metaverse",
+      "english": "metaverse",
+      "translation": "метавселенная",
+      "audio": [
+        "audio/words/metaverse.wav"
+      ]
+    },
+    {
+      "id": "digital-twin",
+      "english": "digital twin",
+      "translation": "цифровой двойник",
+      "audio": [
+        "audio/words/digital twin.wav"
+      ]
+    },
+    {
+      "id": "simulation",
+      "english": "simulation",
+      "translation": "симуляция",
+      "audio": [
+        "audio/words/simulation.wav"
+      ]
+    },
+    {
+      "id": "sustainability",
+      "english": "sustainability",
+      "translation": "устойчивое развитие",
+      "audio": [
+        "audio/words/sustainability.wav"
+      ]
+    },
+    {
+      "id": "green-technology",
+      "english": "green technology",
+      "translation": "зелёные технологии",
+      "audio": [
+        "audio/words/green technology.wav"
+      ]
+    },
+    {
+      "id": "energy-efficiency",
+      "english": "energy efficiency",
+      "translation": "энергоэффективность",
+      "audio": [
+        "audio/words/energy efficiency.wav"
+      ]
+    },
+    {
+      "id": "smart-city",
+      "english": "smart city",
+      "translation": "умный город",
+      "audio": [
+        "audio/words/smart city.wav"
+      ]
+    },
+    {
+      "id": "mobility",
+      "english": "mobility",
+      "translation": "мобильность",
+      "audio": [
+        "audio/words/mobility.wav"
+      ]
+    },
+    {
+      "id": "user-experience",
+      "english": "user experience",
+      "translation": "пользовательский опыт",
+      "audio": [
+        "audio/words/user experience.wav"
+      ]
+    },
+    {
+      "id": "human-centered-design",
+      "english": "human-centered design",
+      "translation": "ориентированный на человека дизайн",
+      "audio": [
+        "audio/words/human-centered design.wav"
+      ]
+    },
+    {
+      "id": "adaptation",
+      "english": "adaptation",
+      "translation": "адаптация",
+      "audio": [
+        "audio/words/adaptation.wav"
+      ]
+    },
+    {
+      "id": "adoption",
+      "english": "adoption",
+      "translation": "внедрение",
+      "audio": [
+        "audio/words/adoption.wav"
+      ]
+    },
+    {
+      "id": "impact",
+      "english": "impact",
+      "translation": "влияние",
+      "audio": [
+        "audio/words/impact.wav"
+      ]
+    }
+  ]
+}

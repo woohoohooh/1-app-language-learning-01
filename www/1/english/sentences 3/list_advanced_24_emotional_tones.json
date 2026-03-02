@@ -1,0 +1,155 @@
+{
+  "theme": "Эмоциональные оттенки речи",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "emotion",
+      "translation": "эмоция"
+    },
+    {
+      "english": "emotionality",
+      "translation": "эмоциональность"
+    },
+    {
+      "english": "tone",
+      "translation": "тон"
+    },
+    {
+      "english": "undertone",
+      "translation": "подтекст"
+    },
+    {
+      "english": "nuance",
+      "translation": "нюанс"
+    },
+    {
+      "english": "attitude",
+      "translation": "отношение"
+    },
+    {
+      "english": "mood",
+      "translation": "настроение"
+    },
+    {
+      "english": "state",
+      "translation": "состояние"
+    },
+    {
+      "english": "reaction",
+      "translation": "реакция"
+    },
+    {
+      "english": "affection",
+      "translation": "привязанность"
+    },
+    {
+      "english": "warmth",
+      "translation": "теплота"
+    },
+    {
+      "english": "empathy",
+      "translation": "эмпатия"
+    },
+    {
+      "english": "sympathy",
+      "translation": "сочувствие"
+    },
+    {
+      "english": "neutrality",
+      "translation": "нейтральность"
+    },
+    {
+      "english": "detachment",
+      "translation": "отстранённость"
+    },
+    {
+      "english": "distance",
+      "translation": "дистанция"
+    },
+    {
+      "english": "coldness",
+      "translation": "холодность"
+    },
+    {
+      "english": "tension",
+      "translation": "напряжение"
+    },
+    {
+      "english": "pressure",
+      "translation": "давление"
+    },
+    {
+      "english": "stress",
+      "translation": "стресс"
+    },
+    {
+      "english": "frustration",
+      "translation": "раздражение"
+    },
+    {
+      "english": "annoyance",
+      "translation": "раздражение"
+    },
+    {
+      "english": "irritation",
+      "translation": "раздражённость"
+    },
+    {
+      "english": "resentment",
+      "translation": "обида"
+    },
+    {
+      "english": "disappointment",
+      "translation": "разочарование"
+    },
+    {
+      "english": "approval",
+      "translation": "одобрение"
+    },
+    {
+      "english": "disapproval",
+      "translation": "неодобрение"
+    },
+    {
+      "english": "support",
+      "translation": "поддержка"
+    },
+    {
+      "english": "encouragement",
+      "translation": "ободрение"
+    },
+    {
+      "english": "confidence",
+      "translation": "уверенность"
+    },
+    {
+      "english": "uncertainty",
+      "translation": "неуверенность"
+    },
+    {
+      "english": "hesitation",
+      "translation": "колебание"
+    },
+    {
+      "english": "doubt",
+      "translation": "сомнение"
+    },
+    {
+      "english": "enthusiasm",
+      "translation": "энтузиазм"
+    },
+    {
+      "english": "indifference",
+      "translation": "безразличие"
+    },
+    {
+      "english": "reluctance",
+      "translation": "неохота"
+    },
+    {
+      "english": "relief",
+      "translation": "облегчение"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "theme": "Корпоративная культура",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "strong-corporate-culture",
+      "english": "strong corporate culture",
+      "translation": "сильная корпоративная культура",
+      "audio": [
+        "audio/phrases/strong corporate culture.wav"
+      ]
+    },
+    {
+      "id": "open-company-culture",
+      "english": "open company culture",
+      "translation": "открытая культура компании",
+      "audio": [
+        "audio/phrases/open company culture.wav"
+      ]
+    },
+    {
+      "id": "modern-workplace-design",
+      "english": "modern workplace design",
+      "translation": "современная рабочая среда",
+      "audio": [
+        "audio/phrases/modern workplace design.wav"
+      ]
+    },
+    {
+      "id": "supportive-work-environment",
+      "english": "supportive work environment",
+      "translation": "поддерживающая рабочая среда",
+      "audio": [
+        "audio/phrases/supportive work environment.wav"
+      ]
+    },
+    {
+      "id": "large-global-organization",
+      "english": "large global organization",
+      "translation": "крупная международная организация",
+      "audio": [
+        "audio/phrases/large global organization.wav"
+      ]
+    },
+    {
+      "id": "shared-core-values",
+      "english": "shared core values",
+      "translation": "общие ключевые ценности",
+      "audio": [
+        "audio/phrases/shared core values.wav"
+      ]
+    },
+    {
+      "id": "clear-guiding-principles",
+      "english": "clear guiding principles",
+      "translation": "чёткие руководящие принципы",
+      "audio": [
+        "audio/phrases/clear guiding principles.wav"
+      ]
+    },
+    {
+      "id": "company-mission-statement",
+      "english": "company mission statement",
+      "translation": "миссия компании",
+      "audio": [
+        "audio/phrases/company mission statement.wav"
+      ]
+    },
+    {
+      "id": "long-term-vision",
+      "english": "long-term vision",
+      "translation": "долгосрочное видение",
+      "audio": [
+        "audio/phrases/long-term vision.wav"
+      ]
+    },
+    {
+      "id": "professional-business-ethics",
+      "english": "professional business ethics",
+      "translation": "профессиональная деловая этика",
+      "audio": [
+        "audio/phrases/professional business ethics.wav"
+      ]
+    },
+    {
+      "id": "high-quality-standards",
+      "english": "high quality standards",
+      "translation": "высокие стандарты качества",
+      "audio": [
+        "audio/phrases/high quality standards.wav"
+      ]
+    },
+    {
+      "id": "internal-company-policies",
+      "english": "internal company policies",
+      "translation": "внутренние правила компании",
+      "audio": [
+        "audio/phrases/internal company policies.wav"
+      ]
+    },
+    {
+      "id": "clear-usage-guidelines",
+      "english": "clear usage guidelines",
+      "translation": "чёткие рекомендации по использованию",
+      "audio": [
+        "audio/phrases/clear usage guidelines.wav"
+      ]
+    },
+    {
+      "id": "regulatory-compliance-requirements",
+      "english": "regulatory compliance requirements",
+      "translation": "требования по соблюдению правил",
+      "audio": [
+        "audio/phrases/regulatory compliance requirements.wav"
+      ]
+    },
+    {
+      "id": "formal-code-of-conduct",
+      "english": "formal code of conduct",
+      "translation": "официальный кодекс поведения",
+      "audio": [
+        "audio/phrases/formal code of conduct.wav"
+      ]
+    },
+    {
+      "id": "organizational-hierarchy-levels",
+      "english": "organizational hierarchy levels",
+      "translation": "уровни организационной иерархии",
+      "audio": [
+        "audio/phrases/organizational hierarchy levels.wav"
+      ]
+    },
+    {
+      "id": "flexible-team-structure",
+      "english": "flexible team structure",
+      "translation": "гибкая структура команды",
+      "audio": [
+        "audio/phrases/flexible team structure.wav"
+      ]
+    },
+    {
+      "id": "effective-people-management",
+      "english": "effective people management",
+      "translation": "эффективное управление людьми",
+      "audio": [
+        "audio/phrases/effective people management.wav"
+      ]
+    },
+    {
+      "id": "strong-executive-leadership",
+      "english": "strong executive leadership",
+      "translation": "сильное руководство",
+      "audio": [
+        "audio/phrases/strong executive leadership.wav"
+      ]
+    },
+    {
+      "id": "fast-decision-making",
+      "english": "fast decision making",
+      "translation": "быстрое принятие решений",
+      "audio": [
+        "audio/phrases/fast decision making.wav"
+      ]
+    },
+    {
+      "id": "effective-collaboration-across-teams",
+      "english": "effective collaboration across teams",
+      "translation": "эффективное сотрудничество между командами",
+      "audio": [
+        "audio/phrases/effective collaboration across teams.wav"
+      ]
+    },
+    {
+      "id": "strong-teamwork-culture",
+      "english": "strong teamwork culture",
+      "translation": "сильная культура командной работы",
+      "audio": [
+        "audio/phrases/strong teamwork culture.wav"
+      ]
+    },
+    {
+      "id": "take-full-ownership",
+      "english": "take full ownership",
+      "translation": "брать полную ответственность",
+      "audio": [
+        "audio/phrases/take full ownership.wav"
+      ]
+    },
+    {
+      "id": "clear-accountability-structure",
+      "english": "clear accountability structure",
+      "translation": "чёткая система подотчётности",
+      "audio": [
+        "audio/phrases/clear accountability structure.wav"
+      ]
+    },
+    {
+      "id": "show-personal-initiative",
+      "english": "show personal initiative",
+      "translation": "проявлять личную инициативу",
+      "audio": [
+        "audio/phrases/show personal initiative.wav"
+      ]
+    },
+    {
+      "id": "healthy-work-life-balance",
+      "english": "healthy work life balance",
+      "translation": "здоровый баланс работы и жизни",
+      "audio": [
+        "audio/phrases/healthy work life balance.wav"
+      ]
+    },
+    {
+      "id": "flexibility-in-schedules",
+      "english": "flexibility in schedules",
+      "translation": "гибкость в графиках",
+      "audio": [
+        "audio/phrases/flexibility in schedules.wav"
+      ]
+    },
+    {
+      "id": "remote-work-option",
+      "english": "remote work option",
+      "translation": "возможность удалённой работы",
+      "audio": [
+        "audio/phrases/remote work option.wav"
+      ]
+    },
+    {
+      "id": "hybrid-work-model",
+      "english": "hybrid work model",
+      "translation": "модель гибридной работы",
+      "audio": [
+        "audio/phrases/hybrid work model.wav"
+      ]
+    },
+    {
+      "id": "flexible-team-schedule",
+      "english": "flexible team schedule",
+      "translation": "гибкий командный график",
+      "audio": [
+        "audio/phrases/flexible team schedule.wav"
+      ]
+    },
+    {
+      "id": "smooth-onboarding-process",
+      "english": "smooth onboarding process",
+      "translation": "плавный процесс адаптации",
+      "audio": [
+        "audio/phrases/smooth onboarding process.wav"
+      ]
+    },
+    {
+      "id": "fast-role-adaptation",
+      "english": "fast role adaptation",
+      "translation": "быстрая адаптация к роли",
+      "audio": [
+        "audio/phrases/fast role adaptation.wav"
+      ]
+    },
+    {
+      "id": "career-growth-opportunities",
+      "english": "career growth opportunities",
+      "translation": "возможности карьерного роста",
+      "audio": [
+        "audio/phrases/career growth opportunities.wav"
+      ]
+    },
+    {
+      "id": "high-performance-teams",
+      "english": "high performance teams",
+      "translation": "высокоэффективные команды",
+      "audio": [
+        "audio/phrases/high performance teams.wav"
+      ]
+    },
+    {
+      "id": "regular-performance-evaluation",
+      "english": "regular performance evaluation",
+      "translation": "регулярная оценка эффективности",
+      "audio": [
+        "audio/phrases/regular performance evaluation.wav"
+      ]
+    },
+    {
+      "id": "workplace-diversity-focus",
+      "english": "workplace diversity focus",
+      "translation": "фокус на разнообразии",
+      "audio": [
+        "audio/phrases/workplace diversity focus.wav"
+      ]
+    },
+    {
+      "id": "culture-of-inclusion",
+      "english": "culture of inclusion",
+      "translation": "культура инклюзивности",
+      "audio": [
+        "audio/phrases/culture of inclusion.wav"
+      ]
+    },
+    {
+      "id": "mutual-respect-matters",
+      "english": "mutual respect matters",
+      "translation": "взаимное уважение важно",
+      "audio": [
+        "audio/phrases/mutual respect matters.wav"
+      ]
+    },
+    {
+      "id": "build-long-term-trust",
+      "english": "build long term trust",
+      "translation": "строить долгосрочное доверие",
+      "audio": [
+        "audio/phrases/build long term trust.wav"
+      ]
+    },
+    {
+      "id": "organizational-transparency-levels",
+      "english": "organizational transparency levels",
+      "translation": "уровни организационной прозрачности",
+      "audio": [
+        "audio/phrases/organizational transparency levels.wav"
+      ]
+    }
+  ]
+}

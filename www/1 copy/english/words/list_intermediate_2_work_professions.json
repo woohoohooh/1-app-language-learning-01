@@ -1,0 +1,375 @@
+{
+  "theme": "Работа и профессии",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "job",
+      "english": "job",
+      "translation": "работа",
+      "audio": [
+        "audio/words/job.wav"
+      ]
+    },
+    {
+      "id": "work",
+      "english": "work",
+      "translation": "работа",
+      "audio": [
+        "audio/words/work.wav"
+      ]
+    },
+    {
+      "id": "career",
+      "english": "career",
+      "translation": "карьера",
+      "audio": [
+        "audio/words/career.wav"
+      ]
+    },
+    {
+      "id": "profession",
+      "english": "profession",
+      "translation": "профессия",
+      "audio": [
+        "audio/words/profession.wav"
+      ]
+    },
+    {
+      "id": "occupation",
+      "english": "occupation",
+      "translation": "род занятий",
+      "audio": [
+        "audio/words/occupation.wav"
+      ]
+    },
+    {
+      "id": "employee",
+      "english": "employee",
+      "translation": "сотрудник",
+      "audio": [
+        "audio/words/employee.wav"
+      ]
+    },
+    {
+      "id": "employer",
+      "english": "employer",
+      "translation": "работодатель",
+      "audio": [
+        "audio/words/employer.wav"
+      ]
+    },
+    {
+      "id": "colleague",
+      "english": "colleague",
+      "translation": "коллега",
+      "audio": [
+        "audio/words/colleague.wav"
+      ]
+    },
+    {
+      "id": "manager",
+      "english": "manager",
+      "translation": "менеджер",
+      "audio": [
+        "audio/words/manager.wav"
+      ]
+    },
+    {
+      "id": "supervisor",
+      "english": "supervisor",
+      "translation": "руководитель",
+      "audio": [
+        "audio/words/supervisor.wav"
+      ]
+    },
+    {
+      "id": "position",
+      "english": "position",
+      "translation": "должность",
+      "audio": [
+        "audio/words/position.wav"
+      ]
+    },
+    {
+      "id": "role",
+      "english": "role",
+      "translation": "роль",
+      "audio": [
+        "audio/words/role.wav"
+      ]
+    },
+    {
+      "id": "responsibility",
+      "english": "responsibility",
+      "translation": "ответственность",
+      "audio": [
+        "audio/words/responsibility.wav"
+      ]
+    },
+    {
+      "id": "duty",
+      "english": "duty",
+      "translation": "обязанность",
+      "audio": [
+        "audio/words/duty.wav"
+      ]
+    },
+    {
+      "id": "task",
+      "english": "task",
+      "translation": "задача",
+      "audio": [
+        "audio/words/task.wav"
+      ]
+    },
+    {
+      "id": "experience",
+      "english": "experience",
+      "translation": "опыт работы",
+      "audio": [
+        "audio/words/experience.wav"
+      ]
+    },
+    {
+      "id": "qualification",
+      "english": "qualification",
+      "translation": "квалификация",
+      "audio": [
+        "audio/words/qualification.wav"
+      ]
+    },
+    {
+      "id": "skill",
+      "english": "skill",
+      "translation": "навык",
+      "audio": [
+        "audio/words/skill.wav"
+      ]
+    },
+    {
+      "id": "background",
+      "english": "background",
+      "translation": "профессиональный опыт",
+      "audio": [
+        "audio/words/background.wav"
+      ]
+    },
+    {
+      "id": "salary",
+      "english": "salary",
+      "translation": "зарплата",
+      "audio": [
+        "audio/words/salary.wav"
+      ]
+    },
+    {
+      "id": "wage",
+      "english": "wage",
+      "translation": "оплата труда",
+      "audio": [
+        "audio/words/wage.wav"
+      ]
+    },
+    {
+      "id": "income",
+      "english": "income",
+      "translation": "доход",
+      "audio": [
+        "audio/words/income.wav"
+      ]
+    },
+    {
+      "id": "bonus",
+      "english": "bonus",
+      "translation": "премия",
+      "audio": [
+        "audio/words/bonus.wav"
+      ]
+    },
+    {
+      "id": "benefits",
+      "english": "benefits",
+      "translation": "льготы",
+      "audio": [
+        "audio/words/benefits.wav"
+      ]
+    },
+    {
+      "id": "schedule",
+      "english": "schedule",
+      "translation": "график работы",
+      "audio": [
+        "audio/words/schedule.wav"
+      ]
+    },
+    {
+      "id": "shift",
+      "english": "shift",
+      "translation": "смена",
+      "audio": [
+        "audio/words/shift.wav"
+      ]
+    },
+    {
+      "id": "workload",
+      "english": "workload",
+      "translation": "рабочая нагрузка",
+      "audio": [
+        "audio/words/workload.wav"
+      ]
+    },
+    {
+      "id": "deadline",
+      "english": "deadline",
+      "translation": "крайний срок",
+      "audio": [
+        "audio/words/deadline.wav"
+      ]
+    },
+    {
+      "id": "overtime",
+      "english": "overtime",
+      "translation": "сверхурочная работа",
+      "audio": [
+        "audio/words/overtime.wav"
+      ]
+    },
+    {
+      "id": "full-time",
+      "english": "full-time",
+      "translation": "полная занятость",
+      "audio": [
+        "audio/words/full-time.wav"
+      ]
+    },
+    {
+      "id": "part-time",
+      "english": "part-time",
+      "translation": "частичная занятость",
+      "audio": [
+        "audio/words/part-time.wav"
+      ]
+    },
+    {
+      "id": "freelance",
+      "english": "freelance",
+      "translation": "фриланс",
+      "audio": [
+        "audio/words/freelance.wav"
+      ]
+    },
+    {
+      "id": "contract",
+      "english": "contract",
+      "translation": "договор",
+      "audio": [
+        "audio/words/contract.wav"
+      ]
+    },
+    {
+      "id": "temporary",
+      "english": "temporary",
+      "translation": "временный",
+      "audio": [
+        "audio/words/temporary.wav"
+      ]
+    },
+    {
+      "id": "hire",
+      "english": "hire",
+      "translation": "нанимать",
+      "audio": [
+        "audio/words/hire.wav"
+      ]
+    },
+    {
+      "id": "fire",
+      "english": "fire",
+      "translation": "увольнять",
+      "audio": [
+        "audio/words/fire.wav"
+      ]
+    },
+    {
+      "id": "quit",
+      "english": "quit",
+      "translation": "увольняться",
+      "audio": [
+        "audio/words/quit.wav"
+      ]
+    },
+    {
+      "id": "promotion",
+      "english": "promotion",
+      "translation": "повышение",
+      "audio": [
+        "audio/words/promotion.wav"
+      ]
+    },
+    {
+      "id": "demotion",
+      "english": "demotion",
+      "translation": "понижение",
+      "audio": [
+        "audio/words/demotion.wav"
+      ]
+    },
+    {
+      "id": "resume",
+      "english": "resume",
+      "translation": "резюме",
+      "audio": [
+        "audio/words/resume.wav"
+      ]
+    },
+    {
+      "id": "cv",
+      "english": "CV",
+      "translation": "резюме",
+      "audio": [
+        "audio/words/CV.wav"
+      ]
+    },
+    {
+      "id": "interview",
+      "english": "interview",
+      "translation": "собеседование",
+      "audio": [
+        "audio/words/interview.wav"
+      ]
+    },
+    {
+      "id": "vacancy",
+      "english": "vacancy",
+      "translation": "вакансия",
+      "audio": [
+        "audio/words/vacancy.wav"
+      ]
+    },
+    {
+      "id": "application",
+      "english": "application",
+      "translation": "заявка",
+      "audio": [
+        "audio/words/application.wav"
+      ]
+    },
+    {
+      "id": "expertise",
+      "english": "expertise",
+      "translation": "профессиональные знания",
+      "audio": [
+        "audio/words/expertise.wav"
+      ]
+    },
+    {
+      "id": "benefits",
+      "english": "benefits",
+      "translation": "льготы",
+      "audio": [
+        "audio/words/benefits.wav"
+      ]
+    }
+  ]
+}

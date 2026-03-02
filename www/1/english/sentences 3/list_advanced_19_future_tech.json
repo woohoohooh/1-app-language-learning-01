@@ -1,0 +1,167 @@
+{
+  "theme": "Будущее технологий",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "technology",
+      "translation": "технология"
+    },
+    {
+      "english": "innovation",
+      "translation": "инновация"
+    },
+    {
+      "english": "future",
+      "translation": "будущее"
+    },
+    {
+      "english": "trend",
+      "translation": "тренд"
+    },
+    {
+      "english": "development",
+      "translation": "развитие"
+    },
+    {
+      "english": "automation",
+      "translation": "автоматизация"
+    },
+    {
+      "english": "digitalization",
+      "translation": "цифровизация"
+    },
+    {
+      "english": "transformation",
+      "translation": "трансформация"
+    },
+    {
+      "english": "disruption",
+      "translation": "радикальное изменение"
+    },
+    {
+      "english": "scalability",
+      "translation": "масштабируемость"
+    },
+    {
+      "english": "platform",
+      "translation": "платформа"
+    },
+    {
+      "english": "ecosystem",
+      "translation": "экосистема"
+    },
+    {
+      "english": "infrastructure",
+      "translation": "инфраструктура"
+    },
+    {
+      "english": "architecture",
+      "translation": "архитектура"
+    },
+    {
+      "english": "integration",
+      "translation": "интеграция"
+    },
+    {
+      "english": "cloud",
+      "translation": "облако"
+    },
+    {
+      "english": "edge computing",
+      "translation": "периферийные вычисления"
+    },
+    {
+      "english": "virtualization",
+      "translation": "виртуализация"
+    },
+    {
+      "english": "automation tools",
+      "translation": "инструменты автоматизации"
+    },
+    {
+      "english": "smart systems",
+      "translation": "умные системы"
+    },
+    {
+      "english": "robotics",
+      "translation": "робототехника"
+    },
+    {
+      "english": "autonomy",
+      "translation": "автономность"
+    },
+    {
+      "english": "connectivity",
+      "translation": "связанность"
+    },
+    {
+      "english": "5G",
+      "translation": "5G"
+    },
+    {
+      "english": "internet of things",
+      "translation": "интернет вещей"
+    },
+    {
+      "english": "virtual reality",
+      "translation": "виртуальная реальность"
+    },
+    {
+      "english": "augmented reality",
+      "translation": "дополненная реальность"
+    },
+    {
+      "english": "metaverse",
+      "translation": "метавселенная"
+    },
+    {
+      "english": "digital twin",
+      "translation": "цифровой двойник"
+    },
+    {
+      "english": "simulation",
+      "translation": "симуляция"
+    },
+    {
+      "english": "sustainability",
+      "translation": "устойчивое развитие"
+    },
+    {
+      "english": "green technology",
+      "translation": "зелёные технологии"
+    },
+    {
+      "english": "energy efficiency",
+      "translation": "энергоэффективность"
+    },
+    {
+      "english": "smart city",
+      "translation": "умный город"
+    },
+    {
+      "english": "mobility",
+      "translation": "мобильность"
+    },
+    {
+      "english": "user experience",
+      "translation": "пользовательский опыт"
+    },
+    {
+      "english": "human-centered design",
+      "translation": "ориентированный на человека дизайн"
+    },
+    {
+      "english": "adaptation",
+      "translation": "адаптация"
+    },
+    {
+      "english": "adoption",
+      "translation": "внедрение"
+    },
+    {
+      "english": "impact",
+      "translation": "влияние"
+    }
+  ]
+}

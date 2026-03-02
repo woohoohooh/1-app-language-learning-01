@@ -1,0 +1,187 @@
+{
+  "theme": "Частые слова (расширенно)",
+  "level": "Upper-Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "approach",
+      "translation": "подход"
+    },
+    {
+      "english": "impact",
+      "translation": "влияние"
+    },
+    {
+      "english": "context",
+      "translation": "контекст"
+    },
+    {
+      "english": "strategy",
+      "translation": "стратегия"
+    },
+    {
+      "english": "objective",
+      "translation": "цель"
+    },
+    {
+      "english": "priority",
+      "translation": "приоритет"
+    },
+    {
+      "english": "resource",
+      "translation": "ресурс"
+    },
+    {
+      "english": "constraint",
+      "translation": "ограничение"
+    },
+    {
+      "english": "assumption",
+      "translation": "предположение"
+    },
+    {
+      "english": "evidence",
+      "translation": "доказательство"
+    },
+    {
+      "english": "analysis",
+      "translation": "анализ"
+    },
+    {
+      "english": "perspective",
+      "translation": "точка зрения"
+    },
+    {
+      "english": "factor",
+      "translation": "фактор"
+    },
+    {
+      "english": "trend",
+      "translation": "тенденция"
+    },
+    {
+      "english": "pattern",
+      "translation": "закономерность"
+    },
+    {
+      "english": "scenario",
+      "translation": "сценарий"
+    },
+    {
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона"
+    },
+    {
+      "english": "alignment",
+      "translation": "согласованность"
+    },
+    {
+      "english": "execution",
+      "translation": "реализация"
+    },
+    {
+      "english": "implementation",
+      "translation": "внедрение"
+    },
+    {
+      "english": "optimization",
+      "translation": "оптимизация"
+    },
+    {
+      "english": "efficiency",
+      "translation": "эффективность"
+    },
+    {
+      "english": "trade-off",
+      "translation": "компромисс"
+    },
+    {
+      "english": "limitation",
+      "translation": "ограничение"
+    },
+    {
+      "english": "dependency",
+      "translation": "зависимость"
+    },
+    {
+      "english": "complexity",
+      "translation": "сложность"
+    },
+    {
+      "english": "uncertainty",
+      "translation": "неопределенность"
+    },
+    {
+      "english": "risk",
+      "translation": "риск"
+    },
+    {
+      "english": "opportunity",
+      "translation": "возможность"
+    },
+    {
+      "english": "requirement",
+      "translation": "требование"
+    },
+    {
+      "english": "evaluation",
+      "translation": "оценка"
+    },
+    {
+      "english": "assessment",
+      "translation": "оценивание"
+    },
+    {
+      "english": "feedback",
+      "translation": "обратная связь"
+    },
+    {
+      "english": "adjustment",
+      "translation": "корректировка"
+    },
+    {
+      "english": "improvement",
+      "translation": "улучшение"
+    },
+    {
+      "english": "decision-making",
+      "translation": "принятие решений"
+    },
+    {
+      "english": "responsibility",
+      "translation": "ответственность"
+    },
+    {
+      "english": "commitment",
+      "translation": "обязательство"
+    },
+    {
+      "english": "accountability",
+      "translation": "подотчетность"
+    },
+    {
+      "english": "issue",
+      "translation": "проблема"
+    },
+    {
+      "english": "outcome",
+      "translation": "результат"
+    },
+    {
+      "english": "insight",
+      "translation": "понимание"
+    },
+    {
+      "english": "framework",
+      "translation": "структура"
+    },
+    {
+      "english": "challenge",
+      "translation": "вызов"
+    },
+    {
+      "english": "ownership",
+      "translation": "ответственность"
+    }
+  ]
+}

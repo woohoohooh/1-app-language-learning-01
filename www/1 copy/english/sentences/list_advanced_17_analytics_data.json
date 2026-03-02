@@ -1,0 +1,367 @@
+{
+  "theme": "Аналитика и данные",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-data-was-collected-automatically.",
+      "english": "The data was collected automatically.",
+      "translation": "Данные были собраны автоматически.",
+      "audio": [
+        "audio/sentences/The data was collected automatically..wav"
+      ]
+    },
+    {
+      "id": "analytics-helps-identify-hidden-patterns.",
+      "english": "Analytics helps identify hidden patterns.",
+      "translation": "Аналитика помогает выявлять скрытые закономерности.",
+      "audio": [
+        "audio/sentences/Analytics helps identify hidden patterns..wav"
+      ]
+    },
+    {
+      "id": "the-dataset-includes-user-activity.",
+      "english": "The dataset includes user activity.",
+      "translation": "Набор данных включает активность пользователей.",
+      "audio": [
+        "audio/sentences/The dataset includes user activity..wav"
+      ]
+    },
+    {
+      "id": "the-database-stores-sensitive-information.",
+      "english": "The database stores sensitive information.",
+      "translation": "База данных хранит конфиденциальную информацию.",
+      "audio": [
+        "audio/sentences/The database stores sensitive information..wav"
+      ]
+    },
+    {
+      "id": "this-table-shows-monthly-results.",
+      "english": "This table shows monthly results.",
+      "translation": "Эта таблица показывает месячные результаты.",
+      "audio": [
+        "audio/sentences/This table shows monthly results..wav"
+      ]
+    },
+    {
+      "id": "each-record-represents-one-event.",
+      "english": "Each record represents one event.",
+      "translation": "Каждая запись представляет одно событие.",
+      "audio": [
+        "audio/sentences/Each record represents one event..wav"
+      ]
+    },
+    {
+      "id": "this-field-cannot-be-empty.",
+      "english": "This field cannot be empty.",
+      "translation": "Это поле не может быть пустым.",
+      "audio": [
+        "audio/sentences/This field cannot be empty..wav"
+      ]
+    },
+    {
+      "id": "the-column-contains-timestamps.",
+      "english": "The column contains timestamps.",
+      "translation": "Столбец содержит временные метки.",
+      "audio": [
+        "audio/sentences/The column contains timestamps..wav"
+      ]
+    },
+    {
+      "id": "each-row-corresponds-to-a-user.",
+      "english": "Each row corresponds to a user.",
+      "translation": "Каждая строка соответствует пользователю.",
+      "audio": [
+        "audio/sentences/Each row corresponds to a user..wav"
+      ]
+    },
+    {
+      "id": "the-value-changed-after-recalculation.",
+      "english": "The value changed after recalculation.",
+      "translation": "Значение изменилось после пересчёта.",
+      "audio": [
+        "audio/sentences/The value changed after recalculation..wav"
+      ]
+    },
+    {
+      "id": "this-metric-tracks-user-retention.",
+      "english": "This metric tracks user retention.",
+      "translation": "Эта метрика отслеживает удержание пользователей.",
+      "audio": [
+        "audio/sentences/This metric tracks user retention..wav"
+      ]
+    },
+    {
+      "id": "the-kpi-improved-this-quarter.",
+      "english": "The KPI improved this quarter.",
+      "translation": "Ключевой показатель улучшился в этом квартале.",
+      "audio": [
+        "audio/sentences/The KPI improved this quarter..wav"
+      ]
+    },
+    {
+      "id": "this-indicator-reflects-market-demand.",
+      "english": "This indicator reflects market demand.",
+      "translation": "Этот показатель отражает рыночный спрос.",
+      "audio": [
+        "audio/sentences/This indicator reflects market demand..wav"
+      ]
+    },
+    {
+      "id": "the-measurement-requires-calibration.",
+      "english": "The measurement requires calibration.",
+      "translation": "Измерение требует калибровки.",
+      "audio": [
+        "audio/sentences/The measurement requires calibration..wav"
+      ]
+    },
+    {
+      "id": "the-benchmark-defines-expected-performance.",
+      "english": "The benchmark defines expected performance.",
+      "translation": "Бенчмарк определяет ожидаемую эффективность.",
+      "audio": [
+        "audio/sentences/The benchmark defines expected performance..wav"
+      ]
+    },
+    {
+      "id": "the-trend-became-clear-over-time.",
+      "english": "The trend became clear over time.",
+      "translation": "Тренд стал очевиден со временем.",
+      "audio": [
+        "audio/sentences/The trend became clear over time..wav"
+      ]
+    },
+    {
+      "id": "a-clear-pattern-appeared-in-the-data.",
+      "english": "A clear pattern appeared in the data.",
+      "translation": "В данных появилась чёткая закономерность.",
+      "audio": [
+        "audio/sentences/A clear pattern appeared in the data..wav"
+      ]
+    },
+    {
+      "id": "the-correlation-does-not-imply-causation.",
+      "english": "The correlation does not imply causation.",
+      "translation": "Корреляция не означает причинно-следственную связь.",
+      "audio": [
+        "audio/sentences/The correlation does not imply causation..wav"
+      ]
+    },
+    {
+      "id": "the-distribution-is-skewed-to-the-right.",
+      "english": "The distribution is skewed to the right.",
+      "translation": "Распределение смещено вправо.",
+      "audio": [
+        "audio/sentences/The distribution is skewed to the right..wav"
+      ]
+    },
+    {
+      "id": "variance-measures-data-spread.",
+      "english": "Variance measures data spread.",
+      "translation": "Дисперсия измеряет разброс данных.",
+      "audio": [
+        "audio/sentences/Variance measures data spread..wav"
+      ]
+    },
+    {
+      "id": "the-average-increased-slightly.",
+      "english": "The average increased slightly.",
+      "translation": "Среднее значение немного выросло.",
+      "audio": [
+        "audio/sentences/The average increased slightly..wav"
+      ]
+    },
+    {
+      "id": "the-median-is-less-affected-by-outliers.",
+      "english": "The median is less affected by outliers.",
+      "translation": "Медиана меньше подвержена выбросам.",
+      "audio": [
+        "audio/sentences/The median is less affected by outliers..wav"
+      ]
+    },
+    {
+      "id": "one-outlier-distorted-the-results.",
+      "english": "One outlier distorted the results.",
+      "translation": "Один выброс исказил результаты.",
+      "audio": [
+        "audio/sentences/One outlier distorted the results..wav"
+      ]
+    },
+    {
+      "id": "the-sample-size-was-limited.",
+      "english": "The sample size was limited.",
+      "translation": "Размер выборки был ограничен.",
+      "audio": [
+        "audio/sentences/The sample size was limited..wav"
+      ]
+    },
+    {
+      "id": "the-population-includes-all-users.",
+      "english": "The population includes all users.",
+      "translation": "Генеральная совокупность включает всех пользователей.",
+      "audio": [
+        "audio/sentences/The population includes all users..wav"
+      ]
+    },
+    {
+      "id": "the-analysis-revealed-key-issues.",
+      "english": "The analysis revealed key issues.",
+      "translation": "Анализ выявил ключевые проблемы.",
+      "audio": [
+        "audio/sentences/The analysis revealed key issues..wav"
+      ]
+    },
+    {
+      "id": "this-insight-changed-our-strategy.",
+      "english": "This insight changed our strategy.",
+      "translation": "Этот инсайт изменил нашу стратегию.",
+      "audio": [
+        "audio/sentences/This insight changed our strategy..wav"
+      ]
+    },
+    {
+      "id": "interpretation-depends-on-context.",
+      "english": "Interpretation depends on context.",
+      "translation": "Интерпретация зависит от контекста.",
+      "audio": [
+        "audio/sentences/Interpretation depends on context..wav"
+      ]
+    },
+    {
+      "id": "the-hypothesis-was-partially-confirmed.",
+      "english": "The hypothesis was partially confirmed.",
+      "translation": "Гипотеза была частично подтверждена.",
+      "audio": [
+        "audio/sentences/The hypothesis was partially confirmed..wav"
+      ]
+    },
+    {
+      "id": "validation-ensures-reliable-results.",
+      "english": "Validation ensures reliable results.",
+      "translation": "Валидация обеспечивает надёжные результаты.",
+      "audio": [
+        "audio/sentences/Validation ensures reliable results..wav"
+      ]
+    },
+    {
+      "id": "the-dashboard-shows-key-metrics.",
+      "english": "The dashboard shows key metrics.",
+      "translation": "Дашборд показывает ключевые метрики.",
+      "audio": [
+        "audio/sentences/The dashboard shows key metrics..wav"
+      ]
+    },
+    {
+      "id": "the-report-summarizes-the-findings.",
+      "english": "The report summarizes the findings.",
+      "translation": "Отчёт обобщает полученные результаты.",
+      "audio": [
+        "audio/sentences/The report summarizes the findings..wav"
+      ]
+    },
+    {
+      "id": "visualization-makes-insights-easier-to-spot.",
+      "english": "Visualization makes insights easier to spot.",
+      "translation": "Визуализация облегчает поиск инсайтов.",
+      "audio": [
+        "audio/sentences/Visualization makes insights easier to spot..wav"
+      ]
+    },
+    {
+      "id": "the-chart-highlights-growth-trends.",
+      "english": "The chart highlights growth trends.",
+      "translation": "График подчёркивает тренды роста.",
+      "audio": [
+        "audio/sentences/The chart highlights growth trends..wav"
+      ]
+    },
+    {
+      "id": "the-diagram-explains-system-logic.",
+      "english": "The diagram explains system logic.",
+      "translation": "Диаграмма объясняет логику системы.",
+      "audio": [
+        "audio/sentences/The diagram explains system logic..wav"
+      ]
+    },
+    {
+      "id": "the-query-returned-no-results.",
+      "english": "The query returned no results.",
+      "translation": "Запрос не вернул результатов.",
+      "audio": [
+        "audio/sentences/The query returned no results..wav"
+      ]
+    },
+    {
+      "id": "the-filter-removes-irrelevant-entries.",
+      "english": "The filter removes irrelevant entries.",
+      "translation": "Фильтр убирает нерелевантные записи.",
+      "audio": [
+        "audio/sentences/The filter removes irrelevant entries..wav"
+      ]
+    },
+    {
+      "id": "aggregation-combines-multiple-records.",
+      "english": "Aggregation combines multiple records.",
+      "translation": "Агрегация объединяет несколько записей.",
+      "audio": [
+        "audio/sentences/Aggregation combines multiple records..wav"
+      ]
+    },
+    {
+      "id": "segmentation-improves-targeting-accuracy.",
+      "english": "Segmentation improves targeting accuracy.",
+      "translation": "Сегментация повышает точность таргетинга.",
+      "audio": [
+        "audio/sentences/Segmentation improves targeting accuracy..wav"
+      ]
+    },
+    {
+      "id": "the-pipeline-processes-data-continuously.",
+      "english": "The pipeline processes data continuously.",
+      "translation": "Конвейер данных обрабатывает данные непрерывно.",
+      "audio": [
+        "audio/sentences/The pipeline processes data continuously..wav"
+      ]
+    },
+    {
+      "id": "data-quality-affects-all-conclusions.",
+      "english": "Data quality affects all conclusions.",
+      "translation": "Качество данных влияет на все выводы.",
+      "audio": [
+        "audio/sentences/Data quality affects all conclusions..wav"
+      ]
+    },
+    {
+      "id": "the-data-source-was-verified.",
+      "english": "The data source was verified.",
+      "translation": "Источник данных был проверен.",
+      "audio": [
+        "audio/sentences/The data source was verified..wav"
+      ]
+    },
+    {
+      "id": "raw-data-requires-further-processing.",
+      "english": "Raw data requires further processing.",
+      "translation": "Сырые данные требуют дальнейшей обработки.",
+      "audio": [
+        "audio/sentences/Raw data requires further processing..wav"
+      ]
+    },
+    {
+      "id": "processed-data-is-ready-for-analysis.",
+      "english": "Processed data is ready for analysis.",
+      "translation": "Обработанные данные готовы к анализу.",
+      "audio": [
+        "audio/sentences/Processed data is ready for analysis..wav"
+      ]
+    },
+    {
+      "id": "data-integrity-must-be-preserved.",
+      "english": "Data integrity must be preserved.",
+      "translation": "Целостность данных должна сохраняться.",
+      "audio": [
+        "audio/sentences/Data integrity must be preserved..wav"
+      ]
+    }
+  ]
+}

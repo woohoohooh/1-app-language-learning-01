@@ -1,0 +1,327 @@
+{
+  "theme": "Работа в международной среде",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "she-works-on-an-international-project.",
+      "english": "She works on an international project.",
+      "translation": "Она работает над международным проектом.",
+      "audio": [
+        "audio/sentences/She works on an international project..wav"
+      ]
+    },
+    {
+      "id": "the-company-has-a-global-presence.",
+      "english": "The company has a global presence.",
+      "translation": "Компания имеет глобальное присутствие.",
+      "audio": [
+        "audio/sentences/The company has a global presence..wav"
+      ]
+    },
+    {
+      "id": "cross-cultural-skills-matter-at-work.",
+      "english": "Cross-cultural skills matter at work.",
+      "translation": "Межкультурные навыки важны в работе.",
+      "audio": [
+        "audio/sentences/Cross-cultural skills matter at work..wav"
+      ]
+    },
+    {
+      "id": "he-joined-a-multinational-firm.",
+      "english": "He joined a multinational firm.",
+      "translation": "Он присоединился к многонациональной компании.",
+      "audio": [
+        "audio/sentences/He joined a multinational firm..wav"
+      ]
+    },
+    {
+      "id": "she-has-foreign-work-experience.",
+      "english": "She has foreign work experience.",
+      "translation": "У неё есть опыт работы за границей.",
+      "audio": [
+        "audio/sentences/She has foreign work experience..wav"
+      ]
+    },
+    {
+      "id": "my-colleague-joined-the-call.",
+      "english": "My colleague joined the call.",
+      "translation": "Мой коллега подключился к звонку.",
+      "audio": [
+        "audio/sentences/My colleague joined the call..wav"
+      ]
+    },
+    {
+      "id": "i-spoke-with-my-counterpart-yesterday.",
+      "english": "I spoke with my counterpart yesterday.",
+      "translation": "Я говорил со своим коллегой с другой стороны вчера.",
+      "audio": [
+        "audio/sentences/I spoke with my counterpart yesterday..wav"
+      ]
+    },
+    {
+      "id": "stakeholders-approved-the-plan.",
+      "english": "Stakeholders approved the plan.",
+      "translation": "Заинтересованные стороны одобрили план.",
+      "audio": [
+        "audio/sentences/Stakeholders approved the plan..wav"
+      ]
+    },
+    {
+      "id": "the-client-requested-changes.",
+      "english": "The client requested changes.",
+      "translation": "Клиент запросил изменения.",
+      "audio": [
+        "audio/sentences/The client requested changes..wav"
+      ]
+    },
+    {
+      "id": "they-chose-a-reliable-partner.",
+      "english": "They chose a reliable partner.",
+      "translation": "Они выбрали надёжного партнёра.",
+      "audio": [
+        "audio/sentences/They chose a reliable partner..wav"
+      ]
+    },
+    {
+      "id": "we-work-across-timezones.",
+      "english": "We work across timezones.",
+      "translation": "Мы работаем через разные часовые пояса.",
+      "audio": [
+        "audio/sentences/We work across timezones..wav"
+      ]
+    },
+    {
+      "id": "the-schedule-changed-suddenly.",
+      "english": "The schedule changed suddenly.",
+      "translation": "График внезапно изменился.",
+      "audio": [
+        "audio/sentences/The schedule changed suddenly..wav"
+      ]
+    },
+    {
+      "id": "please-confirm-your-availability.",
+      "english": "Please confirm your availability.",
+      "translation": "Пожалуйста, подтвердите вашу доступность.",
+      "audio": [
+        "audio/sentences/Please confirm your availability..wav"
+      ]
+    },
+    {
+      "id": "the-deadline-is-approaching-fast.",
+      "english": "The deadline is approaching fast.",
+      "translation": "Дедлайн быстро приближается.",
+      "audio": [
+        "audio/sentences/The deadline is approaching fast..wav"
+      ]
+    },
+    {
+      "id": "there-is-little-overlap-today.",
+      "english": "There is little overlap today.",
+      "translation": "Сегодня мало пересечений по времени.",
+      "audio": [
+        "audio/sentences/There is little overlap today..wav"
+      ]
+    },
+    {
+      "id": "he-works-fully-remote.",
+      "english": "He works fully remote.",
+      "translation": "Он работает полностью удалённо.",
+      "audio": [
+        "audio/sentences/He works fully remote..wav"
+      ]
+    },
+    {
+      "id": "a-distributed-team-needs-structure.",
+      "english": "A distributed team needs structure.",
+      "translation": "Распределённой команде нужна структура.",
+      "audio": [
+        "audio/sentences/A distributed team needs structure..wav"
+      ]
+    },
+    {
+      "id": "the-headquarters-are-in-europe.",
+      "english": "The headquarters are in Europe.",
+      "translation": "Штаб-квартира находится в Европе.",
+      "audio": [
+        "audio/sentences/The headquarters are in Europe..wav"
+      ]
+    },
+    {
+      "id": "they-opened-a-new-branch.",
+      "english": "They opened a new branch.",
+      "translation": "Они открыли новый филиал.",
+      "audio": [
+        "audio/sentences/They opened a new branch..wav"
+      ]
+    },
+    {
+      "id": "the-office-operates-globally.",
+      "english": "The office operates globally.",
+      "translation": "Офис работает по всему миру.",
+      "audio": [
+        "audio/sentences/The office operates globally..wav"
+      ]
+    },
+    {
+      "id": "a-language-barrier-slowed-the-discussion.",
+      "english": "A language barrier slowed the discussion.",
+      "translation": "Языковой барьер замедлил обсуждение.",
+      "audio": [
+        "audio/sentences/A language barrier slowed the discussion..wav"
+      ]
+    },
+    {
+      "id": "his-accent-is-easy-to-recognize.",
+      "english": "His accent is easy to recognize.",
+      "translation": "Его акцент легко узнать.",
+      "audio": [
+        "audio/sentences/His accent is easy to recognize..wav"
+      ]
+    },
+    {
+      "id": "fluency-improves-with-daily-practice.",
+      "english": "Fluency improves with daily practice.",
+      "translation": "Беглость улучшается с ежедневной практикой.",
+      "audio": [
+        "audio/sentences/Fluency improves with daily practice..wav"
+      ]
+    },
+    {
+      "id": "clarity-is-crucial-in-meetings.",
+      "english": "Clarity is crucial in meetings.",
+      "translation": "Ясность крайне важна на встречах.",
+      "audio": [
+        "audio/sentences/Clarity is crucial in meetings..wav"
+      ]
+    },
+    {
+      "id": "a-misunderstanding-delayed-the-task.",
+      "english": "A misunderstanding delayed the task.",
+      "translation": "Недопонимание задержало задачу.",
+      "audio": [
+        "audio/sentences/A misunderstanding delayed the task..wav"
+      ]
+    },
+    {
+      "id": "expectations-were-discussed-early.",
+      "english": "Expectations were discussed early.",
+      "translation": "Ожидания обсудили заранее.",
+      "audio": [
+        "audio/sentences/Expectations were discussed early..wav"
+      ]
+    },
+    {
+      "id": "the-requirements-changed-slightly.",
+      "english": "The requirements changed slightly.",
+      "translation": "Требования немного изменились.",
+      "audio": [
+        "audio/sentences/The requirements changed slightly..wav"
+      ]
+    },
+    {
+      "id": "responsibility-was-clearly-defined.",
+      "english": "Responsibility was clearly defined.",
+      "translation": "Ответственность была чётко определена.",
+      "audio": [
+        "audio/sentences/Responsibility was clearly defined..wav"
+      ]
+    },
+    {
+      "id": "she-has-authority-to-approve.",
+      "english": "She has authority to approve.",
+      "translation": "У неё есть полномочия утверждать.",
+      "audio": [
+        "audio/sentences/She has authority to approve..wav"
+      ]
+    },
+    {
+      "id": "the-decision-was-made-quickly.",
+      "english": "The decision was made quickly.",
+      "translation": "Решение приняли быстро.",
+      "audio": [
+        "audio/sentences/The decision was made quickly..wav"
+      ]
+    },
+    {
+      "id": "he-applied-for-a-work-permit.",
+      "english": "He applied for a work permit.",
+      "translation": "Он подал заявку на разрешение на работу.",
+      "audio": [
+        "audio/sentences/He applied for a work permit..wav"
+      ]
+    },
+    {
+      "id": "her-visa-expires-soon.",
+      "english": "Her visa expires soon.",
+      "translation": "Её виза скоро истекает.",
+      "audio": [
+        "audio/sentences/Her visa expires soon..wav"
+      ]
+    },
+    {
+      "id": "relocation-support-was-offered.",
+      "english": "Relocation support was offered.",
+      "translation": "Была предложена поддержка при релокации.",
+      "audio": [
+        "audio/sentences/Relocation support was offered..wav"
+      ]
+    },
+    {
+      "id": "the-contract-was-signed-remotely.",
+      "english": "The contract was signed remotely.",
+      "translation": "Контракт подписали удалённо.",
+      "audio": [
+        "audio/sentences/The contract was signed remotely..wav"
+      ]
+    },
+    {
+      "id": "compliance-is-strictly-monitored.",
+      "english": "Compliance is strictly monitored.",
+      "translation": "Соответствие требованиям строго контролируется.",
+      "audio": [
+        "audio/sentences/Compliance is strictly monitored..wav"
+      ]
+    },
+    {
+      "id": "she-is-on-a-business-trip.",
+      "english": "She is on a business trip.",
+      "translation": "Она в командировке.",
+      "audio": [
+        "audio/sentences/She is on a business trip..wav"
+      ]
+    },
+    {
+      "id": "negotiation-took-several-hours.",
+      "english": "Negotiation took several hours.",
+      "translation": "Переговоры заняли несколько часов.",
+      "audio": [
+        "audio/sentences/Negotiation took several hours..wav"
+      ]
+    },
+    {
+      "id": "an-agreement-was-reached.",
+      "english": "An agreement was reached.",
+      "translation": "Соглашение было достигнуто.",
+      "audio": [
+        "audio/sentences/An agreement was reached..wav"
+      ]
+    },
+    {
+      "id": "the-plan-awaits-approval.",
+      "english": "The plan awaits approval.",
+      "translation": "План ожидает утверждения.",
+      "audio": [
+        "audio/sentences/The plan awaits approval..wav"
+      ]
+    },
+    {
+      "id": "coordination-improved-across-offices.",
+      "english": "Coordination improved across offices.",
+      "translation": "Координация между офисами улучшилась.",
+      "audio": [
+        "audio/sentences/Coordination improved across offices..wav"
+      ]
+    }
+  ]
+}

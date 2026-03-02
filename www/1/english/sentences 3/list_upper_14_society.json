@@ -1,0 +1,167 @@
+{
+  "theme": "Общество и современный мир",
+  "level": "Upper-Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "society",
+      "translation": "общество"
+    },
+    {
+      "english": "community",
+      "translation": "сообщество"
+    },
+    {
+      "english": "population",
+      "translation": "население"
+    },
+    {
+      "english": "generation",
+      "translation": "поколение"
+    },
+    {
+      "english": "culture",
+      "translation": "культура"
+    },
+    {
+      "english": "values",
+      "translation": "ценности"
+    },
+    {
+      "english": "norms",
+      "translation": "социальные нормы"
+    },
+    {
+      "english": "identity",
+      "translation": "идентичность"
+    },
+    {
+      "english": "diversity",
+      "translation": "разнообразие"
+    },
+    {
+      "english": "inclusion",
+      "translation": "инклюзивность"
+    },
+    {
+      "english": "inequality",
+      "translation": "неравенство"
+    },
+    {
+      "english": "opportunity",
+      "translation": "возможность"
+    },
+    {
+      "english": "access",
+      "translation": "доступ"
+    },
+    {
+      "english": "standard of living",
+      "translation": "уровень жизни"
+    },
+    {
+      "english": "quality of life",
+      "translation": "качество жизни"
+    },
+    {
+      "english": "globalization",
+      "translation": "глобализация"
+    },
+    {
+      "english": "urbanization",
+      "translation": "урбанизация"
+    },
+    {
+      "english": "migration",
+      "translation": "миграция"
+    },
+    {
+      "english": "demographics",
+      "translation": "демография"
+    },
+    {
+      "english": "middle class",
+      "translation": "средний класс"
+    },
+    {
+      "english": "technology",
+      "translation": "технологии"
+    },
+    {
+      "english": "digitalization",
+      "translation": "цифровизация"
+    },
+    {
+      "english": "automation",
+      "translation": "автоматизация"
+    },
+    {
+      "english": "artificial intelligence",
+      "translation": "искусственный интеллект"
+    },
+    {
+      "english": "social impact",
+      "translation": "социальное влияние"
+    },
+    {
+      "english": "media",
+      "translation": "медиа"
+    },
+    {
+      "english": "information",
+      "translation": "информация"
+    },
+    {
+      "english": "misinformation",
+      "translation": "дезинформация"
+    },
+    {
+      "english": "public opinion",
+      "translation": "общественное мнение"
+    },
+    {
+      "english": "trust",
+      "translation": "доверие"
+    },
+    {
+      "english": "climate change",
+      "translation": "изменение климата"
+    },
+    {
+      "english": "environment",
+      "translation": "окружающая среда"
+    },
+    {
+      "english": "sustainability",
+      "translation": "устойчивое развитие"
+    },
+    {
+      "english": "resources",
+      "translation": "ресурсы"
+    },
+    {
+      "english": "energy",
+      "translation": "энергия"
+    },
+    {
+      "english": "lifestyle",
+      "translation": "образ жизни"
+    },
+    {
+      "english": "work-life balance",
+      "translation": "баланс работы и жизни"
+    },
+    {
+      "english": "consumerism",
+      "translation": "потребительство"
+    },
+    {
+      "english": "social change",
+      "translation": "социальные изменения"
+    },
+    {
+      "english": "future",
+      "translation": "будущее"
+    }
+  ]
+}

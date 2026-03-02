@@ -1,0 +1,327 @@
+{
+  "theme": "Бизнес и деньги",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "run-a-business",
+      "english": "run a business",
+      "translation": "вести бизнес",
+      "audio": [
+        "audio/phrases/run a business.wav"
+      ]
+    },
+    {
+      "id": "large-company",
+      "english": "large company",
+      "translation": "крупная компания",
+      "audio": [
+        "audio/phrases/large company.wav"
+      ]
+    },
+    {
+      "id": "law-firm",
+      "english": "law firm",
+      "translation": "юридическая фирма",
+      "audio": [
+        "audio/phrases/law firm.wav"
+      ]
+    },
+    {
+      "id": "small-enterprise",
+      "english": "small enterprise",
+      "translation": "малое предприятие",
+      "audio": [
+        "audio/phrases/small enterprise.wav"
+      ]
+    },
+    {
+      "id": "public-organization",
+      "english": "public organization",
+      "translation": "общественная организация",
+      "audio": [
+        "audio/phrases/public organization.wav"
+      ]
+    },
+    {
+      "id": "enter-market",
+      "english": "enter market",
+      "translation": "выйти на рынок",
+      "audio": [
+        "audio/phrases/enter market.wav"
+      ]
+    },
+    {
+      "id": "tech-industry",
+      "english": "tech industry",
+      "translation": "технологическая отрасль",
+      "audio": [
+        "audio/phrases/tech industry.wav"
+      ]
+    },
+    {
+      "id": "strong-competition",
+      "english": "strong competition",
+      "translation": "сильная конкуренция",
+      "audio": [
+        "audio/phrases/strong competition.wav"
+      ]
+    },
+    {
+      "id": "main-competitor",
+      "english": "main competitor",
+      "translation": "главный конкурент",
+      "audio": [
+        "audio/phrases/main competitor.wav"
+      ]
+    },
+    {
+      "id": "high-demand",
+      "english": "high demand",
+      "translation": "высокий спрос",
+      "audio": [
+        "audio/phrases/high demand.wav"
+      ]
+    },
+    {
+      "id": "increase-supply",
+      "english": "increase supply",
+      "translation": "увеличить предложение",
+      "audio": [
+        "audio/phrases/increase supply.wav"
+      ]
+    },
+    {
+      "id": "new-customers",
+      "english": "new customers",
+      "translation": "новые клиенты",
+      "audio": [
+        "audio/phrases/new customers.wav"
+      ]
+    },
+    {
+      "id": "client-agreements",
+      "english": "client agreements",
+      "translation": "клиентские договоры",
+      "audio": [
+        "audio/phrases/client agreements.wav"
+      ]
+    },
+    {
+      "id": "consumer-choice",
+      "english": "consumer choice",
+      "translation": "выбор потребителя",
+      "audio": [
+        "audio/phrases/consumer choice.wav"
+      ]
+    },
+    {
+      "id": "business-partner",
+      "english": "business partner",
+      "translation": "деловой партнёр",
+      "audio": [
+        "audio/phrases/business partner.wav"
+      ]
+    },
+    {
+      "id": "new-product",
+      "english": "new product",
+      "translation": "новый продукт",
+      "audio": [
+        "audio/phrases/new product.wav"
+      ]
+    },
+    {
+      "id": "premium-service",
+      "english": "premium service",
+      "translation": "премиальная услуга",
+      "audio": [
+        "audio/phrases/premium service.wav"
+      ]
+    },
+    {
+      "id": "create-value",
+      "english": "create value",
+      "translation": "создавать ценность",
+      "audio": [
+        "audio/phrases/create value.wav"
+      ]
+    },
+    {
+      "id": "set-prices",
+      "english": "set prices",
+      "translation": "устанавливать цены",
+      "audio": [
+        "audio/phrases/set prices.wav"
+      ]
+    },
+    {
+      "id": "reduce-costs",
+      "english": "reduce costs",
+      "translation": "снижать затраты",
+      "audio": [
+        "audio/phrases/reduce costs.wav"
+      ]
+    },
+    {
+      "id": "generate-revenue",
+      "english": "generate revenue",
+      "translation": "генерировать выручку",
+      "audio": [
+        "audio/phrases/generate revenue.wav"
+      ]
+    },
+    {
+      "id": "increase-profit",
+      "english": "increase profit",
+      "translation": "увеличить прибыль",
+      "audio": [
+        "audio/phrases/increase profit.wav"
+      ]
+    },
+    {
+      "id": "cover-losses",
+      "english": "cover losses",
+      "translation": "покрыть убытки",
+      "audio": [
+        "audio/phrases/cover losses.wav"
+      ]
+    },
+    {
+      "id": "plan-the-budget",
+      "english": "plan the budget",
+      "translation": "планировать бюджет",
+      "audio": [
+        "audio/phrases/plan the budget.wav"
+      ]
+    },
+    {
+      "id": "reduce-expenses",
+      "english": "reduce expenses",
+      "translation": "сократить расходы",
+      "audio": [
+        "audio/phrases/reduce expenses.wav"
+      ]
+    },
+    {
+      "id": "make-investments",
+      "english": "make investments",
+      "translation": "делать инвестиции",
+      "audio": [
+        "audio/phrases/make investments.wav"
+      ]
+    },
+    {
+      "id": "secure-funding",
+      "english": "secure funding",
+      "translation": "получить финансирование",
+      "audio": [
+        "audio/phrases/secure funding.wav"
+      ]
+    },
+    {
+      "id": "raise-capital",
+      "english": "raise capital",
+      "translation": "привлечь капитал",
+      "audio": [
+        "audio/phrases/raise capital.wav"
+      ]
+    },
+    {
+      "id": "manage-cash-flow",
+      "english": "manage cash flow",
+      "translation": "управлять денежным потоком",
+      "audio": [
+        "audio/phrases/manage cash flow.wav"
+      ]
+    },
+    {
+      "id": "sell-assets",
+      "english": "sell assets",
+      "translation": "продать активы",
+      "audio": [
+        "audio/phrases/sell assets.wav"
+      ]
+    },
+    {
+      "id": "close-the-deal",
+      "english": "close the deal",
+      "translation": "закрыть сделку",
+      "audio": [
+        "audio/phrases/close the deal.wav"
+      ]
+    },
+    {
+      "id": "sign-a-contract",
+      "english": "sign a contract",
+      "translation": "подписать контракт",
+      "audio": [
+        "audio/phrases/sign a contract.wav"
+      ]
+    },
+    {
+      "id": "reach-agreement",
+      "english": "reach agreement",
+      "translation": "достичь соглашения",
+      "audio": [
+        "audio/phrases/reach agreement.wav"
+      ]
+    },
+    {
+      "id": "define-terms",
+      "english": "define terms",
+      "translation": "определить условия",
+      "audio": [
+        "audio/phrases/define terms.wav"
+      ]
+    },
+    {
+      "id": "meet-conditions",
+      "english": "meet conditions",
+      "translation": "выполнить условия",
+      "audio": [
+        "audio/phrases/meet conditions.wav"
+      ]
+    },
+    {
+      "id": "develop-strategy",
+      "english": "develop strategy",
+      "translation": "разработать стратегию",
+      "audio": [
+        "audio/phrases/develop strategy.wav"
+      ]
+    },
+    {
+      "id": "stimulate-growth",
+      "english": "stimulate growth",
+      "translation": "стимулировать рост",
+      "audio": [
+        "audio/phrases/stimulate growth.wav"
+      ]
+    },
+    {
+      "id": "improve-performance",
+      "english": "improve performance",
+      "translation": "улучшить эффективность",
+      "audio": [
+        "audio/phrases/improve performance.wav"
+      ]
+    },
+    {
+      "id": "update-forecast",
+      "english": "update forecast",
+      "translation": "обновить прогноз",
+      "audio": [
+        "audio/phrases/update forecast.wav"
+      ]
+    },
+    {
+      "id": "manage-risk",
+      "english": "manage risk",
+      "translation": "управлять риском",
+      "audio": [
+        "audio/phrases/manage risk.wav"
+      ]
+    }
+  ]
+}

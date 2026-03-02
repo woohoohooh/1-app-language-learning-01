@@ -1,0 +1,327 @@
+{
+  "theme": "Путешествия",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "reach-the-destination",
+      "english": "reach the destination",
+      "translation": "достичь пункта назначения",
+      "audio": [
+        "audio/phrases/reach the destination.wav"
+      ]
+    },
+    {
+      "id": "plan-a-trip-soon",
+      "english": "plan a trip soon",
+      "translation": "спланировать поездку скоро",
+      "audio": [
+        "audio/phrases/plan a trip soon.wav"
+      ]
+    },
+    {
+      "id": "follow-the-route-carefully",
+      "english": "follow the route carefully",
+      "translation": "следовать маршруту внимательно",
+      "audio": [
+        "audio/phrases/follow the route carefully.wav"
+      ]
+    },
+    {
+      "id": "check-the-schedule",
+      "english": "check the schedule",
+      "translation": "проверить расписание",
+      "audio": [
+        "audio/phrases/check the schedule.wav"
+      ]
+    },
+    {
+      "id": "confirm-the-reservation",
+      "english": "confirm the reservation",
+      "translation": "подтвердить бронирование",
+      "audio": [
+        "audio/phrases/confirm the reservation.wav"
+      ]
+    },
+    {
+      "id": "make-a-booking-online",
+      "english": "make a booking online",
+      "translation": "сделать бронирование онлайн",
+      "audio": [
+        "audio/phrases/make a booking online.wav"
+      ]
+    },
+    {
+      "id": "receive-confirmation-email",
+      "english": "receive confirmation email",
+      "translation": "получить письмо с подтверждением",
+      "audio": [
+        "audio/phrases/receive confirmation email.wav"
+      ]
+    },
+    {
+      "id": "notify-about-cancellation",
+      "english": "notify about cancellation",
+      "translation": "сообщить об отмене",
+      "audio": [
+        "audio/phrases/notify about cancellation.wav"
+      ]
+    },
+    {
+      "id": "book-accommodation-early",
+      "english": "book accommodation early",
+      "translation": "забронировать проживание заранее",
+      "audio": [
+        "audio/phrases/book accommodation early.wav"
+      ]
+    },
+    {
+      "id": "stay-in-a-hostel",
+      "english": "stay in a hostel",
+      "translation": "остановиться в хостеле",
+      "audio": [
+        "audio/phrases/stay in a hostel.wav"
+      ]
+    },
+    {
+      "id": "rent-an-apartment",
+      "english": "rent an apartment",
+      "translation": "арендовать апартаменты",
+      "audio": [
+        "audio/phrases/rent an apartment.wav"
+      ]
+    },
+    {
+      "id": "complete-check-in-process",
+      "english": "complete check-in process",
+      "translation": "завершить процесс регистрации",
+      "audio": [
+        "audio/phrases/complete check-in process.wav"
+      ]
+    },
+    {
+      "id": "prepare-for-check-out",
+      "english": "prepare for check-out",
+      "translation": "подготовиться к выезду",
+      "audio": [
+        "audio/phrases/prepare for check-out.wav"
+      ]
+    },
+    {
+      "id": "cross-the-border",
+      "english": "cross the border",
+      "translation": "пересечь границу",
+      "audio": [
+        "audio/phrases/cross the border.wav"
+      ]
+    },
+    {
+      "id": "pass-customs-quickly",
+      "english": "pass customs quickly",
+      "translation": "пройти таможню быстро",
+      "audio": [
+        "audio/phrases/pass customs quickly.wav"
+      ]
+    },
+    {
+      "id": "go-through-immigration",
+      "english": "go through immigration",
+      "translation": "пройти иммиграционный контроль",
+      "audio": [
+        "audio/phrases/go through immigration.wav"
+      ]
+    },
+    {
+      "id": "apply-for-visa",
+      "english": "apply for visa",
+      "translation": "подать заявление на визу",
+      "audio": [
+        "audio/phrases/apply for visa.wav"
+      ]
+    },
+    {
+      "id": "sign-the-document",
+      "english": "sign the document",
+      "translation": "подписать документ",
+      "audio": [
+        "audio/phrases/sign the document.wav"
+      ]
+    },
+    {
+      "id": "check-your-luggage",
+      "english": "check your luggage",
+      "translation": "оформить багаж",
+      "audio": [
+        "audio/phrases/check your luggage.wav"
+      ]
+    },
+    {
+      "id": "carry-the-baggage",
+      "english": "carry the baggage",
+      "translation": "нести багаж",
+      "audio": [
+        "audio/phrases/carry the baggage.wav"
+      ]
+    },
+    {
+      "id": "pack-carry-on-luggage",
+      "english": "pack carry-on luggage",
+      "translation": "упаковать ручную кладь",
+      "audio": [
+        "audio/phrases/pack carry-on luggage.wav"
+      ]
+    },
+    {
+      "id": "report-lost-items",
+      "english": "report lost items",
+      "translation": "сообщить о потерянных вещах",
+      "audio": [
+        "audio/phrases/report lost items.wav"
+      ]
+    },
+    {
+      "id": "report-damage-immediately",
+      "english": "report damage immediately",
+      "translation": "сообщить о повреждении сразу",
+      "audio": [
+        "audio/phrases/report damage immediately.wav"
+      ]
+    },
+    {
+      "id": "use-public-transportation",
+      "english": "use public transportation",
+      "translation": "пользоваться общественным транспортом",
+      "audio": [
+        "audio/phrases/use public transportation.wav"
+      ]
+    },
+    {
+      "id": "take-public-transport",
+      "english": "take public transport",
+      "translation": "поехать на общественном транспорте",
+      "audio": [
+        "audio/phrases/take public transport.wav"
+      ]
+    },
+    {
+      "id": "arrange-airport-transfer",
+      "english": "arrange airport transfer",
+      "translation": "организовать трансфер из аэропорта",
+      "audio": [
+        "audio/phrases/arrange airport transfer.wav"
+      ]
+    },
+    {
+      "id": "book-car-rental",
+      "english": "book car rental",
+      "translation": "забронировать аренду автомобиля",
+      "audio": [
+        "audio/phrases/book car rental.wav"
+      ]
+    },
+    {
+      "id": "use-navigation-system",
+      "english": "use navigation system",
+      "translation": "использовать навигационную систему",
+      "audio": [
+        "audio/phrases/use navigation system.wav"
+      ]
+    },
+    {
+      "id": "exchange-currency-quickly",
+      "english": "exchange currency quickly",
+      "translation": "обменять валюту быстро",
+      "audio": [
+        "audio/phrases/exchange currency quickly.wav"
+      ]
+    },
+    {
+      "id": "currency-exchange-office",
+      "english": "currency exchange office",
+      "translation": "пункт обмена валюты",
+      "audio": [
+        "audio/phrases/currency exchange office.wav"
+      ]
+    },
+    {
+      "id": "make-payment-online",
+      "english": "make payment online",
+      "translation": "совершить оплату онлайн",
+      "audio": [
+        "audio/phrases/make payment online.wav"
+      ]
+    },
+    {
+      "id": "keep-the-receipt",
+      "english": "keep the receipt",
+      "translation": "сохранить чек",
+      "audio": [
+        "audio/phrases/keep the receipt.wav"
+      ]
+    },
+    {
+      "id": "buy-travel-insurance",
+      "english": "buy travel insurance",
+      "translation": "купить туристическую страховку",
+      "audio": [
+        "audio/phrases/buy travel insurance.wav"
+      ]
+    },
+    {
+      "id": "handle-emergency-situation",
+      "english": "handle emergency situation",
+      "translation": "справиться с чрезвычайной ситуацией",
+      "audio": [
+        "audio/phrases/handle emergency situation.wav"
+      ]
+    },
+    {
+      "id": "request-assistance-immediately",
+      "english": "request assistance immediately",
+      "translation": "незамедлительно запросить помощь",
+      "audio": [
+        "audio/phrases/request assistance immediately.wav"
+      ]
+    },
+    {
+      "id": "file-a-complaint",
+      "english": "file a complaint",
+      "translation": "подать жалобу",
+      "audio": [
+        "audio/phrases/file a complaint.wav"
+      ]
+    },
+    {
+      "id": "contact-customer-support",
+      "english": "contact customer support",
+      "translation": "связаться с поддержкой клиентов",
+      "audio": [
+        "audio/phrases/contact customer support.wav"
+      ]
+    },
+    {
+      "id": "start-the-journey-today",
+      "english": "start the journey today",
+      "translation": "начать путешествие сегодня",
+      "audio": [
+        "audio/phrases/start the journey today.wav"
+      ]
+    },
+    {
+      "id": "check-availability-quickly",
+      "english": "check availability quickly",
+      "translation": "быстро проверить наличие",
+      "audio": [
+        "audio/phrases/check availability quickly.wav"
+      ]
+    },
+    {
+      "id": "pay-service-fee",
+      "english": "pay service fee",
+      "translation": "оплатить комиссию",
+      "audio": [
+        "audio/phrases/pay service fee.wav"
+      ]
+    }
+  ]
+}

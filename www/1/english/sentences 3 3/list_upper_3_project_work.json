@@ -1,0 +1,407 @@
+{
+  "theme": "Проектная работа и задачи",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "project",
+      "english": "project",
+      "translation": "проект",
+      "audio": [
+        "audio/words/project.wav"
+      ]
+    },
+    {
+      "id": "initiative",
+      "english": "initiative",
+      "translation": "инициатива",
+      "audio": [
+        "audio/words/initiative.wav"
+      ]
+    },
+    {
+      "id": "scope",
+      "english": "scope",
+      "translation": "объем работ",
+      "audio": [
+        "audio/words/scope.wav"
+      ]
+    },
+    {
+      "id": "objective",
+      "english": "objective",
+      "translation": "цель",
+      "audio": [
+        "audio/words/objective.wav"
+      ]
+    },
+    {
+      "id": "outcome",
+      "english": "outcome",
+      "translation": "результат",
+      "audio": [
+        "audio/words/outcome.wav"
+      ]
+    },
+    {
+      "id": "task",
+      "english": "task",
+      "translation": "задача",
+      "audio": [
+        "audio/words/task.wav"
+      ]
+    },
+    {
+      "id": "subtask",
+      "english": "subtask",
+      "translation": "подзадача",
+      "audio": [
+        "audio/words/subtask.wav"
+      ]
+    },
+    {
+      "id": "assignment",
+      "english": "assignment",
+      "translation": "поручение",
+      "audio": [
+        "audio/words/assignment.wav"
+      ]
+    },
+    {
+      "id": "backlog",
+      "english": "backlog",
+      "translation": "бэклог",
+      "audio": [
+        "audio/words/backlog.wav"
+      ]
+    },
+    {
+      "id": "priority",
+      "english": "priority",
+      "translation": "приоритет",
+      "audio": [
+        "audio/words/priority.wav"
+      ]
+    },
+    {
+      "id": "planning",
+      "english": "planning",
+      "translation": "планирование",
+      "audio": [
+        "audio/words/planning.wav"
+      ]
+    },
+    {
+      "id": "estimation",
+      "english": "estimation",
+      "translation": "оценка",
+      "audio": [
+        "audio/words/estimation.wav"
+      ]
+    },
+    {
+      "id": "breakdown",
+      "english": "breakdown",
+      "translation": "декомпозиция",
+      "audio": [
+        "audio/words/breakdown.wav"
+      ]
+    },
+    {
+      "id": "dependency",
+      "english": "dependency",
+      "translation": "зависимость",
+      "audio": [
+        "audio/words/dependency.wav"
+      ]
+    },
+    {
+      "id": "sequence",
+      "english": "sequence",
+      "translation": "последовательность",
+      "audio": [
+        "audio/words/sequence.wav"
+      ]
+    },
+    {
+      "id": "execution",
+      "english": "execution",
+      "translation": "выполнение",
+      "audio": [
+        "audio/words/execution.wav"
+      ]
+    },
+    {
+      "id": "implementation",
+      "english": "implementation",
+      "translation": "реализация",
+      "audio": [
+        "audio/words/implementation.wav"
+      ]
+    },
+    {
+      "id": "progress",
+      "english": "progress",
+      "translation": "прогресс",
+      "audio": [
+        "audio/words/progress.wav"
+      ]
+    },
+    {
+      "id": "status",
+      "english": "status",
+      "translation": "статус",
+      "audio": [
+        "audio/words/status.wav"
+      ]
+    },
+    {
+      "id": "completion",
+      "english": "completion",
+      "translation": "завершение",
+      "audio": [
+        "audio/words/completion.wav"
+      ]
+    },
+    {
+      "id": "deadline",
+      "english": "deadline",
+      "translation": "дедлайн",
+      "audio": [
+        "audio/words/deadline.wav"
+      ]
+    },
+    {
+      "id": "delay",
+      "english": "delay",
+      "translation": "задержка",
+      "audio": [
+        "audio/words/delay.wav"
+      ]
+    },
+    {
+      "id": "blocker",
+      "english": "blocker",
+      "translation": "блокер",
+      "audio": [
+        "audio/words/blocker.wav"
+      ]
+    },
+    {
+      "id": "bottleneck",
+      "english": "bottleneck",
+      "translation": "узкое место",
+      "audio": [
+        "audio/words/bottleneck.wav"
+      ]
+    },
+    {
+      "id": "overlap",
+      "english": "overlap",
+      "translation": "пересечение",
+      "audio": [
+        "audio/words/overlap.wav"
+      ]
+    },
+    {
+      "id": "resource",
+      "english": "resource",
+      "translation": "ресурс",
+      "audio": [
+        "audio/words/resource.wav"
+      ]
+    },
+    {
+      "id": "allocation",
+      "english": "allocation",
+      "translation": "распределение",
+      "audio": [
+        "audio/words/allocation.wav"
+      ]
+    },
+    {
+      "id": "capacity",
+      "english": "capacity",
+      "translation": "загруженность",
+      "audio": [
+        "audio/words/capacity.wav"
+      ]
+    },
+    {
+      "id": "workload",
+      "english": "workload",
+      "translation": "рабочая нагрузка",
+      "audio": [
+        "audio/words/workload.wav"
+      ]
+    },
+    {
+      "id": "availability",
+      "english": "availability",
+      "translation": "доступность",
+      "audio": [
+        "audio/words/availability.wav"
+      ]
+    },
+    {
+      "id": "risk",
+      "english": "risk",
+      "translation": "риск",
+      "audio": [
+        "audio/words/risk.wav"
+      ]
+    },
+    {
+      "id": "constraint",
+      "english": "constraint",
+      "translation": "ограничение",
+      "audio": [
+        "audio/words/constraint.wav"
+      ]
+    },
+    {
+      "id": "assumption",
+      "english": "assumption",
+      "translation": "допущение",
+      "audio": [
+        "audio/words/assumption.wav"
+      ]
+    },
+    {
+      "id": "impact",
+      "english": "impact",
+      "translation": "влияние",
+      "audio": [
+        "audio/words/impact.wav"
+      ]
+    },
+    {
+      "id": "mitigation",
+      "english": "mitigation",
+      "translation": "снижение риска",
+      "audio": [
+        "audio/words/mitigation.wav"
+      ]
+    },
+    {
+      "id": "review",
+      "english": "review",
+      "translation": "обзор",
+      "audio": [
+        "audio/words/review.wav"
+      ]
+    },
+    {
+      "id": "approval",
+      "english": "approval",
+      "translation": "утверждение",
+      "audio": [
+        "audio/words/approval.wav"
+      ]
+    },
+    {
+      "id": "sign-off",
+      "english": "sign-off",
+      "translation": "финальное подтверждение",
+      "audio": [
+        "audio/words/sign-off.wav"
+      ]
+    },
+    {
+      "id": "revision",
+      "english": "revision",
+      "translation": "переработка",
+      "audio": [
+        "audio/words/revision.wav"
+      ]
+    },
+    {
+      "id": "iteration",
+      "english": "iteration",
+      "translation": "итерация",
+      "audio": [
+        "audio/words/iteration.wav"
+      ]
+    },
+    {
+      "id": "tracking",
+      "english": "tracking",
+      "translation": "отслеживание",
+      "audio": [
+        "audio/words/tracking.wav"
+      ]
+    },
+    {
+      "id": "monitoring",
+      "english": "monitoring",
+      "translation": "мониторинг",
+      "audio": [
+        "audio/words/monitoring.wav"
+      ]
+    },
+    {
+      "id": "reporting",
+      "english": "reporting",
+      "translation": "отчетность",
+      "audio": [
+        "audio/words/reporting.wav"
+      ]
+    },
+    {
+      "id": "visibility",
+      "english": "visibility",
+      "translation": "прозрачность",
+      "audio": [
+        "audio/words/visibility.wav"
+      ]
+    },
+    {
+      "id": "alignment",
+      "english": "alignment",
+      "translation": "синхронизация",
+      "audio": [
+        "audio/words/alignment.wav"
+      ]
+    },
+    {
+      "id": "delivery",
+      "english": "delivery",
+      "translation": "поставка результата",
+      "audio": [
+        "audio/words/delivery.wav"
+      ]
+    },
+    {
+      "id": "handover",
+      "english": "handover",
+      "translation": "передача",
+      "audio": [
+        "audio/words/handover.wav"
+      ]
+    },
+    {
+      "id": "launch",
+      "english": "launch",
+      "translation": "запуск",
+      "audio": [
+        "audio/words/launch.wav"
+      ]
+    },
+    {
+      "id": "closure",
+      "english": "closure",
+      "translation": "закрытие проекта",
+      "audio": [
+        "audio/words/closure.wav"
+      ]
+    },
+    {
+      "id": "retrospective",
+      "english": "retrospective",
+      "translation": "ретроспектива",
+      "audio": [
+        "audio/words/retrospective.wav"
+      ]
+    }
+  ]
+}

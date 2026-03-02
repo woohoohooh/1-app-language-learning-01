@@ -1,0 +1,351 @@
+{
+  "theme": "Еда и напитки",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "food",
+      "english": "food",
+      "translation": "еда",
+      "audio": [
+        "audio/words/food.wav"
+      ]
+    },
+    {
+      "id": "meal",
+      "english": "meal",
+      "translation": "приём пищи",
+      "audio": [
+        "audio/words/meal.wav"
+      ]
+    },
+    {
+      "id": "breakfast",
+      "english": "breakfast",
+      "translation": "завтрак",
+      "audio": [
+        "audio/words/breakfast.wav"
+      ]
+    },
+    {
+      "id": "lunch",
+      "english": "lunch",
+      "translation": "обед",
+      "audio": [
+        "audio/words/lunch.wav"
+      ]
+    },
+    {
+      "id": "dinner",
+      "english": "dinner",
+      "translation": "ужин",
+      "audio": [
+        "audio/words/dinner.wav"
+      ]
+    },
+    {
+      "id": "bread",
+      "english": "bread",
+      "translation": "хлеб",
+      "audio": [
+        "audio/words/bread.wav"
+      ]
+    },
+    {
+      "id": "butter",
+      "english": "butter",
+      "translation": "масло",
+      "audio": [
+        "audio/words/butter.wav"
+      ]
+    },
+    {
+      "id": "cheese",
+      "english": "cheese",
+      "translation": "сыр",
+      "audio": [
+        "audio/words/cheese.wav"
+      ]
+    },
+    {
+      "id": "egg",
+      "english": "egg",
+      "translation": "яйцо",
+      "audio": [
+        "audio/words/egg.wav"
+      ]
+    },
+    {
+      "id": "meat",
+      "english": "meat",
+      "translation": "мясо",
+      "audio": [
+        "audio/words/meat.wav"
+      ]
+    },
+    {
+      "id": "chicken",
+      "english": "chicken",
+      "translation": "курица",
+      "audio": [
+        "audio/words/chicken.wav"
+      ]
+    },
+    {
+      "id": "fish",
+      "english": "fish",
+      "translation": "рыба",
+      "audio": [
+        "audio/words/fish.wav"
+      ]
+    },
+    {
+      "id": "rice",
+      "english": "rice",
+      "translation": "рис",
+      "audio": [
+        "audio/words/rice.wav"
+      ]
+    },
+    {
+      "id": "soup",
+      "english": "soup",
+      "translation": "суп",
+      "audio": [
+        "audio/words/soup.wav"
+      ]
+    },
+    {
+      "id": "vegetable",
+      "english": "vegetable",
+      "translation": "овощ",
+      "audio": [
+        "audio/words/vegetable.wav"
+      ]
+    },
+    {
+      "id": "potato",
+      "english": "potato",
+      "translation": "картофель",
+      "audio": [
+        "audio/words/potato.wav"
+      ]
+    },
+    {
+      "id": "tomato",
+      "english": "tomato",
+      "translation": "помидор",
+      "audio": [
+        "audio/words/tomato.wav"
+      ]
+    },
+    {
+      "id": "onion",
+      "english": "onion",
+      "translation": "лук",
+      "audio": [
+        "audio/words/onion.wav"
+      ]
+    },
+    {
+      "id": "fruit",
+      "english": "fruit",
+      "translation": "фрукты",
+      "audio": [
+        "audio/words/fruit.wav"
+      ]
+    },
+    {
+      "id": "apple",
+      "english": "apple",
+      "translation": "яблоко",
+      "audio": [
+        "audio/words/apple.wav"
+      ]
+    },
+    {
+      "id": "banana",
+      "english": "banana",
+      "translation": "банан",
+      "audio": [
+        "audio/words/banana.wav"
+      ]
+    },
+    {
+      "id": "orange",
+      "english": "orange",
+      "translation": "апельсин",
+      "audio": [
+        "audio/words/orange.wav"
+      ]
+    },
+    {
+      "id": "salt",
+      "english": "salt",
+      "translation": "соль",
+      "audio": [
+        "audio/words/salt.wav"
+      ]
+    },
+    {
+      "id": "sugar",
+      "english": "sugar",
+      "translation": "сахар",
+      "audio": [
+        "audio/words/sugar.wav"
+      ]
+    },
+    {
+      "id": "oil",
+      "english": "oil",
+      "translation": "масло",
+      "audio": [
+        "audio/words/oil.wav"
+      ]
+    },
+    {
+      "id": "sauce",
+      "english": "sauce",
+      "translation": "соус",
+      "audio": [
+        "audio/words/sauce.wav"
+      ]
+    },
+    {
+      "id": "cake",
+      "english": "cake",
+      "translation": "торт",
+      "audio": [
+        "audio/words/cake.wav"
+      ]
+    },
+    {
+      "id": "cookie",
+      "english": "cookie",
+      "translation": "печенье",
+      "audio": [
+        "audio/words/cookie.wav"
+      ]
+    },
+    {
+      "id": "chocolate",
+      "english": "chocolate",
+      "translation": "шоколад",
+      "audio": [
+        "audio/words/chocolate.wav"
+      ]
+    },
+    {
+      "id": "dessert",
+      "english": "dessert",
+      "translation": "десерт",
+      "audio": [
+        "audio/words/dessert.wav"
+      ]
+    },
+    {
+      "id": "water",
+      "english": "water",
+      "translation": "вода",
+      "audio": [
+        "audio/words/water.wav"
+      ]
+    },
+    {
+      "id": "tea",
+      "english": "tea",
+      "translation": "чай",
+      "audio": [
+        "audio/words/tea.wav"
+      ]
+    },
+    {
+      "id": "coffee",
+      "english": "coffee",
+      "translation": "кофе",
+      "audio": [
+        "audio/words/coffee.wav"
+      ]
+    },
+    {
+      "id": "milk",
+      "english": "milk",
+      "translation": "молоко",
+      "audio": [
+        "audio/words/milk.wav"
+      ]
+    },
+    {
+      "id": "juice",
+      "english": "juice",
+      "translation": "сок",
+      "audio": [
+        "audio/words/juice.wav"
+      ]
+    },
+    {
+      "id": "hungry",
+      "english": "hungry",
+      "translation": "голодный",
+      "audio": [
+        "audio/words/hungry.wav"
+      ]
+    },
+    {
+      "id": "full",
+      "english": "full",
+      "translation": "сытый",
+      "audio": [
+        "audio/words/full.wav"
+      ]
+    },
+    {
+      "id": "taste",
+      "english": "taste",
+      "translation": "вкус",
+      "audio": [
+        "audio/words/taste.wav"
+      ]
+    },
+    {
+      "id": "sweet",
+      "english": "sweet",
+      "translation": "сладкий",
+      "audio": [
+        "audio/words/sweet.wav"
+      ]
+    },
+    {
+      "id": "hot",
+      "english": "hot",
+      "translation": "горячий",
+      "audio": [
+        "audio/words/hot.wav"
+      ]
+    },
+    {
+      "id": "cold",
+      "english": "cold",
+      "translation": "холодный",
+      "audio": [
+        "audio/words/cold.wav"
+      ]
+    },
+    {
+      "id": "drink",
+      "english": "drink",
+      "translation": "пить",
+      "audio": [
+        "audio/words/drink.wav"
+      ]
+    },
+    {
+      "id": "pasta",
+      "english": "pasta",
+      "translation": "паста",
+      "audio": [
+        "audio/words/pasta.wav"
+      ]
+    }
+  ]
+}

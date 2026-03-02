@@ -1,0 +1,367 @@
+{
+  "theme": "Частые слова (расширенно)",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "this-approach-solves-the-problem-faster.",
+      "english": "This approach solves the problem faster.",
+      "translation": "Этот подход решает проблему быстрее.",
+      "audio": [
+        "audio/sentences/This approach solves the problem faster..wav"
+      ]
+    },
+    {
+      "id": "the-decision-had-a-big-impact-on-sales.",
+      "english": "The decision had a big impact on sales.",
+      "translation": "Решение оказало большое влияние на продажи.",
+      "audio": [
+        "audio/sentences/The decision had a big impact on sales..wav"
+      ]
+    },
+    {
+      "id": "always-consider-the-context-before-answering.",
+      "english": "Always consider the context before answering.",
+      "translation": "Всегда учитывай контекст перед ответом.",
+      "audio": [
+        "audio/sentences/Always consider the context before answering..wav"
+      ]
+    },
+    {
+      "id": "their-strategy-focuses-on-steady-growth.",
+      "english": "Their strategy focuses on steady growth.",
+      "translation": "Их стратегия направлена на устойчивый рост.",
+      "audio": [
+        "audio/sentences/Their strategy focuses on steady growth..wav"
+      ]
+    },
+    {
+      "id": "our-objective-is-to-improve-user-experience.",
+      "english": "Our objective is to improve user experience.",
+      "translation": "Наша цель — улучшить пользовательский опыт.",
+      "audio": [
+        "audio/sentences/Our objective is to improve user experience..wav"
+      ]
+    },
+    {
+      "id": "customer-satisfaction-is-our-top-priority.",
+      "english": "Customer satisfaction is our top priority.",
+      "translation": "Удовлетворённость клиентов — наш главный приоритет.",
+      "audio": [
+        "audio/sentences/Customer satisfaction is our top priority..wav"
+      ]
+    },
+    {
+      "id": "time-is-the-most-valuable-resource-here.",
+      "english": "Time is the most valuable resource here.",
+      "translation": "Время — самый ценный ресурс здесь.",
+      "audio": [
+        "audio/sentences/Time is the most valuable resource here..wav"
+      ]
+    },
+    {
+      "id": "every-project-has-at-least-one-constraint.",
+      "english": "Every project has at least one constraint.",
+      "translation": "У каждого проекта есть хотя бы одно ограничение.",
+      "audio": [
+        "audio/sentences/Every project has at least one constraint..wav"
+      ]
+    },
+    {
+      "id": "the-assumption-turned-out-to-be-wrong.",
+      "english": "The assumption turned out to be wrong.",
+      "translation": "Предположение оказалось неверным.",
+      "audio": [
+        "audio/sentences/The assumption turned out to be wrong..wav"
+      ]
+    },
+    {
+      "id": "they-presented-strong-evidence-in-court.",
+      "english": "They presented strong evidence in court.",
+      "translation": "Они представили веские доказательства в суде.",
+      "audio": [
+        "audio/sentences/They presented strong evidence in court..wav"
+      ]
+    },
+    {
+      "id": "the-analysis-revealed-several-key-issues.",
+      "english": "The analysis revealed several key issues.",
+      "translation": "Анализ выявил несколько ключевых проблем.",
+      "audio": [
+        "audio/sentences/The analysis revealed several key issues..wav"
+      ]
+    },
+    {
+      "id": "she-explained-the-problem-from-her-perspective.",
+      "english": "She explained the problem from her perspective.",
+      "translation": "Она объяснила проблему со своей точки зрения.",
+      "audio": [
+        "audio/sentences/She explained the problem from her perspective..wav"
+      ]
+    },
+    {
+      "id": "cost-was-a-major-factor-in-the-decision.",
+      "english": "Cost was a major factor in the decision.",
+      "translation": "Стоимость была главным фактором в решении.",
+      "audio": [
+        "audio/sentences/Cost was a major factor in the decision..wav"
+      ]
+    },
+    {
+      "id": "this-trend-is-visible-across-many-industries.",
+      "english": "This trend is visible across many industries.",
+      "translation": "Эта тенденция заметна во многих отраслях.",
+      "audio": [
+        "audio/sentences/This trend is visible across many industries..wav"
+      ]
+    },
+    {
+      "id": "researchers-noticed-a-repeating-pattern.",
+      "english": "Researchers noticed a repeating pattern.",
+      "translation": "Исследователи заметили повторяющуюся закономерность.",
+      "audio": [
+        "audio/sentences/Researchers noticed a repeating pattern..wav"
+      ]
+    },
+    {
+      "id": "they-prepared-for-the-worst-case-scenario.",
+      "english": "They prepared for the worst-case scenario.",
+      "translation": "Они подготовились к наихудшему сценарию.",
+      "audio": [
+        "audio/sentences/They prepared for the worst-case scenario..wav"
+      ]
+    },
+    {
+      "id": "each-stakeholder-approved-the-final-decision.",
+      "english": "Each stakeholder approved the final decision.",
+      "translation": "Каждая заинтересованная сторона одобрила итоговое решение.",
+      "audio": [
+        "audio/sentences/Each stakeholder approved the final decision..wav"
+      ]
+    },
+    {
+      "id": "alignment-between-teams-reduced-delays.",
+      "english": "Alignment between teams reduced delays.",
+      "translation": "Согласованность между командами сократила задержки.",
+      "audio": [
+        "audio/sentences/Alignment between teams reduced delays..wav"
+      ]
+    },
+    {
+      "id": "execution-failed-due-to-poor-coordination.",
+      "english": "Execution failed due to poor coordination.",
+      "translation": "Реализация провалилась из-за плохой координации.",
+      "audio": [
+        "audio/sentences/Execution failed due to poor coordination..wav"
+      ]
+    },
+    {
+      "id": "implementation-took-longer-than-expected.",
+      "english": "Implementation took longer than expected.",
+      "translation": "Внедрение заняло больше времени, чем ожидалось.",
+      "audio": [
+        "audio/sentences/Implementation took longer than expected..wav"
+      ]
+    },
+    {
+      "id": "optimization-helped-reduce-operating-costs.",
+      "english": "Optimization helped reduce operating costs.",
+      "translation": "Оптимизация помогла снизить операционные расходы.",
+      "audio": [
+        "audio/sentences/Optimization helped reduce operating costs..wav"
+      ]
+    },
+    {
+      "id": "efficiency-increased-after-workflow-changes.",
+      "english": "Efficiency increased after workflow changes.",
+      "translation": "Эффективность выросла после изменения процессов.",
+      "audio": [
+        "audio/sentences/Efficiency increased after workflow changes..wav"
+      ]
+    },
+    {
+      "id": "there-is-always-a-trade-off-between-speed-and-quality.",
+      "english": "There is always a trade-off between speed and quality.",
+      "translation": "Всегда существует компромисс между скоростью и качеством.",
+      "audio": [
+        "audio/sentences/There is always a trade-off between speed and quality..wav"
+      ]
+    },
+    {
+      "id": "budget-limitation-affected-the-project-scope.",
+      "english": "Budget limitation affected the project scope.",
+      "translation": "Бюджетное ограничение повлияло на масштаб проекта.",
+      "audio": [
+        "audio/sentences/Budget limitation affected the project scope..wav"
+      ]
+    },
+    {
+      "id": "the-release-was-delayed-due-to-a-dependency.",
+      "english": "The release was delayed due to a dependency.",
+      "translation": "Релиз был отложен из-за зависимости.",
+      "audio": [
+        "audio/sentences/The release was delayed due to a dependency..wav"
+      ]
+    },
+    {
+      "id": "complexity-increases-as-features-are-added.",
+      "english": "Complexity increases as features are added.",
+      "translation": "Сложность возрастает по мере добавления функций.",
+      "audio": [
+        "audio/sentences/Complexity increases as features are added..wav"
+      ]
+    },
+    {
+      "id": "uncertainty-affects-long-term-planning.",
+      "english": "Uncertainty affects long-term planning.",
+      "translation": "Неопределенность влияет на долгосрочное планирование.",
+      "audio": [
+        "audio/sentences/Uncertainty affects long-term planning..wav"
+      ]
+    },
+    {
+      "id": "every-investment-carries-some-risk.",
+      "english": "Every investment carries some risk.",
+      "translation": "Каждая инвестиция несёт определённый риск.",
+      "audio": [
+        "audio/sentences/Every investment carries some risk..wav"
+      ]
+    },
+    {
+      "id": "this-change-created-an-unexpected-opportunity.",
+      "english": "This change created an unexpected opportunity.",
+      "translation": "Это изменение создало неожиданную возможность.",
+      "audio": [
+        "audio/sentences/This change created an unexpected opportunity..wav"
+      ]
+    },
+    {
+      "id": "security-is-a-key-requirement-for-the-product.",
+      "english": "Security is a key requirement for the product.",
+      "translation": "Безопасность — ключевое требование к продукту.",
+      "audio": [
+        "audio/sentences/Security is a key requirement for the product..wav"
+      ]
+    },
+    {
+      "id": "the-evaluation-showed-mixed-results.",
+      "english": "The evaluation showed mixed results.",
+      "translation": "Оценка показала смешанные результаты.",
+      "audio": [
+        "audio/sentences/The evaluation showed mixed results..wav"
+      ]
+    },
+    {
+      "id": "assessment-takes-place-after-data-collection.",
+      "english": "Assessment takes place after data collection.",
+      "translation": "Оценивание проводится после сбора данных.",
+      "audio": [
+        "audio/sentences/Assessment takes place after data collection..wav"
+      ]
+    },
+    {
+      "id": "user-feedback-influenced-the-final-design.",
+      "english": "User feedback influenced the final design.",
+      "translation": "Обратная связь пользователей повлияла на финальный дизайн.",
+      "audio": [
+        "audio/sentences/User feedback influenced the final design..wav"
+      ]
+    },
+    {
+      "id": "a-quick-adjustment-solved-the-issue.",
+      "english": "A quick adjustment solved the issue.",
+      "translation": "Быстрая корректировка решила проблему.",
+      "audio": [
+        "audio/sentences/A quick adjustment solved the issue..wav"
+      ]
+    },
+    {
+      "id": "improvement-was-visible-after-one-month.",
+      "english": "Improvement was visible after one month.",
+      "translation": "Улучшение стало заметно через месяц.",
+      "audio": [
+        "audio/sentences/Improvement was visible after one month..wav"
+      ]
+    },
+    {
+      "id": "decision-making-slows-down-under-pressure.",
+      "english": "Decision-making slows down under pressure.",
+      "translation": "Принятие решений замедляется под давлением.",
+      "audio": [
+        "audio/sentences/Decision-making slows down under pressure..wav"
+      ]
+    },
+    {
+      "id": "responsibility-lies-with-the-team-lead.",
+      "english": "Responsibility lies with the team lead.",
+      "translation": "Ответственность лежит на руководителе команды.",
+      "audio": [
+        "audio/sentences/Responsibility lies with the team lead..wav"
+      ]
+    },
+    {
+      "id": "commitment-to-quality-remained-unchanged.",
+      "english": "Commitment to quality remained unchanged.",
+      "translation": "Приверженность качеству осталась неизменной.",
+      "audio": [
+        "audio/sentences/Commitment to quality remained unchanged..wav"
+      ]
+    },
+    {
+      "id": "accountability-improves-trust-within-teams.",
+      "english": "Accountability improves trust within teams.",
+      "translation": "Подотчётность повышает доверие внутри команд.",
+      "audio": [
+        "audio/sentences/Accountability improves trust within teams..wav"
+      ]
+    },
+    {
+      "id": "we-discussed-the-issue-during-the-meeting.",
+      "english": "We discussed the issue during the meeting.",
+      "translation": "Мы обсудили эту проблему на встрече.",
+      "audio": [
+        "audio/sentences/We discussed the issue during the meeting..wav"
+      ]
+    },
+    {
+      "id": "the-outcome-depends-on-careful-planning.",
+      "english": "The outcome depends on careful planning.",
+      "translation": "Результат зависит от тщательного планирования.",
+      "audio": [
+        "audio/sentences/The outcome depends on careful planning..wav"
+      ]
+    },
+    {
+      "id": "this-report-gives-useful-insight-into-behavior.",
+      "english": "This report gives useful insight into behavior.",
+      "translation": "Этот отчёт даёт полезное понимание поведения.",
+      "audio": [
+        "audio/sentences/This report gives useful insight into behavior..wav"
+      ]
+    },
+    {
+      "id": "the-framework-helps-organize-complex-ideas.",
+      "english": "The framework helps organize complex ideas.",
+      "translation": "Эта структура помогает упорядочить сложные идеи.",
+      "audio": [
+        "audio/sentences/The framework helps organize complex ideas..wav"
+      ]
+    },
+    {
+      "id": "scaling-the-system-became-a-real-challenge.",
+      "english": "Scaling the system became a real challenge.",
+      "translation": "Масштабирование системы стало настоящим вызовом.",
+      "audio": [
+        "audio/sentences/Scaling the system became a real challenge..wav"
+      ]
+    },
+    {
+      "id": "ownership-encourages-proactive-behavior.",
+      "english": "Ownership encourages proactive behavior.",
+      "translation": "Ответственность стимулирует проактивное поведение.",
+      "audio": [
+        "audio/sentences/Ownership encourages proactive behavior..wav"
+      ]
+    }
+  ]
+}

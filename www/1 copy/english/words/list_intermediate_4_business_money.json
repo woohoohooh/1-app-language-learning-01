@@ -1,0 +1,327 @@
+{
+  "theme": "Бизнес и деньги",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "business",
+      "english": "business",
+      "translation": "бизнес",
+      "audio": [
+        "audio/words/business.wav"
+      ]
+    },
+    {
+      "id": "company",
+      "english": "company",
+      "translation": "компания",
+      "audio": [
+        "audio/words/company.wav"
+      ]
+    },
+    {
+      "id": "firm",
+      "english": "firm",
+      "translation": "фирма",
+      "audio": [
+        "audio/words/firm.wav"
+      ]
+    },
+    {
+      "id": "enterprise",
+      "english": "enterprise",
+      "translation": "предприятие",
+      "audio": [
+        "audio/words/enterprise.wav"
+      ]
+    },
+    {
+      "id": "organization",
+      "english": "organization",
+      "translation": "организация",
+      "audio": [
+        "audio/words/organization.wav"
+      ]
+    },
+    {
+      "id": "market",
+      "english": "market",
+      "translation": "рынок",
+      "audio": [
+        "audio/words/market.wav"
+      ]
+    },
+    {
+      "id": "industry",
+      "english": "industry",
+      "translation": "отрасль",
+      "audio": [
+        "audio/words/industry.wav"
+      ]
+    },
+    {
+      "id": "competition",
+      "english": "competition",
+      "translation": "конкуренция",
+      "audio": [
+        "audio/words/competition.wav"
+      ]
+    },
+    {
+      "id": "competitor",
+      "english": "competitor",
+      "translation": "конкурент",
+      "audio": [
+        "audio/words/competitor.wav"
+      ]
+    },
+    {
+      "id": "demand",
+      "english": "demand",
+      "translation": "спрос",
+      "audio": [
+        "audio/words/demand.wav"
+      ]
+    },
+    {
+      "id": "supply",
+      "english": "supply",
+      "translation": "предложение",
+      "audio": [
+        "audio/words/supply.wav"
+      ]
+    },
+    {
+      "id": "customer",
+      "english": "customer",
+      "translation": "клиент",
+      "audio": [
+        "audio/words/customer.wav"
+      ]
+    },
+    {
+      "id": "client",
+      "english": "client",
+      "translation": "клиент",
+      "audio": [
+        "audio/words/client.wav"
+      ]
+    },
+    {
+      "id": "consumer",
+      "english": "consumer",
+      "translation": "потребитель",
+      "audio": [
+        "audio/words/consumer.wav"
+      ]
+    },
+    {
+      "id": "partner",
+      "english": "partner",
+      "translation": "партнёр",
+      "audio": [
+        "audio/words/partner.wav"
+      ]
+    },
+    {
+      "id": "product",
+      "english": "product",
+      "translation": "продукт",
+      "audio": [
+        "audio/words/product.wav"
+      ]
+    },
+    {
+      "id": "service",
+      "english": "service",
+      "translation": "услуга",
+      "audio": [
+        "audio/words/service.wav"
+      ]
+    },
+    {
+      "id": "value",
+      "english": "value",
+      "translation": "ценность",
+      "audio": [
+        "audio/words/value.wav"
+      ]
+    },
+    {
+      "id": "price",
+      "english": "price",
+      "translation": "цена",
+      "audio": [
+        "audio/words/price.wav"
+      ]
+    },
+    {
+      "id": "cost",
+      "english": "cost",
+      "translation": "затраты",
+      "audio": [
+        "audio/words/cost.wav"
+      ]
+    },
+    {
+      "id": "revenue",
+      "english": "revenue",
+      "translation": "выручка",
+      "audio": [
+        "audio/words/revenue.wav"
+      ]
+    },
+    {
+      "id": "profit",
+      "english": "profit",
+      "translation": "прибыль",
+      "audio": [
+        "audio/words/profit.wav"
+      ]
+    },
+    {
+      "id": "loss",
+      "english": "loss",
+      "translation": "убыток",
+      "audio": [
+        "audio/words/loss.wav"
+      ]
+    },
+    {
+      "id": "budget",
+      "english": "budget",
+      "translation": "бюджет",
+      "audio": [
+        "audio/words/budget.wav"
+      ]
+    },
+    {
+      "id": "expense",
+      "english": "expense",
+      "translation": "расход",
+      "audio": [
+        "audio/words/expense.wav"
+      ]
+    },
+    {
+      "id": "investment",
+      "english": "investment",
+      "translation": "инвестиция",
+      "audio": [
+        "audio/words/investment.wav"
+      ]
+    },
+    {
+      "id": "funding",
+      "english": "funding",
+      "translation": "финансирование",
+      "audio": [
+        "audio/words/funding.wav"
+      ]
+    },
+    {
+      "id": "capital",
+      "english": "capital",
+      "translation": "капитал",
+      "audio": [
+        "audio/words/capital.wav"
+      ]
+    },
+    {
+      "id": "cash-flow",
+      "english": "cash flow",
+      "translation": "денежный поток",
+      "audio": [
+        "audio/words/cash flow.wav"
+      ]
+    },
+    {
+      "id": "assets",
+      "english": "assets",
+      "translation": "активы",
+      "audio": [
+        "audio/words/assets.wav"
+      ]
+    },
+    {
+      "id": "deal",
+      "english": "deal",
+      "translation": "сделка",
+      "audio": [
+        "audio/words/deal.wav"
+      ]
+    },
+    {
+      "id": "contract",
+      "english": "contract",
+      "translation": "контракт",
+      "audio": [
+        "audio/words/contract.wav"
+      ]
+    },
+    {
+      "id": "agreement",
+      "english": "agreement",
+      "translation": "соглашение",
+      "audio": [
+        "audio/words/agreement.wav"
+      ]
+    },
+    {
+      "id": "terms",
+      "english": "terms",
+      "translation": "условия",
+      "audio": [
+        "audio/words/terms.wav"
+      ]
+    },
+    {
+      "id": "conditions",
+      "english": "conditions",
+      "translation": "условия",
+      "audio": [
+        "audio/words/conditions.wav"
+      ]
+    },
+    {
+      "id": "strategy",
+      "english": "strategy",
+      "translation": "стратегия",
+      "audio": [
+        "audio/words/strategy.wav"
+      ]
+    },
+    {
+      "id": "growth",
+      "english": "growth",
+      "translation": "рост",
+      "audio": [
+        "audio/words/growth.wav"
+      ]
+    },
+    {
+      "id": "performance",
+      "english": "performance",
+      "translation": "эффективность",
+      "audio": [
+        "audio/words/performance.wav"
+      ]
+    },
+    {
+      "id": "forecast",
+      "english": "forecast",
+      "translation": "прогноз",
+      "audio": [
+        "audio/words/forecast.wav"
+      ]
+    },
+    {
+      "id": "risk",
+      "english": "risk",
+      "translation": "риск",
+      "audio": [
+        "audio/words/risk.wav"
+      ]
+    }
+  ]
+}

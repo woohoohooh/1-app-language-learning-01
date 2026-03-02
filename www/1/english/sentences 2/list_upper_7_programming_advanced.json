@@ -1,0 +1,107 @@
+{
+  "theme": "Веб-разработка",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "software",
+      "english": "software",
+      "translation": "программное обеспечение"
+    },
+    {
+      "id": "application",
+      "english": "application",
+      "translation": "приложение"
+    },
+    {
+      "id": "codebase",
+      "english": "codebase",
+      "translation": "кодовая база"
+    },
+    {
+      "id": "repository",
+      "english": "repository",
+      "translation": "репозиторий"
+    },
+    {
+      "id": "commit",
+      "english": "commit",
+      "translation": "коммит"
+    },
+    {
+      "id": "branch",
+      "english": "branch",
+      "translation": "ветка"
+    },
+    {
+      "id": "merge",
+      "english": "merge",
+      "translation": "слияние"
+    },
+    {
+      "id": "pull-request",
+      "english": "pull request",
+      "translation": "пулл-реквест"
+    },
+    {
+      "id": "version-control",
+      "english": "version control",
+      "translation": "контроль версий"
+    },
+    {
+      "id": "deployment",
+      "english": "deployment",
+      "translation": "развёртывание"
+    },
+    {
+      "id": "build",
+      "english": "build",
+      "translation": "сборка"
+    },
+    {
+      "id": "release",
+      "english": "release",
+      "translation": "релиз"
+    },
+    {
+      "id": "pipeline",
+      "english": "pipeline",
+      "translation": "пайплайн"
+    },
+    {
+      "id": "automation",
+      "english": "automation",
+      "translation": "автоматизация"
+    },
+    {
+      "id": "integration",
+      "english": "integration",
+      "translation": "интеграция"
+    },
+    {
+      "id": "framework",
+      "english": "framework",
+      "translation": "фреймворк"
+    },
+    {
+      "id": "library",
+      "english": "library",
+      "translation": "библиотека"
+    },
+    {
+      "id": "dependency",
+      "english": "dependency",
+      "translation": "зависимость"
+    },
+    {
+      "id": "package",
+      "english": "package",
+      "translation": "пакет"
+    },
+    {
+      "id": "module",
+      "english": "module",
+      "translation": "модуль"
+    }
+  ]
+}

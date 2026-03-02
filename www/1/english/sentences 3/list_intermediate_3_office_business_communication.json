@@ -1,0 +1,187 @@
+{
+  "theme": "Офис и деловое общение",
+  "level": "Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "office",
+      "translation": "офис"
+    },
+    {
+      "english": "workplace",
+      "translation": "рабочее место"
+    },
+    {
+      "english": "department",
+      "translation": "отдел"
+    },
+    {
+      "english": "team",
+      "translation": "команда"
+    },
+    {
+      "english": "staff",
+      "translation": "персонал"
+    },
+    {
+      "english": "meeting",
+      "translation": "встреча"
+    },
+    {
+      "english": "appointment",
+      "translation": "назначенная встреча"
+    },
+    {
+      "english": "agenda",
+      "translation": "повестка"
+    },
+    {
+      "english": "minutes",
+      "translation": "протокол встречи"
+    },
+    {
+      "english": "discussion",
+      "translation": "обсуждение"
+    },
+    {
+      "english": "email",
+      "translation": "электронное письмо"
+    },
+    {
+      "english": "message",
+      "translation": "сообщение"
+    },
+    {
+      "english": "call",
+      "translation": "звонок"
+    },
+    {
+      "english": "conference",
+      "translation": "конференция"
+    },
+    {
+      "english": "video call",
+      "translation": "видеозвонок"
+    },
+    {
+      "english": "request",
+      "translation": "запрос"
+    },
+    {
+      "english": "response",
+      "translation": "ответ"
+    },
+    {
+      "english": "feedback",
+      "translation": "обратная связь"
+    },
+    {
+      "english": "approval",
+      "translation": "одобрение"
+    },
+    {
+      "english": "confirmation",
+      "translation": "подтверждение"
+    },
+    {
+      "english": "agreement",
+      "translation": "соглашение"
+    },
+    {
+      "english": "arrangement",
+      "translation": "договорённость"
+    },
+    {
+      "english": "negotiation",
+      "translation": "переговоры"
+    },
+    {
+      "english": "decision",
+      "translation": "решение"
+    },
+    {
+      "english": "approval",
+      "translation": "утверждение"
+    },
+    {
+      "english": "document",
+      "translation": "документ"
+    },
+    {
+      "english": "report",
+      "translation": "отчёт"
+    },
+    {
+      "english": "presentation",
+      "translation": "презентация"
+    },
+    {
+      "english": "spreadsheet",
+      "translation": "таблица"
+    },
+    {
+      "english": "file",
+      "translation": "файл"
+    },
+    {
+      "english": "policy",
+      "translation": "политика"
+    },
+    {
+      "english": "procedure",
+      "translation": "процедура"
+    },
+    {
+      "english": "guideline",
+      "translation": "инструкция"
+    },
+    {
+      "english": "requirement",
+      "translation": "требование"
+    },
+    {
+      "english": "compliance",
+      "translation": "соответствие правилам"
+    },
+    {
+      "english": "priority",
+      "translation": "приоритет"
+    },
+    {
+      "english": "update",
+      "translation": "обновление"
+    },
+    {
+      "english": "status",
+      "translation": "статус"
+    },
+    {
+      "english": "progress",
+      "translation": "ход выполнения"
+    },
+    {
+      "english": "issue",
+      "translation": "проблема"
+    },
+    {
+      "english": "formal",
+      "translation": "официальный"
+    },
+    {
+      "english": "informal",
+      "translation": "неофициальный"
+    },
+    {
+      "english": "professional",
+      "translation": "профессиональный"
+    },
+    {
+      "english": "internal",
+      "translation": "внутренний"
+    },
+    {
+      "english": "external",
+      "translation": "внешний"
+    }
+  ]
+}

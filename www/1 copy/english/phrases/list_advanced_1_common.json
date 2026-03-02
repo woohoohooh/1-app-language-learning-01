@@ -1,0 +1,407 @@
+{
+  "theme": "Частые слова (продвинуто)",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "basic-assumption",
+      "english": "basic assumption",
+      "translation": "базовое предположение",
+      "audio": [
+        "audio/phrases/basic assumption.wav"
+      ]
+    },
+    {
+      "id": "new-perspective",
+      "english": "new perspective",
+      "translation": "новая точка зрения",
+      "audio": [
+        "audio/phrases/new perspective.wav"
+      ]
+    },
+    {
+      "id": "in-context",
+      "english": "in context",
+      "translation": "в контексте",
+      "audio": [
+        "audio/phrases/in context.wav"
+      ]
+    },
+    {
+      "id": "hidden-implication",
+      "english": "hidden implication",
+      "translation": "скрытое следствие",
+      "audio": [
+        "audio/phrases/hidden implication.wav"
+      ]
+    },
+    {
+      "id": "personal-bias",
+      "english": "personal bias",
+      "translation": "личная предвзятость",
+      "audio": [
+        "audio/phrases/personal bias.wav"
+      ]
+    },
+    {
+      "id": "useful-insight",
+      "english": "useful insight",
+      "translation": "полезное понимание",
+      "audio": [
+        "audio/phrases/useful insight.wav"
+      ]
+    },
+    {
+      "id": "time-constraint",
+      "english": "time constraint",
+      "translation": "временное ограничение",
+      "audio": [
+        "audio/phrases/time constraint.wav"
+      ]
+    },
+    {
+      "id": "clear-trade-off",
+      "english": "clear trade-off",
+      "translation": "явный компромисс",
+      "audio": [
+        "audio/phrases/clear trade-off.wav"
+      ]
+    },
+    {
+      "id": "high-uncertainty",
+      "english": "high uncertainty",
+      "translation": "высокая неопределённость",
+      "audio": [
+        "audio/phrases/high uncertainty.wav"
+      ]
+    },
+    {
+      "id": "final-outcome",
+      "english": "final outcome",
+      "translation": "итоговый результат",
+      "audio": [
+        "audio/phrases/final outcome.wav"
+      ]
+    },
+    {
+      "id": "practical-approach",
+      "english": "practical approach",
+      "translation": "практичный подход",
+      "audio": [
+        "audio/phrases/practical approach.wav"
+      ]
+    },
+    {
+      "id": "clear-framework",
+      "english": "clear framework",
+      "translation": "чёткая структура",
+      "audio": [
+        "audio/phrases/clear framework.wav"
+      ]
+    },
+    {
+      "id": "long-term-strategy",
+      "english": "long-term strategy",
+      "translation": "долгосрочная стратегия",
+      "audio": [
+        "audio/phrases/long-term strategy.wav"
+      ]
+    },
+    {
+      "id": "strong-execution",
+      "english": "strong execution",
+      "translation": "качественная реализация",
+      "audio": [
+        "audio/phrases/strong execution.wav"
+      ]
+    },
+    {
+      "id": "team-alignment",
+      "english": "team alignment",
+      "translation": "согласованность команды",
+      "audio": [
+        "audio/phrases/team alignment.wav"
+      ]
+    },
+    {
+      "id": "top-priority",
+      "english": "top priority",
+      "translation": "главный приоритет",
+      "audio": [
+        "audio/phrases/top priority.wav"
+      ]
+    },
+    {
+      "id": "new-initiative",
+      "english": "new initiative",
+      "translation": "новая инициатива",
+      "audio": [
+        "audio/phrases/new initiative.wav"
+      ]
+    },
+    {
+      "id": "shared-accountability",
+      "english": "shared accountability",
+      "translation": "общая ответственность",
+      "audio": [
+        "audio/phrases/shared accountability.wav"
+      ]
+    },
+    {
+      "id": "take-ownership",
+      "english": "take ownership",
+      "translation": "взять ответственность",
+      "audio": [
+        "audio/phrases/take ownership.wav"
+      ]
+    },
+    {
+      "id": "key-stakeholder",
+      "english": "key stakeholder",
+      "translation": "ключевая заинтересованная сторона",
+      "audio": [
+        "audio/phrases/key stakeholder.wav"
+      ]
+    },
+    {
+      "id": "build-credibility",
+      "english": "build credibility",
+      "translation": "выстроить доверие",
+      "audio": [
+        "audio/phrases/build credibility.wav"
+      ]
+    },
+    {
+      "id": "full-transparency",
+      "english": "full transparency",
+      "translation": "полная прозрачность",
+      "audio": [
+        "audio/phrases/full transparency.wav"
+      ]
+    },
+    {
+      "id": "personal-integrity",
+      "english": "personal integrity",
+      "translation": "личная честность",
+      "audio": [
+        "audio/phrases/personal integrity.wav"
+      ]
+    },
+    {
+      "id": "maintain-consistency",
+      "english": "maintain consistency",
+      "translation": "сохранять последовательность",
+      "audio": [
+        "audio/phrases/maintain consistency.wav"
+      ]
+    },
+    {
+      "id": "system-reliability",
+      "english": "system reliability",
+      "translation": "надёжность системы",
+      "audio": [
+        "audio/phrases/system reliability.wav"
+      ]
+    },
+    {
+      "id": "improve-efficiency",
+      "english": "improve efficiency",
+      "translation": "повысить эффективность",
+      "audio": [
+        "audio/phrases/improve efficiency.wav"
+      ]
+    },
+    {
+      "id": "limited-scalability",
+      "english": "limited scalability",
+      "translation": "ограниченная масштабируемость",
+      "audio": [
+        "audio/phrases/limited scalability.wav"
+      ]
+    },
+    {
+      "id": "long-term-sustainability",
+      "english": "long-term sustainability",
+      "translation": "долгосрочная устойчивость",
+      "audio": [
+        "audio/phrases/long-term sustainability.wav"
+      ]
+    },
+    {
+      "id": "initial-evaluation",
+      "english": "initial evaluation",
+      "translation": "первичная оценка",
+      "audio": [
+        "audio/phrases/initial evaluation.wav"
+      ]
+    },
+    {
+      "id": "risk-assessment",
+      "english": "risk assessment",
+      "translation": "оценка рисков",
+      "audio": [
+        "audio/phrases/risk assessment.wav"
+      ]
+    },
+    {
+      "id": "honest-feedback",
+      "english": "honest feedback",
+      "translation": "честная обратная связь",
+      "audio": [
+        "audio/phrases/honest feedback.wav"
+      ]
+    },
+    {
+      "id": "next-iteration",
+      "english": "next iteration",
+      "translation": "следующая итерация",
+      "audio": [
+        "audio/phrases/next iteration.wav"
+      ]
+    },
+    {
+      "id": "design-refinement",
+      "english": "design refinement",
+      "translation": "доработка дизайна",
+      "audio": [
+        "audio/phrases/design refinement.wav"
+      ]
+    },
+    {
+      "id": "process-optimization",
+      "english": "process optimization",
+      "translation": "оптимизация процесса",
+      "audio": [
+        "audio/phrases/process optimization.wav"
+      ]
+    },
+    {
+      "id": "growing-trend",
+      "english": "growing trend",
+      "translation": "растущая тенденция",
+      "audio": [
+        "audio/phrases/growing trend.wav"
+      ]
+    },
+    {
+      "id": "clear-pattern",
+      "english": "clear pattern",
+      "translation": "чёткий шаблон",
+      "audio": [
+        "audio/phrases/clear pattern.wav"
+      ]
+    },
+    {
+      "id": "strong-signal",
+      "english": "strong signal",
+      "translation": "сильный сигнал",
+      "audio": [
+        "audio/phrases/strong signal.wav"
+      ]
+    },
+    {
+      "id": "background-noise",
+      "english": "background noise",
+      "translation": "фоновый информационный шум",
+      "audio": [
+        "audio/phrases/background noise.wav"
+      ]
+    },
+    {
+      "id": "insightful-comment",
+      "english": "insightful comment",
+      "translation": "проницательный комментарий",
+      "audio": [
+        "audio/phrases/insightful comment.wav"
+      ]
+    },
+    {
+      "id": "meaningful-change",
+      "english": "meaningful change",
+      "translation": "значимое изменение",
+      "audio": [
+        "audio/phrases/meaningful change.wav"
+      ]
+    },
+    {
+      "id": "system-complexity",
+      "english": "system complexity",
+      "translation": "сложность системы",
+      "audio": [
+        "audio/phrases/system complexity.wav"
+      ]
+    },
+    {
+      "id": "reduce-ambiguity",
+      "english": "reduce ambiguity",
+      "translation": "снизить двусмысленность",
+      "audio": [
+        "audio/phrases/reduce ambiguity.wav"
+      ]
+    },
+    {
+      "id": "need-clarity",
+      "english": "need clarity",
+      "translation": "нужна ясность",
+      "audio": [
+        "audio/phrases/need clarity.wav"
+      ]
+    },
+    {
+      "id": "logical-coherence",
+      "english": "logical coherence",
+      "translation": "логическая связность",
+      "audio": [
+        "audio/phrases/logical coherence.wav"
+      ]
+    },
+    {
+      "id": "topic-relevance",
+      "english": "topic relevance",
+      "translation": "актуальность темы",
+      "audio": [
+        "audio/phrases/topic relevance.wav"
+      ]
+    },
+    {
+      "id": "long-term-impact",
+      "english": "long-term impact",
+      "translation": "долгосрочное влияние",
+      "audio": [
+        "audio/phrases/long-term impact.wav"
+      ]
+    },
+    {
+      "id": "create-value",
+      "english": "create value",
+      "translation": "создавать ценность",
+      "audio": [
+        "audio/phrases/create value.wav"
+      ]
+    },
+    {
+      "id": "clear-benefit",
+      "english": "clear benefit",
+      "translation": "очевидная выгода",
+      "audio": [
+        "audio/phrases/clear benefit.wav"
+      ]
+    },
+    {
+      "id": "high-risk",
+      "english": "high risk",
+      "translation": "высокий риск",
+      "audio": [
+        "audio/phrases/high risk.wav"
+      ]
+    },
+    {
+      "id": "new-opportunity",
+      "english": "new opportunity",
+      "translation": "новая возможность",
+      "audio": [
+        "audio/phrases/new opportunity.wav"
+      ]
+    }
+  ]
+}

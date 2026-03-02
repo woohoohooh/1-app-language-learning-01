@@ -1,0 +1,147 @@
+{
+  "theme": "Социальные сети",
+  "level": "Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "social media",
+      "translation": "социальные сети"
+    },
+    {
+      "english": "platform",
+      "translation": "платформа"
+    },
+    {
+      "english": "profile",
+      "translation": "профиль"
+    },
+    {
+      "english": "account",
+      "translation": "аккаунт"
+    },
+    {
+      "english": "username",
+      "translation": "имя пользователя"
+    },
+    {
+      "english": "story",
+      "translation": "история"
+    },
+    {
+      "english": "feed",
+      "translation": "лента"
+    },
+    {
+      "english": "content",
+      "translation": "контент"
+    },
+    {
+      "english": "upload",
+      "translation": "загружать"
+    },
+    {
+      "english": "comment",
+      "translation": "комментарий"
+    },
+    {
+      "english": "reply",
+      "translation": "ответ"
+    },
+    {
+      "english": "message",
+      "translation": "сообщение"
+    },
+    {
+      "english": "chat",
+      "translation": "чат"
+    },
+    {
+      "english": "notification",
+      "translation": "уведомление"
+    },
+    {
+      "english": "like",
+      "translation": "лайк"
+    },
+    {
+      "english": "reaction",
+      "translation": "реакция"
+    },
+    {
+      "english": "post",
+      "translation": "пост"
+    },
+    {
+      "english": "share",
+      "translation": "делиться"
+    },
+    {
+      "english": "report",
+      "translation": "жалоба"
+    },
+    {
+      "english": "repost",
+      "translation": "репост"
+    },
+    {
+      "english": "save",
+      "translation": "сохранять"
+    },
+    {
+      "english": "follower",
+      "translation": "подписчик"
+    },
+    {
+      "english": "following",
+      "translation": "подписки"
+    },
+    {
+      "english": "subscribe",
+      "translation": "подписываться"
+    },
+    {
+      "english": "unsubscribe",
+      "translation": "отписываться"
+    },
+    {
+      "english": "block",
+      "translation": "блокировать"
+    },
+    {
+      "english": "online",
+      "translation": "в сети"
+    },
+    {
+      "english": "offline",
+      "translation": "не в сети"
+    },
+    {
+      "english": "status",
+      "translation": "статус"
+    },
+    {
+      "english": "privacy",
+      "translation": "приватность"
+    },
+    {
+      "english": "settings",
+      "translation": "настройки"
+    },
+    {
+      "english": "trend",
+      "translation": "тренд"
+    },
+    {
+      "english": "viral",
+      "translation": "вирусный"
+    },
+    {
+      "english": "community",
+      "translation": "сообщество"
+    },
+    {
+      "english": "moderation",
+      "translation": "модерация"
+    }
+  ]
+}

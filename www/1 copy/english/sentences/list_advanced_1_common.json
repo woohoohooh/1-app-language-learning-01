@@ -1,0 +1,407 @@
+{
+  "theme": "Частые слова (продвинуто)",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "this-assumption-may-be-wrong.",
+      "english": "This assumption may be wrong.",
+      "translation": "Это предположение может быть неверным.",
+      "audio": [
+        "audio/sentences/This assumption may be wrong..wav"
+      ]
+    },
+    {
+      "id": "try-to-see-it-from-another-perspective.",
+      "english": "Try to see it from another perspective.",
+      "translation": "Попробуй посмотреть на это с другой точки зрения.",
+      "audio": [
+        "audio/sentences/Try to see it from another perspective..wav"
+      ]
+    },
+    {
+      "id": "the-word-changes-meaning-in-this-context.",
+      "english": "The word changes meaning in this context.",
+      "translation": "Слово меняет значение в этом контексте.",
+      "audio": [
+        "audio/sentences/The word changes meaning in this context..wav"
+      ]
+    },
+    {
+      "id": "he-explained-the-implication-of-the-decision.",
+      "english": "He explained the implication of the decision.",
+      "translation": "Он объяснил следствие этого решения.",
+      "audio": [
+        "audio/sentences/He explained the implication of the decision..wav"
+      ]
+    },
+    {
+      "id": "bias-can-affect-judgment.",
+      "english": "Bias can affect judgment.",
+      "translation": "Предвзятость может влиять на суждение.",
+      "audio": [
+        "audio/sentences/Bias can affect judgment..wav"
+      ]
+    },
+    {
+      "id": "the-report-offers-valuable-insight.",
+      "english": "The report offers valuable insight.",
+      "translation": "Отчёт даёт ценное понимание.",
+      "audio": [
+        "audio/sentences/The report offers valuable insight..wav"
+      ]
+    },
+    {
+      "id": "budget-is-the-main-constraint.",
+      "english": "Budget is the main constraint.",
+      "translation": "Бюджет — главное ограничение.",
+      "audio": [
+        "audio/sentences/Budget is the main constraint..wav"
+      ]
+    },
+    {
+      "id": "there-is-always-a-trade-off-involved.",
+      "english": "There is always a trade-off involved.",
+      "translation": "Здесь всегда есть определённый компромисс.",
+      "audio": [
+        "audio/sentences/There is always a trade-off involved..wav"
+      ]
+    },
+    {
+      "id": "uncertainty-makes-planning-difficult.",
+      "english": "Uncertainty makes planning difficult.",
+      "translation": "Неопределённость усложняет планирование.",
+      "audio": [
+        "audio/sentences/Uncertainty makes planning difficult..wav"
+      ]
+    },
+    {
+      "id": "the-outcome-depends-on-many-choices.",
+      "english": "The outcome depends on many choices.",
+      "translation": "Результат зависит от многих решений.",
+      "audio": [
+        "audio/sentences/The outcome depends on many choices..wav"
+      ]
+    },
+    {
+      "id": "this-approach-works-in-most-cases.",
+      "english": "This approach works in most cases.",
+      "translation": "Этот подход работает в большинстве случаев.",
+      "audio": [
+        "audio/sentences/This approach works in most cases..wav"
+      ]
+    },
+    {
+      "id": "we-use-a-simple-framework-for-planning.",
+      "english": "We use a simple framework for planning.",
+      "translation": "Мы используем структуру для планирования.",
+      "audio": [
+        "audio/sentences/We use a simple framework for planning..wav"
+      ]
+    },
+    {
+      "id": "their-strategy-focuses-on-growth.",
+      "english": "Their strategy focuses on growth.",
+      "translation": "Их стратегия сосредоточена на росте.",
+      "audio": [
+        "audio/sentences/Their strategy focuses on growth..wav"
+      ]
+    },
+    {
+      "id": "good-execution-decides-the-result.",
+      "english": "Good execution decides the result.",
+      "translation": "Хорошая реализация определяет результат.",
+      "audio": [
+        "audio/sentences/Good execution decides the result..wav"
+      ]
+    },
+    {
+      "id": "alignment-keeps-everyone-moving-together.",
+      "english": "Alignment keeps everyone moving together.",
+      "translation": "Согласованность помогает всем двигаться вместе.",
+      "audio": [
+        "audio/sentences/Alignment keeps everyone moving together..wav"
+      ]
+    },
+    {
+      "id": "safety-is-our-first-priority.",
+      "english": "Safety is our first priority.",
+      "translation": "Безопасность — наш первый приоритет.",
+      "audio": [
+        "audio/sentences/Safety is our first priority..wav"
+      ]
+    },
+    {
+      "id": "she-launched-an-initiative-at-work.",
+      "english": "She launched an initiative at work.",
+      "translation": "Она запустила инициативу на работе.",
+      "audio": [
+        "audio/sentences/She launched an initiative at work..wav"
+      ]
+    },
+    {
+      "id": "accountability-builds-trust-in-teams.",
+      "english": "Accountability builds trust in teams.",
+      "translation": "Ответственность укрепляет доверие в командах.",
+      "audio": [
+        "audio/sentences/Accountability builds trust in teams..wav"
+      ]
+    },
+    {
+      "id": "he-took-ownership-of-the-problem.",
+      "english": "He took ownership of the problem.",
+      "translation": "Он взял ответственность за проблему.",
+      "audio": [
+        "audio/sentences/He took ownership of the problem..wav"
+      ]
+    },
+    {
+      "id": "each-stakeholder-has-different-goals.",
+      "english": "Each stakeholder has different goals.",
+      "translation": "У каждой заинтересованной стороны свои цели.",
+      "audio": [
+        "audio/sentences/Each stakeholder has different goals..wav"
+      ]
+    },
+    {
+      "id": "credibility-takes-time-to-develop.",
+      "english": "Credibility takes time to develop.",
+      "translation": "Доверие формируется со временем.",
+      "audio": [
+        "audio/sentences/Credibility takes time to develop..wav"
+      ]
+    },
+    {
+      "id": "transparency-improves-communication.",
+      "english": "Transparency improves communication.",
+      "translation": "Прозрачность улучшает коммуникацию.",
+      "audio": [
+        "audio/sentences/Transparency improves communication..wav"
+      ]
+    },
+    {
+      "id": "integrity-matters-in-leadership.",
+      "english": "Integrity matters in leadership.",
+      "translation": "Честность важна в лидерстве.",
+      "audio": [
+        "audio/sentences/Integrity matters in leadership..wav"
+      ]
+    },
+    {
+      "id": "consistency-helps-people-trust-systems.",
+      "english": "Consistency helps people trust systems.",
+      "translation": "Последовательность помогает людям доверять системам.",
+      "audio": [
+        "audio/sentences/Consistency helps people trust systems..wav"
+      ]
+    },
+    {
+      "id": "reliability-is-critical-for-users.",
+      "english": "Reliability is critical for users.",
+      "translation": "Надёжность критически важна для пользователей.",
+      "audio": [
+        "audio/sentences/Reliability is critical for users..wav"
+      ]
+    },
+    {
+      "id": "efficiency-saves-both-time-and-effort.",
+      "english": "Efficiency saves both time and effort.",
+      "translation": "Эффективность экономит время и усилия.",
+      "audio": [
+        "audio/sentences/Efficiency saves both time and effort..wav"
+      ]
+    },
+    {
+      "id": "scalability-becomes-important-as-demand-grows.",
+      "english": "Scalability becomes important as demand grows.",
+      "translation": "Масштабируемость становится важной при росте спроса.",
+      "audio": [
+        "audio/sentences/Scalability becomes important as demand grows..wav"
+      ]
+    },
+    {
+      "id": "sustainability-requires-careful-planning.",
+      "english": "Sustainability requires careful planning.",
+      "translation": "Устойчивость требует тщательного планирования.",
+      "audio": [
+        "audio/sentences/Sustainability requires careful planning..wav"
+      ]
+    },
+    {
+      "id": "the-evaluation-took-several-days.",
+      "english": "The evaluation took several days.",
+      "translation": "Оценка заняла несколько дней.",
+      "audio": [
+        "audio/sentences/The evaluation took several days..wav"
+      ]
+    },
+    {
+      "id": "they-completed-an-assessment-of-the-plan.",
+      "english": "They completed an assessment of the plan.",
+      "translation": "Они завершили оценку плана.",
+      "audio": [
+        "audio/sentences/They completed an assessment of the plan..wav"
+      ]
+    },
+    {
+      "id": "feedback-helps-teams-grow-faster.",
+      "english": "Feedback helps teams grow faster.",
+      "translation": "Обратная связь помогает командам расти быстрее.",
+      "audio": [
+        "audio/sentences/Feedback helps teams grow faster..wav"
+      ]
+    },
+    {
+      "id": "each-iteration-improves-the-product.",
+      "english": "Each iteration improves the product.",
+      "translation": "Каждая итерация улучшает продукт.",
+      "audio": [
+        "audio/sentences/Each iteration improves the product..wav"
+      ]
+    },
+    {
+      "id": "refinement-continues-after-testing.",
+      "english": "Refinement continues after testing.",
+      "translation": "Доработка продолжается после тестирования.",
+      "audio": [
+        "audio/sentences/Refinement continues after testing..wav"
+      ]
+    },
+    {
+      "id": "optimization-reduced-overall-costs.",
+      "english": "Optimization reduced overall costs.",
+      "translation": "Оптимизация снизила общие затраты.",
+      "audio": [
+        "audio/sentences/Optimization reduced overall costs..wav"
+      ]
+    },
+    {
+      "id": "this-trend-affects-many-industries.",
+      "english": "This trend affects many industries.",
+      "translation": "Эта тенденция влияет на многие отрасли.",
+      "audio": [
+        "audio/sentences/This trend affects many industries..wav"
+      ]
+    },
+    {
+      "id": "a-pattern-emerged-over-time.",
+      "english": "A pattern emerged over time.",
+      "translation": "Со временем проявился шаблон.",
+      "audio": [
+        "audio/sentences/A pattern emerged over time..wav"
+      ]
+    },
+    {
+      "id": "this-signal-indicates-a-problem.",
+      "english": "This signal indicates a problem.",
+      "translation": "Этот сигнал указывает на проблему.",
+      "audio": [
+        "audio/sentences/This signal indicates a problem..wav"
+      ]
+    },
+    {
+      "id": "noise-can-hide-useful-data.",
+      "english": "Noise can hide useful data.",
+      "translation": "Информационный шум может скрывать полезные данные.",
+      "audio": [
+        "audio/sentences/Noise can hide useful data..wav"
+      ]
+    },
+    {
+      "id": "she-gave-an-insightful-response.",
+      "english": "She gave an insightful response.",
+      "translation": "Она дала проницательный ответ.",
+      "audio": [
+        "audio/sentences/She gave an insightful response..wav"
+      ]
+    },
+    {
+      "id": "the-discussion-led-to-meaningful-results.",
+      "english": "The discussion led to meaningful results.",
+      "translation": "Обсуждение привело к значимым результатам.",
+      "audio": [
+        "audio/sentences/The discussion led to meaningful results..wav"
+      ]
+    },
+    {
+      "id": "complexity-increases-as-projects-grow.",
+      "english": "Complexity increases as projects grow.",
+      "translation": "Сложность растёт по мере увеличения проектов.",
+      "audio": [
+        "audio/sentences/Complexity increases as projects grow..wav"
+      ]
+    },
+    {
+      "id": "ambiguity-can-slow-decision-making.",
+      "english": "Ambiguity can slow decision making.",
+      "translation": "Двусмысленность может замедлять принятие решений.",
+      "audio": [
+        "audio/sentences/Ambiguity can slow decision making..wav"
+      ]
+    },
+    {
+      "id": "clarity-helps-everyone-understand-goals.",
+      "english": "Clarity helps everyone understand goals.",
+      "translation": "Ясность помогает всем понимать цели.",
+      "audio": [
+        "audio/sentences/Clarity helps everyone understand goals..wav"
+      ]
+    },
+    {
+      "id": "coherence-makes-ideas-easier-to-follow.",
+      "english": "Coherence makes ideas easier to follow.",
+      "translation": "Связность облегчает восприятие идей.",
+      "audio": [
+        "audio/sentences/Coherence makes ideas easier to follow..wav"
+      ]
+    },
+    {
+      "id": "relevance-depends-on-the-audience.",
+      "english": "Relevance depends on the audience.",
+      "translation": "Актуальность зависит от аудитории.",
+      "audio": [
+        "audio/sentences/Relevance depends on the audience..wav"
+      ]
+    },
+    {
+      "id": "the-change-had-a-strong-impact.",
+      "english": "The change had a strong impact.",
+      "translation": "Изменение оказало сильное влияние.",
+      "audio": [
+        "audio/sentences/The change had a strong impact..wav"
+      ]
+    },
+    {
+      "id": "this-feature-adds-real-value.",
+      "english": "This feature adds real value.",
+      "translation": "Эта функция добавляет реальную ценность.",
+      "audio": [
+        "audio/sentences/This feature adds real value..wav"
+      ]
+    },
+    {
+      "id": "the-main-benefit-is-simplicity.",
+      "english": "The main benefit is simplicity.",
+      "translation": "Главная выгода — простота.",
+      "audio": [
+        "audio/sentences/The main benefit is simplicity..wav"
+      ]
+    },
+    {
+      "id": "every-decision-involves-some-risk.",
+      "english": "Every decision involves some risk.",
+      "translation": "Каждое решение связано с определённым риском.",
+      "audio": [
+        "audio/sentences/Every decision involves some risk..wav"
+      ]
+    },
+    {
+      "id": "this-creates-an-opportunity-for-growth.",
+      "english": "This creates an opportunity for growth.",
+      "translation": "Это создаёт возможность для роста.",
+      "audio": [
+        "audio/sentences/This creates an opportunity for growth..wav"
+      ]
+    }
+  ]
+}

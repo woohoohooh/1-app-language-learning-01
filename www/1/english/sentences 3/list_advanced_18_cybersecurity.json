@@ -1,0 +1,187 @@
+{
+  "theme": "Цифровая безопасность",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "security",
+      "translation": "безопасность"
+    },
+    {
+      "english": "cybersecurity",
+      "translation": "кибербезопасность"
+    },
+    {
+      "english": "privacy",
+      "translation": "конфиденциальность"
+    },
+    {
+      "english": "protection",
+      "translation": "защита"
+    },
+    {
+      "english": "threat",
+      "translation": "угроза"
+    },
+    {
+      "english": "attack",
+      "translation": "атака"
+    },
+    {
+      "english": "breach",
+      "translation": "утечка"
+    },
+    {
+      "english": "vulnerability",
+      "translation": "уязвимость"
+    },
+    {
+      "english": "risk",
+      "translation": "риск"
+    },
+    {
+      "english": "incident",
+      "translation": "инцидент"
+    },
+    {
+      "english": "malware",
+      "translation": "вредоносное ПО"
+    },
+    {
+      "english": "virus",
+      "translation": "вирус"
+    },
+    {
+      "english": "ransomware",
+      "translation": "вымогательское ПО"
+    },
+    {
+      "english": "spyware",
+      "translation": "шпионское ПО"
+    },
+    {
+      "english": "trojan",
+      "translation": "троян"
+    },
+    {
+      "english": "phishing",
+      "translation": "фишинг"
+    },
+    {
+      "english": "scam",
+      "translation": "мошенничество"
+    },
+    {
+      "english": "fraud",
+      "translation": "мошенничество"
+    },
+    {
+      "english": "spoofing",
+      "translation": "подмена"
+    },
+    {
+      "english": "social engineering",
+      "translation": "социальная инженерия"
+    },
+    {
+      "english": "authentication",
+      "translation": "аутентификация"
+    },
+    {
+      "english": "authorization",
+      "translation": "авторизация"
+    },
+    {
+      "english": "password",
+      "translation": "пароль"
+    },
+    {
+      "english": "credentials",
+      "translation": "учётные данные"
+    },
+    {
+      "english": "access",
+      "translation": "доступ"
+    },
+    {
+      "english": "encryption",
+      "translation": "шифрование"
+    },
+    {
+      "english": "decryption",
+      "translation": "расшифровка"
+    },
+    {
+      "english": "key",
+      "translation": "ключ"
+    },
+    {
+      "english": "certificate",
+      "translation": "сертификат"
+    },
+    {
+      "english": "hash",
+      "translation": "хэш"
+    },
+    {
+      "english": "firewall",
+      "translation": "межсетевой экран"
+    },
+    {
+      "english": "antivirus",
+      "translation": "антивирус"
+    },
+    {
+      "english": "VPN",
+      "translation": "VPN"
+    },
+    {
+      "english": "network",
+      "translation": "сеть"
+    },
+    {
+      "english": "endpoint",
+      "translation": "конечное устройство"
+    },
+    {
+      "english": "monitoring",
+      "translation": "мониторинг"
+    },
+    {
+      "english": "logging",
+      "translation": "журналирование"
+    },
+    {
+      "english": "detection",
+      "translation": "обнаружение"
+    },
+    {
+      "english": "response",
+      "translation": "реагирование"
+    },
+    {
+      "english": "mitigation",
+      "translation": "снижение риска"
+    },
+    {
+      "english": "backup",
+      "translation": "резервная копия"
+    },
+    {
+      "english": "recovery",
+      "translation": "восстановление"
+    },
+    {
+      "english": "compliance",
+      "translation": "соответствие требованиям"
+    },
+    {
+      "english": "policy",
+      "translation": "политика"
+    },
+    {
+      "english": "regulation",
+      "translation": "регулирование"
+    }
+  ]
+}

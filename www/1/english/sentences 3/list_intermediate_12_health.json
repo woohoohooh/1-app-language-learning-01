@@ -1,0 +1,167 @@
+{
+  "theme": "Здоровье и медицина",
+  "level": "Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "healthcare",
+      "translation": "здравоохранение"
+    },
+    {
+      "english": "medical",
+      "translation": "медицинский"
+    },
+    {
+      "english": "condition",
+      "translation": "состояние"
+    },
+    {
+      "english": "symptom",
+      "translation": "симптом"
+    },
+    {
+      "english": "diagnosis",
+      "translation": "диагноз"
+    },
+    {
+      "english": "treatment",
+      "translation": "лечение"
+    },
+    {
+      "english": "therapy",
+      "translation": "терапия"
+    },
+    {
+      "english": "recovery",
+      "translation": "восстановление"
+    },
+    {
+      "english": "prevention",
+      "translation": "профилактика"
+    },
+    {
+      "english": "checkup",
+      "translation": "осмотр"
+    },
+    {
+      "english": "appointment",
+      "translation": "приём"
+    },
+    {
+      "english": "consultation",
+      "translation": "консультация"
+    },
+    {
+      "english": "specialist",
+      "translation": "специалист"
+    },
+    {
+      "english": "prescription",
+      "translation": "рецепт"
+    },
+    {
+      "english": "referral",
+      "translation": "направление"
+    },
+    {
+      "english": "medicine",
+      "translation": "лекарство"
+    },
+    {
+      "english": "medication",
+      "translation": "медикаменты"
+    },
+    {
+      "english": "dosage",
+      "translation": "дозировка"
+    },
+    {
+      "english": "side effect",
+      "translation": "побочный эффект"
+    },
+    {
+      "english": "allergy",
+      "translation": "аллергия"
+    },
+    {
+      "english": "infection",
+      "translation": "инфекция"
+    },
+    {
+      "english": "inflammation",
+      "translation": "воспаление"
+    },
+    {
+      "english": "chronic",
+      "translation": "хронический"
+    },
+    {
+      "english": "acute",
+      "translation": "острый"
+    },
+    {
+      "english": "injury",
+      "translation": "травма"
+    },
+    {
+      "english": "emergency",
+      "translation": "экстренная ситуация"
+    },
+    {
+      "english": "ambulance",
+      "translation": "скорая помощь"
+    },
+    {
+      "english": "hospitalization",
+      "translation": "госпитализация"
+    },
+    {
+      "english": "surgery",
+      "translation": "операция"
+    },
+    {
+      "english": "procedure",
+      "translation": "медицинская процедура"
+    },
+    {
+      "english": "insurance",
+      "translation": "страховка"
+    },
+    {
+      "english": "coverage",
+      "translation": "страховое покрытие"
+    },
+    {
+      "english": "claim",
+      "translation": "страховое заявление"
+    },
+    {
+      "english": "policy",
+      "translation": "страховой полис"
+    },
+    {
+      "english": "provider",
+      "translation": "поставщик услуг"
+    },
+    {
+      "english": "mental health",
+      "translation": "психическое здоровье"
+    },
+    {
+      "english": "stress",
+      "translation": "стресс"
+    },
+    {
+      "english": "anxiety",
+      "translation": "тревожность"
+    },
+    {
+      "english": "fatigue",
+      "translation": "усталость"
+    },
+    {
+      "english": "well-being",
+      "translation": "общее самочувствие"
+    }
+  ]
+}

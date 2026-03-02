@@ -1,0 +1,207 @@
+{
+  "theme": "Частые слова (продвинуто)",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "assumption",
+      "translation": "предположение"
+    },
+    {
+      "english": "perspective",
+      "translation": "точка зрения"
+    },
+    {
+      "english": "context",
+      "translation": "контекст"
+    },
+    {
+      "english": "implication",
+      "translation": "следствие"
+    },
+    {
+      "english": "bias",
+      "translation": "предвзятость"
+    },
+    {
+      "english": "insight",
+      "translation": "понимание"
+    },
+    {
+      "english": "constraint",
+      "translation": "ограничение"
+    },
+    {
+      "english": "trade-off",
+      "translation": "компромисс"
+    },
+    {
+      "english": "uncertainty",
+      "translation": "неопределённость"
+    },
+    {
+      "english": "outcome",
+      "translation": "результат"
+    },
+    {
+      "english": "approach",
+      "translation": "подход"
+    },
+    {
+      "english": "framework",
+      "translation": "структура"
+    },
+    {
+      "english": "strategy",
+      "translation": "стратегия"
+    },
+    {
+      "english": "execution",
+      "translation": "реализация"
+    },
+    {
+      "english": "alignment",
+      "translation": "согласованность"
+    },
+    {
+      "english": "priority",
+      "translation": "приоритет"
+    },
+    {
+      "english": "initiative",
+      "translation": "инициатива"
+    },
+    {
+      "english": "accountability",
+      "translation": "ответственность"
+    },
+    {
+      "english": "ownership",
+      "translation": "ответственность"
+    },
+    {
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона"
+    },
+    {
+      "english": "credibility",
+      "translation": "доверие"
+    },
+    {
+      "english": "transparency",
+      "translation": "прозрачность"
+    },
+    {
+      "english": "integrity",
+      "translation": "честность"
+    },
+    {
+      "english": "consistency",
+      "translation": "последовательность"
+    },
+    {
+      "english": "reliability",
+      "translation": "надёжность"
+    },
+    {
+      "english": "efficiency",
+      "translation": "эффективность"
+    },
+    {
+      "english": "scalability",
+      "translation": "масштабируемость"
+    },
+    {
+      "english": "sustainability",
+      "translation": "устойчивость"
+    },
+    {
+      "english": "evaluation",
+      "translation": "оценка"
+    },
+    {
+      "english": "assessment",
+      "translation": "оценка"
+    },
+    {
+      "english": "feedback",
+      "translation": "обратная связь"
+    },
+    {
+      "english": "iteration",
+      "translation": "итерация"
+    },
+    {
+      "english": "refinement",
+      "translation": "доработка"
+    },
+    {
+      "english": "optimization",
+      "translation": "оптимизация"
+    },
+    {
+      "english": "trend",
+      "translation": "тенденция"
+    },
+    {
+      "english": "pattern",
+      "translation": "шаблон"
+    },
+    {
+      "english": "signal",
+      "translation": "сигнал"
+    },
+    {
+      "english": "noise",
+      "translation": "информационный шум"
+    },
+    {
+      "english": "insightful",
+      "translation": "проницательный"
+    },
+    {
+      "english": "meaningful",
+      "translation": "значимый"
+    },
+    {
+      "english": "complexity",
+      "translation": "сложность"
+    },
+    {
+      "english": "ambiguity",
+      "translation": "двусмысленность"
+    },
+    {
+      "english": "clarity",
+      "translation": "ясность"
+    },
+    {
+      "english": "coherence",
+      "translation": "связность"
+    },
+    {
+      "english": "relevance",
+      "translation": "актуальность"
+    },
+    {
+      "english": "impact",
+      "translation": "влияние"
+    },
+    {
+      "english": "value",
+      "translation": "ценность"
+    },
+    {
+      "english": "benefit",
+      "translation": "выгода"
+    },
+    {
+      "english": "risk",
+      "translation": "риск"
+    },
+    {
+      "english": "opportunity",
+      "translation": "возможность"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "theme": "Вежливость и дистанция",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "politeness",
+      "translation": "вежливость"
+    },
+    {
+      "english": "courtesy",
+      "translation": "учтивость"
+    },
+    {
+      "english": "respect",
+      "translation": "уважение"
+    },
+    {
+      "english": "formality",
+      "translation": "формальность"
+    },
+    {
+      "english": "informality",
+      "translation": "неформальность"
+    },
+    {
+      "english": "distance",
+      "translation": "дистанция"
+    },
+    {
+      "english": "boundary",
+      "translation": "граница"
+    },
+    {
+      "english": "professionalism",
+      "translation": "профессионализм"
+    },
+    {
+      "english": "neutrality",
+      "translation": "нейтральность"
+    },
+    {
+      "english": "objectivity",
+      "translation": "объективность"
+    },
+    {
+      "english": "tone",
+      "translation": "тон"
+    },
+    {
+      "english": "manner",
+      "translation": "манера"
+    },
+    {
+      "english": "attitude",
+      "translation": "отношение"
+    },
+    {
+      "english": "approach",
+      "translation": "подход"
+    },
+    {
+      "english": "consideration",
+      "translation": "тактичность"
+    },
+    {
+      "english": "tact",
+      "translation": "такт"
+    },
+    {
+      "english": "diplomacy",
+      "translation": "дипломатичность"
+    },
+    {
+      "english": "restraint",
+      "translation": "сдержанность"
+    },
+    {
+      "english": "discretion",
+      "translation": "деликатность"
+    },
+    {
+      "english": "directness",
+      "translation": "прямота"
+    },
+    {
+      "english": "indirectness",
+      "translation": "косвенность"
+    },
+    {
+      "english": "softness",
+      "translation": "мягкость"
+    },
+    {
+      "english": "firmness",
+      "translation": "твёрдость"
+    },
+    {
+      "english": "appropriateness",
+      "translation": "уместность"
+    },
+    {
+      "english": "context",
+      "translation": "контекст"
+    },
+    {
+      "english": "hierarchy",
+      "translation": "иерархия"
+    },
+    {
+      "english": "seniority",
+      "translation": "старшинство"
+    },
+    {
+      "english": "distance-keeping",
+      "translation": "соблюдение дистанции"
+    },
+    {
+      "english": "familiarity",
+      "translation": "фамильярность"
+    },
+    {
+      "english": "detachment",
+      "translation": "отстранённость"
+    },
+    {
+      "english": "reserve",
+      "translation": "сдержанность"
+    }
+  ]
+}

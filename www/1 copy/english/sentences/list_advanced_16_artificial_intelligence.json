@@ -1,0 +1,327 @@
+{
+  "theme": "Искусственный интеллект",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "artificial-intelligence-is-transforming-many-industries.",
+      "english": "Artificial intelligence is transforming many industries.",
+      "translation": "Искусственный интеллект трансформирует многие отрасли.",
+      "audio": [
+        "audio/sentences/Artificial intelligence is transforming many industries..wav"
+      ]
+    },
+    {
+      "id": "ai-is-advancing-faster-than-expected.",
+      "english": "AI is advancing faster than expected.",
+      "translation": "ИИ развивается быстрее, чем ожидалось.",
+      "audio": [
+        "audio/sentences/AI is advancing faster than expected..wav"
+      ]
+    },
+    {
+      "id": "machine-learning-improves-through-data-exposure.",
+      "english": "Machine learning improves through data exposure.",
+      "translation": "Машинное обучение улучшается за счёт данных.",
+      "audio": [
+        "audio/sentences/Machine learning improves through data exposure..wav"
+      ]
+    },
+    {
+      "id": "deep-learning-handles-complex-patterns-well.",
+      "english": "Deep learning handles complex patterns well.",
+      "translation": "Глубинное обучение хорошо справляется со сложными шаблонами.",
+      "audio": [
+        "audio/sentences/Deep learning handles complex patterns well..wav"
+      ]
+    },
+    {
+      "id": "a-neural-network-processes-information-step-by-step.",
+      "english": "A neural network processes information step by step.",
+      "translation": "Нейронная сеть обрабатывает информацию поэтапно.",
+      "audio": [
+        "audio/sentences/A neural network processes information step by step..wav"
+      ]
+    },
+    {
+      "id": "the-algorithm-determines-the-system-behavior.",
+      "english": "The algorithm determines the system behavior.",
+      "translation": "Алгоритм определяет поведение системы.",
+      "audio": [
+        "audio/sentences/The algorithm determines the system behavior..wav"
+      ]
+    },
+    {
+      "id": "the-model-adapts-during-training.",
+      "english": "The model adapts during training.",
+      "translation": "Модель адаптируется в процессе обучения.",
+      "audio": [
+        "audio/sentences/The model adapts during training..wav"
+      ]
+    },
+    {
+      "id": "the-dataset-was-collected-over-years.",
+      "english": "The dataset was collected over years.",
+      "translation": "Набор данных собирался годами.",
+      "audio": [
+        "audio/sentences/The dataset was collected over years..wav"
+      ]
+    },
+    {
+      "id": "training-requires-significant-computing-power.",
+      "english": "Training requires significant computing power.",
+      "translation": "Обучение требует значительных вычислительных ресурсов.",
+      "audio": [
+        "audio/sentences/Training requires significant computing power..wav"
+      ]
+    },
+    {
+      "id": "inference-happens-after-the-model-is-trained.",
+      "english": "Inference happens after the model is trained.",
+      "translation": "Инференс происходит после обучения модели.",
+      "audio": [
+        "audio/sentences/Inference happens after the model is trained..wav"
+      ]
+    },
+    {
+      "id": "the-input-strongly-affects-the-result.",
+      "english": "The input strongly affects the result.",
+      "translation": "Входные данные сильно влияют на результат.",
+      "audio": [
+        "audio/sentences/The input strongly affects the result..wav"
+      ]
+    },
+    {
+      "id": "the-output-is-generated-instantly.",
+      "english": "The output is generated instantly.",
+      "translation": "Выходные данные генерируются мгновенно.",
+      "audio": [
+        "audio/sentences/The output is generated instantly..wav"
+      ]
+    },
+    {
+      "id": "each-feature-contributes-to-accuracy.",
+      "english": "Each feature contributes to accuracy.",
+      "translation": "Каждый признак влияет на точность.",
+      "audio": [
+        "audio/sentences/Each feature contributes to accuracy..wav"
+      ]
+    },
+    {
+      "id": "this-parameter-controls-model-behavior.",
+      "english": "This parameter controls model behavior.",
+      "translation": "Этот параметр управляет поведением модели.",
+      "audio": [
+        "audio/sentences/This parameter controls model behavior..wav"
+      ]
+    },
+    {
+      "id": "the-weight-changes-during-optimization.",
+      "english": "The weight changes during optimization.",
+      "translation": "Вес изменяется во время оптимизации.",
+      "audio": [
+        "audio/sentences/The weight changes during optimization..wav"
+      ]
+    },
+    {
+      "id": "accuracy-measures-prediction-correctness.",
+      "english": "Accuracy measures prediction correctness.",
+      "translation": "Точность измеряет правильность предсказаний.",
+      "audio": [
+        "audio/sentences/Accuracy measures prediction correctness..wav"
+      ]
+    },
+    {
+      "id": "performance-depends-on-hardware-resources.",
+      "english": "Performance depends on hardware resources.",
+      "translation": "Производительность зависит от аппаратных ресурсов.",
+      "audio": [
+        "audio/sentences/Performance depends on hardware resources..wav"
+      ]
+    },
+    {
+      "id": "the-prediction-was-statistically-reliable.",
+      "english": "The prediction was statistically reliable.",
+      "translation": "Предсказание было статистически надёжным.",
+      "audio": [
+        "audio/sentences/The prediction was statistically reliable..wav"
+      ]
+    },
+    {
+      "id": "classification-assigns-categories-to-data.",
+      "english": "Classification assigns categories to data.",
+      "translation": "Классификация присваивает данным категории.",
+      "audio": [
+        "audio/sentences/Classification assigns categories to data..wav"
+      ]
+    },
+    {
+      "id": "regression-estimates-continuous-values.",
+      "english": "Regression estimates continuous values.",
+      "translation": "Регрессия оценивает непрерывные значения.",
+      "audio": [
+        "audio/sentences/Regression estimates continuous values..wav"
+      ]
+    },
+    {
+      "id": "automation-reduces-manual-work-significantly.",
+      "english": "Automation reduces manual work significantly.",
+      "translation": "Автоматизация значительно снижает ручной труд.",
+      "audio": [
+        "audio/sentences/Automation reduces manual work significantly..wav"
+      ]
+    },
+    {
+      "id": "optimization-improves-overall-efficiency.",
+      "english": "Optimization improves overall efficiency.",
+      "translation": "Оптимизация повышает общую эффективность.",
+      "audio": [
+        "audio/sentences/Optimization improves overall efficiency..wav"
+      ]
+    },
+    {
+      "id": "scalability-allows-systems-to-handle-growth.",
+      "english": "Scalability allows systems to handle growth.",
+      "translation": "Масштабируемость позволяет системам справляться с ростом.",
+      "audio": [
+        "audio/sentences/Scalability allows systems to handle growth..wav"
+      ]
+    },
+    {
+      "id": "deployment-happens-after-final-testing.",
+      "english": "Deployment happens after final testing.",
+      "translation": "Развёртывание происходит после финального тестирования.",
+      "audio": [
+        "audio/sentences/Deployment happens after final testing..wav"
+      ]
+    },
+    {
+      "id": "integration-connects-multiple-services-together.",
+      "english": "Integration connects multiple services together.",
+      "translation": "Интеграция объединяет несколько сервисов.",
+      "audio": [
+        "audio/sentences/Integration connects multiple services together..wav"
+      ]
+    },
+    {
+      "id": "natural-language-processing-enables-text-understanding.",
+      "english": "Natural language processing enables text understanding.",
+      "translation": "Обработка естественного языка позволяет понимать текст.",
+      "audio": [
+        "audio/sentences/Natural language processing enables text understanding..wav"
+      ]
+    },
+    {
+      "id": "computer-vision-analyzes-visual-information.",
+      "english": "Computer vision analyzes visual information.",
+      "translation": "Компьютерное зрение анализирует визуальную информацию.",
+      "audio": [
+        "audio/sentences/Computer vision analyzes visual information..wav"
+      ]
+    },
+    {
+      "id": "speech-recognition-converts-voice-into-text.",
+      "english": "Speech recognition converts voice into text.",
+      "translation": "Распознавание речи преобразует голос в текст.",
+      "audio": [
+        "audio/sentences/Speech recognition converts voice into text..wav"
+      ]
+    },
+    {
+      "id": "the-chatbot-answers-common-questions-instantly.",
+      "english": "The chatbot answers common questions instantly.",
+      "translation": "Чат-бот мгновенно отвечает на частые вопросы.",
+      "audio": [
+        "audio/sentences/The chatbot answers common questions instantly..wav"
+      ]
+    },
+    {
+      "id": "the-assistant-helps-manage-daily-tasks.",
+      "english": "The assistant helps manage daily tasks.",
+      "translation": "Ассистент помогает управлять повседневными задачами.",
+      "audio": [
+        "audio/sentences/The assistant helps manage daily tasks..wav"
+      ]
+    },
+    {
+      "id": "bias-can-distort-algorithmic-decisions.",
+      "english": "Bias can distort algorithmic decisions.",
+      "translation": "Предвзятость может искажать решения алгоритмов.",
+      "audio": [
+        "audio/sentences/Bias can distort algorithmic decisions..wav"
+      ]
+    },
+    {
+      "id": "ethics-guides-responsible-ai-development.",
+      "english": "Ethics guides responsible AI development.",
+      "translation": "Этика направляет ответственное развитие ИИ.",
+      "audio": [
+        "audio/sentences/Ethics guides responsible AI development..wav"
+      ]
+    },
+    {
+      "id": "privacy-remains-critical-in-data-systems.",
+      "english": "Privacy remains critical in data systems.",
+      "translation": "Конфиденциальность остаётся критически важной в системах данных.",
+      "audio": [
+        "audio/sentences/Privacy remains critical in data systems..wav"
+      ]
+    },
+    {
+      "id": "security-prevents-unauthorized-system-access.",
+      "english": "Security prevents unauthorized system access.",
+      "translation": "Безопасность предотвращает несанкционированный доступ к системе.",
+      "audio": [
+        "audio/sentences/Security prevents unauthorized system access..wav"
+      ]
+    },
+    {
+      "id": "transparency-builds-trust-in-ai-systems.",
+      "english": "Transparency builds trust in AI systems.",
+      "translation": "Прозрачность формирует доверие к ИИ-системам.",
+      "audio": [
+        "audio/sentences/Transparency builds trust in AI systems..wav"
+      ]
+    },
+    {
+      "id": "each-use-case-defines-specific-requirements.",
+      "english": "Each use case defines specific requirements.",
+      "translation": "Каждый сценарий использования задаёт конкретные требования.",
+      "audio": [
+        "audio/sentences/Each use case defines specific requirements..wav"
+      ]
+    },
+    {
+      "id": "this-application-targets-business-needs.",
+      "english": "This application targets business needs.",
+      "translation": "Это применение ориентировано на бизнес-задачи.",
+      "audio": [
+        "audio/sentences/This application targets business needs..wav"
+      ]
+    },
+    {
+      "id": "every-system-has-some-limitation.",
+      "english": "Every system has some limitation.",
+      "translation": "У каждой системы есть определённое ограничение.",
+      "audio": [
+        "audio/sentences/Every system has some limitation..wav"
+      ]
+    },
+    {
+      "id": "the-capability-depends-on-training-data.",
+      "english": "The capability depends on training data.",
+      "translation": "Возможность зависит от обучающих данных.",
+      "audio": [
+        "audio/sentences/The capability depends on training data..wav"
+      ]
+    },
+    {
+      "id": "ai-impact-extends-beyond-technology.",
+      "english": "AI impact extends beyond technology.",
+      "translation": "Влияние ИИ выходит за рамки технологий.",
+      "audio": [
+        "audio/sentences/AI impact extends beyond technology..wav"
+      ]
+    }
+  ]
+}

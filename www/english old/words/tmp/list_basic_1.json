@@ -1,0 +1,229 @@
+{
+  "theme": "Частые слова (базовые)",
+  "level": "Beginner",
+  "name": "Words",
+  "filename": "english/list_basic_1.json",
+  "words": [
+{
+  "english": "I",
+  "translation": "я",
+  "audio": [
+    "audio/i_kore.wav",
+    "audio/i_zephyr.wav",
+    "audio/i_puck.wav",
+    "audio/i_charon.wav",
+    "audio/i_fenrir.wav"
+  ],
+  "english_words": "i think so",
+  "translation_words": "я так думаю",
+  "audio_words": [
+    "audio/i_kore_phrase.wav",
+    "audio/i_zephyr_phrase.wav",
+    "audio/i_puck_phrase.wav",
+    "audio/i_charon_phrase.wav",
+    "audio/i_fenrir_phrase.wav"
+  ],
+  "english_sentences": "I work from home today.",
+  "translation_sentences": "Я сегодня работаю из дома.",
+  "audio_sentences": [
+    "audio/i_kore_sentence.wav",
+    "audio/i_zephyr_sentence.wav",
+    "audio/i_puck_sentence.wav",
+    "audio/i_charon_sentence.wav",
+    "audio/i_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "you",
+  "translation": "ты",
+  "audio": [
+    "audio/you_kore.wav",
+    "audio/you_zephyr.wav",
+    "audio/you_puck.wav",
+    "audio/you_charon.wav",
+    "audio/you_fenrir.wav"
+  ],
+  "english_words": "you know this",
+  "translation_words": "ты это знаешь",
+  "audio_words": [
+    "audio/you_kore_phrase.wav",
+    "audio/you_zephyr_phrase.wav",
+    "audio/you_puck_phrase.wav",
+    "audio/you_charon_phrase.wav",
+    "audio/you_fenrir_phrase.wav"
+  ],
+  "english_sentences": "You can choose any option.",
+  "translation_sentences": "Ты можешь выбрать любой вариант.",
+  "audio_sentences": [
+    "audio/you_kore_sentence.wav",
+    "audio/you_zephyr_sentence.wav",
+    "audio/you_puck_sentence.wav",
+    "audio/you_charon_sentence.wav",
+    "audio/you_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "he",
+  "translation": "он",
+  "audio": [
+    "audio/he_kore.wav",
+    "audio/he_zephyr.wav",
+    "audio/he_puck.wav",
+    "audio/he_charon.wav",
+    "audio/he_fenrir.wav"
+  ],
+  "english_words": "he works here",
+  "translation_words": "он работает здесь",
+  "audio_words": [
+    "audio/he_kore_phrase.wav",
+    "audio/he_zephyr_phrase.wav",
+    "audio/he_puck_phrase.wav",
+    "audio/he_charon_phrase.wav",
+    "audio/he_fenrir_phrase.wav"
+  ],
+  "english_sentences": "He usually wakes up early.",
+  "translation_sentences": "Он обычно просыпается рано.",
+  "audio_sentences": [
+    "audio/he_kore_sentence.wav",
+    "audio/he_zephyr_sentence.wav",
+    "audio/he_puck_sentence.wav",
+    "audio/he_charon_sentence.wav",
+    "audio/he_fenrir_sentence.wav"
+  ]
+},
+{
+  "english": "she",
+  "translation": "она",
+  "audio": [
+    "audio/she_kore.wav",
+    "audio/she_zephyr.wav",
+    "audio/she_puck.wav",
+    "audio/she_charon.wav",
+    "audio/she_fenrir.wav"
+  ],
+  "english_words": "she feels tired",
+  "translation_words": "она чувствует усталость",
+  "audio_words": [
+    "audio/she_kore_phrase.wav",
+    "audio/she_zephyr_phrase.wav",
+    "audio/she_puck_phrase.wav",
+    "audio/she_charon_phrase.wav",
+    "audio/she_fenrir_phrase.wav"
+  ],
+  "english_sentences": "She prefers simple solutions.",
+  "translation_sentences": "Она предпочитает простые решения.",
+  "audio_sentences": [
+    "audio/she_kore_sentence.wav",
+    "audio/she_zephyr_sentence.wav",
+    "audio/she_puck_sentence.wav",
+    "audio/she_charon_sentence.wav",
+    "audio/she_fenrir_sentence.wav"
+  ]
+},
+{ "english":"we","translation":"мы","audio":["audio/we.wav"],"english_words":"we move fast","translation_words":"мы движемся быстро","audio_words":["audio/we_words.wav"],"english_sentences":"We already discussed this idea.","translation_sentences":"Мы уже обсуждали эту идею.","audio_sentences":["audio/we_sentences.wav"] },
+{ "english":"they","translation":"они","audio":["audio/they.wav"],"english_words":"they agree fully","translation_words":"они полностью согласны","audio_words":["audio/they_words.wav"],"english_sentences":"They decided to test it.","translation_sentences":"Они решили это протестировать.","audio_sentences":["audio/they_sentences.wav"] },
+{ "english":"be","translation":"быть","audio":["audio/be.wav"],"english_words":"be honest here","translation_words":"будь честен здесь","audio_words":["audio/be_words.wav"],"english_sentences":"It is important to be clear.","translation_sentences":"Важно быть понятным.","audio_sentences":["audio/be_sentences.wav"] },
+{ "english":"have","translation":"иметь","audio":["audio/have.wav"],"english_words":"have enough time","translation_words":"иметь достаточно времени","audio_words":["audio/have_words.wav"],"english_sentences":"I have a backup plan.","translation_sentences":"У меня есть запасной план.","audio_sentences":["audio/have_sentences.wav"] },
+{ "english":"do","translation":"делать","audio":["audio/do.wav"],"english_words":"do it now","translation_words":"сделай это сейчас","audio_words":["audio/do_words.wav"],"english_sentences":"We do this every week.","translation_sentences":"Мы делаем это каждую неделю.","audio_sentences":["audio/do_sentences.wav"] },
+
+    { "english":"say","translation":"говорить","audio":["audio/say.wav"],"english_words":"say it clearly","translation_words":"скажи это ясно","audio_words":["audio/say_words.wav"],"english_sentences":"She says nothing about it.","translation_sentences":"Она ничего об этом не говорит.","audio_sentences":["audio/say_sentences.wav"] },
+{ "english":"come","translation":"приходить","audio":["audio/come.wav"],"english_words":"come back soon","translation_words":"возвращайся скоро","audio_words":["audio/come_words.wav"],"english_sentences":"Please come earlier tomorrow.","translation_sentences":"Пожалуйста, приходи завтра раньше.","audio_sentences":["audio/come_sentences.wav"] },
+{ "english":"see","translation":"видеть","audio":["audio/see.wav"],"english_words":"see it now","translation_words":"увидеть это сейчас","audio_words":["audio/see_words.wav"],"english_sentences":"I see your point.","translation_sentences":"Я понимаю твою точку зрения.","audio_sentences":["audio/see_sentences.wav"] },
+{ "english":"hear","translation":"слышать","audio":["audio/hear.wav"],"english_words":"hear the sound","translation_words":"слышать звук","audio_words":["audio/hear_words.wav"],"english_sentences":"We hear strange noises.","translation_sentences":"Мы слышим странные звуки.","audio_sentences":["audio/hear_sentences.wav"] },
+{ "english":"know","translation":"знать","audio":["audio/know.wav"],"english_words":"know the answer","translation_words":"знать ответ","audio_words":["audio/know_words.wav"],"english_sentences":"They know each other well.","translation_sentences":"Они хорошо знают друг друга.","audio_sentences":["audio/know_sentences.wav"] },
+{ "english":"think","translation":"думать","audio":["audio/think.wav"],"english_words":"think about it","translation_words":"подумать об этом","audio_words":["audio/think_words.wav"],"english_sentences":"I think this works.","translation_sentences":"Я думаю, это работает.","audio_sentences":["audio/think_sentences.wav"] },
+{ "english":"want","translation":"хотеть","audio":["audio/want.wav"],"english_words":"want more time","translation_words":"хотеть больше времени","audio_words":["audio/want_words.wav"],"english_sentences":"She wants a new job.","translation_sentences":"Она хочет новую работу.","audio_sentences":["audio/want_sentences.wav"] },
+    { "english":"need","translation":"нуждаться","audio":["audio/need.wav"],"english_words":"need more help","translation_words":"нуждаться в большей помощи","audio_words":["audio/need_words.wav"],"english_sentences":"I need more information.","translation_sentences":"Мне нужна дополнительная информация.","audio_sentences":["audio/need_sentences.wav"] },
+{ "english":"like","translation":"нравиться","audio":["audio/like.wav"],"english_words":"like this idea","translation_words":"нравится эта идея","audio_words":["audio/like_words.wav"],"english_sentences":"They like simple solutions.","translation_sentences":"Им нравятся простые решения.","audio_sentences":["audio/like_sentences.wav"] },
+{ "english":"use","translation":"использовать","audio":["audio/use.wav"],"english_words":"use this tool","translation_words":"использовать этот инструмент","audio_words":["audio/use_words.wav"],"english_sentences":"We use it every day.","translation_sentences":"Мы используем это каждый день.","audio_sentences":["audio/use_sentences.wav"] },
+{ "english":"try","translation":"пытаться","audio":["audio/try.wav"],"english_words":"try again later","translation_words":"попробовать снова позже","audio_words":["audio/try_words.wav"],"english_sentences":"He tried to fix it.","translation_sentences":"Он попытался это исправить.","audio_sentences":["audio/try_sentences.wav"] },
+{ "english":"ask","translation":"спрашивать","audio":["audio/ask.wav"],"english_words":"ask simple questions","translation_words":"задавать простые вопросы","audio_words":["audio/ask_words.wav"],"english_sentences":"She asked for advice.","translation_sentences":"Она попросила совета.","audio_sentences":["audio/ask_sentences.wav"] },
+{ "english":"give","translation":"давать","audio":["audio/give.wav"],"english_words":"give some feedback","translation_words":"дать обратную связь","audio_words":["audio/give_words.wav"],"english_sentences":"They gave him time.","translation_sentences":"Они дали ему время.","audio_sentences":["audio/give_sentences.wav"] },
+{ "english":"take","translation":"брать","audio":["audio/take.wav"],"english_words":"take a break","translation_words":"сделать перерыв","audio_words":["audio/take_words.wav"],"english_sentences":"Please take this seat.","translation_sentences":"Пожалуйста, займите это место.","audio_sentences":["audio/take_sentences.wav"] },
+{ "english":"find","translation":"находить","audio":["audio/find.wav"],"english_words":"find the answer","translation_words":"найти ответ","audio_words":["audio/find_words.wav"],"english_sentences":"We found a solution.","translation_sentences":"Мы нашли решение.","audio_sentences":["audio/find_sentences.wav"] },
+{ "english":"tell","translation":"рассказывать","audio":["audio/tell.wav"],"english_words":"tell the truth","translation_words":"сказать правду","audio_words":["audio/tell_words.wav"],"english_sentences":"He told me yesterday.","translation_sentences":"Он рассказал мне вчера.","audio_sentences":["audio/tell_sentences.wav"] },
+
+    { "english":"feel","translation":"чувствовать","audio":["audio/feel.wav"],"english_words":"feel the difference","translation_words":"чувствовать разницу","audio_words":["audio/feel_words.wav"],"english_sentences":"I feel much better now.","translation_sentences":"Я чувствую себя намного лучше сейчас.","audio_sentences":["audio/feel_sentences.wav"] },
+{ "english":"bring","translation":"приносить","audio":["audio/bring.wav"],"english_words":"bring your laptop","translation_words":"принеси свой ноутбук","audio_words":["audio/bring_words.wav"],"english_sentences":"He brought all the documents.","translation_sentences":"Он принёс все документы.","audio_sentences":["audio/bring_sentences.wav"] },
+{ "english":"time","translation":"время","audio":["audio/time.wav"],"english_words":"save some time","translation_words":"сэкономить немного времени","audio_words":["audio/time_words.wav"],"english_sentences":"Time moves very fast.","translation_sentences":"Время идёт очень быстро.","audio_sentences":["audio/time_sentences.wav"] },
+{ "english":"day","translation":"день","audio":["audio/day.wav"],"english_words":"day by day","translation_words":"день за днём","audio_words":["audio/day_words.wav"],"english_sentences":"It was a long day.","translation_sentences":"Это был долгий день.","audio_sentences":["audio/day_sentences.wav"] },
+{ "english":"year","translation":"год","audio":["audio/year.wav"],"english_words":"this whole year","translation_words":"весь этот год","audio_words":["audio/year_words.wav"],"english_sentences":"Last year changed многое.","translation_sentences":"Прошлый год многое изменил.","audio_sentences":["audio/year_sentences.wav"] },
+{ "english":"people","translation":"люди","audio":["audio/people.wav"],"english_words":"many people here","translation_words":"много людей здесь","audio_words":["audio/people_words.wav"],"english_sentences":"People react differently.","translation_sentences":"Люди реагируют по-разному.","audio_sentences":["audio/people_sentences.wav"] },
+{ "english":"person","translation":"человек","audio":["audio/person.wav"],"english_words":"one person only","translation_words":"только один человек","audio_words":["audio/person_words.wav"],"english_sentences":"This person knows the answer.","translation_sentences":"Этот человек знает ответ.","audio_sentences":["audio/person_sentences.wav"] },
+{ "english":"life","translation":"жизнь","audio":["audio/life.wav"],"english_words":"real life experience","translation_words":"реальный жизненный опыт","audio_words":["audio/life_words.wav"],"english_sentences":"Life becomes more complex.","translation_sentences":"Жизнь становится сложнее.","audio_sentences":["audio/life_sentences.wav"] },
+{ "english":"thing","translation":"вещь","audio":["audio/thing.wav"],"english_words":"one simple thing","translation_words":"одна простая вещь","audio_words":["audio/thing_words.wav"],"english_sentences":"This thing matters most.","translation_sentences":"Эта вещь важнее всего.","audio_sentences":["audio/thing_sentences.wav"] },
+
+{ "english":"place","translation":"место","audio":["audio/place.wav"],"english_words":"quiet place nearby","translation_words":"тихое место рядом","audio_words":["audio/place_words.wav"],"english_sentences":"This place feels safe.","translation_sentences":"Это место кажется безопасным.","audio_sentences":["audio/place_sentences.wav"] },
+{ "english":"problem","translation":"проблема","audio":["audio/problem.wav"],"english_words":"serious problem here","translation_words":"серьёзная проблема здесь","audio_words":["audio/problem_words.wav"],"english_sentences":"The problem needs attention.","translation_sentences":"Эта проблема требует внимания.","audio_sentences":["audio/problem_sentences.wav"] },
+{ "english":"question","translation":"вопрос","audio":["audio/question.wav"],"english_words":"simple question first","translation_words":"простой вопрос сначала","audio_words":["audio/question_words.wav"],"english_sentences":"I have a question.","translation_sentences":"У меня есть вопрос.","audio_sentences":["audio/question_sentences.wav"] },
+{ "english":"home","translation":"дом","audio":["audio/home.wav"],"english_words":"back home tonight","translation_words":"обратно домой сегодня","audio_words":["audio/home_words.wav"],"english_sentences":"He stayed home today.","translation_sentences":"Он остался дома сегодня.","audio_sentences":["audio/home_sentences.wav"] },
+{ "english":"world","translation":"мир","audio":["audio/world.wav"],"english_words":"modern world today","translation_words":"современный мир сегодня","audio_words":["audio/world_words.wav"],"english_sentences":"The world is changing fast.","translation_sentences":"Мир быстро меняется.","audio_sentences":["audio/world_sentences.wav"] },
+{ "english":"friend","translation":"друг","audio":["audio/friend.wav"],"english_words":"close friend nearby","translation_words":"близкий друг рядом","audio_words":["audio/friend_words.wav"],"english_sentences":"She met a friend.","translation_sentences":"Она встретила друга.","audio_sentences":["audio/friend_sentences.wav"] },
+{ "english":"family","translation":"семья","audio":["audio/family.wav"],"english_words":"family time matters","translation_words":"время с семьёй важно","audio_words":["audio/family_words.wav"],"english_sentences":"Family comes first.","translation_sentences":"Семья на первом месте.","audio_sentences":["audio/family_sentences.wav"] },
+{ "english":"good","translation":"хороший","audio":["audio/good.wav"],"english_words":"good enough result","translation_words":"достаточно хороший результат","audio_words":["audio/good_words.wav"],"english_sentences":"This is a good start.","translation_sentences":"Это хорошее начало.","audio_sentences":["audio/good_sentences.wav"] },
+{ "english":"bad","translation":"плохой","audio":["audio/bad.wav"],"english_words":"bad idea overall","translation_words":"плохая идея в целом","audio_words":["audio/bad_words.wav"],"english_sentences":"That was a bad choice.","translation_sentences":"Это был плохой выбор.","audio_sentences":["audio/bad_sentences.wav"] },
+
+    { "english":"big","translation":"большой","audio":["audio/big.wav"],"english_words":"big problem here","translation_words":"большая проблема здесь","audio_words":["audio/big_words.wav"],"english_sentences":"This is a big city.","translation_sentences":"Это большой город.","audio_sentences":["audio/big_sentences.wav"] },
+{ "english":"small","translation":"маленький","audio":["audio/small.wav"],"english_words":"small detail only","translation_words":"маленькая деталь только","audio_words":["audio/small_words.wav"],"english_sentences":"She lives in a small house.","translation_sentences":"Она живёт в маленьком доме.","audio_sentences":["audio/small_sentences.wav"] },
+{ "english":"new","translation":"новый","audio":["audio/new.wav"],"english_words":"new idea today","translation_words":"новая идея сегодня","audio_words":["audio/new_words.wav"],"english_sentences":"I bought a new phone.","translation_sentences":"Я купил новый телефон.","audio_sentences":["audio/new_sentences.wav"] },
+{ "english":"old","translation":"старый","audio":["audio/old.wav"],"english_words":"old story again","translation_words":"старая история снова","audio_words":["audio/old_words.wav"],"english_sentences":"This building is very old.","translation_sentences":"Это здание очень старое.","audio_sentences":["audio/old_sentences.wav"] },
+{ "english":"same","translation":"одинаковый","audio":["audio/same.wav"],"english_words":"same thing here","translation_words":"то же самое здесь","audio_words":["audio/same_words.wav"],"english_sentences":"We have the same goal.","translation_sentences":"У нас одинаковая цель.","audio_sentences":["audio/same_sentences.wav"] },
+{ "english":"different","translation":"разный","audio":["audio/different.wav"],"english_words":"different view now","translation_words":"другая точка зрения сейчас","audio_words":["audio/different_words.wav"],"english_sentences":"People think in different ways.","translation_sentences":"Люди думают по-разному.","audio_sentences":["audio/different_sentences.wav"] },
+{ "english":"important","translation":"важный","audio":["audio/important.wav"],"english_words":"important point here","translation_words":"важный момент здесь","audio_words":["audio/important_words.wav"],"english_sentences":"This is an important decision.","translation_sentences":"Это важное решение.","audio_sentences":["audio/important_sentences.wav"] },
+{ "english":"easy","translation":"лёгкий","audio":["audio/easy.wav"],"english_words":"easy task now","translation_words":"лёгкая задача сейчас","audio_words":["audio/easy_words.wav"],"english_sentences":"The test was easy.","translation_sentences":"Тест был лёгким.","audio_sentences":["audio/easy_sentences.wav"] },
+{ "english":"hard","translation":"трудный","audio":["audio/hard.wav"],"english_words":"hard choice today","translation_words":"трудный выбор сегодня","audio_words":["audio/hard_words.wav"],"english_sentences":"This job feels hard.","translation_sentences":"Эта работа кажется трудной.","audio_sentences":["audio/hard_sentences.wav"] },
+
+    { "english":"wrong","translation":"неправильный","audio":["audio/wrong.wav"],"english_words":"wrong answer here","translation_words":"неправильный ответ здесь","audio_words":["audio/wrong_words.wav"],"english_sentences":"This is the wrong way.","translation_sentences":"Это неправильный путь.","audio_sentences":["audio/wrong_sentences.wav"] },
+{ "english":"very","translation":"очень","audio":["audio/very.wav"],"english_words":"very good job","translation_words":"очень хорошая работа","audio_words":["audio/very_words.wav"],"english_sentences":"She feels very happy today.","translation_sentences":"Она чувствует себя очень счастливой сегодня.","audio_sentences":["audio/very_sentences.wav"] },
+{ "english":"really","translation":"действительно","audio":["audio/really.wav"],"english_words":"really nice place","translation_words":"действительно приятное место","audio_words":["audio/really_words.wav"],"english_sentences":"I really like this idea.","translation_sentences":"Мне действительно нравится эта идея.","audio_sentences":["audio/really_sentences.wav"] },
+{ "english":"only","translation":"только","audio":["audio/only.wav"],"english_words":"only one option","translation_words":"только один вариант","audio_words":["audio/only_words.wav"],"english_sentences":"She has only one question.","translation_sentences":"У неё есть только один вопрос.","audio_sentences":["audio/only_sentences.wav"] },
+{ "english":"now","translation":"сейчас","audio":["audio/now.wav"],"english_words":"right now here","translation_words":"прямо сейчас здесь","audio_words":["audio/now_words.wav"],"english_sentences":"We need to leave now.","translation_sentences":"Нам нужно уйти сейчас.","audio_sentences":["audio/now_sentences.wav"] },
+{ "english":"here","translation":"здесь","audio":["audio/here.wav"],"english_words":"stay here please","translation_words":"останься здесь пожалуйста","audio_words":["audio/here_words.wav"],"english_sentences":"I am here with you.","translation_sentences":"Я здесь с тобой.","audio_sentences":["audio/here_sentences.wav"] },
+{ "english":"there","translation":"там","audio":["audio/there.wav"],"english_words":"over there now","translation_words":"вон там сейчас","audio_words":["audio/there_words.wav"],"english_sentences":"Your bag is there.","translation_sentences":"Твоя сумка там.","audio_sentences":["audio/there_sentences.wav"] },
+{ "english":"always","translation":"всегда","audio":["audio/always.wav"],"english_words":"always on time","translation_words":"всегда вовремя","audio_words":["audio/always_words.wav"],"english_sentences":"He always tells the truth.","translation_sentences":"Он всегда говорит правду.","audio_sentences":["audio/always_sentences.wav"] },
+{ "english":"often","translation":"часто","audio":["audio/often.wav"],"english_words":"often think about","translation_words":"часто думать о","audio_words":["audio/often_words.wav"],"english_sentences":"They often meet after work.","translation_sentences":"Они часто встречаются после работы.","audio_sentences":["audio/often_sentences.wav"] },
+
+    { "english":"sometimes","translation":"иногда","audio":["audio/sometimes.wav"],"english_words":"sometimes feels strange","translation_words":"иногда кажется странным","audio_words":["audio/sometimes_words.wav"],"english_sentences":"Sometimes I work late.","translation_sentences":"Иногда я работаю допоздна.","audio_sentences":["audio/sometimes_sentences.wav"] },
+{ "english":"never","translation":"никогда","audio":["audio/never.wav"],"english_words":"never say that","translation_words":"никогда так не говори","audio_words":["audio/never_words.wav"],"english_sentences":"I never forget names.","translation_sentences":"Я никогда не забываю имена.","audio_sentences":["audio/never_sentences.wav"] },
+{ "english":"in","translation":"в","audio":["audio/in.wav"],"english_words":"in the room","translation_words":"в комнате","audio_words":["audio/in_words.wav"],"english_sentences":"She is in the office.","translation_sentences":"Она в офисе.","audio_sentences":["audio/in_sentences.wav"] },
+{ "english":"on","translation":"на","audio":["audio/on.wav"],"english_words":"on the table","translation_words":"на столе","audio_words":["audio/on_words.wav"],"english_sentences":"The phone is on the desk.","translation_sentences":"Телефон на столе.","audio_sentences":["audio/on_sentences.wav"] },
+{ "english":"with","translation":"с","audio":["audio/with.wav"],"english_words":"with my friend","translation_words":"с моим другом","audio_words":["audio/with_words.wav"],"english_sentences":"He went with his family.","translation_sentences":"Он пошёл с семьёй.","audio_sentences":["audio/with_sentences.wav"] },
+{ "english":"without","translation":"без","audio":["audio/without.wav"],"english_words":"without any doubt","translation_words":"без сомнений","audio_words":["audio/without_words.wav"],"english_sentences":"I left without my bag.","translation_sentences":"Я ушёл без сумки.","audio_sentences":["audio/without_sentences.wav"] },
+{ "english":"for","translation":"для","audio":["audio/for.wav"],"english_words":"for this reason","translation_words":"по этой причине","audio_words":["audio/for_words.wav"],"english_sentences":"This gift is for you.","translation_sentences":"Этот подарок для тебя.","audio_sentences":["audio/for_sentences.wav"] },
+
+{ "english":"before","translation":"до","audio":["audio/before.wav"],"english_words":"before the start","translation_words":"до начала","audio_words":["audio/before_words.wav"],"english_sentences":"Finish the task before dinner.","translation_sentences":"Закончи задание до ужина.","audio_sentences":["audio/before_sentences.wav"] },
+{ "english":"after","translation":"после","audio":["audio/after.wav"],"english_words":"after the call","translation_words":"после звонка","audio_words":["audio/after_words.wav"],"english_sentences":"We met after work.","translation_sentences":"Мы встретились после работы.","audio_sentences":["audio/after_sentences.wav"] },
+{ "english":"what","translation":"что","audio":["audio/what.wav"],"english_words":"what you need","translation_words":"что тебе нужно","audio_words":["audio/what_words.wav"],"english_sentences":"What do you want now.","translation_sentences":"Что ты хочешь сейчас.","audio_sentences":["audio/what_sentences.wav"] },
+{ "english":"who","translation":"кто","audio":["audio/who.wav"],"english_words":"who is there","translation_words":"кто там","audio_words":["audio/who_words.wav"],"english_sentences":"Who called you today.","translation_sentences":"Кто тебе сегодня звонил.","audio_sentences":["audio/who_sentences.wav"] },
+{ "english":"where","translation":"где","audio":["audio/where.wav"],"english_words":"where to go","translation_words":"куда идти","audio_words":["audio/where_words.wav"],"english_sentences":"Where do you live now.","translation_sentences":"Где ты сейчас живёшь.","audio_sentences":["audio/where_sentences.wav"] },
+{ "english":"when","translation":"когда","audio":["audio/when.wav"],"english_words":"when it happens","translation_words":"когда это происходит","audio_words":["audio/when_words.wav"],"english_sentences":"When does the meeting start.","translation_sentences":"Когда начинается встреча.","audio_sentences":["audio/when_sentences.wav"] },
+{ "english":"why","translation":"почему","audio":["audio/why.wav"],"english_words":"why it matters","translation_words":"почему это важно","audio_words":["audio/why_words.wav"],"english_sentences":"Why did you choose this.","translation_sentences":"Почему ты выбрал это.","audio_sentences":["audio/why_sentences.wav"] },
+{ "english":"how","translation":"как","audio":["audio/how.wav"],"english_words":"how it works","translation_words":"как это работает","audio_words":["audio/how_words.wav"],"english_sentences":"How did you learn English.","translation_sentences":"Как ты выучил английский.","audio_sentences":["audio/how_sentences.wav"] },
+
+    { "english":"it","translation":"это","audio":["audio/it.wav"],"english_words":"it seems fine","translation_words":"это кажется нормальным","audio_words":["audio/it_words.wav"],"english_sentences":"It happens more often now.","translation_sentences":"Это происходит чаще сейчас.","audio_sentences":["audio/it_sentences.wav"] },
+
+{ "english":"make","translation":"делать","audio":["audio/make.wav"],"english_words":"make a choice","translation_words":"сделать выбор","audio_words":["audio/make_words.wav"],"english_sentences":"He makes simple plans.","translation_sentences":"Он делает простые планы.","audio_sentences":["audio/make_sentences.wav"] },
+
+{ "english":"go","translation":"идти","audio":["audio/go.wav"],"english_words":"go this way","translation_words":"иди этим путём","audio_words":["audio/go_words.wav"],"english_sentences":"They go home together.","translation_sentences":"Они идут домой вместе.","audio_sentences":["audio/go_sentences.wav"] },
+
+{ "english":"work","translation":"работать","audio":["audio/work.wav"],"english_words":"work on tasks","translation_words":"работать над задачами","audio_words":["audio/work_words.wav"],"english_sentences":"She works late sometimes.","translation_sentences":"Иногда она работает допоздна.","audio_sentences":["audio/work_sentences.wav"] },
+
+{ "english":"leave","translation":"уходить","audio":["audio/leave.wav"],"english_words":"leave the room","translation_words":"уйти из комнаты","audio_words":["audio/leave_words.wav"],"english_sentences":"She left the office early.","translation_sentences":"Она ушла из офиса рано.","audio_sentences":["audio/leave_sentences.wav"] },
+
+{ "english":"way","translation":"способ","audio":["audio/way.wav"],"english_words":"another way forward","translation_words":"другой способ двигаться вперёд","audio_words":["audio/way_words.wav"],"english_sentences":"There is a better way.","translation_sentences":"Есть лучший способ.","audio_sentences":["audio/way_sentences.wav"] },
+
+{ "english":"right","translation":"правильный","audio":["audio/right.wav"],"english_words":"right answer here","translation_words":"правильный ответ здесь","audio_words":["audio/right_words.wav"],"english_sentences":"You chose the right option.","translation_sentences":"Ты выбрал правильный вариант.","audio_sentences":["audio/right_sentences.wav"] },
+
+{ "english":"just","translation":"только что","audio":["audio/just.wav"],"english_words":"just a moment","translation_words":"только момент","audio_words":["audio/just_words.wav"],"english_sentences":"I just finished work.","translation_sentences":"Я только что закончил работу.","audio_sentences":["audio/just_sentences.wav"] },
+
+{ "english":"at","translation":"у","audio":["audio/at.wav"],"english_words":"at the door","translation_words":"у двери","audio_words":["audio/at_words.wav"],"english_sentences":"I am at home now.","translation_sentences":"Я сейчас дома.","audio_sentences":["audio/at_sentences.wav"] },
+
+{ "english":"to","translation":"к","audio":["audio/to.wav"],"english_words":"to the point","translation_words":"к сути","audio_words":["audio/to_words.wav"],"english_sentences":"We need to go there.","translation_sentences":"Нам нужно туда пойти.","audio_sentences":["audio/to_sentences.wav"] },
+
+{ "english":"from","translation":"из","audio":["audio/from.wav"],"english_words":"from my side","translation_words":"с моей стороны","audio_words":["audio/from_words.wav"],"english_sentences":"She came from work.","translation_sentences":"Она пришла с работы.","audio_sentences":["audio/from_sentences.wav"] },
+
+{ "english":"about","translation":"о","audio":["audio/about.wav"],"english_words":"about this topic","translation_words":"о этой теме","audio_words":["audio/about_words.wav"],"english_sentences":"We talked about the plan.","translation_sentences":"Мы говорили о плане.","audio_sentences":["audio/about_sentences.wav"] }
+
+
+  ]
+}

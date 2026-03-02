@@ -1,0 +1,287 @@
+{
+  "theme": "Социальные сети",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "social-media-connects-people-worldwide.",
+      "english": "Social media connects people worldwide.",
+      "translation": "Социальные сети соединяют людей по всему миру.",
+      "audio": [
+        "audio/sentences/Social media connects people worldwide..wav"
+      ]
+    },
+    {
+      "id": "the-platform-supports-multiple-users.",
+      "english": "The platform supports multiple users.",
+      "translation": "Платформа поддерживает несколько пользователей.",
+      "audio": [
+        "audio/sentences/The platform supports multiple users..wav"
+      ]
+    },
+    {
+      "id": "your-profile-displays-all-personal-information.",
+      "english": "Your profile displays all personal information.",
+      "translation": "Ваш профиль показывает всю личную информацию.",
+      "audio": [
+        "audio/sentences/Your profile displays all personal information..wav"
+      ]
+    },
+    {
+      "id": "the-account-was-successfully-created.",
+      "english": "The account was successfully created.",
+      "translation": "Аккаунт был успешно создан.",
+      "audio": [
+        "audio/sentences/The account was successfully created..wav"
+      ]
+    },
+    {
+      "id": "username-must-be-unique-for-login.",
+      "english": "Username must be unique for login.",
+      "translation": "Имя пользователя должно быть уникальным для входа.",
+      "audio": [
+        "audio/sentences/Username must be unique for login..wav"
+      ]
+    },
+    {
+      "id": "the-story-disappeared-after-24-hours.",
+      "english": "The story disappeared after 24 hours.",
+      "translation": "История исчезла через 24 часа.",
+      "audio": [
+        "audio/sentences/The story disappeared after 24 hours..wav"
+      ]
+    },
+    {
+      "id": "the-feed-shows-the-latest-posts.",
+      "english": "The feed shows the latest posts.",
+      "translation": "Лента показывает последние публикации.",
+      "audio": [
+        "audio/sentences/The feed shows the latest posts..wav"
+      ]
+    },
+    {
+      "id": "content-attracts-more-followers.",
+      "english": "Content attracts more followers.",
+      "translation": "Контент привлекает больше подписчиков.",
+      "audio": [
+        "audio/sentences/Content attracts more followers..wav"
+      ]
+    },
+    {
+      "id": "she-uploaded-new-photos-today.",
+      "english": "She uploaded new photos today.",
+      "translation": "Она загрузила новые фотографии сегодня.",
+      "audio": [
+        "audio/sentences/She uploaded new photos today..wav"
+      ]
+    },
+    {
+      "id": "he-left-a-comment-under-the-post.",
+      "english": "He left a comment under the post.",
+      "translation": "Он оставил комментарий под постом.",
+      "audio": [
+        "audio/sentences/He left a comment under the post..wav"
+      ]
+    },
+    {
+      "id": "she-replied-to-all-messages.",
+      "english": "She replied to all messages.",
+      "translation": "Она ответила на все сообщения.",
+      "audio": [
+        "audio/sentences/She replied to all messages..wav"
+      ]
+    },
+    {
+      "id": "i-received-a-new-message-today.",
+      "english": "I received a new message today.",
+      "translation": "Я получил новое сообщение сегодня.",
+      "audio": [
+        "audio/sentences/I received a new message today..wav"
+      ]
+    },
+    {
+      "id": "we-had-a-long-chat-yesterday.",
+      "english": "We had a long chat yesterday.",
+      "translation": "Вчера у нас был долгий чат.",
+      "audio": [
+        "audio/sentences/We had a long chat yesterday..wav"
+      ]
+    },
+    {
+      "id": "the-notification-alerted-him-immediately.",
+      "english": "The notification alerted him immediately.",
+      "translation": "Уведомление сразу его оповестило.",
+      "audio": [
+        "audio/sentences/The notification alerted him immediately..wav"
+      ]
+    },
+    {
+      "id": "she-liked-the-photo-instantly.",
+      "english": "She liked the photo instantly.",
+      "translation": "Она сразу поставила лайк фотографии.",
+      "audio": [
+        "audio/sentences/She liked the photo instantly..wav"
+      ]
+    },
+    {
+      "id": "his-reaction-surprised-everyone.",
+      "english": "His reaction surprised everyone.",
+      "translation": "Его реакция удивила всех.",
+      "audio": [
+        "audio/sentences/His reaction surprised everyone..wav"
+      ]
+    },
+    {
+      "id": "he-shared-a-post-on-social-media.",
+      "english": "He shared a post on social media.",
+      "translation": "Он поделился постом в социальных сетях.",
+      "audio": [
+        "audio/sentences/He shared a post on social media..wav"
+      ]
+    },
+    {
+      "id": "they-shared-the-video-on-social-media.",
+      "english": "They shared the video on social media.",
+      "translation": "Они поделились видео в социальных сетях.",
+      "audio": [
+        "audio/sentences/They shared the video on social media..wav"
+      ]
+    },
+    {
+      "id": "users-can-report-offensive-posts.",
+      "english": "Users can report offensive posts.",
+      "translation": "Пользователи могут подать жалобу на оскорбительные посты.",
+      "audio": [
+        "audio/sentences/Users can report offensive posts..wav"
+      ]
+    },
+    {
+      "id": "he-reposted-the-news-article.",
+      "english": "He reposted the news article.",
+      "translation": "Он сделал репост новостной статьи.",
+      "audio": [
+        "audio/sentences/He reposted the news article..wav"
+      ]
+    },
+    {
+      "id": "please-save-the-document-before-closing.",
+      "english": "Please save the document before closing.",
+      "translation": "Пожалуйста, сохраните документ перед закрытием.",
+      "audio": [
+        "audio/sentences/Please save the document before closing..wav"
+      ]
+    },
+    {
+      "id": "she-gained-a-new-follower-today.",
+      "english": "She gained a new follower today.",
+      "translation": "Сегодня у неё появился новый подписчик.",
+      "audio": [
+        "audio/sentences/She gained a new follower today..wav"
+      ]
+    },
+    {
+      "id": "he-checked-his-following-list.",
+      "english": "He checked his following list.",
+      "translation": "Он проверил список своих подписок.",
+      "audio": [
+        "audio/sentences/He checked his following list..wav"
+      ]
+    },
+    {
+      "id": "many-users-subscribe-to-the-newsletter.",
+      "english": "Many users subscribe to the newsletter.",
+      "translation": "Многие пользователи подписываются на рассылку.",
+      "audio": [
+        "audio/sentences/Many users subscribe to the newsletter..wav"
+      ]
+    },
+    {
+      "id": "he-unsubscribed-from-the-notifications.",
+      "english": "He unsubscribed from the notifications.",
+      "translation": "Он отписался от уведомлений.",
+      "audio": [
+        "audio/sentences/He unsubscribed from the notifications..wav"
+      ]
+    },
+    {
+      "id": "she-blocked-an-annoying-follower.",
+      "english": "She blocked an annoying follower.",
+      "translation": "Она заблокировала надоедливого подписчика.",
+      "audio": [
+        "audio/sentences/She blocked an annoying follower..wav"
+      ]
+    },
+    {
+      "id": "he-is-online-now.",
+      "english": "He is online now.",
+      "translation": "Он сейчас в сети.",
+      "audio": [
+        "audio/sentences/He is online now..wav"
+      ]
+    },
+    {
+      "id": "she-went-offline-for-a-while.",
+      "english": "She went offline for a while.",
+      "translation": "Она ненадолго вышла из сети.",
+      "audio": [
+        "audio/sentences/She went offline for a while..wav"
+      ]
+    },
+    {
+      "id": "he-updated-his-status-yesterday.",
+      "english": "He updated his status yesterday.",
+      "translation": "Он обновил свой статус вчера.",
+      "audio": [
+        "audio/sentences/He updated his status yesterday..wav"
+      ]
+    },
+    {
+      "id": "privacy-is-important-for-all-users.",
+      "english": "Privacy is important for all users.",
+      "translation": "Приватность важна для всех пользователей.",
+      "audio": [
+        "audio/sentences/Privacy is important for all users..wav"
+      ]
+    },
+    {
+      "id": "settings-can-be-changed-anytime.",
+      "english": "Settings can be changed anytime.",
+      "translation": "Настройки можно изменить в любое время.",
+      "audio": [
+        "audio/sentences/Settings can be changed anytime..wav"
+      ]
+    },
+    {
+      "id": "this-trend-became-popular-quickly.",
+      "english": "This trend became popular quickly.",
+      "translation": "Этот тренд быстро стал популярным.",
+      "audio": [
+        "audio/sentences/This trend became popular quickly..wav"
+      ]
+    },
+    {
+      "id": "the-video-went-viral-overnight.",
+      "english": "The video went viral overnight.",
+      "translation": "Видео стало вирусным за ночь.",
+      "audio": [
+        "audio/sentences/The video went viral overnight..wav"
+      ]
+    },
+    {
+      "id": "the-community-helps-new-members.",
+      "english": "The community helps new members.",
+      "translation": "Сообщество помогает новым участникам.",
+      "audio": [
+        "audio/sentences/The community helps new members..wav"
+      ]
+    },
+    {
+      "id": "moderation-ensures-safe-content.",
+      "english": "Moderation ensures safe content.",
+      "translation": "Модерация обеспечивает безопасный контент.",
+      "audio": [
+        "audio/sentences/Moderation ensures safe content..wav"
+      ]
+    }
+  ]
+}

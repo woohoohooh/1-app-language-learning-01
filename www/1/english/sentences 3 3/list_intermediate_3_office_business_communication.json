@@ -1,0 +1,367 @@
+{
+  "theme": "Офис и деловое общение",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "office",
+      "english": "office",
+      "translation": "офис",
+      "audio": [
+        "audio/words/office.wav"
+      ]
+    },
+    {
+      "id": "workplace",
+      "english": "workplace",
+      "translation": "рабочее место",
+      "audio": [
+        "audio/words/workplace.wav"
+      ]
+    },
+    {
+      "id": "department",
+      "english": "department",
+      "translation": "отдел",
+      "audio": [
+        "audio/words/department.wav"
+      ]
+    },
+    {
+      "id": "team",
+      "english": "team",
+      "translation": "команда",
+      "audio": [
+        "audio/words/team.wav"
+      ]
+    },
+    {
+      "id": "staff",
+      "english": "staff",
+      "translation": "персонал",
+      "audio": [
+        "audio/words/staff.wav"
+      ]
+    },
+    {
+      "id": "meeting",
+      "english": "meeting",
+      "translation": "встреча",
+      "audio": [
+        "audio/words/meeting.wav"
+      ]
+    },
+    {
+      "id": "appointment",
+      "english": "appointment",
+      "translation": "назначенная встреча",
+      "audio": [
+        "audio/words/appointment.wav"
+      ]
+    },
+    {
+      "id": "agenda",
+      "english": "agenda",
+      "translation": "повестка",
+      "audio": [
+        "audio/words/agenda.wav"
+      ]
+    },
+    {
+      "id": "minutes",
+      "english": "minutes",
+      "translation": "протокол встречи",
+      "audio": [
+        "audio/words/minutes.wav"
+      ]
+    },
+    {
+      "id": "discussion",
+      "english": "discussion",
+      "translation": "обсуждение",
+      "audio": [
+        "audio/words/discussion.wav"
+      ]
+    },
+    {
+      "id": "email",
+      "english": "email",
+      "translation": "электронное письмо",
+      "audio": [
+        "audio/words/email.wav"
+      ]
+    },
+    {
+      "id": "message",
+      "english": "message",
+      "translation": "сообщение",
+      "audio": [
+        "audio/words/message.wav"
+      ]
+    },
+    {
+      "id": "call",
+      "english": "call",
+      "translation": "звонок",
+      "audio": [
+        "audio/words/call.wav"
+      ]
+    },
+    {
+      "id": "conference",
+      "english": "conference",
+      "translation": "конференция",
+      "audio": [
+        "audio/words/conference.wav"
+      ]
+    },
+    {
+      "id": "video-call",
+      "english": "video call",
+      "translation": "видеозвонок",
+      "audio": [
+        "audio/words/video call.wav"
+      ]
+    },
+    {
+      "id": "request",
+      "english": "request",
+      "translation": "запрос",
+      "audio": [
+        "audio/words/request.wav"
+      ]
+    },
+    {
+      "id": "response",
+      "english": "response",
+      "translation": "ответ",
+      "audio": [
+        "audio/words/response.wav"
+      ]
+    },
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "обратная связь",
+      "audio": [
+        "audio/words/feedback.wav"
+      ]
+    },
+    {
+      "id": "approval",
+      "english": "approval",
+      "translation": "одобрение",
+      "audio": [
+        "audio/words/approval.wav"
+      ]
+    },
+    {
+      "id": "confirmation",
+      "english": "confirmation",
+      "translation": "подтверждение",
+      "audio": [
+        "audio/words/confirmation.wav"
+      ]
+    },
+    {
+      "id": "agreement",
+      "english": "agreement",
+      "translation": "соглашение",
+      "audio": [
+        "audio/words/agreement.wav"
+      ]
+    },
+    {
+      "id": "arrangement",
+      "english": "arrangement",
+      "translation": "договорённость",
+      "audio": [
+        "audio/words/arrangement.wav"
+      ]
+    },
+    {
+      "id": "negotiation",
+      "english": "negotiation",
+      "translation": "переговоры",
+      "audio": [
+        "audio/words/negotiation.wav"
+      ]
+    },
+    {
+      "id": "decision",
+      "english": "decision",
+      "translation": "решение",
+      "audio": [
+        "audio/words/decision.wav"
+      ]
+    },
+    {
+      "id": "approval",
+      "english": "approval",
+      "translation": "утверждение",
+      "audio": [
+        "audio/words/approval.wav"
+      ]
+    },
+    {
+      "id": "document",
+      "english": "document",
+      "translation": "документ",
+      "audio": [
+        "audio/words/document.wav"
+      ]
+    },
+    {
+      "id": "report",
+      "english": "report",
+      "translation": "отчёт",
+      "audio": [
+        "audio/words/report.wav"
+      ]
+    },
+    {
+      "id": "presentation",
+      "english": "presentation",
+      "translation": "презентация",
+      "audio": [
+        "audio/words/presentation.wav"
+      ]
+    },
+    {
+      "id": "spreadsheet",
+      "english": "spreadsheet",
+      "translation": "таблица",
+      "audio": [
+        "audio/words/spreadsheet.wav"
+      ]
+    },
+    {
+      "id": "file",
+      "english": "file",
+      "translation": "файл",
+      "audio": [
+        "audio/words/file.wav"
+      ]
+    },
+    {
+      "id": "policy",
+      "english": "policy",
+      "translation": "политика",
+      "audio": [
+        "audio/words/policy.wav"
+      ]
+    },
+    {
+      "id": "procedure",
+      "english": "procedure",
+      "translation": "процедура",
+      "audio": [
+        "audio/words/procedure.wav"
+      ]
+    },
+    {
+      "id": "guideline",
+      "english": "guideline",
+      "translation": "инструкция",
+      "audio": [
+        "audio/words/guideline.wav"
+      ]
+    },
+    {
+      "id": "requirement",
+      "english": "requirement",
+      "translation": "требование",
+      "audio": [
+        "audio/words/requirement.wav"
+      ]
+    },
+    {
+      "id": "compliance",
+      "english": "compliance",
+      "translation": "соответствие правилам",
+      "audio": [
+        "audio/words/compliance.wav"
+      ]
+    },
+    {
+      "id": "priority",
+      "english": "priority",
+      "translation": "приоритет",
+      "audio": [
+        "audio/words/priority.wav"
+      ]
+    },
+    {
+      "id": "update",
+      "english": "update",
+      "translation": "обновление",
+      "audio": [
+        "audio/words/update.wav"
+      ]
+    },
+    {
+      "id": "status",
+      "english": "status",
+      "translation": "статус",
+      "audio": [
+        "audio/words/status.wav"
+      ]
+    },
+    {
+      "id": "progress",
+      "english": "progress",
+      "translation": "ход выполнения",
+      "audio": [
+        "audio/words/progress.wav"
+      ]
+    },
+    {
+      "id": "issue",
+      "english": "issue",
+      "translation": "проблема",
+      "audio": [
+        "audio/words/issue.wav"
+      ]
+    },
+    {
+      "id": "formal",
+      "english": "formal",
+      "translation": "официальный",
+      "audio": [
+        "audio/words/formal.wav"
+      ]
+    },
+    {
+      "id": "informal",
+      "english": "informal",
+      "translation": "неофициальный",
+      "audio": [
+        "audio/words/informal.wav"
+      ]
+    },
+    {
+      "id": "professional",
+      "english": "professional",
+      "translation": "профессиональный",
+      "audio": [
+        "audio/words/professional.wav"
+      ]
+    },
+    {
+      "id": "internal",
+      "english": "internal",
+      "translation": "внутренний",
+      "audio": [
+        "audio/words/internal.wav"
+      ]
+    },
+    {
+      "id": "external",
+      "english": "external",
+      "translation": "внешний",
+      "audio": [
+        "audio/words/external.wav"
+      ]
+    }
+  ]
+}

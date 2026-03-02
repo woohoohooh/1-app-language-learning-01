@@ -1,0 +1,327 @@
+{
+  "theme": "Дом и быт",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "buy-a-house",
+      "english": "buy a house",
+      "translation": "купить дом",
+      "audio": [
+        "audio/phrases/buy a house.wav"
+      ]
+    },
+    {
+      "id": "rent-an-apartment",
+      "english": "rent an apartment",
+      "translation": "снимать квартиру",
+      "audio": [
+        "audio/phrases/rent an apartment.wav"
+      ]
+    },
+    {
+      "id": "clean-the-room",
+      "english": "clean the room",
+      "translation": "убрать комнату",
+      "audio": [
+        "audio/phrases/clean the room.wav"
+      ]
+    },
+    {
+      "id": "in-the-kitchen",
+      "english": "in the kitchen",
+      "translation": "на кухне",
+      "audio": [
+        "audio/phrases/in the kitchen.wav"
+      ]
+    },
+    {
+      "id": "use-the-bathroom",
+      "english": "use the bathroom",
+      "translation": "воспользоваться ванной",
+      "audio": [
+        "audio/phrases/use the bathroom.wav"
+      ]
+    },
+    {
+      "id": "quiet-bedroom",
+      "english": "quiet bedroom",
+      "translation": "тихая спальня",
+      "audio": [
+        "audio/phrases/quiet bedroom.wav"
+      ]
+    },
+    {
+      "id": "living-room-space",
+      "english": "living room space",
+      "translation": "пространство гостиной",
+      "audio": [
+        "audio/phrases/living room space.wav"
+      ]
+    },
+    {
+      "id": "small-balcony",
+      "english": "small balcony",
+      "translation": "маленький балкон",
+      "audio": [
+        "audio/phrases/small balcony.wav"
+      ]
+    },
+    {
+      "id": "close-the-door",
+      "english": "close the door",
+      "translation": "закрыть дверь",
+      "audio": [
+        "audio/phrases/close the door.wav"
+      ]
+    },
+    {
+      "id": "open-the-window",
+      "english": "open the window",
+      "translation": "открыть окно",
+      "audio": [
+        "audio/phrases/open the window.wav"
+      ]
+    },
+    {
+      "id": "white-wall",
+      "english": "white wall",
+      "translation": "белая стена",
+      "audio": [
+        "audio/phrases/white wall.wav"
+      ]
+    },
+    {
+      "id": "high-ceiling",
+      "english": "high ceiling",
+      "translation": "высокий потолок",
+      "audio": [
+        "audio/phrases/high ceiling.wav"
+      ]
+    },
+    {
+      "id": "go-to-bed",
+      "english": "go to bed",
+      "translation": "идти спать",
+      "audio": [
+        "audio/phrases/go to bed.wav"
+      ]
+    },
+    {
+      "id": "sit-on-sofa",
+      "english": "sit on sofa",
+      "translation": "сидеть на диване",
+      "audio": [
+        "audio/phrases/sit on sofa.wav"
+      ]
+    },
+    {
+      "id": "comfortable-chair",
+      "english": "comfortable chair",
+      "translation": "удобный стул",
+      "audio": [
+        "audio/phrases/comfortable chair.wav"
+      ]
+    },
+    {
+      "id": "set-the-table",
+      "english": "set the table",
+      "translation": "накрыть на стол",
+      "audio": [
+        "audio/phrases/set the table.wav"
+      ]
+    },
+    {
+      "id": "work-at-desk",
+      "english": "work at desk",
+      "translation": "работать за столом",
+      "audio": [
+        "audio/phrases/work at desk.wav"
+      ]
+    },
+    {
+      "id": "open-the-wardrobe",
+      "english": "open the wardrobe",
+      "translation": "открыть шкаф",
+      "audio": [
+        "audio/phrases/open the wardrobe.wav"
+      ]
+    },
+    {
+      "id": "on-the-shelf",
+      "english": "on the shelf",
+      "translation": "на полке",
+      "audio": [
+        "audio/phrases/on the shelf.wav"
+      ]
+    },
+    {
+      "id": "look-in-mirror",
+      "english": "look in mirror",
+      "translation": "смотреть в зеркало",
+      "audio": [
+        "audio/phrases/look in mirror.wav"
+      ]
+    },
+    {
+      "id": "turn-on-lamp",
+      "english": "turn on lamp",
+      "translation": "включить лампу",
+      "audio": [
+        "audio/phrases/turn on lamp.wav"
+      ]
+    },
+    {
+      "id": "open-the-fridge",
+      "english": "open the fridge",
+      "translation": "открыть холодильник",
+      "audio": [
+        "audio/phrases/open the fridge.wav"
+      ]
+    },
+    {
+      "id": "use-the-oven",
+      "english": "use the oven",
+      "translation": "использовать духовку",
+      "audio": [
+        "audio/phrases/use the oven.wav"
+      ]
+    },
+    {
+      "id": "on-the-stove",
+      "english": "on the stove",
+      "translation": "на плите",
+      "audio": [
+        "audio/phrases/on the stove.wav"
+      ]
+    },
+    {
+      "id": "use-microwave",
+      "english": "use microwave",
+      "translation": "использовать микроволновку",
+      "audio": [
+        "audio/phrases/use microwave.wav"
+      ]
+    },
+    {
+      "id": "boil-the-kettle",
+      "english": "boil the kettle",
+      "translation": "вскипятить чайник",
+      "audio": [
+        "audio/phrases/boil the kettle.wav"
+      ]
+    },
+    {
+      "id": "start-washing-machine",
+      "english": "start washing machine",
+      "translation": "запустить стиральную машину",
+      "audio": [
+        "audio/phrases/start washing machine.wav"
+      ]
+    },
+    {
+      "id": "dirty-dishes",
+      "english": "dirty dishes",
+      "translation": "грязная посуда",
+      "audio": [
+        "audio/phrases/dirty dishes.wav"
+      ]
+    },
+    {
+      "id": "cook-dinner",
+      "english": "cook dinner",
+      "translation": "готовить ужин",
+      "audio": [
+        "audio/phrases/cook dinner.wav"
+      ]
+    },
+    {
+      "id": "sleep-well",
+      "english": "sleep well",
+      "translation": "хорошо спать",
+      "audio": [
+        "audio/phrases/sleep well.wav"
+      ]
+    },
+    {
+      "id": "wake-up-early",
+      "english": "wake up early",
+      "translation": "просыпаться рано",
+      "audio": [
+        "audio/phrases/wake up early.wav"
+      ]
+    },
+    {
+      "id": "find-the-key",
+      "english": "find the key",
+      "translation": "найти ключ",
+      "audio": [
+        "audio/phrases/find the key.wav"
+      ]
+    },
+    {
+      "id": "lock-the-door",
+      "english": "lock the door",
+      "translation": "закрыть дверь",
+      "audio": [
+        "audio/phrases/lock the door.wav"
+      ]
+    },
+    {
+      "id": "take-out-trash",
+      "english": "take out trash",
+      "translation": "вынести мусор",
+      "audio": [
+        "audio/phrases/take out trash.wav"
+      ]
+    },
+    {
+      "id": "walk-through-hall",
+      "english": "walk through hall",
+      "translation": "пройти через холл",
+      "audio": [
+        "audio/phrases/walk through hall.wav"
+      ]
+    },
+    {
+      "id": "wooden-floor",
+      "english": "wooden floor",
+      "translation": "деревянный пол",
+      "audio": [
+        "audio/phrases/wooden floor.wav"
+      ]
+    },
+    {
+      "id": "soft-light",
+      "english": "soft light",
+      "translation": "мягкий свет",
+      "audio": [
+        "audio/phrases/soft light.wav"
+      ]
+    },
+    {
+      "id": "clean-the-room",
+      "english": "clean the room",
+      "translation": "чистая комната",
+      "audio": [
+        "audio/phrases/clean the room.wav"
+      ]
+    },
+    {
+      "id": "wash-your-hands",
+      "english": "wash your hands",
+      "translation": "мыть руки",
+      "audio": [
+        "audio/phrases/wash your hands.wav"
+      ]
+    },
+    {
+      "id": "carry-a-bag",
+      "english": "carry a bag",
+      "translation": "нести сумку",
+      "audio": [
+        "audio/phrases/carry a bag.wav"
+      ]
+    }
+  ]
+}

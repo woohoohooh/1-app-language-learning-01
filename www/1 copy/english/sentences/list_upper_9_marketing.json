@@ -1,0 +1,367 @@
+{
+  "theme": "Маркетинг и реклама",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "marketing-connects-products-with-real-customer-needs.",
+      "english": "Marketing connects products with real customer needs.",
+      "translation": "Маркетинг связывает продукты с реальными потребностями клиентов.",
+      "audio": [
+        "audio/sentences/Marketing connects products with real customer needs..wav"
+      ]
+    },
+    {
+      "id": "advertising-influences-how-people-perceive-brands.",
+      "english": "Advertising influences how people perceive brands.",
+      "translation": "Реклама влияет на то, как люди воспринимают бренды.",
+      "audio": [
+        "audio/sentences/Advertising influences how people perceive brands..wav"
+      ]
+    },
+    {
+      "id": "a-brand-represents-trust-and-recognition.",
+      "english": "A brand represents trust and recognition.",
+      "translation": "Бренд олицетворяет доверие и узнаваемость.",
+      "audio": [
+        "audio/sentences/A brand represents trust and recognition..wav"
+      ]
+    },
+    {
+      "id": "branding-shapes-the-emotional-image-of-a-company.",
+      "english": "Branding shapes the emotional image of a company.",
+      "translation": "Брендинг формирует эмоциональный образ компании.",
+      "audio": [
+        "audio/sentences/Branding shapes the emotional image of a company..wav"
+      ]
+    },
+    {
+      "id": "awareness-often-grows-before-sales-increase.",
+      "english": "Awareness often grows before sales increase.",
+      "translation": "Узнаваемость часто растёт раньше продаж.",
+      "audio": [
+        "audio/sentences/Awareness often grows before sales increase..wav"
+      ]
+    },
+    {
+      "id": "the-campaign-targeted-multiple-digital-channels.",
+      "english": "The campaign targeted multiple digital channels.",
+      "translation": "Кампания была нацелена на несколько цифровых каналов.",
+      "audio": [
+        "audio/sentences/The campaign targeted multiple digital channels..wav"
+      ]
+    },
+    {
+      "id": "promotion-helps-attract-early-adopters.",
+      "english": "Promotion helps attract early adopters.",
+      "translation": "Продвижение помогает привлечь первых пользователей.",
+      "audio": [
+        "audio/sentences/Promotion helps attract early adopters..wav"
+      ]
+    },
+    {
+      "id": "the-launch-generated-strong-market-interest.",
+      "english": "The launch generated strong market interest.",
+      "translation": "Запуск вызвал высокий интерес рынка.",
+      "audio": [
+        "audio/sentences/The launch generated strong market interest..wav"
+      ]
+    },
+    {
+      "id": "reach-measures-how-many-people-saw-the-message.",
+      "english": "Reach measures how many people saw the message.",
+      "translation": "Охват показывает, сколько людей увидели сообщение.",
+      "audio": [
+        "audio/sentences/Reach measures how many people saw the message..wav"
+      ]
+    },
+    {
+      "id": "each-impression-increases-message-visibility.",
+      "english": "Each impression increases message visibility.",
+      "translation": "Каждый показ повышает видимость сообщения.",
+      "audio": [
+        "audio/sentences/Each impression increases message visibility..wav"
+      ]
+    },
+    {
+      "id": "understanding-the-audience-improves-communication.",
+      "english": "Understanding the audience improves communication.",
+      "translation": "Понимание аудитории улучшает коммуникацию.",
+      "audio": [
+        "audio/sentences/Understanding the audience improves communication..wav"
+      ]
+    },
+    {
+      "id": "the-target-audience-drives-creative-decisions.",
+      "english": "The target audience drives creative decisions.",
+      "translation": "Целевая аудитория определяет креативные решения.",
+      "audio": [
+        "audio/sentences/The target audience drives creative decisions..wav"
+      ]
+    },
+    {
+      "id": "each-segment-responds-to-different-messages.",
+      "english": "Each segment responds to different messages.",
+      "translation": "Каждый сегмент реагирует на разные сообщения.",
+      "audio": [
+        "audio/sentences/Each segment responds to different messages..wav"
+      ]
+    },
+    {
+      "id": "demographics-reveal-age-and-income-patterns.",
+      "english": "Demographics reveal age and income patterns.",
+      "translation": "Демография показывает возрастные и доходные закономерности.",
+      "audio": [
+        "audio/sentences/Demographics reveal age and income patterns..wav"
+      ]
+    },
+    {
+      "id": "a-persona-represents-an-ideal-customer-profile.",
+      "english": "A persona represents an ideal customer profile.",
+      "translation": "Персона представляет идеальный профиль клиента.",
+      "audio": [
+        "audio/sentences/A persona represents an ideal customer profile..wav"
+      ]
+    },
+    {
+      "id": "each-channel-requires-a-different-approach.",
+      "english": "Each channel requires a different approach.",
+      "translation": "Каждый канал требует разного подхода.",
+      "audio": [
+        "audio/sentences/Each channel requires a different approach..wav"
+      ]
+    },
+    {
+      "id": "the-platform-determines-available-ad-formats.",
+      "english": "The platform determines available ad formats.",
+      "translation": "Платформа определяет доступные рекламные форматы.",
+      "audio": [
+        "audio/sentences/The platform determines available ad formats..wav"
+      ]
+    },
+    {
+      "id": "social-media-enables-direct-brand-interaction.",
+      "english": "Social media enables direct brand interaction.",
+      "translation": "Социальные сети позволяют прямое взаимодействие с брендом.",
+      "audio": [
+        "audio/sentences/Social media enables direct brand interaction..wav"
+      ]
+    },
+    {
+      "id": "email-marketing-supports-long-term-relationships.",
+      "english": "Email marketing supports long-term relationships.",
+      "translation": "Email-маркетинг поддерживает долгосрочные отношения.",
+      "audio": [
+        "audio/sentences/Email marketing supports long-term relationships..wav"
+      ]
+    },
+    {
+      "id": "content-educates-users-before-conversion.",
+      "english": "Content educates users before conversion.",
+      "translation": "Контент обучает пользователей до конверсии.",
+      "audio": [
+        "audio/sentences/Content educates users before conversion..wav"
+      ]
+    },
+    {
+      "id": "good-copy-speaks-directly-to-customer-pain-points.",
+      "english": "Good copy speaks directly to customer pain points.",
+      "translation": "Хороший рекламный текст обращается к болям клиента.",
+      "audio": [
+        "audio/sentences/Good copy speaks directly to customer pain points..wav"
+      ]
+    },
+    {
+      "id": "the-headline-determines-whether-users-keep-reading.",
+      "english": "The headline determines whether users keep reading.",
+      "translation": "Заголовок определяет, будут ли пользователи читать дальше.",
+      "audio": [
+        "audio/sentences/The headline determines whether users keep reading..wav"
+      ]
+    },
+    {
+      "id": "the-message-must-stay-consistent-across-channels.",
+      "english": "The message must stay consistent across channels.",
+      "translation": "Сообщение должно оставаться последовательным во всех каналах.",
+      "audio": [
+        "audio/sentences/The message must stay consistent across channels..wav"
+      ]
+    },
+    {
+      "id": "visual-elements-improve-content-recognition.",
+      "english": "Visual elements improve content recognition.",
+      "translation": "Визуальные элементы улучшают узнаваемость контента.",
+      "audio": [
+        "audio/sentences/Visual elements improve content recognition..wav"
+      ]
+    },
+    {
+      "id": "creative-execution-defines-campaign-success.",
+      "english": "Creative execution defines campaign success.",
+      "translation": "Креативная реализация определяет успех кампании.",
+      "audio": [
+        "audio/sentences/Creative execution defines campaign success..wav"
+      ]
+    },
+    {
+      "id": "traffic-sources-vary-by-acquisition-channel.",
+      "english": "Traffic sources vary by acquisition channel.",
+      "translation": "Источники трафика различаются по каналам привлечения.",
+      "audio": [
+        "audio/sentences/Traffic sources vary by acquisition channel..wav"
+      ]
+    },
+    {
+      "id": "each-lead-enters-the-funnel-at-a-different-stage.",
+      "english": "Each lead enters the funnel at a different stage.",
+      "translation": "Каждый лид попадает в воронку на разном этапе.",
+      "audio": [
+        "audio/sentences/Each lead enters the funnel at a different stage..wav"
+      ]
+    },
+    {
+      "id": "lead-generation-relies-on-value-driven-offers.",
+      "english": "Lead generation relies on value-driven offers.",
+      "translation": "Лидогенерация строится на ценностных предложениях.",
+      "audio": [
+        "audio/sentences/Lead generation relies on value-driven offers..wav"
+      ]
+    },
+    {
+      "id": "conversion-rate-reflects-funnel-efficiency.",
+      "english": "Conversion rate reflects funnel efficiency.",
+      "translation": "Коэффициент конверсии отражает эффективность воронки.",
+      "audio": [
+        "audio/sentences/Conversion rate reflects funnel efficiency..wav"
+      ]
+    },
+    {
+      "id": "bounce-rate-signals-relevance-issues.",
+      "english": "Bounce rate signals relevance issues.",
+      "translation": "Показатель отказов сигнализирует о проблемах релевантности.",
+      "audio": [
+        "audio/sentences/Bounce rate signals relevance issues..wav"
+      ]
+    },
+    {
+      "id": "cost-control-is-essential-for-sustainability.",
+      "english": "Cost control is essential for sustainability.",
+      "translation": "Контроль стоимости важен для устойчивости.",
+      "audio": [
+        "audio/sentences/Cost control is essential for sustainability..wav"
+      ]
+    },
+    {
+      "id": "the-budget-defines-campaign-scale.",
+      "english": "The budget defines campaign scale.",
+      "translation": "Бюджет определяет масштаб кампании.",
+      "audio": [
+        "audio/sentences/The budget defines campaign scale..wav"
+      ]
+    },
+    {
+      "id": "roi-compares-profit-to-total-spend.",
+      "english": "ROI compares profit to total spend.",
+      "translation": "ROI сравнивает прибыль с общими затратами.",
+      "audio": [
+        "audio/sentences/ROI compares profit to total spend..wav"
+      ]
+    },
+    {
+      "id": "cpa-helps-evaluate-acquisition-efficiency.",
+      "english": "CPA helps evaluate acquisition efficiency.",
+      "translation": "CPA помогает оценить эффективность привлечения.",
+      "audio": [
+        "audio/sentences/CPA helps evaluate acquisition efficiency..wav"
+      ]
+    },
+    {
+      "id": "ctr-indicates-creative-relevance.",
+      "english": "CTR indicates creative relevance.",
+      "translation": "Кликабельность показывает релевантность креатива.",
+      "audio": [
+        "audio/sentences/CTR indicates creative relevance..wav"
+      ]
+    },
+    {
+      "id": "optimization-focuses-on-continuous-improvement.",
+      "english": "Optimization focuses on continuous improvement.",
+      "translation": "Оптимизация направлена на постоянное улучшение.",
+      "audio": [
+        "audio/sentences/Optimization focuses on continuous improvement..wav"
+      ]
+    },
+    {
+      "id": "testing-reduces-decision-making-risk.",
+      "english": "Testing reduces decision-making risk.",
+      "translation": "Тестирование снижает риск принятия решений.",
+      "audio": [
+        "audio/sentences/Testing reduces decision-making risk..wav"
+      ]
+    },
+    {
+      "id": "performance-metrics-guide-strategy-updates.",
+      "english": "Performance metrics guide strategy updates.",
+      "translation": "Показатели эффективности направляют обновление стратегии.",
+      "audio": [
+        "audio/sentences/Performance metrics guide strategy updates..wav"
+      ]
+    },
+    {
+      "id": "growth-depends-on-scalable-systems.",
+      "english": "Growth depends on scalable systems.",
+      "translation": "Рост зависит от масштабируемых систем.",
+      "audio": [
+        "audio/sentences/Growth depends on scalable systems..wav"
+      ]
+    },
+    {
+      "id": "scaling-requires-stable-unit-economics.",
+      "english": "Scaling requires stable unit economics.",
+      "translation": "Масштабирование требует устойчивой юнит-экономики.",
+      "audio": [
+        "audio/sentences/Scaling requires stable unit economics..wav"
+      ]
+    },
+    {
+      "id": "retargeting-re-engages-previous-visitors.",
+      "english": "Retargeting re-engages previous visitors.",
+      "translation": "Ретаргетинг возвращает прошлых посетителей.",
+      "audio": [
+        "audio/sentences/Retargeting re-engages previous visitors..wav"
+      ]
+    },
+    {
+      "id": "remarketing-reinforces-brand-recall.",
+      "english": "Remarketing reinforces brand recall.",
+      "translation": "Ремаркетинг усиливает запоминаемость бренда.",
+      "audio": [
+        "audio/sentences/Remarketing reinforces brand recall..wav"
+      ]
+    },
+    {
+      "id": "an-influencer-expands-audience-trust.",
+      "english": "An influencer expands audience trust.",
+      "translation": "Инфлюенсер расширяет доверие аудитории.",
+      "audio": [
+        "audio/sentences/An influencer expands audience trust..wav"
+      ]
+    },
+    {
+      "id": "partnership-creates-shared-market-value.",
+      "english": "Partnership creates shared market value.",
+      "translation": "Партнёрство создаёт совместную рыночную ценность.",
+      "audio": [
+        "audio/sentences/Partnership creates shared market value..wav"
+      ]
+    },
+    {
+      "id": "an-affiliate-earns-commission-per-action.",
+      "english": "An affiliate earns commission per action.",
+      "translation": "Аффилиат получает комиссию за действие.",
+      "audio": [
+        "audio/sentences/An affiliate earns commission per action..wav"
+      ]
+    }
+  ]
+}

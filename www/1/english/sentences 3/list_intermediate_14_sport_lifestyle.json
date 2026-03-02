@@ -1,0 +1,187 @@
+{
+  "theme": "Спорт и активный образ жизни",
+  "level": "Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "sport",
+      "translation": "спорт"
+    },
+    {
+      "english": "fitness",
+      "translation": "фитнес"
+    },
+    {
+      "english": "activity",
+      "translation": "активность"
+    },
+    {
+      "english": "lifestyle",
+      "translation": "образ жизни"
+    },
+    {
+      "english": "movement",
+      "translation": "движение"
+    },
+    {
+      "english": "training",
+      "translation": "тренировка"
+    },
+    {
+      "english": "workout",
+      "translation": "тренировка"
+    },
+    {
+      "english": "exercise",
+      "translation": "упражнение"
+    },
+    {
+      "english": "program",
+      "translation": "программа"
+    },
+    {
+      "english": "gym",
+      "translation": "спортзал"
+    },
+    {
+      "english": "equipment",
+      "translation": "оборудование"
+    },
+    {
+      "english": "treadmill",
+      "translation": "беговая дорожка"
+    },
+    {
+      "english": "mat",
+      "translation": "коврик"
+    },
+    {
+      "english": "strength",
+      "translation": "сила"
+    },
+    {
+      "english": "endurance",
+      "translation": "выносливость"
+    },
+    {
+      "english": "flexibility",
+      "translation": "гибкость"
+    },
+    {
+      "english": "balance",
+      "translation": "баланс"
+    },
+    {
+      "english": "coordination",
+      "translation": "координация"
+    },
+    {
+      "english": "running",
+      "translation": "бег"
+    },
+    {
+      "english": "jogging",
+      "translation": "лёгкий бег"
+    },
+    {
+      "english": "cycling",
+      "translation": "велоспорт"
+    },
+    {
+      "english": "swimming",
+      "translation": "плавание"
+    },
+    {
+      "english": "yoga",
+      "translation": "йога"
+    },
+    {
+      "english": "team",
+      "translation": "команда"
+    },
+    {
+      "english": "competition",
+      "translation": "соревнование"
+    },
+    {
+      "english": "match",
+      "translation": "матч"
+    },
+    {
+      "english": "tournament",
+      "translation": "турнир"
+    },
+    {
+      "english": "coach",
+      "translation": "тренер"
+    },
+    {
+      "english": "goal",
+      "translation": "цель"
+    },
+    {
+      "english": "progress",
+      "translation": "прогресс"
+    },
+    {
+      "english": "result",
+      "translation": "результат"
+    },
+    {
+      "english": "performance",
+      "translation": "результативность"
+    },
+    {
+      "english": "achievement",
+      "translation": "достижение"
+    },
+    {
+      "english": "recovery",
+      "translation": "восстановление"
+    },
+    {
+      "english": "rest",
+      "translation": "отдых"
+    },
+    {
+      "english": "stretching",
+      "translation": "растяжка"
+    },
+    {
+      "english": "warm-up",
+      "translation": "разминка"
+    },
+    {
+      "english": "cool-down",
+      "translation": "заминка"
+    },
+    {
+      "english": "steps",
+      "translation": "шаги"
+    },
+    {
+      "english": "calories",
+      "translation": "калории"
+    },
+    {
+      "english": "heart rate",
+      "translation": "пульс"
+    },
+    {
+      "english": "tracker",
+      "translation": "трекер"
+    },
+    {
+      "english": "schedule",
+      "translation": "расписание"
+    },
+    {
+      "english": "routine",
+      "translation": "режим"
+    },
+    {
+      "english": "weights",
+      "translation": "веса"
+    }
+  ]
+}

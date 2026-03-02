@@ -1,0 +1,327 @@
+{
+  "theme": "Новости и медиа",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-news-spread-very-quickly.",
+      "english": "The news spread very quickly.",
+      "translation": "Новости распространились очень быстро.",
+      "audio": [
+        "audio/sentences/The news spread very quickly..wav"
+      ]
+    },
+    {
+      "id": "media-shapes-public-opinion.",
+      "english": "Media shapes public opinion.",
+      "translation": "Медиа формируют общественное мнение.",
+      "audio": [
+        "audio/sentences/Media shapes public opinion..wav"
+      ]
+    },
+    {
+      "id": "the-press-reported-the-incident.",
+      "english": "The press reported the incident.",
+      "translation": "Пресса сообщила об инциденте.",
+      "audio": [
+        "audio/sentences/The press reported the incident..wav"
+      ]
+    },
+    {
+      "id": "journalism-requires-accuracy-and-balance.",
+      "english": "Journalism requires accuracy and balance.",
+      "translation": "Журналистика требует точности и баланса.",
+      "audio": [
+        "audio/sentences/Journalism requires accuracy and balance..wav"
+      ]
+    },
+    {
+      "id": "the-headline-shocked-many-readers.",
+      "english": "The headline shocked many readers.",
+      "translation": "Заголовок шокировал многих читателей.",
+      "audio": [
+        "audio/sentences/The headline shocked many readers..wav"
+      ]
+    },
+    {
+      "id": "the-article-explains-the-situation.",
+      "english": "The article explains the situation.",
+      "translation": "Статья объясняет ситуацию.",
+      "audio": [
+        "audio/sentences/The article explains the situation..wav"
+      ]
+    },
+    {
+      "id": "the-event-received-global-coverage.",
+      "english": "The event received global coverage.",
+      "translation": "Событие получило мировое освещение.",
+      "audio": [
+        "audio/sentences/The event received global coverage..wav"
+      ]
+    },
+    {
+      "id": "the-broadcast-aired-nationwide.",
+      "english": "The broadcast aired nationwide.",
+      "translation": "Трансляция вышла по всей стране.",
+      "audio": [
+        "audio/sentences/The broadcast aired nationwide..wav"
+      ]
+    },
+    {
+      "id": "the-publication-caused-public-debate.",
+      "english": "The publication caused public debate.",
+      "translation": "Публикация вызвала общественные споры.",
+      "audio": [
+        "audio/sentences/The publication caused public debate..wav"
+      ]
+    },
+    {
+      "id": "the-source-remained-anonymous.",
+      "english": "The source remained anonymous.",
+      "translation": "Источник остался анонимным.",
+      "audio": [
+        "audio/sentences/The source remained anonymous..wav"
+      ]
+    },
+    {
+      "id": "the-company-released-a-statement.",
+      "english": "The company released a statement.",
+      "translation": "Компания выпустила заявление.",
+      "audio": [
+        "audio/sentences/The company released a statement..wav"
+      ]
+    },
+    {
+      "id": "the-announcement-surprised-everyone.",
+      "english": "The announcement surprised everyone.",
+      "translation": "Объявление удивило всех.",
+      "audio": [
+        "audio/sentences/The announcement surprised everyone..wav"
+      ]
+    },
+    {
+      "id": "an-update-was-posted-online.",
+      "english": "An update was posted online.",
+      "translation": "Обновление было опубликовано онлайн.",
+      "audio": [
+        "audio/sentences/An update was posted online..wav"
+      ]
+    },
+    {
+      "id": "breaking-news-interrupted-the-program.",
+      "english": "Breaking news interrupted the program.",
+      "translation": "Срочные новости прервали программу.",
+      "audio": [
+        "audio/sentences/Breaking news interrupted the program..wav"
+      ]
+    },
+    {
+      "id": "the-interview-gained-wide-attention.",
+      "english": "The interview gained wide attention.",
+      "translation": "Интервью привлекло широкое внимание.",
+      "audio": [
+        "audio/sentences/The interview gained wide attention..wav"
+      ]
+    },
+    {
+      "id": "the-commentary-added-useful-context.",
+      "english": "The commentary added useful context.",
+      "translation": "Комментарий добавил полезный контекст.",
+      "audio": [
+        "audio/sentences/The commentary added useful context..wav"
+      ]
+    },
+    {
+      "id": "the-analysis-highlighted-key-trends.",
+      "english": "The analysis highlighted key trends.",
+      "translation": "Анализ выделил ключевые тенденции.",
+      "audio": [
+        "audio/sentences/The analysis highlighted key trends..wav"
+      ]
+    },
+    {
+      "id": "his-opinion-differed-from-others.",
+      "english": "His opinion differed from others.",
+      "translation": "Его мнение отличалось от других.",
+      "audio": [
+        "audio/sentences/His opinion differed from others..wav"
+      ]
+    },
+    {
+      "id": "the-editorial-criticized-the-decision.",
+      "english": "The editorial criticized the decision.",
+      "translation": "Редакционная статья раскритиковала решение.",
+      "audio": [
+        "audio/sentences/The editorial criticized the decision..wav"
+      ]
+    },
+    {
+      "id": "this-fact-changed-the-discussion.",
+      "english": "This fact changed the discussion.",
+      "translation": "Этот факт изменил обсуждение.",
+      "audio": [
+        "audio/sentences/This fact changed the discussion..wav"
+      ]
+    },
+    {
+      "id": "the-journalist-questioned-the-claim.",
+      "english": "The journalist questioned the claim.",
+      "translation": "Журналист поставил под сомнение утверждение.",
+      "audio": [
+        "audio/sentences/The journalist questioned the claim..wav"
+      ]
+    },
+    {
+      "id": "there-was-no-evidence-to-support-it.",
+      "english": "There was no evidence to support it.",
+      "translation": "Не было доказательств, чтобы это поддержать.",
+      "audio": [
+        "audio/sentences/There was no evidence to support it..wav"
+      ]
+    },
+    {
+      "id": "the-quote-sounds-different-in-context.",
+      "english": "The quote sounds different in context.",
+      "translation": "Цитата звучит иначе в контексте.",
+      "audio": [
+        "audio/sentences/The quote sounds different in context..wav"
+      ]
+    },
+    {
+      "id": "the-report-explained-the-background-clearly.",
+      "english": "The report explained the background clearly.",
+      "translation": "Отчёт ясно объяснил предысторию.",
+      "audio": [
+        "audio/sentences/The report explained the background clearly..wav"
+      ]
+    },
+    {
+      "id": "bias-can-affect-news-coverage.",
+      "english": "Bias can affect news coverage.",
+      "translation": "Предвзятость может влиять на освещение новостей.",
+      "audio": [
+        "audio/sentences/Bias can affect news coverage..wav"
+      ]
+    },
+    {
+      "id": "misinformation-spreads-very-quickly-online.",
+      "english": "Misinformation spreads very quickly online.",
+      "translation": "Дезинформация очень быстро распространяется онлайн.",
+      "audio": [
+        "audio/sentences/Misinformation spreads very quickly online..wav"
+      ]
+    },
+    {
+      "id": "disinformation-is-often-created-intentionally.",
+      "english": "Disinformation is often created intentionally.",
+      "translation": "Дезинформация часто создаётся намеренно.",
+      "audio": [
+        "audio/sentences/Disinformation is often created intentionally..wav"
+      ]
+    },
+    {
+      "id": "fake-news-can-damage-public-trust.",
+      "english": "Fake news can damage public trust.",
+      "translation": "Фейковые новости могут подрывать доверие общества.",
+      "audio": [
+        "audio/sentences/Fake news can damage public trust..wav"
+      ]
+    },
+    {
+      "id": "this-trend-dominates-the-headlines.",
+      "english": "This trend dominates the headlines.",
+      "translation": "Этот тренд доминирует в заголовках.",
+      "audio": [
+        "audio/sentences/This trend dominates the headlines..wav"
+      ]
+    },
+    {
+      "id": "public-opinion-shifted-after-the-report.",
+      "english": "Public opinion shifted after the report.",
+      "translation": "Общественное мнение изменилось после отчёта.",
+      "audio": [
+        "audio/sentences/Public opinion shifted after the report..wav"
+      ]
+    },
+    {
+      "id": "the-channel-attracts-a-young-audience.",
+      "english": "The channel attracts a young audience.",
+      "translation": "Канал привлекает молодую аудиторию.",
+      "audio": [
+        "audio/sentences/The channel attracts a young audience..wav"
+      ]
+    },
+    {
+      "id": "the-post-had-a-wide-reach.",
+      "english": "The post had a wide reach.",
+      "translation": "Пост имел большой охват.",
+      "audio": [
+        "audio/sentences/The post had a wide reach..wav"
+      ]
+    },
+    {
+      "id": "engagement-grew-after-the-update.",
+      "english": "Engagement grew after the update.",
+      "translation": "Вовлечённость выросла после обновления.",
+      "audio": [
+        "audio/sentences/Engagement grew after the update..wav"
+      ]
+    },
+    {
+      "id": "the-platform-supports-video-content.",
+      "english": "The platform supports video content.",
+      "translation": "Платформа поддерживает видеоконтент.",
+      "audio": [
+        "audio/sentences/The platform supports video content..wav"
+      ]
+    },
+    {
+      "id": "social-media-influence-daily-news.",
+      "english": "Social media influence daily news.",
+      "translation": "Социальные сети влияют на ежедневные новости.",
+      "audio": [
+        "audio/sentences/Social media influence daily news..wav"
+      ]
+    },
+    {
+      "id": "the-video-went-viral-overnight.",
+      "english": "The video went viral overnight.",
+      "translation": "Видео стало вирусным за ночь.",
+      "audio": [
+        "audio/sentences/The video went viral overnight..wav"
+      ]
+    },
+    {
+      "id": "i-refreshed-my-feed-again.",
+      "english": "I refreshed my feed again.",
+      "translation": "Я снова обновил ленту.",
+      "audio": [
+        "audio/sentences/I refreshed my feed again..wav"
+      ]
+    },
+    {
+      "id": "the-algorithm-decides-what-you-see.",
+      "english": "The algorithm decides what you see.",
+      "translation": "Алгоритм решает, что ты видишь.",
+      "audio": [
+        "audio/sentences/The algorithm decides what you see..wav"
+      ]
+    },
+    {
+      "id": "the-report-revealed-new-facts.",
+      "english": "The report revealed new facts.",
+      "translation": "Отчёт раскрыл новые факты.",
+      "audio": [
+        "audio/sentences/The report revealed new facts..wav"
+      ]
+    },
+    {
+      "id": "the-narrative-changed-over-time.",
+      "english": "The narrative changed over time.",
+      "translation": "Нарратив со временем изменился.",
+      "audio": [
+        "audio/sentences/The narrative changed over time..wav"
+      ]
+    }
+  ]
+}

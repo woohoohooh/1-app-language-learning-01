@@ -1,0 +1,375 @@
+{
+  "theme": "Работа и профессии",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "find-a-job",
+      "english": "find a job",
+      "translation": "найти работу",
+      "audio": [
+        "audio/phrases/find a job.wav"
+      ]
+    },
+    {
+      "id": "start-work-early",
+      "english": "start work early",
+      "translation": "начать работу рано",
+      "audio": [
+        "audio/phrases/start work early.wav"
+      ]
+    },
+    {
+      "id": "build-career-steps",
+      "english": "build career steps",
+      "translation": "строить карьерные шаги",
+      "audio": [
+        "audio/phrases/build career steps.wav"
+      ]
+    },
+    {
+      "id": "choose-profession",
+      "english": "choose profession",
+      "translation": "выбрать профессию",
+      "audio": [
+        "audio/phrases/choose profession.wav"
+      ]
+    },
+    {
+      "id": "current-occupation",
+      "english": "current occupation",
+      "translation": "текущий род занятий",
+      "audio": [
+        "audio/phrases/current occupation.wav"
+      ]
+    },
+    {
+      "id": "new-employee",
+      "english": "new employee",
+      "translation": "новый сотрудник",
+      "audio": [
+        "audio/phrases/new employee.wav"
+      ]
+    },
+    {
+      "id": "trusted-employer",
+      "english": "trusted employer",
+      "translation": "надёжный работодатель",
+      "audio": [
+        "audio/phrases/trusted employer.wav"
+      ]
+    },
+    {
+      "id": "helpful-colleague",
+      "english": "helpful colleague",
+      "translation": "полезный коллега",
+      "audio": [
+        "audio/phrases/helpful colleague.wav"
+      ]
+    },
+    {
+      "id": "experienced-manager",
+      "english": "experienced manager",
+      "translation": "опытный менеджер",
+      "audio": [
+        "audio/phrases/experienced manager.wav"
+      ]
+    },
+    {
+      "id": "strict-supervisor",
+      "english": "strict supervisor",
+      "translation": "строгий руководитель",
+      "audio": [
+        "audio/phrases/strict supervisor.wav"
+      ]
+    },
+    {
+      "id": "open-position",
+      "english": "open position",
+      "translation": "открытая должность",
+      "audio": [
+        "audio/phrases/open position.wav"
+      ]
+    },
+    {
+      "id": "important-role",
+      "english": "important role",
+      "translation": "важная роль",
+      "audio": [
+        "audio/phrases/important role.wav"
+      ]
+    },
+    {
+      "id": "take-responsibility",
+      "english": "take responsibility",
+      "translation": "взять ответственность",
+      "audio": [
+        "audio/phrases/take responsibility.wav"
+      ]
+    },
+    {
+      "id": "daily-duty",
+      "english": "daily duty",
+      "translation": "ежедневная обязанность",
+      "audio": [
+        "audio/phrases/daily duty.wav"
+      ]
+    },
+    {
+      "id": "finish-task-quickly",
+      "english": "finish task quickly",
+      "translation": "быстро выполнить задачу",
+      "audio": [
+        "audio/phrases/finish task quickly.wav"
+      ]
+    },
+    {
+      "id": "gain-experience",
+      "english": "gain experience",
+      "translation": "получить опыт",
+      "audio": [
+        "audio/phrases/gain experience.wav"
+      ]
+    },
+    {
+      "id": "high-qualification",
+      "english": "high qualification",
+      "translation": "высокая квалификация",
+      "audio": [
+        "audio/phrases/high qualification.wav"
+      ]
+    },
+    {
+      "id": "improve-skills",
+      "english": "improve skills",
+      "translation": "улучшить навыки",
+      "audio": [
+        "audio/phrases/improve skills.wav"
+      ]
+    },
+    {
+      "id": "strong-background",
+      "english": "strong background",
+      "translation": "сильный опыт",
+      "audio": [
+        "audio/phrases/strong background.wav"
+      ]
+    },
+    {
+      "id": "high-salary",
+      "english": "high salary",
+      "translation": "высокая зарплата",
+      "audio": [
+        "audio/phrases/high salary.wav"
+      ]
+    },
+    {
+      "id": "hourly-wage",
+      "english": "hourly wage",
+      "translation": "почасовая оплата труда",
+      "audio": [
+        "audio/phrases/hourly wage.wav"
+      ]
+    },
+    {
+      "id": "earn-income",
+      "english": "earn income",
+      "translation": "зарабатывать доход",
+      "audio": [
+        "audio/phrases/earn income.wav"
+      ]
+    },
+    {
+      "id": "get-a-bonus",
+      "english": "get a bonus",
+      "translation": "получить премию",
+      "audio": [
+        "audio/phrases/get a bonus.wav"
+      ]
+    },
+    {
+      "id": "employee-benefits",
+      "english": "employee benefits",
+      "translation": "льготы сотрудника",
+      "audio": [
+        "audio/phrases/employee benefits.wav"
+      ]
+    },
+    {
+      "id": "set-a-schedule",
+      "english": "set a schedule",
+      "translation": "установить график",
+      "audio": [
+        "audio/phrases/set a schedule.wav"
+      ]
+    },
+    {
+      "id": "night-shift",
+      "english": "night shift",
+      "translation": "ночная смена",
+      "audio": [
+        "audio/phrases/night shift.wav"
+      ]
+    },
+    {
+      "id": "heavy-workload",
+      "english": "heavy workload",
+      "translation": "большая нагрузка",
+      "audio": [
+        "audio/phrases/heavy workload.wav"
+      ]
+    },
+    {
+      "id": "meet-deadline",
+      "english": "meet deadline",
+      "translation": "успеть к сроку",
+      "audio": [
+        "audio/phrases/meet deadline.wav"
+      ]
+    },
+    {
+      "id": "work-overtime",
+      "english": "work overtime",
+      "translation": "работать сверхурочно",
+      "audio": [
+        "audio/phrases/work overtime.wav"
+      ]
+    },
+    {
+      "id": "full-time-job",
+      "english": "full-time job",
+      "translation": "работа на полный день",
+      "audio": [
+        "audio/phrases/full-time job.wav"
+      ]
+    },
+    {
+      "id": "part-time-work",
+      "english": "part-time work",
+      "translation": "работа с неполным днем",
+      "audio": [
+        "audio/phrases/part-time work.wav"
+      ]
+    },
+    {
+      "id": "freelance-projects",
+      "english": "freelance projects",
+      "translation": "фриланс-проекты",
+      "audio": [
+        "audio/phrases/freelance projects.wav"
+      ]
+    },
+    {
+      "id": "sign-contract",
+      "english": "sign contract",
+      "translation": "подписать контракт",
+      "audio": [
+        "audio/phrases/sign contract.wav"
+      ]
+    },
+    {
+      "id": "temporary-staff",
+      "english": "temporary staff",
+      "translation": "временный персонал",
+      "audio": [
+        "audio/phrases/temporary staff.wav"
+      ]
+    },
+    {
+      "id": "hire-people",
+      "english": "hire people",
+      "translation": "нанимать людей",
+      "audio": [
+        "audio/phrases/hire people.wav"
+      ]
+    },
+    {
+      "id": "fire-staff",
+      "english": "fire staff",
+      "translation": "уволить персонал",
+      "audio": [
+        "audio/phrases/fire staff.wav"
+      ]
+    },
+    {
+      "id": "quit-job",
+      "english": "quit job",
+      "translation": "уволиться с работы",
+      "audio": [
+        "audio/phrases/quit job.wav"
+      ]
+    },
+    {
+      "id": "get-promotion",
+      "english": "get promotion",
+      "translation": "получить повышение",
+      "audio": [
+        "audio/phrases/get promotion.wav"
+      ]
+    },
+    {
+      "id": "face-demotion",
+      "english": "face demotion",
+      "translation": "столкнуться с понижением",
+      "audio": [
+        "audio/phrases/face demotion.wav"
+      ]
+    },
+    {
+      "id": "update-resume",
+      "english": "update resume",
+      "translation": "обновить резюме",
+      "audio": [
+        "audio/phrases/update resume.wav"
+      ]
+    },
+    {
+      "id": "send-cv",
+      "english": "send CV",
+      "translation": "отправить резюме",
+      "audio": [
+        "audio/phrases/send CV.wav"
+      ]
+    },
+    {
+      "id": "job-interview",
+      "english": "job interview",
+      "translation": "собеседование на работу",
+      "audio": [
+        "audio/phrases/job interview.wav"
+      ]
+    },
+    {
+      "id": "open-vacancy",
+      "english": "open vacancy",
+      "translation": "открытая вакансия",
+      "audio": [
+        "audio/phrases/open vacancy.wav"
+      ]
+    },
+    {
+      "id": "submit-application",
+      "english": "submit application",
+      "translation": "подать заявку",
+      "audio": [
+        "audio/phrases/submit application.wav"
+      ]
+    },
+    {
+      "id": "technical-expertise",
+      "english": "technical expertise",
+      "translation": "технические профессиональные знания",
+      "audio": [
+        "audio/phrases/technical expertise.wav"
+      ]
+    },
+    {
+      "id": "employee-benefits",
+      "english": "employee benefits",
+      "translation": "льготы сотрудника",
+      "audio": [
+        "audio/phrases/employee benefits.wav"
+      ]
+    }
+  ]
+}

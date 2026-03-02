@@ -1,0 +1,327 @@
+{
+  "theme": "Общество и современный мир",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "society",
+      "english": "society",
+      "translation": "общество",
+      "audio": [
+        "audio/words/society.wav"
+      ]
+    },
+    {
+      "id": "community",
+      "english": "community",
+      "translation": "сообщество",
+      "audio": [
+        "audio/words/community.wav"
+      ]
+    },
+    {
+      "id": "population",
+      "english": "population",
+      "translation": "население",
+      "audio": [
+        "audio/words/population.wav"
+      ]
+    },
+    {
+      "id": "generation",
+      "english": "generation",
+      "translation": "поколение",
+      "audio": [
+        "audio/words/generation.wav"
+      ]
+    },
+    {
+      "id": "culture",
+      "english": "culture",
+      "translation": "культура",
+      "audio": [
+        "audio/words/culture.wav"
+      ]
+    },
+    {
+      "id": "values",
+      "english": "values",
+      "translation": "ценности",
+      "audio": [
+        "audio/words/values.wav"
+      ]
+    },
+    {
+      "id": "norms",
+      "english": "norms",
+      "translation": "социальные нормы",
+      "audio": [
+        "audio/words/norms.wav"
+      ]
+    },
+    {
+      "id": "identity",
+      "english": "identity",
+      "translation": "идентичность",
+      "audio": [
+        "audio/words/identity.wav"
+      ]
+    },
+    {
+      "id": "diversity",
+      "english": "diversity",
+      "translation": "разнообразие",
+      "audio": [
+        "audio/words/diversity.wav"
+      ]
+    },
+    {
+      "id": "inclusion",
+      "english": "inclusion",
+      "translation": "инклюзивность",
+      "audio": [
+        "audio/words/inclusion.wav"
+      ]
+    },
+    {
+      "id": "inequality",
+      "english": "inequality",
+      "translation": "неравенство",
+      "audio": [
+        "audio/words/inequality.wav"
+      ]
+    },
+    {
+      "id": "opportunity",
+      "english": "opportunity",
+      "translation": "возможность",
+      "audio": [
+        "audio/words/opportunity.wav"
+      ]
+    },
+    {
+      "id": "access",
+      "english": "access",
+      "translation": "доступ",
+      "audio": [
+        "audio/words/access.wav"
+      ]
+    },
+    {
+      "id": "standard-of-living",
+      "english": "standard of living",
+      "translation": "уровень жизни",
+      "audio": [
+        "audio/words/standard of living.wav"
+      ]
+    },
+    {
+      "id": "quality-of-life",
+      "english": "quality of life",
+      "translation": "качество жизни",
+      "audio": [
+        "audio/words/quality of life.wav"
+      ]
+    },
+    {
+      "id": "globalization",
+      "english": "globalization",
+      "translation": "глобализация",
+      "audio": [
+        "audio/words/globalization.wav"
+      ]
+    },
+    {
+      "id": "urbanization",
+      "english": "urbanization",
+      "translation": "урбанизация",
+      "audio": [
+        "audio/words/urbanization.wav"
+      ]
+    },
+    {
+      "id": "migration",
+      "english": "migration",
+      "translation": "миграция",
+      "audio": [
+        "audio/words/migration.wav"
+      ]
+    },
+    {
+      "id": "demographics",
+      "english": "demographics",
+      "translation": "демография",
+      "audio": [
+        "audio/words/demographics.wav"
+      ]
+    },
+    {
+      "id": "middle-class",
+      "english": "middle class",
+      "translation": "средний класс",
+      "audio": [
+        "audio/words/middle class.wav"
+      ]
+    },
+    {
+      "id": "technology",
+      "english": "technology",
+      "translation": "технологии",
+      "audio": [
+        "audio/words/technology.wav"
+      ]
+    },
+    {
+      "id": "digitalization",
+      "english": "digitalization",
+      "translation": "цифровизация",
+      "audio": [
+        "audio/words/digitalization.wav"
+      ]
+    },
+    {
+      "id": "automation",
+      "english": "automation",
+      "translation": "автоматизация",
+      "audio": [
+        "audio/words/automation.wav"
+      ]
+    },
+    {
+      "id": "artificial-intelligence",
+      "english": "artificial intelligence",
+      "translation": "искусственный интеллект",
+      "audio": [
+        "audio/words/artificial intelligence.wav"
+      ]
+    },
+    {
+      "id": "social-impact",
+      "english": "social impact",
+      "translation": "социальное влияние",
+      "audio": [
+        "audio/words/social impact.wav"
+      ]
+    },
+    {
+      "id": "media",
+      "english": "media",
+      "translation": "медиа",
+      "audio": [
+        "audio/words/media.wav"
+      ]
+    },
+    {
+      "id": "information",
+      "english": "information",
+      "translation": "информация",
+      "audio": [
+        "audio/words/information.wav"
+      ]
+    },
+    {
+      "id": "misinformation",
+      "english": "misinformation",
+      "translation": "дезинформация",
+      "audio": [
+        "audio/words/misinformation.wav"
+      ]
+    },
+    {
+      "id": "public-opinion",
+      "english": "public opinion",
+      "translation": "общественное мнение",
+      "audio": [
+        "audio/words/public opinion.wav"
+      ]
+    },
+    {
+      "id": "trust",
+      "english": "trust",
+      "translation": "доверие",
+      "audio": [
+        "audio/words/trust.wav"
+      ]
+    },
+    {
+      "id": "climate-change",
+      "english": "climate change",
+      "translation": "изменение климата",
+      "audio": [
+        "audio/words/climate change.wav"
+      ]
+    },
+    {
+      "id": "environment",
+      "english": "environment",
+      "translation": "окружающая среда",
+      "audio": [
+        "audio/words/environment.wav"
+      ]
+    },
+    {
+      "id": "sustainability",
+      "english": "sustainability",
+      "translation": "устойчивое развитие",
+      "audio": [
+        "audio/words/sustainability.wav"
+      ]
+    },
+    {
+      "id": "resources",
+      "english": "resources",
+      "translation": "ресурсы",
+      "audio": [
+        "audio/words/resources.wav"
+      ]
+    },
+    {
+      "id": "energy",
+      "english": "energy",
+      "translation": "энергия",
+      "audio": [
+        "audio/words/energy.wav"
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "english": "lifestyle",
+      "translation": "образ жизни",
+      "audio": [
+        "audio/words/lifestyle.wav"
+      ]
+    },
+    {
+      "id": "work-life-balance",
+      "english": "work-life balance",
+      "translation": "баланс работы и жизни",
+      "audio": [
+        "audio/words/work-life balance.wav"
+      ]
+    },
+    {
+      "id": "consumerism",
+      "english": "consumerism",
+      "translation": "потребительство",
+      "audio": [
+        "audio/words/consumerism.wav"
+      ]
+    },
+    {
+      "id": "social-change",
+      "english": "social change",
+      "translation": "социальные изменения",
+      "audio": [
+        "audio/words/social change.wav"
+      ]
+    },
+    {
+      "id": "future",
+      "english": "future",
+      "translation": "будущее",
+      "audio": [
+        "audio/words/future.wav"
+      ]
+    }
+  ]
+}

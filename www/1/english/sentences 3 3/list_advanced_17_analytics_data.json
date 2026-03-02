@@ -1,0 +1,367 @@
+{
+  "theme": "Аналитика и данные",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "data",
+      "english": "data",
+      "translation": "данные",
+      "audio": [
+        "audio/words/data.wav"
+      ]
+    },
+    {
+      "id": "analytics",
+      "english": "analytics",
+      "translation": "аналитика",
+      "audio": [
+        "audio/words/analytics.wav"
+      ]
+    },
+    {
+      "id": "dataset",
+      "english": "dataset",
+      "translation": "набор данных",
+      "audio": [
+        "audio/words/dataset.wav"
+      ]
+    },
+    {
+      "id": "database",
+      "english": "database",
+      "translation": "база данных",
+      "audio": [
+        "audio/words/database.wav"
+      ]
+    },
+    {
+      "id": "table",
+      "english": "table",
+      "translation": "таблица",
+      "audio": [
+        "audio/words/table.wav"
+      ]
+    },
+    {
+      "id": "record",
+      "english": "record",
+      "translation": "запись",
+      "audio": [
+        "audio/words/record.wav"
+      ]
+    },
+    {
+      "id": "field",
+      "english": "field",
+      "translation": "поле",
+      "audio": [
+        "audio/words/field.wav"
+      ]
+    },
+    {
+      "id": "column",
+      "english": "column",
+      "translation": "столбец",
+      "audio": [
+        "audio/words/column.wav"
+      ]
+    },
+    {
+      "id": "row",
+      "english": "row",
+      "translation": "строка",
+      "audio": [
+        "audio/words/row.wav"
+      ]
+    },
+    {
+      "id": "value",
+      "english": "value",
+      "translation": "значение",
+      "audio": [
+        "audio/words/value.wav"
+      ]
+    },
+    {
+      "id": "metric",
+      "english": "metric",
+      "translation": "метрика",
+      "audio": [
+        "audio/words/metric.wav"
+      ]
+    },
+    {
+      "id": "kpi",
+      "english": "KPI",
+      "translation": "ключевой показатель",
+      "audio": [
+        "audio/words/KPI.wav"
+      ]
+    },
+    {
+      "id": "indicator",
+      "english": "indicator",
+      "translation": "показатель",
+      "audio": [
+        "audio/words/indicator.wav"
+      ]
+    },
+    {
+      "id": "measurement",
+      "english": "measurement",
+      "translation": "измерение",
+      "audio": [
+        "audio/words/measurement.wav"
+      ]
+    },
+    {
+      "id": "benchmark",
+      "english": "benchmark",
+      "translation": "бенчмарк",
+      "audio": [
+        "audio/words/benchmark.wav"
+      ]
+    },
+    {
+      "id": "trend",
+      "english": "trend",
+      "translation": "тренд",
+      "audio": [
+        "audio/words/trend.wav"
+      ]
+    },
+    {
+      "id": "pattern",
+      "english": "pattern",
+      "translation": "закономерность",
+      "audio": [
+        "audio/words/pattern.wav"
+      ]
+    },
+    {
+      "id": "correlation",
+      "english": "correlation",
+      "translation": "корреляция",
+      "audio": [
+        "audio/words/correlation.wav"
+      ]
+    },
+    {
+      "id": "distribution",
+      "english": "distribution",
+      "translation": "распределение",
+      "audio": [
+        "audio/words/distribution.wav"
+      ]
+    },
+    {
+      "id": "variance",
+      "english": "variance",
+      "translation": "дисперсия",
+      "audio": [
+        "audio/words/variance.wav"
+      ]
+    },
+    {
+      "id": "average",
+      "english": "average",
+      "translation": "среднее значение",
+      "audio": [
+        "audio/words/average.wav"
+      ]
+    },
+    {
+      "id": "median",
+      "english": "median",
+      "translation": "медиана",
+      "audio": [
+        "audio/words/median.wav"
+      ]
+    },
+    {
+      "id": "outlier",
+      "english": "outlier",
+      "translation": "выброс",
+      "audio": [
+        "audio/words/outlier.wav"
+      ]
+    },
+    {
+      "id": "sample",
+      "english": "sample",
+      "translation": "выборка",
+      "audio": [
+        "audio/words/sample.wav"
+      ]
+    },
+    {
+      "id": "population",
+      "english": "population",
+      "translation": "генеральная совокупность",
+      "audio": [
+        "audio/words/population.wav"
+      ]
+    },
+    {
+      "id": "analysis",
+      "english": "analysis",
+      "translation": "анализ",
+      "audio": [
+        "audio/words/analysis.wav"
+      ]
+    },
+    {
+      "id": "insight",
+      "english": "insight",
+      "translation": "инсайт",
+      "audio": [
+        "audio/words/insight.wav"
+      ]
+    },
+    {
+      "id": "interpretation",
+      "english": "interpretation",
+      "translation": "интерпретация",
+      "audio": [
+        "audio/words/interpretation.wav"
+      ]
+    },
+    {
+      "id": "hypothesis",
+      "english": "hypothesis",
+      "translation": "гипотеза",
+      "audio": [
+        "audio/words/hypothesis.wav"
+      ]
+    },
+    {
+      "id": "validation",
+      "english": "validation",
+      "translation": "валидация",
+      "audio": [
+        "audio/words/validation.wav"
+      ]
+    },
+    {
+      "id": "dashboard",
+      "english": "dashboard",
+      "translation": "дашборд",
+      "audio": [
+        "audio/words/dashboard.wav"
+      ]
+    },
+    {
+      "id": "report",
+      "english": "report",
+      "translation": "отчёт",
+      "audio": [
+        "audio/words/report.wav"
+      ]
+    },
+    {
+      "id": "visualization",
+      "english": "visualization",
+      "translation": "визуализация",
+      "audio": [
+        "audio/words/visualization.wav"
+      ]
+    },
+    {
+      "id": "chart",
+      "english": "chart",
+      "translation": "график",
+      "audio": [
+        "audio/words/chart.wav"
+      ]
+    },
+    {
+      "id": "diagram",
+      "english": "diagram",
+      "translation": "диаграмма",
+      "audio": [
+        "audio/words/diagram.wav"
+      ]
+    },
+    {
+      "id": "query",
+      "english": "query",
+      "translation": "запрос",
+      "audio": [
+        "audio/words/query.wav"
+      ]
+    },
+    {
+      "id": "filter",
+      "english": "filter",
+      "translation": "фильтр",
+      "audio": [
+        "audio/words/filter.wav"
+      ]
+    },
+    {
+      "id": "aggregation",
+      "english": "aggregation",
+      "translation": "агрегация",
+      "audio": [
+        "audio/words/aggregation.wav"
+      ]
+    },
+    {
+      "id": "segmentation",
+      "english": "segmentation",
+      "translation": "сегментация",
+      "audio": [
+        "audio/words/segmentation.wav"
+      ]
+    },
+    {
+      "id": "pipeline",
+      "english": "pipeline",
+      "translation": "конвейер данных",
+      "audio": [
+        "audio/words/pipeline.wav"
+      ]
+    },
+    {
+      "id": "data-quality",
+      "english": "data quality",
+      "translation": "качество данных",
+      "audio": [
+        "audio/words/data quality.wav"
+      ]
+    },
+    {
+      "id": "data-source",
+      "english": "data source",
+      "translation": "источник данных",
+      "audio": [
+        "audio/words/data source.wav"
+      ]
+    },
+    {
+      "id": "raw-data",
+      "english": "raw data",
+      "translation": "сырые данные",
+      "audio": [
+        "audio/words/raw data.wav"
+      ]
+    },
+    {
+      "id": "processed-data",
+      "english": "processed data",
+      "translation": "обработанные данные",
+      "audio": [
+        "audio/words/processed data.wav"
+      ]
+    },
+    {
+      "id": "data-integrity",
+      "english": "data integrity",
+      "translation": "целостность данных",
+      "audio": [
+        "audio/words/data integrity.wav"
+      ]
+    }
+  ]
+}

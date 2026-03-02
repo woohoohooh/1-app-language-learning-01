@@ -1,0 +1,255 @@
+{
+  "theme": "Цифры, количество, размеры",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "zero",
+      "english": "zero",
+      "translation": "ноль",
+      "audio": [
+        "audio/words/zero.wav"
+      ]
+    },
+    {
+      "id": "one",
+      "english": "one",
+      "translation": "один",
+      "audio": [
+        "audio/words/one.wav"
+      ]
+    },
+    {
+      "id": "two",
+      "english": "two",
+      "translation": "два",
+      "audio": [
+        "audio/words/two.wav"
+      ]
+    },
+    {
+      "id": "three",
+      "english": "three",
+      "translation": "три",
+      "audio": [
+        "audio/words/three.wav"
+      ]
+    },
+    {
+      "id": "four",
+      "english": "four",
+      "translation": "четыре",
+      "audio": [
+        "audio/words/four.wav"
+      ]
+    },
+    {
+      "id": "five",
+      "english": "five",
+      "translation": "пять",
+      "audio": [
+        "audio/words/five.wav"
+      ]
+    },
+    {
+      "id": "six",
+      "english": "six",
+      "translation": "шесть",
+      "audio": [
+        "audio/words/six.wav"
+      ]
+    },
+    {
+      "id": "seven",
+      "english": "seven",
+      "translation": "семь",
+      "audio": [
+        "audio/words/seven.wav"
+      ]
+    },
+    {
+      "id": "eight",
+      "english": "eight",
+      "translation": "восемь",
+      "audio": [
+        "audio/words/eight.wav"
+      ]
+    },
+    {
+      "id": "nine",
+      "english": "nine",
+      "translation": "девять",
+      "audio": [
+        "audio/words/nine.wav"
+      ]
+    },
+    {
+      "id": "ten",
+      "english": "ten",
+      "translation": "десять",
+      "audio": [
+        "audio/words/ten.wav"
+      ]
+    },
+    {
+      "id": "many",
+      "english": "many",
+      "translation": "много",
+      "audio": [
+        "audio/words/many.wav"
+      ]
+    },
+    {
+      "id": "much",
+      "english": "much",
+      "translation": "много",
+      "audio": [
+        "audio/words/much.wav"
+      ]
+    },
+    {
+      "id": "few",
+      "english": "few",
+      "translation": "мало",
+      "audio": [
+        "audio/words/few.wav"
+      ]
+    },
+    {
+      "id": "little",
+      "english": "little",
+      "translation": "мало",
+      "audio": [
+        "audio/words/little.wav"
+      ]
+    },
+    {
+      "id": "all",
+      "english": "all",
+      "translation": "все",
+      "audio": [
+        "audio/words/all.wav"
+      ]
+    },
+    {
+      "id": "more",
+      "english": "more",
+      "translation": "больше",
+      "audio": [
+        "audio/words/more.wav"
+      ]
+    },
+    {
+      "id": "less",
+      "english": "less",
+      "translation": "меньше",
+      "audio": [
+        "audio/words/less.wav"
+      ]
+    },
+    {
+      "id": "enough",
+      "english": "enough",
+      "translation": "достаточно",
+      "audio": [
+        "audio/words/enough.wav"
+      ]
+    },
+    {
+      "id": "big",
+      "english": "big",
+      "translation": "большой",
+      "audio": [
+        "audio/words/big.wav"
+      ]
+    },
+    {
+      "id": "small",
+      "english": "small",
+      "translation": "маленький",
+      "audio": [
+        "audio/words/small.wav"
+      ]
+    },
+    {
+      "id": "large",
+      "english": "large",
+      "translation": "большой",
+      "audio": [
+        "audio/words/large.wav"
+      ]
+    },
+    {
+      "id": "long",
+      "english": "long",
+      "translation": "длинный",
+      "audio": [
+        "audio/words/long.wav"
+      ]
+    },
+    {
+      "id": "high",
+      "english": "high",
+      "translation": "высокий",
+      "audio": [
+        "audio/words/high.wav"
+      ]
+    },
+    {
+      "id": "low",
+      "english": "low",
+      "translation": "низкий",
+      "audio": [
+        "audio/words/low.wav"
+      ]
+    },
+    {
+      "id": "size",
+      "english": "size",
+      "translation": "размер",
+      "audio": [
+        "audio/words/size.wav"
+      ]
+    },
+    {
+      "id": "amount",
+      "english": "amount",
+      "translation": "количество",
+      "audio": [
+        "audio/words/amount.wav"
+      ]
+    },
+    {
+      "id": "number",
+      "english": "number",
+      "translation": "число",
+      "audio": [
+        "audio/words/number.wav"
+      ]
+    },
+    {
+      "id": "some",
+      "english": "some",
+      "translation": "несколько",
+      "audio": [
+        "audio/words/some.wav"
+      ]
+    },
+    {
+      "id": "none",
+      "english": "none",
+      "translation": "ничего",
+      "audio": [
+        "audio/words/none.wav"
+      ]
+    },
+    {
+      "id": "short",
+      "english": "short",
+      "translation": "короткий",
+      "audio": [
+        "audio/words/short.wav"
+      ]
+    }
+  ]
+}

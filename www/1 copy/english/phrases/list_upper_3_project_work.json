@@ -1,0 +1,407 @@
+{
+  "theme": "Проектная работа и задачи",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "project-timeline",
+      "english": "project timeline",
+      "translation": "сроки проекта",
+      "audio": [
+        "audio/phrases/project timeline.wav"
+      ]
+    },
+    {
+      "id": "new-initiative-launched",
+      "english": "new initiative launched",
+      "translation": "запущена новая инициатива",
+      "audio": [
+        "audio/phrases/new initiative launched.wav"
+      ]
+    },
+    {
+      "id": "define-the-scope",
+      "english": "define the scope",
+      "translation": "определить объём работ",
+      "audio": [
+        "audio/phrases/define the scope.wav"
+      ]
+    },
+    {
+      "id": "clear-objective-set",
+      "english": "clear objective set",
+      "translation": "поставлена чёткая цель",
+      "audio": [
+        "audio/phrases/clear objective set.wav"
+      ]
+    },
+    {
+      "id": "expected-outcome-defined",
+      "english": "expected outcome defined",
+      "translation": "ожидаемый результат определён",
+      "audio": [
+        "audio/phrases/expected outcome defined.wav"
+      ]
+    },
+    {
+      "id": "complete-the-task",
+      "english": "complete the task",
+      "translation": "выполнить задачу",
+      "audio": [
+        "audio/phrases/complete the task.wav"
+      ]
+    },
+    {
+      "id": "break-into-subtasks",
+      "english": "break into subtasks",
+      "translation": "разбить на подзадачи",
+      "audio": [
+        "audio/phrases/break into subtasks.wav"
+      ]
+    },
+    {
+      "id": "new-assignment-received",
+      "english": "new assignment received",
+      "translation": "получено новое поручение",
+      "audio": [
+        "audio/phrases/new assignment received.wav"
+      ]
+    },
+    {
+      "id": "prioritized-backlog-items",
+      "english": "prioritized backlog items",
+      "translation": "приоритизированные задачи бэклога",
+      "audio": [
+        "audio/phrases/prioritized backlog items.wav"
+      ]
+    },
+    {
+      "id": "set-task-priority",
+      "english": "set task priority",
+      "translation": "задать приоритет задачи",
+      "audio": [
+        "audio/phrases/set task priority.wav"
+      ]
+    },
+    {
+      "id": "early-planning-phase",
+      "english": "early planning phase",
+      "translation": "этап раннего планирования",
+      "audio": [
+        "audio/phrases/early planning phase.wav"
+      ]
+    },
+    {
+      "id": "time-estimation-accuracy",
+      "english": "time estimation accuracy",
+      "translation": "точность оценки времени",
+      "audio": [
+        "audio/phrases/time estimation accuracy.wav"
+      ]
+    },
+    {
+      "id": "work-breakdown-structure",
+      "english": "work breakdown structure",
+      "translation": "структура декомпозиции работ",
+      "audio": [
+        "audio/phrases/work breakdown structure.wav"
+      ]
+    },
+    {
+      "id": "critical-dependency-identified",
+      "english": "critical dependency identified",
+      "translation": "выявлена критическая зависимость",
+      "audio": [
+        "audio/phrases/critical dependency identified.wav"
+      ]
+    },
+    {
+      "id": "logical-task-sequence",
+      "english": "logical task sequence",
+      "translation": "логичная последовательность задач",
+      "audio": [
+        "audio/phrases/logical task sequence.wav"
+      ]
+    },
+    {
+      "id": "execution-phase-begins",
+      "english": "execution phase begins",
+      "translation": "начинается этап выполнения",
+      "audio": [
+        "audio/phrases/execution phase begins.wav"
+      ]
+    },
+    {
+      "id": "implementation-details-matter",
+      "english": "implementation details matter",
+      "translation": "детали реализации важны",
+      "audio": [
+        "audio/phrases/implementation details matter.wav"
+      ]
+    },
+    {
+      "id": "steady-progress-observed",
+      "english": "steady progress observed",
+      "translation": "наблюдается стабильный прогресс",
+      "audio": [
+        "audio/phrases/steady progress observed.wav"
+      ]
+    },
+    {
+      "id": "current-project-status",
+      "english": "current project status",
+      "translation": "текущий статус проекта",
+      "audio": [
+        "audio/phrases/current project status.wav"
+      ]
+    },
+    {
+      "id": "successful-task-completion",
+      "english": "successful task completion",
+      "translation": "успешное завершение задачи",
+      "audio": [
+        "audio/phrases/successful task completion.wav"
+      ]
+    },
+    {
+      "id": "approaching-deadline-pressure",
+      "english": "approaching deadline pressure",
+      "translation": "приближающийся дедлайн",
+      "audio": [
+        "audio/phrases/approaching deadline pressure.wav"
+      ]
+    },
+    {
+      "id": "unexpected-delay-occurred",
+      "english": "unexpected delay occurred",
+      "translation": "произошла неожиданная задержка",
+      "audio": [
+        "audio/phrases/unexpected delay occurred.wav"
+      ]
+    },
+    {
+      "id": "critical-blocker-found",
+      "english": "critical blocker found",
+      "translation": "обнаружен критический блокер",
+      "audio": [
+        "audio/phrases/critical blocker found.wav"
+      ]
+    },
+    {
+      "id": "process-bottleneck-identified",
+      "english": "process bottleneck identified",
+      "translation": "выявлено узкое место",
+      "audio": [
+        "audio/phrases/process bottleneck identified.wav"
+      ]
+    },
+    {
+      "id": "task-overlap-detected",
+      "english": "task overlap detected",
+      "translation": "обнаружено пересечение задач",
+      "audio": [
+        "audio/phrases/task overlap detected.wav"
+      ]
+    },
+    {
+      "id": "limited-resources-available",
+      "english": "limited resources available",
+      "translation": "доступны ограниченные ресурсы",
+      "audio": [
+        "audio/phrases/limited resources available.wav"
+      ]
+    },
+    {
+      "id": "resource-allocation-plan",
+      "english": "resource allocation plan",
+      "translation": "план распределения ресурсов",
+      "audio": [
+        "audio/phrases/resource allocation plan.wav"
+      ]
+    },
+    {
+      "id": "team-capacity-limit",
+      "english": "team capacity limit",
+      "translation": "предел загруженности команды",
+      "audio": [
+        "audio/phrases/team capacity limit.wav"
+      ]
+    },
+    {
+      "id": "balanced-workload-matters",
+      "english": "balanced workload matters",
+      "translation": "важна сбалансированная нагрузка",
+      "audio": [
+        "audio/phrases/balanced workload matters.wav"
+      ]
+    },
+    {
+      "id": "resource-availability-check",
+      "english": "resource availability check",
+      "translation": "проверка доступности ресурсов",
+      "audio": [
+        "audio/phrases/resource availability check.wav"
+      ]
+    },
+    {
+      "id": "assess-project-risk",
+      "english": "assess project risk",
+      "translation": "оценить риск проекта",
+      "audio": [
+        "audio/phrases/assess project risk.wav"
+      ]
+    },
+    {
+      "id": "budget-constraint-applied",
+      "english": "budget constraint applied",
+      "translation": "применено бюджетное ограничение",
+      "audio": [
+        "audio/phrases/budget constraint applied.wav"
+      ]
+    },
+    {
+      "id": "initial-assumption-proved",
+      "english": "initial assumption proved",
+      "translation": "первоначальное допущение подтвердилось",
+      "audio": [
+        "audio/phrases/initial assumption proved.wav"
+      ]
+    },
+    {
+      "id": "high-impact-change",
+      "english": "high impact change",
+      "translation": "изменение с высоким влиянием",
+      "audio": [
+        "audio/phrases/high impact change.wav"
+      ]
+    },
+    {
+      "id": "risk-mitigation-plan",
+      "english": "risk mitigation plan",
+      "translation": "план снижения рисков",
+      "audio": [
+        "audio/phrases/risk mitigation plan.wav"
+      ]
+    },
+    {
+      "id": "final-review-stage",
+      "english": "final review stage",
+      "translation": "этап финального обзора",
+      "audio": [
+        "audio/phrases/final review stage.wav"
+      ]
+    },
+    {
+      "id": "formal-approval-required",
+      "english": "formal approval required",
+      "translation": "требуется официальное утверждение",
+      "audio": [
+        "audio/phrases/formal approval required.wav"
+      ]
+    },
+    {
+      "id": "final-sign-off",
+      "english": "final sign off",
+      "translation": "финальное подтверждение",
+      "audio": [
+        "audio/phrases/final sign off.wav"
+      ]
+    },
+    {
+      "id": "content-revision-needed",
+      "english": "content revision needed",
+      "translation": "требуется переработка",
+      "audio": [
+        "audio/phrases/content revision needed.wav"
+      ]
+    },
+    {
+      "id": "next-iteration-planned",
+      "english": "next iteration planned",
+      "translation": "запланирована следующая итерация",
+      "audio": [
+        "audio/phrases/next iteration planned.wav"
+      ]
+    },
+    {
+      "id": "progress-tracking-system",
+      "english": "progress tracking system",
+      "translation": "система отслеживания прогресса",
+      "audio": [
+        "audio/phrases/progress tracking system.wav"
+      ]
+    },
+    {
+      "id": "continuous-monitoring-process",
+      "english": "continuous monitoring process",
+      "translation": "процесс постоянного мониторинга",
+      "audio": [
+        "audio/phrases/continuous monitoring process.wav"
+      ]
+    },
+    {
+      "id": "regular-reporting-cycle",
+      "english": "regular reporting cycle",
+      "translation": "регулярный цикл отчётности",
+      "audio": [
+        "audio/phrases/regular reporting cycle.wav"
+      ]
+    },
+    {
+      "id": "increase-visibility-levels",
+      "english": "increase visibility levels",
+      "translation": "повысить уровень прозрачности",
+      "audio": [
+        "audio/phrases/increase visibility levels.wav"
+      ]
+    },
+    {
+      "id": "team-alignment-achieved",
+      "english": "team alignment achieved",
+      "translation": "достигнута синхронизация команды",
+      "audio": [
+        "audio/phrases/team alignment achieved.wav"
+      ]
+    },
+    {
+      "id": "on-time-delivery",
+      "english": "on time delivery",
+      "translation": "поставка вовремя",
+      "audio": [
+        "audio/phrases/on time delivery.wav"
+      ]
+    },
+    {
+      "id": "formal-handover-process",
+      "english": "formal handover process",
+      "translation": "формальный процесс передачи",
+      "audio": [
+        "audio/phrases/formal handover process.wav"
+      ]
+    },
+    {
+      "id": "product-launch-phase",
+      "english": "product launch phase",
+      "translation": "этап запуска продукта",
+      "audio": [
+        "audio/phrases/product launch phase.wav"
+      ]
+    },
+    {
+      "id": "project-closure-stage",
+      "english": "project closure stage",
+      "translation": "этап закрытия проекта",
+      "audio": [
+        "audio/phrases/project closure stage.wav"
+      ]
+    },
+    {
+      "id": "team-retrospective-session",
+      "english": "team retrospective session",
+      "translation": "ретроспектива команды",
+      "audio": [
+        "audio/phrases/team retrospective session.wav"
+      ]
+    }
+  ]
+}

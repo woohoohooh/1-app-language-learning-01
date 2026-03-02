@@ -1,0 +1,367 @@
+{
+  "theme": "Частые слова (расширенно)",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "new-approach-works",
+      "english": "new approach works",
+      "translation": "новый подход работает",
+      "audio": [
+        "audio/phrases/new approach works.wav"
+      ]
+    },
+    {
+      "id": "strong-impact-on",
+      "english": "strong impact on",
+      "translation": "сильное влияние на",
+      "audio": [
+        "audio/phrases/strong impact on.wav"
+      ]
+    },
+    {
+      "id": "clear-context-matters",
+      "english": "clear context matters",
+      "translation": "ясный контекст важен",
+      "audio": [
+        "audio/phrases/clear context matters.wav"
+      ]
+    },
+    {
+      "id": "long-term-strategy",
+      "english": "long term strategy",
+      "translation": "долгосрочная стратегия",
+      "audio": [
+        "audio/phrases/long term strategy.wav"
+      ]
+    },
+    {
+      "id": "main-objective-now",
+      "english": "main objective now",
+      "translation": "основная цель сейчас",
+      "audio": [
+        "audio/phrases/main objective now.wav"
+      ]
+    },
+    {
+      "id": "top-priority-task",
+      "english": "top priority task",
+      "translation": "задача высшего приоритета",
+      "audio": [
+        "audio/phrases/top priority task.wav"
+      ]
+    },
+    {
+      "id": "limited-resource-available",
+      "english": "limited resource available",
+      "translation": "ограниченный ресурс доступен",
+      "audio": [
+        "audio/phrases/limited resource available.wav"
+      ]
+    },
+    {
+      "id": "budget-constraint-exists",
+      "english": "budget constraint exists",
+      "translation": "существует бюджетное ограничение",
+      "audio": [
+        "audio/phrases/budget constraint exists.wav"
+      ]
+    },
+    {
+      "id": "basic-assumption-made",
+      "english": "basic assumption made",
+      "translation": "сделано базовое предположение",
+      "audio": [
+        "audio/phrases/basic assumption made.wav"
+      ]
+    },
+    {
+      "id": "clear-evidence-exists",
+      "english": "clear evidence exists",
+      "translation": "существует явное доказательство",
+      "audio": [
+        "audio/phrases/clear evidence exists.wav"
+      ]
+    },
+    {
+      "id": "detailed-analysis-needed",
+      "english": "detailed analysis needed",
+      "translation": "нужен детальный анализ",
+      "audio": [
+        "audio/phrases/detailed analysis needed.wav"
+      ]
+    },
+    {
+      "id": "different-perspective-offered",
+      "english": "different perspective offered",
+      "translation": "предложена иная точка зрения",
+      "audio": [
+        "audio/phrases/different perspective offered.wav"
+      ]
+    },
+    {
+      "id": "important-factor-involved",
+      "english": "important factor involved",
+      "translation": "задействован важный фактор",
+      "audio": [
+        "audio/phrases/important factor involved.wav"
+      ]
+    },
+    {
+      "id": "growing-trend-observed",
+      "english": "growing trend observed",
+      "translation": "наблюдается растущая тенденция",
+      "audio": [
+        "audio/phrases/growing trend observed.wav"
+      ]
+    },
+    {
+      "id": "clear-pattern-appears",
+      "english": "clear pattern appears",
+      "translation": "проявляется явная закономерность",
+      "audio": [
+        "audio/phrases/clear pattern appears.wav"
+      ]
+    },
+    {
+      "id": "possible-scenario-considered",
+      "english": "possible scenario considered",
+      "translation": "рассмотрен возможный сценарий",
+      "audio": [
+        "audio/phrases/possible scenario considered.wav"
+      ]
+    },
+    {
+      "id": "key-stakeholder-involved",
+      "english": "key stakeholder involved",
+      "translation": "задействована ключевая сторона",
+      "audio": [
+        "audio/phrases/key stakeholder involved.wav"
+      ]
+    },
+    {
+      "id": "team-alignment-improved",
+      "english": "team alignment improved",
+      "translation": "согласованность команды улучшена",
+      "audio": [
+        "audio/phrases/team alignment improved.wav"
+      ]
+    },
+    {
+      "id": "fast-execution-matters",
+      "english": "fast execution matters",
+      "translation": "быстрая реализация важна",
+      "audio": [
+        "audio/phrases/fast execution matters.wav"
+      ]
+    },
+    {
+      "id": "smooth-implementation-phase",
+      "english": "smooth implementation phase",
+      "translation": "плавный этап внедрения",
+      "audio": [
+        "audio/phrases/smooth implementation phase.wav"
+      ]
+    },
+    {
+      "id": "process-optimization-needed",
+      "english": "process optimization needed",
+      "translation": "нужна оптимизация процесса",
+      "audio": [
+        "audio/phrases/process optimization needed.wav"
+      ]
+    },
+    {
+      "id": "higher-efficiency-level",
+      "english": "higher efficiency level",
+      "translation": "более высокий уровень эффективности",
+      "audio": [
+        "audio/phrases/higher efficiency level.wav"
+      ]
+    },
+    {
+      "id": "necessary-trade-off",
+      "english": "necessary trade off",
+      "translation": "необходимый компромисс",
+      "audio": [
+        "audio/phrases/necessary trade off.wav"
+      ]
+    },
+    {
+      "id": "technical-limitation-exists",
+      "english": "technical limitation exists",
+      "translation": "существует техническое ограничение",
+      "audio": [
+        "audio/phrases/technical limitation exists.wav"
+      ]
+    },
+    {
+      "id": "critical-dependency-found",
+      "english": "critical dependency found",
+      "translation": "обнаружена критическая зависимость",
+      "audio": [
+        "audio/phrases/critical dependency found.wav"
+      ]
+    },
+    {
+      "id": "system-complexity-grows",
+      "english": "system complexity grows",
+      "translation": "сложность системы растёт",
+      "audio": [
+        "audio/phrases/system complexity grows.wav"
+      ]
+    },
+    {
+      "id": "high-uncertainty-remains",
+      "english": "high uncertainty remains",
+      "translation": "остаётся высокая неопределенность",
+      "audio": [
+        "audio/phrases/high uncertainty remains.wav"
+      ]
+    },
+    {
+      "id": "potential-risk-involved",
+      "english": "potential risk involved",
+      "translation": "присутствует потенциальный риск",
+      "audio": [
+        "audio/phrases/potential risk involved.wav"
+      ]
+    },
+    {
+      "id": "new-opportunity-arises",
+      "english": "new opportunity arises",
+      "translation": "появляется новая возможность",
+      "audio": [
+        "audio/phrases/new opportunity arises.wav"
+      ]
+    },
+    {
+      "id": "basic-requirement-met",
+      "english": "basic requirement met",
+      "translation": "базовое требование выполнено",
+      "audio": [
+        "audio/phrases/basic requirement met.wav"
+      ]
+    },
+    {
+      "id": "initial-evaluation-completed",
+      "english": "initial evaluation completed",
+      "translation": "первоначальная оценка завершена",
+      "audio": [
+        "audio/phrases/initial evaluation completed.wav"
+      ]
+    },
+    {
+      "id": "risk-assessment-required",
+      "english": "risk assessment required",
+      "translation": "требуется оценка рисков",
+      "audio": [
+        "audio/phrases/risk assessment required.wav"
+      ]
+    },
+    {
+      "id": "honest-feedback-helps",
+      "english": "honest feedback helps",
+      "translation": "честная обратная связь помогает",
+      "audio": [
+        "audio/phrases/honest feedback helps.wav"
+      ]
+    },
+    {
+      "id": "minor-adjustment-needed",
+      "english": "minor adjustment needed",
+      "translation": "нужна небольшая корректировка",
+      "audio": [
+        "audio/phrases/minor adjustment needed.wav"
+      ]
+    },
+    {
+      "id": "continuous-improvement-process",
+      "english": "continuous improvement process",
+      "translation": "процесс постоянного улучшения",
+      "audio": [
+        "audio/phrases/continuous improvement process.wav"
+      ]
+    },
+    {
+      "id": "fast-decision-making",
+      "english": "fast decision making",
+      "translation": "быстрое принятие решений",
+      "audio": [
+        "audio/phrases/fast decision making.wav"
+      ]
+    },
+    {
+      "id": "shared-responsibility-exists",
+      "english": "shared responsibility exists",
+      "translation": "существует общая ответственность",
+      "audio": [
+        "audio/phrases/shared responsibility exists.wav"
+      ]
+    },
+    {
+      "id": "strong-commitment-shown",
+      "english": "strong commitment shown",
+      "translation": "проявлено сильное обязательство",
+      "audio": [
+        "audio/phrases/strong commitment shown.wav"
+      ]
+    },
+    {
+      "id": "personal-accountability-matters",
+      "english": "personal accountability matters",
+      "translation": "личная подотчётность важна",
+      "audio": [
+        "audio/phrases/personal accountability matters.wav"
+      ]
+    },
+    {
+      "id": "serious-issue-today",
+      "english": "serious issue today",
+      "translation": "серьёзная проблема сегодня",
+      "audio": [
+        "audio/phrases/serious issue today.wav"
+      ]
+    },
+    {
+      "id": "positive-outcome-expected",
+      "english": "positive outcome expected",
+      "translation": "ожидается положительный результат",
+      "audio": [
+        "audio/phrases/positive outcome expected.wav"
+      ]
+    },
+    {
+      "id": "valuable-insight-gained",
+      "english": "valuable insight gained",
+      "translation": "получено ценное понимание",
+      "audio": [
+        "audio/phrases/valuable insight gained.wav"
+      ]
+    },
+    {
+      "id": "simple-framework-used",
+      "english": "simple framework used",
+      "translation": "используется простая структура",
+      "audio": [
+        "audio/phrases/simple framework used.wav"
+      ]
+    },
+    {
+      "id": "major-challenge-ahead",
+      "english": "major challenge ahead",
+      "translation": "впереди серьёзный вызов",
+      "audio": [
+        "audio/phrases/major challenge ahead.wav"
+      ]
+    },
+    {
+      "id": "clear-ownership-defined",
+      "english": "clear ownership defined",
+      "translation": "чётко определена ответственность",
+      "audio": [
+        "audio/phrases/clear ownership defined.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "theme": "Психология и мышление",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "mind",
+      "english": "mind",
+      "translation": "разум",
+      "audio": [
+        "audio/words/mind.wav"
+      ]
+    },
+    {
+      "id": "thinking",
+      "english": "thinking",
+      "translation": "мышление",
+      "audio": [
+        "audio/words/thinking.wav"
+      ]
+    },
+    {
+      "id": "thought",
+      "english": "thought",
+      "translation": "мысль",
+      "audio": [
+        "audio/words/thought.wav"
+      ]
+    },
+    {
+      "id": "awareness",
+      "english": "awareness",
+      "translation": "осознанность",
+      "audio": [
+        "audio/words/awareness.wav"
+      ]
+    },
+    {
+      "id": "attention",
+      "english": "attention",
+      "translation": "внимание",
+      "audio": [
+        "audio/words/attention.wav"
+      ]
+    },
+    {
+      "id": "concentration",
+      "english": "concentration",
+      "translation": "концентрация",
+      "audio": [
+        "audio/words/concentration.wav"
+      ]
+    },
+    {
+      "id": "memory",
+      "english": "memory",
+      "translation": "память",
+      "audio": [
+        "audio/words/memory.wav"
+      ]
+    },
+    {
+      "id": "perception",
+      "english": "perception",
+      "translation": "восприятие",
+      "audio": [
+        "audio/words/perception.wav"
+      ]
+    },
+    {
+      "id": "imagination",
+      "english": "imagination",
+      "translation": "воображение",
+      "audio": [
+        "audio/words/imagination.wav"
+      ]
+    },
+    {
+      "id": "emotion",
+      "english": "emotion",
+      "translation": "эмоция",
+      "audio": [
+        "audio/words/emotion.wav"
+      ]
+    },
+    {
+      "id": "feeling",
+      "english": "feeling",
+      "translation": "чувство",
+      "audio": [
+        "audio/words/feeling.wav"
+      ]
+    },
+    {
+      "id": "mood",
+      "english": "mood",
+      "translation": "настроение",
+      "audio": [
+        "audio/words/mood.wav"
+      ]
+    },
+    {
+      "id": "stress",
+      "english": "stress",
+      "translation": "стресс",
+      "audio": [
+        "audio/words/stress.wav"
+      ]
+    },
+    {
+      "id": "anxiety",
+      "english": "anxiety",
+      "translation": "тревожность",
+      "audio": [
+        "audio/words/anxiety.wav"
+      ]
+    },
+    {
+      "id": "motivation",
+      "english": "motivation",
+      "translation": "мотивация",
+      "audio": [
+        "audio/words/motivation.wav"
+      ]
+    },
+    {
+      "id": "drive",
+      "english": "drive",
+      "translation": "внутренний стимул",
+      "audio": [
+        "audio/words/drive.wav"
+      ]
+    },
+    {
+      "id": "discipline",
+      "english": "discipline",
+      "translation": "дисциплина",
+      "audio": [
+        "audio/words/discipline.wav"
+      ]
+    },
+    {
+      "id": "habit",
+      "english": "habit",
+      "translation": "привычка",
+      "audio": [
+        "audio/words/habit.wav"
+      ]
+    },
+    {
+      "id": "routine",
+      "english": "routine",
+      "translation": "рутина",
+      "audio": [
+        "audio/words/routine.wav"
+      ]
+    },
+    {
+      "id": "behavior",
+      "english": "behavior",
+      "translation": "поведение",
+      "audio": [
+        "audio/words/behavior.wav"
+      ]
+    },
+    {
+      "id": "reaction",
+      "english": "reaction",
+      "translation": "реакция",
+      "audio": [
+        "audio/words/reaction.wav"
+      ]
+    },
+    {
+      "id": "decision",
+      "english": "decision",
+      "translation": "решение",
+      "audio": [
+        "audio/words/decision.wav"
+      ]
+    },
+    {
+      "id": "choice",
+      "english": "choice",
+      "translation": "выбор",
+      "audio": [
+        "audio/words/choice.wav"
+      ]
+    },
+    {
+      "id": "belief",
+      "english": "belief",
+      "translation": "убеждение",
+      "audio": [
+        "audio/words/belief.wav"
+      ]
+    },
+    {
+      "id": "assumption",
+      "english": "assumption",
+      "translation": "предположение",
+      "audio": [
+        "audio/words/assumption.wav"
+      ]
+    },
+    {
+      "id": "expectation",
+      "english": "expectation",
+      "translation": "ожидание",
+      "audio": [
+        "audio/words/expectation.wav"
+      ]
+    },
+    {
+      "id": "bias",
+      "english": "bias",
+      "translation": "когнитивное искажение",
+      "audio": [
+        "audio/words/bias.wav"
+      ]
+    },
+    {
+      "id": "mindset",
+      "english": "mindset",
+      "translation": "образ мышления",
+      "audio": [
+        "audio/words/mindset.wav"
+      ]
+    },
+    {
+      "id": "self-esteem",
+      "english": "self-esteem",
+      "translation": "самооценка",
+      "audio": [
+        "audio/words/self-esteem.wav"
+      ]
+    },
+    {
+      "id": "confidence",
+      "english": "confidence",
+      "translation": "уверенность",
+      "audio": [
+        "audio/words/confidence.wav"
+      ]
+    },
+    {
+      "id": "insecurity",
+      "english": "insecurity",
+      "translation": "неуверенность",
+      "audio": [
+        "audio/words/insecurity.wav"
+      ]
+    },
+    {
+      "id": "self-control",
+      "english": "self-control",
+      "translation": "самоконтроль",
+      "audio": [
+        "audio/words/self-control.wav"
+      ]
+    },
+    {
+      "id": "resilience",
+      "english": "resilience",
+      "translation": "психологическая устойчивость",
+      "audio": [
+        "audio/words/resilience.wav"
+      ]
+    },
+    {
+      "id": "reflection",
+      "english": "reflection",
+      "translation": "самоанализ",
+      "audio": [
+        "audio/words/reflection.wav"
+      ]
+    },
+    {
+      "id": "introspection",
+      "english": "introspection",
+      "translation": "интроспекция",
+      "audio": [
+        "audio/words/introspection.wav"
+      ]
+    },
+    {
+      "id": "overthinking",
+      "english": "overthinking",
+      "translation": "чрезмерное обдумывание",
+      "audio": [
+        "audio/words/overthinking.wav"
+      ]
+    },
+    {
+      "id": "burnout",
+      "english": "burnout",
+      "translation": "выгорание",
+      "audio": [
+        "audio/words/burnout.wav"
+      ]
+    },
+    {
+      "id": "mental-health",
+      "english": "mental health",
+      "translation": "психическое здоровье",
+      "audio": [
+        "audio/words/mental health.wav"
+      ]
+    },
+    {
+      "id": "focus",
+      "english": "focus",
+      "translation": "концентрация",
+      "audio": [
+        "audio/words/focus.wav"
+      ]
+    },
+    {
+      "id": "response",
+      "english": "response",
+      "translation": "реакция",
+      "audio": [
+        "audio/words/response.wav"
+      ]
+    }
+  ]
+}

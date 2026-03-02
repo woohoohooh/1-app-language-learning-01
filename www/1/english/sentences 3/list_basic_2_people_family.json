@@ -1,0 +1,159 @@
+{
+  "theme": "Люди и семья",
+  "level": "Beginner",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "man",
+      "translation": "мужчина"
+    },
+    {
+      "english": "woman",
+      "translation": "женщина"
+    },
+    {
+      "english": "child",
+      "translation": "ребёнок"
+    },
+    {
+      "english": "children",
+      "translation": "дети"
+    },
+    {
+      "english": "boy",
+      "translation": "мальчик"
+    },
+    {
+      "english": "girl",
+      "translation": "девочка"
+    },
+    {
+      "english": "mother",
+      "translation": "мама"
+    },
+    {
+      "english": "father",
+      "translation": "папа"
+    },
+    {
+      "english": "mom",
+      "translation": "мама"
+    },
+    {
+      "english": "dad",
+      "translation": "папа"
+    },
+    {
+      "english": "parent",
+      "translation": "родитель"
+    },
+    {
+      "english": "son",
+      "translation": "сын"
+    },
+    {
+      "english": "daughter",
+      "translation": "дочь"
+    },
+    {
+      "english": "brother",
+      "translation": "брат"
+    },
+    {
+      "english": "sister",
+      "translation": "сестра"
+    },
+    {
+      "english": "husband",
+      "translation": "муж"
+    },
+    {
+      "english": "wife",
+      "translation": "жена"
+    },
+    {
+      "english": "grandmother",
+      "translation": "бабушка"
+    },
+    {
+      "english": "grandfather",
+      "translation": "дедушка"
+    },
+    {
+      "english": "grandparent",
+      "translation": "бабушка или дедушка"
+    },
+    {
+      "english": "uncle",
+      "translation": "дядя"
+    },
+    {
+      "english": "aunt",
+      "translation": "тётя"
+    },
+    {
+      "english": "baby",
+      "translation": "младенец"
+    },
+    {
+      "english": "adult",
+      "translation": "взрослый"
+    },
+    {
+      "english": "friendship",
+      "translation": "дружба"
+    },
+    {
+      "english": "neighbor",
+      "translation": "сосед"
+    },
+    {
+      "english": "partner",
+      "translation": "партнёр"
+    },
+    {
+      "english": "couple",
+      "translation": "пара"
+    },
+    {
+      "english": "name",
+      "translation": "имя"
+    },
+    {
+      "english": "age",
+      "translation": "возраст"
+    },
+    {
+      "english": "gender",
+      "translation": "пол"
+    },
+    {
+      "english": "relative",
+      "translation": "родственник"
+    },
+    {
+      "english": "relationship",
+      "translation": "отношения"
+    },
+    {
+      "english": "marriage",
+      "translation": "брак"
+    },
+    {
+      "english": "wedding",
+      "translation": "свадьба"
+    },
+    {
+      "english": "cousin",
+      "translation": "двоюродный брат"
+    },
+    {
+      "english": "single",
+      "translation": "не в отношениях"
+    },
+    {
+      "english": "married",
+      "translation": "женат"
+    }
+  ]
+}

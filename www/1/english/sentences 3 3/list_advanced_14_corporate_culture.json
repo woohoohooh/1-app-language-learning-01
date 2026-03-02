@@ -1,0 +1,327 @@
+{
+  "theme": "Корпоративная культура",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "corporate-culture",
+      "english": "corporate culture",
+      "translation": "корпоративная культура",
+      "audio": [
+        "audio/words/corporate culture.wav"
+      ]
+    },
+    {
+      "id": "company-culture",
+      "english": "company culture",
+      "translation": "культура компании",
+      "audio": [
+        "audio/words/company culture.wav"
+      ]
+    },
+    {
+      "id": "workplace",
+      "english": "workplace",
+      "translation": "рабочая среда",
+      "audio": [
+        "audio/words/workplace.wav"
+      ]
+    },
+    {
+      "id": "environment",
+      "english": "environment",
+      "translation": "среда",
+      "audio": [
+        "audio/words/environment.wav"
+      ]
+    },
+    {
+      "id": "organization",
+      "english": "organization",
+      "translation": "организация",
+      "audio": [
+        "audio/words/organization.wav"
+      ]
+    },
+    {
+      "id": "values",
+      "english": "values",
+      "translation": "ценности",
+      "audio": [
+        "audio/words/values.wav"
+      ]
+    },
+    {
+      "id": "principles",
+      "english": "principles",
+      "translation": "принципы",
+      "audio": [
+        "audio/words/principles.wav"
+      ]
+    },
+    {
+      "id": "mission",
+      "english": "mission",
+      "translation": "миссия",
+      "audio": [
+        "audio/words/mission.wav"
+      ]
+    },
+    {
+      "id": "vision",
+      "english": "vision",
+      "translation": "видение",
+      "audio": [
+        "audio/words/vision.wav"
+      ]
+    },
+    {
+      "id": "ethics",
+      "english": "ethics",
+      "translation": "этика",
+      "audio": [
+        "audio/words/ethics.wav"
+      ]
+    },
+    {
+      "id": "standards",
+      "english": "standards",
+      "translation": "стандарты",
+      "audio": [
+        "audio/words/standards.wav"
+      ]
+    },
+    {
+      "id": "policies",
+      "english": "policies",
+      "translation": "правила",
+      "audio": [
+        "audio/words/policies.wav"
+      ]
+    },
+    {
+      "id": "guidelines",
+      "english": "guidelines",
+      "translation": "рекомендации",
+      "audio": [
+        "audio/words/guidelines.wav"
+      ]
+    },
+    {
+      "id": "compliance",
+      "english": "compliance",
+      "translation": "соблюдение правил",
+      "audio": [
+        "audio/words/compliance.wav"
+      ]
+    },
+    {
+      "id": "code-of-conduct",
+      "english": "code of conduct",
+      "translation": "кодекс поведения",
+      "audio": [
+        "audio/words/code of conduct.wav"
+      ]
+    },
+    {
+      "id": "hierarchy",
+      "english": "hierarchy",
+      "translation": "иерархия",
+      "audio": [
+        "audio/words/hierarchy.wav"
+      ]
+    },
+    {
+      "id": "structure",
+      "english": "structure",
+      "translation": "структура",
+      "audio": [
+        "audio/words/structure.wav"
+      ]
+    },
+    {
+      "id": "management",
+      "english": "management",
+      "translation": "управление",
+      "audio": [
+        "audio/words/management.wav"
+      ]
+    },
+    {
+      "id": "leadership",
+      "english": "leadership",
+      "translation": "руководство",
+      "audio": [
+        "audio/words/leadership.wav"
+      ]
+    },
+    {
+      "id": "decision-making",
+      "english": "decision-making",
+      "translation": "принятие решений",
+      "audio": [
+        "audio/words/decision-making.wav"
+      ]
+    },
+    {
+      "id": "collaboration",
+      "english": "collaboration",
+      "translation": "сотрудничество",
+      "audio": [
+        "audio/words/collaboration.wav"
+      ]
+    },
+    {
+      "id": "teamwork",
+      "english": "teamwork",
+      "translation": "командная работа",
+      "audio": [
+        "audio/words/teamwork.wav"
+      ]
+    },
+    {
+      "id": "ownership",
+      "english": "ownership",
+      "translation": "ответственность",
+      "audio": [
+        "audio/words/ownership.wav"
+      ]
+    },
+    {
+      "id": "accountability",
+      "english": "accountability",
+      "translation": "подотчётность",
+      "audio": [
+        "audio/words/accountability.wav"
+      ]
+    },
+    {
+      "id": "initiative",
+      "english": "initiative",
+      "translation": "инициатива",
+      "audio": [
+        "audio/words/initiative.wav"
+      ]
+    },
+    {
+      "id": "work-life-balance",
+      "english": "work-life balance",
+      "translation": "баланс работы и жизни",
+      "audio": [
+        "audio/words/work-life balance.wav"
+      ]
+    },
+    {
+      "id": "flexibility",
+      "english": "flexibility",
+      "translation": "гибкость",
+      "audio": [
+        "audio/words/flexibility.wav"
+      ]
+    },
+    {
+      "id": "remote-work",
+      "english": "remote work",
+      "translation": "удалённая работа",
+      "audio": [
+        "audio/words/remote work.wav"
+      ]
+    },
+    {
+      "id": "hybrid-work",
+      "english": "hybrid work",
+      "translation": "гибридная работа",
+      "audio": [
+        "audio/words/hybrid work.wav"
+      ]
+    },
+    {
+      "id": "schedule",
+      "english": "schedule",
+      "translation": "график",
+      "audio": [
+        "audio/words/schedule.wav"
+      ]
+    },
+    {
+      "id": "onboarding",
+      "english": "onboarding",
+      "translation": "введение в компанию",
+      "audio": [
+        "audio/words/onboarding.wav"
+      ]
+    },
+    {
+      "id": "adaptation",
+      "english": "adaptation",
+      "translation": "адаптация",
+      "audio": [
+        "audio/words/adaptation.wav"
+      ]
+    },
+    {
+      "id": "career-growth",
+      "english": "career growth",
+      "translation": "карьерный рост",
+      "audio": [
+        "audio/words/career growth.wav"
+      ]
+    },
+    {
+      "id": "performance",
+      "english": "performance",
+      "translation": "эффективность",
+      "audio": [
+        "audio/words/performance.wav"
+      ]
+    },
+    {
+      "id": "evaluation",
+      "english": "evaluation",
+      "translation": "оценка",
+      "audio": [
+        "audio/words/evaluation.wav"
+      ]
+    },
+    {
+      "id": "diversity",
+      "english": "diversity",
+      "translation": "разнообразие",
+      "audio": [
+        "audio/words/diversity.wav"
+      ]
+    },
+    {
+      "id": "inclusion",
+      "english": "inclusion",
+      "translation": "инклюзивность",
+      "audio": [
+        "audio/words/inclusion.wav"
+      ]
+    },
+    {
+      "id": "respect",
+      "english": "respect",
+      "translation": "уважение",
+      "audio": [
+        "audio/words/respect.wav"
+      ]
+    },
+    {
+      "id": "trust",
+      "english": "trust",
+      "translation": "доверие",
+      "audio": [
+        "audio/words/trust.wav"
+      ]
+    },
+    {
+      "id": "transparency",
+      "english": "transparency",
+      "translation": "прозрачность",
+      "audio": [
+        "audio/words/transparency.wav"
+      ]
+    }
+  ]
+}

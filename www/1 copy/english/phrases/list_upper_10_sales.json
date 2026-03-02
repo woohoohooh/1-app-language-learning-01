@@ -1,0 +1,327 @@
+{
+  "theme": "Продажи и переговоры",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "boost-sales-numbers",
+      "english": "boost sales numbers",
+      "translation": "увеличить показатели продаж",
+      "audio": [
+        "audio/phrases/boost sales numbers.wav"
+      ]
+    },
+    {
+      "id": "close-the-deal",
+      "english": "close the deal",
+      "translation": "закрыть сделку",
+      "audio": [
+        "audio/phrases/close the deal.wav"
+      ]
+    },
+    {
+      "id": "reach-an-agreement",
+      "english": "reach an agreement",
+      "translation": "достичь соглашения",
+      "audio": [
+        "audio/phrases/reach an agreement.wav"
+      ]
+    },
+    {
+      "id": "sign-the-contract",
+      "english": "sign the contract",
+      "translation": "подписать контракт",
+      "audio": [
+        "audio/phrases/sign the contract.wav"
+      ]
+    },
+    {
+      "id": "send-a-proposal",
+      "english": "send a proposal",
+      "translation": "отправить коммерческое предложение",
+      "audio": [
+        "audio/phrases/send a proposal.wav"
+      ]
+    },
+    {
+      "id": "make-an-offer",
+      "english": "make an offer",
+      "translation": "сделать предложение",
+      "audio": [
+        "audio/phrases/make an offer.wav"
+      ]
+    },
+    {
+      "id": "adjust-pricing-strategy",
+      "english": "adjust pricing strategy",
+      "translation": "скорректировать стратегию ценообразования",
+      "audio": [
+        "audio/phrases/adjust pricing strategy.wav"
+      ]
+    },
+    {
+      "id": "set-the-price",
+      "english": "set the price",
+      "translation": "установить цену",
+      "audio": [
+        "audio/phrases/set the price.wav"
+      ]
+    },
+    {
+      "id": "offer-a-discount",
+      "english": "offer a discount",
+      "translation": "предложить скидку",
+      "audio": [
+        "audio/phrases/offer a discount.wav"
+      ]
+    },
+    {
+      "id": "protect-profit-margin",
+      "english": "protect profit margin",
+      "translation": "сохранить маржу прибыли",
+      "audio": [
+        "audio/phrases/protect profit margin.wav"
+      ]
+    },
+    {
+      "id": "meet-the-client",
+      "english": "meet the client",
+      "translation": "встретиться с клиентом",
+      "audio": [
+        "audio/phrases/meet the client.wav"
+      ]
+    },
+    {
+      "id": "satisfied-customer-base",
+      "english": "satisfied customer base",
+      "translation": "довольная база покупателей",
+      "audio": [
+        "audio/phrases/satisfied customer base.wav"
+      ]
+    },
+    {
+      "id": "contact-a-prospect",
+      "english": "contact a prospect",
+      "translation": "связаться с потенциальным клиентом",
+      "audio": [
+        "audio/phrases/contact a prospect.wav"
+      ]
+    },
+    {
+      "id": "key-stakeholder-input",
+      "english": "key stakeholder input",
+      "translation": "вклад ключевой заинтересованной стороны",
+      "audio": [
+        "audio/phrases/key stakeholder input.wav"
+      ]
+    },
+    {
+      "id": "reach-the-decision-maker",
+      "english": "reach the decision maker",
+      "translation": "выйти на лицо, принимающее решение",
+      "audio": [
+        "audio/phrases/reach the decision maker.wav"
+      ]
+    },
+    {
+      "id": "enter-negotiation-phase",
+      "english": "enter negotiation phase",
+      "translation": "войти в фазу переговоров",
+      "audio": [
+        "audio/phrases/enter negotiation phase.wav"
+      ]
+    },
+    {
+      "id": "open-discussion",
+      "english": "open discussion",
+      "translation": "открытое обсуждение",
+      "audio": [
+        "audio/phrases/open discussion.wav"
+      ]
+    },
+    {
+      "id": "agree-on-terms",
+      "english": "agree on terms",
+      "translation": "согласовать условия",
+      "audio": [
+        "audio/phrases/agree on terms.wav"
+      ]
+    },
+    {
+      "id": "specific-conditions-apply",
+      "english": "specific conditions apply",
+      "translation": "применяются особые условия",
+      "audio": [
+        "audio/phrases/specific conditions apply.wav"
+      ]
+    },
+    {
+      "id": "meet-the-requirements",
+      "english": "meet the requirements",
+      "translation": "соответствовать требованиям",
+      "audio": [
+        "audio/phrases/meet the requirements.wav"
+      ]
+    },
+    {
+      "id": "raise-an-objection",
+      "english": "raise an objection",
+      "translation": "выдвинуть возражение",
+      "audio": [
+        "audio/phrases/raise an objection.wav"
+      ]
+    },
+    {
+      "id": "express-a-concern",
+      "english": "express a concern",
+      "translation": "выразить опасение",
+      "audio": [
+        "audio/phrases/express a concern.wav"
+      ]
+    },
+    {
+      "id": "make-a-counteroffer",
+      "english": "make a counteroffer",
+      "translation": "сделать встречное предложение",
+      "audio": [
+        "audio/phrases/make a counteroffer.wav"
+      ]
+    },
+    {
+      "id": "find-a-compromise",
+      "english": "find a compromise",
+      "translation": "найти компромисс",
+      "audio": [
+        "audio/phrases/find a compromise.wav"
+      ]
+    },
+    {
+      "id": "make-a-concession",
+      "english": "make a concession",
+      "translation": "пойти на уступку",
+      "audio": [
+        "audio/phrases/make a concession.wav"
+      ]
+    },
+    {
+      "id": "await-approval",
+      "english": "await approval",
+      "translation": "ожидать утверждения",
+      "audio": [
+        "audio/phrases/await approval.wav"
+      ]
+    },
+    {
+      "id": "send-confirmation",
+      "english": "send confirmation",
+      "translation": "отправить подтверждение",
+      "audio": [
+        "audio/phrases/send confirmation.wav"
+      ]
+    },
+    {
+      "id": "collect-signatures",
+      "english": "collect signatures",
+      "translation": "собрать подписи",
+      "audio": [
+        "audio/phrases/collect signatures.wav"
+      ]
+    },
+    {
+      "id": "deal-closing-stage",
+      "english": "deal closing stage",
+      "translation": "этап закрытия сделки",
+      "audio": [
+        "audio/phrases/deal closing stage.wav"
+      ]
+    },
+    {
+      "id": "schedule-follow-up",
+      "english": "schedule follow-up",
+      "translation": "запланировать дополнительный контакт",
+      "audio": [
+        "audio/phrases/schedule follow-up.wav"
+      ]
+    },
+    {
+      "id": "sales-pipeline-review",
+      "english": "sales pipeline review",
+      "translation": "обзор воронки продаж",
+      "audio": [
+        "audio/phrases/sales pipeline review.wav"
+      ]
+    },
+    {
+      "id": "update-the-forecast",
+      "english": "update the forecast",
+      "translation": "обновить прогноз",
+      "audio": [
+        "audio/phrases/update the forecast.wav"
+      ]
+    },
+    {
+      "id": "increase-revenue",
+      "english": "increase revenue",
+      "translation": "увеличить выручку",
+      "audio": [
+        "audio/phrases/increase revenue.wav"
+      ]
+    },
+    {
+      "id": "earn-commission",
+      "english": "earn commission",
+      "translation": "получить комиссию",
+      "audio": [
+        "audio/phrases/earn commission.wav"
+      ]
+    },
+    {
+      "id": "meet-the-quota",
+      "english": "meet the quota",
+      "translation": "выполнить план продаж",
+      "audio": [
+        "audio/phrases/meet the quota.wav"
+      ]
+    },
+    {
+      "id": "build-relationships",
+      "english": "build relationships",
+      "translation": "выстраивать отношения",
+      "audio": [
+        "audio/phrases/build relationships.wav"
+      ]
+    },
+    {
+      "id": "build-trust",
+      "english": "build trust",
+      "translation": "выстраивать доверие",
+      "audio": [
+        "audio/phrases/build trust.wav"
+      ]
+    },
+    {
+      "id": "long-term-value",
+      "english": "long-term value",
+      "translation": "долгосрочная ценность",
+      "audio": [
+        "audio/phrases/long-term value.wav"
+      ]
+    },
+    {
+      "id": "strategic-partnership",
+      "english": "strategic partnership",
+      "translation": "стратегическое партнёрство",
+      "audio": [
+        "audio/phrases/strategic partnership.wav"
+      ]
+    },
+    {
+      "id": "contract-renewal",
+      "english": "contract renewal",
+      "translation": "продление контракта",
+      "audio": [
+        "audio/phrases/contract renewal.wav"
+      ]
+    }
+  ]
+}

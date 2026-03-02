@@ -1,0 +1,295 @@
+{
+  "theme": "Покупки и магазины",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "shop",
+      "english": "shop",
+      "translation": "магазин",
+      "audio": [
+        "audio/words/shop.wav"
+      ]
+    },
+    {
+      "id": "store",
+      "english": "store",
+      "translation": "магазин",
+      "audio": [
+        "audio/words/store.wav"
+      ]
+    },
+    {
+      "id": "market",
+      "english": "market",
+      "translation": "рынок",
+      "audio": [
+        "audio/words/market.wav"
+      ]
+    },
+    {
+      "id": "mall",
+      "english": "mall",
+      "translation": "торговый центр",
+      "audio": [
+        "audio/words/mall.wav"
+      ]
+    },
+    {
+      "id": "supermarket",
+      "english": "supermarket",
+      "translation": "супермаркет",
+      "audio": [
+        "audio/words/supermarket.wav"
+      ]
+    },
+    {
+      "id": "buy",
+      "english": "buy",
+      "translation": "покупать",
+      "audio": [
+        "audio/words/buy.wav"
+      ]
+    },
+    {
+      "id": "sell",
+      "english": "sell",
+      "translation": "продавать",
+      "audio": [
+        "audio/words/sell.wav"
+      ]
+    },
+    {
+      "id": "pay",
+      "english": "pay",
+      "translation": "платить",
+      "audio": [
+        "audio/words/pay.wav"
+      ]
+    },
+    {
+      "id": "order",
+      "english": "order",
+      "translation": "заказывать",
+      "audio": [
+        "audio/words/order.wav"
+      ]
+    },
+    {
+      "id": "choose",
+      "english": "choose",
+      "translation": "выбирать",
+      "audio": [
+        "audio/words/choose.wav"
+      ]
+    },
+    {
+      "id": "price",
+      "english": "price",
+      "translation": "цена",
+      "audio": [
+        "audio/words/price.wav"
+      ]
+    },
+    {
+      "id": "cost",
+      "english": "cost",
+      "translation": "стоимость",
+      "audio": [
+        "audio/words/cost.wav"
+      ]
+    },
+    {
+      "id": "cheap",
+      "english": "cheap",
+      "translation": "дешёвый",
+      "audio": [
+        "audio/words/cheap.wav"
+      ]
+    },
+    {
+      "id": "expensive",
+      "english": "expensive",
+      "translation": "дорогой",
+      "audio": [
+        "audio/words/expensive.wav"
+      ]
+    },
+    {
+      "id": "discount",
+      "english": "discount",
+      "translation": "скидка",
+      "audio": [
+        "audio/words/discount.wav"
+      ]
+    },
+    {
+      "id": "sale",
+      "english": "sale",
+      "translation": "распродажа",
+      "audio": [
+        "audio/words/sale.wav"
+      ]
+    },
+    {
+      "id": "cash",
+      "english": "cash",
+      "translation": "наличные",
+      "audio": [
+        "audio/words/cash.wav"
+      ]
+    },
+    {
+      "id": "card",
+      "english": "card",
+      "translation": "карта",
+      "audio": [
+        "audio/words/card.wav"
+      ]
+    },
+    {
+      "id": "receipt",
+      "english": "receipt",
+      "translation": "чек",
+      "audio": [
+        "audio/words/receipt.wav"
+      ]
+    },
+    {
+      "id": "change",
+      "english": "change",
+      "translation": "сдача",
+      "audio": [
+        "audio/words/change.wav"
+      ]
+    },
+    {
+      "id": "customer",
+      "english": "customer",
+      "translation": "покупатель",
+      "audio": [
+        "audio/words/customer.wav"
+      ]
+    },
+    {
+      "id": "seller",
+      "english": "seller",
+      "translation": "продавец",
+      "audio": [
+        "audio/words/seller.wav"
+      ]
+    },
+    {
+      "id": "cashier",
+      "english": "cashier",
+      "translation": "кассир",
+      "audio": [
+        "audio/words/cashier.wav"
+      ]
+    },
+    {
+      "id": "product",
+      "english": "product",
+      "translation": "товар",
+      "audio": [
+        "audio/words/product.wav"
+      ]
+    },
+    {
+      "id": "brand",
+      "english": "brand",
+      "translation": "бренд",
+      "audio": [
+        "audio/words/brand.wav"
+      ]
+    },
+    {
+      "id": "size",
+      "english": "size",
+      "translation": "размер",
+      "audio": [
+        "audio/words/size.wav"
+      ]
+    },
+    {
+      "id": "color",
+      "english": "color",
+      "translation": "цвет",
+      "audio": [
+        "audio/words/color.wav"
+      ]
+    },
+    {
+      "id": "cart",
+      "english": "cart",
+      "translation": "тележка",
+      "audio": [
+        "audio/words/cart.wav"
+      ]
+    },
+    {
+      "id": "basket",
+      "english": "basket",
+      "translation": "корзина",
+      "audio": [
+        "audio/words/basket.wav"
+      ]
+    },
+    {
+      "id": "open",
+      "english": "open",
+      "translation": "открыто",
+      "audio": [
+        "audio/words/open.wav"
+      ]
+    },
+    {
+      "id": "closed",
+      "english": "closed",
+      "translation": "закрыто",
+      "audio": [
+        "audio/words/closed.wav"
+      ]
+    },
+    {
+      "id": "online",
+      "english": "online",
+      "translation": "онлайн",
+      "audio": [
+        "audio/words/online.wav"
+      ]
+    },
+    {
+      "id": "delivery",
+      "english": "delivery",
+      "translation": "доставка",
+      "audio": [
+        "audio/words/delivery.wav"
+      ]
+    },
+    {
+      "id": "return",
+      "english": "return",
+      "translation": "возврат",
+      "audio": [
+        "audio/words/return.wav"
+      ]
+    },
+    {
+      "id": "item",
+      "english": "item",
+      "translation": "товар",
+      "audio": [
+        "audio/words/item.wav"
+      ]
+    },
+    {
+      "id": "bag",
+      "english": "bag",
+      "translation": "пакет",
+      "audio": [
+        "audio/words/bag.wav"
+      ]
+    }
+  ]
+}

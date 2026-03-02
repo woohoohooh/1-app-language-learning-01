@@ -1,0 +1,31 @@
+{
+  "theme": "Погода и природа",
+  "level": "Beginner",
+  "name": "Phrase",
+  "items": [
+    {"id":"nice_weather","original":"weather","english":"nice weather","translation":"хорошая погода"},
+    {"id":"sunny_day","original":"sunny","english":"sunny day","translation":"солнечный день"},
+    {"id":"cloudy_sky","original":"cloudy","english":"cloudy sky","translation":"облачное небо"},
+    {"id":"heavy_rain","original":"rain","english":"heavy rain","translation":"сильный дождь"},
+    {"id":"rainy_day","original":"rainy","english":"rainy day","translation":"дождливый день"},
+    {"id":"white_snow","original":"snow","english":"white snow","translation":"белый снег"},
+    {"id":"snowy_night","original":"snowy","english":"snowy night","translation":"снежная ночь"},
+    {"id":"strong_wind","original":"wind","english":"strong wind","translation":"сильный ветер"},
+    {"id":"windy_day","original":"windy","english":"windy day","translation":"ветреный день"},
+    {"id":"hot_day","original":"hot","english":"hot day","translation":"жаркий день"},
+    {"id":"warm_air","original":"warm","english":"warm air","translation":"теплый воздух"},
+    {"id":"cool_weather","original":"cool","english":"cool weather","translation":"прохладная погода"},
+    {"id":"cold_night","original":"cold","english":"cold night","translation":"холодная ночь"},
+    {"id":"blue_sky","original":"sky","english":"blue sky","translation":"голубое небо"},
+    {"id":"fresh_air","original":"air","english":"fresh air","translation":"свежий воздух"},
+    {"id":"big_tree","original":"tree","english":"big tree","translation":"большое дерево"},
+    {"id":"green_forest","original":"forest","english":"green forest","translation":"зеленый лес"},
+    {"id":"open_field","original":"field","english":"open field","translation":"открытое поле"},
+    {"id":"long_river","original":"river","english":"long river","translation":"длинная река"},
+    {"id":"clear_lake","original":"lake","english":"clear lake","translation":"чистое озеро"},
+    {"id":"deep_sea","original":"sea","english":"deep sea","translation":"глубокое море"},
+    {"id":"high_mountain","original":"mountain","english":"high mountain","translation":"высокая гора"},
+    {"id":"bright_day","original":"day","english":"bright day","translation":"яркий день"},
+    {"id":"dark_night","original":"night","english":"dark night","translation":"темная ночь"}
+  ]
+}

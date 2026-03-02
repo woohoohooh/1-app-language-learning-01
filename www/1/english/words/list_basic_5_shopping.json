@@ -1,0 +1,187 @@
+{
+  "theme": "Покупки и магазины",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "shop",
+      "english": "shop",
+      "translation": "магазин"
+    },
+    {
+      "id": "store",
+      "english": "store",
+      "translation": "магазин"
+    },
+    {
+      "id": "market",
+      "english": "market",
+      "translation": "рынок"
+    },
+    {
+      "id": "mall",
+      "english": "mall",
+      "translation": "торговый центр"
+    },
+    {
+      "id": "supermarket",
+      "english": "supermarket",
+      "translation": "супермаркет"
+    },
+    {
+      "id": "buy",
+      "english": "buy",
+      "translation": "покупать"
+    },
+    {
+      "id": "sell",
+      "english": "sell",
+      "translation": "продавать"
+    },
+    {
+      "id": "pay",
+      "english": "pay",
+      "translation": "платить"
+    },
+    {
+      "id": "order",
+      "english": "order",
+      "translation": "заказывать"
+    },
+    {
+      "id": "choose",
+      "english": "choose",
+      "translation": "выбирать"
+    },
+    {
+      "id": "price",
+      "english": "price",
+      "translation": "цена"
+    },
+    {
+      "id": "cost",
+      "english": "cost",
+      "translation": "стоимость"
+    },
+    {
+      "id": "cheap",
+      "english": "cheap",
+      "translation": "дешёвый"
+    },
+    {
+      "id": "expensive",
+      "english": "expensive",
+      "translation": "дорогой"
+    },
+    {
+      "id": "discount",
+      "english": "discount",
+      "translation": "скидка"
+    },
+    {
+      "id": "sale",
+      "english": "sale",
+      "translation": "распродажа"
+    },
+    {
+      "id": "cash",
+      "english": "cash",
+      "translation": "наличные"
+    },
+    {
+      "id": "card",
+      "english": "card",
+      "translation": "карта"
+    },
+    {
+      "id": "receipt",
+      "english": "receipt",
+      "translation": "чек"
+    },
+    {
+      "id": "change",
+      "english": "change",
+      "translation": "сдача"
+    },
+    {
+      "id": "customer",
+      "english": "customer",
+      "translation": "покупатель"
+    },
+    {
+      "id": "seller",
+      "english": "seller",
+      "translation": "продавец"
+    },
+    {
+      "id": "cashier",
+      "english": "cashier",
+      "translation": "кассир"
+    },
+    {
+      "id": "product",
+      "english": "product",
+      "translation": "товар"
+    },
+    {
+      "id": "brand",
+      "english": "brand",
+      "translation": "бренд"
+    },
+    {
+      "id": "size",
+      "english": "size",
+      "translation": "размер"
+    },
+    {
+      "id": "color",
+      "english": "color",
+      "translation": "цвет"
+    },
+    {
+      "id": "cart",
+      "english": "cart",
+      "translation": "тележка"
+    },
+    {
+      "id": "basket",
+      "english": "basket",
+      "translation": "корзина"
+    },
+    {
+      "id": "open",
+      "english": "open",
+      "translation": "открыто"
+    },
+    {
+      "id": "closed",
+      "english": "closed",
+      "translation": "закрыто"
+    },
+    {
+      "id": "online",
+      "english": "online",
+      "translation": "онлайн"
+    },
+    {
+      "id": "delivery",
+      "english": "delivery",
+      "translation": "доставка"
+    },
+    {
+      "id": "return",
+      "english": "return",
+      "translation": "возврат"
+    },
+    {
+      "id": "item",
+      "english": "item",
+      "translation": "товар"
+    },
+    {
+      "id": "bag",
+      "english": "bag",
+      "translation": "пакет"
+    }
+  ]
+}

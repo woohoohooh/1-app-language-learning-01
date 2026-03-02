@@ -1,0 +1,167 @@
+{
+  "theme": "Искусственный интеллект",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "artificial intelligence",
+      "translation": "искусственный интеллект"
+    },
+    {
+      "english": "AI",
+      "translation": "ИИ"
+    },
+    {
+      "english": "machine learning",
+      "translation": "машинное обучение"
+    },
+    {
+      "english": "deep learning",
+      "translation": "глубинное обучение"
+    },
+    {
+      "english": "neural network",
+      "translation": "нейронная сеть"
+    },
+    {
+      "english": "algorithm",
+      "translation": "алгоритм"
+    },
+    {
+      "english": "model",
+      "translation": "модель"
+    },
+    {
+      "english": "dataset",
+      "translation": "набор данных"
+    },
+    {
+      "english": "training",
+      "translation": "обучение"
+    },
+    {
+      "english": "inference",
+      "translation": "инференс"
+    },
+    {
+      "english": "input",
+      "translation": "входные данные"
+    },
+    {
+      "english": "output",
+      "translation": "выходные данные"
+    },
+    {
+      "english": "feature",
+      "translation": "признак"
+    },
+    {
+      "english": "parameter",
+      "translation": "параметр"
+    },
+    {
+      "english": "weight",
+      "translation": "вес"
+    },
+    {
+      "english": "accuracy",
+      "translation": "точность"
+    },
+    {
+      "english": "performance",
+      "translation": "производительность"
+    },
+    {
+      "english": "prediction",
+      "translation": "предсказание"
+    },
+    {
+      "english": "classification",
+      "translation": "классификация"
+    },
+    {
+      "english": "regression",
+      "translation": "регрессия"
+    },
+    {
+      "english": "automation",
+      "translation": "автоматизация"
+    },
+    {
+      "english": "optimization",
+      "translation": "оптимизация"
+    },
+    {
+      "english": "scalability",
+      "translation": "масштабируемость"
+    },
+    {
+      "english": "deployment",
+      "translation": "развёртывание"
+    },
+    {
+      "english": "integration",
+      "translation": "интеграция"
+    },
+    {
+      "english": "natural language processing",
+      "translation": "обработка естественного языка"
+    },
+    {
+      "english": "computer vision",
+      "translation": "компьютерное зрение"
+    },
+    {
+      "english": "speech recognition",
+      "translation": "распознавание речи"
+    },
+    {
+      "english": "chatbot",
+      "translation": "чат-бот"
+    },
+    {
+      "english": "assistant",
+      "translation": "ассистент"
+    },
+    {
+      "english": "bias",
+      "translation": "предвзятость"
+    },
+    {
+      "english": "ethics",
+      "translation": "этика"
+    },
+    {
+      "english": "privacy",
+      "translation": "конфиденциальность"
+    },
+    {
+      "english": "security",
+      "translation": "безопасность"
+    },
+    {
+      "english": "transparency",
+      "translation": "прозрачность"
+    },
+    {
+      "english": "use case",
+      "translation": "сценарий использования"
+    },
+    {
+      "english": "application",
+      "translation": "применение"
+    },
+    {
+      "english": "limitation",
+      "translation": "ограничение"
+    },
+    {
+      "english": "capability",
+      "translation": "возможность"
+    },
+    {
+      "english": "impact",
+      "translation": "влияние"
+    }
+  ]
+}

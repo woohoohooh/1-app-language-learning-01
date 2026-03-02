@@ -1,0 +1,163 @@
+{
+  "theme": "Обратная связь",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "feedback",
+      "translation": "обратная связь"
+    },
+    {
+      "english": "communication",
+      "translation": "коммуникация"
+    },
+    {
+      "english": "interaction",
+      "translation": "взаимодействие"
+    },
+    {
+      "english": "dialogue",
+      "translation": "диалог"
+    },
+    {
+      "english": "exchange",
+      "translation": "обмен"
+    },
+    {
+      "english": "clarity",
+      "translation": "ясность"
+    },
+    {
+      "english": "alignment",
+      "translation": "согласованность"
+    },
+    {
+      "english": "transparency",
+      "translation": "прозрачность"
+    },
+    {
+      "english": "consistency",
+      "translation": "последовательность"
+    },
+    {
+      "english": "tone",
+      "translation": "тон"
+    },
+    {
+      "english": "listening",
+      "translation": "слушание"
+    },
+    {
+      "english": "attention",
+      "translation": "внимание"
+    },
+    {
+      "english": "response",
+      "translation": "ответ"
+    },
+    {
+      "english": "reaction",
+      "translation": "реакция"
+    },
+    {
+      "english": "interpretation",
+      "translation": "интерпретация"
+    },
+    {
+      "english": "message",
+      "translation": "сообщение"
+    },
+    {
+      "english": "intent",
+      "translation": "намерение"
+    },
+    {
+      "english": "meaning",
+      "translation": "смысл"
+    },
+    {
+      "english": "context",
+      "translation": "контекст"
+    },
+    {
+      "english": "signal",
+      "translation": "сигнал"
+    },
+    {
+      "english": "miscommunication",
+      "translation": "недопонимание"
+    },
+    {
+      "english": "ambiguity",
+      "translation": "двусмысленность"
+    },
+    {
+      "english": "assumption",
+      "translation": "предположение"
+    },
+    {
+      "english": "perception",
+      "translation": "восприятие"
+    },
+    {
+      "english": "expectation",
+      "translation": "ожидание"
+    },
+    {
+      "english": "evaluation",
+      "translation": "оценка"
+    },
+    {
+      "english": "assessment",
+      "translation": "оценивание"
+    },
+    {
+      "english": "recognition",
+      "translation": "признание"
+    },
+    {
+      "english": "acknowledgment",
+      "translation": "подтверждение"
+    },
+    {
+      "english": "appreciation",
+      "translation": "признательность"
+    },
+    {
+      "english": "suggestion",
+      "translation": "предложение"
+    },
+    {
+      "english": "recommendation",
+      "translation": "рекомендация"
+    },
+    {
+      "english": "guidance",
+      "translation": "наставление"
+    },
+    {
+      "english": "direction",
+      "translation": "направление"
+    },
+    {
+      "english": "instruction",
+      "translation": "инструкция"
+    },
+    {
+      "english": "engagement",
+      "translation": "вовлечённость"
+    },
+    {
+      "english": "participation",
+      "translation": "участие"
+    },
+    {
+      "english": "alignment",
+      "translation": "согласование"
+    },
+    {
+      "english": "follow-up",
+      "translation": "дальнейшее взаимодействие"
+    }
+  ]
+}

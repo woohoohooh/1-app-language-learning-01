@@ -1,0 +1,335 @@
+{
+  "theme": "Время и даты",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "free-time-now",
+      "english": "free time now",
+      "translation": "свободное время сейчас",
+      "audio": [
+        "audio/phrases/free time now.wav"
+      ]
+    },
+    {
+      "id": "important-date-today",
+      "english": "important date today",
+      "translation": "важная дата сегодня",
+      "audio": [
+        "audio/phrases/important date today.wav"
+      ]
+    },
+    {
+      "id": "long-busy-day",
+      "english": "long busy day",
+      "translation": "длинный занятый день",
+      "audio": [
+        "audio/phrases/long busy day.wav"
+      ]
+    },
+    {
+      "id": "quiet-dark-night",
+      "english": "quiet dark night",
+      "translation": "тихая тёмная ночь",
+      "audio": [
+        "audio/phrases/quiet dark night.wav"
+      ]
+    },
+    {
+      "id": "early-morning-hours",
+      "english": "early morning hours",
+      "translation": "ранние утренние часы",
+      "audio": [
+        "audio/phrases/early morning hours.wav"
+      ]
+    },
+    {
+      "id": "quiet-evening-time",
+      "english": "quiet evening time",
+      "translation": "тихий вечер",
+      "audio": [
+        "audio/phrases/quiet evening time.wav"
+      ]
+    },
+    {
+      "id": "today-after-work",
+      "english": "today after work",
+      "translation": "сегодня после работы",
+      "audio": [
+        "audio/phrases/today after work.wav"
+      ]
+    },
+    {
+      "id": "tomorrow-in-morning",
+      "english": "tomorrow in morning",
+      "translation": "завтра утром",
+      "audio": [
+        "audio/phrases/tomorrow in morning.wav"
+      ]
+    },
+    {
+      "id": "yesterday-at-home",
+      "english": "yesterday at home",
+      "translation": "вчера дома",
+      "audio": [
+        "audio/phrases/yesterday at home.wav"
+      ]
+    },
+    {
+      "id": "busy-work-week",
+      "english": "busy work week",
+      "translation": "напряжённая рабочая неделя",
+      "audio": [
+        "audio/phrases/busy work week.wav"
+      ]
+    },
+    {
+      "id": "next-month-plans",
+      "english": "next month plans",
+      "translation": "планы на следующий месяц",
+      "audio": [
+        "audio/phrases/next month plans.wav"
+      ]
+    },
+    {
+      "id": "new-year-plans",
+      "english": "new year plans",
+      "translation": "планы на новый год",
+      "audio": [
+        "audio/phrases/new year plans.wav"
+      ]
+    },
+    {
+      "id": "normal-weekday-routine",
+      "english": "normal weekday routine",
+      "translation": "обычный будний день",
+      "audio": [
+        "audio/phrases/normal weekday routine.wav"
+      ]
+    },
+    {
+      "id": "relaxing-weekend-time",
+      "english": "relaxing weekend time",
+      "translation": "расслабляющие выходные",
+      "audio": [
+        "audio/phrases/relaxing weekend time.wav"
+      ]
+    },
+    {
+      "id": "monday-work-start",
+      "english": "monday work start",
+      "translation": "начало работы в понедельник",
+      "audio": [
+        "audio/phrases/monday work start.wav"
+      ]
+    },
+    {
+      "id": "tuesday-morning-meeting",
+      "english": "tuesday morning meeting",
+      "translation": "встреча во вторник утром",
+      "audio": [
+        "audio/phrases/tuesday morning meeting.wav"
+      ]
+    },
+    {
+      "id": "wednesday-in-middle",
+      "english": "wednesday in middle",
+      "translation": "среда в середине",
+      "audio": [
+        "audio/phrases/wednesday in middle.wav"
+      ]
+    },
+    {
+      "id": "thursday-work-plans",
+      "english": "thursday work plans",
+      "translation": "планы на четверг",
+      "audio": [
+        "audio/phrases/thursday work plans.wav"
+      ]
+    },
+    {
+      "id": "friday-evening-mood",
+      "english": "friday evening mood",
+      "translation": "пятничное вечернее настроение",
+      "audio": [
+        "audio/phrases/friday evening mood.wav"
+      ]
+    },
+    {
+      "id": "lazy-saturday-morning",
+      "english": "lazy saturday morning",
+      "translation": "ленивое субботнее утро",
+      "audio": [
+        "audio/phrases/lazy saturday morning.wav"
+      ]
+    },
+    {
+      "id": "quiet-sunday-evening",
+      "english": "quiet sunday evening",
+      "translation": "тихий воскресный вечер",
+      "audio": [
+        "audio/phrases/quiet sunday evening.wav"
+      ]
+    },
+    {
+      "id": "cold-january-weather",
+      "english": "cold january weather",
+      "translation": "холодная январская погода",
+      "audio": [
+        "audio/phrases/cold january weather.wav"
+      ]
+    },
+    {
+      "id": "short-february-month",
+      "english": "short february month",
+      "translation": "короткий месяц февраль",
+      "audio": [
+        "audio/phrases/short february month.wav"
+      ]
+    },
+    {
+      "id": "early-march-days",
+      "english": "early march days",
+      "translation": "ранние мартовские дни",
+      "audio": [
+        "audio/phrases/early march days.wav"
+      ]
+    },
+    {
+      "id": "warm-april-weather",
+      "english": "warm april weather",
+      "translation": "тёплая апрельская погода",
+      "audio": [
+        "audio/phrases/warm april weather.wav"
+      ]
+    },
+    {
+      "id": "bright-may-days",
+      "english": "bright may days",
+      "translation": "яркие майские дни",
+      "audio": [
+        "audio/phrases/bright may days.wav"
+      ]
+    },
+    {
+      "id": "early-june-summer",
+      "english": "early june summer",
+      "translation": "начало лета в июне",
+      "audio": [
+        "audio/phrases/early june summer.wav"
+      ]
+    },
+    {
+      "id": "hot-july-weather",
+      "english": "hot july weather",
+      "translation": "жаркая июльская погода",
+      "audio": [
+        "audio/phrases/hot july weather.wav"
+      ]
+    },
+    {
+      "id": "late-august-days",
+      "english": "late august days",
+      "translation": "поздние августовские дни",
+      "audio": [
+        "audio/phrases/late august days.wav"
+      ]
+    },
+    {
+      "id": "early-september-start",
+      "english": "early september start",
+      "translation": "начало сентября",
+      "audio": [
+        "audio/phrases/early september start.wav"
+      ]
+    },
+    {
+      "id": "cool-october-air",
+      "english": "cool october air",
+      "translation": "прохладный октябрьский воздух",
+      "audio": [
+        "audio/phrases/cool october air.wav"
+      ]
+    },
+    {
+      "id": "dark-november-days",
+      "english": "dark november days",
+      "translation": "тёмные ноябрьские дни",
+      "audio": [
+        "audio/phrases/dark november days.wav"
+      ]
+    },
+    {
+      "id": "cold-december-nights",
+      "english": "cold december nights",
+      "translation": "холодные декабрьские ночи",
+      "audio": [
+        "audio/phrases/cold december nights.wav"
+      ]
+    },
+    {
+      "id": "one-free-hour",
+      "english": "one free hour",
+      "translation": "один свободный час",
+      "audio": [
+        "audio/phrases/one free hour.wav"
+      ]
+    },
+    {
+      "id": "wait-one-minute",
+      "english": "wait one minute",
+      "translation": "подожди одну минуту",
+      "audio": [
+        "audio/phrases/wait one minute.wav"
+      ]
+    },
+    {
+      "id": "just-one-second",
+      "english": "just one second",
+      "translation": "всего одна секунда",
+      "audio": [
+        "audio/phrases/just one second.wav"
+      ]
+    },
+    {
+      "id": "wall-clock-time",
+      "english": "wall clock time",
+      "translation": "время на настенных часах",
+      "audio": [
+        "audio/phrases/wall clock time.wav"
+      ]
+    },
+    {
+      "id": "monthly-calendar-page",
+      "english": "monthly calendar page",
+      "translation": "страница месячного календаря",
+      "audio": [
+        "audio/phrases/monthly calendar page.wav"
+      ]
+    },
+    {
+      "id": "wake-up-early",
+      "english": "wake up early",
+      "translation": "просыпаться рано",
+      "audio": [
+        "audio/phrases/wake up early.wav"
+      ]
+    },
+    {
+      "id": "come-home-late",
+      "english": "come home late",
+      "translation": "приходить домой поздно",
+      "audio": [
+        "audio/phrases/come home late.wav"
+      ]
+    },
+    {
+      "id": "right-now-here",
+      "english": "right now here",
+      "translation": "прямо сейчас здесь",
+      "audio": [
+        "audio/phrases/right now here.wav"
+      ]
+    }
+  ]
+}

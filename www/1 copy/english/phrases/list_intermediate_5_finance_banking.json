@@ -1,0 +1,327 @@
+{
+  "theme": "Финансы и банки",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "visit-the-bank",
+      "english": "visit the bank",
+      "translation": "посетить банк",
+      "audio": [
+        "audio/phrases/visit the bank.wav"
+      ]
+    },
+    {
+      "id": "open-new-branch",
+      "english": "open new branch",
+      "translation": "открыть новое отделение",
+      "audio": [
+        "audio/phrases/open new branch.wav"
+      ]
+    },
+    {
+      "id": "create-account",
+      "english": "create account",
+      "translation": "создать счёт",
+      "audio": [
+        "audio/phrases/create account.wav"
+      ]
+    },
+    {
+      "id": "check-balance",
+      "english": "check balance",
+      "translation": "проверить баланс",
+      "audio": [
+        "audio/phrases/check balance.wav"
+      ]
+    },
+    {
+      "id": "request-statement",
+      "english": "request statement",
+      "translation": "запросить выписку",
+      "audio": [
+        "audio/phrases/request statement.wav"
+      ]
+    },
+    {
+      "id": "make-a-deposit",
+      "english": "make a deposit",
+      "translation": "сделать вклад",
+      "audio": [
+        "audio/phrases/make a deposit.wav"
+      ]
+    },
+    {
+      "id": "cash-withdrawal",
+      "english": "cash withdrawal",
+      "translation": "снятие наличных",
+      "audio": [
+        "audio/phrases/cash withdrawal.wav"
+      ]
+    },
+    {
+      "id": "make-transfer",
+      "english": "make transfer",
+      "translation": "сделать перевод",
+      "audio": [
+        "audio/phrases/make transfer.wav"
+      ]
+    },
+    {
+      "id": "track-transactions",
+      "english": "track transactions",
+      "translation": "отслеживать транзакции",
+      "audio": [
+        "audio/phrases/track transactions.wav"
+      ]
+    },
+    {
+      "id": "process-payment",
+      "english": "process payment",
+      "translation": "обработать платёж",
+      "audio": [
+        "audio/phrases/process payment.wav"
+      ]
+    },
+    {
+      "id": "count-cash",
+      "english": "count cash",
+      "translation": "пересчитать наличные",
+      "audio": [
+        "audio/phrases/count cash.wav"
+      ]
+    },
+    {
+      "id": "buy-currency",
+      "english": "buy currency",
+      "translation": "купить валюту",
+      "audio": [
+        "audio/phrases/buy currency.wav"
+      ]
+    },
+    {
+      "id": "check-exchange-rate",
+      "english": "check exchange rate",
+      "translation": "проверить обменный курс",
+      "audio": [
+        "audio/phrases/check exchange rate.wav"
+      ]
+    },
+    {
+      "id": "convert-foreign-currency",
+      "english": "convert foreign currency",
+      "translation": "конвертировать иностранную валюту",
+      "audio": [
+        "audio/phrases/convert foreign currency.wav"
+      ]
+    },
+    {
+      "id": "transfer-funds",
+      "english": "transfer funds",
+      "translation": "перевести средства",
+      "audio": [
+        "audio/phrases/transfer funds.wav"
+      ]
+    },
+    {
+      "id": "use-card",
+      "english": "use card",
+      "translation": "использовать карту",
+      "audio": [
+        "audio/phrases/use card.wav"
+      ]
+    },
+    {
+      "id": "apply-for-credit-card",
+      "english": "apply for credit card",
+      "translation": "оформить кредитную карту",
+      "audio": [
+        "audio/phrases/apply for credit card.wav"
+      ]
+    },
+    {
+      "id": "use-debit-card",
+      "english": "use debit card",
+      "translation": "использовать дебетовую карту",
+      "audio": [
+        "audio/phrases/use debit card.wav"
+      ]
+    },
+    {
+      "id": "enter-pin",
+      "english": "enter pin",
+      "translation": "ввести пин",
+      "audio": [
+        "audio/phrases/enter pin.wav"
+      ]
+    },
+    {
+      "id": "use-atm",
+      "english": "use atm",
+      "translation": "использовать банкомат",
+      "audio": [
+        "audio/phrases/use atm.wav"
+      ]
+    },
+    {
+      "id": "take-a-loan",
+      "english": "take a loan",
+      "translation": "взять кредит",
+      "audio": [
+        "audio/phrases/take a loan.wav"
+      ]
+    },
+    {
+      "id": "get-credit",
+      "english": "get credit",
+      "translation": "получить кредит",
+      "audio": [
+        "audio/phrases/get credit.wav"
+      ]
+    },
+    {
+      "id": "pay-interest",
+      "english": "pay interest",
+      "translation": "платить проценты",
+      "audio": [
+        "audio/phrases/pay interest.wav"
+      ]
+    },
+    {
+      "id": "higher-interest-rate",
+      "english": "higher interest rate",
+      "translation": "более высокая ставка",
+      "audio": [
+        "audio/phrases/higher interest rate.wav"
+      ]
+    },
+    {
+      "id": "repayment-plan",
+      "english": "repayment plan",
+      "translation": "план погашения",
+      "audio": [
+        "audio/phrases/repayment plan.wav"
+      ]
+    },
+    {
+      "id": "reduce-debt",
+      "english": "reduce debt",
+      "translation": "сократить долг",
+      "audio": [
+        "audio/phrases/reduce debt.wav"
+      ]
+    },
+    {
+      "id": "monthly-installment",
+      "english": "monthly installment",
+      "translation": "ежемесячный платёж",
+      "audio": [
+        "audio/phrases/monthly installment.wav"
+      ]
+    },
+    {
+      "id": "take-mortgage",
+      "english": "take mortgage",
+      "translation": "взять ипотеку",
+      "audio": [
+        "audio/phrases/take mortgage.wav"
+      ]
+    },
+    {
+      "id": "extra-fee",
+      "english": "extra fee",
+      "translation": "дополнительная комиссия",
+      "audio": [
+        "audio/phrases/extra fee.wav"
+      ]
+    },
+    {
+      "id": "bank-charge",
+      "english": "bank charge",
+      "translation": "банковское списание",
+      "audio": [
+        "audio/phrases/bank charge.wav"
+      ]
+    },
+    {
+      "id": "online-banking-access",
+      "english": "online banking access",
+      "translation": "доступ к онлайн-банкингу",
+      "audio": [
+        "audio/phrases/online banking access.wav"
+      ]
+    },
+    {
+      "id": "mobile-banking-app",
+      "english": "mobile banking app",
+      "translation": "приложение мобильного банка",
+      "audio": [
+        "audio/phrases/mobile banking app.wav"
+      ]
+    },
+    {
+      "id": "user-authorization",
+      "english": "user authorization",
+      "translation": "авторизация пользователя",
+      "audio": [
+        "audio/phrases/user authorization.wav"
+      ]
+    },
+    {
+      "id": "identity-verification",
+      "english": "identity verification",
+      "translation": "проверка личности",
+      "audio": [
+        "audio/phrases/identity verification.wav"
+      ]
+    },
+    {
+      "id": "high-security",
+      "english": "high security",
+      "translation": "высокая безопасность",
+      "audio": [
+        "audio/phrases/high security.wav"
+      ]
+    },
+    {
+      "id": "pay-tax",
+      "english": "pay tax",
+      "translation": "платить налог",
+      "audio": [
+        "audio/phrases/pay tax.wav"
+      ]
+    },
+    {
+      "id": "request-refund",
+      "english": "request refund",
+      "translation": "запросить возврат",
+      "audio": [
+        "audio/phrases/request refund.wav"
+      ]
+    },
+    {
+      "id": "pay-fine",
+      "english": "pay fine",
+      "translation": "оплатить штраф",
+      "audio": [
+        "audio/phrases/pay fine.wav"
+      ]
+    },
+    {
+      "id": "buy-insurance",
+      "english": "buy insurance",
+      "translation": "купить страховку",
+      "audio": [
+        "audio/phrases/buy insurance.wav"
+      ]
+    },
+    {
+      "id": "insurance-coverage",
+      "english": "insurance coverage",
+      "translation": "страховое покрытие",
+      "audio": [
+        "audio/phrases/insurance coverage.wav"
+      ]
+    }
+  ]
+}

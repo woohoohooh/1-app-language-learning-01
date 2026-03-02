@@ -1,0 +1,147 @@
+{
+  "theme": "Аргументация и мнение",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "opinion",
+      "translation": "мнение"
+    },
+    {
+      "english": "viewpoint",
+      "translation": "точка зрения"
+    },
+    {
+      "english": "perspective",
+      "translation": "перспектива"
+    },
+    {
+      "english": "stance",
+      "translation": "позиция"
+    },
+    {
+      "english": "belief",
+      "translation": "убеждение"
+    },
+    {
+      "english": "argument",
+      "translation": "аргумент"
+    },
+    {
+      "english": "reasoning",
+      "translation": "рассуждение"
+    },
+    {
+      "english": "logic",
+      "translation": "логика"
+    },
+    {
+      "english": "claim",
+      "translation": "утверждение"
+    },
+    {
+      "english": "statement",
+      "translation": "заявление"
+    },
+    {
+      "english": "evidence",
+      "translation": "доказательства"
+    },
+    {
+      "english": "proof",
+      "translation": "доказательство"
+    },
+    {
+      "english": "example",
+      "translation": "пример"
+    },
+    {
+      "english": "support",
+      "translation": "поддержка"
+    },
+    {
+      "english": "justification",
+      "translation": "обоснование"
+    },
+    {
+      "english": "assumption",
+      "translation": "предположение"
+    },
+    {
+      "english": "interpretation",
+      "translation": "интерпретация"
+    },
+    {
+      "english": "assessment",
+      "translation": "оценка"
+    },
+    {
+      "english": "judgment",
+      "translation": "суждение"
+    },
+    {
+      "english": "evaluation",
+      "translation": "оценивание"
+    },
+    {
+      "english": "agreement",
+      "translation": "согласие"
+    },
+    {
+      "english": "disagreement",
+      "translation": "несогласие"
+    },
+    {
+      "english": "consensus",
+      "translation": "консенсус"
+    },
+    {
+      "english": "compromise",
+      "translation": "компромисс"
+    },
+    {
+      "english": "objection",
+      "translation": "возражение"
+    },
+    {
+      "english": "counterargument",
+      "translation": "контраргумент"
+    },
+    {
+      "english": "criticism",
+      "translation": "критика"
+    },
+    {
+      "english": "challenge",
+      "translation": "вызов"
+    },
+    {
+      "english": "defense",
+      "translation": "защита позиции"
+    },
+    {
+      "english": "rebuttal",
+      "translation": "опровержение"
+    },
+    {
+      "english": "conclusion",
+      "translation": "вывод"
+    },
+    {
+      "english": "summary",
+      "translation": "краткое резюме"
+    },
+    {
+      "english": "outcome",
+      "translation": "результат"
+    },
+    {
+      "english": "implication",
+      "translation": "последствие"
+    },
+    {
+      "english": "standpoint",
+      "translation": "точка зрения"
+    }
+  ]
+}

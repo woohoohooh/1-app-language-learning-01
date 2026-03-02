@@ -1,0 +1,32 @@
+{
+  "theme": "Движение и транспорт",
+  "level": "Beginner",
+  "name": "Sentences",
+  "items": [
+    { "original": "move", "english": "I move slowly.", "translation": "Я двигаюсь медленно." },
+    { "original": "walk", "english": "I walk to school.", "translation": "Я иду в школу пешком." },
+    { "original": "run", "english": "He runs fast.", "translation": "Он бежит быстро." },
+    { "original": "stop", "english": "Please stop here.", "translation": "Пожалуйста, остановись здесь." },
+    { "original": "road", "english": "The road is long.", "translation": "Дорога длинная." },
+    { "original": "street", "english": "This street is busy.", "translation": "Эта улица оживлённая." },
+    { "original": "way", "english": "This is the right way.", "translation": "Это правильный путь." },
+    { "original": "direction", "english": "Show me the direction.", "translation": "Покажи мне направление." },
+    { "original": "car", "english": "The car is new.", "translation": "Машина новая." },
+    { "original": "bus", "english": "The bus is late.", "translation": "Автобус опаздывает." },
+    { "original": "train", "english": "The train arrives soon.", "translation": "Поезд скоро прибывает." },
+    { "original": "taxi", "english": "I take a taxi.", "translation": "Я беру такси." },
+    { "original": "subway", "english": "The subway is fast.", "translation": "Метро быстрое." },
+    { "original": "bike", "english": "I ride a bike.", "translation": "Я катаюсь на велосипеде." },
+    { "original": "bicycle", "english": "She has a bicycle.", "translation": "У неё есть велосипед." },
+    { "original": "station", "english": "The station is big.", "translation": "Станция большая." },
+    { "original": "stop", "english": "The bus stop is near.", "translation": "Остановка рядом." },
+    { "original": "ticket", "english": "I buy a ticket.", "translation": "Я покупаю билет." },
+    { "original": "ride", "english": "It is a long ride.", "translation": "Это долгая поездка." },
+    { "original": "trip", "english": "The trip is fun.", "translation": "Путешествие весёлое." },
+    { "original": "drive", "english": "I drive a car.", "translation": "Я вожу машину." },
+    { "original": "arrive", "english": "We arrive at noon.", "translation": "Мы прибываем в полдень." },
+    { "original": "go", "english": "I go to work.", "translation": "Я иду на работу." },
+    { "original": "come", "english": "Come with me.", "translation": "Пойдём со мной." },
+    { "original": "leave", "english": "They leave today.", "translation": "Они уезжают сегодня." }
+  ]
+}

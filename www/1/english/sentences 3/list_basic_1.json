@@ -1,0 +1,359 @@
+{
+  "theme": "Частые слова (база)",
+  "level": "Beginner",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "I",
+      "translation": "я"
+    },
+    {
+      "english": "you",
+      "translation": "ты"
+    },
+    {
+      "english": "he",
+      "translation": "он"
+    },
+    {
+      "english": "she",
+      "translation": "она"
+    },
+    {
+      "english": "we",
+      "translation": "мы"
+    },
+    {
+      "english": "they",
+      "translation": "они"
+    },
+    {
+      "english": "be",
+      "translation": "быть"
+    },
+    {
+      "english": "have",
+      "translation": "иметь"
+    },
+    {
+      "english": "do",
+      "translation": "делать"
+    },
+    {
+      "english": "say",
+      "translation": "говорить"
+    },
+    {
+      "english": "come",
+      "translation": "приходить"
+    },
+    {
+      "english": "see",
+      "translation": "видеть"
+    },
+    {
+      "english": "hear",
+      "translation": "слышать"
+    },
+    {
+      "english": "know",
+      "translation": "знать"
+    },
+    {
+      "english": "think",
+      "translation": "думать"
+    },
+    {
+      "english": "want",
+      "translation": "хотеть"
+    },
+    {
+      "english": "need",
+      "translation": "нуждаться"
+    },
+    {
+      "english": "like",
+      "translation": "нравиться"
+    },
+    {
+      "english": "use",
+      "translation": "использовать"
+    },
+    {
+      "english": "try",
+      "translation": "пытаться"
+    },
+    {
+      "english": "ask",
+      "translation": "спрашивать"
+    },
+    {
+      "english": "give",
+      "translation": "давать"
+    },
+    {
+      "english": "take",
+      "translation": "брать"
+    },
+    {
+      "english": "find",
+      "translation": "находить"
+    },
+    {
+      "english": "tell",
+      "translation": "рассказывать"
+    },
+    {
+      "english": "feel",
+      "translation": "чувствовать"
+    },
+    {
+      "english": "bring",
+      "translation": "приносить"
+    },
+    {
+      "english": "time",
+      "translation": "время"
+    },
+    {
+      "english": "day",
+      "translation": "день"
+    },
+    {
+      "english": "year",
+      "translation": "год"
+    },
+    {
+      "english": "people",
+      "translation": "люди"
+    },
+    {
+      "english": "person",
+      "translation": "человек"
+    },
+    {
+      "english": "life",
+      "translation": "жизнь"
+    },
+    {
+      "english": "thing",
+      "translation": "вещь"
+    },
+    {
+      "english": "place",
+      "translation": "место"
+    },
+    {
+      "english": "problem",
+      "translation": "проблема"
+    },
+    {
+      "english": "question",
+      "translation": "вопрос"
+    },
+    {
+      "english": "home",
+      "translation": "дом"
+    },
+    {
+      "english": "world",
+      "translation": "мир"
+    },
+    {
+      "english": "friend",
+      "translation": "друг"
+    },
+    {
+      "english": "family",
+      "translation": "семья"
+    },
+    {
+      "english": "good",
+      "translation": "хороший"
+    },
+    {
+      "english": "bad",
+      "translation": "плохой"
+    },
+    {
+      "english": "big",
+      "translation": "большой"
+    },
+    {
+      "english": "small",
+      "translation": "маленький"
+    },
+    {
+      "english": "new",
+      "translation": "новый"
+    },
+    {
+      "english": "old",
+      "translation": "старый"
+    },
+    {
+      "english": "same",
+      "translation": "одинаковый"
+    },
+    {
+      "english": "different",
+      "translation": "разный"
+    },
+    {
+      "english": "important",
+      "translation": "важный"
+    },
+    {
+      "english": "easy",
+      "translation": "лёгкий"
+    },
+    {
+      "english": "hard",
+      "translation": "трудный"
+    },
+    {
+      "english": "wrong",
+      "translation": "неправильный"
+    },
+    {
+      "english": "very",
+      "translation": "очень"
+    },
+    {
+      "english": "really",
+      "translation": "действительно"
+    },
+    {
+      "english": "only",
+      "translation": "только"
+    },
+    {
+      "english": "now",
+      "translation": "сейчас"
+    },
+    {
+      "english": "here",
+      "translation": "здесь"
+    },
+    {
+      "english": "there",
+      "translation": "там"
+    },
+    {
+      "english": "always",
+      "translation": "всегда"
+    },
+    {
+      "english": "often",
+      "translation": "часто"
+    },
+    {
+      "english": "sometimes",
+      "translation": "иногда"
+    },
+    {
+      "english": "never",
+      "translation": "никогда"
+    },
+    {
+      "english": "in",
+      "translation": "в"
+    },
+    {
+      "english": "on",
+      "translation": "на"
+    },
+    {
+      "english": "with",
+      "translation": "с"
+    },
+    {
+      "english": "without",
+      "translation": "без"
+    },
+    {
+      "english": "for",
+      "translation": "для"
+    },
+    {
+      "english": "before",
+      "translation": "до"
+    },
+    {
+      "english": "after",
+      "translation": "после"
+    },
+    {
+      "english": "what",
+      "translation": "что"
+    },
+    {
+      "english": "who",
+      "translation": "кто"
+    },
+    {
+      "english": "where",
+      "translation": "где"
+    },
+    {
+      "english": "when",
+      "translation": "когда"
+    },
+    {
+      "english": "why",
+      "translation": "почему"
+    },
+    {
+      "english": "how",
+      "translation": "как"
+    },
+    {
+      "english": "it",
+      "translation": "это"
+    },
+    {
+      "english": "make",
+      "translation": "делать"
+    },
+    {
+      "english": "go",
+      "translation": "идти"
+    },
+    {
+      "english": "work",
+      "translation": "работать"
+    },
+    {
+      "english": "leave",
+      "translation": "уходить"
+    },
+    {
+      "english": "way",
+      "translation": "способ"
+    },
+    {
+      "english": "right",
+      "translation": "правильный"
+    },
+    {
+      "english": "just",
+      "translation": "только что"
+    },
+    {
+      "english": "at",
+      "translation": "у"
+    },
+    {
+      "english": "to",
+      "translation": "к"
+    },
+    {
+      "english": "from",
+      "translation": "из"
+    },
+    {
+      "english": "about",
+      "translation": "о"
+    }
+  ]
+}

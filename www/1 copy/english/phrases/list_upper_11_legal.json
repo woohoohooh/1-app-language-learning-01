@@ -1,0 +1,327 @@
+{
+  "theme": "Юриспруденция",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "under-the-law",
+      "english": "under the law",
+      "translation": "в рамках закона",
+      "audio": [
+        "audio/phrases/under the law.wav"
+      ]
+    },
+    {
+      "id": "legal-advice",
+      "english": "legal advice",
+      "translation": "юридическая консультация",
+      "audio": [
+        "audio/phrases/legal advice.wav"
+      ]
+    },
+    {
+      "id": "sign-a-contract",
+      "english": "sign a contract",
+      "translation": "подписать договор",
+      "audio": [
+        "audio/phrases/sign a contract.wav"
+      ]
+    },
+    {
+      "id": "reach-agreement",
+      "english": "reach agreement",
+      "translation": "достичь соглашения",
+      "audio": [
+        "audio/phrases/reach agreement.wav"
+      ]
+    },
+    {
+      "id": "specific-clause",
+      "english": "specific clause",
+      "translation": "конкретный пункт",
+      "audio": [
+        "audio/phrases/specific clause.wav"
+      ]
+    },
+    {
+      "id": "payment-terms",
+      "english": "payment terms",
+      "translation": "условия оплаты",
+      "audio": [
+        "audio/phrases/payment terms.wav"
+      ]
+    },
+    {
+      "id": "market-conditions",
+      "english": "market conditions",
+      "translation": "рыночные условия",
+      "audio": [
+        "audio/phrases/market conditions.wav"
+      ]
+    },
+    {
+      "id": "meet-obligations",
+      "english": "meet obligations",
+      "translation": "выполнить обязательства",
+      "audio": [
+        "audio/phrases/meet obligations.wav"
+      ]
+    },
+    {
+      "id": "limited-liability",
+      "english": "limited liability",
+      "translation": "ограниченная ответственность",
+      "audio": [
+        "audio/phrases/limited liability.wav"
+      ]
+    },
+    {
+      "id": "late-penalty",
+      "english": "late penalty",
+      "translation": "штраф за просрочку",
+      "audio": [
+        "audio/phrases/late penalty.wav"
+      ]
+    },
+    {
+      "id": "breach-of-contract",
+      "english": "breach of contract",
+      "translation": "нарушение договора",
+      "audio": [
+        "audio/phrases/breach of contract.wav"
+      ]
+    },
+    {
+      "id": "policy-violation",
+      "english": "policy violation",
+      "translation": "нарушение правил",
+      "audio": [
+        "audio/phrases/policy violation.wav"
+      ]
+    },
+    {
+      "id": "ensure-compliance",
+      "english": "ensure compliance",
+      "translation": "обеспечить соответствие",
+      "audio": [
+        "audio/phrases/ensure compliance.wav"
+      ]
+    },
+    {
+      "id": "industry-regulation",
+      "english": "industry regulation",
+      "translation": "отраслевое регулирование",
+      "audio": [
+        "audio/phrases/industry regulation.wav"
+      ]
+    },
+    {
+      "id": "company-policy",
+      "english": "company policy",
+      "translation": "политика компании",
+      "audio": [
+        "audio/phrases/company policy.wav"
+      ]
+    },
+    {
+      "id": "user-rights",
+      "english": "user rights",
+      "translation": "права пользователя",
+      "audio": [
+        "audio/phrases/user rights.wav"
+      ]
+    },
+    {
+      "id": "assigned-duties",
+      "english": "assigned duties",
+      "translation": "возложенные обязанности",
+      "audio": [
+        "audio/phrases/assigned duties.wav"
+      ]
+    },
+    {
+      "id": "each-party",
+      "english": "each party",
+      "translation": "каждая сторона",
+      "audio": [
+        "audio/phrases/each party.wav"
+      ]
+    },
+    {
+      "id": "third-party-claim",
+      "english": "third party claim",
+      "translation": "требование третьей стороны",
+      "audio": [
+        "audio/phrases/third party claim.wav"
+      ]
+    },
+    {
+      "id": "reliable-counterparty",
+      "english": "reliable counterparty",
+      "translation": "надёжный контрагент",
+      "audio": [
+        "audio/phrases/reliable counterparty.wav"
+      ]
+    },
+    {
+      "id": "signature-required-here",
+      "english": "signature required here",
+      "translation": "здесь требуется подпись",
+      "audio": [
+        "audio/phrases/signature required here.wav"
+      ]
+    },
+    {
+      "id": "amendment-to-contract",
+      "english": "amendment to contract",
+      "translation": "поправка к договору",
+      "audio": [
+        "audio/phrases/amendment to contract.wav"
+      ]
+    },
+    {
+      "id": "early-termination-clause",
+      "english": "early termination clause",
+      "translation": "условие досрочного расторжения",
+      "audio": [
+        "audio/phrases/early termination clause.wav"
+      ]
+    },
+    {
+      "id": "before-expiration-date",
+      "english": "before expiration date",
+      "translation": "до даты истечения",
+      "audio": [
+        "audio/phrases/before expiration date.wav"
+      ]
+    },
+    {
+      "id": "automatic-renewal-option",
+      "english": "automatic renewal option",
+      "translation": "вариант автоматического продления",
+      "audio": [
+        "audio/phrases/automatic renewal option.wav"
+      ]
+    },
+    {
+      "id": "resolve-a-dispute",
+      "english": "resolve a dispute",
+      "translation": "урегулировать спор",
+      "audio": [
+        "audio/phrases/resolve a dispute.wav"
+      ]
+    },
+    {
+      "id": "file-a-claim",
+      "english": "file a claim",
+      "translation": "подать претензию",
+      "audio": [
+        "audio/phrases/file a claim.wav"
+      ]
+    },
+    {
+      "id": "avoid-a-lawsuit",
+      "english": "avoid a lawsuit",
+      "translation": "избежать судебного иска",
+      "audio": [
+        "audio/phrases/avoid a lawsuit.wav"
+      ]
+    },
+    {
+      "id": "court-decision-issued",
+      "english": "court decision issued",
+      "translation": "решение суда вынесено",
+      "audio": [
+        "audio/phrases/court decision issued.wav"
+      ]
+    },
+    {
+      "id": "reach-a-settlement",
+      "english": "reach a settlement",
+      "translation": "достичь мирового соглашения",
+      "audio": [
+        "audio/phrases/reach a settlement.wav"
+      ]
+    },
+    {
+      "id": "under-local-jurisdiction",
+      "english": "under local jurisdiction",
+      "translation": "в рамках местной юрисдикции",
+      "audio": [
+        "audio/phrases/under local jurisdiction.wav"
+      ]
+    },
+    {
+      "id": "protect-intellectual-property",
+      "english": "protect intellectual property",
+      "translation": "защищать интеллектуальную собственность",
+      "audio": [
+        "audio/phrases/protect intellectual property.wav"
+      ]
+    },
+    {
+      "id": "copyright-protection-applies",
+      "english": "copyright protection applies",
+      "translation": "действует защита авторского права",
+      "audio": [
+        "audio/phrases/copyright protection applies.wav"
+      ]
+    },
+    {
+      "id": "registered-trademark-holder",
+      "english": "registered trademark holder",
+      "translation": "владелец зарегистрированного знака",
+      "audio": [
+        "audio/phrases/registered trademark holder.wav"
+      ]
+    },
+    {
+      "id": "confidentiality-obligations-apply",
+      "english": "confidentiality obligations apply",
+      "translation": "действуют обязательства конфиденциальности",
+      "audio": [
+        "audio/phrases/confidentiality obligations apply.wav"
+      ]
+    },
+    {
+      "id": "respect-user-privacy",
+      "english": "respect user privacy",
+      "translation": "уважать приватность пользователя",
+      "audio": [
+        "audio/phrases/respect user privacy.wav"
+      ]
+    },
+    {
+      "id": "give-written-consent",
+      "english": "give written consent",
+      "translation": "дать письменное согласие",
+      "audio": [
+        "audio/phrases/give written consent.wav"
+      ]
+    },
+    {
+      "id": "official-authorization-required",
+      "english": "official authorization required",
+      "translation": "требуется официальное разрешение",
+      "audio": [
+        "audio/phrases/official authorization required.wav"
+      ]
+    },
+    {
+      "id": "legal-representation-statement",
+      "english": "legal representation statement",
+      "translation": "заявление о юридических гарантиях",
+      "audio": [
+        "audio/phrases/legal representation statement.wav"
+      ]
+    },
+    {
+      "id": "limited-warranty-period",
+      "english": "limited warranty period",
+      "translation": "ограниченный гарантийный срок",
+      "audio": [
+        "audio/phrases/limited warranty period.wav"
+      ]
+    }
+  ]
+}

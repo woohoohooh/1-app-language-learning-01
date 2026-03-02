@@ -1,0 +1,367 @@
+{
+  "theme": "Частые слова",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "manage-your-team",
+      "english": "manage your team",
+      "translation": "управлять своей командой",
+      "audio": [
+        "audio/phrases/manage your team.wav"
+      ]
+    },
+    {
+      "id": "improve-the-process",
+      "english": "improve the process",
+      "translation": "улучшить процесс",
+      "audio": [
+        "audio/phrases/improve the process.wav"
+      ]
+    },
+    {
+      "id": "increase-production",
+      "english": "increase production",
+      "translation": "увеличить производство",
+      "audio": [
+        "audio/phrases/increase production.wav"
+      ]
+    },
+    {
+      "id": "reduce-the-cost",
+      "english": "reduce the cost",
+      "translation": "уменьшить стоимость",
+      "audio": [
+        "audio/phrases/reduce the cost.wav"
+      ]
+    },
+    {
+      "id": "affect-the-outcome",
+      "english": "affect the outcome",
+      "translation": "влиять на результат",
+      "audio": [
+        "audio/phrases/affect the outcome.wav"
+      ]
+    },
+    {
+      "id": "depend-on-timing",
+      "english": "depend on timing",
+      "translation": "зависеть от времени",
+      "audio": [
+        "audio/phrases/depend on timing.wav"
+      ]
+    },
+    {
+      "id": "support-your-idea",
+      "english": "support your idea",
+      "translation": "поддержать твою идею",
+      "audio": [
+        "audio/phrases/support your idea.wav"
+      ]
+    },
+    {
+      "id": "require-attention",
+      "english": "require attention",
+      "translation": "требовать внимания",
+      "audio": [
+        "audio/phrases/require attention.wav"
+      ]
+    },
+    {
+      "id": "expect-good-results",
+      "english": "expect good results",
+      "translation": "ожидать хороших результатов",
+      "audio": [
+        "audio/phrases/expect good results.wav"
+      ]
+    },
+    {
+      "id": "avoid-mistakes",
+      "english": "avoid mistakes",
+      "translation": "избегать ошибок",
+      "audio": [
+        "audio/phrases/avoid mistakes.wav"
+      ]
+    },
+    {
+      "id": "suggest-a-plan",
+      "english": "suggest a plan",
+      "translation": "предложить план",
+      "audio": [
+        "audio/phrases/suggest a plan.wav"
+      ]
+    },
+    {
+      "id": "decide-later",
+      "english": "decide later",
+      "translation": "решить позже",
+      "audio": [
+        "audio/phrases/decide later.wav"
+      ]
+    },
+    {
+      "id": "allow-access",
+      "english": "allow access",
+      "translation": "разрешить доступ",
+      "audio": [
+        "audio/phrases/allow access.wav"
+      ]
+    },
+    {
+      "id": "prevent-damage",
+      "english": "prevent damage",
+      "translation": "предотвратить ущерб",
+      "audio": [
+        "audio/phrases/prevent damage.wav"
+      ]
+    },
+    {
+      "id": "consider-options",
+      "english": "consider options",
+      "translation": "рассмотреть варианты",
+      "audio": [
+        "audio/phrases/consider options.wav"
+      ]
+    },
+    {
+      "id": "good-reason",
+      "english": "good reason",
+      "translation": "веская причина",
+      "audio": [
+        "audio/phrases/good reason.wav"
+      ]
+    },
+    {
+      "id": "positive-result",
+      "english": "positive result",
+      "translation": "положительный результат",
+      "audio": [
+        "audio/phrases/positive result.wav"
+      ]
+    },
+    {
+      "id": "clear-purpose",
+      "english": "clear purpose",
+      "translation": "ясная цель",
+      "audio": [
+        "audio/phrases/clear purpose.wav"
+      ]
+    },
+    {
+      "id": "difficult-choice",
+      "english": "difficult choice",
+      "translation": "сложный выбор",
+      "audio": [
+        "audio/phrases/difficult choice.wav"
+      ]
+    },
+    {
+      "id": "big-opportunity",
+      "english": "big opportunity",
+      "translation": "большая возможность",
+      "audio": [
+        "audio/phrases/big opportunity.wav"
+      ]
+    },
+    {
+      "id": "serious-challenge",
+      "english": "serious challenge",
+      "translation": "серьёзный вызов",
+      "audio": [
+        "audio/phrases/serious challenge.wav"
+      ]
+    },
+    {
+      "id": "work-experience",
+      "english": "work experience",
+      "translation": "рабочий опыт",
+      "audio": [
+        "audio/phrases/work experience.wav"
+      ]
+    },
+    {
+      "id": "take-a-risk",
+      "english": "take a risk",
+      "translation": "пойти на риск",
+      "audio": [
+        "audio/phrases/take a risk.wav"
+      ]
+    },
+    {
+      "id": "health-benefits",
+      "english": "health benefits",
+      "translation": "польза для здоровья",
+      "audio": [
+        "audio/phrases/health benefits.wav"
+      ]
+    },
+    {
+      "id": "strong-impact",
+      "english": "strong impact",
+      "translation": "сильное влияние",
+      "audio": [
+        "audio/phrases/strong impact.wav"
+      ]
+    },
+    {
+      "id": "common-issue",
+      "english": "common issue",
+      "translation": "распространённая проблема",
+      "audio": [
+        "audio/phrases/common issue.wav"
+      ]
+    },
+    {
+      "id": "find-solution",
+      "english": "find solution",
+      "translation": "найти решение",
+      "audio": [
+        "audio/phrases/find solution.wav"
+      ]
+    },
+    {
+      "id": "slow-process",
+      "english": "slow process",
+      "translation": "медленный процесс",
+      "audio": [
+        "audio/phrases/slow process.wav"
+      ]
+    },
+    {
+      "id": "steady-progress",
+      "english": "steady progress",
+      "translation": "устойчивый прогресс",
+      "audio": [
+        "audio/phrases/steady progress.wav"
+      ]
+    },
+    {
+      "id": "final-result",
+      "english": "final result",
+      "translation": "конечный итог",
+      "audio": [
+        "audio/phrases/final result.wav"
+      ]
+    },
+    {
+      "id": "available-now",
+      "english": "available now",
+      "translation": "доступный сейчас",
+      "audio": [
+        "audio/phrases/available now.wav"
+      ]
+    },
+    {
+      "id": "available-now",
+      "english": "available now",
+      "translation": "доступный сейчас",
+      "audio": [
+        "audio/phrases/available now.wav"
+      ]
+    },
+    {
+      "id": "general-idea",
+      "english": "general idea",
+      "translation": "общая идея",
+      "audio": [
+        "audio/phrases/general idea.wav"
+      ]
+    },
+    {
+      "id": "specific-goal",
+      "english": "specific goal",
+      "translation": "конкретная цель",
+      "audio": [
+        "audio/phrases/specific goal.wav"
+      ]
+    },
+    {
+      "id": "similar-idea",
+      "english": "similar idea",
+      "translation": "похожая идея",
+      "audio": [
+        "audio/phrases/similar idea.wav"
+      ]
+    },
+    {
+      "id": "likely-result",
+      "english": "likely result",
+      "translation": "вероятный результат",
+      "audio": [
+        "audio/phrases/likely result.wav"
+      ]
+    },
+    {
+      "id": "possible-answer",
+      "english": "possible answer",
+      "translation": "возможный ответ",
+      "audio": [
+        "audio/phrases/possible answer.wav"
+      ]
+    },
+    {
+      "id": "effective-tool",
+      "english": "effective tool",
+      "translation": "эффективный инструмент",
+      "audio": [
+        "audio/phrases/effective tool.wav"
+      ]
+    },
+    {
+      "id": "efficient-solution",
+      "english": "efficient solution",
+      "translation": "результативное решение",
+      "audio": [
+        "audio/phrases/efficient solution.wav"
+      ]
+    },
+    {
+      "id": "important-detail",
+      "english": "important detail",
+      "translation": "важная деталь",
+      "audio": [
+        "audio/phrases/important detail.wav"
+      ]
+    },
+    {
+      "id": "recently-discovered",
+      "english": "recently discovered",
+      "translation": "недавно обнаруженный",
+      "audio": [
+        "audio/phrases/recently discovered.wav"
+      ]
+    },
+    {
+      "id": "currently-active",
+      "english": "currently active",
+      "translation": "в настоящее время активный",
+      "audio": [
+        "audio/phrases/currently active.wav"
+      ]
+    },
+    {
+      "id": "especially-useful",
+      "english": "especially useful",
+      "translation": "особенно полезный",
+      "audio": [
+        "audio/phrases/especially useful.wav"
+      ]
+    },
+    {
+      "id": "eventually-possible",
+      "english": "eventually possible",
+      "translation": "в конечном итоге возможный",
+      "audio": [
+        "audio/phrases/eventually possible.wav"
+      ]
+    },
+    {
+      "id": "approximately-equal",
+      "english": "approximately equal",
+      "translation": "примерно равный",
+      "audio": [
+        "audio/phrases/approximately equal.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "theme": "Подтекст и намёки",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "subtext",
+      "translation": "подтекст"
+    },
+    {
+      "english": "hint",
+      "translation": "намёк"
+    },
+    {
+      "english": "signal",
+      "translation": "сигнал"
+    },
+    {
+      "english": "cue",
+      "translation": "подсказка"
+    },
+    {
+      "english": "clue",
+      "translation": "зацепка"
+    },
+    {
+      "english": "meaning",
+      "translation": "смысл"
+    },
+    {
+      "english": "interpretation",
+      "translation": "интерпретация"
+    },
+    {
+      "english": "reading",
+      "translation": "трактовка"
+    },
+    {
+      "english": "intention",
+      "translation": "намерение"
+    },
+    {
+      "english": "message",
+      "translation": "посыл"
+    },
+    {
+      "english": "suggestion",
+      "translation": "косвенное предложение"
+    },
+    {
+      "english": "reference",
+      "translation": "отсылка"
+    },
+    {
+      "english": "allusion",
+      "translation": "аллюзия"
+    },
+    {
+      "english": "implication",
+      "translation": "скрытый смысл"
+    },
+    {
+      "english": "assumption",
+      "translation": "предположение"
+    },
+    {
+      "english": "emphasis",
+      "translation": "акцент"
+    },
+    {
+      "english": "choice of words",
+      "translation": "выбор слов"
+    },
+    {
+      "english": "framing",
+      "translation": "формулировка, подача"
+    },
+    {
+      "english": "positioning",
+      "translation": "позиционирование"
+    },
+    {
+      "english": "hesitation",
+      "translation": "заминка"
+    },
+    {
+      "english": "pause",
+      "translation": "пауза"
+    },
+    {
+      "english": "silence",
+      "translation": "молчание"
+    },
+    {
+      "english": "avoidance",
+      "translation": "уход от темы"
+    },
+    {
+      "english": "evasion",
+      "translation": "уклонение"
+    },
+    {
+      "english": "indirectness",
+      "translation": "косвенность"
+    },
+    {
+      "english": "implicitness",
+      "translation": "неявность"
+    },
+    {
+      "english": "nuance",
+      "translation": "нюанс"
+    },
+    {
+      "english": "subtlety",
+      "translation": "тонкость"
+    },
+    {
+      "english": "undertone",
+      "translation": "подтекстовый оттенок"
+    }
+  ]
+}

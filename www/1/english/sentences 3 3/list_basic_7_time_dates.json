@@ -1,0 +1,335 @@
+{
+  "theme": "Время и даты",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "time",
+      "english": "time",
+      "translation": "время",
+      "audio": [
+        "audio/words/time.wav"
+      ]
+    },
+    {
+      "id": "date",
+      "english": "date",
+      "translation": "дата",
+      "audio": [
+        "audio/words/date.wav"
+      ]
+    },
+    {
+      "id": "day",
+      "english": "day",
+      "translation": "день",
+      "audio": [
+        "audio/words/day.wav"
+      ]
+    },
+    {
+      "id": "night",
+      "english": "night",
+      "translation": "ночь",
+      "audio": [
+        "audio/words/night.wav"
+      ]
+    },
+    {
+      "id": "morning",
+      "english": "morning",
+      "translation": "утро",
+      "audio": [
+        "audio/words/morning.wav"
+      ]
+    },
+    {
+      "id": "evening",
+      "english": "evening",
+      "translation": "вечер",
+      "audio": [
+        "audio/words/evening.wav"
+      ]
+    },
+    {
+      "id": "today",
+      "english": "today",
+      "translation": "сегодня",
+      "audio": [
+        "audio/words/today.wav"
+      ]
+    },
+    {
+      "id": "tomorrow",
+      "english": "tomorrow",
+      "translation": "завтра",
+      "audio": [
+        "audio/words/tomorrow.wav"
+      ]
+    },
+    {
+      "id": "yesterday",
+      "english": "yesterday",
+      "translation": "вчера",
+      "audio": [
+        "audio/words/yesterday.wav"
+      ]
+    },
+    {
+      "id": "week",
+      "english": "week",
+      "translation": "неделя",
+      "audio": [
+        "audio/words/week.wav"
+      ]
+    },
+    {
+      "id": "month",
+      "english": "month",
+      "translation": "месяц",
+      "audio": [
+        "audio/words/month.wav"
+      ]
+    },
+    {
+      "id": "year",
+      "english": "year",
+      "translation": "год",
+      "audio": [
+        "audio/words/year.wav"
+      ]
+    },
+    {
+      "id": "weekday",
+      "english": "weekday",
+      "translation": "будний день",
+      "audio": [
+        "audio/words/weekday.wav"
+      ]
+    },
+    {
+      "id": "weekend",
+      "english": "weekend",
+      "translation": "выходные",
+      "audio": [
+        "audio/words/weekend.wav"
+      ]
+    },
+    {
+      "id": "monday",
+      "english": "Monday",
+      "translation": "понедельник",
+      "audio": [
+        "audio/words/Monday.wav"
+      ]
+    },
+    {
+      "id": "tuesday",
+      "english": "Tuesday",
+      "translation": "вторник",
+      "audio": [
+        "audio/words/Tuesday.wav"
+      ]
+    },
+    {
+      "id": "wednesday",
+      "english": "Wednesday",
+      "translation": "среда",
+      "audio": [
+        "audio/words/Wednesday.wav"
+      ]
+    },
+    {
+      "id": "thursday",
+      "english": "Thursday",
+      "translation": "четверг",
+      "audio": [
+        "audio/words/Thursday.wav"
+      ]
+    },
+    {
+      "id": "friday",
+      "english": "Friday",
+      "translation": "пятница",
+      "audio": [
+        "audio/words/Friday.wav"
+      ]
+    },
+    {
+      "id": "saturday",
+      "english": "Saturday",
+      "translation": "суббота",
+      "audio": [
+        "audio/words/Saturday.wav"
+      ]
+    },
+    {
+      "id": "sunday",
+      "english": "Sunday",
+      "translation": "воскресенье",
+      "audio": [
+        "audio/words/Sunday.wav"
+      ]
+    },
+    {
+      "id": "january",
+      "english": "January",
+      "translation": "январь",
+      "audio": [
+        "audio/words/January.wav"
+      ]
+    },
+    {
+      "id": "february",
+      "english": "February",
+      "translation": "февраль",
+      "audio": [
+        "audio/words/February.wav"
+      ]
+    },
+    {
+      "id": "march",
+      "english": "March",
+      "translation": "март",
+      "audio": [
+        "audio/words/March.wav"
+      ]
+    },
+    {
+      "id": "april",
+      "english": "April",
+      "translation": "апрель",
+      "audio": [
+        "audio/words/April.wav"
+      ]
+    },
+    {
+      "id": "may",
+      "english": "May",
+      "translation": "май",
+      "audio": [
+        "audio/words/May.wav"
+      ]
+    },
+    {
+      "id": "june",
+      "english": "June",
+      "translation": "июнь",
+      "audio": [
+        "audio/words/June.wav"
+      ]
+    },
+    {
+      "id": "july",
+      "english": "July",
+      "translation": "июль",
+      "audio": [
+        "audio/words/July.wav"
+      ]
+    },
+    {
+      "id": "august",
+      "english": "August",
+      "translation": "август",
+      "audio": [
+        "audio/words/August.wav"
+      ]
+    },
+    {
+      "id": "september",
+      "english": "September",
+      "translation": "сентябрь",
+      "audio": [
+        "audio/words/September.wav"
+      ]
+    },
+    {
+      "id": "october",
+      "english": "October",
+      "translation": "октябрь",
+      "audio": [
+        "audio/words/October.wav"
+      ]
+    },
+    {
+      "id": "november",
+      "english": "November",
+      "translation": "ноябрь",
+      "audio": [
+        "audio/words/November.wav"
+      ]
+    },
+    {
+      "id": "december",
+      "english": "December",
+      "translation": "декабрь",
+      "audio": [
+        "audio/words/December.wav"
+      ]
+    },
+    {
+      "id": "hour",
+      "english": "hour",
+      "translation": "час",
+      "audio": [
+        "audio/words/hour.wav"
+      ]
+    },
+    {
+      "id": "minute",
+      "english": "minute",
+      "translation": "минута",
+      "audio": [
+        "audio/words/minute.wav"
+      ]
+    },
+    {
+      "id": "second",
+      "english": "second",
+      "translation": "секунда",
+      "audio": [
+        "audio/words/second.wav"
+      ]
+    },
+    {
+      "id": "clock",
+      "english": "clock",
+      "translation": "часы",
+      "audio": [
+        "audio/words/clock.wav"
+      ]
+    },
+    {
+      "id": "calendar",
+      "english": "calendar",
+      "translation": "календарь",
+      "audio": [
+        "audio/words/calendar.wav"
+      ]
+    },
+    {
+      "id": "early",
+      "english": "early",
+      "translation": "рано",
+      "audio": [
+        "audio/words/early.wav"
+      ]
+    },
+    {
+      "id": "late",
+      "english": "late",
+      "translation": "поздно",
+      "audio": [
+        "audio/words/late.wav"
+      ]
+    },
+    {
+      "id": "now",
+      "english": "now",
+      "translation": "сейчас",
+      "audio": [
+        "audio/words/now.wav"
+      ]
+    }
+  ]
+}

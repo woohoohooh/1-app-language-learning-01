@@ -1,0 +1,247 @@
+{
+  "theme": "Тело и здоровье",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "human-body-parts",
+      "english": "human body parts",
+      "translation": "части человеческого тела",
+      "audio": [
+        "audio/phrases/human body parts.wav"
+      ]
+    },
+    {
+      "id": "head-feels-heavy",
+      "english": "head feels heavy",
+      "translation": "голова кажется тяжёлой",
+      "audio": [
+        "audio/phrases/head feels heavy.wav"
+      ]
+    },
+    {
+      "id": "clean-face-skin",
+      "english": "clean face skin",
+      "translation": "чистая кожа лица",
+      "audio": [
+        "audio/phrases/clean face skin.wav"
+      ]
+    },
+    {
+      "id": "short-dark-hair",
+      "english": "short dark hair",
+      "translation": "короткие тёмные волосы",
+      "audio": [
+        "audio/phrases/short dark hair.wav"
+      ]
+    },
+    {
+      "id": "eye-feels-dry",
+      "english": "eye feels dry",
+      "translation": "глаз чувствует сухость",
+      "audio": [
+        "audio/phrases/eye feels dry.wav"
+      ]
+    },
+    {
+      "id": "ear-hears-sound",
+      "english": "ear hears sound",
+      "translation": "ухо слышит звук",
+      "audio": [
+        "audio/phrases/ear hears sound.wav"
+      ]
+    },
+    {
+      "id": "nose-feels-cold",
+      "english": "nose feels cold",
+      "translation": "нос чувствует холод",
+      "audio": [
+        "audio/phrases/nose feels cold.wav"
+      ]
+    },
+    {
+      "id": "open-your-mouth",
+      "english": "open your mouth",
+      "translation": "открой рот",
+      "audio": [
+        "audio/phrases/open your mouth.wav"
+      ]
+    },
+    {
+      "id": "tooth-feels-sensitive",
+      "english": "tooth feels sensitive",
+      "translation": "зуб чувствителен",
+      "audio": [
+        "audio/phrases/tooth feels sensitive.wav"
+      ]
+    },
+    {
+      "id": "neck-feels-stiff",
+      "english": "neck feels stiff",
+      "translation": "шея ощущается скованной",
+      "audio": [
+        "audio/phrases/neck feels stiff.wav"
+      ]
+    },
+    {
+      "id": "left-shoulder-pain",
+      "english": "left shoulder pain",
+      "translation": "боль в левом плече",
+      "audio": [
+        "audio/phrases/left shoulder pain.wav"
+      ]
+    },
+    {
+      "id": "arm-feels-sore",
+      "english": "arm feels sore",
+      "translation": "рука ноет",
+      "audio": [
+        "audio/phrases/arm feels sore.wav"
+      ]
+    },
+    {
+      "id": "wash-your-hands",
+      "english": "wash your hands",
+      "translation": "вымой руки",
+      "audio": [
+        "audio/phrases/wash your hands.wav"
+      ]
+    },
+    {
+      "id": "finger-feels-numb",
+      "english": "finger feels numb",
+      "translation": "палец онемел",
+      "audio": [
+        "audio/phrases/finger feels numb.wav"
+      ]
+    },
+    {
+      "id": "chest-feels-tight",
+      "english": "chest feels tight",
+      "translation": "грудь сжимает",
+      "audio": [
+        "audio/phrases/chest feels tight.wav"
+      ]
+    },
+    {
+      "id": "lower-back-pain",
+      "english": "lower back pain",
+      "translation": "боль в пояснице",
+      "audio": [
+        "audio/phrases/lower back pain.wav"
+      ]
+    },
+    {
+      "id": "stomach-feels-bad",
+      "english": "stomach feels bad",
+      "translation": "живот плохо себя чувствует",
+      "audio": [
+        "audio/phrases/stomach feels bad.wav"
+      ]
+    },
+    {
+      "id": "leg-feels-tired",
+      "english": "leg feels tired",
+      "translation": "нога устала",
+      "audio": [
+        "audio/phrases/leg feels tired.wav"
+      ]
+    },
+    {
+      "id": "knee-hurts-now",
+      "english": "knee hurts now",
+      "translation": "колено болит сейчас",
+      "audio": [
+        "audio/phrases/knee hurts now.wav"
+      ]
+    },
+    {
+      "id": "foot-feels-cold",
+      "english": "foot feels cold",
+      "translation": "ступня чувствует холод",
+      "audio": [
+        "audio/phrases/foot feels cold.wav"
+      ]
+    },
+    {
+      "id": "good-health-matters",
+      "english": "good health matters",
+      "translation": "здоровье имеет значение",
+      "audio": [
+        "audio/phrases/good health matters.wav"
+      ]
+    },
+    {
+      "id": "healthy-daily-habits",
+      "english": "healthy daily habits",
+      "translation": "здоровые ежедневные привычки",
+      "audio": [
+        "audio/phrases/healthy daily habits.wav"
+      ]
+    },
+    {
+      "id": "feel-sick-today",
+      "english": "feel sick today",
+      "translation": "чувствовать себя больным",
+      "audio": [
+        "audio/phrases/feel sick today.wav"
+      ]
+    },
+    {
+      "id": "sharp-pain-inside",
+      "english": "sharp pain inside",
+      "translation": "резкая боль внутри",
+      "audio": [
+        "audio/phrases/sharp pain inside.wav"
+      ]
+    },
+    {
+      "id": "it-hurts-now",
+      "english": "it hurts now",
+      "translation": "это болит сейчас",
+      "audio": [
+        "audio/phrases/it hurts now.wav"
+      ]
+    },
+    {
+      "id": "visit-the-doctor",
+      "english": "visit the doctor",
+      "translation": "посетить врача",
+      "audio": [
+        "audio/phrases/visit the doctor.wav"
+      ]
+    },
+    {
+      "id": "take-the-medicine",
+      "english": "take the medicine",
+      "translation": "принять лекарство",
+      "audio": [
+        "audio/phrases/take the medicine.wav"
+      ]
+    },
+    {
+      "id": "go-to-hospital",
+      "english": "go to hospital",
+      "translation": "поехать в больницу",
+      "audio": [
+        "audio/phrases/go to hospital.wav"
+      ]
+    },
+    {
+      "id": "deep-night-sleep",
+      "english": "deep night sleep",
+      "translation": "глубокий ночной сон",
+      "audio": [
+        "audio/phrases/deep night sleep.wav"
+      ]
+    },
+    {
+      "id": "need-some-rest",
+      "english": "need some rest",
+      "translation": "нужно немного отдыха",
+      "audio": [
+        "audio/phrases/need some rest.wav"
+      ]
+    }
+  ]
+}

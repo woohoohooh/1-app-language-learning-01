@@ -1,0 +1,287 @@
+{
+  "theme": "Ирония и сарказм",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "clear-irony-here",
+      "english": "clear irony here",
+      "translation": "здесь явная ирония",
+      "audio": [
+        "audio/phrases/clear irony here.wav"
+      ]
+    },
+    {
+      "id": "heavy-sarcasm-tone",
+      "english": "heavy sarcasm tone",
+      "translation": "резкий саркастичный тон",
+      "audio": [
+        "audio/phrases/heavy sarcasm tone.wav"
+      ]
+    },
+    {
+      "id": "open-mockery",
+      "english": "open mockery",
+      "translation": "открытая насмешка",
+      "audio": [
+        "audio/phrases/open mockery.wav"
+      ]
+    },
+    {
+      "id": "public-ridicule",
+      "english": "public ridicule",
+      "translation": "публичное высмеивание",
+      "audio": [
+        "audio/phrases/public ridicule.wav"
+      ]
+    },
+    {
+      "id": "political-satire",
+      "english": "political satire",
+      "translation": "политическая сатира",
+      "audio": [
+        "audio/phrases/political satire.wav"
+      ]
+    },
+    {
+      "id": "light-humor",
+      "english": "light humor",
+      "translation": "лёгкий юмор",
+      "audio": [
+        "audio/phrases/light humor.wav"
+      ]
+    },
+    {
+      "id": "quick-wit",
+      "english": "quick wit",
+      "translation": "быстрое остроумие",
+      "audio": [
+        "audio/phrases/quick wit.wav"
+      ]
+    },
+    {
+      "id": "dry-humor-style",
+      "english": "dry humor style",
+      "translation": "стиль сухого юмора",
+      "audio": [
+        "audio/phrases/dry humor style.wav"
+      ]
+    },
+    {
+      "id": "dark-humor-joke",
+      "english": "dark humor joke",
+      "translation": "шутка чёрного юмора",
+      "audio": [
+        "audio/phrases/dark humor joke.wav"
+      ]
+    },
+    {
+      "id": "deadpan-delivery",
+      "english": "deadpan delivery",
+      "translation": "невозмутимая подача",
+      "audio": [
+        "audio/phrases/deadpan delivery.wav"
+      ]
+    },
+    {
+      "id": "serious-tone",
+      "english": "serious tone",
+      "translation": "серьёзный тон",
+      "audio": [
+        "audio/phrases/serious tone.wav"
+      ]
+    },
+    {
+      "id": "cultural-context",
+      "english": "cultural context",
+      "translation": "культурный контекст",
+      "audio": [
+        "audio/phrases/cultural context.wav"
+      ]
+    },
+    {
+      "id": "confident-delivery",
+      "english": "confident delivery",
+      "translation": "уверенная подача",
+      "audio": [
+        "audio/phrases/confident delivery.wav"
+      ]
+    },
+    {
+      "id": "clear-exaggeration",
+      "english": "clear exaggeration",
+      "translation": "явное преувеличение",
+      "audio": [
+        "audio/phrases/clear exaggeration.wav"
+      ]
+    },
+    {
+      "id": "mild-understatement",
+      "english": "mild understatement",
+      "translation": "лёгкое преуменьшение",
+      "audio": [
+        "audio/phrases/mild understatement.wav"
+      ]
+    },
+    {
+      "id": "double-meaning-phrase",
+      "english": "double meaning phrase",
+      "translation": "фраза с двойным смыслом",
+      "audio": [
+        "audio/phrases/double meaning phrase.wav"
+      ]
+    },
+    {
+      "id": "emotional-subtlety",
+      "english": "emotional subtlety",
+      "translation": "эмоциональная тонкость",
+      "audio": [
+        "audio/phrases/emotional subtlety.wav"
+      ]
+    },
+    {
+      "id": "intentional-ambiguity",
+      "english": "intentional ambiguity",
+      "translation": "намеренная двусмысленность",
+      "audio": [
+        "audio/phrases/intentional ambiguity.wav"
+      ]
+    },
+    {
+      "id": "hidden-implication",
+      "english": "hidden implication",
+      "translation": "скрытый смысл",
+      "audio": [
+        "audio/phrases/hidden implication.wav"
+      ]
+    },
+    {
+      "id": "subtle-innuendo",
+      "english": "subtle innuendo",
+      "translation": "тонкий намёк",
+      "audio": [
+        "audio/phrases/subtle innuendo.wav"
+      ]
+    },
+    {
+      "id": "open-cynicism",
+      "english": "open cynicism",
+      "translation": "открытый цинизм",
+      "audio": [
+        "audio/phrases/open cynicism.wav"
+      ]
+    },
+    {
+      "id": "healthy-skepticism",
+      "english": "healthy skepticism",
+      "translation": "здоровый скептицизм",
+      "audio": [
+        "audio/phrases/healthy skepticism.wav"
+      ]
+    },
+    {
+      "id": "emotional-detachment",
+      "english": "emotional detachment",
+      "translation": "эмоциональная отстранённость",
+      "audio": [
+        "audio/phrases/emotional detachment.wav"
+      ]
+    },
+    {
+      "id": "open-contempt",
+      "english": "open contempt",
+      "translation": "открытое презрение",
+      "audio": [
+        "audio/phrases/open contempt.wav"
+      ]
+    },
+    {
+      "id": "casual-dismissiveness",
+      "english": "casual dismissiveness",
+      "translation": "небрежная пренебрежительность",
+      "audio": [
+        "audio/phrases/casual dismissiveness.wav"
+      ]
+    },
+    {
+      "id": "light-playfulness",
+      "english": "light playfulness",
+      "translation": "лёгкая игривость",
+      "audio": [
+        "audio/phrases/light playfulness.wav"
+      ]
+    },
+    {
+      "id": "friendly-teasing",
+      "english": "friendly teasing",
+      "translation": "дружеское поддразнивание",
+      "audio": [
+        "audio/phrases/friendly teasing.wav"
+      ]
+    },
+    {
+      "id": "office-banter",
+      "english": "office banter",
+      "translation": "офисная перепалка",
+      "audio": [
+        "audio/phrases/office banter.wav"
+      ]
+    },
+    {
+      "id": "gentle-self-irony",
+      "english": "gentle self irony",
+      "translation": "мягкая самоирония",
+      "audio": [
+        "audio/phrases/gentle self irony.wav"
+      ]
+    },
+    {
+      "id": "self-deprecation-humor",
+      "english": "self deprecation humor",
+      "translation": "юмор с самоиронией",
+      "audio": [
+        "audio/phrases/self deprecation humor.wav"
+      ]
+    },
+    {
+      "id": "bold-overstatement",
+      "english": "bold overstatement",
+      "translation": "смелое преувеличение",
+      "audio": [
+        "audio/phrases/bold overstatement.wav"
+      ]
+    },
+    {
+      "id": "sharp-contrast",
+      "english": "sharp contrast",
+      "translation": "резкий контраст",
+      "audio": [
+        "audio/phrases/sharp contrast.wav"
+      ]
+    },
+    {
+      "id": "sheer-absurdity",
+      "english": "sheer absurdity",
+      "translation": "чистая абсурдность",
+      "audio": [
+        "audio/phrases/sheer absurdity.wav"
+      ]
+    },
+    {
+      "id": "media-parody",
+      "english": "media parody",
+      "translation": "медийная пародия",
+      "audio": [
+        "audio/phrases/media parody.wav"
+      ]
+    },
+    {
+      "id": "political-caricature",
+      "english": "political caricature",
+      "translation": "политическая карикатура",
+      "audio": [
+        "audio/phrases/political caricature.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "theme": "Фразовые глаголы",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "carry-out",
+      "english": "carry out",
+      "translation": "выполнять"
+    },
+    {
+      "id": "figure-out",
+      "english": "figure out",
+      "translation": "понять"
+    },
+    {
+      "id": "point-out",
+      "english": "point out",
+      "translation": "указывать"
+    },
+    {
+      "id": "back-up",
+      "english": "back up",
+      "translation": "подтверждать"
+    },
+    {
+      "id": "set-up",
+      "english": "set up",
+      "translation": "организовывать"
+    },
+    {
+      "id": "break-down",
+      "english": "break down",
+      "translation": "разбирать"
+    },
+    {
+      "id": "follow-up",
+      "english": "follow up",
+      "translation": "доводить до конца"
+    },
+    {
+      "id": "bring-up",
+      "english": "bring up",
+      "translation": "поднимать тему"
+    },
+    {
+      "id": "cut-back",
+      "english": "cut back",
+      "translation": "сокращать"
+    },
+    {
+      "id": "rule-out",
+      "english": "rule out",
+      "translation": "исключать"
+    },
+    {
+      "id": "deal-with",
+      "english": "deal with",
+      "translation": "иметь дело с"
+    },
+    {
+      "id": "run-into",
+      "english": "run into",
+      "translation": "сталкиваться с"
+    },
+    {
+      "id": "come-up-with",
+      "english": "come up with",
+      "translation": "придумывать"
+    },
+    {
+      "id": "step-down",
+      "english": "step down",
+      "translation": "уходить с должности"
+    },
+    {
+      "id": "take-over",
+      "english": "take over",
+      "translation": "брать на себя управление"
+    },
+    {
+      "id": "hold-back",
+      "english": "hold back",
+      "translation": "сдерживать"
+    },
+    {
+      "id": "push-back",
+      "english": "push back",
+      "translation": "возражать"
+    },
+    {
+      "id": "phase-out",
+      "english": "phase out",
+      "translation": "постепенно выводить"
+    },
+    {
+      "id": "opt-out",
+      "english": "opt out",
+      "translation": "отказываться от участия"
+    },
+    {
+      "id": "wind-down",
+      "english": "wind down",
+      "translation": "сворачивать"
+    },
+    {
+      "id": "lay-off",
+      "english": "lay off",
+      "translation": "увольнять"
+    },
+    {
+      "id": "take-on",
+      "english": "take on",
+      "translation": "браться за"
+    },
+    {
+      "id": "hand-over",
+      "english": "hand over",
+      "translation": "передавать"
+    },
+    {
+      "id": "turn-down",
+      "english": "turn down",
+      "translation": "отклонять"
+    },
+    {
+      "id": "work-out",
+      "english": "work out",
+      "translation": "получиться"
+    },
+    {
+      "id": "sort-out",
+      "english": "sort out",
+      "translation": "разобраться"
+    },
+    {
+      "id": "step-up",
+      "english": "step up",
+      "translation": "активизироваться"
+    },
+    {
+      "id": "slow-down",
+      "english": "slow down",
+      "translation": "замедляться"
+    },
+    {
+      "id": "move-forward",
+      "english": "move forward",
+      "translation": "двигаться дальше"
+    },
+    {
+      "id": "fall-apart",
+      "english": "fall apart",
+      "translation": "разваливаться"
+    },
+    {
+      "id": "stick-to",
+      "english": "stick to",
+      "translation": "придерживаться"
+    },
+    {
+      "id": "give-up",
+      "english": "give up",
+      "translation": "сдаваться"
+    },
+    {
+      "id": "pull-off",
+      "english": "pull off",
+      "translation": "успешно осуществить"
+    },
+    {
+      "id": "check-out",
+      "english": "check out",
+      "translation": "проверять"
+    },
+    {
+      "id": "look-into",
+      "english": "look into",
+      "translation": "изучать"
+    }
+  ]
+}

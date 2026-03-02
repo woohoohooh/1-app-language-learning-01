@@ -1,0 +1,343 @@
+{
+  "theme": "Технологии и интернет",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "technology-changes-our-lives.",
+      "english": "Technology changes our lives.",
+      "translation": "Технология меняет нашу жизнь.",
+      "audio": [
+        "audio/sentences/Technology changes our lives..wav"
+      ]
+    },
+    {
+      "id": "the-internet-connects-people.",
+      "english": "The internet connects people.",
+      "translation": "Интернет соединяет людей.",
+      "audio": [
+        "audio/sentences/The internet connects people..wav"
+      ]
+    },
+    {
+      "id": "the-network-works-globally.",
+      "english": "The network works globally.",
+      "translation": "Сеть работает по всему миру.",
+      "audio": [
+        "audio/sentences/The network works globally..wav"
+      ]
+    },
+    {
+      "id": "the-connection-dropped-suddenly.",
+      "english": "The connection dropped suddenly.",
+      "translation": "Соединение внезапно пропало.",
+      "audio": [
+        "audio/sentences/The connection dropped suddenly..wav"
+      ]
+    },
+    {
+      "id": "users-get-access-instantly.",
+      "english": "Users get access instantly.",
+      "translation": "Пользователи получают доступ мгновенно.",
+      "audio": [
+        "audio/sentences/Users get access instantly..wav"
+      ]
+    },
+    {
+      "id": "the-website-loads-quickly.",
+      "english": "The website loads quickly.",
+      "translation": "Веб-сайт быстро загружается.",
+      "audio": [
+        "audio/sentences/The website loads quickly..wav"
+      ]
+    },
+    {
+      "id": "each-web-page-contains-content.",
+      "english": "Each web page contains content.",
+      "translation": "Каждая веб-страница содержит контент.",
+      "audio": [
+        "audio/sentences/Each web page contains content..wav"
+      ]
+    },
+    {
+      "id": "the-platform-supports-creators.",
+      "english": "The platform supports creators.",
+      "translation": "Платформа поддерживает создателей.",
+      "audio": [
+        "audio/sentences/The platform supports creators..wav"
+      ]
+    },
+    {
+      "id": "the-service-improves-constantly.",
+      "english": "The service improves constantly.",
+      "translation": "Сервис постоянно улучшается.",
+      "audio": [
+        "audio/sentences/The service improves constantly..wav"
+      ]
+    },
+    {
+      "id": "the-application-runs-smoothly.",
+      "english": "The application runs smoothly.",
+      "translation": "Приложение работает плавно.",
+      "audio": [
+        "audio/sentences/The application runs smoothly..wav"
+      ]
+    },
+    {
+      "id": "the-browser-syncs-data.",
+      "english": "The browser syncs data.",
+      "translation": "Браузер синхронизирует данные.",
+      "audio": [
+        "audio/sentences/The browser syncs data..wav"
+      ]
+    },
+    {
+      "id": "the-search-engine-finds-results.",
+      "english": "The search engine finds results.",
+      "translation": "Поисковая система находит результаты.",
+      "audio": [
+        "audio/sentences/The search engine finds results..wav"
+      ]
+    },
+    {
+      "id": "the-link-redirects-instantly.",
+      "english": "The link redirects instantly.",
+      "translation": "Ссылка перенаправляет мгновенно.",
+      "audio": [
+        "audio/sentences/The link redirects instantly..wav"
+      ]
+    },
+    {
+      "id": "users-download-content-daily.",
+      "english": "Users download content daily.",
+      "translation": "Пользователи скачивают контент ежедневно.",
+      "audio": [
+        "audio/sentences/Users download content daily..wav"
+      ]
+    },
+    {
+      "id": "they-upload-videos-frequently.",
+      "english": "They upload videos frequently.",
+      "translation": "Они часто загружают видео.",
+      "audio": [
+        "audio/sentences/They upload videos frequently..wav"
+      ]
+    },
+    {
+      "id": "data-helps-companies-grow.",
+      "english": "Data helps companies grow.",
+      "translation": "Данные помогают компаниям расти.",
+      "audio": [
+        "audio/sentences/Data helps companies grow..wav"
+      ]
+    },
+    {
+      "id": "information-spreads-quickly-online.",
+      "english": "Information spreads quickly online.",
+      "translation": "Информация быстро распространяется в сети.",
+      "audio": [
+        "audio/sentences/Information spreads quickly online..wav"
+      ]
+    },
+    {
+      "id": "content-engages-the-audience.",
+      "english": "Content engages the audience.",
+      "translation": "Контент вовлекает аудиторию.",
+      "audio": [
+        "audio/sentences/Content engages the audience..wav"
+      ]
+    },
+    {
+      "id": "the-file-contains-images.",
+      "english": "The file contains images.",
+      "translation": "Файл содержит изображения.",
+      "audio": [
+        "audio/sentences/The file contains images..wav"
+      ]
+    },
+    {
+      "id": "storage-expands-over-time.",
+      "english": "Storage expands over time.",
+      "translation": "Хранилище расширяется со временем.",
+      "audio": [
+        "audio/sentences/Storage expands over time..wav"
+      ]
+    },
+    {
+      "id": "the-cloud-stores-backups.",
+      "english": "The cloud stores backups.",
+      "translation": "Облако хранит резервные копии.",
+      "audio": [
+        "audio/sentences/The cloud stores backups..wav"
+      ]
+    },
+    {
+      "id": "business-grows-quickly.",
+      "english": "Business grows quickly.",
+      "translation": "Бизнес быстро растёт.",
+      "audio": [
+        "audio/sentences/Business grows quickly..wav"
+      ]
+    },
+    {
+      "id": "the-company-hires-new-staff.",
+      "english": "The Company hires new staff.",
+      "translation": "Компания нанимает новых сотрудников.",
+      "audio": [
+        "audio/sentences/The Company hires new staff..wav"
+      ]
+    },
+    {
+      "id": "the-firm-exports-goods.",
+      "english": "The Firm exports goods.",
+      "translation": "Фирма экспортирует товары.",
+      "audio": [
+        "audio/sentences/The Firm exports goods..wav"
+      ]
+    },
+    {
+      "id": "the-enterprise-develops-software.",
+      "english": "The Enterprise develops software.",
+      "translation": "Предприятие разрабатывает ПО.",
+      "audio": [
+        "audio/sentences/The Enterprise develops software..wav"
+      ]
+    },
+    {
+      "id": "the-organization-raises-funds.",
+      "english": "The Organization raises funds.",
+      "translation": "Организация привлекает средства.",
+      "audio": [
+        "audio/sentences/The Organization raises funds..wav"
+      ]
+    },
+    {
+      "id": "the-market-changes-daily.",
+      "english": "The Market changes daily.",
+      "translation": "Рынок меняется ежедневно.",
+      "audio": [
+        "audio/sentences/The Market changes daily..wav"
+      ]
+    },
+    {
+      "id": "the-industry-automates-processes.",
+      "english": "The Industry automates processes.",
+      "translation": "Отрасль автоматизирует процессы.",
+      "audio": [
+        "audio/sentences/The Industry automates processes..wav"
+      ]
+    },
+    {
+      "id": "competition-drives-innovation.",
+      "english": "Competition drives innovation.",
+      "translation": "Конкуренция стимулирует инновации.",
+      "audio": [
+        "audio/sentences/Competition drives innovation..wav"
+      ]
+    },
+    {
+      "id": "competitors-lower-prices.",
+      "english": "Competitors lower prices.",
+      "translation": "Конкуренты снижают цены.",
+      "audio": [
+        "audio/sentences/Competitors lower prices..wav"
+      ]
+    },
+    {
+      "id": "demand-increases-rapidly.",
+      "english": "Demand increases rapidly.",
+      "translation": "Спрос быстро растёт.",
+      "audio": [
+        "audio/sentences/Demand increases rapidly..wav"
+      ]
+    },
+    {
+      "id": "supply-improves-gradually.",
+      "english": "Supply improves gradually.",
+      "translation": "Предложение постепенно улучшается.",
+      "audio": [
+        "audio/sentences/Supply improves gradually..wav"
+      ]
+    },
+    {
+      "id": "customers-ask-questions.",
+      "english": "Customers ask questions.",
+      "translation": "Клиенты задают вопросы.",
+      "audio": [
+        "audio/sentences/Customers ask questions..wav"
+      ]
+    },
+    {
+      "id": "clients-sign-contracts.",
+      "english": "Clients sign contracts.",
+      "translation": "Клиенты подписывают контракты.",
+      "audio": [
+        "audio/sentences/Clients sign contracts..wav"
+      ]
+    },
+    {
+      "id": "consumers-read-reviews.",
+      "english": "Consumers read reviews.",
+      "translation": "Потребители читают отзывы.",
+      "audio": [
+        "audio/sentences/Consumers read reviews..wav"
+      ]
+    },
+    {
+      "id": "partners-share-risks.",
+      "english": "Partners share risks.",
+      "translation": "Партнёры делят риски.",
+      "audio": [
+        "audio/sentences/Partners share risks..wav"
+      ]
+    },
+    {
+      "id": "the-product-solves-problems.",
+      "english": "The Product solves problems.",
+      "translation": "Продукт решает проблемы.",
+      "audio": [
+        "audio/sentences/The Product solves problems..wav"
+      ]
+    },
+    {
+      "id": "the-service-works-online.",
+      "english": "The Service works online.",
+      "translation": "Услуга работает онлайн.",
+      "audio": [
+        "audio/sentences/The Service works online..wav"
+      ]
+    },
+    {
+      "id": "value-depends-on-quality.",
+      "english": "Value depends on quality.",
+      "translation": "Ценность зависит от качества.",
+      "audio": [
+        "audio/sentences/Value depends on quality..wav"
+      ]
+    },
+    {
+      "id": "prices-change-seasonally.",
+      "english": "Prices change seasonally.",
+      "translation": "Цены меняются сезонно.",
+      "audio": [
+        "audio/sentences/Prices change seasonally..wav"
+      ]
+    },
+    {
+      "id": "costs-rise-unexpectedly.",
+      "english": "Costs rise unexpectedly.",
+      "translation": "Затраты неожиданно растут.",
+      "audio": [
+        "audio/sentences/Costs rise unexpectedly..wav"
+      ]
+    },
+    {
+      "id": "revenue-grows-steadily.",
+      "english": "Revenue grows steadily.",
+      "translation": "Выручка стабильно растёт.",
+      "audio": [
+        "audio/sentences/Revenue grows steadily..wav"
+      ]
+    }
+  ]
+}

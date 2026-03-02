@@ -1,0 +1,167 @@
+{
+  "theme": "Финансы и банки",
+  "level": "Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "bank",
+      "translation": "банк"
+    },
+    {
+      "english": "branch",
+      "translation": "отделение банка"
+    },
+    {
+      "english": "account",
+      "translation": "счёт"
+    },
+    {
+      "english": "balance",
+      "translation": "баланс счёта"
+    },
+    {
+      "english": "statement",
+      "translation": "выписка по счёту"
+    },
+    {
+      "english": "deposit",
+      "translation": "вклад"
+    },
+    {
+      "english": "withdrawal",
+      "translation": "снятие средств"
+    },
+    {
+      "english": "transfer",
+      "translation": "перевод денег"
+    },
+    {
+      "english": "transaction",
+      "translation": "транзакция"
+    },
+    {
+      "english": "payment",
+      "translation": "платёж"
+    },
+    {
+      "english": "cash",
+      "translation": "наличные деньги"
+    },
+    {
+      "english": "currency",
+      "translation": "валюта"
+    },
+    {
+      "english": "exchange rate",
+      "translation": "обменный курс"
+    },
+    {
+      "english": "foreign currency",
+      "translation": "иностранная валюта"
+    },
+    {
+      "english": "funds",
+      "translation": "денежные средства"
+    },
+    {
+      "english": "card",
+      "translation": "банковская карта"
+    },
+    {
+      "english": "credit card",
+      "translation": "кредитная карта"
+    },
+    {
+      "english": "debit card",
+      "translation": "дебетовая карта"
+    },
+    {
+      "english": "PIN",
+      "translation": "ПИН-код"
+    },
+    {
+      "english": "ATM",
+      "translation": "банкомат"
+    },
+    {
+      "english": "loan",
+      "translation": "кредит"
+    },
+    {
+      "english": "credit",
+      "translation": "кредит"
+    },
+    {
+      "english": "interest",
+      "translation": "проценты"
+    },
+    {
+      "english": "interest rate",
+      "translation": "процентная ставка"
+    },
+    {
+      "english": "repayment",
+      "translation": "погашение"
+    },
+    {
+      "english": "debt",
+      "translation": "долг"
+    },
+    {
+      "english": "installment",
+      "translation": "платёж в рассрочку"
+    },
+    {
+      "english": "mortgage",
+      "translation": "ипотека"
+    },
+    {
+      "english": "fee",
+      "translation": "комиссия"
+    },
+    {
+      "english": "charge",
+      "translation": "списание"
+    },
+    {
+      "english": "online banking",
+      "translation": "онлайн-банкинг"
+    },
+    {
+      "english": "mobile banking",
+      "translation": "мобильный банк"
+    },
+    {
+      "english": "authorization",
+      "translation": "авторизация"
+    },
+    {
+      "english": "verification",
+      "translation": "проверка"
+    },
+    {
+      "english": "security",
+      "translation": "безопасность"
+    },
+    {
+      "english": "tax",
+      "translation": "налог"
+    },
+    {
+      "english": "refund",
+      "translation": "возврат денег"
+    },
+    {
+      "english": "fine",
+      "translation": "штраф"
+    },
+    {
+      "english": "insurance",
+      "translation": "страхование"
+    },
+    {
+      "english": "coverage",
+      "translation": "страховое покрытие"
+    }
+  ]
+}

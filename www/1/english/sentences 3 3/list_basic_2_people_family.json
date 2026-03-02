@@ -1,0 +1,311 @@
+{
+  "theme": "Люди и семья",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "man",
+      "english": "man",
+      "translation": "мужчина",
+      "audio": [
+        "audio/words/man.wav"
+      ]
+    },
+    {
+      "id": "woman",
+      "english": "woman",
+      "translation": "женщина",
+      "audio": [
+        "audio/words/woman.wav"
+      ]
+    },
+    {
+      "id": "child",
+      "english": "child",
+      "translation": "ребёнок",
+      "audio": [
+        "audio/words/child.wav"
+      ]
+    },
+    {
+      "id": "children",
+      "english": "children",
+      "translation": "дети",
+      "audio": [
+        "audio/words/children.wav"
+      ]
+    },
+    {
+      "id": "boy",
+      "english": "boy",
+      "translation": "мальчик",
+      "audio": [
+        "audio/words/boy.wav"
+      ]
+    },
+    {
+      "id": "girl",
+      "english": "girl",
+      "translation": "девочка",
+      "audio": [
+        "audio/words/girl.wav"
+      ]
+    },
+    {
+      "id": "mother",
+      "english": "mother",
+      "translation": "мама",
+      "audio": [
+        "audio/words/mother.wav"
+      ]
+    },
+    {
+      "id": "father",
+      "english": "father",
+      "translation": "папа",
+      "audio": [
+        "audio/words/father.wav"
+      ]
+    },
+    {
+      "id": "mom",
+      "english": "mom",
+      "translation": "мама",
+      "audio": [
+        "audio/words/mom.wav"
+      ]
+    },
+    {
+      "id": "dad",
+      "english": "dad",
+      "translation": "папа",
+      "audio": [
+        "audio/words/dad.wav"
+      ]
+    },
+    {
+      "id": "parent",
+      "english": "parent",
+      "translation": "родитель",
+      "audio": [
+        "audio/words/parent.wav"
+      ]
+    },
+    {
+      "id": "son",
+      "english": "son",
+      "translation": "сын",
+      "audio": [
+        "audio/words/son.wav"
+      ]
+    },
+    {
+      "id": "daughter",
+      "english": "daughter",
+      "translation": "дочь",
+      "audio": [
+        "audio/words/daughter.wav"
+      ]
+    },
+    {
+      "id": "brother",
+      "english": "brother",
+      "translation": "брат",
+      "audio": [
+        "audio/words/brother.wav"
+      ]
+    },
+    {
+      "id": "sister",
+      "english": "sister",
+      "translation": "сестра",
+      "audio": [
+        "audio/words/sister.wav"
+      ]
+    },
+    {
+      "id": "husband",
+      "english": "husband",
+      "translation": "муж",
+      "audio": [
+        "audio/words/husband.wav"
+      ]
+    },
+    {
+      "id": "wife",
+      "english": "wife",
+      "translation": "жена",
+      "audio": [
+        "audio/words/wife.wav"
+      ]
+    },
+    {
+      "id": "grandmother",
+      "english": "grandmother",
+      "translation": "бабушка",
+      "audio": [
+        "audio/words/grandmother.wav"
+      ]
+    },
+    {
+      "id": "grandfather",
+      "english": "grandfather",
+      "translation": "дедушка",
+      "audio": [
+        "audio/words/grandfather.wav"
+      ]
+    },
+    {
+      "id": "grandparent",
+      "english": "grandparent",
+      "translation": "бабушка или дедушка",
+      "audio": [
+        "audio/words/grandparent.wav"
+      ]
+    },
+    {
+      "id": "uncle",
+      "english": "uncle",
+      "translation": "дядя",
+      "audio": [
+        "audio/words/uncle.wav"
+      ]
+    },
+    {
+      "id": "aunt",
+      "english": "aunt",
+      "translation": "тётя",
+      "audio": [
+        "audio/words/aunt.wav"
+      ]
+    },
+    {
+      "id": "baby",
+      "english": "baby",
+      "translation": "младенец",
+      "audio": [
+        "audio/words/baby.wav"
+      ]
+    },
+    {
+      "id": "adult",
+      "english": "adult",
+      "translation": "взрослый",
+      "audio": [
+        "audio/words/adult.wav"
+      ]
+    },
+    {
+      "id": "friendship",
+      "english": "friendship",
+      "translation": "дружба",
+      "audio": [
+        "audio/words/friendship.wav"
+      ]
+    },
+    {
+      "id": "neighbor",
+      "english": "neighbor",
+      "translation": "сосед",
+      "audio": [
+        "audio/words/neighbor.wav"
+      ]
+    },
+    {
+      "id": "partner",
+      "english": "partner",
+      "translation": "партнёр",
+      "audio": [
+        "audio/words/partner.wav"
+      ]
+    },
+    {
+      "id": "couple",
+      "english": "couple",
+      "translation": "пара",
+      "audio": [
+        "audio/words/couple.wav"
+      ]
+    },
+    {
+      "id": "name",
+      "english": "name",
+      "translation": "имя",
+      "audio": [
+        "audio/words/name.wav"
+      ]
+    },
+    {
+      "id": "age",
+      "english": "age",
+      "translation": "возраст",
+      "audio": [
+        "audio/words/age.wav"
+      ]
+    },
+    {
+      "id": "gender",
+      "english": "gender",
+      "translation": "пол",
+      "audio": [
+        "audio/words/gender.wav"
+      ]
+    },
+    {
+      "id": "relative",
+      "english": "relative",
+      "translation": "родственник",
+      "audio": [
+        "audio/words/relative.wav"
+      ]
+    },
+    {
+      "id": "relationship",
+      "english": "relationship",
+      "translation": "отношения",
+      "audio": [
+        "audio/words/relationship.wav"
+      ]
+    },
+    {
+      "id": "marriage",
+      "english": "marriage",
+      "translation": "брак",
+      "audio": [
+        "audio/words/marriage.wav"
+      ]
+    },
+    {
+      "id": "wedding",
+      "english": "wedding",
+      "translation": "свадьба",
+      "audio": [
+        "audio/words/wedding.wav"
+      ]
+    },
+    {
+      "id": "cousin",
+      "english": "cousin",
+      "translation": "двоюродный брат",
+      "audio": [
+        "audio/words/cousin.wav"
+      ]
+    },
+    {
+      "id": "single",
+      "english": "single",
+      "translation": "не в отношениях",
+      "audio": [
+        "audio/words/single.wav"
+      ]
+    },
+    {
+      "id": "married",
+      "english": "married",
+      "translation": "женат",
+      "audio": [
+        "audio/words/married.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "theme": "Искусственный интеллект",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "artificial-intelligence-systems",
+      "english": "artificial intelligence systems",
+      "translation": "системы искусственного интеллекта",
+      "audio": [
+        "audio/phrases/artificial intelligence systems.wav"
+      ]
+    },
+    {
+      "id": "ai-research-field",
+      "english": "ai research field",
+      "translation": "область исследований ии",
+      "audio": [
+        "audio/phrases/ai research field.wav"
+      ]
+    },
+    {
+      "id": "machine-learning-methods",
+      "english": "machine learning methods",
+      "translation": "методы машинного обучения",
+      "audio": [
+        "audio/phrases/machine learning methods.wav"
+      ]
+    },
+    {
+      "id": "deep-learning-models",
+      "english": "deep learning models",
+      "translation": "модели глубинного обучения",
+      "audio": [
+        "audio/phrases/deep learning models.wav"
+      ]
+    },
+    {
+      "id": "neural-network-layers",
+      "english": "neural network layers",
+      "translation": "слои нейронной сети",
+      "audio": [
+        "audio/phrases/neural network layers.wav"
+      ]
+    },
+    {
+      "id": "efficient-algorithm-design",
+      "english": "efficient algorithm design",
+      "translation": "эффективный алгоритм",
+      "audio": [
+        "audio/phrases/efficient algorithm design.wav"
+      ]
+    },
+    {
+      "id": "trained-model-output",
+      "english": "trained model output",
+      "translation": "результат обученной модели",
+      "audio": [
+        "audio/phrases/trained model output.wav"
+      ]
+    },
+    {
+      "id": "large-dataset-size",
+      "english": "large dataset size",
+      "translation": "большой набор данных",
+      "audio": [
+        "audio/phrases/large dataset size.wav"
+      ]
+    },
+    {
+      "id": "training-process-phase",
+      "english": "training process phase",
+      "translation": "этап обучения",
+      "audio": [
+        "audio/phrases/training process phase.wav"
+      ]
+    },
+    {
+      "id": "inference-stage",
+      "english": "inference stage",
+      "translation": "этап инференса",
+      "audio": [
+        "audio/phrases/inference stage.wav"
+      ]
+    },
+    {
+      "id": "input-data-quality",
+      "english": "input data quality",
+      "translation": "качество входных данных",
+      "audio": [
+        "audio/phrases/input data quality.wav"
+      ]
+    },
+    {
+      "id": "output-prediction",
+      "english": "output prediction",
+      "translation": "выходное предсказание",
+      "audio": [
+        "audio/phrases/output prediction.wav"
+      ]
+    },
+    {
+      "id": "important-feature-selection",
+      "english": "important feature selection",
+      "translation": "важный признак",
+      "audio": [
+        "audio/phrases/important feature selection.wav"
+      ]
+    },
+    {
+      "id": "model-parameter-tuning",
+      "english": "model parameter tuning",
+      "translation": "настройка параметра",
+      "audio": [
+        "audio/phrases/model parameter tuning.wav"
+      ]
+    },
+    {
+      "id": "weight-adjustment",
+      "english": "weight adjustment",
+      "translation": "корректировка веса",
+      "audio": [
+        "audio/phrases/weight adjustment.wav"
+      ]
+    },
+    {
+      "id": "high-accuracy-rate",
+      "english": "high accuracy rate",
+      "translation": "высокая точность",
+      "audio": [
+        "audio/phrases/high accuracy rate.wav"
+      ]
+    },
+    {
+      "id": "system-performance-level",
+      "english": "system performance level",
+      "translation": "уровень производительности",
+      "audio": [
+        "audio/phrases/system performance level.wav"
+      ]
+    },
+    {
+      "id": "future-prediction",
+      "english": "future prediction",
+      "translation": "будущее предсказание",
+      "audio": [
+        "audio/phrases/future prediction.wav"
+      ]
+    },
+    {
+      "id": "image-classification-task",
+      "english": "image classification task",
+      "translation": "задача классификации",
+      "audio": [
+        "audio/phrases/image classification task.wav"
+      ]
+    },
+    {
+      "id": "linear-regression-model",
+      "english": "linear regression model",
+      "translation": "линейная регрессия",
+      "audio": [
+        "audio/phrases/linear regression model.wav"
+      ]
+    },
+    {
+      "id": "process-automation-tools",
+      "english": "process automation tools",
+      "translation": "инструменты автоматизации процессов",
+      "audio": [
+        "audio/phrases/process automation tools.wav"
+      ]
+    },
+    {
+      "id": "system-optimization-strategy",
+      "english": "system optimization strategy",
+      "translation": "стратегия оптимизации системы",
+      "audio": [
+        "audio/phrases/system optimization strategy.wav"
+      ]
+    },
+    {
+      "id": "ensure-scalability-growth",
+      "english": "ensure scalability growth",
+      "translation": "обеспечить масштабируемость",
+      "audio": [
+        "audio/phrases/ensure scalability growth.wav"
+      ]
+    },
+    {
+      "id": "model-deployment-phase",
+      "english": "model deployment phase",
+      "translation": "этап развёртывания модели",
+      "audio": [
+        "audio/phrases/model deployment phase.wav"
+      ]
+    },
+    {
+      "id": "system-integration-layer",
+      "english": "system integration layer",
+      "translation": "уровень интеграции системы",
+      "audio": [
+        "audio/phrases/system integration layer.wav"
+      ]
+    },
+    {
+      "id": "natural-language-tasks",
+      "english": "natural language tasks",
+      "translation": "задачи естественного языка",
+      "audio": [
+        "audio/phrases/natural language tasks.wav"
+      ]
+    },
+    {
+      "id": "computer-vision-systems",
+      "english": "computer vision systems",
+      "translation": "системы компьютерного зрения",
+      "audio": [
+        "audio/phrases/computer vision systems.wav"
+      ]
+    },
+    {
+      "id": "speech-recognition-accuracy",
+      "english": "speech recognition accuracy",
+      "translation": "точность распознавания речи",
+      "audio": [
+        "audio/phrases/speech recognition accuracy.wav"
+      ]
+    },
+    {
+      "id": "chatbot-user-support",
+      "english": "chatbot user support",
+      "translation": "поддержка чат-бота",
+      "audio": [
+        "audio/phrases/chatbot user support.wav"
+      ]
+    },
+    {
+      "id": "virtual-assistant-features",
+      "english": "virtual assistant features",
+      "translation": "функции виртуального ассистента",
+      "audio": [
+        "audio/phrases/virtual assistant features.wav"
+      ]
+    },
+    {
+      "id": "reduce-model-bias",
+      "english": "reduce model bias",
+      "translation": "снизить предвзятость модели",
+      "audio": [
+        "audio/phrases/reduce model bias.wav"
+      ]
+    },
+    {
+      "id": "ai-ethics-debate",
+      "english": "ai ethics debate",
+      "translation": "дискуссия об этике ии",
+      "audio": [
+        "audio/phrases/ai ethics debate.wav"
+      ]
+    },
+    {
+      "id": "protect-user-privacy",
+      "english": "protect user privacy",
+      "translation": "защищать конфиденциальность пользователей",
+      "audio": [
+        "audio/phrases/protect user privacy.wav"
+      ]
+    },
+    {
+      "id": "data-security-measures",
+      "english": "data security measures",
+      "translation": "меры безопасности данных",
+      "audio": [
+        "audio/phrases/data security measures.wav"
+      ]
+    },
+    {
+      "id": "model-transparency-level",
+      "english": "model transparency level",
+      "translation": "уровень прозрачности модели",
+      "audio": [
+        "audio/phrases/model transparency level.wav"
+      ]
+    },
+    {
+      "id": "real-use-case",
+      "english": "real use case",
+      "translation": "реальный сценарий использования",
+      "audio": [
+        "audio/phrases/real use case.wav"
+      ]
+    },
+    {
+      "id": "practical-application-area",
+      "english": "practical application area",
+      "translation": "практическая область применения",
+      "audio": [
+        "audio/phrases/practical application area.wav"
+      ]
+    },
+    {
+      "id": "technical-limitation-factor",
+      "english": "technical limitation factor",
+      "translation": "техническое ограничение",
+      "audio": [
+        "audio/phrases/technical limitation factor.wav"
+      ]
+    },
+    {
+      "id": "system-capability-range",
+      "english": "system capability range",
+      "translation": "диапазон возможностей системы",
+      "audio": [
+        "audio/phrases/system capability range.wav"
+      ]
+    },
+    {
+      "id": "social-impact-assessment",
+      "english": "social impact assessment",
+      "translation": "оценка социального влияния",
+      "audio": [
+        "audio/phrases/social impact assessment.wav"
+      ]
+    }
+  ]
+}

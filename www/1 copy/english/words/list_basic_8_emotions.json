@@ -1,0 +1,239 @@
+{
+  "theme": "Эмоции и состояния",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "emotion",
+      "english": "emotion",
+      "translation": "эмоция",
+      "audio": [
+        "audio/words/emotion.wav"
+      ]
+    },
+    {
+      "id": "feeling",
+      "english": "feeling",
+      "translation": "чувство",
+      "audio": [
+        "audio/words/feeling.wav"
+      ]
+    },
+    {
+      "id": "happy",
+      "english": "happy",
+      "translation": "счастливый",
+      "audio": [
+        "audio/words/happy.wav"
+      ]
+    },
+    {
+      "id": "sad",
+      "english": "sad",
+      "translation": "грустный",
+      "audio": [
+        "audio/words/sad.wav"
+      ]
+    },
+    {
+      "id": "angry",
+      "english": "angry",
+      "translation": "злой",
+      "audio": [
+        "audio/words/angry.wav"
+      ]
+    },
+    {
+      "id": "calm",
+      "english": "calm",
+      "translation": "спокойный",
+      "audio": [
+        "audio/words/calm.wav"
+      ]
+    },
+    {
+      "id": "excited",
+      "english": "excited",
+      "translation": "взволнованный",
+      "audio": [
+        "audio/words/excited.wav"
+      ]
+    },
+    {
+      "id": "tired",
+      "english": "tired",
+      "translation": "уставший",
+      "audio": [
+        "audio/words/tired.wav"
+      ]
+    },
+    {
+      "id": "relaxed",
+      "english": "relaxed",
+      "translation": "расслабленный",
+      "audio": [
+        "audio/words/relaxed.wav"
+      ]
+    },
+    {
+      "id": "nervous",
+      "english": "nervous",
+      "translation": "нервный",
+      "audio": [
+        "audio/words/nervous.wav"
+      ]
+    },
+    {
+      "id": "scared",
+      "english": "scared",
+      "translation": "испуганный",
+      "audio": [
+        "audio/words/scared.wav"
+      ]
+    },
+    {
+      "id": "afraid",
+      "english": "afraid",
+      "translation": "боящийся",
+      "audio": [
+        "audio/words/afraid.wav"
+      ]
+    },
+    {
+      "id": "good",
+      "english": "good",
+      "translation": "хорошо",
+      "audio": [
+        "audio/words/good.wav"
+      ]
+    },
+    {
+      "id": "bad",
+      "english": "bad",
+      "translation": "плохо",
+      "audio": [
+        "audio/words/bad.wav"
+      ]
+    },
+    {
+      "id": "fine",
+      "english": "fine",
+      "translation": "нормально",
+      "audio": [
+        "audio/words/fine.wav"
+      ]
+    },
+    {
+      "id": "okay",
+      "english": "okay",
+      "translation": "окей",
+      "audio": [
+        "audio/words/okay.wav"
+      ]
+    },
+    {
+      "id": "stress",
+      "english": "stress",
+      "translation": "стресс",
+      "audio": [
+        "audio/words/stress.wav"
+      ]
+    },
+    {
+      "id": "stressful",
+      "english": "stressful",
+      "translation": "стрессовый",
+      "audio": [
+        "audio/words/stressful.wav"
+      ]
+    },
+    {
+      "id": "bored",
+      "english": "bored",
+      "translation": "скучающий",
+      "audio": [
+        "audio/words/bored.wav"
+      ]
+    },
+    {
+      "id": "interested",
+      "english": "interested",
+      "translation": "заинтересованный",
+      "audio": [
+        "audio/words/interested.wav"
+      ]
+    },
+    {
+      "id": "comfortable",
+      "english": "comfortable",
+      "translation": "комфортно",
+      "audio": [
+        "audio/words/comfortable.wav"
+      ]
+    },
+    {
+      "id": "uncomfortable",
+      "english": "uncomfortable",
+      "translation": "некомфортно",
+      "audio": [
+        "audio/words/uncomfortable.wav"
+      ]
+    },
+    {
+      "id": "confident",
+      "english": "confident",
+      "translation": "уверенный",
+      "audio": [
+        "audio/words/confident.wav"
+      ]
+    },
+    {
+      "id": "confused",
+      "english": "confused",
+      "translation": "растерянный",
+      "audio": [
+        "audio/words/confused.wav"
+      ]
+    },
+    {
+      "id": "surprised",
+      "english": "surprised",
+      "translation": "удивлённый",
+      "audio": [
+        "audio/words/surprised.wav"
+      ]
+    },
+    {
+      "id": "worried",
+      "english": "worried",
+      "translation": "обеспокоенный",
+      "audio": [
+        "audio/words/worried.wav"
+      ]
+    },
+    {
+      "id": "ready",
+      "english": "ready",
+      "translation": "готов",
+      "audio": [
+        "audio/words/ready.wav"
+      ]
+    },
+    {
+      "id": "busy",
+      "english": "busy",
+      "translation": "занят",
+      "audio": [
+        "audio/words/busy.wav"
+      ]
+    },
+    {
+      "id": "free",
+      "english": "free",
+      "translation": "свободен",
+      "audio": [
+        "audio/words/free.wav"
+      ]
+    }
+  ]
+}

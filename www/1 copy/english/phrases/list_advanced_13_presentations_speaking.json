@@ -1,0 +1,287 @@
+{
+  "theme": "Презентации и выступления",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "final-presentation-ready",
+      "english": "final presentation ready",
+      "translation": "финальная презентация готова",
+      "audio": [
+        "audio/phrases/final presentation ready.wav"
+      ]
+    },
+    {
+      "id": "confident-speaker-tone",
+      "english": "confident speaker tone",
+      "translation": "уверенная манера выступающего",
+      "audio": [
+        "audio/phrases/confident speaker tone.wav"
+      ]
+    },
+    {
+      "id": "large-audience-reaction",
+      "english": "large audience reaction",
+      "translation": "реакция большой аудитории",
+      "audio": [
+        "audio/phrases/large audience reaction.wav"
+      ]
+    },
+    {
+      "id": "opening-speech-moment",
+      "english": "opening speech moment",
+      "translation": "момент вступительной речи",
+      "audio": [
+        "audio/phrases/opening speech moment.wav"
+      ]
+    },
+    {
+      "id": "technical-talk-session",
+      "english": "technical talk session",
+      "translation": "сессия технического доклада",
+      "audio": [
+        "audio/phrases/technical talk session.wav"
+      ]
+    },
+    {
+      "id": "next-slide-shows",
+      "english": "next slide shows",
+      "translation": "следующий слайд показывает",
+      "audio": [
+        "audio/phrases/next slide shows.wav"
+      ]
+    },
+    {
+      "id": "updated-slide-deck",
+      "english": "updated slide deck",
+      "translation": "обновлённый набор слайдов",
+      "audio": [
+        "audio/phrases/updated slide deck.wav"
+      ]
+    },
+    {
+      "id": "clear-supporting-visuals",
+      "english": "clear supporting visuals",
+      "translation": "понятные вспомогательные визуалы",
+      "audio": [
+        "audio/phrases/clear supporting visuals.wav"
+      ]
+    },
+    {
+      "id": "simple-data-chart",
+      "english": "simple data chart",
+      "translation": "простой график данных",
+      "audio": [
+        "audio/phrases/simple data chart.wav"
+      ]
+    },
+    {
+      "id": "process-flow-diagram",
+      "english": "process flow diagram",
+      "translation": "диаграмма хода процесса",
+      "audio": [
+        "audio/phrases/process flow diagram.wav"
+      ]
+    },
+    {
+      "id": "clear-presentation-structure",
+      "english": "clear presentation structure",
+      "translation": "чёткая структура презентации",
+      "audio": [
+        "audio/phrases/clear presentation structure.wav"
+      ]
+    },
+    {
+      "id": "brief-talk-outline",
+      "english": "brief talk outline",
+      "translation": "краткий план выступления",
+      "audio": [
+        "audio/phrases/brief talk outline.wav"
+      ]
+    },
+    {
+      "id": "natural-content-flow",
+      "english": "natural content flow",
+      "translation": "естественный поток содержания",
+      "audio": [
+        "audio/phrases/natural content flow.wav"
+      ]
+    },
+    {
+      "id": "smooth-topic-transition",
+      "english": "smooth topic transition",
+      "translation": "плавный переход между темами",
+      "audio": [
+        "audio/phrases/smooth topic transition.wav"
+      ]
+    },
+    {
+      "id": "perfect-session-timing",
+      "english": "perfect session timing",
+      "translation": "идеальный тайминг сессии",
+      "audio": [
+        "audio/phrases/perfect session timing.wav"
+      ]
+    },
+    {
+      "id": "confident-message-delivery",
+      "english": "confident message delivery",
+      "translation": "уверенная подача сообщения",
+      "audio": [
+        "audio/phrases/confident message delivery.wav"
+      ]
+    },
+    {
+      "id": "message-clarity-matters",
+      "english": "message clarity matters",
+      "translation": "ясность сообщения важна",
+      "audio": [
+        "audio/phrases/message clarity matters.wav"
+      ]
+    },
+    {
+      "id": "strong-speaker-confidence",
+      "english": "strong speaker confidence",
+      "translation": "уверенность выступающего",
+      "audio": [
+        "audio/phrases/strong speaker confidence.wav"
+      ]
+    },
+    {
+      "id": "high-audience-engagement",
+      "english": "high audience engagement",
+      "translation": "высокая вовлечённость аудитории",
+      "audio": [
+        "audio/phrases/high audience engagement.wav"
+      ]
+    },
+    {
+      "id": "lasting-presentation-impact",
+      "english": "lasting presentation impact",
+      "translation": "долгий эффект презентации",
+      "audio": [
+        "audio/phrases/lasting presentation impact.wav"
+      ]
+    },
+    {
+      "id": "main-key-point",
+      "english": "main key point",
+      "translation": "основной ключевой пункт",
+      "audio": [
+        "audio/phrases/main key point.wav"
+      ]
+    },
+    {
+      "id": "clear-final-takeaway",
+      "english": "clear final takeaway",
+      "translation": "понятный итоговый вывод",
+      "audio": [
+        "audio/phrases/clear final takeaway.wav"
+      ]
+    },
+    {
+      "id": "important-highlight-moment",
+      "english": "important highlight moment",
+      "translation": "важный акцентный момент",
+      "audio": [
+        "audio/phrases/important highlight moment.wav"
+      ]
+    },
+    {
+      "id": "simple-real-example",
+      "english": "simple real example",
+      "translation": "простой реальный пример",
+      "audio": [
+        "audio/phrases/simple real example.wav"
+      ]
+    },
+    {
+      "id": "direct-feature-comparison",
+      "english": "direct feature comparison",
+      "translation": "прямое сравнение характеристик",
+      "audio": [
+        "audio/phrases/direct feature comparison.wav"
+      ]
+    },
+    {
+      "id": "live-product-demonstration",
+      "english": "live product demonstration",
+      "translation": "живая демонстрация продукта",
+      "audio": [
+        "audio/phrases/live product demonstration.wav"
+      ]
+    },
+    {
+      "id": "quick-process-walkthrough",
+      "english": "quick process walkthrough",
+      "translation": "быстрый пошаговый показ",
+      "audio": [
+        "audio/phrases/quick process walkthrough.wav"
+      ]
+    },
+    {
+      "id": "short-live-demo",
+      "english": "short live demo",
+      "translation": "короткое живое демо",
+      "audio": [
+        "audio/phrases/short live demo.wav"
+      ]
+    },
+    {
+      "id": "concise-startup-pitch",
+      "english": "concise startup pitch",
+      "translation": "краткий стартап питч",
+      "audio": [
+        "audio/phrases/concise startup pitch.wav"
+      ]
+    },
+    {
+      "id": "formal-project-proposal",
+      "english": "formal project proposal",
+      "translation": "официальное проектное предложение",
+      "audio": [
+        "audio/phrases/formal project proposal.wav"
+      ]
+    },
+    {
+      "id": "unexpected-audience-question",
+      "english": "unexpected audience question",
+      "translation": "неожиданный вопрос аудитории",
+      "audio": [
+        "audio/phrases/unexpected audience question.wav"
+      ]
+    },
+    {
+      "id": "clear-direct-answer",
+      "english": "clear direct answer",
+      "translation": "чёткий прямой ответ",
+      "audio": [
+        "audio/phrases/clear direct answer.wav"
+      ]
+    },
+    {
+      "id": "open-group-discussion",
+      "english": "open group discussion",
+      "translation": "открытое групповое обсуждение",
+      "audio": [
+        "audio/phrases/open group discussion.wav"
+      ]
+    },
+    {
+      "id": "honest-audience-feedback",
+      "english": "honest audience feedback",
+      "translation": "честная обратная связь аудитории",
+      "audio": [
+        "audio/phrases/honest audience feedback.wav"
+      ]
+    },
+    {
+      "id": "positive-crowd-reaction",
+      "english": "positive crowd reaction",
+      "translation": "положительная реакция зала",
+      "audio": [
+        "audio/phrases/positive crowd reaction.wav"
+      ]
+    }
+  ]
+}

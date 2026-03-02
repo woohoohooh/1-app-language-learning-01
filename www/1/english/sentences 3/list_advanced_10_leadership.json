@@ -1,0 +1,147 @@
+{
+  "theme": "Лидерство",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "leadership",
+      "translation": "лидерство"
+    },
+    {
+      "english": "leader",
+      "translation": "лидер"
+    },
+    {
+      "english": "authority",
+      "translation": "авторитет"
+    },
+    {
+      "english": "responsibility",
+      "translation": "ответственность"
+    },
+    {
+      "english": "ownership",
+      "translation": "владение ответственностью"
+    },
+    {
+      "english": "vision",
+      "translation": "видение"
+    },
+    {
+      "english": "direction",
+      "translation": "направление"
+    },
+    {
+      "english": "strategy",
+      "translation": "стратегия"
+    },
+    {
+      "english": "alignment",
+      "translation": "согласованность"
+    },
+    {
+      "english": "priority",
+      "translation": "приоритет"
+    },
+    {
+      "english": "initiative",
+      "translation": "инициатива"
+    },
+    {
+      "english": "accountability",
+      "translation": "подотчётность"
+    },
+    {
+      "english": "empowerment",
+      "translation": "делегирование полномочий"
+    },
+    {
+      "english": "delegation",
+      "translation": "делегирование"
+    },
+    {
+      "english": "autonomy",
+      "translation": "самостоятельность"
+    },
+    {
+      "english": "influence",
+      "translation": "влияние"
+    },
+    {
+      "english": "credibility",
+      "translation": "доверие"
+    },
+    {
+      "english": "trust",
+      "translation": "доверие"
+    },
+    {
+      "english": "respect",
+      "translation": "уважение"
+    },
+    {
+      "english": "integrity",
+      "translation": "честность"
+    },
+    {
+      "english": "mentorship",
+      "translation": "наставничество"
+    },
+    {
+      "english": "coaching",
+      "translation": "коучинг"
+    },
+    {
+      "english": "development",
+      "translation": "развитие"
+    },
+    {
+      "english": "growth",
+      "translation": "рост"
+    },
+    {
+      "english": "potential",
+      "translation": "потенциал"
+    },
+    {
+      "english": "motivation",
+      "translation": "мотивация"
+    },
+    {
+      "english": "commitment",
+      "translation": "приверженность"
+    },
+    {
+      "english": "engagement",
+      "translation": "вовлечённость"
+    },
+    {
+      "english": "performance",
+      "translation": "результативность"
+    },
+    {
+      "english": "execution",
+      "translation": "исполнение"
+    },
+    {
+      "english": "ownership mindset",
+      "translation": "мышление ответственности"
+    },
+    {
+      "english": "role model",
+      "translation": "пример для подражания"
+    },
+    {
+      "english": "decision-maker",
+      "translation": "лицо, принимающее решения"
+    },
+    {
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона"
+    },
+    {
+      "english": "successor",
+      "translation": "преемник"
+    }
+  ]
+}

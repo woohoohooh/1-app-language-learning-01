@@ -1,0 +1,171 @@
+{
+  "theme": "Время и даты",
+  "level": "Beginner",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "time",
+      "translation": "время"
+    },
+    {
+      "english": "date",
+      "translation": "дата"
+    },
+    {
+      "english": "day",
+      "translation": "день"
+    },
+    {
+      "english": "night",
+      "translation": "ночь"
+    },
+    {
+      "english": "morning",
+      "translation": "утро"
+    },
+    {
+      "english": "evening",
+      "translation": "вечер"
+    },
+    {
+      "english": "today",
+      "translation": "сегодня"
+    },
+    {
+      "english": "tomorrow",
+      "translation": "завтра"
+    },
+    {
+      "english": "yesterday",
+      "translation": "вчера"
+    },
+    {
+      "english": "week",
+      "translation": "неделя"
+    },
+    {
+      "english": "month",
+      "translation": "месяц"
+    },
+    {
+      "english": "year",
+      "translation": "год"
+    },
+    {
+      "english": "weekday",
+      "translation": "будний день"
+    },
+    {
+      "english": "weekend",
+      "translation": "выходные"
+    },
+    {
+      "english": "Monday",
+      "translation": "понедельник"
+    },
+    {
+      "english": "Tuesday",
+      "translation": "вторник"
+    },
+    {
+      "english": "Wednesday",
+      "translation": "среда"
+    },
+    {
+      "english": "Thursday",
+      "translation": "четверг"
+    },
+    {
+      "english": "Friday",
+      "translation": "пятница"
+    },
+    {
+      "english": "Saturday",
+      "translation": "суббота"
+    },
+    {
+      "english": "Sunday",
+      "translation": "воскресенье"
+    },
+    {
+      "english": "January",
+      "translation": "январь"
+    },
+    {
+      "english": "February",
+      "translation": "февраль"
+    },
+    {
+      "english": "March",
+      "translation": "март"
+    },
+    {
+      "english": "April",
+      "translation": "апрель"
+    },
+    {
+      "english": "May",
+      "translation": "май"
+    },
+    {
+      "english": "June",
+      "translation": "июнь"
+    },
+    {
+      "english": "July",
+      "translation": "июль"
+    },
+    {
+      "english": "August",
+      "translation": "август"
+    },
+    {
+      "english": "September",
+      "translation": "сентябрь"
+    },
+    {
+      "english": "October",
+      "translation": "октябрь"
+    },
+    {
+      "english": "November",
+      "translation": "ноябрь"
+    },
+    {
+      "english": "December",
+      "translation": "декабрь"
+    },
+    {
+      "english": "hour",
+      "translation": "час"
+    },
+    {
+      "english": "minute",
+      "translation": "минута"
+    },
+    {
+      "english": "second",
+      "translation": "секунда"
+    },
+    {
+      "english": "clock",
+      "translation": "часы"
+    },
+    {
+      "english": "calendar",
+      "translation": "календарь"
+    },
+    {
+      "english": "early",
+      "translation": "рано"
+    },
+    {
+      "english": "late",
+      "translation": "поздно"
+    },
+    {
+      "english": "now",
+      "translation": "сейчас"
+    }
+  ]
+}

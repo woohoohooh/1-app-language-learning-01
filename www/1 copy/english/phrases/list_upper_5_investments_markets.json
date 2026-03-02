@@ -1,0 +1,327 @@
+{
+  "theme": "Инвестиции и финрынки",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "long-term-investment",
+      "english": "long term investment",
+      "translation": "долгосрочная инвестиция",
+      "audio": [
+        "audio/phrases/long term investment.wav"
+      ]
+    },
+    {
+      "id": "private-retail-investor",
+      "english": "private retail investor",
+      "translation": "частный розничный инвестор",
+      "audio": [
+        "audio/phrases/private retail investor.wav"
+      ]
+    },
+    {
+      "id": "global-financial-market",
+      "english": "global financial market",
+      "translation": "глобальный финансовый рынок",
+      "audio": [
+        "audio/phrases/global financial market.wav"
+      ]
+    },
+    {
+      "id": "high-risk-asset",
+      "english": "high risk asset",
+      "translation": "высокорисковый актив",
+      "audio": [
+        "audio/phrases/high risk asset.wav"
+      ]
+    },
+    {
+      "id": "balanced-investment-portfolio",
+      "english": "balanced investment portfolio",
+      "translation": "сбалансированный инвестиционный портфель",
+      "audio": [
+        "audio/phrases/balanced investment portfolio.wav"
+      ]
+    },
+    {
+      "id": "public-company-stock",
+      "english": "public company stock",
+      "translation": "акция публичной компании",
+      "audio": [
+        "audio/phrases/public company stock.wav"
+      ]
+    },
+    {
+      "id": "government-issued-bond",
+      "english": "government issued bond",
+      "translation": "государственная облигация",
+      "audio": [
+        "audio/phrases/government issued bond.wav"
+      ]
+    },
+    {
+      "id": "actively-managed-fund",
+      "english": "actively managed fund",
+      "translation": "активно управляемый фонд",
+      "audio": [
+        "audio/phrases/actively managed fund.wav"
+      ]
+    },
+    {
+      "id": "broad-market-etf",
+      "english": "broad market etf",
+      "translation": "широкий рыночный ETF",
+      "audio": [
+        "audio/phrases/broad market etf.wav"
+      ]
+    },
+    {
+      "id": "leading-market-index",
+      "english": "leading market index",
+      "translation": "ведущий рыночный индекс",
+      "audio": [
+        "audio/phrases/leading market index.wav"
+      ]
+    },
+    {
+      "id": "international-stock-exchange",
+      "english": "international stock exchange",
+      "translation": "международная фондовая биржа",
+      "audio": [
+        "audio/phrases/international stock exchange.wav"
+      ]
+    },
+    {
+      "id": "company-ticker-symbol",
+      "english": "company ticker symbol",
+      "translation": "тикер компании",
+      "audio": [
+        "audio/phrases/company ticker symbol.wav"
+      ]
+    },
+    {
+      "id": "current-market-price",
+      "english": "current market price",
+      "translation": "текущая рыночная цена",
+      "audio": [
+        "audio/phrases/current market price.wav"
+      ]
+    },
+    {
+      "id": "intrinsic-asset-value",
+      "english": "intrinsic asset value",
+      "translation": "внутренняя стоимость актива",
+      "audio": [
+        "audio/phrases/intrinsic asset value.wav"
+      ]
+    },
+    {
+      "id": "expected-annual-return",
+      "english": "expected annual return",
+      "translation": "ожидаемая годовая доходность",
+      "audio": [
+        "audio/phrases/expected annual return.wav"
+      ]
+    },
+    {
+      "id": "net-operating-profit",
+      "english": "net operating profit",
+      "translation": "чистая операционная прибыль",
+      "audio": [
+        "audio/phrases/net operating profit.wav"
+      ]
+    },
+    {
+      "id": "temporary-paper-loss",
+      "english": "temporary paper loss",
+      "translation": "временный бумажный убыток",
+      "audio": [
+        "audio/phrases/temporary paper loss.wav"
+      ]
+    },
+    {
+      "id": "annual-dividend-yield",
+      "english": "annual dividend yield",
+      "translation": "годовая дивидендная доходность",
+      "audio": [
+        "audio/phrases/annual dividend yield.wav"
+      ]
+    },
+    {
+      "id": "quarterly-cash-dividend",
+      "english": "quarterly cash dividend",
+      "translation": "квартальный денежный дивиденд",
+      "audio": [
+        "audio/phrases/quarterly cash dividend.wav"
+      ]
+    },
+    {
+      "id": "measured-financial-risk",
+      "english": "measured financial risk",
+      "translation": "умеренный финансовый риск",
+      "audio": [
+        "audio/phrases/measured financial risk.wav"
+      ]
+    },
+    {
+      "id": "short-term-volatility",
+      "english": "short term volatility",
+      "translation": "краткосрочная волатильность",
+      "audio": [
+        "audio/phrases/short term volatility.wav"
+      ]
+    },
+    {
+      "id": "market-liquidity-level",
+      "english": "market liquidity level",
+      "translation": "уровень ликвидности рынка",
+      "audio": [
+        "audio/phrases/market liquidity level.wav"
+      ]
+    },
+    {
+      "id": "currency-risk-exposure",
+      "english": "currency risk exposure",
+      "translation": "валютная подверженность риску",
+      "audio": [
+        "audio/phrases/currency risk exposure.wav"
+      ]
+    },
+    {
+      "id": "portfolio-diversification-strategy",
+      "english": "portfolio diversification strategy",
+      "translation": "стратегия диверсификации портфеля",
+      "audio": [
+        "audio/phrases/portfolio diversification strategy.wav"
+      ]
+    },
+    {
+      "id": "long-term-trend",
+      "english": "long term trend",
+      "translation": "долгосрочный тренд",
+      "audio": [
+        "audio/phrases/long term trend.wav"
+      ]
+    },
+    {
+      "id": "steady-economic-growth",
+      "english": "steady economic growth",
+      "translation": "устойчивый экономический рост",
+      "audio": [
+        "audio/phrases/steady economic growth.wav"
+      ]
+    },
+    {
+      "id": "sharp-market-decline",
+      "english": "sharp market decline",
+      "translation": "резкий спад рынка",
+      "audio": [
+        "audio/phrases/sharp market decline.wav"
+      ]
+    },
+    {
+      "id": "sudden-market-crash",
+      "english": "sudden market crash",
+      "translation": "внезапный обвал рынка",
+      "audio": [
+        "audio/phrases/sudden market crash.wav"
+      ]
+    },
+    {
+      "id": "gradual-market-recovery",
+      "english": "gradual market recovery",
+      "translation": "постепенное восстановление рынка",
+      "audio": [
+        "audio/phrases/gradual market recovery.wav"
+      ]
+    },
+    {
+      "id": "fundamental-market-analysis",
+      "english": "fundamental market analysis",
+      "translation": "фундаментальный рыночный анализ",
+      "audio": [
+        "audio/phrases/fundamental market analysis.wav"
+      ]
+    },
+    {
+      "id": "economic-growth-forecast",
+      "english": "economic growth forecast",
+      "translation": "прогноз экономического роста",
+      "audio": [
+        "audio/phrases/economic growth forecast.wav"
+      ]
+    },
+    {
+      "id": "leading-economic-indicator",
+      "english": "leading economic indicator",
+      "translation": "опережающий экономический показатель",
+      "audio": [
+        "audio/phrases/leading economic indicator.wav"
+      ]
+    },
+    {
+      "id": "strong-fund-performance",
+      "english": "strong fund performance",
+      "translation": "высокая результативность фонда",
+      "audio": [
+        "audio/phrases/strong fund performance.wav"
+      ]
+    },
+    {
+      "id": "relevant-market-benchmark",
+      "english": "relevant market benchmark",
+      "translation": "релевантный рыночный ориентир",
+      "audio": [
+        "audio/phrases/relevant market benchmark.wav"
+      ]
+    },
+    {
+      "id": "available-investment-capital",
+      "english": "available investment capital",
+      "translation": "доступный инвестиционный капитал",
+      "audio": [
+        "audio/phrases/available investment capital.wav"
+      ]
+    },
+    {
+      "id": "current-asset-valuation",
+      "english": "current asset valuation",
+      "translation": "текущая оценка актива",
+      "audio": [
+        "audio/phrases/current asset valuation.wav"
+      ]
+    },
+    {
+      "id": "asset-allocation-model",
+      "english": "asset allocation model",
+      "translation": "модель распределения активов",
+      "audio": [
+        "audio/phrases/asset allocation model.wav"
+      ]
+    },
+    {
+      "id": "defensive-investment-strategy",
+      "english": "defensive investment strategy",
+      "translation": "защитная инвестиционная стратегия",
+      "audio": [
+        "audio/phrases/defensive investment strategy.wav"
+      ]
+    },
+    {
+      "id": "long-term-horizon",
+      "english": "long term horizon",
+      "translation": "долгосрочный горизонт",
+      "audio": [
+        "audio/phrases/long term horizon.wav"
+      ]
+    },
+    {
+      "id": "minority-share-holding",
+      "english": "minority share holding",
+      "translation": "владение миноритарной акцией",
+      "audio": [
+        "audio/phrases/minority share holding.wav"
+      ]
+    }
+  ]
+}

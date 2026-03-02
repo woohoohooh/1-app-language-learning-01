@@ -1,0 +1,327 @@
+{
+  "theme": "Финансы и банки",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "bank",
+      "english": "bank",
+      "translation": "банк",
+      "audio": [
+        "audio/words/bank.wav"
+      ]
+    },
+    {
+      "id": "branch",
+      "english": "branch",
+      "translation": "отделение банка",
+      "audio": [
+        "audio/words/branch.wav"
+      ]
+    },
+    {
+      "id": "account",
+      "english": "account",
+      "translation": "счёт",
+      "audio": [
+        "audio/words/account.wav"
+      ]
+    },
+    {
+      "id": "balance",
+      "english": "balance",
+      "translation": "баланс счёта",
+      "audio": [
+        "audio/words/balance.wav"
+      ]
+    },
+    {
+      "id": "statement",
+      "english": "statement",
+      "translation": "выписка по счёту",
+      "audio": [
+        "audio/words/statement.wav"
+      ]
+    },
+    {
+      "id": "deposit",
+      "english": "deposit",
+      "translation": "вклад",
+      "audio": [
+        "audio/words/deposit.wav"
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "english": "withdrawal",
+      "translation": "снятие средств",
+      "audio": [
+        "audio/words/withdrawal.wav"
+      ]
+    },
+    {
+      "id": "transfer",
+      "english": "transfer",
+      "translation": "перевод денег",
+      "audio": [
+        "audio/words/transfer.wav"
+      ]
+    },
+    {
+      "id": "transaction",
+      "english": "transaction",
+      "translation": "транзакция",
+      "audio": [
+        "audio/words/transaction.wav"
+      ]
+    },
+    {
+      "id": "payment",
+      "english": "payment",
+      "translation": "платёж",
+      "audio": [
+        "audio/words/payment.wav"
+      ]
+    },
+    {
+      "id": "cash",
+      "english": "cash",
+      "translation": "наличные деньги",
+      "audio": [
+        "audio/words/cash.wav"
+      ]
+    },
+    {
+      "id": "currency",
+      "english": "currency",
+      "translation": "валюта",
+      "audio": [
+        "audio/words/currency.wav"
+      ]
+    },
+    {
+      "id": "exchange-rate",
+      "english": "exchange rate",
+      "translation": "обменный курс",
+      "audio": [
+        "audio/words/exchange rate.wav"
+      ]
+    },
+    {
+      "id": "foreign-currency",
+      "english": "foreign currency",
+      "translation": "иностранная валюта",
+      "audio": [
+        "audio/words/foreign currency.wav"
+      ]
+    },
+    {
+      "id": "funds",
+      "english": "funds",
+      "translation": "денежные средства",
+      "audio": [
+        "audio/words/funds.wav"
+      ]
+    },
+    {
+      "id": "card",
+      "english": "card",
+      "translation": "банковская карта",
+      "audio": [
+        "audio/words/card.wav"
+      ]
+    },
+    {
+      "id": "credit-card",
+      "english": "credit card",
+      "translation": "кредитная карта",
+      "audio": [
+        "audio/words/credit card.wav"
+      ]
+    },
+    {
+      "id": "debit-card",
+      "english": "debit card",
+      "translation": "дебетовая карта",
+      "audio": [
+        "audio/words/debit card.wav"
+      ]
+    },
+    {
+      "id": "pin",
+      "english": "PIN",
+      "translation": "ПИН-код",
+      "audio": [
+        "audio/words/PIN.wav"
+      ]
+    },
+    {
+      "id": "atm",
+      "english": "ATM",
+      "translation": "банкомат",
+      "audio": [
+        "audio/words/ATM.wav"
+      ]
+    },
+    {
+      "id": "loan",
+      "english": "loan",
+      "translation": "кредит",
+      "audio": [
+        "audio/words/loan.wav"
+      ]
+    },
+    {
+      "id": "credit",
+      "english": "credit",
+      "translation": "кредит",
+      "audio": [
+        "audio/words/credit.wav"
+      ]
+    },
+    {
+      "id": "interest",
+      "english": "interest",
+      "translation": "проценты",
+      "audio": [
+        "audio/words/interest.wav"
+      ]
+    },
+    {
+      "id": "interest-rate",
+      "english": "interest rate",
+      "translation": "процентная ставка",
+      "audio": [
+        "audio/words/interest rate.wav"
+      ]
+    },
+    {
+      "id": "repayment",
+      "english": "repayment",
+      "translation": "погашение",
+      "audio": [
+        "audio/words/repayment.wav"
+      ]
+    },
+    {
+      "id": "debt",
+      "english": "debt",
+      "translation": "долг",
+      "audio": [
+        "audio/words/debt.wav"
+      ]
+    },
+    {
+      "id": "installment",
+      "english": "installment",
+      "translation": "платёж в рассрочку",
+      "audio": [
+        "audio/words/installment.wav"
+      ]
+    },
+    {
+      "id": "mortgage",
+      "english": "mortgage",
+      "translation": "ипотека",
+      "audio": [
+        "audio/words/mortgage.wav"
+      ]
+    },
+    {
+      "id": "fee",
+      "english": "fee",
+      "translation": "комиссия",
+      "audio": [
+        "audio/words/fee.wav"
+      ]
+    },
+    {
+      "id": "charge",
+      "english": "charge",
+      "translation": "списание",
+      "audio": [
+        "audio/words/charge.wav"
+      ]
+    },
+    {
+      "id": "online-banking",
+      "english": "online banking",
+      "translation": "онлайн-банкинг",
+      "audio": [
+        "audio/words/online banking.wav"
+      ]
+    },
+    {
+      "id": "mobile-banking",
+      "english": "mobile banking",
+      "translation": "мобильный банк",
+      "audio": [
+        "audio/words/mobile banking.wav"
+      ]
+    },
+    {
+      "id": "authorization",
+      "english": "authorization",
+      "translation": "авторизация",
+      "audio": [
+        "audio/words/authorization.wav"
+      ]
+    },
+    {
+      "id": "verification",
+      "english": "verification",
+      "translation": "проверка",
+      "audio": [
+        "audio/words/verification.wav"
+      ]
+    },
+    {
+      "id": "security",
+      "english": "security",
+      "translation": "безопасность",
+      "audio": [
+        "audio/words/security.wav"
+      ]
+    },
+    {
+      "id": "tax",
+      "english": "tax",
+      "translation": "налог",
+      "audio": [
+        "audio/words/tax.wav"
+      ]
+    },
+    {
+      "id": "refund",
+      "english": "refund",
+      "translation": "возврат денег",
+      "audio": [
+        "audio/words/refund.wav"
+      ]
+    },
+    {
+      "id": "fine",
+      "english": "fine",
+      "translation": "штраф",
+      "audio": [
+        "audio/words/fine.wav"
+      ]
+    },
+    {
+      "id": "insurance",
+      "english": "insurance",
+      "translation": "страхование",
+      "audio": [
+        "audio/words/insurance.wav"
+      ]
+    },
+    {
+      "id": "coverage",
+      "english": "coverage",
+      "translation": "страховое покрытие",
+      "audio": [
+        "audio/words/coverage.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "theme": "Частые слова",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "manage",
+      "english": "manage",
+      "translation": "управлять",
+      "audio": [
+        "audio/words/manage.wav"
+      ]
+    },
+    {
+      "id": "improve",
+      "english": "improve",
+      "translation": "улучшать",
+      "audio": [
+        "audio/words/improve.wav"
+      ]
+    },
+    {
+      "id": "increase",
+      "english": "increase",
+      "translation": "увеличивать",
+      "audio": [
+        "audio/words/increase.wav"
+      ]
+    },
+    {
+      "id": "reduce",
+      "english": "reduce",
+      "translation": "уменьшать",
+      "audio": [
+        "audio/words/reduce.wav"
+      ]
+    },
+    {
+      "id": "affect",
+      "english": "affect",
+      "translation": "влиять",
+      "audio": [
+        "audio/words/affect.wav"
+      ]
+    },
+    {
+      "id": "depend",
+      "english": "depend",
+      "translation": "зависеть",
+      "audio": [
+        "audio/words/depend.wav"
+      ]
+    },
+    {
+      "id": "support",
+      "english": "support",
+      "translation": "поддерживать",
+      "audio": [
+        "audio/words/support.wav"
+      ]
+    },
+    {
+      "id": "require",
+      "english": "require",
+      "translation": "требовать",
+      "audio": [
+        "audio/words/require.wav"
+      ]
+    },
+    {
+      "id": "expect",
+      "english": "expect",
+      "translation": "ожидать",
+      "audio": [
+        "audio/words/expect.wav"
+      ]
+    },
+    {
+      "id": "avoid",
+      "english": "avoid",
+      "translation": "избегать",
+      "audio": [
+        "audio/words/avoid.wav"
+      ]
+    },
+    {
+      "id": "suggest",
+      "english": "suggest",
+      "translation": "предлагать",
+      "audio": [
+        "audio/words/suggest.wav"
+      ]
+    },
+    {
+      "id": "decide",
+      "english": "decide",
+      "translation": "решать",
+      "audio": [
+        "audio/words/decide.wav"
+      ]
+    },
+    {
+      "id": "allow",
+      "english": "allow",
+      "translation": "разрешать",
+      "audio": [
+        "audio/words/allow.wav"
+      ]
+    },
+    {
+      "id": "prevent",
+      "english": "prevent",
+      "translation": "предотвращать",
+      "audio": [
+        "audio/words/prevent.wav"
+      ]
+    },
+    {
+      "id": "consider",
+      "english": "consider",
+      "translation": "рассматривать",
+      "audio": [
+        "audio/words/consider.wav"
+      ]
+    },
+    {
+      "id": "reason",
+      "english": "reason",
+      "translation": "причина",
+      "audio": [
+        "audio/words/reason.wav"
+      ]
+    },
+    {
+      "id": "result",
+      "english": "result",
+      "translation": "результат",
+      "audio": [
+        "audio/words/result.wav"
+      ]
+    },
+    {
+      "id": "purpose",
+      "english": "purpose",
+      "translation": "цель",
+      "audio": [
+        "audio/words/purpose.wav"
+      ]
+    },
+    {
+      "id": "choice",
+      "english": "choice",
+      "translation": "выбор",
+      "audio": [
+        "audio/words/choice.wav"
+      ]
+    },
+    {
+      "id": "opportunity",
+      "english": "opportunity",
+      "translation": "возможность",
+      "audio": [
+        "audio/words/opportunity.wav"
+      ]
+    },
+    {
+      "id": "challenge",
+      "english": "challenge",
+      "translation": "вызов",
+      "audio": [
+        "audio/words/challenge.wav"
+      ]
+    },
+    {
+      "id": "experience",
+      "english": "experience",
+      "translation": "опыт",
+      "audio": [
+        "audio/words/experience.wav"
+      ]
+    },
+    {
+      "id": "risk",
+      "english": "risk",
+      "translation": "риск",
+      "audio": [
+        "audio/words/risk.wav"
+      ]
+    },
+    {
+      "id": "benefit",
+      "english": "benefit",
+      "translation": "польза",
+      "audio": [
+        "audio/words/benefit.wav"
+      ]
+    },
+    {
+      "id": "impact",
+      "english": "impact",
+      "translation": "влияние",
+      "audio": [
+        "audio/words/impact.wav"
+      ]
+    },
+    {
+      "id": "issue",
+      "english": "issue",
+      "translation": "проблема",
+      "audio": [
+        "audio/words/issue.wav"
+      ]
+    },
+    {
+      "id": "solution",
+      "english": "solution",
+      "translation": "решение",
+      "audio": [
+        "audio/words/solution.wav"
+      ]
+    },
+    {
+      "id": "process",
+      "english": "process",
+      "translation": "процесс",
+      "audio": [
+        "audio/words/process.wav"
+      ]
+    },
+    {
+      "id": "progress",
+      "english": "progress",
+      "translation": "прогресс",
+      "audio": [
+        "audio/words/progress.wav"
+      ]
+    },
+    {
+      "id": "result",
+      "english": "result",
+      "translation": "итог",
+      "audio": [
+        "audio/words/result.wav"
+      ]
+    },
+    {
+      "id": "available",
+      "english": "available",
+      "translation": "доступный",
+      "audio": [
+        "audio/words/available.wav"
+      ]
+    },
+    {
+      "id": "common",
+      "english": "common",
+      "translation": "доступный",
+      "audio": [
+        "audio/words/common.wav"
+      ]
+    },
+    {
+      "id": "general",
+      "english": "general",
+      "translation": "общий",
+      "audio": [
+        "audio/words/general.wav"
+      ]
+    },
+    {
+      "id": "specific",
+      "english": "specific",
+      "translation": "конкретный",
+      "audio": [
+        "audio/words/specific.wav"
+      ]
+    },
+    {
+      "id": "similar",
+      "english": "similar",
+      "translation": "похожий",
+      "audio": [
+        "audio/words/similar.wav"
+      ]
+    },
+    {
+      "id": "likely",
+      "english": "likely",
+      "translation": "вероятный",
+      "audio": [
+        "audio/words/likely.wav"
+      ]
+    },
+    {
+      "id": "possible",
+      "english": "possible",
+      "translation": "возможный",
+      "audio": [
+        "audio/words/possible.wav"
+      ]
+    },
+    {
+      "id": "effective",
+      "english": "effective",
+      "translation": "эффективный",
+      "audio": [
+        "audio/words/effective.wav"
+      ]
+    },
+    {
+      "id": "efficient",
+      "english": "efficient",
+      "translation": "результативный",
+      "audio": [
+        "audio/words/efficient.wav"
+      ]
+    },
+    {
+      "id": "important",
+      "english": "important",
+      "translation": "важный",
+      "audio": [
+        "audio/words/important.wav"
+      ]
+    },
+    {
+      "id": "recently",
+      "english": "recently",
+      "translation": "недавно",
+      "audio": [
+        "audio/words/recently.wav"
+      ]
+    },
+    {
+      "id": "currently",
+      "english": "currently",
+      "translation": "в настоящее время",
+      "audio": [
+        "audio/words/currently.wav"
+      ]
+    },
+    {
+      "id": "especially",
+      "english": "especially",
+      "translation": "особенно",
+      "audio": [
+        "audio/words/especially.wav"
+      ]
+    },
+    {
+      "id": "eventually",
+      "english": "eventually",
+      "translation": "в конечном итоге",
+      "audio": [
+        "audio/words/eventually.wav"
+      ]
+    },
+    {
+      "id": "approximately",
+      "english": "approximately",
+      "translation": "примерно",
+      "audio": [
+        "audio/words/approximately.wav"
+      ]
+    }
+  ]
+}

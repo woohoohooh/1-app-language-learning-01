@@ -1,0 +1,147 @@
+{
+  "theme": "Ирония и сарказм",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "irony",
+      "translation": "ирония"
+    },
+    {
+      "english": "sarcasm",
+      "translation": "сарказм"
+    },
+    {
+      "english": "mockery",
+      "translation": "насмешка"
+    },
+    {
+      "english": "ridicule",
+      "translation": "высмеивание"
+    },
+    {
+      "english": "satire",
+      "translation": "сатира"
+    },
+    {
+      "english": "humor",
+      "translation": "юмор"
+    },
+    {
+      "english": "wit",
+      "translation": "остроумие"
+    },
+    {
+      "english": "dry humor",
+      "translation": "сухой юмор"
+    },
+    {
+      "english": "dark humor",
+      "translation": "чёрный юмор"
+    },
+    {
+      "english": "deadpan",
+      "translation": "невозмутимая подача"
+    },
+    {
+      "english": "tone",
+      "translation": "тон"
+    },
+    {
+      "english": "context",
+      "translation": "контекст"
+    },
+    {
+      "english": "delivery",
+      "translation": "подача"
+    },
+    {
+      "english": "exaggeration",
+      "translation": "преувеличение"
+    },
+    {
+      "english": "understatement",
+      "translation": "преуменьшение"
+    },
+    {
+      "english": "double meaning",
+      "translation": "двойной смысл"
+    },
+    {
+      "english": "subtlety",
+      "translation": "тонкость"
+    },
+    {
+      "english": "ambiguity",
+      "translation": "двусмысленность"
+    },
+    {
+      "english": "implication",
+      "translation": "подразумеваемый смысл"
+    },
+    {
+      "english": "innuendo",
+      "translation": "намёк"
+    },
+    {
+      "english": "cynicism",
+      "translation": "цинизм"
+    },
+    {
+      "english": "skepticism",
+      "translation": "скептицизм"
+    },
+    {
+      "english": "detachment",
+      "translation": "отстранённость"
+    },
+    {
+      "english": "contempt",
+      "translation": "презрение"
+    },
+    {
+      "english": "dismissiveness",
+      "translation": "пренебрежительность"
+    },
+    {
+      "english": "playfulness",
+      "translation": "игривость"
+    },
+    {
+      "english": "teasing",
+      "translation": "поддразнивание"
+    },
+    {
+      "english": "banter",
+      "translation": "шутливая перепалка"
+    },
+    {
+      "english": "self-irony",
+      "translation": "самоирония"
+    },
+    {
+      "english": "self-deprecation",
+      "translation": "самоироничное принижение"
+    },
+    {
+      "english": "overstatement",
+      "translation": "чрезмерное утверждение"
+    },
+    {
+      "english": "contrast",
+      "translation": "контраст"
+    },
+    {
+      "english": "absurdity",
+      "translation": "абсурдность"
+    },
+    {
+      "english": "parody",
+      "translation": "пародия"
+    },
+    {
+      "english": "caricature",
+      "translation": "карикатура"
+    }
+  ]
+}

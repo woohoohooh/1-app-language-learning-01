@@ -1,0 +1,295 @@
+{
+  "theme": "Покупки и магазины",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "local-shop",
+      "english": "local shop",
+      "translation": "местный магазин",
+      "audio": [
+        "audio/phrases/local shop.wav"
+      ]
+    },
+    {
+      "id": "online-store",
+      "english": "online store",
+      "translation": "онлайн магазин",
+      "audio": [
+        "audio/phrases/online store.wav"
+      ]
+    },
+    {
+      "id": "street-market",
+      "english": "street market",
+      "translation": "уличный рынок",
+      "audio": [
+        "audio/phrases/street market.wav"
+      ]
+    },
+    {
+      "id": "big-mall",
+      "english": "big mall",
+      "translation": "большой торговый центр",
+      "audio": [
+        "audio/phrases/big mall.wav"
+      ]
+    },
+    {
+      "id": "nearby-supermarket",
+      "english": "nearby supermarket",
+      "translation": "ближайший супермаркет",
+      "audio": [
+        "audio/phrases/nearby supermarket.wav"
+      ]
+    },
+    {
+      "id": "buy-food",
+      "english": "buy food",
+      "translation": "покупать еду",
+      "audio": [
+        "audio/phrases/buy food.wav"
+      ]
+    },
+    {
+      "id": "sell-products",
+      "english": "sell products",
+      "translation": "продавать товары",
+      "audio": [
+        "audio/phrases/sell products.wav"
+      ]
+    },
+    {
+      "id": "pay-now",
+      "english": "pay now",
+      "translation": "платить сейчас",
+      "audio": [
+        "audio/phrases/pay now.wav"
+      ]
+    },
+    {
+      "id": "order-online",
+      "english": "order online",
+      "translation": "заказывать онлайн",
+      "audio": [
+        "audio/phrases/order online.wav"
+      ]
+    },
+    {
+      "id": "choose-wisely",
+      "english": "choose wisely",
+      "translation": "выбирать разумно",
+      "audio": [
+        "audio/phrases/choose wisely.wav"
+      ]
+    },
+    {
+      "id": "low-price",
+      "english": "low price",
+      "translation": "низкая цена",
+      "audio": [
+        "audio/phrases/low price.wav"
+      ]
+    },
+    {
+      "id": "high-cost",
+      "english": "high cost",
+      "translation": "высокая стоимость",
+      "audio": [
+        "audio/phrases/high cost.wav"
+      ]
+    },
+    {
+      "id": "very-cheap",
+      "english": "very cheap",
+      "translation": "очень дешёвый",
+      "audio": [
+        "audio/phrases/very cheap.wav"
+      ]
+    },
+    {
+      "id": "too-expensive",
+      "english": "too expensive",
+      "translation": "слишком дорогой",
+      "audio": [
+        "audio/phrases/too expensive.wav"
+      ]
+    },
+    {
+      "id": "big-discount",
+      "english": "big discount",
+      "translation": "большая скидка",
+      "audio": [
+        "audio/phrases/big discount.wav"
+      ]
+    },
+    {
+      "id": "summer-sale",
+      "english": "summer sale",
+      "translation": "летняя распродажа",
+      "audio": [
+        "audio/phrases/summer sale.wav"
+      ]
+    },
+    {
+      "id": "pay-cash",
+      "english": "pay cash",
+      "translation": "платить наличными",
+      "audio": [
+        "audio/phrases/pay cash.wav"
+      ]
+    },
+    {
+      "id": "bank-card",
+      "english": "bank card",
+      "translation": "банковская карта",
+      "audio": [
+        "audio/phrases/bank card.wav"
+      ]
+    },
+    {
+      "id": "keep-the-receipt",
+      "english": "keep the receipt",
+      "translation": "сохрани чек",
+      "audio": [
+        "audio/phrases/keep the receipt.wav"
+      ]
+    },
+    {
+      "id": "count-the-change",
+      "english": "count the change",
+      "translation": "посчитать сдачу",
+      "audio": [
+        "audio/phrases/count the change.wav"
+      ]
+    },
+    {
+      "id": "happy-customer-here",
+      "english": "happy customer here",
+      "translation": "довольный покупатель здесь",
+      "audio": [
+        "audio/phrases/happy customer here.wav"
+      ]
+    },
+    {
+      "id": "ask-the-seller",
+      "english": "ask the seller",
+      "translation": "спросить продавца",
+      "audio": [
+        "audio/phrases/ask the seller.wav"
+      ]
+    },
+    {
+      "id": "talk-to-cashier",
+      "english": "talk to cashier",
+      "translation": "поговорить с кассиром",
+      "audio": [
+        "audio/phrases/talk to cashier.wav"
+      ]
+    },
+    {
+      "id": "new-product-line",
+      "english": "new product line",
+      "translation": "новая линейка товаров",
+      "audio": [
+        "audio/phrases/new product line.wav"
+      ]
+    },
+    {
+      "id": "famous-brand-name",
+      "english": "famous brand name",
+      "translation": "известный бренд",
+      "audio": [
+        "audio/phrases/famous brand name.wav"
+      ]
+    },
+    {
+      "id": "right-size-now",
+      "english": "right size now",
+      "translation": "подходящий размер сейчас",
+      "audio": [
+        "audio/phrases/right size now.wav"
+      ]
+    },
+    {
+      "id": "bright-color-option",
+      "english": "bright color option",
+      "translation": "яркий вариант цвета",
+      "audio": [
+        "audio/phrases/bright color option.wav"
+      ]
+    },
+    {
+      "id": "push-the-cart",
+      "english": "push the cart",
+      "translation": "толкать тележку",
+      "audio": [
+        "audio/phrases/push the cart.wav"
+      ]
+    },
+    {
+      "id": "take-a-basket",
+      "english": "take a basket",
+      "translation": "взять корзину",
+      "audio": [
+        "audio/phrases/take a basket.wav"
+      ]
+    },
+    {
+      "id": "store-is-open",
+      "english": "store is open",
+      "translation": "магазин открыт",
+      "audio": [
+        "audio/phrases/store is open.wav"
+      ]
+    },
+    {
+      "id": "store-is-closed",
+      "english": "store is closed",
+      "translation": "магазин закрыт",
+      "audio": [
+        "audio/phrases/store is closed.wav"
+      ]
+    },
+    {
+      "id": "buy-online-now",
+      "english": "buy online now",
+      "translation": "купить онлайн сейчас",
+      "audio": [
+        "audio/phrases/buy online now.wav"
+      ]
+    },
+    {
+      "id": "fast-delivery-service",
+      "english": "fast delivery service",
+      "translation": "быстрая доставка",
+      "audio": [
+        "audio/phrases/fast delivery service.wav"
+      ]
+    },
+    {
+      "id": "request-a-return",
+      "english": "request a return",
+      "translation": "оформить возврат",
+      "audio": [
+        "audio/phrases/request a return.wav"
+      ]
+    },
+    {
+      "id": "choose-one-item",
+      "english": "choose one item",
+      "translation": "выбрать один товар",
+      "audio": [
+        "audio/phrases/choose one item.wav"
+      ]
+    },
+    {
+      "id": "paper-bag-please",
+      "english": "paper bag please",
+      "translation": "бумажный пакет пожалуйста",
+      "audio": [
+        "audio/phrases/paper bag please.wav"
+      ]
+    }
+  ]
+}

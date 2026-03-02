@@ -1,0 +1,367 @@
+{
+  "theme": "Продукты, UX, разработка",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "product",
+      "english": "product",
+      "translation": "продукт",
+      "audio": [
+        "audio/words/product.wav"
+      ]
+    },
+    {
+      "id": "feature",
+      "english": "feature",
+      "translation": "функция",
+      "audio": [
+        "audio/words/feature.wav"
+      ]
+    },
+    {
+      "id": "functionality",
+      "english": "functionality",
+      "translation": "функциональность",
+      "audio": [
+        "audio/words/functionality.wav"
+      ]
+    },
+    {
+      "id": "roadmap",
+      "english": "roadmap",
+      "translation": "дорожная карта",
+      "audio": [
+        "audio/words/roadmap.wav"
+      ]
+    },
+    {
+      "id": "vision",
+      "english": "vision",
+      "translation": "видение продукта",
+      "audio": [
+        "audio/words/vision.wav"
+      ]
+    },
+    {
+      "id": "strategy",
+      "english": "strategy",
+      "translation": "стратегия",
+      "audio": [
+        "audio/words/strategy.wav"
+      ]
+    },
+    {
+      "id": "goal",
+      "english": "goal",
+      "translation": "цель",
+      "audio": [
+        "audio/words/goal.wav"
+      ]
+    },
+    {
+      "id": "priority",
+      "english": "priority",
+      "translation": "приоритет",
+      "audio": [
+        "audio/words/priority.wav"
+      ]
+    },
+    {
+      "id": "scope",
+      "english": "scope",
+      "translation": "объём работ",
+      "audio": [
+        "audio/words/scope.wav"
+      ]
+    },
+    {
+      "id": "requirement",
+      "english": "requirement",
+      "translation": "требование",
+      "audio": [
+        "audio/words/requirement.wav"
+      ]
+    },
+    {
+      "id": "user",
+      "english": "user",
+      "translation": "пользователь",
+      "audio": [
+        "audio/words/user.wav"
+      ]
+    },
+    {
+      "id": "customer",
+      "english": "customer",
+      "translation": "клиент",
+      "audio": [
+        "audio/words/customer.wav"
+      ]
+    },
+    {
+      "id": "user-experience",
+      "english": "user experience",
+      "translation": "пользовательский опыт",
+      "audio": [
+        "audio/words/user experience.wav"
+      ]
+    },
+    {
+      "id": "user-interface",
+      "english": "user interface",
+      "translation": "пользовательский интерфейс",
+      "audio": [
+        "audio/words/user interface.wav"
+      ]
+    },
+    {
+      "id": "usability",
+      "english": "usability",
+      "translation": "удобство использования",
+      "audio": [
+        "audio/words/usability.wav"
+      ]
+    },
+    {
+      "id": "design",
+      "english": "design",
+      "translation": "дизайн",
+      "audio": [
+        "audio/words/design.wav"
+      ]
+    },
+    {
+      "id": "layout",
+      "english": "layout",
+      "translation": "расположение элементов",
+      "audio": [
+        "audio/words/layout.wav"
+      ]
+    },
+    {
+      "id": "prototype",
+      "english": "prototype",
+      "translation": "прототип",
+      "audio": [
+        "audio/words/prototype.wav"
+      ]
+    },
+    {
+      "id": "wireframe",
+      "english": "wireframe",
+      "translation": "вайрфрейм",
+      "audio": [
+        "audio/words/wireframe.wav"
+      ]
+    },
+    {
+      "id": "mockup",
+      "english": "mockup",
+      "translation": "макет",
+      "audio": [
+        "audio/words/mockup.wav"
+      ]
+    },
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "обратная связь",
+      "audio": [
+        "audio/words/feedback.wav"
+      ]
+    },
+    {
+      "id": "iteration",
+      "english": "iteration",
+      "translation": "итерация",
+      "audio": [
+        "audio/words/iteration.wav"
+      ]
+    },
+    {
+      "id": "improvement",
+      "english": "improvement",
+      "translation": "улучшение",
+      "audio": [
+        "audio/words/improvement.wav"
+      ]
+    },
+    {
+      "id": "update",
+      "english": "update",
+      "translation": "обновление",
+      "audio": [
+        "audio/words/update.wav"
+      ]
+    },
+    {
+      "id": "metric",
+      "english": "metric",
+      "translation": "метрика",
+      "audio": [
+        "audio/words/metric.wav"
+      ]
+    },
+    {
+      "id": "analytics",
+      "english": "analytics",
+      "translation": "аналитика",
+      "audio": [
+        "audio/words/analytics.wav"
+      ]
+    },
+    {
+      "id": "conversion",
+      "english": "conversion",
+      "translation": "конверсия",
+      "audio": [
+        "audio/words/conversion.wav"
+      ]
+    },
+    {
+      "id": "retention",
+      "english": "retention",
+      "translation": "удержание пользователей",
+      "audio": [
+        "audio/words/retention.wav"
+      ]
+    },
+    {
+      "id": "engagement",
+      "english": "engagement",
+      "translation": "вовлечённость",
+      "audio": [
+        "audio/words/engagement.wav"
+      ]
+    },
+    {
+      "id": "hypothesis",
+      "english": "hypothesis",
+      "translation": "гипотеза",
+      "audio": [
+        "audio/words/hypothesis.wav"
+      ]
+    },
+    {
+      "id": "experiment",
+      "english": "experiment",
+      "translation": "эксперимент",
+      "audio": [
+        "audio/words/experiment.wav"
+      ]
+    },
+    {
+      "id": "a/b-testing",
+      "english": "A/B testing",
+      "translation": "A/B тестирование",
+      "audio": [
+        "audio/words/A/B testing.wav"
+      ]
+    },
+    {
+      "id": "validation",
+      "english": "validation",
+      "translation": "проверка",
+      "audio": [
+        "audio/words/validation.wav"
+      ]
+    },
+    {
+      "id": "assumption",
+      "english": "assumption",
+      "translation": "предположение",
+      "audio": [
+        "audio/words/assumption.wav"
+      ]
+    },
+    {
+      "id": "backlog",
+      "english": "backlog",
+      "translation": "бэклог",
+      "audio": [
+        "audio/words/backlog.wav"
+      ]
+    },
+    {
+      "id": "task",
+      "english": "task",
+      "translation": "задача",
+      "audio": [
+        "audio/words/task.wav"
+      ]
+    },
+    {
+      "id": "ticket",
+      "english": "ticket",
+      "translation": "тикет",
+      "audio": [
+        "audio/words/ticket.wav"
+      ]
+    },
+    {
+      "id": "estimate",
+      "english": "estimate",
+      "translation": "оценка",
+      "audio": [
+        "audio/words/estimate.wav"
+      ]
+    },
+    {
+      "id": "deadline",
+      "english": "deadline",
+      "translation": "дедлайн",
+      "audio": [
+        "audio/words/deadline.wav"
+      ]
+    },
+    {
+      "id": "stakeholder",
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона",
+      "audio": [
+        "audio/words/stakeholder.wav"
+      ]
+    },
+    {
+      "id": "alignment",
+      "english": "alignment",
+      "translation": "согласованность",
+      "audio": [
+        "audio/words/alignment.wav"
+      ]
+    },
+    {
+      "id": "decision",
+      "english": "decision",
+      "translation": "решение",
+      "audio": [
+        "audio/words/decision.wav"
+      ]
+    },
+    {
+      "id": "trade-off",
+      "english": "trade-off",
+      "translation": "компромисс",
+      "audio": [
+        "audio/words/trade-off.wav"
+      ]
+    },
+    {
+      "id": "outcome",
+      "english": "outcome",
+      "translation": "результат",
+      "audio": [
+        "audio/words/outcome.wav"
+      ]
+    },
+    {
+      "id": "review",
+      "english": "review",
+      "translation": "ревью",
+      "audio": [
+        "audio/words/review.wav"
+      ]
+    }
+  ]
+}

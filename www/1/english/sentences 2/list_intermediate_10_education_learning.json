@@ -1,0 +1,152 @@
+{
+  "theme": "Образование и обучение",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "education",
+      "english": "education",
+      "translation": "образование"
+    },
+    {
+      "id": "learning",
+      "english": "learning",
+      "translation": "обучение"
+    },
+    {
+      "id": "knowledge",
+      "english": "knowledge",
+      "translation": "знания"
+    },
+    {
+      "id": "skill",
+      "english": "skill",
+      "translation": "навык"
+    },
+    {
+      "id": "student",
+      "english": "student",
+      "translation": "студент"
+    },
+    {
+      "id": "instructor",
+      "english": "instructor",
+      "translation": "инструктор"
+    },
+    {
+      "id": "mentor",
+      "english": "mentor",
+      "translation": "наставник"
+    },
+    {
+      "id": "classmate",
+      "english": "classmate",
+      "translation": "одногруппник"
+    },
+    {
+      "id": "course",
+      "english": "course",
+      "translation": "курс"
+    },
+    {
+      "id": "lesson",
+      "english": "lesson",
+      "translation": "урок"
+    },
+    {
+      "id": "lecture",
+      "english": "lecture",
+      "translation": "лекция"
+    },
+    {
+      "id": "practice",
+      "english": "practice",
+      "translation": "практика"
+    },
+    {
+      "id": "assignment",
+      "english": "assignment",
+      "translation": "задание"
+    },
+    {
+      "id": "homework",
+      "english": "homework",
+      "translation": "домашнее задание"
+    },
+    {
+      "id": "exam",
+      "english": "exam",
+      "translation": "экзамен"
+    },
+    {
+      "id": "test",
+      "english": "test",
+      "translation": "тест"
+    },
+    {
+      "id": "grade",
+      "english": "grade",
+      "translation": "оценка"
+    },
+    {
+      "id": "certificate",
+      "english": "certificate",
+      "translation": "сертификат"
+    },
+    {
+      "id": "qualification",
+      "english": "qualification",
+      "translation": "квалификация"
+    },
+    {
+      "id": "progress",
+      "english": "progress",
+      "translation": "прогресс"
+    },
+    {
+      "id": "result",
+      "english": "result",
+      "translation": "результат"
+    },
+    {
+      "id": "online-course",
+      "english": "online course",
+      "translation": "онлайн-курс"
+    },
+    {
+      "id": "platform",
+      "english": "platform",
+      "translation": "платформа"
+    },
+    {
+      "id": "material",
+      "english": "material",
+      "translation": "учебный материал"
+    },
+    {
+      "id": "resource",
+      "english": "resource",
+      "translation": "ресурс"
+    },
+    {
+      "id": "schedule",
+      "english": "schedule",
+      "translation": "расписание"
+    },
+    {
+      "id": "deadline",
+      "english": "deadline",
+      "translation": "дедлайн"
+    },
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "обратная связь"
+    },
+    {
+      "id": "improvement",
+      "english": "improvement",
+      "translation": "улучшение"
+    }
+  ]
+}

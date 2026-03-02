@@ -1,0 +1,319 @@
+{
+  "theme": "Обратная связь",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "feedback-helped-improve-the-process.",
+      "english": "Feedback helped improve the process.",
+      "translation": "Обратная связь помогла улучшить процесс.",
+      "audio": [
+        "audio/sentences/Feedback helped improve the process..wav"
+      ]
+    },
+    {
+      "id": "communication-broke-down-during-the-meeting.",
+      "english": "Communication broke down during the meeting.",
+      "translation": "Коммуникация дала сбой во время встречи.",
+      "audio": [
+        "audio/sentences/Communication broke down during the meeting..wav"
+      ]
+    },
+    {
+      "id": "interaction-shaped-their-working-style.",
+      "english": "Interaction shaped their working style.",
+      "translation": "Взаимодействие сформировало их стиль работы.",
+      "audio": [
+        "audio/sentences/Interaction shaped their working style..wav"
+      ]
+    },
+    {
+      "id": "dialogue-led-to-mutual-understanding.",
+      "english": "Dialogue led to mutual understanding.",
+      "translation": "Диалог привёл к взаимопониманию.",
+      "audio": [
+        "audio/sentences/Dialogue led to mutual understanding..wav"
+      ]
+    },
+    {
+      "id": "exchange-of-views-clarified-the-issue.",
+      "english": "Exchange of views clarified the issue.",
+      "translation": "Обмен мнениями прояснил вопрос.",
+      "audio": [
+        "audio/sentences/Exchange of views clarified the issue..wav"
+      ]
+    },
+    {
+      "id": "clarity-reduced-unnecessary-questions.",
+      "english": "Clarity reduced unnecessary questions.",
+      "translation": "Ясность сократила лишние вопросы.",
+      "audio": [
+        "audio/sentences/Clarity reduced unnecessary questions..wav"
+      ]
+    },
+    {
+      "id": "alignment-improved-overall-results.",
+      "english": "Alignment improved overall results.",
+      "translation": "Согласованность улучшила общие результаты.",
+      "audio": [
+        "audio/sentences/Alignment improved overall results..wav"
+      ]
+    },
+    {
+      "id": "transparency-built-long-term-trust.",
+      "english": "Transparency built long-term trust.",
+      "translation": "Прозрачность выстроила долгосрочное доверие.",
+      "audio": [
+        "audio/sentences/Transparency built long-term trust..wav"
+      ]
+    },
+    {
+      "id": "consistency-strengthened-his-position.",
+      "english": "Consistency strengthened his position.",
+      "translation": "Последовательность усилила его позицию.",
+      "audio": [
+        "audio/sentences/Consistency strengthened his position..wav"
+      ]
+    },
+    {
+      "id": "tone-changed-the-meaning-entirely.",
+      "english": "Tone changed the meaning entirely.",
+      "translation": "Тон полностью изменил смысл.",
+      "audio": [
+        "audio/sentences/Tone changed the meaning entirely..wav"
+      ]
+    },
+    {
+      "id": "listening-carefully-prevented-conflict.",
+      "english": "Listening carefully prevented conflict.",
+      "translation": "Внимательное слушание предотвратило конфликт.",
+      "audio": [
+        "audio/sentences/Listening carefully prevented conflict..wav"
+      ]
+    },
+    {
+      "id": "attention-shifted-as-the-topic-changed.",
+      "english": "Attention shifted as the topic changed.",
+      "translation": "Внимание сместилось при смене темы.",
+      "audio": [
+        "audio/sentences/Attention shifted as the topic changed..wav"
+      ]
+    },
+    {
+      "id": "response-came-sooner-than-expected.",
+      "english": "Response came sooner than expected.",
+      "translation": "Ответ пришёл быстрее, чем ожидалось.",
+      "audio": [
+        "audio/sentences/Response came sooner than expected..wav"
+      ]
+    },
+    {
+      "id": "reaction-revealed-his-true-feelings.",
+      "english": "Reaction revealed his true feelings.",
+      "translation": "Реакция выдала его истинные чувства.",
+      "audio": [
+        "audio/sentences/Reaction revealed his true feelings..wav"
+      ]
+    },
+    {
+      "id": "interpretation-depended-on-context.",
+      "english": "Interpretation depended on context.",
+      "translation": "Интерпретация зависела от контекста.",
+      "audio": [
+        "audio/sentences/Interpretation depended on context..wav"
+      ]
+    },
+    {
+      "id": "message-reached-the-entire-team.",
+      "english": "Message reached the entire team.",
+      "translation": "Сообщение дошло до всей команды.",
+      "audio": [
+        "audio/sentences/Message reached the entire team..wav"
+      ]
+    },
+    {
+      "id": "intent-became-clear-over-time.",
+      "english": "Intent became clear over time.",
+      "translation": "Намерение стало ясно со временем.",
+      "audio": [
+        "audio/sentences/Intent became clear over time..wav"
+      ]
+    },
+    {
+      "id": "meaning-shifted-with-emphasis.",
+      "english": "Meaning shifted with emphasis.",
+      "translation": "Смысл изменился из-за акцента.",
+      "audio": [
+        "audio/sentences/Meaning shifted with emphasis..wav"
+      ]
+    },
+    {
+      "id": "context-made-the-comment-appropriate.",
+      "english": "Context made the comment appropriate.",
+      "translation": "Контекст сделал комментарий уместным.",
+      "audio": [
+        "audio/sentences/Context made the comment appropriate..wav"
+      ]
+    },
+    {
+      "id": "signal-indicated-readiness-to-proceed.",
+      "english": "Signal indicated readiness to proceed.",
+      "translation": "Сигнал показал готовность продолжать.",
+      "audio": [
+        "audio/sentences/Signal indicated readiness to proceed..wav"
+      ]
+    },
+    {
+      "id": "miscommunication-often-leads-to-delays.",
+      "english": "Miscommunication often leads to delays.",
+      "translation": "Недопонимание часто приводит к задержкам.",
+      "audio": [
+        "audio/sentences/Miscommunication often leads to delays..wav"
+      ]
+    },
+    {
+      "id": "ambiguity-can-confuse-the-audience.",
+      "english": "Ambiguity can confuse the audience.",
+      "translation": "Двусмысленность может запутать аудиторию.",
+      "audio": [
+        "audio/sentences/Ambiguity can confuse the audience..wav"
+      ]
+    },
+    {
+      "id": "that-assumption-changed-the-discussion.",
+      "english": "That assumption changed the discussion.",
+      "translation": "Это предположение изменило обсуждение.",
+      "audio": [
+        "audio/sentences/That assumption changed the discussion..wav"
+      ]
+    },
+    {
+      "id": "perception-influences-how-messages-land.",
+      "english": "Perception influences how messages land.",
+      "translation": "Восприятие влияет на то, как воспринимаются сообщения.",
+      "audio": [
+        "audio/sentences/Perception influences how messages land..wav"
+      ]
+    },
+    {
+      "id": "expectation-should-be-discussed-early.",
+      "english": "Expectation should be discussed early.",
+      "translation": "Ожидания следует обсуждать заранее.",
+      "audio": [
+        "audio/sentences/Expectation should be discussed early..wav"
+      ]
+    },
+    {
+      "id": "evaluation-helps-identify-weak-points.",
+      "english": "Evaluation helps identify weak points.",
+      "translation": "Оценка помогает выявить слабые места.",
+      "audio": [
+        "audio/sentences/Evaluation helps identify weak points..wav"
+      ]
+    },
+    {
+      "id": "assessment-requires-objective-criteria.",
+      "english": "Assessment requires objective criteria.",
+      "translation": "Оценивание требует объективных критериев.",
+      "audio": [
+        "audio/sentences/Assessment requires objective criteria..wav"
+      ]
+    },
+    {
+      "id": "recognition-motivates-long-term-effort.",
+      "english": "Recognition motivates long-term effort.",
+      "translation": "Признание мотивирует на долгую работу.",
+      "audio": [
+        "audio/sentences/Recognition motivates long-term effort..wav"
+      ]
+    },
+    {
+      "id": "acknowledgment-builds-mutual-respect.",
+      "english": "Acknowledgment builds mutual respect.",
+      "translation": "Подтверждение формирует взаимное уважение.",
+      "audio": [
+        "audio/sentences/Acknowledgment builds mutual respect..wav"
+      ]
+    },
+    {
+      "id": "appreciation-strengthens-professional-relationships.",
+      "english": "Appreciation strengthens professional relationships.",
+      "translation": "Признательность укрепляет профессиональные отношения.",
+      "audio": [
+        "audio/sentences/Appreciation strengthens professional relationships..wav"
+      ]
+    },
+    {
+      "id": "the-suggestion-improved-the-outcome.",
+      "english": "The suggestion improved the outcome.",
+      "translation": "Предложение улучшило результат.",
+      "audio": [
+        "audio/sentences/The suggestion improved the outcome..wav"
+      ]
+    },
+    {
+      "id": "her-recommendation-shaped-the-decision.",
+      "english": "Her recommendation shaped the decision.",
+      "translation": "Её рекомендация повлияла на решение.",
+      "audio": [
+        "audio/sentences/Her recommendation shaped the decision..wav"
+      ]
+    },
+    {
+      "id": "guidance-helps-teams-stay-focused.",
+      "english": "Guidance helps teams stay focused.",
+      "translation": "Наставления помогают командам сохранять фокус.",
+      "audio": [
+        "audio/sentences/Guidance helps teams stay focused..wav"
+      ]
+    },
+    {
+      "id": "direction-defines-long-term-priorities.",
+      "english": "Direction defines long-term priorities.",
+      "translation": "Направление определяет долгосрочные приоритеты.",
+      "audio": [
+        "audio/sentences/Direction defines long-term priorities..wav"
+      ]
+    },
+    {
+      "id": "the-instruction-was-easy-to-follow.",
+      "english": "The instruction was easy to follow.",
+      "translation": "Инструкция была понятной.",
+      "audio": [
+        "audio/sentences/The instruction was easy to follow..wav"
+      ]
+    },
+    {
+      "id": "engagement-increases-through-open-dialogue.",
+      "english": "Engagement increases through open dialogue.",
+      "translation": "Вовлечённость растёт через открытый диалог.",
+      "audio": [
+        "audio/sentences/Engagement increases through open dialogue..wav"
+      ]
+    },
+    {
+      "id": "participation-improves-collective-decisions.",
+      "english": "Participation improves collective decisions.",
+      "translation": "Участие улучшает коллективные решения.",
+      "audio": [
+        "audio/sentences/Participation improves collective decisions..wav"
+      ]
+    },
+    {
+      "id": "alignment-ensures-consistent-messaging.",
+      "english": "Alignment ensures consistent messaging.",
+      "translation": "Согласование обеспечивает единое сообщение.",
+      "audio": [
+        "audio/sentences/Alignment ensures consistent messaging..wav"
+      ]
+    },
+    {
+      "id": "follow-up-clarified-remaining-questions.",
+      "english": "Follow-up clarified remaining questions.",
+      "translation": "Дальнейшее взаимодействие прояснило оставшиеся вопросы.",
+      "audio": [
+        "audio/sentences/Follow-up clarified remaining questions..wav"
+      ]
+    }
+  ]
+}

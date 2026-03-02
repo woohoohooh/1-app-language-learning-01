@@ -1,0 +1,207 @@
+{
+  "theme": "Движение и транспорт",
+  "level": "",
+  "name": "Words",
+  "items": [
+    {
+      "id": "move-forward-slowly",
+      "english": "move forward slowly",
+      "translation": "двигаться вперёд медленно",
+      "audio": [
+        "audio/phrases/move forward slowly.wav"
+      ]
+    },
+    {
+      "id": "walk-in-park",
+      "english": "walk in park",
+      "translation": "гулять в парке",
+      "audio": [
+        "audio/phrases/walk in park.wav"
+      ]
+    },
+    {
+      "id": "run-very-fast",
+      "english": "run very fast",
+      "translation": "бежать очень быстро",
+      "audio": [
+        "audio/phrases/run very fast.wav"
+      ]
+    },
+    {
+      "id": "stop-right-here",
+      "english": "stop right here",
+      "translation": "остановись здесь",
+      "audio": [
+        "audio/phrases/stop right here.wav"
+      ]
+    },
+    {
+      "id": "long-empty-road",
+      "english": "long empty road",
+      "translation": "длинная пустая дорога",
+      "audio": [
+        "audio/phrases/long empty road.wav"
+      ]
+    },
+    {
+      "id": "busy-city-street",
+      "english": "busy city street",
+      "translation": "оживлённая городская улица",
+      "audio": [
+        "audio/phrases/busy city street.wav"
+      ]
+    },
+    {
+      "id": "find-the-way",
+      "english": "find the way",
+      "translation": "найти путь",
+      "audio": [
+        "audio/phrases/find the way.wav"
+      ]
+    },
+    {
+      "id": "right-direction-now",
+      "english": "right direction now",
+      "translation": "правильное направление сейчас",
+      "audio": [
+        "audio/phrases/right direction now.wav"
+      ]
+    },
+    {
+      "id": "new-family-car",
+      "english": "new family car",
+      "translation": "новая семейная машина",
+      "audio": [
+        "audio/phrases/new family car.wav"
+      ]
+    },
+    {
+      "id": "wait-for-bus",
+      "english": "wait for bus",
+      "translation": "ждать автобус",
+      "audio": [
+        "audio/phrases/wait for bus.wav"
+      ]
+    },
+    {
+      "id": "fast-morning-train",
+      "english": "fast morning train",
+      "translation": "быстрый утренний поезд",
+      "audio": [
+        "audio/phrases/fast morning train.wav"
+      ]
+    },
+    {
+      "id": "call-a-taxi",
+      "english": "call a taxi",
+      "translation": "вызвать такси",
+      "audio": [
+        "audio/phrases/call a taxi.wav"
+      ]
+    },
+    {
+      "id": "take-the-subway",
+      "english": "take the subway",
+      "translation": "ехать на метро",
+      "audio": [
+        "audio/phrases/take the subway.wav"
+      ]
+    },
+    {
+      "id": "ride-a-bike",
+      "english": "ride a bike",
+      "translation": "ехать на велосипеде",
+      "audio": [
+        "audio/phrases/ride a bike.wav"
+      ]
+    },
+    {
+      "id": "old-city-bicycle",
+      "english": "old city bicycle",
+      "translation": "старый городской велосипед",
+      "audio": [
+        "audio/phrases/old city bicycle.wav"
+      ]
+    },
+    {
+      "id": "main-train-station",
+      "english": "main train station",
+      "translation": "главная железнодорожная станция",
+      "audio": [
+        "audio/phrases/main train station.wav"
+      ]
+    },
+    {
+      "id": "bus-stop-nearby",
+      "english": "bus stop nearby",
+      "translation": "остановка рядом",
+      "audio": [
+        "audio/phrases/bus stop nearby.wav"
+      ]
+    },
+    {
+      "id": "buy-a-ticket",
+      "english": "buy a ticket",
+      "translation": "купить билет",
+      "audio": [
+        "audio/phrases/buy a ticket.wav"
+      ]
+    },
+    {
+      "id": "short-morning-ride",
+      "english": "short morning ride",
+      "translation": "короткая утренняя поездка",
+      "audio": [
+        "audio/phrases/short morning ride.wav"
+      ]
+    },
+    {
+      "id": "long-summer-trip",
+      "english": "long summer trip",
+      "translation": "долгое летнее путешествие",
+      "audio": [
+        "audio/phrases/long summer trip.wav"
+      ]
+    },
+    {
+      "id": "drive-very-carefully",
+      "english": "drive very carefully",
+      "translation": "вести очень осторожно",
+      "audio": [
+        "audio/phrases/drive very carefully.wav"
+      ]
+    },
+    {
+      "id": "arrive-on-time",
+      "english": "arrive on time",
+      "translation": "прибыть вовремя",
+      "audio": [
+        "audio/phrases/arrive on time.wav"
+      ]
+    },
+    {
+      "id": "go-straight-ahead",
+      "english": "go straight ahead",
+      "translation": "иди прямо вперёд",
+      "audio": [
+        "audio/phrases/go straight ahead.wav"
+      ]
+    },
+    {
+      "id": "come-with-me",
+      "english": "come with me",
+      "translation": "пойди со мной",
+      "audio": [
+        "audio/phrases/come with me.wav"
+      ]
+    },
+    {
+      "id": "leave-the-city",
+      "english": "leave the city",
+      "translation": "уехать из города",
+      "audio": [
+        "audio/phrases/leave the city.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "theme": "Эмоции и состояния",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "strong-emotion-inside",
+      "english": "strong emotion inside",
+      "translation": "сильная эмоция внутри",
+      "audio": [
+        "audio/phrases/strong emotion inside.wav"
+      ]
+    },
+    {
+      "id": "mixed-feeling-today",
+      "english": "mixed feeling today",
+      "translation": "смешанное чувство сегодня",
+      "audio": [
+        "audio/phrases/mixed feeling today.wav"
+      ]
+    },
+    {
+      "id": "feel-happy-now",
+      "english": "feel happy now",
+      "translation": "чувствовать себя счастливым",
+      "audio": [
+        "audio/phrases/feel happy now.wav"
+      ]
+    },
+    {
+      "id": "look-sad-today",
+      "english": "look sad today",
+      "translation": "выглядеть грустным сегодня",
+      "audio": [
+        "audio/phrases/look sad today.wav"
+      ]
+    },
+    {
+      "id": "get-angry-fast",
+      "english": "get angry fast",
+      "translation": "быстро злиться",
+      "audio": [
+        "audio/phrases/get angry fast.wav"
+      ]
+    },
+    {
+      "id": "stay-calm-inside",
+      "english": "stay calm inside",
+      "translation": "оставаться спокойным внутри",
+      "audio": [
+        "audio/phrases/stay calm inside.wav"
+      ]
+    },
+    {
+      "id": "feel-excited-today",
+      "english": "feel excited today",
+      "translation": "чувствовать волнение сегодня",
+      "audio": [
+        "audio/phrases/feel excited today.wav"
+      ]
+    },
+    {
+      "id": "feel-tired-now",
+      "english": "feel tired now",
+      "translation": "чувствовать усталость сейчас",
+      "audio": [
+        "audio/phrases/feel tired now.wav"
+      ]
+    },
+    {
+      "id": "feel-relaxed-again",
+      "english": "feel relaxed again",
+      "translation": "снова чувствовать расслабление",
+      "audio": [
+        "audio/phrases/feel relaxed again.wav"
+      ]
+    },
+    {
+      "id": "feel-nervous-inside",
+      "english": "feel nervous inside",
+      "translation": "чувствовать нервозность внутри",
+      "audio": [
+        "audio/phrases/feel nervous inside.wav"
+      ]
+    },
+    {
+      "id": "look-scared-now",
+      "english": "look scared now",
+      "translation": "выглядеть испуганным",
+      "audio": [
+        "audio/phrases/look scared now.wav"
+      ]
+    },
+    {
+      "id": "feel-afraid-inside",
+      "english": "feel afraid inside",
+      "translation": "чувствовать страх внутри",
+      "audio": [
+        "audio/phrases/feel afraid inside.wav"
+      ]
+    },
+    {
+      "id": "feel-good-today",
+      "english": "feel good today",
+      "translation": "чувствовать себя хорошо",
+      "audio": [
+        "audio/phrases/feel good today.wav"
+      ]
+    },
+    {
+      "id": "feel-bad-now",
+      "english": "feel bad now",
+      "translation": "чувствовать себя плохо",
+      "audio": [
+        "audio/phrases/feel bad now.wav"
+      ]
+    },
+    {
+      "id": "feel-fine-today",
+      "english": "feel fine today",
+      "translation": "чувствовать себя нормально",
+      "audio": [
+        "audio/phrases/feel fine today.wav"
+      ]
+    },
+    {
+      "id": "feel-okay-now",
+      "english": "feel okay now",
+      "translation": "чувствовать себя окей",
+      "audio": [
+        "audio/phrases/feel okay now.wav"
+      ]
+    },
+    {
+      "id": "daily-stress-level",
+      "english": "daily stress level",
+      "translation": "ежедневный уровень стресса",
+      "audio": [
+        "audio/phrases/daily stress level.wav"
+      ]
+    },
+    {
+      "id": "stressful-work-day",
+      "english": "stressful work day",
+      "translation": "стрессовый рабочий день",
+      "audio": [
+        "audio/phrases/stressful work day.wav"
+      ]
+    },
+    {
+      "id": "feel-bored-now",
+      "english": "feel bored now",
+      "translation": "чувствовать скуку",
+      "audio": [
+        "audio/phrases/feel bored now.wav"
+      ]
+    },
+    {
+      "id": "feel-interested-now",
+      "english": "feel interested now",
+      "translation": "чувствовать интерес",
+      "audio": [
+        "audio/phrases/feel interested now.wav"
+      ]
+    },
+    {
+      "id": "feel-comfortable-here",
+      "english": "feel comfortable here",
+      "translation": "чувствовать комфорт здесь",
+      "audio": [
+        "audio/phrases/feel comfortable here.wav"
+      ]
+    },
+    {
+      "id": "feel-uncomfortable-now",
+      "english": "feel uncomfortable now",
+      "translation": "чувствовать дискомфорт",
+      "audio": [
+        "audio/phrases/feel uncomfortable now.wav"
+      ]
+    },
+    {
+      "id": "feel-confident-today",
+      "english": "feel confident today",
+      "translation": "чувствовать уверенность",
+      "audio": [
+        "audio/phrases/feel confident today.wav"
+      ]
+    },
+    {
+      "id": "feel-confused-now",
+      "english": "feel confused now",
+      "translation": "чувствовать растерянность",
+      "audio": [
+        "audio/phrases/feel confused now.wav"
+      ]
+    },
+    {
+      "id": "look-surprised-now",
+      "english": "look surprised now",
+      "translation": "выглядеть удивлённым",
+      "audio": [
+        "audio/phrases/look surprised now.wav"
+      ]
+    },
+    {
+      "id": "feel-worried-today",
+      "english": "feel worried today",
+      "translation": "чувствовать беспокойство",
+      "audio": [
+        "audio/phrases/feel worried today.wav"
+      ]
+    },
+    {
+      "id": "feel-ready-now",
+      "english": "feel ready now",
+      "translation": "чувствовать готовность",
+      "audio": [
+        "audio/phrases/feel ready now.wav"
+      ]
+    },
+    {
+      "id": "feel-busy-today",
+      "english": "feel busy today",
+      "translation": "быть занятым сегодня",
+      "audio": [
+        "audio/phrases/feel busy today.wav"
+      ]
+    },
+    {
+      "id": "feel-free-now",
+      "english": "feel free now",
+      "translation": "чувствовать свободу",
+      "audio": [
+        "audio/phrases/feel free now.wav"
+      ]
+    }
+  ]
+}

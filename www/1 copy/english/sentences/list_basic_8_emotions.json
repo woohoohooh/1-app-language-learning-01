@@ -1,0 +1,239 @@
+{
+  "theme": "Эмоции и состояния",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "this-emotion-is-hard-to-describe.",
+      "english": "This emotion is hard to describe.",
+      "translation": "Эту эмоцию трудно описать.",
+      "audio": [
+        "audio/sentences/This emotion is hard to describe..wav"
+      ]
+    },
+    {
+      "id": "i-have-a-strange-feeling-about-it.",
+      "english": "I have a strange feeling about it.",
+      "translation": "У меня странное чувство по этому поводу.",
+      "audio": [
+        "audio/sentences/I have a strange feeling about it..wav"
+      ]
+    },
+    {
+      "id": "she-feels-happy-this-morning.",
+      "english": "She feels happy this morning.",
+      "translation": "Она чувствует себя счастливой этим утром.",
+      "audio": [
+        "audio/sentences/She feels happy this morning..wav"
+      ]
+    },
+    {
+      "id": "he-looks-sad-after-the-call.",
+      "english": "He looks sad after the call.",
+      "translation": "Он выглядит грустным после звонка.",
+      "audio": [
+        "audio/sentences/He looks sad after the call..wav"
+      ]
+    },
+    {
+      "id": "she-got-angry-during-the-discussion.",
+      "english": "She got angry during the discussion.",
+      "translation": "Она разозлилась во время обсуждения.",
+      "audio": [
+        "audio/sentences/She got angry during the discussion..wav"
+      ]
+    },
+    {
+      "id": "he-stayed-calm-in-that-moment.",
+      "english": "He stayed calm in that moment.",
+      "translation": "Он остался спокойным в тот момент.",
+      "audio": [
+        "audio/sentences/He stayed calm in that moment..wav"
+      ]
+    },
+    {
+      "id": "she-feels-excited-about-the-trip.",
+      "english": "She feels excited about the trip.",
+      "translation": "Она взволнована поездкой.",
+      "audio": [
+        "audio/sentences/She feels excited about the trip..wav"
+      ]
+    },
+    {
+      "id": "i-feel-tired-after-work.",
+      "english": "I feel tired after work.",
+      "translation": "Я чувствую себя уставшим после работы.",
+      "audio": [
+        "audio/sentences/I feel tired after work..wav"
+      ]
+    },
+    {
+      "id": "he-feels-relaxed-at-home.",
+      "english": "He feels relaxed at home.",
+      "translation": "Он чувствует себя расслабленно дома.",
+      "audio": [
+        "audio/sentences/He feels relaxed at home..wav"
+      ]
+    },
+    {
+      "id": "she-feels-nervous-before-meetings.",
+      "english": "She feels nervous before meetings.",
+      "translation": "Она нервничает перед встречами.",
+      "audio": [
+        "audio/sentences/She feels nervous before meetings..wav"
+      ]
+    },
+    {
+      "id": "the-child-looked-scared-in-the-dark.",
+      "english": "The child looked scared in the dark.",
+      "translation": "Ребёнок выглядел испуганным в темноте.",
+      "audio": [
+        "audio/sentences/The child looked scared in the dark..wav"
+      ]
+    },
+    {
+      "id": "she-is-afraid-of-silence.",
+      "english": "She is afraid of silence.",
+      "translation": "Она боится тишины.",
+      "audio": [
+        "audio/sentences/She is afraid of silence..wav"
+      ]
+    },
+    {
+      "id": "i-feel-good-this-evening.",
+      "english": "I feel good this evening.",
+      "translation": "Я чувствую себя хорошо этим вечером.",
+      "audio": [
+        "audio/sentences/I feel good this evening..wav"
+      ]
+    },
+    {
+      "id": "he-feels-bad-about-it.",
+      "english": "He feels bad about it.",
+      "translation": "Ему плохо из-за этого.",
+      "audio": [
+        "audio/sentences/He feels bad about it..wav"
+      ]
+    },
+    {
+      "id": "she-feels-fine-after-rest.",
+      "english": "She feels fine after rest.",
+      "translation": "Она чувствует себя нормально после отдыха.",
+      "audio": [
+        "audio/sentences/She feels fine after rest..wav"
+      ]
+    },
+    {
+      "id": "i-am-okay-with-that.",
+      "english": "I am okay with that.",
+      "translation": "Меня это устраивает.",
+      "audio": [
+        "audio/sentences/I am okay with that..wav"
+      ]
+    },
+    {
+      "id": "stress-affects-sleep-quality.",
+      "english": "Stress affects sleep quality.",
+      "translation": "Стресс влияет на качество сна.",
+      "audio": [
+        "audio/sentences/Stress affects sleep quality..wav"
+      ]
+    },
+    {
+      "id": "it-was-a-stressful-situation.",
+      "english": "It was a stressful situation.",
+      "translation": "Это была стрессовая ситуация.",
+      "audio": [
+        "audio/sentences/It was a stressful situation..wav"
+      ]
+    },
+    {
+      "id": "he-feels-bored-at-home.",
+      "english": "He feels bored at home.",
+      "translation": "Ему скучно дома.",
+      "audio": [
+        "audio/sentences/He feels bored at home..wav"
+      ]
+    },
+    {
+      "id": "she-is-interested-in-learning.",
+      "english": "She is interested in learning.",
+      "translation": "Она заинтересована в обучении.",
+      "audio": [
+        "audio/sentences/She is interested in learning..wav"
+      ]
+    },
+    {
+      "id": "i-feel-comfortable-in-this-place.",
+      "english": "I feel comfortable in this place.",
+      "translation": "Мне комфортно в этом месте.",
+      "audio": [
+        "audio/sentences/I feel comfortable in this place..wav"
+      ]
+    },
+    {
+      "id": "he-feels-uncomfortable-in-crowds.",
+      "english": "He feels uncomfortable in crowds.",
+      "translation": "Ему некомфортно в толпе.",
+      "audio": [
+        "audio/sentences/He feels uncomfortable in crowds..wav"
+      ]
+    },
+    {
+      "id": "she-feels-confident-about-her-choice.",
+      "english": "She feels confident about her choice.",
+      "translation": "Она уверена в своём выборе.",
+      "audio": [
+        "audio/sentences/She feels confident about her choice..wav"
+      ]
+    },
+    {
+      "id": "i-feel-confused-by-the-rules.",
+      "english": "I feel confused by the rules.",
+      "translation": "Я растерян из-за правил.",
+      "audio": [
+        "audio/sentences/I feel confused by the rules..wav"
+      ]
+    },
+    {
+      "id": "he-was-surprised-by-the-result.",
+      "english": "He was surprised by the result.",
+      "translation": "Он был удивлён результатом.",
+      "audio": [
+        "audio/sentences/He was surprised by the result..wav"
+      ]
+    },
+    {
+      "id": "she-feels-worried-about-time.",
+      "english": "She feels worried about time.",
+      "translation": "Она переживает из-за времени.",
+      "audio": [
+        "audio/sentences/She feels worried about time..wav"
+      ]
+    },
+    {
+      "id": "i-am-ready-to-start.",
+      "english": "I am ready to start.",
+      "translation": "Я готов начать.",
+      "audio": [
+        "audio/sentences/I am ready to start..wav"
+      ]
+    },
+    {
+      "id": "he-is-busy-this-afternoon.",
+      "english": "He is busy this afternoon.",
+      "translation": "Он занят сегодня днём.",
+      "audio": [
+        "audio/sentences/He is busy this afternoon..wav"
+      ]
+    },
+    {
+      "id": "i-am-free-after-lunch.",
+      "english": "I am free after lunch.",
+      "translation": "Я свободен после обеда.",
+      "audio": [
+        "audio/sentences/I am free after lunch..wav"
+      ]
+    }
+  ]
+}

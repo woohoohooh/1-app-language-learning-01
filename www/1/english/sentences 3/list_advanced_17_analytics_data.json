@@ -1,0 +1,187 @@
+{
+  "theme": "Аналитика и данные",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "data",
+      "translation": "данные"
+    },
+    {
+      "english": "analytics",
+      "translation": "аналитика"
+    },
+    {
+      "english": "dataset",
+      "translation": "набор данных"
+    },
+    {
+      "english": "database",
+      "translation": "база данных"
+    },
+    {
+      "english": "table",
+      "translation": "таблица"
+    },
+    {
+      "english": "record",
+      "translation": "запись"
+    },
+    {
+      "english": "field",
+      "translation": "поле"
+    },
+    {
+      "english": "column",
+      "translation": "столбец"
+    },
+    {
+      "english": "row",
+      "translation": "строка"
+    },
+    {
+      "english": "value",
+      "translation": "значение"
+    },
+    {
+      "english": "metric",
+      "translation": "метрика"
+    },
+    {
+      "english": "KPI",
+      "translation": "ключевой показатель"
+    },
+    {
+      "english": "indicator",
+      "translation": "показатель"
+    },
+    {
+      "english": "measurement",
+      "translation": "измерение"
+    },
+    {
+      "english": "benchmark",
+      "translation": "бенчмарк"
+    },
+    {
+      "english": "trend",
+      "translation": "тренд"
+    },
+    {
+      "english": "pattern",
+      "translation": "закономерность"
+    },
+    {
+      "english": "correlation",
+      "translation": "корреляция"
+    },
+    {
+      "english": "distribution",
+      "translation": "распределение"
+    },
+    {
+      "english": "variance",
+      "translation": "дисперсия"
+    },
+    {
+      "english": "average",
+      "translation": "среднее значение"
+    },
+    {
+      "english": "median",
+      "translation": "медиана"
+    },
+    {
+      "english": "outlier",
+      "translation": "выброс"
+    },
+    {
+      "english": "sample",
+      "translation": "выборка"
+    },
+    {
+      "english": "population",
+      "translation": "генеральная совокупность"
+    },
+    {
+      "english": "analysis",
+      "translation": "анализ"
+    },
+    {
+      "english": "insight",
+      "translation": "инсайт"
+    },
+    {
+      "english": "interpretation",
+      "translation": "интерпретация"
+    },
+    {
+      "english": "hypothesis",
+      "translation": "гипотеза"
+    },
+    {
+      "english": "validation",
+      "translation": "валидация"
+    },
+    {
+      "english": "dashboard",
+      "translation": "дашборд"
+    },
+    {
+      "english": "report",
+      "translation": "отчёт"
+    },
+    {
+      "english": "visualization",
+      "translation": "визуализация"
+    },
+    {
+      "english": "chart",
+      "translation": "график"
+    },
+    {
+      "english": "diagram",
+      "translation": "диаграмма"
+    },
+    {
+      "english": "query",
+      "translation": "запрос"
+    },
+    {
+      "english": "filter",
+      "translation": "фильтр"
+    },
+    {
+      "english": "aggregation",
+      "translation": "агрегация"
+    },
+    {
+      "english": "segmentation",
+      "translation": "сегментация"
+    },
+    {
+      "english": "pipeline",
+      "translation": "конвейер данных"
+    },
+    {
+      "english": "data quality",
+      "translation": "качество данных"
+    },
+    {
+      "english": "data source",
+      "translation": "источник данных"
+    },
+    {
+      "english": "raw data",
+      "translation": "сырые данные"
+    },
+    {
+      "english": "processed data",
+      "translation": "обработанные данные"
+    },
+    {
+      "english": "data integrity",
+      "translation": "целостность данных"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "levels": [
+    {
+      "id": "index001",
+      "file": "index001.html",
+      "next": "index002.html"
+    },
+    {
+      "id": "index002",
+      "file": "index002.html",
+      "next": "index003.html"
+    },
+    {
+      "id": "index003",
+      "file": "index003.html",
+      "next": "index004.html"
+    },
+    {
+      "id": "index004",
+      "file": "index004.html",
+      "next": "index005.html"
+    },
+    {
+      "id": "index005",
+      "file": "index005.html",
+      "next": "index006.html"
+    },
+    {
+      "id": "index006",
+      "file": "index006.html",
+      "next": "index007.html"
+    },
+    {
+      "id": "index007",
+      "file": "index007.html",
+      "next": "index008.html"
+    },
+    {
+      "id": "index008",
+      "file": "index008.html",
+      "next": "index009.html"
+    },
+    {
+      "id": "index009",
+      "file": "index009.html",
+      "next": "index010.html"
+    },
+    {
+      "id": "index010",
+      "file": "index010.html",
+      "next": "index011.html"
+    },
+    {
+      "id": "index011",
+      "file": "index011.html",
+      "next": "index012.html"
+    },
+    {
+      "id": "index012",
+      "file": "index012.html",
+      "next": "index013.html"
+    },
+    {
+      "id": "index013",
+      "file": "index013.html",
+      "next": "index014.html"
+    },
+    {
+      "id": "index014",
+      "file": "index014.html",
+      "next": "index015.html"
+    },
+    {
+      "id": "index015",
+      "file": "index015.html",
+      "next": "index016.html"
+    },
+    {
+      "id": "index016",
+      "file": "index016.html",
+      "next": "index017.html"
+    },
+    {
+      "id": "index017",
+      "file": "index017.html",
+      "next": "index018.html"
+    },
+    {
+      "id": "index018",
+      "file": "index018.html",
+      "next": "index019.html"
+    },
+    {
+      "id": "index019",
+      "file": "index019.html",
+      "next": "index020.html"
+    },
+    {
+      "id": "index020",
+      "file": "index020.html",
+      "next": ""
+    }
+  ]
+}

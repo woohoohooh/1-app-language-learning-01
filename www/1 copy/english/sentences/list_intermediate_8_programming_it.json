@@ -1,0 +1,327 @@
+{
+  "theme": "Программирование и IT",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "programming-helps-create-digital-solutions.",
+      "english": "Programming helps create digital solutions.",
+      "translation": "Программирование помогает создавать цифровые решения.",
+      "audio": [
+        "audio/sentences/Programming helps create digital solutions..wav"
+      ]
+    },
+    {
+      "id": "the-developer-fixes-complex-issues.",
+      "english": "The developer fixes complex issues.",
+      "translation": "Разработчик исправляет сложные проблемы.",
+      "audio": [
+        "audio/sentences/The developer fixes complex issues..wav"
+      ]
+    },
+    {
+      "id": "the-software-improves-system-stability.",
+      "english": "The software improves system stability.",
+      "translation": "Программное обеспечение повышает стабильность системы.",
+      "audio": [
+        "audio/sentences/The software improves system stability..wav"
+      ]
+    },
+    {
+      "id": "the-application-runs-on-multiple-devices.",
+      "english": "The application runs on multiple devices.",
+      "translation": "Приложение работает на разных устройствах.",
+      "audio": [
+        "audio/sentences/The application runs on multiple devices..wav"
+      ]
+    },
+    {
+      "id": "the-system-processes-data-quickly.",
+      "english": "The system processes data quickly.",
+      "translation": "Система быстро обрабатывает данные.",
+      "audio": [
+        "audio/sentences/The system processes data quickly..wav"
+      ]
+    },
+    {
+      "id": "good-code-makes-maintenance-easier.",
+      "english": "Good code makes maintenance easier.",
+      "translation": "Хороший код упрощает поддержку.",
+      "audio": [
+        "audio/sentences/Good code makes maintenance easier..wav"
+      ]
+    },
+    {
+      "id": "the-source-code-defines-all-program-logic.",
+      "english": "The source code defines all program logic.",
+      "translation": "Исходный код определяет всю логику программы.",
+      "audio": [
+        "audio/sentences/The source code defines all program logic..wav"
+      ]
+    },
+    {
+      "id": "the-function-returns-a-valid-result.",
+      "english": "The function returns a valid result.",
+      "translation": "Функция возвращает корректный результат.",
+      "audio": [
+        "audio/sentences/The function returns a valid result..wav"
+      ]
+    },
+    {
+      "id": "the-method-performs-an-internal-operation.",
+      "english": "The method performs an internal operation.",
+      "translation": "Метод выполняет внутреннюю операцию.",
+      "audio": [
+        "audio/sentences/The method performs an internal operation..wav"
+      ]
+    },
+    {
+      "id": "the-variable-stores-temporary-data.",
+      "english": "The variable stores temporary data.",
+      "translation": "Переменная хранит временные данные.",
+      "audio": [
+        "audio/sentences/The variable stores temporary data..wav"
+      ]
+    },
+    {
+      "id": "the-logic-controls-how-features-behave.",
+      "english": "The logic controls how features behave.",
+      "translation": "Логика определяет поведение функций.",
+      "audio": [
+        "audio/sentences/The logic controls how features behave..wav"
+      ]
+    },
+    {
+      "id": "the-algorithm-sorts-data-efficiently.",
+      "english": "The algorithm sorts data efficiently.",
+      "translation": "Алгоритм эффективно сортирует данные.",
+      "audio": [
+        "audio/sentences/The algorithm sorts data efficiently..wav"
+      ]
+    },
+    {
+      "id": "the-structure-organizes-information-clearly.",
+      "english": "The structure organizes information clearly.",
+      "translation": "Структура чётко организует информацию.",
+      "audio": [
+        "audio/sentences/The structure organizes information clearly..wav"
+      ]
+    },
+    {
+      "id": "data-helps-improve-system-decisions.",
+      "english": "Data helps improve system decisions.",
+      "translation": "Данные помогают улучшать решения системы.",
+      "audio": [
+        "audio/sentences/Data helps improve system decisions..wav"
+      ]
+    },
+    {
+      "id": "the-database-stores-all-records.",
+      "english": "The database stores all records.",
+      "translation": "База данных хранит все записи.",
+      "audio": [
+        "audio/sentences/The database stores all records..wav"
+      ]
+    },
+    {
+      "id": "the-server-handles-many-requests.",
+      "english": "The server handles many requests.",
+      "translation": "Сервер обрабатывает множество запросов.",
+      "audio": [
+        "audio/sentences/The server handles many requests..wav"
+      ]
+    },
+    {
+      "id": "the-client-sends-data-to-the-server.",
+      "english": "The client sends data to the server.",
+      "translation": "Клиент отправляет данные серверу.",
+      "audio": [
+        "audio/sentences/The client sends data to the server..wav"
+      ]
+    },
+    {
+      "id": "the-backend-manages-core-operations.",
+      "english": "The backend manages core operations.",
+      "translation": "Бэкенд управляет основными операциями.",
+      "audio": [
+        "audio/sentences/The backend manages core operations..wav"
+      ]
+    },
+    {
+      "id": "the-frontend-displays-interactive-elements.",
+      "english": "The frontend displays interactive elements.",
+      "translation": "Фронтенд отображает интерактивные элементы.",
+      "audio": [
+        "audio/sentences/The frontend displays interactive elements..wav"
+      ]
+    },
+    {
+      "id": "the-api-connects-different-services.",
+      "english": "The API connects different services.",
+      "translation": "API соединяет разные сервисы.",
+      "audio": [
+        "audio/sentences/The API connects different services..wav"
+      ]
+    },
+    {
+      "id": "the-request-returns-useful-data.",
+      "english": "The request returns useful data.",
+      "translation": "Запрос возвращает полезные данные.",
+      "audio": [
+        "audio/sentences/The request returns useful data..wav"
+      ]
+    },
+    {
+      "id": "the-system-gave-a-quick-response.",
+      "english": "The system gave a quick response.",
+      "translation": "Система дала быстрый ответ.",
+      "audio": [
+        "audio/sentences/The system gave a quick response..wav"
+      ]
+    },
+    {
+      "id": "integration-improves-workflow-efficiency.",
+      "english": "Integration improves workflow efficiency.",
+      "translation": "Интеграция повышает эффективность работы.",
+      "audio": [
+        "audio/sentences/Integration improves workflow efficiency..wav"
+      ]
+    },
+    {
+      "id": "deployment-happened-without-errors.",
+      "english": "Deployment happened without errors.",
+      "translation": "Развёртывание прошло без ошибок.",
+      "audio": [
+        "audio/sentences/Deployment happened without errors..wav"
+      ]
+    },
+    {
+      "id": "the-environment-is-stable-for-development.",
+      "english": "The environment is stable for development.",
+      "translation": "Окружение стабильно для разработки.",
+      "audio": [
+        "audio/sentences/The environment is stable for development..wav"
+      ]
+    },
+    {
+      "id": "the-framework-simplifies-coding-tasks.",
+      "english": "The framework simplifies coding tasks.",
+      "translation": "Фреймворк упрощает задачи кодирования.",
+      "audio": [
+        "audio/sentences/The framework simplifies coding tasks..wav"
+      ]
+    },
+    {
+      "id": "the-library-provides-useful-functions.",
+      "english": "The library provides useful functions.",
+      "translation": "Библиотека предоставляет полезные функции.",
+      "audio": [
+        "audio/sentences/The library provides useful functions..wav"
+      ]
+    },
+    {
+      "id": "the-dependency-caused-build-errors.",
+      "english": "The dependency caused build errors.",
+      "translation": "Зависимость вызвала ошибки сборки.",
+      "audio": [
+        "audio/sentences/The dependency caused build errors..wav"
+      ]
+    },
+    {
+      "id": "the-package-updates-automatically.",
+      "english": "The package updates automatically.",
+      "translation": "Пакет обновляется автоматически.",
+      "audio": [
+        "audio/sentences/The package updates automatically..wav"
+      ]
+    },
+    {
+      "id": "the-latest-version-is-installed.",
+      "english": "The latest version is installed.",
+      "translation": "Установлена последняя версия.",
+      "audio": [
+        "audio/sentences/The latest version is installed..wav"
+      ]
+    },
+    {
+      "id": "a-bug-slowed-down-the-system.",
+      "english": "A bug slowed down the system.",
+      "translation": "Баг замедлил работу системы.",
+      "audio": [
+        "audio/sentences/A bug slowed down the system..wav"
+      ]
+    },
+    {
+      "id": "the-issue-was-resolved-quickly.",
+      "english": "The issue was resolved quickly.",
+      "translation": "Проблема была быстро решена.",
+      "audio": [
+        "audio/sentences/The issue was resolved quickly..wav"
+      ]
+    },
+    {
+      "id": "the-fix-improved-performance.",
+      "english": "The fix improved performance.",
+      "translation": "Исправление улучшило производительность.",
+      "audio": [
+        "audio/sentences/The fix improved performance..wav"
+      ]
+    },
+    {
+      "id": "debugging-identified-multiple-errors.",
+      "english": "Debugging identified multiple errors.",
+      "translation": "Отладка выявила несколько ошибок.",
+      "audio": [
+        "audio/sentences/Debugging identified multiple errors..wav"
+      ]
+    },
+    {
+      "id": "testing-ensures-quality-software.",
+      "english": "Testing ensures quality software.",
+      "translation": "Тестирование обеспечивает качество ПО.",
+      "audio": [
+        "audio/sentences/Testing ensures quality software..wav"
+      ]
+    },
+    {
+      "id": "performance-has-improved-after-optimization.",
+      "english": "Performance has improved after optimization.",
+      "translation": "Производительность улучшилась после оптимизации.",
+      "audio": [
+        "audio/sentences/Performance has improved after optimization..wav"
+      ]
+    },
+    {
+      "id": "optimization-reduced-response-time.",
+      "english": "Optimization reduced response time.",
+      "translation": "Оптимизация сократила время отклика.",
+      "audio": [
+        "audio/sentences/Optimization reduced response time..wav"
+      ]
+    },
+    {
+      "id": "security-protocols-protect-sensitive-data.",
+      "english": "Security protocols protect sensitive data.",
+      "translation": "Протоколы безопасности защищают конфиденциальные данные.",
+      "audio": [
+        "audio/sentences/Security protocols protect sensitive data..wav"
+      ]
+    },
+    {
+      "id": "access-is-limited-to-administrators.",
+      "english": "Access is limited to administrators.",
+      "translation": "Доступ ограничен для администраторов.",
+      "audio": [
+        "audio/sentences/Access is limited to administrators..wav"
+      ]
+    },
+    {
+      "id": "permission-was-granted-by-the-manager.",
+      "english": "Permission was granted by the manager.",
+      "translation": "Разрешение было предоставлено менеджером.",
+      "audio": [
+        "audio/sentences/Permission was granted by the manager..wav"
+      ]
+    }
+  ]
+}

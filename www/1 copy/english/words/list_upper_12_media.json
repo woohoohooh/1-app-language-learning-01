@@ -1,0 +1,327 @@
+{
+  "theme": "Новости и медиа",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "news",
+      "english": "news",
+      "translation": "новости",
+      "audio": [
+        "audio/words/news.wav"
+      ]
+    },
+    {
+      "id": "media",
+      "english": "media",
+      "translation": "медиа",
+      "audio": [
+        "audio/words/media.wav"
+      ]
+    },
+    {
+      "id": "press",
+      "english": "press",
+      "translation": "пресса",
+      "audio": [
+        "audio/words/press.wav"
+      ]
+    },
+    {
+      "id": "journalism",
+      "english": "journalism",
+      "translation": "журналистика",
+      "audio": [
+        "audio/words/journalism.wav"
+      ]
+    },
+    {
+      "id": "headline",
+      "english": "headline",
+      "translation": "заголовок",
+      "audio": [
+        "audio/words/headline.wav"
+      ]
+    },
+    {
+      "id": "article",
+      "english": "article",
+      "translation": "статья",
+      "audio": [
+        "audio/words/article.wav"
+      ]
+    },
+    {
+      "id": "coverage",
+      "english": "coverage",
+      "translation": "освещение",
+      "audio": [
+        "audio/words/coverage.wav"
+      ]
+    },
+    {
+      "id": "broadcast",
+      "english": "broadcast",
+      "translation": "трансляция",
+      "audio": [
+        "audio/words/broadcast.wav"
+      ]
+    },
+    {
+      "id": "publication",
+      "english": "publication",
+      "translation": "публикация",
+      "audio": [
+        "audio/words/publication.wav"
+      ]
+    },
+    {
+      "id": "source",
+      "english": "source",
+      "translation": "источник",
+      "audio": [
+        "audio/words/source.wav"
+      ]
+    },
+    {
+      "id": "statement",
+      "english": "statement",
+      "translation": "заявление",
+      "audio": [
+        "audio/words/statement.wav"
+      ]
+    },
+    {
+      "id": "announcement",
+      "english": "announcement",
+      "translation": "объявление",
+      "audio": [
+        "audio/words/announcement.wav"
+      ]
+    },
+    {
+      "id": "update",
+      "english": "update",
+      "translation": "обновление",
+      "audio": [
+        "audio/words/update.wav"
+      ]
+    },
+    {
+      "id": "breaking-news",
+      "english": "breaking news",
+      "translation": "срочные новости",
+      "audio": [
+        "audio/words/breaking news.wav"
+      ]
+    },
+    {
+      "id": "interview",
+      "english": "interview",
+      "translation": "интервью",
+      "audio": [
+        "audio/words/interview.wav"
+      ]
+    },
+    {
+      "id": "commentary",
+      "english": "commentary",
+      "translation": "комментарий",
+      "audio": [
+        "audio/words/commentary.wav"
+      ]
+    },
+    {
+      "id": "analysis",
+      "english": "analysis",
+      "translation": "анализ",
+      "audio": [
+        "audio/words/analysis.wav"
+      ]
+    },
+    {
+      "id": "opinion",
+      "english": "opinion",
+      "translation": "мнение",
+      "audio": [
+        "audio/words/opinion.wav"
+      ]
+    },
+    {
+      "id": "editorial",
+      "english": "editorial",
+      "translation": "редакционная статья",
+      "audio": [
+        "audio/words/editorial.wav"
+      ]
+    },
+    {
+      "id": "fact",
+      "english": "fact",
+      "translation": "факт",
+      "audio": [
+        "audio/words/fact.wav"
+      ]
+    },
+    {
+      "id": "claim",
+      "english": "claim",
+      "translation": "утверждение",
+      "audio": [
+        "audio/words/claim.wav"
+      ]
+    },
+    {
+      "id": "evidence",
+      "english": "evidence",
+      "translation": "доказательство",
+      "audio": [
+        "audio/words/evidence.wav"
+      ]
+    },
+    {
+      "id": "context",
+      "english": "context",
+      "translation": "контекст",
+      "audio": [
+        "audio/words/context.wav"
+      ]
+    },
+    {
+      "id": "background",
+      "english": "background",
+      "translation": "предыстория",
+      "audio": [
+        "audio/words/background.wav"
+      ]
+    },
+    {
+      "id": "bias",
+      "english": "bias",
+      "translation": "предвзятость",
+      "audio": [
+        "audio/words/bias.wav"
+      ]
+    },
+    {
+      "id": "misinformation",
+      "english": "misinformation",
+      "translation": "дезинформация",
+      "audio": [
+        "audio/words/misinformation.wav"
+      ]
+    },
+    {
+      "id": "disinformation",
+      "english": "disinformation",
+      "translation": "умышленная дезинформация",
+      "audio": [
+        "audio/words/disinformation.wav"
+      ]
+    },
+    {
+      "id": "fake-news",
+      "english": "fake news",
+      "translation": "фейковые новости",
+      "audio": [
+        "audio/words/fake news.wav"
+      ]
+    },
+    {
+      "id": "trend",
+      "english": "trend",
+      "translation": "тренд",
+      "audio": [
+        "audio/words/trend.wav"
+      ]
+    },
+    {
+      "id": "public-opinion",
+      "english": "public opinion",
+      "translation": "общественное мнение",
+      "audio": [
+        "audio/words/public opinion.wav"
+      ]
+    },
+    {
+      "id": "audience",
+      "english": "audience",
+      "translation": "аудитория",
+      "audio": [
+        "audio/words/audience.wav"
+      ]
+    },
+    {
+      "id": "reach",
+      "english": "reach",
+      "translation": "охват",
+      "audio": [
+        "audio/words/reach.wav"
+      ]
+    },
+    {
+      "id": "engagement",
+      "english": "engagement",
+      "translation": "вовлечённость",
+      "audio": [
+        "audio/words/engagement.wav"
+      ]
+    },
+    {
+      "id": "platform",
+      "english": "platform",
+      "translation": "платформа",
+      "audio": [
+        "audio/words/platform.wav"
+      ]
+    },
+    {
+      "id": "social-media",
+      "english": "social media",
+      "translation": "социальные сети",
+      "audio": [
+        "audio/words/social media.wav"
+      ]
+    },
+    {
+      "id": "viral",
+      "english": "viral",
+      "translation": "вирусный",
+      "audio": [
+        "audio/words/viral.wav"
+      ]
+    },
+    {
+      "id": "feed",
+      "english": "feed",
+      "translation": "лента",
+      "audio": [
+        "audio/words/feed.wav"
+      ]
+    },
+    {
+      "id": "algorithm",
+      "english": "algorithm",
+      "translation": "алгоритм",
+      "audio": [
+        "audio/words/algorithm.wav"
+      ]
+    },
+    {
+      "id": "report",
+      "english": "report",
+      "translation": "отчёт",
+      "audio": [
+        "audio/words/report.wav"
+      ]
+    },
+    {
+      "id": "narrative",
+      "english": "narrative",
+      "translation": "нарратив",
+      "audio": [
+        "audio/words/narrative.wav"
+      ]
+    }
+  ]
+}

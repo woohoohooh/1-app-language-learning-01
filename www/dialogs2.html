@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Dialogues — English Learning</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --header-offset: 0.5cm;
+            --hint-offset: 2cm;
+            --primary-green: #4caf50;
+            --primary-orange: #ff9800;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            background: #121212;
+            color: #fff;
+            font-family: Nunito, Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        .background-gradient {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .gradient-overlay {
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            top: -50%;
+            left: -50%;
+            opacity: 0;
+            transition: opacity 0.15s;
+        }
+
+        .gradient-known {
+            background: radial-gradient(circle at center,
+                rgba(76,175,80,0) 0%,
+                rgba(76,175,80,0.12) 30%,
+                rgba(76,175,80,0.28) 60%,
+                rgba(76,175,80,0.45) 100%);
+        }
+
+        .gradient-review {
+            background: radial-gradient(circle at center,
+                rgba(255,152,0,0) 0%,
+                rgba(255,152,0,0.12) 30%,
+                rgba(255,152,0,0.28) 60%,
+                rgba(255,152,0,0.45) 100%);
+        }
+
+        /* Dialog Container */
+        .dialog-container {
+            position: relative;
+            z-index: 2;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-top: calc(72px + var(--header-offset));
+            padding-bottom: var(--hint-offset);
+            box-sizing: border-box;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none; /* Firefox */
+        }
+
+        .dialog-container::-webkit-scrollbar {
+            display: none; /* Chrome, Safari */
+        }
+
+        .dialog-line {
+            padding: 24px 20px;
+            margin: 0 auto;
+            max-width: 800px;
+            width: 100%;
+            box-sizing: border-box;
+            opacity: 0.5;
+            transition: opacity 0.3s ease;
+            cursor: pointer;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .dialog-line.active {
+            opacity: 1;
+        }
+
+        .dialog-line:hover {
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .speaker {
+            font-size: 16px;
+            font-weight: 700;
+            color: #aaa;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .speaker-role {
+            font-size: 12px;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .english-text {
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 1.5;
+            margin-bottom: 12px;
+            user-select: none;
+        }
+
+        .russian-text {
+            font-size: 18px;
+            color: var(--primary-green);
+            line-height: 1.5;
+            display: none;
+            font-weight: 500;
+        }
+
+        .dialog-line.show-translation .russian-text {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .audio-button {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            margin-left: auto;
+            flex-shrink: 0;
+            transition: all 0.2s ease;
+        }
+
+        .audio-button:hover {
+            background: rgba(255, 255, 255, 0.12);
+            transform: scale(1.05);
+        }
+
+        .audio-button:active {
+            transform: scale(0.95);
+        }
+
+        .audio-button::before {
+            content: '▶';
+            color: #fff;
+            font-size: 12px;
+            margin-left: 2px;
+        }
+
+        .audio-button.playing::before {
+            content: '⏸';
+        }
+
+        /* Header */
+        .top-area {
+            position: fixed;
+            top: calc(var(--header-offset) + env(safe-area-inset-top, 0px));
+            left: 0;
+            right: 0;
+            height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            background: rgba(18, 18, 18, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .top-inner {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+        }
+
+        .back-button {
+            width: 44px;
+            height: 44px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.02);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        .back-button::before {
+            content: '';
+            width: 10px;
+            height: 10px;
+            border-left: 2px solid #fff;
+            border-bottom: 2px solid #fff;
+            transform: translateY(1px) rotate(45deg);
+            display: block;
+        }
+
+        .section-title {
+            font-weight: 700;
+            text-align: center;
+            flex: 1;
+        }
+
+        .dialog-info {
+            color: #aaa;
+            font-size: 14px;
+            margin-top: 4px;
+        }
+
+        /* Progress and Navigation */
+        .progress-nav {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .progress {
+            color: #aaa;
+            font-weight: 400;
+            white-space: nowrap;
+        }
+
+        .nav-button {
+            width: 44px;
+            height: 44px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.02);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            font-size: 20px;
+            user-select: none;
+        }
+
+        .nav-button:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .nav-button:hover:not(:disabled) {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        /* Bottom Controls */
+        .bottom-controls {
+            position: fixed;
+            bottom: calc(var(--hint-offset) + env(safe-area-inset-bottom, 0px));
+            left: 0;
+            right: 0;
+            padding: 16px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            z-index: 10;
+            background: linear-gradient(to top, rgba(18, 18, 18, 0.95), transparent);
+        }
+
+        .control-button {
+            padding: 12px 24px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #fff;
+            font-family: Nunito, sans-serif;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .control-button:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-1px);
+        }
+
+        .control-button:active {
+            transform: translateY(0);
+        }
+
+        .control-button.green {
+            background: rgba(76, 175, 80, 0.15);
+            border-color: rgba(76, 175, 80, 0.3);
+        }
+
+        .control-button.green:hover {
+            background: rgba(76, 175, 80, 0.2);
+        }
+
+        .control-button.orange {
+            background: rgba(255, 152, 0, 0.15);
+            border-color: rgba(255, 152, 0, 0.3);
+        }
+
+        .control-button.orange:hover {
+            background: rgba(255, 152, 0, 0.2);
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Mobile optimizations */
+        @media (max-width: 768px) {
+            .dialog-line {
+                padding: 20px 16px;
+            }
+
+            .english-text {
+                font-size: 20px;
+            }
+
+            .russian-text {
+                font-size: 17px;
+            }
+
+            .control-button {
+                padding: 14px 20px;
+                font-size: 15px;
+                flex: 1;
+                text-align: center;
+            }
+
+            .bottom-controls {
+                padding: 16px;
+            }
+
+            .progress-nav {
+                gap: 8px;
+            }
+
+            .nav-button {
+                width: 40px;
+                height: 40px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .dialog-line {
+                padding: 18px 12px;
+            }
+
+            .english-text {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-gradient">
+        <div class="gradient-overlay gradient-known" id="gradient-known"></div>
+        <div class="gradient-overlay gradient-review" id="gradient-review"></div>
+    </div>
+
+    <div class="top-area">
+        <div class="top-inner">
+            <div class="back-button" id="back-button" title="Back"></div>
+            <div style="flex: 1;">
+                <div class="section-title" id="section-title">Loading dialogue...</div>
+                <div class="dialog-info" id="dialog-info"></div>
+            </div>
+            <div class="progress-nav">
+                <div class="nav-button" id="prev-dialog" title="Previous dialogue">←</div>
+                <div id="progress" class="progress">0/0</div>
+                <div class="nav-button" id="next-dialog" title="Next dialogue">→</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dialog-container" id="dialogContainer">
+        <!-- Dialogue lines will be inserted here -->
+    </div>
+
+    <div class="bottom-controls">
+        <button class="control-button green" id="mark-known">✓ Знаю диалог</button>
+        <button class="control-button orange" id="mark-review">↻ Повторить позже</button>
+        <button class="control-button" id="toggle-all">Показать все переводы</button>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const dialogId = urlParams.get('id') || 'dlg_0001';
+        const listId = urlParams.get('list') || 'dialogs.json';
+
+        const dialogContainer = document.getElementById('dialogContainer');
+        const sectionTitle = document.getElementById('section-title');
+        const dialogInfo = document.getElementById('dialog-info');
+        const progressEl = document.getElementById('progress');
+        const backButton = document.getElementById('back-button');
+        const prevDialogBtn = document.getElementById('prev-dialog');
+        const nextDialogBtn = document.getElementById('next-dialog');
+        const markKnownBtn = document.getElementById('mark-known');
+        const markReviewBtn = document.getElementById('mark-review');
+        const toggleAllBtn = document.getElementById('toggle-all');
+        const gradientKnown = document.getElementById('gradient-known');
+        const gradientReview = document.getElementById('gradient-review');
+
+        let allDialogs = [];
+        let currentDialogIndex = 0;
+        let currentDialog = null;
+        let currentAudio = null;
+        let isAllTranslationsVisible = false;
+
+        // Load dialogs list
+        async function loadDialogsList() {
+            try {
+                const response = await fetch(listId);
+                if (!response.ok) throw new Error('Failed to load dialogs list');
+                const data = await response.json();
+
+                if (data.items && Array.isArray(data.items)) {
+                    allDialogs = data.items;
+
+                    // Find current dialog by ID
+                    const initialIndex = allDialogs.findIndex(d => d.id === dialogId);
+                    currentDialogIndex = initialIndex >= 0 ? initialIndex : 0;
+
+                    await loadCurrentDialog();
+                } else {
+                    throw new Error('Invalid dialogs list format');
+                }
+            } catch (error) {
+                console.error('Error loading dialogs:', error);
+                sectionTitle.textContent = 'Error loading dialogues';
+            }
+        }
+
+        // Load current dialog data
+        async function loadCurrentDialog() {
+            if (allDialogs.length === 0) return;
+
+            currentDialog = allDialogs[currentDialogIndex];
+
+            try {
+                const response = await fetch(currentDialog.file);
+                if (!response.ok) throw new Error('Failed to load dialog data');
+                const dialogData = await response.json();
+
+                displayDialog(dialogData);
+                updateProgress();
+                updateNavigation();
+
+                // Update header
+                sectionTitle.textContent = dialogData.theme || 'Dialogue';
+                dialogInfo.textContent = `${dialogData.level || ''} • ${dialogData.dialogue?.length || 0} lines`;
+
+            } catch (error) {
+                console.error('Error loading dialog data:', error);
+                dialogContainer.innerHTML = '<div style="text-align:center; padding:40px; color:#aaa;">Error loading dialogue</div>';
+            }
+        }
+
+        // Display dialogue lines
+        function displayDialog(dialogData) {
+            dialogContainer.innerHTML = '';
+
+            if (!dialogData.dialogue || !Array.isArray(dialogData.dialogue)) {
+                dialogContainer.innerHTML = '<div style="text-align:center; padding:40px; color:#aaa;">No dialogue lines found</div>';
+                return;
+            }
+
+            dialogData.dialogue.forEach((line, index) => {
+                const lineDiv = document.createElement('div');
+                lineDiv.className = 'dialog-line';
+                lineDiv.dataset.index = index;
+
+                const speaker = dialogData.characters?.[line.speaker] || {};
+
+                lineDiv.innerHTML = `
+                    <div class="speaker">
+                        <span>${line.speaker}</span>
+                        ${speaker.role ? `<span class="speaker-role">${speaker.role}</span>` : ''}
+                        <div class="audio-button" data-audio="${line.en}" title="Play audio"></div>
+                    </div>
+                    <div class="english-text">${line.en}</div>
+                    <div class="russian-text">${line.ru || ''}</div>
+                `;
+
+                // Click to show/hide translation
+                lineDiv.addEventListener('click', (e) => {
+                    if (!e.target.closest('.audio-button')) {
+                        lineDiv.classList.toggle('show-translation');
+                    }
+                });
+
+                // Audio button
+                const audioBtn = lineDiv.querySelector('.audio-button');
+                audioBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    playLineAudio(line.en, audioBtn);
+                });
+
+                dialogContainer.appendChild(lineDiv);
+            });
+
+            // Set first line as active
+            const firstLine = dialogContainer.querySelector('.dialog-line');
+            if (firstLine) {
+                firstLine.classList.add('active');
+            }
+
+            // Scroll handling for active line
+            dialogContainer.addEventListener('scroll', updateActiveLine);
+            setTimeout(updateActiveLine, 100);
+        }
+
+        // Play audio for a specific line
+        function playLineAudio(text, button) {
+            // Stop current audio if playing
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                document.querySelectorAll('.audio-button.playing').forEach(btn => {
+                    btn.classList.remove('playing');
+                });
+            }
+
+            // In a real app, you would have actual audio files
+            // For now, we'll use the Web Speech API as a fallback
+            if ('speechSynthesis' in window) {
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'en-US';
+                utterance.rate = 0.9;
+                utterance.pitch = 1;
+
+                utterance.onstart = () => {
+                    button.classList.add('playing');
+                };
+
+                utterance.onend = utterance.onerror = () => {
+                    button.classList.remove('playing');
+                    currentAudio = null;
+                };
+
+                speechSynthesis.speak(utterance);
+                currentAudio = utterance;
+            } else {
+                // Fallback: just toggle button state
+                button.classList.toggle('playing');
+                setTimeout(() => button.classList.remove('playing'), 1000);
+            }
+        }
+
+        // Update which line is active based on scroll
+        function updateActiveLine() {
+            const lines = document.querySelectorAll('.dialog-line');
+            const containerRect = dialogContainer.getBoundingClientRect();
+            const containerTop = containerRect.top;
+
+            let activeIndex = 0;
+            let minDistance = Infinity;
+
+            lines.forEach((line, index) => {
+                const lineRect = line.getBoundingClientRect();
+                const distance = Math.abs(lineRect.top - containerTop - 100); // 100px from top
+
+                if (distance < minDistance) {
+                    minDistance = distance;
+                    activeIndex = index;
+                }
+
+                line.classList.remove('active');
+            });
+
+            if (lines[activeIndex]) {
+                lines[activeIndex].classList.add('active');
+            }
+        }
+
+        // Update progress display
+        function updateProgress() {
+            progressEl.textContent = `${currentDialogIndex + 1}/${allDialogs.length}`;
+        }
+
+        // Update navigation buttons
+        function updateNavigation() {
+            prevDialogBtn.disabled = currentDialogIndex === 0;
+            nextDialogBtn.disabled = currentDialogIndex === allDialogs.length - 1;
+        }
+
+        // Toggle all translations
+        function toggleAllTranslations() {
+            isAllTranslationsVisible = !isAllTranslationsVisible;
+            const lines = document.querySelectorAll('.dialog-line');
+
+            lines.forEach(line => {
+                if (isAllTranslationsVisible) {
+                    line.classList.add('show-translation');
+                } else {
+                    line.classList.remove('show-translation');
+                }
+            });
+
+            toggleAllBtn.textContent = isAllTranslationsVisible ?
+                'Скрыть все переводы' : 'Показать все переводы';
+        }
+
+        // Save dialog status (like in word review)
+        function saveDialogStatus(status) {
+            if (!currentDialog) return;
+
+            const key = `dialog_${currentDialog.id}`;
+            localStorage.setItem(key, status);
+
+            // Visual feedback
+            const gradient = status === 'known' ? gradientKnown : gradientReview;
+            gradient.style.opacity = '0.6';
+            setTimeout(() => {
+                gradient.style.opacity = '0';
+            }, 300);
+
+            // Navigate to next dialog
+            if (currentDialogIndex < allDialogs.length - 1) {
+                currentDialogIndex++;
+                loadCurrentDialog();
+                dialogContainer.scrollTop = 0;
+            } else {
+                // Last dialog - go back to index
+                window.location.href = 'index.html';
+            }
+        }
+
+        // Event Listeners
+        backButton.addEventListener('click', () => {
+            window.location.href = 'index.html';
+        });
+
+        prevDialogBtn.addEventListener('click', () => {
+            if (currentDialogIndex > 0) {
+                currentDialogIndex--;
+                loadCurrentDialog();
+                dialogContainer.scrollTop = 0;
+            }
+        });
+
+        nextDialogBtn.addEventListener('click', () => {
+            if (currentDialogIndex < allDialogs.length - 1) {
+                currentDialogIndex++;
+                loadCurrentDialog();
+                dialogContainer.scrollTop = 0;
+            }
+        });
+
+        markKnownBtn.addEventListener('click', () => {
+            saveDialogStatus('known');
+        });
+
+        markReviewBtn.addEventListener('click', () => {
+            saveDialogStatus('review');
+        });
+
+        toggleAllBtn.addEventListener('click', toggleAllTranslations);
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            switch(e.key) {
+                case 'ArrowLeft':
+                case 'a':
+                    if (currentDialogIndex > 0) {
+                        currentDialogIndex--;
+                        loadCurrentDialog();
+                        dialogContainer.scrollTop = 0;
+                    }
+                    break;
+                case 'ArrowRight':
+                case 'd':
+                    if (currentDialogIndex < allDialogs.length - 1) {
+                        currentDialogIndex++;
+                        loadCurrentDialog();
+                        dialogContainer.scrollTop = 0;
+                    }
+                    break;
+                case 'ArrowUp':
+                case 'w':
+                    dialogContainer.scrollBy({ top: -100, behavior: 'smooth' });
+                    break;
+                case 'ArrowDown':
+                case 's':
+                    dialogContainer.scrollBy({ top: 100, behavior: 'smooth' });
+                    break;
+                case ' ':
+                case 'Enter':
+                    e.preventDefault();
+                    // Toggle translation for active line
+                    const activeLine = document.querySelector('.dialog-line.active');
+                    if (activeLine) {
+                        activeLine.classList.toggle('show-translation');
+                    }
+                    break;
+                case 'k':
+                    saveDialogStatus('known');
+                    break;
+                case 'r':
+                    saveDialogStatus('review');
+                    break;
+                case 't':
+                    toggleAllTranslations();
+                    break;
+            }
+        });
+
+        // Edge swipe for back (mobile)
+        let touchStartX = null;
+        document.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+        }, { passive: true });
+
+        document.addEventListener('touchend', (e) => {
+            if (touchStartX === null) return;
+
+            const touchEndX = e.changedTouches[0].clientX;
+            const diff = touchStartX - touchEndX;
+
+            // Swipe from left edge to go back
+            if (touchStartX < 60 && diff > 50) {
+                window.location.href = 'index.html';
+            }
+
+            touchStartX = null;
+        }, { passive: true });
+
+        // Initialize
+        loadDialogsList();
+    </script>
+</body>
+</html>

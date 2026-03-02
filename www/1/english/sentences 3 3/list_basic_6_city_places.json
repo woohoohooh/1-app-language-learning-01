@@ -1,0 +1,287 @@
+{
+  "theme": "Город и места",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "city",
+      "english": "city",
+      "translation": "город",
+      "audio": [
+        "audio/words/city.wav"
+      ]
+    },
+    {
+      "id": "town",
+      "english": "town",
+      "translation": "городок",
+      "audio": [
+        "audio/words/town.wav"
+      ]
+    },
+    {
+      "id": "street",
+      "english": "street",
+      "translation": "улица",
+      "audio": [
+        "audio/words/street.wav"
+      ]
+    },
+    {
+      "id": "road",
+      "english": "road",
+      "translation": "дорога",
+      "audio": [
+        "audio/words/road.wav"
+      ]
+    },
+    {
+      "id": "square",
+      "english": "square",
+      "translation": "площадь",
+      "audio": [
+        "audio/words/square.wav"
+      ]
+    },
+    {
+      "id": "park",
+      "english": "park",
+      "translation": "парк",
+      "audio": [
+        "audio/words/park.wav"
+      ]
+    },
+    {
+      "id": "building",
+      "english": "building",
+      "translation": "здание",
+      "audio": [
+        "audio/words/building.wav"
+      ]
+    },
+    {
+      "id": "house",
+      "english": "house",
+      "translation": "дом",
+      "audio": [
+        "audio/words/house.wav"
+      ]
+    },
+    {
+      "id": "office",
+      "english": "office",
+      "translation": "офис",
+      "audio": [
+        "audio/words/office.wav"
+      ]
+    },
+    {
+      "id": "school",
+      "english": "school",
+      "translation": "школа",
+      "audio": [
+        "audio/words/school.wav"
+      ]
+    },
+    {
+      "id": "university",
+      "english": "university",
+      "translation": "университет",
+      "audio": [
+        "audio/words/university.wav"
+      ]
+    },
+    {
+      "id": "library",
+      "english": "library",
+      "translation": "библиотека",
+      "audio": [
+        "audio/words/library.wav"
+      ]
+    },
+    {
+      "id": "hospital",
+      "english": "hospital",
+      "translation": "больница",
+      "audio": [
+        "audio/words/hospital.wav"
+      ]
+    },
+    {
+      "id": "clinic",
+      "english": "clinic",
+      "translation": "клиника",
+      "audio": [
+        "audio/words/clinic.wav"
+      ]
+    },
+    {
+      "id": "pharmacy",
+      "english": "pharmacy",
+      "translation": "аптека",
+      "audio": [
+        "audio/words/pharmacy.wav"
+      ]
+    },
+    {
+      "id": "police",
+      "english": "police",
+      "translation": "полиция",
+      "audio": [
+        "audio/words/police.wav"
+      ]
+    },
+    {
+      "id": "bank",
+      "english": "bank",
+      "translation": "банк",
+      "audio": [
+        "audio/words/bank.wav"
+      ]
+    },
+    {
+      "id": "post-office",
+      "english": "post office",
+      "translation": "почта",
+      "audio": [
+        "audio/words/post office.wav"
+      ]
+    },
+    {
+      "id": "station",
+      "english": "station",
+      "translation": "станция",
+      "audio": [
+        "audio/words/station.wav"
+      ]
+    },
+    {
+      "id": "bus-stop",
+      "english": "bus stop",
+      "translation": "автобусная остановка",
+      "audio": [
+        "audio/words/bus stop.wav"
+      ]
+    },
+    {
+      "id": "subway",
+      "english": "subway",
+      "translation": "метро",
+      "audio": [
+        "audio/words/subway.wav"
+      ]
+    },
+    {
+      "id": "bridge",
+      "english": "bridge",
+      "translation": "мост",
+      "audio": [
+        "audio/words/bridge.wav"
+      ]
+    },
+    {
+      "id": "crossroad",
+      "english": "crossroad",
+      "translation": "перекрёсток",
+      "audio": [
+        "audio/words/crossroad.wav"
+      ]
+    },
+    {
+      "id": "hotel",
+      "english": "hotel",
+      "translation": "отель",
+      "audio": [
+        "audio/words/hotel.wav"
+      ]
+    },
+    {
+      "id": "hostel",
+      "english": "hostel",
+      "translation": "хостел",
+      "audio": [
+        "audio/words/hostel.wav"
+      ]
+    },
+    {
+      "id": "museum",
+      "english": "museum",
+      "translation": "музей",
+      "audio": [
+        "audio/words/museum.wav"
+      ]
+    },
+    {
+      "id": "theater",
+      "english": "theater",
+      "translation": "театр",
+      "audio": [
+        "audio/words/theater.wav"
+      ]
+    },
+    {
+      "id": "cinema",
+      "english": "cinema",
+      "translation": "кинотеатр",
+      "audio": [
+        "audio/words/cinema.wav"
+      ]
+    },
+    {
+      "id": "restaurant",
+      "english": "restaurant",
+      "translation": "ресторан",
+      "audio": [
+        "audio/words/restaurant.wav"
+      ]
+    },
+    {
+      "id": "cafe",
+      "english": "cafe",
+      "translation": "кафе",
+      "audio": [
+        "audio/words/cafe.wav"
+      ]
+    },
+    {
+      "id": "airport",
+      "english": "airport",
+      "translation": "аэропорт",
+      "audio": [
+        "audio/words/airport.wav"
+      ]
+    },
+    {
+      "id": "entrance",
+      "english": "entrance",
+      "translation": "вход",
+      "audio": [
+        "audio/words/entrance.wav"
+      ]
+    },
+    {
+      "id": "exit",
+      "english": "exit",
+      "translation": "выход",
+      "audio": [
+        "audio/words/exit.wav"
+      ]
+    },
+    {
+      "id": "center",
+      "english": "center",
+      "translation": "центр",
+      "audio": [
+        "audio/words/center.wav"
+      ]
+    },
+    {
+      "id": "area",
+      "english": "area",
+      "translation": "район",
+      "audio": [
+        "audio/words/area.wav"
+      ]
+    }
+  ]
+}

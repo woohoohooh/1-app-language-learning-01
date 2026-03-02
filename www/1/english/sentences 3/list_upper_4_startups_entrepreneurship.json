@@ -1,0 +1,187 @@
+{
+  "theme": "Предпринимательство",
+  "level": "Upper-Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "startup",
+      "translation": "стартап"
+    },
+    {
+      "english": "founder",
+      "translation": "основатель"
+    },
+    {
+      "english": "co-founder",
+      "translation": "сооснователь"
+    },
+    {
+      "english": "entrepreneur",
+      "translation": "предприниматель"
+    },
+    {
+      "english": "vision",
+      "translation": "видение"
+    },
+    {
+      "english": "idea",
+      "translation": "идея"
+    },
+    {
+      "english": "concept",
+      "translation": "концепция"
+    },
+    {
+      "english": "problem",
+      "translation": "проблема"
+    },
+    {
+      "english": "solution",
+      "translation": "решение"
+    },
+    {
+      "english": "value",
+      "translation": "ценность"
+    },
+    {
+      "english": "market",
+      "translation": "рынок"
+    },
+    {
+      "english": "niche",
+      "translation": "ниша"
+    },
+    {
+      "english": "demand",
+      "translation": "спрос"
+    },
+    {
+      "english": "competition",
+      "translation": "конкуренция"
+    },
+    {
+      "english": "advantage",
+      "translation": "преимущество"
+    },
+    {
+      "english": "product",
+      "translation": "продукт"
+    },
+    {
+      "english": "service",
+      "translation": "сервис"
+    },
+    {
+      "english": "platform",
+      "translation": "платформа"
+    },
+    {
+      "english": "feature",
+      "translation": "функция"
+    },
+    {
+      "english": "roadmap",
+      "translation": "дорожная карта"
+    },
+    {
+      "english": "launch",
+      "translation": "запуск"
+    },
+    {
+      "english": "growth",
+      "translation": "рост"
+    },
+    {
+      "english": "scaling",
+      "translation": "масштабирование"
+    },
+    {
+      "english": "pivot",
+      "translation": "смена стратегии"
+    },
+    {
+      "english": "revenue",
+      "translation": "выручка"
+    },
+    {
+      "english": "profit",
+      "translation": "прибыль"
+    },
+    {
+      "english": "pricing",
+      "translation": "ценообразование"
+    },
+    {
+      "english": "monetization",
+      "translation": "монетизация"
+    },
+    {
+      "english": "subscription",
+      "translation": "подписка"
+    },
+    {
+      "english": "investment",
+      "translation": "инвестиции"
+    },
+    {
+      "english": "investor",
+      "translation": "инвестор"
+    },
+    {
+      "english": "funding",
+      "translation": "финансирование"
+    },
+    {
+      "english": "valuation",
+      "translation": "оценка компании"
+    },
+    {
+      "english": "equity",
+      "translation": "доля"
+    },
+    {
+      "english": "pitch",
+      "translation": "питч"
+    },
+    {
+      "english": "deck",
+      "translation": "презентация"
+    },
+    {
+      "english": "metrics",
+      "translation": "метрики"
+    },
+    {
+      "english": "KPIs",
+      "translation": "ключевые показатели"
+    },
+    {
+      "english": "feedback",
+      "translation": "обратная связь"
+    },
+    {
+      "english": "risk",
+      "translation": "риск"
+    },
+    {
+      "english": "failure",
+      "translation": "провал"
+    },
+    {
+      "english": "opportunity",
+      "translation": "возможность"
+    },
+    {
+      "english": "decision",
+      "translation": "решение"
+    },
+    {
+      "english": "strategy",
+      "translation": "стратегия"
+    },
+    {
+      "english": "traction",
+      "translation": "рост интереса"
+    }
+  ]
+}

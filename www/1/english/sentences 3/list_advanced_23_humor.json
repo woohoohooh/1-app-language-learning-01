@@ -1,0 +1,131 @@
+{
+  "theme": "Юмор в общении",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "humor",
+      "translation": "юмор"
+    },
+    {
+      "english": "joke",
+      "translation": "шутка"
+    },
+    {
+      "english": "wit",
+      "translation": "остроумие"
+    },
+    {
+      "english": "wittiness",
+      "translation": "остроумность"
+    },
+    {
+      "english": "playfulness",
+      "translation": "игривость"
+    },
+    {
+      "english": "sarcasm",
+      "translation": "сарказм"
+    },
+    {
+      "english": "irony",
+      "translation": "ирония"
+    },
+    {
+      "english": "mockery",
+      "translation": "насмешка"
+    },
+    {
+      "english": "teasing",
+      "translation": "поддразнивание"
+    },
+    {
+      "english": "banter",
+      "translation": "шутливый обмен репликами"
+    },
+    {
+      "english": "exaggeration",
+      "translation": "преувеличение"
+    },
+    {
+      "english": "absurdity",
+      "translation": "абсурд"
+    },
+    {
+      "english": "nonsense",
+      "translation": "нелепица"
+    },
+    {
+      "english": "parody",
+      "translation": "пародия"
+    },
+    {
+      "english": "satire",
+      "translation": "сатира"
+    },
+    {
+      "english": "self-irony",
+      "translation": "самоирония"
+    },
+    {
+      "english": "self-mockery",
+      "translation": "самоирония"
+    },
+    {
+      "english": "understatement",
+      "translation": "уменьшение, недосказанность"
+    },
+    {
+      "english": "overstatement",
+      "translation": "гипербола"
+    },
+    {
+      "english": "delivery",
+      "translation": "подача"
+    },
+    {
+      "english": "timing",
+      "translation": "чувство момента"
+    },
+    {
+      "english": "tone",
+      "translation": "тон"
+    },
+    {
+      "english": "expression",
+      "translation": "выражение"
+    },
+    {
+      "english": "awkwardness",
+      "translation": "неловкость"
+    },
+    {
+      "english": "offense",
+      "translation": "оскорбление"
+    },
+    {
+      "english": "misinterpretation",
+      "translation": "неверное понимание"
+    },
+    {
+      "english": "sensitivity",
+      "translation": "чувствительность"
+    },
+    {
+      "english": "deadpan",
+      "translation": "сухая подача"
+    },
+    {
+      "english": "lightheartedness",
+      "translation": "лёгкость"
+    },
+    {
+      "english": "amusement",
+      "translation": "веселье"
+    },
+    {
+      "english": "entertainment",
+      "translation": "развлечение"
+    }
+  ]
+}

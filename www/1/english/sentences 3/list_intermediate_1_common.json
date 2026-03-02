@@ -1,0 +1,187 @@
+{
+  "theme": "Частые слова",
+  "level": "Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "manage",
+      "translation": "управлять"
+    },
+    {
+      "english": "improve",
+      "translation": "улучшать"
+    },
+    {
+      "english": "increase",
+      "translation": "увеличивать"
+    },
+    {
+      "english": "reduce",
+      "translation": "уменьшать"
+    },
+    {
+      "english": "affect",
+      "translation": "влиять"
+    },
+    {
+      "english": "depend",
+      "translation": "зависеть"
+    },
+    {
+      "english": "support",
+      "translation": "поддерживать"
+    },
+    {
+      "english": "require",
+      "translation": "требовать"
+    },
+    {
+      "english": "expect",
+      "translation": "ожидать"
+    },
+    {
+      "english": "avoid",
+      "translation": "избегать"
+    },
+    {
+      "english": "suggest",
+      "translation": "предлагать"
+    },
+    {
+      "english": "decide",
+      "translation": "решать"
+    },
+    {
+      "english": "allow",
+      "translation": "разрешать"
+    },
+    {
+      "english": "prevent",
+      "translation": "предотвращать"
+    },
+    {
+      "english": "consider",
+      "translation": "рассматривать"
+    },
+    {
+      "english": "reason",
+      "translation": "причина"
+    },
+    {
+      "english": "result",
+      "translation": "результат"
+    },
+    {
+      "english": "purpose",
+      "translation": "цель"
+    },
+    {
+      "english": "choice",
+      "translation": "выбор"
+    },
+    {
+      "english": "opportunity",
+      "translation": "возможность"
+    },
+    {
+      "english": "challenge",
+      "translation": "вызов"
+    },
+    {
+      "english": "experience",
+      "translation": "опыт"
+    },
+    {
+      "english": "risk",
+      "translation": "риск"
+    },
+    {
+      "english": "benefit",
+      "translation": "польза"
+    },
+    {
+      "english": "impact",
+      "translation": "влияние"
+    },
+    {
+      "english": "issue",
+      "translation": "проблема"
+    },
+    {
+      "english": "solution",
+      "translation": "решение"
+    },
+    {
+      "english": "process",
+      "translation": "процесс"
+    },
+    {
+      "english": "progress",
+      "translation": "прогресс"
+    },
+    {
+      "english": "result",
+      "translation": "итог"
+    },
+    {
+      "english": "available",
+      "translation": "доступный"
+    },
+    {
+      "english": "common",
+      "translation": "доступный"
+    },
+    {
+      "english": "general",
+      "translation": "общий"
+    },
+    {
+      "english": "specific",
+      "translation": "конкретный"
+    },
+    {
+      "english": "similar",
+      "translation": "похожий"
+    },
+    {
+      "english": "likely",
+      "translation": "вероятный"
+    },
+    {
+      "english": "possible",
+      "translation": "возможный"
+    },
+    {
+      "english": "effective",
+      "translation": "эффективный"
+    },
+    {
+      "english": "efficient",
+      "translation": "результативный"
+    },
+    {
+      "english": "important",
+      "translation": "важный"
+    },
+    {
+      "english": "recently",
+      "translation": "недавно"
+    },
+    {
+      "english": "currently",
+      "translation": "в настоящее время"
+    },
+    {
+      "english": "especially",
+      "translation": "особенно"
+    },
+    {
+      "english": "eventually",
+      "translation": "в конечном итоге"
+    },
+    {
+      "english": "approximately",
+      "translation": "примерно"
+    }
+  ]
+}

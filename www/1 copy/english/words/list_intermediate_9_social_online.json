@@ -1,0 +1,287 @@
+{
+  "theme": "Социальные сети",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "social-media",
+      "english": "social media",
+      "translation": "социальные сети",
+      "audio": [
+        "audio/words/social media.wav"
+      ]
+    },
+    {
+      "id": "platform",
+      "english": "platform",
+      "translation": "платформа",
+      "audio": [
+        "audio/words/platform.wav"
+      ]
+    },
+    {
+      "id": "profile",
+      "english": "profile",
+      "translation": "профиль",
+      "audio": [
+        "audio/words/profile.wav"
+      ]
+    },
+    {
+      "id": "account",
+      "english": "account",
+      "translation": "аккаунт",
+      "audio": [
+        "audio/words/account.wav"
+      ]
+    },
+    {
+      "id": "username",
+      "english": "username",
+      "translation": "имя пользователя",
+      "audio": [
+        "audio/words/username.wav"
+      ]
+    },
+    {
+      "id": "story",
+      "english": "story",
+      "translation": "история",
+      "audio": [
+        "audio/words/story.wav"
+      ]
+    },
+    {
+      "id": "feed",
+      "english": "feed",
+      "translation": "лента",
+      "audio": [
+        "audio/words/feed.wav"
+      ]
+    },
+    {
+      "id": "content",
+      "english": "content",
+      "translation": "контент",
+      "audio": [
+        "audio/words/content.wav"
+      ]
+    },
+    {
+      "id": "upload",
+      "english": "upload",
+      "translation": "загружать",
+      "audio": [
+        "audio/words/upload.wav"
+      ]
+    },
+    {
+      "id": "comment",
+      "english": "comment",
+      "translation": "комментарий",
+      "audio": [
+        "audio/words/comment.wav"
+      ]
+    },
+    {
+      "id": "reply",
+      "english": "reply",
+      "translation": "ответ",
+      "audio": [
+        "audio/words/reply.wav"
+      ]
+    },
+    {
+      "id": "message",
+      "english": "message",
+      "translation": "сообщение",
+      "audio": [
+        "audio/words/message.wav"
+      ]
+    },
+    {
+      "id": "chat",
+      "english": "chat",
+      "translation": "чат",
+      "audio": [
+        "audio/words/chat.wav"
+      ]
+    },
+    {
+      "id": "notification",
+      "english": "notification",
+      "translation": "уведомление",
+      "audio": [
+        "audio/words/notification.wav"
+      ]
+    },
+    {
+      "id": "like",
+      "english": "like",
+      "translation": "лайк",
+      "audio": [
+        "audio/words/like.wav"
+      ]
+    },
+    {
+      "id": "reaction",
+      "english": "reaction",
+      "translation": "реакция",
+      "audio": [
+        "audio/words/reaction.wav"
+      ]
+    },
+    {
+      "id": "post",
+      "english": "post",
+      "translation": "пост",
+      "audio": [
+        "audio/words/post.wav"
+      ]
+    },
+    {
+      "id": "share",
+      "english": "share",
+      "translation": "делиться",
+      "audio": [
+        "audio/words/share.wav"
+      ]
+    },
+    {
+      "id": "report",
+      "english": "report",
+      "translation": "жалоба",
+      "audio": [
+        "audio/words/report.wav"
+      ]
+    },
+    {
+      "id": "repost",
+      "english": "repost",
+      "translation": "репост",
+      "audio": [
+        "audio/words/repost.wav"
+      ]
+    },
+    {
+      "id": "save",
+      "english": "save",
+      "translation": "сохранять",
+      "audio": [
+        "audio/words/save.wav"
+      ]
+    },
+    {
+      "id": "follower",
+      "english": "follower",
+      "translation": "подписчик",
+      "audio": [
+        "audio/words/follower.wav"
+      ]
+    },
+    {
+      "id": "following",
+      "english": "following",
+      "translation": "подписки",
+      "audio": [
+        "audio/words/following.wav"
+      ]
+    },
+    {
+      "id": "subscribe",
+      "english": "subscribe",
+      "translation": "подписываться",
+      "audio": [
+        "audio/words/subscribe.wav"
+      ]
+    },
+    {
+      "id": "unsubscribe",
+      "english": "unsubscribe",
+      "translation": "отписываться",
+      "audio": [
+        "audio/words/unsubscribe.wav"
+      ]
+    },
+    {
+      "id": "block",
+      "english": "block",
+      "translation": "блокировать",
+      "audio": [
+        "audio/words/block.wav"
+      ]
+    },
+    {
+      "id": "online",
+      "english": "online",
+      "translation": "в сети",
+      "audio": [
+        "audio/words/online.wav"
+      ]
+    },
+    {
+      "id": "offline",
+      "english": "offline",
+      "translation": "не в сети",
+      "audio": [
+        "audio/words/offline.wav"
+      ]
+    },
+    {
+      "id": "status",
+      "english": "status",
+      "translation": "статус",
+      "audio": [
+        "audio/words/status.wav"
+      ]
+    },
+    {
+      "id": "privacy",
+      "english": "privacy",
+      "translation": "приватность",
+      "audio": [
+        "audio/words/privacy.wav"
+      ]
+    },
+    {
+      "id": "settings",
+      "english": "settings",
+      "translation": "настройки",
+      "audio": [
+        "audio/words/settings.wav"
+      ]
+    },
+    {
+      "id": "trend",
+      "english": "trend",
+      "translation": "тренд",
+      "audio": [
+        "audio/words/trend.wav"
+      ]
+    },
+    {
+      "id": "viral",
+      "english": "viral",
+      "translation": "вирусный",
+      "audio": [
+        "audio/words/viral.wav"
+      ]
+    },
+    {
+      "id": "community",
+      "english": "community",
+      "translation": "сообщество",
+      "audio": [
+        "audio/words/community.wav"
+      ]
+    },
+    {
+      "id": "moderation",
+      "english": "moderation",
+      "translation": "модерация",
+      "audio": [
+        "audio/words/moderation.wav"
+      ]
+    }
+  ]
+}

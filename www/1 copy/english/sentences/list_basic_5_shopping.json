@@ -1,0 +1,295 @@
+{
+  "theme": "Покупки и магазины",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-shop-opens-early.",
+      "english": "The shop opens early.",
+      "translation": "Магазин открывается рано.",
+      "audio": [
+        "audio/sentences/The shop opens early..wav"
+      ]
+    },
+    {
+      "id": "this-store-sells-clothes.",
+      "english": "This store sells clothes.",
+      "translation": "Этот магазин продаёт одежду.",
+      "audio": [
+        "audio/sentences/This store sells clothes..wav"
+      ]
+    },
+    {
+      "id": "the-market-is-crowded.",
+      "english": "The market is crowded.",
+      "translation": "Рынок переполнен.",
+      "audio": [
+        "audio/sentences/The market is crowded..wav"
+      ]
+    },
+    {
+      "id": "they-met-at-the-mall.",
+      "english": "They met at the mall.",
+      "translation": "Они встретились в торговом центре.",
+      "audio": [
+        "audio/sentences/They met at the mall..wav"
+      ]
+    },
+    {
+      "id": "the-supermarket-is-open.",
+      "english": "The supermarket is open.",
+      "translation": "Супермаркет открыт.",
+      "audio": [
+        "audio/sentences/The supermarket is open..wav"
+      ]
+    },
+    {
+      "id": "i-want-to-buy-this.",
+      "english": "I want to buy this.",
+      "translation": "Я хочу купить это.",
+      "audio": [
+        "audio/sentences/I want to buy this..wav"
+      ]
+    },
+    {
+      "id": "they-sell-fresh-fruit.",
+      "english": "They sell fresh fruit.",
+      "translation": "Они продают свежие фрукты.",
+      "audio": [
+        "audio/sentences/They sell fresh fruit..wav"
+      ]
+    },
+    {
+      "id": "i-will-pay-later.",
+      "english": "I will pay later.",
+      "translation": "Я заплачу позже.",
+      "audio": [
+        "audio/sentences/I will pay later..wav"
+      ]
+    },
+    {
+      "id": "she-ordered-a-dress.",
+      "english": "She ordered a dress.",
+      "translation": "Она заказала платье.",
+      "audio": [
+        "audio/sentences/She ordered a dress..wav"
+      ]
+    },
+    {
+      "id": "please-choose-one-item.",
+      "english": "Please choose one item.",
+      "translation": "Пожалуйста, выбери один товар.",
+      "audio": [
+        "audio/sentences/Please choose one item..wav"
+      ]
+    },
+    {
+      "id": "the-price-seems-fair.",
+      "english": "The price seems fair.",
+      "translation": "Цена кажется справедливой.",
+      "audio": [
+        "audio/sentences/The price seems fair..wav"
+      ]
+    },
+    {
+      "id": "the-cost-increased.",
+      "english": "The cost increased.",
+      "translation": "Стоимость выросла.",
+      "audio": [
+        "audio/sentences/The cost increased..wav"
+      ]
+    },
+    {
+      "id": "this-option-is-cheap.",
+      "english": "This option is cheap.",
+      "translation": "Этот вариант дешёвый.",
+      "audio": [
+        "audio/sentences/This option is cheap..wav"
+      ]
+    },
+    {
+      "id": "the-watch-is-expensive.",
+      "english": "The watch is expensive.",
+      "translation": "Часы дорогие.",
+      "audio": [
+        "audio/sentences/The watch is expensive..wav"
+      ]
+    },
+    {
+      "id": "they-offer-a-discount.",
+      "english": "They offer a discount.",
+      "translation": "Они предлагают скидку.",
+      "audio": [
+        "audio/sentences/They offer a discount..wav"
+      ]
+    },
+    {
+      "id": "the-sale-starts-today.",
+      "english": "The sale starts today.",
+      "translation": "Распродажа начинается сегодня.",
+      "audio": [
+        "audio/sentences/The sale starts today..wav"
+      ]
+    },
+    {
+      "id": "he-paid-in-cash.",
+      "english": "He paid in cash.",
+      "translation": "Он заплатил наличными.",
+      "audio": [
+        "audio/sentences/He paid in cash..wav"
+      ]
+    },
+    {
+      "id": "i-used-my-card.",
+      "english": "I used my card.",
+      "translation": "Я воспользовался картой.",
+      "audio": [
+        "audio/sentences/I used my card..wav"
+      ]
+    },
+    {
+      "id": "i-always-keep-the-receipt.",
+      "english": "I always keep the receipt.",
+      "translation": "Я всегда сохраняю чек.",
+      "audio": [
+        "audio/sentences/I always keep the receipt..wav"
+      ]
+    },
+    {
+      "id": "she-gave-me-the-correct-change.",
+      "english": "She gave me the correct change.",
+      "translation": "Она дала мне правильную сдачу.",
+      "audio": [
+        "audio/sentences/She gave me the correct change..wav"
+      ]
+    },
+    {
+      "id": "the-customer-asked-for-help.",
+      "english": "The customer asked for help.",
+      "translation": "Покупатель попросил помощи.",
+      "audio": [
+        "audio/sentences/The customer asked for help..wav"
+      ]
+    },
+    {
+      "id": "the-seller-answered-politely.",
+      "english": "The seller answered politely.",
+      "translation": "Продавец вежливо ответил.",
+      "audio": [
+        "audio/sentences/The seller answered politely..wav"
+      ]
+    },
+    {
+      "id": "the-cashier-scanned-the-items.",
+      "english": "The cashier scanned the items.",
+      "translation": "Кассир пробил товары.",
+      "audio": [
+        "audio/sentences/The cashier scanned the items..wav"
+      ]
+    },
+    {
+      "id": "this-product-sells-well.",
+      "english": "This product sells well.",
+      "translation": "Этот товар хорошо продаётся.",
+      "audio": [
+        "audio/sentences/This product sells well..wav"
+      ]
+    },
+    {
+      "id": "i-trust-this-brand.",
+      "english": "I trust this brand.",
+      "translation": "Я доверяю этому бренду.",
+      "audio": [
+        "audio/sentences/I trust this brand..wav"
+      ]
+    },
+    {
+      "id": "this-size-fits-me.",
+      "english": "This size fits me.",
+      "translation": "Этот размер мне подходит.",
+      "audio": [
+        "audio/sentences/This size fits me..wav"
+      ]
+    },
+    {
+      "id": "the-color-looks-nice.",
+      "english": "The color looks nice.",
+      "translation": "Цвет выглядит красиво.",
+      "audio": [
+        "audio/sentences/The color looks nice..wav"
+      ]
+    },
+    {
+      "id": "the-cart-is-almost-full.",
+      "english": "The cart is almost full.",
+      "translation": "Тележка почти полная.",
+      "audio": [
+        "audio/sentences/The cart is almost full..wav"
+      ]
+    },
+    {
+      "id": "i-grabbed-a-basket.",
+      "english": "I grabbed a basket.",
+      "translation": "Я взял корзину.",
+      "audio": [
+        "audio/sentences/I grabbed a basket..wav"
+      ]
+    },
+    {
+      "id": "the-shop-is-open-now.",
+      "english": "The shop is open now.",
+      "translation": "Магазин сейчас открыт.",
+      "audio": [
+        "audio/sentences/The shop is open now..wav"
+      ]
+    },
+    {
+      "id": "the-store-is-closed-today.",
+      "english": "The store is closed today.",
+      "translation": "Магазин сегодня закрыт.",
+      "audio": [
+        "audio/sentences/The store is closed today..wav"
+      ]
+    },
+    {
+      "id": "i-ordered-it-online.",
+      "english": "I ordered it online.",
+      "translation": "Я заказал это онлайн.",
+      "audio": [
+        "audio/sentences/I ordered it online..wav"
+      ]
+    },
+    {
+      "id": "the-delivery-arrived-today.",
+      "english": "The delivery arrived today.",
+      "translation": "Доставка пришла сегодня.",
+      "audio": [
+        "audio/sentences/The delivery arrived today..wav"
+      ]
+    },
+    {
+      "id": "they-accepted-the-return.",
+      "english": "They accepted the return.",
+      "translation": "Они приняли возврат.",
+      "audio": [
+        "audio/sentences/They accepted the return..wav"
+      ]
+    },
+    {
+      "id": "each-item-has-a-label.",
+      "english": "Each item has a label.",
+      "translation": "У каждого товара есть ярлык.",
+      "audio": [
+        "audio/sentences/Each item has a label..wav"
+      ]
+    },
+    {
+      "id": "she-carried-a-shopping-bag.",
+      "english": "She carried a shopping bag.",
+      "translation": "Она несла пакет с покупками.",
+      "audio": [
+        "audio/sentences/She carried a shopping bag..wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "theme": "Эмоциональные оттенки речи",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "strong-emotion",
+      "english": "strong emotion",
+      "translation": "сильная эмоция",
+      "audio": [
+        "audio/phrases/strong emotion.wav"
+      ]
+    },
+    {
+      "id": "high-emotionality",
+      "english": "high emotionality",
+      "translation": "высокая эмоциональность",
+      "audio": [
+        "audio/phrases/high emotionality.wav"
+      ]
+    },
+    {
+      "id": "calm-tone",
+      "english": "calm tone",
+      "translation": "спокойный тон",
+      "audio": [
+        "audio/phrases/calm tone.wav"
+      ]
+    },
+    {
+      "id": "subtle-undertone",
+      "english": "subtle undertone",
+      "translation": "тонкий подтекст",
+      "audio": [
+        "audio/phrases/subtle undertone.wav"
+      ]
+    },
+    {
+      "id": "important-nuance",
+      "english": "important nuance",
+      "translation": "важный нюанс",
+      "audio": [
+        "audio/phrases/important nuance.wav"
+      ]
+    },
+    {
+      "id": "positive-attitude",
+      "english": "positive attitude",
+      "translation": "позитивное отношение",
+      "audio": [
+        "audio/phrases/positive attitude.wav"
+      ]
+    },
+    {
+      "id": "good-mood",
+      "english": "good mood",
+      "translation": "хорошее настроение",
+      "audio": [
+        "audio/phrases/good mood.wav"
+      ]
+    },
+    {
+      "id": "emotional-state",
+      "english": "emotional state",
+      "translation": "эмоциональное состояние",
+      "audio": [
+        "audio/phrases/emotional state.wav"
+      ]
+    },
+    {
+      "id": "instant-reaction",
+      "english": "instant reaction",
+      "translation": "мгновенная реакция",
+      "audio": [
+        "audio/phrases/instant reaction.wav"
+      ]
+    },
+    {
+      "id": "show-affection",
+      "english": "show affection",
+      "translation": "проявить привязанность",
+      "audio": [
+        "audio/phrases/show affection.wav"
+      ]
+    },
+    {
+      "id": "natural-warmth",
+      "english": "natural warmth",
+      "translation": "естественная теплота",
+      "audio": [
+        "audio/phrases/natural warmth.wav"
+      ]
+    },
+    {
+      "id": "express-empathy",
+      "english": "express empathy",
+      "translation": "выразить эмпатию",
+      "audio": [
+        "audio/phrases/express empathy.wav"
+      ]
+    },
+    {
+      "id": "show-sympathy",
+      "english": "show sympathy",
+      "translation": "проявить сочувствие",
+      "audio": [
+        "audio/phrases/show sympathy.wav"
+      ]
+    },
+    {
+      "id": "maintain-neutrality",
+      "english": "maintain neutrality",
+      "translation": "сохранять нейтральность",
+      "audio": [
+        "audio/phrases/maintain neutrality.wav"
+      ]
+    },
+    {
+      "id": "emotional-detachment",
+      "english": "emotional detachment",
+      "translation": "эмоциональная отстранённость",
+      "audio": [
+        "audio/phrases/emotional detachment.wav"
+      ]
+    },
+    {
+      "id": "keep-distance",
+      "english": "keep distance",
+      "translation": "держать дистанцию",
+      "audio": [
+        "audio/phrases/keep distance.wav"
+      ]
+    },
+    {
+      "id": "emotional-coldness",
+      "english": "emotional coldness",
+      "translation": "эмоциональная холодность",
+      "audio": [
+        "audio/phrases/emotional coldness.wav"
+      ]
+    },
+    {
+      "id": "growing-tension",
+      "english": "growing tension",
+      "translation": "растущее напряжение",
+      "audio": [
+        "audio/phrases/growing tension.wav"
+      ]
+    },
+    {
+      "id": "constant-pressure",
+      "english": "constant pressure",
+      "translation": "постоянное давление",
+      "audio": [
+        "audio/phrases/constant pressure.wav"
+      ]
+    },
+    {
+      "id": "under-stress",
+      "english": "under stress",
+      "translation": "под стрессом",
+      "audio": [
+        "audio/phrases/under stress.wav"
+      ]
+    },
+    {
+      "id": "deep-frustration",
+      "english": "deep frustration",
+      "translation": "глубокое раздражение",
+      "audio": [
+        "audio/phrases/deep frustration.wav"
+      ]
+    },
+    {
+      "id": "clear-annoyance",
+      "english": "clear annoyance",
+      "translation": "явное раздражение",
+      "audio": [
+        "audio/phrases/clear annoyance.wav"
+      ]
+    },
+    {
+      "id": "visible-irritation",
+      "english": "visible irritation",
+      "translation": "заметная раздражённость",
+      "audio": [
+        "audio/phrases/visible irritation.wav"
+      ]
+    },
+    {
+      "id": "hidden-resentment",
+      "english": "hidden resentment",
+      "translation": "скрытая обида",
+      "audio": [
+        "audio/phrases/hidden resentment.wav"
+      ]
+    },
+    {
+      "id": "quiet-disappointment",
+      "english": "quiet disappointment",
+      "translation": "тихое разочарование",
+      "audio": [
+        "audio/phrases/quiet disappointment.wav"
+      ]
+    },
+    {
+      "id": "silent-approval",
+      "english": "silent approval",
+      "translation": "молчаливое одобрение",
+      "audio": [
+        "audio/phrases/silent approval.wav"
+      ]
+    },
+    {
+      "id": "open-disapproval",
+      "english": "open disapproval",
+      "translation": "открытое неодобрение",
+      "audio": [
+        "audio/phrases/open disapproval.wav"
+      ]
+    },
+    {
+      "id": "strong-support",
+      "english": "strong support",
+      "translation": "сильная поддержка",
+      "audio": [
+        "audio/phrases/strong support.wav"
+      ]
+    },
+    {
+      "id": "gentle-encouragement",
+      "english": "gentle encouragement",
+      "translation": "мягкое ободрение",
+      "audio": [
+        "audio/phrases/gentle encouragement.wav"
+      ]
+    },
+    {
+      "id": "growing-confidence",
+      "english": "growing confidence",
+      "translation": "растущая уверенность",
+      "audio": [
+        "audio/phrases/growing confidence.wav"
+      ]
+    },
+    {
+      "id": "deep-uncertainty",
+      "english": "deep uncertainty",
+      "translation": "глубокая неуверенность",
+      "audio": [
+        "audio/phrases/deep uncertainty.wav"
+      ]
+    },
+    {
+      "id": "brief-hesitation",
+      "english": "brief hesitation",
+      "translation": "краткое колебание",
+      "audio": [
+        "audio/phrases/brief hesitation.wav"
+      ]
+    },
+    {
+      "id": "inner-doubt",
+      "english": "inner doubt",
+      "translation": "внутреннее сомнение",
+      "audio": [
+        "audio/phrases/inner doubt.wav"
+      ]
+    },
+    {
+      "id": "pure-enthusiasm",
+      "english": "pure enthusiasm",
+      "translation": "чистый энтузиазм",
+      "audio": [
+        "audio/phrases/pure enthusiasm.wav"
+      ]
+    },
+    {
+      "id": "cold-indifference",
+      "english": "cold indifference",
+      "translation": "холодное безразличие",
+      "audio": [
+        "audio/phrases/cold indifference.wav"
+      ]
+    },
+    {
+      "id": "clear-reluctance",
+      "english": "clear reluctance",
+      "translation": "явная неохота",
+      "audio": [
+        "audio/phrases/clear reluctance.wav"
+      ]
+    },
+    {
+      "id": "great-relief",
+      "english": "great relief",
+      "translation": "большое облегчение",
+      "audio": [
+        "audio/phrases/great relief.wav"
+      ]
+    }
+  ]
+}

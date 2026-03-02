@@ -1,0 +1,287 @@
+{
+  "theme": "Город и места",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-city-looks-busy-today.",
+      "english": "The city looks busy today.",
+      "translation": "Город сегодня выглядит оживлённым.",
+      "audio": [
+        "audio/sentences/The city looks busy today..wav"
+      ]
+    },
+    {
+      "id": "this-town-feels-calm.",
+      "english": "This town feels calm.",
+      "translation": "Этот городок кажется спокойным.",
+      "audio": [
+        "audio/sentences/This town feels calm..wav"
+      ]
+    },
+    {
+      "id": "the-street-is-full-of-people.",
+      "english": "The street is full of people.",
+      "translation": "Улица полна людей.",
+      "audio": [
+        "audio/sentences/The street is full of people..wav"
+      ]
+    },
+    {
+      "id": "the-road-goes-straight.",
+      "english": "The road goes straight.",
+      "translation": "Дорога идёт прямо.",
+      "audio": [
+        "audio/sentences/The road goes straight..wav"
+      ]
+    },
+    {
+      "id": "we-met-at-the-square.",
+      "english": "We met at the square.",
+      "translation": "Мы встретились на площади.",
+      "audio": [
+        "audio/sentences/We met at the square..wav"
+      ]
+    },
+    {
+      "id": "children-play-in-the-park.",
+      "english": "Children play in the park.",
+      "translation": "Дети играют в парке.",
+      "audio": [
+        "audio/sentences/Children play in the park..wav"
+      ]
+    },
+    {
+      "id": "the-building-has-many-floors.",
+      "english": "The building has many floors.",
+      "translation": "В здании много этажей.",
+      "audio": [
+        "audio/sentences/The building has many floors..wav"
+      ]
+    },
+    {
+      "id": "their-house-is-old.",
+      "english": "Their house is old.",
+      "translation": "Их дом старый.",
+      "audio": [
+        "audio/sentences/Their house is old..wav"
+      ]
+    },
+    {
+      "id": "she-works-in-an-office.",
+      "english": "She works in an office.",
+      "translation": "Она работает в офисе.",
+      "audio": [
+        "audio/sentences/She works in an office..wav"
+      ]
+    },
+    {
+      "id": "the-school-opens-early.",
+      "english": "The school opens early.",
+      "translation": "Школа открывается рано.",
+      "audio": [
+        "audio/sentences/The school opens early..wav"
+      ]
+    },
+    {
+      "id": "he-studies-at-the-university.",
+      "english": "He studies at the university.",
+      "translation": "Он учится в университете.",
+      "audio": [
+        "audio/sentences/He studies at the university..wav"
+      ]
+    },
+    {
+      "id": "the-library-is-very-quiet.",
+      "english": "The library is very quiet.",
+      "translation": "В библиотеке очень тихо.",
+      "audio": [
+        "audio/sentences/The library is very quiet..wav"
+      ]
+    },
+    {
+      "id": "the-hospital-works-all-day.",
+      "english": "The hospital works all day.",
+      "translation": "Больница работает весь день.",
+      "audio": [
+        "audio/sentences/The hospital works all day..wav"
+      ]
+    },
+    {
+      "id": "the-clinic-opens-at-nine.",
+      "english": "The clinic opens at nine.",
+      "translation": "Клиника открывается в девять.",
+      "audio": [
+        "audio/sentences/The clinic opens at nine..wav"
+      ]
+    },
+    {
+      "id": "the-pharmacy-sells-medicine.",
+      "english": "The pharmacy sells medicine.",
+      "translation": "Аптека продаёт лекарства.",
+      "audio": [
+        "audio/sentences/The pharmacy sells medicine..wav"
+      ]
+    },
+    {
+      "id": "the-police-arrived-quickly.",
+      "english": "The police arrived quickly.",
+      "translation": "Полиция прибыла быстро.",
+      "audio": [
+        "audio/sentences/The police arrived quickly..wav"
+      ]
+    },
+    {
+      "id": "the-bank-opens-at-ten.",
+      "english": "The bank opens at ten.",
+      "translation": "Банк открывается в десять.",
+      "audio": [
+        "audio/sentences/The bank opens at ten..wav"
+      ]
+    },
+    {
+      "id": "the-post-office-is-busy.",
+      "english": "The post office is busy.",
+      "translation": "Почта загружена.",
+      "audio": [
+        "audio/sentences/The post office is busy..wav"
+      ]
+    },
+    {
+      "id": "the-station-is-crowded.",
+      "english": "The station is crowded.",
+      "translation": "Станция переполнена.",
+      "audio": [
+        "audio/sentences/The station is crowded..wav"
+      ]
+    },
+    {
+      "id": "we-wait-at-the-bus-stop.",
+      "english": "We wait at the bus stop.",
+      "translation": "Мы ждём на автобусной остановке.",
+      "audio": [
+        "audio/sentences/We wait at the bus stop..wav"
+      ]
+    },
+    {
+      "id": "the-subway-runs-fast.",
+      "english": "The subway runs fast.",
+      "translation": "Метро ходит быстро.",
+      "audio": [
+        "audio/sentences/The subway runs fast..wav"
+      ]
+    },
+    {
+      "id": "the-bridge-crosses-the-river.",
+      "english": "The bridge crosses the river.",
+      "translation": "Мост пересекает реку.",
+      "audio": [
+        "audio/sentences/The bridge crosses the river..wav"
+      ]
+    },
+    {
+      "id": "cars-stop-at-the-crossroad.",
+      "english": "Cars stop at the crossroad.",
+      "translation": "Машины останавливаются на перекрёстке.",
+      "audio": [
+        "audio/sentences/Cars stop at the crossroad..wav"
+      ]
+    },
+    {
+      "id": "the-hotel-looks-comfortable.",
+      "english": "The hotel looks comfortable.",
+      "translation": "Отель выглядит уютно.",
+      "audio": [
+        "audio/sentences/The hotel looks comfortable..wav"
+      ]
+    },
+    {
+      "id": "the-hostel-is-clean.",
+      "english": "The hostel is clean.",
+      "translation": "Хостел чистый.",
+      "audio": [
+        "audio/sentences/The hostel is clean..wav"
+      ]
+    },
+    {
+      "id": "the-museum-opens-today.",
+      "english": "The museum opens today.",
+      "translation": "Музей сегодня открыт.",
+      "audio": [
+        "audio/sentences/The museum opens today..wav"
+      ]
+    },
+    {
+      "id": "the-theater-is-popular.",
+      "english": "The theater is popular.",
+      "translation": "Театр популярен.",
+      "audio": [
+        "audio/sentences/The theater is popular..wav"
+      ]
+    },
+    {
+      "id": "the-cinema-starts-late.",
+      "english": "The cinema starts late.",
+      "translation": "Кинотеатр начинает поздно.",
+      "audio": [
+        "audio/sentences/The cinema starts late..wav"
+      ]
+    },
+    {
+      "id": "the-restaurant-is-full.",
+      "english": "The restaurant is full.",
+      "translation": "Ресторан полный.",
+      "audio": [
+        "audio/sentences/The restaurant is full..wav"
+      ]
+    },
+    {
+      "id": "the-cafe-smells-nice.",
+      "english": "The cafe smells nice.",
+      "translation": "В кафе приятно пахнет.",
+      "audio": [
+        "audio/sentences/The cafe smells nice..wav"
+      ]
+    },
+    {
+      "id": "the-airport-is-very-large.",
+      "english": "The airport is very large.",
+      "translation": "Аэропорт очень большой.",
+      "audio": [
+        "audio/sentences/The airport is very large..wav"
+      ]
+    },
+    {
+      "id": "the-entrance-is-on-the-left.",
+      "english": "The entrance is on the left.",
+      "translation": "Вход слева.",
+      "audio": [
+        "audio/sentences/The entrance is on the left..wav"
+      ]
+    },
+    {
+      "id": "please-use-the-exit.",
+      "english": "Please use the exit.",
+      "translation": "Пожалуйста, используйте выход.",
+      "audio": [
+        "audio/sentences/Please use the exit..wav"
+      ]
+    },
+    {
+      "id": "we-live-in-the-center.",
+      "english": "We live in the center.",
+      "translation": "Мы живём в центре.",
+      "audio": [
+        "audio/sentences/We live in the center..wav"
+      ]
+    },
+    {
+      "id": "this-area-feels-safe.",
+      "english": "This area feels safe.",
+      "translation": "Этот район кажется безопасным.",
+      "audio": [
+        "audio/sentences/This area feels safe..wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "theme": "Естественная речь",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "make-sense",
+      "english": "make sense",
+      "translation": "иметь смысл"
+    },
+    {
+      "id": "take-responsibility",
+      "english": "take responsibility",
+      "translation": "брать ответственность"
+    },
+    {
+      "id": "reach-agreement",
+      "english": "reach agreement",
+      "translation": "достичь соглашения"
+    },
+    {
+      "id": "raise-concern",
+      "english": "raise concern",
+      "translation": "выразить обеспокоенность"
+    },
+    {
+      "id": "meet-expectations",
+      "english": "meet expectations",
+      "translation": "соответствовать ожиданиям"
+    },
+    {
+      "id": "set-priority",
+      "english": "set priority",
+      "translation": "установить приоритет"
+    },
+    {
+      "id": "gain-insight",
+      "english": "gain insight",
+      "translation": "получить понимание"
+    },
+    {
+      "id": "add-value",
+      "english": "add value",
+      "translation": "добавлять ценность"
+    },
+    {
+      "id": "drive-growth",
+      "english": "drive growth",
+      "translation": "стимулировать рост"
+    },
+    {
+      "id": "create-impact",
+      "english": "create impact",
+      "translation": "создавать влияние"
+    },
+    {
+      "id": "make-decision",
+      "english": "make decision",
+      "translation": "принимать решение"
+    },
+    {
+      "id": "solve-problem",
+      "english": "solve problem",
+      "translation": "решать проблему"
+    },
+    {
+      "id": "address-issue",
+      "english": "address issue",
+      "translation": "разбирать проблему"
+    },
+    {
+      "id": "identify-risk",
+      "english": "identify risk",
+      "translation": "выявлять риск"
+    },
+    {
+      "id": "reduce-risk",
+      "english": "reduce risk",
+      "translation": "снижать риск"
+    },
+    {
+      "id": "take-action",
+      "english": "take action",
+      "translation": "предпринимать действие"
+    },
+    {
+      "id": "make-progress",
+      "english": "make progress",
+      "translation": "достигать прогресса"
+    },
+    {
+      "id": "show-interest",
+      "english": "show interest",
+      "translation": "проявлять интерес"
+    },
+    {
+      "id": "build-trust",
+      "english": "build trust",
+      "translation": "строить доверие"
+    },
+    {
+      "id": "lose-focus",
+      "english": "lose focus",
+      "translation": "терять фокус"
+    },
+    {
+      "id": "take-initiative",
+      "english": "take initiative",
+      "translation": "проявлять инициативу"
+    },
+    {
+      "id": "manage-expectations",
+      "english": "manage expectations",
+      "translation": "управлять ожиданиями"
+    },
+    {
+      "id": "handle-pressure",
+      "english": "handle pressure",
+      "translation": "справляться с давлением"
+    },
+    {
+      "id": "deal-effectively",
+      "english": "deal effectively",
+      "translation": "эффективно справляться"
+    },
+    {
+      "id": "clear-direction",
+      "english": "clear direction",
+      "translation": "чёткое направление"
+    },
+    {
+      "id": "strong-argument",
+      "english": "strong argument",
+      "translation": "весомый аргумент"
+    },
+    {
+      "id": "key-factor",
+      "english": "key factor",
+      "translation": "ключевой фактор"
+    },
+    {
+      "id": "common-practice",
+      "english": "common practice",
+      "translation": "распространённая практика"
+    },
+    {
+      "id": "real-challenge",
+      "english": "real challenge",
+      "translation": "реальный вызов"
+    },
+    {
+      "id": "significant-change",
+      "english": "significant change",
+      "translation": "значительное изменение"
+    },
+    {
+      "id": "positive-outcome",
+      "english": "positive outcome",
+      "translation": "положительный результат"
+    },
+    {
+      "id": "long-term-goal",
+      "english": "long-term goal",
+      "translation": "долгосрочная цель"
+    },
+    {
+      "id": "natural-flow",
+      "english": "natural flow",
+      "translation": "естественный поток речи"
+    },
+    {
+      "id": "spoken-english",
+      "english": "spoken English",
+      "translation": "разговорный английский"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "theme": "Финансы и банки",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "he-works-at-a-local-bank.",
+      "english": "He works at a local bank.",
+      "translation": "Он работает в местном банке.",
+      "audio": [
+        "audio/sentences/He works at a local bank..wav"
+      ]
+    },
+    {
+      "id": "the-bank-opened-a-new-branch-downtown.",
+      "english": "The bank opened a new branch downtown.",
+      "translation": "Банк открыл новое отделение в центре.",
+      "audio": [
+        "audio/sentences/The bank opened a new branch downtown..wav"
+      ]
+    },
+    {
+      "id": "i-opened-a-savings-account.",
+      "english": "I opened a savings account.",
+      "translation": "Я открыл сберегательный счёт.",
+      "audio": [
+        "audio/sentences/I opened a savings account..wav"
+      ]
+    },
+    {
+      "id": "she-checked-her-account-balance-online.",
+      "english": "She checked her account balance online.",
+      "translation": "Она проверила баланс своего счёта онлайн.",
+      "audio": [
+        "audio/sentences/She checked her account balance online..wav"
+      ]
+    },
+    {
+      "id": "the-bank-sent-a-monthly-statement.",
+      "english": "The bank sent a monthly statement.",
+      "translation": "Банк отправил ежемесячную выписку.",
+      "audio": [
+        "audio/sentences/The bank sent a monthly statement..wav"
+      ]
+    },
+    {
+      "id": "he-made-a-large-deposit-yesterday.",
+      "english": "He made a large deposit yesterday.",
+      "translation": "Он сделал крупный вклад вчера.",
+      "audio": [
+        "audio/sentences/He made a large deposit yesterday..wav"
+      ]
+    },
+    {
+      "id": "the-withdrawal-exceeded-the-daily-limit.",
+      "english": "The withdrawal exceeded the daily limit.",
+      "translation": "Снятие превысило дневной лимит.",
+      "audio": [
+        "audio/sentences/The withdrawal exceeded the daily limit..wav"
+      ]
+    },
+    {
+      "id": "she-made-an-international-transfer.",
+      "english": "She made an international transfer.",
+      "translation": "Она сделала международный перевод.",
+      "audio": [
+        "audio/sentences/She made an international transfer..wav"
+      ]
+    },
+    {
+      "id": "all-transactions-are-recorded-automatically.",
+      "english": "All transactions are recorded automatically.",
+      "translation": "Все транзакции записываются автоматически.",
+      "audio": [
+        "audio/sentences/All transactions are recorded automatically..wav"
+      ]
+    },
+    {
+      "id": "the-payment-was-processed-instantly.",
+      "english": "The payment was processed instantly.",
+      "translation": "Платёж был обработан мгновенно.",
+      "audio": [
+        "audio/sentences/The payment was processed instantly..wav"
+      ]
+    },
+    {
+      "id": "he-paid-the-bill-in-cash.",
+      "english": "He paid the bill in cash.",
+      "translation": "Он оплатил счёт наличными.",
+      "audio": [
+        "audio/sentences/He paid the bill in cash..wav"
+      ]
+    },
+    {
+      "id": "the-currency-strengthened-this-week.",
+      "english": "The currency strengthened this week.",
+      "translation": "Валюта укрепилась на этой неделе.",
+      "audio": [
+        "audio/sentences/The currency strengthened this week..wav"
+      ]
+    },
+    {
+      "id": "the-exchange-rate-changed-overnight.",
+      "english": "The exchange rate changed overnight.",
+      "translation": "Обменный курс изменился за ночь.",
+      "audio": [
+        "audio/sentences/The exchange rate changed overnight..wav"
+      ]
+    },
+    {
+      "id": "they-exchanged-foreign-currency-at-the-airport.",
+      "english": "They exchanged foreign currency at the airport.",
+      "translation": "Они обменяли иностранную валюту в аэропорту.",
+      "audio": [
+        "audio/sentences/They exchanged foreign currency at the airport..wav"
+      ]
+    },
+    {
+      "id": "the-company-transferred-funds-abroad.",
+      "english": "The company transferred funds abroad.",
+      "translation": "Компания перевела средства за рубеж.",
+      "audio": [
+        "audio/sentences/The company transferred funds abroad..wav"
+      ]
+    },
+    {
+      "id": "she-paid-by-card-at-the-store.",
+      "english": "She paid by card at the store.",
+      "translation": "Она заплатила картой в магазине.",
+      "audio": [
+        "audio/sentences/She paid by card at the store..wav"
+      ]
+    },
+    {
+      "id": "he-applied-for-a-new-credit-card.",
+      "english": "He applied for a new credit card.",
+      "translation": "Он оформил новую кредитную карту.",
+      "audio": [
+        "audio/sentences/He applied for a new credit card..wav"
+      ]
+    },
+    {
+      "id": "most-students-use-a-debit-card.",
+      "english": "Most students use a debit card.",
+      "translation": "Большинство студентов используют дебетовую карту.",
+      "audio": [
+        "audio/sentences/Most students use a debit card..wav"
+      ]
+    },
+    {
+      "id": "she-forgot-her-pin.",
+      "english": "She forgot her PIN.",
+      "translation": "Она забыла свой ПИН.",
+      "audio": [
+        "audio/sentences/She forgot her PIN..wav"
+      ]
+    },
+    {
+      "id": "he-withdrew-cash-at-the-atm.",
+      "english": "He withdrew cash at the ATM.",
+      "translation": "Он снял наличные в банкомате.",
+      "audio": [
+        "audio/sentences/He withdrew cash at the ATM..wav"
+      ]
+    },
+    {
+      "id": "they-applied-for-a-loan.",
+      "english": "They applied for a loan.",
+      "translation": "Они подали заявку на кредит.",
+      "audio": [
+        "audio/sentences/They applied for a loan..wav"
+      ]
+    },
+    {
+      "id": "the-bank-granted-her-credit.",
+      "english": "The bank granted her credit.",
+      "translation": "Банк предоставил ей кредит.",
+      "audio": [
+        "audio/sentences/The bank granted her credit..wav"
+      ]
+    },
+    {
+      "id": "they-pay-interest-every-month.",
+      "english": "They pay interest every month.",
+      "translation": "Они платят проценты каждый месяц.",
+      "audio": [
+        "audio/sentences/They pay interest every month..wav"
+      ]
+    },
+    {
+      "id": "the-interest-rate-increased-this-year.",
+      "english": "The interest rate increased this year.",
+      "translation": "В этом году процентная ставка выросла.",
+      "audio": [
+        "audio/sentences/The interest rate increased this year..wav"
+      ]
+    },
+    {
+      "id": "her-repayment-schedule-is-flexible.",
+      "english": "Her repayment schedule is flexible.",
+      "translation": "Её график погашения гибкий.",
+      "audio": [
+        "audio/sentences/Her repayment schedule is flexible..wav"
+      ]
+    },
+    {
+      "id": "he-finally-paid-off-his-debt.",
+      "english": "He finally paid off his debt.",
+      "translation": "Он наконец погасил свой долг.",
+      "audio": [
+        "audio/sentences/He finally paid off his debt..wav"
+      ]
+    },
+    {
+      "id": "the-installment-was-charged-today.",
+      "english": "The installment was charged today.",
+      "translation": "Платёж в рассрочку списали сегодня.",
+      "audio": [
+        "audio/sentences/The installment was charged today..wav"
+      ]
+    },
+    {
+      "id": "they-signed-a-mortgage-agreement.",
+      "english": "They signed a mortgage agreement.",
+      "translation": "Они подписали ипотечный договор.",
+      "audio": [
+        "audio/sentences/They signed a mortgage agreement..wav"
+      ]
+    },
+    {
+      "id": "the-service-includes-a-small-fee.",
+      "english": "The service includes a small fee.",
+      "translation": "Услуга включает небольшую комиссию.",
+      "audio": [
+        "audio/sentences/The service includes a small fee..wav"
+      ]
+    },
+    {
+      "id": "the-bank-charged-his-account.",
+      "english": "The bank charged his account.",
+      "translation": "Банк произвёл списание со счёта.",
+      "audio": [
+        "audio/sentences/The bank charged his account..wav"
+      ]
+    },
+    {
+      "id": "online-banking-makes-payments-easy.",
+      "english": "Online banking makes payments easy.",
+      "translation": "Онлайн-банкинг упрощает платежи.",
+      "audio": [
+        "audio/sentences/Online banking makes payments easy..wav"
+      ]
+    },
+    {
+      "id": "mobile-banking-is-convenient.",
+      "english": "Mobile banking is convenient.",
+      "translation": "Мобильный банк удобен.",
+      "audio": [
+        "audio/sentences/Mobile banking is convenient..wav"
+      ]
+    },
+    {
+      "id": "authorization-is-required-to-continue.",
+      "english": "Authorization is required to continue.",
+      "translation": "Для продолжения требуется авторизация.",
+      "audio": [
+        "audio/sentences/Authorization is required to continue..wav"
+      ]
+    },
+    {
+      "id": "verification-took-only-a-minute.",
+      "english": "Verification took only a minute.",
+      "translation": "Проверка заняла всего минуту.",
+      "audio": [
+        "audio/sentences/Verification took only a minute..wav"
+      ]
+    },
+    {
+      "id": "security-matters-in-online-banking.",
+      "english": "Security matters in online banking.",
+      "translation": "Безопасность важна в онлайн-банкинге.",
+      "audio": [
+        "audio/sentences/Security matters in online banking..wav"
+      ]
+    },
+    {
+      "id": "they-paid-income-tax-today.",
+      "english": "They paid income tax today.",
+      "translation": "Они заплатили подоходный налог сегодня.",
+      "audio": [
+        "audio/sentences/They paid income tax today..wav"
+      ]
+    },
+    {
+      "id": "he-received-a-full-refund.",
+      "english": "He received a full refund.",
+      "translation": "Он получил полный возврат.",
+      "audio": [
+        "audio/sentences/He received a full refund..wav"
+      ]
+    },
+    {
+      "id": "she-paid-the-fine-yesterday.",
+      "english": "She paid the fine yesterday.",
+      "translation": "Она заплатила штраф вчера.",
+      "audio": [
+        "audio/sentences/She paid the fine yesterday..wav"
+      ]
+    },
+    {
+      "id": "insurance-covers-the-damage.",
+      "english": "Insurance covers the damage.",
+      "translation": "Страхование покрывает ущерб.",
+      "audio": [
+        "audio/sentences/Insurance covers the damage..wav"
+      ]
+    },
+    {
+      "id": "coverage-varies-by-policy.",
+      "english": "Coverage varies by policy.",
+      "translation": "Покрытие зависит от полиса.",
+      "audio": [
+        "audio/sentences/Coverage varies by policy..wav"
+      ]
+    }
+  ]
+}

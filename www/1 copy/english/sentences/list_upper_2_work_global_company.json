@@ -1,0 +1,367 @@
+{
+  "theme": "Работа в компании",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-organization-operates-worldwide.",
+      "english": "The organization operates worldwide.",
+      "translation": "Организация работает по всему миру.",
+      "audio": [
+        "audio/sentences/The organization operates worldwide..wav"
+      ]
+    },
+    {
+      "id": "the-headquarters-is-located-downtown.",
+      "english": "The headquarters is located downtown.",
+      "translation": "Штаб-квартира расположена в центре города.",
+      "audio": [
+        "audio/sentences/The headquarters is located downtown..wav"
+      ]
+    },
+    {
+      "id": "the-subsidiary-reports-monthly-results.",
+      "english": "The subsidiary reports monthly results.",
+      "translation": "Дочерняя компания отчитывается ежемесячно.",
+      "audio": [
+        "audio/sentences/The subsidiary reports monthly results..wav"
+      ]
+    },
+    {
+      "id": "our-department-handles-customer-support.",
+      "english": "Our department handles customer support.",
+      "translation": "Наш отдел занимается поддержкой клиентов.",
+      "audio": [
+        "audio/sentences/Our department handles customer support..wav"
+      ]
+    },
+    {
+      "id": "the-division-focuses-on-new-markets.",
+      "english": "The division focuses on new markets.",
+      "translation": "Подразделение сосредоточено на новых рынках.",
+      "audio": [
+        "audio/sentences/The division focuses on new markets..wav"
+      ]
+    },
+    {
+      "id": "management-approved-the-new-strategy.",
+      "english": "Management approved the new strategy.",
+      "translation": "Руководство утвердило новую стратегию.",
+      "audio": [
+        "audio/sentences/Management approved the new strategy..wav"
+      ]
+    },
+    {
+      "id": "leadership-plays-a-key-role-here.",
+      "english": "Leadership plays a key role here.",
+      "translation": "Лидерство играет здесь ключевую роль.",
+      "audio": [
+        "audio/sentences/Leadership plays a key role here..wav"
+      ]
+    },
+    {
+      "id": "the-supervisor-reviews-performance-weekly.",
+      "english": "The supervisor reviews performance weekly.",
+      "translation": "Руководитель еженедельно оценивает результаты.",
+      "audio": [
+        "audio/sentences/The supervisor reviews performance weekly..wav"
+      ]
+    },
+    {
+      "id": "my-colleague-shared-useful-feedback.",
+      "english": "My colleague shared useful feedback.",
+      "translation": "Мой коллега поделился полезной обратной связью.",
+      "audio": [
+        "audio/sentences/My colleague shared useful feedback..wav"
+      ]
+    },
+    {
+      "id": "she-contacted-her-counterpart-abroad.",
+      "english": "She contacted her counterpart abroad.",
+      "translation": "Она связалась со своим коллегой за границей.",
+      "audio": [
+        "audio/sentences/She contacted her counterpart abroad..wav"
+      ]
+    },
+    {
+      "id": "each-stakeholder-reviewed-the-proposal.",
+      "english": "Each stakeholder reviewed the proposal.",
+      "translation": "Каждая заинтересованная сторона изучила предложение.",
+      "audio": [
+        "audio/sentences/Each stakeholder reviewed the proposal..wav"
+      ]
+    },
+    {
+      "id": "the-decision-maker-approved-the-budget.",
+      "english": "The decision-maker approved the budget.",
+      "translation": "Лицо, принимающее решения, утвердило бюджет.",
+      "audio": [
+        "audio/sentences/The decision-maker approved the budget..wav"
+      ]
+    },
+    {
+      "id": "reporting-improves-team-transparency.",
+      "english": "Reporting improves team transparency.",
+      "translation": "Подотчетность повышает прозрачность команды.",
+      "audio": [
+        "audio/sentences/Reporting improves team transparency..wav"
+      ]
+    },
+    {
+      "id": "alignment-keeps-everyone-focused.",
+      "english": "Alignment keeps everyone focused.",
+      "translation": "Согласованность помогает всем сохранять фокус.",
+      "audio": [
+        "audio/sentences/Alignment keeps everyone focused..wav"
+      ]
+    },
+    {
+      "id": "coordination-reduced-project-delays.",
+      "english": "Coordination reduced project delays.",
+      "translation": "Координация сократила задержки проекта.",
+      "audio": [
+        "audio/sentences/Coordination reduced project delays..wav"
+      ]
+    },
+    {
+      "id": "the-process-takes-several-steps.",
+      "english": "The process takes several steps.",
+      "translation": "Процесс включает несколько этапов.",
+      "audio": [
+        "audio/sentences/The process takes several steps..wav"
+      ]
+    },
+    {
+      "id": "the-procedure-must-be-followed-carefully.",
+      "english": "The procedure must be followed carefully.",
+      "translation": "Процедуру нужно соблюдать внимательно.",
+      "audio": [
+        "audio/sentences/The procedure must be followed carefully..wav"
+      ]
+    },
+    {
+      "id": "the-workflow-was-redesigned-recently.",
+      "english": "The workflow was redesigned recently.",
+      "translation": "Рабочий процесс недавно переработали.",
+      "audio": [
+        "audio/sentences/The workflow was redesigned recently..wav"
+      ]
+    },
+    {
+      "id": "the-deliverable-met-all-requirements.",
+      "english": "The deliverable met all requirements.",
+      "translation": "Результат работы соответствовал всем требованиям.",
+      "audio": [
+        "audio/sentences/The deliverable met all requirements..wav"
+      ]
+    },
+    {
+      "id": "they-reached-a-major-milestone.",
+      "english": "They reached a major milestone.",
+      "translation": "Они достигли важного этапа.",
+      "audio": [
+        "audio/sentences/They reached a major milestone..wav"
+      ]
+    },
+    {
+      "id": "the-deadline-is-approaching-fast.",
+      "english": "The deadline is approaching fast.",
+      "translation": "Крайний срок быстро приближается.",
+      "audio": [
+        "audio/sentences/The deadline is approaching fast..wav"
+      ]
+    },
+    {
+      "id": "the-timeline-changed-after-review.",
+      "english": "The timeline changed after review.",
+      "translation": "График изменился после проверки.",
+      "audio": [
+        "audio/sentences/The timeline changed after review..wav"
+      ]
+    },
+    {
+      "id": "her-workload-increased-this-month.",
+      "english": "Her workload increased this month.",
+      "translation": "Её рабочая нагрузка выросла в этом месяце.",
+      "audio": [
+        "audio/sentences/Her workload increased this month..wav"
+      ]
+    },
+    {
+      "id": "availability-depends-on-schedule.",
+      "english": "Availability depends on schedule.",
+      "translation": "Доступность зависит от расписания.",
+      "audio": [
+        "audio/sentences/Availability depends on schedule..wav"
+      ]
+    },
+    {
+      "id": "the-meeting-starts-at-noon.",
+      "english": "The meeting starts at noon.",
+      "translation": "Встреча начинается в полдень.",
+      "audio": [
+        "audio/sentences/The meeting starts at noon..wav"
+      ]
+    },
+    {
+      "id": "the-agenda-includes-three-topics.",
+      "english": "The agenda includes three topics.",
+      "translation": "Повестка включает три темы.",
+      "audio": [
+        "audio/sentences/The agenda includes three topics..wav"
+      ]
+    },
+    {
+      "id": "the-minutes-were-shared-later.",
+      "english": "The minutes were shared later.",
+      "translation": "Протокол разослали позже.",
+      "audio": [
+        "audio/sentences/The minutes were shared later..wav"
+      ]
+    },
+    {
+      "id": "a-follow-up-was-scheduled.",
+      "english": "A follow-up was scheduled.",
+      "translation": "Были запланированы дальнейшие действия.",
+      "audio": [
+        "audio/sentences/A follow-up was scheduled..wav"
+      ]
+    },
+    {
+      "id": "each-action-item-has-an-owner.",
+      "english": "Each action item has an owner.",
+      "translation": "У каждого пункта есть ответственный.",
+      "audio": [
+        "audio/sentences/Each action item has an owner..wav"
+      ]
+    },
+    {
+      "id": "communication-improved-after-changes.",
+      "english": "Communication improved after changes.",
+      "translation": "Коммуникация улучшилась после изменений.",
+      "audio": [
+        "audio/sentences/Communication improved after changes..wav"
+      ]
+    },
+    {
+      "id": "clarification-helped-avoid-confusion.",
+      "english": "Clarification helped avoid confusion.",
+      "translation": "Уточнение помогло избежать путаницы.",
+      "audio": [
+        "audio/sentences/Clarification helped avoid confusion..wav"
+      ]
+    },
+    {
+      "id": "the-alignment-call-aligned-expectations.",
+      "english": "The alignment call aligned expectations.",
+      "translation": "Созвон помог синхронизировать ожидания.",
+      "audio": [
+        "audio/sentences/The alignment call aligned expectations..wav"
+      ]
+    },
+    {
+      "id": "escalation-occurred-after-delays.",
+      "english": "Escalation occurred after delays.",
+      "translation": "Эскалация произошла после задержек.",
+      "audio": [
+        "audio/sentences/Escalation occurred after delays..wav"
+      ]
+    },
+    {
+      "id": "approval-was-granted-yesterday.",
+      "english": "Approval was granted yesterday.",
+      "translation": "Утверждение было получено вчера.",
+      "audio": [
+        "audio/sentences/Approval was granted yesterday..wav"
+      ]
+    },
+    {
+      "id": "responsibility-was-clearly-defined.",
+      "english": "Responsibility was clearly defined.",
+      "translation": "Ответственность была чётко определена.",
+      "audio": [
+        "audio/sentences/Responsibility was clearly defined..wav"
+      ]
+    },
+    {
+      "id": "ownership-improved-task-quality.",
+      "english": "Ownership improved task quality.",
+      "translation": "Ответственность повысила качество задач.",
+      "audio": [
+        "audio/sentences/Ownership improved task quality..wav"
+      ]
+    },
+    {
+      "id": "accountability-builds-trust.",
+      "english": "Accountability builds trust.",
+      "translation": "Подотчетность формирует доверие.",
+      "audio": [
+        "audio/sentences/Accountability builds trust..wav"
+      ]
+    },
+    {
+      "id": "compliance-is-mandatory.",
+      "english": "Compliance is mandatory.",
+      "translation": "Соответствие требованиям обязательно.",
+      "audio": [
+        "audio/sentences/Compliance is mandatory..wav"
+      ]
+    },
+    {
+      "id": "the-policy-applies-to-everyone.",
+      "english": "The policy applies to everyone.",
+      "translation": "Политика применяется ко всем.",
+      "audio": [
+        "audio/sentences/The policy applies to everyone..wav"
+      ]
+    },
+    {
+      "id": "performance-improved-significantly.",
+      "english": "Performance improved significantly.",
+      "translation": "Результативность заметно улучшилась.",
+      "audio": [
+        "audio/sentences/Performance improved significantly..wav"
+      ]
+    },
+    {
+      "id": "evaluation-happens-every-quarter.",
+      "english": "Evaluation happens every quarter.",
+      "translation": "Оценка проводится каждый квартал.",
+      "audio": [
+        "audio/sentences/Evaluation happens every quarter..wav"
+      ]
+    },
+    {
+      "id": "feedback-helped-refine-the-product.",
+      "english": "Feedback helped refine the product.",
+      "translation": "Обратная связь помогла улучшить продукт.",
+      "audio": [
+        "audio/sentences/Feedback helped refine the product..wav"
+      ]
+    },
+    {
+      "id": "improvement-requires-consistent-effort.",
+      "english": "Improvement requires consistent effort.",
+      "translation": "Улучшение требует постоянных усилий.",
+      "audio": [
+        "audio/sentences/Improvement requires consistent effort..wav"
+      ]
+    },
+    {
+      "id": "growth-accelerated-this-year.",
+      "english": "Growth accelerated this year.",
+      "translation": "Рост ускорился в этом году.",
+      "audio": [
+        "audio/sentences/Growth accelerated this year..wav"
+      ]
+    },
+    {
+      "id": "the-system-reached-full-capacity.",
+      "english": "The system reached full capacity.",
+      "translation": "Система достигла полной загрузки.",
+      "audio": [
+        "audio/sentences/The system reached full capacity..wav"
+      ]
+    }
+  ]
+}

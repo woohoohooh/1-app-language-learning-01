@@ -1,0 +1,232 @@
+{
+  "theme": "Офис и деловое общение",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "office",
+      "english": "office",
+      "translation": "офис"
+    },
+    {
+      "id": "workplace",
+      "english": "workplace",
+      "translation": "рабочее место"
+    },
+    {
+      "id": "department",
+      "english": "department",
+      "translation": "отдел"
+    },
+    {
+      "id": "team",
+      "english": "team",
+      "translation": "команда"
+    },
+    {
+      "id": "staff",
+      "english": "staff",
+      "translation": "персонал"
+    },
+    {
+      "id": "meeting",
+      "english": "meeting",
+      "translation": "встреча"
+    },
+    {
+      "id": "appointment",
+      "english": "appointment",
+      "translation": "назначенная встреча"
+    },
+    {
+      "id": "agenda",
+      "english": "agenda",
+      "translation": "повестка"
+    },
+    {
+      "id": "minutes",
+      "english": "minutes",
+      "translation": "протокол встречи"
+    },
+    {
+      "id": "discussion",
+      "english": "discussion",
+      "translation": "обсуждение"
+    },
+    {
+      "id": "email",
+      "english": "email",
+      "translation": "электронное письмо"
+    },
+    {
+      "id": "message",
+      "english": "message",
+      "translation": "сообщение"
+    },
+    {
+      "id": "call",
+      "english": "call",
+      "translation": "звонок"
+    },
+    {
+      "id": "conference",
+      "english": "conference",
+      "translation": "конференция"
+    },
+    {
+      "id": "video-call",
+      "english": "video call",
+      "translation": "видеозвонок"
+    },
+    {
+      "id": "request",
+      "english": "request",
+      "translation": "запрос"
+    },
+    {
+      "id": "response",
+      "english": "response",
+      "translation": "ответ"
+    },
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "обратная связь"
+    },
+    {
+      "id": "approval",
+      "english": "approval",
+      "translation": "одобрение"
+    },
+    {
+      "id": "confirmation",
+      "english": "confirmation",
+      "translation": "подтверждение"
+    },
+    {
+      "id": "agreement",
+      "english": "agreement",
+      "translation": "соглашение"
+    },
+    {
+      "id": "arrangement",
+      "english": "arrangement",
+      "translation": "договорённость"
+    },
+    {
+      "id": "negotiation",
+      "english": "negotiation",
+      "translation": "переговоры"
+    },
+    {
+      "id": "decision",
+      "english": "decision",
+      "translation": "решение"
+    },
+    {
+      "id": "approval",
+      "english": "approval",
+      "translation": "утверждение"
+    },
+    {
+      "id": "document",
+      "english": "document",
+      "translation": "документ"
+    },
+    {
+      "id": "report",
+      "english": "report",
+      "translation": "отчёт"
+    },
+    {
+      "id": "presentation",
+      "english": "presentation",
+      "translation": "презентация"
+    },
+    {
+      "id": "spreadsheet",
+      "english": "spreadsheet",
+      "translation": "таблица"
+    },
+    {
+      "id": "file",
+      "english": "file",
+      "translation": "файл"
+    },
+    {
+      "id": "policy",
+      "english": "policy",
+      "translation": "политика"
+    },
+    {
+      "id": "procedure",
+      "english": "procedure",
+      "translation": "процедура"
+    },
+    {
+      "id": "guideline",
+      "english": "guideline",
+      "translation": "инструкция"
+    },
+    {
+      "id": "requirement",
+      "english": "requirement",
+      "translation": "требование"
+    },
+    {
+      "id": "compliance",
+      "english": "compliance",
+      "translation": "соответствие правилам"
+    },
+    {
+      "id": "priority",
+      "english": "priority",
+      "translation": "приоритет"
+    },
+    {
+      "id": "update",
+      "english": "update",
+      "translation": "обновление"
+    },
+    {
+      "id": "status",
+      "english": "status",
+      "translation": "статус"
+    },
+    {
+      "id": "progress",
+      "english": "progress",
+      "translation": "ход выполнения"
+    },
+    {
+      "id": "issue",
+      "english": "issue",
+      "translation": "проблема"
+    },
+    {
+      "id": "formal",
+      "english": "formal",
+      "translation": "официальный"
+    },
+    {
+      "id": "informal",
+      "english": "informal",
+      "translation": "неофициальный"
+    },
+    {
+      "id": "professional",
+      "english": "professional",
+      "translation": "профессиональный"
+    },
+    {
+      "id": "internal",
+      "english": "internal",
+      "translation": "внутренний"
+    },
+    {
+      "id": "external",
+      "english": "external",
+      "translation": "внешний"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "theme": "Психология и мышление",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-mind-adapts-to-new-situations.",
+      "english": "The mind adapts to new situations.",
+      "translation": "Разум адаптируется к новым ситуациям.",
+      "audio": [
+        "audio/sentences/The mind adapts to new situations..wav"
+      ]
+    },
+    {
+      "id": "thinking-clearly-helps-with-decisions.",
+      "english": "Thinking clearly helps with decisions.",
+      "translation": "Ясное мышление помогает принимать решения.",
+      "audio": [
+        "audio/sentences/Thinking clearly helps with decisions..wav"
+      ]
+    },
+    {
+      "id": "a-single-thought-changed-his-view.",
+      "english": "A single thought changed his view.",
+      "translation": "Одна мысль изменила его взгляд.",
+      "audio": [
+        "audio/sentences/A single thought changed his view..wav"
+      ]
+    },
+    {
+      "id": "awareness-grows-with-reflection.",
+      "english": "Awareness grows with reflection.",
+      "translation": "Осознанность растёт через размышление.",
+      "audio": [
+        "audio/sentences/Awareness grows with reflection..wav"
+      ]
+    },
+    {
+      "id": "attention-shifted-during-the-talk.",
+      "english": "Attention shifted during the talk.",
+      "translation": "Внимание сместилось во время разговора.",
+      "audio": [
+        "audio/sentences/Attention shifted during the talk..wav"
+      ]
+    },
+    {
+      "id": "concentration-dropped-after-hours.",
+      "english": "Concentration dropped after hours.",
+      "translation": "Концентрация снизилась спустя часы.",
+      "audio": [
+        "audio/sentences/Concentration dropped after hours..wav"
+      ]
+    },
+    {
+      "id": "memory-fades-without-repetition.",
+      "english": "Memory fades without repetition.",
+      "translation": "Память ослабевает без повторения.",
+      "audio": [
+        "audio/sentences/Memory fades without repetition..wav"
+      ]
+    },
+    {
+      "id": "perception-varies-between-people.",
+      "english": "Perception varies between people.",
+      "translation": "Восприятие различается у людей.",
+      "audio": [
+        "audio/sentences/Perception varies between people..wav"
+      ]
+    },
+    {
+      "id": "imagination-fuels-creative-thinking.",
+      "english": "Imagination fuels creative thinking.",
+      "translation": "Воображение питает творческое мышление.",
+      "audio": [
+        "audio/sentences/Imagination fuels creative thinking..wav"
+      ]
+    },
+    {
+      "id": "emotion-influences-behavior.",
+      "english": "Emotion influences behavior.",
+      "translation": "Эмоция влияет на поведение.",
+      "audio": [
+        "audio/sentences/Emotion influences behavior..wav"
+      ]
+    },
+    {
+      "id": "the-feeling-was-hard-to-explain.",
+      "english": "The feeling was hard to explain.",
+      "translation": "Это чувство было трудно объяснить.",
+      "audio": [
+        "audio/sentences/The feeling was hard to explain..wav"
+      ]
+    },
+    {
+      "id": "her-mood-changed-quickly.",
+      "english": "Her mood changed quickly.",
+      "translation": "Её настроение быстро изменилось.",
+      "audio": [
+        "audio/sentences/Her mood changed quickly..wav"
+      ]
+    },
+    {
+      "id": "stress-affects-mental-health.",
+      "english": "Stress affects mental health.",
+      "translation": "Стресс влияет на психическое здоровье.",
+      "audio": [
+        "audio/sentences/Stress affects mental health..wav"
+      ]
+    },
+    {
+      "id": "anxiety-can-limit-clear-thinking.",
+      "english": "Anxiety can limit clear thinking.",
+      "translation": "Тревожность может мешать ясному мышлению.",
+      "audio": [
+        "audio/sentences/Anxiety can limit clear thinking..wav"
+      ]
+    },
+    {
+      "id": "motivation-rises-with-clear-goals.",
+      "english": "Motivation rises with clear goals.",
+      "translation": "Мотивация растёт при чётких целях.",
+      "audio": [
+        "audio/sentences/Motivation rises with clear goals..wav"
+      ]
+    },
+    {
+      "id": "drive-pushes-people-forward.",
+      "english": "Drive pushes people forward.",
+      "translation": "Внутренний стимул движет людей вперёд.",
+      "audio": [
+        "audio/sentences/Drive pushes people forward..wav"
+      ]
+    },
+    {
+      "id": "discipline-builds-long-term-success.",
+      "english": "Discipline builds long-term success.",
+      "translation": "Дисциплина формирует долгосрочный успех.",
+      "audio": [
+        "audio/sentences/Discipline builds long-term success..wav"
+      ]
+    },
+    {
+      "id": "a-habit-forms-over-time.",
+      "english": "A habit forms over time.",
+      "translation": "Привычка формируется со временем.",
+      "audio": [
+        "audio/sentences/A habit forms over time..wav"
+      ]
+    },
+    {
+      "id": "routine-provides-mental-stability.",
+      "english": "Routine provides mental stability.",
+      "translation": "Рутина даёт психологическую стабильность.",
+      "audio": [
+        "audio/sentences/Routine provides mental stability..wav"
+      ]
+    },
+    {
+      "id": "behavior-often-reflects-inner-values.",
+      "english": "Behavior often reflects inner values.",
+      "translation": "Поведение часто отражает внутренние ценности.",
+      "audio": [
+        "audio/sentences/Behavior often reflects inner values..wav"
+      ]
+    },
+    {
+      "id": "his-reaction-surprised-everyone.",
+      "english": "His reaction surprised everyone.",
+      "translation": "Его реакция удивила всех.",
+      "audio": [
+        "audio/sentences/His reaction surprised everyone..wav"
+      ]
+    },
+    {
+      "id": "the-decision-changed-his-direction.",
+      "english": "The decision changed his direction.",
+      "translation": "Решение изменило его направление.",
+      "audio": [
+        "audio/sentences/The decision changed his direction..wav"
+      ]
+    },
+    {
+      "id": "every-choice-has-consequences.",
+      "english": "Every choice has consequences.",
+      "translation": "Каждый выбор имеет последствия.",
+      "audio": [
+        "audio/sentences/Every choice has consequences..wav"
+      ]
+    },
+    {
+      "id": "belief-shapes-long-term-behavior.",
+      "english": "Belief shapes long-term behavior.",
+      "translation": "Убеждение формирует поведение в долгосрочной перспективе.",
+      "audio": [
+        "audio/sentences/Belief shapes long-term behavior..wav"
+      ]
+    },
+    {
+      "id": "the-assumption-proved-incorrect.",
+      "english": "The assumption proved incorrect.",
+      "translation": "Предположение оказалось неверным.",
+      "audio": [
+        "audio/sentences/The assumption proved incorrect..wav"
+      ]
+    },
+    {
+      "id": "expectation-affects-satisfaction.",
+      "english": "Expectation affects satisfaction.",
+      "translation": "Ожидание влияет на удовлетворённость.",
+      "audio": [
+        "audio/sentences/Expectation affects satisfaction..wav"
+      ]
+    },
+    {
+      "id": "bias-distorts-objective-judgment.",
+      "english": "Bias distorts objective judgment.",
+      "translation": "Искажение нарушает объективную оценку.",
+      "audio": [
+        "audio/sentences/Bias distorts objective judgment..wav"
+      ]
+    },
+    {
+      "id": "mindset-influences-personal-growth.",
+      "english": "Mindset influences personal growth.",
+      "translation": "Образ мышления влияет на личностный рост.",
+      "audio": [
+        "audio/sentences/Mindset influences personal growth..wav"
+      ]
+    },
+    {
+      "id": "self-esteem-develops-through-experience.",
+      "english": "Self-esteem develops through experience.",
+      "translation": "Самооценка развивается через опыт.",
+      "audio": [
+        "audio/sentences/Self-esteem develops through experience..wav"
+      ]
+    },
+    {
+      "id": "confidence-grows-with-small-wins.",
+      "english": "Confidence grows with small wins.",
+      "translation": "Уверенность растёт через маленькие победы.",
+      "audio": [
+        "audio/sentences/Confidence grows with small wins..wav"
+      ]
+    },
+    {
+      "id": "insecurity-limits-open-communication.",
+      "english": "Insecurity limits open communication.",
+      "translation": "Неуверенность ограничивает открытое общение.",
+      "audio": [
+        "audio/sentences/Insecurity limits open communication..wav"
+      ]
+    },
+    {
+      "id": "self-control-helps-manage-impulses.",
+      "english": "Self-control helps manage impulses.",
+      "translation": "Самоконтроль помогает управлять импульсами.",
+      "audio": [
+        "audio/sentences/Self-control helps manage impulses..wav"
+      ]
+    },
+    {
+      "id": "resilience-supports-recovery-after-stress.",
+      "english": "Resilience supports recovery after stress.",
+      "translation": "Устойчивость помогает восстановиться после стресса.",
+      "audio": [
+        "audio/sentences/Resilience supports recovery after stress..wav"
+      ]
+    },
+    {
+      "id": "reflection-leads-to-better-awareness.",
+      "english": "Reflection leads to better awareness.",
+      "translation": "Самоанализ ведёт к лучшей осознанности.",
+      "audio": [
+        "audio/sentences/Reflection leads to better awareness..wav"
+      ]
+    },
+    {
+      "id": "introspection-reveals-hidden-patterns.",
+      "english": "Introspection reveals hidden patterns.",
+      "translation": "Интроспекция выявляет скрытые шаблоны.",
+      "audio": [
+        "audio/sentences/Introspection reveals hidden patterns..wav"
+      ]
+    },
+    {
+      "id": "overthinking-increases-mental-fatigue.",
+      "english": "Overthinking increases mental fatigue.",
+      "translation": "Чрезмерное обдумывание усиливает умственную усталость.",
+      "audio": [
+        "audio/sentences/Overthinking increases mental fatigue..wav"
+      ]
+    },
+    {
+      "id": "burnout-develops-after-long-pressure.",
+      "english": "Burnout develops after long pressure.",
+      "translation": "Выгорание развивается после длительного давления.",
+      "audio": [
+        "audio/sentences/Burnout develops after long pressure..wav"
+      ]
+    },
+    {
+      "id": "mental-health-requires-regular-attention.",
+      "english": "Mental health requires regular attention.",
+      "translation": "Психическое здоровье требует регулярного внимания.",
+      "audio": [
+        "audio/sentences/Mental health requires regular attention..wav"
+      ]
+    },
+    {
+      "id": "focus-improves-with-practice.",
+      "english": "Focus improves with practice.",
+      "translation": "Концентрация улучшается с практикой.",
+      "audio": [
+        "audio/sentences/Focus improves with practice..wav"
+      ]
+    },
+    {
+      "id": "her-response-felt-calm-and-honest.",
+      "english": "Her response felt calm and honest.",
+      "translation": "Её реакция была спокойной и искренней.",
+      "audio": [
+        "audio/sentences/Her response felt calm and honest..wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "theme": "Здоровье и медицина",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "improve-healthcare-system",
+      "english": "improve healthcare system",
+      "translation": "улучшить систему здравоохранения",
+      "audio": [
+        "audio/phrases/improve healthcare system.wav"
+      ]
+    },
+    {
+      "id": "medical-checkup-scheduled",
+      "english": "medical checkup scheduled",
+      "translation": "запланирован медицинский осмотр",
+      "audio": [
+        "audio/phrases/medical checkup scheduled.wav"
+      ]
+    },
+    {
+      "id": "monitor-patient-condition",
+      "english": "monitor patient condition",
+      "translation": "контролировать состояние пациента",
+      "audio": [
+        "audio/phrases/monitor patient condition.wav"
+      ]
+    },
+    {
+      "id": "report-new-symptom",
+      "english": "report new symptom",
+      "translation": "сообщить о новом симптоме",
+      "audio": [
+        "audio/phrases/report new symptom.wav"
+      ]
+    },
+    {
+      "id": "accurate-diagnosis-required",
+      "english": "accurate diagnosis required",
+      "translation": "требуется точный диагноз",
+      "audio": [
+        "audio/phrases/accurate diagnosis required.wav"
+      ]
+    },
+    {
+      "id": "follow-treatment-plan",
+      "english": "follow treatment plan",
+      "translation": "следовать плану лечения",
+      "audio": [
+        "audio/phrases/follow treatment plan.wav"
+      ]
+    },
+    {
+      "id": "physical-therapy-session",
+      "english": "physical therapy session",
+      "translation": "сессия физиотерапии",
+      "audio": [
+        "audio/phrases/physical therapy session.wav"
+      ]
+    },
+    {
+      "id": "speed-up-recovery-process",
+      "english": "speed up recovery process",
+      "translation": "ускорить процесс восстановления",
+      "audio": [
+        "audio/phrases/speed up recovery process.wav"
+      ]
+    },
+    {
+      "id": "prevention-measures-applied",
+      "english": "prevention measures applied",
+      "translation": "приняты меры профилактики",
+      "audio": [
+        "audio/phrases/prevention measures applied.wav"
+      ]
+    },
+    {
+      "id": "schedule-checkup-soon",
+      "english": "schedule checkup soon",
+      "translation": "запланировать осмотр вскоре",
+      "audio": [
+        "audio/phrases/schedule checkup soon.wav"
+      ]
+    },
+    {
+      "id": "book-appointment-online",
+      "english": "book appointment online",
+      "translation": "записаться на приём онлайн",
+      "audio": [
+        "audio/phrases/book appointment online.wav"
+      ]
+    },
+    {
+      "id": "request-medical-consultation",
+      "english": "request medical consultation",
+      "translation": "запросить медицинскую консультацию",
+      "audio": [
+        "audio/phrases/request medical consultation.wav"
+      ]
+    },
+    {
+      "id": "see-a-specialist",
+      "english": "see a specialist",
+      "translation": "обратиться к специалисту",
+      "audio": [
+        "audio/phrases/see a specialist.wav"
+      ]
+    },
+    {
+      "id": "fill-prescription-today",
+      "english": "fill prescription today",
+      "translation": "получить рецепт сегодня",
+      "audio": [
+        "audio/phrases/fill prescription today.wav"
+      ]
+    },
+    {
+      "id": "get-referral-letter",
+      "english": "get referral letter",
+      "translation": "получить направление",
+      "audio": [
+        "audio/phrases/get referral letter.wav"
+      ]
+    },
+    {
+      "id": "take-medicine-daily",
+      "english": "take medicine daily",
+      "translation": "принимать лекарство ежедневно",
+      "audio": [
+        "audio/phrases/take medicine daily.wav"
+      ]
+    },
+    {
+      "id": "prescribe-medication-properly",
+      "english": "prescribe medication properly",
+      "translation": "правильно назначить медикаменты",
+      "audio": [
+        "audio/phrases/prescribe medication properly.wav"
+      ]
+    },
+    {
+      "id": "adjust-dosage-carefully",
+      "english": "adjust dosage carefully",
+      "translation": "тщательно регулировать дозировку",
+      "audio": [
+        "audio/phrases/adjust dosage carefully.wav"
+      ]
+    },
+    {
+      "id": "watch-side-effect",
+      "english": "watch side effect",
+      "translation": "следить за побочным эффектом",
+      "audio": [
+        "audio/phrases/watch side effect.wav"
+      ]
+    },
+    {
+      "id": "severe-allergy-reaction",
+      "english": "severe allergy reaction",
+      "translation": "тяжелая аллергическая реакция",
+      "audio": [
+        "audio/phrases/severe allergy reaction.wav"
+      ]
+    },
+    {
+      "id": "treat-infection-immediately",
+      "english": "treat infection immediately",
+      "translation": "немедленно лечить инфекцию",
+      "audio": [
+        "audio/phrases/treat infection immediately.wav"
+      ]
+    },
+    {
+      "id": "reduce-inflammation-naturally",
+      "english": "reduce inflammation naturally",
+      "translation": "уменьшить воспаление естественным образом",
+      "audio": [
+        "audio/phrases/reduce inflammation naturally.wav"
+      ]
+    },
+    {
+      "id": "chronic-pain-persists",
+      "english": "chronic pain persists",
+      "translation": "хроническая боль сохраняется",
+      "audio": [
+        "audio/phrases/chronic pain persists.wav"
+      ]
+    },
+    {
+      "id": "acute-infection-detected",
+      "english": "acute infection detected",
+      "translation": "обнаружена острая инфекция",
+      "audio": [
+        "audio/phrases/acute infection detected.wav"
+      ]
+    },
+    {
+      "id": "treat-injury-carefully",
+      "english": "treat injury carefully",
+      "translation": "тщательно лечить травму",
+      "audio": [
+        "audio/phrases/treat injury carefully.wav"
+      ]
+    },
+    {
+      "id": "call-emergency-services",
+      "english": "call emergency services",
+      "translation": "вызвать службы экстренной помощи",
+      "audio": [
+        "audio/phrases/call emergency services.wav"
+      ]
+    },
+    {
+      "id": "ambulance-reached-hospital",
+      "english": "ambulance reached hospital",
+      "translation": "скорая помощь добралась до больницы",
+      "audio": [
+        "audio/phrases/ambulance reached hospital.wav"
+      ]
+    },
+    {
+      "id": "hospitalization-required-urgently",
+      "english": "hospitalization required urgently",
+      "translation": "необходима срочная госпитализация",
+      "audio": [
+        "audio/phrases/hospitalization required urgently.wav"
+      ]
+    },
+    {
+      "id": "schedule-surgery-next-week",
+      "english": "schedule surgery next week",
+      "translation": "запланировать операцию на следующую неделю",
+      "audio": [
+        "audio/phrases/schedule surgery next week.wav"
+      ]
+    },
+    {
+      "id": "follow-procedure-steps",
+      "english": "follow procedure steps",
+      "translation": "следовать шагам процедуры",
+      "audio": [
+        "audio/phrases/follow procedure steps.wav"
+      ]
+    },
+    {
+      "id": "renew-insurance-policy",
+      "english": "renew insurance policy",
+      "translation": "продлить страховку",
+      "audio": [
+        "audio/phrases/renew insurance policy.wav"
+      ]
+    },
+    {
+      "id": "check-coverage-details",
+      "english": "check coverage details",
+      "translation": "проверить детали страхового покрытия",
+      "audio": [
+        "audio/phrases/check coverage details.wav"
+      ]
+    },
+    {
+      "id": "file-insurance-claim",
+      "english": "file insurance claim",
+      "translation": "подать страховое заявление",
+      "audio": [
+        "audio/phrases/file insurance claim.wav"
+      ]
+    },
+    {
+      "id": "update-policy-details",
+      "english": "update policy details",
+      "translation": "обновить информацию о полисе",
+      "audio": [
+        "audio/phrases/update policy details.wav"
+      ]
+    },
+    {
+      "id": "select-healthcare-provider",
+      "english": "select healthcare provider",
+      "translation": "выбрать поставщика медицинских услуг",
+      "audio": [
+        "audio/phrases/select healthcare provider.wav"
+      ]
+    },
+    {
+      "id": "focus-on-mental-health",
+      "english": "focus on mental health",
+      "translation": "сосредоточиться на психическом здоровье",
+      "audio": [
+        "audio/phrases/focus on mental health.wav"
+      ]
+    },
+    {
+      "id": "reduce-stress-levels",
+      "english": "reduce stress levels",
+      "translation": "снизить уровень стресса",
+      "audio": [
+        "audio/phrases/reduce stress levels.wav"
+      ]
+    },
+    {
+      "id": "manage-anxiety-naturally",
+      "english": "manage anxiety naturally",
+      "translation": "управлять тревожностью естественно",
+      "audio": [
+        "audio/phrases/manage anxiety naturally.wav"
+      ]
+    },
+    {
+      "id": "combat-fatigue-effectively",
+      "english": "combat fatigue effectively",
+      "translation": "эффективно бороться с усталостью",
+      "audio": [
+        "audio/phrases/combat fatigue effectively.wav"
+      ]
+    },
+    {
+      "id": "improve-overall-well-being",
+      "english": "improve overall well-being",
+      "translation": "улучшить общее самочувствие",
+      "audio": [
+        "audio/phrases/improve overall well-being.wav"
+      ]
+    }
+  ]
+}

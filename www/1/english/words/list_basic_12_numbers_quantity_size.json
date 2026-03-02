@@ -1,0 +1,162 @@
+{
+  "theme": "Цифры, количество, размеры",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "zero",
+      "english": "zero",
+      "translation": "ноль"
+    },
+    {
+      "id": "one",
+      "english": "one",
+      "translation": "один"
+    },
+    {
+      "id": "two",
+      "english": "two",
+      "translation": "два"
+    },
+    {
+      "id": "three",
+      "english": "three",
+      "translation": "три"
+    },
+    {
+      "id": "four",
+      "english": "four",
+      "translation": "четыре"
+    },
+    {
+      "id": "five",
+      "english": "five",
+      "translation": "пять"
+    },
+    {
+      "id": "six",
+      "english": "six",
+      "translation": "шесть"
+    },
+    {
+      "id": "seven",
+      "english": "seven",
+      "translation": "семь"
+    },
+    {
+      "id": "eight",
+      "english": "eight",
+      "translation": "восемь"
+    },
+    {
+      "id": "nine",
+      "english": "nine",
+      "translation": "девять"
+    },
+    {
+      "id": "ten",
+      "english": "ten",
+      "translation": "десять"
+    },
+    {
+      "id": "many",
+      "english": "many",
+      "translation": "много"
+    },
+    {
+      "id": "much",
+      "english": "much",
+      "translation": "много"
+    },
+    {
+      "id": "few",
+      "english": "few",
+      "translation": "мало"
+    },
+    {
+      "id": "little",
+      "english": "little",
+      "translation": "мало"
+    },
+    {
+      "id": "all",
+      "english": "all",
+      "translation": "все"
+    },
+    {
+      "id": "more",
+      "english": "more",
+      "translation": "больше"
+    },
+    {
+      "id": "less",
+      "english": "less",
+      "translation": "меньше"
+    },
+    {
+      "id": "enough",
+      "english": "enough",
+      "translation": "достаточно"
+    },
+    {
+      "id": "big",
+      "english": "big",
+      "translation": "большой"
+    },
+    {
+      "id": "small",
+      "english": "small",
+      "translation": "маленький"
+    },
+    {
+      "id": "large",
+      "english": "large",
+      "translation": "большой"
+    },
+    {
+      "id": "long",
+      "english": "long",
+      "translation": "длинный"
+    },
+    {
+      "id": "high",
+      "english": "high",
+      "translation": "высокий"
+    },
+    {
+      "id": "low",
+      "english": "low",
+      "translation": "низкий"
+    },
+    {
+      "id": "size",
+      "english": "size",
+      "translation": "размер"
+    },
+    {
+      "id": "amount",
+      "english": "amount",
+      "translation": "количество"
+    },
+    {
+      "id": "number",
+      "english": "number",
+      "translation": "число"
+    },
+    {
+      "id": "some",
+      "english": "some",
+      "translation": "несколько"
+    },
+    {
+      "id": "none",
+      "english": "none",
+      "translation": "ничего"
+    },
+    {
+      "id": "short",
+      "english": "short",
+      "translation": "короткий"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "theme": "Естественная речь",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "make-sense-here",
+      "english": "make sense here",
+      "translation": "иметь смысл здесь",
+      "audio": [
+        "audio/phrases/make sense here.wav"
+      ]
+    },
+    {
+      "id": "take-responsibility-fully",
+      "english": "take responsibility fully",
+      "translation": "полностью брать ответственность",
+      "audio": [
+        "audio/phrases/take responsibility fully.wav"
+      ]
+    },
+    {
+      "id": "reach-agreement-quickly",
+      "english": "reach agreement quickly",
+      "translation": "быстро достичь соглашения",
+      "audio": [
+        "audio/phrases/reach agreement quickly.wav"
+      ]
+    },
+    {
+      "id": "raise-concern-early",
+      "english": "raise concern early",
+      "translation": "выразить обеспокоенность заранее",
+      "audio": [
+        "audio/phrases/raise concern early.wav"
+      ]
+    },
+    {
+      "id": "meet-expectations-consistently",
+      "english": "meet expectations consistently",
+      "translation": "постоянно соответствовать ожиданиям",
+      "audio": [
+        "audio/phrases/meet expectations consistently.wav"
+      ]
+    },
+    {
+      "id": "set-priority-clearly",
+      "english": "set priority clearly",
+      "translation": "чётко установить приоритет",
+      "audio": [
+        "audio/phrases/set priority clearly.wav"
+      ]
+    },
+    {
+      "id": "gain-insight-fast",
+      "english": "gain insight fast",
+      "translation": "быстро получить понимание",
+      "audio": [
+        "audio/phrases/gain insight fast.wav"
+      ]
+    },
+    {
+      "id": "add-value-directly",
+      "english": "add value directly",
+      "translation": "напрямую добавлять ценность",
+      "audio": [
+        "audio/phrases/add value directly.wav"
+      ]
+    },
+    {
+      "id": "drive-growth-strategy",
+      "english": "drive growth strategy",
+      "translation": "стратегия стимулирования роста",
+      "audio": [
+        "audio/phrases/drive growth strategy.wav"
+      ]
+    },
+    {
+      "id": "create-impact-globally",
+      "english": "create impact globally",
+      "translation": "создавать глобальное влияние",
+      "audio": [
+        "audio/phrases/create impact globally.wav"
+      ]
+    },
+    {
+      "id": "make-decision-fast",
+      "english": "make decision fast",
+      "translation": "быстро принимать решение",
+      "audio": [
+        "audio/phrases/make decision fast.wav"
+      ]
+    },
+    {
+      "id": "solve-problem-together",
+      "english": "solve problem together",
+      "translation": "вместе решать проблему",
+      "audio": [
+        "audio/phrases/solve problem together.wav"
+      ]
+    },
+    {
+      "id": "address-issue-properly",
+      "english": "address issue properly",
+      "translation": "корректно разобрать проблему",
+      "audio": [
+        "audio/phrases/address issue properly.wav"
+      ]
+    },
+    {
+      "id": "identify-risk-early",
+      "english": "identify risk early",
+      "translation": "рано выявлять риск",
+      "audio": [
+        "audio/phrases/identify risk early.wav"
+      ]
+    },
+    {
+      "id": "reduce-risk-level",
+      "english": "reduce risk level",
+      "translation": "снизить уровень риска",
+      "audio": [
+        "audio/phrases/reduce risk level.wav"
+      ]
+    },
+    {
+      "id": "take-action-now",
+      "english": "take action now",
+      "translation": "предпринять действие сейчас",
+      "audio": [
+        "audio/phrases/take action now.wav"
+      ]
+    },
+    {
+      "id": "make-progress-steadily",
+      "english": "make progress steadily",
+      "translation": "стабильно достигать прогресса",
+      "audio": [
+        "audio/phrases/make progress steadily.wav"
+      ]
+    },
+    {
+      "id": "show-real-interest",
+      "english": "show real interest",
+      "translation": "проявлять реальный интерес",
+      "audio": [
+        "audio/phrases/show real interest.wav"
+      ]
+    },
+    {
+      "id": "build-mutual-trust",
+      "english": "build mutual trust",
+      "translation": "строить взаимное доверие",
+      "audio": [
+        "audio/phrases/build mutual trust.wav"
+      ]
+    },
+    {
+      "id": "lose-focus-quickly",
+      "english": "lose focus quickly",
+      "translation": "быстро терять фокус",
+      "audio": [
+        "audio/phrases/lose focus quickly.wav"
+      ]
+    },
+    {
+      "id": "take-initiative-early",
+      "english": "take initiative early",
+      "translation": "проявлять инициативу заранее",
+      "audio": [
+        "audio/phrases/take initiative early.wav"
+      ]
+    },
+    {
+      "id": "manage-client-expectations",
+      "english": "manage client expectations",
+      "translation": "управлять ожиданиями клиентов",
+      "audio": [
+        "audio/phrases/manage client expectations.wav"
+      ]
+    },
+    {
+      "id": "handle-pressure-well",
+      "english": "handle pressure well",
+      "translation": "хорошо справляться с давлением",
+      "audio": [
+        "audio/phrases/handle pressure well.wav"
+      ]
+    },
+    {
+      "id": "deal-effectively-together",
+      "english": "deal effectively together",
+      "translation": "эффективно справляться вместе",
+      "audio": [
+        "audio/phrases/deal effectively together.wav"
+      ]
+    },
+    {
+      "id": "clear-strategic-direction",
+      "english": "clear strategic direction",
+      "translation": "чёткое стратегическое направление",
+      "audio": [
+        "audio/phrases/clear strategic direction.wav"
+      ]
+    },
+    {
+      "id": "strong-logical-argument",
+      "english": "strong logical argument",
+      "translation": "весомый логический аргумент",
+      "audio": [
+        "audio/phrases/strong logical argument.wav"
+      ]
+    },
+    {
+      "id": "key-success-factor",
+      "english": "key success factor",
+      "translation": "ключевой фактор успеха",
+      "audio": [
+        "audio/phrases/key success factor.wav"
+      ]
+    },
+    {
+      "id": "common-industry-practice",
+      "english": "common industry practice",
+      "translation": "распространённая практика отрасли",
+      "audio": [
+        "audio/phrases/common industry practice.wav"
+      ]
+    },
+    {
+      "id": "real-business-challenge",
+      "english": "real business challenge",
+      "translation": "реальный бизнес-вызов",
+      "audio": [
+        "audio/phrases/real business challenge.wav"
+      ]
+    },
+    {
+      "id": "significant-market-change",
+      "english": "significant market change",
+      "translation": "значительное изменение рынка",
+      "audio": [
+        "audio/phrases/significant market change.wav"
+      ]
+    },
+    {
+      "id": "positive-final-outcome",
+      "english": "positive final outcome",
+      "translation": "положительный итоговый результат",
+      "audio": [
+        "audio/phrases/positive final outcome.wav"
+      ]
+    },
+    {
+      "id": "long-term-business-goal",
+      "english": "long-term business goal",
+      "translation": "долгосрочная бизнес-цель",
+      "audio": [
+        "audio/phrases/long-term business goal.wav"
+      ]
+    },
+    {
+      "id": "natural-speech-flow",
+      "english": "natural speech flow",
+      "translation": "естественный поток речи",
+      "audio": [
+        "audio/phrases/natural speech flow.wav"
+      ]
+    },
+    {
+      "id": "spoken-english-skills",
+      "english": "spoken English skills",
+      "translation": "навыки разговорного английского",
+      "audio": [
+        "audio/phrases/spoken English skills.wav"
+      ]
+    }
+  ]
+}

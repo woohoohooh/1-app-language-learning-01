@@ -1,0 +1,197 @@
+{
+  "theme": "Люди и семья",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "man",
+      "english": "man",
+      "translation": "мужчина"
+    },
+    {
+      "id": "woman",
+      "english": "woman",
+      "translation": "женщина"
+    },
+    {
+      "id": "child",
+      "english": "child",
+      "translation": "ребёнок"
+    },
+    {
+      "id": "children",
+      "english": "children",
+      "translation": "дети"
+    },
+    {
+      "id": "boy",
+      "english": "boy",
+      "translation": "мальчик"
+    },
+    {
+      "id": "girl",
+      "english": "girl",
+      "translation": "девочка"
+    },
+    {
+      "id": "mother",
+      "english": "mother",
+      "translation": "мама"
+    },
+    {
+      "id": "father",
+      "english": "father",
+      "translation": "папа"
+    },
+    {
+      "id": "mom",
+      "english": "mom",
+      "translation": "мама"
+    },
+    {
+      "id": "dad",
+      "english": "dad",
+      "translation": "папа"
+    },
+    {
+      "id": "parent",
+      "english": "parent",
+      "translation": "родитель"
+    },
+    {
+      "id": "son",
+      "english": "son",
+      "translation": "сын"
+    },
+    {
+      "id": "daughter",
+      "english": "daughter",
+      "translation": "дочь"
+    },
+    {
+      "id": "brother",
+      "english": "brother",
+      "translation": "брат"
+    },
+    {
+      "id": "sister",
+      "english": "sister",
+      "translation": "сестра"
+    },
+    {
+      "id": "husband",
+      "english": "husband",
+      "translation": "муж"
+    },
+    {
+      "id": "wife",
+      "english": "wife",
+      "translation": "жена"
+    },
+    {
+      "id": "grandmother",
+      "english": "grandmother",
+      "translation": "бабушка"
+    },
+    {
+      "id": "grandfather",
+      "english": "grandfather",
+      "translation": "дедушка"
+    },
+    {
+      "id": "grandparent",
+      "english": "grandparent",
+      "translation": "бабушка или дедушка"
+    },
+    {
+      "id": "uncle",
+      "english": "uncle",
+      "translation": "дядя"
+    },
+    {
+      "id": "aunt",
+      "english": "aunt",
+      "translation": "тётя"
+    },
+    {
+      "id": "baby",
+      "english": "baby",
+      "translation": "младенец"
+    },
+    {
+      "id": "adult",
+      "english": "adult",
+      "translation": "взрослый"
+    },
+    {
+      "id": "friendship",
+      "english": "friendship",
+      "translation": "дружба"
+    },
+    {
+      "id": "neighbor",
+      "english": "neighbor",
+      "translation": "сосед"
+    },
+    {
+      "id": "partner",
+      "english": "partner",
+      "translation": "партнёр"
+    },
+    {
+      "id": "couple",
+      "english": "couple",
+      "translation": "пара"
+    },
+    {
+      "id": "name",
+      "english": "name",
+      "translation": "имя"
+    },
+    {
+      "id": "age",
+      "english": "age",
+      "translation": "возраст"
+    },
+    {
+      "id": "gender",
+      "english": "gender",
+      "translation": "пол"
+    },
+    {
+      "id": "relative",
+      "english": "relative",
+      "translation": "родственник"
+    },
+    {
+      "id": "relationship",
+      "english": "relationship",
+      "translation": "отношения"
+    },
+    {
+      "id": "marriage",
+      "english": "marriage",
+      "translation": "брак"
+    },
+    {
+      "id": "wedding",
+      "english": "wedding",
+      "translation": "свадьба"
+    },
+    {
+      "id": "cousin",
+      "english": "cousin",
+      "translation": "двоюродный брат"
+    },
+    {
+      "id": "single",
+      "english": "single",
+      "translation": "не в отношениях"
+    },
+    {
+      "id": "married",
+      "english": "married",
+      "translation": "женат"
+    }
+  ]
+}

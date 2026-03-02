@@ -1,0 +1,327 @@
+{
+  "theme": "Юриспруденция",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-law-protects-consumer-rights.",
+      "english": "The law protects consumer rights.",
+      "translation": "Закон защищает права потребителей.",
+      "audio": [
+        "audio/sentences/The law protects consumer rights..wav"
+      ]
+    },
+    {
+      "id": "she-requested-legal-support.",
+      "english": "She requested legal support.",
+      "translation": "Она запросила юридическую поддержку.",
+      "audio": [
+        "audio/sentences/She requested legal support..wav"
+      ]
+    },
+    {
+      "id": "the-contract-expires-next-year.",
+      "english": "The contract expires next year.",
+      "translation": "Договор истекает в следующем году.",
+      "audio": [
+        "audio/sentences/The contract expires next year..wav"
+      ]
+    },
+    {
+      "id": "the-agreement-covers-all-details.",
+      "english": "The agreement covers all details.",
+      "translation": "Соглашение охватывает все детали.",
+      "audio": [
+        "audio/sentences/The agreement covers all details..wav"
+      ]
+    },
+    {
+      "id": "this-clause-limits-liability.",
+      "english": "This clause limits liability.",
+      "translation": "Этот пункт ограничивает ответственность.",
+      "audio": [
+        "audio/sentences/This clause limits liability..wav"
+      ]
+    },
+    {
+      "id": "the-terms-were-revised.",
+      "english": "The terms were revised.",
+      "translation": "Условия были пересмотрены.",
+      "audio": [
+        "audio/sentences/The terms were revised..wav"
+      ]
+    },
+    {
+      "id": "conditions-may-change.",
+      "english": "Conditions may change.",
+      "translation": "Условия могут измениться.",
+      "audio": [
+        "audio/sentences/Conditions may change..wav"
+      ]
+    },
+    {
+      "id": "each-party-has-an-obligation.",
+      "english": "Each party has an obligation.",
+      "translation": "У каждой стороны есть обязательство.",
+      "audio": [
+        "audio/sentences/Each party has an obligation..wav"
+      ]
+    },
+    {
+      "id": "liability-depends-on-damages.",
+      "english": "Liability depends on damages.",
+      "translation": "Ответственность зависит от ущерба.",
+      "audio": [
+        "audio/sentences/Liability depends on damages..wav"
+      ]
+    },
+    {
+      "id": "a-penalty-applies-for-delay.",
+      "english": "A penalty applies for delay.",
+      "translation": "За задержку применяется штраф.",
+      "audio": [
+        "audio/sentences/A penalty applies for delay..wav"
+      ]
+    },
+    {
+      "id": "the-breach-triggered-a-dispute.",
+      "english": "The breach triggered a dispute.",
+      "translation": "Нарушение вызвало спор.",
+      "audio": [
+        "audio/sentences/The breach triggered a dispute..wav"
+      ]
+    },
+    {
+      "id": "the-violation-was-reported.",
+      "english": "The violation was reported.",
+      "translation": "О нарушении сообщили.",
+      "audio": [
+        "audio/sentences/The violation was reported..wav"
+      ]
+    },
+    {
+      "id": "compliance-is-mandatory.",
+      "english": "Compliance is mandatory.",
+      "translation": "Соответствие требованиям обязательно.",
+      "audio": [
+        "audio/sentences/Compliance is mandatory..wav"
+      ]
+    },
+    {
+      "id": "the-regulation-affects-pricing.",
+      "english": "The regulation affects pricing.",
+      "translation": "Регулирование влияет на ценообразование.",
+      "audio": [
+        "audio/sentences/The regulation affects pricing..wav"
+      ]
+    },
+    {
+      "id": "the-policy-outlines-procedures.",
+      "english": "The policy outlines procedures.",
+      "translation": "Политика описывает процедуры.",
+      "audio": [
+        "audio/sentences/The policy outlines procedures..wav"
+      ]
+    },
+    {
+      "id": "rights-must-be-respected.",
+      "english": "Rights must be respected.",
+      "translation": "Права должны соблюдаться.",
+      "audio": [
+        "audio/sentences/Rights must be respected..wav"
+      ]
+    },
+    {
+      "id": "duties-are-clearly-defined.",
+      "english": "Duties are clearly defined.",
+      "translation": "Обязанности чётко определены.",
+      "audio": [
+        "audio/sentences/Duties are clearly defined..wav"
+      ]
+    },
+    {
+      "id": "each-party-signed-willingly.",
+      "english": "Each party signed willingly.",
+      "translation": "Каждая сторона подписала добровольно.",
+      "audio": [
+        "audio/sentences/Each party signed willingly..wav"
+      ]
+    },
+    {
+      "id": "a-third-party-was-involved.",
+      "english": "A third party was involved.",
+      "translation": "Была вовлечена третья сторона.",
+      "audio": [
+        "audio/sentences/A third party was involved..wav"
+      ]
+    },
+    {
+      "id": "the-counterparty-approved-changes.",
+      "english": "The counterparty approved changes.",
+      "translation": "Контрагент одобрил изменения.",
+      "audio": [
+        "audio/sentences/The counterparty approved changes..wav"
+      ]
+    },
+    {
+      "id": "the-contract-needs-your-signature.",
+      "english": "The contract needs your signature.",
+      "translation": "Для договора требуется ваша подпись.",
+      "audio": [
+        "audio/sentences/The contract needs your signature..wav"
+      ]
+    },
+    {
+      "id": "the-amendment-changed-the-payment-terms.",
+      "english": "The amendment changed the payment terms.",
+      "translation": "Поправка изменила условия оплаты.",
+      "audio": [
+        "audio/sentences/The amendment changed the payment terms..wav"
+      ]
+    },
+    {
+      "id": "termination-is-possible-with-notice.",
+      "english": "Termination is possible with notice.",
+      "translation": "Расторжение возможно при уведомлении.",
+      "audio": [
+        "audio/sentences/Termination is possible with notice..wav"
+      ]
+    },
+    {
+      "id": "the-license-expires-after-one-year.",
+      "english": "The license expires after one year.",
+      "translation": "Лицензия истекает через один год.",
+      "audio": [
+        "audio/sentences/The license expires after one year..wav"
+      ]
+    },
+    {
+      "id": "renewal-requires-written-approval.",
+      "english": "Renewal requires written approval.",
+      "translation": "Продление требует письменного одобрения.",
+      "audio": [
+        "audio/sentences/Renewal requires written approval..wav"
+      ]
+    },
+    {
+      "id": "the-dispute-was-settled-privately.",
+      "english": "The dispute was settled privately.",
+      "translation": "Спор был урегулирован в частном порядке.",
+      "audio": [
+        "audio/sentences/The dispute was settled privately..wav"
+      ]
+    },
+    {
+      "id": "she-filed-a-claim-for-damages.",
+      "english": "She filed a claim for damages.",
+      "translation": "Она подала претензию о возмещении ущерба.",
+      "audio": [
+        "audio/sentences/She filed a claim for damages..wav"
+      ]
+    },
+    {
+      "id": "the-company-faced-a-costly-lawsuit.",
+      "english": "The company faced a costly lawsuit.",
+      "translation": "Компания столкнулась с дорогостоящим иском.",
+      "audio": [
+        "audio/sentences/The company faced a costly lawsuit..wav"
+      ]
+    },
+    {
+      "id": "the-court-reviewed-the-evidence.",
+      "english": "The court reviewed the evidence.",
+      "translation": "Суд рассмотрел доказательства.",
+      "audio": [
+        "audio/sentences/The court reviewed the evidence..wav"
+      ]
+    },
+    {
+      "id": "they-agreed-to-a-fair-settlement.",
+      "english": "They agreed to a fair settlement.",
+      "translation": "Они согласились на справедливое соглашение.",
+      "audio": [
+        "audio/sentences/They agreed to a fair settlement..wav"
+      ]
+    },
+    {
+      "id": "this-case-falls-under-federal-jurisdiction.",
+      "english": "This case falls under federal jurisdiction.",
+      "translation": "Это дело подпадает под федеральную юрисдикцию.",
+      "audio": [
+        "audio/sentences/This case falls under federal jurisdiction..wav"
+      ]
+    },
+    {
+      "id": "intellectual-property-rights-were-violated.",
+      "english": "Intellectual property rights were violated.",
+      "translation": "Права интеллектуальной собственности были нарушены.",
+      "audio": [
+        "audio/sentences/Intellectual property rights were violated..wav"
+      ]
+    },
+    {
+      "id": "copyright-protects-original-content.",
+      "english": "Copyright protects original content.",
+      "translation": "Авторское право защищает оригинальный контент.",
+      "audio": [
+        "audio/sentences/Copyright protects original content..wav"
+      ]
+    },
+    {
+      "id": "the-trademark-is-legally-registered.",
+      "english": "The trademark is legally registered.",
+      "translation": "Товарный знак официально зарегистрирован.",
+      "audio": [
+        "audio/sentences/The trademark is legally registered..wav"
+      ]
+    },
+    {
+      "id": "confidentiality-must-be-maintained.",
+      "english": "Confidentiality must be maintained.",
+      "translation": "Конфиденциальность должна соблюдаться.",
+      "audio": [
+        "audio/sentences/Confidentiality must be maintained..wav"
+      ]
+    },
+    {
+      "id": "privacy-is-protected-by-law.",
+      "english": "Privacy is protected by law.",
+      "translation": "Приватность защищена законом.",
+      "audio": [
+        "audio/sentences/Privacy is protected by law..wav"
+      ]
+    },
+    {
+      "id": "consent-was-obtained-in-advance.",
+      "english": "Consent was obtained in advance.",
+      "translation": "Согласие было получено заранее.",
+      "audio": [
+        "audio/sentences/Consent was obtained in advance..wav"
+      ]
+    },
+    {
+      "id": "authorization-is-needed-to-proceed.",
+      "english": "Authorization is needed to proceed.",
+      "translation": "Для продолжения требуется разрешение.",
+      "audio": [
+        "audio/sentences/Authorization is needed to proceed..wav"
+      ]
+    },
+    {
+      "id": "the-representation-was-inaccurate.",
+      "english": "The representation was inaccurate.",
+      "translation": "Заявление оказалось недостоверным.",
+      "audio": [
+        "audio/sentences/The representation was inaccurate..wav"
+      ]
+    },
+    {
+      "id": "the-warranty-covers-defects-only.",
+      "english": "The warranty covers defects only.",
+      "translation": "Гарантия покрывает только дефекты.",
+      "audio": [
+        "audio/sentences/The warranty covers defects only..wav"
+      ]
+    }
+  ]
+}

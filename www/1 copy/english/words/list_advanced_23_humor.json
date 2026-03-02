@@ -1,0 +1,255 @@
+{
+  "theme": "Юмор в общении",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "humor",
+      "english": "humor",
+      "translation": "юмор",
+      "audio": [
+        "audio/words/humor.wav"
+      ]
+    },
+    {
+      "id": "joke",
+      "english": "joke",
+      "translation": "шутка",
+      "audio": [
+        "audio/words/joke.wav"
+      ]
+    },
+    {
+      "id": "wit",
+      "english": "wit",
+      "translation": "остроумие",
+      "audio": [
+        "audio/words/wit.wav"
+      ]
+    },
+    {
+      "id": "wittiness",
+      "english": "wittiness",
+      "translation": "остроумность",
+      "audio": [
+        "audio/words/wittiness.wav"
+      ]
+    },
+    {
+      "id": "playfulness",
+      "english": "playfulness",
+      "translation": "игривость",
+      "audio": [
+        "audio/words/playfulness.wav"
+      ]
+    },
+    {
+      "id": "sarcasm",
+      "english": "sarcasm",
+      "translation": "сарказм",
+      "audio": [
+        "audio/words/sarcasm.wav"
+      ]
+    },
+    {
+      "id": "irony",
+      "english": "irony",
+      "translation": "ирония",
+      "audio": [
+        "audio/words/irony.wav"
+      ]
+    },
+    {
+      "id": "mockery",
+      "english": "mockery",
+      "translation": "насмешка",
+      "audio": [
+        "audio/words/mockery.wav"
+      ]
+    },
+    {
+      "id": "teasing",
+      "english": "teasing",
+      "translation": "поддразнивание",
+      "audio": [
+        "audio/words/teasing.wav"
+      ]
+    },
+    {
+      "id": "banter",
+      "english": "banter",
+      "translation": "шутливый обмен репликами",
+      "audio": [
+        "audio/words/banter.wav"
+      ]
+    },
+    {
+      "id": "exaggeration",
+      "english": "exaggeration",
+      "translation": "преувеличение",
+      "audio": [
+        "audio/words/exaggeration.wav"
+      ]
+    },
+    {
+      "id": "absurdity",
+      "english": "absurdity",
+      "translation": "абсурд",
+      "audio": [
+        "audio/words/absurdity.wav"
+      ]
+    },
+    {
+      "id": "nonsense",
+      "english": "nonsense",
+      "translation": "нелепица",
+      "audio": [
+        "audio/words/nonsense.wav"
+      ]
+    },
+    {
+      "id": "parody",
+      "english": "parody",
+      "translation": "пародия",
+      "audio": [
+        "audio/words/parody.wav"
+      ]
+    },
+    {
+      "id": "satire",
+      "english": "satire",
+      "translation": "сатира",
+      "audio": [
+        "audio/words/satire.wav"
+      ]
+    },
+    {
+      "id": "self-irony",
+      "english": "self-irony",
+      "translation": "самоирония",
+      "audio": [
+        "audio/words/self-irony.wav"
+      ]
+    },
+    {
+      "id": "self-mockery",
+      "english": "self-mockery",
+      "translation": "самоирония",
+      "audio": [
+        "audio/words/self-mockery.wav"
+      ]
+    },
+    {
+      "id": "understatement",
+      "english": "understatement",
+      "translation": "уменьшение, недосказанность",
+      "audio": [
+        "audio/words/understatement.wav"
+      ]
+    },
+    {
+      "id": "overstatement",
+      "english": "overstatement",
+      "translation": "гипербола",
+      "audio": [
+        "audio/words/overstatement.wav"
+      ]
+    },
+    {
+      "id": "delivery",
+      "english": "delivery",
+      "translation": "подача",
+      "audio": [
+        "audio/words/delivery.wav"
+      ]
+    },
+    {
+      "id": "timing",
+      "english": "timing",
+      "translation": "чувство момента",
+      "audio": [
+        "audio/words/timing.wav"
+      ]
+    },
+    {
+      "id": "tone",
+      "english": "tone",
+      "translation": "тон",
+      "audio": [
+        "audio/words/tone.wav"
+      ]
+    },
+    {
+      "id": "expression",
+      "english": "expression",
+      "translation": "выражение",
+      "audio": [
+        "audio/words/expression.wav"
+      ]
+    },
+    {
+      "id": "awkwardness",
+      "english": "awkwardness",
+      "translation": "неловкость",
+      "audio": [
+        "audio/words/awkwardness.wav"
+      ]
+    },
+    {
+      "id": "offense",
+      "english": "offense",
+      "translation": "оскорбление",
+      "audio": [
+        "audio/words/offense.wav"
+      ]
+    },
+    {
+      "id": "misinterpretation",
+      "english": "misinterpretation",
+      "translation": "неверное понимание",
+      "audio": [
+        "audio/words/misinterpretation.wav"
+      ]
+    },
+    {
+      "id": "sensitivity",
+      "english": "sensitivity",
+      "translation": "чувствительность",
+      "audio": [
+        "audio/words/sensitivity.wav"
+      ]
+    },
+    {
+      "id": "deadpan",
+      "english": "deadpan",
+      "translation": "сухая подача",
+      "audio": [
+        "audio/words/deadpan.wav"
+      ]
+    },
+    {
+      "id": "lightheartedness",
+      "english": "lightheartedness",
+      "translation": "лёгкость",
+      "audio": [
+        "audio/words/lightheartedness.wav"
+      ]
+    },
+    {
+      "id": "amusement",
+      "english": "amusement",
+      "translation": "веселье",
+      "audio": [
+        "audio/words/amusement.wav"
+      ]
+    },
+    {
+      "id": "entertainment",
+      "english": "entertainment",
+      "translation": "развлечение",
+      "audio": [
+        "audio/words/entertainment.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "theme": "Принятие решений",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "decision",
+      "english": "decision",
+      "translation": "решение",
+      "audio": [
+        "audio/words/decision.wav"
+      ]
+    },
+    {
+      "id": "choice",
+      "english": "choice",
+      "translation": "выбор",
+      "audio": [
+        "audio/words/choice.wav"
+      ]
+    },
+    {
+      "id": "option",
+      "english": "option",
+      "translation": "вариант",
+      "audio": [
+        "audio/words/option.wav"
+      ]
+    },
+    {
+      "id": "alternative",
+      "english": "alternative",
+      "translation": "альтернатива",
+      "audio": [
+        "audio/words/alternative.wav"
+      ]
+    },
+    {
+      "id": "selection",
+      "english": "selection",
+      "translation": "выбор",
+      "audio": [
+        "audio/words/selection.wav"
+      ]
+    },
+    {
+      "id": "approach",
+      "english": "approach",
+      "translation": "подход",
+      "audio": [
+        "audio/words/approach.wav"
+      ]
+    },
+    {
+      "id": "strategy",
+      "english": "strategy",
+      "translation": "стратегия",
+      "audio": [
+        "audio/words/strategy.wav"
+      ]
+    },
+    {
+      "id": "plan",
+      "english": "plan",
+      "translation": "план",
+      "audio": [
+        "audio/words/plan.wav"
+      ]
+    },
+    {
+      "id": "direction",
+      "english": "direction",
+      "translation": "направление",
+      "audio": [
+        "audio/words/direction.wav"
+      ]
+    },
+    {
+      "id": "priority",
+      "english": "priority",
+      "translation": "приоритет",
+      "audio": [
+        "audio/words/priority.wav"
+      ]
+    },
+    {
+      "id": "criteria",
+      "english": "criteria",
+      "translation": "критерии",
+      "audio": [
+        "audio/words/criteria.wav"
+      ]
+    },
+    {
+      "id": "constraint",
+      "english": "constraint",
+      "translation": "ограничение",
+      "audio": [
+        "audio/words/constraint.wav"
+      ]
+    },
+    {
+      "id": "trade-off",
+      "english": "trade-off",
+      "translation": "компромисс",
+      "audio": [
+        "audio/words/trade-off.wav"
+      ]
+    },
+    {
+      "id": "feasibility",
+      "english": "feasibility",
+      "translation": "осуществимость",
+      "audio": [
+        "audio/words/feasibility.wav"
+      ]
+    },
+    {
+      "id": "viability",
+      "english": "viability",
+      "translation": "жизнеспособность",
+      "audio": [
+        "audio/words/viability.wav"
+      ]
+    },
+    {
+      "id": "risk",
+      "english": "risk",
+      "translation": "риск",
+      "audio": [
+        "audio/words/risk.wav"
+      ]
+    },
+    {
+      "id": "uncertainty",
+      "english": "uncertainty",
+      "translation": "неопределенность",
+      "audio": [
+        "audio/words/uncertainty.wav"
+      ]
+    },
+    {
+      "id": "probability",
+      "english": "probability",
+      "translation": "вероятность",
+      "audio": [
+        "audio/words/probability.wav"
+      ]
+    },
+    {
+      "id": "impact",
+      "english": "impact",
+      "translation": "влияние",
+      "audio": [
+        "audio/words/impact.wav"
+      ]
+    },
+    {
+      "id": "outcome",
+      "english": "outcome",
+      "translation": "результат",
+      "audio": [
+        "audio/words/outcome.wav"
+      ]
+    },
+    {
+      "id": "consequence",
+      "english": "consequence",
+      "translation": "последствие",
+      "audio": [
+        "audio/words/consequence.wav"
+      ]
+    },
+    {
+      "id": "implication",
+      "english": "implication",
+      "translation": "возможное последствие",
+      "audio": [
+        "audio/words/implication.wav"
+      ]
+    },
+    {
+      "id": "benefit",
+      "english": "benefit",
+      "translation": "выгода",
+      "audio": [
+        "audio/words/benefit.wav"
+      ]
+    },
+    {
+      "id": "drawback",
+      "english": "drawback",
+      "translation": "недостаток",
+      "audio": [
+        "audio/words/drawback.wav"
+      ]
+    },
+    {
+      "id": "cost",
+      "english": "cost",
+      "translation": "стоимость",
+      "audio": [
+        "audio/words/cost.wav"
+      ]
+    },
+    {
+      "id": "judgment",
+      "english": "judgment",
+      "translation": "суждение",
+      "audio": [
+        "audio/words/judgment.wav"
+      ]
+    },
+    {
+      "id": "evaluation",
+      "english": "evaluation",
+      "translation": "оценивание",
+      "audio": [
+        "audio/words/evaluation.wav"
+      ]
+    },
+    {
+      "id": "assessment",
+      "english": "assessment",
+      "translation": "оценка",
+      "audio": [
+        "audio/words/assessment.wav"
+      ]
+    },
+    {
+      "id": "consideration",
+      "english": "consideration",
+      "translation": "рассмотрение",
+      "audio": [
+        "audio/words/consideration.wav"
+      ]
+    },
+    {
+      "id": "deliberation",
+      "english": "deliberation",
+      "translation": "обдумывание",
+      "audio": [
+        "audio/words/deliberation.wav"
+      ]
+    },
+    {
+      "id": "commitment",
+      "english": "commitment",
+      "translation": "принятие обязательства",
+      "audio": [
+        "audio/words/commitment.wav"
+      ]
+    },
+    {
+      "id": "responsibility",
+      "english": "responsibility",
+      "translation": "ответственность",
+      "audio": [
+        "audio/words/responsibility.wav"
+      ]
+    },
+    {
+      "id": "accountability",
+      "english": "accountability",
+      "translation": "ответственность за результат",
+      "audio": [
+        "audio/words/accountability.wav"
+      ]
+    },
+    {
+      "id": "confidence",
+      "english": "confidence",
+      "translation": "уверенность",
+      "audio": [
+        "audio/words/confidence.wav"
+      ]
+    },
+    {
+      "id": "hesitation",
+      "english": "hesitation",
+      "translation": "колебание",
+      "audio": [
+        "audio/words/hesitation.wav"
+      ]
+    }
+  ]
+}

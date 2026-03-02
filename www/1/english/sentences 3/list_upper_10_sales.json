@@ -1,0 +1,167 @@
+{
+  "theme": "Продажи и переговоры",
+  "level": "Upper-Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "sales",
+      "translation": "продажи"
+    },
+    {
+      "english": "deal",
+      "translation": "сделка"
+    },
+    {
+      "english": "agreement",
+      "translation": "соглашение"
+    },
+    {
+      "english": "contract",
+      "translation": "контракт"
+    },
+    {
+      "english": "proposal",
+      "translation": "коммерческое предложение"
+    },
+    {
+      "english": "offer",
+      "translation": "предложение"
+    },
+    {
+      "english": "pricing",
+      "translation": "ценообразование"
+    },
+    {
+      "english": "price",
+      "translation": "цена"
+    },
+    {
+      "english": "discount",
+      "translation": "скидка"
+    },
+    {
+      "english": "margin",
+      "translation": "маржа"
+    },
+    {
+      "english": "client",
+      "translation": "клиент"
+    },
+    {
+      "english": "customer",
+      "translation": "покупатель"
+    },
+    {
+      "english": "prospect",
+      "translation": "потенциальный клиент"
+    },
+    {
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона"
+    },
+    {
+      "english": "decision maker",
+      "translation": "лицо, принимающее решение"
+    },
+    {
+      "english": "negotiation",
+      "translation": "переговоры"
+    },
+    {
+      "english": "discussion",
+      "translation": "обсуждение"
+    },
+    {
+      "english": "terms",
+      "translation": "условия"
+    },
+    {
+      "english": "conditions",
+      "translation": "условия"
+    },
+    {
+      "english": "requirements",
+      "translation": "требования"
+    },
+    {
+      "english": "objection",
+      "translation": "возражение"
+    },
+    {
+      "english": "concern",
+      "translation": "опасение"
+    },
+    {
+      "english": "counteroffer",
+      "translation": "встречное предложение"
+    },
+    {
+      "english": "compromise",
+      "translation": "компромисс"
+    },
+    {
+      "english": "concession",
+      "translation": "уступка"
+    },
+    {
+      "english": "approval",
+      "translation": "утверждение"
+    },
+    {
+      "english": "confirmation",
+      "translation": "подтверждение"
+    },
+    {
+      "english": "signature",
+      "translation": "подпись"
+    },
+    {
+      "english": "closing",
+      "translation": "закрытие сделки"
+    },
+    {
+      "english": "follow-up",
+      "translation": "дополнительный контакт"
+    },
+    {
+      "english": "pipeline",
+      "translation": "воронка продаж"
+    },
+    {
+      "english": "forecast",
+      "translation": "прогноз"
+    },
+    {
+      "english": "revenue",
+      "translation": "выручка"
+    },
+    {
+      "english": "commission",
+      "translation": "комиссия"
+    },
+    {
+      "english": "quota",
+      "translation": "план продаж"
+    },
+    {
+      "english": "relationship",
+      "translation": "отношения"
+    },
+    {
+      "english": "trust",
+      "translation": "доверие"
+    },
+    {
+      "english": "long-term",
+      "translation": "долгосрочный"
+    },
+    {
+      "english": "partnership",
+      "translation": "партнёрство"
+    },
+    {
+      "english": "renewal",
+      "translation": "продление"
+    }
+  ]
+}

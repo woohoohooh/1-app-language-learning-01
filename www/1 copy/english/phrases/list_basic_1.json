@@ -1,0 +1,80 @@
+{
+  "theme": "Частые слова (база)",
+  "level": "Beginner",
+  "name": "Phrases",
+  "items": [
+    {"id":"i-think","english":"I think","translation":"я думаю","audio":["audio/phrases/I think.wav"]},
+    {"id":"you-know","english":"you know","translation":"ты знаешь","audio":["audio/phrases/you know.wav"]},
+    {"id":"he-works","english":"he works","translation":"он работает","audio":["audio/phrases/he works.wav"]},
+    {"id":"she-feels","english":"she feels","translation":"она чувствует","audio":["audio/phrases/she feels.wav"]},
+    {"id":"we-move","english":"we move","translation":"мы движемся","audio":["audio/phrases/we move.wav"]},
+    {"id":"they-agree","english":"they agree","translation":"они согласны","audio":["audio/phrases/they agree.wav"]},
+
+    {"id":"be-honest","english":"be honest","translation":"будь честен","audio":["audio/phrases/be honest.wav"]},
+    {"id":"enough-time","english":"enough time","translation":"достаточно времени","audio":["audio/phrases/enough time.wav"]},
+    {"id":"do-it","english":"do it","translation":"сделай это","audio":["audio/phrases/do it.wav"]},
+    {"id":"say-it","english":"say it","translation":"скажи это","audio":["audio/phrases/say it.wav"]},
+    {"id":"come-back","english":"come back","translation":"вернись","audio":["audio/phrases/come back.wav"]},
+    {"id":"see-it","english":"see it","translation":"увидь это","audio":["audio/phrases/see it.wav"]},
+
+    {"id":"hear-a-sound","english":"hear a sound","translation":"слышать звук","audio":["audio/phrases/hear a sound.wav"]},
+    {"id":"know-the-answer","english":"know the answer","translation":"знать ответ","audio":["audio/phrases/know the answer.wav"]},
+    {"id":"think-about","english":"think about","translation":"думать о","audio":["audio/phrases/think about.wav"]},
+    {"id":"want-more","english":"want more","translation":"хотеть больше","audio":["audio/phrases/want more.wav"]},
+    {"id":"need-help","english":"need help","translation":"нужна помощь","audio":["audio/phrases/need help.wav"]},
+    {"id":"like-the-idea","english":"like the idea","translation":"нравится идея","audio":["audio/phrases/like the idea.wav"]},
+
+    {"id":"use-a-tool","english":"use a tool","translation":"использовать инструмент","audio":["audio/phrases/use a tool.wav"]},
+    {"id":"try-again","english":"try again","translation":"попробуй снова","audio":["audio/phrases/try again.wav"]},
+    {"id":"ask-questions","english":"ask questions","translation":"задавать вопросы","audio":["audio/phrases/ask questions.wav"]},
+    {"id":"give-feedback","english":"give feedback","translation":"дать обратную связь","audio":["audio/phrases/give feedback.wav"]},
+    {"id":"take-a-break","english":"take a break","translation":"сделать перерыв","audio":["audio/phrases/take a break.wav"]},
+    {"id":"find-the-answer","english":"find the answer","translation":"найти ответ","audio":["audio/phrases/find the answer.wav"]},
+
+    {"id":"tell-the-truth","english":"tell the truth","translation":"сказать правду","audio":["audio/phrases/tell the truth.wav"]},
+    {"id":"save-time","english":"save time","translation":"сэкономить время","audio":["audio/phrases/save time.wav"]},
+    {"id":"day-by-day","english":"day by day","translation":"день за днём","audio":["audio/phrases/day by day.wav"]},
+    {"id":"this-year","english":"this year","translation":"этот год","audio":["audio/phrases/this year.wav"]},
+    {"id":"many-people","english":"many people","translation":"много людей","audio":["audio/phrases/many people.wav"]},
+    {"id":"one-person","english":"one person","translation":"один человек","audio":["audio/phrases/one person.wav"]},
+
+    {"id":"a-simple-thing","english":"a simple thing","translation":"простая вещь","audio":["audio/phrases/a simple thing.wav"]},
+    {"id":"a-quiet-place","english":"a quiet place","translation":"тихое место","audio":["audio/phrases/a quiet place.wav"]},
+    {"id":"a-serious-problem","english":"a serious problem","translation":"серьёзная проблема","audio":["audio/phrases/a serious problem.wav"]},
+    {"id":"a-simple-question","english":"a simple question","translation":"простой вопрос","audio":["audio/phrases/a simple question.wav"]},
+
+    {"id":"back-home","english":"back home","translation":"обратно домой","audio":["audio/phrases/back home.wav"]},
+    {"id":"a-close-friend","english":"a close friend","translation":"близкий друг","audio":["audio/phrases/a close friend.wav"]},
+    {"id":"a-good-result","english":"a good result","translation":"хороший результат","audio":["audio/phrases/a good result.wav"]},
+    {"id":"a-bad-idea","english":"a bad idea","translation":"плохая идея","audio":["audio/phrases/a bad idea.wav"]},
+    {"id":"a-big-problem","english":"a big problem","translation":"большая проблема","audio":["audio/phrases/a big problem.wav"]},
+    {"id":"a-new-idea","english":"a new idea","translation":"новая идея","audio":["audio/phrases/a new idea.wav"]},
+
+    {"id":"right-now","english":"right now","translation":"прямо сейчас","audio":["audio/phrases/right now.wav"]},
+    {"id":"stay-here","english":"stay here","translation":"останься здесь","audio":["audio/phrases/stay here.wav"]},
+    {"id":"over-there","english":"over there","translation":"вон там","audio":["audio/phrases/over there.wav"]},
+    {"id":"on-time","english":"on time","translation":"вовремя","audio":["audio/phrases/on time.wav"]},
+
+    {"id":"in-a-room","english":"in a room","translation":"в комнате","audio":["audio/phrases/in a room.wav"]},
+    {"id":"on-a-table","english":"on a table","translation":"на столе","audio":["audio/phrases/on a table.wav"]},
+    {"id":"with-a-friend","english":"with a friend","translation":"с другом","audio":["audio/phrases/with a friend.wav"]},
+    {"id":"without-doubt","english":"without doubt","translation":"без сомнений","audio":["audio/phrases/without doubt.wav"]},
+
+    {"id":"before-start","english":"before start","translation":"до начала","audio":["audio/phrases/before start.wav"]},
+    {"id":"after-call","english":"after call","translation":"после звонка","audio":["audio/phrases/after call.wav"]},
+
+    {"id":"what-now","english":"what now","translation":"что теперь","audio":["audio/phrases/what now.wav"]},
+    {"id":"who-is","english":"who is","translation":"кто это","audio":["audio/phrases/who is.wav"]},
+    {"id":"where-to","english":"where to","translation":"куда идти","audio":["audio/phrases/where to.wav"]},
+    {"id":"how-it","english":"how it","translation":"как это","audio":["audio/phrases/how it.wav"]},
+
+    {"id":"make-a-choice","english":"make a choice","translation":"сделать выбор","audio":["audio/phrases/make a choice.wav"]},
+    {"id":"leave-the-room","english":"leave the room","translation":"уйти из комнаты","audio":["audio/phrases/leave the room.wav"]},
+    {"id":"another-way","english":"another way","translation":"другой способ","audio":["audio/phrases/another way.wav"]},
+    {"id":"a-right-answer","english":"a right answer","translation":"правильный ответ","audio":["audio/phrases/a right answer.wav"]},
+
+    {"id":"at-the-door","english":"at the door","translation":"у двери","audio":["audio/phrases/at the door.wav"]},
+    {"id":"to-the-point","english":"to the point","translation":"по сути","audio":["audio/phrases/to the point.wav"]},
+    {"id":"about-the-topic","english":"about the topic","translation":"об этой теме","audio":["audio/phrases/about the topic.wav"]}
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "theme": "Влияние и убеждение",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "his-influence-changed-the-final-decision.",
+      "english": "His influence changed the final decision.",
+      "translation": "Его влияние изменило окончательное решение.",
+      "audio": [
+        "audio/sentences/His influence changed the final decision..wav"
+      ]
+    },
+    {
+      "id": "persuasion-works-better-with-trust.",
+      "english": "Persuasion works better with trust.",
+      "translation": "Убеждение работает лучше с доверием.",
+      "audio": [
+        "audio/sentences/Persuasion works better with trust..wav"
+      ]
+    },
+    {
+      "id": "she-gave-a-persuasive-argument.",
+      "english": "She gave a persuasive argument.",
+      "translation": "Она привела убедительный аргумент.",
+      "audio": [
+        "audio/sentences/She gave a persuasive argument..wav"
+      ]
+    },
+    {
+      "id": "he-spoke-with-strong-conviction.",
+      "english": "He spoke with strong conviction.",
+      "translation": "Он говорил с сильной убеждённостью.",
+      "audio": [
+        "audio/sentences/He spoke with strong conviction..wav"
+      ]
+    },
+    {
+      "id": "credibility-takes-time-to-build.",
+      "english": "Credibility takes time to build.",
+      "translation": "Доверие требует времени.",
+      "audio": [
+        "audio/sentences/Credibility takes time to build..wav"
+      ]
+    },
+    {
+      "id": "she-has-authority-in-this-field.",
+      "english": "She has authority in this field.",
+      "translation": "У неё есть авторитет в этой области.",
+      "audio": [
+        "audio/sentences/She has authority in this field..wav"
+      ]
+    },
+    {
+      "id": "trustworthiness-matters-in-leadership.",
+      "english": "Trustworthiness matters in leadership.",
+      "translation": "Надёжность важна в лидерстве.",
+      "audio": [
+        "audio/sentences/Trustworthiness matters in leadership..wav"
+      ]
+    },
+    {
+      "id": "confidence-affects-how-people-listen.",
+      "english": "Confidence affects how people listen.",
+      "translation": "Уверенность влияет на восприятие.",
+      "audio": [
+        "audio/sentences/Confidence affects how people listen..wav"
+      ]
+    },
+    {
+      "id": "charisma-draws-people-in.",
+      "english": "Charisma draws people in.",
+      "translation": "Харизма притягивает людей.",
+      "audio": [
+        "audio/sentences/Charisma draws people in..wav"
+      ]
+    },
+    {
+      "id": "his-presence-filled-the-room.",
+      "english": "His presence filled the room.",
+      "translation": "Его присутствие заполнило комнату.",
+      "audio": [
+        "audio/sentences/His presence filled the room..wav"
+      ]
+    },
+    {
+      "id": "the-idea-has-broad-appeal.",
+      "english": "The idea has broad appeal.",
+      "translation": "Эта идея имеет широкую привлекательность.",
+      "audio": [
+        "audio/sentences/The idea has broad appeal..wav"
+      ]
+    },
+    {
+      "id": "her-reasoning-was-easy-to-follow.",
+      "english": "Her reasoning was easy to follow.",
+      "translation": "Её рассуждения было легко понять.",
+      "audio": [
+        "audio/sentences/Her reasoning was easy to follow..wav"
+      ]
+    },
+    {
+      "id": "logic-supports-the-argument.",
+      "english": "Logic supports the argument.",
+      "translation": "Логика поддерживает аргумент.",
+      "audio": [
+        "audio/sentences/Logic supports the argument..wav"
+      ]
+    },
+    {
+      "id": "emotion-shapes-persuasion.",
+      "english": "Emotion shapes persuasion.",
+      "translation": "Эмоция формирует убеждение.",
+      "audio": [
+        "audio/sentences/Emotion shapes persuasion..wav"
+      ]
+    },
+    {
+      "id": "the-story-had-emotional-impact.",
+      "english": "The story had emotional impact.",
+      "translation": "История оказала эмоциональное воздействие.",
+      "audio": [
+        "audio/sentences/The story had emotional impact..wav"
+      ]
+    },
+    {
+      "id": "framing-changes-perception.",
+      "english": "Framing changes perception.",
+      "translation": "Подача меняет восприятие.",
+      "audio": [
+        "audio/sentences/Framing changes perception..wav"
+      ]
+    },
+    {
+      "id": "positioning-defines-the-message.",
+      "english": "Positioning defines the message.",
+      "translation": "Позиционирование определяет посыл.",
+      "audio": [
+        "audio/sentences/Positioning defines the message..wav"
+      ]
+    },
+    {
+      "id": "emphasis-guides-attention.",
+      "english": "Emphasis guides attention.",
+      "translation": "Акцент направляет внимание.",
+      "audio": [
+        "audio/sentences/Emphasis guides attention..wav"
+      ]
+    },
+    {
+      "id": "tone-affects-trust.",
+      "english": "Tone affects trust.",
+      "translation": "Тон влияет на доверие.",
+      "audio": [
+        "audio/sentences/Tone affects trust..wav"
+      ]
+    },
+    {
+      "id": "messaging-must-stay-consistent.",
+      "english": "Messaging must stay consistent.",
+      "translation": "Передача идеи должна быть последовательной.",
+      "audio": [
+        "audio/sentences/Messaging must stay consistent..wav"
+      ]
+    },
+    {
+      "id": "motivation-drives-action.",
+      "english": "Motivation drives action.",
+      "translation": "Мотивация побуждает к действию.",
+      "audio": [
+        "audio/sentences/Motivation drives action..wav"
+      ]
+    },
+    {
+      "id": "incentives-influence-behavior.",
+      "english": "Incentives influence behavior.",
+      "translation": "Стимулы влияют на поведение.",
+      "audio": [
+        "audio/sentences/Incentives influence behavior..wav"
+      ]
+    },
+    {
+      "id": "leverage-strengthens-negotiation.",
+      "english": "Leverage strengthens negotiation.",
+      "translation": "Рычаг влияния усиливает переговоры.",
+      "audio": [
+        "audio/sentences/Leverage strengthens negotiation..wav"
+      ]
+    },
+    {
+      "id": "pressure-can-backfire.",
+      "english": "Pressure can backfire.",
+      "translation": "Давление может дать обратный эффект.",
+      "audio": [
+        "audio/sentences/Pressure can backfire..wav"
+      ]
+    },
+    {
+      "id": "resistance-slowed-progress.",
+      "english": "Resistance slowed progress.",
+      "translation": "Сопротивление замедлило прогресс.",
+      "audio": [
+        "audio/sentences/Resistance slowed progress..wav"
+      ]
+    },
+    {
+      "id": "he-addressed-every-objection.",
+      "english": "He addressed every objection.",
+      "translation": "Он ответил на каждое возражение.",
+      "audio": [
+        "audio/sentences/He addressed every objection..wav"
+      ]
+    },
+    {
+      "id": "acceptance-followed-discussion.",
+      "english": "Acceptance followed discussion.",
+      "translation": "Принятие последовало за обсуждением.",
+      "audio": [
+        "audio/sentences/Acceptance followed discussion..wav"
+      ]
+    },
+    {
+      "id": "agreement-ended-the-debate.",
+      "english": "Agreement ended the debate.",
+      "translation": "Согласие завершило спор.",
+      "audio": [
+        "audio/sentences/Agreement ended the debate..wav"
+      ]
+    },
+    {
+      "id": "alignment-improves-cooperation.",
+      "english": "Alignment improves cooperation.",
+      "translation": "Согласованность улучшает сотрудничество.",
+      "audio": [
+        "audio/sentences/Alignment improves cooperation..wav"
+      ]
+    },
+    {
+      "id": "buy-in-ensures-commitment.",
+      "english": "Buy-in ensures commitment.",
+      "translation": "Вовлечённое согласие обеспечивает приверженность.",
+      "audio": [
+        "audio/sentences/Buy-in ensures commitment..wav"
+      ]
+    },
+    {
+      "id": "manipulation-erodes-trust.",
+      "english": "Manipulation erodes trust.",
+      "translation": "Манипуляция разрушает доверие.",
+      "audio": [
+        "audio/sentences/Manipulation erodes trust..wav"
+      ]
+    },
+    {
+      "id": "ethical-influence-respects-choice.",
+      "english": "Ethical influence respects choice.",
+      "translation": "Этичное влияние уважает выбор.",
+      "audio": [
+        "audio/sentences/Ethical influence respects choice..wav"
+      ]
+    },
+    {
+      "id": "transparency-builds-credibility.",
+      "english": "Transparency builds credibility.",
+      "translation": "Прозрачность повышает доверие.",
+      "audio": [
+        "audio/sentences/Transparency builds credibility..wav"
+      ]
+    },
+    {
+      "id": "intent-defines-direction.",
+      "english": "Intent defines direction.",
+      "translation": "Намерение задаёт направление.",
+      "audio": [
+        "audio/sentences/Intent defines direction..wav"
+      ]
+    },
+    {
+      "id": "perception-shapes-reality.",
+      "english": "Perception shapes reality.",
+      "translation": "Восприятие формирует реальность.",
+      "audio": [
+        "audio/sentences/Perception shapes reality..wav"
+      ]
+    }
+  ]
+}

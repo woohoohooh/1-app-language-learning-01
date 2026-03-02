@@ -1,0 +1,367 @@
+{
+  "theme": "Офис и деловое общение",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-office-opens-at-nine.",
+      "english": "The office opens at nine.",
+      "translation": "Офис открывается в девять.",
+      "audio": [
+        "audio/sentences/The office opens at nine..wav"
+      ]
+    },
+    {
+      "id": "the-workplace-looks-modern.",
+      "english": "The workplace looks modern.",
+      "translation": "Рабочее место выглядит современно.",
+      "audio": [
+        "audio/sentences/The workplace looks modern..wav"
+      ]
+    },
+    {
+      "id": "she-works-in-the-finance-department.",
+      "english": "She works in the finance department.",
+      "translation": "Она работает в финансовом отделе.",
+      "audio": [
+        "audio/sentences/She works in the finance department..wav"
+      ]
+    },
+    {
+      "id": "our-team-grows-quickly.",
+      "english": "Our team grows quickly.",
+      "translation": "Наша команда быстро растёт.",
+      "audio": [
+        "audio/sentences/Our team grows quickly..wav"
+      ]
+    },
+    {
+      "id": "the-staff-was-very-helpful.",
+      "english": "The staff was very helpful.",
+      "translation": "Персонал был очень отзывчивым.",
+      "audio": [
+        "audio/sentences/The staff was very helpful..wav"
+      ]
+    },
+    {
+      "id": "the-meeting-starts-in-ten-minutes.",
+      "english": "The meeting starts in ten minutes.",
+      "translation": "Встреча начинается через десять минут.",
+      "audio": [
+        "audio/sentences/The meeting starts in ten minutes..wav"
+      ]
+    },
+    {
+      "id": "i-have-an-appointment-today.",
+      "english": "I have an appointment today.",
+      "translation": "У меня сегодня назначена встреча.",
+      "audio": [
+        "audio/sentences/I have an appointment today..wav"
+      ]
+    },
+    {
+      "id": "the-agenda-includes-three-topics.",
+      "english": "The agenda includes three topics.",
+      "translation": "Повестка включает три темы.",
+      "audio": [
+        "audio/sentences/The agenda includes three topics..wav"
+      ]
+    },
+    {
+      "id": "she-took-minutes-during-the-meeting.",
+      "english": "She took minutes during the meeting.",
+      "translation": "Она вела протокол во время встречи.",
+      "audio": [
+        "audio/sentences/She took minutes during the meeting..wav"
+      ]
+    },
+    {
+      "id": "the-discussion-lasted-an-hour.",
+      "english": "The discussion lasted an hour.",
+      "translation": "Обсуждение длилось час.",
+      "audio": [
+        "audio/sentences/The discussion lasted an hour..wav"
+      ]
+    },
+    {
+      "id": "i-sent-you-an-email.",
+      "english": "I sent you an email.",
+      "translation": "Я отправил тебе письмо.",
+      "audio": [
+        "audio/sentences/I sent you an email..wav"
+      ]
+    },
+    {
+      "id": "he-left-me-a-short-message.",
+      "english": "He left me a short message.",
+      "translation": "Он оставил мне короткое сообщение.",
+      "audio": [
+        "audio/sentences/He left me a short message..wav"
+      ]
+    },
+    {
+      "id": "she-received-an-important-call.",
+      "english": "She received an important call.",
+      "translation": "Она получила важный звонок.",
+      "audio": [
+        "audio/sentences/She received an important call..wav"
+      ]
+    },
+    {
+      "id": "the-conference-ended-early.",
+      "english": "The conference ended early.",
+      "translation": "Конференция закончилась рано.",
+      "audio": [
+        "audio/sentences/The conference ended early..wav"
+      ]
+    },
+    {
+      "id": "we-had-a-video-call-yesterday.",
+      "english": "We had a video call yesterday.",
+      "translation": "У нас был видеозвонок вчера.",
+      "audio": [
+        "audio/sentences/We had a video call yesterday..wav"
+      ]
+    },
+    {
+      "id": "the-request-was-approved.",
+      "english": "The request was approved.",
+      "translation": "Запрос был одобрен.",
+      "audio": [
+        "audio/sentences/The request was approved..wav"
+      ]
+    },
+    {
+      "id": "we-got-a-positive-response.",
+      "english": "We got a positive response.",
+      "translation": "Мы получили положительный ответ.",
+      "audio": [
+        "audio/sentences/We got a positive response..wav"
+      ]
+    },
+    {
+      "id": "the-client-sent-useful-feedback.",
+      "english": "The client sent useful feedback.",
+      "translation": "Клиент прислал полезную обратную связь.",
+      "audio": [
+        "audio/sentences/The client sent useful feedback..wav"
+      ]
+    },
+    {
+      "id": "we-need-approval-from-management.",
+      "english": "We need approval from management.",
+      "translation": "Нам нужно одобрение от руководства.",
+      "audio": [
+        "audio/sentences/We need approval from management..wav"
+      ]
+    },
+    {
+      "id": "they-sent-a-confirmation-email.",
+      "english": "They sent a confirmation email.",
+      "translation": "Они отправили письмо с подтверждением.",
+      "audio": [
+        "audio/sentences/They sent a confirmation email..wav"
+      ]
+    },
+    {
+      "id": "both-sides-reached-an-agreement.",
+      "english": "Both sides reached an agreement.",
+      "translation": "Обе стороны достигли соглашения.",
+      "audio": [
+        "audio/sentences/Both sides reached an agreement..wav"
+      ]
+    },
+    {
+      "id": "the-arrangement-worked-for-everyone.",
+      "english": "The arrangement worked for everyone.",
+      "translation": "Договорённость устроила всех.",
+      "audio": [
+        "audio/sentences/The arrangement worked for everyone..wav"
+      ]
+    },
+    {
+      "id": "negotiations-continued-all-week.",
+      "english": "Negotiations continued all week.",
+      "translation": "Переговоры продолжались всю неделю.",
+      "audio": [
+        "audio/sentences/Negotiations continued all week..wav"
+      ]
+    },
+    {
+      "id": "we-made-that-decision.",
+      "english": "We made that decision.",
+      "translation": "Мы приняли то решение.",
+      "audio": [
+        "audio/sentences/We made that decision..wav"
+      ]
+    },
+    {
+      "id": "we-got-formal-approval.",
+      "english": "We got formal approval.",
+      "translation": "Мы получили официальное утверждение.",
+      "audio": [
+        "audio/sentences/We got formal approval..wav"
+      ]
+    },
+    {
+      "id": "she-reviewed-the-document.",
+      "english": "She reviewed the document.",
+      "translation": "Она проверила документ.",
+      "audio": [
+        "audio/sentences/She reviewed the document..wav"
+      ]
+    },
+    {
+      "id": "he-sent-the-report-yesterday.",
+      "english": "He sent the report yesterday.",
+      "translation": "Он отправил отчёт вчера.",
+      "audio": [
+        "audio/sentences/He sent the report yesterday..wav"
+      ]
+    },
+    {
+      "id": "the-presentation-starts-soon.",
+      "english": "The presentation starts soon.",
+      "translation": "Презентация скоро начинается.",
+      "audio": [
+        "audio/sentences/The presentation starts soon..wav"
+      ]
+    },
+    {
+      "id": "they-updated-the-spreadsheet.",
+      "english": "They updated the spreadsheet.",
+      "translation": "Они обновили таблицу.",
+      "audio": [
+        "audio/sentences/They updated the spreadsheet..wav"
+      ]
+    },
+    {
+      "id": "i-downloaded-the-file.",
+      "english": "I downloaded the file.",
+      "translation": "Я скачал файл.",
+      "audio": [
+        "audio/sentences/I downloaded the file..wav"
+      ]
+    },
+    {
+      "id": "the-policy-changed-recently.",
+      "english": "The policy changed recently.",
+      "translation": "Политика недавно изменилась.",
+      "audio": [
+        "audio/sentences/The policy changed recently..wav"
+      ]
+    },
+    {
+      "id": "the-procedure-seems-simple.",
+      "english": "The procedure seems simple.",
+      "translation": "Процедура кажется простой.",
+      "audio": [
+        "audio/sentences/The procedure seems simple..wav"
+      ]
+    },
+    {
+      "id": "these-guidelines-help-everyone.",
+      "english": "These guidelines help everyone.",
+      "translation": "Эти инструкции помогают всем.",
+      "audio": [
+        "audio/sentences/These guidelines help everyone..wav"
+      ]
+    },
+    {
+      "id": "the-requirement-is-mandatory.",
+      "english": "The requirement is mandatory.",
+      "translation": "Это требование является обязательным.",
+      "audio": [
+        "audio/sentences/The requirement is mandatory..wav"
+      ]
+    },
+    {
+      "id": "compliance-is-important-here.",
+      "english": "Compliance is important here.",
+      "translation": "Соответствие здесь важно.",
+      "audio": [
+        "audio/sentences/Compliance is important here..wav"
+      ]
+    },
+    {
+      "id": "this-task-is-a-priority.",
+      "english": "This task is a priority.",
+      "translation": "Эта задача — приоритет.",
+      "audio": [
+        "audio/sentences/This task is a priority..wav"
+      ]
+    },
+    {
+      "id": "we-received-an-update.",
+      "english": "We received an update.",
+      "translation": "Мы получили обновление.",
+      "audio": [
+        "audio/sentences/We received an update..wav"
+      ]
+    },
+    {
+      "id": "the-status-changed-today.",
+      "english": "The status changed today.",
+      "translation": "Статус изменился сегодня.",
+      "audio": [
+        "audio/sentences/The status changed today..wav"
+      ]
+    },
+    {
+      "id": "the-progress-looks-good.",
+      "english": "The progress looks good.",
+      "translation": "Прогресс выглядит хорошо.",
+      "audio": [
+        "audio/sentences/The progress looks good..wav"
+      ]
+    },
+    {
+      "id": "the-issue-was-resolved.",
+      "english": "The issue was resolved.",
+      "translation": "Проблема была решена.",
+      "audio": [
+        "audio/sentences/The issue was resolved..wav"
+      ]
+    },
+    {
+      "id": "the-tone-was-formal.",
+      "english": "The tone was formal.",
+      "translation": "Тон был официальным.",
+      "audio": [
+        "audio/sentences/The tone was formal..wav"
+      ]
+    },
+    {
+      "id": "their-meeting-was-informal.",
+      "english": "Their meeting was informal.",
+      "translation": "Их встреча была неофициальной.",
+      "audio": [
+        "audio/sentences/Their meeting was informal..wav"
+      ]
+    },
+    {
+      "id": "he-sounded-professional.",
+      "english": "He sounded professional.",
+      "translation": "Он звучал профессионально.",
+      "audio": [
+        "audio/sentences/He sounded professional..wav"
+      ]
+    },
+    {
+      "id": "it-was-an-internal-matter.",
+      "english": "It was an internal matter.",
+      "translation": "Это был внутренний вопрос.",
+      "audio": [
+        "audio/sentences/It was an internal matter..wav"
+      ]
+    },
+    {
+      "id": "the-external-factor-mattered.",
+      "english": "The external factor mattered.",
+      "translation": "Внешний фактор имел значение.",
+      "audio": [
+        "audio/sentences/The external factor mattered..wav"
+      ]
+    }
+  ]
+}

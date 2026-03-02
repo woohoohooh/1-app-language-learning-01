@@ -1,0 +1,287 @@
+{
+  "theme": "Лидерство",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "leadership-defines-team-culture.",
+      "english": "Leadership defines team culture.",
+      "translation": "Лидерство формирует культуру команды.",
+      "audio": [
+        "audio/sentences/Leadership defines team culture..wav"
+      ]
+    },
+    {
+      "id": "a-leader-sets-the-example.",
+      "english": "A leader sets the example.",
+      "translation": "Лидер подаёт пример.",
+      "audio": [
+        "audio/sentences/A leader sets the example..wav"
+      ]
+    },
+    {
+      "id": "authority-must-be-earned.",
+      "english": "Authority must be earned.",
+      "translation": "Авторитет нужно заслужить.",
+      "audio": [
+        "audio/sentences/Authority must be earned..wav"
+      ]
+    },
+    {
+      "id": "responsibility-comes-with-leadership.",
+      "english": "Responsibility comes with leadership.",
+      "translation": "Ответственность приходит вместе с лидерством.",
+      "audio": [
+        "audio/sentences/Responsibility comes with leadership..wav"
+      ]
+    },
+    {
+      "id": "ownership-drives-better-results.",
+      "english": "Ownership drives better results.",
+      "translation": "Владение ответственностью ведёт к лучшим результатам.",
+      "audio": [
+        "audio/sentences/Ownership drives better results..wav"
+      ]
+    },
+    {
+      "id": "vision-inspires-collective-effort.",
+      "english": "Vision inspires collective effort.",
+      "translation": "Видение вдохновляет коллективные усилия.",
+      "audio": [
+        "audio/sentences/Vision inspires collective effort..wav"
+      ]
+    },
+    {
+      "id": "direction-prevents-confusion.",
+      "english": "Direction prevents confusion.",
+      "translation": "Направление предотвращает путаницу.",
+      "audio": [
+        "audio/sentences/Direction prevents confusion..wav"
+      ]
+    },
+    {
+      "id": "strategy-aligns-actions-with-goals.",
+      "english": "Strategy aligns actions with goals.",
+      "translation": "Стратегия связывает действия с целями.",
+      "audio": [
+        "audio/sentences/Strategy aligns actions with goals..wav"
+      ]
+    },
+    {
+      "id": "alignment-improves-execution.",
+      "english": "Alignment improves execution.",
+      "translation": "Согласованность улучшает выполнение.",
+      "audio": [
+        "audio/sentences/Alignment improves execution..wav"
+      ]
+    },
+    {
+      "id": "priority-guides-decision-making.",
+      "english": "Priority guides decision making.",
+      "translation": "Приоритет направляет принятие решений.",
+      "audio": [
+        "audio/sentences/Priority guides decision making..wav"
+      ]
+    },
+    {
+      "id": "initiative-signals-leadership-potential.",
+      "english": "Initiative signals leadership potential.",
+      "translation": "Инициатива показывает лидерский потенциал.",
+      "audio": [
+        "audio/sentences/Initiative signals leadership potential..wav"
+      ]
+    },
+    {
+      "id": "accountability-builds-trust.",
+      "english": "Accountability builds trust.",
+      "translation": "Подотчётность укрепляет доверие.",
+      "audio": [
+        "audio/sentences/Accountability builds trust..wav"
+      ]
+    },
+    {
+      "id": "empowerment-increases-engagement.",
+      "english": "Empowerment increases engagement.",
+      "translation": "Делегирование полномочий повышает вовлечённость.",
+      "audio": [
+        "audio/sentences/Empowerment increases engagement..wav"
+      ]
+    },
+    {
+      "id": "delegation-frees-leadership-time.",
+      "english": "Delegation frees leadership time.",
+      "translation": "Делегирование освобождает время лидера.",
+      "audio": [
+        "audio/sentences/Delegation frees leadership time..wav"
+      ]
+    },
+    {
+      "id": "autonomy-boosts-motivation.",
+      "english": "Autonomy boosts motivation.",
+      "translation": "Самостоятельность повышает мотивацию.",
+      "audio": [
+        "audio/sentences/Autonomy boosts motivation..wav"
+      ]
+    },
+    {
+      "id": "influence-extends-beyond-authority.",
+      "english": "Influence extends beyond authority.",
+      "translation": "Влияние выходит за рамки власти.",
+      "audio": [
+        "audio/sentences/Influence extends beyond authority..wav"
+      ]
+    },
+    {
+      "id": "credibility-strengthens-leadership.",
+      "english": "Credibility strengthens leadership.",
+      "translation": "Доверие усиливает лидерство.",
+      "audio": [
+        "audio/sentences/Credibility strengthens leadership..wav"
+      ]
+    },
+    {
+      "id": "trust-enables-open-communication.",
+      "english": "Trust enables open communication.",
+      "translation": "Доверие позволяет открытому общению.",
+      "audio": [
+        "audio/sentences/Trust enables open communication..wav"
+      ]
+    },
+    {
+      "id": "respect-builds-strong-teams.",
+      "english": "Respect builds strong teams.",
+      "translation": "Уважение формирует сильные команды.",
+      "audio": [
+        "audio/sentences/Respect builds strong teams..wav"
+      ]
+    },
+    {
+      "id": "integrity-defines-real-leadership.",
+      "english": "Integrity defines real leadership.",
+      "translation": "Честность определяет настоящее лидерство.",
+      "audio": [
+        "audio/sentences/Integrity defines real leadership..wav"
+      ]
+    },
+    {
+      "id": "mentorship-accelerates-professional-growth.",
+      "english": "Mentorship accelerates professional growth.",
+      "translation": "Наставничество ускоряет профессиональный рост.",
+      "audio": [
+        "audio/sentences/Mentorship accelerates professional growth..wav"
+      ]
+    },
+    {
+      "id": "coaching-improves-individual-performance.",
+      "english": "Coaching improves individual performance.",
+      "translation": "Коучинг повышает индивидуальную результативность.",
+      "audio": [
+        "audio/sentences/Coaching improves individual performance..wav"
+      ]
+    },
+    {
+      "id": "development-requires-consistent-effort.",
+      "english": "Development requires consistent effort.",
+      "translation": "Развитие требует постоянных усилий.",
+      "audio": [
+        "audio/sentences/Development requires consistent effort..wav"
+      ]
+    },
+    {
+      "id": "growth-comes-from-challenging-goals.",
+      "english": "Growth comes from challenging goals.",
+      "translation": "Рост приходит через сложные цели.",
+      "audio": [
+        "audio/sentences/Growth comes from challenging goals..wav"
+      ]
+    },
+    {
+      "id": "leaders-recognize-hidden-potential.",
+      "english": "Leaders recognize hidden potential.",
+      "translation": "Лидеры распознают скрытый потенциал.",
+      "audio": [
+        "audio/sentences/Leaders recognize hidden potential..wav"
+      ]
+    },
+    {
+      "id": "motivation-drives-daily-progress.",
+      "english": "Motivation drives daily progress.",
+      "translation": "Мотивация движет ежедневным прогрессом.",
+      "audio": [
+        "audio/sentences/Motivation drives daily progress..wav"
+      ]
+    },
+    {
+      "id": "commitment-ensures-long-term-success.",
+      "english": "Commitment ensures long term success.",
+      "translation": "Приверженность обеспечивает долгосрочный успех.",
+      "audio": [
+        "audio/sentences/Commitment ensures long term success..wav"
+      ]
+    },
+    {
+      "id": "engagement-increases-overall-productivity.",
+      "english": "Engagement increases overall productivity.",
+      "translation": "Вовлечённость повышает общую продуктивность.",
+      "audio": [
+        "audio/sentences/Engagement increases overall productivity..wav"
+      ]
+    },
+    {
+      "id": "performance-reflects-leadership-quality.",
+      "english": "Performance reflects leadership quality.",
+      "translation": "Результативность отражает качество лидерства.",
+      "audio": [
+        "audio/sentences/Performance reflects leadership quality..wav"
+      ]
+    },
+    {
+      "id": "execution-turns-strategy-into-results.",
+      "english": "Execution turns strategy into results.",
+      "translation": "Исполнение превращает стратегию в результат.",
+      "audio": [
+        "audio/sentences/Execution turns strategy into results..wav"
+      ]
+    },
+    {
+      "id": "ownership-mindset-changes-behavior.",
+      "english": "Ownership mindset changes behavior.",
+      "translation": "Мышление ответственности меняет поведение.",
+      "audio": [
+        "audio/sentences/Ownership mindset changes behavior..wav"
+      ]
+    },
+    {
+      "id": "a-role-model-inspires-others.",
+      "english": "A role model inspires others.",
+      "translation": "Пример для подражания вдохновляет других.",
+      "audio": [
+        "audio/sentences/A role model inspires others..wav"
+      ]
+    },
+    {
+      "id": "the-decision-maker-evaluated-all-options.",
+      "english": "The decision-maker evaluated all options.",
+      "translation": "Лицо, принимающее решения, оценило все варианты.",
+      "audio": [
+        "audio/sentences/The decision-maker evaluated all options..wav"
+      ]
+    },
+    {
+      "id": "each-stakeholder-has-different-expectations.",
+      "english": "Each stakeholder has different expectations.",
+      "translation": "У каждой заинтересованной стороны разные ожидания.",
+      "audio": [
+        "audio/sentences/Each stakeholder has different expectations..wav"
+      ]
+    },
+    {
+      "id": "the-successor-was-carefully-prepared.",
+      "english": "The successor was carefully prepared.",
+      "translation": "Преемник был тщательно подготовлен.",
+      "audio": [
+        "audio/sentences/The successor was carefully prepared..wav"
+      ]
+    }
+  ]
+}

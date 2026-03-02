@@ -1,0 +1,327 @@
+{
+  "theme": "Общество и современный мир",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "modern-society-today",
+      "english": "modern society today",
+      "translation": "современное общество сегодня",
+      "audio": [
+        "audio/phrases/modern society today.wav"
+      ]
+    },
+    {
+      "id": "local-community-support",
+      "english": "local community support",
+      "translation": "поддержка местного сообщества",
+      "audio": [
+        "audio/phrases/local community support.wav"
+      ]
+    },
+    {
+      "id": "growing-population-trends",
+      "english": "growing population trends",
+      "translation": "тенденции роста населения",
+      "audio": [
+        "audio/phrases/growing population trends.wav"
+      ]
+    },
+    {
+      "id": "new-generation-mindset",
+      "english": "new generation mindset",
+      "translation": "мышление нового поколения",
+      "audio": [
+        "audio/phrases/new generation mindset.wav"
+      ]
+    },
+    {
+      "id": "shared-cultural-values",
+      "english": "shared cultural values",
+      "translation": "общие культурные ценности",
+      "audio": [
+        "audio/phrases/shared cultural values.wav"
+      ]
+    },
+    {
+      "id": "core-social-values",
+      "english": "core social values",
+      "translation": "ключевые социальные ценности",
+      "audio": [
+        "audio/phrases/core social values.wav"
+      ]
+    },
+    {
+      "id": "social-norms-change",
+      "english": "social norms change",
+      "translation": "социальные нормы меняются",
+      "audio": [
+        "audio/phrases/social norms change.wav"
+      ]
+    },
+    {
+      "id": "personal-identity-formation",
+      "english": "personal identity formation",
+      "translation": "формирование личной идентичности",
+      "audio": [
+        "audio/phrases/personal identity formation.wav"
+      ]
+    },
+    {
+      "id": "cultural-diversity-grows",
+      "english": "cultural diversity grows",
+      "translation": "культурное разнообразие растёт",
+      "audio": [
+        "audio/phrases/cultural diversity grows.wav"
+      ]
+    },
+    {
+      "id": "social-inclusion-matters",
+      "english": "social inclusion matters",
+      "translation": "инклюзивность важна",
+      "audio": [
+        "audio/phrases/social inclusion matters.wav"
+      ]
+    },
+    {
+      "id": "economic-inequality-persists",
+      "english": "economic inequality persists",
+      "translation": "экономическое неравенство сохраняется",
+      "audio": [
+        "audio/phrases/economic inequality persists.wav"
+      ]
+    },
+    {
+      "id": "equal-opportunity-access",
+      "english": "equal opportunity access",
+      "translation": "равный доступ к возможностям",
+      "audio": [
+        "audio/phrases/equal opportunity access.wav"
+      ]
+    },
+    {
+      "id": "public-access-services",
+      "english": "public access services",
+      "translation": "услуги общественного доступа",
+      "audio": [
+        "audio/phrases/public access services.wav"
+      ]
+    },
+    {
+      "id": "higher-living-standards",
+      "english": "higher living standards",
+      "translation": "более высокий уровень жизни",
+      "audio": [
+        "audio/phrases/higher living standards.wav"
+      ]
+    },
+    {
+      "id": "quality-of-life-improves",
+      "english": "quality of life improves",
+      "translation": "качество жизни улучшается",
+      "audio": [
+        "audio/phrases/quality of life improves.wav"
+      ]
+    },
+    {
+      "id": "globalization-effects-worldwide",
+      "english": "globalization effects worldwide",
+      "translation": "эффекты глобализации по всему миру",
+      "audio": [
+        "audio/phrases/globalization effects worldwide.wav"
+      ]
+    },
+    {
+      "id": "rapid-urbanization-process",
+      "english": "rapid urbanization process",
+      "translation": "процесс быстрой урбанизации",
+      "audio": [
+        "audio/phrases/rapid urbanization process.wav"
+      ]
+    },
+    {
+      "id": "global-migration-patterns",
+      "english": "global migration patterns",
+      "translation": "глобальные миграционные процессы",
+      "audio": [
+        "audio/phrases/global migration patterns.wav"
+      ]
+    },
+    {
+      "id": "changing-demographics-trends",
+      "english": "changing demographics trends",
+      "translation": "изменяющиеся демографические тенденции",
+      "audio": [
+        "audio/phrases/changing demographics trends.wav"
+      ]
+    },
+    {
+      "id": "growing-middle-class",
+      "english": "growing middle class",
+      "translation": "растущий средний класс",
+      "audio": [
+        "audio/phrases/growing middle class.wav"
+      ]
+    },
+    {
+      "id": "modern-technology-tools",
+      "english": "modern technology tools",
+      "translation": "современные технологические инструменты",
+      "audio": [
+        "audio/phrases/modern technology tools.wav"
+      ]
+    },
+    {
+      "id": "digitalization-process-grows",
+      "english": "digitalization process grows",
+      "translation": "процесс цифровизации развивается",
+      "audio": [
+        "audio/phrases/digitalization process grows.wav"
+      ]
+    },
+    {
+      "id": "automation-in-production",
+      "english": "automation in production",
+      "translation": "автоматизация в производстве",
+      "audio": [
+        "audio/phrases/automation in production.wav"
+      ]
+    },
+    {
+      "id": "artificial-intelligence-systems",
+      "english": "artificial intelligence systems",
+      "translation": "системы искусственного интеллекта",
+      "audio": [
+        "audio/phrases/artificial intelligence systems.wav"
+      ]
+    },
+    {
+      "id": "positive-social-impact",
+      "english": "positive social impact",
+      "translation": "положительное социальное влияние",
+      "audio": [
+        "audio/phrases/positive social impact.wav"
+      ]
+    },
+    {
+      "id": "digital-media-platforms",
+      "english": "digital media platforms",
+      "translation": "цифровые медиа платформы",
+      "audio": [
+        "audio/phrases/digital media platforms.wav"
+      ]
+    },
+    {
+      "id": "reliable-information-sources",
+      "english": "reliable information sources",
+      "translation": "надёжные источники информации",
+      "audio": [
+        "audio/phrases/reliable information sources.wav"
+      ]
+    },
+    {
+      "id": "misinformation-online-spreads",
+      "english": "misinformation online spreads",
+      "translation": "дезинформация распространяется онлайн",
+      "audio": [
+        "audio/phrases/misinformation online spreads.wav"
+      ]
+    },
+    {
+      "id": "shaping-public-opinion",
+      "english": "shaping public opinion",
+      "translation": "формирование общественного мнения",
+      "audio": [
+        "audio/phrases/shaping public opinion.wav"
+      ]
+    },
+    {
+      "id": "build-public-trust",
+      "english": "build public trust",
+      "translation": "выстраивать общественное доверие",
+      "audio": [
+        "audio/phrases/build public trust.wav"
+      ]
+    },
+    {
+      "id": "climate-change-effects",
+      "english": "climate change effects",
+      "translation": "последствия изменения климата",
+      "audio": [
+        "audio/phrases/climate change effects.wav"
+      ]
+    },
+    {
+      "id": "protect-the-environment",
+      "english": "protect the environment",
+      "translation": "защищать окружающую среду",
+      "audio": [
+        "audio/phrases/protect the environment.wav"
+      ]
+    },
+    {
+      "id": "focus-on-sustainability",
+      "english": "focus on sustainability",
+      "translation": "фокус на устойчивом развитии",
+      "audio": [
+        "audio/phrases/focus on sustainability.wav"
+      ]
+    },
+    {
+      "id": "limited-natural-resources",
+      "english": "limited natural resources",
+      "translation": "ограниченные природные ресурсы",
+      "audio": [
+        "audio/phrases/limited natural resources.wav"
+      ]
+    },
+    {
+      "id": "renewable-energy-sources",
+      "english": "renewable energy sources",
+      "translation": "возобновляемые источники энергии",
+      "audio": [
+        "audio/phrases/renewable energy sources.wav"
+      ]
+    },
+    {
+      "id": "healthy-lifestyle-choices",
+      "english": "healthy lifestyle choices",
+      "translation": "здоровые жизненные выборы",
+      "audio": [
+        "audio/phrases/healthy lifestyle choices.wav"
+      ]
+    },
+    {
+      "id": "work-life-balance",
+      "english": "work life balance",
+      "translation": "баланс работы и жизни",
+      "audio": [
+        "audio/phrases/work life balance.wav"
+      ]
+    },
+    {
+      "id": "modern-consumerism-culture",
+      "english": "modern consumerism culture",
+      "translation": "культура современного потребительства",
+      "audio": [
+        "audio/phrases/modern consumerism culture.wav"
+      ]
+    },
+    {
+      "id": "rapid-social-change",
+      "english": "rapid social change",
+      "translation": "быстрые социальные изменения",
+      "audio": [
+        "audio/phrases/rapid social change.wav"
+      ]
+    },
+    {
+      "id": "future-society-trends",
+      "english": "future society trends",
+      "translation": "тенденции будущего общества",
+      "audio": [
+        "audio/phrases/future society trends.wav"
+      ]
+    }
+  ]
+}

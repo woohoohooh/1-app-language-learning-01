@@ -1,0 +1,167 @@
+{
+  "theme": "Психология и мышление",
+  "level": "Upper-Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "mind",
+      "translation": "разум"
+    },
+    {
+      "english": "thinking",
+      "translation": "мышление"
+    },
+    {
+      "english": "thought",
+      "translation": "мысль"
+    },
+    {
+      "english": "awareness",
+      "translation": "осознанность"
+    },
+    {
+      "english": "attention",
+      "translation": "внимание"
+    },
+    {
+      "english": "concentration",
+      "translation": "концентрация"
+    },
+    {
+      "english": "memory",
+      "translation": "память"
+    },
+    {
+      "english": "perception",
+      "translation": "восприятие"
+    },
+    {
+      "english": "imagination",
+      "translation": "воображение"
+    },
+    {
+      "english": "emotion",
+      "translation": "эмоция"
+    },
+    {
+      "english": "feeling",
+      "translation": "чувство"
+    },
+    {
+      "english": "mood",
+      "translation": "настроение"
+    },
+    {
+      "english": "stress",
+      "translation": "стресс"
+    },
+    {
+      "english": "anxiety",
+      "translation": "тревожность"
+    },
+    {
+      "english": "motivation",
+      "translation": "мотивация"
+    },
+    {
+      "english": "drive",
+      "translation": "внутренний стимул"
+    },
+    {
+      "english": "discipline",
+      "translation": "дисциплина"
+    },
+    {
+      "english": "habit",
+      "translation": "привычка"
+    },
+    {
+      "english": "routine",
+      "translation": "рутина"
+    },
+    {
+      "english": "behavior",
+      "translation": "поведение"
+    },
+    {
+      "english": "reaction",
+      "translation": "реакция"
+    },
+    {
+      "english": "decision",
+      "translation": "решение"
+    },
+    {
+      "english": "choice",
+      "translation": "выбор"
+    },
+    {
+      "english": "belief",
+      "translation": "убеждение"
+    },
+    {
+      "english": "assumption",
+      "translation": "предположение"
+    },
+    {
+      "english": "expectation",
+      "translation": "ожидание"
+    },
+    {
+      "english": "bias",
+      "translation": "когнитивное искажение"
+    },
+    {
+      "english": "mindset",
+      "translation": "образ мышления"
+    },
+    {
+      "english": "self-esteem",
+      "translation": "самооценка"
+    },
+    {
+      "english": "confidence",
+      "translation": "уверенность"
+    },
+    {
+      "english": "insecurity",
+      "translation": "неуверенность"
+    },
+    {
+      "english": "self-control",
+      "translation": "самоконтроль"
+    },
+    {
+      "english": "resilience",
+      "translation": "психологическая устойчивость"
+    },
+    {
+      "english": "reflection",
+      "translation": "самоанализ"
+    },
+    {
+      "english": "introspection",
+      "translation": "интроспекция"
+    },
+    {
+      "english": "overthinking",
+      "translation": "чрезмерное обдумывание"
+    },
+    {
+      "english": "burnout",
+      "translation": "выгорание"
+    },
+    {
+      "english": "mental health",
+      "translation": "психическое здоровье"
+    },
+    {
+      "english": "focus",
+      "translation": "концентрация"
+    },
+    {
+      "english": "response",
+      "translation": "реакция"
+    }
+  ]
+}

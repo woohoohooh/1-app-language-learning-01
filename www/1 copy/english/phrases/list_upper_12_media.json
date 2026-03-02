@@ -1,0 +1,327 @@
+{
+  "theme": "Новости и медиа",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "latest-news-today",
+      "english": "latest news today",
+      "translation": "последние новости сегодня",
+      "audio": [
+        "audio/phrases/latest news today.wav"
+      ]
+    },
+    {
+      "id": "social-media-impact",
+      "english": "social media impact",
+      "translation": "влияние социальных медиа",
+      "audio": [
+        "audio/phrases/social media impact.wav"
+      ]
+    },
+    {
+      "id": "free-press-standards",
+      "english": "free press standards",
+      "translation": "стандарты свободной прессы",
+      "audio": [
+        "audio/phrases/free press standards.wav"
+      ]
+    },
+    {
+      "id": "ethical-journalism-principles",
+      "english": "ethical journalism principles",
+      "translation": "принципы этичной журналистики",
+      "audio": [
+        "audio/phrases/ethical journalism principles.wav"
+      ]
+    },
+    {
+      "id": "headline-grabs-attention",
+      "english": "headline grabs attention",
+      "translation": "заголовок привлекает внимание",
+      "audio": [
+        "audio/phrases/headline grabs attention.wav"
+      ]
+    },
+    {
+      "id": "read-full-article",
+      "english": "read full article",
+      "translation": "прочитать полную статью",
+      "audio": [
+        "audio/phrases/read full article.wav"
+      ]
+    },
+    {
+      "id": "wide-media-coverage",
+      "english": "wide media coverage",
+      "translation": "широкое освещение в СМИ",
+      "audio": [
+        "audio/phrases/wide media coverage.wav"
+      ]
+    },
+    {
+      "id": "live-broadcast-starts",
+      "english": "live broadcast starts",
+      "translation": "начинается прямая трансляция",
+      "audio": [
+        "audio/phrases/live broadcast starts.wav"
+      ]
+    },
+    {
+      "id": "official-publication-date",
+      "english": "official publication date",
+      "translation": "официальная дата публикации",
+      "audio": [
+        "audio/phrases/official publication date.wav"
+      ]
+    },
+    {
+      "id": "reliable-news-source",
+      "english": "reliable news source",
+      "translation": "надёжный источник новостей",
+      "audio": [
+        "audio/phrases/reliable news source.wav"
+      ]
+    },
+    {
+      "id": "official-statement-issued",
+      "english": "official statement issued",
+      "translation": "опубликовано официальное заявление",
+      "audio": [
+        "audio/phrases/official statement issued.wav"
+      ]
+    },
+    {
+      "id": "public-announcement-made",
+      "english": "public announcement made",
+      "translation": "сделано публичное объявление",
+      "audio": [
+        "audio/phrases/public announcement made.wav"
+      ]
+    },
+    {
+      "id": "latest-update-available",
+      "english": "latest update available",
+      "translation": "доступно последнее обновление",
+      "audio": [
+        "audio/phrases/latest update available.wav"
+      ]
+    },
+    {
+      "id": "breaking-news-alert",
+      "english": "breaking news alert",
+      "translation": "сигнал срочных новостей",
+      "audio": [
+        "audio/phrases/breaking news alert.wav"
+      ]
+    },
+    {
+      "id": "exclusive-interview-aired",
+      "english": "exclusive interview aired",
+      "translation": "вышло эксклюзивное интервью",
+      "audio": [
+        "audio/phrases/exclusive interview aired.wav"
+      ]
+    },
+    {
+      "id": "expert-commentary-provided",
+      "english": "expert commentary provided",
+      "translation": "предоставлен экспертный комментарий",
+      "audio": [
+        "audio/phrases/expert commentary provided.wav"
+      ]
+    },
+    {
+      "id": "in-depth-analysis-follows",
+      "english": "in-depth analysis follows",
+      "translation": "далее следует подробный анализ",
+      "audio": [
+        "audio/phrases/in-depth analysis follows.wav"
+      ]
+    },
+    {
+      "id": "personal-opinion-expressed",
+      "english": "personal opinion expressed",
+      "translation": "выражено личное мнение",
+      "audio": [
+        "audio/phrases/personal opinion expressed.wav"
+      ]
+    },
+    {
+      "id": "editorial-stance-clear",
+      "english": "editorial stance clear",
+      "translation": "позиция редакции ясна",
+      "audio": [
+        "audio/phrases/editorial stance clear.wav"
+      ]
+    },
+    {
+      "id": "check-the-fact",
+      "english": "check the fact",
+      "translation": "проверить факт",
+      "audio": [
+        "audio/phrases/check the fact.wav"
+      ]
+    },
+    {
+      "id": "make-a-claim",
+      "english": "make a claim",
+      "translation": "сделать утверждение",
+      "audio": [
+        "audio/phrases/make a claim.wav"
+      ]
+    },
+    {
+      "id": "clear-evidence",
+      "english": "clear evidence",
+      "translation": "очевидное доказательство",
+      "audio": [
+        "audio/phrases/clear evidence.wav"
+      ]
+    },
+    {
+      "id": "in-this-context",
+      "english": "in this context",
+      "translation": "в этом контексте",
+      "audio": [
+        "audio/phrases/in this context.wav"
+      ]
+    },
+    {
+      "id": "background-details",
+      "english": "background details",
+      "translation": "детали предыстории",
+      "audio": [
+        "audio/phrases/background details.wav"
+      ]
+    },
+    {
+      "id": "media-bias",
+      "english": "media bias",
+      "translation": "медийная предвзятость",
+      "audio": [
+        "audio/phrases/media bias.wav"
+      ]
+    },
+    {
+      "id": "spread-misinformation",
+      "english": "spread misinformation",
+      "translation": "распространять дезинформацию",
+      "audio": [
+        "audio/phrases/spread misinformation.wav"
+      ]
+    },
+    {
+      "id": "political-disinformation",
+      "english": "political disinformation",
+      "translation": "политическая дезинформация",
+      "audio": [
+        "audio/phrases/political disinformation.wav"
+      ]
+    },
+    {
+      "id": "fake-news-story",
+      "english": "fake news story",
+      "translation": "фейковая новость",
+      "audio": [
+        "audio/phrases/fake news story.wav"
+      ]
+    },
+    {
+      "id": "new-trend",
+      "english": "new trend",
+      "translation": "новый тренд",
+      "audio": [
+        "audio/phrases/new trend.wav"
+      ]
+    },
+    {
+      "id": "shape-opinion",
+      "english": "shape opinion",
+      "translation": "формировать мнение",
+      "audio": [
+        "audio/phrases/shape opinion.wav"
+      ]
+    },
+    {
+      "id": "target-audience",
+      "english": "target audience",
+      "translation": "целевая аудитория",
+      "audio": [
+        "audio/phrases/target audience.wav"
+      ]
+    },
+    {
+      "id": "increase-reach",
+      "english": "increase reach",
+      "translation": "увеличить охват",
+      "audio": [
+        "audio/phrases/increase reach.wav"
+      ]
+    },
+    {
+      "id": "high-engagement",
+      "english": "high engagement",
+      "translation": "высокая вовлечённость",
+      "audio": [
+        "audio/phrases/high engagement.wav"
+      ]
+    },
+    {
+      "id": "media-platform",
+      "english": "media platform",
+      "translation": "медийная платформа",
+      "audio": [
+        "audio/phrases/media platform.wav"
+      ]
+    },
+    {
+      "id": "social-media-users",
+      "english": "social media users",
+      "translation": "пользователи соцсетей",
+      "audio": [
+        "audio/phrases/social media users.wav"
+      ]
+    },
+    {
+      "id": "go-viral",
+      "english": "go viral",
+      "translation": "стать вирусным",
+      "audio": [
+        "audio/phrases/go viral.wav"
+      ]
+    },
+    {
+      "id": "news-feed",
+      "english": "news feed",
+      "translation": "новостная лента",
+      "audio": [
+        "audio/phrases/news feed.wav"
+      ]
+    },
+    {
+      "id": "ranking-algorithm",
+      "english": "ranking algorithm",
+      "translation": "алгоритм ранжирования",
+      "audio": [
+        "audio/phrases/ranking algorithm.wav"
+      ]
+    },
+    {
+      "id": "investigative-report-released",
+      "english": "investigative report released",
+      "translation": "опубликован расследовательский отчёт",
+      "audio": [
+        "audio/phrases/investigative report released.wav"
+      ]
+    },
+    {
+      "id": "media-narrative",
+      "english": "media narrative",
+      "translation": "медийный нарратив",
+      "audio": [
+        "audio/phrases/media narrative.wav"
+      ]
+    }
+  ]
+}

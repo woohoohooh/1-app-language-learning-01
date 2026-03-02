@@ -1,0 +1,167 @@
+{
+  "theme": "Программирование и IT",
+  "level": "Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "programming",
+      "translation": "программирование"
+    },
+    {
+      "english": "developer",
+      "translation": "разработчик"
+    },
+    {
+      "english": "software",
+      "translation": "программное обеспечение"
+    },
+    {
+      "english": "application",
+      "translation": "приложение"
+    },
+    {
+      "english": "system",
+      "translation": "система"
+    },
+    {
+      "english": "code",
+      "translation": "код"
+    },
+    {
+      "english": "source code",
+      "translation": "исходный код"
+    },
+    {
+      "english": "function",
+      "translation": "функция"
+    },
+    {
+      "english": "method",
+      "translation": "метод"
+    },
+    {
+      "english": "variable",
+      "translation": "переменная"
+    },
+    {
+      "english": "logic",
+      "translation": "логика"
+    },
+    {
+      "english": "algorithm",
+      "translation": "алгоритм"
+    },
+    {
+      "english": "structure",
+      "translation": "структура"
+    },
+    {
+      "english": "data",
+      "translation": "данные"
+    },
+    {
+      "english": "database",
+      "translation": "база данных"
+    },
+    {
+      "english": "server",
+      "translation": "сервер"
+    },
+    {
+      "english": "client",
+      "translation": "клиент"
+    },
+    {
+      "english": "backend",
+      "translation": "бэкенд"
+    },
+    {
+      "english": "frontend",
+      "translation": "фронтенд"
+    },
+    {
+      "english": "API",
+      "translation": "API"
+    },
+    {
+      "english": "request",
+      "translation": "запрос"
+    },
+    {
+      "english": "response",
+      "translation": "ответ"
+    },
+    {
+      "english": "integration",
+      "translation": "интеграция"
+    },
+    {
+      "english": "deployment",
+      "translation": "развёртывание"
+    },
+    {
+      "english": "environment",
+      "translation": "окружение"
+    },
+    {
+      "english": "framework",
+      "translation": "фреймворк"
+    },
+    {
+      "english": "library",
+      "translation": "библиотека"
+    },
+    {
+      "english": "dependency",
+      "translation": "зависимость"
+    },
+    {
+      "english": "package",
+      "translation": "пакет"
+    },
+    {
+      "english": "version",
+      "translation": "версия"
+    },
+    {
+      "english": "bug",
+      "translation": "баг"
+    },
+    {
+      "english": "issue",
+      "translation": "проблема"
+    },
+    {
+      "english": "fix",
+      "translation": "исправление"
+    },
+    {
+      "english": "debugging",
+      "translation": "отладка"
+    },
+    {
+      "english": "testing",
+      "translation": "тестирование"
+    },
+    {
+      "english": "performance",
+      "translation": "производительность"
+    },
+    {
+      "english": "optimization",
+      "translation": "оптимизация"
+    },
+    {
+      "english": "security",
+      "translation": "безопасность"
+    },
+    {
+      "english": "access",
+      "translation": "доступ"
+    },
+    {
+      "english": "permission",
+      "translation": "разрешение"
+    }
+  ]
+}

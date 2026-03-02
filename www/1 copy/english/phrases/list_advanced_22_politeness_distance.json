@@ -1,0 +1,255 @@
+{
+  "theme": "Вежливость и дистанция",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "show-politeness",
+      "english": "show politeness",
+      "translation": "проявлять вежливость",
+      "audio": [
+        "audio/phrases/show politeness.wav"
+      ]
+    },
+    {
+      "id": "basic-courtesy",
+      "english": "basic courtesy",
+      "translation": "базовая учтивость",
+      "audio": [
+        "audio/phrases/basic courtesy.wav"
+      ]
+    },
+    {
+      "id": "mutual-respect",
+      "english": "mutual respect",
+      "translation": "взаимное уважение",
+      "audio": [
+        "audio/phrases/mutual respect.wav"
+      ]
+    },
+    {
+      "id": "high-formality",
+      "english": "high formality",
+      "translation": "высокая формальность",
+      "audio": [
+        "audio/phrases/high formality.wav"
+      ]
+    },
+    {
+      "id": "casual-informality",
+      "english": "casual informality",
+      "translation": "лёгкая неформальность",
+      "audio": [
+        "audio/phrases/casual informality.wav"
+      ]
+    },
+    {
+      "id": "keep-distance",
+      "english": "keep distance",
+      "translation": "соблюдать дистанцию",
+      "audio": [
+        "audio/phrases/keep distance.wav"
+      ]
+    },
+    {
+      "id": "clear-boundary",
+      "english": "clear boundary",
+      "translation": "чёткая граница",
+      "audio": [
+        "audio/phrases/clear boundary.wav"
+      ]
+    },
+    {
+      "id": "show-professionalism",
+      "english": "show professionalism",
+      "translation": "проявлять профессионализм",
+      "audio": [
+        "audio/phrases/show professionalism.wav"
+      ]
+    },
+    {
+      "id": "maintain-neutrality",
+      "english": "maintain neutrality",
+      "translation": "сохранять нейтральность",
+      "audio": [
+        "audio/phrases/maintain neutrality.wav"
+      ]
+    },
+    {
+      "id": "full-objectivity",
+      "english": "full objectivity",
+      "translation": "полная объективность",
+      "audio": [
+        "audio/phrases/full objectivity.wav"
+      ]
+    },
+    {
+      "id": "appropriate-tone",
+      "english": "appropriate tone",
+      "translation": "подходящий тон",
+      "audio": [
+        "audio/phrases/appropriate tone.wav"
+      ]
+    },
+    {
+      "id": "calm-manner",
+      "english": "calm manner",
+      "translation": "спокойная манера",
+      "audio": [
+        "audio/phrases/calm manner.wav"
+      ]
+    },
+    {
+      "id": "professional-attitude",
+      "english": "professional attitude",
+      "translation": "профессиональное отношение",
+      "audio": [
+        "audio/phrases/professional attitude.wav"
+      ]
+    },
+    {
+      "id": "careful-approach",
+      "english": "careful approach",
+      "translation": "осторожный подход",
+      "audio": [
+        "audio/phrases/careful approach.wav"
+      ]
+    },
+    {
+      "id": "show-consideration",
+      "english": "show consideration",
+      "translation": "проявлять тактичность",
+      "audio": [
+        "audio/phrases/show consideration.wav"
+      ]
+    },
+    {
+      "id": "with-tact",
+      "english": "with tact",
+      "translation": "с тактом",
+      "audio": [
+        "audio/phrases/with tact.wav"
+      ]
+    },
+    {
+      "id": "use-diplomacy",
+      "english": "use diplomacy",
+      "translation": "проявлять дипломатичность",
+      "audio": [
+        "audio/phrases/use diplomacy.wav"
+      ]
+    },
+    {
+      "id": "show-restraint",
+      "english": "show restraint",
+      "translation": "проявлять сдержанность",
+      "audio": [
+        "audio/phrases/show restraint.wav"
+      ]
+    },
+    {
+      "id": "act-with-discretion",
+      "english": "act with discretion",
+      "translation": "действовать деликатно",
+      "audio": [
+        "audio/phrases/act with discretion.wav"
+      ]
+    },
+    {
+      "id": "prefer-directness",
+      "english": "prefer directness",
+      "translation": "предпочитать прямоту",
+      "audio": [
+        "audio/phrases/prefer directness.wav"
+      ]
+    },
+    {
+      "id": "use-indirectness",
+      "english": "use indirectness",
+      "translation": "использовать косвенность",
+      "audio": [
+        "audio/phrases/use indirectness.wav"
+      ]
+    },
+    {
+      "id": "speak-with-softness",
+      "english": "speak with softness",
+      "translation": "говорить мягко",
+      "audio": [
+        "audio/phrases/speak with softness.wav"
+      ]
+    },
+    {
+      "id": "show-firmness",
+      "english": "show firmness",
+      "translation": "проявлять твёрдость",
+      "audio": [
+        "audio/phrases/show firmness.wav"
+      ]
+    },
+    {
+      "id": "check-appropriateness",
+      "english": "check appropriateness",
+      "translation": "проверять уместность",
+      "audio": [
+        "audio/phrases/check appropriateness.wav"
+      ]
+    },
+    {
+      "id": "consider-context",
+      "english": "consider context",
+      "translation": "учитывать контекст",
+      "audio": [
+        "audio/phrases/consider context.wav"
+      ]
+    },
+    {
+      "id": "respect-hierarchy",
+      "english": "respect hierarchy",
+      "translation": "уважать иерархию",
+      "audio": [
+        "audio/phrases/respect hierarchy.wav"
+      ]
+    },
+    {
+      "id": "acknowledge-seniority",
+      "english": "acknowledge seniority",
+      "translation": "признавать старшинство",
+      "audio": [
+        "audio/phrases/acknowledge seniority.wav"
+      ]
+    },
+    {
+      "id": "practice-distance-keeping",
+      "english": "practice distance keeping",
+      "translation": "соблюдать дистанцию",
+      "audio": [
+        "audio/phrases/practice distance keeping.wav"
+      ]
+    },
+    {
+      "id": "avoid-familiarity",
+      "english": "avoid familiarity",
+      "translation": "избегать фамильярности",
+      "audio": [
+        "audio/phrases/avoid familiarity.wav"
+      ]
+    },
+    {
+      "id": "emotional-detachment",
+      "english": "emotional detachment",
+      "translation": "эмоциональная отстранённость",
+      "audio": [
+        "audio/phrases/emotional detachment.wav"
+      ]
+    },
+    {
+      "id": "formal-reserve",
+      "english": "formal reserve",
+      "translation": "формальная сдержанность",
+      "audio": [
+        "audio/phrases/formal reserve.wav"
+      ]
+    }
+  ]
+}

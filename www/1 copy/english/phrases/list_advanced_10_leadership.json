@@ -1,0 +1,287 @@
+{
+  "theme": "Лидерство",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "strong-leadership-skills",
+      "english": "strong leadership skills",
+      "translation": "сильные лидерские навыки",
+      "audio": [
+        "audio/phrases/strong leadership skills.wav"
+      ]
+    },
+    {
+      "id": "effective-team-leader",
+      "english": "effective team leader",
+      "translation": "эффективный лидер команды",
+      "audio": [
+        "audio/phrases/effective team leader.wav"
+      ]
+    },
+    {
+      "id": "formal-authority-role",
+      "english": "formal authority role",
+      "translation": "формальная роль авторитета",
+      "audio": [
+        "audio/phrases/formal authority role.wav"
+      ]
+    },
+    {
+      "id": "take-responsibility",
+      "english": "take responsibility",
+      "translation": "взять ответственность",
+      "audio": [
+        "audio/phrases/take responsibility.wav"
+      ]
+    },
+    {
+      "id": "show-ownership-mindset",
+      "english": "show ownership mindset",
+      "translation": "проявлять чувство ответственности",
+      "audio": [
+        "audio/phrases/show ownership mindset.wav"
+      ]
+    },
+    {
+      "id": "clear-long-term-vision",
+      "english": "clear long-term vision",
+      "translation": "чёткое долгосрочное видение",
+      "audio": [
+        "audio/phrases/clear long-term vision.wav"
+      ]
+    },
+    {
+      "id": "clear-strategic-direction",
+      "english": "clear strategic direction",
+      "translation": "чёткое стратегическое направление",
+      "audio": [
+        "audio/phrases/clear strategic direction.wav"
+      ]
+    },
+    {
+      "id": "long-term-strategy",
+      "english": "long-term strategy",
+      "translation": "долгосрочная стратегия",
+      "audio": [
+        "audio/phrases/long-term strategy.wav"
+      ]
+    },
+    {
+      "id": "team-alignment",
+      "english": "team alignment",
+      "translation": "согласованность команды",
+      "audio": [
+        "audio/phrases/team alignment.wav"
+      ]
+    },
+    {
+      "id": "top-business-priority",
+      "english": "top business priority",
+      "translation": "главный бизнес-приоритет",
+      "audio": [
+        "audio/phrases/top business priority.wav"
+      ]
+    },
+    {
+      "id": "take-initiative",
+      "english": "take initiative",
+      "translation": "проявить инициативу",
+      "audio": [
+        "audio/phrases/take initiative.wav"
+      ]
+    },
+    {
+      "id": "personal-accountability",
+      "english": "personal accountability",
+      "translation": "личная подотчётность",
+      "audio": [
+        "audio/phrases/personal accountability.wav"
+      ]
+    },
+    {
+      "id": "employee-empowerment",
+      "english": "employee empowerment",
+      "translation": "расширение полномочий сотрудников",
+      "audio": [
+        "audio/phrases/employee empowerment.wav"
+      ]
+    },
+    {
+      "id": "effective-delegation",
+      "english": "effective delegation",
+      "translation": "эффективное делегирование",
+      "audio": [
+        "audio/phrases/effective delegation.wav"
+      ]
+    },
+    {
+      "id": "team-autonomy",
+      "english": "team autonomy",
+      "translation": "самостоятельность команды",
+      "audio": [
+        "audio/phrases/team autonomy.wav"
+      ]
+    },
+    {
+      "id": "positive-influence",
+      "english": "positive influence",
+      "translation": "позитивное влияние",
+      "audio": [
+        "audio/phrases/positive influence.wav"
+      ]
+    },
+    {
+      "id": "professional-credibility",
+      "english": "professional credibility",
+      "translation": "профессиональное доверие",
+      "audio": [
+        "audio/phrases/professional credibility.wav"
+      ]
+    },
+    {
+      "id": "mutual-trust",
+      "english": "mutual trust",
+      "translation": "взаимное доверие",
+      "audio": [
+        "audio/phrases/mutual trust.wav"
+      ]
+    },
+    {
+      "id": "mutual-respect",
+      "english": "mutual respect",
+      "translation": "взаимное уважение",
+      "audio": [
+        "audio/phrases/mutual respect.wav"
+      ]
+    },
+    {
+      "id": "personal-integrity",
+      "english": "personal integrity",
+      "translation": "личная честность",
+      "audio": [
+        "audio/phrases/personal integrity.wav"
+      ]
+    },
+    {
+      "id": "effective-mentorship",
+      "english": "effective mentorship",
+      "translation": "эффективное наставничество",
+      "audio": [
+        "audio/phrases/effective mentorship.wav"
+      ]
+    },
+    {
+      "id": "leadership-coaching",
+      "english": "leadership coaching",
+      "translation": "лидерский коучинг",
+      "audio": [
+        "audio/phrases/leadership coaching.wav"
+      ]
+    },
+    {
+      "id": "skill-development",
+      "english": "skill development",
+      "translation": "развитие навыков",
+      "audio": [
+        "audio/phrases/skill development.wav"
+      ]
+    },
+    {
+      "id": "continuous-growth",
+      "english": "continuous growth",
+      "translation": "непрерывный рост",
+      "audio": [
+        "audio/phrases/continuous growth.wav"
+      ]
+    },
+    {
+      "id": "unlock-potential",
+      "english": "unlock potential",
+      "translation": "раскрыть потенциал",
+      "audio": [
+        "audio/phrases/unlock potential.wav"
+      ]
+    },
+    {
+      "id": "team-motivation",
+      "english": "team motivation",
+      "translation": "мотивация команды",
+      "audio": [
+        "audio/phrases/team motivation.wav"
+      ]
+    },
+    {
+      "id": "strong-commitment",
+      "english": "strong commitment",
+      "translation": "сильная приверженность",
+      "audio": [
+        "audio/phrases/strong commitment.wav"
+      ]
+    },
+    {
+      "id": "employee-engagement",
+      "english": "employee engagement",
+      "translation": "вовлечённость сотрудников",
+      "audio": [
+        "audio/phrases/employee engagement.wav"
+      ]
+    },
+    {
+      "id": "high-performance",
+      "english": "high performance",
+      "translation": "высокая результативность",
+      "audio": [
+        "audio/phrases/high performance.wav"
+      ]
+    },
+    {
+      "id": "flawless-execution",
+      "english": "flawless execution",
+      "translation": "безупречное исполнение",
+      "audio": [
+        "audio/phrases/flawless execution.wav"
+      ]
+    },
+    {
+      "id": "ownership-mindset",
+      "english": "ownership mindset",
+      "translation": "мышление ответственности",
+      "audio": [
+        "audio/phrases/ownership mindset.wav"
+      ]
+    },
+    {
+      "id": "positive-role-model",
+      "english": "positive role model",
+      "translation": "положительный пример",
+      "audio": [
+        "audio/phrases/positive role model.wav"
+      ]
+    },
+    {
+      "id": "key-decision-maker",
+      "english": "key decision maker",
+      "translation": "ключевой принимающий решения",
+      "audio": [
+        "audio/phrases/key decision maker.wav"
+      ]
+    },
+    {
+      "id": "main-stakeholder",
+      "english": "main stakeholder",
+      "translation": "основная заинтересованная сторона",
+      "audio": [
+        "audio/phrases/main stakeholder.wav"
+      ]
+    },
+    {
+      "id": "future-successor",
+      "english": "future successor",
+      "translation": "будущий преемник",
+      "audio": [
+        "audio/phrases/future successor.wav"
+      ]
+    }
+  ]
+}

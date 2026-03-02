@@ -1,0 +1,327 @@
+{
+  "theme": "Здоровье и медицина",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "healthcare-is-essential-for-everyone.",
+      "english": "Healthcare is essential for everyone.",
+      "translation": "Здравоохранение важно для всех.",
+      "audio": [
+        "audio/sentences/Healthcare is essential for everyone..wav"
+      ]
+    },
+    {
+      "id": "medical-staff-are-trained-professionally.",
+      "english": "Medical staff are trained professionally.",
+      "translation": "Медицинский персонал профессионально обучен.",
+      "audio": [
+        "audio/sentences/Medical staff are trained professionally..wav"
+      ]
+    },
+    {
+      "id": "his-condition-improved-after-treatment.",
+      "english": "His condition improved after treatment.",
+      "translation": "Его состояние улучшилось после лечения.",
+      "audio": [
+        "audio/sentences/His condition improved after treatment..wav"
+      ]
+    },
+    {
+      "id": "the-symptom-disappeared-quickly.",
+      "english": "The symptom disappeared quickly.",
+      "translation": "Симптом быстро исчез.",
+      "audio": [
+        "audio/sentences/The symptom disappeared quickly..wav"
+      ]
+    },
+    {
+      "id": "the-diagnosis-was-confirmed-by-tests.",
+      "english": "The diagnosis was confirmed by tests.",
+      "translation": "Диагноз подтвердили тесты.",
+      "audio": [
+        "audio/sentences/The diagnosis was confirmed by tests..wav"
+      ]
+    },
+    {
+      "id": "treatment-lasted-several-weeks.",
+      "english": "Treatment lasted several weeks.",
+      "translation": "Лечение длилось несколько недель.",
+      "audio": [
+        "audio/sentences/Treatment lasted several weeks..wav"
+      ]
+    },
+    {
+      "id": "therapy-helped-restore-movement.",
+      "english": "Therapy helped restore movement.",
+      "translation": "Терапия помогла восстановить движения.",
+      "audio": [
+        "audio/sentences/Therapy helped restore movement..wav"
+      ]
+    },
+    {
+      "id": "recovery-took-longer-than-expected.",
+      "english": "Recovery took longer than expected.",
+      "translation": "Восстановление заняло больше времени, чем ожидалось.",
+      "audio": [
+        "audio/sentences/Recovery took longer than expected..wav"
+      ]
+    },
+    {
+      "id": "prevention-reduces-disease-risk.",
+      "english": "Prevention reduces disease risk.",
+      "translation": "Профилактика снижает риск заболевания.",
+      "audio": [
+        "audio/sentences/Prevention reduces disease risk..wav"
+      ]
+    },
+    {
+      "id": "regular-checkup-helps-maintain-health.",
+      "english": "Regular checkup helps maintain health.",
+      "translation": "Регулярный осмотр помогает поддерживать здоровье.",
+      "audio": [
+        "audio/sentences/Regular checkup helps maintain health..wav"
+      ]
+    },
+    {
+      "id": "the-appointment-is-confirmed-for-monday.",
+      "english": "The appointment is confirmed for Monday.",
+      "translation": "Приём подтверждён на понедельник.",
+      "audio": [
+        "audio/sentences/The appointment is confirmed for Monday..wav"
+      ]
+    },
+    {
+      "id": "consultation-with-the-specialist-was-helpful.",
+      "english": "Consultation with the specialist was helpful.",
+      "translation": "Консультация со специалистом была полезной.",
+      "audio": [
+        "audio/sentences/Consultation with the specialist was helpful..wav"
+      ]
+    },
+    {
+      "id": "the-specialist-recommended-surgery.",
+      "english": "The specialist recommended surgery.",
+      "translation": "Специалист рекомендовал операцию.",
+      "audio": [
+        "audio/sentences/The specialist recommended surgery..wav"
+      ]
+    },
+    {
+      "id": "prescription-was-valid-for-one-month.",
+      "english": "Prescription was valid for one month.",
+      "translation": "Рецепт был действителен один месяц.",
+      "audio": [
+        "audio/sentences/Prescription was valid for one month..wav"
+      ]
+    },
+    {
+      "id": "referral-was-necessary-for-specialist-visit.",
+      "english": "Referral was necessary for specialist visit.",
+      "translation": "Направление было необходимо для визита к специалисту.",
+      "audio": [
+        "audio/sentences/Referral was necessary for specialist visit..wav"
+      ]
+    },
+    {
+      "id": "medicine-should-be-taken-after-meals.",
+      "english": "Medicine should be taken after meals.",
+      "translation": "Лекарство следует принимать после еды.",
+      "audio": [
+        "audio/sentences/Medicine should be taken after meals..wav"
+      ]
+    },
+    {
+      "id": "medication-helped-relieve-pain.",
+      "english": "Medication helped relieve pain.",
+      "translation": "Медикаменты помогли снять боль.",
+      "audio": [
+        "audio/sentences/Medication helped relieve pain..wav"
+      ]
+    },
+    {
+      "id": "dosage-must-follow-doctor-instructions.",
+      "english": "Dosage must follow doctor instructions.",
+      "translation": "Дозировка должна соответствовать указаниям врача.",
+      "audio": [
+        "audio/sentences/Dosage must follow doctor instructions..wav"
+      ]
+    },
+    {
+      "id": "side-effect-was-mild-and-temporary.",
+      "english": "Side effect was mild and temporary.",
+      "translation": "Побочный эффект был легким и временным.",
+      "audio": [
+        "audio/sentences/Side effect was mild and temporary..wav"
+      ]
+    },
+    {
+      "id": "allergy-symptoms-appeared-suddenly.",
+      "english": "Allergy symptoms appeared suddenly.",
+      "translation": "Симптомы аллергии появились внезапно.",
+      "audio": [
+        "audio/sentences/Allergy symptoms appeared suddenly..wav"
+      ]
+    },
+    {
+      "id": "infection-spread-quickly-among-patients.",
+      "english": "Infection spread quickly among patients.",
+      "translation": "Инфекция быстро распространялась среди пациентов.",
+      "audio": [
+        "audio/sentences/Infection spread quickly among patients..wav"
+      ]
+    },
+    {
+      "id": "inflammation-can-cause-severe-pain.",
+      "english": "Inflammation can cause severe pain.",
+      "translation": "Воспаление может вызывать сильную боль.",
+      "audio": [
+        "audio/sentences/Inflammation can cause severe pain..wav"
+      ]
+    },
+    {
+      "id": "he-suffers-from-chronic-illness.",
+      "english": "He suffers from chronic illness.",
+      "translation": "Он страдает от хронического заболевания.",
+      "audio": [
+        "audio/sentences/He suffers from chronic illness..wav"
+      ]
+    },
+    {
+      "id": "she-experienced-acute-symptoms-suddenly.",
+      "english": "She experienced acute symptoms suddenly.",
+      "translation": "Она внезапно испытала острые симптомы.",
+      "audio": [
+        "audio/sentences/She experienced acute symptoms suddenly..wav"
+      ]
+    },
+    {
+      "id": "the-injury-healed-after-weeks-of-therapy.",
+      "english": "The injury healed after weeks of therapy.",
+      "translation": "Травма зажила после нескольких недель терапии.",
+      "audio": [
+        "audio/sentences/The injury healed after weeks of therapy..wav"
+      ]
+    },
+    {
+      "id": "emergency-responders-arrived-quickly.",
+      "english": "Emergency responders arrived quickly.",
+      "translation": "Спасатели прибыли быстро.",
+      "audio": [
+        "audio/sentences/Emergency responders arrived quickly..wav"
+      ]
+    },
+    {
+      "id": "the-ambulance-transported-the-patient-safely.",
+      "english": "The ambulance transported the patient safely.",
+      "translation": "Скорая помощь доставила пациента безопасно.",
+      "audio": [
+        "audio/sentences/The ambulance transported the patient safely..wav"
+      ]
+    },
+    {
+      "id": "hospitalization-lasted-several-days.",
+      "english": "Hospitalization lasted several days.",
+      "translation": "Госпитализация длилась несколько дней.",
+      "audio": [
+        "audio/sentences/Hospitalization lasted several days..wav"
+      ]
+    },
+    {
+      "id": "surgery-was-successful-and-recovery-began.",
+      "english": "Surgery was successful and recovery began.",
+      "translation": "Операция прошла успешно, началось восстановление.",
+      "audio": [
+        "audio/sentences/Surgery was successful and recovery began..wav"
+      ]
+    },
+    {
+      "id": "the-procedure-took-over-an-hour.",
+      "english": "The procedure took over an hour.",
+      "translation": "Медицинская процедура заняла более часа.",
+      "audio": [
+        "audio/sentences/The procedure took over an hour..wav"
+      ]
+    },
+    {
+      "id": "insurance-covers-most-medical-costs.",
+      "english": "Insurance covers most medical costs.",
+      "translation": "Страховка покрывает большинство медицинских расходов.",
+      "audio": [
+        "audio/sentences/Insurance covers most medical costs..wav"
+      ]
+    },
+    {
+      "id": "coverage-includes-all-necessary-treatments.",
+      "english": "Coverage includes all necessary treatments.",
+      "translation": "Страховое покрытие включает все необходимые процедуры.",
+      "audio": [
+        "audio/sentences/Coverage includes all necessary treatments..wav"
+      ]
+    },
+    {
+      "id": "the-claim-was-processed-quickly.",
+      "english": "The claim was processed quickly.",
+      "translation": "Страховое заявление было обработано быстро.",
+      "audio": [
+        "audio/sentences/The claim was processed quickly..wav"
+      ]
+    },
+    {
+      "id": "the-policy-provides-full-coverage.",
+      "english": "The policy provides full coverage.",
+      "translation": "Полис обеспечивает полное покрытие.",
+      "audio": [
+        "audio/sentences/The policy provides full coverage..wav"
+      ]
+    },
+    {
+      "id": "the-provider-offered-excellent-care.",
+      "english": "The provider offered excellent care.",
+      "translation": "Поставщик услуг предоставил отличное обслуживание.",
+      "audio": [
+        "audio/sentences/The provider offered excellent care..wav"
+      ]
+    },
+    {
+      "id": "mental-health-is-crucial-for-well-being.",
+      "english": "Mental health is crucial for well-being.",
+      "translation": "Психическое здоровье важно для общего самочувствия.",
+      "audio": [
+        "audio/sentences/Mental health is crucial for well-being..wav"
+      ]
+    },
+    {
+      "id": "stress-affects-both-mind-and-body.",
+      "english": "Stress affects both mind and body.",
+      "translation": "Стресс влияет на ум и тело.",
+      "audio": [
+        "audio/sentences/Stress affects both mind and body..wav"
+      ]
+    },
+    {
+      "id": "anxiety-can-disrupt-daily-life.",
+      "english": "Anxiety can disrupt daily life.",
+      "translation": "Тревожность может нарушать повседневную жизнь.",
+      "audio": [
+        "audio/sentences/Anxiety can disrupt daily life..wav"
+      ]
+    },
+    {
+      "id": "fatigue-worsened-after-long-work-hours.",
+      "english": "Fatigue worsened after long work hours.",
+      "translation": "Усталость усилилась после долгих рабочих часов.",
+      "audio": [
+        "audio/sentences/Fatigue worsened after long work hours..wav"
+      ]
+    },
+    {
+      "id": "well-being-depends-on-lifestyle-choices.",
+      "english": "Well-being depends on lifestyle choices.",
+      "translation": "Общее самочувствие зависит от образа жизни.",
+      "audio": [
+        "audio/sentences/Well-being depends on lifestyle choices..wav"
+      ]
+    }
+  ]
+}

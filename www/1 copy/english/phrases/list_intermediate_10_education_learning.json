@@ -1,0 +1,239 @@
+{
+  "theme": "Образование и обучение",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "focus-on-education",
+      "english": "focus on education",
+      "translation": "сосредоточиться на обучении",
+      "audio": [
+        "audio/phrases/focus on education.wav"
+      ]
+    },
+    {
+      "id": "continuous-learning-process",
+      "english": "continuous learning process",
+      "translation": "процесс непрерывного обучения",
+      "audio": [
+        "audio/phrases/continuous learning process.wav"
+      ]
+    },
+    {
+      "id": "gain-new-knowledge",
+      "english": "gain new knowledge",
+      "translation": "приобретать новые знания",
+      "audio": [
+        "audio/phrases/gain new knowledge.wav"
+      ]
+    },
+    {
+      "id": "develop-a-skill",
+      "english": "develop a skill",
+      "translation": "развивать навык",
+      "audio": [
+        "audio/phrases/develop a skill.wav"
+      ]
+    },
+    {
+      "id": "student-in-class",
+      "english": "student in class",
+      "translation": "студент на занятии",
+      "audio": [
+        "audio/phrases/student in class.wav"
+      ]
+    },
+    {
+      "id": "instructor-gives-instructions",
+      "english": "instructor gives instructions",
+      "translation": "инструктор даёт инструкции",
+      "audio": [
+        "audio/phrases/instructor gives instructions.wav"
+      ]
+    },
+    {
+      "id": "mentor-provides-advice",
+      "english": "mentor provides advice",
+      "translation": "наставник даёт советы",
+      "audio": [
+        "audio/phrases/mentor provides advice.wav"
+      ]
+    },
+    {
+      "id": "talk-with-classmate",
+      "english": "talk with classmate",
+      "translation": "поговорить с одногруппником",
+      "audio": [
+        "audio/phrases/talk with classmate.wav"
+      ]
+    },
+    {
+      "id": "enroll-in-course",
+      "english": "enroll in course",
+      "translation": "записаться на курс",
+      "audio": [
+        "audio/phrases/enroll in course.wav"
+      ]
+    },
+    {
+      "id": "attend-the-lesson",
+      "english": "attend the lesson",
+      "translation": "посещать урок",
+      "audio": [
+        "audio/phrases/attend the lesson.wav"
+      ]
+    },
+    {
+      "id": "listen-to-lecture",
+      "english": "listen to lecture",
+      "translation": "слушать лекцию",
+      "audio": [
+        "audio/phrases/listen to lecture.wav"
+      ]
+    },
+    {
+      "id": "practice-skills-daily",
+      "english": "practice skills daily",
+      "translation": "практиковать навыки ежедневно",
+      "audio": [
+        "audio/phrases/practice skills daily.wav"
+      ]
+    },
+    {
+      "id": "complete-assignment-quickly",
+      "english": "complete assignment quickly",
+      "translation": "быстро выполнить задание",
+      "audio": [
+        "audio/phrases/complete assignment quickly.wav"
+      ]
+    },
+    {
+      "id": "do-homework-now",
+      "english": "do homework now",
+      "translation": "делать домашнее задание сейчас",
+      "audio": [
+        "audio/phrases/do homework now.wav"
+      ]
+    },
+    {
+      "id": "prepare-for-exam",
+      "english": "prepare for exam",
+      "translation": "готовиться к экзамену",
+      "audio": [
+        "audio/phrases/prepare for exam.wav"
+      ]
+    },
+    {
+      "id": "take-the-test",
+      "english": "take the test",
+      "translation": "сдать тест",
+      "audio": [
+        "audio/phrases/take the test.wav"
+      ]
+    },
+    {
+      "id": "check-your-grade",
+      "english": "check your grade",
+      "translation": "проверить свою оценку",
+      "audio": [
+        "audio/phrases/check your grade.wav"
+      ]
+    },
+    {
+      "id": "obtain-certificate-online",
+      "english": "obtain certificate online",
+      "translation": "получить сертификат онлайн",
+      "audio": [
+        "audio/phrases/obtain certificate online.wav"
+      ]
+    },
+    {
+      "id": "gain-qualification-quickly",
+      "english": "gain qualification quickly",
+      "translation": "быстро получить квалификацию",
+      "audio": [
+        "audio/phrases/gain qualification quickly.wav"
+      ]
+    },
+    {
+      "id": "track-learning-progress",
+      "english": "track learning progress",
+      "translation": "отслеживать прогресс обучения",
+      "audio": [
+        "audio/phrases/track learning progress.wav"
+      ]
+    },
+    {
+      "id": "check-exam-result",
+      "english": "check exam result",
+      "translation": "проверить результат экзамена",
+      "audio": [
+        "audio/phrases/check exam result.wav"
+      ]
+    },
+    {
+      "id": "enroll-in-online-course",
+      "english": "enroll in online course",
+      "translation": "записаться на онлайн-курс",
+      "audio": [
+        "audio/phrases/enroll in online course.wav"
+      ]
+    },
+    {
+      "id": "use-learning-platform",
+      "english": "use learning platform",
+      "translation": "использовать образовательную платформу",
+      "audio": [
+        "audio/phrases/use learning platform.wav"
+      ]
+    },
+    {
+      "id": "study-course-material",
+      "english": "study course material",
+      "translation": "изучать учебный материал курса",
+      "audio": [
+        "audio/phrases/study course material.wav"
+      ]
+    },
+    {
+      "id": "find-learning-resource",
+      "english": "find learning resource",
+      "translation": "найти обучающий ресурс",
+      "audio": [
+        "audio/phrases/find learning resource.wav"
+      ]
+    },
+    {
+      "id": "check-class-schedule",
+      "english": "check class schedule",
+      "translation": "проверить расписание занятий",
+      "audio": [
+        "audio/phrases/check class schedule.wav"
+      ]
+    },
+    {
+      "id": "meet-project-deadline",
+      "english": "meet project deadline",
+      "translation": "соблюдать дедлайн проекта",
+      "audio": [
+        "audio/phrases/meet project deadline.wav"
+      ]
+    },
+    {
+      "id": "give-constructive-feedback",
+      "english": "give constructive feedback",
+      "translation": "дать конструктивную обратную связь",
+      "audio": [
+        "audio/phrases/give constructive feedback.wav"
+      ]
+    },
+    {
+      "id": "notice-gradual-improvement",
+      "english": "notice gradual improvement",
+      "translation": "заметить постепенное улучшение",
+      "audio": [
+        "audio/phrases/notice gradual improvement.wav"
+      ]
+    }
+  ]
+}

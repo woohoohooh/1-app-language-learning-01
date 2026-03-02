@@ -1,0 +1,192 @@
+{
+  "theme": "Эмоциональные оттенки речи",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "emotion",
+      "english": "emotion",
+      "translation": "эмоция"
+    },
+    {
+      "id": "emotionality",
+      "english": "emotionality",
+      "translation": "эмоциональность"
+    },
+    {
+      "id": "tone",
+      "english": "tone",
+      "translation": "тон"
+    },
+    {
+      "id": "undertone",
+      "english": "undertone",
+      "translation": "подтекст"
+    },
+    {
+      "id": "nuance",
+      "english": "nuance",
+      "translation": "нюанс"
+    },
+    {
+      "id": "attitude",
+      "english": "attitude",
+      "translation": "отношение"
+    },
+    {
+      "id": "mood",
+      "english": "mood",
+      "translation": "настроение"
+    },
+    {
+      "id": "state",
+      "english": "state",
+      "translation": "состояние"
+    },
+    {
+      "id": "reaction",
+      "english": "reaction",
+      "translation": "реакция"
+    },
+    {
+      "id": "affection",
+      "english": "affection",
+      "translation": "привязанность"
+    },
+    {
+      "id": "warmth",
+      "english": "warmth",
+      "translation": "теплота"
+    },
+    {
+      "id": "empathy",
+      "english": "empathy",
+      "translation": "эмпатия"
+    },
+    {
+      "id": "sympathy",
+      "english": "sympathy",
+      "translation": "сочувствие"
+    },
+    {
+      "id": "neutrality",
+      "english": "neutrality",
+      "translation": "нейтральность"
+    },
+    {
+      "id": "detachment",
+      "english": "detachment",
+      "translation": "отстранённость"
+    },
+    {
+      "id": "distance",
+      "english": "distance",
+      "translation": "дистанция"
+    },
+    {
+      "id": "coldness",
+      "english": "coldness",
+      "translation": "холодность"
+    },
+    {
+      "id": "tension",
+      "english": "tension",
+      "translation": "напряжение"
+    },
+    {
+      "id": "pressure",
+      "english": "pressure",
+      "translation": "давление"
+    },
+    {
+      "id": "stress",
+      "english": "stress",
+      "translation": "стресс"
+    },
+    {
+      "id": "frustration",
+      "english": "frustration",
+      "translation": "раздражение"
+    },
+    {
+      "id": "annoyance",
+      "english": "annoyance",
+      "translation": "раздражение"
+    },
+    {
+      "id": "irritation",
+      "english": "irritation",
+      "translation": "раздражённость"
+    },
+    {
+      "id": "resentment",
+      "english": "resentment",
+      "translation": "обида"
+    },
+    {
+      "id": "disappointment",
+      "english": "disappointment",
+      "translation": "разочарование"
+    },
+    {
+      "id": "approval",
+      "english": "approval",
+      "translation": "одобрение"
+    },
+    {
+      "id": "disapproval",
+      "english": "disapproval",
+      "translation": "неодобрение"
+    },
+    {
+      "id": "support",
+      "english": "support",
+      "translation": "поддержка"
+    },
+    {
+      "id": "encouragement",
+      "english": "encouragement",
+      "translation": "ободрение"
+    },
+    {
+      "id": "confidence",
+      "english": "confidence",
+      "translation": "уверенность"
+    },
+    {
+      "id": "uncertainty",
+      "english": "uncertainty",
+      "translation": "неуверенность"
+    },
+    {
+      "id": "hesitation",
+      "english": "hesitation",
+      "translation": "колебание"
+    },
+    {
+      "id": "doubt",
+      "english": "doubt",
+      "translation": "сомнение"
+    },
+    {
+      "id": "enthusiasm",
+      "english": "enthusiasm",
+      "translation": "энтузиазм"
+    },
+    {
+      "id": "indifference",
+      "english": "indifference",
+      "translation": "безразличие"
+    },
+    {
+      "id": "reluctance",
+      "english": "reluctance",
+      "translation": "неохота"
+    },
+    {
+      "id": "relief",
+      "english": "relief",
+      "translation": "облегчение"
+    }
+  ]
+}

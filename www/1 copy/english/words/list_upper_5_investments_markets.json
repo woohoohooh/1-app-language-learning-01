@@ -1,0 +1,327 @@
+{
+  "theme": "Инвестиции и финрынки",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "investment",
+      "english": "investment",
+      "translation": "инвестиция",
+      "audio": [
+        "audio/words/investment.wav"
+      ]
+    },
+    {
+      "id": "investor",
+      "english": "investor",
+      "translation": "инвестор",
+      "audio": [
+        "audio/words/investor.wav"
+      ]
+    },
+    {
+      "id": "market",
+      "english": "market",
+      "translation": "рынок",
+      "audio": [
+        "audio/words/market.wav"
+      ]
+    },
+    {
+      "id": "asset",
+      "english": "asset",
+      "translation": "актив",
+      "audio": [
+        "audio/words/asset.wav"
+      ]
+    },
+    {
+      "id": "portfolio",
+      "english": "portfolio",
+      "translation": "портфель",
+      "audio": [
+        "audio/words/portfolio.wav"
+      ]
+    },
+    {
+      "id": "stock",
+      "english": "stock",
+      "translation": "акция",
+      "audio": [
+        "audio/words/stock.wav"
+      ]
+    },
+    {
+      "id": "bond",
+      "english": "bond",
+      "translation": "облигация",
+      "audio": [
+        "audio/words/bond.wav"
+      ]
+    },
+    {
+      "id": "fund",
+      "english": "fund",
+      "translation": "фонд",
+      "audio": [
+        "audio/words/fund.wav"
+      ]
+    },
+    {
+      "id": "etf",
+      "english": "ETF",
+      "translation": "биржевой фонд",
+      "audio": [
+        "audio/words/ETF.wav"
+      ]
+    },
+    {
+      "id": "index",
+      "english": "index",
+      "translation": "индекс",
+      "audio": [
+        "audio/words/index.wav"
+      ]
+    },
+    {
+      "id": "exchange",
+      "english": "exchange",
+      "translation": "биржа",
+      "audio": [
+        "audio/words/exchange.wav"
+      ]
+    },
+    {
+      "id": "ticker",
+      "english": "ticker",
+      "translation": "биржевой тикер",
+      "audio": [
+        "audio/words/ticker.wav"
+      ]
+    },
+    {
+      "id": "price",
+      "english": "price",
+      "translation": "цена",
+      "audio": [
+        "audio/words/price.wav"
+      ]
+    },
+    {
+      "id": "value",
+      "english": "value",
+      "translation": "стоимость",
+      "audio": [
+        "audio/words/value.wav"
+      ]
+    },
+    {
+      "id": "return",
+      "english": "return",
+      "translation": "доходность",
+      "audio": [
+        "audio/words/return.wav"
+      ]
+    },
+    {
+      "id": "profit",
+      "english": "profit",
+      "translation": "прибыль",
+      "audio": [
+        "audio/words/profit.wav"
+      ]
+    },
+    {
+      "id": "loss",
+      "english": "loss",
+      "translation": "убыток",
+      "audio": [
+        "audio/words/loss.wav"
+      ]
+    },
+    {
+      "id": "yield",
+      "english": "yield",
+      "translation": "доход",
+      "audio": [
+        "audio/words/yield.wav"
+      ]
+    },
+    {
+      "id": "dividend",
+      "english": "dividend",
+      "translation": "дивиденд",
+      "audio": [
+        "audio/words/dividend.wav"
+      ]
+    },
+    {
+      "id": "risk",
+      "english": "risk",
+      "translation": "риск",
+      "audio": [
+        "audio/words/risk.wav"
+      ]
+    },
+    {
+      "id": "volatility",
+      "english": "volatility",
+      "translation": "волатильность",
+      "audio": [
+        "audio/words/volatility.wav"
+      ]
+    },
+    {
+      "id": "liquidity",
+      "english": "liquidity",
+      "translation": "ликвидность",
+      "audio": [
+        "audio/words/liquidity.wav"
+      ]
+    },
+    {
+      "id": "exposure",
+      "english": "exposure",
+      "translation": "подверженность риску",
+      "audio": [
+        "audio/words/exposure.wav"
+      ]
+    },
+    {
+      "id": "diversification",
+      "english": "diversification",
+      "translation": "диверсификация",
+      "audio": [
+        "audio/words/diversification.wav"
+      ]
+    },
+    {
+      "id": "trend",
+      "english": "trend",
+      "translation": "тренд",
+      "audio": [
+        "audio/words/trend.wav"
+      ]
+    },
+    {
+      "id": "growth",
+      "english": "growth",
+      "translation": "рост",
+      "audio": [
+        "audio/words/growth.wav"
+      ]
+    },
+    {
+      "id": "decline",
+      "english": "decline",
+      "translation": "спад",
+      "audio": [
+        "audio/words/decline.wav"
+      ]
+    },
+    {
+      "id": "crash",
+      "english": "crash",
+      "translation": "обвал",
+      "audio": [
+        "audio/words/crash.wav"
+      ]
+    },
+    {
+      "id": "recovery",
+      "english": "recovery",
+      "translation": "восстановление",
+      "audio": [
+        "audio/words/recovery.wav"
+      ]
+    },
+    {
+      "id": "analysis",
+      "english": "analysis",
+      "translation": "анализ",
+      "audio": [
+        "audio/words/analysis.wav"
+      ]
+    },
+    {
+      "id": "forecast",
+      "english": "forecast",
+      "translation": "прогноз",
+      "audio": [
+        "audio/words/forecast.wav"
+      ]
+    },
+    {
+      "id": "indicator",
+      "english": "indicator",
+      "translation": "показатель",
+      "audio": [
+        "audio/words/indicator.wav"
+      ]
+    },
+    {
+      "id": "performance",
+      "english": "performance",
+      "translation": "результативность",
+      "audio": [
+        "audio/words/performance.wav"
+      ]
+    },
+    {
+      "id": "benchmark",
+      "english": "benchmark",
+      "translation": "ориентир для сравнения",
+      "audio": [
+        "audio/words/benchmark.wav"
+      ]
+    },
+    {
+      "id": "capital",
+      "english": "capital",
+      "translation": "капитал",
+      "audio": [
+        "audio/words/capital.wav"
+      ]
+    },
+    {
+      "id": "valuation",
+      "english": "valuation",
+      "translation": "оценка стоимости",
+      "audio": [
+        "audio/words/valuation.wav"
+      ]
+    },
+    {
+      "id": "allocation",
+      "english": "allocation",
+      "translation": "распределение",
+      "audio": [
+        "audio/words/allocation.wav"
+      ]
+    },
+    {
+      "id": "strategy",
+      "english": "strategy",
+      "translation": "стратегия",
+      "audio": [
+        "audio/words/strategy.wav"
+      ]
+    },
+    {
+      "id": "long-term",
+      "english": "long-term",
+      "translation": "долгосрочный",
+      "audio": [
+        "audio/words/long-term.wav"
+      ]
+    },
+    {
+      "id": "share",
+      "english": "share",
+      "translation": "акция",
+      "audio": [
+        "audio/words/share.wav"
+      ]
+    }
+  ]
+}

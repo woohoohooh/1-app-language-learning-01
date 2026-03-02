@@ -1,0 +1,147 @@
+{
+  "theme": "Влияние и убеждение",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "influence",
+      "translation": "влияние"
+    },
+    {
+      "english": "persuasion",
+      "translation": "убеждение"
+    },
+    {
+      "english": "persuasive",
+      "translation": "убедительный"
+    },
+    {
+      "english": "conviction",
+      "translation": "убеждённость"
+    },
+    {
+      "english": "credibility",
+      "translation": "доверие, авторитет"
+    },
+    {
+      "english": "authority",
+      "translation": "авторитет"
+    },
+    {
+      "english": "trustworthiness",
+      "translation": "надёжность"
+    },
+    {
+      "english": "confidence",
+      "translation": "уверенность"
+    },
+    {
+      "english": "charisma",
+      "translation": "харизма"
+    },
+    {
+      "english": "presence",
+      "translation": "присутствие"
+    },
+    {
+      "english": "appeal",
+      "translation": "привлекательность"
+    },
+    {
+      "english": "reasoning",
+      "translation": "логика рассуждений"
+    },
+    {
+      "english": "logic",
+      "translation": "логика"
+    },
+    {
+      "english": "emotion",
+      "translation": "эмоция"
+    },
+    {
+      "english": "emotional impact",
+      "translation": "эмоциональное воздействие"
+    },
+    {
+      "english": "framing",
+      "translation": "подача"
+    },
+    {
+      "english": "positioning",
+      "translation": "позиционирование"
+    },
+    {
+      "english": "emphasis",
+      "translation": "акцент"
+    },
+    {
+      "english": "tone",
+      "translation": "тон"
+    },
+    {
+      "english": "messaging",
+      "translation": "передача идеи"
+    },
+    {
+      "english": "motivation",
+      "translation": "мотивация"
+    },
+    {
+      "english": "incentive",
+      "translation": "стимул"
+    },
+    {
+      "english": "leverage",
+      "translation": "рычаг влияния"
+    },
+    {
+      "english": "pressure",
+      "translation": "давление"
+    },
+    {
+      "english": "resistance",
+      "translation": "сопротивление"
+    },
+    {
+      "english": "objection",
+      "translation": "возражение"
+    },
+    {
+      "english": "acceptance",
+      "translation": "принятие"
+    },
+    {
+      "english": "agreement",
+      "translation": "согласие"
+    },
+    {
+      "english": "alignment",
+      "translation": "согласованность"
+    },
+    {
+      "english": "buy-in",
+      "translation": "вовлечённое согласие"
+    },
+    {
+      "english": "manipulation",
+      "translation": "манипуляция"
+    },
+    {
+      "english": "ethical influence",
+      "translation": "этичное влияние"
+    },
+    {
+      "english": "transparency",
+      "translation": "прозрачность"
+    },
+    {
+      "english": "intent",
+      "translation": "намерение"
+    },
+    {
+      "english": "perception",
+      "translation": "восприятие"
+    }
+  ]
+}

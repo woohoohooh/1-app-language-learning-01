@@ -1,0 +1,182 @@
+{
+  "theme": "Город и места",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "city",
+      "english": "city",
+      "translation": "город"
+    },
+    {
+      "id": "town",
+      "english": "town",
+      "translation": "городок"
+    },
+    {
+      "id": "street",
+      "english": "street",
+      "translation": "улица"
+    },
+    {
+      "id": "road",
+      "english": "road",
+      "translation": "дорога"
+    },
+    {
+      "id": "square",
+      "english": "square",
+      "translation": "площадь"
+    },
+    {
+      "id": "park",
+      "english": "park",
+      "translation": "парк"
+    },
+    {
+      "id": "building",
+      "english": "building",
+      "translation": "здание"
+    },
+    {
+      "id": "house",
+      "english": "house",
+      "translation": "дом"
+    },
+    {
+      "id": "office",
+      "english": "office",
+      "translation": "офис"
+    },
+    {
+      "id": "school",
+      "english": "school",
+      "translation": "школа"
+    },
+    {
+      "id": "university",
+      "english": "university",
+      "translation": "университет"
+    },
+    {
+      "id": "library",
+      "english": "library",
+      "translation": "библиотека"
+    },
+    {
+      "id": "hospital",
+      "english": "hospital",
+      "translation": "больница"
+    },
+    {
+      "id": "clinic",
+      "english": "clinic",
+      "translation": "клиника"
+    },
+    {
+      "id": "pharmacy",
+      "english": "pharmacy",
+      "translation": "аптека"
+    },
+    {
+      "id": "police",
+      "english": "police",
+      "translation": "полиция"
+    },
+    {
+      "id": "bank",
+      "english": "bank",
+      "translation": "банк"
+    },
+    {
+      "id": "post-office",
+      "english": "post office",
+      "translation": "почта"
+    },
+    {
+      "id": "station",
+      "english": "station",
+      "translation": "станция"
+    },
+    {
+      "id": "bus-stop",
+      "english": "bus stop",
+      "translation": "автобусная остановка"
+    },
+    {
+      "id": "subway",
+      "english": "subway",
+      "translation": "метро"
+    },
+    {
+      "id": "bridge",
+      "english": "bridge",
+      "translation": "мост"
+    },
+    {
+      "id": "crossroad",
+      "english": "crossroad",
+      "translation": "перекрёсток"
+    },
+    {
+      "id": "hotel",
+      "english": "hotel",
+      "translation": "отель"
+    },
+    {
+      "id": "hostel",
+      "english": "hostel",
+      "translation": "хостел"
+    },
+    {
+      "id": "museum",
+      "english": "museum",
+      "translation": "музей"
+    },
+    {
+      "id": "theater",
+      "english": "theater",
+      "translation": "театр"
+    },
+    {
+      "id": "cinema",
+      "english": "cinema",
+      "translation": "кинотеатр"
+    },
+    {
+      "id": "restaurant",
+      "english": "restaurant",
+      "translation": "ресторан"
+    },
+    {
+      "id": "cafe",
+      "english": "cafe",
+      "translation": "кафе"
+    },
+    {
+      "id": "airport",
+      "english": "airport",
+      "translation": "аэропорт"
+    },
+    {
+      "id": "entrance",
+      "english": "entrance",
+      "translation": "вход"
+    },
+    {
+      "id": "exit",
+      "english": "exit",
+      "translation": "выход"
+    },
+    {
+      "id": "center",
+      "english": "center",
+      "translation": "центр"
+    },
+    {
+      "id": "area",
+      "english": "area",
+      "translation": "район"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "theme": "Юмор в общении",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "his-humor-makes-meetings-easier.",
+      "english": "His humor makes meetings easier.",
+      "translation": "Его юмор делает встречи легче.",
+      "audio": [
+        "audio/sentences/His humor makes meetings easier..wav"
+      ]
+    },
+    {
+      "id": "she-told-a-joke-at-dinner.",
+      "english": "She told a joke at dinner.",
+      "translation": "Она рассказала шутку за ужином.",
+      "audio": [
+        "audio/sentences/She told a joke at dinner..wav"
+      ]
+    },
+    {
+      "id": "his-wit-impressed-the-audience.",
+      "english": "His wit impressed the audience.",
+      "translation": "Его остроумие впечатлило публику.",
+      "audio": [
+        "audio/sentences/His wit impressed the audience..wav"
+      ]
+    },
+    {
+      "id": "her-wittiness-keeps-conversations-lively.",
+      "english": "Her wittiness keeps conversations lively.",
+      "translation": "Её остроумность оживляет разговоры.",
+      "audio": [
+        "audio/sentences/Her wittiness keeps conversations lively..wav"
+      ]
+    },
+    {
+      "id": "playfulness-helps-break-the-ice.",
+      "english": "Playfulness helps break the ice.",
+      "translation": "Игривость помогает растопить лёд.",
+      "audio": [
+        "audio/sentences/Playfulness helps break the ice..wav"
+      ]
+    },
+    {
+      "id": "sarcasm-can-confuse-new-listeners.",
+      "english": "Sarcasm can confuse new listeners.",
+      "translation": "Сарказм может сбивать с толку новичков.",
+      "audio": [
+        "audio/sentences/Sarcasm can confuse new listeners..wav"
+      ]
+    },
+    {
+      "id": "irony-changed-the-mood-instantly.",
+      "english": "Irony changed the mood instantly.",
+      "translation": "Ирония мгновенно изменила атмосферу.",
+      "audio": [
+        "audio/sentences/Irony changed the mood instantly..wav"
+      ]
+    },
+    {
+      "id": "mockery-often-feels-disrespectful.",
+      "english": "Mockery often feels disrespectful.",
+      "translation": "Насмешка часто кажется неуважительной.",
+      "audio": [
+        "audio/sentences/Mockery often feels disrespectful..wav"
+      ]
+    },
+    {
+      "id": "teasing-worked-well-between-close-friends.",
+      "english": "Teasing worked well between close friends.",
+      "translation": "Поддразнивание сработало между близкими друзьями.",
+      "audio": [
+        "audio/sentences/Teasing worked well between close friends..wav"
+      ]
+    },
+    {
+      "id": "their-banter-sounded-natural-and-warm.",
+      "english": "Their banter sounded natural and warm.",
+      "translation": "Их шутливый обмен звучал естественно и тепло.",
+      "audio": [
+        "audio/sentences/Their banter sounded natural and warm..wav"
+      ]
+    },
+    {
+      "id": "exaggeration-made-the-story-funnier.",
+      "english": "Exaggeration made the story funnier.",
+      "translation": "Преувеличение сделало историю смешнее.",
+      "audio": [
+        "audio/sentences/Exaggeration made the story funnier..wav"
+      ]
+    },
+    {
+      "id": "the-absurdity-surprised-everyone.",
+      "english": "The absurdity surprised everyone.",
+      "translation": "Абсурд удивил всех.",
+      "audio": [
+        "audio/sentences/The absurdity surprised everyone..wav"
+      ]
+    },
+    {
+      "id": "nonsense-filled-the-entire-dialogue.",
+      "english": "Nonsense filled the entire dialogue.",
+      "translation": "Нелепица заполнила весь диалог.",
+      "audio": [
+        "audio/sentences/Nonsense filled the entire dialogue..wav"
+      ]
+    },
+    {
+      "id": "the-parody-was-easy-to-recognize.",
+      "english": "The parody was easy to recognize.",
+      "translation": "Пародию было легко узнать.",
+      "audio": [
+        "audio/sentences/The parody was easy to recognize..wav"
+      ]
+    },
+    {
+      "id": "satire-exposed-the-problem-clearly.",
+      "english": "Satire exposed the problem clearly.",
+      "translation": "Сатира ясно показала проблему.",
+      "audio": [
+        "audio/sentences/Satire exposed the problem clearly..wav"
+      ]
+    },
+    {
+      "id": "self-irony-helps-reduce-tension.",
+      "english": "Self-irony helps reduce tension.",
+      "translation": "Самоирония помогает снизить напряжение.",
+      "audio": [
+        "audio/sentences/Self-irony helps reduce tension..wav"
+      ]
+    },
+    {
+      "id": "self-mockery-made-him-more-relatable.",
+      "english": "Self-mockery made him more relatable.",
+      "translation": "Самоирония сделала его ближе людям.",
+      "audio": [
+        "audio/sentences/Self-mockery made him more relatable..wav"
+      ]
+    },
+    {
+      "id": "understatement-strengthened-the-joke.",
+      "english": "Understatement strengthened the joke.",
+      "translation": "Недосказанность усилила шутку.",
+      "audio": [
+        "audio/sentences/Understatement strengthened the joke..wav"
+      ]
+    },
+    {
+      "id": "overstatement-grabbed-instant-attention.",
+      "english": "Overstatement grabbed instant attention.",
+      "translation": "Гипербола сразу привлекла внимание.",
+      "audio": [
+        "audio/sentences/Overstatement grabbed instant attention..wav"
+      ]
+    },
+    {
+      "id": "delivery-matters-more-than-words.",
+      "english": "Delivery matters more than words.",
+      "translation": "Подача важнее слов.",
+      "audio": [
+        "audio/sentences/Delivery matters more than words..wav"
+      ]
+    },
+    {
+      "id": "timing-turned-it-into-a-hit.",
+      "english": "Timing turned it into a hit.",
+      "translation": "Чувство момента сделало это удачным.",
+      "audio": [
+        "audio/sentences/Timing turned it into a hit..wav"
+      ]
+    },
+    {
+      "id": "tone-decided-how-it-sounded.",
+      "english": "Tone decided how it sounded.",
+      "translation": "Тон определил, как это звучало.",
+      "audio": [
+        "audio/sentences/Tone decided how it sounded..wav"
+      ]
+    },
+    {
+      "id": "expression-added-meaning-to-the-joke.",
+      "english": "Expression added meaning to the joke.",
+      "translation": "Выражение добавило смысл шутке.",
+      "audio": [
+        "audio/sentences/Expression added meaning to the joke..wav"
+      ]
+    },
+    {
+      "id": "awkwardness-followed-the-silence.",
+      "english": "Awkwardness followed the silence.",
+      "translation": "Неловкость последовала за тишиной.",
+      "audio": [
+        "audio/sentences/Awkwardness followed the silence..wav"
+      ]
+    },
+    {
+      "id": "the-remark-caused-offense.",
+      "english": "The remark caused offense.",
+      "translation": "Замечание вызвало оскорбление.",
+      "audio": [
+        "audio/sentences/The remark caused offense..wav"
+      ]
+    },
+    {
+      "id": "misinterpretation-ruined-the-joke.",
+      "english": "Misinterpretation ruined the joke.",
+      "translation": "Неверное понимание испортило шутку.",
+      "audio": [
+        "audio/sentences/Misinterpretation ruined the joke..wav"
+      ]
+    },
+    {
+      "id": "sensitivity-matters-in-humor.",
+      "english": "Sensitivity matters in humor.",
+      "translation": "Чувствительность важна в юморе.",
+      "audio": [
+        "audio/sentences/Sensitivity matters in humor..wav"
+      ]
+    },
+    {
+      "id": "deadpan-delivery-confused-them.",
+      "english": "Deadpan delivery confused them.",
+      "translation": "Сухая подача их смутила.",
+      "audio": [
+        "audio/sentences/Deadpan delivery confused them..wav"
+      ]
+    },
+    {
+      "id": "lightheartedness-shaped-the-conversation.",
+      "english": "Lightheartedness shaped the conversation.",
+      "translation": "Лёгкость задала тон разговору.",
+      "audio": [
+        "audio/sentences/Lightheartedness shaped the conversation..wav"
+      ]
+    },
+    {
+      "id": "amusement-spread-quickly.",
+      "english": "Amusement spread quickly.",
+      "translation": "Веселье быстро распространилось.",
+      "audio": [
+        "audio/sentences/Amusement spread quickly..wav"
+      ]
+    },
+    {
+      "id": "entertainment-was-the-main-goal.",
+      "english": "Entertainment was the main goal.",
+      "translation": "Развлечение было главной целью.",
+      "audio": [
+        "audio/sentences/Entertainment was the main goal..wav"
+      ]
+    }
+  ]
+}

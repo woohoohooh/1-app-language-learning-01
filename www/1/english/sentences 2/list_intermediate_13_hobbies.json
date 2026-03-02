@@ -1,0 +1,207 @@
+{
+  "theme": "Хобби и развлечения",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "hobby",
+      "english": "hobby",
+      "translation": "хобби"
+    },
+    {
+      "id": "interest",
+      "english": "interest",
+      "translation": "интерес"
+    },
+    {
+      "id": "leisure",
+      "english": "leisure",
+      "translation": "досуг"
+    },
+    {
+      "id": "free-time",
+      "english": "free time",
+      "translation": "свободное время"
+    },
+    {
+      "id": "entertainment",
+      "english": "entertainment",
+      "translation": "развлечение"
+    },
+    {
+      "id": "fun",
+      "english": "fun",
+      "translation": "веселье"
+    },
+    {
+      "id": "relaxation",
+      "english": "relaxation",
+      "translation": "расслабление"
+    },
+    {
+      "id": "challenge",
+      "english": "challenge",
+      "translation": "вызов"
+    },
+    {
+      "id": "music",
+      "english": "music",
+      "translation": "музыка"
+    },
+    {
+      "id": "concert",
+      "english": "concert",
+      "translation": "концерт"
+    },
+    {
+      "id": "playlist",
+      "english": "playlist",
+      "translation": "плейлист"
+    },
+    {
+      "id": "podcast",
+      "english": "podcast",
+      "translation": "подкаст"
+    },
+    {
+      "id": "audiobook",
+      "english": "audiobook",
+      "translation": "аудиокнига"
+    },
+    {
+      "id": "movie",
+      "english": "movie",
+      "translation": "фильм"
+    },
+    {
+      "id": "series",
+      "english": "series",
+      "translation": "сериал"
+    },
+    {
+      "id": "streaming",
+      "english": "streaming",
+      "translation": "стриминг"
+    },
+    {
+      "id": "episode",
+      "english": "episode",
+      "translation": "эпизод"
+    },
+    {
+      "id": "genre",
+      "english": "genre",
+      "translation": "жанр"
+    },
+    {
+      "id": "game",
+      "english": "game",
+      "translation": "игра"
+    },
+    {
+      "id": "gaming",
+      "english": "gaming",
+      "translation": "гейминг"
+    },
+    {
+      "id": "console",
+      "english": "console",
+      "translation": "игровая консоль"
+    },
+    {
+      "id": "multiplayer",
+      "english": "multiplayer",
+      "translation": "многопользовательский"
+    },
+    {
+      "id": "strategy",
+      "english": "strategy",
+      "translation": "стратегия"
+    },
+    {
+      "id": "reading",
+      "english": "reading",
+      "translation": "чтение"
+    },
+    {
+      "id": "writing",
+      "english": "writing",
+      "translation": "письмо"
+    },
+    {
+      "id": "blog",
+      "english": "blog",
+      "translation": "блог"
+    },
+    {
+      "id": "photography",
+      "english": "photography",
+      "translation": "фотография"
+    },
+    {
+      "id": "editing",
+      "english": "editing",
+      "translation": "редактирование"
+    },
+    {
+      "id": "traveling",
+      "english": "traveling",
+      "translation": "путешествия"
+    },
+    {
+      "id": "adventure",
+      "english": "adventure",
+      "translation": "приключение"
+    },
+    {
+      "id": "exploration",
+      "english": "exploration",
+      "translation": "исследование"
+    },
+    {
+      "id": "camping",
+      "english": "camping",
+      "translation": "кемпинг"
+    },
+    {
+      "id": "hiking",
+      "english": "hiking",
+      "translation": "походы"
+    },
+    {
+      "id": "creative",
+      "english": "creative",
+      "translation": "творческий"
+    },
+    {
+      "id": "collection",
+      "english": "collection",
+      "translation": "коллекция"
+    },
+    {
+      "id": "design",
+      "english": "design",
+      "translation": "дизайн"
+    },
+    {
+      "id": "diy",
+      "english": "DIY",
+      "translation": "сделай сам"
+    },
+    {
+      "id": "activity",
+      "english": "activity",
+      "translation": "активность"
+    },
+    {
+      "id": "experience",
+      "english": "experience",
+      "translation": "опыт"
+    },
+    {
+      "id": "craft",
+      "english": "craft",
+      "translation": "рукоделие"
+    }
+  ]
+}

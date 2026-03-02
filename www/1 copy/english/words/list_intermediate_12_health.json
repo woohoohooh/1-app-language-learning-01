@@ -1,0 +1,327 @@
+{
+  "theme": "Здоровье и медицина",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "healthcare",
+      "english": "healthcare",
+      "translation": "здравоохранение",
+      "audio": [
+        "audio/words/healthcare.wav"
+      ]
+    },
+    {
+      "id": "medical",
+      "english": "medical",
+      "translation": "медицинский",
+      "audio": [
+        "audio/words/medical.wav"
+      ]
+    },
+    {
+      "id": "condition",
+      "english": "condition",
+      "translation": "состояние",
+      "audio": [
+        "audio/words/condition.wav"
+      ]
+    },
+    {
+      "id": "symptom",
+      "english": "symptom",
+      "translation": "симптом",
+      "audio": [
+        "audio/words/symptom.wav"
+      ]
+    },
+    {
+      "id": "diagnosis",
+      "english": "diagnosis",
+      "translation": "диагноз",
+      "audio": [
+        "audio/words/diagnosis.wav"
+      ]
+    },
+    {
+      "id": "treatment",
+      "english": "treatment",
+      "translation": "лечение",
+      "audio": [
+        "audio/words/treatment.wav"
+      ]
+    },
+    {
+      "id": "therapy",
+      "english": "therapy",
+      "translation": "терапия",
+      "audio": [
+        "audio/words/therapy.wav"
+      ]
+    },
+    {
+      "id": "recovery",
+      "english": "recovery",
+      "translation": "восстановление",
+      "audio": [
+        "audio/words/recovery.wav"
+      ]
+    },
+    {
+      "id": "prevention",
+      "english": "prevention",
+      "translation": "профилактика",
+      "audio": [
+        "audio/words/prevention.wav"
+      ]
+    },
+    {
+      "id": "checkup",
+      "english": "checkup",
+      "translation": "осмотр",
+      "audio": [
+        "audio/words/checkup.wav"
+      ]
+    },
+    {
+      "id": "appointment",
+      "english": "appointment",
+      "translation": "приём",
+      "audio": [
+        "audio/words/appointment.wav"
+      ]
+    },
+    {
+      "id": "consultation",
+      "english": "consultation",
+      "translation": "консультация",
+      "audio": [
+        "audio/words/consultation.wav"
+      ]
+    },
+    {
+      "id": "specialist",
+      "english": "specialist",
+      "translation": "специалист",
+      "audio": [
+        "audio/words/specialist.wav"
+      ]
+    },
+    {
+      "id": "prescription",
+      "english": "prescription",
+      "translation": "рецепт",
+      "audio": [
+        "audio/words/prescription.wav"
+      ]
+    },
+    {
+      "id": "referral",
+      "english": "referral",
+      "translation": "направление",
+      "audio": [
+        "audio/words/referral.wav"
+      ]
+    },
+    {
+      "id": "medicine",
+      "english": "medicine",
+      "translation": "лекарство",
+      "audio": [
+        "audio/words/medicine.wav"
+      ]
+    },
+    {
+      "id": "medication",
+      "english": "medication",
+      "translation": "медикаменты",
+      "audio": [
+        "audio/words/medication.wav"
+      ]
+    },
+    {
+      "id": "dosage",
+      "english": "dosage",
+      "translation": "дозировка",
+      "audio": [
+        "audio/words/dosage.wav"
+      ]
+    },
+    {
+      "id": "side-effect",
+      "english": "side effect",
+      "translation": "побочный эффект",
+      "audio": [
+        "audio/words/side effect.wav"
+      ]
+    },
+    {
+      "id": "allergy",
+      "english": "allergy",
+      "translation": "аллергия",
+      "audio": [
+        "audio/words/allergy.wav"
+      ]
+    },
+    {
+      "id": "infection",
+      "english": "infection",
+      "translation": "инфекция",
+      "audio": [
+        "audio/words/infection.wav"
+      ]
+    },
+    {
+      "id": "inflammation",
+      "english": "inflammation",
+      "translation": "воспаление",
+      "audio": [
+        "audio/words/inflammation.wav"
+      ]
+    },
+    {
+      "id": "chronic",
+      "english": "chronic",
+      "translation": "хронический",
+      "audio": [
+        "audio/words/chronic.wav"
+      ]
+    },
+    {
+      "id": "acute",
+      "english": "acute",
+      "translation": "острый",
+      "audio": [
+        "audio/words/acute.wav"
+      ]
+    },
+    {
+      "id": "injury",
+      "english": "injury",
+      "translation": "травма",
+      "audio": [
+        "audio/words/injury.wav"
+      ]
+    },
+    {
+      "id": "emergency",
+      "english": "emergency",
+      "translation": "экстренная ситуация",
+      "audio": [
+        "audio/words/emergency.wav"
+      ]
+    },
+    {
+      "id": "ambulance",
+      "english": "ambulance",
+      "translation": "скорая помощь",
+      "audio": [
+        "audio/words/ambulance.wav"
+      ]
+    },
+    {
+      "id": "hospitalization",
+      "english": "hospitalization",
+      "translation": "госпитализация",
+      "audio": [
+        "audio/words/hospitalization.wav"
+      ]
+    },
+    {
+      "id": "surgery",
+      "english": "surgery",
+      "translation": "операция",
+      "audio": [
+        "audio/words/surgery.wav"
+      ]
+    },
+    {
+      "id": "procedure",
+      "english": "procedure",
+      "translation": "медицинская процедура",
+      "audio": [
+        "audio/words/procedure.wav"
+      ]
+    },
+    {
+      "id": "insurance",
+      "english": "insurance",
+      "translation": "страховка",
+      "audio": [
+        "audio/words/insurance.wav"
+      ]
+    },
+    {
+      "id": "coverage",
+      "english": "coverage",
+      "translation": "страховое покрытие",
+      "audio": [
+        "audio/words/coverage.wav"
+      ]
+    },
+    {
+      "id": "claim",
+      "english": "claim",
+      "translation": "страховое заявление",
+      "audio": [
+        "audio/words/claim.wav"
+      ]
+    },
+    {
+      "id": "policy",
+      "english": "policy",
+      "translation": "страховой полис",
+      "audio": [
+        "audio/words/policy.wav"
+      ]
+    },
+    {
+      "id": "provider",
+      "english": "provider",
+      "translation": "поставщик услуг",
+      "audio": [
+        "audio/words/provider.wav"
+      ]
+    },
+    {
+      "id": "mental-health",
+      "english": "mental health",
+      "translation": "психическое здоровье",
+      "audio": [
+        "audio/words/mental health.wav"
+      ]
+    },
+    {
+      "id": "stress",
+      "english": "stress",
+      "translation": "стресс",
+      "audio": [
+        "audio/words/stress.wav"
+      ]
+    },
+    {
+      "id": "anxiety",
+      "english": "anxiety",
+      "translation": "тревожность",
+      "audio": [
+        "audio/words/anxiety.wav"
+      ]
+    },
+    {
+      "id": "fatigue",
+      "english": "fatigue",
+      "translation": "усталость",
+      "audio": [
+        "audio/words/fatigue.wav"
+      ]
+    },
+    {
+      "id": "well-being",
+      "english": "well-being",
+      "translation": "общее самочувствие",
+      "audio": [
+        "audio/words/well-being.wav"
+      ]
+    }
+  ]
+}

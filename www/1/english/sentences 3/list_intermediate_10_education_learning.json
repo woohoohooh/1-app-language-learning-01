@@ -1,0 +1,123 @@
+{
+  "theme": "Образование и обучение",
+  "level": "Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "education",
+      "translation": "образование"
+    },
+    {
+      "english": "learning",
+      "translation": "обучение"
+    },
+    {
+      "english": "knowledge",
+      "translation": "знания"
+    },
+    {
+      "english": "skill",
+      "translation": "навык"
+    },
+    {
+      "english": "student",
+      "translation": "студент"
+    },
+    {
+      "english": "instructor",
+      "translation": "инструктор"
+    },
+    {
+      "english": "mentor",
+      "translation": "наставник"
+    },
+    {
+      "english": "classmate",
+      "translation": "одногруппник"
+    },
+    {
+      "english": "course",
+      "translation": "курс"
+    },
+    {
+      "english": "lesson",
+      "translation": "урок"
+    },
+    {
+      "english": "lecture",
+      "translation": "лекция"
+    },
+    {
+      "english": "practice",
+      "translation": "практика"
+    },
+    {
+      "english": "assignment",
+      "translation": "задание"
+    },
+    {
+      "english": "homework",
+      "translation": "домашнее задание"
+    },
+    {
+      "english": "exam",
+      "translation": "экзамен"
+    },
+    {
+      "english": "test",
+      "translation": "тест"
+    },
+    {
+      "english": "grade",
+      "translation": "оценка"
+    },
+    {
+      "english": "certificate",
+      "translation": "сертификат"
+    },
+    {
+      "english": "qualification",
+      "translation": "квалификация"
+    },
+    {
+      "english": "progress",
+      "translation": "прогресс"
+    },
+    {
+      "english": "result",
+      "translation": "результат"
+    },
+    {
+      "english": "online course",
+      "translation": "онлайн-курс"
+    },
+    {
+      "english": "platform",
+      "translation": "платформа"
+    },
+    {
+      "english": "material",
+      "translation": "учебный материал"
+    },
+    {
+      "english": "resource",
+      "translation": "ресурс"
+    },
+    {
+      "english": "schedule",
+      "translation": "расписание"
+    },
+    {
+      "english": "deadline",
+      "translation": "дедлайн"
+    },
+    {
+      "english": "feedback",
+      "translation": "обратная связь"
+    },
+    {
+      "english": "improvement",
+      "translation": "улучшение"
+    }
+  ]
+}

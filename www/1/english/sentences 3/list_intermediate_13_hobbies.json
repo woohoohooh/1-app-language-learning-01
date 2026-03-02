@@ -1,0 +1,167 @@
+{
+  "theme": "Хобби и развлечения",
+  "level": "Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "hobby",
+      "translation": "хобби"
+    },
+    {
+      "english": "interest",
+      "translation": "интерес"
+    },
+    {
+      "english": "leisure",
+      "translation": "досуг"
+    },
+    {
+      "english": "free time",
+      "translation": "свободное время"
+    },
+    {
+      "english": "entertainment",
+      "translation": "развлечение"
+    },
+    {
+      "english": "fun",
+      "translation": "веселье"
+    },
+    {
+      "english": "relaxation",
+      "translation": "расслабление"
+    },
+    {
+      "english": "challenge",
+      "translation": "вызов"
+    },
+    {
+      "english": "music",
+      "translation": "музыка"
+    },
+    {
+      "english": "concert",
+      "translation": "концерт"
+    },
+    {
+      "english": "playlist",
+      "translation": "плейлист"
+    },
+    {
+      "english": "podcast",
+      "translation": "подкаст"
+    },
+    {
+      "english": "audiobook",
+      "translation": "аудиокнига"
+    },
+    {
+      "english": "movie",
+      "translation": "фильм"
+    },
+    {
+      "english": "series",
+      "translation": "сериал"
+    },
+    {
+      "english": "streaming",
+      "translation": "стриминг"
+    },
+    {
+      "english": "episode",
+      "translation": "эпизод"
+    },
+    {
+      "english": "genre",
+      "translation": "жанр"
+    },
+    {
+      "english": "game",
+      "translation": "игра"
+    },
+    {
+      "english": "gaming",
+      "translation": "гейминг"
+    },
+    {
+      "english": "console",
+      "translation": "игровая консоль"
+    },
+    {
+      "english": "multiplayer",
+      "translation": "многопользовательский"
+    },
+    {
+      "english": "strategy",
+      "translation": "стратегия"
+    },
+    {
+      "english": "reading",
+      "translation": "чтение"
+    },
+    {
+      "english": "writing",
+      "translation": "письмо"
+    },
+    {
+      "english": "blog",
+      "translation": "блог"
+    },
+    {
+      "english": "photography",
+      "translation": "фотография"
+    },
+    {
+      "english": "editing",
+      "translation": "редактирование"
+    },
+    {
+      "english": "traveling",
+      "translation": "путешествия"
+    },
+    {
+      "english": "adventure",
+      "translation": "приключение"
+    },
+    {
+      "english": "exploration",
+      "translation": "исследование"
+    },
+    {
+      "english": "camping",
+      "translation": "кемпинг"
+    },
+    {
+      "english": "hiking",
+      "translation": "походы"
+    },
+    {
+      "english": "creative",
+      "translation": "творческий"
+    },
+    {
+      "english": "collection",
+      "translation": "коллекция"
+    },
+    {
+      "english": "design",
+      "translation": "дизайн"
+    },
+    {
+      "english": "DIY",
+      "translation": "сделай сам"
+    },
+    {
+      "english": "activity",
+      "translation": "активность"
+    },
+    {
+      "english": "experience",
+      "translation": "опыт"
+    },
+    {
+      "english": "craft",
+      "translation": "рукоделие"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "theme": "Принятие решений",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "decision",
+      "translation": "решение"
+    },
+    {
+      "english": "choice",
+      "translation": "выбор"
+    },
+    {
+      "english": "option",
+      "translation": "вариант"
+    },
+    {
+      "english": "alternative",
+      "translation": "альтернатива"
+    },
+    {
+      "english": "selection",
+      "translation": "выбор"
+    },
+    {
+      "english": "approach",
+      "translation": "подход"
+    },
+    {
+      "english": "strategy",
+      "translation": "стратегия"
+    },
+    {
+      "english": "plan",
+      "translation": "план"
+    },
+    {
+      "english": "direction",
+      "translation": "направление"
+    },
+    {
+      "english": "priority",
+      "translation": "приоритет"
+    },
+    {
+      "english": "criteria",
+      "translation": "критерии"
+    },
+    {
+      "english": "constraint",
+      "translation": "ограничение"
+    },
+    {
+      "english": "trade-off",
+      "translation": "компромисс"
+    },
+    {
+      "english": "feasibility",
+      "translation": "осуществимость"
+    },
+    {
+      "english": "viability",
+      "translation": "жизнеспособность"
+    },
+    {
+      "english": "risk",
+      "translation": "риск"
+    },
+    {
+      "english": "uncertainty",
+      "translation": "неопределенность"
+    },
+    {
+      "english": "probability",
+      "translation": "вероятность"
+    },
+    {
+      "english": "impact",
+      "translation": "влияние"
+    },
+    {
+      "english": "outcome",
+      "translation": "результат"
+    },
+    {
+      "english": "consequence",
+      "translation": "последствие"
+    },
+    {
+      "english": "implication",
+      "translation": "возможное последствие"
+    },
+    {
+      "english": "benefit",
+      "translation": "выгода"
+    },
+    {
+      "english": "drawback",
+      "translation": "недостаток"
+    },
+    {
+      "english": "cost",
+      "translation": "стоимость"
+    },
+    {
+      "english": "judgment",
+      "translation": "суждение"
+    },
+    {
+      "english": "evaluation",
+      "translation": "оценивание"
+    },
+    {
+      "english": "assessment",
+      "translation": "оценка"
+    },
+    {
+      "english": "consideration",
+      "translation": "рассмотрение"
+    },
+    {
+      "english": "deliberation",
+      "translation": "обдумывание"
+    },
+    {
+      "english": "commitment",
+      "translation": "принятие обязательства"
+    },
+    {
+      "english": "responsibility",
+      "translation": "ответственность"
+    },
+    {
+      "english": "accountability",
+      "translation": "ответственность за результат"
+    },
+    {
+      "english": "confidence",
+      "translation": "уверенность"
+    },
+    {
+      "english": "hesitation",
+      "translation": "колебание"
+    }
+  ]
+}

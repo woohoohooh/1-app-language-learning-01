@@ -1,0 +1,167 @@
+{
+  "theme": "Веб-разработка",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "modern-software-tools",
+      "english": "modern software tools",
+      "translation": "современные программные инструменты",
+      "audio": [
+        "audio/phrases/modern software tools.wav"
+      ]
+    },
+    {
+      "id": "mobile-application-design",
+      "english": "mobile application design",
+      "translation": "дизайн мобильного приложения",
+      "audio": [
+        "audio/phrases/mobile application design.wav"
+      ]
+    },
+    {
+      "id": "large-codebase-structure",
+      "english": "large codebase structure",
+      "translation": "структура большой кодовой базы",
+      "audio": [
+        "audio/phrases/large codebase structure.wav"
+      ]
+    },
+    {
+      "id": "shared-repository-access",
+      "english": "shared repository access",
+      "translation": "общий доступ к репозиторию",
+      "audio": [
+        "audio/phrases/shared repository access.wav"
+      ]
+    },
+    {
+      "id": "small-clean-commit",
+      "english": "small clean commit",
+      "translation": "небольшой чистый коммит",
+      "audio": [
+        "audio/phrases/small clean commit.wav"
+      ]
+    },
+    {
+      "id": "feature-branch-workflow",
+      "english": "feature branch workflow",
+      "translation": "рабочий процесс feature-ветки",
+      "audio": [
+        "audio/phrases/feature branch workflow.wav"
+      ]
+    },
+    {
+      "id": "merge-conflict-resolution",
+      "english": "merge conflict resolution",
+      "translation": "разрешение конфликтов слияния",
+      "audio": [
+        "audio/phrases/merge conflict resolution.wav"
+      ]
+    },
+    {
+      "id": "open-pull-request",
+      "english": "open pull request",
+      "translation": "открыть пулл-реквест",
+      "audio": [
+        "audio/phrases/open pull request.wav"
+      ]
+    },
+    {
+      "id": "version-control-system",
+      "english": "version control system",
+      "translation": "система контроля версий",
+      "audio": [
+        "audio/phrases/version control system.wav"
+      ]
+    },
+    {
+      "id": "production-deployment-process",
+      "english": "production deployment process",
+      "translation": "процесс развёртывания в продакшене",
+      "audio": [
+        "audio/phrases/production deployment process.wav"
+      ]
+    },
+    {
+      "id": "successful-build-result",
+      "english": "successful build result",
+      "translation": "успешный результат сборки",
+      "audio": [
+        "audio/phrases/successful build result.wav"
+      ]
+    },
+    {
+      "id": "major-release-cycle",
+      "english": "major release cycle",
+      "translation": "цикл крупного релиза",
+      "audio": [
+        "audio/phrases/major release cycle.wav"
+      ]
+    },
+    {
+      "id": "ci-pipeline-stages",
+      "english": "ci pipeline stages",
+      "translation": "этапы CI-пайплайна",
+      "audio": [
+        "audio/phrases/ci pipeline stages.wav"
+      ]
+    },
+    {
+      "id": "test-automation-strategy",
+      "english": "test automation strategy",
+      "translation": "стратегия автоматизации тестов",
+      "audio": [
+        "audio/phrases/test automation strategy.wav"
+      ]
+    },
+    {
+      "id": "system-integration-layer",
+      "english": "system integration layer",
+      "translation": "уровень интеграции системы",
+      "audio": [
+        "audio/phrases/system integration layer.wav"
+      ]
+    },
+    {
+      "id": "popular-web-framework",
+      "english": "popular web framework",
+      "translation": "популярный веб-фреймворк",
+      "audio": [
+        "audio/phrases/popular web framework.wav"
+      ]
+    },
+    {
+      "id": "external-library-usage",
+      "english": "external library usage",
+      "translation": "использование внешней библиотеки",
+      "audio": [
+        "audio/phrases/external library usage.wav"
+      ]
+    },
+    {
+      "id": "dependency-management-issues",
+      "english": "dependency management issues",
+      "translation": "проблемы управления зависимостями",
+      "audio": [
+        "audio/phrases/dependency management issues.wav"
+      ]
+    },
+    {
+      "id": "package-installation-step",
+      "english": "package installation step",
+      "translation": "шаг установки пакета",
+      "audio": [
+        "audio/phrases/package installation step.wav"
+      ]
+    },
+    {
+      "id": "independent-module-logic",
+      "english": "independent module logic",
+      "translation": "логика независимого модуля",
+      "audio": [
+        "audio/phrases/independent module logic.wav"
+      ]
+    }
+  ]
+}

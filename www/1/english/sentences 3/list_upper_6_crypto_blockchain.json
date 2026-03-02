@@ -1,0 +1,107 @@
+{
+  "theme": "Криптовалюта и блокчейн",
+  "level": "Upper-Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "cryptocurrency",
+      "translation": "криптовалюта"
+    },
+    {
+      "english": "crypto",
+      "translation": "крипта"
+    },
+    {
+      "english": "blockchain",
+      "translation": "блокчейн"
+    },
+    {
+      "english": "token",
+      "translation": "токен"
+    },
+    {
+      "english": "coin",
+      "translation": "монета"
+    },
+    {
+      "english": "Bitcoin",
+      "translation": "биткоин"
+    },
+    {
+      "english": "Ethereum",
+      "translation": "эфириум"
+    },
+    {
+      "english": "altcoin",
+      "translation": "альткоин"
+    },
+    {
+      "english": "stablecoin",
+      "translation": "стейблкоин"
+    },
+    {
+      "english": "network",
+      "translation": "сеть"
+    },
+    {
+      "english": "wallet",
+      "translation": "криптокошелёк"
+    },
+    {
+      "english": "address",
+      "translation": "адрес"
+    },
+    {
+      "english": "private key",
+      "translation": "приватный ключ"
+    },
+    {
+      "english": "seed phrase",
+      "translation": "сид-фраза"
+    },
+    {
+      "english": "transaction",
+      "translation": "транзакция"
+    },
+    {
+      "english": "block",
+      "translation": "блок"
+    },
+    {
+      "english": "miner",
+      "translation": "майнер"
+    },
+    {
+      "english": "mining",
+      "translation": "майнинг"
+    },
+    {
+      "english": "validator",
+      "translation": "валидатор"
+    },
+    {
+      "english": "consensus",
+      "translation": "консенсус"
+    },
+    {
+      "english": "proof of work",
+      "translation": "доказательство работы"
+    },
+    {
+      "english": "proof of stake",
+      "translation": "доказательство доли"
+    },
+    {
+      "english": "hash",
+      "translation": "хеш"
+    },
+    {
+      "english": "node",
+      "translation": "узел сети"
+    },
+    {
+      "english": "ledger",
+      "translation": "реестр"
+    }
+  ]
+}

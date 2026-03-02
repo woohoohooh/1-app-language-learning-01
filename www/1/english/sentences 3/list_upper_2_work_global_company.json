@@ -1,0 +1,187 @@
+{
+  "theme": "Работа в компании",
+  "level": "Upper-Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "organization",
+      "translation": "организация"
+    },
+    {
+      "english": "headquarters",
+      "translation": "штаб-квартира"
+    },
+    {
+      "english": "subsidiary",
+      "translation": "дочерняя компания"
+    },
+    {
+      "english": "department",
+      "translation": "отдел"
+    },
+    {
+      "english": "division",
+      "translation": "подразделение"
+    },
+    {
+      "english": "management",
+      "translation": "руководство"
+    },
+    {
+      "english": "leadership",
+      "translation": "лидерство"
+    },
+    {
+      "english": "supervisor",
+      "translation": "руководитель"
+    },
+    {
+      "english": "colleague",
+      "translation": "коллега"
+    },
+    {
+      "english": "counterpart",
+      "translation": "коллега"
+    },
+    {
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона"
+    },
+    {
+      "english": "decision-maker",
+      "translation": "лицо, принимающее решения"
+    },
+    {
+      "english": "reporting",
+      "translation": "подотчетность"
+    },
+    {
+      "english": "alignment",
+      "translation": "согласованность"
+    },
+    {
+      "english": "coordination",
+      "translation": "координация"
+    },
+    {
+      "english": "process",
+      "translation": "процесс"
+    },
+    {
+      "english": "procedure",
+      "translation": "процедура"
+    },
+    {
+      "english": "workflow",
+      "translation": "рабочий процесс"
+    },
+    {
+      "english": "deliverable",
+      "translation": "результат работы"
+    },
+    {
+      "english": "milestone",
+      "translation": "этап"
+    },
+    {
+      "english": "deadline",
+      "translation": "крайний срок"
+    },
+    {
+      "english": "timeline",
+      "translation": "график"
+    },
+    {
+      "english": "workload",
+      "translation": "рабочая нагрузка"
+    },
+    {
+      "english": "availability",
+      "translation": "доступность"
+    },
+    {
+      "english": "meeting",
+      "translation": "встреча"
+    },
+    {
+      "english": "agenda",
+      "translation": "повестка"
+    },
+    {
+      "english": "minutes",
+      "translation": "протокол встречи"
+    },
+    {
+      "english": "follow-up",
+      "translation": "последующие действия"
+    },
+    {
+      "english": "action item",
+      "translation": "пункт к выполнению"
+    },
+    {
+      "english": "communication",
+      "translation": "коммуникация"
+    },
+    {
+      "english": "clarification",
+      "translation": "уточнение"
+    },
+    {
+      "english": "alignment call",
+      "translation": "созвон для синхронизации"
+    },
+    {
+      "english": "escalation",
+      "translation": "эскалация"
+    },
+    {
+      "english": "approval",
+      "translation": "утверждение"
+    },
+    {
+      "english": "responsibility",
+      "translation": "ответственность"
+    },
+    {
+      "english": "ownership",
+      "translation": "ответственность за зону"
+    },
+    {
+      "english": "accountability",
+      "translation": "подотчетность"
+    },
+    {
+      "english": "compliance",
+      "translation": "соответствие требованиям"
+    },
+    {
+      "english": "policy",
+      "translation": "политика компании"
+    },
+    {
+      "english": "performance",
+      "translation": "результативность"
+    },
+    {
+      "english": "evaluation",
+      "translation": "оценка"
+    },
+    {
+      "english": "feedback",
+      "translation": "обратная связь"
+    },
+    {
+      "english": "improvement",
+      "translation": "улучшение"
+    },
+    {
+      "english": "growth",
+      "translation": "рост"
+    },
+    {
+      "english": "capacity",
+      "translation": "загрузка"
+    }
+  ]
+}

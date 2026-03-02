@@ -1,0 +1,32 @@
+{
+  "theme": "Движение и транспорт",
+  "level": "Beginner",
+  "name": "Phrase",
+  "items": [
+    {"id":"move_fast","original":"move","english":"move fast","translation":"двигаться быстро"},
+    {"id":"walk_home","original":"walk","english":"walk home","translation":"идти домой пешком"},
+    {"id":"run_away","original":"run","english":"run away","translation":"убегать"},
+    {"id":"stop_here","original":"stop_action","english":"stop here","translation":"остановиться здесь"},
+    {"id":"long_road","original":"road","english":"long road","translation":"длинная дорога"},
+    {"id":"busy_street","original":"street","english":"busy street","translation":"оживленная улица"},
+    {"id":"right_way","original":"way","english":"right way","translation":"правильный путь"},
+    {"id":"wrong_direction","original":"direction","english":"wrong direction","translation":"неправильное направление"},
+    {"id":"red_car","original":"car","english":"red car","translation":"красная машина"},
+    {"id":"city_bus","original":"bus","english":"city bus","translation":"городской автобус"},
+    {"id":"fast_train","original":"train","english":"fast train","translation":"быстрый поезд"},
+    {"id":"yellow_taxi","original":"taxi","english":"yellow taxi","translation":"желтое такси"},
+    {"id":"busy_subway","original":"subway","english":"busy subway","translation":"переполненное метро"},
+    {"id":"new_bike","original":"bike","english":"new bike","translation":"новый велосипед"},
+    {"id":"old_bicycle","original":"bicycle","english":"old bicycle","translation":"старый велосипед"},
+    {"id":"bus_station","original":"station","english":"bus station","translation":"автовокзал"},
+    {"id":"bus_stop","original":"bus_stop","english":"bus stop","translation":"автобусная остановка"},
+    {"id":"train_ticket","original":"ticket","english":"train ticket","translation":"билет на поезд"},
+    {"id":"nice_ride","original":"ride","english":"nice ride","translation":"приятная поездка"},
+    {"id":"short_trip","original":"trip","english":"short trip","translation":"короткое путешествие"},
+    {"id":"drive_car","original":"drive","english":"drive car","translation":"вести машину"},
+    {"id":"arrive_home","original":"arrive","english":"arrive home","translation":"прибыть домой"},
+    {"id":"go_out","original":"go","english":"go out","translation":"выходить"},
+    {"id":"come_back","original":"come","english":"come back","translation":"возвращаться"},
+    {"id":"leave_city","original":"leave","english":"leave city","translation":"уезжать из города"}
+  ]
+}

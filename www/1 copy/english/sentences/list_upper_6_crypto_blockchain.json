@@ -1,0 +1,207 @@
+{
+  "theme": "Криптовалюта и блокчейн",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "cryptocurrency-is-gaining-global-attention.",
+      "english": "Cryptocurrency is gaining global attention.",
+      "translation": "Криптовалюта привлекает внимание по всему миру.",
+      "audio": [
+        "audio/sentences/Cryptocurrency is gaining global attention..wav"
+      ]
+    },
+    {
+      "id": "crypto-changes-how-people-think-about-money.",
+      "english": "Crypto changes how people think about money.",
+      "translation": "Крипта меняет то, как люди думают о деньгах.",
+      "audio": [
+        "audio/sentences/Crypto changes how people think about money..wav"
+      ]
+    },
+    {
+      "id": "blockchain-improves-data-transparency.",
+      "english": "Blockchain improves data transparency.",
+      "translation": "Блокчейн повышает прозрачность данных.",
+      "audio": [
+        "audio/sentences/Blockchain improves data transparency..wav"
+      ]
+    },
+    {
+      "id": "the-token-grants-access-to-services.",
+      "english": "The token grants access to services.",
+      "translation": "Токен даёт доступ к сервисам.",
+      "audio": [
+        "audio/sentences/The token grants access to services..wav"
+      ]
+    },
+    {
+      "id": "each-coin-has-its-own-value.",
+      "english": "Each coin has its own value.",
+      "translation": "Каждая монета имеет свою ценность.",
+      "audio": [
+        "audio/sentences/Each coin has its own value..wav"
+      ]
+    },
+    {
+      "id": "bitcoin-operates-without-central-control.",
+      "english": "Bitcoin operates without central control.",
+      "translation": "Биткоин работает без центрального управления.",
+      "audio": [
+        "audio/sentences/Bitcoin operates without central control..wav"
+      ]
+    },
+    {
+      "id": "ethereum-supports-smart-contracts.",
+      "english": "Ethereum supports smart contracts.",
+      "translation": "Эфириум поддерживает смарт-контракты.",
+      "audio": [
+        "audio/sentences/Ethereum supports smart contracts..wav"
+      ]
+    },
+    {
+      "id": "altcoins-offer-different-use-cases.",
+      "english": "Altcoins offer different use cases.",
+      "translation": "Альткоины предлагают разные сценарии использования.",
+      "audio": [
+        "audio/sentences/Altcoins offer different use cases..wav"
+      ]
+    },
+    {
+      "id": "stablecoins-reduce-price-fluctuations.",
+      "english": "Stablecoins reduce price fluctuations.",
+      "translation": "Стейблкоины уменьшают ценовые колебания.",
+      "audio": [
+        "audio/sentences/Stablecoins reduce price fluctuations..wav"
+      ]
+    },
+    {
+      "id": "the-network-processes-transactions-constantly.",
+      "english": "The network processes transactions constantly.",
+      "translation": "Сеть постоянно обрабатывает транзакции.",
+      "audio": [
+        "audio/sentences/The network processes transactions constantly..wav"
+      ]
+    },
+    {
+      "id": "the-wallet-stores-digital-assets.",
+      "english": "The wallet stores digital assets.",
+      "translation": "Кошелёк хранит цифровые активы.",
+      "audio": [
+        "audio/sentences/The wallet stores digital assets..wav"
+      ]
+    },
+    {
+      "id": "the-address-identifies-the-recipient.",
+      "english": "The address identifies the recipient.",
+      "translation": "Адрес определяет получателя.",
+      "audio": [
+        "audio/sentences/The address identifies the recipient..wav"
+      ]
+    },
+    {
+      "id": "a-private-key-must-remain-secret.",
+      "english": "A private key must remain secret.",
+      "translation": "Приватный ключ должен оставаться в тайне.",
+      "audio": [
+        "audio/sentences/A private key must remain secret..wav"
+      ]
+    },
+    {
+      "id": "the-seed-phrase-restores-the-wallet.",
+      "english": "The seed phrase restores the wallet.",
+      "translation": "Сид-фраза восстанавливает кошелёк.",
+      "audio": [
+        "audio/sentences/The seed phrase restores the wallet..wav"
+      ]
+    },
+    {
+      "id": "the-transaction-was-confirmed-quickly.",
+      "english": "The transaction was confirmed quickly.",
+      "translation": "Транзакция была подтверждена быстро.",
+      "audio": [
+        "audio/sentences/The transaction was confirmed quickly..wav"
+      ]
+    },
+    {
+      "id": "each-block-stores-verified-data.",
+      "english": "Each block stores verified data.",
+      "translation": "Каждый блок хранит проверенные данные.",
+      "audio": [
+        "audio/sentences/Each block stores verified data..wav"
+      ]
+    },
+    {
+      "id": "the-miner-validates-transactions.",
+      "english": "The miner validates transactions.",
+      "translation": "Майнер подтверждает транзакции.",
+      "audio": [
+        "audio/sentences/The miner validates transactions..wav"
+      ]
+    },
+    {
+      "id": "mining-requires-significant-computing-power.",
+      "english": "Mining requires significant computing power.",
+      "translation": "Майнинг требует значительных вычислительных мощностей.",
+      "audio": [
+        "audio/sentences/Mining requires significant computing power..wav"
+      ]
+    },
+    {
+      "id": "validators-secure-the-blockchain.",
+      "english": "Validators secure the blockchain.",
+      "translation": "Валидаторы обеспечивают безопасность блокчейна.",
+      "audio": [
+        "audio/sentences/Validators secure the blockchain..wav"
+      ]
+    },
+    {
+      "id": "consensus-ensures-network-agreement.",
+      "english": "Consensus ensures network agreement.",
+      "translation": "Консенсус обеспечивает согласие сети.",
+      "audio": [
+        "audio/sentences/Consensus ensures network agreement..wav"
+      ]
+    },
+    {
+      "id": "proof-of-work-consumes-large-energy.",
+      "english": "Proof of work consumes large energy.",
+      "translation": "Доказательство работы потребляет много энергии.",
+      "audio": [
+        "audio/sentences/Proof of work consumes large energy..wav"
+      ]
+    },
+    {
+      "id": "proof-of-stake-improves-efficiency.",
+      "english": "Proof of stake improves efficiency.",
+      "translation": "Доказательство доли повышает эффективность.",
+      "audio": [
+        "audio/sentences/Proof of stake improves efficiency..wav"
+      ]
+    },
+    {
+      "id": "the-hash-secures-the-data.",
+      "english": "The hash secures the data.",
+      "translation": "Хеш защищает данные.",
+      "audio": [
+        "audio/sentences/The hash secures the data..wav"
+      ]
+    },
+    {
+      "id": "each-node-maintains-the-ledger.",
+      "english": "Each node maintains the ledger.",
+      "translation": "Каждый узел поддерживает реестр.",
+      "audio": [
+        "audio/sentences/Each node maintains the ledger..wav"
+      ]
+    },
+    {
+      "id": "the-ledger-records-all-transactions.",
+      "english": "The ledger records all transactions.",
+      "translation": "Реестр фиксирует все транзакции.",
+      "audio": [
+        "audio/sentences/The ledger records all transactions..wav"
+      ]
+    }
+  ]
+}

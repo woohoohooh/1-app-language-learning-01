@@ -1,0 +1,327 @@
+{
+  "theme": "Программирование и IT",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "learn-programming-basics",
+      "english": "learn programming basics",
+      "translation": "изучать основы программирования",
+      "audio": [
+        "audio/phrases/learn programming basics.wav"
+      ]
+    },
+    {
+      "id": "hire-a-developer",
+      "english": "hire a developer",
+      "translation": "нанять разработчика",
+      "audio": [
+        "audio/phrases/hire a developer.wav"
+      ]
+    },
+    {
+      "id": "use-new-software",
+      "english": "use new software",
+      "translation": "использовать новое ПО",
+      "audio": [
+        "audio/phrases/use new software.wav"
+      ]
+    },
+    {
+      "id": "build-an-application",
+      "english": "build an application",
+      "translation": "создать приложение",
+      "audio": [
+        "audio/phrases/build an application.wav"
+      ]
+    },
+    {
+      "id": "test-the-system",
+      "english": "test the system",
+      "translation": "тестировать систему",
+      "audio": [
+        "audio/phrases/test the system.wav"
+      ]
+    },
+    {
+      "id": "write-clean-code",
+      "english": "write clean code",
+      "translation": "писать чистый код",
+      "audio": [
+        "audio/phrases/write clean code.wav"
+      ]
+    },
+    {
+      "id": "review-source-code",
+      "english": "review source code",
+      "translation": "проверить исходный код",
+      "audio": [
+        "audio/phrases/review source code.wav"
+      ]
+    },
+    {
+      "id": "call-the-function",
+      "english": "call the function",
+      "translation": "вызвать функцию",
+      "audio": [
+        "audio/phrases/call the function.wav"
+      ]
+    },
+    {
+      "id": "use-this-method",
+      "english": "use this method",
+      "translation": "использовать этот метод",
+      "audio": [
+        "audio/phrases/use this method.wav"
+      ]
+    },
+    {
+      "id": "set-the-variable",
+      "english": "set the variable",
+      "translation": "установить переменную",
+      "audio": [
+        "audio/phrases/set the variable.wav"
+      ]
+    },
+    {
+      "id": "check-program-logic",
+      "english": "check program logic",
+      "translation": "проверить логику программы",
+      "audio": [
+        "audio/phrases/check program logic.wav"
+      ]
+    },
+    {
+      "id": "optimize-the-algorithm",
+      "english": "optimize the algorithm",
+      "translation": "оптимизировать алгоритм",
+      "audio": [
+        "audio/phrases/optimize the algorithm.wav"
+      ]
+    },
+    {
+      "id": "modify-data-structure",
+      "english": "modify data structure",
+      "translation": "изменить структуру данных",
+      "audio": [
+        "audio/phrases/modify data structure.wav"
+      ]
+    },
+    {
+      "id": "process-user-data",
+      "english": "process user data",
+      "translation": "обрабатывать данные пользователя",
+      "audio": [
+        "audio/phrases/process user data.wav"
+      ]
+    },
+    {
+      "id": "create-a-database",
+      "english": "create a database",
+      "translation": "создать базу данных",
+      "audio": [
+        "audio/phrases/create a database.wav"
+      ]
+    },
+    {
+      "id": "configure-the-server",
+      "english": "configure the server",
+      "translation": "настроить сервер",
+      "audio": [
+        "audio/phrases/configure the server.wav"
+      ]
+    },
+    {
+      "id": "support-the-client",
+      "english": "support the client",
+      "translation": "поддерживать клиента",
+      "audio": [
+        "audio/phrases/support the client.wav"
+      ]
+    },
+    {
+      "id": "build-backend-logic",
+      "english": "build backend logic",
+      "translation": "создать логику бэкенда",
+      "audio": [
+        "audio/phrases/build backend logic.wav"
+      ]
+    },
+    {
+      "id": "design-frontend-layout",
+      "english": "design frontend layout",
+      "translation": "разработать фронтенд-макет",
+      "audio": [
+        "audio/phrases/design frontend layout.wav"
+      ]
+    },
+    {
+      "id": "call-the-api",
+      "english": "call the api",
+      "translation": "вызвать api",
+      "audio": [
+        "audio/phrases/call the api.wav"
+      ]
+    },
+    {
+      "id": "send-a-request",
+      "english": "send a request",
+      "translation": "отправить запрос",
+      "audio": [
+        "audio/phrases/send a request.wav"
+      ]
+    },
+    {
+      "id": "receive-server-response",
+      "english": "receive server response",
+      "translation": "получить ответ сервера",
+      "audio": [
+        "audio/phrases/receive server response.wav"
+      ]
+    },
+    {
+      "id": "perform-system-integration",
+      "english": "perform system integration",
+      "translation": "выполнить интеграцию системы",
+      "audio": [
+        "audio/phrases/perform system integration.wav"
+      ]
+    },
+    {
+      "id": "schedule-deployment-tasks",
+      "english": "schedule deployment tasks",
+      "translation": "запланировать задачи развёртывания",
+      "audio": [
+        "audio/phrases/schedule deployment tasks.wav"
+      ]
+    },
+    {
+      "id": "set-up-testing-environment",
+      "english": "set up testing environment",
+      "translation": "настроить тестовое окружение",
+      "audio": [
+        "audio/phrases/set up testing environment.wav"
+      ]
+    },
+    {
+      "id": "learn-the-framework",
+      "english": "learn the framework",
+      "translation": "изучить фреймворк",
+      "audio": [
+        "audio/phrases/learn the framework.wav"
+      ]
+    },
+    {
+      "id": "use-external-library",
+      "english": "use external library",
+      "translation": "использовать внешнюю библиотеку",
+      "audio": [
+        "audio/phrases/use external library.wav"
+      ]
+    },
+    {
+      "id": "manage-project-dependency",
+      "english": "manage project dependency",
+      "translation": "управлять зависимостью проекта",
+      "audio": [
+        "audio/phrases/manage project dependency.wav"
+      ]
+    },
+    {
+      "id": "install-software-package",
+      "english": "install software package",
+      "translation": "установить пакет ПО",
+      "audio": [
+        "audio/phrases/install software package.wav"
+      ]
+    },
+    {
+      "id": "check-software-version",
+      "english": "check software version",
+      "translation": "проверить версию ПО",
+      "audio": [
+        "audio/phrases/check software version.wav"
+      ]
+    },
+    {
+      "id": "fix-a-critical-bug",
+      "english": "fix a critical bug",
+      "translation": "исправить критический баг",
+      "audio": [
+        "audio/phrases/fix a critical bug.wav"
+      ]
+    },
+    {
+      "id": "report-the-issue",
+      "english": "report the issue",
+      "translation": "сообщить о проблеме",
+      "audio": [
+        "audio/phrases/report the issue.wav"
+      ]
+    },
+    {
+      "id": "apply-the-fix",
+      "english": "apply the fix",
+      "translation": "применить исправление",
+      "audio": [
+        "audio/phrases/apply the fix.wav"
+      ]
+    },
+    {
+      "id": "start-debugging-session",
+      "english": "start debugging session",
+      "translation": "начать сеанс отладки",
+      "audio": [
+        "audio/phrases/start debugging session.wav"
+      ]
+    },
+    {
+      "id": "perform-software-testing",
+      "english": "perform software testing",
+      "translation": "провести тестирование ПО",
+      "audio": [
+        "audio/phrases/perform software testing.wav"
+      ]
+    },
+    {
+      "id": "monitor-system-performance",
+      "english": "monitor system performance",
+      "translation": "контролировать производительность системы",
+      "audio": [
+        "audio/phrases/monitor system performance.wav"
+      ]
+    },
+    {
+      "id": "perform-code-optimization",
+      "english": "perform code optimization",
+      "translation": "выполнить оптимизацию кода",
+      "audio": [
+        "audio/phrases/perform code optimization.wav"
+      ]
+    },
+    {
+      "id": "ensure-data-security",
+      "english": "ensure data security",
+      "translation": "обеспечить безопасность данных",
+      "audio": [
+        "audio/phrases/ensure data security.wav"
+      ]
+    },
+    {
+      "id": "grant-user-access",
+      "english": "grant user access",
+      "translation": "предоставить доступ пользователю",
+      "audio": [
+        "audio/phrases/grant user access.wav"
+      ]
+    },
+    {
+      "id": "request-file-permission",
+      "english": "request file permission",
+      "translation": "запросить разрешение на файл",
+      "audio": [
+        "audio/phrases/request file permission.wav"
+      ]
+    }
+  ]
+}

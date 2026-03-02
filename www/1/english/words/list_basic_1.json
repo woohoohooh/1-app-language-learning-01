@@ -1,0 +1,447 @@
+{
+  "theme": "Частые слова (база)",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "i",
+      "english": "I",
+      "translation": "я"
+    },
+    {
+      "id": "you",
+      "english": "you",
+      "translation": "ты"
+    },
+    {
+      "id": "he",
+      "english": "he",
+      "translation": "он"
+    },
+    {
+      "id": "she",
+      "english": "she",
+      "translation": "она"
+    },
+    {
+      "id": "we",
+      "english": "we",
+      "translation": "мы"
+    },
+    {
+      "id": "they",
+      "english": "they",
+      "translation": "они"
+    },
+    {
+      "id": "be",
+      "english": "be",
+      "translation": "быть"
+    },
+    {
+      "id": "have",
+      "english": "have",
+      "translation": "иметь"
+    },
+    {
+      "id": "do",
+      "english": "do",
+      "translation": "делать"
+    },
+    {
+      "id": "say",
+      "english": "say",
+      "translation": "говорить"
+    },
+    {
+      "id": "come",
+      "english": "come",
+      "translation": "приходить"
+    },
+    {
+      "id": "see",
+      "english": "see",
+      "translation": "видеть"
+    },
+    {
+      "id": "hear",
+      "english": "hear",
+      "translation": "слышать"
+    },
+    {
+      "id": "know",
+      "english": "know",
+      "translation": "знать"
+    },
+    {
+      "id": "think",
+      "english": "think",
+      "translation": "думать"
+    },
+    {
+      "id": "want",
+      "english": "want",
+      "translation": "хотеть"
+    },
+    {
+      "id": "need",
+      "english": "need",
+      "translation": "нуждаться"
+    },
+    {
+      "id": "like",
+      "english": "like",
+      "translation": "нравиться"
+    },
+    {
+      "id": "use",
+      "english": "use",
+      "translation": "использовать"
+    },
+    {
+      "id": "try",
+      "english": "try",
+      "translation": "пытаться"
+    },
+    {
+      "id": "ask",
+      "english": "ask",
+      "translation": "спрашивать"
+    },
+    {
+      "id": "give",
+      "english": "give",
+      "translation": "давать"
+    },
+    {
+      "id": "take",
+      "english": "take",
+      "translation": "брать"
+    },
+    {
+      "id": "find",
+      "english": "find",
+      "translation": "находить"
+    },
+    {
+      "id": "tell",
+      "english": "tell",
+      "translation": "рассказывать"
+    },
+    {
+      "id": "feel",
+      "english": "feel",
+      "translation": "чувствовать"
+    },
+    {
+      "id": "bring",
+      "english": "bring",
+      "translation": "приносить"
+    },
+    {
+      "id": "time",
+      "english": "time",
+      "translation": "время"
+    },
+    {
+      "id": "day",
+      "english": "day",
+      "translation": "день"
+    },
+    {
+      "id": "year",
+      "english": "year",
+      "translation": "год"
+    },
+    {
+      "id": "people",
+      "english": "people",
+      "translation": "люди"
+    },
+    {
+      "id": "person",
+      "english": "person",
+      "translation": "человек"
+    },
+    {
+      "id": "life",
+      "english": "life",
+      "translation": "жизнь"
+    },
+    {
+      "id": "thing",
+      "english": "thing",
+      "translation": "вещь"
+    },
+    {
+      "id": "place",
+      "english": "place",
+      "translation": "место"
+    },
+    {
+      "id": "problem",
+      "english": "problem",
+      "translation": "проблема"
+    },
+    {
+      "id": "question",
+      "english": "question",
+      "translation": "вопрос"
+    },
+    {
+      "id": "home",
+      "english": "home",
+      "translation": "дом"
+    },
+    {
+      "id": "world",
+      "english": "world",
+      "translation": "мир"
+    },
+    {
+      "id": "friend",
+      "english": "friend",
+      "translation": "друг"
+    },
+    {
+      "id": "family",
+      "english": "family",
+      "translation": "семья"
+    },
+    {
+      "id": "good",
+      "english": "good",
+      "translation": "хороший"
+    },
+    {
+      "id": "bad",
+      "english": "bad",
+      "translation": "плохой"
+    },
+    {
+      "id": "big",
+      "english": "big",
+      "translation": "большой"
+    },
+    {
+      "id": "small",
+      "english": "small",
+      "translation": "маленький"
+    },
+    {
+      "id": "new",
+      "english": "new",
+      "translation": "новый"
+    },
+    {
+      "id": "old",
+      "english": "old",
+      "translation": "старый"
+    },
+    {
+      "id": "same",
+      "english": "same",
+      "translation": "одинаковый"
+    },
+    {
+      "id": "different",
+      "english": "different",
+      "translation": "разный"
+    },
+    {
+      "id": "important",
+      "english": "important",
+      "translation": "важный"
+    },
+    {
+      "id": "easy",
+      "english": "easy",
+      "translation": "лёгкий"
+    },
+    {
+      "id": "hard",
+      "english": "hard",
+      "translation": "трудный"
+    },
+    {
+      "id": "wrong",
+      "english": "wrong",
+      "translation": "неправильный"
+    },
+    {
+      "id": "very",
+      "english": "very",
+      "translation": "очень"
+    },
+    {
+      "id": "really",
+      "english": "really",
+      "translation": "действительно"
+    },
+    {
+      "id": "only",
+      "english": "only",
+      "translation": "только"
+    },
+    {
+      "id": "now",
+      "english": "now",
+      "translation": "сейчас"
+    },
+    {
+      "id": "here",
+      "english": "here",
+      "translation": "здесь"
+    },
+    {
+      "id": "there",
+      "english": "there",
+      "translation": "там"
+    },
+    {
+      "id": "always",
+      "english": "always",
+      "translation": "всегда"
+    },
+    {
+      "id": "often",
+      "english": "often",
+      "translation": "часто"
+    },
+    {
+      "id": "sometimes",
+      "english": "sometimes",
+      "translation": "иногда"
+    },
+    {
+      "id": "never",
+      "english": "never",
+      "translation": "никогда"
+    },
+    {
+      "id": "in",
+      "english": "in",
+      "translation": "в"
+    },
+    {
+      "id": "on",
+      "english": "on",
+      "translation": "на"
+    },
+    {
+      "id": "with",
+      "english": "with",
+      "translation": "с"
+    },
+    {
+      "id": "without",
+      "english": "without",
+      "translation": "без"
+    },
+    {
+      "id": "for",
+      "english": "for",
+      "translation": "для"
+    },
+    {
+      "id": "before",
+      "english": "before",
+      "translation": "до"
+    },
+    {
+      "id": "after",
+      "english": "after",
+      "translation": "после"
+    },
+    {
+      "id": "what",
+      "english": "what",
+      "translation": "что"
+    },
+    {
+      "id": "who",
+      "english": "who",
+      "translation": "кто"
+    },
+    {
+      "id": "where",
+      "english": "where",
+      "translation": "где"
+    },
+    {
+      "id": "when",
+      "english": "when",
+      "translation": "когда"
+    },
+    {
+      "id": "why",
+      "english": "why",
+      "translation": "почему"
+    },
+    {
+      "id": "how",
+      "english": "how",
+      "translation": "как"
+    },
+    {
+      "id": "it",
+      "english": "it",
+      "translation": "это"
+    },
+    {
+      "id": "make",
+      "english": "make",
+      "translation": "делать"
+    },
+    {
+      "id": "go",
+      "english": "go",
+      "translation": "идти"
+    },
+    {
+      "id": "work",
+      "english": "work",
+      "translation": "работать"
+    },
+    {
+      "id": "leave",
+      "english": "leave",
+      "translation": "уходить"
+    },
+    {
+      "id": "way",
+      "english": "way",
+      "translation": "способ"
+    },
+    {
+      "id": "right",
+      "english": "right",
+      "translation": "правильный"
+    },
+    {
+      "id": "just",
+      "english": "just",
+      "translation": "только что"
+    },
+    {
+      "id": "at",
+      "english": "at",
+      "translation": "у"
+    },
+    {
+      "id": "to",
+      "english": "to",
+      "translation": "к"
+    },
+    {
+      "id": "from",
+      "english": "from",
+      "translation": "из"
+    },
+    {
+      "id": "about",
+      "english": "about",
+      "translation": "о"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "theme": "Город и места",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "big-city-life",
+      "english": "big city life",
+      "translation": "жизнь большого города",
+      "audio": [
+        "audio/phrases/big city life.wav"
+      ]
+    },
+    {
+      "id": "small-quiet-town",
+      "english": "small quiet town",
+      "translation": "маленький тихий городок",
+      "audio": [
+        "audio/phrases/small quiet town.wav"
+      ]
+    },
+    {
+      "id": "busy-street-corner",
+      "english": "busy street corner",
+      "translation": "оживлённый уличный угол",
+      "audio": [
+        "audio/phrases/busy street corner.wav"
+      ]
+    },
+    {
+      "id": "long-empty-road",
+      "english": "long empty road",
+      "translation": "длинная пустая дорога",
+      "audio": [
+        "audio/phrases/long empty road.wav"
+      ]
+    },
+    {
+      "id": "central-city-square",
+      "english": "central city square",
+      "translation": "центральная городская площадь",
+      "audio": [
+        "audio/phrases/central city square.wav"
+      ]
+    },
+    {
+      "id": "green-city-park",
+      "english": "green city park",
+      "translation": "зелёный городской парк",
+      "audio": [
+        "audio/phrases/green city park.wav"
+      ]
+    },
+    {
+      "id": "tall-modern-building",
+      "english": "tall modern building",
+      "translation": "высокое современное здание",
+      "audio": [
+        "audio/phrases/tall modern building.wav"
+      ]
+    },
+    {
+      "id": "family-house-nearby",
+      "english": "family house nearby",
+      "translation": "семейный дом рядом",
+      "audio": [
+        "audio/phrases/family house nearby.wav"
+      ]
+    },
+    {
+      "id": "busy-office-space",
+      "english": "busy office space",
+      "translation": "оживлённый офис",
+      "audio": [
+        "audio/phrases/busy office space.wav"
+      ]
+    },
+    {
+      "id": "local-public-school",
+      "english": "local public school",
+      "translation": "местная государственная школа",
+      "audio": [
+        "audio/phrases/local public school.wav"
+      ]
+    },
+    {
+      "id": "large-city-university",
+      "english": "large city university",
+      "translation": "большой городской университет",
+      "audio": [
+        "audio/phrases/large city university.wav"
+      ]
+    },
+    {
+      "id": "quiet-public-library",
+      "english": "quiet public library",
+      "translation": "тихая публичная библиотека",
+      "audio": [
+        "audio/phrases/quiet public library.wav"
+      ]
+    },
+    {
+      "id": "city-general-hospital",
+      "english": "city general hospital",
+      "translation": "городская больница",
+      "audio": [
+        "audio/phrases/city general hospital.wav"
+      ]
+    },
+    {
+      "id": "local-medical-clinic",
+      "english": "local medical clinic",
+      "translation": "местная медицинская клиника",
+      "audio": [
+        "audio/phrases/local medical clinic.wav"
+      ]
+    },
+    {
+      "id": "nearby-city-pharmacy",
+      "english": "nearby city pharmacy",
+      "translation": "ближайшая городская аптека",
+      "audio": [
+        "audio/phrases/nearby city pharmacy.wav"
+      ]
+    },
+    {
+      "id": "local-police-station",
+      "english": "local police station",
+      "translation": "местное отделение полиции",
+      "audio": [
+        "audio/phrases/local police station.wav"
+      ]
+    },
+    {
+      "id": "main-city-bank",
+      "english": "main city bank",
+      "translation": "главный городской банк",
+      "audio": [
+        "audio/phrases/main city bank.wav"
+      ]
+    },
+    {
+      "id": "local-post-office",
+      "english": "local post office",
+      "translation": "местное почтовое отделение",
+      "audio": [
+        "audio/phrases/local post office.wav"
+      ]
+    },
+    {
+      "id": "train-station-entrance",
+      "english": "train station entrance",
+      "translation": "вход на вокзал",
+      "audio": [
+        "audio/phrases/train station entrance.wav"
+      ]
+    },
+    {
+      "id": "busy-bus-stop",
+      "english": "busy bus stop",
+      "translation": "оживлённая автобусная остановка",
+      "audio": [
+        "audio/phrases/busy bus stop.wav"
+      ]
+    },
+    {
+      "id": "city-subway-line",
+      "english": "city subway line",
+      "translation": "городская линия метро",
+      "audio": [
+        "audio/phrases/city subway line.wav"
+      ]
+    },
+    {
+      "id": "old-stone-bridge",
+      "english": "old stone bridge",
+      "translation": "старый каменный мост",
+      "audio": [
+        "audio/phrases/old stone bridge.wav"
+      ]
+    },
+    {
+      "id": "busy-crossroad-area",
+      "english": "busy crossroad area",
+      "translation": "оживлённый перекрёсток",
+      "audio": [
+        "audio/phrases/busy crossroad area.wav"
+      ]
+    },
+    {
+      "id": "city-center-hotel",
+      "english": "city center hotel",
+      "translation": "отель в центре города",
+      "audio": [
+        "audio/phrases/city center hotel.wav"
+      ]
+    },
+    {
+      "id": "cheap-city-hostel",
+      "english": "cheap city hostel",
+      "translation": "дешёвый городской хостел",
+      "audio": [
+        "audio/phrases/cheap city hostel.wav"
+      ]
+    },
+    {
+      "id": "modern-art-museum",
+      "english": "modern art museum",
+      "translation": "музей современного искусства",
+      "audio": [
+        "audio/phrases/modern art museum.wav"
+      ]
+    },
+    {
+      "id": "local-city-theater",
+      "english": "local city theater",
+      "translation": "местный городской театр",
+      "audio": [
+        "audio/phrases/local city theater.wav"
+      ]
+    },
+    {
+      "id": "large-cinema-hall",
+      "english": "large cinema hall",
+      "translation": "большой кинозал",
+      "audio": [
+        "audio/phrases/large cinema hall.wav"
+      ]
+    },
+    {
+      "id": "popular-city-restaurant",
+      "english": "popular city restaurant",
+      "translation": "популярный городской ресторан",
+      "audio": [
+        "audio/phrases/popular city restaurant.wav"
+      ]
+    },
+    {
+      "id": "small-street-cafe",
+      "english": "small street cafe",
+      "translation": "маленькое уличное кафе",
+      "audio": [
+        "audio/phrases/small street cafe.wav"
+      ]
+    },
+    {
+      "id": "international-airport-terminal",
+      "english": "international airport terminal",
+      "translation": "терминал международного аэропорта",
+      "audio": [
+        "audio/phrases/international airport terminal.wav"
+      ]
+    },
+    {
+      "id": "main-entrance-door",
+      "english": "main entrance door",
+      "translation": "главный вход",
+      "audio": [
+        "audio/phrases/main entrance door.wav"
+      ]
+    },
+    {
+      "id": "emergency-exit-sign",
+      "english": "emergency exit sign",
+      "translation": "аварийный выход",
+      "audio": [
+        "audio/phrases/emergency exit sign.wav"
+      ]
+    },
+    {
+      "id": "city-center-area",
+      "english": "city center area",
+      "translation": "центр города",
+      "audio": [
+        "audio/phrases/city center area.wav"
+      ]
+    },
+    {
+      "id": "quiet-residential-area",
+      "english": "quiet residential area",
+      "translation": "тихий жилой район",
+      "audio": [
+        "audio/phrases/quiet residential area.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "theme": "Фразовые глаголы",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "they-carry-out-audits-regularly.",
+      "english": "They carry out audits regularly.",
+      "translation": "Они регулярно выполняют проверки.",
+      "audio": [
+        "audio/sentences/They carry out audits regularly..wav"
+      ]
+    },
+    {
+      "id": "she-figured-out-the-issue-quickly.",
+      "english": "She figured out the issue quickly.",
+      "translation": "Она быстро поняла проблему.",
+      "audio": [
+        "audio/sentences/She figured out the issue quickly..wav"
+      ]
+    },
+    {
+      "id": "he-pointed-out-several-gaps.",
+      "english": "He pointed out several gaps.",
+      "translation": "Он указал на несколько пробелов.",
+      "audio": [
+        "audio/sentences/He pointed out several gaps..wav"
+      ]
+    },
+    {
+      "id": "data-backs-up-the-decision.",
+      "english": "Data backs up the decision.",
+      "translation": "Данные подтверждают решение.",
+      "audio": [
+        "audio/sentences/Data backs up the decision..wav"
+      ]
+    },
+    {
+      "id": "they-set-up-a-new-process.",
+      "english": "They set up a new process.",
+      "translation": "Они организовали новый процесс.",
+      "audio": [
+        "audio/sentences/They set up a new process..wav"
+      ]
+    },
+    {
+      "id": "the-system-broke-down-overnight.",
+      "english": "The system broke down overnight.",
+      "translation": "Систему разобрали за ночь.",
+      "audio": [
+        "audio/sentences/The system broke down overnight..wav"
+      ]
+    },
+    {
+      "id": "she-followed-up-after-the-call.",
+      "english": "She followed up after the call.",
+      "translation": "Она довела дело до конца после звонка.",
+      "audio": [
+        "audio/sentences/She followed up after the call..wav"
+      ]
+    },
+    {
+      "id": "he-brought-up-a-new-topic.",
+      "english": "He brought up a new topic.",
+      "translation": "Он поднял новую тему.",
+      "audio": [
+        "audio/sentences/He brought up a new topic..wav"
+      ]
+    },
+    {
+      "id": "they-cut-back-on-travel.",
+      "english": "They cut back on travel.",
+      "translation": "Они сократили поездки.",
+      "audio": [
+        "audio/sentences/They cut back on travel..wav"
+      ]
+    },
+    {
+      "id": "we-ruled-out-delays.",
+      "english": "We ruled out delays.",
+      "translation": "Мы исключили задержки.",
+      "audio": [
+        "audio/sentences/We ruled out delays..wav"
+      ]
+    },
+    {
+      "id": "she-deals-with-clients-daily.",
+      "english": "She deals with clients daily.",
+      "translation": "Она ежедневно имеет дело с клиентами.",
+      "audio": [
+        "audio/sentences/She deals with clients daily..wav"
+      ]
+    },
+    {
+      "id": "they-ran-into-resistance.",
+      "english": "They ran into resistance.",
+      "translation": "Они столкнулись с сопротивлением.",
+      "audio": [
+        "audio/sentences/They ran into resistance..wav"
+      ]
+    },
+    {
+      "id": "he-came-up-with-a-solution.",
+      "english": "He came up with a solution.",
+      "translation": "Он придумал решение.",
+      "audio": [
+        "audio/sentences/He came up with a solution..wav"
+      ]
+    },
+    {
+      "id": "the-director-stepped-down-yesterday.",
+      "english": "The director stepped down yesterday.",
+      "translation": "Директор ушёл с должности вчера.",
+      "audio": [
+        "audio/sentences/The director stepped down yesterday..wav"
+      ]
+    },
+    {
+      "id": "she-took-over-the-team.",
+      "english": "She took over the team.",
+      "translation": "Она возглавила команду.",
+      "audio": [
+        "audio/sentences/She took over the team..wav"
+      ]
+    },
+    {
+      "id": "he-held-back-criticism.",
+      "english": "He held back criticism.",
+      "translation": "Он сдержал критику.",
+      "audio": [
+        "audio/sentences/He held back criticism..wav"
+      ]
+    },
+    {
+      "id": "they-pushed-back-on-deadlines.",
+      "english": "They pushed back on deadlines.",
+      "translation": "Они возразили против сроков.",
+      "audio": [
+        "audio/sentences/They pushed back on deadlines..wav"
+      ]
+    },
+    {
+      "id": "the-company-will-phase-out-the-old-model.",
+      "english": "The company will phase out the old model.",
+      "translation": "Компания постепенно выведет старую модель.",
+      "audio": [
+        "audio/sentences/The company will phase out the old model..wav"
+      ]
+    },
+    {
+      "id": "several-users-opted-out-of-the-program.",
+      "english": "Several users opted out of the program.",
+      "translation": "Несколько пользователей отказались от участия в программе.",
+      "audio": [
+        "audio/sentences/Several users opted out of the program..wav"
+      ]
+    },
+    {
+      "id": "the-team-is-winding-down-operations.",
+      "english": "The team is winding down operations.",
+      "translation": "Команда сворачивает деятельность.",
+      "audio": [
+        "audio/sentences/The team is winding down operations..wav"
+      ]
+    },
+    {
+      "id": "the-firm-laid-off-dozens-of-workers.",
+      "english": "The firm laid off dozens of workers.",
+      "translation": "Компания уволила десятки сотрудников.",
+      "audio": [
+        "audio/sentences/The firm laid off dozens of workers..wav"
+      ]
+    },
+    {
+      "id": "she-took-on-extra-responsibilities.",
+      "english": "She took on extra responsibilities.",
+      "translation": "Она бралась за дополнительные обязанности.",
+      "audio": [
+        "audio/sentences/She took on extra responsibilities..wav"
+      ]
+    },
+    {
+      "id": "he-handed-over-the-documents.",
+      "english": "He handed over the documents.",
+      "translation": "Он передал документы.",
+      "audio": [
+        "audio/sentences/He handed over the documents..wav"
+      ]
+    },
+    {
+      "id": "they-turned-down-the-proposal.",
+      "english": "They turned down the proposal.",
+      "translation": "Они отклонили предложение.",
+      "audio": [
+        "audio/sentences/They turned down the proposal..wav"
+      ]
+    },
+    {
+      "id": "everything-worked-out-in-the-end.",
+      "english": "Everything worked out in the end.",
+      "translation": "В итоге всё получилось.",
+      "audio": [
+        "audio/sentences/Everything worked out in the end..wav"
+      ]
+    },
+    {
+      "id": "they-sorted-out-the-problem-quickly.",
+      "english": "They sorted out the problem quickly.",
+      "translation": "Они быстро разобрались с проблемой.",
+      "audio": [
+        "audio/sentences/They sorted out the problem quickly..wav"
+      ]
+    },
+    {
+      "id": "leaders-stepped-up-during-the-crisis.",
+      "english": "Leaders stepped up during the crisis.",
+      "translation": "Лидеры активизировались во время кризиса.",
+      "audio": [
+        "audio/sentences/Leaders stepped up during the crisis..wav"
+      ]
+    },
+    {
+      "id": "production-slowed-down-this-quarter.",
+      "english": "Production slowed down this quarter.",
+      "translation": "Производство замедлилось в этом квартале.",
+      "audio": [
+        "audio/sentences/Production slowed down this quarter..wav"
+      ]
+    },
+    {
+      "id": "we-decided-to-move-forward-with-the-plan.",
+      "english": "We decided to move forward with the plan.",
+      "translation": "Мы решили двигаться дальше с этим планом.",
+      "audio": [
+        "audio/sentences/We decided to move forward with the plan..wav"
+      ]
+    },
+    {
+      "id": "the-agreement-fell-apart-suddenly.",
+      "english": "The agreement fell apart suddenly.",
+      "translation": "Соглашение внезапно развалилось.",
+      "audio": [
+        "audio/sentences/The agreement fell apart suddenly..wav"
+      ]
+    },
+    {
+      "id": "she-sticks-to-her-schedule.",
+      "english": "She sticks to her schedule.",
+      "translation": "Она придерживается своего графика.",
+      "audio": [
+        "audio/sentences/She sticks to her schedule..wav"
+      ]
+    },
+    {
+      "id": "he-refused-to-give-up.",
+      "english": "He refused to give up.",
+      "translation": "Он отказался сдаваться.",
+      "audio": [
+        "audio/sentences/He refused to give up..wav"
+      ]
+    },
+    {
+      "id": "they-pulled-off-a-complex-launch.",
+      "english": "They pulled off a complex launch.",
+      "translation": "Им удалось осуществить сложный запуск.",
+      "audio": [
+        "audio/sentences/They pulled off a complex launch..wav"
+      ]
+    },
+    {
+      "id": "i-checked-out-the-report.",
+      "english": "I checked out the report.",
+      "translation": "Я проверил отчёт.",
+      "audio": [
+        "audio/sentences/I checked out the report..wav"
+      ]
+    },
+    {
+      "id": "the-committee-will-look-into-the-case.",
+      "english": "The committee will look into the case.",
+      "translation": "Комитет рассмотрит дело.",
+      "audio": [
+        "audio/sentences/The committee will look into the case..wav"
+      ]
+    }
+  ]
+}

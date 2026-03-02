@@ -1,0 +1,182 @@
+{
+  "theme": "Принятие решений",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "decision",
+      "english": "decision",
+      "translation": "решение"
+    },
+    {
+      "id": "choice",
+      "english": "choice",
+      "translation": "выбор"
+    },
+    {
+      "id": "option",
+      "english": "option",
+      "translation": "вариант"
+    },
+    {
+      "id": "alternative",
+      "english": "alternative",
+      "translation": "альтернатива"
+    },
+    {
+      "id": "selection",
+      "english": "selection",
+      "translation": "выбор"
+    },
+    {
+      "id": "approach",
+      "english": "approach",
+      "translation": "подход"
+    },
+    {
+      "id": "strategy",
+      "english": "strategy",
+      "translation": "стратегия"
+    },
+    {
+      "id": "plan",
+      "english": "plan",
+      "translation": "план"
+    },
+    {
+      "id": "direction",
+      "english": "direction",
+      "translation": "направление"
+    },
+    {
+      "id": "priority",
+      "english": "priority",
+      "translation": "приоритет"
+    },
+    {
+      "id": "criteria",
+      "english": "criteria",
+      "translation": "критерии"
+    },
+    {
+      "id": "constraint",
+      "english": "constraint",
+      "translation": "ограничение"
+    },
+    {
+      "id": "trade-off",
+      "english": "trade-off",
+      "translation": "компромисс"
+    },
+    {
+      "id": "feasibility",
+      "english": "feasibility",
+      "translation": "осуществимость"
+    },
+    {
+      "id": "viability",
+      "english": "viability",
+      "translation": "жизнеспособность"
+    },
+    {
+      "id": "risk",
+      "english": "risk",
+      "translation": "риск"
+    },
+    {
+      "id": "uncertainty",
+      "english": "uncertainty",
+      "translation": "неопределенность"
+    },
+    {
+      "id": "probability",
+      "english": "probability",
+      "translation": "вероятность"
+    },
+    {
+      "id": "impact",
+      "english": "impact",
+      "translation": "влияние"
+    },
+    {
+      "id": "outcome",
+      "english": "outcome",
+      "translation": "результат"
+    },
+    {
+      "id": "consequence",
+      "english": "consequence",
+      "translation": "последствие"
+    },
+    {
+      "id": "implication",
+      "english": "implication",
+      "translation": "возможное последствие"
+    },
+    {
+      "id": "benefit",
+      "english": "benefit",
+      "translation": "выгода"
+    },
+    {
+      "id": "drawback",
+      "english": "drawback",
+      "translation": "недостаток"
+    },
+    {
+      "id": "cost",
+      "english": "cost",
+      "translation": "стоимость"
+    },
+    {
+      "id": "judgment",
+      "english": "judgment",
+      "translation": "суждение"
+    },
+    {
+      "id": "evaluation",
+      "english": "evaluation",
+      "translation": "оценивание"
+    },
+    {
+      "id": "assessment",
+      "english": "assessment",
+      "translation": "оценка"
+    },
+    {
+      "id": "consideration",
+      "english": "consideration",
+      "translation": "рассмотрение"
+    },
+    {
+      "id": "deliberation",
+      "english": "deliberation",
+      "translation": "обдумывание"
+    },
+    {
+      "id": "commitment",
+      "english": "commitment",
+      "translation": "принятие обязательства"
+    },
+    {
+      "id": "responsibility",
+      "english": "responsibility",
+      "translation": "ответственность"
+    },
+    {
+      "id": "accountability",
+      "english": "accountability",
+      "translation": "ответственность за результат"
+    },
+    {
+      "id": "confidence",
+      "english": "confidence",
+      "translation": "уверенность"
+    },
+    {
+      "id": "hesitation",
+      "english": "hesitation",
+      "translation": "колебание"
+    }
+  ]
+}

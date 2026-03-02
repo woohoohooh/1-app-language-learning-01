@@ -1,0 +1,207 @@
+{
+  "theme": "Проектная работа и задачи",
+  "level": "Upper-Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "project",
+      "translation": "проект"
+    },
+    {
+      "english": "initiative",
+      "translation": "инициатива"
+    },
+    {
+      "english": "scope",
+      "translation": "объем работ"
+    },
+    {
+      "english": "objective",
+      "translation": "цель"
+    },
+    {
+      "english": "outcome",
+      "translation": "результат"
+    },
+    {
+      "english": "task",
+      "translation": "задача"
+    },
+    {
+      "english": "subtask",
+      "translation": "подзадача"
+    },
+    {
+      "english": "assignment",
+      "translation": "поручение"
+    },
+    {
+      "english": "backlog",
+      "translation": "бэклог"
+    },
+    {
+      "english": "priority",
+      "translation": "приоритет"
+    },
+    {
+      "english": "planning",
+      "translation": "планирование"
+    },
+    {
+      "english": "estimation",
+      "translation": "оценка"
+    },
+    {
+      "english": "breakdown",
+      "translation": "декомпозиция"
+    },
+    {
+      "english": "dependency",
+      "translation": "зависимость"
+    },
+    {
+      "english": "sequence",
+      "translation": "последовательность"
+    },
+    {
+      "english": "execution",
+      "translation": "выполнение"
+    },
+    {
+      "english": "implementation",
+      "translation": "реализация"
+    },
+    {
+      "english": "progress",
+      "translation": "прогресс"
+    },
+    {
+      "english": "status",
+      "translation": "статус"
+    },
+    {
+      "english": "completion",
+      "translation": "завершение"
+    },
+    {
+      "english": "deadline",
+      "translation": "дедлайн"
+    },
+    {
+      "english": "delay",
+      "translation": "задержка"
+    },
+    {
+      "english": "blocker",
+      "translation": "блокер"
+    },
+    {
+      "english": "bottleneck",
+      "translation": "узкое место"
+    },
+    {
+      "english": "overlap",
+      "translation": "пересечение"
+    },
+    {
+      "english": "resource",
+      "translation": "ресурс"
+    },
+    {
+      "english": "allocation",
+      "translation": "распределение"
+    },
+    {
+      "english": "capacity",
+      "translation": "загруженность"
+    },
+    {
+      "english": "workload",
+      "translation": "рабочая нагрузка"
+    },
+    {
+      "english": "availability",
+      "translation": "доступность"
+    },
+    {
+      "english": "risk",
+      "translation": "риск"
+    },
+    {
+      "english": "constraint",
+      "translation": "ограничение"
+    },
+    {
+      "english": "assumption",
+      "translation": "допущение"
+    },
+    {
+      "english": "impact",
+      "translation": "влияние"
+    },
+    {
+      "english": "mitigation",
+      "translation": "снижение риска"
+    },
+    {
+      "english": "review",
+      "translation": "обзор"
+    },
+    {
+      "english": "approval",
+      "translation": "утверждение"
+    },
+    {
+      "english": "sign-off",
+      "translation": "финальное подтверждение"
+    },
+    {
+      "english": "revision",
+      "translation": "переработка"
+    },
+    {
+      "english": "iteration",
+      "translation": "итерация"
+    },
+    {
+      "english": "tracking",
+      "translation": "отслеживание"
+    },
+    {
+      "english": "monitoring",
+      "translation": "мониторинг"
+    },
+    {
+      "english": "reporting",
+      "translation": "отчетность"
+    },
+    {
+      "english": "visibility",
+      "translation": "прозрачность"
+    },
+    {
+      "english": "alignment",
+      "translation": "синхронизация"
+    },
+    {
+      "english": "delivery",
+      "translation": "поставка результата"
+    },
+    {
+      "english": "handover",
+      "translation": "передача"
+    },
+    {
+      "english": "launch",
+      "translation": "запуск"
+    },
+    {
+      "english": "closure",
+      "translation": "закрытие проекта"
+    },
+    {
+      "english": "retrospective",
+      "translation": "ретроспектива"
+    }
+  ]
+}

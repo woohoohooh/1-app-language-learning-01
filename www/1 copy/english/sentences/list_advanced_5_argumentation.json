@@ -1,0 +1,287 @@
+{
+  "theme": "Аргументация и мнение",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "his-opinion-changed-after-the-discussion.",
+      "english": "His opinion changed after the discussion.",
+      "translation": "Его мнение изменилось после обсуждения.",
+      "audio": [
+        "audio/sentences/His opinion changed after the discussion..wav"
+      ]
+    },
+    {
+      "id": "she-explained-her-viewpoint-clearly.",
+      "english": "She explained her viewpoint clearly.",
+      "translation": "Она чётко объяснила свою точку зрения.",
+      "audio": [
+        "audio/sentences/She explained her viewpoint clearly..wav"
+      ]
+    },
+    {
+      "id": "this-issue-looks-different-from-that-perspective.",
+      "english": "This issue looks different from that perspective.",
+      "translation": "С этой перспективы вопрос выглядит иначе.",
+      "audio": [
+        "audio/sentences/This issue looks different from that perspective..wav"
+      ]
+    },
+    {
+      "id": "he-maintained-his-stance-throughout-the-debate.",
+      "english": "He maintained his stance throughout the debate.",
+      "translation": "Он придерживался своей позиции на протяжении дебатов.",
+      "audio": [
+        "audio/sentences/He maintained his stance throughout the debate..wav"
+      ]
+    },
+    {
+      "id": "this-belief-influences-her-decisions.",
+      "english": "This belief influences her decisions.",
+      "translation": "Это убеждение влияет на её решения.",
+      "audio": [
+        "audio/sentences/This belief influences her decisions..wav"
+      ]
+    },
+    {
+      "id": "he-presented-a-convincing-argument.",
+      "english": "He presented a convincing argument.",
+      "translation": "Он представил убедительный аргумент.",
+      "audio": [
+        "audio/sentences/He presented a convincing argument..wav"
+      ]
+    },
+    {
+      "id": "her-reasoning-was-easy-to-follow.",
+      "english": "Her reasoning was easy to follow.",
+      "translation": "Её рассуждение было легко понять.",
+      "audio": [
+        "audio/sentences/Her reasoning was easy to follow..wav"
+      ]
+    },
+    {
+      "id": "the-logic-behind-this-choice-is-clear.",
+      "english": "The logic behind this choice is clear.",
+      "translation": "Логика этого выбора очевидна.",
+      "audio": [
+        "audio/sentences/The logic behind this choice is clear..wav"
+      ]
+    },
+    {
+      "id": "the-claim-requires-further-review.",
+      "english": "The claim requires further review.",
+      "translation": "Утверждение требует дополнительной проверки.",
+      "audio": [
+        "audio/sentences/The claim requires further review..wav"
+      ]
+    },
+    {
+      "id": "the-statement-caused-strong-reactions.",
+      "english": "The statement caused strong reactions.",
+      "translation": "Заявление вызвало сильную реакцию.",
+      "audio": [
+        "audio/sentences/The statement caused strong reactions..wav"
+      ]
+    },
+    {
+      "id": "the-evidence-supports-the-conclusion.",
+      "english": "The evidence supports the conclusion.",
+      "translation": "Доказательства подтверждают вывод.",
+      "audio": [
+        "audio/sentences/The evidence supports the conclusion..wav"
+      ]
+    },
+    {
+      "id": "there-is-no-proof-of-this-claim.",
+      "english": "There is no proof of this claim.",
+      "translation": "Нет доказательств этого утверждения.",
+      "audio": [
+        "audio/sentences/There is no proof of this claim..wav"
+      ]
+    },
+    {
+      "id": "this-example-illustrates-the-idea.",
+      "english": "This example illustrates the idea.",
+      "translation": "Этот пример иллюстрирует идею.",
+      "audio": [
+        "audio/sentences/This example illustrates the idea..wav"
+      ]
+    },
+    {
+      "id": "the-data-provides-strong-support.",
+      "english": "The data provides strong support.",
+      "translation": "Данные обеспечивают сильную поддержку.",
+      "audio": [
+        "audio/sentences/The data provides strong support..wav"
+      ]
+    },
+    {
+      "id": "the-decision-needs-proper-justification.",
+      "english": "The decision needs proper justification.",
+      "translation": "Решение требует надлежащего обоснования.",
+      "audio": [
+        "audio/sentences/The decision needs proper justification..wav"
+      ]
+    },
+    {
+      "id": "this-assumption-may-be-incorrect.",
+      "english": "This assumption may be incorrect.",
+      "translation": "Это предположение может быть неверным.",
+      "audio": [
+        "audio/sentences/This assumption may be incorrect..wav"
+      ]
+    },
+    {
+      "id": "his-interpretation-differs-from-mine.",
+      "english": "His interpretation differs from mine.",
+      "translation": "Его интерпретация отличается от моей.",
+      "audio": [
+        "audio/sentences/His interpretation differs from mine..wav"
+      ]
+    },
+    {
+      "id": "the-assessment-highlighted-key-issues.",
+      "english": "The assessment highlighted key issues.",
+      "translation": "Оценка выявила ключевые проблемы.",
+      "audio": [
+        "audio/sentences/The assessment highlighted key issues..wav"
+      ]
+    },
+    {
+      "id": "her-judgment-was-shaped-by-experience.",
+      "english": "Her judgment was shaped by experience.",
+      "translation": "Её суждение сформировалось на основе опыта.",
+      "audio": [
+        "audio/sentences/Her judgment was shaped by experience..wav"
+      ]
+    },
+    {
+      "id": "the-evaluation-took-several-factors-into-account.",
+      "english": "The evaluation took several factors into account.",
+      "translation": "Оценивание учитывало несколько факторов.",
+      "audio": [
+        "audio/sentences/The evaluation took several factors into account..wav"
+      ]
+    },
+    {
+      "id": "they-reached-agreement-after-discussion.",
+      "english": "They reached agreement after discussion.",
+      "translation": "Они пришли к согласию после обсуждения.",
+      "audio": [
+        "audio/sentences/They reached agreement after discussion..wav"
+      ]
+    },
+    {
+      "id": "the-disagreement-slowed-the-decision.",
+      "english": "The disagreement slowed the decision.",
+      "translation": "Несогласие замедлило принятие решения.",
+      "audio": [
+        "audio/sentences/The disagreement slowed the decision..wav"
+      ]
+    },
+    {
+      "id": "the-team-finally-reached-consensus.",
+      "english": "The team finally reached consensus.",
+      "translation": "Команда наконец достигла консенсуса.",
+      "audio": [
+        "audio/sentences/The team finally reached consensus..wav"
+      ]
+    },
+    {
+      "id": "both-sides-accepted-the-compromise.",
+      "english": "Both sides accepted the compromise.",
+      "translation": "Обе стороны приняли компромисс.",
+      "audio": [
+        "audio/sentences/Both sides accepted the compromise..wav"
+      ]
+    },
+    {
+      "id": "she-raised-an-objection-during-the-meeting.",
+      "english": "She raised an objection during the meeting.",
+      "translation": "Она высказала возражение во время встречи.",
+      "audio": [
+        "audio/sentences/She raised an objection during the meeting..wav"
+      ]
+    },
+    {
+      "id": "he-offered-a-clear-counterargument.",
+      "english": "He offered a clear counterargument.",
+      "translation": "Он привёл чёткий контраргумент.",
+      "audio": [
+        "audio/sentences/He offered a clear counterargument..wav"
+      ]
+    },
+    {
+      "id": "the-criticism-helped-improve-the-idea.",
+      "english": "The criticism helped improve the idea.",
+      "translation": "Критика помогла улучшить идею.",
+      "audio": [
+        "audio/sentences/The criticism helped improve the idea..wav"
+      ]
+    },
+    {
+      "id": "this-claim-poses-a-serious-challenge.",
+      "english": "This claim poses a serious challenge.",
+      "translation": "Это утверждение представляет серьёзный вызов.",
+      "audio": [
+        "audio/sentences/This claim poses a serious challenge..wav"
+      ]
+    },
+    {
+      "id": "his-defense-relied-on-solid-facts.",
+      "english": "His defense relied on solid facts.",
+      "translation": "Его защита опиралась на твёрдые факты.",
+      "audio": [
+        "audio/sentences/His defense relied on solid facts..wav"
+      ]
+    },
+    {
+      "id": "she-delivered-a-strong-rebuttal.",
+      "english": "She delivered a strong rebuttal.",
+      "translation": "Она представила сильное опровержение.",
+      "audio": [
+        "audio/sentences/She delivered a strong rebuttal..wav"
+      ]
+    },
+    {
+      "id": "the-conclusion-followed-from-the-data.",
+      "english": "The conclusion followed from the data.",
+      "translation": "Вывод следовал из данных.",
+      "audio": [
+        "audio/sentences/The conclusion followed from the data..wav"
+      ]
+    },
+    {
+      "id": "he-gave-a-concise-summary.",
+      "english": "He gave a concise summary.",
+      "translation": "Он дал краткое резюме.",
+      "audio": [
+        "audio/sentences/He gave a concise summary..wav"
+      ]
+    },
+    {
+      "id": "the-outcome-surprised-everyone.",
+      "english": "The outcome surprised everyone.",
+      "translation": "Результат удивил всех.",
+      "audio": [
+        "audio/sentences/The outcome surprised everyone..wav"
+      ]
+    },
+    {
+      "id": "this-decision-has-long-term-implications.",
+      "english": "This decision has long-term implications.",
+      "translation": "Это решение имеет долгосрочные последствия.",
+      "audio": [
+        "audio/sentences/This decision has long-term implications..wav"
+      ]
+    },
+    {
+      "id": "from-my-standpoint,-the-risk-is-high.",
+      "english": "From my standpoint, the risk is high.",
+      "translation": "С моей точки зрения риск высок.",
+      "audio": [
+        "audio/sentences/From my standpoint, the risk is high..wav"
+      ]
+    }
+  ]
+}

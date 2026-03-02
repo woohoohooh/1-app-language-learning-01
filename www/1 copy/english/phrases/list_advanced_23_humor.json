@@ -1,0 +1,255 @@
+{
+  "theme": "Юмор в общении",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "sense-of-humor",
+      "english": "sense of humor",
+      "translation": "чувство юмора",
+      "audio": [
+        "audio/phrases/sense of humor.wav"
+      ]
+    },
+    {
+      "id": "tell-a-joke",
+      "english": "tell a joke",
+      "translation": "рассказать шутку",
+      "audio": [
+        "audio/phrases/tell a joke.wav"
+      ]
+    },
+    {
+      "id": "sharp-wit",
+      "english": "sharp wit",
+      "translation": "острое остроумие",
+      "audio": [
+        "audio/phrases/sharp wit.wav"
+      ]
+    },
+    {
+      "id": "natural-wittiness",
+      "english": "natural wittiness",
+      "translation": "природная остроумность",
+      "audio": [
+        "audio/phrases/natural wittiness.wav"
+      ]
+    },
+    {
+      "id": "show-playfulness",
+      "english": "show playfulness",
+      "translation": "проявлять игривость",
+      "audio": [
+        "audio/phrases/show playfulness.wav"
+      ]
+    },
+    {
+      "id": "heavy-sarcasm",
+      "english": "heavy sarcasm",
+      "translation": "жёсткий сарказм",
+      "audio": [
+        "audio/phrases/heavy sarcasm.wav"
+      ]
+    },
+    {
+      "id": "subtle-irony",
+      "english": "subtle irony",
+      "translation": "тонкая ирония",
+      "audio": [
+        "audio/phrases/subtle irony.wav"
+      ]
+    },
+    {
+      "id": "open-mockery",
+      "english": "open mockery",
+      "translation": "открытая насмешка",
+      "audio": [
+        "audio/phrases/open mockery.wav"
+      ]
+    },
+    {
+      "id": "friendly-teasing",
+      "english": "friendly teasing",
+      "translation": "дружеское поддразнивание",
+      "audio": [
+        "audio/phrases/friendly teasing.wav"
+      ]
+    },
+    {
+      "id": "casual-banter",
+      "english": "casual banter",
+      "translation": "лёгкий обмен шутками",
+      "audio": [
+        "audio/phrases/casual banter.wav"
+      ]
+    },
+    {
+      "id": "comic-exaggeration",
+      "english": "comic exaggeration",
+      "translation": "комичное преувеличение",
+      "audio": [
+        "audio/phrases/comic exaggeration.wav"
+      ]
+    },
+    {
+      "id": "pure-absurdity",
+      "english": "pure absurdity",
+      "translation": "чистый абсурд",
+      "audio": [
+        "audio/phrases/pure absurdity.wav"
+      ]
+    },
+    {
+      "id": "funny-nonsense",
+      "english": "funny nonsense",
+      "translation": "забавная нелепица",
+      "audio": [
+        "audio/phrases/funny nonsense.wav"
+      ]
+    },
+    {
+      "id": "light-parody",
+      "english": "light parody",
+      "translation": "лёгкая пародия",
+      "audio": [
+        "audio/phrases/light parody.wav"
+      ]
+    },
+    {
+      "id": "social-satire",
+      "english": "social satire",
+      "translation": "социальная сатира",
+      "audio": [
+        "audio/phrases/social satire.wav"
+      ]
+    },
+    {
+      "id": "use-self-irony",
+      "english": "use self irony",
+      "translation": "использовать самоиронию",
+      "audio": [
+        "audio/phrases/use self irony.wav"
+      ]
+    },
+    {
+      "id": "gentle-self-mockery",
+      "english": "gentle self mockery",
+      "translation": "мягкая самоирония",
+      "audio": [
+        "audio/phrases/gentle self mockery.wav"
+      ]
+    },
+    {
+      "id": "classic-understatement",
+      "english": "classic understatement",
+      "translation": "классическая недосказанность",
+      "audio": [
+        "audio/phrases/classic understatement.wav"
+      ]
+    },
+    {
+      "id": "clear-overstatement",
+      "english": "clear overstatement",
+      "translation": "явная гипербола",
+      "audio": [
+        "audio/phrases/clear overstatement.wav"
+      ]
+    },
+    {
+      "id": "perfect-delivery",
+      "english": "perfect delivery",
+      "translation": "идеальная подача",
+      "audio": [
+        "audio/phrases/perfect delivery.wav"
+      ]
+    },
+    {
+      "id": "good-timing",
+      "english": "good timing",
+      "translation": "хороший момент",
+      "audio": [
+        "audio/phrases/good timing.wav"
+      ]
+    },
+    {
+      "id": "change-tone",
+      "english": "change tone",
+      "translation": "сменить тон",
+      "audio": [
+        "audio/phrases/change tone.wav"
+      ]
+    },
+    {
+      "id": "facial-expression",
+      "english": "facial expression",
+      "translation": "выражение лица",
+      "audio": [
+        "audio/phrases/facial expression.wav"
+      ]
+    },
+    {
+      "id": "social-awkwardness",
+      "english": "social awkwardness",
+      "translation": "социальная неловкость",
+      "audio": [
+        "audio/phrases/social awkwardness.wav"
+      ]
+    },
+    {
+      "id": "cause-offense",
+      "english": "cause offense",
+      "translation": "вызвать оскорбление",
+      "audio": [
+        "audio/phrases/cause offense.wav"
+      ]
+    },
+    {
+      "id": "risk-misinterpretation",
+      "english": "risk misinterpretation",
+      "translation": "риск неверного понимания",
+      "audio": [
+        "audio/phrases/risk misinterpretation.wav"
+      ]
+    },
+    {
+      "id": "cultural-sensitivity",
+      "english": "cultural sensitivity",
+      "translation": "культурная чувствительность",
+      "audio": [
+        "audio/phrases/cultural sensitivity.wav"
+      ]
+    },
+    {
+      "id": "deadpan-style",
+      "english": "deadpan style",
+      "translation": "сухой стиль",
+      "audio": [
+        "audio/phrases/deadpan style.wav"
+      ]
+    },
+    {
+      "id": "keep-lightheartedness",
+      "english": "keep lightheartedness",
+      "translation": "сохранять лёгкость",
+      "audio": [
+        "audio/phrases/keep lightheartedness.wav"
+      ]
+    },
+    {
+      "id": "shared-amusement",
+      "english": "shared amusement",
+      "translation": "общее веселье",
+      "audio": [
+        "audio/phrases/shared amusement.wav"
+      ]
+    },
+    {
+      "id": "pure-entertainment",
+      "english": "pure entertainment",
+      "translation": "чистое развлечение",
+      "audio": [
+        "audio/phrases/pure entertainment.wav"
+      ]
+    }
+  ]
+}

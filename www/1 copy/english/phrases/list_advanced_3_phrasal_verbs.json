@@ -1,0 +1,287 @@
+{
+  "theme": "Фразовые глаголы",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "carry-out-tasks",
+      "english": "carry out tasks",
+      "translation": "выполнять задачи",
+      "audio": [
+        "audio/phrases/carry out tasks.wav"
+      ]
+    },
+    {
+      "id": "figure-out-details",
+      "english": "figure out details",
+      "translation": "понять детали",
+      "audio": [
+        "audio/phrases/figure out details.wav"
+      ]
+    },
+    {
+      "id": "point-out-risks",
+      "english": "point out risks",
+      "translation": "указать на риски",
+      "audio": [
+        "audio/phrases/point out risks.wav"
+      ]
+    },
+    {
+      "id": "back-up-claims",
+      "english": "back up claims",
+      "translation": "подтвердить утверждения",
+      "audio": [
+        "audio/phrases/back up claims.wav"
+      ]
+    },
+    {
+      "id": "set-up-meeting",
+      "english": "set up meeting",
+      "translation": "организовать встречу",
+      "audio": [
+        "audio/phrases/set up meeting.wav"
+      ]
+    },
+    {
+      "id": "break-down-costs",
+      "english": "break down costs",
+      "translation": "разобрать затраты",
+      "audio": [
+        "audio/phrases/break down costs.wav"
+      ]
+    },
+    {
+      "id": "follow-up-later",
+      "english": "follow up later",
+      "translation": "довести до конца позже",
+      "audio": [
+        "audio/phrases/follow up later.wav"
+      ]
+    },
+    {
+      "id": "bring-up-concerns",
+      "english": "bring up concerns",
+      "translation": "поднимать важные моменты",
+      "audio": [
+        "audio/phrases/bring up concerns.wav"
+      ]
+    },
+    {
+      "id": "cut-back-spending",
+      "english": "cut back spending",
+      "translation": "сократить расходы",
+      "audio": [
+        "audio/phrases/cut back spending.wav"
+      ]
+    },
+    {
+      "id": "rule-out-options",
+      "english": "rule out options",
+      "translation": "исключить варианты",
+      "audio": [
+        "audio/phrases/rule out options.wav"
+      ]
+    },
+    {
+      "id": "deal-with-issues",
+      "english": "deal with issues",
+      "translation": "иметь дело с вопросами",
+      "audio": [
+        "audio/phrases/deal with issues.wav"
+      ]
+    },
+    {
+      "id": "run-into-trouble",
+      "english": "run into trouble",
+      "translation": "столкнуться с проблемами",
+      "audio": [
+        "audio/phrases/run into trouble.wav"
+      ]
+    },
+    {
+      "id": "come-up-ideas",
+      "english": "come up ideas",
+      "translation": "придумывать идеи",
+      "audio": [
+        "audio/phrases/come up ideas.wav"
+      ]
+    },
+    {
+      "id": "step-down-role",
+      "english": "step down role",
+      "translation": "покинуть роль",
+      "audio": [
+        "audio/phrases/step down role.wav"
+      ]
+    },
+    {
+      "id": "take-over-duties",
+      "english": "take over duties",
+      "translation": "взять обязанности",
+      "audio": [
+        "audio/phrases/take over duties.wav"
+      ]
+    },
+    {
+      "id": "hold-back-emotions",
+      "english": "hold back emotions",
+      "translation": "сдерживать эмоции",
+      "audio": [
+        "audio/phrases/hold back emotions.wav"
+      ]
+    },
+    {
+      "id": "push-back-strongly",
+      "english": "push back strongly",
+      "translation": "сильно возражать",
+      "audio": [
+        "audio/phrases/push back strongly.wav"
+      ]
+    },
+    {
+      "id": "phase-out-production",
+      "english": "phase out production",
+      "translation": "постепенно сворачивать производство",
+      "audio": [
+        "audio/phrases/phase out production.wav"
+      ]
+    },
+    {
+      "id": "opt-out-early",
+      "english": "opt out early",
+      "translation": "отказаться заранее",
+      "audio": [
+        "audio/phrases/opt out early.wav"
+      ]
+    },
+    {
+      "id": "wind-down-slowly",
+      "english": "wind down slowly",
+      "translation": "постепенно сворачивать",
+      "audio": [
+        "audio/phrases/wind down slowly.wav"
+      ]
+    },
+    {
+      "id": "lay-off-staff",
+      "english": "lay off staff",
+      "translation": "увольнять персонал",
+      "audio": [
+        "audio/phrases/lay off staff.wav"
+      ]
+    },
+    {
+      "id": "take-on-work",
+      "english": "take on work",
+      "translation": "браться за работу",
+      "audio": [
+        "audio/phrases/take on work.wav"
+      ]
+    },
+    {
+      "id": "hand-over-control",
+      "english": "hand over control",
+      "translation": "передать контроль",
+      "audio": [
+        "audio/phrases/hand over control.wav"
+      ]
+    },
+    {
+      "id": "turn-down-offer",
+      "english": "turn down offer",
+      "translation": "отклонить предложение",
+      "audio": [
+        "audio/phrases/turn down offer.wav"
+      ]
+    },
+    {
+      "id": "work-out-well",
+      "english": "work out well",
+      "translation": "хорошо получиться",
+      "audio": [
+        "audio/phrases/work out well.wav"
+      ]
+    },
+    {
+      "id": "sort-out-issues",
+      "english": "sort out issues",
+      "translation": "разобраться в вопросах",
+      "audio": [
+        "audio/phrases/sort out issues.wav"
+      ]
+    },
+    {
+      "id": "step-up-efforts",
+      "english": "step up efforts",
+      "translation": "активизировать усилия",
+      "audio": [
+        "audio/phrases/step up efforts.wav"
+      ]
+    },
+    {
+      "id": "slow-down-traffic",
+      "english": "slow down traffic",
+      "translation": "замедлять движение",
+      "audio": [
+        "audio/phrases/slow down traffic.wav"
+      ]
+    },
+    {
+      "id": "move-forward-together",
+      "english": "move forward together",
+      "translation": "двигаться дальше вместе",
+      "audio": [
+        "audio/phrases/move forward together.wav"
+      ]
+    },
+    {
+      "id": "fall-apart-quickly",
+      "english": "fall apart quickly",
+      "translation": "быстро разваливаться",
+      "audio": [
+        "audio/phrases/fall apart quickly.wav"
+      ]
+    },
+    {
+      "id": "stick-to-rules",
+      "english": "stick to rules",
+      "translation": "придерживаться правил",
+      "audio": [
+        "audio/phrases/stick to rules.wav"
+      ]
+    },
+    {
+      "id": "give-up-early",
+      "english": "give up early",
+      "translation": "сдаваться рано",
+      "audio": [
+        "audio/phrases/give up early.wav"
+      ]
+    },
+    {
+      "id": "pull-off-deal",
+      "english": "pull off deal",
+      "translation": "провернуть сделку",
+      "audio": [
+        "audio/phrases/pull off deal.wav"
+      ]
+    },
+    {
+      "id": "check-out-details",
+      "english": "check out details",
+      "translation": "проверить детали",
+      "audio": [
+        "audio/phrases/check out details.wav"
+      ]
+    },
+    {
+      "id": "look-into-matter",
+      "english": "look into matter",
+      "translation": "изучить вопрос",
+      "audio": [
+        "audio/phrases/look into matter.wav"
+      ]
+    }
+  ]
+}

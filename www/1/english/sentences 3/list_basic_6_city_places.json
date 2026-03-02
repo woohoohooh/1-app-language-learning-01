@@ -1,0 +1,147 @@
+{
+  "theme": "Город и места",
+  "level": "Beginner",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "city",
+      "translation": "город"
+    },
+    {
+      "english": "town",
+      "translation": "городок"
+    },
+    {
+      "english": "street",
+      "translation": "улица"
+    },
+    {
+      "english": "road",
+      "translation": "дорога"
+    },
+    {
+      "english": "square",
+      "translation": "площадь"
+    },
+    {
+      "english": "park",
+      "translation": "парк"
+    },
+    {
+      "english": "building",
+      "translation": "здание"
+    },
+    {
+      "english": "house",
+      "translation": "дом"
+    },
+    {
+      "english": "office",
+      "translation": "офис"
+    },
+    {
+      "english": "school",
+      "translation": "школа"
+    },
+    {
+      "english": "university",
+      "translation": "университет"
+    },
+    {
+      "english": "library",
+      "translation": "библиотека"
+    },
+    {
+      "english": "hospital",
+      "translation": "больница"
+    },
+    {
+      "english": "clinic",
+      "translation": "клиника"
+    },
+    {
+      "english": "pharmacy",
+      "translation": "аптека"
+    },
+    {
+      "english": "police",
+      "translation": "полиция"
+    },
+    {
+      "english": "bank",
+      "translation": "банк"
+    },
+    {
+      "english": "post office",
+      "translation": "почта"
+    },
+    {
+      "english": "station",
+      "translation": "станция"
+    },
+    {
+      "english": "bus stop",
+      "translation": "автобусная остановка"
+    },
+    {
+      "english": "subway",
+      "translation": "метро"
+    },
+    {
+      "english": "bridge",
+      "translation": "мост"
+    },
+    {
+      "english": "crossroad",
+      "translation": "перекрёсток"
+    },
+    {
+      "english": "hotel",
+      "translation": "отель"
+    },
+    {
+      "english": "hostel",
+      "translation": "хостел"
+    },
+    {
+      "english": "museum",
+      "translation": "музей"
+    },
+    {
+      "english": "theater",
+      "translation": "театр"
+    },
+    {
+      "english": "cinema",
+      "translation": "кинотеатр"
+    },
+    {
+      "english": "restaurant",
+      "translation": "ресторан"
+    },
+    {
+      "english": "cafe",
+      "translation": "кафе"
+    },
+    {
+      "english": "airport",
+      "translation": "аэропорт"
+    },
+    {
+      "english": "entrance",
+      "translation": "вход"
+    },
+    {
+      "english": "exit",
+      "translation": "выход"
+    },
+    {
+      "english": "center",
+      "translation": "центр"
+    },
+    {
+      "english": "area",
+      "translation": "район"
+    }
+  ]
+}

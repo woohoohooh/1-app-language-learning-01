@@ -1,0 +1,287 @@
+{
+  "theme": "Фразовые глаголы",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "carry-out",
+      "english": "carry out",
+      "translation": "выполнять",
+      "audio": [
+        "audio/words/carry out.wav"
+      ]
+    },
+    {
+      "id": "figure-out",
+      "english": "figure out",
+      "translation": "понять",
+      "audio": [
+        "audio/words/figure out.wav"
+      ]
+    },
+    {
+      "id": "point-out",
+      "english": "point out",
+      "translation": "указывать",
+      "audio": [
+        "audio/words/point out.wav"
+      ]
+    },
+    {
+      "id": "back-up",
+      "english": "back up",
+      "translation": "подтверждать",
+      "audio": [
+        "audio/words/back up.wav"
+      ]
+    },
+    {
+      "id": "set-up",
+      "english": "set up",
+      "translation": "организовывать",
+      "audio": [
+        "audio/words/set up.wav"
+      ]
+    },
+    {
+      "id": "break-down",
+      "english": "break down",
+      "translation": "разбирать",
+      "audio": [
+        "audio/words/break down.wav"
+      ]
+    },
+    {
+      "id": "follow-up",
+      "english": "follow up",
+      "translation": "доводить до конца",
+      "audio": [
+        "audio/words/follow up.wav"
+      ]
+    },
+    {
+      "id": "bring-up",
+      "english": "bring up",
+      "translation": "поднимать тему",
+      "audio": [
+        "audio/words/bring up.wav"
+      ]
+    },
+    {
+      "id": "cut-back",
+      "english": "cut back",
+      "translation": "сокращать",
+      "audio": [
+        "audio/words/cut back.wav"
+      ]
+    },
+    {
+      "id": "rule-out",
+      "english": "rule out",
+      "translation": "исключать",
+      "audio": [
+        "audio/words/rule out.wav"
+      ]
+    },
+    {
+      "id": "deal-with",
+      "english": "deal with",
+      "translation": "иметь дело с",
+      "audio": [
+        "audio/words/deal with.wav"
+      ]
+    },
+    {
+      "id": "run-into",
+      "english": "run into",
+      "translation": "сталкиваться с",
+      "audio": [
+        "audio/words/run into.wav"
+      ]
+    },
+    {
+      "id": "come-up-with",
+      "english": "come up with",
+      "translation": "придумывать",
+      "audio": [
+        "audio/words/come up with.wav"
+      ]
+    },
+    {
+      "id": "step-down",
+      "english": "step down",
+      "translation": "уходить с должности",
+      "audio": [
+        "audio/words/step down.wav"
+      ]
+    },
+    {
+      "id": "take-over",
+      "english": "take over",
+      "translation": "брать на себя управление",
+      "audio": [
+        "audio/words/take over.wav"
+      ]
+    },
+    {
+      "id": "hold-back",
+      "english": "hold back",
+      "translation": "сдерживать",
+      "audio": [
+        "audio/words/hold back.wav"
+      ]
+    },
+    {
+      "id": "push-back",
+      "english": "push back",
+      "translation": "возражать",
+      "audio": [
+        "audio/words/push back.wav"
+      ]
+    },
+    {
+      "id": "phase-out",
+      "english": "phase out",
+      "translation": "постепенно выводить",
+      "audio": [
+        "audio/words/phase out.wav"
+      ]
+    },
+    {
+      "id": "opt-out",
+      "english": "opt out",
+      "translation": "отказываться от участия",
+      "audio": [
+        "audio/words/opt out.wav"
+      ]
+    },
+    {
+      "id": "wind-down",
+      "english": "wind down",
+      "translation": "сворачивать",
+      "audio": [
+        "audio/words/wind down.wav"
+      ]
+    },
+    {
+      "id": "lay-off",
+      "english": "lay off",
+      "translation": "увольнять",
+      "audio": [
+        "audio/words/lay off.wav"
+      ]
+    },
+    {
+      "id": "take-on",
+      "english": "take on",
+      "translation": "браться за",
+      "audio": [
+        "audio/words/take on.wav"
+      ]
+    },
+    {
+      "id": "hand-over",
+      "english": "hand over",
+      "translation": "передавать",
+      "audio": [
+        "audio/words/hand over.wav"
+      ]
+    },
+    {
+      "id": "turn-down",
+      "english": "turn down",
+      "translation": "отклонять",
+      "audio": [
+        "audio/words/turn down.wav"
+      ]
+    },
+    {
+      "id": "work-out",
+      "english": "work out",
+      "translation": "получиться",
+      "audio": [
+        "audio/words/work out.wav"
+      ]
+    },
+    {
+      "id": "sort-out",
+      "english": "sort out",
+      "translation": "разобраться",
+      "audio": [
+        "audio/words/sort out.wav"
+      ]
+    },
+    {
+      "id": "step-up",
+      "english": "step up",
+      "translation": "активизироваться",
+      "audio": [
+        "audio/words/step up.wav"
+      ]
+    },
+    {
+      "id": "slow-down",
+      "english": "slow down",
+      "translation": "замедляться",
+      "audio": [
+        "audio/words/slow down.wav"
+      ]
+    },
+    {
+      "id": "move-forward",
+      "english": "move forward",
+      "translation": "двигаться дальше",
+      "audio": [
+        "audio/words/move forward.wav"
+      ]
+    },
+    {
+      "id": "fall-apart",
+      "english": "fall apart",
+      "translation": "разваливаться",
+      "audio": [
+        "audio/words/fall apart.wav"
+      ]
+    },
+    {
+      "id": "stick-to",
+      "english": "stick to",
+      "translation": "придерживаться",
+      "audio": [
+        "audio/words/stick to.wav"
+      ]
+    },
+    {
+      "id": "give-up",
+      "english": "give up",
+      "translation": "сдаваться",
+      "audio": [
+        "audio/words/give up.wav"
+      ]
+    },
+    {
+      "id": "pull-off",
+      "english": "pull off",
+      "translation": "успешно осуществить",
+      "audio": [
+        "audio/words/pull off.wav"
+      ]
+    },
+    {
+      "id": "check-out",
+      "english": "check out",
+      "translation": "проверять",
+      "audio": [
+        "audio/words/check out.wav"
+      ]
+    },
+    {
+      "id": "look-into",
+      "english": "look into",
+      "translation": "изучать",
+      "audio": [
+        "audio/words/look into.wav"
+      ]
+    }
+  ]
+}

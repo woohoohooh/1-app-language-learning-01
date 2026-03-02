@@ -1,0 +1,207 @@
+{
+  "theme": "Юриспруденция",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "law",
+      "english": "law",
+      "translation": "закон"
+    },
+    {
+      "id": "legal",
+      "english": "legal",
+      "translation": "юридический"
+    },
+    {
+      "id": "contract",
+      "english": "contract",
+      "translation": "договор"
+    },
+    {
+      "id": "agreement",
+      "english": "agreement",
+      "translation": "соглашение"
+    },
+    {
+      "id": "clause",
+      "english": "clause",
+      "translation": "пункт договора"
+    },
+    {
+      "id": "terms",
+      "english": "terms",
+      "translation": "условия"
+    },
+    {
+      "id": "conditions",
+      "english": "conditions",
+      "translation": "условия"
+    },
+    {
+      "id": "obligation",
+      "english": "obligation",
+      "translation": "обязательство"
+    },
+    {
+      "id": "liability",
+      "english": "liability",
+      "translation": "ответственность"
+    },
+    {
+      "id": "penalty",
+      "english": "penalty",
+      "translation": "штраф"
+    },
+    {
+      "id": "breach",
+      "english": "breach",
+      "translation": "нарушение"
+    },
+    {
+      "id": "violation",
+      "english": "violation",
+      "translation": "нарушение"
+    },
+    {
+      "id": "compliance",
+      "english": "compliance",
+      "translation": "соответствие требованиям"
+    },
+    {
+      "id": "regulation",
+      "english": "regulation",
+      "translation": "регулирование"
+    },
+    {
+      "id": "policy",
+      "english": "policy",
+      "translation": "политика"
+    },
+    {
+      "id": "rights",
+      "english": "rights",
+      "translation": "права"
+    },
+    {
+      "id": "duties",
+      "english": "duties",
+      "translation": "обязанности"
+    },
+    {
+      "id": "party",
+      "english": "party",
+      "translation": "сторона"
+    },
+    {
+      "id": "third-party",
+      "english": "third party",
+      "translation": "третья сторона"
+    },
+    {
+      "id": "counterparty",
+      "english": "counterparty",
+      "translation": "контрагент"
+    },
+    {
+      "id": "signature",
+      "english": "signature",
+      "translation": "подпись"
+    },
+    {
+      "id": "amendment",
+      "english": "amendment",
+      "translation": "поправка"
+    },
+    {
+      "id": "termination",
+      "english": "termination",
+      "translation": "расторжение"
+    },
+    {
+      "id": "expiration",
+      "english": "expiration",
+      "translation": "истечение срока"
+    },
+    {
+      "id": "renewal",
+      "english": "renewal",
+      "translation": "продление"
+    },
+    {
+      "id": "dispute",
+      "english": "dispute",
+      "translation": "спор"
+    },
+    {
+      "id": "claim",
+      "english": "claim",
+      "translation": "претензия"
+    },
+    {
+      "id": "lawsuit",
+      "english": "lawsuit",
+      "translation": "судебный иск"
+    },
+    {
+      "id": "court",
+      "english": "court",
+      "translation": "суд"
+    },
+    {
+      "id": "settlement",
+      "english": "settlement",
+      "translation": "мировое соглашение"
+    },
+    {
+      "id": "jurisdiction",
+      "english": "jurisdiction",
+      "translation": "юрисдикция"
+    },
+    {
+      "id": "intellectual-property",
+      "english": "intellectual property",
+      "translation": "интеллектуальная собственность"
+    },
+    {
+      "id": "copyright",
+      "english": "copyright",
+      "translation": "авторское право"
+    },
+    {
+      "id": "trademark",
+      "english": "trademark",
+      "translation": "товарный знак"
+    },
+    {
+      "id": "confidentiality",
+      "english": "confidentiality",
+      "translation": "конфиденциальность"
+    },
+    {
+      "id": "privacy",
+      "english": "privacy",
+      "translation": "приватность"
+    },
+    {
+      "id": "consent",
+      "english": "consent",
+      "translation": "согласие"
+    },
+    {
+      "id": "authorization",
+      "english": "authorization",
+      "translation": "разрешение"
+    },
+    {
+      "id": "representation",
+      "english": "representation",
+      "translation": "заявление/гарантия"
+    },
+    {
+      "id": "warranty",
+      "english": "warranty",
+      "translation": "гарантия"
+    }
+  ]
+}

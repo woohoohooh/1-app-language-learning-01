@@ -1,0 +1,179 @@
+{
+  "theme": "Еда и напитки",
+  "level": "Beginner",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "food",
+      "translation": "еда"
+    },
+    {
+      "english": "meal",
+      "translation": "приём пищи"
+    },
+    {
+      "english": "breakfast",
+      "translation": "завтрак"
+    },
+    {
+      "english": "lunch",
+      "translation": "обед"
+    },
+    {
+      "english": "dinner",
+      "translation": "ужин"
+    },
+    {
+      "english": "bread",
+      "translation": "хлеб"
+    },
+    {
+      "english": "butter",
+      "translation": "масло"
+    },
+    {
+      "english": "cheese",
+      "translation": "сыр"
+    },
+    {
+      "english": "egg",
+      "translation": "яйцо"
+    },
+    {
+      "english": "meat",
+      "translation": "мясо"
+    },
+    {
+      "english": "chicken",
+      "translation": "курица"
+    },
+    {
+      "english": "fish",
+      "translation": "рыба"
+    },
+    {
+      "english": "rice",
+      "translation": "рис"
+    },
+    {
+      "english": "soup",
+      "translation": "суп"
+    },
+    {
+      "english": "vegetable",
+      "translation": "овощ"
+    },
+    {
+      "english": "potato",
+      "translation": "картофель"
+    },
+    {
+      "english": "tomato",
+      "translation": "помидор"
+    },
+    {
+      "english": "onion",
+      "translation": "лук"
+    },
+    {
+      "english": "fruit",
+      "translation": "фрукты"
+    },
+    {
+      "english": "apple",
+      "translation": "яблоко"
+    },
+    {
+      "english": "banana",
+      "translation": "банан"
+    },
+    {
+      "english": "orange",
+      "translation": "апельсин"
+    },
+    {
+      "english": "salt",
+      "translation": "соль"
+    },
+    {
+      "english": "sugar",
+      "translation": "сахар"
+    },
+    {
+      "english": "oil",
+      "translation": "масло"
+    },
+    {
+      "english": "sauce",
+      "translation": "соус"
+    },
+    {
+      "english": "cake",
+      "translation": "торт"
+    },
+    {
+      "english": "cookie",
+      "translation": "печенье"
+    },
+    {
+      "english": "chocolate",
+      "translation": "шоколад"
+    },
+    {
+      "english": "dessert",
+      "translation": "десерт"
+    },
+    {
+      "english": "water",
+      "translation": "вода"
+    },
+    {
+      "english": "tea",
+      "translation": "чай"
+    },
+    {
+      "english": "coffee",
+      "translation": "кофе"
+    },
+    {
+      "english": "milk",
+      "translation": "молоко"
+    },
+    {
+      "english": "juice",
+      "translation": "сок"
+    },
+    {
+      "english": "hungry",
+      "translation": "голодный"
+    },
+    {
+      "english": "full",
+      "translation": "сытый"
+    },
+    {
+      "english": "taste",
+      "translation": "вкус"
+    },
+    {
+      "english": "sweet",
+      "translation": "сладкий"
+    },
+    {
+      "english": "hot",
+      "translation": "горячий"
+    },
+    {
+      "english": "cold",
+      "translation": "холодный"
+    },
+    {
+      "english": "drink",
+      "translation": "пить"
+    },
+    {
+      "english": "pasta",
+      "translation": "паста"
+    }
+  ]
+}

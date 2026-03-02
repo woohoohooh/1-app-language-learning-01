@@ -1,0 +1,367 @@
+{
+  "theme": "Частые слова (расширенно)",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "approach",
+      "english": "approach",
+      "translation": "подход",
+      "audio": [
+        "audio/words/approach.wav"
+      ]
+    },
+    {
+      "id": "impact",
+      "english": "impact",
+      "translation": "влияние",
+      "audio": [
+        "audio/words/impact.wav"
+      ]
+    },
+    {
+      "id": "context",
+      "english": "context",
+      "translation": "контекст",
+      "audio": [
+        "audio/words/context.wav"
+      ]
+    },
+    {
+      "id": "strategy",
+      "english": "strategy",
+      "translation": "стратегия",
+      "audio": [
+        "audio/words/strategy.wav"
+      ]
+    },
+    {
+      "id": "objective",
+      "english": "objective",
+      "translation": "цель",
+      "audio": [
+        "audio/words/objective.wav"
+      ]
+    },
+    {
+      "id": "priority",
+      "english": "priority",
+      "translation": "приоритет",
+      "audio": [
+        "audio/words/priority.wav"
+      ]
+    },
+    {
+      "id": "resource",
+      "english": "resource",
+      "translation": "ресурс",
+      "audio": [
+        "audio/words/resource.wav"
+      ]
+    },
+    {
+      "id": "constraint",
+      "english": "constraint",
+      "translation": "ограничение",
+      "audio": [
+        "audio/words/constraint.wav"
+      ]
+    },
+    {
+      "id": "assumption",
+      "english": "assumption",
+      "translation": "предположение",
+      "audio": [
+        "audio/words/assumption.wav"
+      ]
+    },
+    {
+      "id": "evidence",
+      "english": "evidence",
+      "translation": "доказательство",
+      "audio": [
+        "audio/words/evidence.wav"
+      ]
+    },
+    {
+      "id": "analysis",
+      "english": "analysis",
+      "translation": "анализ",
+      "audio": [
+        "audio/words/analysis.wav"
+      ]
+    },
+    {
+      "id": "perspective",
+      "english": "perspective",
+      "translation": "точка зрения",
+      "audio": [
+        "audio/words/perspective.wav"
+      ]
+    },
+    {
+      "id": "factor",
+      "english": "factor",
+      "translation": "фактор",
+      "audio": [
+        "audio/words/factor.wav"
+      ]
+    },
+    {
+      "id": "trend",
+      "english": "trend",
+      "translation": "тенденция",
+      "audio": [
+        "audio/words/trend.wav"
+      ]
+    },
+    {
+      "id": "pattern",
+      "english": "pattern",
+      "translation": "закономерность",
+      "audio": [
+        "audio/words/pattern.wav"
+      ]
+    },
+    {
+      "id": "scenario",
+      "english": "scenario",
+      "translation": "сценарий",
+      "audio": [
+        "audio/words/scenario.wav"
+      ]
+    },
+    {
+      "id": "stakeholder",
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона",
+      "audio": [
+        "audio/words/stakeholder.wav"
+      ]
+    },
+    {
+      "id": "alignment",
+      "english": "alignment",
+      "translation": "согласованность",
+      "audio": [
+        "audio/words/alignment.wav"
+      ]
+    },
+    {
+      "id": "execution",
+      "english": "execution",
+      "translation": "реализация",
+      "audio": [
+        "audio/words/execution.wav"
+      ]
+    },
+    {
+      "id": "implementation",
+      "english": "implementation",
+      "translation": "внедрение",
+      "audio": [
+        "audio/words/implementation.wav"
+      ]
+    },
+    {
+      "id": "optimization",
+      "english": "optimization",
+      "translation": "оптимизация",
+      "audio": [
+        "audio/words/optimization.wav"
+      ]
+    },
+    {
+      "id": "efficiency",
+      "english": "efficiency",
+      "translation": "эффективность",
+      "audio": [
+        "audio/words/efficiency.wav"
+      ]
+    },
+    {
+      "id": "trade-off",
+      "english": "trade-off",
+      "translation": "компромисс",
+      "audio": [
+        "audio/words/trade-off.wav"
+      ]
+    },
+    {
+      "id": "limitation",
+      "english": "limitation",
+      "translation": "ограничение",
+      "audio": [
+        "audio/words/limitation.wav"
+      ]
+    },
+    {
+      "id": "dependency",
+      "english": "dependency",
+      "translation": "зависимость",
+      "audio": [
+        "audio/words/dependency.wav"
+      ]
+    },
+    {
+      "id": "complexity",
+      "english": "complexity",
+      "translation": "сложность",
+      "audio": [
+        "audio/words/complexity.wav"
+      ]
+    },
+    {
+      "id": "uncertainty",
+      "english": "uncertainty",
+      "translation": "неопределенность",
+      "audio": [
+        "audio/words/uncertainty.wav"
+      ]
+    },
+    {
+      "id": "risk",
+      "english": "risk",
+      "translation": "риск",
+      "audio": [
+        "audio/words/risk.wav"
+      ]
+    },
+    {
+      "id": "opportunity",
+      "english": "opportunity",
+      "translation": "возможность",
+      "audio": [
+        "audio/words/opportunity.wav"
+      ]
+    },
+    {
+      "id": "requirement",
+      "english": "requirement",
+      "translation": "требование",
+      "audio": [
+        "audio/words/requirement.wav"
+      ]
+    },
+    {
+      "id": "evaluation",
+      "english": "evaluation",
+      "translation": "оценка",
+      "audio": [
+        "audio/words/evaluation.wav"
+      ]
+    },
+    {
+      "id": "assessment",
+      "english": "assessment",
+      "translation": "оценивание",
+      "audio": [
+        "audio/words/assessment.wav"
+      ]
+    },
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "обратная связь",
+      "audio": [
+        "audio/words/feedback.wav"
+      ]
+    },
+    {
+      "id": "adjustment",
+      "english": "adjustment",
+      "translation": "корректировка",
+      "audio": [
+        "audio/words/adjustment.wav"
+      ]
+    },
+    {
+      "id": "improvement",
+      "english": "improvement",
+      "translation": "улучшение",
+      "audio": [
+        "audio/words/improvement.wav"
+      ]
+    },
+    {
+      "id": "decision-making",
+      "english": "decision-making",
+      "translation": "принятие решений",
+      "audio": [
+        "audio/words/decision-making.wav"
+      ]
+    },
+    {
+      "id": "responsibility",
+      "english": "responsibility",
+      "translation": "ответственность",
+      "audio": [
+        "audio/words/responsibility.wav"
+      ]
+    },
+    {
+      "id": "commitment",
+      "english": "commitment",
+      "translation": "обязательство",
+      "audio": [
+        "audio/words/commitment.wav"
+      ]
+    },
+    {
+      "id": "accountability",
+      "english": "accountability",
+      "translation": "подотчетность",
+      "audio": [
+        "audio/words/accountability.wav"
+      ]
+    },
+    {
+      "id": "issue",
+      "english": "issue",
+      "translation": "проблема",
+      "audio": [
+        "audio/words/issue.wav"
+      ]
+    },
+    {
+      "id": "outcome",
+      "english": "outcome",
+      "translation": "результат",
+      "audio": [
+        "audio/words/outcome.wav"
+      ]
+    },
+    {
+      "id": "insight",
+      "english": "insight",
+      "translation": "понимание",
+      "audio": [
+        "audio/words/insight.wav"
+      ]
+    },
+    {
+      "id": "framework",
+      "english": "framework",
+      "translation": "структура",
+      "audio": [
+        "audio/words/framework.wav"
+      ]
+    },
+    {
+      "id": "challenge",
+      "english": "challenge",
+      "translation": "вызов",
+      "audio": [
+        "audio/words/challenge.wav"
+      ]
+    },
+    {
+      "id": "ownership",
+      "english": "ownership",
+      "translation": "ответственность",
+      "audio": [
+        "audio/words/ownership.wav"
+      ]
+    }
+  ]
+}

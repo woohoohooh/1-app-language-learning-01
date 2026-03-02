@@ -1,0 +1,207 @@
+{
+  "theme": "Движение и транспорт",
+  "level": "",
+  "name": "Words",
+  "items": [
+    {
+      "id": "we-move-together.",
+      "english": "We move together.",
+      "translation": "Мы двигаемся вместе.",
+      "audio": [
+        "audio/sentences/We move together..wav"
+      ]
+    },
+    {
+      "id": "we-walk-every-morning.",
+      "english": "We walk every morning.",
+      "translation": "Мы гуляем каждое утро.",
+      "audio": [
+        "audio/sentences/We walk every morning..wav"
+      ]
+    },
+    {
+      "id": "kids-run-outside.",
+      "english": "Kids run outside.",
+      "translation": "Дети бегают на улице.",
+      "audio": [
+        "audio/sentences/Kids run outside..wav"
+      ]
+    },
+    {
+      "id": "please-stop-now.",
+      "english": "Please stop now.",
+      "translation": "Пожалуйста, остановись сейчас.",
+      "audio": [
+        "audio/sentences/Please stop now..wav"
+      ]
+    },
+    {
+      "id": "the-road-looks-clear.",
+      "english": "The road looks clear.",
+      "translation": "Дорога выглядит свободной.",
+      "audio": [
+        "audio/sentences/The road looks clear..wav"
+      ]
+    },
+    {
+      "id": "this-street-is-wide.",
+      "english": "This street is wide.",
+      "translation": "Эта улица широкая.",
+      "audio": [
+        "audio/sentences/This street is wide..wav"
+      ]
+    },
+    {
+      "id": "this-is-the-way.",
+      "english": "This is the way.",
+      "translation": "Это путь.",
+      "audio": [
+        "audio/sentences/This is the way..wav"
+      ]
+    },
+    {
+      "id": "the-direction-is-clear.",
+      "english": "The direction is clear.",
+      "translation": "Направление понятно.",
+      "audio": [
+        "audio/sentences/The direction is clear..wav"
+      ]
+    },
+    {
+      "id": "the-car-stops-here.",
+      "english": "The car stops here.",
+      "translation": "Машина останавливается здесь.",
+      "audio": [
+        "audio/sentences/The car stops here..wav"
+      ]
+    },
+    {
+      "id": "the-bus-arrives-late.",
+      "english": "The bus arrives late.",
+      "translation": "Автобус приезжает поздно.",
+      "audio": [
+        "audio/sentences/The bus arrives late..wav"
+      ]
+    },
+    {
+      "id": "the-train-leaves-soon.",
+      "english": "The train leaves soon.",
+      "translation": "Поезд скоро отправляется.",
+      "audio": [
+        "audio/sentences/The train leaves soon..wav"
+      ]
+    },
+    {
+      "id": "the-taxi-is-waiting.",
+      "english": "The taxi is waiting.",
+      "translation": "Такси ждёт.",
+      "audio": [
+        "audio/sentences/The taxi is waiting..wav"
+      ]
+    },
+    {
+      "id": "the-subway-is-crowded.",
+      "english": "The subway is crowded.",
+      "translation": "Метро переполнено.",
+      "audio": [
+        "audio/sentences/The subway is crowded..wav"
+      ]
+    },
+    {
+      "id": "he-rides-a-bike.",
+      "english": "He rides a bike.",
+      "translation": "Он едет на велосипеде.",
+      "audio": [
+        "audio/sentences/He rides a bike..wav"
+      ]
+    },
+    {
+      "id": "the-bicycle-is-ready.",
+      "english": "The bicycle is ready.",
+      "translation": "Велосипед готов.",
+      "audio": [
+        "audio/sentences/The bicycle is ready..wav"
+      ]
+    },
+    {
+      "id": "we-meet-at-the-station.",
+      "english": "We meet at the station.",
+      "translation": "Мы встречаемся на станции.",
+      "audio": [
+        "audio/sentences/We meet at the station..wav"
+      ]
+    },
+    {
+      "id": "the-stop-is-close.",
+      "english": "The stop is close.",
+      "translation": "Остановка близко.",
+      "audio": [
+        "audio/sentences/The stop is close..wav"
+      ]
+    },
+    {
+      "id": "i-have-a-ticket.",
+      "english": "I have a ticket.",
+      "translation": "У меня есть билет.",
+      "audio": [
+        "audio/sentences/I have a ticket..wav"
+      ]
+    },
+    {
+      "id": "the-ride-feels-smooth.",
+      "english": "The ride feels smooth.",
+      "translation": "Поездка проходит плавно.",
+      "audio": [
+        "audio/sentences/The ride feels smooth..wav"
+      ]
+    },
+    {
+      "id": "the-trip-was-fun.",
+      "english": "The trip was fun.",
+      "translation": "Путешествие было весёлым.",
+      "audio": [
+        "audio/sentences/The trip was fun..wav"
+      ]
+    },
+    {
+      "id": "she-drives-every-day.",
+      "english": "She drives every day.",
+      "translation": "Она водит каждый день.",
+      "audio": [
+        "audio/sentences/She drives every day..wav"
+      ]
+    },
+    {
+      "id": "they-arrive-together.",
+      "english": "They arrive together.",
+      "translation": "Они прибывают вместе.",
+      "audio": [
+        "audio/sentences/They arrive together..wav"
+      ]
+    },
+    {
+      "id": "i-go-this-way.",
+      "english": "I go this way.",
+      "translation": "Я иду этим путём.",
+      "audio": [
+        "audio/sentences/I go this way..wav"
+      ]
+    },
+    {
+      "id": "they-come-early.",
+      "english": "They come early.",
+      "translation": "Они приходят рано.",
+      "audio": [
+        "audio/sentences/They come early..wav"
+      ]
+    },
+    {
+      "id": "we-leave-tomorrow.",
+      "english": "We leave tomorrow.",
+      "translation": "Мы уезжаем завтра.",
+      "audio": [
+        "audio/sentences/We leave tomorrow..wav"
+      ]
+    }
+  ]
+}

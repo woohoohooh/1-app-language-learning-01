@@ -1,0 +1,175 @@
+{
+  "theme": "Технологии и интернет",
+  "level": "Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "technology",
+      "translation": "технология"
+    },
+    {
+      "english": "internet",
+      "translation": "интернет"
+    },
+    {
+      "english": "network",
+      "translation": "сеть"
+    },
+    {
+      "english": "connection",
+      "translation": "соединение"
+    },
+    {
+      "english": "access",
+      "translation": "доступ"
+    },
+    {
+      "english": "website",
+      "translation": "веб-сайт"
+    },
+    {
+      "english": "web page",
+      "translation": "веб-страница"
+    },
+    {
+      "english": "platform",
+      "translation": "платформа"
+    },
+    {
+      "english": "service",
+      "translation": "онлайн-сервис"
+    },
+    {
+      "english": "application",
+      "translation": "приложение"
+    },
+    {
+      "english": "browser",
+      "translation": "браузер"
+    },
+    {
+      "english": "search engine",
+      "translation": "поисковая система"
+    },
+    {
+      "english": "link",
+      "translation": "ссылка"
+    },
+    {
+      "english": "download",
+      "translation": "загрузка"
+    },
+    {
+      "english": "upload",
+      "translation": "загрузка"
+    },
+    {
+      "english": "data",
+      "translation": "данные"
+    },
+    {
+      "english": "information",
+      "translation": "информация"
+    },
+    {
+      "english": "content",
+      "translation": "контент"
+    },
+    {
+      "english": "file",
+      "translation": "файл"
+    },
+    {
+      "english": "storage",
+      "translation": "хранилище"
+    },
+    {
+      "english": "cloud",
+      "translation": "облако"
+    },
+    {
+      "english": "business",
+      "translation": "бизнес"
+    },
+    {
+      "english": "company",
+      "translation": "компания"
+    },
+    {
+      "english": "firm",
+      "translation": "фирма"
+    },
+    {
+      "english": "enterprise",
+      "translation": "предприятие"
+    },
+    {
+      "english": "organization",
+      "translation": "организация"
+    },
+    {
+      "english": "market",
+      "translation": "рынок"
+    },
+    {
+      "english": "industry",
+      "translation": "отрасль"
+    },
+    {
+      "english": "competition",
+      "translation": "конкуренция"
+    },
+    {
+      "english": "competitor",
+      "translation": "конкурент"
+    },
+    {
+      "english": "demand",
+      "translation": "спрос"
+    },
+    {
+      "english": "supply",
+      "translation": "предложение"
+    },
+    {
+      "english": "customer",
+      "translation": "клиент"
+    },
+    {
+      "english": "client",
+      "translation": "клиент"
+    },
+    {
+      "english": "consumer",
+      "translation": "потребитель"
+    },
+    {
+      "english": "partner",
+      "translation": "партнёр"
+    },
+    {
+      "english": "product",
+      "translation": "продукт"
+    },
+    {
+      "english": "service",
+      "translation": "услуга"
+    },
+    {
+      "english": "value",
+      "translation": "ценность"
+    },
+    {
+      "english": "price",
+      "translation": "цена"
+    },
+    {
+      "english": "cost",
+      "translation": "затраты"
+    },
+    {
+      "english": "revenue",
+      "translation": "выручка"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "theme": "Критическое мышление",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "detailed-analysis",
+      "english": "detailed analysis",
+      "translation": "детальный анализ",
+      "audio": [
+        "audio/phrases/detailed analysis.wav"
+      ]
+    },
+    {
+      "id": "clear-reasoning",
+      "english": "clear reasoning",
+      "translation": "чёткое рассуждение",
+      "audio": [
+        "audio/phrases/clear reasoning.wav"
+      ]
+    },
+    {
+      "id": "basic-logic",
+      "english": "basic logic",
+      "translation": "базовая логика",
+      "audio": [
+        "audio/phrases/basic logic.wav"
+      ]
+    },
+    {
+      "id": "sound-judgment",
+      "english": "sound judgment",
+      "translation": "взвешенное суждение",
+      "audio": [
+        "audio/phrases/sound judgment.wav"
+      ]
+    },
+    {
+      "id": "objective-evaluation",
+      "english": "objective evaluation",
+      "translation": "объективная оценка",
+      "audio": [
+        "audio/phrases/objective evaluation.wav"
+      ]
+    },
+    {
+      "id": "initial-assumption",
+      "english": "initial assumption",
+      "translation": "первоначальное предположение",
+      "audio": [
+        "audio/phrases/initial assumption.wav"
+      ]
+    },
+    {
+      "id": "main-premise",
+      "english": "main premise",
+      "translation": "основное утверждение",
+      "audio": [
+        "audio/phrases/main premise.wav"
+      ]
+    },
+    {
+      "id": "testable-hypothesis",
+      "english": "testable hypothesis",
+      "translation": "проверяемая гипотеза",
+      "audio": [
+        "audio/phrases/testable hypothesis.wav"
+      ]
+    },
+    {
+      "id": "final-conclusion",
+      "english": "final conclusion",
+      "translation": "окончательный вывод",
+      "audio": [
+        "audio/phrases/final conclusion.wav"
+      ]
+    },
+    {
+      "id": "logical-inference",
+      "english": "logical inference",
+      "translation": "логическое умозаключение",
+      "audio": [
+        "audio/phrases/logical inference.wav"
+      ]
+    },
+    {
+      "id": "strong-evidence",
+      "english": "strong evidence",
+      "translation": "веское доказательство",
+      "audio": [
+        "audio/phrases/strong evidence.wav"
+      ]
+    },
+    {
+      "id": "solid-proof",
+      "english": "solid proof",
+      "translation": "надёжное подтверждение",
+      "audio": [
+        "audio/phrases/solid proof.wav"
+      ]
+    },
+    {
+      "id": "raw-data",
+      "english": "raw data",
+      "translation": "сырые данные",
+      "audio": [
+        "audio/phrases/raw data.wav"
+      ]
+    },
+    {
+      "id": "known-fact",
+      "english": "known fact",
+      "translation": "известный факт",
+      "audio": [
+        "audio/phrases/known fact.wav"
+      ]
+    },
+    {
+      "id": "central-claim",
+      "english": "central claim",
+      "translation": "ключевое утверждение",
+      "audio": [
+        "audio/phrases/central claim.wav"
+      ]
+    },
+    {
+      "id": "personal-bias",
+      "english": "personal bias",
+      "translation": "личная предвзятость",
+      "audio": [
+        "audio/phrases/personal bias.wav"
+      ]
+    },
+    {
+      "id": "data-distortion",
+      "english": "data distortion",
+      "translation": "искажение данных",
+      "audio": [
+        "audio/phrases/data distortion.wav"
+      ]
+    },
+    {
+      "id": "common-misinterpretation",
+      "english": "common misinterpretation",
+      "translation": "распространённая неверная интерпретация",
+      "audio": [
+        "audio/phrases/common misinterpretation.wav"
+      ]
+    },
+    {
+      "id": "logical-fallacy",
+      "english": "logical fallacy",
+      "translation": "логическая ошибка",
+      "audio": [
+        "audio/phrases/logical fallacy.wav"
+      ]
+    },
+    {
+      "id": "major-flaw",
+      "english": "major flaw",
+      "translation": "серьёзный изъян",
+      "audio": [
+        "audio/phrases/major flaw.wav"
+      ]
+    },
+    {
+      "id": "maintain-objectivity",
+      "english": "maintain objectivity",
+      "translation": "сохранять объективность",
+      "audio": [
+        "audio/phrases/maintain objectivity.wav"
+      ]
+    },
+    {
+      "id": "personal-subjectivity",
+      "english": "personal subjectivity",
+      "translation": "личная субъективность",
+      "audio": [
+        "audio/phrases/personal subjectivity.wav"
+      ]
+    },
+    {
+      "id": "broader-perspective",
+      "english": "broader perspective",
+      "translation": "более широкая точка зрения",
+      "audio": [
+        "audio/phrases/broader perspective.wav"
+      ]
+    },
+    {
+      "id": "specific-context",
+      "english": "specific context",
+      "translation": "конкретный контекст",
+      "audio": [
+        "audio/phrases/specific context.wav"
+      ]
+    },
+    {
+      "id": "conceptual-framework",
+      "english": "conceptual framework",
+      "translation": "концептуальная система",
+      "audio": [
+        "audio/phrases/conceptual framework.wav"
+      ]
+    },
+    {
+      "id": "healthy-skepticism",
+      "english": "healthy skepticism",
+      "translation": "здоровый скептицизм",
+      "audio": [
+        "audio/phrases/healthy skepticism.wav"
+      ]
+    },
+    {
+      "id": "reasonable-doubt",
+      "english": "reasonable doubt",
+      "translation": "обоснованное сомнение",
+      "audio": [
+        "audio/phrases/reasonable doubt.wav"
+      ]
+    },
+    {
+      "id": "active-questioning",
+      "english": "active questioning",
+      "translation": "активная постановка вопросов",
+      "audio": [
+        "audio/phrases/active questioning.wav"
+      ]
+    },
+    {
+      "id": "fact-verification",
+      "english": "fact verification",
+      "translation": "проверка фактов",
+      "audio": [
+        "audio/phrases/fact verification.wav"
+      ]
+    },
+    {
+      "id": "result-validation",
+      "english": "result validation",
+      "translation": "подтверждение результатов",
+      "audio": [
+        "audio/phrases/result validation.wav"
+      ]
+    },
+    {
+      "id": "logical-consistency",
+      "english": "logical consistency",
+      "translation": "логическая последовательность",
+      "audio": [
+        "audio/phrases/logical consistency.wav"
+      ]
+    },
+    {
+      "id": "internal-coherence",
+      "english": "internal coherence",
+      "translation": "внутренняя связность",
+      "audio": [
+        "audio/phrases/internal coherence.wav"
+      ]
+    },
+    {
+      "id": "conceptual-clarity",
+      "english": "conceptual clarity",
+      "translation": "понятийная ясность",
+      "audio": [
+        "audio/phrases/conceptual clarity.wav"
+      ]
+    },
+    {
+      "id": "high-accuracy",
+      "english": "high accuracy",
+      "translation": "высокая точность",
+      "audio": [
+        "audio/phrases/high accuracy.wav"
+      ]
+    },
+    {
+      "id": "source-reliability",
+      "english": "source reliability",
+      "translation": "надёжность источника",
+      "audio": [
+        "audio/phrases/source reliability.wav"
+      ]
+    }
+  ]
+}

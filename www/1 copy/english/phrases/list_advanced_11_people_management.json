@@ -1,0 +1,327 @@
+{
+  "theme": "Управление людьми",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "effective-management",
+      "english": "effective management",
+      "translation": "эффективное управление",
+      "audio": [
+        "audio/phrases/effective management.wav"
+      ]
+    },
+    {
+      "id": "experienced-manager",
+      "english": "experienced manager",
+      "translation": "опытный руководитель",
+      "audio": [
+        "audio/phrases/experienced manager.wav"
+      ]
+    },
+    {
+      "id": "strong-team",
+      "english": "strong team",
+      "translation": "сильная команда",
+      "audio": [
+        "audio/phrases/strong team.wav"
+      ]
+    },
+    {
+      "id": "effective-teamwork",
+      "english": "effective teamwork",
+      "translation": "эффективная командная работа",
+      "audio": [
+        "audio/phrases/effective teamwork.wav"
+      ]
+    },
+    {
+      "id": "cross-team-collaboration",
+      "english": "cross team collaboration",
+      "translation": "межкомандное сотрудничество",
+      "audio": [
+        "audio/phrases/cross team collaboration.wav"
+      ]
+    },
+    {
+      "id": "close-supervision",
+      "english": "close supervision",
+      "translation": "плотный надзор",
+      "audio": [
+        "audio/phrases/close supervision.wav"
+      ]
+    },
+    {
+      "id": "project-coordination",
+      "english": "project coordination",
+      "translation": "координация проекта",
+      "audio": [
+        "audio/phrases/project coordination.wav"
+      ]
+    },
+    {
+      "id": "heavy-workload",
+      "english": "heavy workload",
+      "translation": "высокая нагрузка",
+      "audio": [
+        "audio/phrases/heavy workload.wav"
+      ]
+    },
+    {
+      "id": "current-capacity",
+      "english": "current capacity",
+      "translation": "текущий ресурс",
+      "audio": [
+        "audio/phrases/current capacity.wav"
+      ]
+    },
+    {
+      "id": "staff-availability",
+      "english": "staff availability",
+      "translation": "доступность персонала",
+      "audio": [
+        "audio/phrases/staff availability.wav"
+      ]
+    },
+    {
+      "id": "annual-performance-review",
+      "english": "annual performance review",
+      "translation": "годовая оценка эффективности",
+      "audio": [
+        "audio/phrases/annual performance review.wav"
+      ]
+    },
+    {
+      "id": "objective-evaluation",
+      "english": "objective evaluation",
+      "translation": "объективная оценка",
+      "audio": [
+        "audio/phrases/objective evaluation.wav"
+      ]
+    },
+    {
+      "id": "risk-assessment",
+      "english": "risk assessment",
+      "translation": "оценивание рисков",
+      "audio": [
+        "audio/phrases/risk assessment.wav"
+      ]
+    },
+    {
+      "id": "clear-expectations",
+      "english": "clear expectations",
+      "translation": "чёткие ожидания",
+      "audio": [
+        "audio/phrases/clear expectations.wav"
+      ]
+    },
+    {
+      "id": "effective-goal-setting",
+      "english": "effective goal setting",
+      "translation": "эффективная постановка целей",
+      "audio": [
+        "audio/phrases/effective goal setting.wav"
+      ]
+    },
+    {
+      "id": "employee-motivation",
+      "english": "employee motivation",
+      "translation": "мотивация сотрудников",
+      "audio": [
+        "audio/phrases/employee motivation.wav"
+      ]
+    },
+    {
+      "id": "team-engagement",
+      "english": "team engagement",
+      "translation": "вовлечённость команды",
+      "audio": [
+        "audio/phrases/team engagement.wav"
+      ]
+    },
+    {
+      "id": "long-term-commitment",
+      "english": "long term commitment",
+      "translation": "долгосрочная приверженность",
+      "audio": [
+        "audio/phrases/long term commitment.wav"
+      ]
+    },
+    {
+      "id": "employee-retention",
+      "english": "employee retention",
+      "translation": "удержание сотрудников",
+      "audio": [
+        "audio/phrases/employee retention.wav"
+      ]
+    },
+    {
+      "id": "high-turnover",
+      "english": "high turnover",
+      "translation": "высокая текучесть",
+      "audio": [
+        "audio/phrases/high turnover.wav"
+      ]
+    },
+    {
+      "id": "smooth-onboarding-process",
+      "english": "smooth onboarding process",
+      "translation": "плавный процесс адаптации",
+      "audio": [
+        "audio/phrases/smooth onboarding process.wav"
+      ]
+    },
+    {
+      "id": "ongoing-training-sessions",
+      "english": "ongoing training sessions",
+      "translation": "постоянные обучающие сессии",
+      "audio": [
+        "audio/phrases/ongoing training sessions.wav"
+      ]
+    },
+    {
+      "id": "continuous-upskilling-efforts",
+      "english": "continuous upskilling efforts",
+      "translation": "непрерывное развитие навыков",
+      "audio": [
+        "audio/phrases/continuous upskilling efforts.wav"
+      ]
+    },
+    {
+      "id": "long-term-career-growth",
+      "english": "long term career growth",
+      "translation": "долгосрочный карьерный рост",
+      "audio": [
+        "audio/phrases/long term career growth.wav"
+      ]
+    },
+    {
+      "id": "succession-planning",
+      "english": "succession planning",
+      "translation": "планирование преемственности",
+      "audio": [
+        "audio/phrases/succession planning.wav"
+      ]
+    },
+    {
+      "id": "workplace-conflict-arises",
+      "english": "workplace conflict arises",
+      "translation": "возникает рабочий конфликт",
+      "audio": [
+        "audio/phrases/workplace conflict arises.wav"
+      ]
+    },
+    {
+      "id": "conflict-resolution-skills",
+      "english": "conflict resolution skills",
+      "translation": "навыки разрешения конфликтов",
+      "audio": [
+        "audio/phrases/conflict resolution skills.wav"
+      ]
+    },
+    {
+      "id": "maintain-discipline-standards",
+      "english": "maintain discipline standards",
+      "translation": "поддерживать стандарты дисциплины",
+      "audio": [
+        "audio/phrases/maintain discipline standards.wav"
+      ]
+    },
+    {
+      "id": "company-policy-update",
+      "english": "company policy update",
+      "translation": "обновление политики компании",
+      "audio": [
+        "audio/phrases/company policy update.wav"
+      ]
+    },
+    {
+      "id": "standard-procedure-applies",
+      "english": "standard procedure applies",
+      "translation": "применяется стандартная процедура",
+      "audio": [
+        "audio/phrases/standard procedure applies.wav"
+      ]
+    },
+    {
+      "id": "shared-responsibility-model",
+      "english": "shared responsibility model",
+      "translation": "модель общей ответственности",
+      "audio": [
+        "audio/phrases/shared responsibility model.wav"
+      ]
+    },
+    {
+      "id": "clear-role-definition",
+      "english": "clear role definition",
+      "translation": "чёткое определение роли",
+      "audio": [
+        "audio/phrases/clear role definition.wav"
+      ]
+    },
+    {
+      "id": "strong-ownership-mindset",
+      "english": "strong ownership mindset",
+      "translation": "сильное чувство ответственности",
+      "audio": [
+        "audio/phrases/strong ownership mindset.wav"
+      ]
+    },
+    {
+      "id": "decision-authority-level",
+      "english": "decision authority level",
+      "translation": "уровень полномочий",
+      "audio": [
+        "audio/phrases/decision authority level.wav"
+      ]
+    },
+    {
+      "id": "clear-accountability-lines",
+      "english": "clear accountability lines",
+      "translation": "чёткие линии подотчётности",
+      "audio": [
+        "audio/phrases/clear accountability lines.wav"
+      ]
+    },
+    {
+      "id": "healthy-workplace-culture",
+      "english": "healthy workplace culture",
+      "translation": "здоровая рабочая культура",
+      "audio": [
+        "audio/phrases/healthy workplace culture.wav"
+      ]
+    },
+    {
+      "id": "high-employee-satisfaction",
+      "english": "high employee satisfaction",
+      "translation": "высокая удовлетворённость сотрудников",
+      "audio": [
+        "audio/phrases/high employee satisfaction.wav"
+      ]
+    },
+    {
+      "id": "prevent-burnout-early",
+      "english": "prevent burnout early",
+      "translation": "предотвращать выгорание",
+      "audio": [
+        "audio/phrases/prevent burnout early.wav"
+      ]
+    },
+    {
+      "id": "employee-well-being",
+      "english": "employee well being",
+      "translation": "благополучие сотрудников",
+      "audio": [
+        "audio/phrases/employee well being.wav"
+      ]
+    },
+    {
+      "id": "boost-team-morale",
+      "english": "boost team morale",
+      "translation": "повысить моральный дух",
+      "audio": [
+        "audio/phrases/boost team morale.wav"
+      ]
+    }
+  ]
+}

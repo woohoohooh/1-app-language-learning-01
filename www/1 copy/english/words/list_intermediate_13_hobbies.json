@@ -1,0 +1,327 @@
+{
+  "theme": "Хобби и развлечения",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "hobby",
+      "english": "hobby",
+      "translation": "хобби",
+      "audio": [
+        "audio/words/hobby.wav"
+      ]
+    },
+    {
+      "id": "interest",
+      "english": "interest",
+      "translation": "интерес",
+      "audio": [
+        "audio/words/interest.wav"
+      ]
+    },
+    {
+      "id": "leisure",
+      "english": "leisure",
+      "translation": "досуг",
+      "audio": [
+        "audio/words/leisure.wav"
+      ]
+    },
+    {
+      "id": "free-time",
+      "english": "free time",
+      "translation": "свободное время",
+      "audio": [
+        "audio/words/free time.wav"
+      ]
+    },
+    {
+      "id": "entertainment",
+      "english": "entertainment",
+      "translation": "развлечение",
+      "audio": [
+        "audio/words/entertainment.wav"
+      ]
+    },
+    {
+      "id": "fun",
+      "english": "fun",
+      "translation": "веселье",
+      "audio": [
+        "audio/words/fun.wav"
+      ]
+    },
+    {
+      "id": "relaxation",
+      "english": "relaxation",
+      "translation": "расслабление",
+      "audio": [
+        "audio/words/relaxation.wav"
+      ]
+    },
+    {
+      "id": "challenge",
+      "english": "challenge",
+      "translation": "вызов",
+      "audio": [
+        "audio/words/challenge.wav"
+      ]
+    },
+    {
+      "id": "music",
+      "english": "music",
+      "translation": "музыка",
+      "audio": [
+        "audio/words/music.wav"
+      ]
+    },
+    {
+      "id": "concert",
+      "english": "concert",
+      "translation": "концерт",
+      "audio": [
+        "audio/words/concert.wav"
+      ]
+    },
+    {
+      "id": "playlist",
+      "english": "playlist",
+      "translation": "плейлист",
+      "audio": [
+        "audio/words/playlist.wav"
+      ]
+    },
+    {
+      "id": "podcast",
+      "english": "podcast",
+      "translation": "подкаст",
+      "audio": [
+        "audio/words/podcast.wav"
+      ]
+    },
+    {
+      "id": "audiobook",
+      "english": "audiobook",
+      "translation": "аудиокнига",
+      "audio": [
+        "audio/words/audiobook.wav"
+      ]
+    },
+    {
+      "id": "movie",
+      "english": "movie",
+      "translation": "фильм",
+      "audio": [
+        "audio/words/movie.wav"
+      ]
+    },
+    {
+      "id": "series",
+      "english": "series",
+      "translation": "сериал",
+      "audio": [
+        "audio/words/series.wav"
+      ]
+    },
+    {
+      "id": "streaming",
+      "english": "streaming",
+      "translation": "стриминг",
+      "audio": [
+        "audio/words/streaming.wav"
+      ]
+    },
+    {
+      "id": "episode",
+      "english": "episode",
+      "translation": "эпизод",
+      "audio": [
+        "audio/words/episode.wav"
+      ]
+    },
+    {
+      "id": "genre",
+      "english": "genre",
+      "translation": "жанр",
+      "audio": [
+        "audio/words/genre.wav"
+      ]
+    },
+    {
+      "id": "game",
+      "english": "game",
+      "translation": "игра",
+      "audio": [
+        "audio/words/game.wav"
+      ]
+    },
+    {
+      "id": "gaming",
+      "english": "gaming",
+      "translation": "гейминг",
+      "audio": [
+        "audio/words/gaming.wav"
+      ]
+    },
+    {
+      "id": "console",
+      "english": "console",
+      "translation": "игровая консоль",
+      "audio": [
+        "audio/words/console.wav"
+      ]
+    },
+    {
+      "id": "multiplayer",
+      "english": "multiplayer",
+      "translation": "многопользовательский",
+      "audio": [
+        "audio/words/multiplayer.wav"
+      ]
+    },
+    {
+      "id": "strategy",
+      "english": "strategy",
+      "translation": "стратегия",
+      "audio": [
+        "audio/words/strategy.wav"
+      ]
+    },
+    {
+      "id": "reading",
+      "english": "reading",
+      "translation": "чтение",
+      "audio": [
+        "audio/words/reading.wav"
+      ]
+    },
+    {
+      "id": "writing",
+      "english": "writing",
+      "translation": "письмо",
+      "audio": [
+        "audio/words/writing.wav"
+      ]
+    },
+    {
+      "id": "blog",
+      "english": "blog",
+      "translation": "блог",
+      "audio": [
+        "audio/words/blog.wav"
+      ]
+    },
+    {
+      "id": "photography",
+      "english": "photography",
+      "translation": "фотография",
+      "audio": [
+        "audio/words/photography.wav"
+      ]
+    },
+    {
+      "id": "editing",
+      "english": "editing",
+      "translation": "редактирование",
+      "audio": [
+        "audio/words/editing.wav"
+      ]
+    },
+    {
+      "id": "traveling",
+      "english": "traveling",
+      "translation": "путешествия",
+      "audio": [
+        "audio/words/traveling.wav"
+      ]
+    },
+    {
+      "id": "adventure",
+      "english": "adventure",
+      "translation": "приключение",
+      "audio": [
+        "audio/words/adventure.wav"
+      ]
+    },
+    {
+      "id": "exploration",
+      "english": "exploration",
+      "translation": "исследование",
+      "audio": [
+        "audio/words/exploration.wav"
+      ]
+    },
+    {
+      "id": "camping",
+      "english": "camping",
+      "translation": "кемпинг",
+      "audio": [
+        "audio/words/camping.wav"
+      ]
+    },
+    {
+      "id": "hiking",
+      "english": "hiking",
+      "translation": "походы",
+      "audio": [
+        "audio/words/hiking.wav"
+      ]
+    },
+    {
+      "id": "creative",
+      "english": "creative",
+      "translation": "творческий",
+      "audio": [
+        "audio/words/creative.wav"
+      ]
+    },
+    {
+      "id": "collection",
+      "english": "collection",
+      "translation": "коллекция",
+      "audio": [
+        "audio/words/collection.wav"
+      ]
+    },
+    {
+      "id": "design",
+      "english": "design",
+      "translation": "дизайн",
+      "audio": [
+        "audio/words/design.wav"
+      ]
+    },
+    {
+      "id": "diy",
+      "english": "DIY",
+      "translation": "сделай сам",
+      "audio": [
+        "audio/words/DIY.wav"
+      ]
+    },
+    {
+      "id": "activity",
+      "english": "activity",
+      "translation": "активность",
+      "audio": [
+        "audio/words/activity.wav"
+      ]
+    },
+    {
+      "id": "experience",
+      "english": "experience",
+      "translation": "опыт",
+      "audio": [
+        "audio/words/experience.wav"
+      ]
+    },
+    {
+      "id": "craft",
+      "english": "craft",
+      "translation": "рукоделие",
+      "audio": [
+        "audio/words/craft.wav"
+      ]
+    }
+  ]
+}

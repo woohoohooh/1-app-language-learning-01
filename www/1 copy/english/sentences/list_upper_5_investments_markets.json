@@ -1,0 +1,327 @@
+{
+  "theme": "Инвестиции и финрынки",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-investment-required-patience-and-discipline.",
+      "english": "The investment required patience and discipline.",
+      "translation": "Инвестиция потребовала терпения и дисциплины.",
+      "audio": [
+        "audio/sentences/The investment required patience and discipline..wav"
+      ]
+    },
+    {
+      "id": "the-investor-reviewed-the-report-carefully.",
+      "english": "The investor reviewed the report carefully.",
+      "translation": "Инвестор внимательно изучил отчёт.",
+      "audio": [
+        "audio/sentences/The investor reviewed the report carefully..wav"
+      ]
+    },
+    {
+      "id": "the-market-reacted-strongly-to-the-news.",
+      "english": "The market reacted strongly to the news.",
+      "translation": "Рынок резко отреагировал на новости.",
+      "audio": [
+        "audio/sentences/The market reacted strongly to the news..wav"
+      ]
+    },
+    {
+      "id": "this-asset-performs-well-during-inflation.",
+      "english": "This asset performs well during inflation.",
+      "translation": "Этот актив хорошо показывает себя при инфляции.",
+      "audio": [
+        "audio/sentences/This asset performs well during inflation..wav"
+      ]
+    },
+    {
+      "id": "the-portfolio-includes-bonds-and-equities.",
+      "english": "The portfolio includes bonds and equities.",
+      "translation": "Портфель включает облигации и акции.",
+      "audio": [
+        "audio/sentences/The portfolio includes bonds and equities..wav"
+      ]
+    },
+    {
+      "id": "the-stock-reached-a-new-high.",
+      "english": "The stock reached a new high.",
+      "translation": "Акция достигла нового максимума.",
+      "audio": [
+        "audio/sentences/The stock reached a new high..wav"
+      ]
+    },
+    {
+      "id": "the-bond-offers-stable-income.",
+      "english": "The bond offers stable income.",
+      "translation": "Облигация обеспечивает стабильный доход.",
+      "audio": [
+        "audio/sentences/The bond offers stable income..wav"
+      ]
+    },
+    {
+      "id": "the-fund-outperformed-the-benchmark.",
+      "english": "The fund outperformed the benchmark.",
+      "translation": "Фонд превзошёл ориентир для сравнения.",
+      "audio": [
+        "audio/sentences/The fund outperformed the benchmark..wav"
+      ]
+    },
+    {
+      "id": "the-etf-tracks-a-major-index.",
+      "english": "The ETF tracks a major index.",
+      "translation": "ETF отслеживает основной индекс.",
+      "audio": [
+        "audio/sentences/The ETF tracks a major index..wav"
+      ]
+    },
+    {
+      "id": "the-index-closed-higher-today.",
+      "english": "The index closed higher today.",
+      "translation": "Индекс закрылся выше сегодня.",
+      "audio": [
+        "audio/sentences/The index closed higher today..wav"
+      ]
+    },
+    {
+      "id": "the-exchange-opened-with-heavy-trading.",
+      "english": "The exchange opened with heavy trading.",
+      "translation": "Биржа открылась с высоким объёмом торгов.",
+      "audio": [
+        "audio/sentences/The exchange opened with heavy trading..wav"
+      ]
+    },
+    {
+      "id": "the-ticker-appeared-on-the-screen.",
+      "english": "The ticker appeared on the screen.",
+      "translation": "Тикер появился на экране.",
+      "audio": [
+        "audio/sentences/The ticker appeared on the screen..wav"
+      ]
+    },
+    {
+      "id": "the-price-fluctuated-throughout-the-day.",
+      "english": "The price fluctuated throughout the day.",
+      "translation": "Цена колебалась в течение дня.",
+      "audio": [
+        "audio/sentences/The price fluctuated throughout the day..wav"
+      ]
+    },
+    {
+      "id": "the-value-depends-on-future-earnings.",
+      "english": "The value depends on future earnings.",
+      "translation": "Стоимость зависит от будущих доходов.",
+      "audio": [
+        "audio/sentences/The value depends on future earnings..wav"
+      ]
+    },
+    {
+      "id": "the-return-exceeded-initial-expectations.",
+      "english": "The return exceeded initial expectations.",
+      "translation": "Доходность превысила первоначальные ожидания.",
+      "audio": [
+        "audio/sentences/The return exceeded initial expectations..wav"
+      ]
+    },
+    {
+      "id": "profit-declined-despite-higher-revenue.",
+      "english": "Profit declined despite higher revenue.",
+      "translation": "Прибыль снизилась несмотря на рост выручки.",
+      "audio": [
+        "audio/sentences/Profit declined despite higher revenue..wav"
+      ]
+    },
+    {
+      "id": "the-loss-was-recovered-the-following-year.",
+      "english": "The loss was recovered the following year.",
+      "translation": "Убыток был компенсирован в следующем году.",
+      "audio": [
+        "audio/sentences/The loss was recovered the following year..wav"
+      ]
+    },
+    {
+      "id": "the-yield-attracts-conservative-investors.",
+      "english": "The yield attracts conservative investors.",
+      "translation": "Доходность привлекает консервативных инвесторов.",
+      "audio": [
+        "audio/sentences/The yield attracts conservative investors..wav"
+      ]
+    },
+    {
+      "id": "the-dividend-was-paid-in-june.",
+      "english": "The dividend was paid in June.",
+      "translation": "Дивиденд был выплачен в июне.",
+      "audio": [
+        "audio/sentences/The dividend was paid in June..wav"
+      ]
+    },
+    {
+      "id": "risk-increased-during-market-uncertainty.",
+      "english": "Risk increased during market uncertainty.",
+      "translation": "Риск вырос во время рыночной неопределённости.",
+      "audio": [
+        "audio/sentences/Risk increased during market uncertainty..wav"
+      ]
+    },
+    {
+      "id": "volatility-remained-high-after-earnings.",
+      "english": "Volatility remained high after earnings.",
+      "translation": "Волатильность оставалась высокой после отчёта.",
+      "audio": [
+        "audio/sentences/Volatility remained high after earnings..wav"
+      ]
+    },
+    {
+      "id": "liquidity-dropped-during-the-crisis.",
+      "english": "Liquidity dropped during the crisis.",
+      "translation": "Ликвидность снизилась во время кризиса.",
+      "audio": [
+        "audio/sentences/Liquidity dropped during the crisis..wav"
+      ]
+    },
+    {
+      "id": "exposure-was-reduced-through-hedging.",
+      "english": "Exposure was reduced through hedging.",
+      "translation": "Подверженность риску снизили с помощью хеджирования.",
+      "audio": [
+        "audio/sentences/Exposure was reduced through hedging..wav"
+      ]
+    },
+    {
+      "id": "diversification-lowered-overall-volatility.",
+      "english": "Diversification lowered overall volatility.",
+      "translation": "Диверсификация снизила общую волатильность.",
+      "audio": [
+        "audio/sentences/Diversification lowered overall volatility..wav"
+      ]
+    },
+    {
+      "id": "the-trend-reversed-after-policy-changes.",
+      "english": "The trend reversed after policy changes.",
+      "translation": "Тренд развернулся после изменений политики.",
+      "audio": [
+        "audio/sentences/The trend reversed after policy changes..wav"
+      ]
+    },
+    {
+      "id": "growth-slowed-during-the-second-half.",
+      "english": "Growth slowed during the second half.",
+      "translation": "Рост замедлился во второй половине.",
+      "audio": [
+        "audio/sentences/Growth slowed during the second half..wav"
+      ]
+    },
+    {
+      "id": "the-decline-lasted-several-weeks.",
+      "english": "The decline lasted several weeks.",
+      "translation": "Спад продолжался несколько недель.",
+      "audio": [
+        "audio/sentences/The decline lasted several weeks..wav"
+      ]
+    },
+    {
+      "id": "the-crash-erased-years-of-gains.",
+      "english": "The crash erased years of gains.",
+      "translation": "Обвал стёр годы роста.",
+      "audio": [
+        "audio/sentences/The crash erased years of gains..wav"
+      ]
+    },
+    {
+      "id": "recovery-began-earlier-than-expected.",
+      "english": "Recovery began earlier than expected.",
+      "translation": "Восстановление началось раньше ожидаемого.",
+      "audio": [
+        "audio/sentences/Recovery began earlier than expected..wav"
+      ]
+    },
+    {
+      "id": "analysis-supported-a-cautious-approach.",
+      "english": "Analysis supported a cautious approach.",
+      "translation": "Анализ подтвердил осторожный подход.",
+      "audio": [
+        "audio/sentences/Analysis supported a cautious approach..wav"
+      ]
+    },
+    {
+      "id": "the-forecast-was-revised-downward.",
+      "english": "The forecast was revised downward.",
+      "translation": "Прогноз был пересмотрен в сторону снижения.",
+      "audio": [
+        "audio/sentences/The forecast was revised downward..wav"
+      ]
+    },
+    {
+      "id": "this-indicator-signaled-a-slowdown.",
+      "english": "This indicator signaled a slowdown.",
+      "translation": "Этот показатель сигнализировал о замедлении.",
+      "audio": [
+        "audio/sentences/This indicator signaled a slowdown..wav"
+      ]
+    },
+    {
+      "id": "performance-improved-after-restructuring.",
+      "english": "Performance improved after restructuring.",
+      "translation": "Результативность улучшилась после реструктуризации.",
+      "audio": [
+        "audio/sentences/Performance improved after restructuring..wav"
+      ]
+    },
+    {
+      "id": "the-benchmark-was-used-for-comparison.",
+      "english": "The benchmark was used for comparison.",
+      "translation": "Ориентир использовался для сравнения.",
+      "audio": [
+        "audio/sentences/The benchmark was used for comparison..wav"
+      ]
+    },
+    {
+      "id": "capital-was-allocated-conservatively.",
+      "english": "Capital was allocated conservatively.",
+      "translation": "Капитал распределили консервативно.",
+      "audio": [
+        "audio/sentences/Capital was allocated conservatively..wav"
+      ]
+    },
+    {
+      "id": "valuation-reflected-future-expectations.",
+      "english": "Valuation reflected future expectations.",
+      "translation": "Оценка отражала будущие ожидания.",
+      "audio": [
+        "audio/sentences/Valuation reflected future expectations..wav"
+      ]
+    },
+    {
+      "id": "allocation-changed-after-risk-review.",
+      "english": "Allocation changed after risk review.",
+      "translation": "Распределение изменили после оценки рисков.",
+      "audio": [
+        "audio/sentences/Allocation changed after risk review..wav"
+      ]
+    },
+    {
+      "id": "the-strategy-prioritized-capital-preservation.",
+      "english": "The strategy prioritized capital preservation.",
+      "translation": "Стратегия ставила приоритет на сохранение капитала.",
+      "audio": [
+        "audio/sentences/The strategy prioritized capital preservation..wav"
+      ]
+    },
+    {
+      "id": "long-term-goals-guided-investment-decisions.",
+      "english": "Long-term goals guided investment decisions.",
+      "translation": "Долгосрочные цели направляли инвестиционные решения.",
+      "audio": [
+        "audio/sentences/Long-term goals guided investment decisions..wav"
+      ]
+    },
+    {
+      "id": "she-sold-her-share-last-quarter.",
+      "english": "She sold her share last quarter.",
+      "translation": "Она продала свою акцию в прошлом квартале.",
+      "audio": [
+        "audio/sentences/She sold her share last quarter..wav"
+      ]
+    }
+  ]
+}

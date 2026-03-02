@@ -1,0 +1,367 @@
+{
+  "theme": "Спорт и активный образ жизни",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "sport-keeps-the-body-healthy.",
+      "english": "Sport keeps the body healthy.",
+      "translation": "Спорт поддерживает тело в здоровье.",
+      "audio": [
+        "audio/sentences/Sport keeps the body healthy..wav"
+      ]
+    },
+    {
+      "id": "fitness-improves-strength-and-endurance.",
+      "english": "Fitness improves strength and endurance.",
+      "translation": "Фитнес улучшает силу и выносливость.",
+      "audio": [
+        "audio/sentences/Fitness improves strength and endurance..wav"
+      ]
+    },
+    {
+      "id": "activity-boosts-overall-health.",
+      "english": "Activity boosts overall health.",
+      "translation": "Активность повышает общее здоровье.",
+      "audio": [
+        "audio/sentences/Activity boosts overall health..wav"
+      ]
+    },
+    {
+      "id": "a-healthy-lifestyle-prevents-illness.",
+      "english": "A healthy lifestyle prevents illness.",
+      "translation": "Здоровый образ жизни предотвращает болезни.",
+      "audio": [
+        "audio/sentences/A healthy lifestyle prevents illness..wav"
+      ]
+    },
+    {
+      "id": "movement-improves-coordination.",
+      "english": "Movement improves coordination.",
+      "translation": "Движение улучшает координацию.",
+      "audio": [
+        "audio/sentences/Movement improves coordination..wav"
+      ]
+    },
+    {
+      "id": "training-strengthens-muscles-effectively.",
+      "english": "Training strengthens muscles effectively.",
+      "translation": "Тренировка эффективно укрепляет мышцы.",
+      "audio": [
+        "audio/sentences/Training strengthens muscles effectively..wav"
+      ]
+    },
+    {
+      "id": "workout-improves-stamina.",
+      "english": "Workout improves stamina.",
+      "translation": "Тренировка повышает выносливость.",
+      "audio": [
+        "audio/sentences/Workout improves stamina..wav"
+      ]
+    },
+    {
+      "id": "exercise-is-vital-for-health.",
+      "english": "Exercise is vital for health.",
+      "translation": "Упражнения важны для здоровья.",
+      "audio": [
+        "audio/sentences/Exercise is vital for health..wav"
+      ]
+    },
+    {
+      "id": "the-program-guides-proper-exercises.",
+      "english": "The program guides proper exercises.",
+      "translation": "Программа направляет на правильные упражнения.",
+      "audio": [
+        "audio/sentences/The program guides proper exercises..wav"
+      ]
+    },
+    {
+      "id": "the-gym-offers-modern-equipment.",
+      "english": "The gym offers modern equipment.",
+      "translation": "Спортзал предлагает современное оборудование.",
+      "audio": [
+        "audio/sentences/The gym offers modern equipment..wav"
+      ]
+    },
+    {
+      "id": "equipment-must-be-handled-safely.",
+      "english": "Equipment must be handled safely.",
+      "translation": "Оборудование нужно использовать безопасно.",
+      "audio": [
+        "audio/sentences/Equipment must be handled safely..wav"
+      ]
+    },
+    {
+      "id": "treadmill-helps-improve-endurance.",
+      "english": "Treadmill helps improve endurance.",
+      "translation": "Беговая дорожка помогает улучшить выносливость.",
+      "audio": [
+        "audio/sentences/Treadmill helps improve endurance..wav"
+      ]
+    },
+    {
+      "id": "mat-provides-comfort-during-exercises.",
+      "english": "Mat provides comfort during exercises.",
+      "translation": "Коврик обеспечивает комфорт во время упражнений.",
+      "audio": [
+        "audio/sentences/Mat provides comfort during exercises..wav"
+      ]
+    },
+    {
+      "id": "strength-improves-overall-performance.",
+      "english": "Strength improves overall performance.",
+      "translation": "Сила улучшает общую результативность.",
+      "audio": [
+        "audio/sentences/Strength improves overall performance..wav"
+      ]
+    },
+    {
+      "id": "endurance-allows-longer-workouts.",
+      "english": "Endurance allows longer workouts.",
+      "translation": "Выносливость позволяет дольше тренироваться.",
+      "audio": [
+        "audio/sentences/Endurance allows longer workouts..wav"
+      ]
+    },
+    {
+      "id": "flexibility-prevents-injuries.",
+      "english": "Flexibility prevents injuries.",
+      "translation": "Гибкость предотвращает травмы.",
+      "audio": [
+        "audio/sentences/Flexibility prevents injuries..wav"
+      ]
+    },
+    {
+      "id": "balance-is-essential-in-gymnastics.",
+      "english": "Balance is essential in gymnastics.",
+      "translation": "Баланс важен в гимнастике.",
+      "audio": [
+        "audio/sentences/Balance is essential in gymnastics..wav"
+      ]
+    },
+    {
+      "id": "coordination-improves-athletic-performance.",
+      "english": "Coordination improves athletic performance.",
+      "translation": "Координация улучшает спортивные результаты.",
+      "audio": [
+        "audio/sentences/Coordination improves athletic performance..wav"
+      ]
+    },
+    {
+      "id": "running-every-day-strengthens-the-heart.",
+      "english": "Running every day strengthens the heart.",
+      "translation": "Бег каждый день укрепляет сердце.",
+      "audio": [
+        "audio/sentences/Running every day strengthens the heart..wav"
+      ]
+    },
+    {
+      "id": "jogging-improves-endurance-gradually.",
+      "english": "Jogging improves endurance gradually.",
+      "translation": "Лёгкий бег постепенно улучшает выносливость.",
+      "audio": [
+        "audio/sentences/Jogging improves endurance gradually..wav"
+      ]
+    },
+    {
+      "id": "cycling-strengthens-leg-muscles.",
+      "english": "Cycling strengthens leg muscles.",
+      "translation": "Велоспорт укрепляет мышцы ног.",
+      "audio": [
+        "audio/sentences/Cycling strengthens leg muscles..wav"
+      ]
+    },
+    {
+      "id": "swimming-improves-lung-capacity.",
+      "english": "Swimming improves lung capacity.",
+      "translation": "Плавание улучшает ёмкость лёгких.",
+      "audio": [
+        "audio/sentences/Swimming improves lung capacity..wav"
+      ]
+    },
+    {
+      "id": "yoga-improves-flexibility-and-balance.",
+      "english": "Yoga improves flexibility and balance.",
+      "translation": "Йога улучшает гибкость и баланс.",
+      "audio": [
+        "audio/sentences/Yoga improves flexibility and balance..wav"
+      ]
+    },
+    {
+      "id": "our-team-won-the-championship.",
+      "english": "Our team won the championship.",
+      "translation": "Наша команда выиграла чемпионат.",
+      "audio": [
+        "audio/sentences/Our team won the championship..wav"
+      ]
+    },
+    {
+      "id": "the-competition-was-intense-and-exciting.",
+      "english": "The competition was intense and exciting.",
+      "translation": "Соревнование было напряженным и захватывающим.",
+      "audio": [
+        "audio/sentences/The competition was intense and exciting..wav"
+      ]
+    },
+    {
+      "id": "the-match-ended-with-a-tie.",
+      "english": "The match ended with a tie.",
+      "translation": "Матч закончился вничью.",
+      "audio": [
+        "audio/sentences/The match ended with a tie..wav"
+      ]
+    },
+    {
+      "id": "the-tournament-attracted-many-participants.",
+      "english": "The tournament attracted many participants.",
+      "translation": "Турнир привлек много участников.",
+      "audio": [
+        "audio/sentences/The tournament attracted many participants..wav"
+      ]
+    },
+    {
+      "id": "the-coach-gave-valuable-advice.",
+      "english": "The coach gave valuable advice.",
+      "translation": "Тренер дал ценные советы.",
+      "audio": [
+        "audio/sentences/The coach gave valuable advice..wav"
+      ]
+    },
+    {
+      "id": "his-goal-is-to-run-a-marathon.",
+      "english": "His goal is to run a marathon.",
+      "translation": "Его цель — пробежать марафон.",
+      "audio": [
+        "audio/sentences/His goal is to run a marathon..wav"
+      ]
+    },
+    {
+      "id": "she-made-remarkable-progress-this-month.",
+      "english": "She made remarkable progress this month.",
+      "translation": "Она достигла значительного прогресса в этом месяце.",
+      "audio": [
+        "audio/sentences/She made remarkable progress this month..wav"
+      ]
+    },
+    {
+      "id": "the-result-surprised-everyone.",
+      "english": "The result surprised everyone.",
+      "translation": "Результат удивил всех.",
+      "audio": [
+        "audio/sentences/The result surprised everyone..wav"
+      ]
+    },
+    {
+      "id": "her-performance-impressed-the-judges.",
+      "english": "Her performance impressed the judges.",
+      "translation": "Её результативность впечатлила судей.",
+      "audio": [
+        "audio/sentences/Her performance impressed the judges..wav"
+      ]
+    },
+    {
+      "id": "achievement-motivates-further-effort.",
+      "english": "Achievement motivates further effort.",
+      "translation": "Достижение мотивирует к новым усилиям.",
+      "audio": [
+        "audio/sentences/Achievement motivates further effort..wav"
+      ]
+    },
+    {
+      "id": "recovery-after-training-is-crucial.",
+      "english": "Recovery after training is crucial.",
+      "translation": "Восстановление после тренировки очень важно.",
+      "audio": [
+        "audio/sentences/Recovery after training is crucial..wav"
+      ]
+    },
+    {
+      "id": "rest-is-important-for-health.",
+      "english": "Rest is important for health.",
+      "translation": "Отдых важен для здоровья.",
+      "audio": [
+        "audio/sentences/Rest is important for health..wav"
+      ]
+    },
+    {
+      "id": "stretching-prevents-injuries.",
+      "english": "Stretching prevents injuries.",
+      "translation": "Растяжка предотвращает травмы.",
+      "audio": [
+        "audio/sentences/Stretching prevents injuries..wav"
+      ]
+    },
+    {
+      "id": "warm-up-prepares-muscles-for-activity.",
+      "english": "Warm-up prepares muscles for activity.",
+      "translation": "Разминка подготавливает мышцы к активности.",
+      "audio": [
+        "audio/sentences/Warm-up prepares muscles for activity..wav"
+      ]
+    },
+    {
+      "id": "cool-down-reduces-muscle-soreness.",
+      "english": "Cool-down reduces muscle soreness.",
+      "translation": "Заминка снижает мышечную боль.",
+      "audio": [
+        "audio/sentences/Cool-down reduces muscle soreness..wav"
+      ]
+    },
+    {
+      "id": "he-reached-ten-thousand-steps-today.",
+      "english": "He reached ten thousand steps today.",
+      "translation": "Он достиг десяти тысяч шагов сегодня.",
+      "audio": [
+        "audio/sentences/He reached ten thousand steps today..wav"
+      ]
+    },
+    {
+      "id": "calories-burned-depend-on-activity.",
+      "english": "Calories burned depend on activity.",
+      "translation": "Сожжённые калории зависят от активности.",
+      "audio": [
+        "audio/sentences/Calories burned depend on activity..wav"
+      ]
+    },
+    {
+      "id": "heart-rate-increases-during-exercise.",
+      "english": "Heart rate increases during exercise.",
+      "translation": "Пульс повышается во время тренировки.",
+      "audio": [
+        "audio/sentences/Heart rate increases during exercise..wav"
+      ]
+    },
+    {
+      "id": "the-tracker-records-daily-activity.",
+      "english": "The tracker records daily activity.",
+      "translation": "Трекер записывает ежедневную активность.",
+      "audio": [
+        "audio/sentences/The tracker records daily activity..wav"
+      ]
+    },
+    {
+      "id": "schedule-helps-manage-time-efficiently.",
+      "english": "Schedule helps manage time efficiently.",
+      "translation": "Расписание помогает эффективно управлять временем.",
+      "audio": [
+        "audio/sentences/Schedule helps manage time efficiently..wav"
+      ]
+    },
+    {
+      "id": "routine-helps-maintain-consistency.",
+      "english": "Routine helps maintain consistency.",
+      "translation": "Режим помогает поддерживать регулярность.",
+      "audio": [
+        "audio/sentences/Routine helps maintain consistency..wav"
+      ]
+    },
+    {
+      "id": "weights-increase-muscle-strength.",
+      "english": "Weights increase muscle strength.",
+      "translation": "Веса увеличивают мышечную силу.",
+      "audio": [
+        "audio/sentences/Weights increase muscle strength..wav"
+      ]
+    }
+  ]
+}

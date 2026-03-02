@@ -1,0 +1,327 @@
+{
+  "theme": "Будущее технологий",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "technology-changes-how-people-live.",
+      "english": "Technology changes how people live.",
+      "translation": "Технологии меняют то, как люди живут.",
+      "audio": [
+        "audio/sentences/Technology changes how people live..wav"
+      ]
+    },
+    {
+      "id": "innovation-pushes-industries-forward.",
+      "english": "Innovation pushes industries forward.",
+      "translation": "Инновации двигают отрасли вперёд.",
+      "audio": [
+        "audio/sentences/Innovation pushes industries forward..wav"
+      ]
+    },
+    {
+      "id": "the-future-depends-on-smart-decisions.",
+      "english": "The future depends on smart decisions.",
+      "translation": "Будущее зависит от разумных решений.",
+      "audio": [
+        "audio/sentences/The future depends on smart decisions..wav"
+      ]
+    },
+    {
+      "id": "this-trend-will-not-slow-down.",
+      "english": "This trend will not slow down.",
+      "translation": "Этот тренд не замедлится.",
+      "audio": [
+        "audio/sentences/This trend will not slow down..wav"
+      ]
+    },
+    {
+      "id": "development-requires-long-term-planning.",
+      "english": "Development requires long-term planning.",
+      "translation": "Развитие требует долгосрочного планирования.",
+      "audio": [
+        "audio/sentences/Development requires long-term planning..wav"
+      ]
+    },
+    {
+      "id": "automation-transforms-routine-work.",
+      "english": "Automation transforms routine work.",
+      "translation": "Автоматизация меняет рутинную работу.",
+      "audio": [
+        "audio/sentences/Automation transforms routine work..wav"
+      ]
+    },
+    {
+      "id": "digitalization-reshapes-business-models.",
+      "english": "Digitalization reshapes business models.",
+      "translation": "Цифровизация меняет бизнес-модели.",
+      "audio": [
+        "audio/sentences/Digitalization reshapes business models..wav"
+      ]
+    },
+    {
+      "id": "transformation-affects-entire-organizations.",
+      "english": "Transformation affects entire organizations.",
+      "translation": "Трансформация затрагивает целые организации.",
+      "audio": [
+        "audio/sentences/Transformation affects entire organizations..wav"
+      ]
+    },
+    {
+      "id": "disruption-creates-new-opportunities.",
+      "english": "Disruption creates new opportunities.",
+      "translation": "Радикальное изменение создаёт новые возможности.",
+      "audio": [
+        "audio/sentences/Disruption creates new opportunities..wav"
+      ]
+    },
+    {
+      "id": "scalability-supports-long-term-growth.",
+      "english": "Scalability supports long-term growth.",
+      "translation": "Масштабируемость поддерживает долгосрочный рост.",
+      "audio": [
+        "audio/sentences/Scalability supports long-term growth..wav"
+      ]
+    },
+    {
+      "id": "the-platform-connects-multiple-services.",
+      "english": "The platform connects multiple services.",
+      "translation": "Платформа объединяет несколько сервисов.",
+      "audio": [
+        "audio/sentences/The platform connects multiple services..wav"
+      ]
+    },
+    {
+      "id": "the-ecosystem-encourages-collaboration.",
+      "english": "The ecosystem encourages collaboration.",
+      "translation": "Экосистема поощряет сотрудничество.",
+      "audio": [
+        "audio/sentences/The ecosystem encourages collaboration..wav"
+      ]
+    },
+    {
+      "id": "infrastructure-supports-digital-services.",
+      "english": "Infrastructure supports digital services.",
+      "translation": "Инфраструктура поддерживает цифровые сервисы.",
+      "audio": [
+        "audio/sentences/Infrastructure supports digital services..wav"
+      ]
+    },
+    {
+      "id": "architecture-defines-system-reliability.",
+      "english": "Architecture defines system reliability.",
+      "translation": "Архитектура определяет надёжность системы.",
+      "audio": [
+        "audio/sentences/Architecture defines system reliability..wav"
+      ]
+    },
+    {
+      "id": "integration-improves-overall-efficiency.",
+      "english": "Integration improves overall efficiency.",
+      "translation": "Интеграция повышает общую эффективность.",
+      "audio": [
+        "audio/sentences/Integration improves overall efficiency..wav"
+      ]
+    },
+    {
+      "id": "cloud-services-enable-flexibility.",
+      "english": "Cloud services enable flexibility.",
+      "translation": "Облачные сервисы обеспечивают гибкость.",
+      "audio": [
+        "audio/sentences/Cloud services enable flexibility..wav"
+      ]
+    },
+    {
+      "id": "edge-computing-processes-data-locally.",
+      "english": "Edge computing processes data locally.",
+      "translation": "Периферийные вычисления обрабатывают данные локально.",
+      "audio": [
+        "audio/sentences/Edge computing processes data locally..wav"
+      ]
+    },
+    {
+      "id": "virtualization-optimizes-hardware-usage.",
+      "english": "Virtualization optimizes hardware usage.",
+      "translation": "Виртуализация оптимизирует использование оборудования.",
+      "audio": [
+        "audio/sentences/Virtualization optimizes hardware usage..wav"
+      ]
+    },
+    {
+      "id": "automation-tools-reduce-manual-effort.",
+      "english": "Automation tools reduce manual effort.",
+      "translation": "Инструменты автоматизации сокращают ручной труд.",
+      "audio": [
+        "audio/sentences/Automation tools reduce manual effort..wav"
+      ]
+    },
+    {
+      "id": "smart-systems-respond-in-real-time.",
+      "english": "Smart systems respond in real time.",
+      "translation": "Умные системы реагируют в реальном времени.",
+      "audio": [
+        "audio/sentences/Smart systems respond in real time..wav"
+      ]
+    },
+    {
+      "id": "robotics-changes-industrial-production.",
+      "english": "Robotics changes industrial production.",
+      "translation": "Робототехника меняет промышленное производство.",
+      "audio": [
+        "audio/sentences/Robotics changes industrial production..wav"
+      ]
+    },
+    {
+      "id": "autonomy-reduces-human-intervention.",
+      "english": "Autonomy reduces human intervention.",
+      "translation": "Автономность снижает вмешательство человека.",
+      "audio": [
+        "audio/sentences/Autonomy reduces human intervention..wav"
+      ]
+    },
+    {
+      "id": "connectivity-enables-seamless-communication.",
+      "english": "Connectivity enables seamless communication.",
+      "translation": "Связанность обеспечивает бесшовную коммуникацию.",
+      "audio": [
+        "audio/sentences/Connectivity enables seamless communication..wav"
+      ]
+    },
+    {
+      "id": "5g-supports-data-intensive-applications.",
+      "english": "5G supports data-intensive applications.",
+      "translation": "5G поддерживает ресурсоёмкие приложения.",
+      "audio": [
+        "audio/sentences/5G supports data-intensive applications..wav"
+      ]
+    },
+    {
+      "id": "the-internet-of-things-links-devices.",
+      "english": "The internet of things links devices.",
+      "translation": "Интернет вещей связывает устройства.",
+      "audio": [
+        "audio/sentences/The internet of things links devices..wav"
+      ]
+    },
+    {
+      "id": "virtual-reality-changes-digital-interaction.",
+      "english": "Virtual reality changes digital interaction.",
+      "translation": "Виртуальная реальность меняет цифровое взаимодействие.",
+      "audio": [
+        "audio/sentences/Virtual reality changes digital interaction..wav"
+      ]
+    },
+    {
+      "id": "augmented-reality-enhances-physical-spaces.",
+      "english": "Augmented reality enhances physical spaces.",
+      "translation": "Дополненная реальность улучшает физическое пространство.",
+      "audio": [
+        "audio/sentences/Augmented reality enhances physical spaces..wav"
+      ]
+    },
+    {
+      "id": "the-metaverse-redefines-online-presence.",
+      "english": "The metaverse redefines online presence.",
+      "translation": "Метавселенная переосмысливает онлайн-присутствие.",
+      "audio": [
+        "audio/sentences/The metaverse redefines online presence..wav"
+      ]
+    },
+    {
+      "id": "a-digital-twin-simulates-real-systems.",
+      "english": "A digital twin simulates real systems.",
+      "translation": "Цифровой двойник моделирует реальные системы.",
+      "audio": [
+        "audio/sentences/A digital twin simulates real systems..wav"
+      ]
+    },
+    {
+      "id": "simulation-reduces-development-risks.",
+      "english": "Simulation reduces development risks.",
+      "translation": "Симуляция снижает риски разработки.",
+      "audio": [
+        "audio/sentences/Simulation reduces development risks..wav"
+      ]
+    },
+    {
+      "id": "sustainability-guides-future-innovation.",
+      "english": "Sustainability guides future innovation.",
+      "translation": "Устойчивое развитие направляет будущие инновации.",
+      "audio": [
+        "audio/sentences/Sustainability guides future innovation..wav"
+      ]
+    },
+    {
+      "id": "green-technology-reduces-environmental-impact.",
+      "english": "Green technology reduces environmental impact.",
+      "translation": "Зелёные технологии снижают воздействие на окружающую среду.",
+      "audio": [
+        "audio/sentences/Green technology reduces environmental impact..wav"
+      ]
+    },
+    {
+      "id": "energy-efficiency-lowers-operating-costs.",
+      "english": "Energy efficiency lowers operating costs.",
+      "translation": "Энергоэффективность снижает эксплуатационные расходы.",
+      "audio": [
+        "audio/sentences/Energy efficiency lowers operating costs..wav"
+      ]
+    },
+    {
+      "id": "a-smart-city-uses-data-intelligently.",
+      "english": "A smart city uses data intelligently.",
+      "translation": "Умный город разумно использует данные.",
+      "audio": [
+        "audio/sentences/A smart city uses data intelligently..wav"
+      ]
+    },
+    {
+      "id": "mobility-becomes-more-sustainable.",
+      "english": "Mobility becomes more sustainable.",
+      "translation": "Мобильность становится более устойчивой.",
+      "audio": [
+        "audio/sentences/Mobility becomes more sustainable..wav"
+      ]
+    },
+    {
+      "id": "user-experience-defines-product-success.",
+      "english": "User experience defines product success.",
+      "translation": "Пользовательский опыт определяет успех продукта.",
+      "audio": [
+        "audio/sentences/User experience defines product success..wav"
+      ]
+    },
+    {
+      "id": "human-centered-design-prioritizes-real-needs.",
+      "english": "Human-centered design prioritizes real needs.",
+      "translation": "Ориентированный на человека дизайн учитывает реальные потребности.",
+      "audio": [
+        "audio/sentences/Human-centered design prioritizes real needs..wav"
+      ]
+    },
+    {
+      "id": "adaptation-ensures-long-term-relevance.",
+      "english": "Adaptation ensures long-term relevance.",
+      "translation": "Адаптация обеспечивает долгосрочную актуальность.",
+      "audio": [
+        "audio/sentences/Adaptation ensures long-term relevance..wav"
+      ]
+    },
+    {
+      "id": "adoption-depends-on-user-trust.",
+      "english": "Adoption depends on user trust.",
+      "translation": "Внедрение зависит от доверия пользователей.",
+      "audio": [
+        "audio/sentences/Adoption depends on user trust..wav"
+      ]
+    },
+    {
+      "id": "impact-extends-beyond-technology-itself.",
+      "english": "Impact extends beyond technology itself.",
+      "translation": "Влияние выходит за рамки самих технологий.",
+      "audio": [
+        "audio/sentences/Impact extends beyond technology itself..wav"
+      ]
+    }
+  ]
+}

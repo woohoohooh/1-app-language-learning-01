@@ -1,0 +1,327 @@
+{
+  "theme": "Психология и мышление",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "open-mind",
+      "english": "open mind",
+      "translation": "открытый разум",
+      "audio": [
+        "audio/phrases/open mind.wav"
+      ]
+    },
+    {
+      "id": "critical-thinking",
+      "english": "critical thinking",
+      "translation": "критическое мышление",
+      "audio": [
+        "audio/phrases/critical thinking.wav"
+      ]
+    },
+    {
+      "id": "random-thought",
+      "english": "random thought",
+      "translation": "случайная мысль",
+      "audio": [
+        "audio/phrases/random thought.wav"
+      ]
+    },
+    {
+      "id": "self-awareness",
+      "english": "self awareness",
+      "translation": "самоосознанность",
+      "audio": [
+        "audio/phrases/self awareness.wav"
+      ]
+    },
+    {
+      "id": "pay-attention",
+      "english": "pay attention",
+      "translation": "обращать внимание",
+      "audio": [
+        "audio/phrases/pay attention.wav"
+      ]
+    },
+    {
+      "id": "high-concentration",
+      "english": "high concentration",
+      "translation": "высокая концентрация",
+      "audio": [
+        "audio/phrases/high concentration.wav"
+      ]
+    },
+    {
+      "id": "short-memory",
+      "english": "short memory",
+      "translation": "кратковременная память",
+      "audio": [
+        "audio/phrases/short memory.wav"
+      ]
+    },
+    {
+      "id": "sense-perception",
+      "english": "sense perception",
+      "translation": "чувственное восприятие",
+      "audio": [
+        "audio/phrases/sense perception.wav"
+      ]
+    },
+    {
+      "id": "active-imagination",
+      "english": "active imagination",
+      "translation": "активное воображение",
+      "audio": [
+        "audio/phrases/active imagination.wav"
+      ]
+    },
+    {
+      "id": "strong-emotion",
+      "english": "strong emotion",
+      "translation": "сильная эмоция",
+      "audio": [
+        "audio/phrases/strong emotion.wav"
+      ]
+    },
+    {
+      "id": "inner-feeling",
+      "english": "inner feeling",
+      "translation": "внутреннее чувство",
+      "audio": [
+        "audio/phrases/inner feeling.wav"
+      ]
+    },
+    {
+      "id": "good-mood",
+      "english": "good mood",
+      "translation": "хорошее настроение",
+      "audio": [
+        "audio/phrases/good mood.wav"
+      ]
+    },
+    {
+      "id": "daily-stress",
+      "english": "daily stress",
+      "translation": "ежедневный стресс",
+      "audio": [
+        "audio/phrases/daily stress.wav"
+      ]
+    },
+    {
+      "id": "social-anxiety",
+      "english": "social anxiety",
+      "translation": "социальная тревожность",
+      "audio": [
+        "audio/phrases/social anxiety.wav"
+      ]
+    },
+    {
+      "id": "find-motivation",
+      "english": "find motivation",
+      "translation": "найти мотивацию",
+      "audio": [
+        "audio/phrases/find motivation.wav"
+      ]
+    },
+    {
+      "id": "inner-drive",
+      "english": "inner drive",
+      "translation": "внутренний стимул",
+      "audio": [
+        "audio/phrases/inner drive.wav"
+      ]
+    },
+    {
+      "id": "self-discipline",
+      "english": "self discipline",
+      "translation": "самодисциплина",
+      "audio": [
+        "audio/phrases/self discipline.wav"
+      ]
+    },
+    {
+      "id": "daily-habit",
+      "english": "daily habit",
+      "translation": "ежедневная привычка",
+      "audio": [
+        "audio/phrases/daily habit.wav"
+      ]
+    },
+    {
+      "id": "morning-routine",
+      "english": "morning routine",
+      "translation": "утренняя рутина",
+      "audio": [
+        "audio/phrases/morning routine.wav"
+      ]
+    },
+    {
+      "id": "human-behavior",
+      "english": "human behavior",
+      "translation": "поведение человека",
+      "audio": [
+        "audio/phrases/human behavior.wav"
+      ]
+    },
+    {
+      "id": "quick-reaction",
+      "english": "quick reaction",
+      "translation": "быстрая реакция",
+      "audio": [
+        "audio/phrases/quick reaction.wav"
+      ]
+    },
+    {
+      "id": "final-decision",
+      "english": "final decision",
+      "translation": "окончательное решение",
+      "audio": [
+        "audio/phrases/final decision.wav"
+      ]
+    },
+    {
+      "id": "personal-choice",
+      "english": "personal choice",
+      "translation": "личный выбор",
+      "audio": [
+        "audio/phrases/personal choice.wav"
+      ]
+    },
+    {
+      "id": "core-belief",
+      "english": "core belief",
+      "translation": "ключевое убеждение",
+      "audio": [
+        "audio/phrases/core belief.wav"
+      ]
+    },
+    {
+      "id": "false-assumption",
+      "english": "false assumption",
+      "translation": "ложное предположение",
+      "audio": [
+        "audio/phrases/false assumption.wav"
+      ]
+    },
+    {
+      "id": "high-expectation",
+      "english": "high expectation",
+      "translation": "высокое ожидание",
+      "audio": [
+        "audio/phrases/high expectation.wav"
+      ]
+    },
+    {
+      "id": "cognitive-bias",
+      "english": "cognitive bias",
+      "translation": "когнитивное искажение",
+      "audio": [
+        "audio/phrases/cognitive bias.wav"
+      ]
+    },
+    {
+      "id": "growth-mindset",
+      "english": "growth mindset",
+      "translation": "развивающее мышление",
+      "audio": [
+        "audio/phrases/growth mindset.wav"
+      ]
+    },
+    {
+      "id": "healthy-self-esteem",
+      "english": "healthy self esteem",
+      "translation": "здоровая самооценка",
+      "audio": [
+        "audio/phrases/healthy self esteem.wav"
+      ]
+    },
+    {
+      "id": "inner-confidence",
+      "english": "inner confidence",
+      "translation": "внутренняя уверенность",
+      "audio": [
+        "audio/phrases/inner confidence.wav"
+      ]
+    },
+    {
+      "id": "personal-insecurity",
+      "english": "personal insecurity",
+      "translation": "личная неуверенность",
+      "audio": [
+        "audio/phrases/personal insecurity.wav"
+      ]
+    },
+    {
+      "id": "strong-self-control",
+      "english": "strong self control",
+      "translation": "сильный самоконтроль",
+      "audio": [
+        "audio/phrases/strong self control.wav"
+      ]
+    },
+    {
+      "id": "emotional-resilience",
+      "english": "emotional resilience",
+      "translation": "эмоциональная устойчивость",
+      "audio": [
+        "audio/phrases/emotional resilience.wav"
+      ]
+    },
+    {
+      "id": "deep-reflection",
+      "english": "deep reflection",
+      "translation": "глубокий самоанализ",
+      "audio": [
+        "audio/phrases/deep reflection.wav"
+      ]
+    },
+    {
+      "id": "personal-introspection",
+      "english": "personal introspection",
+      "translation": "личная интроспекция",
+      "audio": [
+        "audio/phrases/personal introspection.wav"
+      ]
+    },
+    {
+      "id": "constant-overthinking",
+      "english": "constant overthinking",
+      "translation": "постоянное обдумывание",
+      "audio": [
+        "audio/phrases/constant overthinking.wav"
+      ]
+    },
+    {
+      "id": "emotional-burnout",
+      "english": "emotional burnout",
+      "translation": "эмоциональное выгорание",
+      "audio": [
+        "audio/phrases/emotional burnout.wav"
+      ]
+    },
+    {
+      "id": "mental-health-care",
+      "english": "mental health care",
+      "translation": "забота о психике",
+      "audio": [
+        "audio/phrases/mental health care.wav"
+      ]
+    },
+    {
+      "id": "deep-focus",
+      "english": "deep focus",
+      "translation": "глубокая концентрация",
+      "audio": [
+        "audio/phrases/deep focus.wav"
+      ]
+    },
+    {
+      "id": "emotional-response",
+      "english": "emotional response",
+      "translation": "эмоциональная реакция",
+      "audio": [
+        "audio/phrases/emotional response.wav"
+      ]
+    }
+  ]
+}

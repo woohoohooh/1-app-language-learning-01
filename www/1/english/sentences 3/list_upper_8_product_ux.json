@@ -1,0 +1,187 @@
+{
+  "theme": "Продукты, UX, разработка",
+  "level": "Upper-Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "product",
+      "translation": "продукт"
+    },
+    {
+      "english": "feature",
+      "translation": "функция"
+    },
+    {
+      "english": "functionality",
+      "translation": "функциональность"
+    },
+    {
+      "english": "roadmap",
+      "translation": "дорожная карта"
+    },
+    {
+      "english": "vision",
+      "translation": "видение продукта"
+    },
+    {
+      "english": "strategy",
+      "translation": "стратегия"
+    },
+    {
+      "english": "goal",
+      "translation": "цель"
+    },
+    {
+      "english": "priority",
+      "translation": "приоритет"
+    },
+    {
+      "english": "scope",
+      "translation": "объём работ"
+    },
+    {
+      "english": "requirement",
+      "translation": "требование"
+    },
+    {
+      "english": "user",
+      "translation": "пользователь"
+    },
+    {
+      "english": "customer",
+      "translation": "клиент"
+    },
+    {
+      "english": "user experience",
+      "translation": "пользовательский опыт"
+    },
+    {
+      "english": "user interface",
+      "translation": "пользовательский интерфейс"
+    },
+    {
+      "english": "usability",
+      "translation": "удобство использования"
+    },
+    {
+      "english": "design",
+      "translation": "дизайн"
+    },
+    {
+      "english": "layout",
+      "translation": "расположение элементов"
+    },
+    {
+      "english": "prototype",
+      "translation": "прототип"
+    },
+    {
+      "english": "wireframe",
+      "translation": "вайрфрейм"
+    },
+    {
+      "english": "mockup",
+      "translation": "макет"
+    },
+    {
+      "english": "feedback",
+      "translation": "обратная связь"
+    },
+    {
+      "english": "iteration",
+      "translation": "итерация"
+    },
+    {
+      "english": "improvement",
+      "translation": "улучшение"
+    },
+    {
+      "english": "update",
+      "translation": "обновление"
+    },
+    {
+      "english": "metric",
+      "translation": "метрика"
+    },
+    {
+      "english": "analytics",
+      "translation": "аналитика"
+    },
+    {
+      "english": "conversion",
+      "translation": "конверсия"
+    },
+    {
+      "english": "retention",
+      "translation": "удержание пользователей"
+    },
+    {
+      "english": "engagement",
+      "translation": "вовлечённость"
+    },
+    {
+      "english": "hypothesis",
+      "translation": "гипотеза"
+    },
+    {
+      "english": "experiment",
+      "translation": "эксперимент"
+    },
+    {
+      "english": "A/B testing",
+      "translation": "A/B тестирование"
+    },
+    {
+      "english": "validation",
+      "translation": "проверка"
+    },
+    {
+      "english": "assumption",
+      "translation": "предположение"
+    },
+    {
+      "english": "backlog",
+      "translation": "бэклог"
+    },
+    {
+      "english": "task",
+      "translation": "задача"
+    },
+    {
+      "english": "ticket",
+      "translation": "тикет"
+    },
+    {
+      "english": "estimate",
+      "translation": "оценка"
+    },
+    {
+      "english": "deadline",
+      "translation": "дедлайн"
+    },
+    {
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона"
+    },
+    {
+      "english": "alignment",
+      "translation": "согласованность"
+    },
+    {
+      "english": "decision",
+      "translation": "решение"
+    },
+    {
+      "english": "trade-off",
+      "translation": "компромисс"
+    },
+    {
+      "english": "outcome",
+      "translation": "результат"
+    },
+    {
+      "english": "review",
+      "translation": "ревью"
+    }
+  ]
+}

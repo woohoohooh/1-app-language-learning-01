@@ -1,0 +1,287 @@
+{
+  "theme": "Ирония и сарказм",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "irony",
+      "english": "irony",
+      "translation": "ирония",
+      "audio": [
+        "audio/words/irony.wav"
+      ]
+    },
+    {
+      "id": "sarcasm",
+      "english": "sarcasm",
+      "translation": "сарказм",
+      "audio": [
+        "audio/words/sarcasm.wav"
+      ]
+    },
+    {
+      "id": "mockery",
+      "english": "mockery",
+      "translation": "насмешка",
+      "audio": [
+        "audio/words/mockery.wav"
+      ]
+    },
+    {
+      "id": "ridicule",
+      "english": "ridicule",
+      "translation": "высмеивание",
+      "audio": [
+        "audio/words/ridicule.wav"
+      ]
+    },
+    {
+      "id": "satire",
+      "english": "satire",
+      "translation": "сатира",
+      "audio": [
+        "audio/words/satire.wav"
+      ]
+    },
+    {
+      "id": "humor",
+      "english": "humor",
+      "translation": "юмор",
+      "audio": [
+        "audio/words/humor.wav"
+      ]
+    },
+    {
+      "id": "wit",
+      "english": "wit",
+      "translation": "остроумие",
+      "audio": [
+        "audio/words/wit.wav"
+      ]
+    },
+    {
+      "id": "dry-humor",
+      "english": "dry humor",
+      "translation": "сухой юмор",
+      "audio": [
+        "audio/words/dry humor.wav"
+      ]
+    },
+    {
+      "id": "dark-humor",
+      "english": "dark humor",
+      "translation": "чёрный юмор",
+      "audio": [
+        "audio/words/dark humor.wav"
+      ]
+    },
+    {
+      "id": "deadpan",
+      "english": "deadpan",
+      "translation": "невозмутимая подача",
+      "audio": [
+        "audio/words/deadpan.wav"
+      ]
+    },
+    {
+      "id": "tone",
+      "english": "tone",
+      "translation": "тон",
+      "audio": [
+        "audio/words/tone.wav"
+      ]
+    },
+    {
+      "id": "context",
+      "english": "context",
+      "translation": "контекст",
+      "audio": [
+        "audio/words/context.wav"
+      ]
+    },
+    {
+      "id": "delivery",
+      "english": "delivery",
+      "translation": "подача",
+      "audio": [
+        "audio/words/delivery.wav"
+      ]
+    },
+    {
+      "id": "exaggeration",
+      "english": "exaggeration",
+      "translation": "преувеличение",
+      "audio": [
+        "audio/words/exaggeration.wav"
+      ]
+    },
+    {
+      "id": "understatement",
+      "english": "understatement",
+      "translation": "преуменьшение",
+      "audio": [
+        "audio/words/understatement.wav"
+      ]
+    },
+    {
+      "id": "double-meaning",
+      "english": "double meaning",
+      "translation": "двойной смысл",
+      "audio": [
+        "audio/words/double meaning.wav"
+      ]
+    },
+    {
+      "id": "subtlety",
+      "english": "subtlety",
+      "translation": "тонкость",
+      "audio": [
+        "audio/words/subtlety.wav"
+      ]
+    },
+    {
+      "id": "ambiguity",
+      "english": "ambiguity",
+      "translation": "двусмысленность",
+      "audio": [
+        "audio/words/ambiguity.wav"
+      ]
+    },
+    {
+      "id": "implication",
+      "english": "implication",
+      "translation": "подразумеваемый смысл",
+      "audio": [
+        "audio/words/implication.wav"
+      ]
+    },
+    {
+      "id": "innuendo",
+      "english": "innuendo",
+      "translation": "намёк",
+      "audio": [
+        "audio/words/innuendo.wav"
+      ]
+    },
+    {
+      "id": "cynicism",
+      "english": "cynicism",
+      "translation": "цинизм",
+      "audio": [
+        "audio/words/cynicism.wav"
+      ]
+    },
+    {
+      "id": "skepticism",
+      "english": "skepticism",
+      "translation": "скептицизм",
+      "audio": [
+        "audio/words/skepticism.wav"
+      ]
+    },
+    {
+      "id": "detachment",
+      "english": "detachment",
+      "translation": "отстранённость",
+      "audio": [
+        "audio/words/detachment.wav"
+      ]
+    },
+    {
+      "id": "contempt",
+      "english": "contempt",
+      "translation": "презрение",
+      "audio": [
+        "audio/words/contempt.wav"
+      ]
+    },
+    {
+      "id": "dismissiveness",
+      "english": "dismissiveness",
+      "translation": "пренебрежительность",
+      "audio": [
+        "audio/words/dismissiveness.wav"
+      ]
+    },
+    {
+      "id": "playfulness",
+      "english": "playfulness",
+      "translation": "игривость",
+      "audio": [
+        "audio/words/playfulness.wav"
+      ]
+    },
+    {
+      "id": "teasing",
+      "english": "teasing",
+      "translation": "поддразнивание",
+      "audio": [
+        "audio/words/teasing.wav"
+      ]
+    },
+    {
+      "id": "banter",
+      "english": "banter",
+      "translation": "шутливая перепалка",
+      "audio": [
+        "audio/words/banter.wav"
+      ]
+    },
+    {
+      "id": "self-irony",
+      "english": "self-irony",
+      "translation": "самоирония",
+      "audio": [
+        "audio/words/self-irony.wav"
+      ]
+    },
+    {
+      "id": "self-deprecation",
+      "english": "self-deprecation",
+      "translation": "самоироничное принижение",
+      "audio": [
+        "audio/words/self-deprecation.wav"
+      ]
+    },
+    {
+      "id": "overstatement",
+      "english": "overstatement",
+      "translation": "чрезмерное утверждение",
+      "audio": [
+        "audio/words/overstatement.wav"
+      ]
+    },
+    {
+      "id": "contrast",
+      "english": "contrast",
+      "translation": "контраст",
+      "audio": [
+        "audio/words/contrast.wav"
+      ]
+    },
+    {
+      "id": "absurdity",
+      "english": "absurdity",
+      "translation": "абсурдность",
+      "audio": [
+        "audio/words/absurdity.wav"
+      ]
+    },
+    {
+      "id": "parody",
+      "english": "parody",
+      "translation": "пародия",
+      "audio": [
+        "audio/words/parody.wav"
+      ]
+    },
+    {
+      "id": "caricature",
+      "english": "caricature",
+      "translation": "карикатура",
+      "audio": [
+        "audio/words/caricature.wav"
+      ]
+    }
+  ]
+}

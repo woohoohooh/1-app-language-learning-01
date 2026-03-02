@@ -1,0 +1,351 @@
+{
+  "theme": "Еда и напитки",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "good-food",
+      "english": "good food",
+      "translation": "хорошая еда",
+      "audio": [
+        "audio/phrases/good food.wav"
+      ]
+    },
+    {
+      "id": "hot-meal",
+      "english": "hot meal",
+      "translation": "горячая еда",
+      "audio": [
+        "audio/phrases/hot meal.wav"
+      ]
+    },
+    {
+      "id": "early-breakfast",
+      "english": "early breakfast",
+      "translation": "ранний завтрак",
+      "audio": [
+        "audio/phrases/early breakfast.wav"
+      ]
+    },
+    {
+      "id": "quick-lunch",
+      "english": "quick lunch",
+      "translation": "быстрый обед",
+      "audio": [
+        "audio/phrases/quick lunch.wav"
+      ]
+    },
+    {
+      "id": "family-dinner",
+      "english": "family dinner",
+      "translation": "семейный ужин",
+      "audio": [
+        "audio/phrases/family dinner.wav"
+      ]
+    },
+    {
+      "id": "fresh-bread",
+      "english": "fresh bread",
+      "translation": "свежий хлеб",
+      "audio": [
+        "audio/phrases/fresh bread.wav"
+      ]
+    },
+    {
+      "id": "soft-butter",
+      "english": "soft butter",
+      "translation": "мягкое масло",
+      "audio": [
+        "audio/phrases/soft butter.wav"
+      ]
+    },
+    {
+      "id": "cheese-slice",
+      "english": "cheese slice",
+      "translation": "ломтик сыра",
+      "audio": [
+        "audio/phrases/cheese slice.wav"
+      ]
+    },
+    {
+      "id": "boiled-egg",
+      "english": "boiled egg",
+      "translation": "варёное яйцо",
+      "audio": [
+        "audio/phrases/boiled egg.wav"
+      ]
+    },
+    {
+      "id": "cook-meat",
+      "english": "cook meat",
+      "translation": "готовить мясо",
+      "audio": [
+        "audio/phrases/cook meat.wav"
+      ]
+    },
+    {
+      "id": "roast-chicken",
+      "english": "roast chicken",
+      "translation": "жареная курица",
+      "audio": [
+        "audio/phrases/roast chicken.wav"
+      ]
+    },
+    {
+      "id": "fresh-fish",
+      "english": "fresh fish",
+      "translation": "свежая рыба",
+      "audio": [
+        "audio/phrases/fresh fish.wav"
+      ]
+    },
+    {
+      "id": "boiled-rice",
+      "english": "boiled rice",
+      "translation": "варёный рис",
+      "audio": [
+        "audio/phrases/boiled rice.wav"
+      ]
+    },
+    {
+      "id": "hot-soup",
+      "english": "hot soup",
+      "translation": "горячий суп",
+      "audio": [
+        "audio/phrases/hot soup.wav"
+      ]
+    },
+    {
+      "id": "fresh-vegetable",
+      "english": "fresh vegetable",
+      "translation": "свежий овощ",
+      "audio": [
+        "audio/phrases/fresh vegetable.wav"
+      ]
+    },
+    {
+      "id": "fried-potato",
+      "english": "fried potato",
+      "translation": "жареный картофель",
+      "audio": [
+        "audio/phrases/fried potato.wav"
+      ]
+    },
+    {
+      "id": "red-tomato",
+      "english": "red tomato",
+      "translation": "красный помидор",
+      "audio": [
+        "audio/phrases/red tomato.wav"
+      ]
+    },
+    {
+      "id": "cut-onion",
+      "english": "cut onion",
+      "translation": "резать лук",
+      "audio": [
+        "audio/phrases/cut onion.wav"
+      ]
+    },
+    {
+      "id": "fresh-fruit",
+      "english": "fresh fruit",
+      "translation": "свежие фрукты",
+      "audio": [
+        "audio/phrases/fresh fruit.wav"
+      ]
+    },
+    {
+      "id": "red-apple",
+      "english": "red apple",
+      "translation": "красное яблоко",
+      "audio": [
+        "audio/phrases/red apple.wav"
+      ]
+    },
+    {
+      "id": "ripe-banana",
+      "english": "ripe banana",
+      "translation": "спелый банан",
+      "audio": [
+        "audio/phrases/ripe banana.wav"
+      ]
+    },
+    {
+      "id": "sweet-orange",
+      "english": "sweet orange",
+      "translation": "сладкий апельсин",
+      "audio": [
+        "audio/phrases/sweet orange.wav"
+      ]
+    },
+    {
+      "id": "add-salt",
+      "english": "add salt",
+      "translation": "добавить соль",
+      "audio": [
+        "audio/phrases/add salt.wav"
+      ]
+    },
+    {
+      "id": "white-sugar",
+      "english": "white sugar",
+      "translation": "белый сахар",
+      "audio": [
+        "audio/phrases/white sugar.wav"
+      ]
+    },
+    {
+      "id": "heat-oil",
+      "english": "heat oil",
+      "translation": "разогреть масло",
+      "audio": [
+        "audio/phrases/heat oil.wav"
+      ]
+    },
+    {
+      "id": "thick-sauce",
+      "english": "thick sauce",
+      "translation": "густой соус",
+      "audio": [
+        "audio/phrases/thick sauce.wav"
+      ]
+    },
+    {
+      "id": "chocolate-cake",
+      "english": "chocolate cake",
+      "translation": "шоколадный торт",
+      "audio": [
+        "audio/phrases/chocolate cake.wav"
+      ]
+    },
+    {
+      "id": "fresh-cookie",
+      "english": "fresh cookie",
+      "translation": "свежее печенье",
+      "audio": [
+        "audio/phrases/fresh cookie.wav"
+      ]
+    },
+    {
+      "id": "dark-chocolate",
+      "english": "dark chocolate",
+      "translation": "тёмный шоколад",
+      "audio": [
+        "audio/phrases/dark chocolate.wav"
+      ]
+    },
+    {
+      "id": "light-dessert",
+      "english": "light dessert",
+      "translation": "лёгкий десерт",
+      "audio": [
+        "audio/phrases/light dessert.wav"
+      ]
+    },
+    {
+      "id": "drink-water",
+      "english": "drink water",
+      "translation": "пить воду",
+      "audio": [
+        "audio/phrases/drink water.wav"
+      ]
+    },
+    {
+      "id": "hot-tea",
+      "english": "hot tea",
+      "translation": "горячий чай",
+      "audio": [
+        "audio/phrases/hot tea.wav"
+      ]
+    },
+    {
+      "id": "strong-coffee",
+      "english": "strong coffee",
+      "translation": "крепкий кофе",
+      "audio": [
+        "audio/phrases/strong coffee.wav"
+      ]
+    },
+    {
+      "id": "cold-milk",
+      "english": "cold milk",
+      "translation": "холодное молоко",
+      "audio": [
+        "audio/phrases/cold milk.wav"
+      ]
+    },
+    {
+      "id": "fresh-juice",
+      "english": "fresh juice",
+      "translation": "свежий сок",
+      "audio": [
+        "audio/phrases/fresh juice.wav"
+      ]
+    },
+    {
+      "id": "feel-hungry",
+      "english": "feel hungry",
+      "translation": "чувствовать голод",
+      "audio": [
+        "audio/phrases/feel hungry.wav"
+      ]
+    },
+    {
+      "id": "feel-full",
+      "english": "feel full",
+      "translation": "быть сытым",
+      "audio": [
+        "audio/phrases/feel full.wav"
+      ]
+    },
+    {
+      "id": "good-taste",
+      "english": "good taste",
+      "translation": "хороший вкус",
+      "audio": [
+        "audio/phrases/good taste.wav"
+      ]
+    },
+    {
+      "id": "very-sweet",
+      "english": "very sweet",
+      "translation": "очень сладкий",
+      "audio": [
+        "audio/phrases/very sweet.wav"
+      ]
+    },
+    {
+      "id": "too-hot",
+      "english": "too hot",
+      "translation": "слишком горячо",
+      "audio": [
+        "audio/phrases/too hot.wav"
+      ]
+    },
+    {
+      "id": "very-cold",
+      "english": "very cold",
+      "translation": "очень холодный",
+      "audio": [
+        "audio/phrases/very cold.wav"
+      ]
+    },
+    {
+      "id": "drink-water",
+      "english": "drink water",
+      "translation": "пить воду",
+      "audio": [
+        "audio/phrases/drink water.wav"
+      ]
+    },
+    {
+      "id": "pasta-dish",
+      "english": "pasta dish",
+      "translation": "блюдо из пасты",
+      "audio": [
+        "audio/phrases/pasta dish.wav"
+      ]
+    }
+  ]
+}

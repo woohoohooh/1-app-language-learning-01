@@ -1,0 +1,327 @@
+{
+  "theme": "Управление людьми",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "management",
+      "english": "management",
+      "translation": "управление",
+      "audio": [
+        "audio/words/management.wav"
+      ]
+    },
+    {
+      "id": "manager",
+      "english": "manager",
+      "translation": "руководитель",
+      "audio": [
+        "audio/words/manager.wav"
+      ]
+    },
+    {
+      "id": "team",
+      "english": "team",
+      "translation": "команда",
+      "audio": [
+        "audio/words/team.wav"
+      ]
+    },
+    {
+      "id": "teamwork",
+      "english": "teamwork",
+      "translation": "командная работа",
+      "audio": [
+        "audio/words/teamwork.wav"
+      ]
+    },
+    {
+      "id": "collaboration",
+      "english": "collaboration",
+      "translation": "сотрудничество",
+      "audio": [
+        "audio/words/collaboration.wav"
+      ]
+    },
+    {
+      "id": "supervision",
+      "english": "supervision",
+      "translation": "надзор",
+      "audio": [
+        "audio/words/supervision.wav"
+      ]
+    },
+    {
+      "id": "coordination",
+      "english": "coordination",
+      "translation": "координация",
+      "audio": [
+        "audio/words/coordination.wav"
+      ]
+    },
+    {
+      "id": "workload",
+      "english": "workload",
+      "translation": "рабочая нагрузка",
+      "audio": [
+        "audio/words/workload.wav"
+      ]
+    },
+    {
+      "id": "capacity",
+      "english": "capacity",
+      "translation": "ресурс",
+      "audio": [
+        "audio/words/capacity.wav"
+      ]
+    },
+    {
+      "id": "availability",
+      "english": "availability",
+      "translation": "доступность",
+      "audio": [
+        "audio/words/availability.wav"
+      ]
+    },
+    {
+      "id": "performance-review",
+      "english": "performance review",
+      "translation": "оценка эффективности",
+      "audio": [
+        "audio/words/performance review.wav"
+      ]
+    },
+    {
+      "id": "evaluation",
+      "english": "evaluation",
+      "translation": "оценка",
+      "audio": [
+        "audio/words/evaluation.wav"
+      ]
+    },
+    {
+      "id": "assessment",
+      "english": "assessment",
+      "translation": "оценивание",
+      "audio": [
+        "audio/words/assessment.wav"
+      ]
+    },
+    {
+      "id": "expectation",
+      "english": "expectation",
+      "translation": "ожидание",
+      "audio": [
+        "audio/words/expectation.wav"
+      ]
+    },
+    {
+      "id": "goal-setting",
+      "english": "goal-setting",
+      "translation": "постановка целей",
+      "audio": [
+        "audio/words/goal-setting.wav"
+      ]
+    },
+    {
+      "id": "motivation",
+      "english": "motivation",
+      "translation": "мотивация",
+      "audio": [
+        "audio/words/motivation.wav"
+      ]
+    },
+    {
+      "id": "engagement",
+      "english": "engagement",
+      "translation": "вовлечённость",
+      "audio": [
+        "audio/words/engagement.wav"
+      ]
+    },
+    {
+      "id": "commitment",
+      "english": "commitment",
+      "translation": "приверженность",
+      "audio": [
+        "audio/words/commitment.wav"
+      ]
+    },
+    {
+      "id": "retention",
+      "english": "retention",
+      "translation": "удержание сотрудников",
+      "audio": [
+        "audio/words/retention.wav"
+      ]
+    },
+    {
+      "id": "turnover",
+      "english": "turnover",
+      "translation": "текучесть кадров",
+      "audio": [
+        "audio/words/turnover.wav"
+      ]
+    },
+    {
+      "id": "onboarding",
+      "english": "onboarding",
+      "translation": "адаптация новых сотрудников",
+      "audio": [
+        "audio/words/onboarding.wav"
+      ]
+    },
+    {
+      "id": "training",
+      "english": "training",
+      "translation": "обучение",
+      "audio": [
+        "audio/words/training.wav"
+      ]
+    },
+    {
+      "id": "upskilling",
+      "english": "upskilling",
+      "translation": "повышение навыков",
+      "audio": [
+        "audio/words/upskilling.wav"
+      ]
+    },
+    {
+      "id": "career-growth",
+      "english": "career growth",
+      "translation": "карьерный рост",
+      "audio": [
+        "audio/words/career growth.wav"
+      ]
+    },
+    {
+      "id": "succession",
+      "english": "succession",
+      "translation": "преемственность",
+      "audio": [
+        "audio/words/succession.wav"
+      ]
+    },
+    {
+      "id": "conflict",
+      "english": "conflict",
+      "translation": "конфликт",
+      "audio": [
+        "audio/words/conflict.wav"
+      ]
+    },
+    {
+      "id": "resolution",
+      "english": "resolution",
+      "translation": "разрешение",
+      "audio": [
+        "audio/words/resolution.wav"
+      ]
+    },
+    {
+      "id": "discipline",
+      "english": "discipline",
+      "translation": "дисциплина",
+      "audio": [
+        "audio/words/discipline.wav"
+      ]
+    },
+    {
+      "id": "policy",
+      "english": "policy",
+      "translation": "политика",
+      "audio": [
+        "audio/words/policy.wav"
+      ]
+    },
+    {
+      "id": "procedure",
+      "english": "procedure",
+      "translation": "процедура",
+      "audio": [
+        "audio/words/procedure.wav"
+      ]
+    },
+    {
+      "id": "responsibility",
+      "english": "responsibility",
+      "translation": "ответственность",
+      "audio": [
+        "audio/words/responsibility.wav"
+      ]
+    },
+    {
+      "id": "role",
+      "english": "role",
+      "translation": "роль",
+      "audio": [
+        "audio/words/role.wav"
+      ]
+    },
+    {
+      "id": "ownership",
+      "english": "ownership",
+      "translation": "зона ответственности",
+      "audio": [
+        "audio/words/ownership.wav"
+      ]
+    },
+    {
+      "id": "authority",
+      "english": "authority",
+      "translation": "полномочия",
+      "audio": [
+        "audio/words/authority.wav"
+      ]
+    },
+    {
+      "id": "accountability",
+      "english": "accountability",
+      "translation": "подотчётность",
+      "audio": [
+        "audio/words/accountability.wav"
+      ]
+    },
+    {
+      "id": "workplace-culture",
+      "english": "workplace culture",
+      "translation": "рабочая культура",
+      "audio": [
+        "audio/words/workplace culture.wav"
+      ]
+    },
+    {
+      "id": "employee-satisfaction",
+      "english": "employee satisfaction",
+      "translation": "удовлетворённость сотрудников",
+      "audio": [
+        "audio/words/employee satisfaction.wav"
+      ]
+    },
+    {
+      "id": "burnout",
+      "english": "burnout",
+      "translation": "выгорание",
+      "audio": [
+        "audio/words/burnout.wav"
+      ]
+    },
+    {
+      "id": "well-being",
+      "english": "well-being",
+      "translation": "благополучие",
+      "audio": [
+        "audio/words/well-being.wav"
+      ]
+    },
+    {
+      "id": "morale",
+      "english": "morale",
+      "translation": "моральный дух",
+      "audio": [
+        "audio/words/morale.wav"
+      ]
+    }
+  ]
+}

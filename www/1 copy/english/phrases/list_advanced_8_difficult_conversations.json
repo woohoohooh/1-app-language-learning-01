@@ -1,0 +1,287 @@
+{
+  "theme": "Сложные разговоры",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "open-conflict",
+      "english": "open conflict",
+      "translation": "открытый конфликт",
+      "audio": [
+        "audio/phrases/open conflict.wav"
+      ]
+    },
+    {
+      "id": "growing-tension",
+      "english": "growing tension",
+      "translation": "растущее напряжение",
+      "audio": [
+        "audio/phrases/growing tension.wav"
+      ]
+    },
+    {
+      "id": "clear-disagreement",
+      "english": "clear disagreement",
+      "translation": "явное разногласие",
+      "audio": [
+        "audio/phrases/clear disagreement.wav"
+      ]
+    },
+    {
+      "id": "direct-confrontation",
+      "english": "direct confrontation",
+      "translation": "прямое противостояние",
+      "audio": [
+        "audio/phrases/direct confrontation.wav"
+      ]
+    },
+    {
+      "id": "values-clash",
+      "english": "values clash",
+      "translation": "столкновение ценностей",
+      "audio": [
+        "audio/phrases/values clash.wav"
+      ]
+    },
+    {
+      "id": "simple-misunderstanding",
+      "english": "simple misunderstanding",
+      "translation": "простое недопонимание",
+      "audio": [
+        "audio/phrases/simple misunderstanding.wav"
+      ]
+    },
+    {
+      "id": "high-sensitivity",
+      "english": "high sensitivity",
+      "translation": "высокая чувствительность",
+      "audio": [
+        "audio/phrases/high sensitivity.wav"
+      ]
+    },
+    {
+      "id": "visible-discomfort",
+      "english": "visible discomfort",
+      "translation": "заметный дискомфорт",
+      "audio": [
+        "audio/phrases/visible discomfort.wav"
+      ]
+    },
+    {
+      "id": "social-awkwardness",
+      "english": "social awkwardness",
+      "translation": "социальная неловкость",
+      "audio": [
+        "audio/phrases/social awkwardness.wav"
+      ]
+    },
+    {
+      "id": "external-pressure",
+      "english": "external pressure",
+      "translation": "внешнее давление",
+      "audio": [
+        "audio/phrases/external pressure.wav"
+      ]
+    },
+    {
+      "id": "harsh-criticism",
+      "english": "harsh criticism",
+      "translation": "жёсткая критика",
+      "audio": [
+        "audio/phrases/harsh criticism.wav"
+      ]
+    },
+    {
+      "id": "formal-complaint",
+      "english": "formal complaint",
+      "translation": "официальная жалоба",
+      "audio": [
+        "audio/phrases/formal complaint.wav"
+      ]
+    },
+    {
+      "id": "serious-accusation",
+      "english": "serious accusation",
+      "translation": "серьёзное обвинение",
+      "audio": [
+        "audio/phrases/serious accusation.wav"
+      ]
+    },
+    {
+      "id": "shift-blame",
+      "english": "shift blame",
+      "translation": "переложить вину",
+      "audio": [
+        "audio/phrases/shift blame.wav"
+      ]
+    },
+    {
+      "id": "shared-responsibility",
+      "english": "shared responsibility",
+      "translation": "разделённая ответственность",
+      "audio": [
+        "audio/phrases/shared responsibility.wav"
+      ]
+    },
+    {
+      "id": "personal-boundaries",
+      "english": "personal boundaries",
+      "translation": "личные границы",
+      "audio": [
+        "audio/phrases/personal boundaries.wav"
+      ]
+    },
+    {
+      "id": "clear-expectations",
+      "english": "clear expectations",
+      "translation": "чёткие ожидания",
+      "audio": [
+        "audio/phrases/clear expectations.wav"
+      ]
+    },
+    {
+      "id": "high-demands",
+      "english": "high demands",
+      "translation": "высокие требования",
+      "audio": [
+        "audio/phrases/high demands.wav"
+      ]
+    },
+    {
+      "id": "strong-objections",
+      "english": "strong objections",
+      "translation": "сильные возражения",
+      "audio": [
+        "audio/phrases/strong objections.wav"
+      ]
+    },
+    {
+      "id": "serious-concerns",
+      "english": "serious concerns",
+      "translation": "серьёзные опасения",
+      "audio": [
+        "audio/phrases/serious concerns.wav"
+      ]
+    },
+    {
+      "id": "reach-compromise",
+      "english": "reach compromise",
+      "translation": "достичь компромисса",
+      "audio": [
+        "audio/phrases/reach compromise.wav"
+      ]
+    },
+    {
+      "id": "final-resolution",
+      "english": "final resolution",
+      "translation": "окончательное урегулирование",
+      "audio": [
+        "audio/phrases/final resolution.wav"
+      ]
+    },
+    {
+      "id": "open-negotiation",
+      "english": "open negotiation",
+      "translation": "открытые переговоры",
+      "audio": [
+        "audio/phrases/open negotiation.wav"
+      ]
+    },
+    {
+      "id": "third-party-mediation",
+      "english": "third-party mediation",
+      "translation": "посредничество третьей стороны",
+      "audio": [
+        "audio/phrases/third-party mediation.wav"
+      ]
+    },
+    {
+      "id": "mutual-agreement",
+      "english": "mutual agreement",
+      "translation": "взаимное соглашение",
+      "audio": [
+        "audio/phrases/mutual agreement.wav"
+      ]
+    },
+    {
+      "id": "calm-assertiveness",
+      "english": "calm assertiveness",
+      "translation": "спокойная уверенность",
+      "audio": [
+        "audio/phrases/calm assertiveness.wav"
+      ]
+    },
+    {
+      "id": "emotional-defensiveness",
+      "english": "emotional defensiveness",
+      "translation": "эмоциональная защита",
+      "audio": [
+        "audio/phrases/emotional defensiveness.wav"
+      ]
+    },
+    {
+      "id": "full-openness",
+      "english": "full openness",
+      "translation": "полная открытость",
+      "audio": [
+        "audio/phrases/full openness.wav"
+      ]
+    },
+    {
+      "id": "show-empathy",
+      "english": "show empathy",
+      "translation": "проявить эмпатию",
+      "audio": [
+        "audio/phrases/show empathy.wav"
+      ]
+    },
+    {
+      "id": "mutual-respect",
+      "english": "mutual respect",
+      "translation": "взаимное уважение",
+      "audio": [
+        "audio/phrases/mutual respect.wav"
+      ]
+    },
+    {
+      "id": "rapid-escalation",
+      "english": "rapid escalation",
+      "translation": "быстрое обострение",
+      "audio": [
+        "audio/phrases/rapid escalation.wav"
+      ]
+    },
+    {
+      "id": "controlled-de-escalation",
+      "english": "controlled de-escalation",
+      "translation": "контролируемое снижение напряжения",
+      "audio": [
+        "audio/phrases/controlled de-escalation.wav"
+      ]
+    },
+    {
+      "id": "long-term-consequences",
+      "english": "long-term consequences",
+      "translation": "долгосрочные последствия",
+      "audio": [
+        "audio/phrases/long-term consequences.wav"
+      ]
+    },
+    {
+      "id": "final-outcome",
+      "english": "final outcome",
+      "translation": "конечный итог",
+      "audio": [
+        "audio/phrases/final outcome.wav"
+      ]
+    },
+    {
+      "id": "proper-closure",
+      "english": "proper closure",
+      "translation": "правильное завершение",
+      "audio": [
+        "audio/phrases/proper closure.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "theme": "Еда и напитки",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-food-tastes-great.",
+      "english": "The food tastes great.",
+      "translation": "Еда очень вкусная.",
+      "audio": [
+        "audio/sentences/The food tastes great..wav"
+      ]
+    },
+    {
+      "id": "this-meal-is-simple.",
+      "english": "This meal is simple.",
+      "translation": "Этот приём пищи простой.",
+      "audio": [
+        "audio/sentences/This meal is simple..wav"
+      ]
+    },
+    {
+      "id": "breakfast-starts-the-day.",
+      "english": "Breakfast starts the day.",
+      "translation": "Завтрак начинает день.",
+      "audio": [
+        "audio/sentences/Breakfast starts the day..wav"
+      ]
+    },
+    {
+      "id": "lunch-is-at-noon.",
+      "english": "Lunch is at noon.",
+      "translation": "Обед в полдень.",
+      "audio": [
+        "audio/sentences/Lunch is at noon..wav"
+      ]
+    },
+    {
+      "id": "dinner-is-ready-now.",
+      "english": "Dinner is ready now.",
+      "translation": "Ужин уже готов.",
+      "audio": [
+        "audio/sentences/Dinner is ready now..wav"
+      ]
+    },
+    {
+      "id": "the-bread-smells-good.",
+      "english": "The bread smells good.",
+      "translation": "Хлеб приятно пахнет.",
+      "audio": [
+        "audio/sentences/The bread smells good..wav"
+      ]
+    },
+    {
+      "id": "she-spreads-butter-slowly.",
+      "english": "She spreads butter slowly.",
+      "translation": "Она медленно намазывает масло.",
+      "audio": [
+        "audio/sentences/She spreads butter slowly..wav"
+      ]
+    },
+    {
+      "id": "cheese-goes-well-with-bread.",
+      "english": "Cheese goes well with bread.",
+      "translation": "Сыр хорошо подходит к хлебу.",
+      "audio": [
+        "audio/sentences/Cheese goes well with bread..wav"
+      ]
+    },
+    {
+      "id": "the-egg-is-cooked.",
+      "english": "The egg is cooked.",
+      "translation": "Яйцо приготовлено.",
+      "audio": [
+        "audio/sentences/The egg is cooked..wav"
+      ]
+    },
+    {
+      "id": "meat-needs-more-time.",
+      "english": "Meat needs more time.",
+      "translation": "Мясу нужно больше времени.",
+      "audio": [
+        "audio/sentences/Meat needs more time..wav"
+      ]
+    },
+    {
+      "id": "chicken-is-very-popular.",
+      "english": "Chicken is very popular.",
+      "translation": "Курица очень популярна.",
+      "audio": [
+        "audio/sentences/Chicken is very popular..wav"
+      ]
+    },
+    {
+      "id": "fish-cooks-quickly.",
+      "english": "Fish cooks quickly.",
+      "translation": "Рыба готовится быстро.",
+      "audio": [
+        "audio/sentences/Fish cooks quickly..wav"
+      ]
+    },
+    {
+      "id": "rice-goes-with-vegetables.",
+      "english": "Rice goes with vegetables.",
+      "translation": "Рис подходит к овощам.",
+      "audio": [
+        "audio/sentences/Rice goes with vegetables..wav"
+      ]
+    },
+    {
+      "id": "soup-warms-the-body.",
+      "english": "Soup warms the body.",
+      "translation": "Суп согревает тело.",
+      "audio": [
+        "audio/sentences/Soup warms the body..wav"
+      ]
+    },
+    {
+      "id": "vegetables-are-healthy.",
+      "english": "Vegetables are healthy.",
+      "translation": "Овощи полезны.",
+      "audio": [
+        "audio/sentences/Vegetables are healthy..wav"
+      ]
+    },
+    {
+      "id": "potatoes-grow-underground.",
+      "english": "Potatoes grow underground.",
+      "translation": "Картофель растёт под землёй.",
+      "audio": [
+        "audio/sentences/Potatoes grow underground..wav"
+      ]
+    },
+    {
+      "id": "the-tomato-is-ripe.",
+      "english": "The tomato is ripe.",
+      "translation": "Помидор спелый.",
+      "audio": [
+        "audio/sentences/The tomato is ripe..wav"
+      ]
+    },
+    {
+      "id": "onions-have-a-strong-smell.",
+      "english": "Onions have a strong smell.",
+      "translation": "Лук имеет сильный запах.",
+      "audio": [
+        "audio/sentences/Onions have a strong smell..wav"
+      ]
+    },
+    {
+      "id": "fruit-is-good-for-health.",
+      "english": "Fruit is good for health.",
+      "translation": "Фрукты полезны для здоровья.",
+      "audio": [
+        "audio/sentences/Fruit is good for health..wav"
+      ]
+    },
+    {
+      "id": "i-eat-an-apple.",
+      "english": "I eat an apple.",
+      "translation": "Я ем яблоко.",
+      "audio": [
+        "audio/sentences/I eat an apple..wav"
+      ]
+    },
+    {
+      "id": "the-banana-is-soft.",
+      "english": "The banana is soft.",
+      "translation": "Банан мягкий.",
+      "audio": [
+        "audio/sentences/The banana is soft..wav"
+      ]
+    },
+    {
+      "id": "she-peels-an-orange.",
+      "english": "She peels an orange.",
+      "translation": "Она чистит апельсин.",
+      "audio": [
+        "audio/sentences/She peels an orange..wav"
+      ]
+    },
+    {
+      "id": "salt-changes-the-taste.",
+      "english": "Salt changes the taste.",
+      "translation": "Соль меняет вкус.",
+      "audio": [
+        "audio/sentences/Salt changes the taste..wav"
+      ]
+    },
+    {
+      "id": "sugar-melts-quickly.",
+      "english": "Sugar melts quickly.",
+      "translation": "Сахар быстро тает.",
+      "audio": [
+        "audio/sentences/Sugar melts quickly..wav"
+      ]
+    },
+    {
+      "id": "oil-is-ready-now.",
+      "english": "Oil is ready now.",
+      "translation": "Масло готово.",
+      "audio": [
+        "audio/sentences/Oil is ready now..wav"
+      ]
+    },
+    {
+      "id": "this-sauce-smells-nice.",
+      "english": "This sauce smells nice.",
+      "translation": "Этот соус приятно пахнет.",
+      "audio": [
+        "audio/sentences/This sauce smells nice..wav"
+      ]
+    },
+    {
+      "id": "the-cake-looks-perfect.",
+      "english": "The cake looks perfect.",
+      "translation": "Торт выглядит идеально.",
+      "audio": [
+        "audio/sentences/The cake looks perfect..wav"
+      ]
+    },
+    {
+      "id": "i-baked-a-cookie.",
+      "english": "I baked a cookie.",
+      "translation": "Я испёк печенье.",
+      "audio": [
+        "audio/sentences/I baked a cookie..wav"
+      ]
+    },
+    {
+      "id": "chocolate-makes-me-happy.",
+      "english": "Chocolate makes me happy.",
+      "translation": "Шоколад делает меня счастливым.",
+      "audio": [
+        "audio/sentences/Chocolate makes me happy..wav"
+      ]
+    },
+    {
+      "id": "dessert-comes-last.",
+      "english": "Dessert comes last.",
+      "translation": "Десерт подают в конце.",
+      "audio": [
+        "audio/sentences/Dessert comes last..wav"
+      ]
+    },
+    {
+      "id": "water-keeps-you-fresh.",
+      "english": "Water keeps you fresh.",
+      "translation": "Вода поддерживает свежесть.",
+      "audio": [
+        "audio/sentences/Water keeps you fresh..wav"
+      ]
+    },
+    {
+      "id": "tea-helps-me-relax.",
+      "english": "Tea helps me relax.",
+      "translation": "Чай помогает мне расслабиться.",
+      "audio": [
+        "audio/sentences/Tea helps me relax..wav"
+      ]
+    },
+    {
+      "id": "coffee-wakes-me-up.",
+      "english": "Coffee wakes me up.",
+      "translation": "Кофе меня бодрит.",
+      "audio": [
+        "audio/sentences/Coffee wakes me up..wav"
+      ]
+    },
+    {
+      "id": "milk-is-in-the-fridge.",
+      "english": "Milk is in the fridge.",
+      "translation": "Молоко в холодильнике.",
+      "audio": [
+        "audio/sentences/Milk is in the fridge..wav"
+      ]
+    },
+    {
+      "id": "juice-tastes-natural.",
+      "english": "Juice tastes natural.",
+      "translation": "Сок на вкус натуральный.",
+      "audio": [
+        "audio/sentences/Juice tastes natural..wav"
+      ]
+    },
+    {
+      "id": "i-am-hungry-now.",
+      "english": "I am hungry now.",
+      "translation": "Я сейчас голоден.",
+      "audio": [
+        "audio/sentences/I am hungry now..wav"
+      ]
+    },
+    {
+      "id": "i-feel-full-already.",
+      "english": "I feel full already.",
+      "translation": "Я уже сыт.",
+      "audio": [
+        "audio/sentences/I feel full already..wav"
+      ]
+    },
+    {
+      "id": "the-taste-is-familiar.",
+      "english": "The taste is familiar.",
+      "translation": "Вкус знакомый.",
+      "audio": [
+        "audio/sentences/The taste is familiar..wav"
+      ]
+    },
+    {
+      "id": "this-fruit-is-sweet.",
+      "english": "This fruit is sweet.",
+      "translation": "Этот фрукт сладкий.",
+      "audio": [
+        "audio/sentences/This fruit is sweet..wav"
+      ]
+    },
+    {
+      "id": "the-soup-is-hot.",
+      "english": "The soup is hot.",
+      "translation": "Суп горячий.",
+      "audio": [
+        "audio/sentences/The soup is hot..wav"
+      ]
+    },
+    {
+      "id": "the-drink-is-cold.",
+      "english": "The drink is cold.",
+      "translation": "Напиток холодный.",
+      "audio": [
+        "audio/sentences/The drink is cold..wav"
+      ]
+    },
+    {
+      "id": "i-drink-tea-in-the-morning.",
+      "english": "I drink tea in the morning.",
+      "translation": "Я пью чай утром.",
+      "audio": [
+        "audio/sentences/I drink tea in the morning..wav"
+      ]
+    },
+    {
+      "id": "pasta-is-easy-to-cook.",
+      "english": "Pasta is easy to cook.",
+      "translation": "Пасту легко готовить.",
+      "audio": [
+        "audio/sentences/Pasta is easy to cook..wav"
+      ]
+    }
+  ]
+}

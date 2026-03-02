@@ -1,0 +1,311 @@
+{
+  "theme": "Люди и семья",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-man-works-here.",
+      "english": "The man works here.",
+      "translation": "Этот мужчина работает здесь.",
+      "audio": [
+        "audio/sentences/The man works here..wav"
+      ]
+    },
+    {
+      "id": "the-woman-smiled-politely.",
+      "english": "The woman smiled politely.",
+      "translation": "Женщина вежливо улыбнулась.",
+      "audio": [
+        "audio/sentences/The woman smiled politely..wav"
+      ]
+    },
+    {
+      "id": "the-child-is-playing-outside.",
+      "english": "The child is playing outside.",
+      "translation": "Ребёнок играет на улице.",
+      "audio": [
+        "audio/sentences/The child is playing outside..wav"
+      ]
+    },
+    {
+      "id": "children-learn-very-fast.",
+      "english": "Children learn very fast.",
+      "translation": "Дети учатся очень быстро.",
+      "audio": [
+        "audio/sentences/Children learn very fast..wav"
+      ]
+    },
+    {
+      "id": "the-boy-likes-reading.",
+      "english": "The boy likes reading.",
+      "translation": "Мальчик любит читать.",
+      "audio": [
+        "audio/sentences/The boy likes reading..wav"
+      ]
+    },
+    {
+      "id": "the-girl-is-very-curious.",
+      "english": "The girl is very curious.",
+      "translation": "Девочка очень любознательная.",
+      "audio": [
+        "audio/sentences/The girl is very curious..wav"
+      ]
+    },
+    {
+      "id": "my-mother-helps-me-a-lot.",
+      "english": "My mother helps me a lot.",
+      "translation": "Моя мама мне очень помогает.",
+      "audio": [
+        "audio/sentences/My mother helps me a lot..wav"
+      ]
+    },
+    {
+      "id": "my-father-comes-home-late.",
+      "english": "My father comes home late.",
+      "translation": "Мой папа приходит домой поздно.",
+      "audio": [
+        "audio/sentences/My father comes home late..wav"
+      ]
+    },
+    {
+      "id": "mom-makes-great-food.",
+      "english": "Mom makes great food.",
+      "translation": "Мама готовит отличную еду.",
+      "audio": [
+        "audio/sentences/Mom makes great food..wav"
+      ]
+    },
+    {
+      "id": "dad-fixes-things.",
+      "english": "Dad fixes things.",
+      "translation": "Папа чинит вещи.",
+      "audio": [
+        "audio/sentences/Dad fixes things..wav"
+      ]
+    },
+    {
+      "id": "every-parent-worries.",
+      "english": "Every parent worries.",
+      "translation": "Каждый родитель переживает.",
+      "audio": [
+        "audio/sentences/Every parent worries..wav"
+      ]
+    },
+    {
+      "id": "their-son-lives-nearby.",
+      "english": "Their son lives nearby.",
+      "translation": "Их сын живёт рядом.",
+      "audio": [
+        "audio/sentences/Their son lives nearby..wav"
+      ]
+    },
+    {
+      "id": "his-daughter-loves-music.",
+      "english": "His daughter loves music.",
+      "translation": "Его дочь любит музыку.",
+      "audio": [
+        "audio/sentences/His daughter loves music..wav"
+      ]
+    },
+    {
+      "id": "my-brother-lives-abroad.",
+      "english": "My brother lives abroad.",
+      "translation": "Мой брат живёт за границей.",
+      "audio": [
+        "audio/sentences/My brother lives abroad..wav"
+      ]
+    },
+    {
+      "id": "her-sister-speaks-english.",
+      "english": "Her sister speaks English.",
+      "translation": "Её сестра говорит по-английски.",
+      "audio": [
+        "audio/sentences/Her sister speaks English..wav"
+      ]
+    },
+    {
+      "id": "her-husband-travels-often.",
+      "english": "Her husband travels often.",
+      "translation": "Её муж часто путешествует.",
+      "audio": [
+        "audio/sentences/Her husband travels often..wav"
+      ]
+    },
+    {
+      "id": "his-wife-works-remotely.",
+      "english": "His wife works remotely.",
+      "translation": "Его жена работает удалённо.",
+      "audio": [
+        "audio/sentences/His wife works remotely..wav"
+      ]
+    },
+    {
+      "id": "my-grandmother-tells-stories.",
+      "english": "My grandmother tells stories.",
+      "translation": "Моя бабушка рассказывает истории.",
+      "audio": [
+        "audio/sentences/My grandmother tells stories..wav"
+      ]
+    },
+    {
+      "id": "my-grandfather-wakes-early.",
+      "english": "My grandfather wakes early.",
+      "translation": "Мой дедушка встаёт рано.",
+      "audio": [
+        "audio/sentences/My grandfather wakes early..wav"
+      ]
+    },
+    {
+      "id": "a-grandparent-gives-advice.",
+      "english": "A grandparent gives advice.",
+      "translation": "Бабушка или дедушка дают советы.",
+      "audio": [
+        "audio/sentences/A grandparent gives advice..wav"
+      ]
+    },
+    {
+      "id": "my-uncle-visits-us-often.",
+      "english": "My uncle visits us often.",
+      "translation": "Мой дядя часто нас навещает.",
+      "audio": [
+        "audio/sentences/My uncle visits us often..wav"
+      ]
+    },
+    {
+      "id": "my-aunt-loves-cooking.",
+      "english": "My aunt loves cooking.",
+      "translation": "Моя тётя любит готовить.",
+      "audio": [
+        "audio/sentences/My aunt loves cooking..wav"
+      ]
+    },
+    {
+      "id": "the-baby-is-sleeping-now.",
+      "english": "The baby is sleeping now.",
+      "translation": "Младенец сейчас спит.",
+      "audio": [
+        "audio/sentences/The baby is sleeping now..wav"
+      ]
+    },
+    {
+      "id": "every-adult-makes-choices.",
+      "english": "Every adult makes choices.",
+      "translation": "Каждый взрослый делает выбор.",
+      "audio": [
+        "audio/sentences/Every adult makes choices..wav"
+      ]
+    },
+    {
+      "id": "friendship-grows-with-time.",
+      "english": "Friendship grows with time.",
+      "translation": "Дружба растёт со временем.",
+      "audio": [
+        "audio/sentences/Friendship grows with time..wav"
+      ]
+    },
+    {
+      "id": "my-neighbor-says-hello.",
+      "english": "My neighbor says hello.",
+      "translation": "Мой сосед здоровается.",
+      "audio": [
+        "audio/sentences/My neighbor says hello..wav"
+      ]
+    },
+    {
+      "id": "she-trusts-her-partner.",
+      "english": "She trusts her partner.",
+      "translation": "Она доверяет своему партнёру.",
+      "audio": [
+        "audio/sentences/She trusts her partner..wav"
+      ]
+    },
+    {
+      "id": "the-couple-travels-together.",
+      "english": "The couple travels together.",
+      "translation": "Пара путешествует вместе.",
+      "audio": [
+        "audio/sentences/The couple travels together..wav"
+      ]
+    },
+    {
+      "id": "her-name-sounds-familiar.",
+      "english": "Her name sounds familiar.",
+      "translation": "Её имя звучит знакомо.",
+      "audio": [
+        "audio/sentences/Her name sounds familiar..wav"
+      ]
+    },
+    {
+      "id": "age-matters-less-now.",
+      "english": "Age matters less now.",
+      "translation": "Возраст сейчас имеет меньше значения.",
+      "audio": [
+        "audio/sentences/Age matters less now..wav"
+      ]
+    },
+    {
+      "id": "gender-is-not-always-visible.",
+      "english": "Gender is not always visible.",
+      "translation": "Пол не всегда заметен.",
+      "audio": [
+        "audio/sentences/Gender is not always visible..wav"
+      ]
+    },
+    {
+      "id": "a-relative-called-today.",
+      "english": "A relative called today.",
+      "translation": "Родственник позвонил сегодня.",
+      "audio": [
+        "audio/sentences/A relative called today..wav"
+      ]
+    },
+    {
+      "id": "relationships-need-effort.",
+      "english": "Relationships need effort.",
+      "translation": "Отношения требуют усилий.",
+      "audio": [
+        "audio/sentences/Relationships need effort..wav"
+      ]
+    },
+    {
+      "id": "marriage-changes-people.",
+      "english": "Marriage changes people.",
+      "translation": "Брак меняет людей.",
+      "audio": [
+        "audio/sentences/Marriage changes people..wav"
+      ]
+    },
+    {
+      "id": "the-wedding-was-beautiful.",
+      "english": "The wedding was beautiful.",
+      "translation": "Свадьба была красивой.",
+      "audio": [
+        "audio/sentences/The wedding was beautiful..wav"
+      ]
+    },
+    {
+      "id": "my-cousin-lives-nearby.",
+      "english": "My cousin lives nearby.",
+      "translation": "Мой двоюродный брат живёт рядом.",
+      "audio": [
+        "audio/sentences/My cousin lives nearby..wav"
+      ]
+    },
+    {
+      "id": "he-is-single-now.",
+      "english": "He is single now.",
+      "translation": "Он сейчас не в отношениях.",
+      "audio": [
+        "audio/sentences/He is single now..wav"
+      ]
+    },
+    {
+      "id": "they-are-married-already.",
+      "english": "They are married already.",
+      "translation": "Они уже женаты.",
+      "audio": [
+        "audio/sentences/They are married already..wav"
+      ]
+    }
+  ]
+}

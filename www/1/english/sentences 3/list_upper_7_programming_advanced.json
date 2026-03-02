@@ -1,0 +1,87 @@
+{
+  "theme": "Веб-разработка",
+  "level": "Upper-Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "software",
+      "translation": "программное обеспечение"
+    },
+    {
+      "english": "application",
+      "translation": "приложение"
+    },
+    {
+      "english": "codebase",
+      "translation": "кодовая база"
+    },
+    {
+      "english": "repository",
+      "translation": "репозиторий"
+    },
+    {
+      "english": "commit",
+      "translation": "коммит"
+    },
+    {
+      "english": "branch",
+      "translation": "ветка"
+    },
+    {
+      "english": "merge",
+      "translation": "слияние"
+    },
+    {
+      "english": "pull request",
+      "translation": "пулл-реквест"
+    },
+    {
+      "english": "version control",
+      "translation": "контроль версий"
+    },
+    {
+      "english": "deployment",
+      "translation": "развёртывание"
+    },
+    {
+      "english": "build",
+      "translation": "сборка"
+    },
+    {
+      "english": "release",
+      "translation": "релиз"
+    },
+    {
+      "english": "pipeline",
+      "translation": "пайплайн"
+    },
+    {
+      "english": "automation",
+      "translation": "автоматизация"
+    },
+    {
+      "english": "integration",
+      "translation": "интеграция"
+    },
+    {
+      "english": "framework",
+      "translation": "фреймворк"
+    },
+    {
+      "english": "library",
+      "translation": "библиотека"
+    },
+    {
+      "english": "dependency",
+      "translation": "зависимость"
+    },
+    {
+      "english": "package",
+      "translation": "пакет"
+    },
+    {
+      "english": "module",
+      "translation": "модуль"
+    }
+  ]
+}

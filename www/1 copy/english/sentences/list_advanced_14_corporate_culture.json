@@ -1,0 +1,327 @@
+{
+  "theme": "Корпоративная культура",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "corporate-culture-shapes-everyday-behavior.",
+      "english": "Corporate culture shapes everyday behavior.",
+      "translation": "Корпоративная культура формирует повседневное поведение.",
+      "audio": [
+        "audio/sentences/Corporate culture shapes everyday behavior..wav"
+      ]
+    },
+    {
+      "id": "company-culture-affects-employee-motivation.",
+      "english": "Company culture affects employee motivation.",
+      "translation": "Культура компании влияет на мотивацию сотрудников.",
+      "audio": [
+        "audio/sentences/Company culture affects employee motivation..wav"
+      ]
+    },
+    {
+      "id": "the-workplace-encourages-collaboration.",
+      "english": "The workplace encourages collaboration.",
+      "translation": "Рабочая среда поощряет сотрудничество.",
+      "audio": [
+        "audio/sentences/The workplace encourages collaboration..wav"
+      ]
+    },
+    {
+      "id": "a-healthy-environment-boosts-productivity.",
+      "english": "A healthy environment boosts productivity.",
+      "translation": "Здоровая среда повышает продуктивность.",
+      "audio": [
+        "audio/sentences/A healthy environment boosts productivity..wav"
+      ]
+    },
+    {
+      "id": "the-organization-adapts-to-change.",
+      "english": "The organization adapts to change.",
+      "translation": "Организация адаптируется к изменениям.",
+      "audio": [
+        "audio/sentences/The organization adapts to change..wav"
+      ]
+    },
+    {
+      "id": "values-guide-internal-decisions.",
+      "english": "Values guide internal decisions.",
+      "translation": "Ценности направляют внутренние решения.",
+      "audio": [
+        "audio/sentences/Values guide internal decisions..wav"
+      ]
+    },
+    {
+      "id": "principles-define-acceptable-behavior.",
+      "english": "Principles define acceptable behavior.",
+      "translation": "Принципы определяют допустимое поведение.",
+      "audio": [
+        "audio/sentences/Principles define acceptable behavior..wav"
+      ]
+    },
+    {
+      "id": "the-mission-explains-the-company-purpose.",
+      "english": "The mission explains the company purpose.",
+      "translation": "Миссия объясняет назначение компании.",
+      "audio": [
+        "audio/sentences/The mission explains the company purpose..wav"
+      ]
+    },
+    {
+      "id": "vision-inspires-future-growth.",
+      "english": "Vision inspires future growth.",
+      "translation": "Видение вдохновляет будущий рост.",
+      "audio": [
+        "audio/sentences/Vision inspires future growth..wav"
+      ]
+    },
+    {
+      "id": "ethics-matter-in-daily-operations.",
+      "english": "Ethics matter in daily operations.",
+      "translation": "Этика важна в повседневной работе.",
+      "audio": [
+        "audio/sentences/Ethics matter in daily operations..wav"
+      ]
+    },
+    {
+      "id": "standards-ensure-consistent-results.",
+      "english": "Standards ensure consistent results.",
+      "translation": "Стандарты обеспечивают стабильные результаты.",
+      "audio": [
+        "audio/sentences/Standards ensure consistent results..wav"
+      ]
+    },
+    {
+      "id": "policies-clarify-employee-responsibilities.",
+      "english": "Policies clarify employee responsibilities.",
+      "translation": "Правила проясняют обязанности сотрудников.",
+      "audio": [
+        "audio/sentences/Policies clarify employee responsibilities..wav"
+      ]
+    },
+    {
+      "id": "guidelines-help-avoid-confusion.",
+      "english": "Guidelines help avoid confusion.",
+      "translation": "Рекомендации помогают избежать путаницы.",
+      "audio": [
+        "audio/sentences/Guidelines help avoid confusion..wav"
+      ]
+    },
+    {
+      "id": "compliance-reduces-legal-risk.",
+      "english": "Compliance reduces legal risk.",
+      "translation": "Соблюдение правил снижает юридические риски.",
+      "audio": [
+        "audio/sentences/Compliance reduces legal risk..wav"
+      ]
+    },
+    {
+      "id": "the-code-of-conduct-sets-expectations.",
+      "english": "The code of conduct sets expectations.",
+      "translation": "Кодекс поведения задаёт ожидания.",
+      "audio": [
+        "audio/sentences/The code of conduct sets expectations..wav"
+      ]
+    },
+    {
+      "id": "hierarchy-defines-reporting-lines.",
+      "english": "Hierarchy defines reporting lines.",
+      "translation": "Иерархия определяет подчинённость.",
+      "audio": [
+        "audio/sentences/Hierarchy defines reporting lines..wav"
+      ]
+    },
+    {
+      "id": "structure-supports-efficient-workflows.",
+      "english": "Structure supports efficient workflows.",
+      "translation": "Структура поддерживает эффективные процессы.",
+      "audio": [
+        "audio/sentences/Structure supports efficient workflows..wav"
+      ]
+    },
+    {
+      "id": "management-sets-strategic-priorities.",
+      "english": "Management sets strategic priorities.",
+      "translation": "Управление задаёт стратегические приоритеты.",
+      "audio": [
+        "audio/sentences/Management sets strategic priorities..wav"
+      ]
+    },
+    {
+      "id": "leadership-drives-cultural-change.",
+      "english": "Leadership drives cultural change.",
+      "translation": "Руководство двигает культурные изменения.",
+      "audio": [
+        "audio/sentences/Leadership drives cultural change..wav"
+      ]
+    },
+    {
+      "id": "decision-making-requires-accountability.",
+      "english": "Decision-making requires accountability.",
+      "translation": "Принятие решений требует ответственности.",
+      "audio": [
+        "audio/sentences/Decision-making requires accountability..wav"
+      ]
+    },
+    {
+      "id": "collaboration-improves-overall-outcomes.",
+      "english": "Collaboration improves overall outcomes.",
+      "translation": "Сотрудничество улучшает общие результаты.",
+      "audio": [
+        "audio/sentences/Collaboration improves overall outcomes..wav"
+      ]
+    },
+    {
+      "id": "teamwork-helps-solve-complex-tasks.",
+      "english": "Teamwork helps solve complex tasks.",
+      "translation": "Командная работа помогает решать сложные задачи.",
+      "audio": [
+        "audio/sentences/Teamwork helps solve complex tasks..wav"
+      ]
+    },
+    {
+      "id": "ownership-builds-personal-commitment.",
+      "english": "Ownership builds personal commitment.",
+      "translation": "Ответственность формирует личную вовлечённость.",
+      "audio": [
+        "audio/sentences/Ownership builds personal commitment..wav"
+      ]
+    },
+    {
+      "id": "accountability-increases-trust.",
+      "english": "Accountability increases trust.",
+      "translation": "Подотчётность повышает доверие.",
+      "audio": [
+        "audio/sentences/Accountability increases trust..wav"
+      ]
+    },
+    {
+      "id": "initiative-is-encouraged-here.",
+      "english": "Initiative is encouraged here.",
+      "translation": "Инициатива здесь поощряется.",
+      "audio": [
+        "audio/sentences/Initiative is encouraged here..wav"
+      ]
+    },
+    {
+      "id": "work-life-balance-prevents-burnout.",
+      "english": "Work-life balance prevents burnout.",
+      "translation": "Баланс работы и жизни предотвращает выгорание.",
+      "audio": [
+        "audio/sentences/Work-life balance prevents burnout..wav"
+      ]
+    },
+    {
+      "id": "flexibility-supports-productivity.",
+      "english": "Flexibility supports productivity.",
+      "translation": "Гибкость поддерживает продуктивность.",
+      "audio": [
+        "audio/sentences/Flexibility supports productivity..wav"
+      ]
+    },
+    {
+      "id": "remote-work-expands-hiring-pools.",
+      "english": "Remote work expands hiring pools.",
+      "translation": "Удалённая работа расширяет возможности найма.",
+      "audio": [
+        "audio/sentences/Remote work expands hiring pools..wav"
+      ]
+    },
+    {
+      "id": "hybrid-work-combines-flexibility-and-presence.",
+      "english": "Hybrid work combines flexibility and presence.",
+      "translation": "Гибридная работа сочетает гибкость и присутствие.",
+      "audio": [
+        "audio/sentences/Hybrid work combines flexibility and presence..wav"
+      ]
+    },
+    {
+      "id": "the-schedule-allows-adjustments.",
+      "english": "The schedule allows adjustments.",
+      "translation": "График допускает корректировки.",
+      "audio": [
+        "audio/sentences/The schedule allows adjustments..wav"
+      ]
+    },
+    {
+      "id": "onboarding-helps-new-hires-settle-in.",
+      "english": "Onboarding helps new hires settle in.",
+      "translation": "Введение в компанию помогает новичкам адаптироваться.",
+      "audio": [
+        "audio/sentences/Onboarding helps new hires settle in..wav"
+      ]
+    },
+    {
+      "id": "adaptation-takes-time.",
+      "english": "Adaptation takes time.",
+      "translation": "Адаптация требует времени.",
+      "audio": [
+        "audio/sentences/Adaptation takes time..wav"
+      ]
+    },
+    {
+      "id": "career-growth-motivates-employees.",
+      "english": "Career growth motivates employees.",
+      "translation": "Карьерный рост мотивирует сотрудников.",
+      "audio": [
+        "audio/sentences/Career growth motivates employees..wav"
+      ]
+    },
+    {
+      "id": "performance-is-reviewed-quarterly.",
+      "english": "Performance is reviewed quarterly.",
+      "translation": "Эффективность оценивается ежеквартально.",
+      "audio": [
+        "audio/sentences/Performance is reviewed quarterly..wav"
+      ]
+    },
+    {
+      "id": "evaluation-supports-development.",
+      "english": "Evaluation supports development.",
+      "translation": "Оценка поддерживает развитие.",
+      "audio": [
+        "audio/sentences/Evaluation supports development..wav"
+      ]
+    },
+    {
+      "id": "diversity-strengthens-innovation.",
+      "english": "Diversity strengthens innovation.",
+      "translation": "Разнообразие усиливает инновации.",
+      "audio": [
+        "audio/sentences/Diversity strengthens innovation..wav"
+      ]
+    },
+    {
+      "id": "inclusion-improves-team-cohesion.",
+      "english": "Inclusion improves team cohesion.",
+      "translation": "Инклюзивность улучшает сплочённость команды.",
+      "audio": [
+        "audio/sentences/Inclusion improves team cohesion..wav"
+      ]
+    },
+    {
+      "id": "respect-shapes-daily-interactions.",
+      "english": "Respect shapes daily interactions.",
+      "translation": "Уважение формирует повседневное общение.",
+      "audio": [
+        "audio/sentences/Respect shapes daily interactions..wav"
+      ]
+    },
+    {
+      "id": "trust-develops-over-time.",
+      "english": "Trust develops over time.",
+      "translation": "Доверие формируется со временем.",
+      "audio": [
+        "audio/sentences/Trust develops over time..wav"
+      ]
+    },
+    {
+      "id": "transparency-improves-communication.",
+      "english": "Transparency improves communication.",
+      "translation": "Прозрачность улучшает коммуникацию.",
+      "audio": [
+        "audio/sentences/Transparency improves communication..wav"
+      ]
+    }
+  ]
+}

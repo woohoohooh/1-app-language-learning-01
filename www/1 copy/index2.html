@@ -1,0 +1,1767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Always Free English</title>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#4caf50">
+    <meta name="msapplication-navbutton-color" content="#121212">
+    <meta name="apple-mobile-web-app-title" content="English Learner">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icon-192x192.png" type="image/png">
+    <link rel="apple-touch-icon" href="icon-192x192.png">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            -webkit-tap-highlight-color: transparent;
+            -webkit-touch-callout: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Nunito', Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+            touch-action: manipulation;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            padding-bottom: env(safe-area-inset-bottom, 20px);
+            padding-top: env(safe-area-inset-top, 20px);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .header:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #333, transparent);
+        }
+
+        .title {
+            font-size: clamp(24px, 6vw, 32px);
+            font-weight: 800;
+            background: linear-gradient(135deg, #4caf50 0%, #2196f3 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+            letter-spacing: -0.5px;
+        }
+
+        .profile-icon {
+            width: 60px;
+            height: 60px;
+            min-width: 60px;
+            min-height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-size: 28px;
+            font-weight: 700;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: none;
+            user-select: none;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.25);
+        }
+
+        .profile-icon:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+            z-index: 1;
+        }
+
+        .profile-icon .star {
+            position: relative;
+            z-index: 2;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+
+        .profile-icon:active {
+            transform: scale(0.92);
+            box-shadow: 0 2px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .profile-icon:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.35);
+        }
+
+        .main-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 20px;
+            background: rgba(30, 30, 30, 0.5);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .filters {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            flex: 1;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            min-width: 160px;
+            flex: 1;
+        }
+
+        .filter-label {
+            font-size: 14px;
+            color: #aaaaaa;
+            font-weight: 600;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .filter-label.invisible {
+            opacity: 0;
+        }
+
+        .filter-select {
+            padding: 14px 20px;
+            background-color: rgba(40, 40, 40, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            color: #ffffff;
+            font-family: 'Nunito', sans-serif;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            width: 100%;
+            appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23888'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 20px center;
+            background-size: 20px;
+            padding-right: 50px;
+            height: 52px;
+            backdrop-filter: blur(10px);
+        }
+
+        .filter-select:hover, .filter-select:focus {
+            border-color: #4caf50;
+            outline: none;
+            background-color: rgba(50, 50, 50, 0.9);
+            box-shadow: 0 4px 15px rgba(76, 175, 80, 0.1);
+        }
+
+        .filter-reset-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            width: 60px;
+            align-items: center;
+        }
+
+        .filter-reset-icon {
+            width: 100%;
+            height: 52px;
+            min-height: 52px;
+            background-color: rgba(40, 40, 40, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-size: 22px;
+            color: #888;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            user-select: none;
+            padding: 0;
+            margin: 0;
+            backdrop-filter: blur(10px);
+        }
+
+        .filter-reset-icon:hover {
+            background-color: rgba(244, 67, 54, 0.18);
+            border-color: rgba(244, 67, 54, 0.35);
+            color: #f44336;
+            transform: scale(1.04);
+            box-shadow: 0 6px 18px rgba(244, 67, 54, 0.12);
+        }
+
+        .filter-reset-icon:active {
+            background-color: rgba(244, 67, 54, 0.25);
+            border-color: #f44336;
+            color: #f44336;
+            transform: scale(0.98);
+        }
+
+        .content-type-selector {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            background: rgba(30, 30, 30, 0.5);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 5px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .content-type-btn {
+            flex: 1;
+            padding: 12px 20px;
+            background: transparent;
+            border: none;
+            border-radius: 10px;
+            color: #aaaaaa;
+            font-family: 'Nunito', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .content-type-btn.active {
+            background: linear-gradient(135deg, rgba(76, 175, 80, 0.2), rgba(33, 150, 243, 0.2));
+            color: #ffffff;
+            box-shadow: 0 4px 15px rgba(76, 175, 80, 0.2);
+        }
+
+        .content-type-btn:hover:not(.active) {
+            background: rgba(255, 255, 255, 0.05);
+            color: #ffffff;
+        }
+
+        .content-type-btn:active {
+            transform: scale(0.98);
+        }
+
+        .loader-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 200px;
+            width: 100%;
+        }
+
+        .loader {
+            width: 48px;
+            height: 48px;
+            border: 3px solid rgba(76, 175, 80, 0.3);
+            border-radius: 50%;
+            border-top-color: #4caf50;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .quick-start-container {
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+            flex-direction: column;
+            width: auto;
+        }
+
+        .quick-start-btn {
+            padding: 14px 28px;
+            background: linear-gradient(135deg, rgba(76, 175, 80, 0.15), rgba(33, 150, 243, 0.15));
+            border: 1px solid rgba(76, 175, 80, 0.3);
+            border-radius: 14px;
+            color: #4caf50;
+            font-family: 'Nunito', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            white-space: nowrap;
+            height: 52px;
+            min-height: 52px;
+            user-select: none;
+            touch-action: manipulation;
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .quick-start-btn:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(76, 175, 80, 0.1) 0%, rgba(33, 150, 243, 0.05) 100%);
+            z-index: 1;
+        }
+
+        .quick-start-btn span {
+            position: relative;
+            z-index: 2;
+        }
+
+        .quick-start-btn:active:not(:disabled) {
+            transform: translateY(2px) scale(0.98);
+            background: linear-gradient(135deg, rgba(76, 175, 80, 0.1), rgba(33, 150, 243, 0.1));
+            box-shadow: 0 2px 10px rgba(76, 175, 80, 0.2);
+        }
+
+        .quick-start-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+            border-color: rgba(255, 255, 255, 0.1);
+            color: #666;
+        }
+
+        .quick-start-btn:hover:not(:disabled) {
+            background: linear-gradient(135deg, rgba(76, 175, 80, 0.2), rgba(33, 150, 243, 0.2));
+            box-shadow: 0 6px 20px rgba(76, 175, 80, 0.25);
+            transform: translateY(-1px);
+        }
+
+        .lists-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .list-card {
+            background: rgba(30, 30, 30, 0.7);
+            border-radius: 16px;
+            padding: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            backdrop-filter: blur(10px);
+        }
+
+        .list-card:hover {
+            border-color: rgba(76, 175, 80, 0.2);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+            transform: translateY(-4px);
+        }
+
+        .list-card:active {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+        }
+
+        .list-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .list-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0;
+            color: #ffffff;
+            line-height: 1.3;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .list-title:hover {
+            color: #4caf50;
+        }
+
+        .list-complete-icon {
+            color: #4caf50;
+            font-size: 24px;
+            opacity: 0.7;
+            transition: all 0.3s ease;
+        }
+
+        .list-complete-icon.complete {
+            opacity: 1;
+            filter: drop-shadow(0 0 8px rgba(76, 175, 80, 0.6));
+            transform: scale(1.1);
+        }
+
+        .list-badge {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .badge {
+            padding: 8px 16px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+            backdrop-filter: blur(10px);
+        }
+
+        .badge-level {
+            background: linear-gradient(135deg, rgba(33, 150, 243, 0.2), rgba(33, 150, 243, 0.1));
+            border: 1px solid rgba(33, 150, 243, 0.3);
+            color: #2196f3;
+        }
+
+        .badge-theme {
+            background: linear-gradient(135deg, rgba(255, 152, 0, 0.2), rgba(255, 152, 0, 0.1));
+            border: 1px solid rgba(255, 152, 0, 0.3);
+            color: #ff9800;
+        }
+
+        .badge-type {
+            background: linear-gradient(135deg, rgba(156, 39, 176, 0.2), rgba(156, 39, 176, 0.1));
+            border: 1px solid rgba(156, 39, 176, 0.3);
+            color: #9c27b0;
+        }
+
+        .list-progress {
+            margin: 20px 0;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4caf50, #2196f3);
+            border-radius: 4px;
+            transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .progress-fill:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            animation: shimmer 2s infinite;
+        }
+
+        .progress-stats {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            color: #aaaaaa;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .progress-stats span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .list-actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 24px;
+        }
+
+        .action-button {
+            padding: 14px 20px;
+            border: none;
+            border-radius: 12px;
+            font-family: 'Nunito', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            text-align: center;
+            min-width: 120px;
+            min-height: 48px;
+            user-select: none;
+            touch-action: manipulation;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+            letter-spacing: 0.3px;
+        }
+
+        .action-button:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+            z-index: 1;
+        }
+
+        .action-button span {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .action-button.primary {
+            background: linear-gradient(135deg, #4caf50, #2e7d32);
+            color: white;
+            flex: 2;
+            border: none;
+        }
+
+        .action-button.primary:active:not(:disabled) {
+            background: linear-gradient(135deg, #388e3c, #1b5e20);
+            transform: scale(0.96);
+        }
+
+        .action-button.primary:disabled {
+            background: rgba(100, 100, 100, 0.2);
+            color: rgba(255, 255, 255, 0.4);
+            cursor: not-allowed;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .action-button.reset {
+            background: transparent;
+            border: 1px solid rgba(76, 175, 80, 0.3);
+            color: #4caf50;
+            flex: 1;
+            min-width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            opacity: 1;
+            cursor: pointer;
+            font-weight: 600;
+            background: linear-gradient(135deg, rgba(76, 175, 80, 0.15), rgba(33, 150, 243, 0.15));
+        }
+
+        .action-button.reset:active {
+            background: linear-gradient(135deg, rgba(76, 175, 80, 0.25), rgba(33, 150, 243, 0.25));
+            transform: scale(0.96);
+        }
+
+        .action-button.reset:hover {
+            background: linear-gradient(135deg, rgba(76, 175, 80, 0.2), rgba(33, 150, 243, 0.2));
+            border-color: rgba(76, 175, 80, 0.5);
+            box-shadow: 0 4px 15px rgba(76, 175, 80, 0.15);
+        }
+
+        .no-lists {
+            text-align: center;
+            padding: 60px 20px;
+            color: #aaaaaa;
+            font-size: 18px;
+            background: rgba(30, 30, 30, 0.5);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+        }
+
+        .selection-counter {
+            background: rgba(33, 150, 243, 0.2);
+            color: #2196f3;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-left: 8px;
+            border: 1px solid rgba(33, 150, 243, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        .list-card {
+            animation: fadeIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 16px;
+                padding-top: max(16px, env(safe-area-inset-top));
+                padding-bottom: max(16px, env(safe-area-inset-bottom));
+            }
+
+            .header {
+                padding: 12px 0;
+                margin-bottom: 25px;
+            }
+
+            .title {
+                font-size: 22px;
+            }
+
+            .profile-icon {
+                width: 52px;
+                height: 52px;
+                min-width: 52px;
+                min-height: 52px;
+                font-size: 24px;
+            }
+
+            .main-actions {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 16px;
+                padding: 16px;
+                border-radius: 14px;
+            }
+
+            .filters {
+                flex-direction: column;
+                width: 100%;
+                gap: 16px;
+            }
+
+            .filter-group {
+                width: 100%;
+            }
+
+            .content-type-selector {
+                width: 100%;
+            }
+
+            .content-type-btn {
+                padding: 10px 12px;
+                font-size: 14px;
+            }
+
+            .quick-start-container {
+                width: 100%;
+                align-items: stretch;
+            }
+
+            .quick-start-btn {
+                width: 100%;
+                padding: 16px 24px;
+                font-size: 16px;
+                min-height: 54px;
+                border-radius: 12px;
+            }
+
+            .lists-container {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .list-card {
+                padding: 20px;
+                border-radius: 14px;
+            }
+
+            .list-title {
+                font-size: 18px;
+            }
+
+            .action-button {
+                min-height: 50px;
+                font-size: 16px;
+                padding: 16px 20px;
+            }
+
+            .list-actions {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .filter-reset-icon {
+                display: none !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 12px;
+                padding-top: max(12px, env(safe-area-inset-top));
+                padding-bottom: max(12px, env(safe-area-inset-bottom));
+            }
+
+            .title {
+                font-size: 20px;
+            }
+
+            .profile-icon {
+                width: 48px;
+                height: 48px;
+                min-width: 48px;
+                min-height: 48px;
+                font-size: 22px;
+            }
+
+            .filter-select {
+                padding: 16px 20px;
+                font-size: 16px;
+            }
+
+            .content-type-btn {
+                padding: 8px 10px;
+                font-size: 13px;
+            }
+
+            .list-actions {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .action-button {
+                width: 100%;
+                min-height: 52px;
+            }
+
+            .badge {
+                padding: 6px 12px;
+                font-size: 13px;
+            }
+        }
+
+        @supports (-webkit-touch-callout: none) {
+            body {
+                -webkit-font-smoothing: antialiased;
+            }
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(76, 175, 80, 0.3);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(76, 175, 80, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Languageek</h1>
+            <div class="profile-icon" id="profile-icon" role="button" aria-label="Profile statistics">
+                <span class="star"></span>
+            </div>
+        </div>
+
+        <div class="main-actions">
+            <div class="filters">
+                <div class="filter-group">
+                    <select class="filter-select" id="level-filter" aria-label="Filter by level">
+                        <option value="">All levels</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <select class="filter-select" id="theme-filter" aria-label="Filter by theme">
+                        <option value="">All themes</option>
+                    </select>
+                </div>
+                <div class="filter-reset-group">
+                    <div class="filter-reset-icon" id="filter-reset-all" title="Reset all filters" role="button" aria-label="Reset filters">
+                        ↻
+                    </div>
+                </div>
+            </div>
+            <div class="quick-start-container">
+                <button class="quick-start-btn" id="quick-start-btn" disabled aria-label="Start all cards from selected lists">
+                    <span>Start All Cards</span>
+                    <span id="selection-counter" class="selection-counter" style="display: none;">0</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="content-type-selector" id="content-type-selector">
+            <button class="content-type-btn active" data-type="words">Words</button>
+            <button class="content-type-btn" data-type="phrases">Phrases</button>
+            <button class="content-type-btn" data-type="sentences">Sentences</button>
+        </div>
+
+        <div class="lists-container" id="lists-container" role="list">
+        </div>
+
+        <div id="reset-confirm-modal" aria-hidden="true" style="display:none;position:fixed;inset:0;z-index:20000;align-items:center;justify-content:center;">
+            <div style="position:absolute;inset:0;background:rgba(0,0,0,0.6);"></div>
+            <div style="position:relative;max-width:420px;width:90%;background:#181818;border-radius:12px;padding:20px;border:1px solid rgba(255,255,255,0.06);box-shadow:0 10px 40px rgba(0,0,0,0.6);">
+                <h3 style="margin:0 0 8px;font-size:18px;color:#fff">Confirm reset</h3>
+                <p id="reset-confirm-text" style="margin:0 0 16px;color:#ccc">Are you sure you want to reset progress for this list?</p>
+                <div style="display:flex;gap:12px;justify-content:flex-end">
+                    <button id="reset-cancel-btn" style="padding:10px 14px;border-radius:10px;background:transparent;border:1px solid rgba(255,255,255,0.06);color:#ccc;cursor:pointer">Cancel</button>
+                    <button id="reset-confirm-btn" style="padding:10px 14px;border-radius:10px;background:linear-gradient(135deg,#2e7d32,#1b5e20);border:none;color:#fff;cursor:pointer">Confirm</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="no-lists" id="no-lists" style="display: none;" role="alert">
+            No lists found. Please check if the english folder contains list files.
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('sw.js')
+                    .then((registration) => {
+                        console.log('Service Worker registered with scope:', registration.scope);
+                        registration.addEventListener('updatefound', () => {
+                            const newWorker = registration.installing;
+                            console.log('New Service Worker found:', newWorker.state);
+                            newWorker.addEventListener('statechange', () => {
+                                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                    showUpdateNotification();
+                                }
+                            });
+                        });
+                    })
+                    .catch((error) => {
+                        console.error('Service Worker registration failed:', error);
+                    });
+
+                navigator.serviceWorker.ready.then(() => {
+                    if (!navigator.onLine) {
+                        showOfflineNotification();
+                    }
+                });
+
+                navigator.serviceWorker.addEventListener('message', (event) => {
+                    if (event.data && event.data.type === 'OFFLINE_STATUS') {
+                        if (event.data.isOffline) {
+                            showOfflineNotification();
+                        } else {
+                            hideOfflineNotification();
+                        }
+                    }
+                });
+            }
+
+            function showOfflineNotification() {
+                if (!document.getElementById('offline-notification')) {
+                    const notification = document.createElement('div');
+                    notification.id = 'offline-notification';
+                    notification.style.cssText = `
+                        position: fixed;
+                        top: 10px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        background: linear-gradient(135deg, #ff9800, #f57c00);
+                        color: white;
+                        padding: 12px 24px;
+                        border-radius: 10px;
+                        z-index: 10000;
+                        font-weight: bold;
+                        box-shadow: 0 4px 15px rgba(255, 152, 0, 0.3);
+                        backdrop-filter: blur(10px);
+                        border: 1px solid rgba(255, 255, 255, 0.1);
+                    `;
+                    notification.textContent = '⚠️ Offline Mode';
+                    document.body.appendChild(notification);
+                    setTimeout(() => {
+                        notification.style.opacity = '0';
+                        notification.style.transition = 'opacity 0.5s';
+                        setTimeout(() => notification.remove(), 500);
+                    }, 3000);
+                }
+            }
+
+            function hideOfflineNotification() {
+                const notification = document.getElementById('offline-notification');
+                if (notification) {
+                    notification.remove();
+                }
+            }
+
+            function showUpdateNotification() {
+                const updateBtn = document.createElement('button');
+                updateBtn.textContent = '🔄 Update Available - Click to Refresh';
+                updateBtn.style.cssText = `
+                    position: fixed;
+                    bottom: 20px;
+                    right: 20px;
+                    background: linear-gradient(135deg, #4caf50, #2e7d32);
+                    color: white;
+                    border: none;
+                    padding: 12px 18px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    z-index: 10000;
+                    font-weight: bold;
+                    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+                    backdrop-filter: blur(10px);
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    transition: all 0.3s ease;
+                `;
+                updateBtn.onmouseenter = () => {
+                    updateBtn.style.transform = 'translateY(-2px)';
+                    updateBtn.style.boxShadow = '0 6px 20px rgba(76, 175, 80, 0.4)';
+                };
+                updateBtn.onmouseleave = () => {
+                    updateBtn.style.transform = 'translateY(0)';
+                    updateBtn.style.boxShadow = '0 4px 15px rgba(76, 175, 80, 0.3)';
+                };
+                updateBtn.onclick = () => {
+                    if ('serviceWorker' in navigator) {
+                        navigator.serviceWorker.ready.then((registration) => {
+                            registration.waiting?.postMessage({ type: 'SKIP_WAITING' });
+                            location.reload();
+                        });
+                    }
+                };
+                document.body.appendChild(updateBtn);
+            }
+
+            window.addEventListener('online', () => {
+                console.log('App is back online');
+                hideOfflineNotification();
+            });
+
+            window.addEventListener('offline', () => {
+                console.log('App is offline');
+                showOfflineNotification();
+            });
+
+            let allLists = {
+                words: [],
+                phrases: [],
+                sentences: []
+            };
+            let filteredLists = [];
+            let currentContentType = 'words';
+            let isLoading = false;
+            let loadedTypes = new Set();
+
+            let currentFilters = {
+                level: localStorage.getItem('selectedLevel') || '',
+                theme: localStorage.getItem('selectedTheme') || ''
+            };
+
+            const WordDB = {
+                saveItemStatus(listId, itemId, status) {
+                    const listKey = listId.split('/').pop().replace('.json', '');
+                    const key = `item_${listKey}_${itemId}`;
+                    localStorage.setItem(key, status);
+                },
+
+                getItemStatus(listId, itemId) {
+                    const listKey = listId.split('/').pop().replace('.json', '');
+                    const key = `item_${listKey}_${itemId}`;
+                    return localStorage.getItem(key) || 'new';
+                },
+
+                getItemsForReview(listData) {
+                    const reviewedItems = [];
+                    const newItems = [];
+
+                    listData.items.forEach(item => {
+                        const status = this.getItemStatus(listData.id || listData.filename, item.id);
+                        item.status = status;
+
+                        if (status === 'review') {
+                            reviewedItems.push(item);
+                        } else if (status === 'new') {
+                            newItems.push(item);
+                        }
+                    });
+
+                    return [...reviewedItems, ...newItems];
+                },
+
+                resetListProgress(listId) {
+                    const listKey = listId.split('/').pop().replace('.json', '');
+                    const keys = Object.keys(localStorage);
+                    keys.forEach(key => {
+                        if (key.startsWith(`item_${listKey}_`)) {
+                            localStorage.removeItem(key);
+                        }
+                    });
+
+                    if ('vibrate' in navigator) {
+                        navigator.vibrate([50, 30, 50]);
+                    }
+
+                    return true;
+                },
+
+                getListProgress(listId, totalItems) {
+                    const listKey = listId.split('/').pop().replace('.json', '');
+                    let known = 0;
+                    let review = 0;
+
+                    const keys = Object.keys(localStorage);
+                    keys.forEach(key => {
+                        if (key.startsWith(`item_${listKey}_`)) {
+                            const status = localStorage.getItem(key);
+                            if (status === 'known') known++;
+                            if (status === 'review') review++;
+                        }
+                    });
+
+                    const newItems = totalItems - known - review;
+
+                    return { known, review, new: newItems };
+                },
+
+                hasNewItems(listId, totalItems) {
+                    try {
+                        const progress = this.getListProgress(listId, totalItems);
+                        return progress.new > 0;
+                    } catch (e) {
+                        console.warn('hasNewItems: failed to determine list size for', listId, e);
+                        return false;
+                    }
+                },
+
+                isListComplete(listId, totalItems) {
+                    const progress = this.getListProgress(listId, totalItems);
+                    return progress.known === totalItems;
+                },
+
+                getCombinedItemsForReview(lists) {
+                    let allItems = [];
+
+                    lists.forEach(list => {
+                        const itemsForReview = this.getItemsForReview(list);
+                        itemsForReview.forEach(item => {
+                            item._listId = list.id || list.filename;
+                            item._listName = list.name;
+                        });
+
+                        allItems = allItems.concat(itemsForReview);
+                    });
+
+                    return allItems;
+                },
+
+                getOverallStats() {
+                    const currentLists = allLists[currentContentType];
+                    let totalLists = currentLists.length;
+                    let totalItems = 0;
+                    let totalKnown = 0;
+                    let totalReview = 0;
+                    let totalForReview = 0;
+
+                    currentLists.forEach(list => {
+                        totalItems += list.items.length;
+                        const progress = this.getListProgress(list.id || list.filename, list.items.length);
+                        totalKnown += progress.known;
+                        totalReview += progress.review;
+                        totalForReview += this.getItemsForReview(list).length;
+                    });
+
+                    return {
+                        totalLists,
+                        totalItems,
+                        totalKnown,
+                        totalReview,
+                        totalForReview,
+                        progressPercent: totalItems > 0 ? Math.round(((totalKnown + totalReview) / totalItems) * 100) : 0
+                    };
+                }
+            };
+
+            const Utils = {
+                async loadListsByType(type) {
+                    if (loadedTypes.has(type)) {
+                        return allLists[type];
+                    }
+
+                    try {
+                        const listResponse = await fetch(`english/${type}/list.json`);
+                        if (listResponse.ok) {
+                            const fileList = await listResponse.json();
+                            const availableLists = [];
+
+                            for (const filename of fileList) {
+                                try {
+                                    const response = await fetch(`english/${type}/${filename}`);
+                                    if (response.ok) {
+                                        const data = await response.json();
+                                        if (data.name && data.items && Array.isArray(data.items)) {
+                                            data.id = filename.replace('.json', '');
+                                            data.filename = filename;
+                                            data.fullPath = `english/${type}/${filename}`;
+                                            availableLists.push(data);
+                                        }
+                                    }
+                                } catch (error) {
+                                    console.warn(`Failed to load list: english/${type}/${filename}`, error);
+                                }
+                            }
+
+                            allLists[type] = availableLists;
+                            loadedTypes.add(type);
+                            return availableLists;
+                        } else {
+                            return await this.scanDefaultLists(type);
+                        }
+                    } catch (error) {
+                        console.warn(`Error loading ${type} lists:`, error);
+                        return await this.scanDefaultLists(type);
+                    }
+                },
+
+                async scanDefaultLists(type) {
+                    const possibleLists = [
+                        `${type}/list_basic_1.json`,
+                        `${type}/list_intermediate_1.json`,
+                        `${type}/list_advanced_1.json`
+                    ];
+                    const availableLists = [];
+
+                    for (const filename of possibleLists) {
+                        try {
+                            const response = await fetch(`english/${filename}`);
+                            if (response.ok) {
+                                const data = await response.json();
+                                if (data.name && data.items && Array.isArray(data.items)) {
+                                    data.id = filename.split('/').pop().replace('.json', '');
+                                    data.filename = filename.split('/').pop();
+                                    data.fullPath = `english/${filename}`;
+                                    availableLists.push(data);
+                                }
+                            }
+                        } catch (error) {
+                            console.warn(`Failed to load default list: english/${filename}`, error);
+                        }
+                    }
+
+                    allLists[type] = availableLists;
+                    loadedTypes.add(type);
+                    return availableLists;
+                },
+
+                getUniqueFilters(lists, selectedLevel = '') {
+                    const levels = [];
+                    const themes = [];
+
+                    lists.forEach(list => {
+                        if (list.level && !levels.includes(list.level)) {
+                            levels.push(list.level);
+                        }
+
+                        if (!selectedLevel || list.level === selectedLevel) {
+                            if (list.theme && !themes.includes(list.theme)) {
+                                themes.push(list.theme);
+                            }
+                        }
+                    });
+
+                    return {
+                        levels: levels,
+                        themes: themes
+                    };
+                },
+
+                filterLists(lists, filters) {
+                    return lists.filter(list => {
+                        if (filters.level && list.level !== filters.level) return false;
+                        if (filters.theme && list.theme !== filters.theme) return false;
+                        return true;
+                    });
+                },
+
+                shuffleArray(array) {
+                    const shuffled = [...array];
+                    for (let i = shuffled.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                    }
+                    return shuffled;
+                },
+
+                generateSessionId() {
+                    return 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+                },
+
+                isMobileDevice() {
+                    return 'ontouchstart' in window ||
+                           navigator.maxTouchPoints > 0 ||
+                           navigator.msMaxTouchPoints > 0;
+                },
+
+                vibrate(pattern) {
+                    if ('vibrate' in navigator) {
+                        navigator.vibrate(pattern);
+                    }
+                },
+
+                showSuccessMessage(message) {
+                    const toast = document.createElement('div');
+                    toast.textContent = message;
+                    toast.style.cssText = `
+                        position: fixed;
+                        bottom: 20px;
+                        left: 50%;
+                        transform: translateX(-50%) translateY(100px);
+                        background: linear-gradient(135deg, #4caf50, #2e7d32);
+                        color: white;
+                        padding: 14px 28px;
+                        border-radius: 12px;
+                        z-index: 10000;
+                        font-weight: 600;
+                        box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+                        backdrop-filter: blur(10px);
+                        border: 1px solid rgba(255, 255, 255, 0.1);
+                        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                    `;
+                    document.body.appendChild(toast);
+
+                    setTimeout(() => {
+                        toast.style.transform = 'translateX(-50%) translateY(0)';
+                    }, 10);
+
+                    setTimeout(() => {
+                        toast.style.transform = 'translateX(-50%) translateY(100px)';
+                        setTimeout(() => toast.remove(), 400);
+                    }, 2000);
+                },
+
+                showErrorMessage(message) {
+                    const toast = document.createElement('div');
+                    toast.textContent = message;
+                    toast.style.cssText = `
+                        position: fixed;
+                        bottom: 20px;
+                        left: 50%;
+                        transform: translateX(-50%) translateY(100px);
+                        background: linear-gradient(135deg, #f44336, #d32f2f);
+                        color: white;
+                        padding: 14px 28px;
+                        border-radius: 12px;
+                        z-index: 10000;
+                        font-weight: 600;
+                        box-shadow: 0 6px 20px rgba(244, 67, 54, 0.4);
+                        backdrop-filter: blur(10px);
+                        border: 1px solid rgba(255, 255, 255, 0.1);
+                        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                    `;
+                    document.body.appendChild(toast);
+
+                    setTimeout(() => {
+                        toast.style.transform = 'translateX(-50%) translateY(0)';
+                    }, 10);
+
+                    setTimeout(() => {
+                        toast.style.transform = 'translateX(-50%) translateY(100px)';
+                        setTimeout(() => toast.remove(), 400);
+                    }, 2000);
+                },
+
+                showLoader(container) {
+                    container.innerHTML = `
+                        <div class="loader-container">
+                            <div class="loader"></div>
+                        </div>
+                    `;
+                }
+            };
+
+            const MobileHandlers = {
+                init() {
+                    if (Utils.isMobileDevice()) {
+                        this.optimizeForTouch();
+                    }
+                },
+
+                optimizeForTouch() {
+                    document.querySelectorAll('button, select, .profile-icon, .filter-reset-icon').forEach(element => {
+                        element.style.minHeight = '44px';
+                        element.style.minWidth = '44px';
+                    });
+
+                    document.querySelectorAll('.action-button, .quick-start-btn').forEach(button => {
+                        button.addEventListener('touchstart', function() {
+                            this.classList.add('active');
+                        });
+
+                        button.addEventListener('touchend', function() {
+                            this.classList.remove('active');
+                        });
+                    });
+
+                    document.querySelectorAll('select').forEach(select => {
+                        select.addEventListener('touchstart', function(e) {
+                            e.stopPropagation();
+                        });
+                    });
+                }
+            };
+
+            MobileHandlers.init();
+
+            const listsContainer = document.getElementById('lists-container');
+            const noLists = document.getElementById('no-lists');
+            const levelFilter = document.getElementById('level-filter');
+            const themeFilter = document.getElementById('theme-filter');
+            const filterResetAll = document.getElementById('filter-reset-all');
+            const quickStartBtn = document.getElementById('quick-start-btn');
+            const selectionCounter = document.getElementById('selection-counter');
+            const profileIcon = document.getElementById('profile-icon');
+            const contentTypeBtns = document.querySelectorAll('.content-type-btn');
+
+            contentTypeBtns.forEach(btn => {
+                btn.addEventListener('click', async () => {
+                    if (isLoading) return;
+
+                    contentTypeBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    const newType = btn.dataset.type;
+
+                    if (newType === currentContentType) return;
+
+                    currentContentType = newType;
+
+                    localStorage.setItem('selectedContentType', currentContentType);
+
+                    Utils.showLoader(listsContainer);
+                    noLists.style.display = 'none';
+
+                    isLoading = true;
+                    await loadListsByCurrentType();
+                    isLoading = false;
+
+                    setupFilters();
+                    applyFilters();
+                });
+            });
+
+            const savedContentType = localStorage.getItem('selectedContentType');
+            if (savedContentType && ['words', 'phrases', 'sentences'].includes(savedContentType)) {
+                currentContentType = savedContentType;
+                contentTypeBtns.forEach(btn => {
+                    if (btn.dataset.type === savedContentType) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
+            }
+
+            async function loadListsByCurrentType() {
+                try {
+                    const lists = await Utils.loadListsByType(currentContentType);
+
+                    if (lists.length === 0) {
+                        noLists.style.display = 'block';
+                        listsContainer.innerHTML = '';
+                        quickStartBtn.disabled = true;
+                    }
+
+                    return lists;
+                } catch (error) {
+                    console.error('Error loading lists:', error);
+                    noLists.style.display = 'block';
+                    noLists.textContent = 'Error loading lists. Please check your connection.';
+                    quickStartBtn.disabled = true;
+                }
+            }
+
+            function setupFilters() {
+                const currentLists = allLists[currentContentType];
+                const filters = Utils.getUniqueFilters(currentLists, currentFilters.level);
+
+                levelFilter.innerHTML = '<option value="">All levels</option>';
+                filters.levels.forEach(level => {
+                    const option = document.createElement('option');
+                    option.value = level;
+                    option.textContent = level;
+                    if (level === currentFilters.level) {
+                        option.selected = true;
+                    }
+                    levelFilter.appendChild(option);
+                });
+
+                updateThemeFilter(filters.themes);
+            }
+
+            function updateThemeFilter(themes) {
+                themeFilter.innerHTML = '<option value="">All themes</option>';
+                themes.forEach(theme => {
+                    const option = document.createElement('option');
+                    option.value = theme;
+                    option.textContent = theme;
+                    if (theme === currentFilters.theme) {
+                        option.selected = true;
+                    }
+                    themeFilter.appendChild(option);
+                });
+            }
+
+            function applyFilters() {
+                const currentLists = allLists[currentContentType];
+                filteredLists = Utils.filterLists(currentLists, currentFilters);
+
+                if (filteredLists.length === 0) {
+                    listsContainer.innerHTML = '';
+                    noLists.style.display = 'block';
+                    quickStartBtn.disabled = true;
+                } else {
+                    noLists.style.display = 'none';
+                    renderLists();
+                    updateQuickStartButton();
+                }
+            }
+
+            function updateQuickStartButton() {
+                if (filteredLists.length === 0) {
+                    quickStartBtn.disabled = true;
+                    selectionCounter.style.display = 'none';
+                    return;
+                }
+
+                let totalItems = 0;
+                filteredLists.forEach(list => {
+                    const itemsForReview = WordDB.getItemsForReview(list);
+                    totalItems += itemsForReview.length;
+                });
+
+                if (totalItems > 0) {
+                    selectionCounter.textContent = filteredLists.length;
+                    selectionCounter.style.display = 'inline-block';
+                    quickStartBtn.innerHTML = `<span>Start All Cards</span> <span class="selection-counter">${filteredLists.length}</span>`;
+                    quickStartBtn.disabled = false;
+                } else {
+                    selectionCounter.style.display = 'none';
+                    quickStartBtn.innerHTML = '<span>Start All Cards</span>';
+                    quickStartBtn.disabled = true;
+                }
+            }
+
+            function renderLists() {
+                listsContainer.innerHTML = '';
+
+                filteredLists.forEach((list, index) => {
+                    const listId = list.id || list.filename;
+                    const progress = WordDB.getListProgress(listId, list.items.length);
+                    const totalKnown = progress.known + progress.review;
+                    const progressPercent = list.items.length > 0 ? Math.round((totalKnown / list.items.length) * 100) : 0;
+                    const itemsForReview = WordDB.getItemsForReview(list).length;
+                    const isComplete = itemsForReview === 0 && progress.known === list.items.length;
+                    const hasItemsForReview = itemsForReview > 0;
+
+                    const contentTypeDisplay = {
+                        'words': 'Words',
+                        'phrases': 'Phrases',
+                        'sentences': 'Sentences'
+                    }[currentContentType];
+
+                    const listCard = document.createElement('div');
+                    listCard.className = 'list-card';
+                    listCard.style.animationDelay = `${index * 0.05}s`;
+                    listCard.setAttribute('role', 'listitem');
+
+                    listCard.innerHTML = `
+                        <div class="list-header">
+                            <h3 class="list-title">${list.theme}</h3>
+                            <div class="list-complete-icon ${isComplete ? 'complete' : ''}"
+                                 aria-label="${isComplete ? 'List completed' : 'List not completed'}">
+                                ${isComplete ? '✓' : ''}
+                            </div>
+                        </div>
+                        <div class="list-badge">
+                            <span class="badge badge-theme">${list.level}</span>
+                            <span class="badge badge-level">${contentTypeDisplay}</span>
+                        </div>
+                        <div class="list-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: ${progressPercent}%"></div>
+                            </div>
+                        </div>
+                        <div class="list-actions">
+                            <button class="action-button primary"
+                                    data-list="${list.id || list.filename}"
+                                    data-type="${currentContentType}"
+                                    ${!hasItemsForReview ? 'disabled' : ''}
+                                    aria-label="Start learning ${list.name}">
+                                ${hasItemsForReview ? `Start Learning (${itemsForReview})` : 'All Learned'}
+                            </button>
+                            <button class="action-button reset"
+                                    data-list="${list.id || list.filename}"
+                                    aria-label="Reset progress for ${list.name}">
+                                <span><i>↻</i> Reset</span>
+                            </button>
+                        </div>
+                    `;
+
+                    listsContainer.appendChild(listCard);
+
+                    const titleEl = listCard.querySelector('.list-title');
+                    if (titleEl && list.items.length > 0) {
+                        titleEl.style.cursor = 'pointer';
+                        titleEl.title = 'Play audio preview';
+                        titleEl.addEventListener('click', (e) => {
+                            e.stopPropagation();
+                            console.log('Audio preview for', list.theme);
+                        });
+                    }
+                });
+
+                document.querySelectorAll('.action-button.primary:not(:disabled)').forEach(btn => {
+                    btn.addEventListener('click', async () => {
+                        const listId = btn.dataset.list;
+                        const type = btn.dataset.type || currentContentType;
+                        Utils.vibrate(50);
+                        window.location.href = `review.html?list=${encodeURIComponent(listId)}&type=${type}`;
+                    });
+                });
+
+                document.querySelectorAll('.action-button.reset').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        const listId = btn.dataset.list;
+                        const list = filteredLists.find(l => (l.id === listId || l.filename === listId)) ||
+                                    allLists[currentContentType].find(l => (l.id === listId || l.filename === listId));
+                        const listName = list ? (list.name || list.filename) : listId;
+                        showResetDialog(listId, listName);
+                    });
+                });
+
+                if (!window.__resetModalHandlersAttached) {
+                    window.__resetModalHandlersAttached = true;
+                    const modal = document.getElementById('reset-confirm-modal');
+                    const confirmBtn = document.getElementById('reset-confirm-btn');
+                    const cancelBtn = document.getElementById('reset-cancel-btn');
+                    cancelBtn.addEventListener('click', () => { modal.style.display = 'none'; modal.setAttribute('aria-hidden','true'); window.__pendingReset = null; });
+                    confirmBtn.addEventListener('click', async () => {
+                        const pending = window.__pendingReset;
+                        modal.style.display = 'none'; modal.setAttribute('aria-hidden','true'); window.__pendingReset = null;
+                        if (pending) {
+                            try { await performReset(pending.listId, pending.listName); } catch(e){ console.error('performReset error', e); }
+                        }
+                    });
+                }
+            }
+
+            async function performReset(listId, listName){
+                try {
+                    Utils.vibrate(100);
+                    const name = listName || (allLists[currentContentType].find(l => l.id === listId || l.filename === listId)||{}).name || listId;
+                    WordDB.resetListProgress(listId);
+                    Utils.showSuccessMessage(`Progress for "${name}" has been reset!`);
+                    applyFilters();
+                    updateQuickStartButton();
+                } catch (error) {
+                    console.error('Error resetting list progress:', error);
+                    Utils.showErrorMessage('Failed to reset progress. Please try again.');
+                }
+            }
+
+            function showResetDialog(listId, listName){
+                const modal = document.getElementById('reset-confirm-modal');
+                const text = document.getElementById('reset-confirm-text');
+                text.textContent = `Are you sure you want to reset progress for "${listName}"? This will mark all items as new.`;
+                window.__pendingReset = { listId, listName };
+                modal.style.display = 'flex'; modal.setAttribute('aria-hidden','false');
+            }
+
+            function resetAllFilters() {
+                currentFilters.level = '';
+                currentFilters.theme = '';
+
+                levelFilter.value = '';
+                themeFilter.value = '';
+
+                localStorage.setItem('selectedLevel', currentFilters.level);
+                localStorage.setItem('selectedTheme', currentFilters.theme);
+
+                const currentLists = allLists[currentContentType];
+                const filters = Utils.getUniqueFilters(currentLists);
+                updateThemeFilter(filters.themes);
+
+                applyFilters();
+                Utils.vibrate(50);
+            }
+
+            levelFilter.addEventListener('change', (e) => {
+                currentFilters.level = e.target.value;
+                currentFilters.theme = '';
+                localStorage.setItem('selectedLevel', currentFilters.level);
+                localStorage.setItem('selectedTheme', currentFilters.theme);
+
+                const currentLists = allLists[currentContentType];
+                const filters = Utils.getUniqueFilters(currentLists, currentFilters.level);
+                updateThemeFilter(filters.themes);
+
+                applyFilters();
+            });
+
+            themeFilter.addEventListener('change', (e) => {
+                currentFilters.theme = e.target.value;
+                localStorage.setItem('selectedTheme', currentFilters.theme);
+                applyFilters();
+            });
+
+            filterResetAll.addEventListener('click', resetAllFilters);
+
+            filterResetAll.addEventListener('touchstart', function(e) {
+                e.preventDefault();
+                this.classList.add('active');
+            });
+
+            filterResetAll.addEventListener('touchend', function(e) {
+                e.preventDefault();
+                this.classList.remove('active');
+                resetAllFilters();
+            });
+
+            filterResetAll.addEventListener('mouseenter', function() {
+                this.style.backgroundColor = 'rgba(244, 67, 54, 0.15)';
+                this.style.borderColor = 'rgba(244, 67, 54, 0.3)';
+                this.style.color = '#f44336';
+            });
+
+            filterResetAll.addEventListener('mouseleave', function() {
+                if (!this.classList.contains('active')) {
+                    this.style.backgroundColor = 'rgba(40, 40, 40, 0.8)';
+                    this.style.borderColor = 'rgba(255, 255, 255, 0.1)';
+                    this.style.color = '#888';
+                }
+            });
+
+            quickStartBtn.addEventListener('click', async () => {
+                if (filteredLists.length === 0) return;
+
+                const allItems = WordDB.getCombinedItemsForReview(filteredLists);
+
+                if (allItems.length === 0) {
+                    Utils.showErrorMessage(`All ${currentContentType} have been learned in the selected lists!`);
+                    return;
+                }
+
+                Utils.vibrate(100);
+
+                const shuffledItems = Utils.shuffleArray(allItems);
+                const sessionId = Utils.generateSessionId();
+                const sessionData = {
+                    sessionId: sessionId,
+                    lists: filteredLists.map(list => list.id || list.filename),
+                    items: shuffledItems,
+                    currentIndex: 0,
+                    contentType: currentContentType,
+                    timestamp: Date.now()
+                };
+
+                localStorage.setItem(sessionId, JSON.stringify(sessionData));
+                localStorage.setItem('currentSession', sessionId);
+
+                quickStartBtn.disabled = true;
+                quickStartBtn.innerHTML = '<span>Loading...</span>';
+
+                setTimeout(() => {
+                    window.location.href = `review-combined.html?session=${encodeURIComponent(sessionId)}`;
+                }, 300);
+            });
+
+            profileIcon.addEventListener('click', () => {
+                const stats = WordDB.getOverallStats();
+                const contentTypeDisplay = {
+                    'words': 'Words',
+                    'phrases': 'Phrases',
+                    'sentences': 'Sentences'
+                }[currentContentType];
+
+                const message = `📊 Profile statistics (${contentTypeDisplay}):\n\n📚 Total lists: ${stats.totalLists}\n🔤 Total items: ${stats.totalItems}\n🔄 Items for review: ${stats.totalForReview}\n✅ Known items: ${stats.totalKnown}\n⏳ Items to review: ${stats.totalReview}\n📈 Overall progress: ${stats.progressPercent}%`;
+
+                alert(message);
+                Utils.vibrate(50);
+            });
+
+            profileIcon.addEventListener('touchstart', function(e) {
+                e.preventDefault();
+                this.classList.add('active');
+            });
+
+            profileIcon.addEventListener('touchend', function(e) {
+                e.preventDefault();
+                this.classList.remove('active');
+                this.click();
+            });
+
+            let lastTouchEnd = 0;
+            document.addEventListener('touchend', function(event) {
+                const now = Date.now();
+                if (now - lastTouchEnd <= 300) {
+                    event.preventDefault();
+                }
+                lastTouchEnd = now;
+            }, false);
+
+            window.addEventListener('popstate', function(event) {
+                loadLists();
+            });
+
+            Utils.showLoader(listsContainer);
+            await loadListsByCurrentType();
+            setupFilters();
+            applyFilters();
+
+            document.addEventListener('contextmenu', function(e) {
+                if (Utils.isMobileDevice()) {
+                    e.preventDefault();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

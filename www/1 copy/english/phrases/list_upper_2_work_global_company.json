@@ -1,0 +1,367 @@
+{
+  "theme": "Работа в компании",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "large-organization-structure",
+      "english": "large organization structure",
+      "translation": "структура крупной организации",
+      "audio": [
+        "audio/phrases/large organization structure.wav"
+      ]
+    },
+    {
+      "id": "main-company-headquarters",
+      "english": "main company headquarters",
+      "translation": "главная штаб-квартира компании",
+      "audio": [
+        "audio/phrases/main company headquarters.wav"
+      ]
+    },
+    {
+      "id": "foreign-subsidiary-office",
+      "english": "foreign subsidiary office",
+      "translation": "иностранный филиал компании",
+      "audio": [
+        "audio/phrases/foreign subsidiary office.wav"
+      ]
+    },
+    {
+      "id": "sales-department-meeting",
+      "english": "sales department meeting",
+      "translation": "встреча отдела продаж",
+      "audio": [
+        "audio/phrases/sales department meeting.wav"
+      ]
+    },
+    {
+      "id": "regional-business-division",
+      "english": "regional business division",
+      "translation": "региональное подразделение бизнеса",
+      "audio": [
+        "audio/phrases/regional business division.wav"
+      ]
+    },
+    {
+      "id": "company-management-team",
+      "english": "company management team",
+      "translation": "команда руководства компании",
+      "audio": [
+        "audio/phrases/company management team.wav"
+      ]
+    },
+    {
+      "id": "strong-leadership-skills",
+      "english": "strong leadership skills",
+      "translation": "сильные лидерские навыки",
+      "audio": [
+        "audio/phrases/strong leadership skills.wav"
+      ]
+    },
+    {
+      "id": "direct-team-supervisor",
+      "english": "direct team supervisor",
+      "translation": "непосредственный руководитель команды",
+      "audio": [
+        "audio/phrases/direct team supervisor.wav"
+      ]
+    },
+    {
+      "id": "helpful-work-colleague",
+      "english": "helpful work colleague",
+      "translation": "отзывчивый рабочий коллега",
+      "audio": [
+        "audio/phrases/helpful work colleague.wav"
+      ]
+    },
+    {
+      "id": "international-project-counterpart",
+      "english": "international project counterpart",
+      "translation": "международный партнёр по проекту",
+      "audio": [
+        "audio/phrases/international project counterpart.wav"
+      ]
+    },
+    {
+      "id": "key-project-stakeholder",
+      "english": "key project stakeholder",
+      "translation": "ключевая заинтересованная сторона проекта",
+      "audio": [
+        "audio/phrases/key project stakeholder.wav"
+      ]
+    },
+    {
+      "id": "final-decision-maker",
+      "english": "final decision maker",
+      "translation": "окончательное лицо принимающее решение",
+      "audio": [
+        "audio/phrases/final decision maker.wav"
+      ]
+    },
+    {
+      "id": "clear-reporting-system",
+      "english": "clear reporting system",
+      "translation": "понятная система отчетности",
+      "audio": [
+        "audio/phrases/clear reporting system.wav"
+      ]
+    },
+    {
+      "id": "team-alignment-goals",
+      "english": "team alignment goals",
+      "translation": "согласованность целей команды",
+      "audio": [
+        "audio/phrases/team alignment goals.wav"
+      ]
+    },
+    {
+      "id": "effective-task-coordination",
+      "english": "effective task coordination",
+      "translation": "эффективная координация задач",
+      "audio": [
+        "audio/phrases/effective task coordination.wav"
+      ]
+    },
+    {
+      "id": "simple-work-process",
+      "english": "simple work process",
+      "translation": "простой рабочий процесс",
+      "audio": [
+        "audio/phrases/simple work process.wav"
+      ]
+    },
+    {
+      "id": "standard-safety-procedure",
+      "english": "standard safety procedure",
+      "translation": "стандартная процедура безопасности",
+      "audio": [
+        "audio/phrases/standard safety procedure.wav"
+      ]
+    },
+    {
+      "id": "optimize-daily-workflow",
+      "english": "optimize daily workflow",
+      "translation": "оптимизировать ежедневный рабочий процесс",
+      "audio": [
+        "audio/phrases/optimize daily workflow.wav"
+      ]
+    },
+    {
+      "id": "final-project-deliverable",
+      "english": "final project deliverable",
+      "translation": "итоговый результат проекта",
+      "audio": [
+        "audio/phrases/final project deliverable.wav"
+      ]
+    },
+    {
+      "id": "important-project-milestone",
+      "english": "important project milestone",
+      "translation": "важный этап проекта",
+      "audio": [
+        "audio/phrases/important project milestone.wav"
+      ]
+    },
+    {
+      "id": "tight-project-deadline",
+      "english": "tight project deadline",
+      "translation": "жёсткий срок проекта",
+      "audio": [
+        "audio/phrases/tight project deadline.wav"
+      ]
+    },
+    {
+      "id": "clear-project-timeline",
+      "english": "clear project timeline",
+      "translation": "понятный график проекта",
+      "audio": [
+        "audio/phrases/clear project timeline.wav"
+      ]
+    },
+    {
+      "id": "heavy-team-workload",
+      "english": "heavy team workload",
+      "translation": "большая нагрузка команды",
+      "audio": [
+        "audio/phrases/heavy team workload.wav"
+      ]
+    },
+    {
+      "id": "check-your-availability",
+      "english": "check your availability",
+      "translation": "проверить свою доступность",
+      "audio": [
+        "audio/phrases/check your availability.wav"
+      ]
+    },
+    {
+      "id": "schedule-a-meeting",
+      "english": "schedule a meeting",
+      "translation": "назначить встречу",
+      "audio": [
+        "audio/phrases/schedule a meeting.wav"
+      ]
+    },
+    {
+      "id": "meeting-agenda-items",
+      "english": "meeting agenda items",
+      "translation": "пункты повестки встречи",
+      "audio": [
+        "audio/phrases/meeting agenda items.wav"
+      ]
+    },
+    {
+      "id": "meeting-minutes-summary",
+      "english": "meeting minutes summary",
+      "translation": "краткий протокол встречи",
+      "audio": [
+        "audio/phrases/meeting minutes summary.wav"
+      ]
+    },
+    {
+      "id": "quick-follow-up",
+      "english": "quick follow up",
+      "translation": "быстрые последующие действия",
+      "audio": [
+        "audio/phrases/quick follow up.wav"
+      ]
+    },
+    {
+      "id": "assigned-action-item",
+      "english": "assigned action item",
+      "translation": "назначенный пункт к выполнению",
+      "audio": [
+        "audio/phrases/assigned action item.wav"
+      ]
+    },
+    {
+      "id": "open-team-communication",
+      "english": "open team communication",
+      "translation": "открытая командная коммуникация",
+      "audio": [
+        "audio/phrases/open team communication.wav"
+      ]
+    },
+    {
+      "id": "need-clarification-here",
+      "english": "need clarification here",
+      "translation": "нужно уточнение здесь",
+      "audio": [
+        "audio/phrases/need clarification here.wav"
+      ]
+    },
+    {
+      "id": "alignment-call-planned",
+      "english": "alignment call planned",
+      "translation": "созвон для синхронизации запланирован",
+      "audio": [
+        "audio/phrases/alignment call planned.wav"
+      ]
+    },
+    {
+      "id": "risk-escalation-process",
+      "english": "risk escalation process",
+      "translation": "процесс эскалации риска",
+      "audio": [
+        "audio/phrases/risk escalation process.wav"
+      ]
+    },
+    {
+      "id": "final-approval-stage",
+      "english": "final approval stage",
+      "translation": "финальный этап утверждения",
+      "audio": [
+        "audio/phrases/final approval stage.wav"
+      ]
+    },
+    {
+      "id": "shared-team-responsibility",
+      "english": "shared team responsibility",
+      "translation": "общая ответственность команды",
+      "audio": [
+        "audio/phrases/shared team responsibility.wav"
+      ]
+    },
+    {
+      "id": "take-full-ownership",
+      "english": "take full ownership",
+      "translation": "взять полную ответственность",
+      "audio": [
+        "audio/phrases/take full ownership.wav"
+      ]
+    },
+    {
+      "id": "personal-accountability-matters",
+      "english": "personal accountability matters",
+      "translation": "личная подотчетность важна",
+      "audio": [
+        "audio/phrases/personal accountability matters.wav"
+      ]
+    },
+    {
+      "id": "legal-compliance-check",
+      "english": "legal compliance check",
+      "translation": "проверка соответствия требованиям",
+      "audio": [
+        "audio/phrases/legal compliance check.wav"
+      ]
+    },
+    {
+      "id": "company-policy-update",
+      "english": "company policy update",
+      "translation": "обновление политики компании",
+      "audio": [
+        "audio/phrases/company policy update.wav"
+      ]
+    },
+    {
+      "id": "overall-team-performance",
+      "english": "overall team performance",
+      "translation": "общая результативность команды",
+      "audio": [
+        "audio/phrases/overall team performance.wav"
+      ]
+    },
+    {
+      "id": "annual-performance-evaluation",
+      "english": "annual performance evaluation",
+      "translation": "ежегодная оценка результатов",
+      "audio": [
+        "audio/phrases/annual performance evaluation.wav"
+      ]
+    },
+    {
+      "id": "honest-user-feedback",
+      "english": "honest user feedback",
+      "translation": "честная обратная связь пользователей",
+      "audio": [
+        "audio/phrases/honest user feedback.wav"
+      ]
+    },
+    {
+      "id": "continuous-improvement-process",
+      "english": "continuous improvement process",
+      "translation": "процесс постоянного улучшения",
+      "audio": [
+        "audio/phrases/continuous improvement process.wav"
+      ]
+    },
+    {
+      "id": "steady-business-growth",
+      "english": "steady business growth",
+      "translation": "стабильный рост бизнеса",
+      "audio": [
+        "audio/phrases/steady business growth.wav"
+      ]
+    },
+    {
+      "id": "current-team-capacity",
+      "english": "current team capacity",
+      "translation": "текущая загрузка команды",
+      "audio": [
+        "audio/phrases/current team capacity.wav"
+      ]
+    }
+  ]
+}

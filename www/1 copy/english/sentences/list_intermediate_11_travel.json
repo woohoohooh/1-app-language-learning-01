@@ -1,0 +1,327 @@
+{
+  "theme": "Путешествия",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "our-destination-is-a-small-coastal-town.",
+      "english": "Our destination is a small coastal town.",
+      "translation": "Наш пункт назначения — маленький прибрежный город.",
+      "audio": [
+        "audio/sentences/Our destination is a small coastal town..wav"
+      ]
+    },
+    {
+      "id": "we-took-a-trip-to-the-mountains.",
+      "english": "We took a trip to the mountains.",
+      "translation": "Мы совершили поездку в горы.",
+      "audio": [
+        "audio/sentences/We took a trip to the mountains..wav"
+      ]
+    },
+    {
+      "id": "the-route-goes-through-the-forest.",
+      "english": "The route goes through the forest.",
+      "translation": "Маршрут проходит через лес.",
+      "audio": [
+        "audio/sentences/The route goes through the forest..wav"
+      ]
+    },
+    {
+      "id": "the-schedule-has-been-updated-for-next-week.",
+      "english": "The schedule has been updated for next week.",
+      "translation": "Расписание обновлено на следующую неделю.",
+      "audio": [
+        "audio/sentences/The schedule has been updated for next week..wav"
+      ]
+    },
+    {
+      "id": "the-reservation-was-confirmed-by-email.",
+      "english": "The reservation was confirmed by email.",
+      "translation": "Бронирование было подтверждено по электронной почте.",
+      "audio": [
+        "audio/sentences/The reservation was confirmed by email..wav"
+      ]
+    },
+    {
+      "id": "i-completed-the-booking-yesterday.",
+      "english": "I completed the booking yesterday.",
+      "translation": "Я сделал бронирование вчера.",
+      "audio": [
+        "audio/sentences/I completed the booking yesterday..wav"
+      ]
+    },
+    {
+      "id": "we-received-the-confirmation-for-our-flight.",
+      "english": "We received the confirmation for our flight.",
+      "translation": "Мы получили подтверждение нашего рейса.",
+      "audio": [
+        "audio/sentences/We received the confirmation for our flight..wav"
+      ]
+    },
+    {
+      "id": "the-cancellation-was-unexpected.",
+      "english": "The cancellation was unexpected.",
+      "translation": "Отмена была неожиданной.",
+      "audio": [
+        "audio/sentences/The cancellation was unexpected..wav"
+      ]
+    },
+    {
+      "id": "the-accommodation-is-near-the-beach.",
+      "english": "The accommodation is near the beach.",
+      "translation": "Проживание находится рядом с пляжем.",
+      "audio": [
+        "audio/sentences/The accommodation is near the beach..wav"
+      ]
+    },
+    {
+      "id": "we-stayed-in-a-small-hostel-downtown.",
+      "english": "We stayed in a small hostel downtown.",
+      "translation": "Мы остановились в маленьком хостеле в центре города.",
+      "audio": [
+        "audio/sentences/We stayed in a small hostel downtown..wav"
+      ]
+    },
+    {
+      "id": "the-apartment-has-two-bedrooms.",
+      "english": "The apartment has two bedrooms.",
+      "translation": "В апартаментах две спальни.",
+      "audio": [
+        "audio/sentences/The apartment has two bedrooms..wav"
+      ]
+    },
+    {
+      "id": "check-in-starts-at-2-pm.",
+      "english": "Check-in starts at 2 PM.",
+      "translation": "Регистрация заезда начинается в 14:00.",
+      "audio": [
+        "audio/sentences/Check-in starts at 2 PM..wav"
+      ]
+    },
+    {
+      "id": "we-had-a-late-check-out-today.",
+      "english": "We had a late check-out today.",
+      "translation": "Сегодня у нас поздний выезд.",
+      "audio": [
+        "audio/sentences/We had a late check-out today..wav"
+      ]
+    },
+    {
+      "id": "the-border-was-busy-with-travelers.",
+      "english": "The border was busy with travelers.",
+      "translation": "На границе было много путешественников.",
+      "audio": [
+        "audio/sentences/The border was busy with travelers..wav"
+      ]
+    },
+    {
+      "id": "customs-checks-were-thorough.",
+      "english": "Customs checks were thorough.",
+      "translation": "Проверка на таможне была тщательной.",
+      "audio": [
+        "audio/sentences/Customs checks were thorough..wav"
+      ]
+    },
+    {
+      "id": "immigration-took-longer-than-expected.",
+      "english": "Immigration took longer than expected.",
+      "translation": "Иммиграционный контроль занял больше времени, чем ожидалось.",
+      "audio": [
+        "audio/sentences/Immigration took longer than expected..wav"
+      ]
+    },
+    {
+      "id": "i-received-my-visa-last-week.",
+      "english": "I received my visa last week.",
+      "translation": "Я получил визу на прошлой неделе.",
+      "audio": [
+        "audio/sentences/I received my visa last week..wav"
+      ]
+    },
+    {
+      "id": "the-document-was-submitted-yesterday.",
+      "english": "The document was submitted yesterday.",
+      "translation": "Документ был подан вчера.",
+      "audio": [
+        "audio/sentences/The document was submitted yesterday..wav"
+      ]
+    },
+    {
+      "id": "my-luggage-arrived-late-at-the-airport.",
+      "english": "My luggage arrived late at the airport.",
+      "translation": "Мой багаж прибыл с опозданием в аэропорт.",
+      "audio": [
+        "audio/sentences/My luggage arrived late at the airport..wav"
+      ]
+    },
+    {
+      "id": "the-baggage-was-damaged-during-transit.",
+      "english": "The baggage was damaged during transit.",
+      "translation": "Багаж был поврежден во время перевозки.",
+      "audio": [
+        "audio/sentences/The baggage was damaged during transit..wav"
+      ]
+    },
+    {
+      "id": "carry-on-items-must-fit-under-the-seat.",
+      "english": "Carry-on items must fit under the seat.",
+      "translation": "Ручная кладь должна помещаться под сиденьем.",
+      "audio": [
+        "audio/sentences/Carry-on items must fit under the seat..wav"
+      ]
+    },
+    {
+      "id": "he-lost-his-passport-during-the-trip.",
+      "english": "He lost his passport during the trip.",
+      "translation": "Он потерял паспорт во время поездки.",
+      "audio": [
+        "audio/sentences/He lost his passport during the trip..wav"
+      ]
+    },
+    {
+      "id": "the-suitcase-suffered-damage-during-flight.",
+      "english": "The suitcase suffered damage during flight.",
+      "translation": "Чемодан получил повреждения во время перелета.",
+      "audio": [
+        "audio/sentences/The suitcase suffered damage during flight..wav"
+      ]
+    },
+    {
+      "id": "transportation-in-the-city-is-efficient.",
+      "english": "Transportation in the city is efficient.",
+      "translation": "Транспорт в городе работает эффективно.",
+      "audio": [
+        "audio/sentences/Transportation in the city is efficient..wav"
+      ]
+    },
+    {
+      "id": "public-transport-is-crowded-at-peak-hours.",
+      "english": "Public transport is crowded at peak hours.",
+      "translation": "Общественный транспорт переполнен в часы пик.",
+      "audio": [
+        "audio/sentences/Public transport is crowded at peak hours..wav"
+      ]
+    },
+    {
+      "id": "the-transfer-to-the-hotel-was-smooth.",
+      "english": "The transfer to the hotel was smooth.",
+      "translation": "Трансфер до отеля прошел гладко.",
+      "audio": [
+        "audio/sentences/The transfer to the hotel was smooth..wav"
+      ]
+    },
+    {
+      "id": "we-rented-a-car-for-the-weekend.",
+      "english": "We rented a car for the weekend.",
+      "translation": "Мы арендовали автомобиль на выходные.",
+      "audio": [
+        "audio/sentences/We rented a car for the weekend..wav"
+      ]
+    },
+    {
+      "id": "navigation-helps-avoid-traffic.",
+      "english": "Navigation helps avoid traffic.",
+      "translation": "Навигация помогает избегать пробок.",
+      "audio": [
+        "audio/sentences/Navigation helps avoid traffic..wav"
+      ]
+    },
+    {
+      "id": "currency-rates-change-daily.",
+      "english": "Currency rates change daily.",
+      "translation": "Курсы валют меняются ежедневно.",
+      "audio": [
+        "audio/sentences/Currency rates change daily..wav"
+      ]
+    },
+    {
+      "id": "i-went-to-the-exchange-to-get-euros.",
+      "english": "I went to the exchange to get euros.",
+      "translation": "Я пошел в обменник, чтобы получить евро.",
+      "audio": [
+        "audio/sentences/I went to the exchange to get euros..wav"
+      ]
+    },
+    {
+      "id": "payment-was-completed-successfully.",
+      "english": "Payment was completed successfully.",
+      "translation": "Оплата была успешно завершена.",
+      "audio": [
+        "audio/sentences/Payment was completed successfully..wav"
+      ]
+    },
+    {
+      "id": "please-keep-the-receipt-for-warranty-purposes.",
+      "english": "Please keep the receipt for warranty purposes.",
+      "translation": "Пожалуйста, сохраните чек для гарантии.",
+      "audio": [
+        "audio/sentences/Please keep the receipt for warranty purposes..wav"
+      ]
+    },
+    {
+      "id": "insurance-covers-medical-emergencies-abroad.",
+      "english": "Insurance covers medical emergencies abroad.",
+      "translation": "Страховка покрывает медицинские чрезвычайные ситуации за границей.",
+      "audio": [
+        "audio/sentences/Insurance covers medical emergencies abroad..wav"
+      ]
+    },
+    {
+      "id": "emergency-services-responded-quickly.",
+      "english": "Emergency services responded quickly.",
+      "translation": "Службы чрезвычайных ситуаций отреагировали быстро.",
+      "audio": [
+        "audio/sentences/Emergency services responded quickly..wav"
+      ]
+    },
+    {
+      "id": "assistance-was-provided-at-the-airport.",
+      "english": "Assistance was provided at the airport.",
+      "translation": "Помощь была предоставлена в аэропорту.",
+      "audio": [
+        "audio/sentences/Assistance was provided at the airport..wav"
+      ]
+    },
+    {
+      "id": "the-complaint-was-reviewed-by-management.",
+      "english": "The complaint was reviewed by management.",
+      "translation": "Жалобу рассмотрело руководство.",
+      "audio": [
+        "audio/sentences/The complaint was reviewed by management..wav"
+      ]
+    },
+    {
+      "id": "support-helped-resolve-my-issue.",
+      "english": "Support helped resolve my issue.",
+      "translation": "Поддержка помогла решить мою проблему.",
+      "audio": [
+        "audio/sentences/Support helped resolve my issue..wav"
+      ]
+    },
+    {
+      "id": "the-journey-lasted-several-hours.",
+      "english": "The journey lasted several hours.",
+      "translation": "Путешествие длилось несколько часов.",
+      "audio": [
+        "audio/sentences/The journey lasted several hours..wav"
+      ]
+    },
+    {
+      "id": "room-availability-is-limited-during-holidays.",
+      "english": "Room availability is limited during holidays.",
+      "translation": "Наличие номеров ограничено в праздничные дни.",
+      "audio": [
+        "audio/sentences/Room availability is limited during holidays..wav"
+      ]
+    },
+    {
+      "id": "the-bank-charges-a-fee-for-transfers.",
+      "english": "The bank charges a fee for transfers.",
+      "translation": "Банк взимает комиссию за переводы.",
+      "audio": [
+        "audio/sentences/The bank charges a fee for transfers..wav"
+      ]
+    }
+  ]
+}

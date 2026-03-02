@@ -1,0 +1,287 @@
+{
+  "theme": "Принятие решений",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "final-decision",
+      "english": "final decision",
+      "translation": "окончательное решение",
+      "audio": [
+        "audio/phrases/final decision.wav"
+      ]
+    },
+    {
+      "id": "right-choice",
+      "english": "right choice",
+      "translation": "правильный выбор",
+      "audio": [
+        "audio/phrases/right choice.wav"
+      ]
+    },
+    {
+      "id": "best-option",
+      "english": "best option",
+      "translation": "лучший вариант",
+      "audio": [
+        "audio/phrases/best option.wav"
+      ]
+    },
+    {
+      "id": "safe-alternative",
+      "english": "safe alternative",
+      "translation": "безопасная альтернатива",
+      "audio": [
+        "audio/phrases/safe alternative.wav"
+      ]
+    },
+    {
+      "id": "careful-selection",
+      "english": "careful selection",
+      "translation": "тщательный отбор",
+      "audio": [
+        "audio/phrases/careful selection.wav"
+      ]
+    },
+    {
+      "id": "practical-approach",
+      "english": "practical approach",
+      "translation": "практичный подход",
+      "audio": [
+        "audio/phrases/practical approach.wav"
+      ]
+    },
+    {
+      "id": "long-term-strategy",
+      "english": "long term strategy",
+      "translation": "долгосрочная стратегия",
+      "audio": [
+        "audio/phrases/long term strategy.wav"
+      ]
+    },
+    {
+      "id": "clear-plan",
+      "english": "clear plan",
+      "translation": "чёткий план",
+      "audio": [
+        "audio/phrases/clear plan.wav"
+      ]
+    },
+    {
+      "id": "new-direction",
+      "english": "new direction",
+      "translation": "новое направление",
+      "audio": [
+        "audio/phrases/new direction.wav"
+      ]
+    },
+    {
+      "id": "top-priority",
+      "english": "top priority",
+      "translation": "главный приоритет",
+      "audio": [
+        "audio/phrases/top priority.wav"
+      ]
+    },
+    {
+      "id": "decision-criteria",
+      "english": "decision criteria",
+      "translation": "критерии решения",
+      "audio": [
+        "audio/phrases/decision criteria.wav"
+      ]
+    },
+    {
+      "id": "budget-constraint",
+      "english": "budget constraint",
+      "translation": "бюджетное ограничение",
+      "audio": [
+        "audio/phrases/budget constraint.wav"
+      ]
+    },
+    {
+      "id": "necessary-trade-off",
+      "english": "necessary trade off",
+      "translation": "необходимый компромисс",
+      "audio": [
+        "audio/phrases/necessary trade off.wav"
+      ]
+    },
+    {
+      "id": "technical-feasibility",
+      "english": "technical feasibility",
+      "translation": "техническая осуществимость",
+      "audio": [
+        "audio/phrases/technical feasibility.wav"
+      ]
+    },
+    {
+      "id": "long-term-viability",
+      "english": "long term viability",
+      "translation": "долгосрочная жизнеспособность",
+      "audio": [
+        "audio/phrases/long term viability.wav"
+      ]
+    },
+    {
+      "id": "acceptable-risk",
+      "english": "acceptable risk",
+      "translation": "допустимый риск",
+      "audio": [
+        "audio/phrases/acceptable risk.wav"
+      ]
+    },
+    {
+      "id": "high-uncertainty",
+      "english": "high uncertainty",
+      "translation": "высокая неопределённость",
+      "audio": [
+        "audio/phrases/high uncertainty.wav"
+      ]
+    },
+    {
+      "id": "high-probability",
+      "english": "high probability",
+      "translation": "высокая вероятность",
+      "audio": [
+        "audio/phrases/high probability.wav"
+      ]
+    },
+    {
+      "id": "direct-impact",
+      "english": "direct impact",
+      "translation": "прямое влияние",
+      "audio": [
+        "audio/phrases/direct impact.wav"
+      ]
+    },
+    {
+      "id": "final-outcome",
+      "english": "final outcome",
+      "translation": "итоговый результат",
+      "audio": [
+        "audio/phrases/final outcome.wav"
+      ]
+    },
+    {
+      "id": "serious-consequence",
+      "english": "serious consequence",
+      "translation": "серьёзное последствие",
+      "audio": [
+        "audio/phrases/serious consequence.wav"
+      ]
+    },
+    {
+      "id": "long-term-implication",
+      "english": "long term implication",
+      "translation": "долгосрочное последствие",
+      "audio": [
+        "audio/phrases/long term implication.wav"
+      ]
+    },
+    {
+      "id": "clear-benefit",
+      "english": "clear benefit",
+      "translation": "очевидная выгода",
+      "audio": [
+        "audio/phrases/clear benefit.wav"
+      ]
+    },
+    {
+      "id": "main-drawback",
+      "english": "main drawback",
+      "translation": "основной недостаток",
+      "audio": [
+        "audio/phrases/main drawback.wav"
+      ]
+    },
+    {
+      "id": "hidden-cost",
+      "english": "hidden cost",
+      "translation": "скрытая стоимость",
+      "audio": [
+        "audio/phrases/hidden cost.wav"
+      ]
+    },
+    {
+      "id": "personal-judgment",
+      "english": "personal judgment",
+      "translation": "личное суждение",
+      "audio": [
+        "audio/phrases/personal judgment.wav"
+      ]
+    },
+    {
+      "id": "careful-evaluation",
+      "english": "careful evaluation",
+      "translation": "тщательная оценка",
+      "audio": [
+        "audio/phrases/careful evaluation.wav"
+      ]
+    },
+    {
+      "id": "risk-assessment",
+      "english": "risk assessment",
+      "translation": "оценка рисков",
+      "audio": [
+        "audio/phrases/risk assessment.wav"
+      ]
+    },
+    {
+      "id": "under-consideration",
+      "english": "under consideration",
+      "translation": "на рассмотрении",
+      "audio": [
+        "audio/phrases/under consideration.wav"
+      ]
+    },
+    {
+      "id": "after-deliberation",
+      "english": "after deliberation",
+      "translation": "после обдумывания",
+      "audio": [
+        "audio/phrases/after deliberation.wav"
+      ]
+    },
+    {
+      "id": "strong-commitment",
+      "english": "strong commitment",
+      "translation": "твёрдое обязательство",
+      "audio": [
+        "audio/phrases/strong commitment.wav"
+      ]
+    },
+    {
+      "id": "take-responsibility",
+      "english": "take responsibility",
+      "translation": "взять ответственность",
+      "audio": [
+        "audio/phrases/take responsibility.wav"
+      ]
+    },
+    {
+      "id": "clear-accountability",
+      "english": "clear accountability",
+      "translation": "чёткая ответственность",
+      "audio": [
+        "audio/phrases/clear accountability.wav"
+      ]
+    },
+    {
+      "id": "growing-confidence",
+      "english": "growing confidence",
+      "translation": "растущая уверенность",
+      "audio": [
+        "audio/phrases/growing confidence.wav"
+      ]
+    },
+    {
+      "id": "brief-hesitation",
+      "english": "brief hesitation",
+      "translation": "короткое колебание",
+      "audio": [
+        "audio/phrases/brief hesitation.wav"
+      ]
+    }
+  ]
+}

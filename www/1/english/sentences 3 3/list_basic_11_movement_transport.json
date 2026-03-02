@@ -1,0 +1,207 @@
+{
+  "theme": "Движение и транспорт",
+  "level": "",
+  "name": "Words",
+  "items": [
+    {
+      "id": "move",
+      "english": "move",
+      "translation": "двигаться",
+      "audio": [
+        "audio/words/move.wav"
+      ]
+    },
+    {
+      "id": "walk",
+      "english": "walk",
+      "translation": "идти пешком",
+      "audio": [
+        "audio/words/walk.wav"
+      ]
+    },
+    {
+      "id": "run",
+      "english": "run",
+      "translation": "бежать",
+      "audio": [
+        "audio/words/run.wav"
+      ]
+    },
+    {
+      "id": "stop",
+      "english": "stop",
+      "translation": "останавливаться",
+      "audio": [
+        "audio/words/stop.wav"
+      ]
+    },
+    {
+      "id": "road",
+      "english": "road",
+      "translation": "дорога",
+      "audio": [
+        "audio/words/road.wav"
+      ]
+    },
+    {
+      "id": "street",
+      "english": "street",
+      "translation": "улица",
+      "audio": [
+        "audio/words/street.wav"
+      ]
+    },
+    {
+      "id": "way",
+      "english": "way",
+      "translation": "путь",
+      "audio": [
+        "audio/words/way.wav"
+      ]
+    },
+    {
+      "id": "direction",
+      "english": "direction",
+      "translation": "направление",
+      "audio": [
+        "audio/words/direction.wav"
+      ]
+    },
+    {
+      "id": "car",
+      "english": "car",
+      "translation": "машина",
+      "audio": [
+        "audio/words/car.wav"
+      ]
+    },
+    {
+      "id": "bus",
+      "english": "bus",
+      "translation": "автобус",
+      "audio": [
+        "audio/words/bus.wav"
+      ]
+    },
+    {
+      "id": "train",
+      "english": "train",
+      "translation": "поезд",
+      "audio": [
+        "audio/words/train.wav"
+      ]
+    },
+    {
+      "id": "taxi",
+      "english": "taxi",
+      "translation": "такси",
+      "audio": [
+        "audio/words/taxi.wav"
+      ]
+    },
+    {
+      "id": "subway",
+      "english": "subway",
+      "translation": "метро",
+      "audio": [
+        "audio/words/subway.wav"
+      ]
+    },
+    {
+      "id": "bike",
+      "english": "bike",
+      "translation": "велосипед",
+      "audio": [
+        "audio/words/bike.wav"
+      ]
+    },
+    {
+      "id": "bicycle",
+      "english": "bicycle",
+      "translation": "велосипед",
+      "audio": [
+        "audio/words/bicycle.wav"
+      ]
+    },
+    {
+      "id": "station",
+      "english": "station",
+      "translation": "станция",
+      "audio": [
+        "audio/words/station.wav"
+      ]
+    },
+    {
+      "id": "stop",
+      "english": "stop",
+      "translation": "остановка",
+      "audio": [
+        "audio/words/stop.wav"
+      ]
+    },
+    {
+      "id": "ticket",
+      "english": "ticket",
+      "translation": "билет",
+      "audio": [
+        "audio/words/ticket.wav"
+      ]
+    },
+    {
+      "id": "ride",
+      "english": "ride",
+      "translation": "поездка",
+      "audio": [
+        "audio/words/ride.wav"
+      ]
+    },
+    {
+      "id": "trip",
+      "english": "trip",
+      "translation": "путешествие",
+      "audio": [
+        "audio/words/trip.wav"
+      ]
+    },
+    {
+      "id": "drive",
+      "english": "drive",
+      "translation": "вести машину",
+      "audio": [
+        "audio/words/drive.wav"
+      ]
+    },
+    {
+      "id": "arrive",
+      "english": "arrive",
+      "translation": "прибывать",
+      "audio": [
+        "audio/words/arrive.wav"
+      ]
+    },
+    {
+      "id": "go",
+      "english": "go",
+      "translation": "идти",
+      "audio": [
+        "audio/words/go.wav"
+      ]
+    },
+    {
+      "id": "come",
+      "english": "come",
+      "translation": "приходить",
+      "audio": [
+        "audio/words/come.wav"
+      ]
+    },
+    {
+      "id": "leave",
+      "english": "leave",
+      "translation": "уезжать",
+      "audio": [
+        "audio/words/leave.wav"
+      ]
+    }
+  ]
+}

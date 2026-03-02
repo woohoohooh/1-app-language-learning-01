@@ -1,0 +1,27 @@
+{
+  "theme": "Веб-разработка",
+  "level": "Upper-Intermediate",
+  "name": "Phrases",
+  "items": [
+    { "id": "install-software", "original": "software", "english": "install software", "translation": "установить ПО" },
+    { "id": "build-application", "original": "application", "english": "build application", "translation": "создать приложение" },
+    { "id": "update-codebase", "original": "codebase", "english": "update codebase", "translation": "обновить кодовую базу" },
+    { "id": "clone-repository", "original": "repository", "english": "clone repository", "translation": "клонировать репозиторий" },
+    { "id": "make-commit", "original": "commit", "english": "make commit", "translation": "сделать коммит" },
+    { "id": "create-branch", "original": "branch", "english": "create branch", "translation": "создать ветку" },
+    { "id": "merge-branch", "original": "merge", "english": "merge branch", "translation": "слить ветку" },
+    { "id": "open-pull-request", "original": "pull request", "english": "open pull request", "translation": "открыть пулл-реквест" },
+    { "id": "use-version-control", "original": "version control", "english": "use version control", "translation": "использовать контроль версий" },
+    { "id": "run-deployment", "original": "deployment", "english": "run deployment", "translation": "запустить деплой" },
+    { "id": "build-project", "original": "build", "english": "build project", "translation": "собрать проект" },
+    { "id": "make-release", "original": "release", "english": "make release", "translation": "сделать релиз" },
+    { "id": "setup-pipeline", "original": "pipeline", "english": "setup pipeline", "translation": "настроить пайплайн" },
+    { "id": "use-automation", "original": "automation", "english": "use automation", "translation": "использовать автоматизацию" },
+    { "id": "add-integration", "original": "integration", "english": "add integration", "translation": "добавить интеграцию" },
+    { "id": "learn-framework", "original": "framework", "english": "learn framework", "translation": "изучать фреймворк" },
+    { "id": "use-library", "original": "library", "english": "use library", "translation": "использовать библиотеку" },
+    { "id": "install-dependency", "original": "dependency", "english": "install dependency", "translation": "установить зависимость" },
+    { "id": "publish-package", "original": "package", "english": "publish package", "translation": "опубликовать пакет" },
+    { "id": "create-module", "original": "module", "english": "create module", "translation": "создать модуль" }
+  ]
+}

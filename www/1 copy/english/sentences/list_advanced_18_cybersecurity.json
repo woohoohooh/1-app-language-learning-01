@@ -1,0 +1,367 @@
+{
+  "theme": "Цифровая безопасность",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "security-protects-sensitive-information.",
+      "english": "Security protects sensitive information.",
+      "translation": "Безопасность защищает конфиденциальную информацию.",
+      "audio": [
+        "audio/sentences/Security protects sensitive information..wav"
+      ]
+    },
+    {
+      "id": "cybersecurity-is-critical-for-modern-companies.",
+      "english": "Cybersecurity is critical for modern companies.",
+      "translation": "Кибербезопасность критически важна для современных компаний.",
+      "audio": [
+        "audio/sentences/Cybersecurity is critical for modern companies..wav"
+      ]
+    },
+    {
+      "id": "privacy-must-be-respected-online.",
+      "english": "Privacy must be respected online.",
+      "translation": "Конфиденциальность должна соблюдаться в интернете.",
+      "audio": [
+        "audio/sentences/Privacy must be respected online..wav"
+      ]
+    },
+    {
+      "id": "protection-reduces-potential-damage.",
+      "english": "Protection reduces potential damage.",
+      "translation": "Защита снижает возможный ущерб.",
+      "audio": [
+        "audio/sentences/Protection reduces potential damage..wav"
+      ]
+    },
+    {
+      "id": "the-threat-was-detected-early.",
+      "english": "The threat was detected early.",
+      "translation": "Угроза была обнаружена на ранней стадии.",
+      "audio": [
+        "audio/sentences/The threat was detected early..wav"
+      ]
+    },
+    {
+      "id": "the-attack-targeted-user-accounts.",
+      "english": "The attack targeted user accounts.",
+      "translation": "Атака была направлена на аккаунты пользователей.",
+      "audio": [
+        "audio/sentences/The attack targeted user accounts..wav"
+      ]
+    },
+    {
+      "id": "the-breach-exposed-private-records.",
+      "english": "The breach exposed private records.",
+      "translation": "Утечка привела к раскрытию личных данных.",
+      "audio": [
+        "audio/sentences/The breach exposed private records..wav"
+      ]
+    },
+    {
+      "id": "this-vulnerability-requires-immediate-attention.",
+      "english": "This vulnerability requires immediate attention.",
+      "translation": "Эта уязвимость требует немедленного внимания.",
+      "audio": [
+        "audio/sentences/This vulnerability requires immediate attention..wav"
+      ]
+    },
+    {
+      "id": "every-decision-involves-some-risk.",
+      "english": "Every decision involves some risk.",
+      "translation": "Любое решение связано с определённым риском.",
+      "audio": [
+        "audio/sentences/Every decision involves some risk..wav"
+      ]
+    },
+    {
+      "id": "the-incident-was-reported-quickly.",
+      "english": "The incident was reported quickly.",
+      "translation": "Инцидент был быстро зафиксирован.",
+      "audio": [
+        "audio/sentences/The incident was reported quickly..wav"
+      ]
+    },
+    {
+      "id": "malware-can-damage-entire-systems.",
+      "english": "Malware can damage entire systems.",
+      "translation": "Вредоносное ПО может повредить целые системы.",
+      "audio": [
+        "audio/sentences/Malware can damage entire systems..wav"
+      ]
+    },
+    {
+      "id": "the-virus-spread-through-email.",
+      "english": "The virus spread through email.",
+      "translation": "Вирус распространялся через электронную почту.",
+      "audio": [
+        "audio/sentences/The virus spread through email..wav"
+      ]
+    },
+    {
+      "id": "ransomware-locked-all-company-files.",
+      "english": "Ransomware locked all company files.",
+      "translation": "Вымогательское ПО заблокировало все файлы компании.",
+      "audio": [
+        "audio/sentences/Ransomware locked all company files..wav"
+      ]
+    },
+    {
+      "id": "spyware-secretly-tracks-user-activity.",
+      "english": "Spyware secretly tracks user activity.",
+      "translation": "Шпионское ПО тайно отслеживает действия пользователя.",
+      "audio": [
+        "audio/sentences/Spyware secretly tracks user activity..wav"
+      ]
+    },
+    {
+      "id": "the-trojan-disguised-itself-as-software.",
+      "english": "The trojan disguised itself as software.",
+      "translation": "Троян маскировался под обычную программу.",
+      "audio": [
+        "audio/sentences/The trojan disguised itself as software..wav"
+      ]
+    },
+    {
+      "id": "phishing-targets-unsuspecting-users.",
+      "english": "Phishing targets unsuspecting users.",
+      "translation": "Фишинг нацелен на доверчивых пользователей.",
+      "audio": [
+        "audio/sentences/Phishing targets unsuspecting users..wav"
+      ]
+    },
+    {
+      "id": "the-scam-promised-quick-profits.",
+      "english": "The scam promised quick profits.",
+      "translation": "Мошенничество обещало быстрый доход.",
+      "audio": [
+        "audio/sentences/The scam promised quick profits..wav"
+      ]
+    },
+    {
+      "id": "fraud-undermines-digital-trust.",
+      "english": "Fraud undermines digital trust.",
+      "translation": "Мошенничество подрывает цифровое доверие.",
+      "audio": [
+        "audio/sentences/Fraud undermines digital trust..wav"
+      ]
+    },
+    {
+      "id": "spoofing-hides-the-real-sender.",
+      "english": "Spoofing hides the real sender.",
+      "translation": "Подмена скрывает настоящего отправителя.",
+      "audio": [
+        "audio/sentences/Spoofing hides the real sender..wav"
+      ]
+    },
+    {
+      "id": "social-engineering-exploits-human-behavior.",
+      "english": "Social engineering exploits human behavior.",
+      "translation": "Социальная инженерия использует особенности человеческого поведения.",
+      "audio": [
+        "audio/sentences/Social engineering exploits human behavior..wav"
+      ]
+    },
+    {
+      "id": "authentication-verifies-the-identity-of-a-user.",
+      "english": "Authentication verifies the identity of a user.",
+      "translation": "Аутентификация проверяет личность пользователя.",
+      "audio": [
+        "audio/sentences/Authentication verifies the identity of a user..wav"
+      ]
+    },
+    {
+      "id": "authorization-defines-what-actions-are-allowed.",
+      "english": "Authorization defines what actions are allowed.",
+      "translation": "Авторизация определяет, какие действия разрешены.",
+      "audio": [
+        "audio/sentences/Authorization defines what actions are allowed..wav"
+      ]
+    },
+    {
+      "id": "a-strong-password-protects-sensitive-data.",
+      "english": "A strong password protects sensitive data.",
+      "translation": "Надёжный пароль защищает конфиденциальные данные.",
+      "audio": [
+        "audio/sentences/A strong password protects sensitive data..wav"
+      ]
+    },
+    {
+      "id": "credentials-must-be-stored-securely.",
+      "english": "Credentials must be stored securely.",
+      "translation": "Учётные данные должны храниться безопасно.",
+      "audio": [
+        "audio/sentences/Credentials must be stored securely..wav"
+      ]
+    },
+    {
+      "id": "access-is-limited-to-authorized-staff.",
+      "english": "Access is limited to authorized staff.",
+      "translation": "Доступ ограничен для авторизованного персонала.",
+      "audio": [
+        "audio/sentences/Access is limited to authorized staff..wav"
+      ]
+    },
+    {
+      "id": "encryption-protects-data-during-transmission.",
+      "english": "Encryption protects data during transmission.",
+      "translation": "Шифрование защищает данные при передаче.",
+      "audio": [
+        "audio/sentences/Encryption protects data during transmission..wav"
+      ]
+    },
+    {
+      "id": "decryption-restores-encrypted-information.",
+      "english": "Decryption restores encrypted information.",
+      "translation": "Расшифровка восстанавливает зашифрованную информацию.",
+      "audio": [
+        "audio/sentences/Decryption restores encrypted information..wav"
+      ]
+    },
+    {
+      "id": "the-key-must-remain-confidential.",
+      "english": "The key must remain confidential.",
+      "translation": "Ключ должен оставаться конфиденциальным.",
+      "audio": [
+        "audio/sentences/The key must remain confidential..wav"
+      ]
+    },
+    {
+      "id": "the-certificate-confirms-a-trusted-connection.",
+      "english": "The certificate confirms a trusted connection.",
+      "translation": "Сертификат подтверждает доверенное соединение.",
+      "audio": [
+        "audio/sentences/The certificate confirms a trusted connection..wav"
+      ]
+    },
+    {
+      "id": "a-hash-hides-the-original-value.",
+      "english": "A hash hides the original value.",
+      "translation": "Хэш скрывает исходное значение.",
+      "audio": [
+        "audio/sentences/A hash hides the original value..wav"
+      ]
+    },
+    {
+      "id": "the-firewall-blocks-unauthorized-traffic.",
+      "english": "The firewall blocks unauthorized traffic.",
+      "translation": "Межсетевой экран блокирует несанкционированный трафик.",
+      "audio": [
+        "audio/sentences/The firewall blocks unauthorized traffic..wav"
+      ]
+    },
+    {
+      "id": "antivirus-detects-malicious-programs.",
+      "english": "Antivirus detects malicious programs.",
+      "translation": "Антивирус обнаруживает вредоносные программы.",
+      "audio": [
+        "audio/sentences/Antivirus detects malicious programs..wav"
+      ]
+    },
+    {
+      "id": "a-vpn-encrypts-internet-traffic.",
+      "english": "A VPN encrypts internet traffic.",
+      "translation": "VPN шифрует интернет-трафик.",
+      "audio": [
+        "audio/sentences/A VPN encrypts internet traffic..wav"
+      ]
+    },
+    {
+      "id": "the-network-connects-multiple-systems.",
+      "english": "The network connects multiple systems.",
+      "translation": "Сеть соединяет несколько систем.",
+      "audio": [
+        "audio/sentences/The network connects multiple systems..wav"
+      ]
+    },
+    {
+      "id": "each-endpoint-requires-protection.",
+      "english": "Each endpoint requires protection.",
+      "translation": "Каждое конечное устройство требует защиты.",
+      "audio": [
+        "audio/sentences/Each endpoint requires protection..wav"
+      ]
+    },
+    {
+      "id": "monitoring-helps-detect-anomalies-early.",
+      "english": "Monitoring helps detect anomalies early.",
+      "translation": "Мониторинг помогает рано выявлять аномалии.",
+      "audio": [
+        "audio/sentences/Monitoring helps detect anomalies early..wav"
+      ]
+    },
+    {
+      "id": "logging-records-all-critical-actions.",
+      "english": "Logging records all critical actions.",
+      "translation": "Журналирование фиксирует все критические действия.",
+      "audio": [
+        "audio/sentences/Logging records all critical actions..wav"
+      ]
+    },
+    {
+      "id": "detection-identifies-potential-attacks.",
+      "english": "Detection identifies potential attacks.",
+      "translation": "Обнаружение выявляет возможные атаки.",
+      "audio": [
+        "audio/sentences/Detection identifies potential attacks..wav"
+      ]
+    },
+    {
+      "id": "response-time-is-critical-during-incidents.",
+      "english": "Response time is critical during incidents.",
+      "translation": "Время реагирования критично при инцидентах.",
+      "audio": [
+        "audio/sentences/Response time is critical during incidents..wav"
+      ]
+    },
+    {
+      "id": "mitigation-reduces-potential-damage.",
+      "english": "Mitigation reduces potential damage.",
+      "translation": "Снижение риска уменьшает возможный ущерб.",
+      "audio": [
+        "audio/sentences/Mitigation reduces potential damage..wav"
+      ]
+    },
+    {
+      "id": "a-backup-ensures-data-availability.",
+      "english": "A backup ensures data availability.",
+      "translation": "Резервная копия обеспечивает доступность данных.",
+      "audio": [
+        "audio/sentences/A backup ensures data availability..wav"
+      ]
+    },
+    {
+      "id": "recovery-restores-operations-after-failure.",
+      "english": "Recovery restores operations after failure.",
+      "translation": "Восстановление возвращает работу после сбоя.",
+      "audio": [
+        "audio/sentences/Recovery restores operations after failure..wav"
+      ]
+    },
+    {
+      "id": "compliance-is-required-by-regulations.",
+      "english": "Compliance is required by regulations.",
+      "translation": "Соответствие требованиям предписано регуляциями.",
+      "audio": [
+        "audio/sentences/Compliance is required by regulations..wav"
+      ]
+    },
+    {
+      "id": "the-policy-defines-security-rules.",
+      "english": "The policy defines security rules.",
+      "translation": "Политика определяет правила безопасности.",
+      "audio": [
+        "audio/sentences/The policy defines security rules..wav"
+      ]
+    },
+    {
+      "id": "regulation-sets-mandatory-standards.",
+      "english": "Regulation sets mandatory standards.",
+      "translation": "Регулирование устанавливает обязательные стандарты.",
+      "audio": [
+        "audio/sentences/Regulation sets mandatory standards..wav"
+      ]
+    }
+  ]
+}

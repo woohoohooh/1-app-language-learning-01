@@ -1,0 +1,343 @@
+{
+  "theme": "Технологии и интернет",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "technology",
+      "english": "technology",
+      "translation": "технология",
+      "audio": [
+        "audio/words/technology.wav"
+      ]
+    },
+    {
+      "id": "internet",
+      "english": "internet",
+      "translation": "интернет",
+      "audio": [
+        "audio/words/internet.wav"
+      ]
+    },
+    {
+      "id": "network",
+      "english": "network",
+      "translation": "сеть",
+      "audio": [
+        "audio/words/network.wav"
+      ]
+    },
+    {
+      "id": "connection",
+      "english": "connection",
+      "translation": "соединение",
+      "audio": [
+        "audio/words/connection.wav"
+      ]
+    },
+    {
+      "id": "access",
+      "english": "access",
+      "translation": "доступ",
+      "audio": [
+        "audio/words/access.wav"
+      ]
+    },
+    {
+      "id": "website",
+      "english": "website",
+      "translation": "веб-сайт",
+      "audio": [
+        "audio/words/website.wav"
+      ]
+    },
+    {
+      "id": "web-page",
+      "english": "web page",
+      "translation": "веб-страница",
+      "audio": [
+        "audio/words/web page.wav"
+      ]
+    },
+    {
+      "id": "platform",
+      "english": "platform",
+      "translation": "платформа",
+      "audio": [
+        "audio/words/platform.wav"
+      ]
+    },
+    {
+      "id": "service",
+      "english": "service",
+      "translation": "онлайн-сервис",
+      "audio": [
+        "audio/words/service.wav"
+      ]
+    },
+    {
+      "id": "application",
+      "english": "application",
+      "translation": "приложение",
+      "audio": [
+        "audio/words/application.wav"
+      ]
+    },
+    {
+      "id": "browser",
+      "english": "browser",
+      "translation": "браузер",
+      "audio": [
+        "audio/words/browser.wav"
+      ]
+    },
+    {
+      "id": "search-engine",
+      "english": "search engine",
+      "translation": "поисковая система",
+      "audio": [
+        "audio/words/search engine.wav"
+      ]
+    },
+    {
+      "id": "link",
+      "english": "link",
+      "translation": "ссылка",
+      "audio": [
+        "audio/words/link.wav"
+      ]
+    },
+    {
+      "id": "download",
+      "english": "download",
+      "translation": "загрузка",
+      "audio": [
+        "audio/words/download.wav"
+      ]
+    },
+    {
+      "id": "upload",
+      "english": "upload",
+      "translation": "загрузка",
+      "audio": [
+        "audio/words/upload.wav"
+      ]
+    },
+    {
+      "id": "data",
+      "english": "data",
+      "translation": "данные",
+      "audio": [
+        "audio/words/data.wav"
+      ]
+    },
+    {
+      "id": "information",
+      "english": "information",
+      "translation": "информация",
+      "audio": [
+        "audio/words/information.wav"
+      ]
+    },
+    {
+      "id": "content",
+      "english": "content",
+      "translation": "контент",
+      "audio": [
+        "audio/words/content.wav"
+      ]
+    },
+    {
+      "id": "file",
+      "english": "file",
+      "translation": "файл",
+      "audio": [
+        "audio/words/file.wav"
+      ]
+    },
+    {
+      "id": "storage",
+      "english": "storage",
+      "translation": "хранилище",
+      "audio": [
+        "audio/words/storage.wav"
+      ]
+    },
+    {
+      "id": "cloud",
+      "english": "cloud",
+      "translation": "облако",
+      "audio": [
+        "audio/words/cloud.wav"
+      ]
+    },
+    {
+      "id": "business",
+      "english": "business",
+      "translation": "бизнес",
+      "audio": [
+        "audio/words/business.wav"
+      ]
+    },
+    {
+      "id": "company",
+      "english": "company",
+      "translation": "компания",
+      "audio": [
+        "audio/words/company.wav"
+      ]
+    },
+    {
+      "id": "firm",
+      "english": "firm",
+      "translation": "фирма",
+      "audio": [
+        "audio/words/firm.wav"
+      ]
+    },
+    {
+      "id": "enterprise",
+      "english": "enterprise",
+      "translation": "предприятие",
+      "audio": [
+        "audio/words/enterprise.wav"
+      ]
+    },
+    {
+      "id": "organization",
+      "english": "organization",
+      "translation": "организация",
+      "audio": [
+        "audio/words/organization.wav"
+      ]
+    },
+    {
+      "id": "market",
+      "english": "market",
+      "translation": "рынок",
+      "audio": [
+        "audio/words/market.wav"
+      ]
+    },
+    {
+      "id": "industry",
+      "english": "industry",
+      "translation": "отрасль",
+      "audio": [
+        "audio/words/industry.wav"
+      ]
+    },
+    {
+      "id": "competition",
+      "english": "competition",
+      "translation": "конкуренция",
+      "audio": [
+        "audio/words/competition.wav"
+      ]
+    },
+    {
+      "id": "competitor",
+      "english": "competitor",
+      "translation": "конкурент",
+      "audio": [
+        "audio/words/competitor.wav"
+      ]
+    },
+    {
+      "id": "demand",
+      "english": "demand",
+      "translation": "спрос",
+      "audio": [
+        "audio/words/demand.wav"
+      ]
+    },
+    {
+      "id": "supply",
+      "english": "supply",
+      "translation": "предложение",
+      "audio": [
+        "audio/words/supply.wav"
+      ]
+    },
+    {
+      "id": "customer",
+      "english": "customer",
+      "translation": "клиент",
+      "audio": [
+        "audio/words/customer.wav"
+      ]
+    },
+    {
+      "id": "client",
+      "english": "client",
+      "translation": "клиент",
+      "audio": [
+        "audio/words/client.wav"
+      ]
+    },
+    {
+      "id": "consumer",
+      "english": "consumer",
+      "translation": "потребитель",
+      "audio": [
+        "audio/words/consumer.wav"
+      ]
+    },
+    {
+      "id": "partner",
+      "english": "partner",
+      "translation": "партнёр",
+      "audio": [
+        "audio/words/partner.wav"
+      ]
+    },
+    {
+      "id": "product",
+      "english": "product",
+      "translation": "продукт",
+      "audio": [
+        "audio/words/product.wav"
+      ]
+    },
+    {
+      "id": "service",
+      "english": "service",
+      "translation": "услуга",
+      "audio": [
+        "audio/words/service.wav"
+      ]
+    },
+    {
+      "id": "value",
+      "english": "value",
+      "translation": "ценность",
+      "audio": [
+        "audio/words/value.wav"
+      ]
+    },
+    {
+      "id": "price",
+      "english": "price",
+      "translation": "цена",
+      "audio": [
+        "audio/words/price.wav"
+      ]
+    },
+    {
+      "id": "cost",
+      "english": "cost",
+      "translation": "затраты",
+      "audio": [
+        "audio/words/cost.wav"
+      ]
+    },
+    {
+      "id": "revenue",
+      "english": "revenue",
+      "translation": "выручка",
+      "audio": [
+        "audio/words/revenue.wav"
+      ]
+    }
+  ]
+}

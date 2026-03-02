@@ -1,0 +1,287 @@
+{
+  "theme": "Социальные сети",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "use-social-media-daily",
+      "english": "use social media daily",
+      "translation": "использовать социальные сети ежедневно",
+      "audio": [
+        "audio/phrases/use social media daily.wav"
+      ]
+    },
+    {
+      "id": "choose-a-platform-wisely",
+      "english": "choose a platform wisely",
+      "translation": "выбрать платформу разумно",
+      "audio": [
+        "audio/phrases/choose a platform wisely.wav"
+      ]
+    },
+    {
+      "id": "update-your-profile",
+      "english": "update your profile",
+      "translation": "обновить свой профиль",
+      "audio": [
+        "audio/phrases/update your profile.wav"
+      ]
+    },
+    {
+      "id": "create-a-new-account",
+      "english": "create a new account",
+      "translation": "создать новый аккаунт",
+      "audio": [
+        "audio/phrases/create a new account.wav"
+      ]
+    },
+    {
+      "id": "enter-username-correctly",
+      "english": "enter username correctly",
+      "translation": "ввести имя пользователя правильно",
+      "audio": [
+        "audio/phrases/enter username correctly.wav"
+      ]
+    },
+    {
+      "id": "view-a-story",
+      "english": "view a story",
+      "translation": "просмотреть историю",
+      "audio": [
+        "audio/phrases/view a story.wav"
+      ]
+    },
+    {
+      "id": "scroll-the-feed",
+      "english": "scroll the feed",
+      "translation": "листать ленту",
+      "audio": [
+        "audio/phrases/scroll the feed.wav"
+      ]
+    },
+    {
+      "id": "create-engaging-content",
+      "english": "create engaging content",
+      "translation": "создавать интересный контент",
+      "audio": [
+        "audio/phrases/create engaging content.wav"
+      ]
+    },
+    {
+      "id": "upload-a-file",
+      "english": "upload a file",
+      "translation": "загрузить файл",
+      "audio": [
+        "audio/phrases/upload a file.wav"
+      ]
+    },
+    {
+      "id": "leave-a-comment",
+      "english": "leave a comment",
+      "translation": "оставить комментарий",
+      "audio": [
+        "audio/phrases/leave a comment.wav"
+      ]
+    },
+    {
+      "id": "write-a-reply",
+      "english": "write a reply",
+      "translation": "написать ответ",
+      "audio": [
+        "audio/phrases/write a reply.wav"
+      ]
+    },
+    {
+      "id": "send-a-message",
+      "english": "send a message",
+      "translation": "отправить сообщение",
+      "audio": [
+        "audio/phrases/send a message.wav"
+      ]
+    },
+    {
+      "id": "start-a-chat",
+      "english": "start a chat",
+      "translation": "начать чат",
+      "audio": [
+        "audio/phrases/start a chat.wav"
+      ]
+    },
+    {
+      "id": "check-notifications",
+      "english": "check notifications",
+      "translation": "проверить уведомления",
+      "audio": [
+        "audio/phrases/check notifications.wav"
+      ]
+    },
+    {
+      "id": "give-a-like",
+      "english": "give a like",
+      "translation": "поставить лайк",
+      "audio": [
+        "audio/phrases/give a like.wav"
+      ]
+    },
+    {
+      "id": "see-reactions",
+      "english": "see reactions",
+      "translation": "смотреть реакции",
+      "audio": [
+        "audio/phrases/see reactions.wav"
+      ]
+    },
+    {
+      "id": "write-a-post",
+      "english": "write a post",
+      "translation": "написать пост",
+      "audio": [
+        "audio/phrases/write a post.wav"
+      ]
+    },
+    {
+      "id": "share-this-post",
+      "english": "share this post",
+      "translation": "поделиться этим постом",
+      "audio": [
+        "audio/phrases/share this post.wav"
+      ]
+    },
+    {
+      "id": "report-inappropriate-content",
+      "english": "report inappropriate content",
+      "translation": "подать жалобу на неподходящий контент",
+      "audio": [
+        "audio/phrases/report inappropriate content.wav"
+      ]
+    },
+    {
+      "id": "repost-a-message",
+      "english": "repost a message",
+      "translation": "сделать репост сообщения",
+      "audio": [
+        "audio/phrases/repost a message.wav"
+      ]
+    },
+    {
+      "id": "save-your-work",
+      "english": "save your work",
+      "translation": "сохранять свою работу",
+      "audio": [
+        "audio/phrases/save your work.wav"
+      ]
+    },
+    {
+      "id": "gain-a-follower",
+      "english": "gain a follower",
+      "translation": "получить подписчика",
+      "audio": [
+        "audio/phrases/gain a follower.wav"
+      ]
+    },
+    {
+      "id": "check-your-following",
+      "english": "check your following",
+      "translation": "проверить свои подписки",
+      "audio": [
+        "audio/phrases/check your following.wav"
+      ]
+    },
+    {
+      "id": "subscribe-to-channel",
+      "english": "subscribe to channel",
+      "translation": "подписаться на канал",
+      "audio": [
+        "audio/phrases/subscribe to channel.wav"
+      ]
+    },
+    {
+      "id": "unsubscribe-from-email",
+      "english": "unsubscribe from email",
+      "translation": "отписаться от рассылки",
+      "audio": [
+        "audio/phrases/unsubscribe from email.wav"
+      ]
+    },
+    {
+      "id": "block-a-user",
+      "english": "block a user",
+      "translation": "заблокировать пользователя",
+      "audio": [
+        "audio/phrases/block a user.wav"
+      ]
+    },
+    {
+      "id": "stay-online",
+      "english": "stay online",
+      "translation": "оставаться в сети",
+      "audio": [
+        "audio/phrases/stay online.wav"
+      ]
+    },
+    {
+      "id": "go-offline",
+      "english": "go offline",
+      "translation": "уйти не в сети",
+      "audio": [
+        "audio/phrases/go offline.wav"
+      ]
+    },
+    {
+      "id": "update-status",
+      "english": "update status",
+      "translation": "обновить статус",
+      "audio": [
+        "audio/phrases/update status.wav"
+      ]
+    },
+    {
+      "id": "check-privacy-settings",
+      "english": "check privacy settings",
+      "translation": "проверить настройки приватности",
+      "audio": [
+        "audio/phrases/check privacy settings.wav"
+      ]
+    },
+    {
+      "id": "adjust-settings",
+      "english": "adjust settings",
+      "translation": "настроить параметры",
+      "audio": [
+        "audio/phrases/adjust settings.wav"
+      ]
+    },
+    {
+      "id": "follow-the-trend",
+      "english": "follow the trend",
+      "translation": "следовать тренду",
+      "audio": [
+        "audio/phrases/follow the trend.wav"
+      ]
+    },
+    {
+      "id": "viral-video",
+      "english": "viral video",
+      "translation": "вирусное видео",
+      "audio": [
+        "audio/phrases/viral video.wav"
+      ]
+    },
+    {
+      "id": "join-the-community",
+      "english": "join the community",
+      "translation": "вступить в сообщество",
+      "audio": [
+        "audio/phrases/join the community.wav"
+      ]
+    },
+    {
+      "id": "moderation-rules",
+      "english": "moderation rules",
+      "translation": "правила модерации",
+      "audio": [
+        "audio/phrases/moderation rules.wav"
+      ]
+    }
+  ]
+}

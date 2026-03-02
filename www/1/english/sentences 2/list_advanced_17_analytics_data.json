@@ -1,0 +1,232 @@
+{
+  "theme": "Аналитика и данные",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "data",
+      "english": "data",
+      "translation": "данные"
+    },
+    {
+      "id": "analytics",
+      "english": "analytics",
+      "translation": "аналитика"
+    },
+    {
+      "id": "dataset",
+      "english": "dataset",
+      "translation": "набор данных"
+    },
+    {
+      "id": "database",
+      "english": "database",
+      "translation": "база данных"
+    },
+    {
+      "id": "table",
+      "english": "table",
+      "translation": "таблица"
+    },
+    {
+      "id": "record",
+      "english": "record",
+      "translation": "запись"
+    },
+    {
+      "id": "field",
+      "english": "field",
+      "translation": "поле"
+    },
+    {
+      "id": "column",
+      "english": "column",
+      "translation": "столбец"
+    },
+    {
+      "id": "row",
+      "english": "row",
+      "translation": "строка"
+    },
+    {
+      "id": "value",
+      "english": "value",
+      "translation": "значение"
+    },
+    {
+      "id": "metric",
+      "english": "metric",
+      "translation": "метрика"
+    },
+    {
+      "id": "kpi",
+      "english": "KPI",
+      "translation": "ключевой показатель"
+    },
+    {
+      "id": "indicator",
+      "english": "indicator",
+      "translation": "показатель"
+    },
+    {
+      "id": "measurement",
+      "english": "measurement",
+      "translation": "измерение"
+    },
+    {
+      "id": "benchmark",
+      "english": "benchmark",
+      "translation": "бенчмарк"
+    },
+    {
+      "id": "trend",
+      "english": "trend",
+      "translation": "тренд"
+    },
+    {
+      "id": "pattern",
+      "english": "pattern",
+      "translation": "закономерность"
+    },
+    {
+      "id": "correlation",
+      "english": "correlation",
+      "translation": "корреляция"
+    },
+    {
+      "id": "distribution",
+      "english": "distribution",
+      "translation": "распределение"
+    },
+    {
+      "id": "variance",
+      "english": "variance",
+      "translation": "дисперсия"
+    },
+    {
+      "id": "average",
+      "english": "average",
+      "translation": "среднее значение"
+    },
+    {
+      "id": "median",
+      "english": "median",
+      "translation": "медиана"
+    },
+    {
+      "id": "outlier",
+      "english": "outlier",
+      "translation": "выброс"
+    },
+    {
+      "id": "sample",
+      "english": "sample",
+      "translation": "выборка"
+    },
+    {
+      "id": "population",
+      "english": "population",
+      "translation": "генеральная совокупность"
+    },
+    {
+      "id": "analysis",
+      "english": "analysis",
+      "translation": "анализ"
+    },
+    {
+      "id": "insight",
+      "english": "insight",
+      "translation": "инсайт"
+    },
+    {
+      "id": "interpretation",
+      "english": "interpretation",
+      "translation": "интерпретация"
+    },
+    {
+      "id": "hypothesis",
+      "english": "hypothesis",
+      "translation": "гипотеза"
+    },
+    {
+      "id": "validation",
+      "english": "validation",
+      "translation": "валидация"
+    },
+    {
+      "id": "dashboard",
+      "english": "dashboard",
+      "translation": "дашборд"
+    },
+    {
+      "id": "report",
+      "english": "report",
+      "translation": "отчёт"
+    },
+    {
+      "id": "visualization",
+      "english": "visualization",
+      "translation": "визуализация"
+    },
+    {
+      "id": "chart",
+      "english": "chart",
+      "translation": "график"
+    },
+    {
+      "id": "diagram",
+      "english": "diagram",
+      "translation": "диаграмма"
+    },
+    {
+      "id": "query",
+      "english": "query",
+      "translation": "запрос"
+    },
+    {
+      "id": "filter",
+      "english": "filter",
+      "translation": "фильтр"
+    },
+    {
+      "id": "aggregation",
+      "english": "aggregation",
+      "translation": "агрегация"
+    },
+    {
+      "id": "segmentation",
+      "english": "segmentation",
+      "translation": "сегментация"
+    },
+    {
+      "id": "pipeline",
+      "english": "pipeline",
+      "translation": "конвейер данных"
+    },
+    {
+      "id": "data-quality",
+      "english": "data quality",
+      "translation": "качество данных"
+    },
+    {
+      "id": "data-source",
+      "english": "data source",
+      "translation": "источник данных"
+    },
+    {
+      "id": "raw-data",
+      "english": "raw data",
+      "translation": "сырые данные"
+    },
+    {
+      "id": "processed-data",
+      "english": "processed data",
+      "translation": "обработанные данные"
+    },
+    {
+      "id": "data-integrity",
+      "english": "data integrity",
+      "translation": "целостность данных"
+    }
+  ]
+}

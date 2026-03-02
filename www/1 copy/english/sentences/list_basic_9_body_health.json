@@ -1,0 +1,247 @@
+{
+  "theme": "Тело и здоровье",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-body-needs-regular-movement.",
+      "english": "The body needs regular movement.",
+      "translation": "Телу нужно регулярное движение.",
+      "audio": [
+        "audio/sentences/The body needs regular movement..wav"
+      ]
+    },
+    {
+      "id": "my-head-hurts-after-work.",
+      "english": "My head hurts after work.",
+      "translation": "У меня болит голова после работы.",
+      "audio": [
+        "audio/sentences/My head hurts after work..wav"
+      ]
+    },
+    {
+      "id": "she-washed-her-face-quickly.",
+      "english": "She washed her face quickly.",
+      "translation": "Она быстро умыла лицо.",
+      "audio": [
+        "audio/sentences/She washed her face quickly..wav"
+      ]
+    },
+    {
+      "id": "his-hair-looks-healthy.",
+      "english": "His hair looks healthy.",
+      "translation": "Его волосы выглядят здоровыми.",
+      "audio": [
+        "audio/sentences/His hair looks healthy..wav"
+      ]
+    },
+    {
+      "id": "one-eye-feels-tired.",
+      "english": "One eye feels tired.",
+      "translation": "Один глаз чувствует усталость.",
+      "audio": [
+        "audio/sentences/One eye feels tired..wav"
+      ]
+    },
+    {
+      "id": "my-ear-hurts-a-little.",
+      "english": "My ear hurts a little.",
+      "translation": "У меня немного болит ухо.",
+      "audio": [
+        "audio/sentences/My ear hurts a little..wav"
+      ]
+    },
+    {
+      "id": "her-nose-is-red.",
+      "english": "Her nose is red.",
+      "translation": "Её нос красный.",
+      "audio": [
+        "audio/sentences/Her nose is red..wav"
+      ]
+    },
+    {
+      "id": "please-close-your-mouth.",
+      "english": "Please close your mouth.",
+      "translation": "Пожалуйста, закрой рот.",
+      "audio": [
+        "audio/sentences/Please close your mouth..wav"
+      ]
+    },
+    {
+      "id": "this-tooth-hurts-badly.",
+      "english": "This tooth hurts badly.",
+      "translation": "Этот зуб сильно болит.",
+      "audio": [
+        "audio/sentences/This tooth hurts badly..wav"
+      ]
+    },
+    {
+      "id": "my-neck-hurts-today.",
+      "english": "My neck hurts today.",
+      "translation": "У меня сегодня болит шея.",
+      "audio": [
+        "audio/sentences/My neck hurts today..wav"
+      ]
+    },
+    {
+      "id": "his-shoulder-feels-weak.",
+      "english": "His shoulder feels weak.",
+      "translation": "Его плечо чувствует слабость.",
+      "audio": [
+        "audio/sentences/His shoulder feels weak..wav"
+      ]
+    },
+    {
+      "id": "she-raised-her-arm-slowly.",
+      "english": "She raised her arm slowly.",
+      "translation": "Она медленно подняла руку.",
+      "audio": [
+        "audio/sentences/She raised her arm slowly..wav"
+      ]
+    },
+    {
+      "id": "my-hand-feels-cold.",
+      "english": "My hand feels cold.",
+      "translation": "Моя кисть чувствует холод.",
+      "audio": [
+        "audio/sentences/My hand feels cold..wav"
+      ]
+    },
+    {
+      "id": "he-cut-his-finger.",
+      "english": "He cut his finger.",
+      "translation": "Он порезал палец.",
+      "audio": [
+        "audio/sentences/He cut his finger..wav"
+      ]
+    },
+    {
+      "id": "my-chest-feels-heavy.",
+      "english": "My chest feels heavy.",
+      "translation": "У меня тяжесть в груди.",
+      "audio": [
+        "audio/sentences/My chest feels heavy..wav"
+      ]
+    },
+    {
+      "id": "her-back-hurts-after-sitting.",
+      "english": "Her back hurts after sitting.",
+      "translation": "У неё болит спина после сидения.",
+      "audio": [
+        "audio/sentences/Her back hurts after sitting..wav"
+      ]
+    },
+    {
+      "id": "my-stomach-hurts-today.",
+      "english": "My stomach hurts today.",
+      "translation": "У меня сегодня болит живот.",
+      "audio": [
+        "audio/sentences/My stomach hurts today..wav"
+      ]
+    },
+    {
+      "id": "his-leg-feels-heavy.",
+      "english": "His leg feels heavy.",
+      "translation": "Его нога кажется тяжёлой.",
+      "audio": [
+        "audio/sentences/His leg feels heavy..wav"
+      ]
+    },
+    {
+      "id": "my-knee-hurts-when-walking.",
+      "english": "My knee hurts when walking.",
+      "translation": "Колено болит при ходьбе.",
+      "audio": [
+        "audio/sentences/My knee hurts when walking..wav"
+      ]
+    },
+    {
+      "id": "her-foot-is-tired.",
+      "english": "Her foot is tired.",
+      "translation": "Её ступня устала.",
+      "audio": [
+        "audio/sentences/Her foot is tired..wav"
+      ]
+    },
+    {
+      "id": "health-is-very-important.",
+      "english": "Health is very important.",
+      "translation": "Здоровье очень важно.",
+      "audio": [
+        "audio/sentences/Health is very important..wav"
+      ]
+    },
+    {
+      "id": "she-feels-healthy-again.",
+      "english": "She feels healthy again.",
+      "translation": "Она снова чувствует себя здоровой.",
+      "audio": [
+        "audio/sentences/She feels healthy again..wav"
+      ]
+    },
+    {
+      "id": "he-feels-sick-today.",
+      "english": "He feels sick today.",
+      "translation": "Он сегодня чувствует себя больным.",
+      "audio": [
+        "audio/sentences/He feels sick today..wav"
+      ]
+    },
+    {
+      "id": "the-pain-comes-suddenly.",
+      "english": "The pain comes suddenly.",
+      "translation": "Боль возникает внезапно.",
+      "audio": [
+        "audio/sentences/The pain comes suddenly..wav"
+      ]
+    },
+    {
+      "id": "my-arm-hurts-today.",
+      "english": "My arm hurts today.",
+      "translation": "У меня сегодня болит рука.",
+      "audio": [
+        "audio/sentences/My arm hurts today..wav"
+      ]
+    },
+    {
+      "id": "the-doctor-checked-him.",
+      "english": "The doctor checked him.",
+      "translation": "Врач осмотрел его.",
+      "audio": [
+        "audio/sentences/The doctor checked him..wav"
+      ]
+    },
+    {
+      "id": "this-medicine-helps-quickly.",
+      "english": "This medicine helps quickly.",
+      "translation": "Это лекарство помогает быстро.",
+      "audio": [
+        "audio/sentences/This medicine helps quickly..wav"
+      ]
+    },
+    {
+      "id": "she-stayed-in-hospital.",
+      "english": "She stayed in hospital.",
+      "translation": "Она находилась в больнице.",
+      "audio": [
+        "audio/sentences/She stayed in hospital..wav"
+      ]
+    },
+    {
+      "id": "sleep-helps-the-body-recover.",
+      "english": "Sleep helps the body recover.",
+      "translation": "Сон помогает телу восстановиться.",
+      "audio": [
+        "audio/sentences/Sleep helps the body recover..wav"
+      ]
+    },
+    {
+      "id": "i-need-rest-now.",
+      "english": "I need rest now.",
+      "translation": "Мне сейчас нужен отдых.",
+      "audio": [
+        "audio/sentences/I need rest now..wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "theme": "Бизнес и деньги",
+  "level": "Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "business",
+      "translation": "бизнес"
+    },
+    {
+      "english": "company",
+      "translation": "компания"
+    },
+    {
+      "english": "firm",
+      "translation": "фирма"
+    },
+    {
+      "english": "enterprise",
+      "translation": "предприятие"
+    },
+    {
+      "english": "organization",
+      "translation": "организация"
+    },
+    {
+      "english": "market",
+      "translation": "рынок"
+    },
+    {
+      "english": "industry",
+      "translation": "отрасль"
+    },
+    {
+      "english": "competition",
+      "translation": "конкуренция"
+    },
+    {
+      "english": "competitor",
+      "translation": "конкурент"
+    },
+    {
+      "english": "demand",
+      "translation": "спрос"
+    },
+    {
+      "english": "supply",
+      "translation": "предложение"
+    },
+    {
+      "english": "customer",
+      "translation": "клиент"
+    },
+    {
+      "english": "client",
+      "translation": "клиент"
+    },
+    {
+      "english": "consumer",
+      "translation": "потребитель"
+    },
+    {
+      "english": "partner",
+      "translation": "партнёр"
+    },
+    {
+      "english": "product",
+      "translation": "продукт"
+    },
+    {
+      "english": "service",
+      "translation": "услуга"
+    },
+    {
+      "english": "value",
+      "translation": "ценность"
+    },
+    {
+      "english": "price",
+      "translation": "цена"
+    },
+    {
+      "english": "cost",
+      "translation": "затраты"
+    },
+    {
+      "english": "revenue",
+      "translation": "выручка"
+    },
+    {
+      "english": "profit",
+      "translation": "прибыль"
+    },
+    {
+      "english": "loss",
+      "translation": "убыток"
+    },
+    {
+      "english": "budget",
+      "translation": "бюджет"
+    },
+    {
+      "english": "expense",
+      "translation": "расход"
+    },
+    {
+      "english": "investment",
+      "translation": "инвестиция"
+    },
+    {
+      "english": "funding",
+      "translation": "финансирование"
+    },
+    {
+      "english": "capital",
+      "translation": "капитал"
+    },
+    {
+      "english": "cash flow",
+      "translation": "денежный поток"
+    },
+    {
+      "english": "assets",
+      "translation": "активы"
+    },
+    {
+      "english": "deal",
+      "translation": "сделка"
+    },
+    {
+      "english": "contract",
+      "translation": "контракт"
+    },
+    {
+      "english": "agreement",
+      "translation": "соглашение"
+    },
+    {
+      "english": "terms",
+      "translation": "условия"
+    },
+    {
+      "english": "conditions",
+      "translation": "условия"
+    },
+    {
+      "english": "strategy",
+      "translation": "стратегия"
+    },
+    {
+      "english": "growth",
+      "translation": "рост"
+    },
+    {
+      "english": "performance",
+      "translation": "эффективность"
+    },
+    {
+      "english": "forecast",
+      "translation": "прогноз"
+    },
+    {
+      "english": "risk",
+      "translation": "риск"
+    }
+  ]
+}

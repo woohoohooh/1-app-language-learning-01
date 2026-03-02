@@ -1,0 +1,191 @@
+{
+  "theme": "Работа и профессии",
+  "level": "Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "job",
+      "translation": "работа"
+    },
+    {
+      "english": "work",
+      "translation": "работа"
+    },
+    {
+      "english": "career",
+      "translation": "карьера"
+    },
+    {
+      "english": "profession",
+      "translation": "профессия"
+    },
+    {
+      "english": "occupation",
+      "translation": "род занятий"
+    },
+    {
+      "english": "employee",
+      "translation": "сотрудник"
+    },
+    {
+      "english": "employer",
+      "translation": "работодатель"
+    },
+    {
+      "english": "colleague",
+      "translation": "коллега"
+    },
+    {
+      "english": "manager",
+      "translation": "менеджер"
+    },
+    {
+      "english": "supervisor",
+      "translation": "руководитель"
+    },
+    {
+      "english": "position",
+      "translation": "должность"
+    },
+    {
+      "english": "role",
+      "translation": "роль"
+    },
+    {
+      "english": "responsibility",
+      "translation": "ответственность"
+    },
+    {
+      "english": "duty",
+      "translation": "обязанность"
+    },
+    {
+      "english": "task",
+      "translation": "задача"
+    },
+    {
+      "english": "experience",
+      "translation": "опыт работы"
+    },
+    {
+      "english": "qualification",
+      "translation": "квалификация"
+    },
+    {
+      "english": "skill",
+      "translation": "навык"
+    },
+    {
+      "english": "background",
+      "translation": "профессиональный опыт"
+    },
+    {
+      "english": "salary",
+      "translation": "зарплата"
+    },
+    {
+      "english": "wage",
+      "translation": "оплата труда"
+    },
+    {
+      "english": "income",
+      "translation": "доход"
+    },
+    {
+      "english": "bonus",
+      "translation": "премия"
+    },
+    {
+      "english": "benefits",
+      "translation": "льготы"
+    },
+    {
+      "english": "schedule",
+      "translation": "график работы"
+    },
+    {
+      "english": "shift",
+      "translation": "смена"
+    },
+    {
+      "english": "workload",
+      "translation": "рабочая нагрузка"
+    },
+    {
+      "english": "deadline",
+      "translation": "крайний срок"
+    },
+    {
+      "english": "overtime",
+      "translation": "сверхурочная работа"
+    },
+    {
+      "english": "full-time",
+      "translation": "полная занятость"
+    },
+    {
+      "english": "part-time",
+      "translation": "частичная занятость"
+    },
+    {
+      "english": "freelance",
+      "translation": "фриланс"
+    },
+    {
+      "english": "contract",
+      "translation": "договор"
+    },
+    {
+      "english": "temporary",
+      "translation": "временный"
+    },
+    {
+      "english": "hire",
+      "translation": "нанимать"
+    },
+    {
+      "english": "fire",
+      "translation": "увольнять"
+    },
+    {
+      "english": "quit",
+      "translation": "увольняться"
+    },
+    {
+      "english": "promotion",
+      "translation": "повышение"
+    },
+    {
+      "english": "demotion",
+      "translation": "понижение"
+    },
+    {
+      "english": "resume",
+      "translation": "резюме"
+    },
+    {
+      "english": "CV",
+      "translation": "резюме"
+    },
+    {
+      "english": "interview",
+      "translation": "собеседование"
+    },
+    {
+      "english": "vacancy",
+      "translation": "вакансия"
+    },
+    {
+      "english": "application",
+      "translation": "заявка"
+    },
+    {
+      "english": "expertise",
+      "translation": "профессиональные знания"
+    },
+    {
+      "english": "benefits",
+      "translation": "льготы"
+    }
+  ]
+}

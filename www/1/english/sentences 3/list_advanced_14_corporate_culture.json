@@ -1,0 +1,167 @@
+{
+  "theme": "Корпоративная культура",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "corporate culture",
+      "translation": "корпоративная культура"
+    },
+    {
+      "english": "company culture",
+      "translation": "культура компании"
+    },
+    {
+      "english": "workplace",
+      "translation": "рабочая среда"
+    },
+    {
+      "english": "environment",
+      "translation": "среда"
+    },
+    {
+      "english": "organization",
+      "translation": "организация"
+    },
+    {
+      "english": "values",
+      "translation": "ценности"
+    },
+    {
+      "english": "principles",
+      "translation": "принципы"
+    },
+    {
+      "english": "mission",
+      "translation": "миссия"
+    },
+    {
+      "english": "vision",
+      "translation": "видение"
+    },
+    {
+      "english": "ethics",
+      "translation": "этика"
+    },
+    {
+      "english": "standards",
+      "translation": "стандарты"
+    },
+    {
+      "english": "policies",
+      "translation": "правила"
+    },
+    {
+      "english": "guidelines",
+      "translation": "рекомендации"
+    },
+    {
+      "english": "compliance",
+      "translation": "соблюдение правил"
+    },
+    {
+      "english": "code of conduct",
+      "translation": "кодекс поведения"
+    },
+    {
+      "english": "hierarchy",
+      "translation": "иерархия"
+    },
+    {
+      "english": "structure",
+      "translation": "структура"
+    },
+    {
+      "english": "management",
+      "translation": "управление"
+    },
+    {
+      "english": "leadership",
+      "translation": "руководство"
+    },
+    {
+      "english": "decision-making",
+      "translation": "принятие решений"
+    },
+    {
+      "english": "collaboration",
+      "translation": "сотрудничество"
+    },
+    {
+      "english": "teamwork",
+      "translation": "командная работа"
+    },
+    {
+      "english": "ownership",
+      "translation": "ответственность"
+    },
+    {
+      "english": "accountability",
+      "translation": "подотчётность"
+    },
+    {
+      "english": "initiative",
+      "translation": "инициатива"
+    },
+    {
+      "english": "work-life balance",
+      "translation": "баланс работы и жизни"
+    },
+    {
+      "english": "flexibility",
+      "translation": "гибкость"
+    },
+    {
+      "english": "remote work",
+      "translation": "удалённая работа"
+    },
+    {
+      "english": "hybrid work",
+      "translation": "гибридная работа"
+    },
+    {
+      "english": "schedule",
+      "translation": "график"
+    },
+    {
+      "english": "onboarding",
+      "translation": "введение в компанию"
+    },
+    {
+      "english": "adaptation",
+      "translation": "адаптация"
+    },
+    {
+      "english": "career growth",
+      "translation": "карьерный рост"
+    },
+    {
+      "english": "performance",
+      "translation": "эффективность"
+    },
+    {
+      "english": "evaluation",
+      "translation": "оценка"
+    },
+    {
+      "english": "diversity",
+      "translation": "разнообразие"
+    },
+    {
+      "english": "inclusion",
+      "translation": "инклюзивность"
+    },
+    {
+      "english": "respect",
+      "translation": "уважение"
+    },
+    {
+      "english": "trust",
+      "translation": "доверие"
+    },
+    {
+      "english": "transparency",
+      "translation": "прозрачность"
+    }
+  ]
+}

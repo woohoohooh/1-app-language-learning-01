@@ -1,0 +1,182 @@
+{
+  "theme": "Аргументация и мнение",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "opinion",
+      "english": "opinion",
+      "translation": "мнение"
+    },
+    {
+      "id": "viewpoint",
+      "english": "viewpoint",
+      "translation": "точка зрения"
+    },
+    {
+      "id": "perspective",
+      "english": "perspective",
+      "translation": "перспектива"
+    },
+    {
+      "id": "stance",
+      "english": "stance",
+      "translation": "позиция"
+    },
+    {
+      "id": "belief",
+      "english": "belief",
+      "translation": "убеждение"
+    },
+    {
+      "id": "argument",
+      "english": "argument",
+      "translation": "аргумент"
+    },
+    {
+      "id": "reasoning",
+      "english": "reasoning",
+      "translation": "рассуждение"
+    },
+    {
+      "id": "logic",
+      "english": "logic",
+      "translation": "логика"
+    },
+    {
+      "id": "claim",
+      "english": "claim",
+      "translation": "утверждение"
+    },
+    {
+      "id": "statement",
+      "english": "statement",
+      "translation": "заявление"
+    },
+    {
+      "id": "evidence",
+      "english": "evidence",
+      "translation": "доказательства"
+    },
+    {
+      "id": "proof",
+      "english": "proof",
+      "translation": "доказательство"
+    },
+    {
+      "id": "example",
+      "english": "example",
+      "translation": "пример"
+    },
+    {
+      "id": "support",
+      "english": "support",
+      "translation": "поддержка"
+    },
+    {
+      "id": "justification",
+      "english": "justification",
+      "translation": "обоснование"
+    },
+    {
+      "id": "assumption",
+      "english": "assumption",
+      "translation": "предположение"
+    },
+    {
+      "id": "interpretation",
+      "english": "interpretation",
+      "translation": "интерпретация"
+    },
+    {
+      "id": "assessment",
+      "english": "assessment",
+      "translation": "оценка"
+    },
+    {
+      "id": "judgment",
+      "english": "judgment",
+      "translation": "суждение"
+    },
+    {
+      "id": "evaluation",
+      "english": "evaluation",
+      "translation": "оценивание"
+    },
+    {
+      "id": "agreement",
+      "english": "agreement",
+      "translation": "согласие"
+    },
+    {
+      "id": "disagreement",
+      "english": "disagreement",
+      "translation": "несогласие"
+    },
+    {
+      "id": "consensus",
+      "english": "consensus",
+      "translation": "консенсус"
+    },
+    {
+      "id": "compromise",
+      "english": "compromise",
+      "translation": "компромисс"
+    },
+    {
+      "id": "objection",
+      "english": "objection",
+      "translation": "возражение"
+    },
+    {
+      "id": "counterargument",
+      "english": "counterargument",
+      "translation": "контраргумент"
+    },
+    {
+      "id": "criticism",
+      "english": "criticism",
+      "translation": "критика"
+    },
+    {
+      "id": "challenge",
+      "english": "challenge",
+      "translation": "вызов"
+    },
+    {
+      "id": "defense",
+      "english": "defense",
+      "translation": "защита позиции"
+    },
+    {
+      "id": "rebuttal",
+      "english": "rebuttal",
+      "translation": "опровержение"
+    },
+    {
+      "id": "conclusion",
+      "english": "conclusion",
+      "translation": "вывод"
+    },
+    {
+      "id": "summary",
+      "english": "summary",
+      "translation": "краткое резюме"
+    },
+    {
+      "id": "outcome",
+      "english": "outcome",
+      "translation": "результат"
+    },
+    {
+      "id": "implication",
+      "english": "implication",
+      "translation": "последствие"
+    },
+    {
+      "id": "standpoint",
+      "english": "standpoint",
+      "translation": "точка зрения"
+    }
+  ]
+}

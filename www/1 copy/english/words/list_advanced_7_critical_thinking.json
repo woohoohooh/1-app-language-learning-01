@@ -1,0 +1,287 @@
+{
+  "theme": "Критическое мышление",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "analysis",
+      "english": "analysis",
+      "translation": "анализ",
+      "audio": [
+        "audio/words/analysis.wav"
+      ]
+    },
+    {
+      "id": "reasoning",
+      "english": "reasoning",
+      "translation": "рассуждение",
+      "audio": [
+        "audio/words/reasoning.wav"
+      ]
+    },
+    {
+      "id": "logic",
+      "english": "logic",
+      "translation": "логика",
+      "audio": [
+        "audio/words/logic.wav"
+      ]
+    },
+    {
+      "id": "judgment",
+      "english": "judgment",
+      "translation": "суждение",
+      "audio": [
+        "audio/words/judgment.wav"
+      ]
+    },
+    {
+      "id": "evaluation",
+      "english": "evaluation",
+      "translation": "оценка",
+      "audio": [
+        "audio/words/evaluation.wav"
+      ]
+    },
+    {
+      "id": "assumption",
+      "english": "assumption",
+      "translation": "предположение",
+      "audio": [
+        "audio/words/assumption.wav"
+      ]
+    },
+    {
+      "id": "premise",
+      "english": "premise",
+      "translation": "исходное утверждение",
+      "audio": [
+        "audio/words/premise.wav"
+      ]
+    },
+    {
+      "id": "hypothesis",
+      "english": "hypothesis",
+      "translation": "гипотеза",
+      "audio": [
+        "audio/words/hypothesis.wav"
+      ]
+    },
+    {
+      "id": "conclusion",
+      "english": "conclusion",
+      "translation": "вывод",
+      "audio": [
+        "audio/words/conclusion.wav"
+      ]
+    },
+    {
+      "id": "inference",
+      "english": "inference",
+      "translation": "умозаключение",
+      "audio": [
+        "audio/words/inference.wav"
+      ]
+    },
+    {
+      "id": "evidence",
+      "english": "evidence",
+      "translation": "доказательство",
+      "audio": [
+        "audio/words/evidence.wav"
+      ]
+    },
+    {
+      "id": "proof",
+      "english": "proof",
+      "translation": "подтверждение",
+      "audio": [
+        "audio/words/proof.wav"
+      ]
+    },
+    {
+      "id": "data",
+      "english": "data",
+      "translation": "данные",
+      "audio": [
+        "audio/words/data.wav"
+      ]
+    },
+    {
+      "id": "fact",
+      "english": "fact",
+      "translation": "факт",
+      "audio": [
+        "audio/words/fact.wav"
+      ]
+    },
+    {
+      "id": "claim",
+      "english": "claim",
+      "translation": "утверждение",
+      "audio": [
+        "audio/words/claim.wav"
+      ]
+    },
+    {
+      "id": "bias",
+      "english": "bias",
+      "translation": "предвзятость",
+      "audio": [
+        "audio/words/bias.wav"
+      ]
+    },
+    {
+      "id": "distortion",
+      "english": "distortion",
+      "translation": "искажение",
+      "audio": [
+        "audio/words/distortion.wav"
+      ]
+    },
+    {
+      "id": "misinterpretation",
+      "english": "misinterpretation",
+      "translation": "неверная интерпретация",
+      "audio": [
+        "audio/words/misinterpretation.wav"
+      ]
+    },
+    {
+      "id": "fallacy",
+      "english": "fallacy",
+      "translation": "логическая ошибка",
+      "audio": [
+        "audio/words/fallacy.wav"
+      ]
+    },
+    {
+      "id": "flaw",
+      "english": "flaw",
+      "translation": "изъян",
+      "audio": [
+        "audio/words/flaw.wav"
+      ]
+    },
+    {
+      "id": "objectivity",
+      "english": "objectivity",
+      "translation": "объективность",
+      "audio": [
+        "audio/words/objectivity.wav"
+      ]
+    },
+    {
+      "id": "subjectivity",
+      "english": "subjectivity",
+      "translation": "субъективность",
+      "audio": [
+        "audio/words/subjectivity.wav"
+      ]
+    },
+    {
+      "id": "perspective",
+      "english": "perspective",
+      "translation": "точка зрения",
+      "audio": [
+        "audio/words/perspective.wav"
+      ]
+    },
+    {
+      "id": "context",
+      "english": "context",
+      "translation": "контекст",
+      "audio": [
+        "audio/words/context.wav"
+      ]
+    },
+    {
+      "id": "framework",
+      "english": "framework",
+      "translation": "система",
+      "audio": [
+        "audio/words/framework.wav"
+      ]
+    },
+    {
+      "id": "skepticism",
+      "english": "skepticism",
+      "translation": "скептицизм",
+      "audio": [
+        "audio/words/skepticism.wav"
+      ]
+    },
+    {
+      "id": "doubt",
+      "english": "doubt",
+      "translation": "сомнение",
+      "audio": [
+        "audio/words/doubt.wav"
+      ]
+    },
+    {
+      "id": "questioning",
+      "english": "questioning",
+      "translation": "постановка вопросов",
+      "audio": [
+        "audio/words/questioning.wav"
+      ]
+    },
+    {
+      "id": "verification",
+      "english": "verification",
+      "translation": "проверка",
+      "audio": [
+        "audio/words/verification.wav"
+      ]
+    },
+    {
+      "id": "validation",
+      "english": "validation",
+      "translation": "подтверждение",
+      "audio": [
+        "audio/words/validation.wav"
+      ]
+    },
+    {
+      "id": "consistency",
+      "english": "consistency",
+      "translation": "последовательность",
+      "audio": [
+        "audio/words/consistency.wav"
+      ]
+    },
+    {
+      "id": "coherence",
+      "english": "coherence",
+      "translation": "связность",
+      "audio": [
+        "audio/words/coherence.wav"
+      ]
+    },
+    {
+      "id": "clarity",
+      "english": "clarity",
+      "translation": "ясность",
+      "audio": [
+        "audio/words/clarity.wav"
+      ]
+    },
+    {
+      "id": "accuracy",
+      "english": "accuracy",
+      "translation": "точность",
+      "audio": [
+        "audio/words/accuracy.wav"
+      ]
+    },
+    {
+      "id": "reliability",
+      "english": "reliability",
+      "translation": "надежность",
+      "audio": [
+        "audio/words/reliability.wav"
+      ]
+    }
+  ]
+}

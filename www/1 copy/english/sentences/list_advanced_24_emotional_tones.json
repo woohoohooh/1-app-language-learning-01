@@ -1,0 +1,303 @@
+{
+  "theme": "Эмоциональные оттенки речи",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "emotion-shaped-his-response.",
+      "english": "Emotion shaped his response.",
+      "translation": "Эмоция повлияла на его ответ.",
+      "audio": [
+        "audio/sentences/Emotion shaped his response..wav"
+      ]
+    },
+    {
+      "id": "emotionality-was-evident-in-her-speech.",
+      "english": "Emotionality was evident in her speech.",
+      "translation": "Эмоциональность была заметна в её речи.",
+      "audio": [
+        "audio/sentences/Emotionality was evident in her speech..wav"
+      ]
+    },
+    {
+      "id": "the-tone-changed-abruptly.",
+      "english": "The tone changed abruptly.",
+      "translation": "Тон резко изменился.",
+      "audio": [
+        "audio/sentences/The tone changed abruptly..wav"
+      ]
+    },
+    {
+      "id": "an-undertone-of-irony-appeared.",
+      "english": "An undertone of irony appeared.",
+      "translation": "Появился подтекст иронии.",
+      "audio": [
+        "audio/sentences/An undertone of irony appeared..wav"
+      ]
+    },
+    {
+      "id": "this-nuance-changed-the-meaning.",
+      "english": "This nuance changed the meaning.",
+      "translation": "Этот нюанс изменил смысл.",
+      "audio": [
+        "audio/sentences/This nuance changed the meaning..wav"
+      ]
+    },
+    {
+      "id": "his-attitude-softened-the-discussion.",
+      "english": "His attitude softened the discussion.",
+      "translation": "Его отношение смягчило обсуждение.",
+      "audio": [
+        "audio/sentences/His attitude softened the discussion..wav"
+      ]
+    },
+    {
+      "id": "the-mood-improved-gradually.",
+      "english": "The mood improved gradually.",
+      "translation": "Настроение постепенно улучшилось.",
+      "audio": [
+        "audio/sentences/The mood improved gradually..wav"
+      ]
+    },
+    {
+      "id": "her-state-was-hard-to-read.",
+      "english": "Her state was hard to read.",
+      "translation": "Её состояние было трудно понять.",
+      "audio": [
+        "audio/sentences/Her state was hard to read..wav"
+      ]
+    },
+    {
+      "id": "the-reaction-surprised-everyone.",
+      "english": "The reaction surprised everyone.",
+      "translation": "Реакция удивила всех.",
+      "audio": [
+        "audio/sentences/The reaction surprised everyone..wav"
+      ]
+    },
+    {
+      "id": "affection-was-clear-in-her-voice.",
+      "english": "Affection was clear in her voice.",
+      "translation": "Привязанность чувствовалась в её голосе.",
+      "audio": [
+        "audio/sentences/Affection was clear in her voice..wav"
+      ]
+    },
+    {
+      "id": "warmth-eased-the-tension.",
+      "english": "Warmth eased the tension.",
+      "translation": "Теплота сняла напряжение.",
+      "audio": [
+        "audio/sentences/Warmth eased the tension..wav"
+      ]
+    },
+    {
+      "id": "empathy-strengthened-the-connection.",
+      "english": "Empathy strengthened the connection.",
+      "translation": "Эмпатия укрепила связь.",
+      "audio": [
+        "audio/sentences/Empathy strengthened the connection..wav"
+      ]
+    },
+    {
+      "id": "sympathy-changed-his-approach.",
+      "english": "Sympathy changed his approach.",
+      "translation": "Сочувствие изменило его подход.",
+      "audio": [
+        "audio/sentences/Sympathy changed his approach..wav"
+      ]
+    },
+    {
+      "id": "neutrality-kept-the-balance.",
+      "english": "Neutrality kept the balance.",
+      "translation": "Нейтральность сохранила баланс.",
+      "audio": [
+        "audio/sentences/Neutrality kept the balance..wav"
+      ]
+    },
+    {
+      "id": "detachment-limited-emotional-impact.",
+      "english": "Detachment limited emotional impact.",
+      "translation": "Отстранённость снизила эмоциональное воздействие.",
+      "audio": [
+        "audio/sentences/Detachment limited emotional impact..wav"
+      ]
+    },
+    {
+      "id": "distance-affected-the-dialogue.",
+      "english": "Distance affected the dialogue.",
+      "translation": "Дистанция повлияла на диалог.",
+      "audio": [
+        "audio/sentences/Distance affected the dialogue..wav"
+      ]
+    },
+    {
+      "id": "coldness-ended-the-conversation.",
+      "english": "Coldness ended the conversation.",
+      "translation": "Холодность завершила разговор.",
+      "audio": [
+        "audio/sentences/Coldness ended the conversation..wav"
+      ]
+    },
+    {
+      "id": "tension-filled-the-room-instantly.",
+      "english": "Tension filled the room instantly.",
+      "translation": "Напряжение мгновенно заполнило комнату.",
+      "audio": [
+        "audio/sentences/Tension filled the room instantly..wav"
+      ]
+    },
+    {
+      "id": "pressure-forced-him-to-decide-quickly.",
+      "english": "Pressure forced him to decide quickly.",
+      "translation": "Давление заставило его быстро принять решение.",
+      "audio": [
+        "audio/sentences/Pressure forced him to decide quickly..wav"
+      ]
+    },
+    {
+      "id": "stress-affected-her-concentration.",
+      "english": "Stress affected her concentration.",
+      "translation": "Стресс повлиял на её концентрацию.",
+      "audio": [
+        "audio/sentences/Stress affected her concentration..wav"
+      ]
+    },
+    {
+      "id": "frustration-grew-with-every-delay.",
+      "english": "Frustration grew with every delay.",
+      "translation": "Раздражение росло с каждой задержкой.",
+      "audio": [
+        "audio/sentences/Frustration grew with every delay..wav"
+      ]
+    },
+    {
+      "id": "annoyance-slipped-into-his-voice.",
+      "english": "Annoyance slipped into his voice.",
+      "translation": "Раздражение проскользнуло в его голосе.",
+      "audio": [
+        "audio/sentences/Annoyance slipped into his voice..wav"
+      ]
+    },
+    {
+      "id": "irritation-made-her-responses-sharp.",
+      "english": "Irritation made her responses sharp.",
+      "translation": "Раздражённость сделала её ответы резкими.",
+      "audio": [
+        "audio/sentences/Irritation made her responses sharp..wav"
+      ]
+    },
+    {
+      "id": "resentment-lingered-after-the-talk.",
+      "english": "Resentment lingered after the talk.",
+      "translation": "Обида осталась после разговора.",
+      "audio": [
+        "audio/sentences/Resentment lingered after the talk..wav"
+      ]
+    },
+    {
+      "id": "disappointment-was-hard-to-conceal.",
+      "english": "Disappointment was hard to conceal.",
+      "translation": "Разочарование было трудно скрыть.",
+      "audio": [
+        "audio/sentences/Disappointment was hard to conceal..wav"
+      ]
+    },
+    {
+      "id": "approval-showed-in-her-smile.",
+      "english": "Approval showed in her smile.",
+      "translation": "Одобрение отразилось в её улыбке.",
+      "audio": [
+        "audio/sentences/Approval showed in her smile..wav"
+      ]
+    },
+    {
+      "id": "disapproval-changed-the-atmosphere.",
+      "english": "Disapproval changed the atmosphere.",
+      "translation": "Неодобрение изменило атмосферу.",
+      "audio": [
+        "audio/sentences/Disapproval changed the atmosphere..wav"
+      ]
+    },
+    {
+      "id": "support-gave-him-confidence.",
+      "english": "Support gave him confidence.",
+      "translation": "Поддержка придала ему уверенности.",
+      "audio": [
+        "audio/sentences/Support gave him confidence..wav"
+      ]
+    },
+    {
+      "id": "encouragement-eased-her-doubts.",
+      "english": "Encouragement eased her doubts.",
+      "translation": "Ободрение развеяло её сомнения.",
+      "audio": [
+        "audio/sentences/Encouragement eased her doubts..wav"
+      ]
+    },
+    {
+      "id": "confidence-shaped-his-decisions.",
+      "english": "Confidence shaped his decisions.",
+      "translation": "Уверенность определяла его решения.",
+      "audio": [
+        "audio/sentences/Confidence shaped his decisions..wav"
+      ]
+    },
+    {
+      "id": "uncertainty-slowed-their-progress.",
+      "english": "Uncertainty slowed their progress.",
+      "translation": "Неуверенность замедлила их продвижение.",
+      "audio": [
+        "audio/sentences/Uncertainty slowed their progress..wav"
+      ]
+    },
+    {
+      "id": "hesitation-interrupted-the-flow.",
+      "english": "Hesitation interrupted the flow.",
+      "translation": "Колебание нарушило ход разговора.",
+      "audio": [
+        "audio/sentences/Hesitation interrupted the flow..wav"
+      ]
+    },
+    {
+      "id": "doubt-clouded-his-judgment.",
+      "english": "Doubt clouded his judgment.",
+      "translation": "Сомнение затуманило его суждение.",
+      "audio": [
+        "audio/sentences/Doubt clouded his judgment..wav"
+      ]
+    },
+    {
+      "id": "enthusiasm-energized-the-team.",
+      "english": "Enthusiasm energized the team.",
+      "translation": "Энтузиазм зарядил команду.",
+      "audio": [
+        "audio/sentences/Enthusiasm energized the team..wav"
+      ]
+    },
+    {
+      "id": "indifference-ended-the-discussion.",
+      "english": "Indifference ended the discussion.",
+      "translation": "Безразличие завершило обсуждение.",
+      "audio": [
+        "audio/sentences/Indifference ended the discussion..wav"
+      ]
+    },
+    {
+      "id": "reluctance-slowed-her-response.",
+      "english": "Reluctance slowed her response.",
+      "translation": "Неохота замедлила её ответ.",
+      "audio": [
+        "audio/sentences/Reluctance slowed her response..wav"
+      ]
+    },
+    {
+      "id": "relief-followed-the-final-decision.",
+      "english": "Relief followed the final decision.",
+      "translation": "Облегчение пришло после окончательного решения.",
+      "audio": [
+        "audio/sentences/Relief followed the final decision..wav"
+      ]
+    }
+  ]
+}

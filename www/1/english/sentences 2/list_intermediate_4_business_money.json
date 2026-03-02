@@ -1,0 +1,207 @@
+{
+  "theme": "Бизнес и деньги",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "business",
+      "english": "business",
+      "translation": "бизнес"
+    },
+    {
+      "id": "company",
+      "english": "company",
+      "translation": "компания"
+    },
+    {
+      "id": "firm",
+      "english": "firm",
+      "translation": "фирма"
+    },
+    {
+      "id": "enterprise",
+      "english": "enterprise",
+      "translation": "предприятие"
+    },
+    {
+      "id": "organization",
+      "english": "organization",
+      "translation": "организация"
+    },
+    {
+      "id": "market",
+      "english": "market",
+      "translation": "рынок"
+    },
+    {
+      "id": "industry",
+      "english": "industry",
+      "translation": "отрасль"
+    },
+    {
+      "id": "competition",
+      "english": "competition",
+      "translation": "конкуренция"
+    },
+    {
+      "id": "competitor",
+      "english": "competitor",
+      "translation": "конкурент"
+    },
+    {
+      "id": "demand",
+      "english": "demand",
+      "translation": "спрос"
+    },
+    {
+      "id": "supply",
+      "english": "supply",
+      "translation": "предложение"
+    },
+    {
+      "id": "customer",
+      "english": "customer",
+      "translation": "клиент"
+    },
+    {
+      "id": "client",
+      "english": "client",
+      "translation": "клиент"
+    },
+    {
+      "id": "consumer",
+      "english": "consumer",
+      "translation": "потребитель"
+    },
+    {
+      "id": "partner",
+      "english": "partner",
+      "translation": "партнёр"
+    },
+    {
+      "id": "product",
+      "english": "product",
+      "translation": "продукт"
+    },
+    {
+      "id": "service",
+      "english": "service",
+      "translation": "услуга"
+    },
+    {
+      "id": "value",
+      "english": "value",
+      "translation": "ценность"
+    },
+    {
+      "id": "price",
+      "english": "price",
+      "translation": "цена"
+    },
+    {
+      "id": "cost",
+      "english": "cost",
+      "translation": "затраты"
+    },
+    {
+      "id": "revenue",
+      "english": "revenue",
+      "translation": "выручка"
+    },
+    {
+      "id": "profit",
+      "english": "profit",
+      "translation": "прибыль"
+    },
+    {
+      "id": "loss",
+      "english": "loss",
+      "translation": "убыток"
+    },
+    {
+      "id": "budget",
+      "english": "budget",
+      "translation": "бюджет"
+    },
+    {
+      "id": "expense",
+      "english": "expense",
+      "translation": "расход"
+    },
+    {
+      "id": "investment",
+      "english": "investment",
+      "translation": "инвестиция"
+    },
+    {
+      "id": "funding",
+      "english": "funding",
+      "translation": "финансирование"
+    },
+    {
+      "id": "capital",
+      "english": "capital",
+      "translation": "капитал"
+    },
+    {
+      "id": "cash-flow",
+      "english": "cash flow",
+      "translation": "денежный поток"
+    },
+    {
+      "id": "assets",
+      "english": "assets",
+      "translation": "активы"
+    },
+    {
+      "id": "deal",
+      "english": "deal",
+      "translation": "сделка"
+    },
+    {
+      "id": "contract",
+      "english": "contract",
+      "translation": "контракт"
+    },
+    {
+      "id": "agreement",
+      "english": "agreement",
+      "translation": "соглашение"
+    },
+    {
+      "id": "terms",
+      "english": "terms",
+      "translation": "условия"
+    },
+    {
+      "id": "conditions",
+      "english": "conditions",
+      "translation": "условия"
+    },
+    {
+      "id": "strategy",
+      "english": "strategy",
+      "translation": "стратегия"
+    },
+    {
+      "id": "growth",
+      "english": "growth",
+      "translation": "рост"
+    },
+    {
+      "id": "performance",
+      "english": "performance",
+      "translation": "эффективность"
+    },
+    {
+      "id": "forecast",
+      "english": "forecast",
+      "translation": "прогноз"
+    },
+    {
+      "id": "risk",
+      "english": "risk",
+      "translation": "риск"
+    }
+  ]
+}

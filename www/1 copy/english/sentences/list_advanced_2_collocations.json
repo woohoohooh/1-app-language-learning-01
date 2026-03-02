@@ -1,0 +1,279 @@
+{
+  "theme": "Естественная речь",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "this-explanation-makes-sense-to-everyone.",
+      "english": "This explanation makes sense to everyone.",
+      "translation": "Это объяснение имеет смысл для всех.",
+      "audio": [
+        "audio/sentences/This explanation makes sense to everyone..wav"
+      ]
+    },
+    {
+      "id": "leaders-must-take-responsibility-for-outcomes.",
+      "english": "Leaders must take responsibility for outcomes.",
+      "translation": "Лидеры должны брать ответственность за результаты.",
+      "audio": [
+        "audio/sentences/Leaders must take responsibility for outcomes..wav"
+      ]
+    },
+    {
+      "id": "both-sides-reached-agreement-after-discussion.",
+      "english": "Both sides reached agreement after discussion.",
+      "translation": "Обе стороны достигли соглашения после обсуждения.",
+      "audio": [
+        "audio/sentences/Both sides reached agreement after discussion..wav"
+      ]
+    },
+    {
+      "id": "she-raised-concern-about-the-timeline.",
+      "english": "She raised concern about the timeline.",
+      "translation": "Она выразила обеспокоенность по поводу сроков.",
+      "audio": [
+        "audio/sentences/She raised concern about the timeline..wav"
+      ]
+    },
+    {
+      "id": "the-results-met-expectations-this-quarter.",
+      "english": "The results met expectations this quarter.",
+      "translation": "Результаты соответствовали ожиданиям в этом квартале.",
+      "audio": [
+        "audio/sentences/The results met expectations this quarter..wav"
+      ]
+    },
+    {
+      "id": "managers-set-priority-based-on-impact.",
+      "english": "Managers set priority based on impact.",
+      "translation": "Менеджеры устанавливают приоритет на основе влияния.",
+      "audio": [
+        "audio/sentences/Managers set priority based on impact..wav"
+      ]
+    },
+    {
+      "id": "the-data-helped-gain-insight-into-behavior.",
+      "english": "The data helped gain insight into behavior.",
+      "translation": "Данные помогли получить понимание поведения.",
+      "audio": [
+        "audio/sentences/The data helped gain insight into behavior..wav"
+      ]
+    },
+    {
+      "id": "good-design-adds-value-to-products.",
+      "english": "Good design adds value to products.",
+      "translation": "Хороший дизайн добавляет ценность продуктам.",
+      "audio": [
+        "audio/sentences/Good design adds value to products..wav"
+      ]
+    },
+    {
+      "id": "innovation-drives-growth-in-markets.",
+      "english": "Innovation drives growth in markets.",
+      "translation": "Инновации стимулируют рост на рынках.",
+      "audio": [
+        "audio/sentences/Innovation drives growth in markets..wav"
+      ]
+    },
+    {
+      "id": "small-changes-can-create-impact.",
+      "english": "Small changes can create impact.",
+      "translation": "Небольшие изменения могут создавать влияние.",
+      "audio": [
+        "audio/sentences/Small changes can create impact..wav"
+      ]
+    },
+    {
+      "id": "he-made-a-decision-under-pressure.",
+      "english": "He made a decision under pressure.",
+      "translation": "Он принял решение под давлением.",
+      "audio": [
+        "audio/sentences/He made a decision under pressure..wav"
+      ]
+    },
+    {
+      "id": "teams-solve-problems-more-effectively.",
+      "english": "Teams solve problems more effectively.",
+      "translation": "Команды решают проблемы эффективнее.",
+      "audio": [
+        "audio/sentences/Teams solve problems more effectively..wav"
+      ]
+    },
+    {
+      "id": "the-report-addresses-the-issue-clearly.",
+      "english": "The report addresses the issue clearly.",
+      "translation": "Отчёт чётко разбирает проблему.",
+      "audio": [
+        "audio/sentences/The report addresses the issue clearly..wav"
+      ]
+    },
+    {
+      "id": "experts-identified-risk-in-advance.",
+      "english": "Experts identified risk in advance.",
+      "translation": "Эксперты выявили риск заранее.",
+      "audio": [
+        "audio/sentences/Experts identified risk in advance..wav"
+      ]
+    },
+    {
+      "id": "proper-planning-reduces-risk-significantly.",
+      "english": "Proper planning reduces risk significantly.",
+      "translation": "Грамотное планирование значительно снижает риск.",
+      "audio": [
+        "audio/sentences/Proper planning reduces risk significantly..wav"
+      ]
+    },
+    {
+      "id": "they-took-action-immediately.",
+      "english": "They took action immediately.",
+      "translation": "Они предприняли действие немедленно.",
+      "audio": [
+        "audio/sentences/They took action immediately..wav"
+      ]
+    },
+    {
+      "id": "the-team-made-progress-over-time.",
+      "english": "The team made progress over time.",
+      "translation": "Команда достигала прогресса со временем.",
+      "audio": [
+        "audio/sentences/The team made progress over time..wav"
+      ]
+    },
+    {
+      "id": "she-showed-interest-in-the-proposal.",
+      "english": "She showed interest in the proposal.",
+      "translation": "Она проявила интерес к предложению.",
+      "audio": [
+        "audio/sentences/She showed interest in the proposal..wav"
+      ]
+    },
+    {
+      "id": "open-communication-helps-build-trust.",
+      "english": "Open communication helps build trust.",
+      "translation": "Открытое общение помогает строить доверие.",
+      "audio": [
+        "audio/sentences/Open communication helps build trust..wav"
+      ]
+    },
+    {
+      "id": "he-lost-focus-during-the-discussion.",
+      "english": "He lost focus during the discussion.",
+      "translation": "Он потерял фокус во время обсуждения.",
+      "audio": [
+        "audio/sentences/He lost focus during the discussion..wav"
+      ]
+    },
+    {
+      "id": "she-took-initiative-without-being-asked.",
+      "english": "She took initiative without being asked.",
+      "translation": "Она проявила инициативу без просьбы.",
+      "audio": [
+        "audio/sentences/She took initiative without being asked..wav"
+      ]
+    },
+    {
+      "id": "good-leaders-manage-expectations-clearly.",
+      "english": "Good leaders manage expectations clearly.",
+      "translation": "Хорошие лидеры чётко управляют ожиданиями.",
+      "audio": [
+        "audio/sentences/Good leaders manage expectations clearly..wav"
+      ]
+    },
+    {
+      "id": "he-handles-pressure-better-than-most.",
+      "english": "He handles pressure better than most.",
+      "translation": "Он справляется с давлением лучше многих.",
+      "audio": [
+        "audio/sentences/He handles pressure better than most..wav"
+      ]
+    },
+    {
+      "id": "the-team-dealt-effectively-with-issues.",
+      "english": "The team dealt effectively with issues.",
+      "translation": "Команда эффективно справилась с проблемами.",
+      "audio": [
+        "audio/sentences/The team dealt effectively with issues..wav"
+      ]
+    },
+    {
+      "id": "the-project-needs-clear-direction.",
+      "english": "The project needs clear direction.",
+      "translation": "Проекту нужно чёткое направление.",
+      "audio": [
+        "audio/sentences/The project needs clear direction..wav"
+      ]
+    },
+    {
+      "id": "she-presented-a-strong-argument.",
+      "english": "She presented a strong argument.",
+      "translation": "Она представила весомый аргумент.",
+      "audio": [
+        "audio/sentences/She presented a strong argument..wav"
+      ]
+    },
+    {
+      "id": "timing-was-a-key-factor.",
+      "english": "Timing was a key factor.",
+      "translation": "Время было ключевым фактором.",
+      "audio": [
+        "audio/sentences/Timing was a key factor..wav"
+      ]
+    },
+    {
+      "id": "this-approach-is-common-practice.",
+      "english": "This approach is common practice.",
+      "translation": "Этот подход является распространённой практикой.",
+      "audio": [
+        "audio/sentences/This approach is common practice..wav"
+      ]
+    },
+    {
+      "id": "scaling-fast-became-a-real-challenge.",
+      "english": "Scaling fast became a real challenge.",
+      "translation": "Быстрое масштабирование стало реальным вызовом.",
+      "audio": [
+        "audio/sentences/Scaling fast became a real challenge..wav"
+      ]
+    },
+    {
+      "id": "the-update-caused-significant-change.",
+      "english": "The update caused significant change.",
+      "translation": "Обновление вызвало значительное изменение.",
+      "audio": [
+        "audio/sentences/The update caused significant change..wav"
+      ]
+    },
+    {
+      "id": "negotiations-led-to-a-positive-outcome.",
+      "english": "Negotiations led to a positive outcome.",
+      "translation": "Переговоры привели к положительному результату.",
+      "audio": [
+        "audio/sentences/Negotiations led to a positive outcome..wav"
+      ]
+    },
+    {
+      "id": "growth-is-their-long-term-goal.",
+      "english": "Growth is their long-term goal.",
+      "translation": "Рост является их долгосрочной целью.",
+      "audio": [
+        "audio/sentences/Growth is their long-term goal..wav"
+      ]
+    },
+    {
+      "id": "practice-improves-natural-flow.",
+      "english": "Practice improves natural flow.",
+      "translation": "Практика улучшает естественный поток речи.",
+      "audio": [
+        "audio/sentences/Practice improves natural flow..wav"
+      ]
+    },
+    {
+      "id": "he-focuses-on-spoken-english.",
+      "english": "He focuses on spoken English.",
+      "translation": "Он делает упор на разговорный английский.",
+      "audio": [
+        "audio/sentences/He focuses on spoken English..wav"
+      ]
+    }
+  ]
+}

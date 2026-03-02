@@ -1,0 +1,279 @@
+{
+  "theme": "Естественная речь",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "make-sense",
+      "english": "make sense",
+      "translation": "иметь смысл",
+      "audio": [
+        "audio/words/make sense.wav"
+      ]
+    },
+    {
+      "id": "take-responsibility",
+      "english": "take responsibility",
+      "translation": "брать ответственность",
+      "audio": [
+        "audio/words/take responsibility.wav"
+      ]
+    },
+    {
+      "id": "reach-agreement",
+      "english": "reach agreement",
+      "translation": "достичь соглашения",
+      "audio": [
+        "audio/words/reach agreement.wav"
+      ]
+    },
+    {
+      "id": "raise-concern",
+      "english": "raise concern",
+      "translation": "выразить обеспокоенность",
+      "audio": [
+        "audio/words/raise concern.wav"
+      ]
+    },
+    {
+      "id": "meet-expectations",
+      "english": "meet expectations",
+      "translation": "соответствовать ожиданиям",
+      "audio": [
+        "audio/words/meet expectations.wav"
+      ]
+    },
+    {
+      "id": "set-priority",
+      "english": "set priority",
+      "translation": "установить приоритет",
+      "audio": [
+        "audio/words/set priority.wav"
+      ]
+    },
+    {
+      "id": "gain-insight",
+      "english": "gain insight",
+      "translation": "получить понимание",
+      "audio": [
+        "audio/words/gain insight.wav"
+      ]
+    },
+    {
+      "id": "add-value",
+      "english": "add value",
+      "translation": "добавлять ценность",
+      "audio": [
+        "audio/words/add value.wav"
+      ]
+    },
+    {
+      "id": "drive-growth",
+      "english": "drive growth",
+      "translation": "стимулировать рост",
+      "audio": [
+        "audio/words/drive growth.wav"
+      ]
+    },
+    {
+      "id": "create-impact",
+      "english": "create impact",
+      "translation": "создавать влияние",
+      "audio": [
+        "audio/words/create impact.wav"
+      ]
+    },
+    {
+      "id": "make-decision",
+      "english": "make decision",
+      "translation": "принимать решение",
+      "audio": [
+        "audio/words/make decision.wav"
+      ]
+    },
+    {
+      "id": "solve-problem",
+      "english": "solve problem",
+      "translation": "решать проблему",
+      "audio": [
+        "audio/words/solve problem.wav"
+      ]
+    },
+    {
+      "id": "address-issue",
+      "english": "address issue",
+      "translation": "разбирать проблему",
+      "audio": [
+        "audio/words/address issue.wav"
+      ]
+    },
+    {
+      "id": "identify-risk",
+      "english": "identify risk",
+      "translation": "выявлять риск",
+      "audio": [
+        "audio/words/identify risk.wav"
+      ]
+    },
+    {
+      "id": "reduce-risk",
+      "english": "reduce risk",
+      "translation": "снижать риск",
+      "audio": [
+        "audio/words/reduce risk.wav"
+      ]
+    },
+    {
+      "id": "take-action",
+      "english": "take action",
+      "translation": "предпринимать действие",
+      "audio": [
+        "audio/words/take action.wav"
+      ]
+    },
+    {
+      "id": "make-progress",
+      "english": "make progress",
+      "translation": "достигать прогресса",
+      "audio": [
+        "audio/words/make progress.wav"
+      ]
+    },
+    {
+      "id": "show-interest",
+      "english": "show interest",
+      "translation": "проявлять интерес",
+      "audio": [
+        "audio/words/show interest.wav"
+      ]
+    },
+    {
+      "id": "build-trust",
+      "english": "build trust",
+      "translation": "строить доверие",
+      "audio": [
+        "audio/words/build trust.wav"
+      ]
+    },
+    {
+      "id": "lose-focus",
+      "english": "lose focus",
+      "translation": "терять фокус",
+      "audio": [
+        "audio/words/lose focus.wav"
+      ]
+    },
+    {
+      "id": "take-initiative",
+      "english": "take initiative",
+      "translation": "проявлять инициативу",
+      "audio": [
+        "audio/words/take initiative.wav"
+      ]
+    },
+    {
+      "id": "manage-expectations",
+      "english": "manage expectations",
+      "translation": "управлять ожиданиями",
+      "audio": [
+        "audio/words/manage expectations.wav"
+      ]
+    },
+    {
+      "id": "handle-pressure",
+      "english": "handle pressure",
+      "translation": "справляться с давлением",
+      "audio": [
+        "audio/words/handle pressure.wav"
+      ]
+    },
+    {
+      "id": "deal-effectively",
+      "english": "deal effectively",
+      "translation": "эффективно справляться",
+      "audio": [
+        "audio/words/deal effectively.wav"
+      ]
+    },
+    {
+      "id": "clear-direction",
+      "english": "clear direction",
+      "translation": "чёткое направление",
+      "audio": [
+        "audio/words/clear direction.wav"
+      ]
+    },
+    {
+      "id": "strong-argument",
+      "english": "strong argument",
+      "translation": "весомый аргумент",
+      "audio": [
+        "audio/words/strong argument.wav"
+      ]
+    },
+    {
+      "id": "key-factor",
+      "english": "key factor",
+      "translation": "ключевой фактор",
+      "audio": [
+        "audio/words/key factor.wav"
+      ]
+    },
+    {
+      "id": "common-practice",
+      "english": "common practice",
+      "translation": "распространённая практика",
+      "audio": [
+        "audio/words/common practice.wav"
+      ]
+    },
+    {
+      "id": "real-challenge",
+      "english": "real challenge",
+      "translation": "реальный вызов",
+      "audio": [
+        "audio/words/real challenge.wav"
+      ]
+    },
+    {
+      "id": "significant-change",
+      "english": "significant change",
+      "translation": "значительное изменение",
+      "audio": [
+        "audio/words/significant change.wav"
+      ]
+    },
+    {
+      "id": "positive-outcome",
+      "english": "positive outcome",
+      "translation": "положительный результат",
+      "audio": [
+        "audio/words/positive outcome.wav"
+      ]
+    },
+    {
+      "id": "long-term-goal",
+      "english": "long-term goal",
+      "translation": "долгосрочная цель",
+      "audio": [
+        "audio/words/long-term goal.wav"
+      ]
+    },
+    {
+      "id": "natural-flow",
+      "english": "natural flow",
+      "translation": "естественный поток речи",
+      "audio": [
+        "audio/words/natural flow.wav"
+      ]
+    },
+    {
+      "id": "spoken-english",
+      "english": "spoken English",
+      "translation": "разговорный английский",
+      "audio": [
+        "audio/words/spoken English.wav"
+      ]
+    }
+  ]
+}

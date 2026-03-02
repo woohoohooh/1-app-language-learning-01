@@ -1,0 +1,367 @@
+{
+  "theme": "Компьютеры и гаджеты",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "he-uses-a-powerful-computer.",
+      "english": "He uses a powerful computer.",
+      "translation": "Он использует мощный компьютер.",
+      "audio": [
+        "audio/sentences/He uses a powerful computer..wav"
+      ]
+    },
+    {
+      "id": "she-works-on-a-small-laptop.",
+      "english": "She works on a small laptop.",
+      "translation": "Она работает на небольшом ноутбуке.",
+      "audio": [
+        "audio/sentences/She works on a small laptop..wav"
+      ]
+    },
+    {
+      "id": "the-office-uses-desktop-computers.",
+      "english": "The office uses desktop computers.",
+      "translation": "В офисе используют стационарные компьютеры.",
+      "audio": [
+        "audio/sentences/The office uses desktop computers..wav"
+      ]
+    },
+    {
+      "id": "he-reads-news-on-a-tablet.",
+      "english": "He reads news on a tablet.",
+      "translation": "Он читает новости на планшете.",
+      "audio": [
+        "audio/sentences/He reads news on a tablet..wav"
+      ]
+    },
+    {
+      "id": "she-upgraded-her-smartphone-yesterday.",
+      "english": "She upgraded her smartphone yesterday.",
+      "translation": "Она обновила свой смартфон вчера.",
+      "audio": [
+        "audio/sentences/She upgraded her smartphone yesterday..wav"
+      ]
+    },
+    {
+      "id": "this-device-supports-wireless-charging.",
+      "english": "This device supports wireless charging.",
+      "translation": "Это устройство поддерживает беспроводную зарядку.",
+      "audio": [
+        "audio/sentences/This device supports wireless charging..wav"
+      ]
+    },
+    {
+      "id": "the-store-sells-trendy-gadgets.",
+      "english": "The store sells trendy gadgets.",
+      "translation": "Магазин продаёт модные гаджеты.",
+      "audio": [
+        "audio/sentences/The store sells trendy gadgets..wav"
+      ]
+    },
+    {
+      "id": "the-screen-shows-bright-colors.",
+      "english": "The screen shows bright colors.",
+      "translation": "Экран отображает яркие цвета.",
+      "audio": [
+        "audio/sentences/The screen shows bright colors..wav"
+      ]
+    },
+    {
+      "id": "the-display-has-high-resolution.",
+      "english": "The display has high resolution.",
+      "translation": "Дисплей имеет высокое разрешение.",
+      "audio": [
+        "audio/sentences/The display has high resolution..wav"
+      ]
+    },
+    {
+      "id": "the-touchscreen-responds-quickly.",
+      "english": "The touchscreen responds quickly.",
+      "translation": "Сенсорный экран реагирует быстро.",
+      "audio": [
+        "audio/sentences/The touchscreen responds quickly..wav"
+      ]
+    },
+    {
+      "id": "the-keyboard-feels-comfortable.",
+      "english": "The keyboard feels comfortable.",
+      "translation": "Клавиатура ощущается удобно.",
+      "audio": [
+        "audio/sentences/The keyboard feels comfortable..wav"
+      ]
+    },
+    {
+      "id": "he-bought-a-wireless-mouse.",
+      "english": "He bought a wireless mouse.",
+      "translation": "Он купил беспроводную мышь.",
+      "audio": [
+        "audio/sentences/He bought a wireless mouse..wav"
+      ]
+    },
+    {
+      "id": "the-touchpad-works-smoothly.",
+      "english": "The touchpad works smoothly.",
+      "translation": "Тачпад работает плавно.",
+      "audio": [
+        "audio/sentences/The touchpad works smoothly..wav"
+      ]
+    },
+    {
+      "id": "the-large-monitor-improves-productivity.",
+      "english": "The large monitor improves productivity.",
+      "translation": "Большой монитор повышает продуктивность.",
+      "audio": [
+        "audio/sentences/The large monitor improves productivity..wav"
+      ]
+    },
+    {
+      "id": "the-speakers-deliver-clear-sound.",
+      "english": "The speakers deliver clear sound.",
+      "translation": "Динамики выдают чистый звук.",
+      "audio": [
+        "audio/sentences/The speakers deliver clear sound..wav"
+      ]
+    },
+    {
+      "id": "she-listens-to-music-with-headphones.",
+      "english": "She listens to music with headphones.",
+      "translation": "Она слушает музыку в наушниках.",
+      "audio": [
+        "audio/sentences/She listens to music with headphones..wav"
+      ]
+    },
+    {
+      "id": "the-microphone-captures-every-detail.",
+      "english": "The microphone captures every detail.",
+      "translation": "Микрофон улавливает каждую деталь.",
+      "audio": [
+        "audio/sentences/The microphone captures every detail..wav"
+      ]
+    },
+    {
+      "id": "the-webcam-works-during-video-calls.",
+      "english": "The webcam works during video calls.",
+      "translation": "Веб-камера работает во время видеозвонков.",
+      "audio": [
+        "audio/sentences/The webcam works during video calls..wav"
+      ]
+    },
+    {
+      "id": "the-printer-runs-out-of-ink.",
+      "english": "The printer runs out of ink.",
+      "translation": "У принтера заканчиваются чернила.",
+      "audio": [
+        "audio/sentences/The printer runs out of ink..wav"
+      ]
+    },
+    {
+      "id": "the-scanner-digitizes-documents.",
+      "english": "The scanner digitizes documents.",
+      "translation": "Сканер оцифровывает документы.",
+      "audio": [
+        "audio/sentences/The scanner digitizes documents..wav"
+      ]
+    },
+    {
+      "id": "the-processor-handles-complex-tasks.",
+      "english": "The processor handles complex tasks.",
+      "translation": "Процессор справляется со сложными задачами.",
+      "audio": [
+        "audio/sentences/The processor handles complex tasks..wav"
+      ]
+    },
+    {
+      "id": "the-computer-needs-more-memory.",
+      "english": "The computer needs more memory.",
+      "translation": "Компьютеру нужно больше памяти.",
+      "audio": [
+        "audio/sentences/The computer needs more memory..wav"
+      ]
+    },
+    {
+      "id": "storage-keeps-all-important-data.",
+      "english": "Storage keeps all important data.",
+      "translation": "Память хранит все важные данные.",
+      "audio": [
+        "audio/sentences/Storage keeps all important data..wav"
+      ]
+    },
+    {
+      "id": "the-hard-drive-stores-large-files.",
+      "english": "The hard drive stores large files.",
+      "translation": "Жёсткий диск хранит большие файлы.",
+      "audio": [
+        "audio/sentences/The hard drive stores large files..wav"
+      ]
+    },
+    {
+      "id": "the-ssd-loads-the-system-quickly.",
+      "english": "The SSD loads the system quickly.",
+      "translation": "SSD быстро загружает систему.",
+      "audio": [
+        "audio/sentences/The SSD loads the system quickly..wav"
+      ]
+    },
+    {
+      "id": "the-battery-lasts-all-day.",
+      "english": "The battery lasts all day.",
+      "translation": "Батарея держится весь день.",
+      "audio": [
+        "audio/sentences/The battery lasts all day..wav"
+      ]
+    },
+    {
+      "id": "the-charger-powers-the-laptop.",
+      "english": "The charger powers the laptop.",
+      "translation": "Зарядное устройство питает ноутбук.",
+      "audio": [
+        "audio/sentences/The charger powers the laptop..wav"
+      ]
+    },
+    {
+      "id": "the-power-cable-is-too-short.",
+      "english": "The power cable is too short.",
+      "translation": "Кабель питания слишком короткий.",
+      "audio": [
+        "audio/sentences/The power cable is too short..wav"
+      ]
+    },
+    {
+      "id": "the-usb-cable-connects-the-devices.",
+      "english": "The USB cable connects the devices.",
+      "translation": "USB-кабель соединяет устройства.",
+      "audio": [
+        "audio/sentences/The USB cable connects the devices..wav"
+      ]
+    },
+    {
+      "id": "the-adapter-supports-fast-charging.",
+      "english": "The adapter supports fast charging.",
+      "translation": "Адаптер поддерживает быструю зарядку.",
+      "audio": [
+        "audio/sentences/The adapter supports fast charging..wav"
+      ]
+    },
+    {
+      "id": "the-operating-system-manages-all-processes.",
+      "english": "The operating system manages all processes.",
+      "translation": "Операционная система управляет всеми процессами.",
+      "audio": [
+        "audio/sentences/The operating system manages all processes..wav"
+      ]
+    },
+    {
+      "id": "the-software-improves-device-functions.",
+      "english": "The software improves device functions.",
+      "translation": "Программное обеспечение улучшает функции устройства.",
+      "audio": [
+        "audio/sentences/The software improves device functions..wav"
+      ]
+    },
+    {
+      "id": "the-hardware-handles-heavy-tasks.",
+      "english": "The hardware handles heavy tasks.",
+      "translation": "Аппаратное обеспечение справляется с тяжёлыми задачами.",
+      "audio": [
+        "audio/sentences/The hardware handles heavy tasks..wav"
+      ]
+    },
+    {
+      "id": "the-application-runs-smoothly.",
+      "english": "The application runs smoothly.",
+      "translation": "Приложение работает плавно.",
+      "audio": [
+        "audio/sentences/The application runs smoothly..wav"
+      ]
+    },
+    {
+      "id": "the-driver-controls-the-device.",
+      "english": "The driver controls the device.",
+      "translation": "Драйвер управляет устройством.",
+      "audio": [
+        "audio/sentences/The driver controls the device..wav"
+      ]
+    },
+    {
+      "id": "performance-depends-on-system-load.",
+      "english": "Performance depends on system load.",
+      "translation": "Производительность зависит от нагрузки системы.",
+      "audio": [
+        "audio/sentences/Performance depends on system load..wav"
+      ]
+    },
+    {
+      "id": "the-resolution-affects-image-clarity.",
+      "english": "The resolution affects image clarity.",
+      "translation": "Разрешение влияет на чёткость изображения.",
+      "audio": [
+        "audio/sentences/The resolution affects image clarity..wav"
+      ]
+    },
+    {
+      "id": "settings-control-all-system-options.",
+      "english": "Settings control all system options.",
+      "translation": "Настройки управляют всеми параметрами системы.",
+      "audio": [
+        "audio/sentences/Settings control all system options..wav"
+      ]
+    },
+    {
+      "id": "the-update-fixed-several-issues.",
+      "english": "The update fixed several issues.",
+      "translation": "Обновление исправило несколько проблем.",
+      "audio": [
+        "audio/sentences/The update fixed several issues..wav"
+      ]
+    },
+    {
+      "id": "compatibility-varies-between-devices.",
+      "english": "Compatibility varies between devices.",
+      "translation": "Совместимость различается между устройствами.",
+      "audio": [
+        "audio/sentences/Compatibility varies between devices..wav"
+      ]
+    },
+    {
+      "id": "wireless-technology-improves-mobility.",
+      "english": "Wireless technology improves mobility.",
+      "translation": "Беспроводные технологии улучшают мобильность.",
+      "audio": [
+        "audio/sentences/Wireless technology improves mobility..wav"
+      ]
+    },
+    {
+      "id": "bluetooth-connects-devices-easily.",
+      "english": "Bluetooth connects devices easily.",
+      "translation": "Bluetooth легко соединяет устройства.",
+      "audio": [
+        "audio/sentences/Bluetooth connects devices easily..wav"
+      ]
+    },
+    {
+      "id": "wi-fi-provides-stable-internet-access.",
+      "english": "Wi-Fi provides stable internet access.",
+      "translation": "Wi-Fi обеспечивает стабильный доступ в интернет.",
+      "audio": [
+        "audio/sentences/Wi-Fi provides stable internet access..wav"
+      ]
+    },
+    {
+      "id": "a-portable-device-is-easy-to-use-anywhere.",
+      "english": "A portable device is easy to use anywhere.",
+      "translation": "Портативное устройство удобно использовать где угодно.",
+      "audio": [
+        "audio/sentences/A portable device is easy to use anywhere..wav"
+      ]
+    },
+    {
+      "id": "the-built-in-camera-works-well.",
+      "english": "The built-in camera works well.",
+      "translation": "Встроенная камера работает хорошо.",
+      "audio": [
+        "audio/sentences/The built-in camera works well..wav"
+      ]
+    }
+  ]
+}

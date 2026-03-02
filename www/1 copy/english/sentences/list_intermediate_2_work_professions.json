@@ -1,0 +1,375 @@
+{
+  "theme": "Работа и профессии",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "she-found-a-new-job-last-month.",
+      "english": "She found a new job last month.",
+      "translation": "Она нашла новую работу в прошлом месяце.",
+      "audio": [
+        "audio/sentences/She found a new job last month..wav"
+      ]
+    },
+    {
+      "id": "he-works-from-home-on-fridays.",
+      "english": "He works from home on Fridays.",
+      "translation": "Он работает из дома по пятницам.",
+      "audio": [
+        "audio/sentences/He works from home on Fridays..wav"
+      ]
+    },
+    {
+      "id": "she-wants-to-change-her-career.",
+      "english": "She wants to change her career.",
+      "translation": "Она хочет сменить свою карьеру.",
+      "audio": [
+        "audio/sentences/She wants to change her career..wav"
+      ]
+    },
+    {
+      "id": "a-profession-requires-training.",
+      "english": "A profession requires training.",
+      "translation": "Профессия требует подготовки.",
+      "audio": [
+        "audio/sentences/A profession requires training..wav"
+      ]
+    },
+    {
+      "id": "his-occupation-involves-research.",
+      "english": "His occupation involves research.",
+      "translation": "Его род занятий связан с исследованиями.",
+      "audio": [
+        "audio/sentences/His occupation involves research..wav"
+      ]
+    },
+    {
+      "id": "each-employee-follows-the-policy.",
+      "english": "Each employee follows the policy.",
+      "translation": "Каждый сотрудник следует правилам.",
+      "audio": [
+        "audio/sentences/Each employee follows the policy..wav"
+      ]
+    },
+    {
+      "id": "the-employer-offers-health-benefits.",
+      "english": "The employer offers health benefits.",
+      "translation": "Работодатель предлагает медстраховку.",
+      "audio": [
+        "audio/sentences/The employer offers health benefits..wav"
+      ]
+    },
+    {
+      "id": "my-colleagues-support-new-ideas.",
+      "english": "My colleagues support new ideas.",
+      "translation": "Мои коллеги поддерживают новые идеи.",
+      "audio": [
+        "audio/sentences/My colleagues support new ideas..wav"
+      ]
+    },
+    {
+      "id": "the-manager-reviewed-the-report.",
+      "english": "The manager reviewed the report.",
+      "translation": "Менеджер проверил отчёт.",
+      "audio": [
+        "audio/sentences/The manager reviewed the report..wav"
+      ]
+    },
+    {
+      "id": "the-supervisor-monitors-performance.",
+      "english": "The supervisor monitors performance.",
+      "translation": "Руководитель контролирует выполнение.",
+      "audio": [
+        "audio/sentences/The supervisor monitors performance..wav"
+      ]
+    },
+    {
+      "id": "she-applied-for-a-senior-position.",
+      "english": "She applied for a senior position.",
+      "translation": "Она подала заявку на старшую должность.",
+      "audio": [
+        "audio/sentences/She applied for a senior position..wav"
+      ]
+    },
+    {
+      "id": "his-role-has-expanded-recently.",
+      "english": "His role has expanded recently.",
+      "translation": "Его роль недавно расширилась.",
+      "audio": [
+        "audio/sentences/His role has expanded recently..wav"
+      ]
+    },
+    {
+      "id": "she-takes-full-responsibility-for-errors.",
+      "english": "She takes full responsibility for errors.",
+      "translation": "Она берёт полную ответственность за ошибки.",
+      "audio": [
+        "audio/sentences/She takes full responsibility for errors..wav"
+      ]
+    },
+    {
+      "id": "it-is-her-duty-to-report-progress.",
+      "english": "It is her duty to report progress.",
+      "translation": "Её обязанность — сообщать о прогрессе.",
+      "audio": [
+        "audio/sentences/It is her duty to report progress..wav"
+      ]
+    },
+    {
+      "id": "he-completed-the-task-on-time.",
+      "english": "He completed the task on time.",
+      "translation": "Он выполнил задачу вовремя.",
+      "audio": [
+        "audio/sentences/He completed the task on time..wav"
+      ]
+    },
+    {
+      "id": "she-has-experience-in-marketing.",
+      "english": "She has experience in marketing.",
+      "translation": "У неё есть опыт в маркетинге.",
+      "audio": [
+        "audio/sentences/She has experience in marketing..wav"
+      ]
+    },
+    {
+      "id": "the-job-requires-strong-qualifications.",
+      "english": "The job requires strong qualifications.",
+      "translation": "Работа требует высокой квалификации.",
+      "audio": [
+        "audio/sentences/The job requires strong qualifications..wav"
+      ]
+    },
+    {
+      "id": "good-communication-skills-matter.",
+      "english": "Good communication skills matter.",
+      "translation": "Хорошие навыки коммуникации важны.",
+      "audio": [
+        "audio/sentences/Good communication skills matter..wav"
+      ]
+    },
+    {
+      "id": "she-has-a-background-in-finance.",
+      "english": "She has a background in finance.",
+      "translation": "У неё опыт в сфере финансов.",
+      "audio": [
+        "audio/sentences/She has a background in finance..wav"
+      ]
+    },
+    {
+      "id": "the-salary-meets-her-expectations.",
+      "english": "The salary meets her expectations.",
+      "translation": "Зарплата соответствует её ожиданиям.",
+      "audio": [
+        "audio/sentences/The salary meets her expectations..wav"
+      ]
+    },
+    {
+      "id": "the-wage-increases-every-year.",
+      "english": "The wage increases every year.",
+      "translation": "Оплата труда растёт каждый год.",
+      "audio": [
+        "audio/sentences/The wage increases every year..wav"
+      ]
+    },
+    {
+      "id": "many-families-rely-on-stable-income.",
+      "english": "Many families rely on stable income.",
+      "translation": "Многие семьи полагаются на стабильный доход.",
+      "audio": [
+        "audio/sentences/Many families rely on stable income..wav"
+      ]
+    },
+    {
+      "id": "employees-received-a-holiday-bonus.",
+      "english": "Employees received a holiday bonus.",
+      "translation": "Сотрудники получили праздничную премию.",
+      "audio": [
+        "audio/sentences/Employees received a holiday bonus..wav"
+      ]
+    },
+    {
+      "id": "the-job-offers-great-benefits.",
+      "english": "The job offers great benefits.",
+      "translation": "Работа предлагает отличный соцпакет.",
+      "audio": [
+        "audio/sentences/The job offers great benefits..wav"
+      ]
+    },
+    {
+      "id": "my-schedule-changes-next-week.",
+      "english": "My schedule changes next week.",
+      "translation": "Мой график меняется на следующей неделе.",
+      "audio": [
+        "audio/sentences/My schedule changes next week..wav"
+      ]
+    },
+    {
+      "id": "she-works-the-early-shift.",
+      "english": "She works the early shift.",
+      "translation": "Она работает на ранней смене.",
+      "audio": [
+        "audio/sentences/She works the early shift..wav"
+      ]
+    },
+    {
+      "id": "the-workload-increased-last-month.",
+      "english": "The workload increased last month.",
+      "translation": "Рабочая нагрузка увеличилась в прошлом месяце.",
+      "audio": [
+        "audio/sentences/The workload increased last month..wav"
+      ]
+    },
+    {
+      "id": "we-must-meet-the-deadline.",
+      "english": "We must meet the deadline.",
+      "translation": "Мы должны уложиться в срок.",
+      "audio": [
+        "audio/sentences/We must meet the deadline..wav"
+      ]
+    },
+    {
+      "id": "he-often-works-overtime.",
+      "english": "He often works overtime.",
+      "translation": "Он часто работает сверхурочно.",
+      "audio": [
+        "audio/sentences/He often works overtime..wav"
+      ]
+    },
+    {
+      "id": "she-found-a-full-time-position.",
+      "english": "She found a full-time position.",
+      "translation": "Она нашла работу на полный день.",
+      "audio": [
+        "audio/sentences/She found a full-time position..wav"
+      ]
+    },
+    {
+      "id": "he-studies-and-works-part-time.",
+      "english": "He studies and works part-time.",
+      "translation": "Он учится и работает неполный день.",
+      "audio": [
+        "audio/sentences/He studies and works part-time..wav"
+      ]
+    },
+    {
+      "id": "she-does-freelance-for-extra-money.",
+      "english": "She does freelance for extra money.",
+      "translation": "Она занимается фрилансом ради дополнительного заработка.",
+      "audio": [
+        "audio/sentences/She does freelance for extra money..wav"
+      ]
+    },
+    {
+      "id": "they-signed-a-new-contract.",
+      "english": "They signed a new contract.",
+      "translation": "Они подписали новый контракт.",
+      "audio": [
+        "audio/sentences/They signed a new contract..wav"
+      ]
+    },
+    {
+      "id": "the-company-hired-temporary-workers.",
+      "english": "The company hired temporary workers.",
+      "translation": "Компания наняла временных работников.",
+      "audio": [
+        "audio/sentences/The company hired temporary workers..wav"
+      ]
+    },
+    {
+      "id": "they-plan-to-hire-new-designers.",
+      "english": "They plan to hire new designers.",
+      "translation": "Они планируют нанять новых дизайнеров.",
+      "audio": [
+        "audio/sentences/They plan to hire new designers..wav"
+      ]
+    },
+    {
+      "id": "he-was-fired-last-month.",
+      "english": "He was fired last month.",
+      "translation": "Его уволили в прошлом месяце.",
+      "audio": [
+        "audio/sentences/He was fired last month..wav"
+      ]
+    },
+    {
+      "id": "she-quit-without-notice.",
+      "english": "She quit without notice.",
+      "translation": "Она уволилась без предупреждения.",
+      "audio": [
+        "audio/sentences/She quit without notice..wav"
+      ]
+    },
+    {
+      "id": "he-got-a-big-promotion.",
+      "english": "He got a big promotion.",
+      "translation": "Он получил большое повышение.",
+      "audio": [
+        "audio/sentences/He got a big promotion..wav"
+      ]
+    },
+    {
+      "id": "the-manager-faced-a-demotion.",
+      "english": "The manager faced a demotion.",
+      "translation": "Менеджер столкнулся с понижением.",
+      "audio": [
+        "audio/sentences/The manager faced a demotion..wav"
+      ]
+    },
+    {
+      "id": "she-updated-her-resume-yesterday.",
+      "english": "She updated her resume yesterday.",
+      "translation": "Она обновила своё резюме вчера.",
+      "audio": [
+        "audio/sentences/She updated her resume yesterday..wav"
+      ]
+    },
+    {
+      "id": "they-asked-her-to-send-a-cv.",
+      "english": "They asked her to send a CV.",
+      "translation": "У неё попросили отправить резюме.",
+      "audio": [
+        "audio/sentences/They asked her to send a CV..wav"
+      ]
+    },
+    {
+      "id": "he-has-an-interview-tomorrow.",
+      "english": "He has an interview tomorrow.",
+      "translation": "У него завтра собеседование.",
+      "audio": [
+        "audio/sentences/He has an interview tomorrow..wav"
+      ]
+    },
+    {
+      "id": "the-company-announced-a-new-vacancy.",
+      "english": "The company announced a new vacancy.",
+      "translation": "Компания объявила новую вакансию.",
+      "audio": [
+        "audio/sentences/The company announced a new vacancy..wav"
+      ]
+    },
+    {
+      "id": "he-submitted-an-application-online.",
+      "english": "He submitted an application online.",
+      "translation": "Он подал заявку онлайн.",
+      "audio": [
+        "audio/sentences/He submitted an application online..wav"
+      ]
+    },
+    {
+      "id": "his-expertise-helped-the-team-succeed.",
+      "english": "His expertise helped the team succeed.",
+      "translation": "Его профессиональные знания помогли команде добиться успеха.",
+      "audio": [
+        "audio/sentences/His expertise helped the team succeed..wav"
+      ]
+    },
+    {
+      "id": "the-job-offers-great-benefits.",
+      "english": "The job offers great benefits.",
+      "translation": "Работа предлагает отличные льготы.",
+      "audio": [
+        "audio/sentences/The job offers great benefits..wav"
+      ]
+    }
+  ]
+}

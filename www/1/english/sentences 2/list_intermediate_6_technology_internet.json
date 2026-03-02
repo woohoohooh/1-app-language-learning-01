@@ -1,0 +1,217 @@
+{
+  "theme": "Технологии и интернет",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "technology",
+      "english": "technology",
+      "translation": "технология"
+    },
+    {
+      "id": "internet",
+      "english": "internet",
+      "translation": "интернет"
+    },
+    {
+      "id": "network",
+      "english": "network",
+      "translation": "сеть"
+    },
+    {
+      "id": "connection",
+      "english": "connection",
+      "translation": "соединение"
+    },
+    {
+      "id": "access",
+      "english": "access",
+      "translation": "доступ"
+    },
+    {
+      "id": "website",
+      "english": "website",
+      "translation": "веб-сайт"
+    },
+    {
+      "id": "web-page",
+      "english": "web page",
+      "translation": "веб-страница"
+    },
+    {
+      "id": "platform",
+      "english": "platform",
+      "translation": "платформа"
+    },
+    {
+      "id": "service",
+      "english": "service",
+      "translation": "онлайн-сервис"
+    },
+    {
+      "id": "application",
+      "english": "application",
+      "translation": "приложение"
+    },
+    {
+      "id": "browser",
+      "english": "browser",
+      "translation": "браузер"
+    },
+    {
+      "id": "search-engine",
+      "english": "search engine",
+      "translation": "поисковая система"
+    },
+    {
+      "id": "link",
+      "english": "link",
+      "translation": "ссылка"
+    },
+    {
+      "id": "download",
+      "english": "download",
+      "translation": "загрузка"
+    },
+    {
+      "id": "upload",
+      "english": "upload",
+      "translation": "загрузка"
+    },
+    {
+      "id": "data",
+      "english": "data",
+      "translation": "данные"
+    },
+    {
+      "id": "information",
+      "english": "information",
+      "translation": "информация"
+    },
+    {
+      "id": "content",
+      "english": "content",
+      "translation": "контент"
+    },
+    {
+      "id": "file",
+      "english": "file",
+      "translation": "файл"
+    },
+    {
+      "id": "storage",
+      "english": "storage",
+      "translation": "хранилище"
+    },
+    {
+      "id": "cloud",
+      "english": "cloud",
+      "translation": "облако"
+    },
+    {
+      "id": "business",
+      "english": "business",
+      "translation": "бизнес"
+    },
+    {
+      "id": "company",
+      "english": "company",
+      "translation": "компания"
+    },
+    {
+      "id": "firm",
+      "english": "firm",
+      "translation": "фирма"
+    },
+    {
+      "id": "enterprise",
+      "english": "enterprise",
+      "translation": "предприятие"
+    },
+    {
+      "id": "organization",
+      "english": "organization",
+      "translation": "организация"
+    },
+    {
+      "id": "market",
+      "english": "market",
+      "translation": "рынок"
+    },
+    {
+      "id": "industry",
+      "english": "industry",
+      "translation": "отрасль"
+    },
+    {
+      "id": "competition",
+      "english": "competition",
+      "translation": "конкуренция"
+    },
+    {
+      "id": "competitor",
+      "english": "competitor",
+      "translation": "конкурент"
+    },
+    {
+      "id": "demand",
+      "english": "demand",
+      "translation": "спрос"
+    },
+    {
+      "id": "supply",
+      "english": "supply",
+      "translation": "предложение"
+    },
+    {
+      "id": "customer",
+      "english": "customer",
+      "translation": "клиент"
+    },
+    {
+      "id": "client",
+      "english": "client",
+      "translation": "клиент"
+    },
+    {
+      "id": "consumer",
+      "english": "consumer",
+      "translation": "потребитель"
+    },
+    {
+      "id": "partner",
+      "english": "partner",
+      "translation": "партнёр"
+    },
+    {
+      "id": "product",
+      "english": "product",
+      "translation": "продукт"
+    },
+    {
+      "id": "service",
+      "english": "service",
+      "translation": "услуга"
+    },
+    {
+      "id": "value",
+      "english": "value",
+      "translation": "ценность"
+    },
+    {
+      "id": "price",
+      "english": "price",
+      "translation": "цена"
+    },
+    {
+      "id": "cost",
+      "english": "cost",
+      "translation": "затраты"
+    },
+    {
+      "id": "revenue",
+      "english": "revenue",
+      "translation": "выручка"
+    }
+  ]
+}

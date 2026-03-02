@@ -1,0 +1,327 @@
+{
+  "theme": "Бизнес и деньги",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "he-runs-a-small-business.",
+      "english": "He runs a small business.",
+      "translation": "Он ведёт небольшой бизнес.",
+      "audio": [
+        "audio/sentences/He runs a small business..wav"
+      ]
+    },
+    {
+      "id": "the-company-grew-fast.",
+      "english": "The company grew fast.",
+      "translation": "Компания быстро выросла.",
+      "audio": [
+        "audio/sentences/The company grew fast..wav"
+      ]
+    },
+    {
+      "id": "the-firm-expanded-abroad.",
+      "english": "The firm expanded abroad.",
+      "translation": "Фирма расширилась за рубеж.",
+      "audio": [
+        "audio/sentences/The firm expanded abroad..wav"
+      ]
+    },
+    {
+      "id": "the-enterprise-employs-many-workers.",
+      "english": "The enterprise employs many workers.",
+      "translation": "Предприятие нанимает многих работников.",
+      "audio": [
+        "audio/sentences/The enterprise employs many workers..wav"
+      ]
+    },
+    {
+      "id": "the-organization-supports-education.",
+      "english": "The organization supports education.",
+      "translation": "Организация поддерживает образование.",
+      "audio": [
+        "audio/sentences/The organization supports education..wav"
+      ]
+    },
+    {
+      "id": "they-entered-a-new-market.",
+      "english": "They entered a new market.",
+      "translation": "Они вышли на новый рынок.",
+      "audio": [
+        "audio/sentences/They entered a new market..wav"
+      ]
+    },
+    {
+      "id": "the-industry-changed-rapidly.",
+      "english": "The industry changed rapidly.",
+      "translation": "Отрасль быстро изменилась.",
+      "audio": [
+        "audio/sentences/The industry changed rapidly..wav"
+      ]
+    },
+    {
+      "id": "competition-increased-this-year.",
+      "english": "Competition increased this year.",
+      "translation": "Конкуренция выросла в этом году.",
+      "audio": [
+        "audio/sentences/Competition increased this year..wav"
+      ]
+    },
+    {
+      "id": "our-competitor-launched-a-product.",
+      "english": "Our competitor launched a product.",
+      "translation": "Наш конкурент выпустил продукт.",
+      "audio": [
+        "audio/sentences/Our competitor launched a product..wav"
+      ]
+    },
+    {
+      "id": "demand-grew-last-month.",
+      "english": "Demand grew last month.",
+      "translation": "Спрос вырос в прошлом месяце.",
+      "audio": [
+        "audio/sentences/Demand grew last month..wav"
+      ]
+    },
+    {
+      "id": "supply-remained-stable.",
+      "english": "Supply remained stable.",
+      "translation": "Предложение осталось стабильным.",
+      "audio": [
+        "audio/sentences/Supply remained stable..wav"
+      ]
+    },
+    {
+      "id": "customers-liked-the-service.",
+      "english": "Customers liked the service.",
+      "translation": "Клиентам понравилась услуга.",
+      "audio": [
+        "audio/sentences/Customers liked the service..wav"
+      ]
+    },
+    {
+      "id": "the-client-approved-the-plan.",
+      "english": "The client approved the plan.",
+      "translation": "Клиент утвердил план.",
+      "audio": [
+        "audio/sentences/The client approved the plan..wav"
+      ]
+    },
+    {
+      "id": "consumers-prefer-quality.",
+      "english": "Consumers prefer quality.",
+      "translation": "Потребители предпочитают качество.",
+      "audio": [
+        "audio/sentences/Consumers prefer quality..wav"
+      ]
+    },
+    {
+      "id": "partners-shared-responsibilities.",
+      "english": "Partners shared responsibilities.",
+      "translation": "Партнёры разделили обязанности.",
+      "audio": [
+        "audio/sentences/Partners shared responsibilities..wav"
+      ]
+    },
+    {
+      "id": "the-product-performed-well.",
+      "english": "The product performed well.",
+      "translation": "Продукт показал хороший результат.",
+      "audio": [
+        "audio/sentences/The product performed well..wav"
+      ]
+    },
+    {
+      "id": "the-service-improved-quickly.",
+      "english": "The service improved quickly.",
+      "translation": "Услуга быстро улучшилась.",
+      "audio": [
+        "audio/sentences/The service improved quickly..wav"
+      ]
+    },
+    {
+      "id": "value-matters-to-customers.",
+      "english": "Value matters to customers.",
+      "translation": "Ценность важна для клиентов.",
+      "audio": [
+        "audio/sentences/Value matters to customers..wav"
+      ]
+    },
+    {
+      "id": "prices-increased-slightly.",
+      "english": "Prices increased slightly.",
+      "translation": "Цены немного выросли.",
+      "audio": [
+        "audio/sentences/Prices increased slightly..wav"
+      ]
+    },
+    {
+      "id": "costs-affected-profits.",
+      "english": "Costs affected profits.",
+      "translation": "Затраты повлияли на прибыль.",
+      "audio": [
+        "audio/sentences/Costs affected profits..wav"
+      ]
+    },
+    {
+      "id": "revenue-increased-steadily.",
+      "english": "Revenue increased steadily.",
+      "translation": "Выручка стабильно выросла.",
+      "audio": [
+        "audio/sentences/Revenue increased steadily..wav"
+      ]
+    },
+    {
+      "id": "the-company-reported-higher-profit.",
+      "english": "The company reported higher profit.",
+      "translation": "Компания сообщила о более высокой прибыли.",
+      "audio": [
+        "audio/sentences/The company reported higher profit..wav"
+      ]
+    },
+    {
+      "id": "they-took-a-major-loss-last-quarter.",
+      "english": "They took a major loss last quarter.",
+      "translation": "Они получили существенный убыток в прошлом квартале.",
+      "audio": [
+        "audio/sentences/They took a major loss last quarter..wav"
+      ]
+    },
+    {
+      "id": "we-revised-the-annual-budget.",
+      "english": "We revised the annual budget.",
+      "translation": "Мы пересмотрели годовой бюджет.",
+      "audio": [
+        "audio/sentences/We revised the annual budget..wav"
+      ]
+    },
+    {
+      "id": "travel-expenses-increased-unexpectedly.",
+      "english": "Travel expenses increased unexpectedly.",
+      "translation": "Командировочные расходы неожиданно выросли.",
+      "audio": [
+        "audio/sentences/Travel expenses increased unexpectedly..wav"
+      ]
+    },
+    {
+      "id": "foreign-investment-boosted-the-market.",
+      "english": "Foreign investment boosted the market.",
+      "translation": "Иностранные инвестиции поддержали рынок.",
+      "audio": [
+        "audio/sentences/Foreign investment boosted the market..wav"
+      ]
+    },
+    {
+      "id": "the-startup-secured-funding-quickly.",
+      "english": "The startup secured funding quickly.",
+      "translation": "Стартап быстро получил финансирование.",
+      "audio": [
+        "audio/sentences/The startup secured funding quickly..wav"
+      ]
+    },
+    {
+      "id": "they-raised-capital-for-expansion.",
+      "english": "They raised capital for expansion.",
+      "translation": "Они привлекли капитал для расширения.",
+      "audio": [
+        "audio/sentences/They raised capital for expansion..wav"
+      ]
+    },
+    {
+      "id": "positive-cash-flow-kept-the-business-stable.",
+      "english": "Positive cash flow kept the business stable.",
+      "translation": "Положительный денежный поток удержал бизнес стабильным.",
+      "audio": [
+        "audio/sentences/Positive cash flow kept the business stable..wav"
+      ]
+    },
+    {
+      "id": "the-firm-sold-several-assets.",
+      "english": "The firm sold several assets.",
+      "translation": "Фирма продала несколько активов.",
+      "audio": [
+        "audio/sentences/The firm sold several assets..wav"
+      ]
+    },
+    {
+      "id": "they-closed-the-deal-yesterday.",
+      "english": "They closed the deal yesterday.",
+      "translation": "Они закрыли сделку вчера.",
+      "audio": [
+        "audio/sentences/They closed the deal yesterday..wav"
+      ]
+    },
+    {
+      "id": "she-signed-a-two-year-contract.",
+      "english": "She signed a two-year contract.",
+      "translation": "Она подписала двухлетний контракт.",
+      "audio": [
+        "audio/sentences/She signed a two-year contract..wav"
+      ]
+    },
+    {
+      "id": "both-sides-reached-an-agreement.",
+      "english": "Both sides reached an agreement.",
+      "translation": "Обе стороны достигли соглашения.",
+      "audio": [
+        "audio/sentences/Both sides reached an agreement..wav"
+      ]
+    },
+    {
+      "id": "the-terms-were-updated-recently.",
+      "english": "The terms were updated recently.",
+      "translation": "Условия были обновлены недавно.",
+      "audio": [
+        "audio/sentences/The terms were updated recently..wav"
+      ]
+    },
+    {
+      "id": "the-company-met-all-conditions.",
+      "english": "The company met all conditions.",
+      "translation": "Компания выполнила все условия.",
+      "audio": [
+        "audio/sentences/The company met all conditions..wav"
+      ]
+    },
+    {
+      "id": "the-new-strategy-improved-performance.",
+      "english": "The new strategy improved performance.",
+      "translation": "Новая стратегия улучшила показатели.",
+      "audio": [
+        "audio/sentences/The new strategy improved performance..wav"
+      ]
+    },
+    {
+      "id": "market-growth-exceeded-expectations.",
+      "english": "Market growth exceeded expectations.",
+      "translation": "Рост рынка превзошёл ожидания.",
+      "audio": [
+        "audio/sentences/Market growth exceeded expectations..wav"
+      ]
+    },
+    {
+      "id": "their-performance-increased-steadily.",
+      "english": "Their performance increased steadily.",
+      "translation": "Их эффективность стабильно росла.",
+      "audio": [
+        "audio/sentences/Their performance increased steadily..wav"
+      ]
+    },
+    {
+      "id": "the-forecast-showed-moderate-growth.",
+      "english": "The forecast showed moderate growth.",
+      "translation": "Прогноз показал умеренный рост.",
+      "audio": [
+        "audio/sentences/The forecast showed moderate growth..wav"
+      ]
+    },
+    {
+      "id": "they-minimized-financial-risk.",
+      "english": "They minimized financial risk.",
+      "translation": "Они минимизировали финансовый риск.",
+      "audio": [
+        "audio/sentences/They minimized financial risk..wav"
+      ]
+    }
+  ]
+}

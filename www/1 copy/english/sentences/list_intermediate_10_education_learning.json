@@ -1,0 +1,239 @@
+{
+  "theme": "Образование и обучение",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "education-opens-many-opportunities.",
+      "english": "Education opens many opportunities.",
+      "translation": "Образование открывает множество возможностей.",
+      "audio": [
+        "audio/sentences/Education opens many opportunities..wav"
+      ]
+    },
+    {
+      "id": "learning-never-stops-for-curious-minds.",
+      "english": "Learning never stops for curious minds.",
+      "translation": "Обучение никогда не прекращается для любознательных людей.",
+      "audio": [
+        "audio/sentences/Learning never stops for curious minds..wav"
+      ]
+    },
+    {
+      "id": "knowledge-is-power-in-modern-life.",
+      "english": "Knowledge is power in modern life.",
+      "translation": "Знания — это сила в современной жизни.",
+      "audio": [
+        "audio/sentences/Knowledge is power in modern life..wav"
+      ]
+    },
+    {
+      "id": "she-developed-a-valuable-skill.",
+      "english": "She developed a valuable skill.",
+      "translation": "Она развила ценный навык.",
+      "audio": [
+        "audio/sentences/She developed a valuable skill..wav"
+      ]
+    },
+    {
+      "id": "the-student-completed-the-assignment.",
+      "english": "The student completed the assignment.",
+      "translation": "Студент выполнил задание.",
+      "audio": [
+        "audio/sentences/The student completed the assignment..wav"
+      ]
+    },
+    {
+      "id": "the-instructor-explained-the-exercise-clearly.",
+      "english": "The instructor explained the exercise clearly.",
+      "translation": "Инструктор чётко объяснил упражнение.",
+      "audio": [
+        "audio/sentences/The instructor explained the exercise clearly..wav"
+      ]
+    },
+    {
+      "id": "my-mentor-helped-me-with-career-decisions.",
+      "english": "My mentor helped me with career decisions.",
+      "translation": "Мой наставник помог мне с карьерными решениями.",
+      "audio": [
+        "audio/sentences/My mentor helped me with career decisions..wav"
+      ]
+    },
+    {
+      "id": "my-classmate-shared-useful-notes.",
+      "english": "My classmate shared useful notes.",
+      "translation": "Мой одногруппник поделился полезными заметками.",
+      "audio": [
+        "audio/sentences/My classmate shared useful notes..wav"
+      ]
+    },
+    {
+      "id": "the-course-covers-advanced-topics.",
+      "english": "The course covers advanced topics.",
+      "translation": "Курс охватывает продвинутые темы.",
+      "audio": [
+        "audio/sentences/The course covers advanced topics..wav"
+      ]
+    },
+    {
+      "id": "the-lesson-started-on-time.",
+      "english": "The lesson started on time.",
+      "translation": "Урок начался вовремя.",
+      "audio": [
+        "audio/sentences/The lesson started on time..wav"
+      ]
+    },
+    {
+      "id": "the-lecture-explained-key-concepts.",
+      "english": "The lecture explained key concepts.",
+      "translation": "Лекция объяснила ключевые концепции.",
+      "audio": [
+        "audio/sentences/The lecture explained key concepts..wav"
+      ]
+    },
+    {
+      "id": "practice-improves-performance-significantly.",
+      "english": "Practice improves performance significantly.",
+      "translation": "Практика значительно улучшает результаты.",
+      "audio": [
+        "audio/sentences/Practice improves performance significantly..wav"
+      ]
+    },
+    {
+      "id": "the-assignment-was-due-yesterday.",
+      "english": "The assignment was due yesterday.",
+      "translation": "Задание нужно было сдать вчера.",
+      "audio": [
+        "audio/sentences/The assignment was due yesterday..wav"
+      ]
+    },
+    {
+      "id": "i-finished-my-homework-early.",
+      "english": "I finished my homework early.",
+      "translation": "Я сделал домашнее задание рано.",
+      "audio": [
+        "audio/sentences/I finished my homework early..wav"
+      ]
+    },
+    {
+      "id": "the-exam-was-very-challenging.",
+      "english": "The exam was very challenging.",
+      "translation": "Экзамен был очень сложным.",
+      "audio": [
+        "audio/sentences/The exam was very challenging..wav"
+      ]
+    },
+    {
+      "id": "i-passed-the-test-successfully.",
+      "english": "I passed the test successfully.",
+      "translation": "Я успешно сдал тест.",
+      "audio": [
+        "audio/sentences/I passed the test successfully..wav"
+      ]
+    },
+    {
+      "id": "she-received-a-high-grade-on-the-exam.",
+      "english": "She received a high grade on the exam.",
+      "translation": "Она получила высокую оценку на экзамене.",
+      "audio": [
+        "audio/sentences/She received a high grade on the exam..wav"
+      ]
+    },
+    {
+      "id": "he-earned-a-certificate-for-the-course.",
+      "english": "He earned a certificate for the course.",
+      "translation": "Он получил сертификат за курс.",
+      "audio": [
+        "audio/sentences/He earned a certificate for the course..wav"
+      ]
+    },
+    {
+      "id": "the-qualification-improved-his-job-prospects.",
+      "english": "The qualification improved his job prospects.",
+      "translation": "Квалификация улучшила его карьерные перспективы.",
+      "audio": [
+        "audio/sentences/The qualification improved his job prospects..wav"
+      ]
+    },
+    {
+      "id": "her-progress-in-studies-is-impressive.",
+      "english": "Her progress in studies is impressive.",
+      "translation": "Её прогресс в учебе впечатляет.",
+      "audio": [
+        "audio/sentences/Her progress in studies is impressive..wav"
+      ]
+    },
+    {
+      "id": "the-result-exceeded-our-expectations.",
+      "english": "The result exceeded our expectations.",
+      "translation": "Результат превзошёл наши ожидания.",
+      "audio": [
+        "audio/sentences/The result exceeded our expectations..wav"
+      ]
+    },
+    {
+      "id": "i-completed-an-online-course-last-month.",
+      "english": "I completed an online course last month.",
+      "translation": "Я прошёл онлайн-курс в прошлом месяце.",
+      "audio": [
+        "audio/sentences/I completed an online course last month..wav"
+      ]
+    },
+    {
+      "id": "the-platform-provides-many-resources.",
+      "english": "The platform provides many resources.",
+      "translation": "Платформа предоставляет множество ресурсов.",
+      "audio": [
+        "audio/sentences/The platform provides many resources..wav"
+      ]
+    },
+    {
+      "id": "the-material-helped-me-understand-better.",
+      "english": "The material helped me understand better.",
+      "translation": "Материал помог мне лучше понять.",
+      "audio": [
+        "audio/sentences/The material helped me understand better..wav"
+      ]
+    },
+    {
+      "id": "this-resource-is-very-useful.",
+      "english": "This resource is very useful.",
+      "translation": "Этот ресурс очень полезен.",
+      "audio": [
+        "audio/sentences/This resource is very useful..wav"
+      ]
+    },
+    {
+      "id": "the-schedule-changed-this-week.",
+      "english": "The schedule changed this week.",
+      "translation": "Расписание изменилось на этой неделе.",
+      "audio": [
+        "audio/sentences/The schedule changed this week..wav"
+      ]
+    },
+    {
+      "id": "the-deadline-is-approaching-fast.",
+      "english": "The deadline is approaching fast.",
+      "translation": "Дедлайн приближается быстро.",
+      "audio": [
+        "audio/sentences/The deadline is approaching fast..wav"
+      ]
+    },
+    {
+      "id": "i-received-helpful-feedback-from-the-teacher.",
+      "english": "I received helpful feedback from the teacher.",
+      "translation": "Я получил полезную обратную связь от учителя.",
+      "audio": [
+        "audio/sentences/I received helpful feedback from the teacher..wav"
+      ]
+    },
+    {
+      "id": "her-improvement-is-remarkable.",
+      "english": "Her improvement is remarkable.",
+      "translation": "Её улучшение замечательно.",
+      "audio": [
+        "audio/sentences/Her improvement is remarkable..wav"
+      ]
+    }
+  ]
+}

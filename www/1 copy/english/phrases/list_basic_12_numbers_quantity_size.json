@@ -1,0 +1,255 @@
+{
+  "theme": "Цифры, количество, размеры",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "zero-chance-left",
+      "english": "zero chance left",
+      "translation": "ноль шансов осталось",
+      "audio": [
+        "audio/phrases/zero chance left.wav"
+      ]
+    },
+    {
+      "id": "one-simple-rule",
+      "english": "one simple rule",
+      "translation": "одно простое правило",
+      "audio": [
+        "audio/phrases/one simple rule.wav"
+      ]
+    },
+    {
+      "id": "two-small-bags",
+      "english": "two small bags",
+      "translation": "два маленьких пакета",
+      "audio": [
+        "audio/phrases/two small bags.wav"
+      ]
+    },
+    {
+      "id": "three-short-steps",
+      "english": "three short steps",
+      "translation": "три коротких шага",
+      "audio": [
+        "audio/phrases/three short steps.wav"
+      ]
+    },
+    {
+      "id": "four-main-points",
+      "english": "four main points",
+      "translation": "четыре главных пункта",
+      "audio": [
+        "audio/phrases/four main points.wav"
+      ]
+    },
+    {
+      "id": "five-quiet-minutes",
+      "english": "five quiet minutes",
+      "translation": "пять спокойных минут",
+      "audio": [
+        "audio/phrases/five quiet minutes.wav"
+      ]
+    },
+    {
+      "id": "six-clear-signs",
+      "english": "six clear signs",
+      "translation": "шесть чётких признаков",
+      "audio": [
+        "audio/phrases/six clear signs.wav"
+      ]
+    },
+    {
+      "id": "seven-simple-words",
+      "english": "seven simple words",
+      "translation": "семь простых слов",
+      "audio": [
+        "audio/phrases/seven simple words.wav"
+      ]
+    },
+    {
+      "id": "eight-clean-plates",
+      "english": "eight clean plates",
+      "translation": "восемь чистых тарелок",
+      "audio": [
+        "audio/phrases/eight clean plates.wav"
+      ]
+    },
+    {
+      "id": "nine-short-lines",
+      "english": "nine short lines",
+      "translation": "девять коротких строк",
+      "audio": [
+        "audio/phrases/nine short lines.wav"
+      ]
+    },
+    {
+      "id": "ten-final-points",
+      "english": "ten final points",
+      "translation": "десять итоговых пунктов",
+      "audio": [
+        "audio/phrases/ten final points.wav"
+      ]
+    },
+    {
+      "id": "many-good-ideas",
+      "english": "many good ideas",
+      "translation": "много хороших идей",
+      "audio": [
+        "audio/phrases/many good ideas.wav"
+      ]
+    },
+    {
+      "id": "much-free-time",
+      "english": "much free time",
+      "translation": "много свободного времени",
+      "audio": [
+        "audio/phrases/much free time.wav"
+      ]
+    },
+    {
+      "id": "few-close-friends",
+      "english": "few close friends",
+      "translation": "мало близких друзей",
+      "audio": [
+        "audio/phrases/few close friends.wav"
+      ]
+    },
+    {
+      "id": "little-fresh-air",
+      "english": "little fresh air",
+      "translation": "мало свежего воздуха",
+      "audio": [
+        "audio/phrases/little fresh air.wav"
+      ]
+    },
+    {
+      "id": "all-the-time",
+      "english": "all the time",
+      "translation": "всё время",
+      "audio": [
+        "audio/phrases/all the time.wav"
+      ]
+    },
+    {
+      "id": "more-free-space",
+      "english": "more free space",
+      "translation": "больше свободного места",
+      "audio": [
+        "audio/phrases/more free space.wav"
+      ]
+    },
+    {
+      "id": "less-sugar-today",
+      "english": "less sugar today",
+      "translation": "меньше сахара сегодня",
+      "audio": [
+        "audio/phrases/less sugar today.wav"
+      ]
+    },
+    {
+      "id": "enough-for-today",
+      "english": "enough for today",
+      "translation": "достаточно на сегодня",
+      "audio": [
+        "audio/phrases/enough for today.wav"
+      ]
+    },
+    {
+      "id": "big-open-space",
+      "english": "big open space",
+      "translation": "большое открытое пространство",
+      "audio": [
+        "audio/phrases/big open space.wav"
+      ]
+    },
+    {
+      "id": "small-quiet-place",
+      "english": "small quiet place",
+      "translation": "маленькое тихое место",
+      "audio": [
+        "audio/phrases/small quiet place.wav"
+      ]
+    },
+    {
+      "id": "large-family-house",
+      "english": "large family house",
+      "translation": "большой семейный дом",
+      "audio": [
+        "audio/phrases/large family house.wav"
+      ]
+    },
+    {
+      "id": "long-quiet-road",
+      "english": "long quiet road",
+      "translation": "длинная тихая дорога",
+      "audio": [
+        "audio/phrases/long quiet road.wav"
+      ]
+    },
+    {
+      "id": "high-mountain-peak",
+      "english": "high mountain peak",
+      "translation": "высокая горная вершина",
+      "audio": [
+        "audio/phrases/high mountain peak.wav"
+      ]
+    },
+    {
+      "id": "low-noise-level",
+      "english": "low noise level",
+      "translation": "низкий уровень шума",
+      "audio": [
+        "audio/phrases/low noise level.wav"
+      ]
+    },
+    {
+      "id": "right-size-now",
+      "english": "right size now",
+      "translation": "подходящий размер сейчас",
+      "audio": [
+        "audio/phrases/right size now.wav"
+      ]
+    },
+    {
+      "id": "large-amount-needed",
+      "english": "large amount needed",
+      "translation": "нужно большое количество",
+      "audio": [
+        "audio/phrases/large amount needed.wav"
+      ]
+    },
+    {
+      "id": "exact-number-shown",
+      "english": "exact number shown",
+      "translation": "точное число показано",
+      "audio": [
+        "audio/phrases/exact number shown.wav"
+      ]
+    },
+    {
+      "id": "some-useful-tips",
+      "english": "some useful tips",
+      "translation": "несколько полезных советов",
+      "audio": [
+        "audio/phrases/some useful tips.wav"
+      ]
+    },
+    {
+      "id": "none-of-them",
+      "english": "none of them",
+      "translation": "ничего из них",
+      "audio": [
+        "audio/phrases/none of them.wav"
+      ]
+    },
+    {
+      "id": "short-clear-answer",
+      "english": "short clear answer",
+      "translation": "короткий чёткий ответ",
+      "audio": [
+        "audio/phrases/short clear answer.wav"
+      ]
+    }
+  ]
+}

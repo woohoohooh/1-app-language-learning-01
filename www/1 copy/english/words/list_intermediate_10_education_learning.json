@@ -1,0 +1,239 @@
+{
+  "theme": "Образование и обучение",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "education",
+      "english": "education",
+      "translation": "образование",
+      "audio": [
+        "audio/words/education.wav"
+      ]
+    },
+    {
+      "id": "learning",
+      "english": "learning",
+      "translation": "обучение",
+      "audio": [
+        "audio/words/learning.wav"
+      ]
+    },
+    {
+      "id": "knowledge",
+      "english": "knowledge",
+      "translation": "знания",
+      "audio": [
+        "audio/words/knowledge.wav"
+      ]
+    },
+    {
+      "id": "skill",
+      "english": "skill",
+      "translation": "навык",
+      "audio": [
+        "audio/words/skill.wav"
+      ]
+    },
+    {
+      "id": "student",
+      "english": "student",
+      "translation": "студент",
+      "audio": [
+        "audio/words/student.wav"
+      ]
+    },
+    {
+      "id": "instructor",
+      "english": "instructor",
+      "translation": "инструктор",
+      "audio": [
+        "audio/words/instructor.wav"
+      ]
+    },
+    {
+      "id": "mentor",
+      "english": "mentor",
+      "translation": "наставник",
+      "audio": [
+        "audio/words/mentor.wav"
+      ]
+    },
+    {
+      "id": "classmate",
+      "english": "classmate",
+      "translation": "одногруппник",
+      "audio": [
+        "audio/words/classmate.wav"
+      ]
+    },
+    {
+      "id": "course",
+      "english": "course",
+      "translation": "курс",
+      "audio": [
+        "audio/words/course.wav"
+      ]
+    },
+    {
+      "id": "lesson",
+      "english": "lesson",
+      "translation": "урок",
+      "audio": [
+        "audio/words/lesson.wav"
+      ]
+    },
+    {
+      "id": "lecture",
+      "english": "lecture",
+      "translation": "лекция",
+      "audio": [
+        "audio/words/lecture.wav"
+      ]
+    },
+    {
+      "id": "practice",
+      "english": "practice",
+      "translation": "практика",
+      "audio": [
+        "audio/words/practice.wav"
+      ]
+    },
+    {
+      "id": "assignment",
+      "english": "assignment",
+      "translation": "задание",
+      "audio": [
+        "audio/words/assignment.wav"
+      ]
+    },
+    {
+      "id": "homework",
+      "english": "homework",
+      "translation": "домашнее задание",
+      "audio": [
+        "audio/words/homework.wav"
+      ]
+    },
+    {
+      "id": "exam",
+      "english": "exam",
+      "translation": "экзамен",
+      "audio": [
+        "audio/words/exam.wav"
+      ]
+    },
+    {
+      "id": "test",
+      "english": "test",
+      "translation": "тест",
+      "audio": [
+        "audio/words/test.wav"
+      ]
+    },
+    {
+      "id": "grade",
+      "english": "grade",
+      "translation": "оценка",
+      "audio": [
+        "audio/words/grade.wav"
+      ]
+    },
+    {
+      "id": "certificate",
+      "english": "certificate",
+      "translation": "сертификат",
+      "audio": [
+        "audio/words/certificate.wav"
+      ]
+    },
+    {
+      "id": "qualification",
+      "english": "qualification",
+      "translation": "квалификация",
+      "audio": [
+        "audio/words/qualification.wav"
+      ]
+    },
+    {
+      "id": "progress",
+      "english": "progress",
+      "translation": "прогресс",
+      "audio": [
+        "audio/words/progress.wav"
+      ]
+    },
+    {
+      "id": "result",
+      "english": "result",
+      "translation": "результат",
+      "audio": [
+        "audio/words/result.wav"
+      ]
+    },
+    {
+      "id": "online-course",
+      "english": "online course",
+      "translation": "онлайн-курс",
+      "audio": [
+        "audio/words/online course.wav"
+      ]
+    },
+    {
+      "id": "platform",
+      "english": "platform",
+      "translation": "платформа",
+      "audio": [
+        "audio/words/platform.wav"
+      ]
+    },
+    {
+      "id": "material",
+      "english": "material",
+      "translation": "учебный материал",
+      "audio": [
+        "audio/words/material.wav"
+      ]
+    },
+    {
+      "id": "resource",
+      "english": "resource",
+      "translation": "ресурс",
+      "audio": [
+        "audio/words/resource.wav"
+      ]
+    },
+    {
+      "id": "schedule",
+      "english": "schedule",
+      "translation": "расписание",
+      "audio": [
+        "audio/words/schedule.wav"
+      ]
+    },
+    {
+      "id": "deadline",
+      "english": "deadline",
+      "translation": "дедлайн",
+      "audio": [
+        "audio/words/deadline.wav"
+      ]
+    },
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "обратная связь",
+      "audio": [
+        "audio/words/feedback.wav"
+      ]
+    },
+    {
+      "id": "improvement",
+      "english": "improvement",
+      "translation": "улучшение",
+      "audio": [
+        "audio/words/improvement.wav"
+      ]
+    }
+  ]
+}

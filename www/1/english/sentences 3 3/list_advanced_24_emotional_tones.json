@@ -1,0 +1,303 @@
+{
+  "theme": "Эмоциональные оттенки речи",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "emotion",
+      "english": "emotion",
+      "translation": "эмоция",
+      "audio": [
+        "audio/words/emotion.wav"
+      ]
+    },
+    {
+      "id": "emotionality",
+      "english": "emotionality",
+      "translation": "эмоциональность",
+      "audio": [
+        "audio/words/emotionality.wav"
+      ]
+    },
+    {
+      "id": "tone",
+      "english": "tone",
+      "translation": "тон",
+      "audio": [
+        "audio/words/tone.wav"
+      ]
+    },
+    {
+      "id": "undertone",
+      "english": "undertone",
+      "translation": "подтекст",
+      "audio": [
+        "audio/words/undertone.wav"
+      ]
+    },
+    {
+      "id": "nuance",
+      "english": "nuance",
+      "translation": "нюанс",
+      "audio": [
+        "audio/words/nuance.wav"
+      ]
+    },
+    {
+      "id": "attitude",
+      "english": "attitude",
+      "translation": "отношение",
+      "audio": [
+        "audio/words/attitude.wav"
+      ]
+    },
+    {
+      "id": "mood",
+      "english": "mood",
+      "translation": "настроение",
+      "audio": [
+        "audio/words/mood.wav"
+      ]
+    },
+    {
+      "id": "state",
+      "english": "state",
+      "translation": "состояние",
+      "audio": [
+        "audio/words/state.wav"
+      ]
+    },
+    {
+      "id": "reaction",
+      "english": "reaction",
+      "translation": "реакция",
+      "audio": [
+        "audio/words/reaction.wav"
+      ]
+    },
+    {
+      "id": "affection",
+      "english": "affection",
+      "translation": "привязанность",
+      "audio": [
+        "audio/words/affection.wav"
+      ]
+    },
+    {
+      "id": "warmth",
+      "english": "warmth",
+      "translation": "теплота",
+      "audio": [
+        "audio/words/warmth.wav"
+      ]
+    },
+    {
+      "id": "empathy",
+      "english": "empathy",
+      "translation": "эмпатия",
+      "audio": [
+        "audio/words/empathy.wav"
+      ]
+    },
+    {
+      "id": "sympathy",
+      "english": "sympathy",
+      "translation": "сочувствие",
+      "audio": [
+        "audio/words/sympathy.wav"
+      ]
+    },
+    {
+      "id": "neutrality",
+      "english": "neutrality",
+      "translation": "нейтральность",
+      "audio": [
+        "audio/words/neutrality.wav"
+      ]
+    },
+    {
+      "id": "detachment",
+      "english": "detachment",
+      "translation": "отстранённость",
+      "audio": [
+        "audio/words/detachment.wav"
+      ]
+    },
+    {
+      "id": "distance",
+      "english": "distance",
+      "translation": "дистанция",
+      "audio": [
+        "audio/words/distance.wav"
+      ]
+    },
+    {
+      "id": "coldness",
+      "english": "coldness",
+      "translation": "холодность",
+      "audio": [
+        "audio/words/coldness.wav"
+      ]
+    },
+    {
+      "id": "tension",
+      "english": "tension",
+      "translation": "напряжение",
+      "audio": [
+        "audio/words/tension.wav"
+      ]
+    },
+    {
+      "id": "pressure",
+      "english": "pressure",
+      "translation": "давление",
+      "audio": [
+        "audio/words/pressure.wav"
+      ]
+    },
+    {
+      "id": "stress",
+      "english": "stress",
+      "translation": "стресс",
+      "audio": [
+        "audio/words/stress.wav"
+      ]
+    },
+    {
+      "id": "frustration",
+      "english": "frustration",
+      "translation": "раздражение",
+      "audio": [
+        "audio/words/frustration.wav"
+      ]
+    },
+    {
+      "id": "annoyance",
+      "english": "annoyance",
+      "translation": "раздражение",
+      "audio": [
+        "audio/words/annoyance.wav"
+      ]
+    },
+    {
+      "id": "irritation",
+      "english": "irritation",
+      "translation": "раздражённость",
+      "audio": [
+        "audio/words/irritation.wav"
+      ]
+    },
+    {
+      "id": "resentment",
+      "english": "resentment",
+      "translation": "обида",
+      "audio": [
+        "audio/words/resentment.wav"
+      ]
+    },
+    {
+      "id": "disappointment",
+      "english": "disappointment",
+      "translation": "разочарование",
+      "audio": [
+        "audio/words/disappointment.wav"
+      ]
+    },
+    {
+      "id": "approval",
+      "english": "approval",
+      "translation": "одобрение",
+      "audio": [
+        "audio/words/approval.wav"
+      ]
+    },
+    {
+      "id": "disapproval",
+      "english": "disapproval",
+      "translation": "неодобрение",
+      "audio": [
+        "audio/words/disapproval.wav"
+      ]
+    },
+    {
+      "id": "support",
+      "english": "support",
+      "translation": "поддержка",
+      "audio": [
+        "audio/words/support.wav"
+      ]
+    },
+    {
+      "id": "encouragement",
+      "english": "encouragement",
+      "translation": "ободрение",
+      "audio": [
+        "audio/words/encouragement.wav"
+      ]
+    },
+    {
+      "id": "confidence",
+      "english": "confidence",
+      "translation": "уверенность",
+      "audio": [
+        "audio/words/confidence.wav"
+      ]
+    },
+    {
+      "id": "uncertainty",
+      "english": "uncertainty",
+      "translation": "неуверенность",
+      "audio": [
+        "audio/words/uncertainty.wav"
+      ]
+    },
+    {
+      "id": "hesitation",
+      "english": "hesitation",
+      "translation": "колебание",
+      "audio": [
+        "audio/words/hesitation.wav"
+      ]
+    },
+    {
+      "id": "doubt",
+      "english": "doubt",
+      "translation": "сомнение",
+      "audio": [
+        "audio/words/doubt.wav"
+      ]
+    },
+    {
+      "id": "enthusiasm",
+      "english": "enthusiasm",
+      "translation": "энтузиазм",
+      "audio": [
+        "audio/words/enthusiasm.wav"
+      ]
+    },
+    {
+      "id": "indifference",
+      "english": "indifference",
+      "translation": "безразличие",
+      "audio": [
+        "audio/words/indifference.wav"
+      ]
+    },
+    {
+      "id": "reluctance",
+      "english": "reluctance",
+      "translation": "неохота",
+      "audio": [
+        "audio/words/reluctance.wav"
+      ]
+    },
+    {
+      "id": "relief",
+      "english": "relief",
+      "translation": "облегчение",
+      "audio": [
+        "audio/words/relief.wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "theme": "Обратная связь",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "clear-feedback",
+      "english": "clear feedback",
+      "translation": "чёткая обратная связь",
+      "audio": [
+        "audio/phrases/clear feedback.wav"
+      ]
+    },
+    {
+      "id": "open-communication",
+      "english": "open communication",
+      "translation": "открытая коммуникация",
+      "audio": [
+        "audio/phrases/open communication.wav"
+      ]
+    },
+    {
+      "id": "direct-interaction",
+      "english": "direct interaction",
+      "translation": "прямое взаимодействие",
+      "audio": [
+        "audio/phrases/direct interaction.wav"
+      ]
+    },
+    {
+      "id": "constructive-dialogue",
+      "english": "constructive dialogue",
+      "translation": "конструктивный диалог",
+      "audio": [
+        "audio/phrases/constructive dialogue.wav"
+      ]
+    },
+    {
+      "id": "idea-exchange",
+      "english": "idea exchange",
+      "translation": "обмен идеями",
+      "audio": [
+        "audio/phrases/idea exchange.wav"
+      ]
+    },
+    {
+      "id": "need-clarity",
+      "english": "need clarity",
+      "translation": "нужна ясность",
+      "audio": [
+        "audio/phrases/need clarity.wav"
+      ]
+    },
+    {
+      "id": "team-alignment",
+      "english": "team alignment",
+      "translation": "согласованность команды",
+      "audio": [
+        "audio/phrases/team alignment.wav"
+      ]
+    },
+    {
+      "id": "full-transparency",
+      "english": "full transparency",
+      "translation": "полная прозрачность",
+      "audio": [
+        "audio/phrases/full transparency.wav"
+      ]
+    },
+    {
+      "id": "message-consistency",
+      "english": "message consistency",
+      "translation": "последовательность сообщения",
+      "audio": [
+        "audio/phrases/message consistency.wav"
+      ]
+    },
+    {
+      "id": "calm-tone",
+      "english": "calm tone",
+      "translation": "спокойный тон",
+      "audio": [
+        "audio/phrases/calm tone.wav"
+      ]
+    },
+    {
+      "id": "active-listening",
+      "english": "active listening",
+      "translation": "активное слушание",
+      "audio": [
+        "audio/phrases/active listening.wav"
+      ]
+    },
+    {
+      "id": "pay-attention",
+      "english": "pay attention",
+      "translation": "обращать внимание",
+      "audio": [
+        "audio/phrases/pay attention.wav"
+      ]
+    },
+    {
+      "id": "quick-response",
+      "english": "quick response",
+      "translation": "быстрый ответ",
+      "audio": [
+        "audio/phrases/quick response.wav"
+      ]
+    },
+    {
+      "id": "initial-reaction",
+      "english": "initial reaction",
+      "translation": "первая реакция",
+      "audio": [
+        "audio/phrases/initial reaction.wav"
+      ]
+    },
+    {
+      "id": "personal-interpretation",
+      "english": "personal interpretation",
+      "translation": "личная интерпретация",
+      "audio": [
+        "audio/phrases/personal interpretation.wav"
+      ]
+    },
+    {
+      "id": "clear-message",
+      "english": "clear message",
+      "translation": "чёткое сообщение",
+      "audio": [
+        "audio/phrases/clear message.wav"
+      ]
+    },
+    {
+      "id": "true-intent",
+      "english": "true intent",
+      "translation": "истинное намерение",
+      "audio": [
+        "audio/phrases/true intent.wav"
+      ]
+    },
+    {
+      "id": "hidden-meaning",
+      "english": "hidden meaning",
+      "translation": "скрытый смысл",
+      "audio": [
+        "audio/phrases/hidden meaning.wav"
+      ]
+    },
+    {
+      "id": "shared-context",
+      "english": "shared context",
+      "translation": "общий контекст",
+      "audio": [
+        "audio/phrases/shared context.wav"
+      ]
+    },
+    {
+      "id": "clear-signal",
+      "english": "clear signal",
+      "translation": "чёткий сигнал",
+      "audio": [
+        "audio/phrases/clear signal.wav"
+      ]
+    },
+    {
+      "id": "miscommunication-issues-arise",
+      "english": "miscommunication issues arise",
+      "translation": "возникают недопонимания",
+      "audio": [
+        "audio/phrases/miscommunication issues arise.wav"
+      ]
+    },
+    {
+      "id": "avoid-ambiguity-here",
+      "english": "avoid ambiguity here",
+      "translation": "избегай двусмысленности здесь",
+      "audio": [
+        "audio/phrases/avoid ambiguity here.wav"
+      ]
+    },
+    {
+      "id": "wrong-assumption-made",
+      "english": "wrong assumption made",
+      "translation": "сделано неверное предположение",
+      "audio": [
+        "audio/phrases/wrong assumption made.wav"
+      ]
+    },
+    {
+      "id": "public-perception-matters",
+      "english": "public perception matters",
+      "translation": "общественное восприятие важно",
+      "audio": [
+        "audio/phrases/public perception matters.wav"
+      ]
+    },
+    {
+      "id": "clear-expectation-set",
+      "english": "clear expectation set",
+      "translation": "четкое ожидание задано",
+      "audio": [
+        "audio/phrases/clear expectation set.wav"
+      ]
+    },
+    {
+      "id": "fair-evaluation-process",
+      "english": "fair evaluation process",
+      "translation": "справедливый процесс оценки",
+      "audio": [
+        "audio/phrases/fair evaluation process.wav"
+      ]
+    },
+    {
+      "id": "initial-assessment-done",
+      "english": "initial assessment done",
+      "translation": "первичное оценивание выполнено",
+      "audio": [
+        "audio/phrases/initial assessment done.wav"
+      ]
+    },
+    {
+      "id": "gain-recognition-quickly",
+      "english": "gain recognition quickly",
+      "translation": "быстро получить признание",
+      "audio": [
+        "audio/phrases/gain recognition quickly.wav"
+      ]
+    },
+    {
+      "id": "formal-acknowledgment-sent",
+      "english": "formal acknowledgment sent",
+      "translation": "официальное подтверждение отправлено",
+      "audio": [
+        "audio/phrases/formal acknowledgment sent.wav"
+      ]
+    },
+    {
+      "id": "show-appreciation-openly",
+      "english": "show appreciation openly",
+      "translation": "проявлять признательность открыто",
+      "audio": [
+        "audio/phrases/show appreciation openly.wav"
+      ]
+    },
+    {
+      "id": "useful-suggestion-offered",
+      "english": "useful suggestion offered",
+      "translation": "полезное предложение сделано",
+      "audio": [
+        "audio/phrases/useful suggestion offered.wav"
+      ]
+    },
+    {
+      "id": "expert-recommendation-given",
+      "english": "expert recommendation given",
+      "translation": "дана экспертная рекомендация",
+      "audio": [
+        "audio/phrases/expert recommendation given.wav"
+      ]
+    },
+    {
+      "id": "clear-guidance-provided",
+      "english": "clear guidance provided",
+      "translation": "даны четкие наставления",
+      "audio": [
+        "audio/phrases/clear guidance provided.wav"
+      ]
+    },
+    {
+      "id": "strategic-direction-chosen",
+      "english": "strategic direction chosen",
+      "translation": "выбрано стратегическое направление",
+      "audio": [
+        "audio/phrases/strategic direction chosen.wav"
+      ]
+    },
+    {
+      "id": "follow-instruction-carefully",
+      "english": "follow instruction carefully",
+      "translation": "следовать инструкции внимательно",
+      "audio": [
+        "audio/phrases/follow instruction carefully.wav"
+      ]
+    },
+    {
+      "id": "high-engagement-level",
+      "english": "high engagement level",
+      "translation": "высокий уровень вовлечённости",
+      "audio": [
+        "audio/phrases/high engagement level.wav"
+      ]
+    },
+    {
+      "id": "active-participation-encouraged",
+      "english": "active participation encouraged",
+      "translation": "активное участие поощряется",
+      "audio": [
+        "audio/phrases/active participation encouraged.wav"
+      ]
+    },
+    {
+      "id": "team-alignment-achieved",
+      "english": "team alignment achieved",
+      "translation": "согласование в команде достигнуто",
+      "audio": [
+        "audio/phrases/team alignment achieved.wav"
+      ]
+    },
+    {
+      "id": "quick-follow-up-needed",
+      "english": "quick follow-up needed",
+      "translation": "нужна быстрая дальнейшая работа",
+      "audio": [
+        "audio/phrases/quick follow-up needed.wav"
+      ]
+    }
+  ]
+}

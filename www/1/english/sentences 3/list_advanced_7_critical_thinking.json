@@ -1,0 +1,147 @@
+{
+  "theme": "Критическое мышление",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "analysis",
+      "translation": "анализ"
+    },
+    {
+      "english": "reasoning",
+      "translation": "рассуждение"
+    },
+    {
+      "english": "logic",
+      "translation": "логика"
+    },
+    {
+      "english": "judgment",
+      "translation": "суждение"
+    },
+    {
+      "english": "evaluation",
+      "translation": "оценка"
+    },
+    {
+      "english": "assumption",
+      "translation": "предположение"
+    },
+    {
+      "english": "premise",
+      "translation": "исходное утверждение"
+    },
+    {
+      "english": "hypothesis",
+      "translation": "гипотеза"
+    },
+    {
+      "english": "conclusion",
+      "translation": "вывод"
+    },
+    {
+      "english": "inference",
+      "translation": "умозаключение"
+    },
+    {
+      "english": "evidence",
+      "translation": "доказательство"
+    },
+    {
+      "english": "proof",
+      "translation": "подтверждение"
+    },
+    {
+      "english": "data",
+      "translation": "данные"
+    },
+    {
+      "english": "fact",
+      "translation": "факт"
+    },
+    {
+      "english": "claim",
+      "translation": "утверждение"
+    },
+    {
+      "english": "bias",
+      "translation": "предвзятость"
+    },
+    {
+      "english": "distortion",
+      "translation": "искажение"
+    },
+    {
+      "english": "misinterpretation",
+      "translation": "неверная интерпретация"
+    },
+    {
+      "english": "fallacy",
+      "translation": "логическая ошибка"
+    },
+    {
+      "english": "flaw",
+      "translation": "изъян"
+    },
+    {
+      "english": "objectivity",
+      "translation": "объективность"
+    },
+    {
+      "english": "subjectivity",
+      "translation": "субъективность"
+    },
+    {
+      "english": "perspective",
+      "translation": "точка зрения"
+    },
+    {
+      "english": "context",
+      "translation": "контекст"
+    },
+    {
+      "english": "framework",
+      "translation": "система"
+    },
+    {
+      "english": "skepticism",
+      "translation": "скептицизм"
+    },
+    {
+      "english": "doubt",
+      "translation": "сомнение"
+    },
+    {
+      "english": "questioning",
+      "translation": "постановка вопросов"
+    },
+    {
+      "english": "verification",
+      "translation": "проверка"
+    },
+    {
+      "english": "validation",
+      "translation": "подтверждение"
+    },
+    {
+      "english": "consistency",
+      "translation": "последовательность"
+    },
+    {
+      "english": "coherence",
+      "translation": "связность"
+    },
+    {
+      "english": "clarity",
+      "translation": "ясность"
+    },
+    {
+      "english": "accuracy",
+      "translation": "точность"
+    },
+    {
+      "english": "reliability",
+      "translation": "надежность"
+    }
+  ]
+}

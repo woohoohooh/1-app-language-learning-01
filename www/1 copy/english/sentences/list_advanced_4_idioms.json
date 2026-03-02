@@ -1,0 +1,287 @@
+{
+  "theme": "Устойчивые выражения",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "it-was-a-big-deal-for-the-team.",
+      "english": "It was a big deal for the team.",
+      "translation": "Это было важным событием для команды.",
+      "audio": [
+        "audio/sentences/It was a big deal for the team..wav"
+      ]
+    },
+    {
+      "id": "your-explanation-makes-sense.",
+      "english": "Your explanation makes sense.",
+      "translation": "Твоё объяснение имеет смысл.",
+      "audio": [
+        "audio/sentences/Your explanation makes sense..wav"
+      ]
+    },
+    {
+      "id": "we-are-finally-on-the-same-page.",
+      "english": "We are finally on the same page.",
+      "translation": "Мы наконец на одной волне.",
+      "audio": [
+        "audio/sentences/We are finally on the same page..wav"
+      ]
+    },
+    {
+      "id": "in-the-long-run-this-will-help.",
+      "english": "In the long run this will help.",
+      "translation": "В долгосрочной перспективе это поможет.",
+      "audio": [
+        "audio/sentences/In the long run this will help..wav"
+      ]
+    },
+    {
+      "id": "at-the-end-of-the-day-results-matter.",
+      "english": "At the end of the day results matter.",
+      "translation": "В конечном итоге важны результаты.",
+      "audio": [
+        "audio/sentences/At the end of the day results matter..wav"
+      ]
+    },
+    {
+      "id": "the-deal-turned-into-a-win-win.",
+      "english": "The deal turned into a win-win.",
+      "translation": "Сделка стала взаимовыгодной.",
+      "audio": [
+        "audio/sentences/The deal turned into a win-win..wav"
+      ]
+    },
+    {
+      "id": "the-bottom-line-is-simple.",
+      "english": "The bottom line is simple.",
+      "translation": "Суть очень проста.",
+      "audio": [
+        "audio/sentences/The bottom line is simple..wav"
+      ]
+    },
+    {
+      "id": "small-actions-make-a-difference.",
+      "english": "Small actions make a difference.",
+      "translation": "Маленькие действия имеют значение.",
+      "audio": [
+        "audio/sentences/Small actions make a difference..wav"
+      ]
+    },
+    {
+      "id": "it-was-a-tough-call-for-her.",
+      "english": "It was a tough call for her.",
+      "translation": "Для неё это было сложное решение.",
+      "audio": [
+        "audio/sentences/It was a tough call for her..wav"
+      ]
+    },
+    {
+      "id": "choosing-this-option-was-a-no-brainer.",
+      "english": "Choosing this option was a no brainer.",
+      "translation": "Выбор этого варианта был очевидным.",
+      "audio": [
+        "audio/sentences/Choosing this option was a no brainer..wav"
+      ]
+    },
+    {
+      "id": "this-case-remains-a-gray-area.",
+      "english": "This case remains a gray area.",
+      "translation": "Этот случай остаётся спорным.",
+      "audio": [
+        "audio/sentences/This case remains a gray area..wav"
+      ]
+    },
+    {
+      "id": "he-did-everything-by-the-book.",
+      "english": "He did everything by the book.",
+      "translation": "Он сделал всё по правилам.",
+      "audio": [
+        "audio/sentences/He did everything by the book..wav"
+      ]
+    },
+    {
+      "id": "a-lot-happened-behind-the-scenes.",
+      "english": "A lot happened behind the scenes.",
+      "translation": "Многое происходило за кулисами.",
+      "audio": [
+        "audio/sentences/A lot happened behind the scenes..wav"
+      ]
+    },
+    {
+      "id": "the-proposal-is-still-on-the-table.",
+      "english": "The proposal is still on the table.",
+      "translation": "Предложение всё ещё на рассмотрении.",
+      "audio": [
+        "audio/sentences/The proposal is still on the table..wav"
+      ]
+    },
+    {
+      "id": "he-spoke-off-the-record.",
+      "english": "He spoke off the record.",
+      "translation": "Он говорил неофициально.",
+      "audio": [
+        "audio/sentences/He spoke off the record..wav"
+      ]
+    },
+    {
+      "id": "we-need-to-think-outside-the-box.",
+      "english": "We need to think outside the box.",
+      "translation": "Нам нужно мыслить нестандартно.",
+      "audio": [
+        "audio/sentences/We need to think outside the box..wav"
+      ]
+    },
+    {
+      "id": "let’s-touch-base-tomorrow.",
+      "english": "Let’s touch base tomorrow.",
+      "translation": "Давай свяжемся завтра.",
+      "audio": [
+        "audio/sentences/Let’s touch base tomorrow..wav"
+      ]
+    },
+    {
+      "id": "she-raised-a-concern-politely.",
+      "english": "She raised a concern politely.",
+      "translation": "Она вежливо выразила обеспокоенность.",
+      "audio": [
+        "audio/sentences/She raised a concern politely..wav"
+      ]
+    },
+    {
+      "id": "they-push-the-limits-creatively.",
+      "english": "They push the limits creatively.",
+      "translation": "Они креативно расширяют границы.",
+      "audio": [
+        "audio/sentences/They push the limits creatively..wav"
+      ]
+    },
+    {
+      "id": "let’s-call-it-a-day.",
+      "english": "Let’s call it a day.",
+      "translation": "Давай закончим на сегодня.",
+      "audio": [
+        "audio/sentences/Let’s call it a day..wav"
+      ]
+    },
+    {
+      "id": "please-keep-me-in-the-loop.",
+      "english": "Please keep me in the loop.",
+      "translation": "Пожалуйста, держи меня в курсе.",
+      "audio": [
+        "audio/sentences/Please keep me in the loop..wav"
+      ]
+    },
+    {
+      "id": "i-was-out-of-the-loop.",
+      "english": "I was out of the loop.",
+      "translation": "Я был не в курсе.",
+      "audio": [
+        "audio/sentences/I was out of the loop..wav"
+      ]
+    },
+    {
+      "id": "she-stays-ahead-of-the-curve.",
+      "english": "She stays ahead of the curve.",
+      "translation": "Она опережает других.",
+      "audio": [
+        "audio/sentences/She stays ahead of the curve..wav"
+      ]
+    },
+    {
+      "id": "the-change-stayed-under-the-radar.",
+      "english": "The change stayed under the radar.",
+      "translation": "Изменение прошло незаметно.",
+      "audio": [
+        "audio/sentences/The change stayed under the radar..wav"
+      ]
+    },
+    {
+      "id": "they-agreed-on-short-notice.",
+      "english": "They agreed on short notice.",
+      "translation": "Они согласились в короткие сроки.",
+      "audio": [
+        "audio/sentences/They agreed on short notice..wav"
+      ]
+    },
+    {
+      "id": "there-is-a-steep-learning-curve.",
+      "english": "There is a steep learning curve.",
+      "translation": "Здесь крутая кривая обучения.",
+      "audio": [
+        "audio/sentences/There is a steep learning curve..wav"
+      ]
+    },
+    {
+      "id": "we-need-to-make-room-for-change.",
+      "english": "We need to make room for change.",
+      "translation": "Нужно освободить место для изменений.",
+      "audio": [
+        "audio/sentences/We need to make room for change..wav"
+      ]
+    },
+    {
+      "id": "he-hit-the-ground-running.",
+      "english": "He hit the ground running.",
+      "translation": "Он сразу включился в работу.",
+      "audio": [
+        "audio/sentences/He hit the ground running..wav"
+      ]
+    },
+    {
+      "id": "keep-this-in-mind.",
+      "english": "Keep this in mind.",
+      "translation": "Имей это в виду.",
+      "audio": [
+        "audio/sentences/Keep this in mind..wav"
+      ]
+    },
+    {
+      "id": "the-opening-set-the-tone.",
+      "english": "The opening set the tone.",
+      "translation": "Начало задало тон.",
+      "audio": [
+        "audio/sentences/The opening set the tone..wav"
+      ]
+    },
+    {
+      "id": "they-decided-to-play-it-safe.",
+      "english": "They decided to play it safe.",
+      "translation": "Они решили действовать осторожно.",
+      "audio": [
+        "audio/sentences/They decided to play it safe..wav"
+      ]
+    },
+    {
+      "id": "he-takes-it-seriously.",
+      "english": "He takes it seriously.",
+      "translation": "Он относится к этому серьёзно.",
+      "audio": [
+        "audio/sentences/He takes it seriously..wav"
+      ]
+    },
+    {
+      "id": "she-made-a-clear-point.",
+      "english": "She made a clear point.",
+      "translation": "Она чётко подчеркнула мысль.",
+      "audio": [
+        "audio/sentences/She made a clear point..wav"
+      ]
+    },
+    {
+      "id": "that-comment-crossed-the-line.",
+      "english": "That comment crossed the line.",
+      "translation": "Этот комментарий перешёл границу.",
+      "audio": [
+        "audio/sentences/That comment crossed the line..wav"
+      ]
+    },
+    {
+      "id": "we-must-draw-the-line-here.",
+      "english": "We must draw the line here.",
+      "translation": "Мы должны провести границу здесь.",
+      "audio": [
+        "audio/sentences/We must draw the line here..wav"
+      ]
+    }
+  ]
+}

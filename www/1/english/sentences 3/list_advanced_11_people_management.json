@@ -1,0 +1,167 @@
+{
+  "theme": "Управление людьми",
+  "level": "Advanced",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "management",
+      "translation": "управление"
+    },
+    {
+      "english": "manager",
+      "translation": "руководитель"
+    },
+    {
+      "english": "team",
+      "translation": "команда"
+    },
+    {
+      "english": "teamwork",
+      "translation": "командная работа"
+    },
+    {
+      "english": "collaboration",
+      "translation": "сотрудничество"
+    },
+    {
+      "english": "supervision",
+      "translation": "надзор"
+    },
+    {
+      "english": "coordination",
+      "translation": "координация"
+    },
+    {
+      "english": "workload",
+      "translation": "рабочая нагрузка"
+    },
+    {
+      "english": "capacity",
+      "translation": "ресурс"
+    },
+    {
+      "english": "availability",
+      "translation": "доступность"
+    },
+    {
+      "english": "performance review",
+      "translation": "оценка эффективности"
+    },
+    {
+      "english": "evaluation",
+      "translation": "оценка"
+    },
+    {
+      "english": "assessment",
+      "translation": "оценивание"
+    },
+    {
+      "english": "expectation",
+      "translation": "ожидание"
+    },
+    {
+      "english": "goal-setting",
+      "translation": "постановка целей"
+    },
+    {
+      "english": "motivation",
+      "translation": "мотивация"
+    },
+    {
+      "english": "engagement",
+      "translation": "вовлечённость"
+    },
+    {
+      "english": "commitment",
+      "translation": "приверженность"
+    },
+    {
+      "english": "retention",
+      "translation": "удержание сотрудников"
+    },
+    {
+      "english": "turnover",
+      "translation": "текучесть кадров"
+    },
+    {
+      "english": "onboarding",
+      "translation": "адаптация новых сотрудников"
+    },
+    {
+      "english": "training",
+      "translation": "обучение"
+    },
+    {
+      "english": "upskilling",
+      "translation": "повышение навыков"
+    },
+    {
+      "english": "career growth",
+      "translation": "карьерный рост"
+    },
+    {
+      "english": "succession",
+      "translation": "преемственность"
+    },
+    {
+      "english": "conflict",
+      "translation": "конфликт"
+    },
+    {
+      "english": "resolution",
+      "translation": "разрешение"
+    },
+    {
+      "english": "discipline",
+      "translation": "дисциплина"
+    },
+    {
+      "english": "policy",
+      "translation": "политика"
+    },
+    {
+      "english": "procedure",
+      "translation": "процедура"
+    },
+    {
+      "english": "responsibility",
+      "translation": "ответственность"
+    },
+    {
+      "english": "role",
+      "translation": "роль"
+    },
+    {
+      "english": "ownership",
+      "translation": "зона ответственности"
+    },
+    {
+      "english": "authority",
+      "translation": "полномочия"
+    },
+    {
+      "english": "accountability",
+      "translation": "подотчётность"
+    },
+    {
+      "english": "workplace culture",
+      "translation": "рабочая культура"
+    },
+    {
+      "english": "employee satisfaction",
+      "translation": "удовлетворённость сотрудников"
+    },
+    {
+      "english": "burnout",
+      "translation": "выгорание"
+    },
+    {
+      "english": "well-being",
+      "translation": "благополучие"
+    },
+    {
+      "english": "morale",
+      "translation": "моральный дух"
+    }
+  ]
+}

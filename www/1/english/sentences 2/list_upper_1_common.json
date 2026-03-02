@@ -1,0 +1,232 @@
+{
+  "theme": "Частые слова (расширенно)",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "approach",
+      "english": "approach",
+      "translation": "подход"
+    },
+    {
+      "id": "impact",
+      "english": "impact",
+      "translation": "влияние"
+    },
+    {
+      "id": "context",
+      "english": "context",
+      "translation": "контекст"
+    },
+    {
+      "id": "strategy",
+      "english": "strategy",
+      "translation": "стратегия"
+    },
+    {
+      "id": "objective",
+      "english": "objective",
+      "translation": "цель"
+    },
+    {
+      "id": "priority",
+      "english": "priority",
+      "translation": "приоритет"
+    },
+    {
+      "id": "resource",
+      "english": "resource",
+      "translation": "ресурс"
+    },
+    {
+      "id": "constraint",
+      "english": "constraint",
+      "translation": "ограничение"
+    },
+    {
+      "id": "assumption",
+      "english": "assumption",
+      "translation": "предположение"
+    },
+    {
+      "id": "evidence",
+      "english": "evidence",
+      "translation": "доказательство"
+    },
+    {
+      "id": "analysis",
+      "english": "analysis",
+      "translation": "анализ"
+    },
+    {
+      "id": "perspective",
+      "english": "perspective",
+      "translation": "точка зрения"
+    },
+    {
+      "id": "factor",
+      "english": "factor",
+      "translation": "фактор"
+    },
+    {
+      "id": "trend",
+      "english": "trend",
+      "translation": "тенденция"
+    },
+    {
+      "id": "pattern",
+      "english": "pattern",
+      "translation": "закономерность"
+    },
+    {
+      "id": "scenario",
+      "english": "scenario",
+      "translation": "сценарий"
+    },
+    {
+      "id": "stakeholder",
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона"
+    },
+    {
+      "id": "alignment",
+      "english": "alignment",
+      "translation": "согласованность"
+    },
+    {
+      "id": "execution",
+      "english": "execution",
+      "translation": "реализация"
+    },
+    {
+      "id": "implementation",
+      "english": "implementation",
+      "translation": "внедрение"
+    },
+    {
+      "id": "optimization",
+      "english": "optimization",
+      "translation": "оптимизация"
+    },
+    {
+      "id": "efficiency",
+      "english": "efficiency",
+      "translation": "эффективность"
+    },
+    {
+      "id": "trade-off",
+      "english": "trade-off",
+      "translation": "компромисс"
+    },
+    {
+      "id": "limitation",
+      "english": "limitation",
+      "translation": "ограничение"
+    },
+    {
+      "id": "dependency",
+      "english": "dependency",
+      "translation": "зависимость"
+    },
+    {
+      "id": "complexity",
+      "english": "complexity",
+      "translation": "сложность"
+    },
+    {
+      "id": "uncertainty",
+      "english": "uncertainty",
+      "translation": "неопределенность"
+    },
+    {
+      "id": "risk",
+      "english": "risk",
+      "translation": "риск"
+    },
+    {
+      "id": "opportunity",
+      "english": "opportunity",
+      "translation": "возможность"
+    },
+    {
+      "id": "requirement",
+      "english": "requirement",
+      "translation": "требование"
+    },
+    {
+      "id": "evaluation",
+      "english": "evaluation",
+      "translation": "оценка"
+    },
+    {
+      "id": "assessment",
+      "english": "assessment",
+      "translation": "оценивание"
+    },
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "обратная связь"
+    },
+    {
+      "id": "adjustment",
+      "english": "adjustment",
+      "translation": "корректировка"
+    },
+    {
+      "id": "improvement",
+      "english": "improvement",
+      "translation": "улучшение"
+    },
+    {
+      "id": "decision-making",
+      "english": "decision-making",
+      "translation": "принятие решений"
+    },
+    {
+      "id": "responsibility",
+      "english": "responsibility",
+      "translation": "ответственность"
+    },
+    {
+      "id": "commitment",
+      "english": "commitment",
+      "translation": "обязательство"
+    },
+    {
+      "id": "accountability",
+      "english": "accountability",
+      "translation": "подотчетность"
+    },
+    {
+      "id": "issue",
+      "english": "issue",
+      "translation": "проблема"
+    },
+    {
+      "id": "outcome",
+      "english": "outcome",
+      "translation": "результат"
+    },
+    {
+      "id": "insight",
+      "english": "insight",
+      "translation": "понимание"
+    },
+    {
+      "id": "framework",
+      "english": "framework",
+      "translation": "структура"
+    },
+    {
+      "id": "challenge",
+      "english": "challenge",
+      "translation": "вызов"
+    },
+    {
+      "id": "ownership",
+      "english": "ownership",
+      "translation": "ответственность"
+    }
+  ]
+}

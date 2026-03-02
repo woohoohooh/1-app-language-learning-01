@@ -1,0 +1,287 @@
+{
+  "theme": "Влияние и убеждение",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "influence",
+      "english": "influence",
+      "translation": "влияние",
+      "audio": [
+        "audio/words/influence.wav"
+      ]
+    },
+    {
+      "id": "persuasion",
+      "english": "persuasion",
+      "translation": "убеждение",
+      "audio": [
+        "audio/words/persuasion.wav"
+      ]
+    },
+    {
+      "id": "persuasive",
+      "english": "persuasive",
+      "translation": "убедительный",
+      "audio": [
+        "audio/words/persuasive.wav"
+      ]
+    },
+    {
+      "id": "conviction",
+      "english": "conviction",
+      "translation": "убеждённость",
+      "audio": [
+        "audio/words/conviction.wav"
+      ]
+    },
+    {
+      "id": "credibility",
+      "english": "credibility",
+      "translation": "доверие, авторитет",
+      "audio": [
+        "audio/words/credibility.wav"
+      ]
+    },
+    {
+      "id": "authority",
+      "english": "authority",
+      "translation": "авторитет",
+      "audio": [
+        "audio/words/authority.wav"
+      ]
+    },
+    {
+      "id": "trustworthiness",
+      "english": "trustworthiness",
+      "translation": "надёжность",
+      "audio": [
+        "audio/words/trustworthiness.wav"
+      ]
+    },
+    {
+      "id": "confidence",
+      "english": "confidence",
+      "translation": "уверенность",
+      "audio": [
+        "audio/words/confidence.wav"
+      ]
+    },
+    {
+      "id": "charisma",
+      "english": "charisma",
+      "translation": "харизма",
+      "audio": [
+        "audio/words/charisma.wav"
+      ]
+    },
+    {
+      "id": "presence",
+      "english": "presence",
+      "translation": "присутствие",
+      "audio": [
+        "audio/words/presence.wav"
+      ]
+    },
+    {
+      "id": "appeal",
+      "english": "appeal",
+      "translation": "привлекательность",
+      "audio": [
+        "audio/words/appeal.wav"
+      ]
+    },
+    {
+      "id": "reasoning",
+      "english": "reasoning",
+      "translation": "логика рассуждений",
+      "audio": [
+        "audio/words/reasoning.wav"
+      ]
+    },
+    {
+      "id": "logic",
+      "english": "logic",
+      "translation": "логика",
+      "audio": [
+        "audio/words/logic.wav"
+      ]
+    },
+    {
+      "id": "emotion",
+      "english": "emotion",
+      "translation": "эмоция",
+      "audio": [
+        "audio/words/emotion.wav"
+      ]
+    },
+    {
+      "id": "emotional-impact",
+      "english": "emotional impact",
+      "translation": "эмоциональное воздействие",
+      "audio": [
+        "audio/words/emotional impact.wav"
+      ]
+    },
+    {
+      "id": "framing",
+      "english": "framing",
+      "translation": "подача",
+      "audio": [
+        "audio/words/framing.wav"
+      ]
+    },
+    {
+      "id": "positioning",
+      "english": "positioning",
+      "translation": "позиционирование",
+      "audio": [
+        "audio/words/positioning.wav"
+      ]
+    },
+    {
+      "id": "emphasis",
+      "english": "emphasis",
+      "translation": "акцент",
+      "audio": [
+        "audio/words/emphasis.wav"
+      ]
+    },
+    {
+      "id": "tone",
+      "english": "tone",
+      "translation": "тон",
+      "audio": [
+        "audio/words/tone.wav"
+      ]
+    },
+    {
+      "id": "messaging",
+      "english": "messaging",
+      "translation": "передача идеи",
+      "audio": [
+        "audio/words/messaging.wav"
+      ]
+    },
+    {
+      "id": "motivation",
+      "english": "motivation",
+      "translation": "мотивация",
+      "audio": [
+        "audio/words/motivation.wav"
+      ]
+    },
+    {
+      "id": "incentive",
+      "english": "incentive",
+      "translation": "стимул",
+      "audio": [
+        "audio/words/incentive.wav"
+      ]
+    },
+    {
+      "id": "leverage",
+      "english": "leverage",
+      "translation": "рычаг влияния",
+      "audio": [
+        "audio/words/leverage.wav"
+      ]
+    },
+    {
+      "id": "pressure",
+      "english": "pressure",
+      "translation": "давление",
+      "audio": [
+        "audio/words/pressure.wav"
+      ]
+    },
+    {
+      "id": "resistance",
+      "english": "resistance",
+      "translation": "сопротивление",
+      "audio": [
+        "audio/words/resistance.wav"
+      ]
+    },
+    {
+      "id": "objection",
+      "english": "objection",
+      "translation": "возражение",
+      "audio": [
+        "audio/words/objection.wav"
+      ]
+    },
+    {
+      "id": "acceptance",
+      "english": "acceptance",
+      "translation": "принятие",
+      "audio": [
+        "audio/words/acceptance.wav"
+      ]
+    },
+    {
+      "id": "agreement",
+      "english": "agreement",
+      "translation": "согласие",
+      "audio": [
+        "audio/words/agreement.wav"
+      ]
+    },
+    {
+      "id": "alignment",
+      "english": "alignment",
+      "translation": "согласованность",
+      "audio": [
+        "audio/words/alignment.wav"
+      ]
+    },
+    {
+      "id": "buy-in",
+      "english": "buy-in",
+      "translation": "вовлечённое согласие",
+      "audio": [
+        "audio/words/buy-in.wav"
+      ]
+    },
+    {
+      "id": "manipulation",
+      "english": "manipulation",
+      "translation": "манипуляция",
+      "audio": [
+        "audio/words/manipulation.wav"
+      ]
+    },
+    {
+      "id": "ethical-influence",
+      "english": "ethical influence",
+      "translation": "этичное влияние",
+      "audio": [
+        "audio/words/ethical influence.wav"
+      ]
+    },
+    {
+      "id": "transparency",
+      "english": "transparency",
+      "translation": "прозрачность",
+      "audio": [
+        "audio/words/transparency.wav"
+      ]
+    },
+    {
+      "id": "intent",
+      "english": "intent",
+      "translation": "намерение",
+      "audio": [
+        "audio/words/intent.wav"
+      ]
+    },
+    {
+      "id": "perception",
+      "english": "perception",
+      "translation": "восприятие",
+      "audio": [
+        "audio/words/perception.wav"
+      ]
+    }
+  ]
+}

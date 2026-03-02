@@ -1,0 +1,711 @@
+{
+  "theme": "Частые слова (база)",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "i-work-from-home-today.",
+      "english": "I work from home today.",
+      "translation": "Я сегодня работаю из дома.",
+      "audio": [
+        "audio/sentences/I work from home today..wav"
+      ]
+    },
+    {
+      "id": "you-can-choose-any-option.",
+      "english": "You can choose any option.",
+      "translation": "Ты можешь выбрать любой вариант.",
+      "audio": [
+        "audio/sentences/You can choose any option..wav"
+      ]
+    },
+    {
+      "id": "he-usually-wakes-up-early.",
+      "english": "He usually wakes up early.",
+      "translation": "Он обычно просыпается рано.",
+      "audio": [
+        "audio/sentences/He usually wakes up early..wav"
+      ]
+    },
+    {
+      "id": "she-prefers-simple-solutions.",
+      "english": "She prefers simple solutions.",
+      "translation": "Она предпочитает простые решения.",
+      "audio": [
+        "audio/sentences/She prefers simple solutions..wav"
+      ]
+    },
+    {
+      "id": "we-already-discussed-this-idea.",
+      "english": "We already discussed this idea.",
+      "translation": "Мы уже обсуждали эту идею.",
+      "audio": [
+        "audio/sentences/We already discussed this idea..wav"
+      ]
+    },
+    {
+      "id": "they-decided-to-test-it.",
+      "english": "They decided to test it.",
+      "translation": "Они решили это протестировать.",
+      "audio": [
+        "audio/sentences/They decided to test it..wav"
+      ]
+    },
+    {
+      "id": "it-is-important-to-be-clear.",
+      "english": "It is important to be clear.",
+      "translation": "Важно быть понятным.",
+      "audio": [
+        "audio/sentences/It is important to be clear..wav"
+      ]
+    },
+    {
+      "id": "i-have-a-backup-plan.",
+      "english": "I have a backup plan.",
+      "translation": "У меня есть запасной план.",
+      "audio": [
+        "audio/sentences/I have a backup plan..wav"
+      ]
+    },
+    {
+      "id": "we-do-this-every-week.",
+      "english": "We do this every week.",
+      "translation": "Мы делаем это каждую неделю.",
+      "audio": [
+        "audio/sentences/We do this every week..wav"
+      ]
+    },
+    {
+      "id": "she-says-nothing-about-it.",
+      "english": "She says nothing about it.",
+      "translation": "Она ничего об этом не говорит.",
+      "audio": [
+        "audio/sentences/She says nothing about it..wav"
+      ]
+    },
+    {
+      "id": "please-come-earlier-tomorrow.",
+      "english": "Please come earlier tomorrow.",
+      "translation": "Пожалуйста, приходи завтра раньше.",
+      "audio": [
+        "audio/sentences/Please come earlier tomorrow..wav"
+      ]
+    },
+    {
+      "id": "i-see-your-point.",
+      "english": "I see your point.",
+      "translation": "Я понимаю твою точку зрения.",
+      "audio": [
+        "audio/sentences/I see your point..wav"
+      ]
+    },
+    {
+      "id": "we-hear-strange-noises.",
+      "english": "We hear strange noises.",
+      "translation": "Мы слышим странные звуки.",
+      "audio": [
+        "audio/sentences/We hear strange noises..wav"
+      ]
+    },
+    {
+      "id": "they-know-each-other-well.",
+      "english": "They know each other well.",
+      "translation": "Они хорошо знают друг друга.",
+      "audio": [
+        "audio/sentences/They know each other well..wav"
+      ]
+    },
+    {
+      "id": "i-think-this-works.",
+      "english": "I think this works.",
+      "translation": "Я думаю, это работает.",
+      "audio": [
+        "audio/sentences/I think this works..wav"
+      ]
+    },
+    {
+      "id": "she-wants-a-new-job.",
+      "english": "She wants a new job.",
+      "translation": "Она хочет новую работу.",
+      "audio": [
+        "audio/sentences/She wants a new job..wav"
+      ]
+    },
+    {
+      "id": "i-need-more-information.",
+      "english": "I need more information.",
+      "translation": "Мне нужна дополнительная информация.",
+      "audio": [
+        "audio/sentences/I need more information..wav"
+      ]
+    },
+    {
+      "id": "they-like-simple-solutions.",
+      "english": "They like simple solutions.",
+      "translation": "Им нравятся простые решения.",
+      "audio": [
+        "audio/sentences/They like simple solutions..wav"
+      ]
+    },
+    {
+      "id": "we-use-it-every-day.",
+      "english": "We use it every day.",
+      "translation": "Мы используем это каждый день.",
+      "audio": [
+        "audio/sentences/We use it every day..wav"
+      ]
+    },
+    {
+      "id": "he-tried-to-fix-it.",
+      "english": "He tried to fix it.",
+      "translation": "Он попытался это исправить.",
+      "audio": [
+        "audio/sentences/He tried to fix it..wav"
+      ]
+    },
+    {
+      "id": "she-asked-for-advice.",
+      "english": "She asked for advice.",
+      "translation": "Она попросила совета.",
+      "audio": [
+        "audio/sentences/She asked for advice..wav"
+      ]
+    },
+    {
+      "id": "they-gave-him-time.",
+      "english": "They gave him time.",
+      "translation": "Они дали ему время.",
+      "audio": [
+        "audio/sentences/They gave him time..wav"
+      ]
+    },
+    {
+      "id": "please-take-this-seat.",
+      "english": "Please take this seat.",
+      "translation": "Пожалуйста, займите это место.",
+      "audio": [
+        "audio/sentences/Please take this seat..wav"
+      ]
+    },
+    {
+      "id": "we-found-a-solution.",
+      "english": "We found a solution.",
+      "translation": "Мы нашли решение.",
+      "audio": [
+        "audio/sentences/We found a solution..wav"
+      ]
+    },
+    {
+      "id": "he-told-me-yesterday.",
+      "english": "He told me yesterday.",
+      "translation": "Он рассказал мне вчера.",
+      "audio": [
+        "audio/sentences/He told me yesterday..wav"
+      ]
+    },
+    {
+      "id": "i-feel-much-better-now.",
+      "english": "I feel much better now.",
+      "translation": "Я чувствую себя намного лучше сейчас.",
+      "audio": [
+        "audio/sentences/I feel much better now..wav"
+      ]
+    },
+    {
+      "id": "he-brought-all-the-documents.",
+      "english": "He brought all the documents.",
+      "translation": "Он принёс все документы.",
+      "audio": [
+        "audio/sentences/He brought all the documents..wav"
+      ]
+    },
+    {
+      "id": "time-moves-very-fast.",
+      "english": "Time moves very fast.",
+      "translation": "Время идёт очень быстро.",
+      "audio": [
+        "audio/sentences/Time moves very fast..wav"
+      ]
+    },
+    {
+      "id": "it-was-a-long-day.",
+      "english": "It was a long day.",
+      "translation": "Это был долгий день.",
+      "audio": [
+        "audio/sentences/It was a long day..wav"
+      ]
+    },
+    {
+      "id": "last-year-changed-многое.",
+      "english": "Last year changed многое.",
+      "translation": "Прошлый год многое изменил.",
+      "audio": [
+        "audio/sentences/Last year changed многое..wav"
+      ]
+    },
+    {
+      "id": "people-react-differently.",
+      "english": "People react differently.",
+      "translation": "Люди реагируют по-разному.",
+      "audio": [
+        "audio/sentences/People react differently..wav"
+      ]
+    },
+    {
+      "id": "this-person-knows-the-answer.",
+      "english": "This person knows the answer.",
+      "translation": "Этот человек знает ответ.",
+      "audio": [
+        "audio/sentences/This person knows the answer..wav"
+      ]
+    },
+    {
+      "id": "life-becomes-more-complex.",
+      "english": "Life becomes more complex.",
+      "translation": "Жизнь становится сложнее.",
+      "audio": [
+        "audio/sentences/Life becomes more complex..wav"
+      ]
+    },
+    {
+      "id": "this-thing-matters-most.",
+      "english": "This thing matters most.",
+      "translation": "Эта вещь важнее всего.",
+      "audio": [
+        "audio/sentences/This thing matters most..wav"
+      ]
+    },
+    {
+      "id": "this-place-feels-safe.",
+      "english": "This place feels safe.",
+      "translation": "Это место кажется безопасным.",
+      "audio": [
+        "audio/sentences/This place feels safe..wav"
+      ]
+    },
+    {
+      "id": "the-problem-needs-attention.",
+      "english": "The problem needs attention.",
+      "translation": "Эта проблема требует внимания.",
+      "audio": [
+        "audio/sentences/The problem needs attention..wav"
+      ]
+    },
+    {
+      "id": "i-have-a-question.",
+      "english": "I have a question.",
+      "translation": "У меня есть вопрос.",
+      "audio": [
+        "audio/sentences/I have a question..wav"
+      ]
+    },
+    {
+      "id": "he-stayed-home-today.",
+      "english": "He stayed home today.",
+      "translation": "Он остался дома сегодня.",
+      "audio": [
+        "audio/sentences/He stayed home today..wav"
+      ]
+    },
+    {
+      "id": "the-world-is-changing-fast.",
+      "english": "The world is changing fast.",
+      "translation": "Мир быстро меняется.",
+      "audio": [
+        "audio/sentences/The world is changing fast..wav"
+      ]
+    },
+    {
+      "id": "she-met-a-friend.",
+      "english": "She met a friend.",
+      "translation": "Она встретила друга.",
+      "audio": [
+        "audio/sentences/She met a friend..wav"
+      ]
+    },
+    {
+      "id": "family-comes-first.",
+      "english": "Family comes first.",
+      "translation": "Семья на первом месте.",
+      "audio": [
+        "audio/sentences/Family comes first..wav"
+      ]
+    },
+    {
+      "id": "this-is-a-good-start.",
+      "english": "This is a good start.",
+      "translation": "Это хорошее начало.",
+      "audio": [
+        "audio/sentences/This is a good start..wav"
+      ]
+    },
+    {
+      "id": "that-was-a-bad-choice.",
+      "english": "That was a bad choice.",
+      "translation": "Это был плохой выбор.",
+      "audio": [
+        "audio/sentences/That was a bad choice..wav"
+      ]
+    },
+    {
+      "id": "this-is-a-big-city.",
+      "english": "This is a big city.",
+      "translation": "Это большой город.",
+      "audio": [
+        "audio/sentences/This is a big city..wav"
+      ]
+    },
+    {
+      "id": "she-lives-in-a-small-house.",
+      "english": "She lives in a small house.",
+      "translation": "Она живёт в маленьком доме.",
+      "audio": [
+        "audio/sentences/She lives in a small house..wav"
+      ]
+    },
+    {
+      "id": "i-bought-a-new-phone.",
+      "english": "I bought a new phone.",
+      "translation": "Я купил новый телефон.",
+      "audio": [
+        "audio/sentences/I bought a new phone..wav"
+      ]
+    },
+    {
+      "id": "this-building-is-very-old.",
+      "english": "This building is very old.",
+      "translation": "Это здание очень старое.",
+      "audio": [
+        "audio/sentences/This building is very old..wav"
+      ]
+    },
+    {
+      "id": "we-have-the-same-goal.",
+      "english": "We have the same goal.",
+      "translation": "У нас одинаковая цель.",
+      "audio": [
+        "audio/sentences/We have the same goal..wav"
+      ]
+    },
+    {
+      "id": "people-think-in-different-ways.",
+      "english": "People think in different ways.",
+      "translation": "Люди думают по-разному.",
+      "audio": [
+        "audio/sentences/People think in different ways..wav"
+      ]
+    },
+    {
+      "id": "this-is-an-important-decision.",
+      "english": "This is an important decision.",
+      "translation": "Это важное решение.",
+      "audio": [
+        "audio/sentences/This is an important decision..wav"
+      ]
+    },
+    {
+      "id": "the-test-was-easy.",
+      "english": "The test was easy.",
+      "translation": "Тест был лёгким.",
+      "audio": [
+        "audio/sentences/The test was easy..wav"
+      ]
+    },
+    {
+      "id": "this-job-feels-hard.",
+      "english": "This job feels hard.",
+      "translation": "Эта работа кажется трудной.",
+      "audio": [
+        "audio/sentences/This job feels hard..wav"
+      ]
+    },
+    {
+      "id": "this-is-the-wrong-way.",
+      "english": "This is the wrong way.",
+      "translation": "Это неправильный путь.",
+      "audio": [
+        "audio/sentences/This is the wrong way..wav"
+      ]
+    },
+    {
+      "id": "she-feels-very-happy-today.",
+      "english": "She feels very happy today.",
+      "translation": "Она чувствует себя очень счастливой сегодня.",
+      "audio": [
+        "audio/sentences/She feels very happy today..wav"
+      ]
+    },
+    {
+      "id": "i-really-like-this-idea.",
+      "english": "I really like this idea.",
+      "translation": "Мне действительно нравится эта идея.",
+      "audio": [
+        "audio/sentences/I really like this idea..wav"
+      ]
+    },
+    {
+      "id": "she-has-only-one-question.",
+      "english": "She has only one question.",
+      "translation": "У неё есть только один вопрос.",
+      "audio": [
+        "audio/sentences/She has only one question..wav"
+      ]
+    },
+    {
+      "id": "we-need-to-leave-now.",
+      "english": "We need to leave now.",
+      "translation": "Нам нужно уйти сейчас.",
+      "audio": [
+        "audio/sentences/We need to leave now..wav"
+      ]
+    },
+    {
+      "id": "i-am-here-with-you.",
+      "english": "I am here with you.",
+      "translation": "Я здесь с тобой.",
+      "audio": [
+        "audio/sentences/I am here with you..wav"
+      ]
+    },
+    {
+      "id": "your-bag-is-there.",
+      "english": "Your bag is there.",
+      "translation": "Твоя сумка там.",
+      "audio": [
+        "audio/sentences/Your bag is there..wav"
+      ]
+    },
+    {
+      "id": "he-always-tells-the-truth.",
+      "english": "He always tells the truth.",
+      "translation": "Он всегда говорит правду.",
+      "audio": [
+        "audio/sentences/He always tells the truth..wav"
+      ]
+    },
+    {
+      "id": "they-often-meet-after-work.",
+      "english": "They often meet after work.",
+      "translation": "Они часто встречаются после работы.",
+      "audio": [
+        "audio/sentences/They often meet after work..wav"
+      ]
+    },
+    {
+      "id": "sometimes-i-work-late.",
+      "english": "Sometimes I work late.",
+      "translation": "Иногда я работаю допоздна.",
+      "audio": [
+        "audio/sentences/Sometimes I work late..wav"
+      ]
+    },
+    {
+      "id": "i-never-forget-names.",
+      "english": "I never forget names.",
+      "translation": "Я никогда не забываю имена.",
+      "audio": [
+        "audio/sentences/I never forget names..wav"
+      ]
+    },
+    {
+      "id": "she-is-in-the-office.",
+      "english": "She is in the office.",
+      "translation": "Она в офисе.",
+      "audio": [
+        "audio/sentences/She is in the office..wav"
+      ]
+    },
+    {
+      "id": "the-phone-is-on-the-desk.",
+      "english": "The phone is on the desk.",
+      "translation": "Телефон на столе.",
+      "audio": [
+        "audio/sentences/The phone is on the desk..wav"
+      ]
+    },
+    {
+      "id": "he-went-with-his-family.",
+      "english": "He went with his family.",
+      "translation": "Он пошёл с семьёй.",
+      "audio": [
+        "audio/sentences/He went with his family..wav"
+      ]
+    },
+    {
+      "id": "i-left-without-my-bag.",
+      "english": "I left without my bag.",
+      "translation": "Я ушёл без сумки.",
+      "audio": [
+        "audio/sentences/I left without my bag..wav"
+      ]
+    },
+    {
+      "id": "this-gift-is-for-you.",
+      "english": "This gift is for you.",
+      "translation": "Этот подарок для тебя.",
+      "audio": [
+        "audio/sentences/This gift is for you..wav"
+      ]
+    },
+    {
+      "id": "finish-the-task-before-dinner.",
+      "english": "Finish the task before dinner.",
+      "translation": "Закончи задание до ужина.",
+      "audio": [
+        "audio/sentences/Finish the task before dinner..wav"
+      ]
+    },
+    {
+      "id": "we-met-after-work.",
+      "english": "We met after work.",
+      "translation": "Мы встретились после работы.",
+      "audio": [
+        "audio/sentences/We met after work..wav"
+      ]
+    },
+    {
+      "id": "what-do-you-want-now.",
+      "english": "What do you want now.",
+      "translation": "Что ты хочешь сейчас.",
+      "audio": [
+        "audio/sentences/What do you want now..wav"
+      ]
+    },
+    {
+      "id": "who-called-you-today.",
+      "english": "Who called you today.",
+      "translation": "Кто тебе сегодня звонил.",
+      "audio": [
+        "audio/sentences/Who called you today..wav"
+      ]
+    },
+    {
+      "id": "where-do-you-live-now.",
+      "english": "Where do you live now.",
+      "translation": "Где ты сейчас живёшь.",
+      "audio": [
+        "audio/sentences/Where do you live now..wav"
+      ]
+    },
+    {
+      "id": "when-does-the-meeting-start.",
+      "english": "When does the meeting start.",
+      "translation": "Когда начинается встреча.",
+      "audio": [
+        "audio/sentences/When does the meeting start..wav"
+      ]
+    },
+    {
+      "id": "why-did-you-choose-this.",
+      "english": "Why did you choose this.",
+      "translation": "Почему ты выбрал это.",
+      "audio": [
+        "audio/sentences/Why did you choose this..wav"
+      ]
+    },
+    {
+      "id": "how-did-you-learn-english.",
+      "english": "How did you learn English.",
+      "translation": "Как ты выучил английский.",
+      "audio": [
+        "audio/sentences/How did you learn English..wav"
+      ]
+    },
+    {
+      "id": "it-happens-more-often-now.",
+      "english": "It happens more often now.",
+      "translation": "Это происходит чаще сейчас.",
+      "audio": [
+        "audio/sentences/It happens more often now..wav"
+      ]
+    },
+    {
+      "id": "he-makes-simple-plans.",
+      "english": "He makes simple plans.",
+      "translation": "Он делает простые планы.",
+      "audio": [
+        "audio/sentences/He makes simple plans..wav"
+      ]
+    },
+    {
+      "id": "they-go-home-together.",
+      "english": "They go home together.",
+      "translation": "Они идут домой вместе.",
+      "audio": [
+        "audio/sentences/They go home together..wav"
+      ]
+    },
+    {
+      "id": "she-works-late-sometimes.",
+      "english": "She works late sometimes.",
+      "translation": "Иногда она работает допоздна.",
+      "audio": [
+        "audio/sentences/She works late sometimes..wav"
+      ]
+    },
+    {
+      "id": "she-left-the-office-early.",
+      "english": "She left the office early.",
+      "translation": "Она ушла из офиса рано.",
+      "audio": [
+        "audio/sentences/She left the office early..wav"
+      ]
+    },
+    {
+      "id": "there-is-a-better-way.",
+      "english": "There is a better way.",
+      "translation": "Есть лучший способ.",
+      "audio": [
+        "audio/sentences/There is a better way..wav"
+      ]
+    },
+    {
+      "id": "you-chose-the-right-option.",
+      "english": "You chose the right option.",
+      "translation": "Ты выбрал правильный вариант.",
+      "audio": [
+        "audio/sentences/You chose the right option..wav"
+      ]
+    },
+    {
+      "id": "i-just-finished-work.",
+      "english": "I just finished work.",
+      "translation": "Я только что закончил работу.",
+      "audio": [
+        "audio/sentences/I just finished work..wav"
+      ]
+    },
+    {
+      "id": "i-am-at-home-now.",
+      "english": "I am at home now.",
+      "translation": "Я сейчас дома.",
+      "audio": [
+        "audio/sentences/I am at home now..wav"
+      ]
+    },
+    {
+      "id": "we-need-to-go-there.",
+      "english": "We need to go there.",
+      "translation": "Нам нужно туда пойти.",
+      "audio": [
+        "audio/sentences/We need to go there..wav"
+      ]
+    },
+    {
+      "id": "she-came-from-work.",
+      "english": "She came from work.",
+      "translation": "Она пришла с работы.",
+      "audio": [
+        "audio/sentences/She came from work..wav"
+      ]
+    },
+    {
+      "id": "we-talked-about-the-plan.",
+      "english": "We talked about the plan.",
+      "translation": "Мы говорили о плане.",
+      "audio": [
+        "audio/sentences/We talked about the plan..wav"
+      ]
+    }
+  ]
+}

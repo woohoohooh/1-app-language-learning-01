@@ -1,0 +1,223 @@
+{
+  "theme": "Погода и природа",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "good-weather-today",
+      "english": "good weather today",
+      "translation": "хорошая погода сегодня",
+      "audio": [
+        "audio/phrases/good weather today.wav"
+      ]
+    },
+    {
+      "id": "love-nature-walks",
+      "english": "love nature walks",
+      "translation": "любить прогулки на природе",
+      "audio": [
+        "audio/phrases/love nature walks.wav"
+      ]
+    },
+    {
+      "id": "bright-sun-outside",
+      "english": "bright sun outside",
+      "translation": "яркое солнце снаружи",
+      "audio": [
+        "audio/phrases/bright sun outside.wav"
+      ]
+    },
+    {
+      "id": "sunny-day-ahead",
+      "english": "sunny day ahead",
+      "translation": "солнечный день впереди",
+      "audio": [
+        "audio/phrases/sunny day ahead.wav"
+      ]
+    },
+    {
+      "id": "dark-cloud-above",
+      "english": "dark cloud above",
+      "translation": "тёмное облако сверху",
+      "audio": [
+        "audio/phrases/dark cloud above.wav"
+      ]
+    },
+    {
+      "id": "cloudy-sky-now",
+      "english": "cloudy sky now",
+      "translation": "сейчас облачное небо",
+      "audio": [
+        "audio/phrases/cloudy sky now.wav"
+      ]
+    },
+    {
+      "id": "heavy-rain-outside",
+      "english": "heavy rain outside",
+      "translation": "сильный дождь снаружи",
+      "audio": [
+        "audio/phrases/heavy rain outside.wav"
+      ]
+    },
+    {
+      "id": "rainy-day-today",
+      "english": "rainy day today",
+      "translation": "сегодня дождливый день",
+      "audio": [
+        "audio/phrases/rainy day today.wav"
+      ]
+    },
+    {
+      "id": "fresh-snow-falls",
+      "english": "fresh snow falls",
+      "translation": "падает свежий снег",
+      "audio": [
+        "audio/phrases/fresh snow falls.wav"
+      ]
+    },
+    {
+      "id": "snowy-winter-day",
+      "english": "snowy winter day",
+      "translation": "снежный зимний день",
+      "audio": [
+        "audio/phrases/snowy winter day.wav"
+      ]
+    },
+    {
+      "id": "strong-wind-today",
+      "english": "strong wind today",
+      "translation": "сильный ветер сегодня",
+      "audio": [
+        "audio/phrases/strong wind today.wav"
+      ]
+    },
+    {
+      "id": "windy-weather-outside",
+      "english": "windy weather outside",
+      "translation": "ветреная погода снаружи",
+      "audio": [
+        "audio/phrases/windy weather outside.wav"
+      ]
+    },
+    {
+      "id": "very-hot-day",
+      "english": "very hot day",
+      "translation": "очень жаркий день",
+      "audio": [
+        "audio/phrases/very hot day.wav"
+      ]
+    },
+    {
+      "id": "warm-air-inside",
+      "english": "warm air inside",
+      "translation": "тёплый воздух внутри",
+      "audio": [
+        "audio/phrases/warm air inside.wav"
+      ]
+    },
+    {
+      "id": "cool-morning-air",
+      "english": "cool morning air",
+      "translation": "прохладный утренний воздух",
+      "audio": [
+        "audio/phrases/cool morning air.wav"
+      ]
+    },
+    {
+      "id": "cold-night-outside",
+      "english": "cold night outside",
+      "translation": "холодная ночь снаружи",
+      "audio": [
+        "audio/phrases/cold night outside.wav"
+      ]
+    },
+    {
+      "id": "clear-blue-sky",
+      "english": "clear blue sky",
+      "translation": "чистое голубое небо",
+      "audio": [
+        "audio/phrases/clear blue sky.wav"
+      ]
+    },
+    {
+      "id": "fresh-air-outside",
+      "english": "fresh air outside",
+      "translation": "свежий воздух снаружи",
+      "audio": [
+        "audio/phrases/fresh air outside.wav"
+      ]
+    },
+    {
+      "id": "tall-green-tree",
+      "english": "tall green tree",
+      "translation": "высокое зелёное дерево",
+      "audio": [
+        "audio/phrases/tall green tree.wav"
+      ]
+    },
+    {
+      "id": "quiet-forest-path",
+      "english": "quiet forest path",
+      "translation": "тихая лесная тропа",
+      "audio": [
+        "audio/phrases/quiet forest path.wav"
+      ]
+    },
+    {
+      "id": "open-green-field",
+      "english": "open green field",
+      "translation": "открытое зелёное поле",
+      "audio": [
+        "audio/phrases/open green field.wav"
+      ]
+    },
+    {
+      "id": "wide-river-flows",
+      "english": "wide river flows",
+      "translation": "широкая река течёт",
+      "audio": [
+        "audio/phrases/wide river flows.wav"
+      ]
+    },
+    {
+      "id": "quiet-blue-lake",
+      "english": "quiet blue lake",
+      "translation": "тихое голубое озеро",
+      "audio": [
+        "audio/phrases/quiet blue lake.wav"
+      ]
+    },
+    {
+      "id": "blue-sea-view",
+      "english": "blue sea view",
+      "translation": "вид на синее море",
+      "audio": [
+        "audio/phrases/blue sea view.wav"
+      ]
+    },
+    {
+      "id": "high-mountain-peak",
+      "english": "high mountain peak",
+      "translation": "высокая горная вершина",
+      "audio": [
+        "audio/phrases/high mountain peak.wav"
+      ]
+    },
+    {
+      "id": "long-sunny-day",
+      "english": "long sunny day",
+      "translation": "долгий солнечный день",
+      "audio": [
+        "audio/phrases/long sunny day.wav"
+      ]
+    },
+    {
+      "id": "quiet-dark-night",
+      "english": "quiet dark night",
+      "translation": "тихая тёмная ночь",
+      "audio": [
+        "audio/phrases/quiet dark night.wav"
+      ]
+    }
+  ]
+}

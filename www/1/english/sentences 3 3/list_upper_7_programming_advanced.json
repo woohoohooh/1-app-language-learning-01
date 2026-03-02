@@ -1,0 +1,167 @@
+{
+  "theme": "Веб-разработка",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "software",
+      "english": "software",
+      "translation": "программное обеспечение",
+      "audio": [
+        "audio/words/software.wav"
+      ]
+    },
+    {
+      "id": "application",
+      "english": "application",
+      "translation": "приложение",
+      "audio": [
+        "audio/words/application.wav"
+      ]
+    },
+    {
+      "id": "codebase",
+      "english": "codebase",
+      "translation": "кодовая база",
+      "audio": [
+        "audio/words/codebase.wav"
+      ]
+    },
+    {
+      "id": "repository",
+      "english": "repository",
+      "translation": "репозиторий",
+      "audio": [
+        "audio/words/repository.wav"
+      ]
+    },
+    {
+      "id": "commit",
+      "english": "commit",
+      "translation": "коммит",
+      "audio": [
+        "audio/words/commit.wav"
+      ]
+    },
+    {
+      "id": "branch",
+      "english": "branch",
+      "translation": "ветка",
+      "audio": [
+        "audio/words/branch.wav"
+      ]
+    },
+    {
+      "id": "merge",
+      "english": "merge",
+      "translation": "слияние",
+      "audio": [
+        "audio/words/merge.wav"
+      ]
+    },
+    {
+      "id": "pull-request",
+      "english": "pull request",
+      "translation": "пулл-реквест",
+      "audio": [
+        "audio/words/pull request.wav"
+      ]
+    },
+    {
+      "id": "version-control",
+      "english": "version control",
+      "translation": "контроль версий",
+      "audio": [
+        "audio/words/version control.wav"
+      ]
+    },
+    {
+      "id": "deployment",
+      "english": "deployment",
+      "translation": "развёртывание",
+      "audio": [
+        "audio/words/deployment.wav"
+      ]
+    },
+    {
+      "id": "build",
+      "english": "build",
+      "translation": "сборка",
+      "audio": [
+        "audio/words/build.wav"
+      ]
+    },
+    {
+      "id": "release",
+      "english": "release",
+      "translation": "релиз",
+      "audio": [
+        "audio/words/release.wav"
+      ]
+    },
+    {
+      "id": "pipeline",
+      "english": "pipeline",
+      "translation": "пайплайн",
+      "audio": [
+        "audio/words/pipeline.wav"
+      ]
+    },
+    {
+      "id": "automation",
+      "english": "automation",
+      "translation": "автоматизация",
+      "audio": [
+        "audio/words/automation.wav"
+      ]
+    },
+    {
+      "id": "integration",
+      "english": "integration",
+      "translation": "интеграция",
+      "audio": [
+        "audio/words/integration.wav"
+      ]
+    },
+    {
+      "id": "framework",
+      "english": "framework",
+      "translation": "фреймворк",
+      "audio": [
+        "audio/words/framework.wav"
+      ]
+    },
+    {
+      "id": "library",
+      "english": "library",
+      "translation": "библиотека",
+      "audio": [
+        "audio/words/library.wav"
+      ]
+    },
+    {
+      "id": "dependency",
+      "english": "dependency",
+      "translation": "зависимость",
+      "audio": [
+        "audio/words/dependency.wav"
+      ]
+    },
+    {
+      "id": "package",
+      "english": "package",
+      "translation": "пакет",
+      "audio": [
+        "audio/words/package.wav"
+      ]
+    },
+    {
+      "id": "module",
+      "english": "module",
+      "translation": "модуль",
+      "audio": [
+        "audio/words/module.wav"
+      ]
+    }
+  ]
+}

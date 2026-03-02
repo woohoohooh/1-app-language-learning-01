@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Dialogue Practice</title>
+    <!-- Используем ваш шрифт -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; }
+        html, body {
+            height: 100%;
+            margin: 0;
+            background: #121212;
+            color: #fff;
+            font-family: 'Nunito', Arial, sans-serif;
+            overflow: hidden;
+            touch-action: pan-y; /* Разрешаем вертикальный скролл */
+        }
+
+        /* Контейнеры и общее скрытие */
+        .container {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            padding-top: env(safe-area-inset-top);
+            padding-bottom: env(safe-area-inset-bottom);
+        }
+        .hidden {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+
+        /* ШАПКА (скрыта по умолчанию) */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 25px;
+            transition: opacity 0.2s;
+        }
+        .header.hidden {
+            display: none;
+        }
+        .nav-button {
+            width: 44px;
+            height: 44px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-weight: 800;
+            font-size: 20px;
+            color: #aaa;
+            user-select: none;
+        }
+        .nav-button:active { background: rgba(255, 255, 255, 0.1); }
+        .header-title {
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            color: #ddd;
+            flex-grow: 1;
+            padding: 0 15px;
+        }
+
+        /* ОСНОВНАЯ ОБЛАСТЬ ДИАЛОГА */
+        .dialogue-stage {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            overflow-y: auto; /* Прокрутка реплик */
+            -webkit-overflow-scrolling: touch;
+            padding: 10px 5px 40px 5px;
+            margin: -10px -5px; /* Компенсируем padding для плавного скролла */
+        }
+
+        /* БЛОК РЕПЛИКИ */
+        .line-container {
+            margin-bottom: 30px;
+            max-width: 85%;
+            opacity: 0.4;
+            transition: opacity 0.3s ease;
+            position: relative;
+        }
+        .line-container.active {
+            opacity: 1;
+        }
+        .line-container.inactive {
+            /* Можно добавить стиль для пройденных реплик */
+        }
+
+        /* Реплика слева (персонаж 1) */
+        .line-container.left {
+            align-self: flex-start;
+            text-align: left;
+        }
+        /* Реплика справа (персонаж 2) */
+        .line-container.right {
+            align-self: flex-end;
+            text-align: right;
+        }
+
+        /* Аватар и имя */
+        .speaker-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .line-container.left .speaker-info { justify-content: flex-start; }
+        .line-container.right .speaker-info { justify-content: flex-end; }
+
+        .avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 18px;
+            margin: 0 10px;
+            flex-shrink: 0;
+        }
+        .line-container.left .avatar {
+            background: rgba(76, 175, 80, 0.2);
+            color: #4CAF50;
+            order: 0;
+            margin-left: 0;
+        }
+        .line-container.right .avatar {
+            background: rgba(255, 152, 0, 0.2);
+            color: #FF9800;
+            order: 1;
+            margin-right: 0;
+        }
+
+        .speaker-name {
+            font-weight: 700;
+            font-size: 16px;
+            color: #ccc;
+        }
+        .line-container.right .speaker-name {
+            order: 0;
+            margin-right: 10px;
+        }
+
+        /* Текст реплики */
+        .bubble {
+            padding: 16px 20px;
+            border-radius: 22px;
+            font-size: 20px;
+            line-height: 1.5;
+            font-weight: 600;
+            word-break: break-word;
+        }
+        .line-container.left .bubble {
+            background: rgba(255, 255, 255, 0.07);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-bottom-left-radius: 8px;
+        }
+        .line-container.right .bubble {
+            background: rgba(255, 152, 0, 0.09);
+            border: 1px solid rgba(255, 152, 0, 0.15);
+            border-bottom-right-radius: 8px;
+            color: #ffcc80;
+        }
+
+        /* ПЕРЕВОД (показывается по клику) */
+        .translation {
+            margin-top: 14px;
+            padding: 14px 18px;
+            border-radius: 18px;
+            font-size: 18px;
+            line-height: 1.5;
+            color: #b0b0b0;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            border-left: 4px solid rgba(76, 175, 80, 0.5);
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        .translation.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ПАНЕЛЬ НАВИГАЦИИ (стрелки внизу, скрыта) */
+        .nav-hint {
+            position: absolute;
+            bottom: 25px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 25px;
+            transition: opacity 0.2s;
+            z-index: 10;
+        }
+        .nav-hint.hidden {
+            display: none;
+        }
+        .hint-text {
+            color: #666;
+            font-size: 15px;
+            font-weight: 600;
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        /* Индикатор прогресса внутри диалога */
+        .progress-indicator {
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Шапка со стрелками переключения диалогов -->
+        <div class="header hidden" id="header">
+            <div class="nav-button" id="prev-dlg-btn" title="Previous dialogue">←</div>
+            <div class="header-title" id="dlg-theme">Dialogue Theme</div>
+            <div class="nav-button" id="next-dlg-btn" title="Next dialogue">→</div>
+        </div>
+
+        <!-- Область прокрутки реплик диалога -->
+        <div class="dialogue-stage" id="dialogueStage">
+            <!-- Прогресс (линия/диалог) -->
+            <div class="progress-indicator">
+                <span id="lineProgress">1/8</span> | Dialogue <span id="dlgProgress">1/5</span>
+            </div>
+            <!-- Сюда вставляются блоки .line-container через JS -->
+        </div>
+
+        <!-- Подсказка навигации внизу -->
+        <div class="nav-hint hidden" id="navHint">
+            <div class="hint-text" id="hintText">Tap to show translation & controls</div>
+        </div>
+    </div>
+
+    <script>
+        // ========== КОНФИГУРАЦИЯ И СОСТОЯНИЕ ==========
+        const DIALOGS_LIST_URL = 'dialogs.json'; // Путь к вашему файлу с диалогами
+        let allDialogs = []; // Все диалоги из списка
+        let currentDialogIndex = 0;
+        let currentDialog = null; // Текущий объект диалога
+        let currentLineIndex = 0; // Текущая реплика внутри диалога
+        let uiVisible = false;
+
+        // DOM элементы
+        const headerEl = document.getElementById('header');
+        const navHintEl = document.getElementById('navHint');
+        const hintTextEl = document.getElementById('hintText');
+        const dialogueStageEl = document.getElementById('dialogueStage');
+        const prevDlgBtn = document.getElementById('prev-dlg-btn');
+        const nextDlgBtn = document.getElementById('next-dlg-btn');
+        const dlgThemeEl = document.getElementById('dlg-theme');
+        const lineProgressEl = document.getElementById('lineProgress');
+        const dlgProgressEl = document.getElementById('dlgProgress');
+
+        // ========== ЗАГРУЗКА ДАННЫХ ==========
+        async function loadDialogsList() {
+            try {
+                const response = await fetch(DIALOGS_LIST_URL);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                const data = await response.json();
+                allDialogs = data.items; // Массив диалогов
+                if (allDialogs.length > 0) {
+                    await loadDialogByIndex(0); // Загружаем первый диалог
+                } else {
+                    showError("No dialogues found in the list.");
+                }
+            } catch (error) {
+                console.error("Failed to load dialogs list:", error);
+                showError("Could not load dialogues. Please check the file.");
+            }
+        }
+
+        async function loadDialogByIndex(index) {
+            if (index < 0 || index >= allDialogs.length) return;
+            currentDialogIndex = index;
+            const dialogInfo = allDialogs[index];
+            dlgThemeEl.textContent = `${dialogInfo.theme} (${dialogInfo.level})`;
+
+            try {
+                const response = await fetch(dialogInfo.file);
+                if (!response.ok) throw new Error(`Failed to load ${dialogInfo.file}`);
+                currentDialog = await response.json();
+                currentLineIndex = 0;
+                renderDialogue(); // Отрисовываем диалог
+                updateUIState();
+            } catch (error) {
+                console.error("Failed to load dialogue file:", error);
+                showError(`Could not load: ${dialogInfo.file}`);
+            }
+        }
+
+        // ========== ОТРИСОВКА ИНТЕРФЕЙСА ==========
+        function renderDialogue() {
+            if (!currentDialog || !currentDialog.dialogue) return;
+            dialogueStageEl.innerHTML = ''; // Очищаем
+
+            // Индикатор прогресса
+            const progressIndicator = document.createElement('div');
+            progressIndicator.className = 'progress-indicator';
+            progressIndicator.innerHTML = `<span id="lineProgress">1/${currentDialog.dialogue.length}</span> | Dialogue <span id="dlgProgress">${currentDialogIndex + 1}/${allDialogs.length}</span>`;
+            dialogueStageEl.appendChild(progressIndicator);
+
+            // Создаем блоки для каждой реплики
+            currentDialog.dialogue.forEach((line, idx) => {
+                const lineContainer = document.createElement('div');
+                lineContainer.className = `line-container ${getSpeakerSide(line.speaker)}`;
+                lineContainer.dataset.lineId = line.id;
+
+                if (idx === currentLineIndex) {
+                    lineContainer.classList.add('active');
+                } else if (idx < currentLineIndex) {
+                    lineContainer.classList.add('inactive');
+                }
+
+                // Определяем первого персонажа для аватара по умолчанию
+                const firstSpeakerKey = Object.keys(currentDialog.characters || {})[0];
+                const isFirstSpeaker = currentDialog.characters && line.speaker === firstSpeakerKey;
+
+                // Аватар и имя
+                const speakerInfo = document.createElement('div');
+                speakerInfo.className = 'speaker-info';
+
+                const avatar = document.createElement('div');
+                avatar.className = 'avatar';
+                // Берем первую букву имени для аватара
+                avatar.textContent = line.speaker ? line.speaker.charAt(0).toUpperCase() : '?';
+
+                const name = document.createElement('div');
+                name.className = 'speaker-name';
+                const role = currentDialog.characters && currentDialog.characters[line.speaker] ? ` (${currentDialog.characters[line.speaker].role})` : '';
+                name.textContent = `${line.speaker}${role}`;
+
+                // Располагаем аватар и имя в зависимости от стороны
+                if (getSpeakerSide(line.speaker) === 'left') {
+                    speakerInfo.appendChild(avatar);
+                    speakerInfo.appendChild(name);
+                } else {
+                    speakerInfo.appendChild(name);
+                    speakerInfo.appendChild(avatar);
+                }
+
+                // Пузырек с английской репликой
+                const bubble = document.createElement('div');
+                bubble.className = 'bubble';
+                bubble.textContent = line.en;
+
+                // Блок перевода (скрыт)
+                const translation = document.createElement('div');
+                translation.className = 'translation';
+                translation.textContent = line.ru || '[No translation]';
+                translation.id = `trans-${line.id}`;
+
+                // Собираем блок
+                lineContainer.appendChild(speakerInfo);
+                lineContainer.appendChild(bubble);
+                lineContainer.appendChild(translation);
+
+                dialogueStageEl.appendChild(lineContainer);
+            });
+
+            // Прокручиваем к активной реплике
+            scrollToActiveLine();
+        }
+
+        // Определяем, с какой стороны показывать реплику (чередование)
+        function getSpeakerSide(speaker) {
+            if (!currentDialog || !currentDialog.characters) return 'left';
+            const speakerKeys = Object.keys(currentDialog.characters);
+            const index = speakerKeys.indexOf(speaker);
+            // Если это первый персонаж в списке — слева, иначе справа
+            return index === 0 ? 'left' : 'right';
+        }
+
+        function scrollToActiveLine() {
+            setTimeout(() => {
+                const activeLine = document.querySelector('.line-container.active');
+                if (activeLine) {
+                    activeLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+                // Обновляем индикатор прогресса строк
+                lineProgressEl.textContent = `${currentLineIndex + 1}/${currentDialog.dialogue.length}`;
+                dlgProgressEl.textContent = `${currentDialogIndex + 1}/${allDialogs.length}`;
+            }, 50);
+        }
+
+        // ========== УПРАВЛЕНИЕ И НАВИГАЦИЯ ==========
+        function showTranslationForCurrentLine() {
+            // Скрываем все остальные переводы
+            document.querySelectorAll('.translation').forEach(t => {
+                t.classList.remove('visible');
+            });
+            // Показываем перевод для текущей строки
+            const currentLine = currentDialog.dialogue[currentLineIndex];
+            if (currentLine) {
+                const transEl = document.getElementById(`trans-${currentLine.id}`);
+                if (transEl) transEl.classList.add('visible');
+            }
+        }
+
+        function nextLine() {
+            if (!currentDialog || !currentDialog.dialogue) return;
+            if (currentLineIndex < currentDialog.dialogue.length - 1) {
+                currentLineIndex++;
+                renderDialogue();
+                updateUIState();
+            } else {
+                // Если это последняя реплика, переходим к следующему диалогу
+                nextDialog();
+            }
+        }
+
+        function prevLine() {
+            if (currentLineIndex > 0) {
+                currentLineIndex--;
+                renderDialogue();
+                updateUIState();
+            }
+        }
+
+        function nextDialog() {
+            if (currentDialogIndex < allDialogs.length - 1) {
+                loadDialogByIndex(currentDialogIndex + 1);
+            } else {
+                // Циклически возвращаемся к первому диалогу
+                loadDialogByIndex(0);
+            }
+        }
+
+        function prevDialog() {
+            if (currentDialogIndex > 0) {
+                loadDialogByIndex(currentDialogIndex - 1);
+            } else {
+                // Циклически переходим к последнему диалогу
+                loadDialogByIndex(allDialogs.length - 1);
+            }
+        }
+
+        function toggleUI() {
+            uiVisible = !uiVisible;
+            if (uiVisible) {
+                headerEl.classList.remove('hidden');
+                navHintEl.classList.remove('hidden');
+                showTranslationForCurrentLine();
+                hintTextEl.textContent = "←/→ Switch dialogues | Tap to hide";
+            } else {
+                headerEl.classList.add('hidden');
+                navHintEl.classList.add('hidden');
+                // Скрываем перевод при скрытии UI
+                document.querySelectorAll('.translation').forEach(t => {
+                    t.classList.remove('visible');
+                });
+                hintTextEl.textContent = "Tap to show translation & controls";
+            }
+        }
+
+        function updateUIState() {
+            // Обновляем текст подсказки в зависимости от позиции
+            if (currentLineIndex === currentDialog.dialogue.length - 1) {
+                hintTextEl.textContent = uiVisible ? "←/→ Switch dialogues | Last line" : "Tap to show translation & controls";
+            } else {
+                hintTextEl.textContent = uiVisible ? "←/→ Switch dialogues | ↓ Next line" : "Tap to show translation & controls";
+            }
+            lineProgressEl.textContent = `${currentLineIndex + 1}/${currentDialog.dialogue.length}`;
+            dlgProgressEl.textContent = `${currentDialogIndex + 1}/${allDialogs.length}`;
+        }
+
+        // ========== ОБРАБОТЧИКИ СОБЫТИЙ ==========
+        // Клик по экрану переключает видимость UI и перевода
+        document.addEventListener('click', (e) => {
+            // Если клик не по навигационной кнопке
+            if (!e.target.closest('.nav-button')) {
+                toggleUI();
+            }
+        });
+
+        // Кнопки навигации по диалогам
+        prevDlgBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            prevDialog();
+        });
+        nextDlgBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            nextDialog();
+        });
+
+        // Управление с клавиатуры
+        document.addEventListener('keydown', (e) => {
+            switch(e.key) {
+                case 'ArrowLeft':
+                    if (uiVisible) prevDialog();
+                    break;
+                case 'ArrowRight':
+                    if (uiVisible) nextDialog();
+                    break;
+                case 'ArrowDown':
+                case ' ':
+                    nextLine();
+                    break;
+                case 'ArrowUp':
+                    prevLine();
+                    break;
+                case 'Escape':
+                    if (uiVisible) toggleUI();
+                    break;
+            }
+        });
+
+        // Свайпы (для мобильных устройств)
+        let touchStartX = 0;
+        let touchStartY = 0;
+        document.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+            touchStartY = e.changedTouches[0].screenY;
+        }, { passive: true });
+
+        document.addEventListener('touchend', (e) => {
+            if (!touchStartX) return;
+            const touchEndX = e.changedTouches[0].screenX;
+            const touchEndY = e.changedTouches[0].screenY;
+            const diffX = touchStartX - touchEndX;
+            const diffY = touchStartY - touchEndY;
+
+            // Если горизонтальный свайп сильнее вертикального
+            if (Math.abs(diffX) > Math.abs(diffY)) {
+                // Горизонтальный свайп -> переключение диалогов
+                if (Math.abs(diffX) > 50) { // порог
+                    if (diffX > 0 && uiVisible) {
+                        nextDialog(); // Свайп влево -> следующий
+                    } else if (diffX < 0 && uiVisible) {
+                        prevDialog(); // Свайп вправо -> предыдущий
+                    }
+                }
+            } else {
+                // Вертикальный свайп -> навигация по репликам
+                if (Math.abs(diffY) > 50) {
+                    if (diffY > 0) {
+                        nextLine(); // Свайп вверх -> следующая реплика
+                    } else {
+                        prevLine(); // Свайп вниз -> предыдущая реплика
+                    }
+                }
+            }
+            touchStartX = 0;
+            touchStartY = 0;
+        }, { passive: true });
+
+        // ========== ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ ==========
+        function showError(msg) {
+            dialogueStageEl.innerHTML = `<div style="text-align:center; padding: 40px 20px; color: #ff6b6b; font-size: 18px;">${msg}</div>`;
+        }
+
+        // ========== ИНИЦИАЛИЗАЦИЯ ==========
+        loadDialogsList();
+    </script>
+</body>
+</html>

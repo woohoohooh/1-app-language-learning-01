@@ -1,0 +1,367 @@
+{
+  "theme": "Работа в компании",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "organization",
+      "english": "organization",
+      "translation": "организация",
+      "audio": [
+        "audio/words/organization.wav"
+      ]
+    },
+    {
+      "id": "headquarters",
+      "english": "headquarters",
+      "translation": "штаб-квартира",
+      "audio": [
+        "audio/words/headquarters.wav"
+      ]
+    },
+    {
+      "id": "subsidiary",
+      "english": "subsidiary",
+      "translation": "дочерняя компания",
+      "audio": [
+        "audio/words/subsidiary.wav"
+      ]
+    },
+    {
+      "id": "department",
+      "english": "department",
+      "translation": "отдел",
+      "audio": [
+        "audio/words/department.wav"
+      ]
+    },
+    {
+      "id": "division",
+      "english": "division",
+      "translation": "подразделение",
+      "audio": [
+        "audio/words/division.wav"
+      ]
+    },
+    {
+      "id": "management",
+      "english": "management",
+      "translation": "руководство",
+      "audio": [
+        "audio/words/management.wav"
+      ]
+    },
+    {
+      "id": "leadership",
+      "english": "leadership",
+      "translation": "лидерство",
+      "audio": [
+        "audio/words/leadership.wav"
+      ]
+    },
+    {
+      "id": "supervisor",
+      "english": "supervisor",
+      "translation": "руководитель",
+      "audio": [
+        "audio/words/supervisor.wav"
+      ]
+    },
+    {
+      "id": "colleague",
+      "english": "colleague",
+      "translation": "коллега",
+      "audio": [
+        "audio/words/colleague.wav"
+      ]
+    },
+    {
+      "id": "counterpart",
+      "english": "counterpart",
+      "translation": "коллега",
+      "audio": [
+        "audio/words/counterpart.wav"
+      ]
+    },
+    {
+      "id": "stakeholder",
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона",
+      "audio": [
+        "audio/words/stakeholder.wav"
+      ]
+    },
+    {
+      "id": "decision-maker",
+      "english": "decision-maker",
+      "translation": "лицо, принимающее решения",
+      "audio": [
+        "audio/words/decision-maker.wav"
+      ]
+    },
+    {
+      "id": "reporting",
+      "english": "reporting",
+      "translation": "подотчетность",
+      "audio": [
+        "audio/words/reporting.wav"
+      ]
+    },
+    {
+      "id": "alignment",
+      "english": "alignment",
+      "translation": "согласованность",
+      "audio": [
+        "audio/words/alignment.wav"
+      ]
+    },
+    {
+      "id": "coordination",
+      "english": "coordination",
+      "translation": "координация",
+      "audio": [
+        "audio/words/coordination.wav"
+      ]
+    },
+    {
+      "id": "process",
+      "english": "process",
+      "translation": "процесс",
+      "audio": [
+        "audio/words/process.wav"
+      ]
+    },
+    {
+      "id": "procedure",
+      "english": "procedure",
+      "translation": "процедура",
+      "audio": [
+        "audio/words/procedure.wav"
+      ]
+    },
+    {
+      "id": "workflow",
+      "english": "workflow",
+      "translation": "рабочий процесс",
+      "audio": [
+        "audio/words/workflow.wav"
+      ]
+    },
+    {
+      "id": "deliverable",
+      "english": "deliverable",
+      "translation": "результат работы",
+      "audio": [
+        "audio/words/deliverable.wav"
+      ]
+    },
+    {
+      "id": "milestone",
+      "english": "milestone",
+      "translation": "этап",
+      "audio": [
+        "audio/words/milestone.wav"
+      ]
+    },
+    {
+      "id": "deadline",
+      "english": "deadline",
+      "translation": "крайний срок",
+      "audio": [
+        "audio/words/deadline.wav"
+      ]
+    },
+    {
+      "id": "timeline",
+      "english": "timeline",
+      "translation": "график",
+      "audio": [
+        "audio/words/timeline.wav"
+      ]
+    },
+    {
+      "id": "workload",
+      "english": "workload",
+      "translation": "рабочая нагрузка",
+      "audio": [
+        "audio/words/workload.wav"
+      ]
+    },
+    {
+      "id": "availability",
+      "english": "availability",
+      "translation": "доступность",
+      "audio": [
+        "audio/words/availability.wav"
+      ]
+    },
+    {
+      "id": "meeting",
+      "english": "meeting",
+      "translation": "встреча",
+      "audio": [
+        "audio/words/meeting.wav"
+      ]
+    },
+    {
+      "id": "agenda",
+      "english": "agenda",
+      "translation": "повестка",
+      "audio": [
+        "audio/words/agenda.wav"
+      ]
+    },
+    {
+      "id": "minutes",
+      "english": "minutes",
+      "translation": "протокол встречи",
+      "audio": [
+        "audio/words/minutes.wav"
+      ]
+    },
+    {
+      "id": "follow-up",
+      "english": "follow-up",
+      "translation": "последующие действия",
+      "audio": [
+        "audio/words/follow-up.wav"
+      ]
+    },
+    {
+      "id": "action-item",
+      "english": "action item",
+      "translation": "пункт к выполнению",
+      "audio": [
+        "audio/words/action item.wav"
+      ]
+    },
+    {
+      "id": "communication",
+      "english": "communication",
+      "translation": "коммуникация",
+      "audio": [
+        "audio/words/communication.wav"
+      ]
+    },
+    {
+      "id": "clarification",
+      "english": "clarification",
+      "translation": "уточнение",
+      "audio": [
+        "audio/words/clarification.wav"
+      ]
+    },
+    {
+      "id": "alignment-call",
+      "english": "alignment call",
+      "translation": "созвон для синхронизации",
+      "audio": [
+        "audio/words/alignment call.wav"
+      ]
+    },
+    {
+      "id": "escalation",
+      "english": "escalation",
+      "translation": "эскалация",
+      "audio": [
+        "audio/words/escalation.wav"
+      ]
+    },
+    {
+      "id": "approval",
+      "english": "approval",
+      "translation": "утверждение",
+      "audio": [
+        "audio/words/approval.wav"
+      ]
+    },
+    {
+      "id": "responsibility",
+      "english": "responsibility",
+      "translation": "ответственность",
+      "audio": [
+        "audio/words/responsibility.wav"
+      ]
+    },
+    {
+      "id": "ownership",
+      "english": "ownership",
+      "translation": "ответственность за зону",
+      "audio": [
+        "audio/words/ownership.wav"
+      ]
+    },
+    {
+      "id": "accountability",
+      "english": "accountability",
+      "translation": "подотчетность",
+      "audio": [
+        "audio/words/accountability.wav"
+      ]
+    },
+    {
+      "id": "compliance",
+      "english": "compliance",
+      "translation": "соответствие требованиям",
+      "audio": [
+        "audio/words/compliance.wav"
+      ]
+    },
+    {
+      "id": "policy",
+      "english": "policy",
+      "translation": "политика компании",
+      "audio": [
+        "audio/words/policy.wav"
+      ]
+    },
+    {
+      "id": "performance",
+      "english": "performance",
+      "translation": "результативность",
+      "audio": [
+        "audio/words/performance.wav"
+      ]
+    },
+    {
+      "id": "evaluation",
+      "english": "evaluation",
+      "translation": "оценка",
+      "audio": [
+        "audio/words/evaluation.wav"
+      ]
+    },
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "обратная связь",
+      "audio": [
+        "audio/words/feedback.wav"
+      ]
+    },
+    {
+      "id": "improvement",
+      "english": "improvement",
+      "translation": "улучшение",
+      "audio": [
+        "audio/words/improvement.wav"
+      ]
+    },
+    {
+      "id": "growth",
+      "english": "growth",
+      "translation": "рост",
+      "audio": [
+        "audio/words/growth.wav"
+      ]
+    },
+    {
+      "id": "capacity",
+      "english": "capacity",
+      "translation": "загрузка",
+      "audio": [
+        "audio/words/capacity.wav"
+      ]
+    }
+  ]
+}

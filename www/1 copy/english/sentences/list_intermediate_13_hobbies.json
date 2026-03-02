@@ -1,0 +1,327 @@
+{
+  "theme": "Хобби и развлечения",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "hobby-helps-relieve-stress.",
+      "english": "Hobby helps relieve stress.",
+      "translation": "Хобби помогает снять стресс.",
+      "audio": [
+        "audio/sentences/Hobby helps relieve stress..wav"
+      ]
+    },
+    {
+      "id": "his-interest-in-art-grew-quickly.",
+      "english": "His interest in art grew quickly.",
+      "translation": "Его интерес к искусству быстро вырос.",
+      "audio": [
+        "audio/sentences/His interest in art grew quickly..wav"
+      ]
+    },
+    {
+      "id": "leisure-activities-improve-well-being.",
+      "english": "Leisure activities improve well-being.",
+      "translation": "Досуг улучшает общее самочувствие.",
+      "audio": [
+        "audio/sentences/Leisure activities improve well-being..wav"
+      ]
+    },
+    {
+      "id": "free-time-allows-for-relaxation.",
+      "english": "Free time allows for relaxation.",
+      "translation": "Свободное время позволяет расслабиться.",
+      "audio": [
+        "audio/sentences/Free time allows for relaxation..wav"
+      ]
+    },
+    {
+      "id": "entertainment-keeps-people-happy.",
+      "english": "Entertainment keeps people happy.",
+      "translation": "Развлечение делает людей счастливыми.",
+      "audio": [
+        "audio/sentences/Entertainment keeps people happy..wav"
+      ]
+    },
+    {
+      "id": "fun-makes-the-day-enjoyable.",
+      "english": "Fun makes the day enjoyable.",
+      "translation": "Веселье делает день приятным.",
+      "audio": [
+        "audio/sentences/Fun makes the day enjoyable..wav"
+      ]
+    },
+    {
+      "id": "relaxation-improves-mental-health.",
+      "english": "Relaxation improves mental health.",
+      "translation": "Расслабление улучшает психическое здоровье.",
+      "audio": [
+        "audio/sentences/Relaxation improves mental health..wav"
+      ]
+    },
+    {
+      "id": "every-challenge-builds-character.",
+      "english": "Every challenge builds character.",
+      "translation": "Каждый вызов формирует характер.",
+      "audio": [
+        "audio/sentences/Every challenge builds character..wav"
+      ]
+    },
+    {
+      "id": "music-helps-improve-mood.",
+      "english": "Music helps improve mood.",
+      "translation": "Музыка помогает улучшить настроение.",
+      "audio": [
+        "audio/sentences/Music helps improve mood..wav"
+      ]
+    },
+    {
+      "id": "the-concert-was-amazing.",
+      "english": "The concert was amazing.",
+      "translation": "Концерт был потрясающим.",
+      "audio": [
+        "audio/sentences/The concert was amazing..wav"
+      ]
+    },
+    {
+      "id": "the-playlist-has-my-favorite-songs.",
+      "english": "The playlist has my favorite songs.",
+      "translation": "В плейлисте мои любимые песни.",
+      "audio": [
+        "audio/sentences/The playlist has my favorite songs..wav"
+      ]
+    },
+    {
+      "id": "podcast-episodes-are-informative.",
+      "english": "Podcast episodes are informative.",
+      "translation": "Эпизоды подкаста информативны.",
+      "audio": [
+        "audio/sentences/Podcast episodes are informative..wav"
+      ]
+    },
+    {
+      "id": "audiobook-helps-during-travel.",
+      "english": "Audiobook helps during travel.",
+      "translation": "Аудиокнига помогает во время путешествия.",
+      "audio": [
+        "audio/sentences/Audiobook helps during travel..wav"
+      ]
+    },
+    {
+      "id": "the-movie-was-exciting.",
+      "english": "The movie was exciting.",
+      "translation": "Фильм был захватывающим.",
+      "audio": [
+        "audio/sentences/The movie was exciting..wav"
+      ]
+    },
+    {
+      "id": "series-keep-viewers-engaged.",
+      "english": "Series keep viewers engaged.",
+      "translation": "Сериалы удерживают внимание зрителей.",
+      "audio": [
+        "audio/sentences/Series keep viewers engaged..wav"
+      ]
+    },
+    {
+      "id": "streaming-is-popular-worldwide.",
+      "english": "Streaming is popular worldwide.",
+      "translation": "Стриминг популярен во всём мире.",
+      "audio": [
+        "audio/sentences/Streaming is popular worldwide..wav"
+      ]
+    },
+    {
+      "id": "the-episode-revealed-a-twist.",
+      "english": "The episode revealed a twist.",
+      "translation": "Эпизод раскрыл неожиданный поворот.",
+      "audio": [
+        "audio/sentences/The episode revealed a twist..wav"
+      ]
+    },
+    {
+      "id": "genre-defines-the-story-style.",
+      "english": "Genre defines the story style.",
+      "translation": "Жанр определяет стиль истории.",
+      "audio": [
+        "audio/sentences/Genre defines the story style..wav"
+      ]
+    },
+    {
+      "id": "game-night-is-fun-for-friends.",
+      "english": "Game night is fun for friends.",
+      "translation": "Вечер игр весёл для друзей.",
+      "audio": [
+        "audio/sentences/Game night is fun for friends..wav"
+      ]
+    },
+    {
+      "id": "gaming-improves-hand-eye-coordination.",
+      "english": "Gaming improves hand-eye coordination.",
+      "translation": "Гейминг улучшает координацию рук и глаз.",
+      "audio": [
+        "audio/sentences/Gaming improves hand-eye coordination..wav"
+      ]
+    },
+    {
+      "id": "the-console-connects-to-the-tv-easily.",
+      "english": "The console connects to the TV easily.",
+      "translation": "Консоль легко подключается к телевизору.",
+      "audio": [
+        "audio/sentences/The console connects to the TV easily..wav"
+      ]
+    },
+    {
+      "id": "multiplayer-games-are-more-fun-with-friends.",
+      "english": "Multiplayer games are more fun with friends.",
+      "translation": "Многопользовательские игры интереснее с друзьями.",
+      "audio": [
+        "audio/sentences/Multiplayer games are more fun with friends..wav"
+      ]
+    },
+    {
+      "id": "strategy-is-key-to-winning-the-game.",
+      "english": "Strategy is key to winning the game.",
+      "translation": "Стратегия — ключ к победе в игре.",
+      "audio": [
+        "audio/sentences/Strategy is key to winning the game..wav"
+      ]
+    },
+    {
+      "id": "reading-improves-knowledge-and-focus.",
+      "english": "Reading improves knowledge and focus.",
+      "translation": "Чтение улучшает знания и концентрацию.",
+      "audio": [
+        "audio/sentences/Reading improves knowledge and focus..wav"
+      ]
+    },
+    {
+      "id": "writing-helps-express-thoughts-clearly.",
+      "english": "Writing helps express thoughts clearly.",
+      "translation": "Письмо помогает ясно выражать мысли.",
+      "audio": [
+        "audio/sentences/Writing helps express thoughts clearly..wav"
+      ]
+    },
+    {
+      "id": "blog-attracts-many-readers.",
+      "english": "Blog attracts many readers.",
+      "translation": "Блог привлекает много читателей.",
+      "audio": [
+        "audio/sentences/Blog attracts many readers..wav"
+      ]
+    },
+    {
+      "id": "photography-captures-beautiful-moments.",
+      "english": "Photography captures beautiful moments.",
+      "translation": "Фотография запечатлевает красивые моменты.",
+      "audio": [
+        "audio/sentences/Photography captures beautiful moments..wav"
+      ]
+    },
+    {
+      "id": "editing-improves-the-final-project-quality.",
+      "english": "Editing improves the final project quality.",
+      "translation": "Редактирование улучшает качество финального проекта.",
+      "audio": [
+        "audio/sentences/Editing improves the final project quality..wav"
+      ]
+    },
+    {
+      "id": "traveling-broadens-horizons-and-knowledge.",
+      "english": "Traveling broadens horizons and knowledge.",
+      "translation": "Путешествия расширяют кругозор и знания.",
+      "audio": [
+        "audio/sentences/Traveling broadens horizons and knowledge..wav"
+      ]
+    },
+    {
+      "id": "adventure-brings-excitement-to-life.",
+      "english": "Adventure brings excitement to life.",
+      "translation": "Приключение приносит жизни волнения.",
+      "audio": [
+        "audio/sentences/Adventure brings excitement to life..wav"
+      ]
+    },
+    {
+      "id": "exploration-uncovers-new-discoveries.",
+      "english": "Exploration uncovers new discoveries.",
+      "translation": "Исследование открывает новые открытия.",
+      "audio": [
+        "audio/sentences/Exploration uncovers new discoveries..wav"
+      ]
+    },
+    {
+      "id": "camping-in-nature-is-refreshing.",
+      "english": "Camping in nature is refreshing.",
+      "translation": "Кемпинг на природе освежает.",
+      "audio": [
+        "audio/sentences/Camping in nature is refreshing..wav"
+      ]
+    },
+    {
+      "id": "hiking-strengthens-the-body-and-mind.",
+      "english": "Hiking strengthens the body and mind.",
+      "translation": "Походы укрепляют тело и ум.",
+      "audio": [
+        "audio/sentences/Hiking strengthens the body and mind..wav"
+      ]
+    },
+    {
+      "id": "creative-work-inspires-innovation.",
+      "english": "Creative work inspires innovation.",
+      "translation": "Творческая работа вдохновляет на инновации.",
+      "audio": [
+        "audio/sentences/Creative work inspires innovation..wav"
+      ]
+    },
+    {
+      "id": "the-collection-grows-each-year.",
+      "english": "The collection grows each year.",
+      "translation": "Коллекция растёт каждый год.",
+      "audio": [
+        "audio/sentences/The collection grows each year..wav"
+      ]
+    },
+    {
+      "id": "design-makes-products-visually-appealing.",
+      "english": "Design makes products visually appealing.",
+      "translation": "Дизайн делает продукты визуально привлекательными.",
+      "audio": [
+        "audio/sentences/Design makes products visually appealing..wav"
+      ]
+    },
+    {
+      "id": "diy-projects-develop-practical-skills.",
+      "english": "DIY projects develop practical skills.",
+      "translation": "Проекты сделай сам развивают практические навыки.",
+      "audio": [
+        "audio/sentences/DIY projects develop practical skills..wav"
+      ]
+    },
+    {
+      "id": "physical-activity-boosts-energy.",
+      "english": "Physical activity boosts energy.",
+      "translation": "Физическая активность повышает уровень энергии.",
+      "audio": [
+        "audio/sentences/Physical activity boosts energy..wav"
+      ]
+    },
+    {
+      "id": "traveling-gives-valuable-experience.",
+      "english": "Traveling gives valuable experience.",
+      "translation": "Путешествия дают ценный опыт.",
+      "audio": [
+        "audio/sentences/Traveling gives valuable experience..wav"
+      ]
+    },
+    {
+      "id": "craft-projects-improve-creativity.",
+      "english": "Craft projects improve creativity.",
+      "translation": "Проекты по рукоделию развивают креативность.",
+      "audio": [
+        "audio/sentences/Craft projects improve creativity..wav"
+      ]
+    }
+  ]
+}

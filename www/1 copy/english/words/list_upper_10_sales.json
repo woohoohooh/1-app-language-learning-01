@@ -1,0 +1,327 @@
+{
+  "theme": "Продажи и переговоры",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "sales",
+      "english": "sales",
+      "translation": "продажи",
+      "audio": [
+        "audio/words/sales.wav"
+      ]
+    },
+    {
+      "id": "deal",
+      "english": "deal",
+      "translation": "сделка",
+      "audio": [
+        "audio/words/deal.wav"
+      ]
+    },
+    {
+      "id": "agreement",
+      "english": "agreement",
+      "translation": "соглашение",
+      "audio": [
+        "audio/words/agreement.wav"
+      ]
+    },
+    {
+      "id": "contract",
+      "english": "contract",
+      "translation": "контракт",
+      "audio": [
+        "audio/words/contract.wav"
+      ]
+    },
+    {
+      "id": "proposal",
+      "english": "proposal",
+      "translation": "коммерческое предложение",
+      "audio": [
+        "audio/words/proposal.wav"
+      ]
+    },
+    {
+      "id": "offer",
+      "english": "offer",
+      "translation": "предложение",
+      "audio": [
+        "audio/words/offer.wav"
+      ]
+    },
+    {
+      "id": "pricing",
+      "english": "pricing",
+      "translation": "ценообразование",
+      "audio": [
+        "audio/words/pricing.wav"
+      ]
+    },
+    {
+      "id": "price",
+      "english": "price",
+      "translation": "цена",
+      "audio": [
+        "audio/words/price.wav"
+      ]
+    },
+    {
+      "id": "discount",
+      "english": "discount",
+      "translation": "скидка",
+      "audio": [
+        "audio/words/discount.wav"
+      ]
+    },
+    {
+      "id": "margin",
+      "english": "margin",
+      "translation": "маржа",
+      "audio": [
+        "audio/words/margin.wav"
+      ]
+    },
+    {
+      "id": "client",
+      "english": "client",
+      "translation": "клиент",
+      "audio": [
+        "audio/words/client.wav"
+      ]
+    },
+    {
+      "id": "customer",
+      "english": "customer",
+      "translation": "покупатель",
+      "audio": [
+        "audio/words/customer.wav"
+      ]
+    },
+    {
+      "id": "prospect",
+      "english": "prospect",
+      "translation": "потенциальный клиент",
+      "audio": [
+        "audio/words/prospect.wav"
+      ]
+    },
+    {
+      "id": "stakeholder",
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона",
+      "audio": [
+        "audio/words/stakeholder.wav"
+      ]
+    },
+    {
+      "id": "decision-maker",
+      "english": "decision maker",
+      "translation": "лицо, принимающее решение",
+      "audio": [
+        "audio/words/decision maker.wav"
+      ]
+    },
+    {
+      "id": "negotiation",
+      "english": "negotiation",
+      "translation": "переговоры",
+      "audio": [
+        "audio/words/negotiation.wav"
+      ]
+    },
+    {
+      "id": "discussion",
+      "english": "discussion",
+      "translation": "обсуждение",
+      "audio": [
+        "audio/words/discussion.wav"
+      ]
+    },
+    {
+      "id": "terms",
+      "english": "terms",
+      "translation": "условия",
+      "audio": [
+        "audio/words/terms.wav"
+      ]
+    },
+    {
+      "id": "conditions",
+      "english": "conditions",
+      "translation": "условия",
+      "audio": [
+        "audio/words/conditions.wav"
+      ]
+    },
+    {
+      "id": "requirements",
+      "english": "requirements",
+      "translation": "требования",
+      "audio": [
+        "audio/words/requirements.wav"
+      ]
+    },
+    {
+      "id": "objection",
+      "english": "objection",
+      "translation": "возражение",
+      "audio": [
+        "audio/words/objection.wav"
+      ]
+    },
+    {
+      "id": "concern",
+      "english": "concern",
+      "translation": "опасение",
+      "audio": [
+        "audio/words/concern.wav"
+      ]
+    },
+    {
+      "id": "counteroffer",
+      "english": "counteroffer",
+      "translation": "встречное предложение",
+      "audio": [
+        "audio/words/counteroffer.wav"
+      ]
+    },
+    {
+      "id": "compromise",
+      "english": "compromise",
+      "translation": "компромисс",
+      "audio": [
+        "audio/words/compromise.wav"
+      ]
+    },
+    {
+      "id": "concession",
+      "english": "concession",
+      "translation": "уступка",
+      "audio": [
+        "audio/words/concession.wav"
+      ]
+    },
+    {
+      "id": "approval",
+      "english": "approval",
+      "translation": "утверждение",
+      "audio": [
+        "audio/words/approval.wav"
+      ]
+    },
+    {
+      "id": "confirmation",
+      "english": "confirmation",
+      "translation": "подтверждение",
+      "audio": [
+        "audio/words/confirmation.wav"
+      ]
+    },
+    {
+      "id": "signature",
+      "english": "signature",
+      "translation": "подпись",
+      "audio": [
+        "audio/words/signature.wav"
+      ]
+    },
+    {
+      "id": "closing",
+      "english": "closing",
+      "translation": "закрытие сделки",
+      "audio": [
+        "audio/words/closing.wav"
+      ]
+    },
+    {
+      "id": "follow-up",
+      "english": "follow-up",
+      "translation": "дополнительный контакт",
+      "audio": [
+        "audio/words/follow-up.wav"
+      ]
+    },
+    {
+      "id": "pipeline",
+      "english": "pipeline",
+      "translation": "воронка продаж",
+      "audio": [
+        "audio/words/pipeline.wav"
+      ]
+    },
+    {
+      "id": "forecast",
+      "english": "forecast",
+      "translation": "прогноз",
+      "audio": [
+        "audio/words/forecast.wav"
+      ]
+    },
+    {
+      "id": "revenue",
+      "english": "revenue",
+      "translation": "выручка",
+      "audio": [
+        "audio/words/revenue.wav"
+      ]
+    },
+    {
+      "id": "commission",
+      "english": "commission",
+      "translation": "комиссия",
+      "audio": [
+        "audio/words/commission.wav"
+      ]
+    },
+    {
+      "id": "quota",
+      "english": "quota",
+      "translation": "план продаж",
+      "audio": [
+        "audio/words/quota.wav"
+      ]
+    },
+    {
+      "id": "relationship",
+      "english": "relationship",
+      "translation": "отношения",
+      "audio": [
+        "audio/words/relationship.wav"
+      ]
+    },
+    {
+      "id": "trust",
+      "english": "trust",
+      "translation": "доверие",
+      "audio": [
+        "audio/words/trust.wav"
+      ]
+    },
+    {
+      "id": "long-term",
+      "english": "long-term",
+      "translation": "долгосрочный",
+      "audio": [
+        "audio/words/long-term.wav"
+      ]
+    },
+    {
+      "id": "partnership",
+      "english": "partnership",
+      "translation": "партнёрство",
+      "audio": [
+        "audio/words/partnership.wav"
+      ]
+    },
+    {
+      "id": "renewal",
+      "english": "renewal",
+      "translation": "продление",
+      "audio": [
+        "audio/words/renewal.wav"
+      ]
+    }
+  ]
+}

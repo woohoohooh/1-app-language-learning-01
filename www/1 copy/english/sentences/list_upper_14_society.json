@@ -1,0 +1,327 @@
+{
+  "theme": "Общество и современный мир",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "society-changes-faster-than-most-people-expect.",
+      "english": "Society changes faster than most people expect.",
+      "translation": "Общество меняется быстрее, чем многие ожидают.",
+      "audio": [
+        "audio/sentences/Society changes faster than most people expect..wav"
+      ]
+    },
+    {
+      "id": "the-community-plays-a-key-role-in-daily-life.",
+      "english": "The community plays a key role in daily life.",
+      "translation": "Сообщество играет важную роль в повседневной жизни.",
+      "audio": [
+        "audio/sentences/The community plays a key role in daily life..wav"
+      ]
+    },
+    {
+      "id": "the-population-continues-to-grow-in-urban-areas.",
+      "english": "The population continues to grow in urban areas.",
+      "translation": "Население продолжает расти в городских районах.",
+      "audio": [
+        "audio/sentences/The population continues to grow in urban areas..wav"
+      ]
+    },
+    {
+      "id": "each-generation-faces-different-social-challenges.",
+      "english": "Each generation faces different social challenges.",
+      "translation": "Каждое поколение сталкивается с разными социальными вызовами.",
+      "audio": [
+        "audio/sentences/Each generation faces different social challenges..wav"
+      ]
+    },
+    {
+      "id": "culture-influences-how-people-communicate.",
+      "english": "Culture influences how people communicate.",
+      "translation": "Культура влияет на то, как люди общаются.",
+      "audio": [
+        "audio/sentences/Culture influences how people communicate..wav"
+      ]
+    },
+    {
+      "id": "values-often-shape-personal-and-social-choices.",
+      "english": "Values often shape personal and social choices.",
+      "translation": "Ценности часто формируют личные и социальные решения.",
+      "audio": [
+        "audio/sentences/Values often shape personal and social choices..wav"
+      ]
+    },
+    {
+      "id": "norms-differ-across-cultures-and-societies.",
+      "english": "Norms differ across cultures and societies.",
+      "translation": "Нормы различаются в разных культурах и обществах.",
+      "audio": [
+        "audio/sentences/Norms differ across cultures and societies..wav"
+      ]
+    },
+    {
+      "id": "identity-develops-through-experience-and-environment.",
+      "english": "Identity develops through experience and environment.",
+      "translation": "Идентичность формируется через опыт и окружение.",
+      "audio": [
+        "audio/sentences/Identity develops through experience and environment..wav"
+      ]
+    },
+    {
+      "id": "diversity-strengthens-modern-societies.",
+      "english": "Diversity strengthens modern societies.",
+      "translation": "Разнообразие укрепляет современные общества.",
+      "audio": [
+        "audio/sentences/Diversity strengthens modern societies..wav"
+      ]
+    },
+    {
+      "id": "inclusion-helps-people-feel-accepted-and-valued.",
+      "english": "Inclusion helps people feel accepted and valued.",
+      "translation": "Инклюзивность помогает людям чувствовать принятие и ценность.",
+      "audio": [
+        "audio/sentences/Inclusion helps people feel accepted and valued..wav"
+      ]
+    },
+    {
+      "id": "inequality-remains-a-major-global-issue.",
+      "english": "Inequality remains a major global issue.",
+      "translation": "Неравенство остаётся серьёзной глобальной проблемой.",
+      "audio": [
+        "audio/sentences/Inequality remains a major global issue..wav"
+      ]
+    },
+    {
+      "id": "education-creates-opportunity-for-social-mobility.",
+      "english": "Education creates opportunity for social mobility.",
+      "translation": "Образование создаёт возможности для социальной мобильности.",
+      "audio": [
+        "audio/sentences/Education creates opportunity for social mobility..wav"
+      ]
+    },
+    {
+      "id": "access-to-information-is-essential-today.",
+      "english": "Access to information is essential today.",
+      "translation": "Доступ к информации сегодня крайне важен.",
+      "audio": [
+        "audio/sentences/Access to information is essential today..wav"
+      ]
+    },
+    {
+      "id": "the-standard-of-living-varies-between-regions.",
+      "english": "The standard of living varies between regions.",
+      "translation": "Уровень жизни различается в разных регионах.",
+      "audio": [
+        "audio/sentences/The standard of living varies between regions..wav"
+      ]
+    },
+    {
+      "id": "healthcare-strongly-affects-quality-of-life.",
+      "english": "Healthcare strongly affects quality of life.",
+      "translation": "Здравоохранение сильно влияет на качество жизни.",
+      "audio": [
+        "audio/sentences/Healthcare strongly affects quality of life..wav"
+      ]
+    },
+    {
+      "id": "globalization-connects-markets-and-cultures.",
+      "english": "Globalization connects markets and cultures.",
+      "translation": "Глобализация связывает рынки и культуры.",
+      "audio": [
+        "audio/sentences/Globalization connects markets and cultures..wav"
+      ]
+    },
+    {
+      "id": "urbanization-increases-pressure-on-infrastructure.",
+      "english": "Urbanization increases pressure on infrastructure.",
+      "translation": "Урбанизация усиливает нагрузку на инфраструктуру.",
+      "audio": [
+        "audio/sentences/Urbanization increases pressure on infrastructure..wav"
+      ]
+    },
+    {
+      "id": "migration-reshapes-societies-and-economies.",
+      "english": "Migration reshapes societies and economies.",
+      "translation": "Миграция изменяет общества и экономики.",
+      "audio": [
+        "audio/sentences/Migration reshapes societies and economies..wav"
+      ]
+    },
+    {
+      "id": "demographics-influence-long-term-policy-planning.",
+      "english": "Demographics influence long-term policy planning.",
+      "translation": "Демография влияет на долгосрочное планирование политики.",
+      "audio": [
+        "audio/sentences/Demographics influence long-term policy planning..wav"
+      ]
+    },
+    {
+      "id": "the-middle-class-drives-economic-stability.",
+      "english": "The middle class drives economic stability.",
+      "translation": "Средний класс обеспечивает экономическую стабильность.",
+      "audio": [
+        "audio/sentences/The middle class drives economic stability..wav"
+      ]
+    },
+    {
+      "id": "technology-shapes-how-people-live-and-work-today.",
+      "english": "Technology shapes how people live and work today.",
+      "translation": "Технологии формируют то, как люди живут и работают сегодня.",
+      "audio": [
+        "audio/sentences/Technology shapes how people live and work today..wav"
+      ]
+    },
+    {
+      "id": "digitalization-transforms-traditional-industries-worldwide.",
+      "english": "Digitalization transforms traditional industries worldwide.",
+      "translation": "Цифровизация трансформирует традиционные отрасли по всему миру.",
+      "audio": [
+        "audio/sentences/Digitalization transforms traditional industries worldwide..wav"
+      ]
+    },
+    {
+      "id": "automation-reduces-the-need-for-manual-labor.",
+      "english": "Automation reduces the need for manual labor.",
+      "translation": "Автоматизация снижает потребность в ручном труде.",
+      "audio": [
+        "audio/sentences/Automation reduces the need for manual labor..wav"
+      ]
+    },
+    {
+      "id": "artificial-intelligence-is-changing-decision-making-processes.",
+      "english": "Artificial intelligence is changing decision-making processes.",
+      "translation": "Искусственный интеллект меняет процессы принятия решений.",
+      "audio": [
+        "audio/sentences/Artificial intelligence is changing decision-making processes..wav"
+      ]
+    },
+    {
+      "id": "the-policy-had-a-strong-social-impact.",
+      "english": "The policy had a strong social impact.",
+      "translation": "Политика оказала сильное социальное влияние.",
+      "audio": [
+        "audio/sentences/The policy had a strong social impact..wav"
+      ]
+    },
+    {
+      "id": "media-influences-public-perception-every-day.",
+      "english": "Media influences public perception every day.",
+      "translation": "Медиа ежедневно влияет на общественное восприятие.",
+      "audio": [
+        "audio/sentences/Media influences public perception every day..wav"
+      ]
+    },
+    {
+      "id": "information-spreads-rapidly-through-online-networks.",
+      "english": "Information spreads rapidly through online networks.",
+      "translation": "Информация быстро распространяется через онлайн-сети.",
+      "audio": [
+        "audio/sentences/Information spreads rapidly through online networks..wav"
+      ]
+    },
+    {
+      "id": "misinformation-can-damage-public-trust.",
+      "english": "Misinformation can damage public trust.",
+      "translation": "Дезинформация может подорвать общественное доверие.",
+      "audio": [
+        "audio/sentences/Misinformation can damage public trust..wav"
+      ]
+    },
+    {
+      "id": "public-opinion-often-shifts-after-major-events.",
+      "english": "Public opinion often shifts after major events.",
+      "translation": "Общественное мнение часто меняется после крупных событий.",
+      "audio": [
+        "audio/sentences/Public opinion often shifts after major events..wav"
+      ]
+    },
+    {
+      "id": "trust-is-essential-for-stable-social-relations.",
+      "english": "Trust is essential for stable social relations.",
+      "translation": "Доверие необходимо для стабильных социальных отношений.",
+      "audio": [
+        "audio/sentences/Trust is essential for stable social relations..wav"
+      ]
+    },
+    {
+      "id": "climate-change-affects-ecosystems-worldwide.",
+      "english": "Climate change affects ecosystems worldwide.",
+      "translation": "Изменение климата влияет на экосистемы по всему миру.",
+      "audio": [
+        "audio/sentences/Climate change affects ecosystems worldwide..wav"
+      ]
+    },
+    {
+      "id": "the-environment-requires-responsible-human-actions.",
+      "english": "The environment requires responsible human actions.",
+      "translation": "Окружающая среда требует ответственных действий человека.",
+      "audio": [
+        "audio/sentences/The environment requires responsible human actions..wav"
+      ]
+    },
+    {
+      "id": "sustainability-guides-long-term-development-strategies.",
+      "english": "Sustainability guides long-term development strategies.",
+      "translation": "Устойчивое развитие направляет долгосрочные стратегии развития.",
+      "audio": [
+        "audio/sentences/Sustainability guides long-term development strategies..wav"
+      ]
+    },
+    {
+      "id": "resources-must-be-managed-more-efficiently.",
+      "english": "Resources must be managed more efficiently.",
+      "translation": "Ресурсами необходимо управлять более эффективно.",
+      "audio": [
+        "audio/sentences/Resources must be managed more efficiently..wav"
+      ]
+    },
+    {
+      "id": "energy-demand-continues-to-rise-globally.",
+      "english": "Energy demand continues to rise globally.",
+      "translation": "Спрос на энергию продолжает расти во всём мире.",
+      "audio": [
+        "audio/sentences/Energy demand continues to rise globally..wav"
+      ]
+    },
+    {
+      "id": "lifestyle-changes-affect-overall-well-being.",
+      "english": "Lifestyle changes affect overall well-being.",
+      "translation": "Изменения образа жизни влияют на общее благополучие.",
+      "audio": [
+        "audio/sentences/Lifestyle changes affect overall well-being..wav"
+      ]
+    },
+    {
+      "id": "work-life-balance-improves-mental-health.",
+      "english": "Work-life balance improves mental health.",
+      "translation": "Баланс работы и жизни улучшает психическое здоровье.",
+      "audio": [
+        "audio/sentences/Work-life balance improves mental health..wav"
+      ]
+    },
+    {
+      "id": "consumerism-shapes-spending-habits-and-values.",
+      "english": "Consumerism shapes spending habits and values.",
+      "translation": "Потребительство формирует привычки потребления и ценности.",
+      "audio": [
+        "audio/sentences/Consumerism shapes spending habits and values..wav"
+      ]
+    },
+    {
+      "id": "social-change-often-begins-with-new-ideas.",
+      "english": "Social change often begins with new ideas.",
+      "translation": "Социальные изменения часто начинаются с новых идей.",
+      "audio": [
+        "audio/sentences/Social change often begins with new ideas..wav"
+      ]
+    },
+    {
+      "id": "the-future-depends-on-decisions-made-today.",
+      "english": "The future depends on decisions made today.",
+      "translation": "Будущее зависит от решений, принятых сегодня.",
+      "audio": [
+        "audio/sentences/The future depends on decisions made today..wav"
+      ]
+    }
+  ]
+}

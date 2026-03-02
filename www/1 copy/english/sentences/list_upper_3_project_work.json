@@ -1,0 +1,407 @@
+{
+  "theme": "Проектная работа и задачи",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-project-requires-careful-coordination.",
+      "english": "The project requires careful coordination.",
+      "translation": "Проект требует тщательной координации.",
+      "audio": [
+        "audio/sentences/The project requires careful coordination..wav"
+      ]
+    },
+    {
+      "id": "the-initiative-gained-support-quickly.",
+      "english": "The initiative gained support quickly.",
+      "translation": "Инициатива быстро получила поддержку.",
+      "audio": [
+        "audio/sentences/The initiative gained support quickly..wav"
+      ]
+    },
+    {
+      "id": "the-scope-changed-during-development.",
+      "english": "The scope changed during development.",
+      "translation": "Объём работ изменился в ходе разработки.",
+      "audio": [
+        "audio/sentences/The scope changed during development..wav"
+      ]
+    },
+    {
+      "id": "the-objective-guides-the-entire-team.",
+      "english": "The objective guides the entire team.",
+      "translation": "Цель направляет всю команду.",
+      "audio": [
+        "audio/sentences/The objective guides the entire team..wav"
+      ]
+    },
+    {
+      "id": "the-outcome-exceeded-initial-expectations.",
+      "english": "The outcome exceeded initial expectations.",
+      "translation": "Результат превзошёл первоначальные ожидания.",
+      "audio": [
+        "audio/sentences/The outcome exceeded initial expectations..wav"
+      ]
+    },
+    {
+      "id": "each-task-has-a-clear-owner.",
+      "english": "Each task has a clear owner.",
+      "translation": "У каждой задачи есть ответственный.",
+      "audio": [
+        "audio/sentences/Each task has a clear owner..wav"
+      ]
+    },
+    {
+      "id": "the-subtask-depends-on-prior-work.",
+      "english": "The subtask depends on prior work.",
+      "translation": "Подзадача зависит от предыдущей работы.",
+      "audio": [
+        "audio/sentences/The subtask depends on prior work..wav"
+      ]
+    },
+    {
+      "id": "the-assignment-required-quick-action.",
+      "english": "The assignment required quick action.",
+      "translation": "Поручение требовало быстрых действий.",
+      "audio": [
+        "audio/sentences/The assignment required quick action..wav"
+      ]
+    },
+    {
+      "id": "the-backlog-grows-every-sprint.",
+      "english": "The backlog grows every sprint.",
+      "translation": "Бэклог растёт с каждым спринтом.",
+      "audio": [
+        "audio/sentences/The backlog grows every sprint..wav"
+      ]
+    },
+    {
+      "id": "priority-shifts-as-conditions-change.",
+      "english": "Priority shifts as conditions change.",
+      "translation": "Приоритет меняется по мере изменения условий.",
+      "audio": [
+        "audio/sentences/Priority shifts as conditions change..wav"
+      ]
+    },
+    {
+      "id": "planning-reduces-unnecessary-risks.",
+      "english": "Planning reduces unnecessary risks.",
+      "translation": "Планирование снижает ненужные риски.",
+      "audio": [
+        "audio/sentences/Planning reduces unnecessary risks..wav"
+      ]
+    },
+    {
+      "id": "estimation-improves-with-experience.",
+      "english": "Estimation improves with experience.",
+      "translation": "Оценка улучшается с опытом.",
+      "audio": [
+        "audio/sentences/Estimation improves with experience..wav"
+      ]
+    },
+    {
+      "id": "breakdown-clarifies-complex-processes.",
+      "english": "Breakdown clarifies complex processes.",
+      "translation": "Декомпозиция проясняет сложные процессы.",
+      "audio": [
+        "audio/sentences/Breakdown clarifies complex processes..wav"
+      ]
+    },
+    {
+      "id": "dependency-delays-affected-delivery.",
+      "english": "Dependency delays affected delivery.",
+      "translation": "Зависимости вызвали задержки в поставке.",
+      "audio": [
+        "audio/sentences/Dependency delays affected delivery..wav"
+      ]
+    },
+    {
+      "id": "the-sequence-ensures-smooth-execution.",
+      "english": "The sequence ensures smooth execution.",
+      "translation": "Последовательность обеспечивает плавное выполнение.",
+      "audio": [
+        "audio/sentences/The sequence ensures smooth execution..wav"
+      ]
+    },
+    {
+      "id": "execution-revealed-several-gaps.",
+      "english": "Execution revealed several gaps.",
+      "translation": "Выполнение выявило несколько пробелов.",
+      "audio": [
+        "audio/sentences/Execution revealed several gaps..wav"
+      ]
+    },
+    {
+      "id": "implementation-followed-the-agreed-plan.",
+      "english": "Implementation followed the agreed plan.",
+      "translation": "Реализация следовала согласованному плану.",
+      "audio": [
+        "audio/sentences/Implementation followed the agreed plan..wav"
+      ]
+    },
+    {
+      "id": "progress-slowed-near-the-deadline.",
+      "english": "Progress slowed near the deadline.",
+      "translation": "Прогресс замедлился ближе к дедлайну.",
+      "audio": [
+        "audio/sentences/Progress slowed near the deadline..wav"
+      ]
+    },
+    {
+      "id": "status-updates-are-shared-weekly.",
+      "english": "Status updates are shared weekly.",
+      "translation": "Обновления статуса публикуются еженедельно.",
+      "audio": [
+        "audio/sentences/Status updates are shared weekly..wav"
+      ]
+    },
+    {
+      "id": "completion-required-final-approval.",
+      "english": "Completion required final approval.",
+      "translation": "Завершение потребовало финального утверждения.",
+      "audio": [
+        "audio/sentences/Completion required final approval..wav"
+      ]
+    },
+    {
+      "id": "the-deadline-forced-faster-decisions.",
+      "english": "The deadline forced faster decisions.",
+      "translation": "Дедлайн заставил принимать решения быстрее.",
+      "audio": [
+        "audio/sentences/The deadline forced faster decisions..wav"
+      ]
+    },
+    {
+      "id": "the-delay-impacted-dependent-tasks.",
+      "english": "The delay impacted dependent tasks.",
+      "translation": "Задержка повлияла на зависимые задачи.",
+      "audio": [
+        "audio/sentences/The delay impacted dependent tasks..wav"
+      ]
+    },
+    {
+      "id": "the-blocker-stopped-further-progress.",
+      "english": "The blocker stopped further progress.",
+      "translation": "Блокер остановил дальнейший прогресс.",
+      "audio": [
+        "audio/sentences/The blocker stopped further progress..wav"
+      ]
+    },
+    {
+      "id": "the-bottleneck-limited-overall-capacity.",
+      "english": "The bottleneck limited overall capacity.",
+      "translation": "Узкое место ограничило общую пропускную способность.",
+      "audio": [
+        "audio/sentences/The bottleneck limited overall capacity..wav"
+      ]
+    },
+    {
+      "id": "overlap-caused-duplicated-effort.",
+      "english": "Overlap caused duplicated effort.",
+      "translation": "Пересечение привело к дублированию работы.",
+      "audio": [
+        "audio/sentences/Overlap caused duplicated effort..wav"
+      ]
+    },
+    {
+      "id": "resources-were-reassigned-mid-project.",
+      "english": "Resources were reassigned mid-project.",
+      "translation": "Ресурсы перераспределили в середине проекта.",
+      "audio": [
+        "audio/sentences/Resources were reassigned mid-project..wav"
+      ]
+    },
+    {
+      "id": "allocation-decisions-affect-timelines.",
+      "english": "Allocation decisions affect timelines.",
+      "translation": "Распределение влияет на сроки.",
+      "audio": [
+        "audio/sentences/Allocation decisions affect timelines..wav"
+      ]
+    },
+    {
+      "id": "capacity-was-exceeded-during-testing.",
+      "english": "Capacity was exceeded during testing.",
+      "translation": "Загруженность была превышена во время тестирования.",
+      "audio": [
+        "audio/sentences/Capacity was exceeded during testing..wav"
+      ]
+    },
+    {
+      "id": "workload-distribution-improved-morale.",
+      "english": "Workload distribution improved morale.",
+      "translation": "Распределение нагрузки улучшило мораль.",
+      "audio": [
+        "audio/sentences/Workload distribution improved morale..wav"
+      ]
+    },
+    {
+      "id": "availability-changed-after-reorganization.",
+      "english": "Availability changed after reorganization.",
+      "translation": "Доступность изменилась после реорганизации.",
+      "audio": [
+        "audio/sentences/Availability changed after reorganization..wav"
+      ]
+    },
+    {
+      "id": "risk-increased-due-to-uncertainty.",
+      "english": "Risk increased due to uncertainty.",
+      "translation": "Риск вырос из-за неопределённости.",
+      "audio": [
+        "audio/sentences/Risk increased due to uncertainty..wav"
+      ]
+    },
+    {
+      "id": "the-constraint-limited-possible-options.",
+      "english": "The constraint limited possible options.",
+      "translation": "Ограничение сузило возможные варианты.",
+      "audio": [
+        "audio/sentences/The constraint limited possible options..wav"
+      ]
+    },
+    {
+      "id": "the-assumption-shaped-early-planning.",
+      "english": "The assumption shaped early planning.",
+      "translation": "Допущение повлияло на раннее планирование.",
+      "audio": [
+        "audio/sentences/The assumption shaped early planning..wav"
+      ]
+    },
+    {
+      "id": "the-impact-reached-multiple-teams.",
+      "english": "The impact reached multiple teams.",
+      "translation": "Влияние затронуло несколько команд.",
+      "audio": [
+        "audio/sentences/The impact reached multiple teams..wav"
+      ]
+    },
+    {
+      "id": "mitigation-reduced-potential-losses.",
+      "english": "Mitigation reduced potential losses.",
+      "translation": "Снижение рисков уменьшило возможные потери.",
+      "audio": [
+        "audio/sentences/Mitigation reduced potential losses..wav"
+      ]
+    },
+    {
+      "id": "the-review-highlighted-key-issues.",
+      "english": "The review highlighted key issues.",
+      "translation": "Обзор выявил ключевые проблемы.",
+      "audio": [
+        "audio/sentences/The review highlighted key issues..wav"
+      ]
+    },
+    {
+      "id": "approval-was-granted-by-management.",
+      "english": "Approval was granted by management.",
+      "translation": "Утверждение было получено от руководства.",
+      "audio": [
+        "audio/sentences/Approval was granted by management..wav"
+      ]
+    },
+    {
+      "id": "sign-off-marked-the-end-of-work.",
+      "english": "Sign-off marked the end of work.",
+      "translation": "Финальное подтверждение ознаменовало завершение работы.",
+      "audio": [
+        "audio/sentences/Sign-off marked the end of work..wav"
+      ]
+    },
+    {
+      "id": "revision-addressed-previous-feedback.",
+      "english": "Revision addressed previous feedback.",
+      "translation": "Переработка учла предыдущую обратную связь.",
+      "audio": [
+        "audio/sentences/Revision addressed previous feedback..wav"
+      ]
+    },
+    {
+      "id": "each-iteration-improved-stability.",
+      "english": "Each iteration improved stability.",
+      "translation": "Каждая итерация улучшала стабильность.",
+      "audio": [
+        "audio/sentences/Each iteration improved stability..wav"
+      ]
+    },
+    {
+      "id": "tracking-ensured-visibility.",
+      "english": "Tracking ensured visibility.",
+      "translation": "Отслеживание обеспечило прозрачность.",
+      "audio": [
+        "audio/sentences/Tracking ensured visibility..wav"
+      ]
+    },
+    {
+      "id": "monitoring-detected-early-issues.",
+      "english": "Monitoring detected early issues.",
+      "translation": "Мониторинг выявил проблемы на раннем этапе.",
+      "audio": [
+        "audio/sentences/Monitoring detected early issues..wav"
+      ]
+    },
+    {
+      "id": "reporting-aligned-stakeholders.",
+      "english": "Reporting aligned stakeholders.",
+      "translation": "Отчётность синхронизировала заинтересованные стороны.",
+      "audio": [
+        "audio/sentences/Reporting aligned stakeholders..wav"
+      ]
+    },
+    {
+      "id": "visibility-improved-trust.",
+      "english": "Visibility improved trust.",
+      "translation": "Прозрачность повысила доверие.",
+      "audio": [
+        "audio/sentences/Visibility improved trust..wav"
+      ]
+    },
+    {
+      "id": "alignment-reduced-conflicts.",
+      "english": "Alignment reduced conflicts.",
+      "translation": "Синхронизация снизила конфликты.",
+      "audio": [
+        "audio/sentences/Alignment reduced conflicts..wav"
+      ]
+    },
+    {
+      "id": "delivery-met-agreed-criteria.",
+      "english": "Delivery met agreed criteria.",
+      "translation": "Поставка соответствовала согласованным критериям.",
+      "audio": [
+        "audio/sentences/Delivery met agreed criteria..wav"
+      ]
+    },
+    {
+      "id": "handover-included-full-documentation.",
+      "english": "Handover included full documentation.",
+      "translation": "Передача включала полную документацию.",
+      "audio": [
+        "audio/sentences/Handover included full documentation..wav"
+      ]
+    },
+    {
+      "id": "launch-attracted-early-users.",
+      "english": "Launch attracted early users.",
+      "translation": "Запуск привлёк первых пользователей.",
+      "audio": [
+        "audio/sentences/Launch attracted early users..wav"
+      ]
+    },
+    {
+      "id": "closure-finalized-all-obligations.",
+      "english": "Closure finalized all obligations.",
+      "translation": "Закрытие завершило все обязательства.",
+      "audio": [
+        "audio/sentences/Closure finalized all obligations..wav"
+      ]
+    },
+    {
+      "id": "the-retrospective-improved-future-planning.",
+      "english": "The retrospective improved future planning.",
+      "translation": "Ретроспектива улучшила будущее планирование.",
+      "audio": [
+        "audio/sentences/The retrospective improved future planning..wav"
+      ]
+    }
+  ]
+}

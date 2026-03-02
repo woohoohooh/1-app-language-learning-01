@@ -1,0 +1,187 @@
+{
+  "theme": "Компьютеры и гаджеты",
+  "level": "Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "computer",
+      "translation": "компьютер"
+    },
+    {
+      "english": "laptop",
+      "translation": "ноутбук"
+    },
+    {
+      "english": "desktop",
+      "translation": "стационарный компьютер"
+    },
+    {
+      "english": "tablet",
+      "translation": "планшет"
+    },
+    {
+      "english": "smartphone",
+      "translation": "смартфон"
+    },
+    {
+      "english": "device",
+      "translation": "устройство"
+    },
+    {
+      "english": "gadget",
+      "translation": "гаджет"
+    },
+    {
+      "english": "screen",
+      "translation": "экран"
+    },
+    {
+      "english": "display",
+      "translation": "дисплей"
+    },
+    {
+      "english": "touchscreen",
+      "translation": "сенсорный экран"
+    },
+    {
+      "english": "keyboard",
+      "translation": "клавиатура"
+    },
+    {
+      "english": "mouse",
+      "translation": "мышь"
+    },
+    {
+      "english": "touchpad",
+      "translation": "тачпад"
+    },
+    {
+      "english": "monitor",
+      "translation": "монитор"
+    },
+    {
+      "english": "speaker",
+      "translation": "динамик"
+    },
+    {
+      "english": "headphones",
+      "translation": "наушники"
+    },
+    {
+      "english": "microphone",
+      "translation": "микрофон"
+    },
+    {
+      "english": "webcam",
+      "translation": "веб-камера"
+    },
+    {
+      "english": "printer",
+      "translation": "принтер"
+    },
+    {
+      "english": "scanner",
+      "translation": "сканер"
+    },
+    {
+      "english": "processor",
+      "translation": "процессор"
+    },
+    {
+      "english": "memory",
+      "translation": "оперативная память"
+    },
+    {
+      "english": "storage",
+      "translation": "память"
+    },
+    {
+      "english": "hard drive",
+      "translation": "жёсткий диск"
+    },
+    {
+      "english": "SSD",
+      "translation": "SSD-накопитель"
+    },
+    {
+      "english": "battery",
+      "translation": "батарея"
+    },
+    {
+      "english": "charger",
+      "translation": "зарядное устройство"
+    },
+    {
+      "english": "power cable",
+      "translation": "кабель питания"
+    },
+    {
+      "english": "USB cable",
+      "translation": "USB-кабель"
+    },
+    {
+      "english": "adapter",
+      "translation": "адаптер"
+    },
+    {
+      "english": "operating system",
+      "translation": "операционная система"
+    },
+    {
+      "english": "software",
+      "translation": "программное обеспечение"
+    },
+    {
+      "english": "hardware",
+      "translation": "аппаратное обеспечение"
+    },
+    {
+      "english": "application",
+      "translation": "приложение"
+    },
+    {
+      "english": "driver",
+      "translation": "драйвер"
+    },
+    {
+      "english": "performance",
+      "translation": "производительность"
+    },
+    {
+      "english": "resolution",
+      "translation": "разрешение"
+    },
+    {
+      "english": "settings",
+      "translation": "настройки"
+    },
+    {
+      "english": "update",
+      "translation": "обновление"
+    },
+    {
+      "english": "compatibility",
+      "translation": "совместимость"
+    },
+    {
+      "english": "wireless",
+      "translation": "беспроводной"
+    },
+    {
+      "english": "bluetooth",
+      "translation": "Bluetooth"
+    },
+    {
+      "english": "Wi-Fi",
+      "translation": "Wi-Fi"
+    },
+    {
+      "english": "portable",
+      "translation": "портативный"
+    },
+    {
+      "english": "built-in",
+      "translation": "встроенный"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "theme": "Критическое мышление",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-analysis-highlights-key-issues.",
+      "english": "The analysis highlights key issues.",
+      "translation": "Анализ выявляет ключевые проблемы.",
+      "audio": [
+        "audio/sentences/The analysis highlights key issues..wav"
+      ]
+    },
+    {
+      "id": "her-reasoning-follows-a-logical-path.",
+      "english": "Her reasoning follows a logical path.",
+      "translation": "Её рассуждение следует логичному пути.",
+      "audio": [
+        "audio/sentences/Her reasoning follows a logical path..wav"
+      ]
+    },
+    {
+      "id": "logic-helps-structure-complex-thoughts.",
+      "english": "Logic helps structure complex thoughts.",
+      "translation": "Логика помогает структурировать сложные мысли.",
+      "audio": [
+        "audio/sentences/Logic helps structure complex thoughts..wav"
+      ]
+    },
+    {
+      "id": "good-judgment-comes-with-experience.",
+      "english": "Good judgment comes with experience.",
+      "translation": "Хорошее суждение приходит с опытом.",
+      "audio": [
+        "audio/sentences/Good judgment comes with experience..wav"
+      ]
+    },
+    {
+      "id": "the-evaluation-considers-all-factors.",
+      "english": "The evaluation considers all factors.",
+      "translation": "Оценка учитывает все факторы.",
+      "audio": [
+        "audio/sentences/The evaluation considers all factors..wav"
+      ]
+    },
+    {
+      "id": "the-assumption-turned-out-to-be-false.",
+      "english": "The assumption turned out to be false.",
+      "translation": "Предположение оказалось неверным.",
+      "audio": [
+        "audio/sentences/The assumption turned out to be false..wav"
+      ]
+    },
+    {
+      "id": "the-argument-starts-from-a-clear-premise.",
+      "english": "The argument starts from a clear premise.",
+      "translation": "Аргумент начинается с чёткого утверждения.",
+      "audio": [
+        "audio/sentences/The argument starts from a clear premise..wav"
+      ]
+    },
+    {
+      "id": "the-hypothesis-requires-further-testing.",
+      "english": "The hypothesis requires further testing.",
+      "translation": "Гипотеза требует дальнейшей проверки.",
+      "audio": [
+        "audio/sentences/The hypothesis requires further testing..wav"
+      ]
+    },
+    {
+      "id": "the-conclusion-summarizes-the-findings.",
+      "english": "The conclusion summarizes the findings.",
+      "translation": "Вывод обобщает полученные результаты.",
+      "audio": [
+        "audio/sentences/The conclusion summarizes the findings..wav"
+      ]
+    },
+    {
+      "id": "the-inference-is-based-on-available-data.",
+      "english": "The inference is based on available data.",
+      "translation": "Умозаключение основано на доступных данных.",
+      "audio": [
+        "audio/sentences/The inference is based on available data..wav"
+      ]
+    },
+    {
+      "id": "the-evidence-supports-the-claim.",
+      "english": "The evidence supports the claim.",
+      "translation": "Доказательства подтверждают утверждение.",
+      "audio": [
+        "audio/sentences/The evidence supports the claim..wav"
+      ]
+    },
+    {
+      "id": "proof-is-required-to-validate-results.",
+      "english": "Proof is required to validate results.",
+      "translation": "Для подтверждения результатов требуется доказательство.",
+      "audio": [
+        "audio/sentences/Proof is required to validate results..wav"
+      ]
+    },
+    {
+      "id": "the-data-was-collected-over-time.",
+      "english": "The data was collected over time.",
+      "translation": "Данные собирались в течение времени.",
+      "audio": [
+        "audio/sentences/The data was collected over time..wav"
+      ]
+    },
+    {
+      "id": "this-fact-cannot-be-ignored.",
+      "english": "This fact cannot be ignored.",
+      "translation": "Этот факт нельзя игнорировать.",
+      "audio": [
+        "audio/sentences/This fact cannot be ignored..wav"
+      ]
+    },
+    {
+      "id": "the-claim-needs-verification.",
+      "english": "The claim needs verification.",
+      "translation": "Утверждение требует проверки.",
+      "audio": [
+        "audio/sentences/The claim needs verification..wav"
+      ]
+    },
+    {
+      "id": "bias-can-distort-decision-making.",
+      "english": "Bias can distort decision making.",
+      "translation": "Предвзятость может искажать принятие решений.",
+      "audio": [
+        "audio/sentences/Bias can distort decision making..wav"
+      ]
+    },
+    {
+      "id": "distortion-changes-the-original-meaning.",
+      "english": "Distortion changes the original meaning.",
+      "translation": "Искажение меняет исходный смысл.",
+      "audio": [
+        "audio/sentences/Distortion changes the original meaning..wav"
+      ]
+    },
+    {
+      "id": "misinterpretation-leads-to-wrong-conclusions.",
+      "english": "Misinterpretation leads to wrong conclusions.",
+      "translation": "Неверная интерпретация приводит к ошибочным выводам.",
+      "audio": [
+        "audio/sentences/Misinterpretation leads to wrong conclusions..wav"
+      ]
+    },
+    {
+      "id": "the-argument-contains-a-clear-fallacy.",
+      "english": "The argument contains a clear fallacy.",
+      "translation": "Аргумент содержит явную логическую ошибку.",
+      "audio": [
+        "audio/sentences/The argument contains a clear fallacy..wav"
+      ]
+    },
+    {
+      "id": "the-plan-has-a-hidden-flaw.",
+      "english": "The plan has a hidden flaw.",
+      "translation": "У плана есть скрытый недостаток.",
+      "audio": [
+        "audio/sentences/The plan has a hidden flaw..wav"
+      ]
+    },
+    {
+      "id": "objectivity-is-essential-in-analysis.",
+      "english": "Objectivity is essential in analysis.",
+      "translation": "Объективность необходима в анализе.",
+      "audio": [
+        "audio/sentences/Objectivity is essential in analysis..wav"
+      ]
+    },
+    {
+      "id": "subjectivity-influences-personal-opinions.",
+      "english": "Subjectivity influences personal opinions.",
+      "translation": "Субъективность влияет на личные мнения.",
+      "audio": [
+        "audio/sentences/Subjectivity influences personal opinions..wav"
+      ]
+    },
+    {
+      "id": "this-perspective-changes-the-interpretation.",
+      "english": "This perspective changes the interpretation.",
+      "translation": "Эта точка зрения меняет интерпретацию.",
+      "audio": [
+        "audio/sentences/This perspective changes the interpretation..wav"
+      ]
+    },
+    {
+      "id": "meaning-depends-on-context.",
+      "english": "Meaning depends on context.",
+      "translation": "Значение зависит от контекста.",
+      "audio": [
+        "audio/sentences/Meaning depends on context..wav"
+      ]
+    },
+    {
+      "id": "the-framework-guides-critical-thinking.",
+      "english": "The framework guides critical thinking.",
+      "translation": "Система направляет критическое мышление.",
+      "audio": [
+        "audio/sentences/The framework guides critical thinking..wav"
+      ]
+    },
+    {
+      "id": "skepticism-prevents-blind-acceptance.",
+      "english": "Skepticism prevents blind acceptance.",
+      "translation": "Скептицизм предотвращает слепое принятие.",
+      "audio": [
+        "audio/sentences/Skepticism prevents blind acceptance..wav"
+      ]
+    },
+    {
+      "id": "doubt-encourages-deeper-analysis.",
+      "english": "Doubt encourages deeper analysis.",
+      "translation": "Сомнение побуждает к более глубокому анализу.",
+      "audio": [
+        "audio/sentences/Doubt encourages deeper analysis..wav"
+      ]
+    },
+    {
+      "id": "questioning-improves-understanding.",
+      "english": "Questioning improves understanding.",
+      "translation": "Постановка вопросов улучшает понимание.",
+      "audio": [
+        "audio/sentences/Questioning improves understanding..wav"
+      ]
+    },
+    {
+      "id": "verification-reduces-errors.",
+      "english": "Verification reduces errors.",
+      "translation": "Проверка снижает количество ошибок.",
+      "audio": [
+        "audio/sentences/Verification reduces errors..wav"
+      ]
+    },
+    {
+      "id": "validation-strengthens-conclusions.",
+      "english": "Validation strengthens conclusions.",
+      "translation": "Подтверждение укрепляет выводы.",
+      "audio": [
+        "audio/sentences/Validation strengthens conclusions..wav"
+      ]
+    },
+    {
+      "id": "consistency-improves-argument-quality.",
+      "english": "Consistency improves argument quality.",
+      "translation": "Последовательность повышает качество аргументов.",
+      "audio": [
+        "audio/sentences/Consistency improves argument quality..wav"
+      ]
+    },
+    {
+      "id": "coherence-makes-ideas-easier-to-follow.",
+      "english": "Coherence makes ideas easier to follow.",
+      "translation": "Связность делает идеи более понятными.",
+      "audio": [
+        "audio/sentences/Coherence makes ideas easier to follow..wav"
+      ]
+    },
+    {
+      "id": "clarity-improves-communication.",
+      "english": "Clarity improves communication.",
+      "translation": "Ясность улучшает коммуникацию.",
+      "audio": [
+        "audio/sentences/Clarity improves communication..wav"
+      ]
+    },
+    {
+      "id": "accuracy-is-critical-in-reporting.",
+      "english": "Accuracy is critical in reporting.",
+      "translation": "Точность критически важна в отчётности.",
+      "audio": [
+        "audio/sentences/Accuracy is critical in reporting..wav"
+      ]
+    },
+    {
+      "id": "reliability-builds-long-term-trust.",
+      "english": "Reliability builds long term trust.",
+      "translation": "Надёжность формирует долгосрочное доверие.",
+      "audio": [
+        "audio/sentences/Reliability builds long term trust..wav"
+      ]
+    }
+  ]
+}

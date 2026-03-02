@@ -1,0 +1,287 @@
+{
+  "theme": "Аргументация и мнение",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "opinion",
+      "english": "opinion",
+      "translation": "мнение",
+      "audio": [
+        "audio/words/opinion.wav"
+      ]
+    },
+    {
+      "id": "viewpoint",
+      "english": "viewpoint",
+      "translation": "точка зрения",
+      "audio": [
+        "audio/words/viewpoint.wav"
+      ]
+    },
+    {
+      "id": "perspective",
+      "english": "perspective",
+      "translation": "перспектива",
+      "audio": [
+        "audio/words/perspective.wav"
+      ]
+    },
+    {
+      "id": "stance",
+      "english": "stance",
+      "translation": "позиция",
+      "audio": [
+        "audio/words/stance.wav"
+      ]
+    },
+    {
+      "id": "belief",
+      "english": "belief",
+      "translation": "убеждение",
+      "audio": [
+        "audio/words/belief.wav"
+      ]
+    },
+    {
+      "id": "argument",
+      "english": "argument",
+      "translation": "аргумент",
+      "audio": [
+        "audio/words/argument.wav"
+      ]
+    },
+    {
+      "id": "reasoning",
+      "english": "reasoning",
+      "translation": "рассуждение",
+      "audio": [
+        "audio/words/reasoning.wav"
+      ]
+    },
+    {
+      "id": "logic",
+      "english": "logic",
+      "translation": "логика",
+      "audio": [
+        "audio/words/logic.wav"
+      ]
+    },
+    {
+      "id": "claim",
+      "english": "claim",
+      "translation": "утверждение",
+      "audio": [
+        "audio/words/claim.wav"
+      ]
+    },
+    {
+      "id": "statement",
+      "english": "statement",
+      "translation": "заявление",
+      "audio": [
+        "audio/words/statement.wav"
+      ]
+    },
+    {
+      "id": "evidence",
+      "english": "evidence",
+      "translation": "доказательства",
+      "audio": [
+        "audio/words/evidence.wav"
+      ]
+    },
+    {
+      "id": "proof",
+      "english": "proof",
+      "translation": "доказательство",
+      "audio": [
+        "audio/words/proof.wav"
+      ]
+    },
+    {
+      "id": "example",
+      "english": "example",
+      "translation": "пример",
+      "audio": [
+        "audio/words/example.wav"
+      ]
+    },
+    {
+      "id": "support",
+      "english": "support",
+      "translation": "поддержка",
+      "audio": [
+        "audio/words/support.wav"
+      ]
+    },
+    {
+      "id": "justification",
+      "english": "justification",
+      "translation": "обоснование",
+      "audio": [
+        "audio/words/justification.wav"
+      ]
+    },
+    {
+      "id": "assumption",
+      "english": "assumption",
+      "translation": "предположение",
+      "audio": [
+        "audio/words/assumption.wav"
+      ]
+    },
+    {
+      "id": "interpretation",
+      "english": "interpretation",
+      "translation": "интерпретация",
+      "audio": [
+        "audio/words/interpretation.wav"
+      ]
+    },
+    {
+      "id": "assessment",
+      "english": "assessment",
+      "translation": "оценка",
+      "audio": [
+        "audio/words/assessment.wav"
+      ]
+    },
+    {
+      "id": "judgment",
+      "english": "judgment",
+      "translation": "суждение",
+      "audio": [
+        "audio/words/judgment.wav"
+      ]
+    },
+    {
+      "id": "evaluation",
+      "english": "evaluation",
+      "translation": "оценивание",
+      "audio": [
+        "audio/words/evaluation.wav"
+      ]
+    },
+    {
+      "id": "agreement",
+      "english": "agreement",
+      "translation": "согласие",
+      "audio": [
+        "audio/words/agreement.wav"
+      ]
+    },
+    {
+      "id": "disagreement",
+      "english": "disagreement",
+      "translation": "несогласие",
+      "audio": [
+        "audio/words/disagreement.wav"
+      ]
+    },
+    {
+      "id": "consensus",
+      "english": "consensus",
+      "translation": "консенсус",
+      "audio": [
+        "audio/words/consensus.wav"
+      ]
+    },
+    {
+      "id": "compromise",
+      "english": "compromise",
+      "translation": "компромисс",
+      "audio": [
+        "audio/words/compromise.wav"
+      ]
+    },
+    {
+      "id": "objection",
+      "english": "objection",
+      "translation": "возражение",
+      "audio": [
+        "audio/words/objection.wav"
+      ]
+    },
+    {
+      "id": "counterargument",
+      "english": "counterargument",
+      "translation": "контраргумент",
+      "audio": [
+        "audio/words/counterargument.wav"
+      ]
+    },
+    {
+      "id": "criticism",
+      "english": "criticism",
+      "translation": "критика",
+      "audio": [
+        "audio/words/criticism.wav"
+      ]
+    },
+    {
+      "id": "challenge",
+      "english": "challenge",
+      "translation": "вызов",
+      "audio": [
+        "audio/words/challenge.wav"
+      ]
+    },
+    {
+      "id": "defense",
+      "english": "defense",
+      "translation": "защита позиции",
+      "audio": [
+        "audio/words/defense.wav"
+      ]
+    },
+    {
+      "id": "rebuttal",
+      "english": "rebuttal",
+      "translation": "опровержение",
+      "audio": [
+        "audio/words/rebuttal.wav"
+      ]
+    },
+    {
+      "id": "conclusion",
+      "english": "conclusion",
+      "translation": "вывод",
+      "audio": [
+        "audio/words/conclusion.wav"
+      ]
+    },
+    {
+      "id": "summary",
+      "english": "summary",
+      "translation": "краткое резюме",
+      "audio": [
+        "audio/words/summary.wav"
+      ]
+    },
+    {
+      "id": "outcome",
+      "english": "outcome",
+      "translation": "результат",
+      "audio": [
+        "audio/words/outcome.wav"
+      ]
+    },
+    {
+      "id": "implication",
+      "english": "implication",
+      "translation": "последствие",
+      "audio": [
+        "audio/words/implication.wav"
+      ]
+    },
+    {
+      "id": "standpoint",
+      "english": "standpoint",
+      "translation": "точка зрения",
+      "audio": [
+        "audio/words/standpoint.wav"
+      ]
+    }
+  ]
+}

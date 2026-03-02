@@ -1,0 +1,239 @@
+{
+  "theme": "Подтекст и намёки",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "hidden-subtext-here",
+      "english": "hidden subtext here",
+      "translation": "скрытый подтекст здесь",
+      "audio": [
+        "audio/phrases/hidden subtext here.wav"
+      ]
+    },
+    {
+      "id": "drop-a-hint",
+      "english": "drop a hint",
+      "translation": "бросить намёк",
+      "audio": [
+        "audio/phrases/drop a hint.wav"
+      ]
+    },
+    {
+      "id": "clear-signal-sent",
+      "english": "clear signal sent",
+      "translation": "чёткий сигнал отправлен",
+      "audio": [
+        "audio/phrases/clear signal sent.wav"
+      ]
+    },
+    {
+      "id": "contextual-cue-noticed",
+      "english": "contextual cue noticed",
+      "translation": "замечена контекстная подсказка",
+      "audio": [
+        "audio/phrases/contextual cue noticed.wav"
+      ]
+    },
+    {
+      "id": "small-clue-found",
+      "english": "small clue found",
+      "translation": "найдена маленькая зацепка",
+      "audio": [
+        "audio/phrases/small clue found.wav"
+      ]
+    },
+    {
+      "id": "deeper-meaning-behind",
+      "english": "deeper meaning behind",
+      "translation": "более глубокий смысл",
+      "audio": [
+        "audio/phrases/deeper meaning behind.wav"
+      ]
+    },
+    {
+      "id": "personal-interpretation-varies",
+      "english": "personal interpretation varies",
+      "translation": "личная интерпретация различается",
+      "audio": [
+        "audio/phrases/personal interpretation varies.wav"
+      ]
+    },
+    {
+      "id": "alternative-reading-possible",
+      "english": "alternative reading possible",
+      "translation": "возможна иная трактовка",
+      "audio": [
+        "audio/phrases/alternative reading possible.wav"
+      ]
+    },
+    {
+      "id": "real-intention-unclear",
+      "english": "real intention unclear",
+      "translation": "истинное намерение неясно",
+      "audio": [
+        "audio/phrases/real intention unclear.wav"
+      ]
+    },
+    {
+      "id": "underlying-message-remains",
+      "english": "underlying message remains",
+      "translation": "скрытый посыл сохраняется",
+      "audio": [
+        "audio/phrases/underlying message remains.wav"
+      ]
+    },
+    {
+      "id": "subtle-suggestion-made",
+      "english": "subtle suggestion made",
+      "translation": "сделано тонкое предложение",
+      "audio": [
+        "audio/phrases/subtle suggestion made.wav"
+      ]
+    },
+    {
+      "id": "cultural-reference-used",
+      "english": "cultural reference used",
+      "translation": "использована культурная отсылка",
+      "audio": [
+        "audio/phrases/cultural reference used.wav"
+      ]
+    },
+    {
+      "id": "literary-allusion-present",
+      "english": "literary allusion present",
+      "translation": "присутствует литературная аллюзия",
+      "audio": [
+        "audio/phrases/literary allusion present.wav"
+      ]
+    },
+    {
+      "id": "negative-implication-implied",
+      "english": "negative implication implied",
+      "translation": "подразумевается негативный смысл",
+      "audio": [
+        "audio/phrases/negative implication implied.wav"
+      ]
+    },
+    {
+      "id": "wrong-assumption-made",
+      "english": "wrong assumption made",
+      "translation": "сделано неверное предположение",
+      "audio": [
+        "audio/phrases/wrong assumption made.wav"
+      ]
+    },
+    {
+      "id": "strong-emphasis-placed",
+      "english": "strong emphasis placed",
+      "translation": "сильный акцент сделан",
+      "audio": [
+        "audio/phrases/strong emphasis placed.wav"
+      ]
+    },
+    {
+      "id": "careful-choice-of-words",
+      "english": "careful choice of words",
+      "translation": "осторожный выбор слов",
+      "audio": [
+        "audio/phrases/careful choice of words.wav"
+      ]
+    },
+    {
+      "id": "strategic-framing-used",
+      "english": "strategic framing used",
+      "translation": "использована стратегическая подача",
+      "audio": [
+        "audio/phrases/strategic framing used.wav"
+      ]
+    },
+    {
+      "id": "subtle-positioning-shift",
+      "english": "subtle positioning shift",
+      "translation": "тонкий сдвиг позиционирования",
+      "audio": [
+        "audio/phrases/subtle positioning shift.wav"
+      ]
+    },
+    {
+      "id": "brief-hesitation-noticed",
+      "english": "brief hesitation noticed",
+      "translation": "замечена краткая заминка",
+      "audio": [
+        "audio/phrases/brief hesitation noticed.wav"
+      ]
+    },
+    {
+      "id": "long-pause-followed",
+      "english": "long pause followed",
+      "translation": "последовала длинная пауза",
+      "audio": [
+        "audio/phrases/long pause followed.wav"
+      ]
+    },
+    {
+      "id": "awkward-silence-filled",
+      "english": "awkward silence filled",
+      "translation": "повисло неловкое молчание",
+      "audio": [
+        "audio/phrases/awkward silence filled.wav"
+      ]
+    },
+    {
+      "id": "clear-topic-avoidance",
+      "english": "clear topic avoidance",
+      "translation": "явный уход от темы",
+      "audio": [
+        "audio/phrases/clear topic avoidance.wav"
+      ]
+    },
+    {
+      "id": "skilled-evasion-tactic",
+      "english": "skilled evasion tactic",
+      "translation": "умелая тактика уклонения",
+      "audio": [
+        "audio/phrases/skilled evasion tactic.wav"
+      ]
+    },
+    {
+      "id": "polite-indirectness-shown",
+      "english": "polite indirectness shown",
+      "translation": "проявлена вежливая косвенность",
+      "audio": [
+        "audio/phrases/polite indirectness shown.wav"
+      ]
+    },
+    {
+      "id": "high-implicitness-level",
+      "english": "high implicitness level",
+      "translation": "высокий уровень неявности",
+      "audio": [
+        "audio/phrases/high implicitness level.wav"
+      ]
+    },
+    {
+      "id": "small-nuance-noticed",
+      "english": "small nuance noticed",
+      "translation": "замечен небольшой нюанс",
+      "audio": [
+        "audio/phrases/small nuance noticed.wav"
+      ]
+    },
+    {
+      "id": "emotional-subtlety-present",
+      "english": "emotional subtlety present",
+      "translation": "присутствует эмоциональная тонкость",
+      "audio": [
+        "audio/phrases/emotional subtlety present.wav"
+      ]
+    },
+    {
+      "id": "negative-undertone-detected",
+      "english": "negative undertone detected",
+      "translation": "обнаружен негативный оттенок",
+      "audio": [
+        "audio/phrases/negative undertone detected.wav"
+      ]
+    }
+  ]
+}

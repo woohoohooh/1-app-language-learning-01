@@ -1,0 +1,255 @@
+{
+  "theme": "Вежливость и дистанция",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "politeness-matters-in-formal-communication.",
+      "english": "Politeness matters in formal communication.",
+      "translation": "Вежливость важна в формальном общении.",
+      "audio": [
+        "audio/sentences/Politeness matters in formal communication..wav"
+      ]
+    },
+    {
+      "id": "courtesy-helps-avoid-unnecessary-tension.",
+      "english": "Courtesy helps avoid unnecessary tension.",
+      "translation": "Учтивость помогает избежать лишнего напряжения.",
+      "audio": [
+        "audio/sentences/Courtesy helps avoid unnecessary tension..wav"
+      ]
+    },
+    {
+      "id": "respect-is-expected-in-professional-settings.",
+      "english": "Respect is expected in professional settings.",
+      "translation": "Уважение ожидается в профессиональной среде.",
+      "audio": [
+        "audio/sentences/Respect is expected in professional settings..wav"
+      ]
+    },
+    {
+      "id": "formality-defines-the-tone-of-this-meeting.",
+      "english": "Formality defines the tone of this meeting.",
+      "translation": "Формальность определяет тон этой встречи.",
+      "audio": [
+        "audio/sentences/Formality defines the tone of this meeting..wav"
+      ]
+    },
+    {
+      "id": "informality-is-acceptable-in-friendly-discussions.",
+      "english": "Informality is acceptable in friendly discussions.",
+      "translation": "Неформальность допустима в дружеских обсуждениях.",
+      "audio": [
+        "audio/sentences/Informality is acceptable in friendly discussions..wav"
+      ]
+    },
+    {
+      "id": "distance-can-signal-professionalism.",
+      "english": "Distance can signal professionalism.",
+      "translation": "Дистанция может показывать профессионализм.",
+      "audio": [
+        "audio/sentences/Distance can signal professionalism..wav"
+      ]
+    },
+    {
+      "id": "a-boundary-helps-protect-personal-space.",
+      "english": "A boundary helps protect personal space.",
+      "translation": "Граница помогает защитить личное пространство.",
+      "audio": [
+        "audio/sentences/A boundary helps protect personal space..wav"
+      ]
+    },
+    {
+      "id": "professionalism-builds-long-term-trust.",
+      "english": "Professionalism builds long-term trust.",
+      "translation": "Профессионализм формирует долгосрочное доверие.",
+      "audio": [
+        "audio/sentences/Professionalism builds long-term trust..wav"
+      ]
+    },
+    {
+      "id": "neutrality-is-important-in-sensitive-topics.",
+      "english": "Neutrality is important in sensitive topics.",
+      "translation": "Нейтральность важна в чувствительных темах.",
+      "audio": [
+        "audio/sentences/Neutrality is important in sensitive topics..wav"
+      ]
+    },
+    {
+      "id": "objectivity-improves-decision-quality.",
+      "english": "Objectivity improves decision quality.",
+      "translation": "Объективность улучшает качество решений.",
+      "audio": [
+        "audio/sentences/Objectivity improves decision quality..wav"
+      ]
+    },
+    {
+      "id": "tone-affects-how-the-message-is-received.",
+      "english": "Tone affects how the message is received.",
+      "translation": "Тон влияет на восприятие сообщения.",
+      "audio": [
+        "audio/sentences/Tone affects how the message is received..wav"
+      ]
+    },
+    {
+      "id": "his-manner-remained-calm-throughout.",
+      "english": "His manner remained calm throughout.",
+      "translation": "Его манера оставалась спокойной на протяжении всего.",
+      "audio": [
+        "audio/sentences/His manner remained calm throughout..wav"
+      ]
+    },
+    {
+      "id": "attitude-shapes-workplace-culture.",
+      "english": "Attitude shapes workplace culture.",
+      "translation": "Отношение формирует культуру на работе.",
+      "audio": [
+        "audio/sentences/Attitude shapes workplace culture..wav"
+      ]
+    },
+    {
+      "id": "this-approach-reduces-misunderstandings.",
+      "english": "This approach reduces misunderstandings.",
+      "translation": "Этот подход снижает недопонимание.",
+      "audio": [
+        "audio/sentences/This approach reduces misunderstandings..wav"
+      ]
+    },
+    {
+      "id": "consideration-improves-professional-dialogue.",
+      "english": "Consideration improves professional dialogue.",
+      "translation": "Тактичность улучшает профессиональный диалог.",
+      "audio": [
+        "audio/sentences/Consideration improves professional dialogue..wav"
+      ]
+    },
+    {
+      "id": "tact-helps-deliver-difficult-feedback.",
+      "english": "Tact helps deliver difficult feedback.",
+      "translation": "Такт помогает донести сложную обратную связь.",
+      "audio": [
+        "audio/sentences/Tact helps deliver difficult feedback..wav"
+      ]
+    },
+    {
+      "id": "diplomacy-helps-resolve-sensitive-issues.",
+      "english": "Diplomacy helps resolve sensitive issues.",
+      "translation": "Дипломатичность помогает решать деликатные вопросы.",
+      "audio": [
+        "audio/sentences/Diplomacy helps resolve sensitive issues..wav"
+      ]
+    },
+    {
+      "id": "restraint-is-valued-in-formal-debates.",
+      "english": "Restraint is valued in formal debates.",
+      "translation": "Сдержанность ценится в формальных дискуссиях.",
+      "audio": [
+        "audio/sentences/Restraint is valued in formal debates..wav"
+      ]
+    },
+    {
+      "id": "discretion-protects-professional-relationships.",
+      "english": "Discretion protects professional relationships.",
+      "translation": "Деликатность защищает профессиональные отношения.",
+      "audio": [
+        "audio/sentences/Discretion protects professional relationships..wav"
+      ]
+    },
+    {
+      "id": "directness-can-speed-up-decisions.",
+      "english": "Directness can speed up decisions.",
+      "translation": "Прямота может ускорить принятие решений.",
+      "audio": [
+        "audio/sentences/Directness can speed up decisions..wav"
+      ]
+    },
+    {
+      "id": "indirectness-softens-critical-messages.",
+      "english": "Indirectness softens critical messages.",
+      "translation": "Косвенность смягчает критические сообщения.",
+      "audio": [
+        "audio/sentences/Indirectness softens critical messages..wav"
+      ]
+    },
+    {
+      "id": "softness-makes-feedback-easier-to-accept.",
+      "english": "Softness makes feedback easier to accept.",
+      "translation": "Мягкость делает обратную связь более принимаемой.",
+      "audio": [
+        "audio/sentences/Softness makes feedback easier to accept..wav"
+      ]
+    },
+    {
+      "id": "firmness-clarifies-expectations.",
+      "english": "Firmness clarifies expectations.",
+      "translation": "Твёрдость проясняет ожидания.",
+      "audio": [
+        "audio/sentences/Firmness clarifies expectations..wav"
+      ]
+    },
+    {
+      "id": "appropriateness-depends-on-the-situation.",
+      "english": "Appropriateness depends on the situation.",
+      "translation": "Уместность зависит от ситуации.",
+      "audio": [
+        "audio/sentences/Appropriateness depends on the situation..wav"
+      ]
+    },
+    {
+      "id": "context-changes-the-meaning-of-words.",
+      "english": "Context changes the meaning of words.",
+      "translation": "Контекст меняет значение слов.",
+      "audio": [
+        "audio/sentences/Context changes the meaning of words..wav"
+      ]
+    },
+    {
+      "id": "hierarchy-influences-communication-style.",
+      "english": "Hierarchy influences communication style.",
+      "translation": "Иерархия влияет на стиль общения.",
+      "audio": [
+        "audio/sentences/Hierarchy influences communication style..wav"
+      ]
+    },
+    {
+      "id": "seniority-affects-decision-authority.",
+      "english": "Seniority affects decision authority.",
+      "translation": "Старшинство влияет на полномочия решений.",
+      "audio": [
+        "audio/sentences/Seniority affects decision authority..wav"
+      ]
+    },
+    {
+      "id": "distance-keeping-maintains-professionalism.",
+      "english": "Distance-keeping maintains professionalism.",
+      "translation": "Соблюдение дистанции поддерживает профессионализм.",
+      "audio": [
+        "audio/sentences/Distance-keeping maintains professionalism..wav"
+      ]
+    },
+    {
+      "id": "familiarity-can-weaken-formal-boundaries.",
+      "english": "Familiarity can weaken formal boundaries.",
+      "translation": "Фамильярность может ослабить формальные границы.",
+      "audio": [
+        "audio/sentences/Familiarity can weaken formal boundaries..wav"
+      ]
+    },
+    {
+      "id": "detachment-supports-objective-judgment.",
+      "english": "Detachment supports objective judgment.",
+      "translation": "Отстранённость поддерживает объективное суждение.",
+      "audio": [
+        "audio/sentences/Detachment supports objective judgment..wav"
+      ]
+    },
+    {
+      "id": "reserve-signals-professionalism.",
+      "english": "Reserve signals professionalism.",
+      "translation": "Сдержанность сигнализирует о профессионализме.",
+      "audio": [
+        "audio/sentences/Reserve signals professionalism..wav"
+      ]
+    }
+  ]
+}

@@ -7,13 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
     <style>
         html,body{height:100%;margin:0;background:#121212;color:#fff;font-family:Nunito,Arial,sans-serif;overflow:hidden}
-        /* Adjustable offsets (change these two vars to tweak header/hint vertical offsets)
-           - --header-offset: distance from top to header (default 0.5cm = slightly higher)
-           - --hint-offset: distance from bottom to hint (default 2cm = visible on mobile)
-           You can edit these at the top of this file. */
         :root{ --header-offset: 0.5cm; --hint-offset: 2cm }
         .background-gradient{position:fixed;inset:0;pointer-events:none;z-index:0}
-        /* overlay icon containers and small icon style (copied minimal from review-01) */
         .icon{font-size:70px;opacity:0.3;font-weight:800;user-select:none;pointer-events:none}
         .horizontal-left-overlay, .horizontal-right-overlay{position:absolute;top:0;bottom:0;width:50%;display:none;align-items:center;z-index:1;pointer-events:none}
         .horizontal-left-overlay{left:0;justify-content:center}
@@ -29,10 +24,8 @@
         .word-large{font-size:64px;font-weight:800;text-align:center;user-select:none;transition:transform .08s ease, opacity .08s}
         .word-small{font-size:26px;font-weight:700;text-align:center;color:#ddd}
 
-        /* move header down by ~1cm for better spacing on mobile */
         .top-area{position:absolute;top:calc(var(--header-offset) + env(safe-area-inset-top,0px));left:0;right:0;height:72px;display:flex;align-items:center;justify-content:center;z-index:3;pointer-events:none}
         .top-inner{width:100%;max-width:900px;display:flex;align-items:center;gap:12px;padding:12px 20px;box-sizing:border-box;pointer-events:auto}
-        /* Header: left/back, center/title, right/progress - strict three-slot layout */
         .top-inner{display:flex;align-items:center;justify-content:space-between}
         .top-left, .top-center, .top-right {display:flex;align-items:center}
         .top-left {flex:0 0 48px}
@@ -42,30 +35,24 @@
         .back-button:before{content:'';width:10px;height:10px;border-left:2px solid #fff;border-bottom:2px solid #fff;transform:translateY(1px) rotate(45deg);display:block}
         .section-title{font-weight:700;z-index:4}
 
-        /* faint background icons (hidden by default; shown per breakpoint) */
         .background-icon{position:absolute;font-weight:800;z-index:0;pointer-events:none;display:none}
         .background-icon-mobile-top{top:10%;left:50%;transform:translateX(-50%);font-size:180px;opacity:0.08;color:rgba(76,175,80,0.18);filter:drop-shadow(0 0 8px rgba(76,175,80,0.25))}
         .background-icon-mobile-bottom{bottom:10%;left:50%;transform:translateX(-50%);font-size:160px;opacity:0.08;color:rgba(255,152,0,0.18);filter:drop-shadow(0 0 8px rgba(255,152,0,0.25))}
         .background-icon-pc-left{top:50%;left:6%;transform:translateY(-50%);font-size:200px;opacity:0.08;color:rgba(76,175,80,0.12);filter:drop-shadow(0 0 12px rgba(76,175,80,0.22))}
         .background-icon-pc-right{top:50%;right:6%;transform:translateY(-50%);font-size:200px;opacity:0.08;color:rgba(255,152,0,0.12);filter:drop-shadow(0 0 12px rgba(255,152,0,0.22))}
 
-        /* prevent wrapping on small screens like review.html */
         .bottom-hint{position:absolute;bottom:calc(var(--hint-offset) + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);color:#999;font-size:13px;z-index:3;white-space:nowrap;max-width:calc(100% - 40px);overflow:hidden;text-overflow:ellipsis}
 
-        /* progress sits inside the header on the right, aligned with the title */
         .progress{position:relative;color:#aaa;z-index:3;font-weight:400}
 
-        /* when translation is shown (dragging mode) enlarge text */
         .dragging { font-size:64px; color:#4caf50 }
 
         .hidden-ui{opacity:0;visibility:hidden;pointer-events:none}
         .visible-ui{opacity:1;visibility:visible;pointer-events:auto}
 
-        /* Sticky translation (appears after vertical release) */
         .translation-sticky{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:64px;font-weight:800;color:#4caf50;z-index:4;pointer-events:none;opacity:0;transition:opacity .12s;max-width:calc(100% - 40px);white-space:nowrap;overflow:hidden}
 
         @media (max-width:768px){ .word-large{font-size:48px} }
-        /* Responsive visibility for background icons/overlays (like review-01) */
         @media (max-width:768px) {
             .horizontal-left-overlay, .horizontal-right-overlay { display: none !important; }
             .vertical-top-overlay, .vertical-bottom-overlay { display: flex !important; }
@@ -84,12 +71,10 @@
     <div class="background-gradient">
         <div class="gradient-overlay gradient-known" id="gradient-known"></div>
         <div class="gradient-overlay gradient-review" id="gradient-review"></div>
-        <!-- background icons for visual hint: left/top = ✓(green), right/bottom = ↻(orange) -->
         <div class="background-icon background-icon-mobile-top">✓</div>
         <div class="background-icon background-icon-mobile-bottom">↻</div>
         <div class="background-icon background-icon-pc-left">✓</div>
         <div class="background-icon background-icon-pc-right">↻</div>
-        <!-- overlay helper icons: left/top green check, right/bottom orange reset -->
         <div class="horizontal-left-overlay"><div class="icon" style="color:#4caf50;filter:drop-shadow(0 0 8px rgba(76,175,80,0.45))"></div></div>
         <div class="horizontal-right-overlay"><div class="icon" style="color:#ff9800;filter:drop-shadow(0 0 8px rgba(255,152,0,0.45))"></div></div>
         <div class="vertical-top-overlay"><div class="icon" style="color:#4caf50;filter:drop-shadow(0 0 8px rgba(76,175,80,0.45))"></div></div>
@@ -98,10 +83,10 @@
 
     <div class="top-area hidden-ui" id="top-area">
         <div class="top-inner">
-                <div class="top-left"><div class="back-button" id="back-button" title="Back"></div></div>
-                <div class="top-center"><div class="section-title" id="section-title">Review Words</div></div>
-                <div class="top-right"><div id="progress" class="progress"></div></div>
-            </div>
+            <div class="top-left"><div class="back-button" id="back-button" title="Back"></div></div>
+            <div class="top-center"><div class="section-title" id="section-title">Review Words</div></div>
+            <div class="top-right"><div id="progress" class="progress"></div></div>
+        </div>
     </div>
 
     <div class="container">
@@ -114,351 +99,636 @@
     </div>
 
     <script>
-    // Restored working backup behavior (no server required for basic functionality)
+    (function() {
+        // Получаем параметры из URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const listParam = urlParams.get('list');
+        const typeParam = urlParams.get('type') || 'words'; // words, phrases, sentences
+        const sessionId = urlParams.get('session');
 
-    const urlParams = new URLSearchParams(window.location.search);
-    const listId = urlParams.get('list');
-    const sessionId = urlParams.get('session');
+        // DOM элементы
+        const wordLarge = document.getElementById('wordLarge');
+        const wordSmall = document.getElementById('wordSmall');
+        const progressEl = document.getElementById('progress');
+        const backButton = document.getElementById('back-button');
+        const topArea = document.getElementById('top-area');
+        const sectionTitle = document.getElementById('section-title');
+        const gradientKnown = document.getElementById('gradient-known');
+        const gradientReview = document.getElementById('gradient-review');
+        const hintEl = document.getElementById('hint');
+        const translationSticky = document.getElementById('translationSticky');
 
-    const wordLarge = document.getElementById('wordLarge');
-    const wordSmall = document.getElementById('wordSmall');
-    const progressEl = document.getElementById('progress');
-    const backButton = document.getElementById('back-button');
-    const topArea = document.getElementById('top-area');
-    const sectionTitle = document.getElementById('section-title');
-    const gradientKnown = document.getElementById('gradient-known');
-    const gradientReview = document.getElementById('gradient-review');
-    const hintEl = document.getElementById('hint');
+        // Состояние
+        let wordQueue = [];
+        let currentIndex = 0;
+        let currentWord = null;
+        let currentList = null;
+        let isCombined = false;
+        let isUIHidden = true;
 
-    let wordQueue = [];
-    let currentIndex = 0;
-    let currentWord = null;
-    let currentList = null;
-    let isCombined = false;
+        // Для drag & drop
+        let isPointerActive = false;
+        let startX = 0, startY = 0, lastX = 0, lastY = 0;
+        let draggingStarted = false;
+        let downTime = 0;
+        let translationShownDuringDrag = false;
+        let originalEnglish = '';
+        let stickyVisible = false;
 
-    // UI visibility
-    let isUIHidden = true;
-    function updateUIVisibility(){
-        if(isUIHidden){ topArea.classList.add('hidden-ui'); topArea.classList.remove('visible-ui'); hintEl.classList.add('hidden-ui'); hintEl.classList.remove('visible-ui'); progressEl.classList.add('hidden-ui'); progressEl.classList.remove('visible-ui'); }
-        else { topArea.classList.remove('hidden-ui'); topArea.classList.add('visible-ui'); hintEl.classList.remove('hidden-ui'); hintEl.classList.add('visible-ui'); progressEl.classList.remove('hidden-ui'); progressEl.classList.add('visible-ui'); }
-    }
+        const TAP_MAX_MS = 150;
+        const START_DRAG = 2;
+        const DRAG_THRESHOLD = 40;
 
-    // small mobile detect
-    const isMobile = window.innerWidth <= 768 || 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+        // Определяем мобильное устройство
+        const isMobile = window.innerWidth <= 768 || 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 
-    // Set hint text like review.html
-    function setHintText(){ if(isMobile) hintEl.textContent = 'Вверх — слово знаете, вниз — для повтора'; else hintEl.textContent = 'Влево — слово знаете, вправо — для повтора'; }
-    setHintText();
-
-    // WordDB helpers
-    const WordDB = {
-        saveWordStatus(listId, english, status) {
-            const key = `word_${listId}_${english}`;
-            localStorage.setItem(key, status);
-        },
-        getWordStatus(listId, english) {
-            const key = `word_${listId}_${english}`;
-            return localStorage.getItem(key) || 'new';
-        },
-        updateListStatus(listData) {
-            if (!listData || !Array.isArray(listData.words)) return listData;
-            listData.words.forEach(word => {
-                const status = this.getWordStatus(listData.filename, word.english);
-                word.status = status;
-            });
-            return listData;
-        },
-        getWordsForReview(listData) {
-            const reviewed = [];
-            const fresh = [];
-            listData.words.forEach(word => {
-                const status = this.getWordStatus(listData.filename, word.english);
-                word.status = status;
-                if (status === 'review') reviewed.push(word);
-                else if (status === 'new') fresh.push(word);
-            });
-            return reviewed.concat(fresh);
-        }
-    };
-
-    const AudioManager = {
-        audioElements: new Map(),
-        async play(word){
-            if(!word) return;
-            try{
-                let src = (word.audio && word.audio[0]) || `audio/${word.english.toLowerCase().replace(/[^a-z0-9]/g,'_')}.wav`;
-                if(src && !src.startsWith('audio/') && !src.startsWith('http')) src = `audio/${src}`;
-                if(this.audioElements.has(word.english)){
-                    const a = this.audioElements.get(word.english);
-                    try{ a.currentTime = 0; await a.play(); }catch(e){}
-                    return;
-                }
-                const a = new Audio(src);
-                a.preload = 'auto';
-                // store immediately so scheduleNextAfterAudio can find it
-                this.audioElements.set(word.english, a);
-                a.addEventListener('canplaythrough', ()=>{ try{ a.play().catch(()=>{}); }catch(e){} });
-                a.addEventListener('error', ()=>{});
-                // Try to play now — browsers may block until user gesture
-                a.play().catch(()=>{});
-            }catch(e){}
-        }
-    };
-
-    async function fetchJson(path){ try{ const r=await fetch(path); if(!r.ok) return null; return await r.json(); }catch(e){ return null; } }
-
-    async function loadList(){
-        try{
-            if(sessionId){ const session = JSON.parse(localStorage.getItem(sessionId)||'{}'); wordQueue = session.words || []; isCombined = true; currentList = { filename: 'combined', name: 'Multiple Lists' }; }
-            else if(listId){
-                const requested = decodeURIComponent(listId);
-                let list = await fetchJson(requested);
-                if(!list && !requested.startsWith('english/')) list = await fetchJson(`english/${requested}`) || null;
-                if(!list){ try{ const idx = await fetchJson('english/list.json'); if(Array.isArray(idx)){ const found = idx.find(f => f === requested || f.endsWith(requested) || f === requested.replace(/^english\//,'')); if(found){ const candidate=`english/${found}`; const fetched = await fetchJson(candidate); if(fetched){ list = fetched; list.filename = candidate; } } } }catch(e){ console.warn('Failed reading english/list.json', e); } }
-                if(!list){ const defaults = ['english/list_basic_1.json','english/list_intermediate_1.json','english/list_advanced_1.json']; for(const d of defaults){ const l = await fetchJson(d); if(l){ list = l; list.filename = d; break; } } }
-                if(!list){ wordLarge.textContent = 'Error loading list. Please check path.'; console.error('review: could not resolve list param', requested); return; }
-                if(!list.filename) list.filename = requested.startsWith('english/') ? requested : `english/${requested}`;
-                currentList = list;
-                 // prefer theme for header title
-                 sectionTitle.textContent = currentList.theme || currentList.name || 'Review Words';
-                 WordDB.updateListStatus(list);
-                wordQueue = WordDB.getWordsForReview(list);
-                // Shuffle each session so order is different each start
-                for (let i = wordQueue.length - 1; i > 0; i--) {
-                    const j = Math.floor(Math.random() * (i + 1));
-                    [wordQueue[i], wordQueue[j]] = [wordQueue[j], wordQueue[i]];
-                }
-             }
-
-            if(!wordQueue || wordQueue.length === 0){ wordLarge.textContent = 'No words'; return; }
-            currentIndex = 0; showWord(); updateProgress();
-        }catch(e){ console.error('review loadList error', e); wordLarge.textContent = 'Error loading list.'; }
-    }
-
-    function showWord(){
-        // Set current word and fully reset any visual state carried over from previous interactions
-        currentWord = wordQueue[currentIndex];
-        // clear sticky/overlay translation
-        const tSticky = document.getElementById('translationSticky');
-        tSticky.style.opacity = '0'; tSticky.textContent = ''; tSticky.style.fontSize = '';
-        // reset word element visual properties so it's neutral (white, normal scale)
-        wordLarge.textContent = currentWord.english;
-        wordLarge.classList.remove('dragging');
-        wordSmall.style.display = 'none';
-        wordLarge.style.transform = '';
-        wordLarge.style.transition = '';
-        wordLarge.style.opacity = '1';
-        // clear any inline color/size left from previous drag
-        wordLarge.style.color = '';
-        wordLarge.style.fontSize = '';
-        // reset drag/translation state variables
-        translationShownDuringDrag = false;
-        originalEnglish = '';
-        stickyVisible = false;
-        // play audio once on appearance
-        try { AudioManager.play(currentWord); } catch (e) { /* ignore */ }
-        // timing debug: record and log when a word is shown
-        try{
-            const now = Date.now();
-            if(window.__lastShowTime){ const delta = now - window.__lastShowTime; console.debug('[review] showWord:', currentWord && (currentWord.english||currentWord.English), 'index', currentIndex, 'deltaFromPrevMs', delta); }
-            else { console.debug('[review] showWord:', currentWord && (currentWord.english||currentWord.English), 'index', currentIndex); }
-            window.__lastShowTime = now;
-        }catch(e){}
-    }
-    function updateProgress(){ progressEl.textContent = `${currentIndex+1}/${wordQueue.length}`; }
-
-    // Drag handling: don't show translation on click. Only start dragging when movement exceeds START_DRAG threshold.
-    let isPointerActive = false; let startX=0, startY=0, lastX=0, lastY=0; let draggingStarted=false;
-    let downTime = 0; const TAP_MAX_MS = 150; // quick tap threshold
-    const START_DRAG = 2; // px: require a small movement to start dragging so taps still toggle UI
-     const DRAG_THRESHOLD = 40; // px to count as action on release
-
-     function onPointerDown(e){ const p=(e.touches&&e.touches[0])||e; startX=p.clientX; startY=p.clientY; lastX=startX; lastY=startY; isPointerActive=true; draggingStarted=false; /* do not change word on down */
-        // remove transitions so movement feels instant
-        try{ wordLarge.style.transition = 'none'; }catch(ex){}
-        downTime = Date.now();
-        // DO NOT set draggingStarted=true here — require small movement (START_DRAG) to start dragging.
-        // prepare for dragging: ensure translation sticky hidden during drag
-        const tSticky = document.getElementById('translationSticky'); tSticky.style.opacity = '0'; tSticky.textContent = '';
-        e.preventDefault && e.preventDefault(); }
-
-     // translation display control during drag
-    let stickyVisible = false;
-    let translationShownDuringDrag = false;
-    let originalEnglish = '';
-    function fitTextToContainer(elem, initialSize=64){ // reduce font-size until text fits within wordContainer
-        try{
-            const wc = document.getElementById('wordContainer');
-            const maxW = Math.max(20, wc.clientWidth - 40);
-            let fs = initialSize; elem.style.fontSize = fs + 'px';
-            while(elem.scrollWidth > maxW && fs > 12){ fs -= 2; elem.style.fontSize = fs + 'px'; }
-        }catch(e){}
-    }
-
-     function onPointerMove(e){ if(!isPointerActive) return; const p=(e.touches&&e.touches[0])||e; const dx=p.clientX-startX; const dy=p.clientY-startY; lastX=p.clientX; lastY=p.clientY; const moved = Math.max(Math.abs(dx), Math.abs(dy)); if(!draggingStarted && moved >= START_DRAG){ // start dragging
-            draggingStarted = true;
-            wordLarge.classList.add('dragging');
-            isUIHidden = true; updateUIVisibility();
-         }
-        if(draggingStarted){ // move the English word with pointer and apply progressive color/scale
-            const absX=Math.abs(dx), absY=Math.abs(dy); const primary=Math.max(absX,absY); const ratio=Math.min(primary/200,1);
-            // Gradients (existing visual overlay)
-            if(Math.abs(dx) > Math.abs(dy)){ if(dx>0){ gradientReview.style.opacity = String(ratio); gradientKnown.style.opacity='0'; } else { gradientKnown.style.opacity = String(ratio); gradientReview.style.opacity='0'; } } else { if(dy>0){ gradientReview.style.opacity = String(ratio); gradientKnown.style.opacity='0'; } else { gradientKnown.style.opacity = String(ratio); gradientReview.style.opacity='0'; } }
-
-            // compute scale and color interpolation between white and target
-            const scale = 1 + 0.14 * ratio; // up to ~14% larger
-            // Determine target color: known (green) or review (orange) depending on primary direction
-            let target = {r:76,g:175,b:80}; // green default
-            if(Math.abs(dx) > Math.abs(dy)){
-                // horizontal drag: right -> review (orange), left -> known (green)
-                if(dx > 0) target = {r:255,g:152,b:0}; else target = {r:76,g:175,b:80};
+        // Устанавливаем текст подсказки
+        function setHintText() {
+            if (isMobile) {
+                hintEl.textContent = 'Вверх — слово знаете, вниз — для повтора';
             } else {
-                // vertical drag: down -> review, up -> known
-                if(dy > 0) target = {r:255,g:152,b:0}; else target = {r:76,g:175,b:80};
+                hintEl.textContent = 'Влево — слово знаете, вправо — для повтора';
             }
-            // interpolate between white (255,255,255) and target
-            const t = ratio; const r = Math.round(255 + (target.r - 255) * t); const g = Math.round(255 + (target.g - 255) * t); const b = Math.round(255 + (target.b - 255) * t);
-            wordLarge.style.transform = `translate(${dx}px, ${dy}px) scale(${scale})`;
-            wordLarge.style.color = `rgb(${r},${g},${b})`;
+        }
+        setHintText();
 
-            // Decide axis depending on device: check the word element's position relative to the screen edges.
-            // Use thresholdFraction as portion of screen (changed to 20%). We'll show translation when the word's bounding box
-            // is within that fraction of the corresponding edge — this detects when the word itself reaches the edge,
-            // regardless of where the pointer started the drag.
-            const thresholdFraction = 0.20; // 20% of screen
-            let showNow = false;
-            try{
-                const wr = wordLarge.getBoundingClientRect();
-                if(isMobile){ // vertical: check top/bottom distances of the word itself
-                    const topDist = wr.top; // distance from top of viewport to top of word
-                    const bottomDist = window.innerHeight - wr.bottom; // distance from bottom of viewport to bottom of word
-                    if(topDist <= window.innerHeight * thresholdFraction) showNow = true;
-                    if(bottomDist <= window.innerHeight * thresholdFraction) showNow = true;
-                } else { // desktop: horizontal: check left/right distances of the word itself
-                    const leftDist = wr.left; // distance from left edge to left of word
-                    const rightDist = window.innerWidth - wr.right; // distance from right edge to right of word
-                    if(leftDist <= window.innerWidth * thresholdFraction) showNow = true;
-                    if(rightDist <= window.innerWidth * thresholdFraction) showNow = true;
+        // Обновление видимости UI
+        function updateUIVisibility() {
+            if (isUIHidden) {
+                topArea.classList.add('hidden-ui');
+                topArea.classList.remove('visible-ui');
+                hintEl.classList.add('hidden-ui');
+                hintEl.classList.remove('visible-ui');
+                progressEl.classList.add('hidden-ui');
+                progressEl.classList.remove('visible-ui');
+            } else {
+                topArea.classList.remove('hidden-ui');
+                topArea.classList.add('visible-ui');
+                hintEl.classList.remove('hidden-ui');
+                hintEl.classList.add('visible-ui');
+                progressEl.classList.remove('hidden-ui');
+                progressEl.classList.add('visible-ui');
+            }
+        }
+
+        // База данных для сохранения прогресса
+        const WordDB = {
+            // Сохраняем статус слова
+            saveWordStatus(listId, itemId, status) {
+                const listKey = listId.split('/').pop().replace('.json', '');
+                const key = `item_${listKey}_${itemId}`;
+                localStorage.setItem(key, status);
+                console.log(`Saved: ${key} = ${status}`);
+            },
+
+            // Получаем статус слова
+            getWordStatus(listId, itemId) {
+                const listKey = listId.split('/').pop().replace('.json', '');
+                const key = `item_${listKey}_${itemId}`;
+                return localStorage.getItem(key) || 'new';
+            },
+
+            // Получаем слова для повторения
+            getItemsForReview(listData) {
+                const reviewed = [];
+                const fresh = [];
+
+                (listData.items || []).forEach(item => {
+                    const status = this.getWordStatus(listData.id || listData.filename, item.id || item.english);
+                    item.status = status;
+                    if (status === 'review') reviewed.push(item);
+                    else if (status === 'new') fresh.push(item);
+                });
+
+                return reviewed.concat(fresh);
+            },
+
+            // Обновляем статусы в списке
+            updateListStatus(listData) {
+                if (!listData || !Array.isArray(listData.items)) return listData;
+                listData.items.forEach(item => {
+                    const status = this.getWordStatus(listData.id || listData.filename, item.id || item.english);
+                    item.status = status;
+                });
+                return listData;
+            }
+        };
+
+        // Менеджер аудио
+        const AudioManager = {
+            audioElements: new Map(),
+
+            async play(item) {
+                if (!item) return;
+
+                try {
+                    // Получаем путь к аудио
+                    let src = null;
+                    if (item.audio && item.audio[0]) {
+                        src = item.audio[0];
+                    } else {
+                        // Пробуем сгенерировать путь из английского слова
+                        const word = (item.english || '').toLowerCase().replace(/[^a-z0-9]/g, '_');
+                        src = `audio/${word}.wav`;
+                    }
+
+                    // Проверяем, есть ли уже загруженное аудио
+                    if (this.audioElements.has(item.id || item.english)) {
+                        const audio = this.audioElements.get(item.id || item.english);
+                        try {
+                            audio.currentTime = 0;
+                            await audio.play();
+                        } catch (e) {
+                            // Игнорируем ошибки воспроизведения
+                        }
+                        return;
+                    }
+
+                    // Создаем новое аудио
+                    const audio = new Audio(src);
+                    audio.preload = 'auto';
+                    this.audioElements.set(item.id || item.english, audio);
+
+                    audio.addEventListener('canplaythrough', () => {
+                        try {
+                            audio.play().catch(() => {});
+                        } catch (e) {}
+                    });
+
+                    audio.addEventListener('error', () => {
+                        console.log('Audio not found:', src);
+                    });
+
+                    // Пытаемся воспроизвести
+                    try {
+                        await audio.play();
+                    } catch (e) {
+                        // Игнорируем ошибки (браузер может блокировать автовоспроизведение)
+                    }
+                } catch (e) {
+                    console.warn('Audio error:', e);
                 }
-            }catch(e){ /* fallback to pointer position if bounding rect fails */
-                if(isMobile){ if(dy < 0){ const dist = p.clientY; if(dist <= window.innerHeight * thresholdFraction) showNow = true; } else if(dy > 0){ const dist = window.innerHeight - p.clientY; if(dist <= window.innerHeight * thresholdFraction) showNow = true; } }
-                else { if(dx < 0){ const dist = p.clientX; if(dist <= window.innerWidth * thresholdFraction) showNow = true; } else if(dx > 0){ const dist = window.innerWidth - p.clientX; if(dist <= window.innerWidth * thresholdFraction) showNow = true; } }
             }
+        };
 
-            if(showNow && !translationShownDuringDrag){ // enter edge zone => show translation IN PLACE (replace English)
-                 originalEnglish = wordLarge.textContent;
-                 const translation = currentWord.russian || currentWord.translation || '';
-                 wordLarge.textContent = translation;
-                 // keep color/scale effect while showing translation
-                 fitTextToContainer(wordLarge, 64);
-                 translationShownDuringDrag = true;
-             } else if(!showNow && translationShownDuringDrag){ // moved away from edge zone -> restore English
-                 wordLarge.textContent = originalEnglish || (currentWord && currentWord.english) || '';
-                 wordLarge.style.fontSize = '';
-                 translationShownDuringDrag = false;
-                 // reset color and scale when leaving
-                 wordLarge.style.color = '';
-                 wordLarge.style.transform = `translate(${dx}px, ${dy}px) scale(1)`;
-             }
-         }
-          e.preventDefault && e.preventDefault(); }
-
-     function onPointerUp(e){ if(!isPointerActive) return; isPointerActive=false; if(!draggingStarted){ // treat as tap - toggle UI visibility
-            // Handle quick tap: toggle UI
-            if (Date.now() - downTime < TAP_MAX_MS) { isUIHidden = !isUIHidden; updateUIVisibility(); return; }
-            // otherwise fall through
+        // Загрузка JSON
+        async function fetchJson(path) {
+            try {
+                const response = await fetch(path);
+                if (!response.ok) return null;
+                return await response.json();
+            } catch (e) {
+                console.warn('Failed to fetch:', path, e);
+                return null;
+            }
         }
-         // if draggingStarted handle release
-        wordLarge.style.transition = 'transform 0.25s ease, opacity 0.2s ease';
-        const dx = lastX - startX; const dy = lastY - startY; gradientKnown.style.opacity='0'; gradientReview.style.opacity='0';
-        if(Math.abs(dx) < DRAG_THRESHOLD && Math.abs(dy) < DRAG_THRESHOLD){ // too small - restore english
-            // hide any sticky / translation shown during drag
-            try{ const tSticky = document.getElementById('translationSticky'); tSticky.style.opacity = '0'; stickyVisible = false; }catch(e){}
-            if(translationShownDuringDrag){ wordLarge.textContent = originalEnglish || (currentWord && currentWord.english) || ''; wordLarge.style.fontSize = ''; wordLarge.classList.remove('dragging'); translationShownDuringDrag = false; }
-            wordLarge.classList.remove('dragging'); wordLarge.style.transform = ''; return; }
-        // Determine action and primary axis
-        let action = null; const primaryIsHorizontal = Math.abs(dx) > Math.abs(dy);
-        if(primaryIsHorizontal) action = dx > 0 ? 'review' : 'known'; else action = dy > 0 ? 'review' : 'known';
-        // Compute fly-away direction strictly along primary axis:
-        const signX = dx > 0 ? 1 : -1; const signY = dy > 0 ? 1 : -1;
-        let offX = 0, offY = 0;
-        if(primaryIsHorizontal){
-            // on desktop (primary horizontal) fly strictly left/right
-            offX = signX * (window.innerWidth + 200); // a bit beyond the screen
-            offY = 0;
-        } else {
-            // on mobile/vertical action fly strictly up/down
-            offX = 0;
-            offY = signY * (window.innerHeight + 200);
-        }
-        // Animate english word flying away strictly along the primary axis
-        wordLarge.style.transform = `translate(${offX}px, ${offY}px) scale(0.95)`; wordLarge.style.opacity = '0';
-        if(!isCombined) WordDB.saveWordStatus(currentWord.filename || listId || 'local', currentWord.english, action);
-        // Do NOT show translation on release — translations are shown only while dragging near the edge.
-        // If we had swapped English for translation during drag, restore English now before flying away.
-        try{
-            if(translationShownDuringDrag){ wordLarge.textContent = originalEnglish || (currentWord && currentWord.english) || ''; wordLarge.style.fontSize = ''; wordLarge.classList.remove('dragging'); translationShownDuringDrag = false; }
-        }catch(e){}
-        try{ const tSticky = document.getElementById('translationSticky'); tSticky.style.opacity = '0'; stickyVisible = false; }catch(e){}
-         // After fly-away, schedule next word; but wait for audio end + 1s if audio is playing
-         setTimeout(()=>{
-             scheduleNextAfterAudio();
-         }, 320);
-     }
 
-     function scheduleNextAfterAudio(){
-        // Variant A: do NOT wait for audio at all. Immediately show the next word.
-        currentIndex++;
-        if(currentIndex >= wordQueue.length){ window.location.href = 'index.html'; return; }
-        // reset transforms and show next
-        wordLarge.style.transition=''; wordLarge.style.transform=''; wordLarge.style.opacity='1'; showWord(); updateProgress();
-     }
-
-    // Back button (support touch devices reliably)
-     backButton.addEventListener('click', ()=>{ window.location.href = 'index.html'; });
-     backButton.addEventListener('touchend', (e)=>{ e.preventDefault && e.preventDefault(); window.location.href = 'index.html'; });
-
-    // Edge back handler (tap near left edge) for phones where header may be hidden
-    (function(){
-        let tStartX = null, tStartY = null, tStartTime = 0;
-        window.addEventListener('touchstart', (ev)=>{
-            const t = ev.touches && ev.touches[0];
-            if(!t) return;
-            tStartX = t.clientX; tStartY = t.clientY; tStartTime = Date.now();
-        }, {passive:true});
-        window.addEventListener('touchend', (ev)=>{
-            try{
-                const t = (ev.changedTouches && ev.changedTouches[0]) || {};
-                if(tStartX !== null && t.clientX !== undefined){
-                    const dx = Math.abs(t.clientX - tStartX || 0);
-                    const dy = Math.abs(t.clientY - tStartY || 0);
-                    const dt = Date.now() - tStartTime;
-                    // if started near left edge, short tap and small movement -> go back
-                    if(tStartX <= 60 && dx < 30 && dy < 40 && dt < 500){
-                        window.location.href = 'index.html';
+        // Загрузка списка
+        async function loadList() {
+            try {
+                // Если есть sessionId - загружаем комбинированную сессию
+                if (sessionId) {
+                    const sessionData = localStorage.getItem(sessionId);
+                    if (sessionData) {
+                        const session = JSON.parse(sessionData);
+                        wordQueue = session.items || [];
+                        isCombined = true;
+                        currentList = {
+                            id: 'combined',
+                            name: 'Multiple Lists',
+                            theme: 'Combined Review'
+                        };
+                        sectionTitle.textContent = 'Combined Review';
+                    } else {
+                        wordLarge.textContent = 'Session not found';
+                        return;
                     }
                 }
-            }catch(e){}
-            tStartX = null; tStartY = null; tStartTime = 0;
-        }, {passive:true});
+                // Иначе загружаем обычный список
+                else if (listParam) {
+                    const listName = decodeURIComponent(listParam);
+
+                    // Формируем путь к файлу
+                    let filePath;
+                    if (listName.includes('/')) {
+                        // Если уже есть путь, используем как есть
+                        filePath = listName;
+                    } else {
+                        // Иначе строим путь на основе типа
+                        filePath = `english/${typeParam}/${listName}.json`;
+                    }
+
+                    console.log('Loading list from:', filePath);
+
+                    // Загружаем список
+                    let listData = await fetchJson(filePath);
+
+                    if (!listData) {
+                        // Пробуем альтернативный путь
+                        const altPath = `english/${listName}.json`;
+                        console.log('Trying alternative path:', altPath);
+                        listData = await fetchJson(altPath);
+                    }
+
+                    if (!listData) {
+                        wordLarge.textContent = 'Error: List not found';
+                        console.error('Could not load list:', listParam);
+                        return;
+                    }
+
+                    // Добавляем метаданные
+                    listData.id = listName;
+                    listData.filename = listName;
+                    listData.fullPath = filePath;
+
+                    currentList = listData;
+
+                    // Устанавливаем заголовок
+                    sectionTitle.textContent = listData.theme || listData.name || 'Review';
+
+                    // Обновляем статусы
+                    WordDB.updateListStatus(listData);
+
+                    // Получаем слова для повторения
+                    wordQueue = WordDB.getItemsForReview(listData);
+
+                    // Перемешиваем
+                    for (let i = wordQueue.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [wordQueue[i], wordQueue[j]] = [wordQueue[j], wordQueue[i]];
+                    }
+                }
+
+                if (!wordQueue || wordQueue.length === 0) {
+                    wordLarge.textContent = 'No words to review';
+                    return;
+                }
+
+                currentIndex = 0;
+                showWord();
+                updateProgress();
+
+            } catch (e) {
+                console.error('Error loading list:', e);
+                wordLarge.textContent = 'Error loading list';
+            }
+        }
+
+        // Показать текущее слово
+        function showWord() {
+            currentWord = wordQueue[currentIndex];
+
+            // Сбрасываем визуальное состояние
+            translationSticky.style.opacity = '0';
+            translationSticky.textContent = '';
+
+            wordLarge.textContent = currentWord.english || currentWord.word || '';
+            wordLarge.classList.remove('dragging');
+            wordSmall.style.display = 'none';
+            wordLarge.style.transform = '';
+            wordLarge.style.transition = '';
+            wordLarge.style.opacity = '1';
+            wordLarge.style.color = '';
+
+            translationShownDuringDrag = false;
+            stickyVisible = false;
+
+            // Воспроизводим аудио
+            try {
+                AudioManager.play(currentWord);
+            } catch (e) {}
+
+            console.log('Showing word:', currentWord.english, 'index:', currentIndex);
+        }
+
+        // Обновить прогресс
+        function updateProgress() {
+            progressEl.textContent = `${currentIndex + 1}/${wordQueue.length}`;
+        }
+
+        // Подогнать текст под контейнер
+        function fitTextToContainer(elem, initialSize = 64) {
+            try {
+                const container = document.getElementById('wordContainer');
+                const maxWidth = Math.max(20, container.clientWidth - 40);
+                let fontSize = initialSize;
+                elem.style.fontSize = fontSize + 'px';
+
+                while (elem.scrollWidth > maxWidth && fontSize > 12) {
+                    fontSize -= 2;
+                    elem.style.fontSize = fontSize + 'px';
+                }
+            } catch (e) {}
+        }
+
+        // Обработчики drag & drop
+        function onPointerDown(e) {
+            const point = (e.touches && e.touches[0]) || e;
+            startX = point.clientX;
+            startY = point.clientY;
+            lastX = startX;
+            lastY = startY;
+
+            isPointerActive = true;
+            draggingStarted = false;
+            downTime = Date.now();
+
+            wordLarge.style.transition = 'none';
+            translationSticky.style.opacity = '0';
+
+            e.preventDefault?.();
+        }
+
+        function onPointerMove(e) {
+            if (!isPointerActive) return;
+
+            const point = (e.touches && e.touches[0]) || e;
+            const dx = point.clientX - startX;
+            const dy = point.clientY - startY;
+            lastX = point.clientX;
+            lastY = point.clientY;
+
+            const moved = Math.max(Math.abs(dx), Math.abs(dy));
+
+            // Начинаем драг только после превышения порога
+            if (!draggingStarted && moved >= START_DRAG) {
+                draggingStarted = true;
+                wordLarge.classList.add('dragging');
+                isUIHidden = true;
+                updateUIVisibility();
+            }
+
+            if (draggingStarted) {
+                const primaryDistance = Math.max(Math.abs(dx), Math.abs(dy));
+                const ratio = Math.min(primaryDistance / 200, 1);
+
+                // Управляем градиентами
+                if (Math.abs(dx) > Math.abs(dy)) {
+                    if (dx > 0) {
+                        gradientReview.style.opacity = String(ratio);
+                        gradientKnown.style.opacity = '0';
+                    } else {
+                        gradientKnown.style.opacity = String(ratio);
+                        gradientReview.style.opacity = '0';
+                    }
+                } else {
+                    if (dy > 0) {
+                        gradientReview.style.opacity = String(ratio);
+                        gradientKnown.style.opacity = '0';
+                    } else {
+                        gradientKnown.style.opacity = String(ratio);
+                        gradientReview.style.opacity = '0';
+                    }
+                }
+
+                // Масштаб и цвет
+                const scale = 1 + 0.14 * ratio;
+                let targetColor;
+
+                if (Math.abs(dx) > Math.abs(dy)) {
+                    targetColor = dx > 0 ? { r: 255, g: 152, b: 0 } : { r: 76, g: 175, b: 80 };
+                } else {
+                    targetColor = dy > 0 ? { r: 255, g: 152, b: 0 } : { r: 76, g: 175, b: 80 };
+                }
+
+                const r = Math.round(255 + (targetColor.r - 255) * ratio);
+                const g = Math.round(255 + (targetColor.g - 255) * ratio);
+                const b = Math.round(255 + (targetColor.b - 255) * ratio);
+
+                wordLarge.style.transform = `translate(${dx}px, ${dy}px) scale(${scale})`;
+                wordLarge.style.color = `rgb(${r},${g},${b})`;
+
+                // Показываем перевод при приближении к краю
+                const thresholdFraction = 0.2;
+                let showTranslation = false;
+
+                try {
+                    const rect = wordLarge.getBoundingClientRect();
+
+                    if (isMobile) {
+                        if (rect.top <= window.innerHeight * thresholdFraction) showTranslation = true;
+                        if (window.innerHeight - rect.bottom <= window.innerHeight * thresholdFraction) showTranslation = true;
+                    } else {
+                        if (rect.left <= window.innerWidth * thresholdFraction) showTranslation = true;
+                        if (window.innerWidth - rect.right <= window.innerWidth * thresholdFraction) showTranslation = true;
+                    }
+                } catch (e) {}
+
+                if (showTranslation && !translationShownDuringDrag) {
+                    originalEnglish = wordLarge.textContent;
+                    const translation = currentWord.translation || currentWord.russian || '';
+                    wordLarge.textContent = translation;
+                    fitTextToContainer(wordLarge, 64);
+                    translationShownDuringDrag = true;
+                } else if (!showTranslation && translationShownDuringDrag) {
+                    wordLarge.textContent = originalEnglish || currentWord.english || '';
+                    wordLarge.style.fontSize = '';
+                    translationShownDuringDrag = false;
+                }
+            }
+
+            e.preventDefault?.();
+        }
+
+        function onPointerUp(e) {
+            if (!isPointerActive) return;
+            isPointerActive = false;
+
+            // Если это был тап (без драга) - переключаем UI
+            if (!draggingStarted) {
+                if (Date.now() - downTime < TAP_MAX_MS) {
+                    isUIHidden = !isUIHidden;
+                    updateUIVisibility();
+                }
+                return;
+            }
+
+            // Обрабатываем отпускание после драга
+            wordLarge.style.transition = 'transform 0.25s ease, opacity 0.2s ease';
+
+            const dx = lastX - startX;
+            const dy = lastY - startY;
+
+            gradientKnown.style.opacity = '0';
+            gradientReview.style.opacity = '0';
+
+            // Если движение слишком маленькое - отменяем
+            if (Math.abs(dx) < DRAG_THRESHOLD && Math.abs(dy) < DRAG_THRESHOLD) {
+                translationSticky.style.opacity = '0';
+                stickyVisible = false;
+
+                if (translationShownDuringDrag) {
+                    wordLarge.textContent = originalEnglish || currentWord.english || '';
+                    wordLarge.style.fontSize = '';
+                    wordLarge.classList.remove('dragging');
+                    translationShownDuringDrag = false;
+                }
+
+                wordLarge.classList.remove('dragging');
+                wordLarge.style.transform = '';
+                return;
+            }
+
+            // Определяем действие
+            let action = null;
+            const primaryIsHorizontal = Math.abs(dx) > Math.abs(dy);
+
+            if (primaryIsHorizontal) {
+                action = dx > 0 ? 'review' : 'known';
+            } else {
+                action = dy > 0 ? 'review' : 'known';
+            }
+
+            // Анимация улетания
+            const signX = dx > 0 ? 1 : -1;
+            const signY = dy > 0 ? 1 : -1;
+
+            let offX = 0, offY = 0;
+            if (primaryIsHorizontal) {
+                offX = signX * (window.innerWidth + 200);
+                offY = 0;
+            } else {
+                offX = 0;
+                offY = signY * (window.innerHeight + 200);
+            }
+
+            wordLarge.style.transform = `translate(${offX}px, ${offY}px) scale(0.95)`;
+            wordLarge.style.opacity = '0';
+
+            // Сохраняем статус
+            if (!isCombined) {
+                WordDB.saveWordStatus(
+                    currentList.id || currentList.filename,
+                    currentWord.id || currentWord.english,
+                    action
+                );
+            }
+
+            // Восстанавливаем английский текст если был показан перевод
+            if (translationShownDuringDrag) {
+                wordLarge.textContent = originalEnglish || currentWord.english || '';
+                translationShownDuringDrag = false;
+            }
+
+            translationSticky.style.opacity = '0';
+            stickyVisible = false;
+
+            // Переходим к следующему слову
+            setTimeout(() => {
+                currentIndex++;
+                if (currentIndex >= wordQueue.length) {
+                    window.location.href = 'index.html';
+                    return;
+                }
+
+                wordLarge.style.transition = '';
+                wordLarge.style.transform = '';
+                wordLarge.style.opacity = '1';
+                showWord();
+                updateProgress();
+            }, 320);
+        }
+
+        // Клавиатурное управление
+        function applyActionKeyboard(action) {
+            if (!currentWord) return;
+
+            if (!isCombined) {
+                WordDB.saveWordStatus(
+                    currentList.id || currentList.filename,
+                    currentWord.id || currentWord.english,
+                    action
+                );
+            }
+
+            wordLarge.style.transition = 'transform .25s ease, opacity .18s';
+            wordLarge.style.transform = action === 'review'
+                ? `translate(${window.innerWidth}px, 0)`
+                : `translate(-${window.innerWidth}px, 0)`;
+            wordLarge.style.opacity = '0';
+
+            setTimeout(() => {
+                currentIndex++;
+                if (currentIndex >= wordQueue.length) {
+                    window.location.href = 'index.html';
+                    return;
+                }
+
+                wordLarge.style.opacity = '1';
+                wordLarge.style.transform = '';
+                showWord();
+                updateProgress();
+            }, 260);
+        }
+
+        // Инициализация
+        function init() {
+            // Обработчики мыши/тач
+            window.addEventListener('mousedown', onPointerDown);
+            window.addEventListener('touchstart', onPointerDown, { passive: false });
+            window.addEventListener('mousemove', onPointerMove);
+            window.addEventListener('touchmove', onPointerMove, { passive: false });
+            window.addEventListener('mouseup', onPointerUp);
+            window.addEventListener('touchend', onPointerUp);
+
+            // Клавиатура
+            window.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'ArrowUp') {
+                    applyActionKeyboard('known');
+                } else if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'ArrowDown') {
+                    applyActionKeyboard('review');
+                }
+            });
+
+            // Кнопка назад
+            backButton.addEventListener('click', () => {
+                window.location.href = 'index.html';
+            });
+
+            backButton.addEventListener('touchend', (e) => {
+                e.preventDefault?.();
+                window.location.href = 'index.html';
+            });
+
+            // Обработка свайпа от левого края для возврата
+            let touchStartX = null, touchStartY = null, touchStartTime = 0;
+
+            window.addEventListener('touchstart', (e) => {
+                const touch = e.touches[0];
+                if (touch) {
+                    touchStartX = touch.clientX;
+                    touchStartY = touch.clientY;
+                    touchStartTime = Date.now();
+                }
+            }, { passive: true });
+
+            window.addEventListener('touchend', (e) => {
+                if (touchStartX !== null && touchStartX <= 60) {
+                    const touch = e.changedTouches[0];
+                    if (touch) {
+                        const dx = Math.abs(touch.clientX - touchStartX);
+                        const dy = Math.abs(touch.clientY - touchStartY);
+                        const dt = Date.now() - touchStartTime;
+
+                        if (dx < 30 && dy < 40 && dt < 500) {
+                            window.location.href = 'index.html';
+                        }
+                    }
+                }
+                touchStartX = null;
+                touchStartY = null;
+            }, { passive: true });
+
+            // Показываем UI скрытым изначально
+            updateUIVisibility();
+
+            // Загружаем список
+            loadList();
+        }
+
+        // Запускаем приложение
+        init();
     })();
-
-    // Pointer events
-    window.addEventListener('mousedown', onPointerDown);
-    window.addEventListener('touchstart', onPointerDown, {passive:false});
-    window.addEventListener('mousemove', onPointerMove);
-    window.addEventListener('touchmove', onPointerMove, {passive:false});
-    window.addEventListener('mouseup', onPointerUp);
-    window.addEventListener('touchend', onPointerUp);
-
-    // Keyboard
-    window.addEventListener('keydown', (e)=>{ if(e.key==='ArrowLeft' || e.key==='a' || e.key==='ArrowUp') applyActionKeyboard('known'); else if(e.key==='ArrowRight' || e.key==='d' || e.key==='ArrowDown') applyActionKeyboard('review'); });
-    function applyActionKeyboard(action){ if(!currentWord) return; if(!isCombined) WordDB.saveWordStatus(currentWord.filename || listId || 'local', currentWord.english, action); wordLarge.style.transition='transform .25s ease, opacity .18s'; wordLarge.style.transform = action==='review' ? `translate(${window.innerWidth}px,0)` : `translate(-${window.innerWidth}px,0)`; wordLarge.style.opacity='0'; setTimeout(()=>{ currentIndex++; if(currentIndex>=wordQueue.length){ window.location.href = 'index.html'; return; } wordLarge.style.opacity='1'; wordLarge.style.transform=''; showWord(); updateProgress(); },260); }
-
-    // Initial UI hidden
-    updateUIVisibility();
-    // load
-    loadList();
     </script>
 </body>
 </html>

@@ -1,0 +1,287 @@
+{
+  "theme": "Влияние и убеждение",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "strong-influence",
+      "english": "strong influence",
+      "translation": "сильное влияние",
+      "audio": [
+        "audio/phrases/strong influence.wav"
+      ]
+    },
+    {
+      "id": "power-of-persuasion",
+      "english": "power of persuasion",
+      "translation": "сила убеждения",
+      "audio": [
+        "audio/phrases/power of persuasion.wav"
+      ]
+    },
+    {
+      "id": "very-persuasive",
+      "english": "very persuasive",
+      "translation": "очень убедительный",
+      "audio": [
+        "audio/phrases/very persuasive.wav"
+      ]
+    },
+    {
+      "id": "deep-conviction",
+      "english": "deep conviction",
+      "translation": "глубокая убеждённость",
+      "audio": [
+        "audio/phrases/deep conviction.wav"
+      ]
+    },
+    {
+      "id": "gain-credibility",
+      "english": "gain credibility",
+      "translation": "завоевать доверие",
+      "audio": [
+        "audio/phrases/gain credibility.wav"
+      ]
+    },
+    {
+      "id": "real-authority",
+      "english": "real authority",
+      "translation": "настоящий авторитет",
+      "audio": [
+        "audio/phrases/real authority.wav"
+      ]
+    },
+    {
+      "id": "prove-trustworthiness",
+      "english": "prove trustworthiness",
+      "translation": "доказать надёжность",
+      "audio": [
+        "audio/phrases/prove trustworthiness.wav"
+      ]
+    },
+    {
+      "id": "quiet-confidence",
+      "english": "quiet confidence",
+      "translation": "спокойная уверенность",
+      "audio": [
+        "audio/phrases/quiet confidence.wav"
+      ]
+    },
+    {
+      "id": "natural-charisma",
+      "english": "natural charisma",
+      "translation": "природная харизма",
+      "audio": [
+        "audio/phrases/natural charisma.wav"
+      ]
+    },
+    {
+      "id": "strong-presence",
+      "english": "strong presence",
+      "translation": "сильное присутствие",
+      "audio": [
+        "audio/phrases/strong presence.wav"
+      ]
+    },
+    {
+      "id": "emotional-appeal",
+      "english": "emotional appeal",
+      "translation": "эмоциональная привлекательность",
+      "audio": [
+        "audio/phrases/emotional appeal.wav"
+      ]
+    },
+    {
+      "id": "clear-reasoning",
+      "english": "clear reasoning",
+      "translation": "чёткая логика",
+      "audio": [
+        "audio/phrases/clear reasoning.wav"
+      ]
+    },
+    {
+      "id": "basic-logic",
+      "english": "basic logic",
+      "translation": "базовая логика",
+      "audio": [
+        "audio/phrases/basic logic.wav"
+      ]
+    },
+    {
+      "id": "show-emotion",
+      "english": "show emotion",
+      "translation": "проявлять эмоцию",
+      "audio": [
+        "audio/phrases/show emotion.wav"
+      ]
+    },
+    {
+      "id": "strong-emotional-impact",
+      "english": "strong emotional impact",
+      "translation": "сильное эмоциональное воздействие",
+      "audio": [
+        "audio/phrases/strong emotional impact.wav"
+      ]
+    },
+    {
+      "id": "smart-framing",
+      "english": "smart framing",
+      "translation": "умная подача",
+      "audio": [
+        "audio/phrases/smart framing.wav"
+      ]
+    },
+    {
+      "id": "clear-positioning",
+      "english": "clear positioning",
+      "translation": "чёткое позиционирование",
+      "audio": [
+        "audio/phrases/clear positioning.wav"
+      ]
+    },
+    {
+      "id": "place-emphasis",
+      "english": "place emphasis",
+      "translation": "сделать акцент",
+      "audio": [
+        "audio/phrases/place emphasis.wav"
+      ]
+    },
+    {
+      "id": "friendly-tone",
+      "english": "friendly tone",
+      "translation": "дружелюбный тон",
+      "audio": [
+        "audio/phrases/friendly tone.wav"
+      ]
+    },
+    {
+      "id": "clear-messaging",
+      "english": "clear messaging",
+      "translation": "понятная подача идеи",
+      "audio": [
+        "audio/phrases/clear messaging.wav"
+      ]
+    },
+    {
+      "id": "inner-motivation",
+      "english": "inner motivation",
+      "translation": "внутренняя мотивация",
+      "audio": [
+        "audio/phrases/inner motivation.wav"
+      ]
+    },
+    {
+      "id": "financial-incentive",
+      "english": "financial incentive",
+      "translation": "финансовый стимул",
+      "audio": [
+        "audio/phrases/financial incentive.wav"
+      ]
+    },
+    {
+      "id": "gain-leverage",
+      "english": "gain leverage",
+      "translation": "получить рычаг влияния",
+      "audio": [
+        "audio/phrases/gain leverage.wav"
+      ]
+    },
+    {
+      "id": "apply-pressure",
+      "english": "apply pressure",
+      "translation": "оказывать давление",
+      "audio": [
+        "audio/phrases/apply pressure.wav"
+      ]
+    },
+    {
+      "id": "meet-resistance",
+      "english": "meet resistance",
+      "translation": "столкнуться с сопротивлением",
+      "audio": [
+        "audio/phrases/meet resistance.wav"
+      ]
+    },
+    {
+      "id": "raise-objection",
+      "english": "raise objection",
+      "translation": "выдвинуть возражение",
+      "audio": [
+        "audio/phrases/raise objection.wav"
+      ]
+    },
+    {
+      "id": "seek-acceptance",
+      "english": "seek acceptance",
+      "translation": "добиваться принятия",
+      "audio": [
+        "audio/phrases/seek acceptance.wav"
+      ]
+    },
+    {
+      "id": "reach-agreement",
+      "english": "reach agreement",
+      "translation": "достичь согласия",
+      "audio": [
+        "audio/phrases/reach agreement.wav"
+      ]
+    },
+    {
+      "id": "strategic-alignment",
+      "english": "strategic alignment",
+      "translation": "стратегическая согласованность",
+      "audio": [
+        "audio/phrases/strategic alignment.wav"
+      ]
+    },
+    {
+      "id": "team-buy-in",
+      "english": "team buy-in",
+      "translation": "вовлечённое согласие команды",
+      "audio": [
+        "audio/phrases/team buy-in.wav"
+      ]
+    },
+    {
+      "id": "subtle-manipulation",
+      "english": "subtle manipulation",
+      "translation": "тонкая манипуляция",
+      "audio": [
+        "audio/phrases/subtle manipulation.wav"
+      ]
+    },
+    {
+      "id": "ethical-influence",
+      "english": "ethical influence",
+      "translation": "этичное влияние",
+      "audio": [
+        "audio/phrases/ethical influence.wav"
+      ]
+    },
+    {
+      "id": "full-transparency",
+      "english": "full transparency",
+      "translation": "полная прозрачность",
+      "audio": [
+        "audio/phrases/full transparency.wav"
+      ]
+    },
+    {
+      "id": "clear-intent",
+      "english": "clear intent",
+      "translation": "ясное намерение",
+      "audio": [
+        "audio/phrases/clear intent.wav"
+      ]
+    },
+    {
+      "id": "public-perception",
+      "english": "public perception",
+      "translation": "общественное восприятие",
+      "audio": [
+        "audio/phrases/public perception.wav"
+      ]
+    }
+  ]
+}

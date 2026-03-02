@@ -1,0 +1,255 @@
+{
+  "theme": "Цифры, количество, размеры",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-score-is-zero.",
+      "english": "The score is zero.",
+      "translation": "Счёт равен нулю.",
+      "audio": [
+        "audio/sentences/The score is zero..wav"
+      ]
+    },
+    {
+      "id": "i-have-one-idea.",
+      "english": "I have one idea.",
+      "translation": "У меня есть одна идея.",
+      "audio": [
+        "audio/sentences/I have one idea..wav"
+      ]
+    },
+    {
+      "id": "we-need-two-tickets.",
+      "english": "We need two tickets.",
+      "translation": "Нам нужны два билета.",
+      "audio": [
+        "audio/sentences/We need two tickets..wav"
+      ]
+    },
+    {
+      "id": "she-has-three-books.",
+      "english": "She has three books.",
+      "translation": "У неё три книги.",
+      "audio": [
+        "audio/sentences/She has three books..wav"
+      ]
+    },
+    {
+      "id": "there-are-four-options.",
+      "english": "There are four options.",
+      "translation": "Есть четыре варианта.",
+      "audio": [
+        "audio/sentences/There are four options..wav"
+      ]
+    },
+    {
+      "id": "we-wait-five-minutes.",
+      "english": "We wait five minutes.",
+      "translation": "Мы ждём пять минут.",
+      "audio": [
+        "audio/sentences/We wait five minutes..wav"
+      ]
+    },
+    {
+      "id": "he-works-six-days.",
+      "english": "He works six days.",
+      "translation": "Он работает шесть дней.",
+      "audio": [
+        "audio/sentences/He works six days..wav"
+      ]
+    },
+    {
+      "id": "it-takes-seven-hours.",
+      "english": "It takes seven hours.",
+      "translation": "Это занимает семь часов.",
+      "audio": [
+        "audio/sentences/It takes seven hours..wav"
+      ]
+    },
+    {
+      "id": "we-open-at-eight.",
+      "english": "We open at eight.",
+      "translation": "Мы открываемся в восемь.",
+      "audio": [
+        "audio/sentences/We open at eight..wav"
+      ]
+    },
+    {
+      "id": "she-wakes-at-nine.",
+      "english": "She wakes at nine.",
+      "translation": "Она просыпается в девять.",
+      "audio": [
+        "audio/sentences/She wakes at nine..wav"
+      ]
+    },
+    {
+      "id": "they-count-to-ten.",
+      "english": "They count to ten.",
+      "translation": "Они считают до десяти.",
+      "audio": [
+        "audio/sentences/They count to ten..wav"
+      ]
+    },
+    {
+      "id": "many-people-agree.",
+      "english": "Many people agree.",
+      "translation": "Многие люди согласны.",
+      "audio": [
+        "audio/sentences/Many people agree..wav"
+      ]
+    },
+    {
+      "id": "there-is-much-work.",
+      "english": "There is much work.",
+      "translation": "Есть много работы.",
+      "audio": [
+        "audio/sentences/There is much work..wav"
+      ]
+    },
+    {
+      "id": "few-people-came.",
+      "english": "Few people came.",
+      "translation": "Мало людей пришло.",
+      "audio": [
+        "audio/sentences/Few people came..wav"
+      ]
+    },
+    {
+      "id": "there-is-little-space.",
+      "english": "There is little space.",
+      "translation": "Здесь мало места.",
+      "audio": [
+        "audio/sentences/There is little space..wav"
+      ]
+    },
+    {
+      "id": "all-answers-are-correct.",
+      "english": "All answers are correct.",
+      "translation": "Все ответы верны.",
+      "audio": [
+        "audio/sentences/All answers are correct..wav"
+      ]
+    },
+    {
+      "id": "we-need-more-time.",
+      "english": "We need more time.",
+      "translation": "Нам нужно больше времени.",
+      "audio": [
+        "audio/sentences/We need more time..wav"
+      ]
+    },
+    {
+      "id": "try-to-use-less.",
+      "english": "Try to use less.",
+      "translation": "Попробуй использовать меньше.",
+      "audio": [
+        "audio/sentences/Try to use less..wav"
+      ]
+    },
+    {
+      "id": "that-is-enough.",
+      "english": "That is enough.",
+      "translation": "Этого достаточно.",
+      "audio": [
+        "audio/sentences/That is enough..wav"
+      ]
+    },
+    {
+      "id": "the-room-is-big.",
+      "english": "The room is big.",
+      "translation": "Комната большая.",
+      "audio": [
+        "audio/sentences/The room is big..wav"
+      ]
+    },
+    {
+      "id": "it-looks-small.",
+      "english": "It looks small.",
+      "translation": "Это выглядит маленьким.",
+      "audio": [
+        "audio/sentences/It looks small..wav"
+      ]
+    },
+    {
+      "id": "they-need-a-large-box.",
+      "english": "They need a large box.",
+      "translation": "Им нужна большая коробка.",
+      "audio": [
+        "audio/sentences/They need a large box..wav"
+      ]
+    },
+    {
+      "id": "it-was-a-long-day.",
+      "english": "It was a long day.",
+      "translation": "Это был долгий день.",
+      "audio": [
+        "audio/sentences/It was a long day..wav"
+      ]
+    },
+    {
+      "id": "the-price-is-high.",
+      "english": "The price is high.",
+      "translation": "Цена высокая.",
+      "audio": [
+        "audio/sentences/The price is high..wav"
+      ]
+    },
+    {
+      "id": "the-sound-is-low.",
+      "english": "The sound is low.",
+      "translation": "Звук тихий.",
+      "audio": [
+        "audio/sentences/The sound is low..wav"
+      ]
+    },
+    {
+      "id": "the-size-is-perfect.",
+      "english": "The size is perfect.",
+      "translation": "Размер идеальный.",
+      "audio": [
+        "audio/sentences/The size is perfect..wav"
+      ]
+    },
+    {
+      "id": "the-amount-is-limited.",
+      "english": "The amount is limited.",
+      "translation": "Количество ограничено.",
+      "audio": [
+        "audio/sentences/The amount is limited..wav"
+      ]
+    },
+    {
+      "id": "the-number-is-correct.",
+      "english": "The number is correct.",
+      "translation": "Число верное.",
+      "audio": [
+        "audio/sentences/The number is correct..wav"
+      ]
+    },
+    {
+      "id": "i-need-some-help.",
+      "english": "I need some help.",
+      "translation": "Мне нужна некоторая помощь.",
+      "audio": [
+        "audio/sentences/I need some help..wav"
+      ]
+    },
+    {
+      "id": "none-of-this-works.",
+      "english": "None of this works.",
+      "translation": "Ничего из этого не работает.",
+      "audio": [
+        "audio/sentences/None of this works..wav"
+      ]
+    },
+    {
+      "id": "the-meeting-is-short.",
+      "english": "The meeting is short.",
+      "translation": "Встреча короткая.",
+      "audio": [
+        "audio/sentences/The meeting is short..wav"
+      ]
+    }
+  ]
+}

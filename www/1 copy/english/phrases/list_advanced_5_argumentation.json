@@ -1,0 +1,287 @@
+{
+  "theme": "Аргументация и мнение",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "personal-opinion",
+      "english": "personal opinion",
+      "translation": "личное мнение",
+      "audio": [
+        "audio/phrases/personal opinion.wav"
+      ]
+    },
+    {
+      "id": "different-viewpoint",
+      "english": "different viewpoint",
+      "translation": "другая точка зрения",
+      "audio": [
+        "audio/phrases/different viewpoint.wav"
+      ]
+    },
+    {
+      "id": "broader-perspective",
+      "english": "broader perspective",
+      "translation": "более широкая перспектива",
+      "audio": [
+        "audio/phrases/broader perspective.wav"
+      ]
+    },
+    {
+      "id": "clear-stance",
+      "english": "clear stance",
+      "translation": "чёткая позиция",
+      "audio": [
+        "audio/phrases/clear stance.wav"
+      ]
+    },
+    {
+      "id": "core-belief",
+      "english": "core belief",
+      "translation": "ключевое убеждение",
+      "audio": [
+        "audio/phrases/core belief.wav"
+      ]
+    },
+    {
+      "id": "strong-argument",
+      "english": "strong argument",
+      "translation": "сильный аргумент",
+      "audio": [
+        "audio/phrases/strong argument.wav"
+      ]
+    },
+    {
+      "id": "logical-reasoning",
+      "english": "logical reasoning",
+      "translation": "логичное рассуждение",
+      "audio": [
+        "audio/phrases/logical reasoning.wav"
+      ]
+    },
+    {
+      "id": "sound-logic",
+      "english": "sound logic",
+      "translation": "здравая логика",
+      "audio": [
+        "audio/phrases/sound logic.wav"
+      ]
+    },
+    {
+      "id": "bold-claim",
+      "english": "bold claim",
+      "translation": "смелое утверждение",
+      "audio": [
+        "audio/phrases/bold claim.wav"
+      ]
+    },
+    {
+      "id": "public-statement",
+      "english": "public statement",
+      "translation": "публичное заявление",
+      "audio": [
+        "audio/phrases/public statement.wav"
+      ]
+    },
+    {
+      "id": "new-evidence",
+      "english": "new evidence",
+      "translation": "новые доказательства",
+      "audio": [
+        "audio/phrases/new evidence.wav"
+      ]
+    },
+    {
+      "id": "solid-proof",
+      "english": "solid proof",
+      "translation": "веское доказательство",
+      "audio": [
+        "audio/phrases/solid proof.wav"
+      ]
+    },
+    {
+      "id": "simple-example",
+      "english": "simple example",
+      "translation": "простой пример",
+      "audio": [
+        "audio/phrases/simple example.wav"
+      ]
+    },
+    {
+      "id": "additional-support",
+      "english": "additional support",
+      "translation": "дополнительная поддержка",
+      "audio": [
+        "audio/phrases/additional support.wav"
+      ]
+    },
+    {
+      "id": "clear-justification",
+      "english": "clear justification",
+      "translation": "чёткое обоснование",
+      "audio": [
+        "audio/phrases/clear justification.wav"
+      ]
+    },
+    {
+      "id": "basic-assumption",
+      "english": "basic assumption",
+      "translation": "базовое предположение",
+      "audio": [
+        "audio/phrases/basic assumption.wav"
+      ]
+    },
+    {
+      "id": "personal-interpretation",
+      "english": "personal interpretation",
+      "translation": "личная интерпретация",
+      "audio": [
+        "audio/phrases/personal interpretation.wav"
+      ]
+    },
+    {
+      "id": "initial-assessment",
+      "english": "initial assessment",
+      "translation": "первичная оценка",
+      "audio": [
+        "audio/phrases/initial assessment.wav"
+      ]
+    },
+    {
+      "id": "personal-judgment",
+      "english": "personal judgment",
+      "translation": "личное суждение",
+      "audio": [
+        "audio/phrases/personal judgment.wav"
+      ]
+    },
+    {
+      "id": "careful-evaluation",
+      "english": "careful evaluation",
+      "translation": "тщательное оценивание",
+      "audio": [
+        "audio/phrases/careful evaluation.wav"
+      ]
+    },
+    {
+      "id": "full-agreement",
+      "english": "full agreement",
+      "translation": "полное согласие",
+      "audio": [
+        "audio/phrases/full agreement.wav"
+      ]
+    },
+    {
+      "id": "open-disagreement",
+      "english": "open disagreement",
+      "translation": "открытое несогласие",
+      "audio": [
+        "audio/phrases/open disagreement.wav"
+      ]
+    },
+    {
+      "id": "shared-consensus",
+      "english": "shared consensus",
+      "translation": "общий консенсус",
+      "audio": [
+        "audio/phrases/shared consensus.wav"
+      ]
+    },
+    {
+      "id": "fair-compromise",
+      "english": "fair compromise",
+      "translation": "справедливый компромисс",
+      "audio": [
+        "audio/phrases/fair compromise.wav"
+      ]
+    },
+    {
+      "id": "formal-objection",
+      "english": "formal objection",
+      "translation": "официальное возражение",
+      "audio": [
+        "audio/phrases/formal objection.wav"
+      ]
+    },
+    {
+      "id": "strong-counterargument",
+      "english": "strong counterargument",
+      "translation": "сильный контраргумент",
+      "audio": [
+        "audio/phrases/strong counterargument.wav"
+      ]
+    },
+    {
+      "id": "constructive-criticism",
+      "english": "constructive criticism",
+      "translation": "конструктивная критика",
+      "audio": [
+        "audio/phrases/constructive criticism.wav"
+      ]
+    },
+    {
+      "id": "direct-challenge",
+      "english": "direct challenge",
+      "translation": "прямой вызов",
+      "audio": [
+        "audio/phrases/direct challenge.wav"
+      ]
+    },
+    {
+      "id": "logical-defense",
+      "english": "logical defense",
+      "translation": "логическая защита",
+      "audio": [
+        "audio/phrases/logical defense.wav"
+      ]
+    },
+    {
+      "id": "quick-rebuttal",
+      "english": "quick rebuttal",
+      "translation": "быстрое опровержение",
+      "audio": [
+        "audio/phrases/quick rebuttal.wav"
+      ]
+    },
+    {
+      "id": "final-conclusion",
+      "english": "final conclusion",
+      "translation": "окончательный вывод",
+      "audio": [
+        "audio/phrases/final conclusion.wav"
+      ]
+    },
+    {
+      "id": "brief-summary",
+      "english": "brief summary",
+      "translation": "краткий обзор",
+      "audio": [
+        "audio/phrases/brief summary.wav"
+      ]
+    },
+    {
+      "id": "expected-outcome",
+      "english": "expected outcome",
+      "translation": "ожидаемый результат",
+      "audio": [
+        "audio/phrases/expected outcome.wav"
+      ]
+    },
+    {
+      "id": "every-possible-implication",
+      "english": "every possible implication",
+      "translation": "каждое возможное последствие",
+      "audio": [
+        "audio/phrases/every possible implication.wav"
+      ]
+    },
+    {
+      "id": "neutral-standpoint",
+      "english": "neutral standpoint",
+      "translation": "нейтральная точка зрения",
+      "audio": [
+        "audio/phrases/neutral standpoint.wav"
+      ]
+    }
+  ]
+}

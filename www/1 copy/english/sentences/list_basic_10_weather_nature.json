@@ -1,0 +1,223 @@
+{
+  "theme": "Погода и природа",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-weather-changes-quickly.",
+      "english": "The weather changes quickly.",
+      "translation": "Погода быстро меняется.",
+      "audio": [
+        "audio/sentences/The weather changes quickly..wav"
+      ]
+    },
+    {
+      "id": "nature-feels-calm-here.",
+      "english": "Nature feels calm here.",
+      "translation": "Природа здесь кажется спокойной.",
+      "audio": [
+        "audio/sentences/Nature feels calm here..wav"
+      ]
+    },
+    {
+      "id": "the-sun-rises-early.",
+      "english": "The sun rises early.",
+      "translation": "Солнце встаёт рано.",
+      "audio": [
+        "audio/sentences/The sun rises early..wav"
+      ]
+    },
+    {
+      "id": "it-is-sunny-this-morning.",
+      "english": "It is sunny this morning.",
+      "translation": "Сегодня утром солнечно.",
+      "audio": [
+        "audio/sentences/It is sunny this morning..wav"
+      ]
+    },
+    {
+      "id": "a-cloud-covers-the-sun.",
+      "english": "A cloud covers the sun.",
+      "translation": "Облако закрывает солнце.",
+      "audio": [
+        "audio/sentences/A cloud covers the sun..wav"
+      ]
+    },
+    {
+      "id": "it-looks-cloudy-today.",
+      "english": "It looks cloudy today.",
+      "translation": "Сегодня выглядит облачно.",
+      "audio": [
+        "audio/sentences/It looks cloudy today..wav"
+      ]
+    },
+    {
+      "id": "rain-starts-in-the-evening.",
+      "english": "Rain starts in the evening.",
+      "translation": "Дождь начинается вечером.",
+      "audio": [
+        "audio/sentences/Rain starts in the evening..wav"
+      ]
+    },
+    {
+      "id": "it-feels-rainy-all-day.",
+      "english": "It feels rainy all day.",
+      "translation": "Весь день ощущается дождливым.",
+      "audio": [
+        "audio/sentences/It feels rainy all day..wav"
+      ]
+    },
+    {
+      "id": "snow-covers-the-ground.",
+      "english": "Snow covers the ground.",
+      "translation": "Снег покрывает землю.",
+      "audio": [
+        "audio/sentences/Snow covers the ground..wav"
+      ]
+    },
+    {
+      "id": "it-is-snowy-in-the-mountains.",
+      "english": "It is snowy in the mountains.",
+      "translation": "В горах снежно.",
+      "audio": [
+        "audio/sentences/It is snowy in the mountains..wav"
+      ]
+    },
+    {
+      "id": "the-wind-blows-hard.",
+      "english": "The wind blows hard.",
+      "translation": "Ветер сильно дует.",
+      "audio": [
+        "audio/sentences/The wind blows hard..wav"
+      ]
+    },
+    {
+      "id": "it-feels-windy-near-the-sea.",
+      "english": "It feels windy near the sea.",
+      "translation": "У моря ветрено.",
+      "audio": [
+        "audio/sentences/It feels windy near the sea..wav"
+      ]
+    },
+    {
+      "id": "it-is-hot-in-summer.",
+      "english": "It is hot in summer.",
+      "translation": "Летом жарко.",
+      "audio": [
+        "audio/sentences/It is hot in summer..wav"
+      ]
+    },
+    {
+      "id": "the-evening-feels-warm.",
+      "english": "The evening feels warm.",
+      "translation": "Вечером тепло.",
+      "audio": [
+        "audio/sentences/The evening feels warm..wav"
+      ]
+    },
+    {
+      "id": "it-is-cool-after-rain.",
+      "english": "It is cool after rain.",
+      "translation": "После дождя прохладно.",
+      "audio": [
+        "audio/sentences/It is cool after rain..wav"
+      ]
+    },
+    {
+      "id": "it-gets-cold-in-winter.",
+      "english": "It gets cold in winter.",
+      "translation": "Зимой становится холодно.",
+      "audio": [
+        "audio/sentences/It gets cold in winter..wav"
+      ]
+    },
+    {
+      "id": "the-sky-looks-clear.",
+      "english": "The sky looks clear.",
+      "translation": "Небо выглядит чистым.",
+      "audio": [
+        "audio/sentences/The sky looks clear..wav"
+      ]
+    },
+    {
+      "id": "the-air-feels-fresh.",
+      "english": "The air feels fresh.",
+      "translation": "Воздух кажется свежим.",
+      "audio": [
+        "audio/sentences/The air feels fresh..wav"
+      ]
+    },
+    {
+      "id": "a-tree-grows-near-the-house.",
+      "english": "A tree grows near the house.",
+      "translation": "Возле дома растёт дерево.",
+      "audio": [
+        "audio/sentences/A tree grows near the house..wav"
+      ]
+    },
+    {
+      "id": "the-forest-feels-peaceful.",
+      "english": "The forest feels peaceful.",
+      "translation": "Лес кажется спокойным.",
+      "audio": [
+        "audio/sentences/The forest feels peaceful..wav"
+      ]
+    },
+    {
+      "id": "cows-walk-across-the-field.",
+      "english": "Cows walk across the field.",
+      "translation": "Коровы идут по полю.",
+      "audio": [
+        "audio/sentences/Cows walk across the field..wav"
+      ]
+    },
+    {
+      "id": "the-river-moves-slowly.",
+      "english": "The river moves slowly.",
+      "translation": "Река течёт медленно.",
+      "audio": [
+        "audio/sentences/The river moves slowly..wav"
+      ]
+    },
+    {
+      "id": "the-lake-looks-calm.",
+      "english": "The lake looks calm.",
+      "translation": "Озеро выглядит спокойным.",
+      "audio": [
+        "audio/sentences/The lake looks calm..wav"
+      ]
+    },
+    {
+      "id": "the-sea-feels-endless.",
+      "english": "The sea feels endless.",
+      "translation": "Море кажется бесконечным.",
+      "audio": [
+        "audio/sentences/The sea feels endless..wav"
+      ]
+    },
+    {
+      "id": "the-mountain-stands-far-away.",
+      "english": "The mountain stands far away.",
+      "translation": "Гора стоит далеко.",
+      "audio": [
+        "audio/sentences/The mountain stands far away..wav"
+      ]
+    },
+    {
+      "id": "the-day-starts-early.",
+      "english": "The day starts early.",
+      "translation": "День начинается рано.",
+      "audio": [
+        "audio/sentences/The day starts early..wav"
+      ]
+    },
+    {
+      "id": "the-night-feels-calm.",
+      "english": "The night feels calm.",
+      "translation": "Ночь кажется спокойной.",
+      "audio": [
+        "audio/sentences/The night feels calm..wav"
+      ]
+    }
+  ]
+}

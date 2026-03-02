@@ -1,0 +1,367 @@
+{
+  "theme": "Спорт и активный образ жизни",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "sport",
+      "english": "sport",
+      "translation": "спорт",
+      "audio": [
+        "audio/words/sport.wav"
+      ]
+    },
+    {
+      "id": "fitness",
+      "english": "fitness",
+      "translation": "фитнес",
+      "audio": [
+        "audio/words/fitness.wav"
+      ]
+    },
+    {
+      "id": "activity",
+      "english": "activity",
+      "translation": "активность",
+      "audio": [
+        "audio/words/activity.wav"
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "english": "lifestyle",
+      "translation": "образ жизни",
+      "audio": [
+        "audio/words/lifestyle.wav"
+      ]
+    },
+    {
+      "id": "movement",
+      "english": "movement",
+      "translation": "движение",
+      "audio": [
+        "audio/words/movement.wav"
+      ]
+    },
+    {
+      "id": "training",
+      "english": "training",
+      "translation": "тренировка",
+      "audio": [
+        "audio/words/training.wav"
+      ]
+    },
+    {
+      "id": "workout",
+      "english": "workout",
+      "translation": "тренировка",
+      "audio": [
+        "audio/words/workout.wav"
+      ]
+    },
+    {
+      "id": "exercise",
+      "english": "exercise",
+      "translation": "упражнение",
+      "audio": [
+        "audio/words/exercise.wav"
+      ]
+    },
+    {
+      "id": "program",
+      "english": "program",
+      "translation": "программа",
+      "audio": [
+        "audio/words/program.wav"
+      ]
+    },
+    {
+      "id": "gym",
+      "english": "gym",
+      "translation": "спортзал",
+      "audio": [
+        "audio/words/gym.wav"
+      ]
+    },
+    {
+      "id": "equipment",
+      "english": "equipment",
+      "translation": "оборудование",
+      "audio": [
+        "audio/words/equipment.wav"
+      ]
+    },
+    {
+      "id": "treadmill",
+      "english": "treadmill",
+      "translation": "беговая дорожка",
+      "audio": [
+        "audio/words/treadmill.wav"
+      ]
+    },
+    {
+      "id": "mat",
+      "english": "mat",
+      "translation": "коврик",
+      "audio": [
+        "audio/words/mat.wav"
+      ]
+    },
+    {
+      "id": "strength",
+      "english": "strength",
+      "translation": "сила",
+      "audio": [
+        "audio/words/strength.wav"
+      ]
+    },
+    {
+      "id": "endurance",
+      "english": "endurance",
+      "translation": "выносливость",
+      "audio": [
+        "audio/words/endurance.wav"
+      ]
+    },
+    {
+      "id": "flexibility",
+      "english": "flexibility",
+      "translation": "гибкость",
+      "audio": [
+        "audio/words/flexibility.wav"
+      ]
+    },
+    {
+      "id": "balance",
+      "english": "balance",
+      "translation": "баланс",
+      "audio": [
+        "audio/words/balance.wav"
+      ]
+    },
+    {
+      "id": "coordination",
+      "english": "coordination",
+      "translation": "координация",
+      "audio": [
+        "audio/words/coordination.wav"
+      ]
+    },
+    {
+      "id": "running",
+      "english": "running",
+      "translation": "бег",
+      "audio": [
+        "audio/words/running.wav"
+      ]
+    },
+    {
+      "id": "jogging",
+      "english": "jogging",
+      "translation": "лёгкий бег",
+      "audio": [
+        "audio/words/jogging.wav"
+      ]
+    },
+    {
+      "id": "cycling",
+      "english": "cycling",
+      "translation": "велоспорт",
+      "audio": [
+        "audio/words/cycling.wav"
+      ]
+    },
+    {
+      "id": "swimming",
+      "english": "swimming",
+      "translation": "плавание",
+      "audio": [
+        "audio/words/swimming.wav"
+      ]
+    },
+    {
+      "id": "yoga",
+      "english": "yoga",
+      "translation": "йога",
+      "audio": [
+        "audio/words/yoga.wav"
+      ]
+    },
+    {
+      "id": "team",
+      "english": "team",
+      "translation": "команда",
+      "audio": [
+        "audio/words/team.wav"
+      ]
+    },
+    {
+      "id": "competition",
+      "english": "competition",
+      "translation": "соревнование",
+      "audio": [
+        "audio/words/competition.wav"
+      ]
+    },
+    {
+      "id": "match",
+      "english": "match",
+      "translation": "матч",
+      "audio": [
+        "audio/words/match.wav"
+      ]
+    },
+    {
+      "id": "tournament",
+      "english": "tournament",
+      "translation": "турнир",
+      "audio": [
+        "audio/words/tournament.wav"
+      ]
+    },
+    {
+      "id": "coach",
+      "english": "coach",
+      "translation": "тренер",
+      "audio": [
+        "audio/words/coach.wav"
+      ]
+    },
+    {
+      "id": "goal",
+      "english": "goal",
+      "translation": "цель",
+      "audio": [
+        "audio/words/goal.wav"
+      ]
+    },
+    {
+      "id": "progress",
+      "english": "progress",
+      "translation": "прогресс",
+      "audio": [
+        "audio/words/progress.wav"
+      ]
+    },
+    {
+      "id": "result",
+      "english": "result",
+      "translation": "результат",
+      "audio": [
+        "audio/words/result.wav"
+      ]
+    },
+    {
+      "id": "performance",
+      "english": "performance",
+      "translation": "результативность",
+      "audio": [
+        "audio/words/performance.wav"
+      ]
+    },
+    {
+      "id": "achievement",
+      "english": "achievement",
+      "translation": "достижение",
+      "audio": [
+        "audio/words/achievement.wav"
+      ]
+    },
+    {
+      "id": "recovery",
+      "english": "recovery",
+      "translation": "восстановление",
+      "audio": [
+        "audio/words/recovery.wav"
+      ]
+    },
+    {
+      "id": "rest",
+      "english": "rest",
+      "translation": "отдых",
+      "audio": [
+        "audio/words/rest.wav"
+      ]
+    },
+    {
+      "id": "stretching",
+      "english": "stretching",
+      "translation": "растяжка",
+      "audio": [
+        "audio/words/stretching.wav"
+      ]
+    },
+    {
+      "id": "warm-up",
+      "english": "warm-up",
+      "translation": "разминка",
+      "audio": [
+        "audio/words/warm-up.wav"
+      ]
+    },
+    {
+      "id": "cool-down",
+      "english": "cool-down",
+      "translation": "заминка",
+      "audio": [
+        "audio/words/cool-down.wav"
+      ]
+    },
+    {
+      "id": "steps",
+      "english": "steps",
+      "translation": "шаги",
+      "audio": [
+        "audio/words/steps.wav"
+      ]
+    },
+    {
+      "id": "calories",
+      "english": "calories",
+      "translation": "калории",
+      "audio": [
+        "audio/words/calories.wav"
+      ]
+    },
+    {
+      "id": "heart-rate",
+      "english": "heart rate",
+      "translation": "пульс",
+      "audio": [
+        "audio/words/heart rate.wav"
+      ]
+    },
+    {
+      "id": "tracker",
+      "english": "tracker",
+      "translation": "трекер",
+      "audio": [
+        "audio/words/tracker.wav"
+      ]
+    },
+    {
+      "id": "schedule",
+      "english": "schedule",
+      "translation": "расписание",
+      "audio": [
+        "audio/words/schedule.wav"
+      ]
+    },
+    {
+      "id": "routine",
+      "english": "routine",
+      "translation": "режим",
+      "audio": [
+        "audio/words/routine.wav"
+      ]
+    },
+    {
+      "id": "weights",
+      "english": "weights",
+      "translation": "веса",
+      "audio": [
+        "audio/words/weights.wav"
+      ]
+    }
+  ]
+}

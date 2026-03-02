@@ -1,0 +1,319 @@
+{
+  "theme": "Обратная связь",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "обратная связь",
+      "audio": [
+        "audio/words/feedback.wav"
+      ]
+    },
+    {
+      "id": "communication",
+      "english": "communication",
+      "translation": "коммуникация",
+      "audio": [
+        "audio/words/communication.wav"
+      ]
+    },
+    {
+      "id": "interaction",
+      "english": "interaction",
+      "translation": "взаимодействие",
+      "audio": [
+        "audio/words/interaction.wav"
+      ]
+    },
+    {
+      "id": "dialogue",
+      "english": "dialogue",
+      "translation": "диалог",
+      "audio": [
+        "audio/words/dialogue.wav"
+      ]
+    },
+    {
+      "id": "exchange",
+      "english": "exchange",
+      "translation": "обмен",
+      "audio": [
+        "audio/words/exchange.wav"
+      ]
+    },
+    {
+      "id": "clarity",
+      "english": "clarity",
+      "translation": "ясность",
+      "audio": [
+        "audio/words/clarity.wav"
+      ]
+    },
+    {
+      "id": "alignment",
+      "english": "alignment",
+      "translation": "согласованность",
+      "audio": [
+        "audio/words/alignment.wav"
+      ]
+    },
+    {
+      "id": "transparency",
+      "english": "transparency",
+      "translation": "прозрачность",
+      "audio": [
+        "audio/words/transparency.wav"
+      ]
+    },
+    {
+      "id": "consistency",
+      "english": "consistency",
+      "translation": "последовательность",
+      "audio": [
+        "audio/words/consistency.wav"
+      ]
+    },
+    {
+      "id": "tone",
+      "english": "tone",
+      "translation": "тон",
+      "audio": [
+        "audio/words/tone.wav"
+      ]
+    },
+    {
+      "id": "listening",
+      "english": "listening",
+      "translation": "слушание",
+      "audio": [
+        "audio/words/listening.wav"
+      ]
+    },
+    {
+      "id": "attention",
+      "english": "attention",
+      "translation": "внимание",
+      "audio": [
+        "audio/words/attention.wav"
+      ]
+    },
+    {
+      "id": "response",
+      "english": "response",
+      "translation": "ответ",
+      "audio": [
+        "audio/words/response.wav"
+      ]
+    },
+    {
+      "id": "reaction",
+      "english": "reaction",
+      "translation": "реакция",
+      "audio": [
+        "audio/words/reaction.wav"
+      ]
+    },
+    {
+      "id": "interpretation",
+      "english": "interpretation",
+      "translation": "интерпретация",
+      "audio": [
+        "audio/words/interpretation.wav"
+      ]
+    },
+    {
+      "id": "message",
+      "english": "message",
+      "translation": "сообщение",
+      "audio": [
+        "audio/words/message.wav"
+      ]
+    },
+    {
+      "id": "intent",
+      "english": "intent",
+      "translation": "намерение",
+      "audio": [
+        "audio/words/intent.wav"
+      ]
+    },
+    {
+      "id": "meaning",
+      "english": "meaning",
+      "translation": "смысл",
+      "audio": [
+        "audio/words/meaning.wav"
+      ]
+    },
+    {
+      "id": "context",
+      "english": "context",
+      "translation": "контекст",
+      "audio": [
+        "audio/words/context.wav"
+      ]
+    },
+    {
+      "id": "signal",
+      "english": "signal",
+      "translation": "сигнал",
+      "audio": [
+        "audio/words/signal.wav"
+      ]
+    },
+    {
+      "id": "miscommunication",
+      "english": "miscommunication",
+      "translation": "недопонимание",
+      "audio": [
+        "audio/words/miscommunication.wav"
+      ]
+    },
+    {
+      "id": "ambiguity",
+      "english": "ambiguity",
+      "translation": "двусмысленность",
+      "audio": [
+        "audio/words/ambiguity.wav"
+      ]
+    },
+    {
+      "id": "assumption",
+      "english": "assumption",
+      "translation": "предположение",
+      "audio": [
+        "audio/words/assumption.wav"
+      ]
+    },
+    {
+      "id": "perception",
+      "english": "perception",
+      "translation": "восприятие",
+      "audio": [
+        "audio/words/perception.wav"
+      ]
+    },
+    {
+      "id": "expectation",
+      "english": "expectation",
+      "translation": "ожидание",
+      "audio": [
+        "audio/words/expectation.wav"
+      ]
+    },
+    {
+      "id": "evaluation",
+      "english": "evaluation",
+      "translation": "оценка",
+      "audio": [
+        "audio/words/evaluation.wav"
+      ]
+    },
+    {
+      "id": "assessment",
+      "english": "assessment",
+      "translation": "оценивание",
+      "audio": [
+        "audio/words/assessment.wav"
+      ]
+    },
+    {
+      "id": "recognition",
+      "english": "recognition",
+      "translation": "признание",
+      "audio": [
+        "audio/words/recognition.wav"
+      ]
+    },
+    {
+      "id": "acknowledgment",
+      "english": "acknowledgment",
+      "translation": "подтверждение",
+      "audio": [
+        "audio/words/acknowledgment.wav"
+      ]
+    },
+    {
+      "id": "appreciation",
+      "english": "appreciation",
+      "translation": "признательность",
+      "audio": [
+        "audio/words/appreciation.wav"
+      ]
+    },
+    {
+      "id": "suggestion",
+      "english": "suggestion",
+      "translation": "предложение",
+      "audio": [
+        "audio/words/suggestion.wav"
+      ]
+    },
+    {
+      "id": "recommendation",
+      "english": "recommendation",
+      "translation": "рекомендация",
+      "audio": [
+        "audio/words/recommendation.wav"
+      ]
+    },
+    {
+      "id": "guidance",
+      "english": "guidance",
+      "translation": "наставление",
+      "audio": [
+        "audio/words/guidance.wav"
+      ]
+    },
+    {
+      "id": "direction",
+      "english": "direction",
+      "translation": "направление",
+      "audio": [
+        "audio/words/direction.wav"
+      ]
+    },
+    {
+      "id": "instruction",
+      "english": "instruction",
+      "translation": "инструкция",
+      "audio": [
+        "audio/words/instruction.wav"
+      ]
+    },
+    {
+      "id": "engagement",
+      "english": "engagement",
+      "translation": "вовлечённость",
+      "audio": [
+        "audio/words/engagement.wav"
+      ]
+    },
+    {
+      "id": "participation",
+      "english": "participation",
+      "translation": "участие",
+      "audio": [
+        "audio/words/participation.wav"
+      ]
+    },
+    {
+      "id": "alignment",
+      "english": "alignment",
+      "translation": "согласование",
+      "audio": [
+        "audio/words/alignment.wav"
+      ]
+    },
+    {
+      "id": "follow-up",
+      "english": "follow-up",
+      "translation": "дальнейшее взаимодействие",
+      "audio": [
+        "audio/words/follow-up.wav"
+      ]
+    }
+  ]
+}

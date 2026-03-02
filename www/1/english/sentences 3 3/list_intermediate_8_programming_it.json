@@ -1,0 +1,327 @@
+{
+  "theme": "Программирование и IT",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "programming",
+      "english": "programming",
+      "translation": "программирование",
+      "audio": [
+        "audio/words/programming.wav"
+      ]
+    },
+    {
+      "id": "developer",
+      "english": "developer",
+      "translation": "разработчик",
+      "audio": [
+        "audio/words/developer.wav"
+      ]
+    },
+    {
+      "id": "software",
+      "english": "software",
+      "translation": "программное обеспечение",
+      "audio": [
+        "audio/words/software.wav"
+      ]
+    },
+    {
+      "id": "application",
+      "english": "application",
+      "translation": "приложение",
+      "audio": [
+        "audio/words/application.wav"
+      ]
+    },
+    {
+      "id": "system",
+      "english": "system",
+      "translation": "система",
+      "audio": [
+        "audio/words/system.wav"
+      ]
+    },
+    {
+      "id": "code",
+      "english": "code",
+      "translation": "код",
+      "audio": [
+        "audio/words/code.wav"
+      ]
+    },
+    {
+      "id": "source-code",
+      "english": "source code",
+      "translation": "исходный код",
+      "audio": [
+        "audio/words/source code.wav"
+      ]
+    },
+    {
+      "id": "function",
+      "english": "function",
+      "translation": "функция",
+      "audio": [
+        "audio/words/function.wav"
+      ]
+    },
+    {
+      "id": "method",
+      "english": "method",
+      "translation": "метод",
+      "audio": [
+        "audio/words/method.wav"
+      ]
+    },
+    {
+      "id": "variable",
+      "english": "variable",
+      "translation": "переменная",
+      "audio": [
+        "audio/words/variable.wav"
+      ]
+    },
+    {
+      "id": "logic",
+      "english": "logic",
+      "translation": "логика",
+      "audio": [
+        "audio/words/logic.wav"
+      ]
+    },
+    {
+      "id": "algorithm",
+      "english": "algorithm",
+      "translation": "алгоритм",
+      "audio": [
+        "audio/words/algorithm.wav"
+      ]
+    },
+    {
+      "id": "structure",
+      "english": "structure",
+      "translation": "структура",
+      "audio": [
+        "audio/words/structure.wav"
+      ]
+    },
+    {
+      "id": "data",
+      "english": "data",
+      "translation": "данные",
+      "audio": [
+        "audio/words/data.wav"
+      ]
+    },
+    {
+      "id": "database",
+      "english": "database",
+      "translation": "база данных",
+      "audio": [
+        "audio/words/database.wav"
+      ]
+    },
+    {
+      "id": "server",
+      "english": "server",
+      "translation": "сервер",
+      "audio": [
+        "audio/words/server.wav"
+      ]
+    },
+    {
+      "id": "client",
+      "english": "client",
+      "translation": "клиент",
+      "audio": [
+        "audio/words/client.wav"
+      ]
+    },
+    {
+      "id": "backend",
+      "english": "backend",
+      "translation": "бэкенд",
+      "audio": [
+        "audio/words/backend.wav"
+      ]
+    },
+    {
+      "id": "frontend",
+      "english": "frontend",
+      "translation": "фронтенд",
+      "audio": [
+        "audio/words/frontend.wav"
+      ]
+    },
+    {
+      "id": "api",
+      "english": "API",
+      "translation": "API",
+      "audio": [
+        "audio/words/API.wav"
+      ]
+    },
+    {
+      "id": "request",
+      "english": "request",
+      "translation": "запрос",
+      "audio": [
+        "audio/words/request.wav"
+      ]
+    },
+    {
+      "id": "response",
+      "english": "response",
+      "translation": "ответ",
+      "audio": [
+        "audio/words/response.wav"
+      ]
+    },
+    {
+      "id": "integration",
+      "english": "integration",
+      "translation": "интеграция",
+      "audio": [
+        "audio/words/integration.wav"
+      ]
+    },
+    {
+      "id": "deployment",
+      "english": "deployment",
+      "translation": "развёртывание",
+      "audio": [
+        "audio/words/deployment.wav"
+      ]
+    },
+    {
+      "id": "environment",
+      "english": "environment",
+      "translation": "окружение",
+      "audio": [
+        "audio/words/environment.wav"
+      ]
+    },
+    {
+      "id": "framework",
+      "english": "framework",
+      "translation": "фреймворк",
+      "audio": [
+        "audio/words/framework.wav"
+      ]
+    },
+    {
+      "id": "library",
+      "english": "library",
+      "translation": "библиотека",
+      "audio": [
+        "audio/words/library.wav"
+      ]
+    },
+    {
+      "id": "dependency",
+      "english": "dependency",
+      "translation": "зависимость",
+      "audio": [
+        "audio/words/dependency.wav"
+      ]
+    },
+    {
+      "id": "package",
+      "english": "package",
+      "translation": "пакет",
+      "audio": [
+        "audio/words/package.wav"
+      ]
+    },
+    {
+      "id": "version",
+      "english": "version",
+      "translation": "версия",
+      "audio": [
+        "audio/words/version.wav"
+      ]
+    },
+    {
+      "id": "bug",
+      "english": "bug",
+      "translation": "баг",
+      "audio": [
+        "audio/words/bug.wav"
+      ]
+    },
+    {
+      "id": "issue",
+      "english": "issue",
+      "translation": "проблема",
+      "audio": [
+        "audio/words/issue.wav"
+      ]
+    },
+    {
+      "id": "fix",
+      "english": "fix",
+      "translation": "исправление",
+      "audio": [
+        "audio/words/fix.wav"
+      ]
+    },
+    {
+      "id": "debugging",
+      "english": "debugging",
+      "translation": "отладка",
+      "audio": [
+        "audio/words/debugging.wav"
+      ]
+    },
+    {
+      "id": "testing",
+      "english": "testing",
+      "translation": "тестирование",
+      "audio": [
+        "audio/words/testing.wav"
+      ]
+    },
+    {
+      "id": "performance",
+      "english": "performance",
+      "translation": "производительность",
+      "audio": [
+        "audio/words/performance.wav"
+      ]
+    },
+    {
+      "id": "optimization",
+      "english": "optimization",
+      "translation": "оптимизация",
+      "audio": [
+        "audio/words/optimization.wav"
+      ]
+    },
+    {
+      "id": "security",
+      "english": "security",
+      "translation": "безопасность",
+      "audio": [
+        "audio/words/security.wav"
+      ]
+    },
+    {
+      "id": "access",
+      "english": "access",
+      "translation": "доступ",
+      "audio": [
+        "audio/words/access.wav"
+      ]
+    },
+    {
+      "id": "permission",
+      "english": "permission",
+      "translation": "разрешение",
+      "audio": [
+        "audio/words/permission.wav"
+      ]
+    }
+  ]
+}

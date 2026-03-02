@@ -1,0 +1,287 @@
+{
+  "theme": "Сложные разговоры",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-conflict-escalated-during-the-meeting.",
+      "english": "The conflict escalated during the meeting.",
+      "translation": "Конфликт обострился во время встречи.",
+      "audio": [
+        "audio/sentences/The conflict escalated during the meeting..wav"
+      ]
+    },
+    {
+      "id": "tension-filled-the-room-instantly.",
+      "english": "Tension filled the room instantly.",
+      "translation": "Напряжение мгновенно заполнило комнату.",
+      "audio": [
+        "audio/sentences/Tension filled the room instantly..wav"
+      ]
+    },
+    {
+      "id": "their-disagreement-became-public.",
+      "english": "Their disagreement became public.",
+      "translation": "Их разногласие стало публичным.",
+      "audio": [
+        "audio/sentences/Their disagreement became public..wav"
+      ]
+    },
+    {
+      "id": "the-confrontation-caught-everyone-off-guard.",
+      "english": "The confrontation caught everyone off guard.",
+      "translation": "Противостояние застало всех врасплох.",
+      "audio": [
+        "audio/sentences/The confrontation caught everyone off guard..wav"
+      ]
+    },
+    {
+      "id": "a-clash-occurred-over-priorities.",
+      "english": "A clash occurred over priorities.",
+      "translation": "Произошло столкновение из-за приоритетов.",
+      "audio": [
+        "audio/sentences/A clash occurred over priorities..wav"
+      ]
+    },
+    {
+      "id": "the-issue-started-as-a-misunderstanding.",
+      "english": "The issue started as a misunderstanding.",
+      "translation": "Проблема началась с недопонимания.",
+      "audio": [
+        "audio/sentences/The issue started as a misunderstanding..wav"
+      ]
+    },
+    {
+      "id": "the-topic-required-sensitivity.",
+      "english": "The topic required sensitivity.",
+      "translation": "Тема требовала деликатности.",
+      "audio": [
+        "audio/sentences/The topic required sensitivity..wav"
+      ]
+    },
+    {
+      "id": "discomfort-was-noticeable-throughout-the-talk.",
+      "english": "Discomfort was noticeable throughout the talk.",
+      "translation": "Дискомфорт был заметен на протяжении разговора.",
+      "audio": [
+        "audio/sentences/Discomfort was noticeable throughout the talk..wav"
+      ]
+    },
+    {
+      "id": "awkwardness-followed-the-silence.",
+      "english": "Awkwardness followed the silence.",
+      "translation": "Неловкость последовала за тишиной.",
+      "audio": [
+        "audio/sentences/Awkwardness followed the silence..wav"
+      ]
+    },
+    {
+      "id": "pressure-affected-his-response.",
+      "english": "Pressure affected his response.",
+      "translation": "Давление повлияло на его реакцию.",
+      "audio": [
+        "audio/sentences/Pressure affected his response..wav"
+      ]
+    },
+    {
+      "id": "criticism-changed-the-tone-quickly.",
+      "english": "Criticism changed the tone quickly.",
+      "translation": "Критика быстро изменила тон.",
+      "audio": [
+        "audio/sentences/Criticism changed the tone quickly..wav"
+      ]
+    },
+    {
+      "id": "the-complaint-was-addressed-later.",
+      "english": "The complaint was addressed later.",
+      "translation": "Жалобу рассмотрели позже.",
+      "audio": [
+        "audio/sentences/The complaint was addressed later..wav"
+      ]
+    },
+    {
+      "id": "the-accusation-shocked-the-team.",
+      "english": "The accusation shocked the team.",
+      "translation": "Обвинение шокировало команду.",
+      "audio": [
+        "audio/sentences/The accusation shocked the team..wav"
+      ]
+    },
+    {
+      "id": "blame-was-placed-unfairly.",
+      "english": "Blame was placed unfairly.",
+      "translation": "Вина была возложена несправедливо.",
+      "audio": [
+        "audio/sentences/Blame was placed unfairly..wav"
+      ]
+    },
+    {
+      "id": "responsibility-was-clearly-defined.",
+      "english": "Responsibility was clearly defined.",
+      "translation": "Ответственность была чётко определена.",
+      "audio": [
+        "audio/sentences/Responsibility was clearly defined..wav"
+      ]
+    },
+    {
+      "id": "boundaries-helped-prevent-conflict.",
+      "english": "Boundaries helped prevent conflict.",
+      "translation": "Границы помогли предотвратить конфликт.",
+      "audio": [
+        "audio/sentences/Boundaries helped prevent conflict..wav"
+      ]
+    },
+    {
+      "id": "expectations-were-not-aligned.",
+      "english": "Expectations were not aligned.",
+      "translation": "Ожидания не совпадали.",
+      "audio": [
+        "audio/sentences/Expectations were not aligned..wav"
+      ]
+    },
+    {
+      "id": "the-demands-increased-unexpectedly.",
+      "english": "The demands increased unexpectedly.",
+      "translation": "Требования неожиданно выросли.",
+      "audio": [
+        "audio/sentences/The demands increased unexpectedly..wav"
+      ]
+    },
+    {
+      "id": "several-objections-were-raised.",
+      "english": "Several objections were raised.",
+      "translation": "Было выдвинуто несколько возражений.",
+      "audio": [
+        "audio/sentences/Several objections were raised..wav"
+      ]
+    },
+    {
+      "id": "her-concerns-sounded-reasonable.",
+      "english": "Her concerns sounded reasonable.",
+      "translation": "Её опасения звучали обоснованно.",
+      "audio": [
+        "audio/sentences/Her concerns sounded reasonable..wav"
+      ]
+    },
+    {
+      "id": "they-reached-a-compromise-eventually.",
+      "english": "They reached a compromise eventually.",
+      "translation": "В итоге они пришли к компромиссу.",
+      "audio": [
+        "audio/sentences/They reached a compromise eventually..wav"
+      ]
+    },
+    {
+      "id": "the-resolution-satisfied-both-sides.",
+      "english": "The resolution satisfied both sides.",
+      "translation": "Урегулирование устроило обе стороны.",
+      "audio": [
+        "audio/sentences/The resolution satisfied both sides..wav"
+      ]
+    },
+    {
+      "id": "negotiation-lasted-several-hours.",
+      "english": "Negotiation lasted several hours.",
+      "translation": "Переговоры длились несколько часов.",
+      "audio": [
+        "audio/sentences/Negotiation lasted several hours..wav"
+      ]
+    },
+    {
+      "id": "mediation-helped-ease-tensions.",
+      "english": "Mediation helped ease tensions.",
+      "translation": "Посредничество помогло снизить напряжение.",
+      "audio": [
+        "audio/sentences/Mediation helped ease tensions..wav"
+      ]
+    },
+    {
+      "id": "the-agreement-was-signed-quickly.",
+      "english": "The agreement was signed quickly.",
+      "translation": "Соглашение было подписано быстро.",
+      "audio": [
+        "audio/sentences/The agreement was signed quickly..wav"
+      ]
+    },
+    {
+      "id": "assertiveness-improved-the-dialogue.",
+      "english": "Assertiveness improved the dialogue.",
+      "translation": "Уверенная позиция улучшила диалог.",
+      "audio": [
+        "audio/sentences/Assertiveness improved the dialogue..wav"
+      ]
+    },
+    {
+      "id": "defensiveness-blocked-honest-discussion.",
+      "english": "Defensiveness blocked honest discussion.",
+      "translation": "Оборонительная реакция помешала открытому разговору.",
+      "audio": [
+        "audio/sentences/Defensiveness blocked honest discussion..wav"
+      ]
+    },
+    {
+      "id": "openness-changed-the-atmosphere.",
+      "english": "Openness changed the atmosphere.",
+      "translation": "Открытость изменила атмосферу.",
+      "audio": [
+        "audio/sentences/Openness changed the atmosphere..wav"
+      ]
+    },
+    {
+      "id": "empathy-reduced-the-conflict.",
+      "english": "Empathy reduced the conflict.",
+      "translation": "Эмпатия снизила конфликт.",
+      "audio": [
+        "audio/sentences/Empathy reduced the conflict..wav"
+      ]
+    },
+    {
+      "id": "respect-shaped-the-conversation.",
+      "english": "Respect shaped the conversation.",
+      "translation": "Уважение сформировало разговор.",
+      "audio": [
+        "audio/sentences/Respect shaped the conversation..wav"
+      ]
+    },
+    {
+      "id": "escalation-happened-unexpectedly.",
+      "english": "Escalation happened unexpectedly.",
+      "translation": "Обострение произошло неожиданно.",
+      "audio": [
+        "audio/sentences/Escalation happened unexpectedly..wav"
+      ]
+    },
+    {
+      "id": "de-escalation-restored-calm.",
+      "english": "De-escalation restored calm.",
+      "translation": "Снижение напряжения вернуло спокойствие.",
+      "audio": [
+        "audio/sentences/De-escalation restored calm..wav"
+      ]
+    },
+    {
+      "id": "consequences-became-clear-later.",
+      "english": "Consequences became clear later.",
+      "translation": "Последствия стали ясны позже.",
+      "audio": [
+        "audio/sentences/Consequences became clear later..wav"
+      ]
+    },
+    {
+      "id": "the-outcome-surprised-everyone.",
+      "english": "The outcome surprised everyone.",
+      "translation": "Итог удивил всех.",
+      "audio": [
+        "audio/sentences/The outcome surprised everyone..wav"
+      ]
+    },
+    {
+      "id": "closure-helped-everyone-move-on.",
+      "english": "Closure helped everyone move on.",
+      "translation": "Завершение помогло всем двигаться дальше.",
+      "audio": [
+        "audio/sentences/Closure helped everyone move on..wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "theme": "Эмоции и состояния",
+  "level": "Beginner",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "emotion",
+      "translation": "эмоция"
+    },
+    {
+      "english": "feeling",
+      "translation": "чувство"
+    },
+    {
+      "english": "happy",
+      "translation": "счастливый"
+    },
+    {
+      "english": "sad",
+      "translation": "грустный"
+    },
+    {
+      "english": "angry",
+      "translation": "злой"
+    },
+    {
+      "english": "calm",
+      "translation": "спокойный"
+    },
+    {
+      "english": "excited",
+      "translation": "взволнованный"
+    },
+    {
+      "english": "tired",
+      "translation": "уставший"
+    },
+    {
+      "english": "relaxed",
+      "translation": "расслабленный"
+    },
+    {
+      "english": "nervous",
+      "translation": "нервный"
+    },
+    {
+      "english": "scared",
+      "translation": "испуганный"
+    },
+    {
+      "english": "afraid",
+      "translation": "боящийся"
+    },
+    {
+      "english": "good",
+      "translation": "хорошо"
+    },
+    {
+      "english": "bad",
+      "translation": "плохо"
+    },
+    {
+      "english": "fine",
+      "translation": "нормально"
+    },
+    {
+      "english": "okay",
+      "translation": "окей"
+    },
+    {
+      "english": "stress",
+      "translation": "стресс"
+    },
+    {
+      "english": "stressful",
+      "translation": "стрессовый"
+    },
+    {
+      "english": "bored",
+      "translation": "скучающий"
+    },
+    {
+      "english": "interested",
+      "translation": "заинтересованный"
+    },
+    {
+      "english": "comfortable",
+      "translation": "комфортно"
+    },
+    {
+      "english": "uncomfortable",
+      "translation": "некомфортно"
+    },
+    {
+      "english": "confident",
+      "translation": "уверенный"
+    },
+    {
+      "english": "confused",
+      "translation": "растерянный"
+    },
+    {
+      "english": "surprised",
+      "translation": "удивлённый"
+    },
+    {
+      "english": "worried",
+      "translation": "обеспокоенный"
+    },
+    {
+      "english": "ready",
+      "translation": "готов"
+    },
+    {
+      "english": "busy",
+      "translation": "занят"
+    },
+    {
+      "english": "free",
+      "translation": "свободен"
+    }
+  ]
+}

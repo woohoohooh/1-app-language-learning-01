@@ -1,0 +1,327 @@
+{
+  "theme": "Продажи и переговоры",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "sales-depend-on-long-term-client-trust.",
+      "english": "Sales depend on long-term client trust.",
+      "translation": "Продажи зависят от долгосрочного доверия клиентов.",
+      "audio": [
+        "audio/sentences/Sales depend on long-term client trust..wav"
+      ]
+    },
+    {
+      "id": "the-deal-was-finalized-yesterday.",
+      "english": "The deal was finalized yesterday.",
+      "translation": "Сделка была завершена вчера.",
+      "audio": [
+        "audio/sentences/The deal was finalized yesterday..wav"
+      ]
+    },
+    {
+      "id": "both-sides-signed-the-agreement.",
+      "english": "Both sides signed the agreement.",
+      "translation": "Обе стороны подписали соглашение.",
+      "audio": [
+        "audio/sentences/Both sides signed the agreement..wav"
+      ]
+    },
+    {
+      "id": "the-contract-includes-flexible-terms.",
+      "english": "The contract includes flexible terms.",
+      "translation": "Контракт включает гибкие условия.",
+      "audio": [
+        "audio/sentences/The contract includes flexible terms..wav"
+      ]
+    },
+    {
+      "id": "she-reviewed-the-proposal-carefully.",
+      "english": "She reviewed the proposal carefully.",
+      "translation": "Она внимательно рассмотрела коммерческое предложение.",
+      "audio": [
+        "audio/sentences/She reviewed the proposal carefully..wav"
+      ]
+    },
+    {
+      "id": "their-offer-sounded-reasonable.",
+      "english": "Their offer sounded reasonable.",
+      "translation": "Их предложение звучало разумно.",
+      "audio": [
+        "audio/sentences/Their offer sounded reasonable..wav"
+      ]
+    },
+    {
+      "id": "pricing-affects-perceived-value.",
+      "english": "Pricing affects perceived value.",
+      "translation": "Ценообразование влияет на воспринимаемую ценность.",
+      "audio": [
+        "audio/sentences/Pricing affects perceived value..wav"
+      ]
+    },
+    {
+      "id": "the-price-includes-delivery-costs.",
+      "english": "The price includes delivery costs.",
+      "translation": "Цена включает стоимость доставки.",
+      "audio": [
+        "audio/sentences/The price includes delivery costs..wav"
+      ]
+    },
+    {
+      "id": "the-discount-expires-tomorrow.",
+      "english": "The discount expires tomorrow.",
+      "translation": "Скидка заканчивается завтра.",
+      "audio": [
+        "audio/sentences/The discount expires tomorrow..wav"
+      ]
+    },
+    {
+      "id": "the-margin-remains-stable-this-quarter.",
+      "english": "The margin remains stable this quarter.",
+      "translation": "Маржа остаётся стабильной в этом квартале.",
+      "audio": [
+        "audio/sentences/The margin remains stable this quarter..wav"
+      ]
+    },
+    {
+      "id": "the-client-requested-a-follow-up.",
+      "english": "The client requested a follow-up.",
+      "translation": "Клиент запросил повторный контакт.",
+      "audio": [
+        "audio/sentences/The client requested a follow-up..wav"
+      ]
+    },
+    {
+      "id": "each-customer-values-transparency.",
+      "english": "Each customer values transparency.",
+      "translation": "Каждый покупатель ценит прозрачность.",
+      "audio": [
+        "audio/sentences/Each customer values transparency..wav"
+      ]
+    },
+    {
+      "id": "the-prospect-showed-strong-interest.",
+      "english": "The prospect showed strong interest.",
+      "translation": "Потенциальный клиент проявил сильный интерес.",
+      "audio": [
+        "audio/sentences/The prospect showed strong interest..wav"
+      ]
+    },
+    {
+      "id": "stakeholders-influenced-the-decision.",
+      "english": "Stakeholders influenced the decision.",
+      "translation": "Заинтересованные стороны повлияли на решение.",
+      "audio": [
+        "audio/sentences/Stakeholders influenced the decision..wav"
+      ]
+    },
+    {
+      "id": "the-decision-maker-approved-the-plan.",
+      "english": "The decision maker approved the plan.",
+      "translation": "Лицо, принимающее решение, одобрило план.",
+      "audio": [
+        "audio/sentences/The decision maker approved the plan..wav"
+      ]
+    },
+    {
+      "id": "negotiation-requires-patience-and-focus.",
+      "english": "Negotiation requires patience and focus.",
+      "translation": "Переговоры требуют терпения и концентрации.",
+      "audio": [
+        "audio/sentences/Negotiation requires patience and focus..wav"
+      ]
+    },
+    {
+      "id": "the-discussion-clarified-priorities.",
+      "english": "The discussion clarified priorities.",
+      "translation": "Обсуждение прояснило приоритеты.",
+      "audio": [
+        "audio/sentences/The discussion clarified priorities..wav"
+      ]
+    },
+    {
+      "id": "the-terms-seemed-acceptable.",
+      "english": "The terms seemed acceptable.",
+      "translation": "Условия показались приемлемыми.",
+      "audio": [
+        "audio/sentences/The terms seemed acceptable..wav"
+      ]
+    },
+    {
+      "id": "conditions-may-change-after-review.",
+      "english": "Conditions may change after review.",
+      "translation": "Условия могут измениться после проверки.",
+      "audio": [
+        "audio/sentences/Conditions may change after review..wav"
+      ]
+    },
+    {
+      "id": "all-requirements-were-documented-clearly.",
+      "english": "All requirements were documented clearly.",
+      "translation": "Все требования были чётко задокументированы.",
+      "audio": [
+        "audio/sentences/All requirements were documented clearly..wav"
+      ]
+    },
+    {
+      "id": "the-objection-slowed-down-the-negotiation.",
+      "english": "The objection slowed down the negotiation.",
+      "translation": "Возражение замедлило ход переговоров.",
+      "audio": [
+        "audio/sentences/The objection slowed down the negotiation..wav"
+      ]
+    },
+    {
+      "id": "she-shared-her-concern-about-pricing.",
+      "english": "She shared her concern about pricing.",
+      "translation": "Она поделилась своим опасением по поводу цены.",
+      "audio": [
+        "audio/sentences/She shared her concern about pricing..wav"
+      ]
+    },
+    {
+      "id": "they-responded-with-a-counteroffer.",
+      "english": "They responded with a counteroffer.",
+      "translation": "Они ответили встречным предложением.",
+      "audio": [
+        "audio/sentences/They responded with a counteroffer..wav"
+      ]
+    },
+    {
+      "id": "both-sides-accepted-a-compromise.",
+      "english": "Both sides accepted a compromise.",
+      "translation": "Обе стороны приняли компромисс.",
+      "audio": [
+        "audio/sentences/Both sides accepted a compromise..wav"
+      ]
+    },
+    {
+      "id": "the-concession-helped-move-talks-forward.",
+      "english": "The concession helped move talks forward.",
+      "translation": "Уступка помогла продвинуть переговоры.",
+      "audio": [
+        "audio/sentences/The concession helped move talks forward..wav"
+      ]
+    },
+    {
+      "id": "final-approval-came-from-management.",
+      "english": "Final approval came from management.",
+      "translation": "Окончательное утверждение пришло от руководства.",
+      "audio": [
+        "audio/sentences/Final approval came from management..wav"
+      ]
+    },
+    {
+      "id": "we-received-confirmation-by-email.",
+      "english": "We received confirmation by email.",
+      "translation": "Мы получили подтверждение по электронной почте.",
+      "audio": [
+        "audio/sentences/We received confirmation by email..wav"
+      ]
+    },
+    {
+      "id": "the-signature-finalized-the-agreement.",
+      "english": "The signature finalized the agreement.",
+      "translation": "Подпись завершила соглашение.",
+      "audio": [
+        "audio/sentences/The signature finalized the agreement..wav"
+      ]
+    },
+    {
+      "id": "closing-required-careful-coordination.",
+      "english": "Closing required careful coordination.",
+      "translation": "Закрытие сделки потребовало тщательной координации.",
+      "audio": [
+        "audio/sentences/Closing required careful coordination..wav"
+      ]
+    },
+    {
+      "id": "a-follow-up-improved-response-rates.",
+      "english": "A follow-up improved response rates.",
+      "translation": "Дополнительный контакт повысил отклик.",
+      "audio": [
+        "audio/sentences/A follow-up improved response rates..wav"
+      ]
+    },
+    {
+      "id": "the-pipeline-shows-future-opportunities.",
+      "english": "The pipeline shows future opportunities.",
+      "translation": "Воронка продаж показывает будущие возможности.",
+      "audio": [
+        "audio/sentences/The pipeline shows future opportunities..wav"
+      ]
+    },
+    {
+      "id": "the-forecast-predicts-steady-growth.",
+      "english": "The forecast predicts steady growth.",
+      "translation": "Прогноз предсказывает стабильный рост.",
+      "audio": [
+        "audio/sentences/The forecast predicts steady growth..wav"
+      ]
+    },
+    {
+      "id": "revenue-exceeded-expectations-this-quarter.",
+      "english": "Revenue exceeded expectations this quarter.",
+      "translation": "Выручка превысила ожидания в этом квартале.",
+      "audio": [
+        "audio/sentences/Revenue exceeded expectations this quarter..wav"
+      ]
+    },
+    {
+      "id": "commission-depends-on-performance.",
+      "english": "Commission depends on performance.",
+      "translation": "Комиссия зависит от результатов.",
+      "audio": [
+        "audio/sentences/Commission depends on performance..wav"
+      ]
+    },
+    {
+      "id": "she-reached-her-quota-early.",
+      "english": "She reached her quota early.",
+      "translation": "Она выполнила план продаж раньше срока.",
+      "audio": [
+        "audio/sentences/She reached her quota early..wav"
+      ]
+    },
+    {
+      "id": "strong-relationships-drive-repeat-business.",
+      "english": "Strong relationships drive repeat business.",
+      "translation": "Крепкие отношения стимулируют повторные продажи.",
+      "audio": [
+        "audio/sentences/Strong relationships drive repeat business..wav"
+      ]
+    },
+    {
+      "id": "trust-develops-through-consistency.",
+      "english": "Trust develops through consistency.",
+      "translation": "Доверие формируется через последовательность.",
+      "audio": [
+        "audio/sentences/Trust develops through consistency..wav"
+      ]
+    },
+    {
+      "id": "long-term-strategy-beats-quick-wins.",
+      "english": "Long-term strategy beats quick wins.",
+      "translation": "Долгосрочная стратегия важнее быстрых побед.",
+      "audio": [
+        "audio/sentences/Long-term strategy beats quick wins..wav"
+      ]
+    },
+    {
+      "id": "the-partnership-expanded-market-reach.",
+      "english": "The partnership expanded market reach.",
+      "translation": "Партнёрство расширило охват рынка.",
+      "audio": [
+        "audio/sentences/The partnership expanded market reach..wav"
+      ]
+    },
+    {
+      "id": "renewal-discussions-start-next-month.",
+      "english": "Renewal discussions start next month.",
+      "translation": "Обсуждение продления начнётся в следующем месяце.",
+      "audio": [
+        "audio/sentences/Renewal discussions start next month..wav"
+      ]
+    }
+  ]
+}

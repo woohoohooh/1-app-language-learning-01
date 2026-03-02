@@ -1,0 +1,255 @@
+{
+  "theme": "Вежливость и дистанция",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "politeness",
+      "english": "politeness",
+      "translation": "вежливость",
+      "audio": [
+        "audio/words/politeness.wav"
+      ]
+    },
+    {
+      "id": "courtesy",
+      "english": "courtesy",
+      "translation": "учтивость",
+      "audio": [
+        "audio/words/courtesy.wav"
+      ]
+    },
+    {
+      "id": "respect",
+      "english": "respect",
+      "translation": "уважение",
+      "audio": [
+        "audio/words/respect.wav"
+      ]
+    },
+    {
+      "id": "formality",
+      "english": "formality",
+      "translation": "формальность",
+      "audio": [
+        "audio/words/formality.wav"
+      ]
+    },
+    {
+      "id": "informality",
+      "english": "informality",
+      "translation": "неформальность",
+      "audio": [
+        "audio/words/informality.wav"
+      ]
+    },
+    {
+      "id": "distance",
+      "english": "distance",
+      "translation": "дистанция",
+      "audio": [
+        "audio/words/distance.wav"
+      ]
+    },
+    {
+      "id": "boundary",
+      "english": "boundary",
+      "translation": "граница",
+      "audio": [
+        "audio/words/boundary.wav"
+      ]
+    },
+    {
+      "id": "professionalism",
+      "english": "professionalism",
+      "translation": "профессионализм",
+      "audio": [
+        "audio/words/professionalism.wav"
+      ]
+    },
+    {
+      "id": "neutrality",
+      "english": "neutrality",
+      "translation": "нейтральность",
+      "audio": [
+        "audio/words/neutrality.wav"
+      ]
+    },
+    {
+      "id": "objectivity",
+      "english": "objectivity",
+      "translation": "объективность",
+      "audio": [
+        "audio/words/objectivity.wav"
+      ]
+    },
+    {
+      "id": "tone",
+      "english": "tone",
+      "translation": "тон",
+      "audio": [
+        "audio/words/tone.wav"
+      ]
+    },
+    {
+      "id": "manner",
+      "english": "manner",
+      "translation": "манера",
+      "audio": [
+        "audio/words/manner.wav"
+      ]
+    },
+    {
+      "id": "attitude",
+      "english": "attitude",
+      "translation": "отношение",
+      "audio": [
+        "audio/words/attitude.wav"
+      ]
+    },
+    {
+      "id": "approach",
+      "english": "approach",
+      "translation": "подход",
+      "audio": [
+        "audio/words/approach.wav"
+      ]
+    },
+    {
+      "id": "consideration",
+      "english": "consideration",
+      "translation": "тактичность",
+      "audio": [
+        "audio/words/consideration.wav"
+      ]
+    },
+    {
+      "id": "tact",
+      "english": "tact",
+      "translation": "такт",
+      "audio": [
+        "audio/words/tact.wav"
+      ]
+    },
+    {
+      "id": "diplomacy",
+      "english": "diplomacy",
+      "translation": "дипломатичность",
+      "audio": [
+        "audio/words/diplomacy.wav"
+      ]
+    },
+    {
+      "id": "restraint",
+      "english": "restraint",
+      "translation": "сдержанность",
+      "audio": [
+        "audio/words/restraint.wav"
+      ]
+    },
+    {
+      "id": "discretion",
+      "english": "discretion",
+      "translation": "деликатность",
+      "audio": [
+        "audio/words/discretion.wav"
+      ]
+    },
+    {
+      "id": "directness",
+      "english": "directness",
+      "translation": "прямота",
+      "audio": [
+        "audio/words/directness.wav"
+      ]
+    },
+    {
+      "id": "indirectness",
+      "english": "indirectness",
+      "translation": "косвенность",
+      "audio": [
+        "audio/words/indirectness.wav"
+      ]
+    },
+    {
+      "id": "softness",
+      "english": "softness",
+      "translation": "мягкость",
+      "audio": [
+        "audio/words/softness.wav"
+      ]
+    },
+    {
+      "id": "firmness",
+      "english": "firmness",
+      "translation": "твёрдость",
+      "audio": [
+        "audio/words/firmness.wav"
+      ]
+    },
+    {
+      "id": "appropriateness",
+      "english": "appropriateness",
+      "translation": "уместность",
+      "audio": [
+        "audio/words/appropriateness.wav"
+      ]
+    },
+    {
+      "id": "context",
+      "english": "context",
+      "translation": "контекст",
+      "audio": [
+        "audio/words/context.wav"
+      ]
+    },
+    {
+      "id": "hierarchy",
+      "english": "hierarchy",
+      "translation": "иерархия",
+      "audio": [
+        "audio/words/hierarchy.wav"
+      ]
+    },
+    {
+      "id": "seniority",
+      "english": "seniority",
+      "translation": "старшинство",
+      "audio": [
+        "audio/words/seniority.wav"
+      ]
+    },
+    {
+      "id": "distance-keeping",
+      "english": "distance-keeping",
+      "translation": "соблюдение дистанции",
+      "audio": [
+        "audio/words/distance-keeping.wav"
+      ]
+    },
+    {
+      "id": "familiarity",
+      "english": "familiarity",
+      "translation": "фамильярность",
+      "audio": [
+        "audio/words/familiarity.wav"
+      ]
+    },
+    {
+      "id": "detachment",
+      "english": "detachment",
+      "translation": "отстранённость",
+      "audio": [
+        "audio/words/detachment.wav"
+      ]
+    },
+    {
+      "id": "reserve",
+      "english": "reserve",
+      "translation": "сдержанность",
+      "audio": [
+        "audio/words/reserve.wav"
+      ]
+    }
+  ]
+}

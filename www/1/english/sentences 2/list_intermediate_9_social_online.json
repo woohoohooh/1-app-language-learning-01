@@ -1,0 +1,182 @@
+{
+  "theme": "Социальные сети",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "social-media",
+      "english": "social media",
+      "translation": "социальные сети"
+    },
+    {
+      "id": "platform",
+      "english": "platform",
+      "translation": "платформа"
+    },
+    {
+      "id": "profile",
+      "english": "profile",
+      "translation": "профиль"
+    },
+    {
+      "id": "account",
+      "english": "account",
+      "translation": "аккаунт"
+    },
+    {
+      "id": "username",
+      "english": "username",
+      "translation": "имя пользователя"
+    },
+    {
+      "id": "story",
+      "english": "story",
+      "translation": "история"
+    },
+    {
+      "id": "feed",
+      "english": "feed",
+      "translation": "лента"
+    },
+    {
+      "id": "content",
+      "english": "content",
+      "translation": "контент"
+    },
+    {
+      "id": "upload",
+      "english": "upload",
+      "translation": "загружать"
+    },
+    {
+      "id": "comment",
+      "english": "comment",
+      "translation": "комментарий"
+    },
+    {
+      "id": "reply",
+      "english": "reply",
+      "translation": "ответ"
+    },
+    {
+      "id": "message",
+      "english": "message",
+      "translation": "сообщение"
+    },
+    {
+      "id": "chat",
+      "english": "chat",
+      "translation": "чат"
+    },
+    {
+      "id": "notification",
+      "english": "notification",
+      "translation": "уведомление"
+    },
+    {
+      "id": "like",
+      "english": "like",
+      "translation": "лайк"
+    },
+    {
+      "id": "reaction",
+      "english": "reaction",
+      "translation": "реакция"
+    },
+    {
+      "id": "post",
+      "english": "post",
+      "translation": "пост"
+    },
+    {
+      "id": "share",
+      "english": "share",
+      "translation": "делиться"
+    },
+    {
+      "id": "report",
+      "english": "report",
+      "translation": "жалоба"
+    },
+    {
+      "id": "repost",
+      "english": "repost",
+      "translation": "репост"
+    },
+    {
+      "id": "save",
+      "english": "save",
+      "translation": "сохранять"
+    },
+    {
+      "id": "follower",
+      "english": "follower",
+      "translation": "подписчик"
+    },
+    {
+      "id": "following",
+      "english": "following",
+      "translation": "подписки"
+    },
+    {
+      "id": "subscribe",
+      "english": "subscribe",
+      "translation": "подписываться"
+    },
+    {
+      "id": "unsubscribe",
+      "english": "unsubscribe",
+      "translation": "отписываться"
+    },
+    {
+      "id": "block",
+      "english": "block",
+      "translation": "блокировать"
+    },
+    {
+      "id": "online",
+      "english": "online",
+      "translation": "в сети"
+    },
+    {
+      "id": "offline",
+      "english": "offline",
+      "translation": "не в сети"
+    },
+    {
+      "id": "status",
+      "english": "status",
+      "translation": "статус"
+    },
+    {
+      "id": "privacy",
+      "english": "privacy",
+      "translation": "приватность"
+    },
+    {
+      "id": "settings",
+      "english": "settings",
+      "translation": "настройки"
+    },
+    {
+      "id": "trend",
+      "english": "trend",
+      "translation": "тренд"
+    },
+    {
+      "id": "viral",
+      "english": "viral",
+      "translation": "вирусный"
+    },
+    {
+      "id": "community",
+      "english": "community",
+      "translation": "сообщество"
+    },
+    {
+      "id": "moderation",
+      "english": "moderation",
+      "translation": "модерация"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "theme": "Тело и здоровье",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "body",
+      "english": "body",
+      "translation": "тело",
+      "audio": [
+        "audio/words/body.wav"
+      ]
+    },
+    {
+      "id": "head",
+      "english": "head",
+      "translation": "голова",
+      "audio": [
+        "audio/words/head.wav"
+      ]
+    },
+    {
+      "id": "face",
+      "english": "face",
+      "translation": "лицо",
+      "audio": [
+        "audio/words/face.wav"
+      ]
+    },
+    {
+      "id": "hair",
+      "english": "hair",
+      "translation": "волосы",
+      "audio": [
+        "audio/words/hair.wav"
+      ]
+    },
+    {
+      "id": "eye",
+      "english": "eye",
+      "translation": "глаз",
+      "audio": [
+        "audio/words/eye.wav"
+      ]
+    },
+    {
+      "id": "ear",
+      "english": "ear",
+      "translation": "ухо",
+      "audio": [
+        "audio/words/ear.wav"
+      ]
+    },
+    {
+      "id": "nose",
+      "english": "nose",
+      "translation": "нос",
+      "audio": [
+        "audio/words/nose.wav"
+      ]
+    },
+    {
+      "id": "mouth",
+      "english": "mouth",
+      "translation": "рот",
+      "audio": [
+        "audio/words/mouth.wav"
+      ]
+    },
+    {
+      "id": "tooth",
+      "english": "tooth",
+      "translation": "зуб",
+      "audio": [
+        "audio/words/tooth.wav"
+      ]
+    },
+    {
+      "id": "neck",
+      "english": "neck",
+      "translation": "шея",
+      "audio": [
+        "audio/words/neck.wav"
+      ]
+    },
+    {
+      "id": "shoulder",
+      "english": "shoulder",
+      "translation": "плечо",
+      "audio": [
+        "audio/words/shoulder.wav"
+      ]
+    },
+    {
+      "id": "arm",
+      "english": "arm",
+      "translation": "рука",
+      "audio": [
+        "audio/words/arm.wav"
+      ]
+    },
+    {
+      "id": "hand",
+      "english": "hand",
+      "translation": "кисть",
+      "audio": [
+        "audio/words/hand.wav"
+      ]
+    },
+    {
+      "id": "finger",
+      "english": "finger",
+      "translation": "палец",
+      "audio": [
+        "audio/words/finger.wav"
+      ]
+    },
+    {
+      "id": "chest",
+      "english": "chest",
+      "translation": "грудь",
+      "audio": [
+        "audio/words/chest.wav"
+      ]
+    },
+    {
+      "id": "back",
+      "english": "back",
+      "translation": "спина",
+      "audio": [
+        "audio/words/back.wav"
+      ]
+    },
+    {
+      "id": "stomach",
+      "english": "stomach",
+      "translation": "живот",
+      "audio": [
+        "audio/words/stomach.wav"
+      ]
+    },
+    {
+      "id": "leg",
+      "english": "leg",
+      "translation": "нога",
+      "audio": [
+        "audio/words/leg.wav"
+      ]
+    },
+    {
+      "id": "knee",
+      "english": "knee",
+      "translation": "колено",
+      "audio": [
+        "audio/words/knee.wav"
+      ]
+    },
+    {
+      "id": "foot",
+      "english": "foot",
+      "translation": "ступня",
+      "audio": [
+        "audio/words/foot.wav"
+      ]
+    },
+    {
+      "id": "health",
+      "english": "health",
+      "translation": "здоровье",
+      "audio": [
+        "audio/words/health.wav"
+      ]
+    },
+    {
+      "id": "healthy",
+      "english": "healthy",
+      "translation": "здоровый",
+      "audio": [
+        "audio/words/healthy.wav"
+      ]
+    },
+    {
+      "id": "sick",
+      "english": "sick",
+      "translation": "больной",
+      "audio": [
+        "audio/words/sick.wav"
+      ]
+    },
+    {
+      "id": "pain",
+      "english": "pain",
+      "translation": "боль",
+      "audio": [
+        "audio/words/pain.wav"
+      ]
+    },
+    {
+      "id": "hurt",
+      "english": "hurt",
+      "translation": "болеть",
+      "audio": [
+        "audio/words/hurt.wav"
+      ]
+    },
+    {
+      "id": "doctor",
+      "english": "doctor",
+      "translation": "врач",
+      "audio": [
+        "audio/words/doctor.wav"
+      ]
+    },
+    {
+      "id": "medicine",
+      "english": "medicine",
+      "translation": "лекарство",
+      "audio": [
+        "audio/words/medicine.wav"
+      ]
+    },
+    {
+      "id": "hospital",
+      "english": "hospital",
+      "translation": "больница",
+      "audio": [
+        "audio/words/hospital.wav"
+      ]
+    },
+    {
+      "id": "sleep",
+      "english": "sleep",
+      "translation": "сон",
+      "audio": [
+        "audio/words/sleep.wav"
+      ]
+    },
+    {
+      "id": "rest",
+      "english": "rest",
+      "translation": "отдых",
+      "audio": [
+        "audio/words/rest.wav"
+      ]
+    }
+  ]
+}

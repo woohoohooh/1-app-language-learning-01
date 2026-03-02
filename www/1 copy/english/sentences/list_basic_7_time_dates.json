@@ -1,0 +1,335 @@
+{
+  "theme": "Время и даты",
+  "level": "Beginner",
+  "name": "Words",
+  "items": [
+    {
+      "id": "time-moves-very-fast.",
+      "english": "Time moves very fast.",
+      "translation": "Время идёт очень быстро.",
+      "audio": [
+        "audio/sentences/Time moves very fast..wav"
+      ]
+    },
+    {
+      "id": "the-date-is-correct.",
+      "english": "The date is correct.",
+      "translation": "Дата указана правильно.",
+      "audio": [
+        "audio/sentences/The date is correct..wav"
+      ]
+    },
+    {
+      "id": "the-day-starts-early.",
+      "english": "The day starts early.",
+      "translation": "День начинается рано.",
+      "audio": [
+        "audio/sentences/The day starts early..wav"
+      ]
+    },
+    {
+      "id": "the-night-feels-calm.",
+      "english": "The night feels calm.",
+      "translation": "Ночь кажется спокойной.",
+      "audio": [
+        "audio/sentences/The night feels calm..wav"
+      ]
+    },
+    {
+      "id": "the-morning-is-cold.",
+      "english": "The morning is cold.",
+      "translation": "Утро холодное.",
+      "audio": [
+        "audio/sentences/The morning is cold..wav"
+      ]
+    },
+    {
+      "id": "the-evening-feels-relaxing.",
+      "english": "The evening feels relaxing.",
+      "translation": "Вечер кажется расслабляющим.",
+      "audio": [
+        "audio/sentences/The evening feels relaxing..wav"
+      ]
+    },
+    {
+      "id": "today-is-a-good-day.",
+      "english": "Today is a good day.",
+      "translation": "Сегодня хороший день.",
+      "audio": [
+        "audio/sentences/Today is a good day..wav"
+      ]
+    },
+    {
+      "id": "tomorrow-feels-important.",
+      "english": "Tomorrow feels important.",
+      "translation": "Завтра кажется важным.",
+      "audio": [
+        "audio/sentences/Tomorrow feels important..wav"
+      ]
+    },
+    {
+      "id": "yesterday-was-busy.",
+      "english": "Yesterday was busy.",
+      "translation": "Вчера было занято.",
+      "audio": [
+        "audio/sentences/Yesterday was busy..wav"
+      ]
+    },
+    {
+      "id": "the-week-ends-soon.",
+      "english": "The week ends soon.",
+      "translation": "Неделя скоро закончится.",
+      "audio": [
+        "audio/sentences/The week ends soon..wav"
+      ]
+    },
+    {
+      "id": "this-month-feels-fast.",
+      "english": "This month feels fast.",
+      "translation": "Этот месяц проходит быстро.",
+      "audio": [
+        "audio/sentences/This month feels fast..wav"
+      ]
+    },
+    {
+      "id": "the-year-changes-quickly.",
+      "english": "The year changes quickly.",
+      "translation": "Год меняется быстро.",
+      "audio": [
+        "audio/sentences/The year changes quickly..wav"
+      ]
+    },
+    {
+      "id": "weekdays-feel-busy.",
+      "english": "Weekdays feel busy.",
+      "translation": "Будние дни кажутся загруженными.",
+      "audio": [
+        "audio/sentences/Weekdays feel busy..wav"
+      ]
+    },
+    {
+      "id": "the-weekend-feels-short.",
+      "english": "The weekend feels short.",
+      "translation": "Выходные кажутся короткими.",
+      "audio": [
+        "audio/sentences/The weekend feels short..wav"
+      ]
+    },
+    {
+      "id": "monday-starts-the-week.",
+      "english": "Monday starts the week.",
+      "translation": "Понедельник начинает неделю.",
+      "audio": [
+        "audio/sentences/Monday starts the week..wav"
+      ]
+    },
+    {
+      "id": "tuesday-feels-normal.",
+      "english": "Tuesday feels normal.",
+      "translation": "Вторник кажется обычным.",
+      "audio": [
+        "audio/sentences/Tuesday feels normal..wav"
+      ]
+    },
+    {
+      "id": "wednesday-is-busy.",
+      "english": "Wednesday is busy.",
+      "translation": "Среда загруженная.",
+      "audio": [
+        "audio/sentences/Wednesday is busy..wav"
+      ]
+    },
+    {
+      "id": "thursday-feels-productive.",
+      "english": "Thursday feels productive.",
+      "translation": "Четверг кажется продуктивным.",
+      "audio": [
+        "audio/sentences/Thursday feels productive..wav"
+      ]
+    },
+    {
+      "id": "friday-feels-exciting.",
+      "english": "Friday feels exciting.",
+      "translation": "Пятница кажется радостной.",
+      "audio": [
+        "audio/sentences/Friday feels exciting..wav"
+      ]
+    },
+    {
+      "id": "saturday-is-relaxing.",
+      "english": "Saturday is relaxing.",
+      "translation": "Суббота расслабляющая.",
+      "audio": [
+        "audio/sentences/Saturday is relaxing..wav"
+      ]
+    },
+    {
+      "id": "sunday-feels-calm.",
+      "english": "Sunday feels calm.",
+      "translation": "Воскресенье кажется спокойным.",
+      "audio": [
+        "audio/sentences/Sunday feels calm..wav"
+      ]
+    },
+    {
+      "id": "january-feels-cold.",
+      "english": "January feels cold.",
+      "translation": "Январь кажется холодным.",
+      "audio": [
+        "audio/sentences/January feels cold..wav"
+      ]
+    },
+    {
+      "id": "february-is-short.",
+      "english": "February is short.",
+      "translation": "Февраль короткий.",
+      "audio": [
+        "audio/sentences/February is short..wav"
+      ]
+    },
+    {
+      "id": "march-brings-change.",
+      "english": "March brings change.",
+      "translation": "Март приносит перемены.",
+      "audio": [
+        "audio/sentences/March brings change..wav"
+      ]
+    },
+    {
+      "id": "april-feels-fresh.",
+      "english": "April feels fresh.",
+      "translation": "Апрель кажется свежим.",
+      "audio": [
+        "audio/sentences/April feels fresh..wav"
+      ]
+    },
+    {
+      "id": "may-feels-warm.",
+      "english": "May feels warm.",
+      "translation": "Май кажется тёплым.",
+      "audio": [
+        "audio/sentences/May feels warm..wav"
+      ]
+    },
+    {
+      "id": "june-feels-sunny.",
+      "english": "June feels sunny.",
+      "translation": "Июнь кажется солнечным.",
+      "audio": [
+        "audio/sentences/June feels sunny..wav"
+      ]
+    },
+    {
+      "id": "july-is-very-hot.",
+      "english": "July is very hot.",
+      "translation": "Июль очень жаркий.",
+      "audio": [
+        "audio/sentences/July is very hot..wav"
+      ]
+    },
+    {
+      "id": "august-feels-slow.",
+      "english": "August feels slow.",
+      "translation": "Август кажется медленным.",
+      "audio": [
+        "audio/sentences/August feels slow..wav"
+      ]
+    },
+    {
+      "id": "september-feels-fresh.",
+      "english": "September feels fresh.",
+      "translation": "Сентябрь кажется свежим.",
+      "audio": [
+        "audio/sentences/September feels fresh..wav"
+      ]
+    },
+    {
+      "id": "october-feels-cool.",
+      "english": "October feels cool.",
+      "translation": "Октябрь кажется прохладным.",
+      "audio": [
+        "audio/sentences/October feels cool..wav"
+      ]
+    },
+    {
+      "id": "november-feels-quiet.",
+      "english": "November feels quiet.",
+      "translation": "Ноябрь кажется тихим.",
+      "audio": [
+        "audio/sentences/November feels quiet..wav"
+      ]
+    },
+    {
+      "id": "december-feels-festive.",
+      "english": "December feels festive.",
+      "translation": "Декабрь кажется праздничным.",
+      "audio": [
+        "audio/sentences/December feels festive..wav"
+      ]
+    },
+    {
+      "id": "an-hour-feels-short.",
+      "english": "An hour feels short.",
+      "translation": "Час кажется коротким.",
+      "audio": [
+        "audio/sentences/An hour feels short..wav"
+      ]
+    },
+    {
+      "id": "one-minute-passed.",
+      "english": "One minute passed.",
+      "translation": "Одна минута прошла.",
+      "audio": [
+        "audio/sentences/One minute passed..wav"
+      ]
+    },
+    {
+      "id": "a-second-feels-fast.",
+      "english": "A second feels fast.",
+      "translation": "Секунда проходит быстро.",
+      "audio": [
+        "audio/sentences/A second feels fast..wav"
+      ]
+    },
+    {
+      "id": "the-clock-shows-time.",
+      "english": "The clock shows time.",
+      "translation": "Часы показывают время.",
+      "audio": [
+        "audio/sentences/The clock shows time..wav"
+      ]
+    },
+    {
+      "id": "the-calendar-is-full.",
+      "english": "The calendar is full.",
+      "translation": "Календарь заполнен.",
+      "audio": [
+        "audio/sentences/The calendar is full..wav"
+      ]
+    },
+    {
+      "id": "i-arrive-early.",
+      "english": "I arrive early.",
+      "translation": "Я прихожу рано.",
+      "audio": [
+        "audio/sentences/I arrive early..wav"
+      ]
+    },
+    {
+      "id": "it-feels-late-now.",
+      "english": "It feels late now.",
+      "translation": "Сейчас уже поздно.",
+      "audio": [
+        "audio/sentences/It feels late now..wav"
+      ]
+    },
+    {
+      "id": "i-am-ready-now.",
+      "english": "I am ready now.",
+      "translation": "Я готов сейчас.",
+      "audio": [
+        "audio/sentences/I am ready now..wav"
+      ]
+    }
+  ]
+}

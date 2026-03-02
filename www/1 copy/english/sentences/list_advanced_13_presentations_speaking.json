@@ -1,0 +1,287 @@
+{
+  "theme": "Презентации и выступления",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-presentation-highlights-key-insights.",
+      "english": "The presentation highlights key insights.",
+      "translation": "Презентация подчёркивает ключевые выводы.",
+      "audio": [
+        "audio/sentences/The presentation highlights key insights..wav"
+      ]
+    },
+    {
+      "id": "the-speaker-engaged-everyone-immediately.",
+      "english": "The speaker engaged everyone immediately.",
+      "translation": "Выступающий сразу вовлёк всех.",
+      "audio": [
+        "audio/sentences/The speaker engaged everyone immediately..wav"
+      ]
+    },
+    {
+      "id": "the-audience-listened-attentively.",
+      "english": "The audience listened attentively.",
+      "translation": "Аудитория слушала внимательно.",
+      "audio": [
+        "audio/sentences/The audience listened attentively..wav"
+      ]
+    },
+    {
+      "id": "her-speech-inspired-the-team.",
+      "english": "Her speech inspired the team.",
+      "translation": "Её речь вдохновила команду.",
+      "audio": [
+        "audio/sentences/Her speech inspired the team..wav"
+      ]
+    },
+    {
+      "id": "the-talk-focused-on-results.",
+      "english": "The talk focused on results.",
+      "translation": "Доклад был сосредоточен на результатах.",
+      "audio": [
+        "audio/sentences/The talk focused on results..wav"
+      ]
+    },
+    {
+      "id": "this-slide-explains-the-process.",
+      "english": "This slide explains the process.",
+      "translation": "Этот слайд объясняет процесс.",
+      "audio": [
+        "audio/sentences/This slide explains the process..wav"
+      ]
+    },
+    {
+      "id": "the-deck-was-shared-beforehand.",
+      "english": "The deck was shared beforehand.",
+      "translation": "Презентацию разослали заранее.",
+      "audio": [
+        "audio/sentences/The deck was shared beforehand..wav"
+      ]
+    },
+    {
+      "id": "visuals-reinforced-the-main-message.",
+      "english": "Visuals reinforced the main message.",
+      "translation": "Визуальные материалы усилили основную мысль.",
+      "audio": [
+        "audio/sentences/Visuals reinforced the main message..wav"
+      ]
+    },
+    {
+      "id": "the-chart-compares-annual-growth.",
+      "english": "The chart compares annual growth.",
+      "translation": "График сравнивает годовой рост.",
+      "audio": [
+        "audio/sentences/The chart compares annual growth..wav"
+      ]
+    },
+    {
+      "id": "the-diagram-clarifies-relationships.",
+      "english": "The diagram clarifies relationships.",
+      "translation": "Диаграмма проясняет взаимосвязи.",
+      "audio": [
+        "audio/sentences/The diagram clarifies relationships..wav"
+      ]
+    },
+    {
+      "id": "structure-helps-maintain-attention.",
+      "english": "Structure helps maintain attention.",
+      "translation": "Структура помогает удерживать внимание.",
+      "audio": [
+        "audio/sentences/Structure helps maintain attention..wav"
+      ]
+    },
+    {
+      "id": "the-outline-guided-the-discussion.",
+      "english": "The outline guided the discussion.",
+      "translation": "План направлял обсуждение.",
+      "audio": [
+        "audio/sentences/The outline guided the discussion..wav"
+      ]
+    },
+    {
+      "id": "the-flow-felt-smooth-throughout.",
+      "english": "The flow felt smooth throughout.",
+      "translation": "Поток ощущался плавным на протяжении всего выступления.",
+      "audio": [
+        "audio/sentences/The flow felt smooth throughout..wav"
+      ]
+    },
+    {
+      "id": "the-transition-felt-effortless.",
+      "english": "The transition felt effortless.",
+      "translation": "Переход выглядел естественным.",
+      "audio": [
+        "audio/sentences/The transition felt effortless..wav"
+      ]
+    },
+    {
+      "id": "timing-stayed-within-limits.",
+      "english": "Timing stayed within limits.",
+      "translation": "Тайминг остался в рамках.",
+      "audio": [
+        "audio/sentences/Timing stayed within limits..wav"
+      ]
+    },
+    {
+      "id": "delivery-made-the-idea-memorable.",
+      "english": "Delivery made the idea memorable.",
+      "translation": "Подача сделала идею запоминающейся.",
+      "audio": [
+        "audio/sentences/Delivery made the idea memorable..wav"
+      ]
+    },
+    {
+      "id": "clarity-improved-audience-understanding.",
+      "english": "Clarity improved audience understanding.",
+      "translation": "Ясность улучшила понимание аудитории.",
+      "audio": [
+        "audio/sentences/Clarity improved audience understanding..wav"
+      ]
+    },
+    {
+      "id": "confidence-helps-deliver-the-message.",
+      "english": "Confidence helps deliver the message.",
+      "translation": "Уверенность помогает донести сообщение.",
+      "audio": [
+        "audio/sentences/Confidence helps deliver the message..wav"
+      ]
+    },
+    {
+      "id": "engagement-increased-during-the-session.",
+      "english": "Engagement increased during the session.",
+      "translation": "Вовлечённость выросла во время сессии.",
+      "audio": [
+        "audio/sentences/Engagement increased during the session..wav"
+      ]
+    },
+    {
+      "id": "the-story-had-a-strong-impact.",
+      "english": "The story had a strong impact.",
+      "translation": "История произвела сильный эффект.",
+      "audio": [
+        "audio/sentences/The story had a strong impact..wav"
+      ]
+    },
+    {
+      "id": "this-key-point-needs-emphasis.",
+      "english": "This key point needs emphasis.",
+      "translation": "Этот ключевой пункт требует акцента.",
+      "audio": [
+        "audio/sentences/This key point needs emphasis..wav"
+      ]
+    },
+    {
+      "id": "the-takeaway-was-easy-to-remember.",
+      "english": "The takeaway was easy to remember.",
+      "translation": "Основной вывод было легко запомнить.",
+      "audio": [
+        "audio/sentences/The takeaway was easy to remember..wav"
+      ]
+    },
+    {
+      "id": "she-used-stories-to-highlight-risks.",
+      "english": "She used stories to highlight risks.",
+      "translation": "Она использовала истории, чтобы сделать акцент на рисках.",
+      "audio": [
+        "audio/sentences/She used stories to highlight risks..wav"
+      ]
+    },
+    {
+      "id": "an-example-clarified-the-concept.",
+      "english": "An example clarified the concept.",
+      "translation": "Пример прояснил концепцию.",
+      "audio": [
+        "audio/sentences/An example clarified the concept..wav"
+      ]
+    },
+    {
+      "id": "the-comparison-showed-clear-differences.",
+      "english": "The comparison showed clear differences.",
+      "translation": "Сравнение показало явные различия.",
+      "audio": [
+        "audio/sentences/The comparison showed clear differences..wav"
+      ]
+    },
+    {
+      "id": "the-demonstration-proved-the-value.",
+      "english": "The demonstration proved the value.",
+      "translation": "Демонстрация доказала ценность.",
+      "audio": [
+        "audio/sentences/The demonstration proved the value..wav"
+      ]
+    },
+    {
+      "id": "the-walkthrough-explained-each-step.",
+      "english": "The walkthrough explained each step.",
+      "translation": "Пошаговый показ объяснил каждый этап.",
+      "audio": [
+        "audio/sentences/The walkthrough explained each step..wav"
+      ]
+    },
+    {
+      "id": "the-demo-captured-attention-instantly.",
+      "english": "The demo captured attention instantly.",
+      "translation": "Демо сразу привлекло внимание.",
+      "audio": [
+        "audio/sentences/The demo captured attention instantly..wav"
+      ]
+    },
+    {
+      "id": "the-pitch-focused-on-benefits.",
+      "english": "The pitch focused on benefits.",
+      "translation": "Питч был сосредоточен на выгодах.",
+      "audio": [
+        "audio/sentences/The pitch focused on benefits..wav"
+      ]
+    },
+    {
+      "id": "the-proposal-outlined-next-steps.",
+      "english": "The proposal outlined next steps.",
+      "translation": "Предложение описало следующие шаги.",
+      "audio": [
+        "audio/sentences/The proposal outlined next steps..wav"
+      ]
+    },
+    {
+      "id": "a-question-shifted-the-discussion.",
+      "english": "A question shifted the discussion.",
+      "translation": "Вопрос изменил ход обсуждения.",
+      "audio": [
+        "audio/sentences/A question shifted the discussion..wav"
+      ]
+    },
+    {
+      "id": "his-answer-reassured-the-team.",
+      "english": "His answer reassured the team.",
+      "translation": "Его ответ успокоил команду.",
+      "audio": [
+        "audio/sentences/His answer reassured the team..wav"
+      ]
+    },
+    {
+      "id": "the-discussion-revealed-new-ideas.",
+      "english": "The discussion revealed new ideas.",
+      "translation": "Обсуждение выявило новые идеи.",
+      "audio": [
+        "audio/sentences/The discussion revealed new ideas..wav"
+      ]
+    },
+    {
+      "id": "feedback-helped-improve-delivery.",
+      "english": "Feedback helped improve delivery.",
+      "translation": "Обратная связь помогла улучшить подачу.",
+      "audio": [
+        "audio/sentences/Feedback helped improve delivery..wav"
+      ]
+    },
+    {
+      "id": "the-reaction-exceeded-expectations.",
+      "english": "The reaction exceeded expectations.",
+      "translation": "Реакция превзошла ожидания.",
+      "audio": [
+        "audio/sentences/The reaction exceeded expectations..wav"
+      ]
+    }
+  ]
+}

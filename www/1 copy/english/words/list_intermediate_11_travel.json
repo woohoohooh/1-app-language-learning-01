@@ -1,0 +1,327 @@
+{
+  "theme": "Путешествия",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "destination",
+      "english": "destination",
+      "translation": "пункт назначения",
+      "audio": [
+        "audio/words/destination.wav"
+      ]
+    },
+    {
+      "id": "trip",
+      "english": "trip",
+      "translation": "поездка",
+      "audio": [
+        "audio/words/trip.wav"
+      ]
+    },
+    {
+      "id": "route",
+      "english": "route",
+      "translation": "маршрут",
+      "audio": [
+        "audio/words/route.wav"
+      ]
+    },
+    {
+      "id": "schedule",
+      "english": "schedule",
+      "translation": "расписание",
+      "audio": [
+        "audio/words/schedule.wav"
+      ]
+    },
+    {
+      "id": "reservation",
+      "english": "reservation",
+      "translation": "бронирование",
+      "audio": [
+        "audio/words/reservation.wav"
+      ]
+    },
+    {
+      "id": "booking",
+      "english": "booking",
+      "translation": "бронирование",
+      "audio": [
+        "audio/words/booking.wav"
+      ]
+    },
+    {
+      "id": "confirmation",
+      "english": "confirmation",
+      "translation": "подтверждение",
+      "audio": [
+        "audio/words/confirmation.wav"
+      ]
+    },
+    {
+      "id": "cancellation",
+      "english": "cancellation",
+      "translation": "отмена",
+      "audio": [
+        "audio/words/cancellation.wav"
+      ]
+    },
+    {
+      "id": "accommodation",
+      "english": "accommodation",
+      "translation": "проживание",
+      "audio": [
+        "audio/words/accommodation.wav"
+      ]
+    },
+    {
+      "id": "hostel",
+      "english": "hostel",
+      "translation": "хостел",
+      "audio": [
+        "audio/words/hostel.wav"
+      ]
+    },
+    {
+      "id": "apartment",
+      "english": "apartment",
+      "translation": "апартаменты",
+      "audio": [
+        "audio/words/apartment.wav"
+      ]
+    },
+    {
+      "id": "check-in",
+      "english": "check-in",
+      "translation": "регистрация заезда",
+      "audio": [
+        "audio/words/check-in.wav"
+      ]
+    },
+    {
+      "id": "check-out",
+      "english": "check-out",
+      "translation": "выезд",
+      "audio": [
+        "audio/words/check-out.wav"
+      ]
+    },
+    {
+      "id": "border",
+      "english": "border",
+      "translation": "граница",
+      "audio": [
+        "audio/words/border.wav"
+      ]
+    },
+    {
+      "id": "customs",
+      "english": "customs",
+      "translation": "таможня",
+      "audio": [
+        "audio/words/customs.wav"
+      ]
+    },
+    {
+      "id": "immigration",
+      "english": "immigration",
+      "translation": "иммиграционный контроль",
+      "audio": [
+        "audio/words/immigration.wav"
+      ]
+    },
+    {
+      "id": "visa",
+      "english": "visa",
+      "translation": "виза",
+      "audio": [
+        "audio/words/visa.wav"
+      ]
+    },
+    {
+      "id": "document",
+      "english": "document",
+      "translation": "документ",
+      "audio": [
+        "audio/words/document.wav"
+      ]
+    },
+    {
+      "id": "luggage",
+      "english": "luggage",
+      "translation": "багаж",
+      "audio": [
+        "audio/words/luggage.wav"
+      ]
+    },
+    {
+      "id": "baggage",
+      "english": "baggage",
+      "translation": "багаж",
+      "audio": [
+        "audio/words/baggage.wav"
+      ]
+    },
+    {
+      "id": "carry-on",
+      "english": "carry-on",
+      "translation": "ручная кладь",
+      "audio": [
+        "audio/words/carry-on.wav"
+      ]
+    },
+    {
+      "id": "lost",
+      "english": "lost",
+      "translation": "потерянный",
+      "audio": [
+        "audio/words/lost.wav"
+      ]
+    },
+    {
+      "id": "damage",
+      "english": "damage",
+      "translation": "повреждение",
+      "audio": [
+        "audio/words/damage.wav"
+      ]
+    },
+    {
+      "id": "transportation",
+      "english": "transportation",
+      "translation": "транспорт",
+      "audio": [
+        "audio/words/transportation.wav"
+      ]
+    },
+    {
+      "id": "public-transport",
+      "english": "public transport",
+      "translation": "общественный транспорт",
+      "audio": [
+        "audio/words/public transport.wav"
+      ]
+    },
+    {
+      "id": "transfer",
+      "english": "transfer",
+      "translation": "трансфер",
+      "audio": [
+        "audio/words/transfer.wav"
+      ]
+    },
+    {
+      "id": "car-rental",
+      "english": "car rental",
+      "translation": "аренда автомобиля",
+      "audio": [
+        "audio/words/car rental.wav"
+      ]
+    },
+    {
+      "id": "navigation",
+      "english": "navigation",
+      "translation": "навигация",
+      "audio": [
+        "audio/words/navigation.wav"
+      ]
+    },
+    {
+      "id": "currency",
+      "english": "currency",
+      "translation": "валюта",
+      "audio": [
+        "audio/words/currency.wav"
+      ]
+    },
+    {
+      "id": "exchange",
+      "english": "exchange",
+      "translation": "обмен",
+      "audio": [
+        "audio/words/exchange.wav"
+      ]
+    },
+    {
+      "id": "payment",
+      "english": "payment",
+      "translation": "оплата",
+      "audio": [
+        "audio/words/payment.wav"
+      ]
+    },
+    {
+      "id": "receipt",
+      "english": "receipt",
+      "translation": "чек",
+      "audio": [
+        "audio/words/receipt.wav"
+      ]
+    },
+    {
+      "id": "insurance",
+      "english": "insurance",
+      "translation": "страховка",
+      "audio": [
+        "audio/words/insurance.wav"
+      ]
+    },
+    {
+      "id": "emergency",
+      "english": "emergency",
+      "translation": "чрезвычайная ситуация",
+      "audio": [
+        "audio/words/emergency.wav"
+      ]
+    },
+    {
+      "id": "assistance",
+      "english": "assistance",
+      "translation": "помощь",
+      "audio": [
+        "audio/words/assistance.wav"
+      ]
+    },
+    {
+      "id": "complaint",
+      "english": "complaint",
+      "translation": "жалоба",
+      "audio": [
+        "audio/words/complaint.wav"
+      ]
+    },
+    {
+      "id": "support",
+      "english": "support",
+      "translation": "поддержка",
+      "audio": [
+        "audio/words/support.wav"
+      ]
+    },
+    {
+      "id": "journey",
+      "english": "journey",
+      "translation": "путешествие",
+      "audio": [
+        "audio/words/journey.wav"
+      ]
+    },
+    {
+      "id": "availability",
+      "english": "availability",
+      "translation": "наличие",
+      "audio": [
+        "audio/words/availability.wav"
+      ]
+    },
+    {
+      "id": "fee",
+      "english": "fee",
+      "translation": "комиссия",
+      "audio": [
+        "audio/words/fee.wav"
+      ]
+    }
+  ]
+}

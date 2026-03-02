@@ -1,0 +1,107 @@
+{
+  "theme": "Движение и транспорт",
+  "level": "",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "move",
+      "translation": "двигаться"
+    },
+    {
+      "english": "walk",
+      "translation": "идти пешком"
+    },
+    {
+      "english": "run",
+      "translation": "бежать"
+    },
+    {
+      "english": "stop",
+      "translation": "останавливаться"
+    },
+    {
+      "english": "road",
+      "translation": "дорога"
+    },
+    {
+      "english": "street",
+      "translation": "улица"
+    },
+    {
+      "english": "way",
+      "translation": "путь"
+    },
+    {
+      "english": "direction",
+      "translation": "направление"
+    },
+    {
+      "english": "car",
+      "translation": "машина"
+    },
+    {
+      "english": "bus",
+      "translation": "автобус"
+    },
+    {
+      "english": "train",
+      "translation": "поезд"
+    },
+    {
+      "english": "taxi",
+      "translation": "такси"
+    },
+    {
+      "english": "subway",
+      "translation": "метро"
+    },
+    {
+      "english": "bike",
+      "translation": "велосипед"
+    },
+    {
+      "english": "bicycle",
+      "translation": "велосипед"
+    },
+    {
+      "english": "station",
+      "translation": "станция"
+    },
+    {
+      "english": "stop",
+      "translation": "остановка"
+    },
+    {
+      "english": "ticket",
+      "translation": "билет"
+    },
+    {
+      "english": "ride",
+      "translation": "поездка"
+    },
+    {
+      "english": "trip",
+      "translation": "путешествие"
+    },
+    {
+      "english": "drive",
+      "translation": "вести машину"
+    },
+    {
+      "english": "arrive",
+      "translation": "прибывать"
+    },
+    {
+      "english": "go",
+      "translation": "идти"
+    },
+    {
+      "english": "come",
+      "translation": "приходить"
+    },
+    {
+      "english": "leave",
+      "translation": "уезжать"
+    }
+  ]
+}

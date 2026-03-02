@@ -1,0 +1,367 @@
+{
+  "theme": "Маркетинг и реклама",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "marketing",
+      "english": "marketing",
+      "translation": "маркетинг",
+      "audio": [
+        "audio/words/marketing.wav"
+      ]
+    },
+    {
+      "id": "advertising",
+      "english": "advertising",
+      "translation": "реклама",
+      "audio": [
+        "audio/words/advertising.wav"
+      ]
+    },
+    {
+      "id": "brand",
+      "english": "brand",
+      "translation": "бренд",
+      "audio": [
+        "audio/words/brand.wav"
+      ]
+    },
+    {
+      "id": "branding",
+      "english": "branding",
+      "translation": "брендинг",
+      "audio": [
+        "audio/words/branding.wav"
+      ]
+    },
+    {
+      "id": "awareness",
+      "english": "awareness",
+      "translation": "узнаваемость",
+      "audio": [
+        "audio/words/awareness.wav"
+      ]
+    },
+    {
+      "id": "campaign",
+      "english": "campaign",
+      "translation": "кампания",
+      "audio": [
+        "audio/words/campaign.wav"
+      ]
+    },
+    {
+      "id": "promotion",
+      "english": "promotion",
+      "translation": "продвижение",
+      "audio": [
+        "audio/words/promotion.wav"
+      ]
+    },
+    {
+      "id": "launch",
+      "english": "launch",
+      "translation": "запуск",
+      "audio": [
+        "audio/words/launch.wav"
+      ]
+    },
+    {
+      "id": "reach",
+      "english": "reach",
+      "translation": "охват",
+      "audio": [
+        "audio/words/reach.wav"
+      ]
+    },
+    {
+      "id": "impression",
+      "english": "impression",
+      "translation": "показ",
+      "audio": [
+        "audio/words/impression.wav"
+      ]
+    },
+    {
+      "id": "audience",
+      "english": "audience",
+      "translation": "аудитория",
+      "audio": [
+        "audio/words/audience.wav"
+      ]
+    },
+    {
+      "id": "target-audience",
+      "english": "target audience",
+      "translation": "целевая аудитория",
+      "audio": [
+        "audio/words/target audience.wav"
+      ]
+    },
+    {
+      "id": "segment",
+      "english": "segment",
+      "translation": "сегмент",
+      "audio": [
+        "audio/words/segment.wav"
+      ]
+    },
+    {
+      "id": "demographics",
+      "english": "demographics",
+      "translation": "демография",
+      "audio": [
+        "audio/words/demographics.wav"
+      ]
+    },
+    {
+      "id": "persona",
+      "english": "persona",
+      "translation": "персона",
+      "audio": [
+        "audio/words/persona.wav"
+      ]
+    },
+    {
+      "id": "channel",
+      "english": "channel",
+      "translation": "канал",
+      "audio": [
+        "audio/words/channel.wav"
+      ]
+    },
+    {
+      "id": "platform",
+      "english": "platform",
+      "translation": "платформа",
+      "audio": [
+        "audio/words/platform.wav"
+      ]
+    },
+    {
+      "id": "social-media",
+      "english": "social media",
+      "translation": "социальные сети",
+      "audio": [
+        "audio/words/social media.wav"
+      ]
+    },
+    {
+      "id": "email-marketing",
+      "english": "email marketing",
+      "translation": "email-маркетинг",
+      "audio": [
+        "audio/words/email marketing.wav"
+      ]
+    },
+    {
+      "id": "content",
+      "english": "content",
+      "translation": "контент",
+      "audio": [
+        "audio/words/content.wav"
+      ]
+    },
+    {
+      "id": "copy",
+      "english": "copy",
+      "translation": "рекламный текст",
+      "audio": [
+        "audio/words/copy.wav"
+      ]
+    },
+    {
+      "id": "headline",
+      "english": "headline",
+      "translation": "заголовок",
+      "audio": [
+        "audio/words/headline.wav"
+      ]
+    },
+    {
+      "id": "message",
+      "english": "message",
+      "translation": "сообщение",
+      "audio": [
+        "audio/words/message.wav"
+      ]
+    },
+    {
+      "id": "visual",
+      "english": "visual",
+      "translation": "визуал",
+      "audio": [
+        "audio/words/visual.wav"
+      ]
+    },
+    {
+      "id": "creative",
+      "english": "creative",
+      "translation": "креатив",
+      "audio": [
+        "audio/words/creative.wav"
+      ]
+    },
+    {
+      "id": "traffic",
+      "english": "traffic",
+      "translation": "трафик",
+      "audio": [
+        "audio/words/traffic.wav"
+      ]
+    },
+    {
+      "id": "lead",
+      "english": "lead",
+      "translation": "лид",
+      "audio": [
+        "audio/words/lead.wav"
+      ]
+    },
+    {
+      "id": "lead-generation",
+      "english": "lead generation",
+      "translation": "лидогенерация",
+      "audio": [
+        "audio/words/lead generation.wav"
+      ]
+    },
+    {
+      "id": "conversion-rate",
+      "english": "conversion rate",
+      "translation": "коэффициент конверсии",
+      "audio": [
+        "audio/words/conversion rate.wav"
+      ]
+    },
+    {
+      "id": "bounce-rate",
+      "english": "bounce rate",
+      "translation": "показатель отказов",
+      "audio": [
+        "audio/words/bounce rate.wav"
+      ]
+    },
+    {
+      "id": "cost",
+      "english": "cost",
+      "translation": "стоимость",
+      "audio": [
+        "audio/words/cost.wav"
+      ]
+    },
+    {
+      "id": "budget",
+      "english": "budget",
+      "translation": "бюджет",
+      "audio": [
+        "audio/words/budget.wav"
+      ]
+    },
+    {
+      "id": "roi",
+      "english": "ROI",
+      "translation": "окупаемость инвестиций",
+      "audio": [
+        "audio/words/ROI.wav"
+      ]
+    },
+    {
+      "id": "cpa",
+      "english": "CPA",
+      "translation": "стоимость за действие",
+      "audio": [
+        "audio/words/CPA.wav"
+      ]
+    },
+    {
+      "id": "ctr",
+      "english": "CTR",
+      "translation": "кликабельность",
+      "audio": [
+        "audio/words/CTR.wav"
+      ]
+    },
+    {
+      "id": "optimization",
+      "english": "optimization",
+      "translation": "оптимизация",
+      "audio": [
+        "audio/words/optimization.wav"
+      ]
+    },
+    {
+      "id": "testing",
+      "english": "testing",
+      "translation": "тестирование",
+      "audio": [
+        "audio/words/testing.wav"
+      ]
+    },
+    {
+      "id": "performance",
+      "english": "performance",
+      "translation": "эффективность",
+      "audio": [
+        "audio/words/performance.wav"
+      ]
+    },
+    {
+      "id": "growth",
+      "english": "growth",
+      "translation": "рост",
+      "audio": [
+        "audio/words/growth.wav"
+      ]
+    },
+    {
+      "id": "scaling",
+      "english": "scaling",
+      "translation": "масштабирование",
+      "audio": [
+        "audio/words/scaling.wav"
+      ]
+    },
+    {
+      "id": "retargeting",
+      "english": "retargeting",
+      "translation": "ретаргетинг",
+      "audio": [
+        "audio/words/retargeting.wav"
+      ]
+    },
+    {
+      "id": "remarketing",
+      "english": "remarketing",
+      "translation": "ремаркетинг",
+      "audio": [
+        "audio/words/remarketing.wav"
+      ]
+    },
+    {
+      "id": "influencer",
+      "english": "influencer",
+      "translation": "инфлюенсер",
+      "audio": [
+        "audio/words/influencer.wav"
+      ]
+    },
+    {
+      "id": "partnership",
+      "english": "partnership",
+      "translation": "партнёрство",
+      "audio": [
+        "audio/words/partnership.wav"
+      ]
+    },
+    {
+      "id": "affiliate",
+      "english": "affiliate",
+      "translation": "партнёр",
+      "audio": [
+        "audio/words/affiliate.wav"
+      ]
+    }
+  ]
+}

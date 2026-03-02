@@ -1,0 +1,343 @@
+{
+  "theme": "Технологии и интернет",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "modern-technology",
+      "english": "modern technology",
+      "translation": "современная технология",
+      "audio": [
+        "audio/phrases/modern technology.wav"
+      ]
+    },
+    {
+      "id": "use-the-internet",
+      "english": "use the internet",
+      "translation": "использовать интернет",
+      "audio": [
+        "audio/phrases/use the internet.wav"
+      ]
+    },
+    {
+      "id": "build-a-network",
+      "english": "build a network",
+      "translation": "создать сеть",
+      "audio": [
+        "audio/phrases/build a network.wav"
+      ]
+    },
+    {
+      "id": "lose-connection",
+      "english": "lose connection",
+      "translation": "потерять соединение",
+      "audio": [
+        "audio/phrases/lose connection.wav"
+      ]
+    },
+    {
+      "id": "get-access",
+      "english": "get access",
+      "translation": "получить доступ",
+      "audio": [
+        "audio/phrases/get access.wav"
+      ]
+    },
+    {
+      "id": "visit-the-website",
+      "english": "visit the website",
+      "translation": "посетить веб-сайт",
+      "audio": [
+        "audio/phrases/visit the website.wav"
+      ]
+    },
+    {
+      "id": "open-a-web-page",
+      "english": "open a web page",
+      "translation": "открыть веб-страницу",
+      "audio": [
+        "audio/phrases/open a web page.wav"
+      ]
+    },
+    {
+      "id": "digital-platform",
+      "english": "digital platform",
+      "translation": "цифровая платформа",
+      "audio": [
+        "audio/phrases/digital platform.wav"
+      ]
+    },
+    {
+      "id": "use-a-service",
+      "english": "use a service",
+      "translation": "использовать сервис",
+      "audio": [
+        "audio/phrases/use a service.wav"
+      ]
+    },
+    {
+      "id": "mobile-application",
+      "english": "mobile application",
+      "translation": "мобильное приложение",
+      "audio": [
+        "audio/phrases/mobile application.wav"
+      ]
+    },
+    {
+      "id": "open-the-browser",
+      "english": "open the browser",
+      "translation": "открыть браузер",
+      "audio": [
+        "audio/phrases/open the browser.wav"
+      ]
+    },
+    {
+      "id": "use-a-search-engine",
+      "english": "use a search engine",
+      "translation": "использовать поисковую систему",
+      "audio": [
+        "audio/phrases/use a search engine.wav"
+      ]
+    },
+    {
+      "id": "click-the-link",
+      "english": "click the link",
+      "translation": "нажать на ссылку",
+      "audio": [
+        "audio/phrases/click the link.wav"
+      ]
+    },
+    {
+      "id": "download-files",
+      "english": "download files",
+      "translation": "загружать файлы",
+      "audio": [
+        "audio/phrases/download files.wav"
+      ]
+    },
+    {
+      "id": "upload-data",
+      "english": "upload data",
+      "translation": "загружать данные",
+      "audio": [
+        "audio/phrases/upload data.wav"
+      ]
+    },
+    {
+      "id": "collect-data",
+      "english": "collect data",
+      "translation": "собирать данные",
+      "audio": [
+        "audio/phrases/collect data.wav"
+      ]
+    },
+    {
+      "id": "share-information",
+      "english": "share information",
+      "translation": "делиться информацией",
+      "audio": [
+        "audio/phrases/share information.wav"
+      ]
+    },
+    {
+      "id": "create-content",
+      "english": "create content",
+      "translation": "создавать контент",
+      "audio": [
+        "audio/phrases/create content.wav"
+      ]
+    },
+    {
+      "id": "save-a-file",
+      "english": "save a file",
+      "translation": "сохранить файл",
+      "audio": [
+        "audio/phrases/save a file.wav"
+      ]
+    },
+    {
+      "id": "cloud-storage",
+      "english": "cloud storage",
+      "translation": "облачное хранилище",
+      "audio": [
+        "audio/phrases/cloud storage.wav"
+      ]
+    },
+    {
+      "id": "use-the-cloud",
+      "english": "use the cloud",
+      "translation": "использовать облако",
+      "audio": [
+        "audio/phrases/use the cloud.wav"
+      ]
+    },
+    {
+      "id": "run-business",
+      "english": "run business",
+      "translation": "вести бизнес",
+      "audio": [
+        "audio/phrases/run business.wav"
+      ]
+    },
+    {
+      "id": "big-company",
+      "english": "big company",
+      "translation": "крупная компания",
+      "audio": [
+        "audio/phrases/big company.wav"
+      ]
+    },
+    {
+      "id": "local-firm",
+      "english": "local firm",
+      "translation": "местная фирма",
+      "audio": [
+        "audio/phrases/local firm.wav"
+      ]
+    },
+    {
+      "id": "large-enterprise",
+      "english": "large enterprise",
+      "translation": "крупное предприятие",
+      "audio": [
+        "audio/phrases/large enterprise.wav"
+      ]
+    },
+    {
+      "id": "nonprofit-organization",
+      "english": "nonprofit organization",
+      "translation": "некоммерческая организация",
+      "audio": [
+        "audio/phrases/nonprofit organization.wav"
+      ]
+    },
+    {
+      "id": "global-market",
+      "english": "global market",
+      "translation": "глобальный рынок",
+      "audio": [
+        "audio/phrases/global market.wav"
+      ]
+    },
+    {
+      "id": "tech-industry",
+      "english": "tech industry",
+      "translation": "тех отрасль",
+      "audio": [
+        "audio/phrases/tech industry.wav"
+      ]
+    },
+    {
+      "id": "strong-competition",
+      "english": "strong competition",
+      "translation": "сильная конкуренция",
+      "audio": [
+        "audio/phrases/strong competition.wav"
+      ]
+    },
+    {
+      "id": "new-competitor",
+      "english": "new competitor",
+      "translation": "новый конкурент",
+      "audio": [
+        "audio/phrases/new competitor.wav"
+      ]
+    },
+    {
+      "id": "high-demand",
+      "english": "high demand",
+      "translation": "высокий спрос",
+      "audio": [
+        "audio/phrases/high demand.wav"
+      ]
+    },
+    {
+      "id": "stable-supply",
+      "english": "stable supply",
+      "translation": "стабильное предложение",
+      "audio": [
+        "audio/phrases/stable supply.wav"
+      ]
+    },
+    {
+      "id": "new-customer",
+      "english": "new customer",
+      "translation": "новый клиент",
+      "audio": [
+        "audio/phrases/new customer.wav"
+      ]
+    },
+    {
+      "id": "corporate-client",
+      "english": "corporate client",
+      "translation": "корпоративный клиент",
+      "audio": [
+        "audio/phrases/corporate client.wav"
+      ]
+    },
+    {
+      "id": "digital-consumer",
+      "english": "digital consumer",
+      "translation": "цифровой потребитель",
+      "audio": [
+        "audio/phrases/digital consumer.wav"
+      ]
+    },
+    {
+      "id": "key-partner",
+      "english": "key partner",
+      "translation": "ключевой партнёр",
+      "audio": [
+        "audio/phrases/key partner.wav"
+      ]
+    },
+    {
+      "id": "new-product",
+      "english": "new product",
+      "translation": "новый продукт",
+      "audio": [
+        "audio/phrases/new product.wav"
+      ]
+    },
+    {
+      "id": "premium-service",
+      "english": "premium service",
+      "translation": "премиальная услуга",
+      "audio": [
+        "audio/phrases/premium service.wav"
+      ]
+    },
+    {
+      "id": "digital-value",
+      "english": "digital value",
+      "translation": "цифровая ценность",
+      "audio": [
+        "audio/phrases/digital value.wav"
+      ]
+    },
+    {
+      "id": "low-price",
+      "english": "low price",
+      "translation": "низкая цена",
+      "audio": [
+        "audio/phrases/low price.wav"
+      ]
+    },
+    {
+      "id": "development-cost",
+      "english": "development cost",
+      "translation": "затраты на разработку",
+      "audio": [
+        "audio/phrases/development cost.wav"
+      ]
+    },
+    {
+      "id": "annual-revenue",
+      "english": "annual revenue",
+      "translation": "годовая выручка",
+      "audio": [
+        "audio/phrases/annual revenue.wav"
+      ]
+    }
+  ]
+}

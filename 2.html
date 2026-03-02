@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Найди кошечек на ферме!</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #1a1208; overflow: hidden; font-family: 'Caveat', cursive; }
+
+#scene { position: fixed; inset: 0; overflow: hidden; }
+
+#world {
+  position: absolute;
+  width: 1200px; height: 800px;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+}
+
+#bg-layer, #fg-layer {
+  position: absolute; top: 0; left: 0;
+  width: 1200px; height: 800px;
+}
+#fg-layer { pointer-events: none; z-index: 15; }
+
+.cat-wrap {
+  position: absolute;
+  cursor: crosshair;
+  z-index: 10;
+  transition: left 1.05s cubic-bezier(0.4,0,0.5,1),
+              top  0.9s cubic-bezier(0.3,0,0.5,1),
+              transform 0.8s ease-in,
+              opacity 0.35s;
+}
+.cat-wrap.found { pointer-events: none; z-index: 30; }
+
+@keyframes catReveal {
+  from { opacity: 0.3; transform: scale(0.85); filter: blur(3px); }
+  to   { opacity: 1;   transform: scale(1);    filter: blur(0);   }
+}
+
+/* UI panel */
+#ui {
+  position: absolute; top: 18px; left: 18px;
+  background: rgba(248,244,230,0.93);
+  border: 2px solid #2a1a0a;
+  border-radius: 2px;
+  padding: 10px 20px 13px;
+  box-shadow: 3px 3px 0 #2a1a0a;
+  z-index: 40;
+}
+#ui h2 {
+  font-family: 'IM Fell English', serif;
+  font-size: 16px; font-style: italic;
+  color: #1a0800;
+  border-bottom: 1px solid #b0905a;
+  padding-bottom: 5px; margin-bottom: 7px;
+}
+#score-line { font-size: 27px; color: #1a0800; letter-spacing: 2px; }
+#hint { font-size: 12px; color: #88603a; font-style: italic; margin-top: 5px; }
+
+/* Paw prints */
+.paw {
+  position: absolute; pointer-events: none;
+  font-size: 12px; opacity: 0; z-index: 35;
+  animation: pawAnim 1.3s ease-out forwards;
+}
+@keyframes pawAnim {
+  0%   { opacity: 0.85; transform: scale(1) rotate(var(--r)); }
+  100% { opacity: 0;    transform: scale(0.3) rotate(var(--r)) translateY(14px); }
+}
+
+/* Door flash */
+#door-flash {
+  position: absolute;
+  left: 806px; top: 468px;
+  width: 128px; height: 98px;
+  background: radial-gradient(ellipse, #fffde0 0%, transparent 70%);
+  pointer-events: none; z-index: 25;
+  opacity: 0; transition: opacity 0.18s;
+  border-radius: 4px;
+}
+
+/* Win overlay */
+#win {
+  display: none; position: absolute; inset: 0;
+  background: rgba(245,238,215,0.95);
+  z-index: 100; align-items: center; justify-content: center;
+  flex-direction: column; gap: 14px;
+}
+#win.show { display: flex; }
+#win h1 {
+  font-family: 'IM Fell English', serif;
+  font-size: 52px; color: #1a0800; font-style: italic;
+  animation: winPop 0.7s cubic-bezier(0.2,0.8,0.3,1.3) both;
+}
+#win p { font-size: 22px; color: #664420; }
+@keyframes winPop { from { transform: scale(0.3); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+#win button {
+  font-family: 'Caveat', cursive; font-size: 22px;
+  padding: 10px 36px; background: #2a1a0a; color: #f8f2e0;
+  border: none; border-radius: 2px; cursor: pointer;
+  box-shadow: 3px 3px 0 #664420; letter-spacing: 1px;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+#win button:hover { transform: translate(1px,1px); box-shadow: 2px 2px 0 #664420; }
+</style>
+</head>
+<body>
+<div id="scene">
+<div id="world">
+
+<!-- ══════════════════════════════════ BACKGROUND -->
+<svg id="bg-layer" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="b-sk" x="-8%" y="-8%" width="116%" height="116%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="3" seed="5"/>
+    <feDisplacementMap in="SourceGraphic" scale="2"/>
+  </filter>
+  <filter id="b-sk2" x="-6%" y="-6%" width="112%" height="112%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.055" numOctaves="2" seed="9"/>
+    <feDisplacementMap in="SourceGraphic" scale="1.4"/>
+  </filter>
+  <filter id="b-sk3" x="-4%" y="-4%" width="108%" height="108%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.07" numOctaves="2" seed="13"/>
+    <feDisplacementMap in="SourceGraphic" scale="1"/>
+  </filter>
+</defs>
+
+<!-- SKY -->
+<rect x="0" y="0" width="1200" height="800" fill="#eef5ea"/>
+<rect x="0" y="0" width="1200" height="450" fill="#d8e8f2"/>
+
+<!-- SUN -->
+<circle cx="1090" cy="78" r="44" fill="#fffbe0" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk3)"/>
+<g stroke="#2a1a0a" stroke-width="1.5" stroke-linecap="round">
+  <line x1="1090" y1="16" x2="1090" y2="4"/>
+  <line x1="1090" y1="152" x2="1090" y2="140"/>
+  <line x1="1028" y1="78" x2="1016" y2="78"/>
+  <line x1="1152" y1="78" x2="1164" y2="78"/>
+  <line x1="1046" y1="34" x2="1037" y2="25"/>
+  <line x1="1134" y1="122" x2="1143" y2="131"/>
+  <line x1="1134" y1="34" x2="1143" y2="25"/>
+  <line x1="1046" y1="122" x2="1037" y2="131"/>
+</g>
+
+<!-- BIRDS -->
+<g stroke="#2a1a0a" stroke-width="1.3" fill="none">
+  <path d="M240,108 Q248,102 256,108"/>
+  <path d="M264,98 Q272,92 280,98"/>
+  <path d="M395,82 Q403,76 411,82"/>
+  <path d="M418,90 Q425,85 432,90"/>
+  <path d="M520,118 Q528,112 536,118"/>
+</g>
+
+<!-- CLOUDS -->
+<g filter="url(#b-sk2)" opacity="0.9">
+  <ellipse cx="175" cy="82" rx="56" ry="30" fill="white" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="218" cy="70" rx="42" ry="26" fill="white" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="142" cy="90" rx="36" ry="20" fill="white" stroke="#2a1a0a" stroke-width="1.5"/>
+</g>
+<g filter="url(#b-sk2)" opacity="0.85">
+  <ellipse cx="575" cy="58" rx="62" ry="27" fill="white" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="622" cy="48" rx="46" ry="24" fill="white" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="545" cy="66" rx="34" ry="18" fill="white" stroke="#2a1a0a" stroke-width="1.5"/>
+</g>
+<g filter="url(#b-sk2)" opacity="0.8">
+  <ellipse cx="855" cy="92" rx="50" ry="24" fill="white" stroke="#2a1a0a" stroke-width="1.4"/>
+  <ellipse cx="890" cy="80" rx="36" ry="20" fill="white" stroke="#2a1a0a" stroke-width="1.4"/>
+</g>
+
+<!-- FAR HILLS -->
+<path d="M0,418 Q150,355 300,388 Q450,420 600,378 Q750,338 920,368 Q1060,395 1200,360 L1200,500 L0,500 Z"
+      fill="#c4d4a0" stroke="#2a1a0a" stroke-width="1.5" filter="url(#b-sk)"/>
+
+<!-- NEAR GROUND -->
+<path d="M0,478 Q250,452 480,468 Q720,485 960,460 Q1080,448 1200,458 L1200,800 L0,800 Z"
+      fill="#b0c488" stroke="#2a1a0a" stroke-width="2" filter="url(#b-sk)"/>
+
+<!-- DIRT PATH to barn -->
+<path d="M440,800 Q520,740 610,695 Q685,660 740,638"
+      stroke="#caa850" stroke-width="30" fill="none" stroke-linecap="round" opacity="0.7"/>
+<path d="M442,800 Q522,740 612,695 Q687,660 742,638"
+      stroke="#b89038" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-dasharray="10,9" opacity="0.5"/>
+
+<!-- ═══ BARN ═══════════════════════════════════════ -->
+<!-- Foundation -->
+<rect x="695" y="555" width="345" height="55" fill="#d4c098" stroke="#2a1a0a" stroke-width="2" filter="url(#b-sk)"/>
+<!-- Walls -->
+<rect x="710" y="275" width="315" height="285" fill="#f5ede0" stroke="#2a1a0a" stroke-width="2.5" filter="url(#b-sk)"/>
+<!-- Vertical plank lines -->
+<g stroke="#2a1a0a" stroke-width="0.75" opacity="0.3">
+  <line x1="742" y1="275" x2="742" y2="560"/>
+  <line x1="774" y1="275" x2="774" y2="560"/>
+  <line x1="806" y1="275" x2="806" y2="560"/>
+  <line x1="838" y1="275" x2="838" y2="560"/>
+  <line x1="870" y1="275" x2="870" y2="560"/>
+  <line x1="902" y1="275" x2="902" y2="560"/>
+  <line x1="934" y1="275" x2="934" y2="560"/>
+  <line x1="966" y1="275" x2="966" y2="560"/>
+  <line x1="998" y1="275" x2="998" y2="560"/>
+</g>
+<!-- Roof (gambrel) -->
+<polygon points="695,280 868,138 1040,280"
+         fill="#e8d8a8" stroke="#2a1a0a" stroke-width="2.5" filter="url(#b-sk)"/>
+<!-- Shingles -->
+<g stroke="#2a1a0a" stroke-width="0.85" opacity="0.28">
+  <path d="M730,268 Q747,253 764,268"/><path d="M764,268 Q781,253 798,268"/>
+  <path d="M798,268 Q815,253 832,268"/><path d="M832,268 Q849,253 866,268"/>
+  <path d="M866,268 Q883,253 900,268"/><path d="M900,268 Q917,253 934,268"/>
+  <path d="M934,268 Q951,253 968,268"/><path d="M968,268 Q985,253 1002,268"/>
+  <path d="M748,244 Q763,231 778,244"/><path d="M778,244 Q793,231 808,244"/>
+  <path d="M808,244 Q823,231 838,244"/><path d="M838,244 Q853,231 868,244"/>
+  <path d="M868,244 Q883,231 898,244"/><path d="M898,244 Q913,231 928,244"/>
+  <path d="M766,220 Q779,209 792,220"/><path d="M792,220 Q805,209 818,220"/>
+  <path d="M818,220 Q831,209 844,220"/><path d="M844,220 Q857,209 870,220"/>
+  <path d="M870,220 Q883,209 896,220"/>
+  <path d="M792,198 Q803,188 814,198"/><path d="M814,198 Q825,188 836,198"/>
+  <path d="M836,198 Q847,188 858,198"/>
+  <path d="M822,177 Q831,169 840,177"/><path d="M840,177 Q849,169 858,177"/>
+</g>
+<!-- Weathervane -->
+<line x1="868" y1="138" x2="868" y2="104" stroke="#2a1a0a" stroke-width="2"/>
+<line x1="848" y1="118" x2="888" y2="118" stroke="#2a1a0a" stroke-width="1.8"/>
+<polygon points="848,118 836,113 836,123" fill="#2a1a0a"/>
+<circle cx="868" cy="118" r="4" fill="#2a1a0a"/>
+
+<!-- Left barn window -->
+<rect x="733" y="315" width="68" height="56" fill="#c4d8e8" stroke="#2a1a0a" stroke-width="2" rx="2" filter="url(#b-sk)"/>
+<line x1="767" y1="315" x2="767" y2="371" stroke="#2a1a0a" stroke-width="1.5"/>
+<line x1="733" y1="343" x2="801" y2="343" stroke="#2a1a0a" stroke-width="1.5"/>
+<line x1="738" y1="320" x2="746" y2="334" stroke="white" stroke-width="1.5" opacity="0.65"/>
+
+<!-- RIGHT BARN WINDOW — dark inside (cat hides here) -->
+<rect x="882" y="312" width="72" height="60" fill="#18100a" stroke="#2a1a0a" stroke-width="2" rx="2" filter="url(#b-sk)"/>
+<line x1="918" y1="312" x2="918" y2="372" stroke="#2a1a0a" stroke-width="1.5"/>
+<line x1="882" y1="342" x2="954" y2="342" stroke="#2a1a0a" stroke-width="1.5"/>
+<!-- Cobweb -->
+<path d="M954,312 Q946,325 954,338" stroke="#888" stroke-width="0.7" fill="none" opacity="0.5"/>
+<path d="M938,312 L948,322" stroke="#888" stroke-width="0.5" opacity="0.4"/>
+
+<!-- BARN DOORS (double, where cats enter) -->
+<rect x="800" y="468" width="136" height="92" fill="#ddd0a0" stroke="#2a1a0a" stroke-width="2.5" filter="url(#b-sk)"/>
+<line x1="868" y1="468" x2="868" y2="560" stroke="#2a1a0a" stroke-width="2"/>
+<line x1="800" y1="468" x2="866" y2="560" stroke="#2a1a0a" stroke-width="1.5"/>
+<line x1="866" y1="468" x2="800" y2="560" stroke="#2a1a0a" stroke-width="1.5"/>
+<line x1="870" y1="468" x2="936" y2="560" stroke="#2a1a0a" stroke-width="1.5"/>
+<line x1="936" y1="468" x2="870" y2="560" stroke="#2a1a0a" stroke-width="1.5"/>
+<rect x="800" y="486" width="14" height="6" fill="#888" rx="1"/>
+<rect x="800" y="538" width="14" height="6" fill="#888" rx="1"/>
+<rect x="922" y="486" width="14" height="6" fill="#888" rx="1"/>
+<rect x="922" y="538" width="14" height="6" fill="#888" rx="1"/>
+<path d="M800,560 Q868,550 936,560 L936,610 Q868,622 800,610 Z" fill="#120c06" opacity="0.7"/>
+
+<!-- ═══ LEFT BIG OAK TREE ══════════════════════ -->
+<path d="M152,548 Q146,468 149,386 Q152,308 150,228 Q148,165 152,112"
+      stroke="#2a1a0a" stroke-width="15" fill="none" stroke-linecap="round" filter="url(#b-sk)"/>
+<!-- Bark texture -->
+<path d="M145,482 Q158,470 146,458" stroke="#2a1a0a" stroke-width="0.9" fill="none" opacity="0.4"/>
+<path d="M155,442 Q142,428 156,416" stroke="#2a1a0a" stroke-width="0.9" fill="none" opacity="0.4"/>
+<path d="M148,402 Q162,390 149,377" stroke="#2a1a0a" stroke-width="0.9" fill="none" opacity="0.4"/>
+<path d="M152,362 Q140,348 154,336" stroke="#2a1a0a" stroke-width="0.9" fill="none" opacity="0.4"/>
+<!-- Roots -->
+<path d="M152,548 Q132,568 110,585" stroke="#2a1a0a" stroke-width="8" fill="none" stroke-linecap="round"/>
+<path d="M152,548 Q172,562 190,576" stroke="#2a1a0a" stroke-width="7" fill="none" stroke-linecap="round"/>
+<!-- Crown -->
+<ellipse cx="150" cy="158" rx="92" ry="76" fill="#c0d090" stroke="#2a1a0a" stroke-width="2" filter="url(#b-sk)"/>
+<ellipse cx="94" cy="200" rx="58" ry="52" fill="#b8c888" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk)"/>
+<ellipse cx="208" cy="194" rx="62" ry="56" fill="#bccc90" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk)"/>
+<ellipse cx="150" cy="102" rx="52" ry="42" fill="#c4d498" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk)"/>
+<g fill="#7a8a58" opacity="0.38">
+  <circle cx="118" cy="148" r="3.5"/><circle cx="148" cy="132" r="3"/>
+  <circle cx="178" cy="142" r="3.5"/><circle cx="165" cy="164" r="2.5"/>
+  <circle cx="128" cy="170" r="3"/><circle cx="155" cy="118" r="2.5"/>
+  <circle cx="92" cy="186" r="3"/><circle cx="112" cy="212" r="2.5"/>
+  <circle cx="78" cy="206" r="3"/><circle cx="202" cy="178" r="3.5"/>
+  <circle cx="218" cy="200" r="3"/><circle cx="188" cy="218" r="2.5"/>
+</g>
+
+<!-- ═══ MIDDLE BRANCHY TREE (cat sits on branch here) ══ -->
+<!-- Trunk -->
+<path d="M412,535 Q410,462 414,398 Q418,335 413,278 Q409,225 415,186"
+      stroke="#2a1a0a" stroke-width="11" fill="none" stroke-linecap="round" filter="url(#b-sk)"/>
+<!-- Bark texture -->
+<path d="M408,476 Q420,464 409,452" stroke="#2a1a0a" stroke-width="0.9" fill="none" opacity="0.4"/>
+<path d="M416,436 Q404,422 418,410" stroke="#2a1a0a" stroke-width="0.9" fill="none" opacity="0.4"/>
+<!-- THE BRANCH where cat sits (drawn below cat in bg, redrawn over cat in fg) -->
+<path d="M413,372 Q438,358 476,350 Q508,344 535,352"
+      stroke="#2a1a0a" stroke-width="7.5" fill="none" stroke-linecap="round" filter="url(#b-sk)"/>
+<!-- Other branches -->
+<path d="M414,292 Q382,270 362,248" stroke="#2a1a0a" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+<path d="M414,312 Q440,292 462,274" stroke="#2a1a0a" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+<path d="M414,252 Q400,226 394,200" stroke="#2a1a0a" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M414,242 Q436,218 444,194" stroke="#2a1a0a" stroke-width="4" fill="none" stroke-linecap="round"/>
+<!-- Sub twigs -->
+<path d="M362,248 Q350,236 342,226" stroke="#2a1a0a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M362,248 Q357,234 354,220" stroke="#2a1a0a" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M462,274 Q472,262 478,248" stroke="#2a1a0a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<!-- Leaf clusters -->
+<ellipse cx="356" cy="226" rx="30" ry="22" fill="#bcd090" stroke="#2a1a0a" stroke-width="1.5" filter="url(#b-sk2)"/>
+<ellipse cx="478" cy="250" rx="34" ry="24" fill="#c0d494" stroke="#2a1a0a" stroke-width="1.5" filter="url(#b-sk2)"/>
+<ellipse cx="394" cy="196" rx="28" ry="20" fill="#c4d898" stroke="#2a1a0a" stroke-width="1.5" filter="url(#b-sk2)"/>
+<ellipse cx="446" cy="190" rx="25" ry="18" fill="#bcd090" stroke="#2a1a0a" stroke-width="1.5" filter="url(#b-sk2)"/>
+<!-- Roots -->
+<path d="M412,535 Q394,556 376,572" stroke="#2a1a0a" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+<path d="M412,535 Q430,553 448,565" stroke="#2a1a0a" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+<!-- ═══ FENCE ════════════════════════════════════ -->
+<!-- Posts (every 78px, x=0 to 700) -->
+<g stroke="#2a1a0a" stroke-width="2" fill="#ede4c8">
+  <rect x="0"   y="468" width="14" height="98" rx="1" filter="url(#b-sk)"/>
+  <rect x="78"  y="466" width="14" height="100" rx="1" filter="url(#b-sk)"/>
+  <rect x="156" y="468" width="14" height="97" rx="1" filter="url(#b-sk)"/>
+  <rect x="234" y="466" width="14" height="100" rx="1" filter="url(#b-sk)"/>
+  <rect x="312" y="467" width="14" height="98" rx="1" filter="url(#b-sk)"/>
+  <rect x="390" y="465" width="14" height="101" rx="1" filter="url(#b-sk)"/>
+  <rect x="468" y="467" width="14" height="99" rx="1" filter="url(#b-sk)"/>
+  <rect x="546" y="465" width="14" height="100" rx="1" filter="url(#b-sk)"/>
+  <rect x="624" y="466" width="14" height="98" rx="1" filter="url(#b-sk)"/>
+  <rect x="700" y="465" width="14" height="100" rx="1" filter="url(#b-sk)"/>
+</g>
+<!-- Post pointed tops -->
+<g fill="#ede4c8" stroke="#2a1a0a" stroke-width="1.5">
+  <polygon points="7,468 0,454 14,454"/>
+  <polygon points="85,466 78,452 92,452"/>
+  <polygon points="163,468 156,452 170,452"/>
+  <polygon points="241,466 234,451 248,451"/>
+  <polygon points="319,467 312,451 326,451"/>
+  <polygon points="397,465 390,449 404,449"/>
+  <polygon points="475,467 468,451 482,451"/>
+  <polygon points="553,465 546,450 560,450"/>
+  <polygon points="631,466 624,450 638,450"/>
+  <polygon points="707,465 700,449 714,449"/>
+</g>
+<!-- Rails -->
+<rect x="0" y="473" width="714" height="9" fill="#ede4c8" stroke="#2a1a0a" stroke-width="1.8" rx="1" filter="url(#b-sk)"/>
+<rect x="0" y="507" width="714" height="9" fill="#ede4c8" stroke="#2a1a0a" stroke-width="1.8" rx="1" filter="url(#b-sk)"/>
+<!-- Knot details -->
+<ellipse cx="122" cy="477" rx="4" ry="3" stroke="#2a1a0a" stroke-width="0.8" fill="#d8cc9a" opacity="0.6"/>
+<ellipse cx="360" cy="511" rx="3.5" ry="2.5" stroke="#2a1a0a" stroke-width="0.8" fill="#d8cc9a" opacity="0.6"/>
+<ellipse cx="584" cy="476" rx="4" ry="3" stroke="#2a1a0a" stroke-width="0.8" fill="#d8cc9a" opacity="0.6"/>
+
+<!-- ═══ STARTOBJECT001 ════════════════════════ -->
+<g filter="url(#b-sk)">
+  <ellipse cx="646" cy="516" rx="52" ry="44" fill="#eedd9a" stroke="#2a1a0a" stroke-width="2.2"/>
+  <ellipse cx="646" cy="516" rx="42" ry="34" stroke="#2a1a0a" stroke-width="0.9" fill="none" opacity="0.5"/>
+  <ellipse cx="646" cy="516" rx="30" ry="22" stroke="#2a1a0a" stroke-width="0.8" fill="none" opacity="0.45"/>
+  <ellipse cx="646" cy="516" rx="18" ry="11" stroke="#2a1a0a" stroke-width="0.7" fill="none" opacity="0.4"/>
+  <ellipse cx="646" cy="516" rx="7"  ry="4"  stroke="#2a1a0a" stroke-width="0.6" fill="none" opacity="0.35"/>
+  <g stroke="#8a7030" stroke-width="0.75" opacity="0.4">
+    <line x1="598" y1="504" x2="694" y2="504"/>
+    <line x1="596" y1="512" x2="696" y2="512"/>
+    <line x1="596" y1="520" x2="696" y2="520"/>
+    <line x1="598" y1="528" x2="694" y2="528"/>
+    <line x1="603" y1="536" x2="689" y2="536"/>
+  </g>
+</g>
+<g filter="url(#b-sk)">
+  <ellipse cx="554" cy="522" rx="44" ry="38" fill="#e8d898" stroke="#2a1a0a" stroke-width="2"/>
+  <ellipse cx="554" cy="522" rx="34" ry="28" stroke="#2a1a0a" stroke-width="0.9" fill="none" opacity="0.5"/>
+  <ellipse cx="554" cy="522" rx="22" ry="17" stroke="#2a1a0a" stroke-width="0.8" fill="none" opacity="0.45"/>
+  <ellipse cx="554" cy="522" rx="10" ry="7"  stroke="#2a1a0a" stroke-width="0.65" fill="none" opacity="0.4"/>
+  <g stroke="#8a7030" stroke-width="0.7" opacity="0.38">
+    <line x1="514" y1="511" x2="594" y2="511"/>
+    <line x1="512" y1="519" x2="596" y2="519"/>
+    <line x1="513" y1="527" x2="595" y2="527"/>
+    <line x1="516" y1="534" x2="592" y2="534"/>
+  </g>
+</g>
+<rect x="520" y="474" width="62" height="40" rx="3" fill="#e4d490" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk)"/>
+<g stroke="#8a7030" stroke-width="0.7" opacity="0.4">
+  <line x1="523" y1="482" x2="579" y2="482"/>
+  <line x1="523" y1="490" x2="579" y2="490"/>
+  <line x1="523" y1="498" x2="579" y2="498"/>
+  <line x1="523" y1="506" x2="579" y2="506"/>
+</g>
+<!-- ═══ ENDOBJECT001 ════════════════════════ -->
+
+<!-- ═══ WHEELBARROW ══════════════════════════════ -->
+<g filter="url(#b-sk)">
+  <path d="M112,596 Q103,565 98,534" stroke="#2a1a0a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M183,596 Q192,565 197,534" stroke="#2a1a0a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <ellipse cx="97" cy="531" rx="6" ry="4" fill="#2a1a0a"/>
+  <ellipse cx="198" cy="531" rx="6" ry="4" fill="#2a1a0a"/>
+  <path d="M102,596 Q148,626 194,596 L204,552 Q148,574 92,552 Z" fill="#d4c488" stroke="#2a1a0a" stroke-width="2.5"/>
+  <!-- Content in wheelbarrow (hay strands - cat will hide here) -->
+  <path d="M108,585 Q118,579 128,585 Q138,579 148,585 Q158,579 168,585 Q176,579 184,583" stroke="#8a7030" stroke-width="0.85" fill="none" opacity="0.5"/>
+  <path d="M110,575 Q120,569 130,575 Q140,569 150,575 Q160,569 170,575 Q178,570 182,573" stroke="#8a7030" stroke-width="0.75" fill="none" opacity="0.4"/>
+  <path d="M113,565 Q122,560 132,565 Q142,560 152,565 Q162,560 170,564" stroke="#8a7030" stroke-width="0.7" fill="none" opacity="0.35"/>
+  <!-- Leg -->
+  <path d="M148,622 L145,658" stroke="#2a1a0a" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Wheel -->
+  <circle cx="148" cy="626" r="26" fill="#ccc080" stroke="#2a1a0a" stroke-width="2.5"/>
+  <circle cx="148" cy="626" r="17" stroke="#2a1a0a" stroke-width="1.2" fill="none"/>
+  <circle cx="148" cy="626" r="5" fill="#2a1a0a"/>
+  <line x1="148" y1="600" x2="148" y2="652" stroke="#2a1a0a" stroke-width="1.2"/>
+  <line x1="122" y1="626" x2="174" y2="626" stroke="#2a1a0a" stroke-width="1.2"/>
+  <line x1="130" y1="608" x2="166" y2="644" stroke="#2a1a0a" stroke-width="1.2"/>
+  <line x1="166" y1="608" x2="130" y2="644" stroke="#2a1a0a" stroke-width="1.2"/>
+</g>
+
+<!-- ═══ BUSHES ══════════════════════════════════ -->
+<!-- Bush cluster near fence cat hiding spot -->
+<g filter="url(#b-sk2)">
+  <ellipse cx="258" cy="518" rx="34" ry="23" fill="#a4c478" stroke="#2a1a0a" stroke-width="1.8"/>
+  <ellipse cx="282" cy="510" rx="29" ry="21" fill="#acc080" stroke="#2a1a0a" stroke-width="1.7"/>
+  <ellipse cx="237" cy="514" rx="25" ry="18" fill="#a0c074" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="270" cy="523" rx="22" ry="16" fill="#a8c87c" stroke="#2a1a0a" stroke-width="1.5"/>
+</g>
+<!-- Bush near barn -->
+<g filter="url(#b-sk2)">
+  <ellipse cx="700" cy="522" rx="30" ry="20" fill="#98b46c" stroke="#2a1a0a" stroke-width="1.8"/>
+  <ellipse cx="722" cy="514" rx="24" ry="17" fill="#a0bc74" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="680" cy="518" rx="20" ry="15" fill="#94b068" stroke="#2a1a0a" stroke-width="1.5"/>
+</g>
+
+<!-- ═══ TALL GRASS PATCH (where lying cat hides) ══ -->
+<g stroke="#527838" stroke-width="1.7" stroke-linecap="round" fill="none">
+  <path d="M58,568 Q56,546 60,522"/><path d="M68,572 Q64,548 70,520"/>
+  <path d="M78,568 Q80,544 76,518"/><path d="M88,570 Q86,546 90,518"/>
+  <path d="M98,566 Q96,542 100,516"/><path d="M108,570 Q106,546 110,518"/>
+  <path d="M118,567 Q120,543 116,516"/><path d="M128,569 Q126,545 130,517"/>
+  <path d="M138,568 Q140,544 136,516"/><path d="M148,570 Q146,546 150,518"/>
+  <path d="M158,566 Q160,542 156,514"/><path d="M168,568 Q166,544 170,516"/>
+  <path d="M178,570 Q176,546 180,518"/><path d="M188,567 Q190,543 186,515"/>
+  <path d="M198,568 Q196,544 200,516"/>
+  <!-- Tip curls -->
+  <path d="M60,522 Q58,512 63,508"/><path d="M70,520 Q66,510 72,506"/>
+  <path d="M76,518 Q78,508 73,504"/><path d="M90,518 Q88,508 93,504"/>
+  <path d="M100,516 Q98,506 103,502"/><path d="M110,518 Q112,508 107,504"/>
+  <path d="M116,516 Q118,506 113,502"/><path d="M130,517 Q128,507 133,503"/>
+  <path d="M136,516 Q138,506 133,502"/><path d="M150,518 Q148,508 153,504"/>
+  <path d="M156,514 Q158,504 153,500"/><path d="M170,516 Q172,506 167,502"/>
+  <path d="M180,518 Q178,508 183,504"/><path d="M186,515 Q188,505 183,501"/>
+  <path d="M200,516 Q198,506 203,502"/>
+</g>
+<!-- Second grass cluster (middle fence) -->
+<g stroke="#527838" stroke-width="1.5" stroke-linecap="round" fill="none">
+  <path d="M452,532 Q450,512 454,492"/><path d="M462,530 Q464,510 460,490"/>
+  <path d="M472,534 Q470,514 474,494"/><path d="M482,531 Q484,511 480,491"/>
+  <path d="M492,533 Q490,513 494,493"/>
+  <path d="M454,492 Q452,483 457,478"/><path d="M460,490 Q462,481 457,477"/>
+  <path d="M474,494 Q476,485 471,481"/><path d="M480,491 Q482,482 477,478"/>
+  <path d="M494,493 Q492,484 497,480"/>
+</g>
+
+<!-- ═══ FLOWERS ══════════════════════════════════ -->
+<g stroke="#2a1a0a" stroke-width="0.9">
+  <!-- Daisy 1 -->
+  <circle cx="325" cy="548" r="5" fill="#fffcde"/><circle cx="325" cy="548" r="2.5" fill="#f0c040" stroke-width="0"/>
+  <line x1="325" y1="535" x2="325" y2="543" stroke-width="1.5"/><line x1="325" y1="553" x2="325" y2="562" stroke-width="1.5"/>
+  <line x1="312" y1="548" x2="320" y2="548"/><line x1="330" y1="548" x2="339" y2="548"/>
+  <line x1="315" y1="538" x2="321" y2="544"/><line x1="329" y1="552" x2="335" y2="558"/>
+  <line x1="335" y1="538" x2="329" y2="544"/><line x1="321" y1="552" x2="315" y2="558"/>
+  <!-- Daisy 2 -->
+  <circle cx="495" cy="536" r="4" fill="#fffcde"/><circle cx="495" cy="536" r="2" fill="#f0c040" stroke-width="0"/>
+  <line x1="495" y1="524" x2="495" y2="532"/><line x1="495" y1="540" x2="495" y2="548"/>
+  <line x1="483" y1="536" x2="491" y2="536"/><line x1="499" y1="536" x2="507" y2="536"/>
+  <line x1="487" y1="528" x2="492" y2="532"/><line x1="498" y1="540" x2="503" y2="544"/>
+  <line x1="503" y1="528" x2="498" y2="532"/><line x1="492" y1="540" x2="487" y2="544"/>
+  <!-- Wildflower 3 -->
+  <circle cx="665" cy="550" r="4.5" fill="#ffe0ee"/><circle cx="665" cy="550" r="2.2" fill="#e090a0" stroke-width="0"/>
+  <line x1="665" y1="538" x2="665" y2="545"/><line x1="665" y1="555" x2="665" y2="563"/>
+  <line x1="653" y1="550" x2="660" y2="550"/><line x1="670" y1="550" x2="678" y2="550"/>
+</g>
+
+<!-- ═══ STONES ══════════════════════════════════ -->
+<ellipse cx="368" cy="574" rx="15" ry="9" fill="#ccc4b2" stroke="#2a1a0a" stroke-width="1.2" filter="url(#b-sk3)"/>
+<ellipse cx="396" cy="581" rx="11" ry="7" fill="#d0c8b6" stroke="#2a1a0a" stroke-width="1" filter="url(#b-sk3)"/>
+<ellipse cx="422" cy="576" rx="9"  ry="5.5" fill="#c8c0ae" stroke="#2a1a0a" stroke-width="1" filter="url(#b-sk3)"/>
+<ellipse cx="562" cy="566" rx="12" ry="7" fill="#ccc4b2" stroke="#2a1a0a" stroke-width="1.2" filter="url(#b-sk3)"/>
+
+<!-- CHICKEN COOP (small) -->
+<rect x="50" y="625" width="68" height="48" fill="#f0e8d0" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk2)"/>
+<polygon points="50,627 84,600 118,627" fill="#e8d8b0" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk2)"/>
+<rect x="67" y="638" width="30" height="35" rx="15" rx="15 15 0 0" fill="#e0d0a0" stroke="#2a1a0a" stroke-width="1.5"/>
+<circle cx="84" cy="623" r="3" fill="#2a1a0a"/>
+
+<!-- Ground shadow near barn -->
+<path d="M700,610 Q868,600 1050,608" stroke="#7a6830" stroke-width="1.2" fill="none" opacity="0.35"/>
+
+</svg>
+<!-- /background -->
+
+
+<!-- START-OBJECT-AND-CAT-001 -->
+<g filter="url(#b-sk)">
+  <ellipse cx="646" cy="516" rx="52" ry="44" fill="#eedd9a" stroke="#2a1a0a" stroke-width="2.2"/>
+  <ellipse cx="646" cy="516" rx="42" ry="34" stroke="#2a1a0a" stroke-width="0.9" fill="none" opacity="0.5"/>
+  <ellipse cx="646" cy="516" rx="30" ry="22" stroke="#2a1a0a" stroke-width="0.8" fill="none" opacity="0.45"/>
+  <ellipse cx="646" cy="516" rx="18" ry="11" stroke="#2a1a0a" stroke-width="0.7" fill="none" opacity="0.4"/>
+  <ellipse cx="646" cy="516" rx="7"  ry="4"  stroke="#2a1a0a" stroke-width="0.6" fill="none" opacity="0.35"/>
+  <g stroke="#8a7030" stroke-width="0.75" opacity="0.4">
+    <line x1="598" y1="504" x2="694" y2="504"/>
+    <line x1="596" y1="512" x2="696" y2="512"/>
+    <line x1="596" y1="520" x2="696" y2="520"/>
+    <line x1="598" y1="528" x2="694" y2="528"/>
+    <line x1="603" y1="536" x2="689" y2="536"/>
+  </g>
+</g>
+<g filter="url(#b-sk)">
+  <ellipse cx="554" cy="522" rx="44" ry="38" fill="#e8d898" stroke="#2a1a0a" stroke-width="2"/>
+  <ellipse cx="554" cy="522" rx="34" ry="28" stroke="#2a1a0a" stroke-width="0.9" fill="none" opacity="0.5"/>
+  <ellipse cx="554" cy="522" rx="22" ry="17" stroke="#2a1a0a" stroke-width="0.8" fill="none" opacity="0.45"/>
+  <ellipse cx="554" cy="522" rx="10" ry="7"  stroke="#2a1a0a" stroke-width="0.65" fill="none" opacity="0.4"/>
+  <g stroke="#8a7030" stroke-width="0.7" opacity="0.38">
+    <line x1="514" y1="511" x2="594" y2="511"/>
+    <line x1="512" y1="519" x2="596" y2="519"/>
+    <line x1="513" y1="527" x2="595" y2="527"/>
+    <line x1="516" y1="534" x2="592" y2="534"/>
+  </g>
+</g>
+<rect x="520" y="474" width="62" height="40" rx="3" fill="#e4d490" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk)"/>
+<g stroke="#8a7030" stroke-width="0.7" opacity="0.4">
+  <line x1="523" y1="482" x2="579" y2="482"/>
+  <line x1="523" y1="490" x2="579" y2="490"/>
+  <line x1="523" y1="498" x2="579" y2="498"/>
+  <line x1="523" y1="506" x2="579" y2="506"/>
+</g>
+<div class="cat-wrap" id="cat-0" style="left:484px; top:480px;">
+  <svg width="72" height="58" viewBox="0 0 72 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><filter id="c0f"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="1.3"/></filter></defs>
+    <!-- Body shaped & colored JUST like hay bale -->
+    <ellipse cx="36" cy="33" rx="31" ry="23" fill="#e8d898" stroke="#2a1a0a" stroke-width="1.9" filter="url(#c0f)"/>
+    <!-- Concentric rings like bale -->
+    <ellipse cx="36" cy="33" rx="23" ry="16" stroke="#2a1a0a" stroke-width="0.85" fill="none" opacity="0.48"/>
+    <ellipse cx="36" cy="33" rx="14" ry="9"  stroke="#2a1a0a" stroke-width="0.75" fill="none" opacity="0.42"/>
+    <ellipse cx="36" cy="33" rx="6"  ry="3.5" stroke="#2a1a0a" stroke-width="0.6" fill="none" opacity="0.38"/>
+    <!-- But these are actually fur curves — very subtle -->
+    <path d="M14,26 Q22,18 32,22" stroke="#6a5020" stroke-width="0.7" fill="none" opacity="0.38"/>
+    <path d="M42,20 Q52,23 58,32" stroke="#6a5020" stroke-width="0.7" fill="none" opacity="0.38"/>
+    <!-- Head tucked left — looks like bale texture -->
+    <ellipse cx="11" cy="26" rx="10" ry="9" fill="#e8d898" stroke="#2a1a0a" stroke-width="1.5" filter="url(#c0f)"/>
+    <!-- Tiny ear blends with bale edge -->
+    <path d="M5,20 L2,13 L10,18" stroke="#2a1a0a" stroke-width="1.1" fill="#e8d898"/>
+    <!-- Closed eye — just a curve -->
+    <path d="M6,25 Q9,23 12,25" stroke="#2a1a0a" stroke-width="1.1" fill="none"/>
+    <!-- Hay lines over body (same as bale) -->
+    <g stroke="#8a7030" stroke-width="0.75" opacity="0.42">
+      <line x1="7" y1="31" x2="65" y2="31"/>
+      <line x1="6" y1="37" x2="65" y2="37"/>
+      <line x1="8" y1="43" x2="64" y2="43"/>
+    </g>
+    <!-- Tail curving like a hay wrap line -->
+    <path d="M65,28 Q72,16 62,8 Q55,3 46,7" stroke="#2a1a0a" stroke-width="2" fill="none"/>
+  </svg>
+</div>
+<!-- END-OBJECT-AND-CAT-001 -->
+
+<!-- START-OBJECT-AND-CAT-002 -->
+<div class="cat-wrap" id="cat-4" style="left:440px; top:343px;">
+  <svg width="85" height="64" viewBox="0 0 85 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><filter id="c4f"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="3" seed="2"/><feDisplacementMap in="SourceGraphic" scale="1.6"/></filter></defs>
+    <!-- Body BARK-BROWN to match tree branch -->
+    <ellipse cx="42" cy="38" rx="36" ry="22" fill="#c8a460" stroke="#2a1a0a" stroke-width="2.1" filter="url(#c4f)"/>
+    <!-- Bark-ring lines (match tree growth rings) -->
+    <ellipse cx="42" cy="38" rx="27" ry="14" stroke="#2a1a0a" stroke-width="0.75" fill="none" opacity="0.42"/>
+    <ellipse cx="42" cy="38" rx="17" ry="8"  stroke="#2a1a0a" stroke-width="0.65" fill="none" opacity="0.38"/>
+    <!-- Bark fur strokes matching tree texture -->
+    <path d="M18,30 Q26,22 36,26" stroke="#6a4010" stroke-width="0.8" fill="none" opacity="0.42"/>
+    <path d="M46,22 Q56,25 63,34" stroke="#6a4010" stroke-width="0.8" fill="none" opacity="0.42"/>
+    <path d="M22,44 Q32,38 42,42 Q52,38 62,44" stroke="#6a4010" stroke-width="0.7" fill="none" opacity="0.38"/>
+    <!-- Head tucked in (bark-brown) -->
+    <ellipse cx="14" cy="30" rx="13" ry="12" fill="#c0a058" stroke="#2a1a0a" stroke-width="1.8" filter="url(#c4f)"/>
+    <!-- Sleeping ears flat/low -->
+    <path d="M5,21 L1,12 L11,18" stroke="#2a1a0a" stroke-width="1.3" fill="#c0a058"/>
+    <path d="M23,22 L27,13 L17,19" stroke="#2a1a0a" stroke-width="1.3" fill="#c0a058"/>
+    <!-- Closed eyes -->
+    <path d="M6,30 Q10,27 14,30" stroke="#2a1a0a" stroke-width="1.5" fill="none"/>
+    <path d="M14,30 Q18,27 22,30" stroke="#2a1a0a" stroke-width="1.5" fill="none"/>
+    <!-- Tiny nose -->
+    <ellipse cx="14" cy="34" rx="1.8" ry="1.3" fill="#4a3018"/>
+    <!-- Tail blends into branch end -->
+    <path d="M76,32 Q84,20 78,11" stroke="#2a1a0a" stroke-width="2.3" fill="none"/>
+    <!-- Paws tucked -->
+    <path d="M22,58 Q32,62 42,60 Q52,62 62,58" stroke="#2a1a0a" stroke-width="1.5" fill="none"/>
+  </svg>
+</div>
+<svg id="fg-layer" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="f-sk" x="-6%" y="-6%" width="112%" height="112%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="7"/>
+    <feDisplacementMap in="SourceGraphic" scale="1.3"/>
+  </filter>
+  <filter id="f-sk2" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.065" numOctaves="2" seed="12"/>
+    <feDisplacementMap in="SourceGraphic" scale="1"/>
+  </filter>
+</defs>
+<!-- END-OBJECT-AND-CAT-002 -->
+
+<!-- FENCE RAILS over cat-1 (x=243-303, fence rails at y=473 & y=507) -->
+<rect x="234" y="473" width="84" height="9" fill="#ede4c8" stroke="#2a1a0a" stroke-width="1.8" rx="1" filter="url(#f-sk)"/>
+<rect x="234" y="507" width="84" height="9" fill="#ede4c8" stroke="#2a1a0a" stroke-width="1.8" rx="1" filter="url(#f-sk)"/>
+<!-- FENCE POST CAPS over cat-1 area -->
+<polygon points="241,466 234,451 248,451" fill="#ede4c8" stroke="#2a1a0a" stroke-width="1.5"/>
+<polygon points="319,467 312,451 326,451" fill="#ede4c8" stroke="#2a1a0a" stroke-width="1.5"/>
+<!-- BUSHES over cat-1 lower body -->
+<ellipse cx="261" cy="516" rx="36" ry="24" fill="#a4c478" stroke="#2a1a0a" stroke-width="1.8" filter="url(#f-sk2)"/>
+<ellipse cx="286" cy="508" rx="30" ry="22" fill="#acc080" stroke="#2a1a0a" stroke-width="1.7" filter="url(#f-sk2)"/>
+<ellipse cx="238" cy="512" rx="26" ry="19" fill="#a0c074" stroke="#2a1a0a" stroke-width="1.5" filter="url(#f-sk2)"/>
+<ellipse cx="272" cy="522" rx="24" ry="17" fill="#a8c87c" stroke="#2a1a0a" stroke-width="1.5" filter="url(#f-sk2)"/>
+
+<!-- TALL GRASS BLADES over cat-2 (x=52-170, y=522-574) -->
+<g stroke="#527838" stroke-width="1.7" stroke-linecap="round" fill="none">
+  <path d="M60,572 Q58,550 62,524"/><path d="M70,576 Q66,552 72,522"/>
+  <path d="M80,572 Q82,548 78,520"/><path d="M90,573 Q88,549 92,521"/>
+  <path d="M100,570 Q98,546 102,518"/><path d="M110,573 Q108,549 112,521"/>
+  <path d="M120,571 Q122,547 118,518"/><path d="M130,572 Q128,548 132,520"/>
+  <path d="M140,570 Q142,546 138,518"/><path d="M150,572 Q148,548 152,520"/>
+  <path d="M160,570 Q162,546 158,516"/><path d="M170,573 Q168,549 172,520"/>
+  <path d="M180,571 Q178,547 182,520"/><path d="M190,570 Q192,546 188,516"/>
+  <path d="M200,572 Q198,548 202,520"/>
+  <!-- Tip curls -->
+  <path d="M62,524 Q60,514 65,510"/><path d="M72,522 Q68,512 74,508"/>
+  <path d="M78,520 Q80,510 75,506"/><path d="M92,521 Q90,511 95,507"/>
+  <path d="M102,518 Q100,508 105,504"/><path d="M112,521 Q114,511 109,507"/>
+  <path d="M118,518 Q120,508 115,504"/><path d="M132,520 Q130,510 135,506"/>
+  <path d="M138,518 Q140,508 135,504"/><path d="M152,520 Q150,510 155,506"/>
+  <path d="M158,516 Q160,506 155,502"/><path d="M172,520 Q174,510 169,506"/>
+  <path d="M182,520 Q180,510 185,506"/><path d="M188,516 Q190,506 185,502"/>
+  <path d="M202,520 Q200,510 205,506"/>
+</g>
+
+<!-- WHEELBARROW RIM over cat-5 body (cat at x=106-182, y=549-591) -->
+<path d="M102,596 Q148,624 194,596 L204,552 Q148,574 92,552 Z"
+      fill="none" stroke="#2a1a0a" stroke-width="2.8"/>
+<path d="M92,552 Q148,574 204,552" stroke="#2a1a0a" stroke-width="2.2" fill="none"/>
+
+<!-- HAY over cat-0 (cat at x=484-556, y=480-538) -->
+<g stroke="#8a7030" stroke-width="1.1" opacity="0.65">
+  <line x1="488" y1="508" x2="554" y2="508"/>
+  <line x1="486" y1="516" x2="554" y2="516"/>
+  <line x1="488" y1="524" x2="552" y2="524"/>
+</g>
+<!-- Bale B left edge over hay cat -->
+<path d="M513,484 Q525,498 513,512" stroke="#2a1a0a" stroke-width="1" fill="none" opacity="0.35"/>
+
+<!-- TREE BRANCH over cat-4 (cat at x=440-525, y=343-407) -->
+<path d="M413,372 Q438,358 476,350 Q508,344 535,352"
+      stroke="#2a1a0a" stroke-width="7.8" fill="none" stroke-linecap="round" filter="url(#f-sk)"/>
+<!-- Branch bark texture over cat -->
+<path d="M428,370 Q431,376 428,382" stroke="#2a1a0a" stroke-width="0.9" fill="none" opacity="0.5"/>
+<path d="M462,358 Q465,364 462,370" stroke="#2a1a0a" stroke-width="0.9" fill="none" opacity="0.5"/>
+<path d="M448,362 Q450,368 447,374" stroke="#2a1a0a" stroke-width="0.85" fill="none" opacity="0.45"/>
+<!-- Leaf clusters hanging over cat-4 -->
+<ellipse cx="478" cy="354" rx="22" ry="16" fill="#bcd090" stroke="#2a1a0a" stroke-width="1.4" filter="url(#f-sk2)"/>
+<ellipse cx="502" cy="347" rx="19" ry="13" fill="#c0d494" stroke="#2a1a0a" stroke-width="1.3" filter="url(#f-sk2)"/>
+<ellipse cx="456" cy="350" rx="17" ry="13" fill="#c4d898" stroke="#2a1a0a" stroke-width="1.3" filter="url(#f-sk2)"/>
+<ellipse cx="438" cy="355" rx="14" ry="11" fill="#bcd090" stroke="#2a1a0a" stroke-width="1.2" filter="url(#f-sk2)"/>
+
+<!-- BARN WINDOW FRAME over cat-3 -->
+<rect x="882" y="312" width="72" height="60" fill="none" stroke="#2a1a0a" stroke-width="2.8" rx="2"/>
+<line x1="918" y1="312" x2="918" y2="372" stroke="#2a1a0a" stroke-width="2.2"/>
+<line x1="882" y1="342" x2="954" y2="342" stroke="#2a1a0a" stroke-width="2.2"/>
+<!-- Window sill -->
+<rect x="876" y="370" width="84" height="6" fill="#ede4c8" stroke="#2a1a0a" stroke-width="1.5" rx="1" filter="url(#f-sk2)"/>
+
+</svg>
+<!-- /foreground -->
+
+<!-- Door flash effect -->
+<div id="door-flash"></div>
+
+<!-- UI -->
+<div id="ui">
+  <h2>Найди всех кошечек</h2>
+  <div id="score-line">🐾 <span id="found">0</span> / <span id="total">6</span></div>
+  <div id="hint">Они где-то затаились…</div>
+</div>
+
+<!-- Win screen -->
+<div id="win">
+  <h1>Все кошки дома! 🐱</h1>
+  <p>Ты нашёл всех <span id="win-count">6</span> кошечек</p>
+  <button onclick="location.reload()">Играть снова</button>
+</div>
+
+</div><!-- /world -->
+</div><!-- /scene -->
+
+<script>
+// ─── Scale world to fill viewport ─────────────────────
+function resizeWorld() {
+  const s = Math.max(window.innerWidth / 1200, window.innerHeight / 800);
+  document.getElementById('world').style.transform =
+    `translate(-50%, -50%) scale(${s})`;
+}
+window.addEventListener('resize', resizeWorld);
+resizeWorld();
+
+// ─── Game state ────────────────────────────────────────
+let found = 0;
+const TOTAL = 6;
+const DOOR_X = 868; // barn door center x in world coords
+const DOOR_Y = 510; // barn door center y
+
+// ─── Paw prints ───────────────────────────────────────
+function spawnPaws(catLocalX, catLocalY, catW, catH) {
+  const world = document.getElementById('world');
+  const cx = catLocalX + catW / 2;
+  const cy = catLocalY + catH / 2;
+  for (let i = 1; i <= 8; i++) {
+    const paw = document.createElement('div');
+    paw.className = 'paw';
+    const t = i / 8;
+    const lx = cx + (DOOR_X - cx) * t + (Math.random() - 0.5) * 32;
+    const ly = cy + (DOOR_Y - cy) * t + (Math.random() - 0.5) * 22;
+    paw.style.left = lx + 'px';
+    paw.style.top  = ly + 'px';
+    paw.style.animationDelay = (i * 0.13) + 's';
+    paw.style.setProperty('--r', (Math.random() * 70 - 35) + 'deg');
+    paw.textContent = '🐾';
+    world.appendChild(paw);
+    setTimeout(() => paw.remove(), 2000);
+  }
+}
+
+// ─── Handle cat click ──────────────────────────────────
+function handleClick(el) {
+  if (el.classList.contains('found')) return;
+  el.classList.add('found');
+
+  const svg = el.querySelector('svg');
+  if (svg) svg.style.animation = 'catReveal 0.45s ease-out both';
+
+  // Current world-local position
+  const lx = el.offsetLeft;
+  const ly = el.offsetTop;
+  const sw = svg ? +svg.getAttribute('width')  : 60;
+  const sh = svg ? +svg.getAttribute('height') : 60;
+
+  // Spawn paw prints
+  setTimeout(() => spawnPaws(lx, ly, sw, sh), 380);
+
+  // Animate toward barn door
+  el.style.left      = (DOOR_X - sw / 2) + 'px';
+  el.style.top       = (DOOR_Y - sh / 2) + 'px';
+  el.style.transform = 'scale(0.55)';
+
+  // Fade on entry
+  setTimeout(() => {
+    el.style.opacity = '0';
+    el.style.transform = 'scale(0.12)';
+    // Flash barn door
+    const flash = document.getElementById('door-flash');
+    flash.style.opacity = '0.75';
+    setTimeout(() => flash.style.opacity = '0', 350);
+  }, 1050);
+
+  // Remove and update score
+  setTimeout(() => {
+    el.remove();
+    found++;
+    document.getElementById('found').textContent = found;
+    if (found >= TOTAL) {
+      setTimeout(() => document.getElementById('win').classList.add('show'), 500);
+    }
+  }, 1500);
+}
+
+// ─── Init ──────────────────────────────────────────────
+document.querySelectorAll('.cat-wrap').forEach(el => {
+  el.addEventListener('click', () => handleClick(el));
+});
+
+document.getElementById('total').textContent     = TOTAL;
+document.getElementById('win-count').textContent = TOTAL;
+</script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+{
+  "theme": "Работа в международной среде",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "international",
+      "english": "international",
+      "translation": "международный"
+    },
+    {
+      "id": "global",
+      "english": "global",
+      "translation": "глобальный"
+    },
+    {
+      "id": "cross-cultural",
+      "english": "cross-cultural",
+      "translation": "межкультурный"
+    },
+    {
+      "id": "multinational",
+      "english": "multinational",
+      "translation": "многонациональный"
+    },
+    {
+      "id": "foreign",
+      "english": "foreign",
+      "translation": "иностранный"
+    },
+    {
+      "id": "colleague",
+      "english": "colleague",
+      "translation": "коллега"
+    },
+    {
+      "id": "counterpart",
+      "english": "counterpart",
+      "translation": "коллега с другой стороны"
+    },
+    {
+      "id": "stakeholder",
+      "english": "stakeholder",
+      "translation": "заинтересованная сторона"
+    },
+    {
+      "id": "client",
+      "english": "client",
+      "translation": "клиент"
+    },
+    {
+      "id": "partner",
+      "english": "partner",
+      "translation": "партнёр"
+    },
+    {
+      "id": "timezone",
+      "english": "timezone",
+      "translation": "часовой пояс"
+    },
+    {
+      "id": "schedule",
+      "english": "schedule",
+      "translation": "график"
+    },
+    {
+      "id": "availability",
+      "english": "availability",
+      "translation": "доступность"
+    },
+    {
+      "id": "deadline",
+      "english": "deadline",
+      "translation": "дедлайн"
+    },
+    {
+      "id": "overlap",
+      "english": "overlap",
+      "translation": "пересечение"
+    },
+    {
+      "id": "remote",
+      "english": "remote",
+      "translation": "удалённый"
+    },
+    {
+      "id": "distributed-team",
+      "english": "distributed team",
+      "translation": "распределённая команда"
+    },
+    {
+      "id": "headquarters",
+      "english": "headquarters",
+      "translation": "штаб-квартира"
+    },
+    {
+      "id": "branch",
+      "english": "branch",
+      "translation": "филиал"
+    },
+    {
+      "id": "office",
+      "english": "office",
+      "translation": "офис"
+    },
+    {
+      "id": "language-barrier",
+      "english": "language barrier",
+      "translation": "языковой барьер"
+    },
+    {
+      "id": "accent",
+      "english": "accent",
+      "translation": "акцент"
+    },
+    {
+      "id": "fluency",
+      "english": "fluency",
+      "translation": "беглость речи"
+    },
+    {
+      "id": "clarity",
+      "english": "clarity",
+      "translation": "ясность"
+    },
+    {
+      "id": "misunderstanding",
+      "english": "misunderstanding",
+      "translation": "недопонимание"
+    },
+    {
+      "id": "expectations",
+      "english": "expectations",
+      "translation": "ожидания"
+    },
+    {
+      "id": "requirements",
+      "english": "requirements",
+      "translation": "требования"
+    },
+    {
+      "id": "responsibility",
+      "english": "responsibility",
+      "translation": "ответственность"
+    },
+    {
+      "id": "authority",
+      "english": "authority",
+      "translation": "полномочия"
+    },
+    {
+      "id": "decision",
+      "english": "decision",
+      "translation": "решение"
+    },
+    {
+      "id": "work-permit",
+      "english": "work permit",
+      "translation": "разрешение на работу"
+    },
+    {
+      "id": "visa",
+      "english": "visa",
+      "translation": "виза"
+    },
+    {
+      "id": "relocation",
+      "english": "relocation",
+      "translation": "релокация"
+    },
+    {
+      "id": "contract",
+      "english": "contract",
+      "translation": "контракт"
+    },
+    {
+      "id": "compliance",
+      "english": "compliance",
+      "translation": "соответствие требованиям"
+    },
+    {
+      "id": "business-trip",
+      "english": "business trip",
+      "translation": "командировка"
+    },
+    {
+      "id": "negotiation",
+      "english": "negotiation",
+      "translation": "переговоры"
+    },
+    {
+      "id": "agreement",
+      "english": "agreement",
+      "translation": "соглашение"
+    },
+    {
+      "id": "approval",
+      "english": "approval",
+      "translation": "утверждение"
+    },
+    {
+      "id": "coordination",
+      "english": "coordination",
+      "translation": "координация"
+    }
+  ]
+}

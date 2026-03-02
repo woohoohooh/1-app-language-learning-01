@@ -1,0 +1,167 @@
+{
+  "theme": "Новости и медиа",
+  "level": "Upper-Intermediate",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "news",
+      "translation": "новости"
+    },
+    {
+      "english": "media",
+      "translation": "медиа"
+    },
+    {
+      "english": "press",
+      "translation": "пресса"
+    },
+    {
+      "english": "journalism",
+      "translation": "журналистика"
+    },
+    {
+      "english": "headline",
+      "translation": "заголовок"
+    },
+    {
+      "english": "article",
+      "translation": "статья"
+    },
+    {
+      "english": "coverage",
+      "translation": "освещение"
+    },
+    {
+      "english": "broadcast",
+      "translation": "трансляция"
+    },
+    {
+      "english": "publication",
+      "translation": "публикация"
+    },
+    {
+      "english": "source",
+      "translation": "источник"
+    },
+    {
+      "english": "statement",
+      "translation": "заявление"
+    },
+    {
+      "english": "announcement",
+      "translation": "объявление"
+    },
+    {
+      "english": "update",
+      "translation": "обновление"
+    },
+    {
+      "english": "breaking news",
+      "translation": "срочные новости"
+    },
+    {
+      "english": "interview",
+      "translation": "интервью"
+    },
+    {
+      "english": "commentary",
+      "translation": "комментарий"
+    },
+    {
+      "english": "analysis",
+      "translation": "анализ"
+    },
+    {
+      "english": "opinion",
+      "translation": "мнение"
+    },
+    {
+      "english": "editorial",
+      "translation": "редакционная статья"
+    },
+    {
+      "english": "fact",
+      "translation": "факт"
+    },
+    {
+      "english": "claim",
+      "translation": "утверждение"
+    },
+    {
+      "english": "evidence",
+      "translation": "доказательство"
+    },
+    {
+      "english": "context",
+      "translation": "контекст"
+    },
+    {
+      "english": "background",
+      "translation": "предыстория"
+    },
+    {
+      "english": "bias",
+      "translation": "предвзятость"
+    },
+    {
+      "english": "misinformation",
+      "translation": "дезинформация"
+    },
+    {
+      "english": "disinformation",
+      "translation": "умышленная дезинформация"
+    },
+    {
+      "english": "fake news",
+      "translation": "фейковые новости"
+    },
+    {
+      "english": "trend",
+      "translation": "тренд"
+    },
+    {
+      "english": "public opinion",
+      "translation": "общественное мнение"
+    },
+    {
+      "english": "audience",
+      "translation": "аудитория"
+    },
+    {
+      "english": "reach",
+      "translation": "охват"
+    },
+    {
+      "english": "engagement",
+      "translation": "вовлечённость"
+    },
+    {
+      "english": "platform",
+      "translation": "платформа"
+    },
+    {
+      "english": "social media",
+      "translation": "социальные сети"
+    },
+    {
+      "english": "viral",
+      "translation": "вирусный"
+    },
+    {
+      "english": "feed",
+      "translation": "лента"
+    },
+    {
+      "english": "algorithm",
+      "translation": "алгоритм"
+    },
+    {
+      "english": "report",
+      "translation": "отчёт"
+    },
+    {
+      "english": "narrative",
+      "translation": "нарратив"
+    }
+  ]
+}

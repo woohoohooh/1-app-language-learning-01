@@ -1,0 +1,367 @@
+{
+  "theme": "Офис и деловое общение",
+  "level": "Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "clean-office",
+      "english": "clean office",
+      "translation": "убирать офис",
+      "audio": [
+        "audio/phrases/clean office.wav"
+      ]
+    },
+    {
+      "id": "shared-workplace",
+      "english": "shared workplace",
+      "translation": "общее рабочее место",
+      "audio": [
+        "audio/phrases/shared workplace.wav"
+      ]
+    },
+    {
+      "id": "sales-department",
+      "english": "sales department",
+      "translation": "отдел продаж",
+      "audio": [
+        "audio/phrases/sales department.wav"
+      ]
+    },
+    {
+      "id": "small-team",
+      "english": "small team",
+      "translation": "небольшая команда",
+      "audio": [
+        "audio/phrases/small team.wav"
+      ]
+    },
+    {
+      "id": "hotel-staff",
+      "english": "hotel staff",
+      "translation": "персонал отеля",
+      "audio": [
+        "audio/phrases/hotel staff.wav"
+      ]
+    },
+    {
+      "id": "morning-meeting",
+      "english": "morning meeting",
+      "translation": "утренняя встреча",
+      "audio": [
+        "audio/phrases/morning meeting.wav"
+      ]
+    },
+    {
+      "id": "have-appointment",
+      "english": "have appointment",
+      "translation": "иметь назначенную встречу",
+      "audio": [
+        "audio/phrases/have appointment.wav"
+      ]
+    },
+    {
+      "id": "meeting-agenda",
+      "english": "meeting agenda",
+      "translation": "повестка встречи",
+      "audio": [
+        "audio/phrases/meeting agenda.wav"
+      ]
+    },
+    {
+      "id": "take-minutes",
+      "english": "take minutes",
+      "translation": "вести протокол",
+      "audio": [
+        "audio/phrases/take minutes.wav"
+      ]
+    },
+    {
+      "id": "open-discussion",
+      "english": "open discussion",
+      "translation": "открытое обсуждение",
+      "audio": [
+        "audio/phrases/open discussion.wav"
+      ]
+    },
+    {
+      "id": "check-email",
+      "english": "check email",
+      "translation": "проверить почту",
+      "audio": [
+        "audio/phrases/check email.wav"
+      ]
+    },
+    {
+      "id": "send-message",
+      "english": "send message",
+      "translation": "отправить сообщение",
+      "audio": [
+        "audio/phrases/send message.wav"
+      ]
+    },
+    {
+      "id": "return-call",
+      "english": "return call",
+      "translation": "перезвонить",
+      "audio": [
+        "audio/phrases/return call.wav"
+      ]
+    },
+    {
+      "id": "online-conference",
+      "english": "online conference",
+      "translation": "онлайн-конференция",
+      "audio": [
+        "audio/phrases/online conference.wav"
+      ]
+    },
+    {
+      "id": "join-video-call",
+      "english": "join video call",
+      "translation": "подключиться к видеозвонку",
+      "audio": [
+        "audio/phrases/join video call.wav"
+      ]
+    },
+    {
+      "id": "send-request",
+      "english": "send request",
+      "translation": "отправить запрос",
+      "audio": [
+        "audio/phrases/send request.wav"
+      ]
+    },
+    {
+      "id": "quick-response",
+      "english": "quick response",
+      "translation": "быстрый ответ",
+      "audio": [
+        "audio/phrases/quick response.wav"
+      ]
+    },
+    {
+      "id": "get-feedback",
+      "english": "get feedback",
+      "translation": "получить обратную связь",
+      "audio": [
+        "audio/phrases/get feedback.wav"
+      ]
+    },
+    {
+      "id": "seek-approval",
+      "english": "seek approval",
+      "translation": "добиваться одобрения",
+      "audio": [
+        "audio/phrases/seek approval.wav"
+      ]
+    },
+    {
+      "id": "receive-confirmation",
+      "english": "receive confirmation",
+      "translation": "получить подтверждение",
+      "audio": [
+        "audio/phrases/receive confirmation.wav"
+      ]
+    },
+    {
+      "id": "sign-agreement",
+      "english": "sign agreement",
+      "translation": "подписать соглашение",
+      "audio": [
+        "audio/phrases/sign agreement.wav"
+      ]
+    },
+    {
+      "id": "make-arrangement",
+      "english": "make arrangement",
+      "translation": "договориться",
+      "audio": [
+        "audio/phrases/make arrangement.wav"
+      ]
+    },
+    {
+      "id": "start-negotiation",
+      "english": "start negotiation",
+      "translation": "начать переговоры",
+      "audio": [
+        "audio/phrases/start negotiation.wav"
+      ]
+    },
+    {
+      "id": "make-a-decision",
+      "english": "make a decision",
+      "translation": "принять решение",
+      "audio": [
+        "audio/phrases/make a decision.wav"
+      ]
+    },
+    {
+      "id": "need-approval",
+      "english": "need approval",
+      "translation": "нужно утверждение",
+      "audio": [
+        "audio/phrases/need approval.wav"
+      ]
+    },
+    {
+      "id": "sign-the-document",
+      "english": "sign the document",
+      "translation": "подписать документ",
+      "audio": [
+        "audio/phrases/sign the document.wav"
+      ]
+    },
+    {
+      "id": "finish-the-report",
+      "english": "finish the report",
+      "translation": "закончить отчёт",
+      "audio": [
+        "audio/phrases/finish the report.wav"
+      ]
+    },
+    {
+      "id": "prepare-presentation",
+      "english": "prepare presentation",
+      "translation": "подготовить презентацию",
+      "audio": [
+        "audio/phrases/prepare presentation.wav"
+      ]
+    },
+    {
+      "id": "open-the-spreadsheet",
+      "english": "open the spreadsheet",
+      "translation": "открыть таблицу",
+      "audio": [
+        "audio/phrases/open the spreadsheet.wav"
+      ]
+    },
+    {
+      "id": "share-the-file",
+      "english": "share the file",
+      "translation": "поделиться файлом",
+      "audio": [
+        "audio/phrases/share the file.wav"
+      ]
+    },
+    {
+      "id": "company-policy",
+      "english": "company policy",
+      "translation": "политика компании",
+      "audio": [
+        "audio/phrases/company policy.wav"
+      ]
+    },
+    {
+      "id": "follow-procedure",
+      "english": "follow procedure",
+      "translation": "следовать процедуре",
+      "audio": [
+        "audio/phrases/follow procedure.wav"
+      ]
+    },
+    {
+      "id": "clear-guidelines",
+      "english": "clear guidelines",
+      "translation": "чёткие инструкции",
+      "audio": [
+        "audio/phrases/clear guidelines.wav"
+      ]
+    },
+    {
+      "id": "meet-requirements",
+      "english": "meet requirements",
+      "translation": "соответствовать требованиям",
+      "audio": [
+        "audio/phrases/meet requirements.wav"
+      ]
+    },
+    {
+      "id": "ensure-compliance",
+      "english": "ensure compliance",
+      "translation": "обеспечить соответствие",
+      "audio": [
+        "audio/phrases/ensure compliance.wav"
+      ]
+    },
+    {
+      "id": "set-priorities",
+      "english": "set priorities",
+      "translation": "установить приоритеты",
+      "audio": [
+        "audio/phrases/set priorities.wav"
+      ]
+    },
+    {
+      "id": "latest-update",
+      "english": "latest update",
+      "translation": "последнее обновление",
+      "audio": [
+        "audio/phrases/latest update.wav"
+      ]
+    },
+    {
+      "id": "check-status",
+      "english": "check status",
+      "translation": "проверить статус",
+      "audio": [
+        "audio/phrases/check status.wav"
+      ]
+    },
+    {
+      "id": "track-progress",
+      "english": "track progress",
+      "translation": "отслеживать прогресс",
+      "audio": [
+        "audio/phrases/track progress.wav"
+      ]
+    },
+    {
+      "id": "fix-the-issue",
+      "english": "fix the issue",
+      "translation": "исправить проблему",
+      "audio": [
+        "audio/phrases/fix the issue.wav"
+      ]
+    },
+    {
+      "id": "formal-request",
+      "english": "formal request",
+      "translation": "официальный запрос",
+      "audio": [
+        "audio/phrases/formal request.wav"
+      ]
+    },
+    {
+      "id": "informal-talk",
+      "english": "informal talk",
+      "translation": "неофициальный разговор",
+      "audio": [
+        "audio/phrases/informal talk.wav"
+      ]
+    },
+    {
+      "id": "stay-professional",
+      "english": "stay professional",
+      "translation": "оставаться профессиональным",
+      "audio": [
+        "audio/phrases/stay professional.wav"
+      ]
+    },
+    {
+      "id": "internal-process",
+      "english": "internal process",
+      "translation": "внутренний процесс",
+      "audio": [
+        "audio/phrases/internal process.wav"
+      ]
+    },
+    {
+      "id": "external-risk",
+      "english": "external risk",
+      "translation": "внешний риск",
+      "audio": [
+        "audio/phrases/external risk.wav"
+      ]
+    }
+  ]
+}

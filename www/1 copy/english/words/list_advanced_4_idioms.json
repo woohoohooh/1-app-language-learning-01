@@ -1,0 +1,287 @@
+{
+  "theme": "Устойчивые выражения",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "a-big-deal",
+      "english": "a big deal",
+      "translation": "большое значение",
+      "audio": [
+        "audio/words/a big deal.wav"
+      ]
+    },
+    {
+      "id": "make-sense",
+      "english": "make sense",
+      "translation": "иметь смысл",
+      "audio": [
+        "audio/words/make sense.wav"
+      ]
+    },
+    {
+      "id": "on-the-same-page",
+      "english": "on the same page",
+      "translation": "быть на одной волне",
+      "audio": [
+        "audio/words/on the same page.wav"
+      ]
+    },
+    {
+      "id": "in-the-long-run",
+      "english": "in the long run",
+      "translation": "в долгосрочной перспективе",
+      "audio": [
+        "audio/words/in the long run.wav"
+      ]
+    },
+    {
+      "id": "at-the-end-of-the-day",
+      "english": "at the end of the day",
+      "translation": "в конечном итоге",
+      "audio": [
+        "audio/words/at the end of the day.wav"
+      ]
+    },
+    {
+      "id": "a-win-win",
+      "english": "a win-win",
+      "translation": "взаимовыгодная ситуация",
+      "audio": [
+        "audio/words/a win-win.wav"
+      ]
+    },
+    {
+      "id": "the-bottom-line",
+      "english": "the bottom line",
+      "translation": "суть",
+      "audio": [
+        "audio/words/the bottom line.wav"
+      ]
+    },
+    {
+      "id": "make-a-difference",
+      "english": "make a difference",
+      "translation": "иметь значение",
+      "audio": [
+        "audio/words/make a difference.wav"
+      ]
+    },
+    {
+      "id": "a-tough-call",
+      "english": "a tough call",
+      "translation": "сложное решение",
+      "audio": [
+        "audio/words/a tough call.wav"
+      ]
+    },
+    {
+      "id": "no-brainer",
+      "english": "no brainer",
+      "translation": "очевидное решение",
+      "audio": [
+        "audio/words/no brainer.wav"
+      ]
+    },
+    {
+      "id": "a-gray-area",
+      "english": "a gray area",
+      "translation": "спорная зона",
+      "audio": [
+        "audio/words/a gray area.wav"
+      ]
+    },
+    {
+      "id": "by-the-book",
+      "english": "by the book",
+      "translation": "по правилам",
+      "audio": [
+        "audio/words/by the book.wav"
+      ]
+    },
+    {
+      "id": "behind-the-scenes",
+      "english": "behind the scenes",
+      "translation": "за кулисами",
+      "audio": [
+        "audio/words/behind the scenes.wav"
+      ]
+    },
+    {
+      "id": "on-the-table",
+      "english": "on the table",
+      "translation": "на рассмотрении",
+      "audio": [
+        "audio/words/on the table.wav"
+      ]
+    },
+    {
+      "id": "off-the-record",
+      "english": "off the record",
+      "translation": "неофициально",
+      "audio": [
+        "audio/words/off the record.wav"
+      ]
+    },
+    {
+      "id": "think-outside-the-box",
+      "english": "think outside the box",
+      "translation": "мыслить нестандартно",
+      "audio": [
+        "audio/words/think outside the box.wav"
+      ]
+    },
+    {
+      "id": "touch-base",
+      "english": "touch base",
+      "translation": "связаться",
+      "audio": [
+        "audio/words/touch base.wav"
+      ]
+    },
+    {
+      "id": "raise-a-concern",
+      "english": "raise a concern",
+      "translation": "выразить обеспокоенность",
+      "audio": [
+        "audio/words/raise a concern.wav"
+      ]
+    },
+    {
+      "id": "push-the-limits",
+      "english": "push the limits",
+      "translation": "расширять границы",
+      "audio": [
+        "audio/words/push the limits.wav"
+      ]
+    },
+    {
+      "id": "call-it-a-day",
+      "english": "call it a day",
+      "translation": "закончить на сегодня",
+      "audio": [
+        "audio/words/call it a day.wav"
+      ]
+    },
+    {
+      "id": "in-the-loop",
+      "english": "in the loop",
+      "translation": "в курсе",
+      "audio": [
+        "audio/words/in the loop.wav"
+      ]
+    },
+    {
+      "id": "out-of-the-loop",
+      "english": "out of the loop",
+      "translation": "не в курсе",
+      "audio": [
+        "audio/words/out of the loop.wav"
+      ]
+    },
+    {
+      "id": "ahead-of-the-curve",
+      "english": "ahead of the curve",
+      "translation": "опережать других",
+      "audio": [
+        "audio/words/ahead of the curve.wav"
+      ]
+    },
+    {
+      "id": "under-the-radar",
+      "english": "under the radar",
+      "translation": "незаметно",
+      "audio": [
+        "audio/words/under the radar.wav"
+      ]
+    },
+    {
+      "id": "on-short-notice",
+      "english": "on short notice",
+      "translation": "в короткие сроки",
+      "audio": [
+        "audio/words/on short notice.wav"
+      ]
+    },
+    {
+      "id": "a-learning-curve",
+      "english": "a learning curve",
+      "translation": "кривая обучения",
+      "audio": [
+        "audio/words/a learning curve.wav"
+      ]
+    },
+    {
+      "id": "make-room-for",
+      "english": "make room for",
+      "translation": "освободить место для",
+      "audio": [
+        "audio/words/make room for.wav"
+      ]
+    },
+    {
+      "id": "hit-the-ground-running",
+      "english": "hit the ground running",
+      "translation": "быстро включиться в работу",
+      "audio": [
+        "audio/words/hit the ground running.wav"
+      ]
+    },
+    {
+      "id": "keep-in-mind",
+      "english": "keep in mind",
+      "translation": "иметь в виду",
+      "audio": [
+        "audio/words/keep in mind.wav"
+      ]
+    },
+    {
+      "id": "set-the-tone",
+      "english": "set the tone",
+      "translation": "задавать тон",
+      "audio": [
+        "audio/words/set the tone.wav"
+      ]
+    },
+    {
+      "id": "play-it-safe",
+      "english": "play it safe",
+      "translation": "действовать осторожно",
+      "audio": [
+        "audio/words/play it safe.wav"
+      ]
+    },
+    {
+      "id": "take-it-seriously",
+      "english": "take it seriously",
+      "translation": "относиться серьёзно",
+      "audio": [
+        "audio/words/take it seriously.wav"
+      ]
+    },
+    {
+      "id": "make-a-point",
+      "english": "make a point",
+      "translation": "подчеркнуть мысль",
+      "audio": [
+        "audio/words/make a point.wav"
+      ]
+    },
+    {
+      "id": "cross-the-line",
+      "english": "cross the line",
+      "translation": "перейти границу",
+      "audio": [
+        "audio/words/cross the line.wav"
+      ]
+    },
+    {
+      "id": "draw-the-line",
+      "english": "draw the line",
+      "translation": "провести границу",
+      "audio": [
+        "audio/words/draw the line.wav"
+      ]
+    }
+  ]
+}

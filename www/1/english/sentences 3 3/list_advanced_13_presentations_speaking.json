@@ -1,0 +1,287 @@
+{
+  "theme": "Презентации и выступления",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "presentation",
+      "english": "presentation",
+      "translation": "презентация",
+      "audio": [
+        "audio/words/presentation.wav"
+      ]
+    },
+    {
+      "id": "speaker",
+      "english": "speaker",
+      "translation": "выступающий",
+      "audio": [
+        "audio/words/speaker.wav"
+      ]
+    },
+    {
+      "id": "audience",
+      "english": "audience",
+      "translation": "аудитория",
+      "audio": [
+        "audio/words/audience.wav"
+      ]
+    },
+    {
+      "id": "speech",
+      "english": "speech",
+      "translation": "речь",
+      "audio": [
+        "audio/words/speech.wav"
+      ]
+    },
+    {
+      "id": "talk",
+      "english": "talk",
+      "translation": "доклад",
+      "audio": [
+        "audio/words/talk.wav"
+      ]
+    },
+    {
+      "id": "slide",
+      "english": "slide",
+      "translation": "слайд",
+      "audio": [
+        "audio/words/slide.wav"
+      ]
+    },
+    {
+      "id": "deck",
+      "english": "deck",
+      "translation": "презентация",
+      "audio": [
+        "audio/words/deck.wav"
+      ]
+    },
+    {
+      "id": "visuals",
+      "english": "visuals",
+      "translation": "визуальные материалы",
+      "audio": [
+        "audio/words/visuals.wav"
+      ]
+    },
+    {
+      "id": "chart",
+      "english": "chart",
+      "translation": "график",
+      "audio": [
+        "audio/words/chart.wav"
+      ]
+    },
+    {
+      "id": "diagram",
+      "english": "diagram",
+      "translation": "диаграмма",
+      "audio": [
+        "audio/words/diagram.wav"
+      ]
+    },
+    {
+      "id": "structure",
+      "english": "structure",
+      "translation": "структура",
+      "audio": [
+        "audio/words/structure.wav"
+      ]
+    },
+    {
+      "id": "outline",
+      "english": "outline",
+      "translation": "план",
+      "audio": [
+        "audio/words/outline.wav"
+      ]
+    },
+    {
+      "id": "flow",
+      "english": "flow",
+      "translation": "поток",
+      "audio": [
+        "audio/words/flow.wav"
+      ]
+    },
+    {
+      "id": "transition",
+      "english": "transition",
+      "translation": "переход",
+      "audio": [
+        "audio/words/transition.wav"
+      ]
+    },
+    {
+      "id": "timing",
+      "english": "timing",
+      "translation": "тайминг",
+      "audio": [
+        "audio/words/timing.wav"
+      ]
+    },
+    {
+      "id": "delivery",
+      "english": "delivery",
+      "translation": "подача",
+      "audio": [
+        "audio/words/delivery.wav"
+      ]
+    },
+    {
+      "id": "clarity",
+      "english": "clarity",
+      "translation": "ясность",
+      "audio": [
+        "audio/words/clarity.wav"
+      ]
+    },
+    {
+      "id": "confidence",
+      "english": "confidence",
+      "translation": "уверенность",
+      "audio": [
+        "audio/words/confidence.wav"
+      ]
+    },
+    {
+      "id": "engagement",
+      "english": "engagement",
+      "translation": "вовлечённость",
+      "audio": [
+        "audio/words/engagement.wav"
+      ]
+    },
+    {
+      "id": "impact",
+      "english": "impact",
+      "translation": "эффект",
+      "audio": [
+        "audio/words/impact.wav"
+      ]
+    },
+    {
+      "id": "key-point",
+      "english": "key point",
+      "translation": "ключевой пункт",
+      "audio": [
+        "audio/words/key point.wav"
+      ]
+    },
+    {
+      "id": "takeaway",
+      "english": "takeaway",
+      "translation": "основной вывод",
+      "audio": [
+        "audio/words/takeaway.wav"
+      ]
+    },
+    {
+      "id": "highlight",
+      "english": "highlight",
+      "translation": "акцент",
+      "audio": [
+        "audio/words/highlight.wav"
+      ]
+    },
+    {
+      "id": "example",
+      "english": "example",
+      "translation": "пример",
+      "audio": [
+        "audio/words/example.wav"
+      ]
+    },
+    {
+      "id": "comparison",
+      "english": "comparison",
+      "translation": "сравнение",
+      "audio": [
+        "audio/words/comparison.wav"
+      ]
+    },
+    {
+      "id": "demonstration",
+      "english": "demonstration",
+      "translation": "демонстрация",
+      "audio": [
+        "audio/words/demonstration.wav"
+      ]
+    },
+    {
+      "id": "walkthrough",
+      "english": "walkthrough",
+      "translation": "пошаговый показ",
+      "audio": [
+        "audio/words/walkthrough.wav"
+      ]
+    },
+    {
+      "id": "demo",
+      "english": "demo",
+      "translation": "демо",
+      "audio": [
+        "audio/words/demo.wav"
+      ]
+    },
+    {
+      "id": "pitch",
+      "english": "pitch",
+      "translation": "питч",
+      "audio": [
+        "audio/words/pitch.wav"
+      ]
+    },
+    {
+      "id": "proposal",
+      "english": "proposal",
+      "translation": "предложение",
+      "audio": [
+        "audio/words/proposal.wav"
+      ]
+    },
+    {
+      "id": "question",
+      "english": "question",
+      "translation": "вопрос",
+      "audio": [
+        "audio/words/question.wav"
+      ]
+    },
+    {
+      "id": "answer",
+      "english": "answer",
+      "translation": "ответ",
+      "audio": [
+        "audio/words/answer.wav"
+      ]
+    },
+    {
+      "id": "discussion",
+      "english": "discussion",
+      "translation": "обсуждение",
+      "audio": [
+        "audio/words/discussion.wav"
+      ]
+    },
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "обратная связь",
+      "audio": [
+        "audio/words/feedback.wav"
+      ]
+    },
+    {
+      "id": "reaction",
+      "english": "reaction",
+      "translation": "реакция",
+      "audio": [
+        "audio/words/reaction.wav"
+      ]
+    }
+  ]
+}

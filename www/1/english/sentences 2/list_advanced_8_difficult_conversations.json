@@ -1,0 +1,182 @@
+{
+  "theme": "Сложные разговоры",
+  "level": "Advanced",
+  "name": "Words",
+  "items": [
+    {
+      "id": "conflict",
+      "english": "conflict",
+      "translation": "конфликт"
+    },
+    {
+      "id": "tension",
+      "english": "tension",
+      "translation": "напряжение"
+    },
+    {
+      "id": "disagreement",
+      "english": "disagreement",
+      "translation": "разногласие"
+    },
+    {
+      "id": "confrontation",
+      "english": "confrontation",
+      "translation": "противостояние"
+    },
+    {
+      "id": "clash",
+      "english": "clash",
+      "translation": "столкновение"
+    },
+    {
+      "id": "misunderstanding",
+      "english": "misunderstanding",
+      "translation": "недопонимание"
+    },
+    {
+      "id": "sensitivity",
+      "english": "sensitivity",
+      "translation": "чувствительность темы"
+    },
+    {
+      "id": "discomfort",
+      "english": "discomfort",
+      "translation": "дискомфорт"
+    },
+    {
+      "id": "awkwardness",
+      "english": "awkwardness",
+      "translation": "неловкость"
+    },
+    {
+      "id": "pressure",
+      "english": "pressure",
+      "translation": "давление"
+    },
+    {
+      "id": "criticism",
+      "english": "criticism",
+      "translation": "критика"
+    },
+    {
+      "id": "complaint",
+      "english": "complaint",
+      "translation": "жалоба"
+    },
+    {
+      "id": "accusation",
+      "english": "accusation",
+      "translation": "обвинение"
+    },
+    {
+      "id": "blame",
+      "english": "blame",
+      "translation": "вина"
+    },
+    {
+      "id": "responsibility",
+      "english": "responsibility",
+      "translation": "ответственность"
+    },
+    {
+      "id": "boundaries",
+      "english": "boundaries",
+      "translation": "границы"
+    },
+    {
+      "id": "expectations",
+      "english": "expectations",
+      "translation": "ожидания"
+    },
+    {
+      "id": "demands",
+      "english": "demands",
+      "translation": "требования"
+    },
+    {
+      "id": "objections",
+      "english": "objections",
+      "translation": "возражения"
+    },
+    {
+      "id": "concerns",
+      "english": "concerns",
+      "translation": "опасения"
+    },
+    {
+      "id": "compromise",
+      "english": "compromise",
+      "translation": "компромисс"
+    },
+    {
+      "id": "resolution",
+      "english": "resolution",
+      "translation": "урегулирование"
+    },
+    {
+      "id": "negotiation",
+      "english": "negotiation",
+      "translation": "переговоры"
+    },
+    {
+      "id": "mediation",
+      "english": "mediation",
+      "translation": "посредничество"
+    },
+    {
+      "id": "agreement",
+      "english": "agreement",
+      "translation": "соглашение"
+    },
+    {
+      "id": "assertiveness",
+      "english": "assertiveness",
+      "translation": "уверенная позиция"
+    },
+    {
+      "id": "defensiveness",
+      "english": "defensiveness",
+      "translation": "оборонительная реакция"
+    },
+    {
+      "id": "openness",
+      "english": "openness",
+      "translation": "открытость"
+    },
+    {
+      "id": "empathy",
+      "english": "empathy",
+      "translation": "эмпатия"
+    },
+    {
+      "id": "respect",
+      "english": "respect",
+      "translation": "уважение"
+    },
+    {
+      "id": "escalation",
+      "english": "escalation",
+      "translation": "обострение"
+    },
+    {
+      "id": "de-escalation",
+      "english": "de-escalation",
+      "translation": "снижение напряжения"
+    },
+    {
+      "id": "consequences",
+      "english": "consequences",
+      "translation": "последствия"
+    },
+    {
+      "id": "outcome",
+      "english": "outcome",
+      "translation": "итог"
+    },
+    {
+      "id": "closure",
+      "english": "closure",
+      "translation": "завершение"
+    }
+  ]
+}

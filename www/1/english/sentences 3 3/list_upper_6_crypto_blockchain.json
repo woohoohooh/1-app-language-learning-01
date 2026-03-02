@@ -1,0 +1,207 @@
+{
+  "theme": "Криптовалюта и блокчейн",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "cryptocurrency",
+      "english": "cryptocurrency",
+      "translation": "криптовалюта",
+      "audio": [
+        "audio/words/cryptocurrency.wav"
+      ]
+    },
+    {
+      "id": "crypto",
+      "english": "crypto",
+      "translation": "крипта",
+      "audio": [
+        "audio/words/crypto.wav"
+      ]
+    },
+    {
+      "id": "blockchain",
+      "english": "blockchain",
+      "translation": "блокчейн",
+      "audio": [
+        "audio/words/blockchain.wav"
+      ]
+    },
+    {
+      "id": "token",
+      "english": "token",
+      "translation": "токен",
+      "audio": [
+        "audio/words/token.wav"
+      ]
+    },
+    {
+      "id": "coin",
+      "english": "coin",
+      "translation": "монета",
+      "audio": [
+        "audio/words/coin.wav"
+      ]
+    },
+    {
+      "id": "bitcoin",
+      "english": "Bitcoin",
+      "translation": "биткоин",
+      "audio": [
+        "audio/words/Bitcoin.wav"
+      ]
+    },
+    {
+      "id": "ethereum",
+      "english": "Ethereum",
+      "translation": "эфириум",
+      "audio": [
+        "audio/words/Ethereum.wav"
+      ]
+    },
+    {
+      "id": "altcoin",
+      "english": "altcoin",
+      "translation": "альткоин",
+      "audio": [
+        "audio/words/altcoin.wav"
+      ]
+    },
+    {
+      "id": "stablecoin",
+      "english": "stablecoin",
+      "translation": "стейблкоин",
+      "audio": [
+        "audio/words/stablecoin.wav"
+      ]
+    },
+    {
+      "id": "network",
+      "english": "network",
+      "translation": "сеть",
+      "audio": [
+        "audio/words/network.wav"
+      ]
+    },
+    {
+      "id": "wallet",
+      "english": "wallet",
+      "translation": "криптокошелёк",
+      "audio": [
+        "audio/words/wallet.wav"
+      ]
+    },
+    {
+      "id": "address",
+      "english": "address",
+      "translation": "адрес",
+      "audio": [
+        "audio/words/address.wav"
+      ]
+    },
+    {
+      "id": "private-key",
+      "english": "private key",
+      "translation": "приватный ключ",
+      "audio": [
+        "audio/words/private key.wav"
+      ]
+    },
+    {
+      "id": "seed-phrase",
+      "english": "seed phrase",
+      "translation": "сид-фраза",
+      "audio": [
+        "audio/words/seed phrase.wav"
+      ]
+    },
+    {
+      "id": "transaction",
+      "english": "transaction",
+      "translation": "транзакция",
+      "audio": [
+        "audio/words/transaction.wav"
+      ]
+    },
+    {
+      "id": "block",
+      "english": "block",
+      "translation": "блок",
+      "audio": [
+        "audio/words/block.wav"
+      ]
+    },
+    {
+      "id": "miner",
+      "english": "miner",
+      "translation": "майнер",
+      "audio": [
+        "audio/words/miner.wav"
+      ]
+    },
+    {
+      "id": "mining",
+      "english": "mining",
+      "translation": "майнинг",
+      "audio": [
+        "audio/words/mining.wav"
+      ]
+    },
+    {
+      "id": "validator",
+      "english": "validator",
+      "translation": "валидатор",
+      "audio": [
+        "audio/words/validator.wav"
+      ]
+    },
+    {
+      "id": "consensus",
+      "english": "consensus",
+      "translation": "консенсус",
+      "audio": [
+        "audio/words/consensus.wav"
+      ]
+    },
+    {
+      "id": "proof-of-work",
+      "english": "proof of work",
+      "translation": "доказательство работы",
+      "audio": [
+        "audio/words/proof of work.wav"
+      ]
+    },
+    {
+      "id": "proof-of-stake",
+      "english": "proof of stake",
+      "translation": "доказательство доли",
+      "audio": [
+        "audio/words/proof of stake.wav"
+      ]
+    },
+    {
+      "id": "hash",
+      "english": "hash",
+      "translation": "хеш",
+      "audio": [
+        "audio/words/hash.wav"
+      ]
+    },
+    {
+      "id": "node",
+      "english": "node",
+      "translation": "узел сети",
+      "audio": [
+        "audio/words/node.wav"
+      ]
+    },
+    {
+      "id": "ledger",
+      "english": "ledger",
+      "translation": "реестр",
+      "audio": [
+        "audio/words/ledger.wav"
+      ]
+    }
+  ]
+}

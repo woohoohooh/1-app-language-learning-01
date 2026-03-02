@@ -1,0 +1,207 @@
+{
+  "theme": "Криптовалюта и блокчейн",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "cryptocurrency-market",
+      "english": "cryptocurrency market",
+      "translation": "рынок криптовалют",
+      "audio": [
+        "audio/phrases/cryptocurrency market.wav"
+      ]
+    },
+    {
+      "id": "crypto-industry",
+      "english": "crypto industry",
+      "translation": "криптоиндустрия",
+      "audio": [
+        "audio/phrases/crypto industry.wav"
+      ]
+    },
+    {
+      "id": "blockchain-technology",
+      "english": "blockchain technology",
+      "translation": "технология блокчейна",
+      "audio": [
+        "audio/phrases/blockchain technology.wav"
+      ]
+    },
+    {
+      "id": "utility-token",
+      "english": "utility token",
+      "translation": "утилитарный токен",
+      "audio": [
+        "audio/phrases/utility token.wav"
+      ]
+    },
+    {
+      "id": "digital-coin",
+      "english": "digital coin",
+      "translation": "цифровая монета",
+      "audio": [
+        "audio/phrases/digital coin.wav"
+      ]
+    },
+    {
+      "id": "bitcoin-network",
+      "english": "bitcoin network",
+      "translation": "сеть биткоина",
+      "audio": [
+        "audio/phrases/bitcoin network.wav"
+      ]
+    },
+    {
+      "id": "ethereum-platform",
+      "english": "ethereum platform",
+      "translation": "платформа эфириума",
+      "audio": [
+        "audio/phrases/ethereum platform.wav"
+      ]
+    },
+    {
+      "id": "popular-altcoins",
+      "english": "popular altcoins",
+      "translation": "популярные альткоины",
+      "audio": [
+        "audio/phrases/popular altcoins.wav"
+      ]
+    },
+    {
+      "id": "stablecoin-value",
+      "english": "stablecoin value",
+      "translation": "стоимость стейблкоина",
+      "audio": [
+        "audio/phrases/stablecoin value.wav"
+      ]
+    },
+    {
+      "id": "decentralized-network",
+      "english": "decentralized network",
+      "translation": "децентрализованная сеть",
+      "audio": [
+        "audio/phrases/decentralized network.wav"
+      ]
+    },
+    {
+      "id": "secure-wallet",
+      "english": "secure wallet",
+      "translation": "безопасный кошелёк",
+      "audio": [
+        "audio/phrases/secure wallet.wav"
+      ]
+    },
+    {
+      "id": "wallet-address",
+      "english": "wallet address",
+      "translation": "адрес кошелька",
+      "audio": [
+        "audio/phrases/wallet address.wav"
+      ]
+    },
+    {
+      "id": "private-key-access",
+      "english": "private key access",
+      "translation": "доступ по приватному ключу",
+      "audio": [
+        "audio/phrases/private key access.wav"
+      ]
+    },
+    {
+      "id": "seed-phrase-backup",
+      "english": "seed phrase backup",
+      "translation": "резервная сид-фраза",
+      "audio": [
+        "audio/phrases/seed phrase backup.wav"
+      ]
+    },
+    {
+      "id": "pending-transaction",
+      "english": "pending transaction",
+      "translation": "ожидающая транзакция",
+      "audio": [
+        "audio/phrases/pending transaction.wav"
+      ]
+    },
+    {
+      "id": "new-block",
+      "english": "new block",
+      "translation": "новый блок",
+      "audio": [
+        "audio/phrases/new block.wav"
+      ]
+    },
+    {
+      "id": "crypto-miner",
+      "english": "crypto miner",
+      "translation": "криптомайнер",
+      "audio": [
+        "audio/phrases/crypto miner.wav"
+      ]
+    },
+    {
+      "id": "mining-process",
+      "english": "mining process",
+      "translation": "процесс майнинга",
+      "audio": [
+        "audio/phrases/mining process.wav"
+      ]
+    },
+    {
+      "id": "network-validator",
+      "english": "network validator",
+      "translation": "валидатор сети",
+      "audio": [
+        "audio/phrases/network validator.wav"
+      ]
+    },
+    {
+      "id": "reach-consensus",
+      "english": "reach consensus",
+      "translation": "достичь консенсуса",
+      "audio": [
+        "audio/phrases/reach consensus.wav"
+      ]
+    },
+    {
+      "id": "proof-of-work",
+      "english": "proof of work",
+      "translation": "доказательство работы",
+      "audio": [
+        "audio/phrases/proof of work.wav"
+      ]
+    },
+    {
+      "id": "proof-of-stake",
+      "english": "proof of stake",
+      "translation": "доказательство доли",
+      "audio": [
+        "audio/phrases/proof of stake.wav"
+      ]
+    },
+    {
+      "id": "hash-function",
+      "english": "hash function",
+      "translation": "хеш-функция",
+      "audio": [
+        "audio/phrases/hash function.wav"
+      ]
+    },
+    {
+      "id": "network-node",
+      "english": "network node",
+      "translation": "узел сети",
+      "audio": [
+        "audio/phrases/network node.wav"
+      ]
+    },
+    {
+      "id": "public-ledger",
+      "english": "public ledger",
+      "translation": "публичный реестр",
+      "audio": [
+        "audio/phrases/public ledger.wav"
+      ]
+    }
+  ]
+}

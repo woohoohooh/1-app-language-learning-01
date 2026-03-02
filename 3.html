@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Найди кошечек — Уровень 2</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+<style>
+* { box-sizing:border-box; margin:0; padding:0; }
+body { background:#0d1008; overflow:hidden; font-family:'Caveat',cursive; }
+#scene { position:fixed; inset:0; overflow:hidden; }
+#world {
+  position:absolute; width:1200px; height:800px;
+  top:50%; left:50%; transform:translate(-50%,-50%);
+  transform-origin:center center;
+}
+#bg-layer,#fg-layer { position:absolute; top:0; left:0; width:1200px; height:800px; }
+#fg-layer { pointer-events:none; z-index:15; }
+.cloud-a { animation:cldA 32s linear infinite; }
+.cloud-b { animation:cldA 50s linear infinite; animation-delay:-20s; }
+.cloud-c { animation:cldA 68s linear infinite; animation-delay:-40s; }
+@keyframes cldA { from{transform:translateX(0)} to{transform:translateX(220px)} }
+.sway  { transform-origin:bottom center; animation:sw 3.4s ease-in-out infinite; }
+.sway2 { transform-origin:bottom center; animation:sw 2.8s ease-in-out infinite; animation-delay:-1.2s; }
+.sway3 { transform-origin:bottom center; animation:sw 4.1s ease-in-out infinite; animation-delay:-2.8s; }
+.sway4 { transform-origin:bottom center; animation:sw 5s   ease-in-out infinite; animation-delay:-1.8s; }
+@keyframes sw { 0%,100%{transform:rotate(0)} 50%{transform:rotate(4.5deg)} }
+#sails { transform-origin:592px 430px; animation:spin 9s linear infinite; }
+@keyframes spin { from{transform:rotate(0)} to{transform:rotate(360deg)} }
+.rpl  { animation:rplA 4.2s ease-in-out infinite; }
+.rpl2 { animation:rplA 5.1s ease-in-out infinite; animation-delay:-2s; }
+.rpl3 { animation:rplA 3.4s ease-in-out infinite; animation-delay:-3.3s; }
+@keyframes rplA { 0%,100%{opacity:.32;transform:scaleX(1)} 50%{opacity:.68;transform:scaleX(1.05)} }
+.bfly  { animation:bfA 20s linear infinite; }
+.bfly2 { animation:bfA 28s linear infinite; animation-delay:-11s; }
+@keyframes bfA { from{transform:translateX(-120px);opacity:0} 5%{opacity:1} 95%{opacity:1} to{transform:translateX(380px);opacity:0} }
+.dfly  { animation:dfA 2.4s ease-in-out infinite; }
+@keyframes dfA { 0%,100%{transform:translateY(0) rotate(-4deg)} 50%{transform:translateY(-9px) rotate(4deg)} }
+.wfrond { animation:wfA 4s ease-in-out infinite; transform-origin:top center; }
+@keyframes wfA { 0%,100%{transform:rotate(0)} 50%{transform:rotate(3deg)} }
+.smoke { animation:smokeA 6s ease-in-out infinite; }
+@keyframes smokeA { 0%,100%{transform:translateY(0) scaleX(1);opacity:.45} 50%{transform:translateY(-6px) scaleX(1.15);opacity:.25} }
+.cat-wrap {
+  position:absolute; cursor:crosshair; z-index:10;
+  transition:left 1.05s cubic-bezier(.4,0,.5,1),
+             top .9s cubic-bezier(.3,0,.5,1),
+             transform .8s ease-in, opacity .35s;
+}
+.cat-wrap.found { pointer-events:none; z-index:30; }
+@keyframes catReveal {
+  from{opacity:.3;transform:scale(.85);filter:blur(3px)}
+  to  {opacity:1; transform:scale(1);  filter:blur(0)}
+}
+#ui {
+  position:absolute; top:18px; left:18px;
+  background:rgba(248,244,230,.93); border:2px solid #2a1a0a;
+  border-radius:2px; padding:10px 20px 13px;
+  box-shadow:3px 3px 0 #2a1a0a; z-index:40;
+}
+#ui h2 { font-family:'IM Fell English',serif; font-size:16px; font-style:italic;
+  color:#1a0800; border-bottom:1px solid #b0905a; padding-bottom:5px; margin-bottom:7px; }
+#score-line { font-size:27px; color:#1a0800; letter-spacing:2px; }
+#hint { font-size:12px; color:#88603a; font-style:italic; margin-top:5px; }
+#level-badge { font-size:11px; color:#664420; margin-top:4px; opacity:.7; }
+.paw {
+  position:absolute; pointer-events:none; font-size:12px;
+  opacity:0; z-index:35; animation:pawA 1.3s ease-out forwards;
+}
+@keyframes pawA {
+  0%  {opacity:.85;transform:scale(1) rotate(var(--r))}
+  100%{opacity:0; transform:scale(.3) rotate(var(--r)) translateY(14px)}
+}
+#door-flash {
+  position:absolute; left:550px; top:624px; width:90px; height:70px;
+  background:radial-gradient(ellipse,#fffde0 0%,transparent 70%);
+  pointer-events:none; z-index:25; opacity:0; transition:opacity .18s; border-radius:4px;
+}
+#win {
+  display:none; position:absolute; inset:0;
+  background:rgba(245,238,215,.96); z-index:100;
+  align-items:center; justify-content:center; flex-direction:column; gap:14px;
+}
+#win.show { display:flex; }
+#win h1 { font-family:'IM Fell English',serif; font-size:52px; color:#1a0800;
+  font-style:italic; animation:winP .7s cubic-bezier(.2,.8,.3,1.3) both; }
+#win p  { font-size:22px; color:#664420; }
+@keyframes winP { from{transform:scale(.3);opacity:0} to{transform:scale(1);opacity:1} }
+#win button { font-family:'Caveat',cursive; font-size:22px; padding:10px 36px;
+  background:#2a1a0a; color:#f8f2e0; border:none; border-radius:2px;
+  cursor:pointer; box-shadow:3px 3px 0 #664420; letter-spacing:1px; }
+#win button:hover { transform:translate(1px,1px); box-shadow:2px 2px 0 #664420; }
+</style>
+</head>
+<body>
+<div id="scene"><div id="world">
+
+<!-- ═══════════════════════════════════ BACKGROUND ═══════════════════════════════════ -->
+<svg id="bg-layer" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="sk1" x="-8%" y="-8%" width="116%" height="116%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.032" numOctaves="3" seed="5"/>
+    <feDisplacementMap in="SourceGraphic" scale="2.8"/>
+  </filter>
+  <filter id="sk2" x="-6%" y="-6%" width="112%" height="112%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.055" numOctaves="2" seed="9"/>
+    <feDisplacementMap in="SourceGraphic" scale="1.8"/>
+  </filter>
+  <filter id="sk3" x="-4%" y="-4%" width="108%" height="108%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.075" numOctaves="2" seed="13"/>
+    <feDisplacementMap in="SourceGraphic" scale="1.2"/>
+  </filter>
+  <filter id="sk4" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.025" numOctaves="4" seed="21"/>
+    <feDisplacementMap in="SourceGraphic" scale="3.2"/>
+  </filter>
+  <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#fffde0" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#fffde0" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<!-- SKY -->
+<rect x="0" y="0" width="1200" height="800" fill="#ddf0f8"/>
+<rect x="0" y="0" width="1200" height="440" fill="#c8e4f2" opacity=".9"/>
+<rect x="0" y="0" width="1200" height="220" fill="#b0d4ea" opacity=".75"/>
+<rect x="0" y="0" width="1200" height="100" fill="#98c4e0" opacity=".6"/>
+
+<!-- SUN -->
+<circle cx="980" cy="88" r="62" fill="url(#sunGlow)"/>
+<circle cx="980" cy="88" r="56" fill="#fff8d0" stroke="#2a1a0a" stroke-width="1.5" filter="url(#sk3)" opacity=".88"/>
+<circle cx="980" cy="88" r="38" fill="#fffde8" opacity=".55"/>
+<g stroke="#2a1a0a" stroke-width="1.1" stroke-linecap="round" opacity=".38">
+  <line x1="980" y1="14" x2="980" y2="2"/><line x1="980" y1="174" x2="980" y2="162"/>
+  <line x1="906" y1="88" x2="892" y2="88"/><line x1="1054" y1="88" x2="1068" y2="88"/>
+  <line x1="927" y1="35" x2="917" y2="25"/><line x1="1033" y1="141" x2="1043" y2="151"/>
+  <line x1="1033" y1="35" x2="1043" y2="25"/><line x1="927" y1="141" x2="917" y2="151"/>
+</g>
+
+<!-- ANIMATED CLOUDS -->
+<g class="cloud-a" opacity=".86" filter="url(#sk2)">
+  <ellipse cx="150" cy="80" rx="72" ry="33" fill="white" stroke="#2a1a0a" stroke-width="1.3"/>
+  <ellipse cx="202" cy="64" rx="54" ry="29" fill="white" stroke="#2a1a0a" stroke-width="1.3"/>
+  <ellipse cx="108" cy="92" rx="44" ry="23" fill="white" stroke="#2a1a0a" stroke-width="1.2"/>
+</g>
+<g class="cloud-b" opacity=".8" filter="url(#sk2)">
+  <ellipse cx="540" cy="56" rx="66" ry="28" fill="white" stroke="#2a1a0a" stroke-width="1.3"/>
+  <ellipse cx="594" cy="42" rx="48" ry="25" fill="white" stroke="#2a1a0a" stroke-width="1.2"/>
+  <ellipse cx="498" cy="65" rx="36" ry="20" fill="white" stroke="#2a1a0a" stroke-width="1.1"/>
+</g>
+<g class="cloud-c" opacity=".74" filter="url(#sk2)">
+  <ellipse cx="810" cy="66" rx="56" ry="25" fill="#f8f4e0" stroke="#2a1a0a" stroke-width="1.2"/>
+  <ellipse cx="856" cy="54" rx="40" ry="21" fill="#f8f4e0" stroke="#2a1a0a" stroke-width="1.1"/>
+  <ellipse cx="775" cy="74" rx="30" ry="17" fill="#f8f4e0" stroke="#2a1a0a" stroke-width="1.1"/>
+</g>
+
+<!-- FLYING BIRDS -->
+<g class="bfly" opacity=".52">
+  <path d="M280,110 Q288,104 296,110" stroke="#2a1a0a" stroke-width="1.2" fill="none"/>
+  <path d="M304,100 Q311,95 318,100" stroke="#2a1a0a" stroke-width="1.2" fill="none"/>
+  <path d="M325,108 Q331,103 337,108" stroke="#2a1a0a" stroke-width="1.1" fill="none"/>
+</g>
+<g class="bfly2" opacity=".44">
+  <path d="M460,85 Q467,80 474,85" stroke="#2a1a0a" stroke-width="1.1" fill="none"/>
+  <path d="M482,76 Q488,71 494,76" stroke="#2a1a0a" stroke-width="1" fill="none"/>
+</g>
+
+<!-- DISTANT MOUNTAINS — hazy bluish -->
+<path d="M0,336 Q120,260 240,286 Q360,310 480,264 Q600,218 720,254 Q840,290 960,252 Q1080,214 1200,246
+         L1200,400 L0,400 Z"
+      fill="#b8c8d8" stroke="#2a1a0a" stroke-width="1.2" filter="url(#sk1)" opacity=".8"/>
+<!-- Snow caps -->
+<path d="M190,270 Q220,245 250,268" fill="#e8f0f8" stroke="#2a1a0a" stroke-width=".8" opacity=".6"/>
+<path d="M590,232 Q614,206 638,229" fill="#e8f0f8" stroke="#2a1a0a" stroke-width=".8" opacity=".6"/>
+<path d="M945,238 Q970,212 996,234" fill="#e8f0f8" stroke="#2a1a0a" stroke-width=".8" opacity=".6"/>
+
+<!-- MID-DISTANCE HILLS -->
+<path d="M0,384 Q140,338 280,360 Q430,382 580,344 Q730,306 900,334 Q1040,358 1200,334
+         L1200,472 L0,472 Z"
+      fill="#9ab878" stroke="#2a1a0a" stroke-width="1.5" filter="url(#sk1)"/>
+
+<!-- ── DISTANT WORLD: village, farms, windmill, cart, scarecrow ── -->
+
+<!-- Far-left farm buildings -->
+<g fill="#d8d0b0" stroke="#2a1a0a" stroke-width=".9" opacity=".58">
+  <rect x="30" y="374" width="40" height="24"/>
+  <polygon points="30,374 50,359 70,374"/>
+  <rect x="74" y="378" width="26" height="20"/>
+  <polygon points="74,378 87,366 100,378"/>
+</g>
+<!-- Far-left distant trees -->
+<g fill="#7a9858" stroke="#2a1a0a" stroke-width=".9" opacity=".62">
+  <ellipse cx="116" cy="356" rx="26" ry="21"/>
+  <ellipse cx="140" cy="360" rx="20" ry="17"/>
+  <ellipse cx="96"  cy="362" rx="18" ry="14"/>
+  <rect x="128" y="377" width="5" height="15"/>
+</g>
+
+<!-- Hay cart + horse (distant) -->
+<g fill="#d4c490" stroke="#2a1a0a" stroke-width=".9" opacity=".62">
+  <rect x="310" y="368" width="54" height="22" rx="2"/>
+  <circle cx="322" cy="390" r="9"  fill="none" stroke="#2a1a0a" stroke-width="1"/>
+  <circle cx="352" cy="390" r="9"  fill="none" stroke="#2a1a0a" stroke-width="1"/>
+  <circle cx="322" cy="390" r="3" fill="#d4c490"/>
+  <circle cx="352" cy="390" r="3" fill="#d4c490"/>
+  <ellipse cx="346" cy="366" rx="28" ry="10" fill="#e0d070" stroke="#2a1a0a" stroke-width=".9"/>
+  <!-- Horse -->
+  <ellipse cx="282" cy="382" rx="22" ry="10" fill="#8a7858" stroke="#2a1a0a" stroke-width=".9"/>
+  <ellipse cx="264" cy="376" rx="10" ry="8"  fill="#8a7858" stroke="#2a1a0a" stroke-width=".9"/>
+  <path d="M258,376 Q251,368 255,362" stroke="#2a1a0a" stroke-width="1" fill="none"/>
+  <line x1="272" y1="392" x2="269" y2="406" stroke="#2a1a0a" stroke-width="1.1"/>
+  <line x1="282" y1="392" x2="279" y2="406" stroke="#2a1a0a" stroke-width="1.1"/>
+  <line x1="293" y1="392" x2="291" y2="406" stroke="#2a1a0a" stroke-width="1.1"/>
+  <line x1="303" y1="390" x2="301" y2="406" stroke="#2a1a0a" stroke-width="1.1"/>
+  <line x1="304" y1="386" x2="376" y2="384" stroke="#2a1a0a" stroke-width="1.5"/>
+</g>
+
+<!-- Distant tiny windmill (far right of hills) -->
+<g opacity=".54">
+  <path d="M484,348 L486,390 L494,390 L496,348 Z" fill="#e8e0c8" stroke="#2a1a0a" stroke-width=".8"/>
+  <polygon points="478,350 490,338 502,350" fill="#d8c880" stroke="#2a1a0a" stroke-width=".8"/>
+  <line x1="490" y1="342" x2="490" y2="326" stroke="#e0d8b0" stroke-width="3.5"/>
+  <line x1="490" y1="342" x2="506" y2="342" stroke="#e0d8b0" stroke-width="3.5"/>
+  <line x1="490" y1="342" x2="490" y2="358" stroke="#e0d8b0" stroke-width="3.5"/>
+  <line x1="490" y1="342" x2="474" y2="342" stroke="#e0d8b0" stroke-width="3.5"/>
+  <circle cx="490" cy="342" r="3.5" fill="#d0c070" stroke="#2a1a0a" stroke-width=".7"/>
+</g>
+
+<!-- Distant village right -->
+<g fill="#c8c098" stroke="#2a1a0a" stroke-width="1" opacity=".72">
+  <rect x="878" y="330" width="22" height="20"/>
+  <polygon points="878,330 889,318 900,330"/>
+  <rect x="906" y="333" width="18" height="17"/>
+  <polygon points="906,333 915,322 924,333"/>
+  <rect x="928" y="328" width="24" height="22"/>
+  <polygon points="928,328 940,315 952,328"/>
+  <rect x="956" y="332" width="16" height="18"/>
+  <polygon points="956,332 964,321 972,332"/>
+</g>
+<!-- Distant church spire -->
+<rect x="958" y="303" width="5" height="29" fill="#b0a880" stroke="#2a1a0a" stroke-width=".8" opacity=".68"/>
+<polygon points="956,306 961,294 966,306" fill="#c8b880" stroke="#2a1a0a" stroke-width=".8" opacity=".68"/>
+
+<!-- Distant tree clusters (mid bg) -->
+<g fill="#88a860" stroke="#2a1a0a" stroke-width=".9" opacity=".68">
+  <ellipse cx="820" cy="344" rx="28" ry="22"/>
+  <ellipse cx="848" cy="348" rx="22" ry="18"/>
+  <ellipse cx="798" cy="350" rx="20" ry="16"/>
+  <rect x="830" y="366" width="6" height="16"/>
+</g>
+<g fill="#7a9850" stroke="#2a1a0a" stroke-width=".9" opacity=".65">
+  <ellipse cx="700" cy="338" rx="24" ry="20"/>
+  <ellipse cx="722" cy="342" rx="20" ry="17"/>
+  <rect x="710" y="358" width="5" height="14"/>
+</g>
+<!-- More distant trees left-center -->
+<g fill="#82a258" stroke="#2a1a0a" stroke-width=".9" opacity=".6">
+  <ellipse cx="190" cy="360" rx="22" ry="18"/>
+  <ellipse cx="212" cy="364" rx="18" ry="15"/>
+  <ellipse cx="170" cy="364" rx="16" ry="13"/>
+  <rect x="200" y="378" width="5" height="13"/>
+</g>
+
+<!-- NEAR GROUND layers -->
+<path d="M0,456 Q180,430 380,446 Q600,462 820,438 Q1020,416 1200,430 L1200,800 L0,800 Z"
+      fill="#a8b870" stroke="#2a1a0a" stroke-width="2" filter="url(#sk1)"/>
+<path d="M0,518 Q200,498 420,512 Q660,526 900,504 Q1060,490 1200,500 L1200,800 L0,800 Z"
+      fill="#98aa60" stroke="#2a1a0a" stroke-width="1.5" filter="url(#sk1)"/>
+<path d="M0,616 Q300,596 600,610 Q900,624 1200,606 L1200,800 L0,800 Z"
+      fill="#8a9e54" stroke="#2a1a0a" stroke-width="2" filter="url(#sk1)"/>
+
+<!-- PATH to windmill -->
+<path d="M590,800 Q582,740 575,694 Q568,652 572,618 Q576,592 590,572 Q600,556 592,538"
+      stroke="#d4b84a" stroke-width="34" fill="none" stroke-linecap="round" opacity=".72"/>
+<path d="M592,800 Q584,740 577,694 Q570,652 574,618 Q578,592 592,572 Q602,556 594,538"
+      stroke="#b8982c" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-dasharray="11,9" opacity=".5"/>
+
+<!-- ══════ WINDMILL ══════ -->
+<path d="M534,538 L548,758 L636,758 L650,538 Z"
+      fill="#f0ecd8" stroke="#2a1a0a" stroke-width="2.4" filter="url(#sk4)"/>
+<g stroke="#2a1a0a" stroke-width=".7" opacity=".26">
+  <line x1="537" y1="566" x2="648" y2="566"/><line x1="539" y1="590" x2="646" y2="590"/>
+  <line x1="541" y1="612" x2="644" y2="612"/><line x1="543" y1="635" x2="642" y2="635"/>
+  <line x1="544" y1="658" x2="641" y2="658"/><line x1="545" y1="682" x2="640" y2="682"/>
+  <line x1="547" y1="706" x2="638" y2="706"/><line x1="548" y1="730" x2="637" y2="730"/>
+  <line x1="558" y1="540" x2="558" y2="758"/><line x1="574" y1="539" x2="574" y2="758"/>
+  <line x1="592" y1="538" x2="592" y2="758"/><line x1="610" y1="539" x2="610" y2="758"/>
+  <line x1="627" y1="540" x2="627" y2="758"/>
+</g>
+<!-- Cap / roof -->
+<polygon points="518,542 592,488 666,542" fill="#e8d098" stroke="#2a1a0a" stroke-width="2.4" filter="url(#sk1)"/>
+<g stroke="#2a1a0a" stroke-width=".8" opacity=".28">
+  <path d="M528,538 Q540,527 552,538"/><path d="M552,538 Q564,527 576,538"/>
+  <path d="M576,538 Q588,527 600,538"/><path d="M600,538 Q612,527 624,538"/>
+  <path d="M624,538 Q636,527 648,538"/>
+  <path d="M537,526 Q547,516 557,526"/><path d="M557,526 Q567,516 577,526"/>
+  <path d="M577,526 Q587,516 597,526"/><path d="M597,526 Q607,516 617,526"/>
+  <path d="M617,526 Q627,516 637,526"/>
+</g>
+<!-- Window -->
+<rect x="564" y="588" width="56" height="46" rx="28" fill="#b8d8e8" stroke="#2a1a0a" stroke-width="2.2" filter="url(#sk3)"/>
+<line x1="570" y1="597" x2="578" y2="610" stroke="white" stroke-width="1.5" opacity=".6"/>
+<!-- DOOR (cat destination) -->
+<rect x="553" y="672" width="78" height="86" rx="39" fill="#c8a84a" stroke="#2a1a0a" stroke-width="2.4" filter="url(#sk1)"/>
+<path d="M553,704 Q592,696 631,704" stroke="#2a1a0a" stroke-width="1.5" fill="none"/>
+<circle cx="624" cy="717" r="5" fill="#8a6828" stroke="#2a1a0a" stroke-width="1.2"/>
+<path d="M553,730 Q592,724 631,730" stroke="#2a1a0a" stroke-width="1" fill="none" opacity=".4"/>
+<!-- SAILS (spinning) -->
+<g id="sails">
+  <path d="M592,430 L538,370 L548,385 L566,408 Z" fill="#ece4c0" stroke="#2a1a0a" stroke-width="1.8" filter="url(#sk2)"/>
+  <g stroke="#2a1a0a" stroke-width=".65" opacity=".35">
+    <line x1="548" y1="385" x2="566" y2="408"/><line x1="554" y1="379" x2="570" y2="402"/>
+    <line x1="560" y1="373" x2="573" y2="396"/>
+  </g>
+  <path d="M592,430 L648,370 L636,385 L618,408 Z" fill="#e8e0bc" stroke="#2a1a0a" stroke-width="1.8" filter="url(#sk2)"/>
+  <g stroke="#2a1a0a" stroke-width=".65" opacity=".35">
+    <line x1="636" y1="385" x2="618" y2="408"/><line x1="630" y1="379" x2="614" y2="402"/>
+    <line x1="624" y1="373" x2="611" y2="396"/>
+  </g>
+  <path d="M592,430 L648,490 L636,475 L618,452 Z" fill="#ece4c0" stroke="#2a1a0a" stroke-width="1.8" filter="url(#sk2)"/>
+  <g stroke="#2a1a0a" stroke-width=".65" opacity=".35">
+    <line x1="636" y1="475" x2="618" y2="452"/><line x1="630" y1="481" x2="614" y2="458"/>
+  </g>
+  <path d="M592,430 L536,490 L548,475 L566,452 Z" fill="#e8e0bc" stroke="#2a1a0a" stroke-width="1.8" filter="url(#sk2)"/>
+  <g stroke="#2a1a0a" stroke-width=".65" opacity=".35">
+    <line x1="548" y1="475" x2="566" y2="452"/><line x1="554" y1="481" x2="570" y2="458"/>
+  </g>
+  <circle cx="592" cy="430" r="13" fill="#d0be70" stroke="#2a1a0a" stroke-width="2.5"/>
+  <circle cx="592" cy="430" r="5"  fill="#2a1a0a"/>
+</g>
+
+<!-- ══════ LARGE OAK LEFT-FRONT ══════ -->
+<path d="M75,628 Q70,550 74,468 Q78,386 72,302 Q67,230 74,158"
+      stroke="#2a1a0a" stroke-width="18" fill="none" stroke-linecap="round" filter="url(#sk4)"/>
+<path d="M62,566 Q80,550 64,534" stroke="#2a1a0a" stroke-width="1.1" fill="none" opacity=".38"/>
+<path d="M78,520 Q60,504 77,490" stroke="#2a1a0a" stroke-width="1" fill="none" opacity=".35"/>
+<!-- Main branch RIGHT (cats sit here) -->
+<path d="M74,350 Q115,330 160,324 Q204,320 248,327"
+      stroke="#2a1a0a" stroke-width="10" fill="none" stroke-linecap="round" filter="url(#sk1)"/>
+<path d="M248,327 Q272,317 298,322 Q320,314 342,320"
+      stroke="#2a1a0a" stroke-width="6.5" fill="none" stroke-linecap="round" filter="url(#sk1)"/>
+<!-- Other branches -->
+<path d="M74,300 Q42,274 18,250" stroke="#2a1a0a" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M74,320 Q108,297 130,274" stroke="#2a1a0a" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+<path d="M74,260 Q52,234 46,206" stroke="#2a1a0a" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M74,250 Q100,224 108,198" stroke="#2a1a0a" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<!-- Roots -->
+<path d="M74,628 Q50,650 26,664" stroke="#2a1a0a" stroke-width="11" fill="none" stroke-linecap="round"/>
+<path d="M74,628 Q102,648 126,660" stroke="#2a1a0a" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M74,628 Q68,664 66,690" stroke="#2a1a0a" stroke-width="7" fill="none" stroke-linecap="round"/>
+<!-- Crown — lush, multi-layer -->
+<ellipse cx="74"  cy="160" rx="120" ry="97"  fill="#98bc70" stroke="#2a1a0a" stroke-width="2.2" filter="url(#sk1)"/>
+<ellipse cx="4"   cy="214" rx="78"  ry="68"  fill="#8eb468" stroke="#2a1a0a" stroke-width="2"   filter="url(#sk1)"/>
+<ellipse cx="154" cy="206" rx="84"  ry="74"  fill="#9cc078" stroke="#2a1a0a" stroke-width="2"   filter="url(#sk1)"/>
+<ellipse cx="74"  cy="92"  rx="68"  ry="56"  fill="#a4c87e" stroke="#2a1a0a" stroke-width="2"   filter="url(#sk1)"/>
+<ellipse cx="0"   cy="164" rx="52"  ry="46"  fill="#90b86a" stroke="#2a1a0a" stroke-width="1.8" filter="url(#sk2)"/>
+<ellipse cx="164" cy="158" rx="57"  ry="50"  fill="#98c074" stroke="#2a1a0a" stroke-width="1.8" filter="url(#sk2)"/>
+<g fill="#60803c" opacity=".28">
+  <circle cx="40"  cy="140" r="5"/><circle cx="72"  cy="112" r="4.5"/>
+  <circle cx="110" cy="130" r="5"/><circle cx="92"  cy="160" r="4"/>
+  <circle cx="48"  cy="176" r="4.5"/><circle cx="130" cy="170" r="5"/>
+</g>
+
+<!-- ══════ WILLOW TREE RIGHT-FRONT ══════ -->
+<path d="M1120,634 Q1116,560 1120,482 Q1124,404 1118,332 Q1114,270 1120,208"
+      stroke="#2a1a0a" stroke-width="14" fill="none" stroke-linecap="round" filter="url(#sk1)"/>
+<!-- Willow crown -->
+<ellipse cx="1120" cy="212" rx="102" ry="84" fill="#a4c870" stroke="#2a1a0a" stroke-width="2"   filter="url(#sk1)"/>
+<ellipse cx="1060" cy="250" rx="70"  ry="60" fill="#9cc068" stroke="#2a1a0a" stroke-width="1.8" filter="url(#sk1)"/>
+<ellipse cx="1180" cy="246" rx="74"  ry="64" fill="#a8cc74" stroke="#2a1a0a" stroke-width="1.8" filter="url(#sk1)"/>
+<ellipse cx="1120" cy="156" rx="62"  ry="52" fill="#b0d07c" stroke="#2a1a0a" stroke-width="1.8" filter="url(#sk1)"/>
+<!-- Willow fronds — animated sway -->
+<g class="wfrond" stroke="#70985a" stroke-width="1.5" stroke-linecap="round" fill="none" opacity=".82">
+  <path d="M1060,262 Q1053,302 1048,342 Q1044,374 1046,402"/>
+  <path d="M1076,270 Q1070,312 1067,350 Q1065,380 1068,408"/>
+  <path d="M1094,274 Q1090,316 1088,356 Q1086,388 1090,414"/>
+  <path d="M1112,277 Q1110,320 1108,360 Q1107,392 1110,420"/>
+  <path d="M1130,274 Q1130,318 1130,358 Q1130,390 1133,417"/>
+  <path d="M1146,270 Q1148,313 1150,352 Q1151,384 1148,411"/>
+  <path d="M1162,262 Q1166,306 1168,345 Q1170,376 1166,403"/>
+  <path d="M1176,252 Q1182,296 1184,334 Q1186,365 1182,392"/>
+</g>
+<!-- Willow roots -->
+<path d="M1120,634 Q1100,656 1080,670" stroke="#2a1a0a" stroke-width="8" fill="none" stroke-linecap="round"/>
+<path d="M1120,634 Q1142,652 1162,664" stroke="#2a1a0a" stroke-width="7.5" fill="none" stroke-linecap="round"/>
+
+<!-- ══════ POND ══════ -->
+<ellipse cx="270" cy="597" rx="196" ry="90" fill="#a8c8dc" stroke="#2a1a0a" stroke-width="2.2" filter="url(#sk1)"/>
+<ellipse cx="270" cy="594" rx="166" ry="72" fill="#b8d8ec" opacity=".55"/>
+<!-- Ripples (animated) -->
+<g class="rpl" stroke="#80a8c0" stroke-width="1" fill="none" opacity=".42">
+  <path d="M118,580 Q175,574 232,580 Q278,584 322,578"/>
+  <path d="M108,593 Q168,587 232,593 Q290,597 345,591"/>
+  <path d="M122,606 Q182,600 244,606 Q298,610 345,604"/>
+</g>
+<g class="rpl2" stroke="#80a8c0" stroke-width=".9" fill="none" opacity=".36">
+  <path d="M138,574 Q183,568 223,574 Q256,578 290,572"/>
+  <path d="M148,618 Q196,612 246,618"/>
+</g>
+<g class="rpl3" stroke="#80a8c0" stroke-width=".8" fill="none" opacity=".3">
+  <path d="M198,586 Q236,582 268,586 Q300,590 330,584"/>
+</g>
+<!-- Reeds left pond -->
+<g stroke="#2a1a0a" stroke-width="2" stroke-linecap="round" fill="none">
+  <path d="M80,564 Q78,538 82,510"/><path d="M92,568 Q94,542 90,514"/>
+  <path d="M104,562 Q102,536 106,508"/><path d="M116,566 Q118,540 114,512"/>
+</g>
+<rect x="75"  y="502" width="10" height="18" rx="5" fill="#9a7040" stroke="#2a1a0a" stroke-width="1.3"/>
+<rect x="88"  y="506" width="9"  height="16" rx="4.5" fill="#8a6030" stroke="#2a1a0a" stroke-width="1.2"/>
+<rect x="100" y="500" width="10" height="18" rx="5" fill="#9a7040" stroke="#2a1a0a" stroke-width="1.2"/>
+<rect x="112" y="504" width="9"  height="16" rx="4.5" fill="#8a6030" stroke="#2a1a0a" stroke-width="1.2"/>
+<!-- Reeds right pond -->
+<g stroke="#2a1a0a" stroke-width="1.8" stroke-linecap="round" fill="none">
+  <path d="M416,558 Q418,532 414,506"/><path d="M428,562 Q426,536 430,510"/>
+  <path d="M440,557 Q442,531 438,505"/>
+</g>
+<rect x="410" y="498" width="9"  height="16" rx="4.5" fill="#8a6030" stroke="#2a1a0a" stroke-width="1.2"/>
+<rect x="424" y="502" width="9"  height="16" rx="4.5" fill="#9a7040" stroke="#2a1a0a" stroke-width="1.2"/>
+<rect x="436" y="496" width="9"  height="16" rx="4.5" fill="#8a6030" stroke="#2a1a0a" stroke-width="1.1"/>
+<!-- Lily pads -->
+<ellipse cx="192" cy="614" rx="22" ry="11" fill="#80a050" stroke="#2a1a0a" stroke-width="1.4" filter="url(#sk3)"/>
+<path d="M192,614 L192,603" stroke="#2a1a0a" stroke-width=".9"/>
+<circle cx="192" cy="602" r="7" fill="#f0e898" stroke="#2a1a0a" stroke-width="1.1"/>
+<circle cx="192" cy="602" r="3.5" fill="#d8c040"/>
+<ellipse cx="340" cy="618" rx="18" ry="9" fill="#80a050" stroke="#2a1a0a" stroke-width="1.2" filter="url(#sk3)"/>
+<circle cx="340" cy="609" r="5.5" fill="#eee590" stroke="#2a1a0a" stroke-width="1"/>
+<ellipse cx="252" cy="638" rx="16" ry="8" fill="#80a050" stroke="#2a1a0a" stroke-width="1.2" filter="url(#sk3)"/>
+<!-- Duck -->
+<ellipse cx="310" cy="602" rx="22" ry="13" fill="#f5edd8" stroke="#2a1a0a" stroke-width="1.4" filter="url(#sk3)"/>
+<ellipse cx="296" cy="594" rx="11" ry="10" fill="#f5edd8" stroke="#2a1a0a" stroke-width="1.3" filter="url(#sk3)"/>
+<path d="M285,593 Q279,590 284,587 Q290,584 295,588" fill="#d4a820" stroke="#2a1a0a" stroke-width="1"/>
+<ellipse cx="288" cy="590" rx="3" ry="2.5" fill="#2a1a0a"/>
+<path d="M330,602 Q350,597 368,602" stroke="#a0c0d4" stroke-width="1.2" fill="none" opacity=".6"/>
+<!-- Dragonfly -->
+<g class="dfly" style="transform-origin:228px 570px">
+  <line x1="218" y1="570" x2="240" y2="570" stroke="#2a1a0a" stroke-width="1.2"/>
+  <ellipse cx="226" cy="570" rx="6" ry="3.5" fill="#70c8d8" opacity=".72"/>
+  <path d="M220,570 Q214,562 222,563 Q220,570 220,570" fill="none" stroke="#2a1a0a" stroke-width=".9"/>
+  <path d="M232,570 Q238,562 230,563 Q232,570 232,570" fill="none" stroke="#2a1a0a" stroke-width=".9"/>
+  <ellipse cx="226" cy="574" rx="4" ry="2.5" fill="#70c8d8" opacity=".55"/>
+</g>
+
+<!-- ══════ STONE BRIDGE ══════ -->
+<path d="M80,622 Q148,584 216,622" fill="#c8c0a0" stroke="#2a1a0a" stroke-width="2.2" filter="url(#sk1)"/>
+<path d="M74,624 Q148,588 222,624" fill="none" stroke="#2a1a0a" stroke-width="2"/>
+<path d="M100,622 Q148,600 196,622" fill="#a8c8dc" stroke="#2a1a0a" stroke-width="1.5"/>
+<g stroke="#2a1a0a" stroke-width=".7" opacity=".35">
+  <line x1="104" y1="622" x2="104" y2="614"/><line x1="120" y1="618" x2="120" y2="610"/>
+  <line x1="136" y1="616" x2="136" y2="608"/><line x1="152" y1="616" x2="152" y2="608"/>
+  <line x1="168" y1="617" x2="168" y2="609"/><line x1="184" y1="619" x2="184" y2="611"/>
+  <line x1="200" y1="621" x2="200" y2="613"/>
+</g>
+<line x1="80" y1="614" x2="218" y2="614" stroke="#2a1a0a" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="80" y1="624" x2="218" y2="624" stroke="#2a1a0a" stroke-width="2" stroke-linecap="round"/>
+
+<!-- ══════ HAY STACKS ══════ -->
+<!-- Stack A (big) -->
+<ellipse cx="852" cy="554" rx="80" ry="56" fill="#e8d478" stroke="#2a1a0a" stroke-width="2.2" filter="url(#sk1)"/>
+<path d="M776,552 Q852,528 928,552" stroke="#2a1a0a" stroke-width="1.2" fill="none" opacity=".42"/>
+<path d="M780,564 Q852,542 924,564" stroke="#2a1a0a" stroke-width="1.1" fill="none" opacity=".36"/>
+<path d="M784,576 Q852,556 920,576" stroke="#2a1a0a" stroke-width="1" fill="none" opacity=".3"/>
+<g class="sway2" stroke="#a08828" stroke-width="1.3" stroke-linecap="round" opacity=".52" style="transform-origin:852px 500px">
+  <path d="M820,502 Q816,490 818,480"/><path d="M832,499 Q830,487 832,477"/>
+  <path d="M845,498 Q843,486 845,476"/><path d="M858,499 Q859,487 856,477"/>
+  <path d="M870,501 Q872,489 868,479"/><path d="M882,503 Q884,492 880,482"/>
+</g>
+<!-- Stack B -->
+<ellipse cx="970" cy="570" rx="60" ry="44" fill="#e4d074" stroke="#2a1a0a" stroke-width="2" filter="url(#sk1)"/>
+<path d="M914,568 Q970,548 1026,568" stroke="#2a1a0a" stroke-width="1" fill="none" opacity=".38"/>
+<path d="M918,580 Q970,562 1022,580" stroke="#2a1a0a" stroke-width=".9" fill="none" opacity=".32"/>
+<!-- Bale C (rect) -->
+<rect x="1032" y="538" width="74" height="48" rx="4" fill="#e0cc70" stroke="#2a1a0a" stroke-width="1.9" filter="url(#sk1)"/>
+<g stroke="#a08828" stroke-width=".8" opacity=".42">
+  <line x1="1036" y1="548" x2="1103" y2="548"/><line x1="1036" y1="558" x2="1103" y2="558"/>
+  <line x1="1036" y1="568" x2="1103" y2="568"/><line x1="1036" y1="578" x2="1103" y2="578"/>
+</g>
+
+<!-- ══════ FENCE ══════ -->
+<g stroke="#2a1a0a" stroke-width="2.2" fill="#e8e0c4">
+  <rect x="310" y="458" width="13" height="105" rx="1" filter="url(#sk1)"/>
+  <rect x="390" y="455" width="13" height="108" rx="1" filter="url(#sk1)"/>
+  <rect x="470" y="456" width="13" height="107" rx="1" filter="url(#sk1)"/>
+  <rect x="550" y="454" width="13" height="109" rx="1" filter="url(#sk1)"/>
+</g>
+<g fill="#e8e0c4" stroke="#2a1a0a" stroke-width="1.6">
+  <polygon points="316,458 310,444 323,444"/>
+  <polygon points="396,455 390,441 403,441"/>
+  <polygon points="476,456 470,442 483,442"/>
+  <polygon points="556,454 550,440 563,440"/>
+</g>
+<rect x="310" y="464" width="253" height="9" fill="#e8e0c4" stroke="#2a1a0a" stroke-width="1.9" rx="1" filter="url(#sk1)"/>
+<rect x="310" y="500" width="253" height="9" fill="#e8e0c4" stroke="#2a1a0a" stroke-width="1.9" rx="1" filter="url(#sk1)"/>
+
+<!-- ══════ COTTAGE (mid bg left) ══════ -->
+<g opacity=".84">
+  <rect x="350" y="380" width="110" height="82" fill="#f0e8d0" stroke="#2a1a0a" stroke-width="1.8" filter="url(#sk1)"/>
+  <g stroke="#2a1a0a" stroke-width=".6" opacity=".25">
+    <line x1="368" y1="380" x2="368" y2="462"/><line x1="386" y1="380" x2="386" y2="462"/>
+    <line x1="404" y1="380" x2="404" y2="462"/><line x1="422" y1="380" x2="422" y2="462"/>
+    <line x1="440" y1="380" x2="440" y2="462"/>
+  </g>
+  <polygon points="342,383 405,324 468,383" fill="#e8d090" stroke="#2a1a0a" stroke-width="1.8" filter="url(#sk1)"/>
+  <g stroke="#2a1a0a" stroke-width=".6" opacity=".28">
+    <path d="M354,379 Q362,370 370,379"/><path d="M370,379 Q378,370 386,379"/>
+    <path d="M386,379 Q394,370 402,379"/><path d="M402,379 Q410,370 418,379"/>
+    <path d="M418,379 Q426,370 434,379"/><path d="M434,379 Q442,370 450,379"/>
+    <path d="M362,368 Q369,360 376,368"/><path d="M376,368 Q383,360 390,368"/>
+    <path d="M390,368 Q397,360 404,368"/><path d="M404,368 Q411,360 418,368"/>
+    <path d="M418,368 Q425,360 432,368"/>
+  </g>
+  <rect x="388" y="420" width="34" height="42" rx="17" fill="#c8a84a" stroke="#2a1a0a" stroke-width="1.5"/>
+  <!-- Windows -->
+  <rect x="358" y="398" width="24" height="20" rx="2" fill="#b8d8e8" stroke="#2a1a0a" stroke-width="1.4"/>
+  <line x1="370" y1="398" x2="370" y2="418" stroke="#2a1a0a" stroke-width="1"/>
+  <line x1="358" y1="408" x2="382" y2="408" stroke="#2a1a0a" stroke-width="1"/>
+  <rect x="428" y="398" width="24" height="20" rx="2" fill="#b8d8e8" stroke="#2a1a0a" stroke-width="1.4"/>
+  <line x1="440" y1="398" x2="440" y2="418" stroke="#2a1a0a" stroke-width="1"/>
+  <line x1="428" y1="408" x2="452" y2="408" stroke="#2a1a0a" stroke-width="1"/>
+  <!-- Chimney + smoke -->
+  <rect x="425" y="330" width="14" height="33" fill="#d4c898" stroke="#2a1a0a" stroke-width="1.5"/>
+  <path d="M432,330 Q429,316 434,303 Q439,290 435,278" stroke="#c8c0a8" stroke-width="2.5" fill="none" opacity=".48" stroke-linecap="round" class="smoke"/>
+  <path d="M434,328 Q437,313 432,300 Q427,288 431,276" stroke="#c8c0a8" stroke-width="1.8" fill="none" opacity=".32" stroke-linecap="round" class="smoke"/>
+</g>
+
+<!-- ══════ SCARECROW (in field) ══════ -->
+<g stroke="#2a1a0a" stroke-width="1.2" opacity=".78">
+  <line x1="200" y1="452" x2="200" y2="494" stroke="#2a1a0a" stroke-width="1.8"/>
+  <line x1="183" y1="462" x2="217" y2="462" stroke="#2a1a0a" stroke-width="1.4"/>
+  <rect x="194" y="436" width="12" height="8" rx="1" fill="#8a6830" stroke="#2a1a0a" stroke-width="1.1"/>
+  <rect x="190" y="444" width="20" height="3" fill="#8a6830" stroke="#2a1a0a" stroke-width="1"/>
+  <rect x="193" y="462" width="14" height="20" rx="2" fill="#7888c0"/>
+  <!-- Straw arms -->
+  <path d="M183,462 Q177,457 173,463" stroke="#b89840" stroke-width="1.5" fill="none"/>
+  <path d="M217,462 Q223,457 227,463" stroke="#b89840" stroke-width="1.5" fill="none"/>
+</g>
+
+<!-- ══════ OLD WELL (mid field) ══════ -->
+<g opacity=".74">
+  <rect x="668" y="436" width="40" height="30" rx="2" fill="#d8cca8" stroke="#2a1a0a" stroke-width="1.3"/>
+  <ellipse cx="688" cy="436" rx="21" ry="9" fill="#1a1006" stroke="#2a1a0a" stroke-width="1.3"/>
+  <line x1="688" y1="428" x2="688" y2="412" stroke="#2a1a0a" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="663" y1="412" x2="713" y2="412" stroke="#2a1a0a" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="667" y1="412" x2="665" y2="436" stroke="#2a1a0a" stroke-width="2.5"/>
+  <line x1="709" y1="412" x2="711" y2="436" stroke="#2a1a0a" stroke-width="2.5"/>
+  <polygon points="659,414 688,399 717,414" fill="#d8c880" stroke="#2a1a0a" stroke-width="1.2"/>
+</g>
+
+<!-- ══════ STONE WALL ══════ -->
+<g filter="url(#sk1)">
+  <rect x="740" y="490" width="250" height="50" rx="2" fill="#d4c8a8" stroke="#2a1a0a" stroke-width="2"/>
+  <line x1="740" y1="510" x2="990" y2="510" stroke="#2a1a0a" stroke-width=".8" opacity=".3"/>
+  <line x1="740" y1="528" x2="990" y2="528" stroke="#2a1a0a" stroke-width=".8" opacity=".3"/>
+  <g stroke="#2a1a0a" stroke-width=".7" opacity=".28">
+    <line x1="762" y1="490" x2="762" y2="540"/><line x1="790" y1="490" x2="790" y2="540"/>
+    <line x1="816" y1="490" x2="816" y2="540"/><line x1="840" y1="490" x2="840" y2="540"/>
+    <line x1="864" y1="490" x2="864" y2="540"/><line x1="892" y1="490" x2="892" y2="540"/>
+    <line x1="918" y1="490" x2="918" y2="540"/><line x1="948" y1="490" x2="948" y2="540"/>
+    <line x1="970" y1="490" x2="970" y2="540"/>
+  </g>
+  <!-- Moss on wall top -->
+  <ellipse cx="768" cy="490" rx="12" ry="5" fill="#7a9850" opacity=".45" filter="url(#sk3)"/>
+  <ellipse cx="820" cy="490" rx="14" ry="5" fill="#88a858" opacity=".42" filter="url(#sk3)"/>
+  <ellipse cx="878" cy="490" rx="11" ry="4" fill="#7a9850" opacity=".4"  filter="url(#sk3)"/>
+  <ellipse cx="936" cy="490" rx="13" ry="5" fill="#88a858" opacity=".42" filter="url(#sk3)"/>
+  <ellipse cx="974" cy="490" rx="9"  ry="4" fill="#7a9850" opacity=".38" filter="url(#sk3)"/>
+</g>
+
+<!-- ══════ VEGETABLE GARDEN ══════ -->
+<g filter="url(#sk1)">
+  <rect x="730" y="638" width="160" height="12" rx="2" fill="#b89848" stroke="#2a1a0a" stroke-width="1.4"/>
+  <rect x="730" y="656" width="160" height="12" rx="2" fill="#b89848" stroke="#2a1a0a" stroke-width="1.4"/>
+  <rect x="730" y="674" width="160" height="12" rx="2" fill="#b89848" stroke="#2a1a0a" stroke-width="1.4"/>
+</g>
+<!-- Pumpkins -->
+<g filter="url(#sk3)">
+  <ellipse cx="750" cy="639" rx="11" ry="9" fill="#d48830" stroke="#2a1a0a" stroke-width="1.4"/>
+  <ellipse cx="750" cy="639" rx="7" ry="5.5" stroke="#2a1a0a" stroke-width=".7" fill="none" opacity=".5"/>
+  <line x1="750" y1="630" x2="750" y2="626" stroke="#2a1a0a" stroke-width="1.2"/>
+  <ellipse cx="774" cy="638" rx="10" ry="8" fill="#e09038" stroke="#2a1a0a" stroke-width="1.3"/>
+  <line x1="774" y1="630" x2="774" y2="626" stroke="#2a1a0a" stroke-width="1.1"/>
+  <ellipse cx="796" cy="640" rx="9" ry="8" fill="#d48830" stroke="#2a1a0a" stroke-width="1.2"/>
+  <line x1="796" y1="632" x2="796" y2="628" stroke="#2a1a0a" stroke-width="1.1"/>
+  <ellipse cx="818" cy="638" rx="10" ry="8" fill="#e89838" stroke="#2a1a0a" stroke-width="1.3"/>
+  <line x1="818" y1="630" x2="818" y2="626" stroke="#2a1a0a" stroke-width="1.1"/>
+  <ellipse cx="840" cy="640" rx="9" ry="7.5" fill="#d48830" stroke="#2a1a0a" stroke-width="1.2"/>
+  <ellipse cx="860" cy="638" rx="10" ry="8" fill="#e09038" stroke="#2a1a0a" stroke-width="1.3"/>
+  <ellipse cx="882" cy="640" rx="9" ry="7.5" fill="#d48830" stroke="#2a1a0a" stroke-width="1.2"/>
+</g>
+<!-- Leeks row 2 -->
+<g stroke="#408010" stroke-width="2" stroke-linecap="round" fill="none">
+  <path d="M740,658 Q737,650 740,642"/><path d="M740,658 Q744,650 740,642"/>
+  <path d="M756,658 Q753,650 756,642"/><path d="M756,658 Q760,650 756,642"/>
+  <path d="M772,658 Q769,650 772,642"/><path d="M772,658 Q776,650 772,642"/>
+  <path d="M788,658 Q785,650 788,642"/><path d="M788,658 Q792,650 788,642"/>
+  <path d="M804,658 Q801,650 804,642"/><path d="M820,658 Q817,650 820,642"/>
+  <path d="M836,658 Q833,650 836,642"/><path d="M852,658 Q849,650 852,642"/>
+  <path d="M868,658 Q865,650 868,642"/>
+</g>
+<!-- Cabbages row 3 -->
+<g filter="url(#sk3)">
+  <circle cx="748" cy="677" r="11" fill="#88b040" stroke="#2a1a0a" stroke-width="1.3"/>
+  <circle cx="748" cy="677" r="7" fill="#98c050" stroke="#2a1a0a" stroke-width=".7" opacity=".7"/>
+  <circle cx="772" cy="676" r="11" fill="#80aa38" stroke="#2a1a0a" stroke-width="1.3"/>
+  <circle cx="772" cy="676" r="7" fill="#90ba48" stroke="#2a1a0a" stroke-width=".7" opacity=".7"/>
+  <circle cx="796" cy="677" r="10" fill="#88b040" stroke="#2a1a0a" stroke-width="1.2"/>
+  <circle cx="820" cy="676" r="11" fill="#80aa38" stroke="#2a1a0a" stroke-width="1.3"/>
+  <circle cx="844" cy="677" r="10" fill="#88b040" stroke="#2a1a0a" stroke-width="1.2"/>
+  <circle cx="868" cy="676" r="11" fill="#80aa38" stroke="#2a1a0a" stroke-width="1.3"/>
+</g>
+
+<!-- ══════ BEEHIVE STAND ══════ -->
+<rect x="390" y="624" width="58" height="9" rx="2" fill="#d0b468" stroke="#2a1a0a" stroke-width="1.6"/>
+<line x1="396" y1="633" x2="396" y2="654" stroke="#2a1a0a" stroke-width="2.2"/>
+<line x1="442" y1="633" x2="442" y2="654" stroke="#2a1a0a" stroke-width="2.2"/>
+<ellipse cx="410" cy="608" rx="22" ry="20" fill="#e4cc60" stroke="#2a1a0a" stroke-width="2.2" filter="url(#sk3)"/>
+<g stroke="#2a1a0a" stroke-width=".85" opacity=".42">
+  <line x1="390" y1="600" x2="430" y2="600"/><line x1="388" y1="608" x2="432" y2="608"/>
+  <line x1="390" y1="616" x2="430" y2="616"/>
+</g>
+<ellipse cx="434" cy="610" rx="17" ry="15" fill="#e0c858" stroke="#2a1a0a" stroke-width="2" filter="url(#sk3)"/>
+<g stroke="#2a1a0a" stroke-width=".75" opacity=".4">
+  <line x1="418" y1="603" x2="450" y2="603"/><line x1="417" y1="610" x2="451" y2="610"/>
+  <line x1="418" y1="617" x2="450" y2="617"/>
+</g>
+<!-- Bees -->
+<g fill="#f0d030" stroke="#2a1a0a" stroke-width=".65">
+  <ellipse cx="368" cy="596" rx="5" ry="3"/>  <ellipse cx="378" cy="588" rx="4.5" ry="2.8"/>
+  <ellipse cx="462" cy="599" rx="4.5" ry="2.8"/><ellipse cx="470" cy="590" rx="4" ry="2.5"/>
+</g>
+<g stroke="white" stroke-width=".6" opacity=".65" fill="none">
+  <ellipse cx="366" cy="594" rx="3.5" ry="2.2" transform="rotate(-20,366,594)"/>
+  <ellipse cx="376" cy="586" rx="3"   ry="2"   transform="rotate(15,376,586)"/>
+  <ellipse cx="460" cy="597" rx="3.5" ry="2.2" transform="rotate(-10,460,597)"/>
+</g>
+
+<!-- ══════ STUMP + LOG PILE (near cottage) ══════ -->
+<g filter="url(#sk3)">
+  <!-- Stump -->
+  <ellipse cx="500" cy="482" rx="28" ry="16" fill="#9a7848" stroke="#2a1a0a" stroke-width="1.8"/>
+  <rect x="472" y="462" width="56" height="20" rx="3" fill="#8e7040" stroke="#2a1a0a" stroke-width="1.8"/>
+  <ellipse cx="500" cy="462" rx="28" ry="14" fill="#9a7848" stroke="#2a1a0a" stroke-width="1.8"/>
+  <!-- Tree rings on stump top -->
+  <ellipse cx="500" cy="462" rx="19" ry="9"  stroke="#6a5028" stroke-width=".8" fill="none" opacity=".5"/>
+  <ellipse cx="500" cy="462" rx="11" ry="5.5" stroke="#6a5028" stroke-width=".7" fill="none" opacity=".44"/>
+  <ellipse cx="500" cy="462" rx="4.5" ry="2.5" stroke="#6a5028" stroke-width=".6" fill="none" opacity=".38"/>
+  <!-- Moss on stump -->
+  <ellipse cx="484" cy="462" rx="7" ry="3" fill="#7a9850" opacity=".5" filter="url(#sk3)"/>
+  <ellipse cx="508" cy="460" rx="9" ry="2.5" fill="#88a858" opacity=".45" filter="url(#sk3)"/>
+</g>
+<!-- Log pile -->
+<g filter="url(#sk3)" opacity=".84">
+  <ellipse cx="538" cy="474" rx="9" ry="6" fill="#9a7848" stroke="#2a1a0a" stroke-width="1.2"/>
+  <ellipse cx="552" cy="472" rx="9" ry="6" fill="#8e7040" stroke="#2a1a0a" stroke-width="1.2"/>
+  <ellipse cx="566" cy="474" rx="9" ry="6" fill="#9a7848" stroke="#2a1a0a" stroke-width="1.2"/>
+  <ellipse cx="538" cy="466" rx="9" ry="6" fill="#8e7040" stroke="#2a1a0a" stroke-width="1.2"/>
+  <ellipse cx="552" cy="464" rx="9" ry="6" fill="#9a7848" stroke="#2a1a0a" stroke-width="1.2"/>
+  <ellipse cx="566" cy="466" rx="9" ry="6" fill="#8e7040" stroke="#2a1a0a" stroke-width="1.2"/>
+  <ellipse cx="546" cy="458" rx="9" ry="6" fill="#9a7848" stroke="#2a1a0a" stroke-width="1.2"/>
+  <ellipse cx="560" cy="458" rx="9" ry="6" fill="#8e7040" stroke="#2a1a0a" stroke-width="1.2"/>
+</g>
+
+<!-- ══════ CHICKEN COOP (far right) ══════ -->
+<g opacity=".76">
+  <rect x="1136" y="578" width="62" height="48" rx="2" fill="#e8dcc0" stroke="#2a1a0a" stroke-width="1.5"/>
+  <polygon points="1132,580 1167,560 1202,580" fill="#d8c888" stroke="#2a1a0a" stroke-width="1.5"/>
+  <rect x="1155" y="600" width="16" height="24" rx="2" fill="#c8a848" stroke="#2a1a0a" stroke-width="1.2"/>
+  <g stroke="#2a1a0a" stroke-width=".6" opacity=".3">
+    <line x1="1146" y1="578" x2="1146" y2="626"/><line x1="1156" y1="578" x2="1156" y2="626"/>
+    <line x1="1178" y1="578" x2="1178" y2="626"/><line x1="1190" y1="578" x2="1190" y2="626"/>
+  </g>
+  <!-- Chickens -->
+  <ellipse cx="1118" cy="620" rx="10" ry="7" fill="#f5edd8" stroke="#2a1a0a" stroke-width="1"/>
+  <ellipse cx="1110" cy="615" rx="6"  ry="5" fill="#f5edd8" stroke="#2a1a0a" stroke-width="1"/>
+  <path d="M1105,614 Q1102,611 1105,609" fill="#e8a020" stroke="#2a1a0a" stroke-width=".8"/>
+  <ellipse cx="1128" cy="626" rx="9"  ry="6" fill="#f5edd8" stroke="#2a1a0a" stroke-width="1"/>
+  <ellipse cx="1120" cy="622" rx="6"  ry="5" fill="#f5edd8" stroke="#2a1a0a" stroke-width="1"/>
+</g>
+
+<!-- ══════ WATERING CAN ══════ -->
+<g filter="url(#sk3)" opacity=".86">
+  <rect x="696" y="610" width="40" height="30" rx="4" fill="#9ab898" stroke="#2a1a0a" stroke-width="1.8"/>
+  <path d="M696,616 Q682,612 678,618 Q675,624 682,628" stroke="#2a1a0a" stroke-width="1.5" fill="none"/>
+  <ellipse cx="679" cy="625" rx="5" ry="3" fill="#9ab898" stroke="#2a1a0a" stroke-width="1.3"/>
+  <path d="M702,610 Q714,604 720,610" stroke="#2a1a0a" stroke-width="2" fill="none"/>
+  <ellipse cx="716" cy="640" rx="19" ry="6" fill="#8aa888" stroke="#2a1a0a" stroke-width="1.4"/>
+</g>
+
+<!-- ══════ WILDFLOWERS ══════ -->
+<g stroke="#2a1a0a" stroke-width=".9">
+  <line x1="352" y1="540" x2="352" y2="526"/><circle cx="352" cy="524" r="5.5" fill="#f0dc60"/><circle cx="352" cy="524" r="2.5" fill="#c09028" stroke-width="0"/>
+  <line x1="364" y1="543" x2="364" y2="530"/><circle cx="364" cy="528" r="4.5" fill="#ecd858"/>
+  <line x1="342" y1="545" x2="342" y2="533"/><circle cx="342" cy="531" r="4" fill="#f4e068"/>
+  <line x1="460" y1="534" x2="460" y2="520"/><circle cx="460" cy="518" r="5" fill="#b0c0e0"/><circle cx="460" cy="518" r="2.2" fill="#7888b8" stroke-width="0"/>
+  <line x1="472" y1="537" x2="472" y2="524"/><circle cx="472" cy="522" r="4.5" fill="#b4c4e4"/>
+  <line x1="150" y1="648" x2="150" y2="635"/><circle cx="150" cy="633" r="5.5" fill="#f8f4e0"/><circle cx="150" cy="633" r="2.5" fill="#d8b848" stroke-width="0"/>
+  <line x1="136" y1="652" x2="136" y2="640"/><circle cx="136" cy="638" r="4.5" fill="#f8f4e0"/>
+  <line x1="722" y1="544" x2="722" y2="532"/><circle cx="722" cy="530" r="5" fill="#90d0b8"/><circle cx="722" cy="530" r="2.2" fill="#4898a0" stroke-width="0"/>
+  <line x1="734" y1="547" x2="734" y2="535"/><circle cx="734" cy="533" r="4.5" fill="#88c8b0"/>
+</g>
+
+<!-- ══════ TALL GRASS patches ══════ -->
+<g class="sway" stroke="#4a7030" stroke-width="1.7" stroke-linecap="round" fill="none" style="transform-origin:288px 572px">
+  <path d="M268,574 Q266,552 270,526"/><path d="M278,577 Q274,554 280,526"/>
+  <path d="M288,572 Q290,550 286,524"/><path d="M298,575 Q296,552 300,524"/>
+  <path d="M308,572 Q306,550 310,523"/>
+  <path d="M270,526 Q268,516 273,512"/><path d="M280,526 Q276,516 282,512"/>
+  <path d="M286,524 Q288,514 283,510"/><path d="M300,524 Q298,514 303,510"/>
+  <path d="M310,523 Q312,513 307,509"/>
+</g>
+<g class="sway2" stroke="#4a7030" stroke-width="1.6" stroke-linecap="round" fill="none" style="transform-origin:695px 560px">
+  <path d="M672,564 Q670,542 674,518"/><path d="M682,568 Q678,545 684,518"/>
+  <path d="M692,563 Q694,541 690,516"/><path d="M702,566 Q700,544 704,516"/>
+  <path d="M712,564 Q710,542 714,515"/>
+  <path d="M674,518 Q672,508 677,504"/><path d="M684,518 Q680,508 686,504"/>
+  <path d="M690,516 Q692,506 687,502"/><path d="M704,516 Q702,506 707,502"/>
+  <path d="M714,515 Q716,505 711,501"/>
+</g>
+<!-- Front thick grass -->
+<g class="sway3" stroke="#3e6228" stroke-width="2" stroke-linecap="round" fill="none" style="transform-origin:890px 644px">
+  <path d="M870,650 Q868,628 872,602"/><path d="M882,654 Q878,631 884,602"/>
+  <path d="M894,649 Q896,626 892,600"/><path d="M906,652 Q904,630 908,600"/>
+  <path d="M918,650 Q916,628 920,599"/>
+  <path d="M872,602 Q870,592 875,588"/><path d="M884,602 Q880,592 886,588"/>
+  <path d="M892,600 Q894,590 889,586"/><path d="M908,600 Q906,590 911,586"/>
+  <path d="M920,599 Q922,589 917,585"/>
+</g>
+
+<!-- Scattered ground stones -->
+<g filter="url(#sk3)">
+  <ellipse cx="748" cy="546" rx="16" ry="9" fill="#c4bc9c" stroke="#2a1a0a" stroke-width="1.3"/>
+  <ellipse cx="782" cy="550" rx="12" ry="7" fill="#ccc4a4" stroke="#2a1a0a" stroke-width="1.1"/>
+  <ellipse cx="806" cy="546" rx="10" ry="6" fill="#c0b898" stroke="#2a1a0a" stroke-width="1"/>
+  <ellipse cx="834" cy="548" rx="8"  ry="5" fill="#c4bc9c" stroke="#2a1a0a" stroke-width="1"/>
+</g>
+
+<!-- Ivy on stone wall -->
+<g stroke="#5a8030" stroke-width="1.2" fill="none" opacity=".6">
+  <path d="M742,512 Q733,502 738,492 Q744,486 750,492"/>
+  <path d="M762,512 Q753,501 758,490"/>
+  <path d="M988,512 Q996,501 992,490"/>
+  <path d="M972,492 Q978,484 984,490"/>
+</g>
+
+<!-- Mushrooms near stump -->
+<g filter="url(#sk3)">
+  <rect x="526" y="478" width="8" height="11" rx="1" fill="#f0ead8" stroke="#2a1a0a" stroke-width="1"/>
+  <ellipse cx="530" cy="478" rx="12" ry="5.5" fill="#d8c898" stroke="#2a1a0a" stroke-width="1.2"/>
+  <rect x="541" y="481" width="6" height="9" rx="1" fill="#f0ead8" stroke="#2a1a0a" stroke-width=".9"/>
+  <ellipse cx="544" cy="481" rx="9" ry="4.5" fill="#d8c898" stroke="#2a1a0a" stroke-width="1"/>
+</g>
+
+</svg><!-- /bg-layer -->
+
+
+<!-- ════════════════════════════════ 15 CATS ════════════════════════════════ -->
+<!--
+  CAMOUFLAGE STRATEGY — every cat blends with an object:
+  0  → bark burl on oak branch
+  1  → hay in stack A
+  2  → just eyes in dark cottage window
+  3  → log cross-section in log pile (tree rings = tabby rings)
+  4  → part of stone wall cap, flat & stone-grey
+  5  → under bridge arch, shadow-dark, only eyes glow
+  6  → in pond, water-blue, behind lily pad
+  7  → top of tree stump, bark-brown, flat
+  8  → in deep oak crown, leaf-green, only amber eyes visible
+  9  → on windmill roof peak, tile-gold, same colour as roof shingles
+  10 → cabbage in garden, curled exactly like cabbage head
+  11 → scarecrow HEAD, burlap-coloured, ears look like tied bag corners
+  12 → in willow fronds, long thin green body blends with hanging strands
+  13 → tiny on distant church spire, looks like decorative finial
+  14 → on bale C, same straw-gold, flat and striped
+-->
+
+<!-- CAT 0: Oak branch — BARK BROWN burl, ears look like branch stubs -->
+<div class="cat-wrap" id="cat-0" style="left:166px; top:316px;">
+<svg width="80" height="56" viewBox="0 0 80 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c0f"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="3" seed="4"/><feDisplacementMap in="SourceGraphic" scale="2"/></filter></defs>
+  <ellipse cx="42" cy="36" rx="33" ry="19" fill="#b89050" stroke="#2a1a0a" stroke-width="2" filter="url(#c0f)"/>
+  <ellipse cx="42" cy="36" rx="24" ry="12" stroke="#6a4010" stroke-width=".75" fill="none" opacity=".4"/>
+  <ellipse cx="42" cy="36" rx="14" ry="6" stroke="#6a4010" stroke-width=".65" fill="none" opacity=".35"/>
+  <path d="M18,28 Q27,20 37,24" stroke="#6a4010" stroke-width=".8" fill="none" opacity=".4"/>
+  <path d="M48,22 Q58,25 66,33" stroke="#6a4010" stroke-width=".8" fill="none" opacity=".4"/>
+  <ellipse cx="11" cy="28" rx="11" ry="10" fill="#a88848" stroke="#2a1a0a" stroke-width="1.8" filter="url(#c0f)"/>
+  <!-- Ears look like broken branch stubs -->
+  <path d="M4,20 L0,10  L10,17" stroke="#2a1a0a" stroke-width="1.3" fill="#a88848"/>
+  <path d="M18,20 L22,10 L14,17" stroke="#2a1a0a" stroke-width="1.3" fill="#a88848"/>
+  <!-- Closed/squinting eyes -->
+  <path d="M5,28 Q8,25 11,28" stroke="#2a1a0a" stroke-width="1.5" fill="none"/>
+  <line x1="4" y1="28" x2="12" y2="28" stroke="#2a1a0a" stroke-width="1.5"/>
+  <path d="M11,28 Q14,25 17,28" stroke="#2a1a0a" stroke-width="1.5" fill="none"/>
+  <line x1="10" y1="28" x2="18" y2="28" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="11" cy="32" rx="1.7" ry="1.2" fill="#4a3018"/>
+  <!-- Tail along branch -->
+  <path d="M72,28 Q80,16 74,7" stroke="#2a1a0a" stroke-width="2.2" fill="none"/>
+</svg>
+</div>
+
+<!-- CAT 1: In haystack A — HAY-GOLD, practically invisible -->
+<div class="cat-wrap" id="cat-1" style="left:782px; top:496px;">
+<svg width="74" height="56" viewBox="0 0 74 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c1f"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="1.5"/></filter></defs>
+  <ellipse cx="38" cy="34" rx="31" ry="20" fill="#e2ce78" stroke="#2a1a0a" stroke-width="1.8" filter="url(#c1f)"/>
+  <path d="M10,24 Q20,18 30,22 Q38,16 46,20 Q54,16 64,22" stroke="#a08828" stroke-width=".9" fill="none" opacity=".54"/>
+  <path d="M8,33 Q18,27 28,31 Q38,25 48,31 Q56,26 66,31" stroke="#a08828" stroke-width=".85" fill="none" opacity=".48"/>
+  <path d="M10,41 Q22,36 32,40 Q42,35 52,40 Q60,35 64,39" stroke="#a08828" stroke-width=".75" fill="none" opacity=".42"/>
+  <ellipse cx="9" cy="24" rx="10" ry="9" fill="#d8c26c" stroke="#2a1a0a" stroke-width="1.6" filter="url(#c1f)"/>
+  <path d="M2,16 L-1,8 L8,14" stroke="#2a1a0a" stroke-width="1.2" fill="#d8c26c"/>
+  <path d="M16,16 L19,8 L12,13" stroke="#2a1a0a" stroke-width="1.2" fill="#d8c26c"/>
+  <path d="M3,24 Q6,21 9,24" stroke="#2a1a0a" stroke-width="1.4" fill="none"/>
+  <path d="M9,24 Q12,21 15,24" stroke="#2a1a0a" stroke-width="1.4" fill="none"/>
+  <ellipse cx="9" cy="28" rx="1.4" ry="1" fill="#4a3018"/>
+  <path d="M66,22 Q73,10 68,2" stroke="#2a1a0a" stroke-width="2" fill="none"/>
+</svg>
+</div>
+
+<!-- CAT 2: Dark cottage window — ONLY golden eyes in window shadow -->
+<div class="cat-wrap" id="cat-2" style="left:432px; top:395px;">
+<svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c2f"><feTurbulence type="fractalNoise" baseFrequency="0.07" numOctaves="2" seed="15"/><feDisplacementMap in="SourceGraphic" scale=".8"/></filter></defs>
+  <!-- Dark mass — barely visible -->
+  <ellipse cx="12" cy="13" rx="11" ry="7" fill="#1e1810" stroke-width="0" filter="url(#c2f)" opacity=".92"/>
+  <ellipse cx="12" cy="7"  rx="9"  ry="7" fill="#1a1408" stroke-width="0" filter="url(#c2f)"/>
+  <path d="M5,3 L3,0 L9,4" stroke="#1a1408" stroke-width="1.2" fill="#1a1408"/>
+  <path d="M19,3 L21,0 L15,4" stroke="#1a1408" stroke-width="1.2" fill="#1a1408"/>
+  <!-- EYES: two golden gleams — the only sign of life -->
+  <ellipse cx="7"  cy="7" rx="4"   ry="4.5" fill="#d4a820" stroke="#2a1a0a" stroke-width=".5"/>
+  <ellipse cx="17" cy="7" rx="4"   ry="4.5" fill="#d4a820" stroke="#2a1a0a" stroke-width=".5"/>
+  <ellipse cx="7"  cy="7" rx="1.4" ry="3.5" fill="#0e0a02"/>
+  <ellipse cx="17" cy="7" rx="1.4" ry="3.5" fill="#0e0a02"/>
+  <circle cx="6"  cy="5" r="1.3" fill="white"/>
+  <circle cx="16" cy="5" r="1.3" fill="white"/>
+</svg>
+</div>
+
+<!-- CAT 3: In log pile — LOG END face. Concentric rings = tabby stripes. Amber dots = eyes. -->
+<div class="cat-wrap" id="cat-3" style="left:544px; top:455px;">
+<svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c3f"><feTurbulence type="fractalNoise" baseFrequency="0.07" numOctaves="2" seed="11"/><feDisplacementMap in="SourceGraphic" scale=".9"/></filter></defs>
+  <ellipse cx="10" cy="9" rx="9" ry="8" fill="#9a7848" stroke="#2a1a0a" stroke-width="1.5" filter="url(#c3f)"/>
+  <!-- Tree rings = perfect camouflage -->
+  <ellipse cx="10" cy="9" rx="6.5" ry="5.5" stroke="#6a5028" stroke-width=".8" fill="none" opacity=".55"/>
+  <ellipse cx="10" cy="9" rx="4"   ry="3.5" stroke="#6a5028" stroke-width=".7" fill="none" opacity=".48"/>
+  <ellipse cx="10" cy="9" rx="1.8" ry="1.5" stroke="#6a5028" stroke-width=".6" fill="none" opacity=".42"/>
+  <!-- Eyes = amber resin knots in wood -->
+  <ellipse cx="7"  cy="7" rx="1.6" ry="1.9" fill="#c87818" stroke="#2a1a0a" stroke-width=".4"/>
+  <ellipse cx="13" cy="7" rx="1.6" ry="1.9" fill="#c87818" stroke="#2a1a0a" stroke-width=".4"/>
+  <ellipse cx="7"  cy="7" rx=".6"  ry="1.4" fill="#0e0a02"/>
+  <ellipse cx="13" cy="7" rx=".6"  ry="1.4" fill="#0e0a02"/>
+  <!-- Barely-there nose -->
+  <path d="M9,11 Q10,10 11,11" stroke="#6a4818" stroke-width=".7" fill="none" opacity=".65"/>
+</svg>
+</div>
+
+<!-- CAT 4: On stone wall — STONE GREY, flat as coping stone, tiny -->
+<div class="cat-wrap" id="cat-4" style="left:858px; top:468px;">
+<svg width="62" height="36" viewBox="0 0 62 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c4f"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="27"/><feDisplacementMap in="SourceGraphic" scale="1.4"/></filter></defs>
+  <ellipse cx="32" cy="22" rx="27" ry="12" fill="#ccc4a4" stroke="#2a1a0a" stroke-width="1.8" filter="url(#c4f)"/>
+  <!-- Stone course lines on body -->
+  <path d="M9,17 Q19,13 32,16 Q46,13 56,17" stroke="#2a1a0a" stroke-width=".7" fill="none" opacity=".32"/>
+  <path d="M7,23 Q17,19 32,22 Q48,19 57,23" stroke="#2a1a0a" stroke-width=".65" fill="none" opacity=".28"/>
+  <!-- Moss patch on back — matches real wall moss -->
+  <ellipse cx="42" cy="18" rx="7" ry="3" fill="#7a9850" opacity=".42" filter="url(#c4f)"/>
+  <ellipse cx="8" cy="18" rx="9" ry="8.5" fill="#d8d0b0" stroke="#2a1a0a" stroke-width="1.5" filter="url(#c4f)"/>
+  <!-- Low flat ears look like stone bits -->
+  <path d="M2,11  L-1,4  L6,9"  stroke="#2a1a0a" stroke-width="1.1" fill="#d8d0b0"/>
+  <path d="M14,11 L17,4  L11,9" stroke="#2a1a0a" stroke-width="1.1" fill="#d8d0b0"/>
+  <circle cx="3"  cy="16" r="3.5" fill="#c87818"/>
+  <circle cx="12" cy="16" r="3.5" fill="#c87818"/>
+  <ellipse cx="3"  cy="16" rx="1.2" ry="2.8" fill="#120e06"/>
+  <ellipse cx="12" cy="16" rx="1.2" ry="2.8" fill="#120e06"/>
+  <circle cx="2.3" cy="13.5" r="1.2" fill="white"/>
+  <circle cx="11.3" cy="13.5" r="1.2" fill="white"/>
+  <ellipse cx="8" cy="20" rx="1.1" ry=".85" fill="#4a3818"/>
+  <path d="M56,14 Q62,7 58,2" stroke="#2a1a0a" stroke-width="1.8" fill="none"/>
+</svg>
+</div>
+
+<!-- CAT 5: Under bridge in shadow — DARK, only glowing eyes in arch darkness -->
+<div class="cat-wrap" id="cat-5" style="left:116px; top:606px;">
+<svg width="58" height="32" viewBox="0 0 58 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c5f"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="22"/><feDisplacementMap in="SourceGraphic" scale="1.1"/></filter></defs>
+  <!-- Body = dark shadow tone, almost invisible -->
+  <ellipse cx="32" cy="22" rx="24" ry="11" fill="#2e2c26" stroke="#1a1208" stroke-width="1.5" filter="url(#c5f)"/>
+  <!-- Stone-course texture matches arch masonry -->
+  <path d="M12,16 Q20,12 32,15 Q44,12 52,16" stroke="#3a3830" stroke-width=".7" fill="none" opacity=".55"/>
+  <path d="M10,23 Q20,19 32,22 Q44,19 54,23" stroke="#3a3830" stroke-width=".65" fill="none" opacity=".48"/>
+  <ellipse cx="7" cy="18" rx="9" ry="9" fill="#34302a" stroke="#1a1208" stroke-width="1.4" filter="url(#c5f)"/>
+  <path d="M1,12 L-1,5  L7,10" stroke="#1a1208" stroke-width="1" fill="#34302a"/>
+  <path d="M13,12 L15,5  L9,10" stroke="#1a1208" stroke-width="1" fill="#34302a"/>
+  <!-- Eyes: ONLY bright element — gold in darkness -->
+  <circle cx="3"  cy="18" r="3.5" fill="#c87818"/>
+  <circle cx="11" cy="18" r="3.5" fill="#c87818"/>
+  <ellipse cx="3"  cy="18" rx="1.2" ry="2.8" fill="#0e0a02"/>
+  <ellipse cx="11" cy="18" rx="1.2" ry="2.8" fill="#0e0a02"/>
+  <circle cx="2.4" cy="16" r="1.1" fill="white"/>
+  <circle cx="10.4" cy="16" r="1.1" fill="white"/>
+  <ellipse cx="7" cy="22" rx="1" ry=".8" fill="#2a1808" opacity=".7"/>
+  <path d="M52,16 Q58,9 54,4" stroke="#1a1208" stroke-width="1.7" fill="none"/>
+</svg>
+</div>
+
+<!-- CAT 6: In pond, WATER-BLUE — only head behind lily pad -->
+<div class="cat-wrap" id="cat-6" style="left:158px; top:584px;">
+<svg width="54" height="40" viewBox="0 0 54 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c6f"><feTurbulence type="fractalNoise" baseFrequency="0.065" numOctaves="2" seed="18"/><feDisplacementMap in="SourceGraphic" scale="1"/></filter></defs>
+  <!-- Water surface hiding body -->
+  <ellipse cx="30" cy="32" rx="22" ry="9" fill="#a8c8dc" stroke="#2a1a0a" stroke-width="1.4" filter="url(#c6f)" opacity=".88"/>
+  <path d="M12,28 Q22,24 32,28 Q40,24 48,28" stroke="#88b0c8" stroke-width=".9" fill="none" opacity=".55"/>
+  <!-- Head just above waterline — same blue as pond -->
+  <ellipse cx="16" cy="19" rx="13" ry="11" fill="#c0d8ec" stroke="#2a1a0a" stroke-width="1.6" filter="url(#c6f)"/>
+  <path d="M7,11  L5,3  L13,9"  stroke="#2a1a0a" stroke-width="1.1" fill="#c0d8ec"/>
+  <path d="M25,11 L28,3 L20,9"  stroke="#2a1a0a" stroke-width="1.1" fill="#c0d8ec"/>
+  <circle cx="9"  cy="19" r="4.8" fill="#1a1006"/>
+  <circle cx="23" cy="19" r="4.8" fill="#1a1006"/>
+  <circle cx="7.5" cy="16.5" r="1.8" fill="white"/>
+  <circle cx="21.5" cy="16.5" r="1.8" fill="white"/>
+  <path d="M13,26 L16,23 L19,26 Q16,28 13,26Z" fill="#3a2818"/>
+  <line x1="-2" y1="24" x2="11" y2="25" stroke="#2a1a0a" stroke-width=".75"/>
+  <line x1="-2" y1="27" x2="11" y2="27.5" stroke="#2a1a0a" stroke-width=".75"/>
+  <line x1="31" y1="24" x2="21" y2="25" stroke="#2a1a0a" stroke-width=".75"/>
+  <line x1="31" y1="27" x2="21" y2="27.5" stroke="#2a1a0a" stroke-width=".75"/>
+</svg>
+</div>
+
+<!-- CAT 7: Curled on stump top — BARK BROWN, flat, tree rings = tabby markings -->
+<div class="cat-wrap" id="cat-7" style="left:474px; top:446px;">
+<svg width="60" height="38" viewBox="0 0 60 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c7f"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="33"/><feDisplacementMap in="SourceGraphic" scale="1.4"/></filter></defs>
+  <ellipse cx="32" cy="24" rx="26" ry="13" fill="#9a7848" stroke="#2a1a0a" stroke-width="1.8" filter="url(#c7f)"/>
+  <!-- Stump rings = tabby stripes. Indistinguishable. -->
+  <ellipse cx="32" cy="24" rx="18" ry="8.5" stroke="#6a5028" stroke-width=".85" fill="none" opacity=".52"/>
+  <ellipse cx="32" cy="24" rx="10" ry="5"   stroke="#6a5028" stroke-width=".75" fill="none" opacity=".46"/>
+  <ellipse cx="32" cy="24" rx="4"  ry="2.5" stroke="#6a5028" stroke-width=".65" fill="none" opacity=".4"/>
+  <!-- Moss patches same as stump -->
+  <ellipse cx="20" cy="22" rx="6" ry="2.5" fill="#7a9850" opacity=".5" filter="url(#c7f)"/>
+  <ellipse cx="46" cy="21" rx="7" ry="2.5" fill="#88a858" opacity=".45" filter="url(#c7f)"/>
+  <ellipse cx="7" cy="18" rx="9" ry="9.5" fill="#9a7848" stroke="#2a1a0a" stroke-width="1.6" filter="url(#c7f)"/>
+  <!-- Ears look like broken bark -->
+  <path d="M2,11  L0,4   L8,9"  stroke="#2a1a0a" stroke-width="1.1" fill="#9a7848"/>
+  <path d="M12,11 L14,4  L8,9"  stroke="#2a1a0a" stroke-width="1.1" fill="#9a7848"/>
+  <!-- Amber eyes = resin drops -->
+  <circle cx="3"  cy="18" r="3.5" fill="#c87818"/>
+  <circle cx="11" cy="18" r="3.5" fill="#c87818"/>
+  <ellipse cx="3"  cy="18" rx="1.2" ry="2.8" fill="#0e0a02"/>
+  <ellipse cx="11" cy="18" rx="1.2" ry="2.8" fill="#0e0a02"/>
+  <circle cx="2.3" cy="15.5" r="1.1" fill="white"/>
+  <circle cx="10.3" cy="15.5" r="1.1" fill="white"/>
+  <ellipse cx="7" cy="22" rx="1.1" ry=".85" fill="#3a2018" opacity=".7"/>
+  <path d="M54,20 Q60,12 56,6" stroke="#2a1a0a" stroke-width="1.8" fill="none"/>
+</svg>
+</div>
+
+<!-- CAT 8: Deep in oak crown — LEAF GREEN, only amber eyes between leaves -->
+<div class="cat-wrap" id="cat-8" style="left:88px; top:168px;">
+<svg width="40" height="30" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c8f"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="16"/><feDisplacementMap in="SourceGraphic" scale="1.1"/></filter></defs>
+  <!-- Body invisible — pure leaf-green mass -->
+  <ellipse cx="21" cy="20" rx="18" ry="10" fill="#94b86a" stroke-width="0" filter="url(#c8f)" opacity=".88"/>
+  <ellipse cx="21" cy="10" rx="14" ry="10" fill="#9cc070" stroke-width="0" filter="url(#c8f)" opacity=".85"/>
+  <!-- Ears look like leaf tips — no outline -->
+  <path d="M11,5 Q8,-2 15,2"  stroke-width="0" fill="#9cc070" opacity=".8"/>
+  <path d="M31,5 Q34,-2 27,2" stroke-width="0" fill="#9cc070" opacity=".8"/>
+  <!-- ONLY two amber eyes betraying the cat -->
+  <circle cx="14" cy="10" r="4.8" fill="#c87818" opacity=".94"/>
+  <circle cx="28" cy="10" r="4.8" fill="#c87818" opacity=".94"/>
+  <ellipse cx="14" cy="10" rx="1.7" ry="4" fill="#0e0a02"/>
+  <ellipse cx="28" cy="10" rx="1.7" ry="4" fill="#0e0a02"/>
+  <circle cx="13" cy="7.5" r="1.5" fill="white"/>
+  <circle cx="27" cy="7.5" r="1.5" fill="white"/>
+</svg>
+</div>
+
+<!-- CAT 9: On windmill roof ridge — TILE-GOLD, flat against shingles -->
+<div class="cat-wrap" id="cat-9" style="left:564px; top:490px;">
+<svg width="48" height="42" viewBox="0 0 48 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c9f"><feTurbulence type="fractalNoise" baseFrequency="0.065" numOctaves="2" seed="8"/><feDisplacementMap in="SourceGraphic" scale="1.1"/></filter></defs>
+  <!-- Body = exact same sandy-gold as roof tiles -->
+  <ellipse cx="25" cy="30" rx="21" ry="11" fill="#e4d090" stroke="#2a1a0a" stroke-width="1.6" filter="url(#c9f)"/>
+  <!-- Shingle lines on body match roof shingles -->
+  <path d="M6,24 Q15,20 25,23 Q35,20 44,24" stroke="#2a1a0a" stroke-width=".75" fill="none" opacity=".32"/>
+  <path d="M5,30 Q14,26 25,29 Q36,26 45,30" stroke="#2a1a0a" stroke-width=".7"  fill="none" opacity=".28"/>
+  <ellipse cx="7" cy="23" rx="10" ry="10" fill="#dcc878" stroke="#2a1a0a" stroke-width="1.6" filter="url(#c9f)"/>
+  <!-- Ears triangular, same roof angle -->
+  <path d="M1,16 L-2,8  L8,13" stroke="#2a1a0a" stroke-width="1.2" fill="#dcc878"/>
+  <path d="M13,16 L16,8 L8,13" stroke="#2a1a0a" stroke-width="1.2" fill="#dcc878"/>
+  <!-- Lazy sunbathing eyes — slits -->
+  <path d="M2,23 Q5,20 8,23" stroke="#2a1a0a" stroke-width="1.4" fill="none"/>
+  <line x1="1" y1="23" x2="9" y2="23" stroke="#2a1a0a" stroke-width="1.4"/>
+  <path d="M8,23 Q11,20 14,23" stroke="#2a1a0a" stroke-width="1.4" fill="none"/>
+  <line x1="7" y1="23" x2="15" y2="23" stroke="#2a1a0a" stroke-width="1.4"/>
+  <ellipse cx="7" cy="27" rx="1.3" ry=".9" fill="#3a2818"/>
+  <!-- Tail along roof line -->
+  <path d="M44,24 Q48,16 44,10" stroke="#2a1a0a" stroke-width="1.8" fill="none"/>
+</svg>
+</div>
+
+<!-- CAT 10: Curled in cabbage patch — EXACT CABBAGE GREEN, leaf curl lines = fur pattern -->
+<div class="cat-wrap" id="cat-10" style="left:752px; top:654px;">
+<svg width="68" height="52" viewBox="0 0 68 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c10f"><feTurbulence type="fractalNoise" baseFrequency="0.055" numOctaves="2" seed="12"/><feDisplacementMap in="SourceGraphic" scale="1.5"/></filter></defs>
+  <!-- Body = exact cabbage color — impossible to distinguish from surrounding heads -->
+  <ellipse cx="36" cy="32" rx="29" ry="19" fill="#88b040" stroke="#2a1a0a" stroke-width="1.8" filter="url(#c10f)"/>
+  <!-- Cabbage leaf veins = tabby stripes -->
+  <ellipse cx="36" cy="32" rx="20" ry="12" fill="#98c050" stroke="#2a1a0a" stroke-width=".8" filter="url(#c10f)" opacity=".7"/>
+  <ellipse cx="36" cy="32" rx="12" ry="7"  stroke="#2a1a0a" stroke-width=".7" fill="#a0c858" opacity=".6"/>
+  <ellipse cx="36" cy="32" rx="5"  ry="3"  stroke="#2a1a0a" stroke-width=".6" fill="none" opacity=".5"/>
+  <!-- Head = looks like cabbage center nub -->
+  <ellipse cx="10" cy="26" rx="10" ry="10" fill="#90b848" stroke="#2a1a0a" stroke-width="1.6" filter="url(#c10f)"/>
+  <!-- Ears look like outer cabbage leaves -->
+  <path d="M2,17 Q-1,9 7,12 Q9,8 13,13" stroke="#2a1a0a" stroke-width="1.2" fill="#90b848"/>
+  <!-- Eyes — amber on green, the one giveaway -->
+  <path d="M4,26 Q7,23 10,26" stroke="#2a1a0a" stroke-width="1.4" fill="none"/>
+  <line x1="3" y1="26" x2="11" y2="26" stroke="#2a1a0a" stroke-width="1.4"/>
+  <ellipse cx="10" cy="30" rx="1.4" ry="1" fill="#2a1a08"/>
+  <!-- Tail curves like leaf stem -->
+  <path d="M62,22 Q70,12 64,4" stroke="#2a1a0a" stroke-width="1.9" fill="none"/>
+  <line x1="-3" y1="27" x2="6" y2="28" stroke="#2a1a0a" stroke-width=".7" opacity=".5"/>
+  <line x1="-3" y1="30" x2="6" y2="30.5" stroke="#2a1a0a" stroke-width=".7" opacity=".5"/>
+</svg>
+</div>
+
+<!-- CAT 11: IS the scarecrow head — BURLAP color, ears look like tied bag corners -->
+<div class="cat-wrap" id="cat-11" style="left:192px; top:440px;">
+<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c11f"><feTurbulence type="fractalNoise" baseFrequency="0.07" numOctaves="2" seed="6"/><feDisplacementMap in="SourceGraphic" scale=".8"/></filter></defs>
+  <circle cx="9" cy="11" r="8" fill="#e4c88a" stroke="#2a1a0a" stroke-width="1.1" filter="url(#c11f)"/>
+  <!-- Ears = burlap bag knot corners -->
+  <path d="M3,5 L1,-1 L7,4" stroke="#2a1a0a" stroke-width=".9" fill="#e4c88a"/>
+  <path d="M15,5 L17,-1 L11,4" stroke="#2a1a0a" stroke-width=".9" fill="#e4c88a"/>
+  <!-- Eyes that look like drawn-on button eyes of scarecrow -->
+  <circle cx="5.5" cy="10" r="3" fill="#c87818"/>
+  <circle cx="12.5" cy="10" r="3" fill="#c87818"/>
+  <ellipse cx="5.5" cy="10" rx="1" ry="2.4" fill="#0e0a02"/>
+  <ellipse cx="12.5" cy="10" rx="1" ry="2.4" fill="#0e0a02"/>
+  <circle cx="5" cy="8.5" r="1" fill="white"/>
+  <circle cx="12" cy="8.5" r="1" fill="white"/>
+  <path d="M7,14 Q9,13 11,14" stroke="#5a3818" stroke-width=".9" fill="none"/>
+</svg>
+</div>
+
+<!-- CAT 12: In willow fronds — long thin green body, stripe=frond texture, hidden vertically -->
+<div class="cat-wrap" id="cat-12" style="left:1136px; top:268px;">
+<svg width="18" height="130" viewBox="0 0 18 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c12f"><feTurbulence type="fractalNoise" baseFrequency="0.055" numOctaves="2" seed="19"/><feDisplacementMap in="SourceGraphic" scale=".9"/></filter></defs>
+  <!-- Body: very thin vertical shape = one willow strand, frond-green -->
+  <path d="M9,30 Q8,60 9,90 Q8,112 9,128" stroke="#70985a" stroke-width="9" fill="none" stroke-linecap="round" filter="url(#c12f)"/>
+  <!-- Texture stripes like frond nodes -->
+  <g stroke="#507838" stroke-width=".8" opacity=".55">
+    <line x1="5" y1="40" x2="13" y2="40"/><line x1="5" y1="54" x2="13" y2="54"/>
+    <line x1="5" y1="68" x2="13" y2="68"/><line x1="5" y1="82" x2="13" y2="82"/>
+    <line x1="5" y1="96" x2="13" y2="96"/><line x1="5" y1="110" x2="13" y2="110"/>
+  </g>
+  <!-- Head at top — round, green, minimal -->
+  <circle cx="9" cy="15" r="10" fill="#88aa6a" stroke="#2a1a0a" stroke-width="1.3" filter="url(#c12f)"/>
+  <!-- Ears = narrow leaf-tips -->
+  <path d="M3,8 L2,2 L7,7"  stroke="#2a1a0a" stroke-width="1" fill="#88aa6a"/>
+  <path d="M15,8 L16,2 L11,7" stroke="#2a1a0a" stroke-width="1" fill="#88aa6a"/>
+  <!-- Eyes amber — only hint -->
+  <circle cx="5" cy="15" r="3.5" fill="#c07818"/>
+  <circle cx="13" cy="15" r="3.5" fill="#c07818"/>
+  <ellipse cx="5"  cy="15" rx="1.3" ry="3" fill="#0e0a02"/>
+  <ellipse cx="13" cy="15" rx="1.3" ry="3" fill="#0e0a02"/>
+  <circle cx="4.2" cy="12.5" r="1.1" fill="white"/>
+  <circle cx="12.2" cy="12.5" r="1.1" fill="white"/>
+</svg>
+</div>
+
+<!-- CAT 13: On distant church spire — tiny, looks like decorative finial -->
+<div class="cat-wrap" id="cat-13" style="left:956px; top:282px;">
+<svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c13f"><feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="2" seed="41"/><feDisplacementMap in="SourceGraphic" scale=".6"/></filter></defs>
+  <!-- Body = tiny oval, same color as stone spire -->
+  <ellipse cx="5" cy="13" rx="4.5" ry="5.5" fill="#b0a880" stroke="#2a1a0a" stroke-width=".9" filter="url(#c13f)"/>
+  <!-- Head -->
+  <circle cx="5" cy="6" r="4.5" fill="#bab890" stroke="#2a1a0a" stroke-width=".9" filter="url(#c13f)"/>
+  <path d="M2,3 L1,0 L4,2" stroke="#2a1a0a" stroke-width=".7" fill="#bab890"/>
+  <path d="M8,3 L9,0 L6,2" stroke="#2a1a0a" stroke-width=".7" fill="#bab890"/>
+  <!-- Eyes: tiny gold dots -->
+  <ellipse cx="3" cy="6" rx="1.4" ry="1.6" fill="#d0a020"/>
+  <ellipse cx="7" cy="6" rx="1.4" ry="1.6" fill="#d0a020"/>
+  <ellipse cx="3" cy="6" rx=".5" ry="1.2" fill="#0e0a02"/>
+  <ellipse cx="7" cy="6" rx=".5" ry="1.2" fill="#0e0a02"/>
+  <circle cx="2.6" cy="5" r=".6" fill="white"/>
+  <circle cx="6.6" cy="5" r=".6" fill="white"/>
+</svg>
+</div>
+
+<!-- CAT 14: On hay bale C (rectangular) — STRAW GOLD, flat with horizontal bale lines -->
+<div class="cat-wrap" id="cat-14" style="left:1036px; top:524px;">
+<svg width="68" height="44" viewBox="0 0 68 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="c14f"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="37"/><feDisplacementMap in="SourceGraphic" scale="1.4"/></filter></defs>
+  <!-- Body same as bale -->
+  <ellipse cx="35" cy="26" rx="29" ry="16" fill="#dece72" stroke="#2a1a0a" stroke-width="1.8" filter="url(#c14f)"/>
+  <!-- Horizontal bale-twine lines = stripe pattern -->
+  <path d="M9,20 Q18,14 28,18 Q35,12 43,16 Q51,12 62,18" stroke="#a08828" stroke-width=".85" fill="none" opacity=".52"/>
+  <path d="M8,28 Q17,22 27,26 Q35,20 44,26 Q52,21 63,26" stroke="#a08828" stroke-width=".8" fill="none" opacity=".46"/>
+  <path d="M9,35 Q19,30 29,34 Q39,29 49,34 Q57,29 63,33" stroke="#a08828" stroke-width=".7" fill="none" opacity=".4"/>
+  <ellipse cx="8" cy="20" rx="10" ry="9" fill="#d2c268" stroke="#2a1a0a" stroke-width="1.5" filter="url(#c14f)"/>
+  <path d="M1,12 L-2,4 L7,10" stroke="#2a1a0a" stroke-width="1.1" fill="#d2c268"/>
+  <path d="M15,12 L18,4 L11,9" stroke="#2a1a0a" stroke-width="1.1" fill="#d2c268"/>
+  <path d="M3,20 Q5.5,17 8,20" stroke="#2a1a0a" stroke-width="1.3" fill="none"/>
+  <path d="M8,20 Q10.5,17 13,20" stroke="#2a1a0a" stroke-width="1.3" fill="none"/>
+  <ellipse cx="8" cy="24" rx="1.4" ry="1" fill="#4a3018"/>
+  <path d="M60,18 Q67,8 62,1" stroke="#2a1a0a" stroke-width="1.9" fill="none"/>
+</svg>
+</div>
+
+
+<!-- ═══════════════════════════════════ FOREGROUND SVG ═══════════════════════════════════ -->
+<svg id="fg-layer" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="fsk"  x="-6%" y="-6%" width="112%" height="112%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="7"/>
+    <feDisplacementMap in="SourceGraphic" scale="1.4"/>
+  </filter>
+  <filter id="fsk2" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.065" numOctaves="2" seed="12"/>
+    <feDisplacementMap in="SourceGraphic" scale="1"/>
+  </filter>
+  <filter id="fsk3" x="-4%" y="-4%" width="108%" height="108%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.08" numOctaves="2" seed="19"/>
+    <feDisplacementMap in="SourceGraphic" scale=".8"/>
+  </filter>
+</defs>
+
+<!-- BRANCH over cat-0 -->
+<path d="M74,350 Q115,330 160,324 Q204,320 248,327"
+      stroke="#2a1a0a" stroke-width="10.5" fill="none" stroke-linecap="round" filter="url(#fsk)"/>
+<ellipse cx="215" cy="328" rx="23" ry="16" fill="#98bc70" stroke="#2a1a0a" stroke-width="1.4" filter="url(#fsk2)"/>
+<ellipse cx="238" cy="322" rx="20" ry="15" fill="#a4c87e" stroke="#2a1a0a" stroke-width="1.3" filter="url(#fsk2)"/>
+<ellipse cx="190" cy="326" rx="18" ry="13" fill="#9cc078" stroke="#2a1a0a" stroke-width="1.3" filter="url(#fsk2)"/>
+<ellipse cx="168" cy="330" rx="15" ry="12" fill="#98bc70" stroke="#2a1a0a" stroke-width="1.2" filter="url(#fsk2)"/>
+
+<!-- HAY straws over cat-1 -->
+<path d="M778,508 Q852,492 926,508" stroke="#2a1a0a" stroke-width="1.3" fill="none" opacity=".45"/>
+<g stroke="#a08828" stroke-width="1.3" stroke-linecap="round" opacity=".55">
+  <path d="M802,500 Q798,488 800,478"/><path d="M815,498 Q813,485 815,475"/>
+  <path d="M828,496 Q826,484 828,474"/><path d="M842,497 Q843,485 840,475"/>
+  <path d="M855,499 Q857,487 853,477"/><path d="M868,501 Q870,490 866,480"/>
+</g>
+
+<!-- COTTAGE WINDOW frame over cat-2 -->
+<rect x="428" y="396" width="24" height="20" rx="2" fill="none" stroke="#2a1a0a" stroke-width="2"/>
+<line x1="440" y1="396" x2="440" y2="416" stroke="#2a1a0a" stroke-width="1.5"/>
+<line x1="428" y1="406" x2="452" y2="406" stroke="#2a1a0a" stroke-width="1.5"/>
+<rect x="426" y="415" width="28" height="5" rx="1" fill="#d8cca8" stroke="#2a1a0a" stroke-width="1.2"/>
+
+<!-- LOG ends over cat-3 -->
+<ellipse cx="536" cy="458" rx="9" ry="6" fill="#8e7040" stroke="#2a1a0a" stroke-width="1.3"/>
+<ellipse cx="550" cy="456" rx="9" ry="6" fill="#9a7848" stroke="#2a1a0a" stroke-width="1.3"/>
+<ellipse cx="564" cy="458" rx="9" ry="6" fill="#8e7040" stroke="#2a1a0a" stroke-width="1.3"/>
+<ellipse cx="536" cy="450" rx="9" ry="6" fill="#9a7848" stroke="#2a1a0a" stroke-width="1.3"/>
+<ellipse cx="550" cy="448" rx="9" ry="6" fill="#8e7040" stroke="#2a1a0a" stroke-width="1.3"/>
+
+<!-- STONE WALL top over cat-4 -->
+<rect x="846" y="490" width="78" height="12" rx="2" fill="#d4c8a8" stroke="#2a1a0a" stroke-width="1.9" filter="url(#fsk)"/>
+<g stroke="#2a1a0a" stroke-width=".7" opacity=".3">
+  <line x1="866" y1="490" x2="866" y2="502"/>
+  <line x1="890" y1="490" x2="890" y2="502"/>
+  <line x1="914" y1="490" x2="914" y2="502"/>
+</g>
+<ellipse cx="862" cy="490" rx="10" ry="4" fill="#7a9850" opacity=".44" filter="url(#fsk3)"/>
+<ellipse cx="900" cy="490" rx="12" ry="4" fill="#88a858" opacity=".42" filter="url(#fsk3)"/>
+
+<!-- BRIDGE ARCH over cat-5 -->
+<path d="M80,622 Q148,584 216,622" fill="#c8c0a0" stroke="#2a1a0a" stroke-width="2.4" filter="url(#fsk)"/>
+<line x1="74" y1="614" x2="222" y2="614" stroke="#2a1a0a" stroke-width="2.5"/>
+<line x1="74" y1="624" x2="222" y2="624" stroke="#2a1a0a" stroke-width="2"/>
+<!-- Water darkening inside arch -->
+<path d="M100,622 Q148,600 196,622" fill="#1e2418" stroke="#2a1a0a" stroke-width="1.5" opacity=".7"/>
+
+<!-- LILY PAD over cat-6 -->
+<ellipse cx="192" cy="614" rx="26" ry="13" fill="#80a050" stroke="#2a1a0a" stroke-width="1.6" filter="url(#fsk2)"/>
+<path d="M192,614 L192,602" stroke="#2a1a0a" stroke-width=".9"/>
+<circle cx="192" cy="601" r="8" fill="#f0e898" stroke="#2a1a0a" stroke-width="1.2"/>
+<circle cx="192" cy="601" r="4" fill="#d8c040"/>
+<path d="M132,598 Q162,594 192,598 Q220,602 248,597" stroke="#88b0c8" stroke-width="2" fill="none" opacity=".7"/>
+<path d="M130,608 Q162,604 192,608 Q222,612 250,607" stroke="#88b0c8" stroke-width="1.7" fill="none" opacity=".62"/>
+
+<!-- STUMP top + rings over cat-7 -->
+<ellipse cx="500" cy="462" rx="28" ry="14" fill="#9a7848" stroke="#2a1a0a" stroke-width="2" filter="url(#fsk)"/>
+<ellipse cx="500" cy="462" rx="19" ry="9"  stroke="#6a5028" stroke-width=".9" fill="none" opacity=".52"/>
+<ellipse cx="500" cy="462" rx="11" ry="5.5" stroke="#6a5028" stroke-width=".8" fill="none" opacity=".46"/>
+<ellipse cx="500" cy="462" rx="4.5" ry="2.5" stroke="#6a5028" stroke-width=".7" fill="none" opacity=".4"/>
+<ellipse cx="484" cy="462" rx="7" ry="3"   fill="#7a9850" opacity=".52" filter="url(#fsk3)"/>
+<ellipse cx="510" cy="460" rx="9" ry="2.5" fill="#88a858" opacity=".48" filter="url(#fsk3)"/>
+
+<!-- OAK LEAVES over cat-8 -->
+<ellipse cx="100" cy="178" rx="40" ry="34" fill="#98bc70" stroke="#2a1a0a" stroke-width="1.8" filter="url(#fsk)"/>
+<ellipse cx="70"  cy="196" rx="30" ry="26" fill="#8eb468" stroke="#2a1a0a" stroke-width="1.6" filter="url(#fsk)"/>
+<ellipse cx="130" cy="192" rx="34" ry="30" fill="#9cc078" stroke="#2a1a0a" stroke-width="1.6" filter="url(#fsk)"/>
+<ellipse cx="100" cy="138" rx="28" ry="22" fill="#a4c87e" stroke="#2a1a0a" stroke-width="1.6" filter="url(#fsk)"/>
+<g fill="#60803c" opacity=".28">
+  <circle cx="82"  cy="162" r="4.5"/><circle cx="108" cy="148" r="4"/>
+  <circle cx="124" cy="172" r="4.5"/><circle cx="72"  cy="184" r="4"/>
+</g>
+
+<!-- WINDMILL ROOF RIDGE over cat-9 -->
+<path d="M518,542 L592,488 L666,542" fill="none" stroke="#2a1a0a" stroke-width="2.6"/>
+<!-- Shingles overtop cat -->
+<g stroke="#2a1a0a" stroke-width=".9" opacity=".3">
+  <path d="M528,538 Q540,527 552,538"/><path d="M552,538 Q564,527 576,538"/>
+  <path d="M576,538 Q588,527 600,538"/><path d="M545,528 Q555,518 565,528"/>
+  <path d="M565,528 Q575,518 585,528"/><path d="M585,528 Q595,518 605,528"/>
+</g>
+
+<!-- CABBAGES around cat-10 -->
+<g filter="url(#fsk3)">
+  <circle cx="728" cy="676" r="11" fill="#80aa38" stroke="#2a1a0a" stroke-width="1.4"/>
+  <circle cx="728" cy="676" r="7"  fill="#90ba48" stroke="#2a1a0a" stroke-width=".7" opacity=".7"/>
+  <circle cx="776" cy="676" r="11" fill="#88b040" stroke="#2a1a0a" stroke-width="1.4"/>
+  <circle cx="776" cy="676" r="7"  fill="#98c050" stroke="#2a1a0a" stroke-width=".7" opacity=".7"/>
+</g>
+<!-- Garden soil edge over cat -->
+<rect x="730" y="690" width="160" height="5" rx="2" fill="#b89848" stroke="#2a1a0a" stroke-width="1.3" filter="url(#fsk)"/>
+
+<!-- SCARECROW body over cat-11 (hat + body, head is the cat) -->
+<rect x="194" y="436" width="12" height="8"  rx="1" fill="#8a6830" stroke="#2a1a0a" stroke-width="1.1"/>
+<rect x="190" y="444" width="20" height="3"  fill="#8a6830" stroke="#2a1a0a" stroke-width="1"/>
+<line x1="200" y1="460" x2="200" y2="494" stroke="#2a1a0a" stroke-width="1.8"/>
+<line x1="183" y1="462" x2="217" y2="462" stroke="#2a1a0a" stroke-width="1.4"/>
+<rect x="193" y="462" width="14" height="20" rx="2" fill="#7888c0"/>
+<path d="M183,462 Q177,457 173,463" stroke="#b89840" stroke-width="1.5" fill="none"/>
+<path d="M217,462 Q223,457 227,463" stroke="#b89840" stroke-width="1.5" fill="none"/>
+
+<!-- WILLOW FRONDS over cat-12 -->
+<g stroke="#70985a" stroke-width="1.6" stroke-linecap="round" fill="none" opacity=".88">
+  <path d="M1120,272 Q1114,312 1110,352 Q1107,384 1110,412"/>
+  <path d="M1130,278 Q1126,318 1124,358 Q1122,390 1125,418"/>
+  <path d="M1148,270 Q1144,310 1142,350 Q1140,382 1143,410"/>
+  <path d="M1160,264 Q1158,304 1157,344 Q1156,376 1159,404"/>
+  <path d="M1170,258 Q1170,298 1170,338 Q1170,370 1172,398"/>
+</g>
+
+<!-- CHIMNEY over tiny cat-13 -->
+<rect x="956" y="303" width="6" height="22" fill="#b0a880" stroke="#2a1a0a" stroke-width="1" filter="url(#fsk3)"/>
+<polygon points="954,306 959,294 964,306" fill="#c8b880" stroke="#2a1a0a" stroke-width=".9"/>
+<path d="M959,303 Q956,289 961,276 Q966,263 962,251" stroke="#c8c0a8" stroke-width="2.2" fill="none" opacity=".42" stroke-linecap="round"/>
+
+<!-- BALE surface + twine over cat-14 -->
+<rect x="1032" y="538" width="76" height="12" rx="2" fill="#e0cc70" stroke="#2a1a0a" stroke-width="1.9" filter="url(#fsk)"/>
+<g stroke="#a08828" stroke-width=".85" opacity=".45">
+  <line x1="1036" y1="542" x2="1105" y2="542"/>
+  <line x1="1036" y1="550" x2="1105" y2="550"/>
+</g>
+
+</svg><!-- /fg-layer -->
+
+<div id="door-flash"></div>
+<div id="ui">
+  <h2>Найди всех кошечек</h2>
+  <div id="score-line">&#x1F43E; <span id="found">0</span> / <span id="total">15</span></div>
+  <div id="hint">Они где-то притаились…</div>
+  <div id="level-badge">&#x1F33B; Уровень 2 — У мельницы</div>
+</div>
+<div id="win">
+  <h1>Все кошки дома! &#x1F431;</h1>
+  <p>Ты нашёл всех <span id="win-count">15</span> кошечек</p>
+  <button onclick="location.reload()">Играть снова</button>
+</div>
+</div></div>
+
+<script>
+(function(){
+  function resize(){
+    var s=Math.max(window.innerWidth/1200,window.innerHeight/800);
+    document.getElementById('world').style.transform='translate(-50%,-50%) scale('+s+')';
+  }
+  window.addEventListener('resize',resize); resize();
+
+  var found=0, TOTAL=15, DOOR_X=592, DOOR_Y=715;
+
+  function spawnPaws(lx,ly,sw,sh){
+    var w=document.getElementById('world');
+    var cx=lx+sw/2, cy=ly+sh/2;
+    for(var i=1;i<=8;i++){
+      var p=document.createElement('div'); p.className='paw';
+      var t=i/8;
+      p.style.left=(cx+(DOOR_X-cx)*t+(Math.random()-0.5)*32)+'px';
+      p.style.top =(cy+(DOOR_Y-cy)*t+(Math.random()-0.5)*22)+'px';
+      p.style.animationDelay=(i*0.13)+'s';
+      p.style.setProperty('--r',(Math.random()*70-35)+'deg');
+      p.textContent='\uD83D\uDC3E';
+      w.appendChild(p);
+      (function(el){setTimeout(function(){el.remove();},2200);})(p);
+    }
+  }
+
+  function handleClick(el){
+    if(el.classList.contains('found'))return;
+    el.classList.add('found');
+    var svg=el.querySelector('svg');
+    if(svg) svg.style.animation='catReveal 0.45s ease-out both';
+    var lx=el.offsetLeft, ly=el.offsetTop;
+    var sw=svg?+svg.getAttribute('width'):60;
+    var sh=svg?+svg.getAttribute('height'):60;
+    setTimeout(function(){spawnPaws(lx,ly,sw,sh);},380);
+    el.style.left=(DOOR_X-sw/2)+'px';
+    el.style.top =(DOOR_Y-sh/2)+'px';
+    el.style.transform='scale(0.55)';
+    setTimeout(function(){
+      el.style.opacity='0'; el.style.transform='scale(0.12)';
+      var f=document.getElementById('door-flash');
+      f.style.opacity='0.9';
+      setTimeout(function(){f.style.opacity='0';},360);
+    },1050);
+    setTimeout(function(){
+      el.remove(); found++;
+      document.getElementById('found').textContent=found;
+      if(found>=TOTAL)setTimeout(function(){
+        document.getElementById('win').classList.add('show');
+      },500);
+    },1550);
+  }
+
+  document.querySelectorAll('.cat-wrap').forEach(function(el){
+    el.addEventListener('click',function(){handleClick(el);});
+  });
+  document.getElementById('total').textContent=TOTAL;
+  document.getElementById('win-count').textContent=TOTAL;
+})();
+</script>
+</body>
+</html>

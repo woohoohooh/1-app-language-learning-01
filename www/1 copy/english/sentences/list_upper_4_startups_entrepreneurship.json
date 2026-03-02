@@ -1,0 +1,367 @@
+{
+  "theme": "Предпринимательство",
+  "level": "Upper-Intermediate",
+  "name": "Words",
+  "items": [
+    {
+      "id": "the-startup-launched-with-a-small-but-motivated-team.",
+      "english": "The startup launched with a small but motivated team.",
+      "translation": "Стартап запустился с небольшой, но мотивированной командой.",
+      "audio": [
+        "audio/sentences/The startup launched with a small but motivated team..wav"
+      ]
+    },
+    {
+      "id": "the-founder-defined-the-company-mission-clearly.",
+      "english": "The founder defined the company mission clearly.",
+      "translation": "Основатель чётко определил миссию компании.",
+      "audio": [
+        "audio/sentences/The founder defined the company mission clearly..wav"
+      ]
+    },
+    {
+      "id": "she-joined-the-project-as-a-co-founder.",
+      "english": "She joined the project as a co-founder.",
+      "translation": "Она присоединилась к проекту как сооснователь.",
+      "audio": [
+        "audio/sentences/She joined the project as a co-founder..wav"
+      ]
+    },
+    {
+      "id": "an-entrepreneur-must-adapt-quickly-to-change.",
+      "english": "An entrepreneur must adapt quickly to change.",
+      "translation": "Предприниматель должен быстро адаптироваться к изменениям.",
+      "audio": [
+        "audio/sentences/An entrepreneur must adapt quickly to change..wav"
+      ]
+    },
+    {
+      "id": "the-vision-guided-every-major-decision.",
+      "english": "The vision guided every major decision.",
+      "translation": "Видение направляло каждое важное решение.",
+      "audio": [
+        "audio/sentences/The vision guided every major decision..wav"
+      ]
+    },
+    {
+      "id": "the-idea-solved-a-common-customer-problem.",
+      "english": "The idea solved a common customer problem.",
+      "translation": "Идея решала распространённую проблему клиентов.",
+      "audio": [
+        "audio/sentences/The idea solved a common customer problem..wav"
+      ]
+    },
+    {
+      "id": "the-concept-evolved-after-market-research.",
+      "english": "The concept evolved after market research.",
+      "translation": "Концепция изменилась после исследования рынка.",
+      "audio": [
+        "audio/sentences/The concept evolved after market research..wav"
+      ]
+    },
+    {
+      "id": "the-problem-became-obvious-during-interviews.",
+      "english": "The problem became obvious during interviews.",
+      "translation": "Проблема стала очевидной во время интервью.",
+      "audio": [
+        "audio/sentences/The problem became obvious during interviews..wav"
+      ]
+    },
+    {
+      "id": "their-solution-reduced-manual-work-significantly.",
+      "english": "Their solution reduced manual work significantly.",
+      "translation": "Их решение значительно сократило ручную работу.",
+      "audio": [
+        "audio/sentences/Their solution reduced manual work significantly..wav"
+      ]
+    },
+    {
+      "id": "the-product-delivered-clear-value-to-users.",
+      "english": "The product delivered clear value to users.",
+      "translation": "Продукт дал пользователям явную ценность.",
+      "audio": [
+        "audio/sentences/The product delivered clear value to users..wav"
+      ]
+    },
+    {
+      "id": "the-market-showed-strong-growth-potential.",
+      "english": "The market showed strong growth potential.",
+      "translation": "Рынок показал высокий потенциал роста.",
+      "audio": [
+        "audio/sentences/The market showed strong growth potential..wav"
+      ]
+    },
+    {
+      "id": "they-focused-on-a-narrow-niche-first.",
+      "english": "They focused on a narrow niche first.",
+      "translation": "Сначала они сосредоточились на узкой нише.",
+      "audio": [
+        "audio/sentences/They focused on a narrow niche first..wav"
+      ]
+    },
+    {
+      "id": "demand-increased-after-the-product-update.",
+      "english": "Demand increased after the product update.",
+      "translation": "Спрос вырос после обновления продукта.",
+      "audio": [
+        "audio/sentences/Demand increased after the product update..wav"
+      ]
+    },
+    {
+      "id": "competition-pushed-the-team-to-innovate-faster.",
+      "english": "Competition pushed the team to innovate faster.",
+      "translation": "Конкуренция подтолкнула команду к более быстрым инновациям.",
+      "audio": [
+        "audio/sentences/Competition pushed the team to innovate faster..wav"
+      ]
+    },
+    {
+      "id": "speed-became-their-main-advantage.",
+      "english": "Speed became their main advantage.",
+      "translation": "Скорость стала их главным преимуществом.",
+      "audio": [
+        "audio/sentences/Speed became their main advantage..wav"
+      ]
+    },
+    {
+      "id": "the-product-improved-with-each-release.",
+      "english": "The product improved with each release.",
+      "translation": "Продукт улучшался с каждым релизом.",
+      "audio": [
+        "audio/sentences/The product improved with each release..wav"
+      ]
+    },
+    {
+      "id": "the-service-focused-on-long-term-retention.",
+      "english": "The service focused on long-term retention.",
+      "translation": "Сервис был ориентирован на долгосрочное удержание.",
+      "audio": [
+        "audio/sentences/The service focused on long-term retention..wav"
+      ]
+    },
+    {
+      "id": "the-platform-connected-users-and-partners.",
+      "english": "The platform connected users and partners.",
+      "translation": "Платформа связывала пользователей и партнёров.",
+      "audio": [
+        "audio/sentences/The platform connected users and partners..wav"
+      ]
+    },
+    {
+      "id": "this-feature-simplified-daily-workflows.",
+      "english": "This feature simplified daily workflows.",
+      "translation": "Эта функция упростила ежедневные процессы.",
+      "audio": [
+        "audio/sentences/This feature simplified daily workflows..wav"
+      ]
+    },
+    {
+      "id": "the-roadmap-outlined-priorities-for-the-year.",
+      "english": "The roadmap outlined priorities for the year.",
+      "translation": "Дорожная карта определила приоритеты на год.",
+      "audio": [
+        "audio/sentences/The roadmap outlined priorities for the year..wav"
+      ]
+    },
+    {
+      "id": "the-launch-attracted-early-adopters.",
+      "english": "The launch attracted early adopters.",
+      "translation": "Запуск привлёк первых пользователей.",
+      "audio": [
+        "audio/sentences/The launch attracted early adopters..wav"
+      ]
+    },
+    {
+      "id": "growth-accelerated-after-international-expansion.",
+      "english": "Growth accelerated after international expansion.",
+      "translation": "Рост ускорился после выхода на международный рынок.",
+      "audio": [
+        "audio/sentences/Growth accelerated after international expansion..wav"
+      ]
+    },
+    {
+      "id": "scaling-required-stronger-internal-processes.",
+      "english": "Scaling required stronger internal processes.",
+      "translation": "Масштабирование потребовало более сильных внутренних процессов.",
+      "audio": [
+        "audio/sentences/Scaling required stronger internal processes..wav"
+      ]
+    },
+    {
+      "id": "the-pivot-helped-the-team-survive.",
+      "english": "The pivot helped the team survive.",
+      "translation": "Смена стратегии помогла команде выжить.",
+      "audio": [
+        "audio/sentences/The pivot helped the team survive..wav"
+      ]
+    },
+    {
+      "id": "revenue-grew-steadily-quarter-by-quarter.",
+      "english": "Revenue grew steadily quarter by quarter.",
+      "translation": "Выручка стабильно росла квартал за кварталом.",
+      "audio": [
+        "audio/sentences/Revenue grew steadily quarter by quarter..wav"
+      ]
+    },
+    {
+      "id": "profit-appeared-after-cost-optimization.",
+      "english": "Profit appeared after cost optimization.",
+      "translation": "Прибыль появилась после оптимизации затрат.",
+      "audio": [
+        "audio/sentences/Profit appeared after cost optimization..wav"
+      ]
+    },
+    {
+      "id": "pricing-changed-based-on-user-feedback.",
+      "english": "Pricing changed based on user feedback.",
+      "translation": "Ценообразование изменилось на основе отзывов пользователей.",
+      "audio": [
+        "audio/sentences/Pricing changed based on user feedback..wav"
+      ]
+    },
+    {
+      "id": "monetization-started-with-premium-features.",
+      "english": "Monetization started with premium features.",
+      "translation": "Монетизация началась с премиум-функций.",
+      "audio": [
+        "audio/sentences/Monetization started with premium features..wav"
+      ]
+    },
+    {
+      "id": "the-subscription-model-improved-retention.",
+      "english": "The subscription model improved retention.",
+      "translation": "Модель подписки улучшила удержание.",
+      "audio": [
+        "audio/sentences/The subscription model improved retention..wav"
+      ]
+    },
+    {
+      "id": "the-investment-supported-rapid-expansion.",
+      "english": "The investment supported rapid expansion.",
+      "translation": "Инвестиции поддержали быстрое расширение.",
+      "audio": [
+        "audio/sentences/The investment supported rapid expansion..wav"
+      ]
+    },
+    {
+      "id": "the-investor-brought-valuable-expertise.",
+      "english": "The investor brought valuable expertise.",
+      "translation": "Инвестор привнёс ценный опыт.",
+      "audio": [
+        "audio/sentences/The investor brought valuable expertise..wav"
+      ]
+    },
+    {
+      "id": "funding-closed-faster-than-expected.",
+      "english": "Funding closed faster than expected.",
+      "translation": "Финансирование закрылось быстрее, чем ожидалось.",
+      "audio": [
+        "audio/sentences/Funding closed faster than expected..wav"
+      ]
+    },
+    {
+      "id": "valuation-increased-after-strong-results.",
+      "english": "Valuation increased after strong results.",
+      "translation": "Оценка компании выросла после сильных результатов.",
+      "audio": [
+        "audio/sentences/Valuation increased after strong results..wav"
+      ]
+    },
+    {
+      "id": "equity-discussions-delayed-the-deal.",
+      "english": "Equity discussions delayed the deal.",
+      "translation": "Обсуждение долей задержало сделку.",
+      "audio": [
+        "audio/sentences/Equity discussions delayed the deal..wav"
+      ]
+    },
+    {
+      "id": "the-pitch-highlighted-traction-and-growth.",
+      "english": "The pitch highlighted traction and growth.",
+      "translation": "Питч подчеркнул интерес и рост.",
+      "audio": [
+        "audio/sentences/The pitch highlighted traction and growth..wav"
+      ]
+    },
+    {
+      "id": "the-deck-explained-the-business-model-clearly.",
+      "english": "The deck explained the business model clearly.",
+      "translation": "Презентация чётко объясняла бизнес-модель.",
+      "audio": [
+        "audio/sentences/The deck explained the business model clearly..wav"
+      ]
+    },
+    {
+      "id": "metrics-revealed-issues-in-onboarding.",
+      "english": "Metrics revealed issues in onboarding.",
+      "translation": "Метрики выявили проблемы в онбординге.",
+      "audio": [
+        "audio/sentences/Metrics revealed issues in onboarding..wav"
+      ]
+    },
+    {
+      "id": "kpis-aligned-everyone-around-goals.",
+      "english": "KPIs aligned everyone around goals.",
+      "translation": "Ключевые показатели объединили всех вокруг целей.",
+      "audio": [
+        "audio/sentences/KPIs aligned everyone around goals..wav"
+      ]
+    },
+    {
+      "id": "feedback-influenced-the-next-release.",
+      "english": "Feedback influenced the next release.",
+      "translation": "Обратная связь повлияла на следующий релиз.",
+      "audio": [
+        "audio/sentences/Feedback influenced the next release..wav"
+      ]
+    },
+    {
+      "id": "risk-increased-during-rapid-expansion.",
+      "english": "Risk increased during rapid expansion.",
+      "translation": "Риск вырос во время быстрого расширения.",
+      "audio": [
+        "audio/sentences/Risk increased during rapid expansion..wav"
+      ]
+    },
+    {
+      "id": "failure-taught-the-team-important-lessons.",
+      "english": "Failure taught the team important lessons.",
+      "translation": "Провал научил команду важным урокам.",
+      "audio": [
+        "audio/sentences/Failure taught the team important lessons..wav"
+      ]
+    },
+    {
+      "id": "the-crisis-created-an-unexpected-opportunity.",
+      "english": "The crisis created an unexpected opportunity.",
+      "translation": "Кризис создал неожиданную возможность.",
+      "audio": [
+        "audio/sentences/The crisis created an unexpected opportunity..wav"
+      ]
+    },
+    {
+      "id": "the-decision-shaped-the-future-direction.",
+      "english": "The decision shaped the future direction.",
+      "translation": "Решение определило дальнейшее направление.",
+      "audio": [
+        "audio/sentences/The decision shaped the future direction..wav"
+      ]
+    },
+    {
+      "id": "the-strategy-focused-on-sustainable-growth.",
+      "english": "The strategy focused on sustainable growth.",
+      "translation": "Стратегия была сосредоточена на устойчивом росте.",
+      "audio": [
+        "audio/sentences/The strategy focused on sustainable growth..wav"
+      ]
+    },
+    {
+      "id": "traction-improved-after-marketing-experiments.",
+      "english": "Traction improved after marketing experiments.",
+      "translation": "Рост интереса улучшился после маркетинговых экспериментов.",
+      "audio": [
+        "audio/sentences/Traction improved after marketing experiments..wav"
+      ]
+    }
+  ]
+}

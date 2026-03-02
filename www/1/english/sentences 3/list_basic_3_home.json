@@ -1,0 +1,167 @@
+{
+  "theme": "Дом и быт",
+  "level": "Beginner",
+  "name": "Sentences",
+  "items": [
+    {
+      "english": "house",
+      "translation": "дом"
+    },
+    {
+      "english": "apartment",
+      "translation": "квартира"
+    },
+    {
+      "english": "room",
+      "translation": "комната"
+    },
+    {
+      "english": "kitchen",
+      "translation": "кухня"
+    },
+    {
+      "english": "bathroom",
+      "translation": "ванная комната"
+    },
+    {
+      "english": "bedroom",
+      "translation": "спальня"
+    },
+    {
+      "english": "living room",
+      "translation": "гостиная"
+    },
+    {
+      "english": "balcony",
+      "translation": "балкон"
+    },
+    {
+      "english": "door",
+      "translation": "дверь"
+    },
+    {
+      "english": "window",
+      "translation": "окно"
+    },
+    {
+      "english": "wall",
+      "translation": "стена"
+    },
+    {
+      "english": "ceiling",
+      "translation": "потолок"
+    },
+    {
+      "english": "bed",
+      "translation": "кровать"
+    },
+    {
+      "english": "sofa",
+      "translation": "диван"
+    },
+    {
+      "english": "chair",
+      "translation": "стул"
+    },
+    {
+      "english": "table",
+      "translation": "стол"
+    },
+    {
+      "english": "desk",
+      "translation": "рабочий стол"
+    },
+    {
+      "english": "wardrobe",
+      "translation": "шкаф"
+    },
+    {
+      "english": "shelf",
+      "translation": "полка"
+    },
+    {
+      "english": "mirror",
+      "translation": "зеркало"
+    },
+    {
+      "english": "lamp",
+      "translation": "лампа"
+    },
+    {
+      "english": "fridge",
+      "translation": "холодильник"
+    },
+    {
+      "english": "oven",
+      "translation": "духовка"
+    },
+    {
+      "english": "stove",
+      "translation": "плита"
+    },
+    {
+      "english": "microwave",
+      "translation": "микроволновка"
+    },
+    {
+      "english": "kettle",
+      "translation": "чайник"
+    },
+    {
+      "english": "washing machine",
+      "translation": "стиральная машина"
+    },
+    {
+      "english": "dirty",
+      "translation": "грязный"
+    },
+    {
+      "english": "cook",
+      "translation": "готовить"
+    },
+    {
+      "english": "sleep",
+      "translation": "спать"
+    },
+    {
+      "english": "wake up",
+      "translation": "просыпаться"
+    },
+    {
+      "english": "key",
+      "translation": "ключ"
+    },
+    {
+      "english": "lock",
+      "translation": "замок"
+    },
+    {
+      "english": "trash",
+      "translation": "мусор"
+    },
+    {
+      "english": "hall",
+      "translation": "холл"
+    },
+    {
+      "english": "floor",
+      "translation": "пол"
+    },
+    {
+      "english": "light",
+      "translation": "свет"
+    },
+    {
+      "english": "clean",
+      "translation": "чистый"
+    },
+    {
+      "english": "wash",
+      "translation": "мыть"
+    },
+    {
+      "english": "bag",
+      "translation": "сумка"
+    }
+  ]
+}
