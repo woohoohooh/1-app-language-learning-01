@@ -3,145 +3,40 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "influence",
-      "translation": "влияние"
-    },
-    {
-      "english": "persuasion",
-      "translation": "убеждение"
-    },
-    {
-      "english": "persuasive",
-      "translation": "убедительный"
-    },
-    {
-      "english": "conviction",
-      "translation": "убеждённость"
-    },
-    {
-      "english": "credibility",
-      "translation": "доверие, авторитет"
-    },
-    {
-      "english": "authority",
-      "translation": "авторитет"
-    },
-    {
-      "english": "trustworthiness",
-      "translation": "надёжность"
-    },
-    {
-      "english": "confidence",
-      "translation": "уверенность"
-    },
-    {
-      "english": "charisma",
-      "translation": "харизма"
-    },
-    {
-      "english": "presence",
-      "translation": "присутствие"
-    },
-    {
-      "english": "appeal",
-      "translation": "привлекательность"
-    },
-    {
-      "english": "reasoning",
-      "translation": "логика рассуждений"
-    },
-    {
-      "english": "logic",
-      "translation": "логика"
-    },
-    {
-      "english": "emotion",
-      "translation": "эмоция"
-    },
-    {
-      "english": "emotional impact",
-      "translation": "эмоциональное воздействие"
-    },
-    {
-      "english": "framing",
-      "translation": "подача"
-    },
-    {
-      "english": "positioning",
-      "translation": "позиционирование"
-    },
-    {
-      "english": "emphasis",
-      "translation": "акцент"
-    },
-    {
-      "english": "tone",
-      "translation": "тон"
-    },
-    {
-      "english": "messaging",
-      "translation": "передача идеи"
-    },
-    {
-      "english": "motivation",
-      "translation": "мотивация"
-    },
-    {
-      "english": "incentive",
-      "translation": "стимул"
-    },
-    {
-      "english": "leverage",
-      "translation": "рычаг влияния"
-    },
-    {
-      "english": "pressure",
-      "translation": "давление"
-    },
-    {
-      "english": "resistance",
-      "translation": "сопротивление"
-    },
-    {
-      "english": "objection",
-      "translation": "возражение"
-    },
-    {
-      "english": "acceptance",
-      "translation": "принятие"
-    },
-    {
-      "english": "agreement",
-      "translation": "согласие"
-    },
-    {
-      "english": "alignment",
-      "translation": "согласованность"
-    },
-    {
-      "english": "buy-in",
-      "translation": "вовлечённое согласие"
-    },
-    {
-      "english": "manipulation",
-      "translation": "манипуляция"
-    },
-    {
-      "english": "ethical influence",
-      "translation": "этичное влияние"
-    },
-    {
-      "english": "transparency",
-      "translation": "прозрачность"
-    },
-    {
-      "english": "intent",
-      "translation": "намерение"
-    },
-    {
-      "english": "perception",
-      "translation": "восприятие"
-    }
+    { "original": "influence", "english": "Influence shapes strategic decisions.", "translation": "Влияние формирует стратегические решения." },
+    { "original": "persuasion", "english": "Persuasion requires thoughtful preparation.", "translation": "Убеждение требует продуманной подготовки." },
+    { "original": "persuasive", "english": "Her arguments sounded persuasive.", "translation": "Её аргументы звучали убедительно." },
+    { "original": "conviction", "english": "He spoke with strong conviction.", "translation": "Он говорил с сильной убеждённостью." },
+    { "original": "credibility", "english": "Credibility strengthens persuasive power.", "translation": "Доверие усиливает силу убеждения." },
+    { "original": "authority", "english": "Authority enhances persuasive impact.", "translation": "Авторитет усиливает влияние." },
+    { "original": "trustworthiness", "english": "Trustworthiness builds long-term influence.", "translation": "Надёжность формирует долгосрочное влияние." },
+    { "original": "confidence", "english": "Confidence inspires audience trust.", "translation": "Уверенность внушает доверие аудитории." },
+    { "original": "charisma", "english": "Charisma attracts natural support.", "translation": "Харизма привлекает естественную поддержку." },
+    { "original": "presence", "english": "Her presence commanded attention.", "translation": "Её присутствие привлекало внимание." },
+    { "original": "appeal", "english": "The proposal had strong appeal.", "translation": "Предложение имело сильную привлекательность." },
+    { "original": "reasoning", "english": "Clear reasoning reduced doubts.", "translation": "Чёткая логика рассуждений снизила сомнения." },
+    { "original": "logic", "english": "Logic strengthened his position.", "translation": "Логика усилила его позицию." },
+    { "original": "emotion", "english": "Emotion influenced the outcome.", "translation": "Эмоция повлияла на итог." },
+    { "original": "emotional impact", "english": "Emotional impact increased engagement.", "translation": "Эмоциональное воздействие усилило вовлечённость." },
+    { "original": "framing", "english": "Framing changed audience perception.", "translation": "Подача изменила восприятие аудитории." },
+    { "original": "positioning", "english": "Positioning clarified strategic intent.", "translation": "Позиционирование прояснило стратегическое намерение." },
+    { "original": "emphasis", "english": "Emphasis highlighted key benefits.", "translation": "Акцент подчеркнул ключевые преимущества." },
+    { "original": "tone", "english": "Tone determines message reception.", "translation": "Тон определяет восприятие сообщения." },
+    { "original": "messaging", "english": "Messaging shaped public opinion.", "translation": "Передача идеи сформировала общественное мнение." },
+    { "original": "motivation", "english": "Motivation drives meaningful change.", "translation": "Мотивация запускает значимые изменения." },
+    { "original": "incentive", "english": "Incentive encouraged participation.", "translation": "Стимул поощрил участие." },
+    { "original": "leverage", "english": "Leverage amplified negotiation power.", "translation": "Рычаг влияния усилил переговорную позицию." },
+    { "original": "pressure", "english": "Pressure requires careful management.", "translation": "Давление требует осторожного управления." },
+    { "original": "resistance", "english": "Resistance decreased after clarification.", "translation": "Сопротивление снизилось после разъяснения." },
+    { "original": "objection", "english": "Objection opened constructive dialogue.", "translation": "Возражение открыло конструктивный диалог." },
+    { "original": "acceptance", "english": "Acceptance followed transparent discussion.", "translation": "Принятие последовало после прозрачного обсуждения." },
+    { "original": "agreement", "english": "Agreement strengthened collaboration.", "translation": "Согласие укрепило сотрудничество." },
+    { "original": "alignment", "english": "Alignment improved strategic clarity.", "translation": "Согласованность улучшила стратегическую ясность." },
+    { "original": "buy-in", "english": "Buy-in accelerated implementation.", "translation": "Вовлечённое согласие ускорило внедрение." },
+    { "original": "manipulation", "english": "Manipulation damages long-term trust.", "translation": "Манипуляция разрушает долгосрочное доверие." },
+    { "original": "ethical influence", "english": "Ethical influence builds credibility.", "translation": "Этичное влияние укрепляет доверие." },
+    { "original": "transparency", "english": "Transparency increases stakeholder confidence.", "translation": "Прозрачность повышает уверенность заинтересованных сторон." },
+    { "original": "intent", "english": "Intent shapes audience perception.", "translation": "Намерение формирует восприятие аудитории." },
+    { "original": "perception", "english": "Perception defines communication success.", "translation": "Восприятие определяет успех коммуникации." }
   ]
 }

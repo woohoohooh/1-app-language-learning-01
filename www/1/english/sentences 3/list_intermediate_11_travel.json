@@ -18,7 +18,7 @@
     { "original": "check-out", "english": "Check-out was smooth.", "translation": "Выезд прошел спокойно." },
     { "original": "border", "english": "We crossed the border.", "translation": "Мы пересекли границу." },
     { "original": "customs", "english": "Customs control was efficient.", "translation": "Таможенный контроль был эффективным." },
-    { "original": "immigration", "english": "Immigration process was organized.", "translation": "Иммиграционный контроль был организован." },
+    { "original": "immigration", "english": "The immigration process was organized.", "translation": "Иммиграционный контроль был организован." },
     { "original": "visa", "english": "She received her visa.", "translation": "Она получила визу." },
     { "original": "document", "english": "Keep your document ready.", "translation": "Держите документ наготове." },
     { "original": "luggage", "english": "Her luggage arrived safely.", "translation": "Её багаж прибыл безопасно." },
@@ -32,7 +32,7 @@
     { "original": "car rental", "english": "Car rental was affordable.", "translation": "Аренда автомобиля была доступной." },
     { "original": "navigation", "english": "Navigation helped us.", "translation": "Навигация помогла нам." },
     { "original": "currency", "english": "The currency is stable.", "translation": "Валюта стабильна." },
-    { "original": "exchange", "english": "The exchange rate looks fair.", "translation": "Курс обмена выглядит справедливым." },
+    { "original": "exchange", "english": "The exchange was quick and easy.", "translation": "Обмен прошёл быстро и легко." },
     { "original": "payment", "english": "The payment was successful.", "translation": "Оплата прошла успешно." },
     { "original": "receipt", "english": "Keep the receipt safe.", "translation": "Сохраните чек." },
     { "original": "insurance", "english": "Insurance provides protection.", "translation": "Страховка обеспечивает защиту." },
@@ -41,7 +41,7 @@
     { "original": "complaint", "english": "The complaint was handled professionally.", "translation": "Жалоба была рассмотрена профессионально." },
     { "original": "support", "english": "Support was very helpful.", "translation": "Поддержка была очень полезной." },
     { "original": "journey", "english": "The journey felt exciting.", "translation": "Путешествие было захватывающим." },
-    { "original": "availability", "english": "Availability looks promising.", "translation": "Наличие выглядит обнадеживающим." },
+    { "original": "availability", "english": "Availability is good this season.", "translation": "В этом сезоне наличие товаров хорошее." },
     { "original": "fee", "english": "The fee seems reasonable.", "translation": "Комиссия кажется разумной." }
   ]
 }
