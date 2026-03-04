@@ -3,205 +3,55 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "assumption",
-      "translation": "предположение"
-    },
-    {
-      "english": "perspective",
-      "translation": "точка зрения"
-    },
-    {
-      "english": "context",
-      "translation": "контекст"
-    },
-    {
-      "english": "implication",
-      "translation": "следствие"
-    },
-    {
-      "english": "bias",
-      "translation": "предвзятость"
-    },
-    {
-      "english": "insight",
-      "translation": "понимание"
-    },
-    {
-      "english": "constraint",
-      "translation": "ограничение"
-    },
-    {
-      "english": "trade-off",
-      "translation": "компромисс"
-    },
-    {
-      "english": "uncertainty",
-      "translation": "неопределённость"
-    },
-    {
-      "english": "outcome",
-      "translation": "результат"
-    },
-    {
-      "english": "approach",
-      "translation": "подход"
-    },
-    {
-      "english": "framework",
-      "translation": "структура"
-    },
-    {
-      "english": "strategy",
-      "translation": "стратегия"
-    },
-    {
-      "english": "execution",
-      "translation": "реализация"
-    },
-    {
-      "english": "alignment",
-      "translation": "согласованность"
-    },
-    {
-      "english": "priority",
-      "translation": "приоритет"
-    },
-    {
-      "english": "initiative",
-      "translation": "инициатива"
-    },
-    {
-      "english": "accountability",
-      "translation": "ответственность"
-    },
-    {
-      "english": "ownership",
-      "translation": "ответственность"
-    },
-    {
-      "english": "stakeholder",
-      "translation": "заинтересованная сторона"
-    },
-    {
-      "english": "credibility",
-      "translation": "доверие"
-    },
-    {
-      "english": "transparency",
-      "translation": "прозрачность"
-    },
-    {
-      "english": "integrity",
-      "translation": "честность"
-    },
-    {
-      "english": "consistency",
-      "translation": "последовательность"
-    },
-    {
-      "english": "reliability",
-      "translation": "надёжность"
-    },
-    {
-      "english": "efficiency",
-      "translation": "эффективность"
-    },
-    {
-      "english": "scalability",
-      "translation": "масштабируемость"
-    },
-    {
-      "english": "sustainability",
-      "translation": "устойчивость"
-    },
-    {
-      "english": "evaluation",
-      "translation": "оценка"
-    },
-    {
-      "english": "assessment",
-      "translation": "оценка"
-    },
-    {
-      "english": "feedback",
-      "translation": "обратная связь"
-    },
-    {
-      "english": "iteration",
-      "translation": "итерация"
-    },
-    {
-      "english": "refinement",
-      "translation": "доработка"
-    },
-    {
-      "english": "optimization",
-      "translation": "оптимизация"
-    },
-    {
-      "english": "trend",
-      "translation": "тенденция"
-    },
-    {
-      "english": "pattern",
-      "translation": "шаблон"
-    },
-    {
-      "english": "signal",
-      "translation": "сигнал"
-    },
-    {
-      "english": "noise",
-      "translation": "информационный шум"
-    },
-    {
-      "english": "insightful",
-      "translation": "проницательный"
-    },
-    {
-      "english": "meaningful",
-      "translation": "значимый"
-    },
-    {
-      "english": "complexity",
-      "translation": "сложность"
-    },
-    {
-      "english": "ambiguity",
-      "translation": "двусмысленность"
-    },
-    {
-      "english": "clarity",
-      "translation": "ясность"
-    },
-    {
-      "english": "coherence",
-      "translation": "связность"
-    },
-    {
-      "english": "relevance",
-      "translation": "актуальность"
-    },
-    {
-      "english": "impact",
-      "translation": "влияние"
-    },
-    {
-      "english": "value",
-      "translation": "ценность"
-    },
-    {
-      "english": "benefit",
-      "translation": "выгода"
-    },
-    {
-      "english": "risk",
-      "translation": "риск"
-    },
-    {
-      "english": "opportunity",
-      "translation": "возможность"
-    }
+    { "original": "assumption", "english": "We tested that assumption carefully.", "translation": "Мы тщательно проверили это предположение." },
+    { "original": "perspective", "english": "Her perspective changed everything.", "translation": "Её точка зрения изменила всё." },
+    { "original": "context", "english": "Everything depends on context.", "translation": "Всё зависит от контекста." },
+    { "original": "implication", "english": "This decision has implications.", "translation": "У этого решения есть последствия." },
+    { "original": "bias", "english": "We reduced bias in analysis.", "translation": "Мы снизили предвзятость в анализе." },
+    { "original": "insight", "english": "The report gave useful insight.", "translation": "Отчёт дал полезное понимание." },
+    { "original": "constraint", "english": "Budget was a constraint.", "translation": "Бюджет был ограничением." },
+    { "original": "trade-off", "english": "Every strategy involves trade-offs.", "translation": "Каждая стратегия включает компромиссы." },
+    { "original": "uncertainty", "english": "Markets operate under uncertainty.", "translation": "Рынки функционируют в условиях неопределённости." },
+    { "original": "outcome", "english": "The outcome surprised everyone.", "translation": "Результат удивил всех." },
+    { "original": "approach", "english": "We tried a new approach.", "translation": "Мы попробовали новый подход." },
+    { "original": "framework", "english": "They built a solid framework.", "translation": "Они построили прочную структуру." },
+    { "original": "strategy", "english": "Their strategy proved effective.", "translation": "Их стратегия оказалась эффективной." },
+    { "original": "execution", "english": "Strong execution drives success.", "translation": "Качественная реализация ведёт к успеху." },
+    { "original": "alignment", "english": "Team alignment improved results.", "translation": "Согласованность команды улучшила результаты." },
+    { "original": "priority", "english": "Customer trust became priority.", "translation": "Доверие клиентов стало приоритетом." },
+    { "original": "initiative", "english": "She showed real initiative.", "translation": "Она проявила настоящую инициативу." },
+    { "original": "accountability", "english": "Clear accountability builds trust.", "translation": "Чёткая ответственность укрепляет доверие." },
+    { "original": "ownership", "english": "He demonstrated strong ownership.", "translation": "Он продемонстрировал высокую ответственность." },
+    { "original": "stakeholder", "english": "Every stakeholder shared feedback.", "translation": "Каждая заинтересованная сторона дала обратную связь." },
+    { "original": "credibility", "english": "Consistency strengthened our credibility.", "translation": "Последовательность укрепила нашу репутацию." },
+    { "original": "transparency", "english": "We value transparency highly.", "translation": "Мы высоко ценим прозрачность." },
+    { "original": "integrity", "english": "Integrity defines our culture.", "translation": "Честность определяет нашу культуру." },
+    { "original": "consistency", "english": "Daily effort creates consistency.", "translation": "Ежедневные усилия создают последовательность." },
+    { "original": "reliability", "english": "Clients appreciate reliability.", "translation": "Клиенты ценят надёжность." },
+    { "original": "efficiency", "english": "Automation increased efficiency.", "translation": "Автоматизация повысила эффективность." },
+    { "original": "scalability", "english": "The platform ensures scalability.", "translation": "Платформа обеспечивает масштабируемость." },
+    { "original": "sustainability", "english": "We focus on sustainability.", "translation": "Мы сосредоточены на устойчивости." },
+    { "original": "evaluation", "english": "Regular evaluation improves performance.", "translation": "Регулярная оценка улучшает результаты." },
+    { "original": "assessment", "english": "Initial assessment showed potential.", "translation": "Первичная оценка показала потенциал." },
+    { "original": "feedback", "english": "Constructive feedback drives improvement.", "translation": "Конструктивная обратная связь способствует улучшению." },
+    { "original": "iteration", "english": "Each iteration added clarity.", "translation": "Каждая итерация добавляла ясности." },
+    { "original": "refinement", "english": "Further refinement improved quality.", "translation": "Дальнейшая доработка улучшила качество." },
+    { "original": "optimization", "english": "Continuous optimization saves resources.", "translation": "Постоянная оптимизация экономит ресурсы." },
+    { "original": "trend", "english": "We noticed a trend.", "translation": "Мы заметили тенденцию." },
+    { "original": "pattern", "english": "The data showed patterns.", "translation": "Данные показали шаблоны." },
+    { "original": "signal", "english": "Early signals indicated growth.", "translation": "Ранние сигналы указали на рост." },
+    { "original": "noise", "english": "We filtered out noise.", "translation": "Мы отфильтровали информационный шум." },
+    { "original": "insightful", "english": "Her comments were insightful.", "translation": "Её комментарии были проницательными." },
+    { "original": "meaningful", "english": "We had meaningful discussion.", "translation": "У нас была значимая дискуссия." },
+    { "original": "complexity", "english": "The project involved complexity.", "translation": "Проект включал сложность." },
+    { "original": "ambiguity", "english": "We clarified the ambiguity.", "translation": "Мы прояснили двусмысленность." },
+    { "original": "clarity", "english": "Clear goals create clarity.", "translation": "Чёткие цели создают ясность." },
+    { "original": "coherence", "english": "The argument gained coherence.", "translation": "Аргумент стал более связным." },
+    { "original": "relevance", "english": "Content must maintain relevance.", "translation": "Контент должен сохранять актуальность." },
+    { "original": "impact", "english": "The update had impact.", "translation": "Обновление оказало влияние." },
+    { "original": "value", "english": "This service delivers value.", "translation": "Эта услуга приносит ценность." },
+    { "original": "benefit", "english": "Users see real benefit.", "translation": "Пользователи видят реальную выгоду." },
+    { "original": "risk", "english": "We managed the risk.", "translation": "Мы управляли риском." },
+    { "original": "opportunity", "english": "This creates new opportunity.", "translation": "Это создаёт новую возможность." }
   ]
 }

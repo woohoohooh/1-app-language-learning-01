@@ -3,105 +3,30 @@
   "level": "Upper-Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "cryptocurrency",
-      "translation": "криптовалюта"
-    },
-    {
-      "english": "crypto",
-      "translation": "крипта"
-    },
-    {
-      "english": "blockchain",
-      "translation": "блокчейн"
-    },
-    {
-      "english": "token",
-      "translation": "токен"
-    },
-    {
-      "english": "coin",
-      "translation": "монета"
-    },
-    {
-      "english": "Bitcoin",
-      "translation": "биткоин"
-    },
-    {
-      "english": "Ethereum",
-      "translation": "эфириум"
-    },
-    {
-      "english": "altcoin",
-      "translation": "альткоин"
-    },
-    {
-      "english": "stablecoin",
-      "translation": "стейблкоин"
-    },
-    {
-      "english": "network",
-      "translation": "сеть"
-    },
-    {
-      "english": "wallet",
-      "translation": "криптокошелёк"
-    },
-    {
-      "english": "address",
-      "translation": "адрес"
-    },
-    {
-      "english": "private key",
-      "translation": "приватный ключ"
-    },
-    {
-      "english": "seed phrase",
-      "translation": "сид-фраза"
-    },
-    {
-      "english": "transaction",
-      "translation": "транзакция"
-    },
-    {
-      "english": "block",
-      "translation": "блок"
-    },
-    {
-      "english": "miner",
-      "translation": "майнер"
-    },
-    {
-      "english": "mining",
-      "translation": "майнинг"
-    },
-    {
-      "english": "validator",
-      "translation": "валидатор"
-    },
-    {
-      "english": "consensus",
-      "translation": "консенсус"
-    },
-    {
-      "english": "proof of work",
-      "translation": "доказательство работы"
-    },
-    {
-      "english": "proof of stake",
-      "translation": "доказательство доли"
-    },
-    {
-      "english": "hash",
-      "translation": "хеш"
-    },
-    {
-      "english": "node",
-      "translation": "узел сети"
-    },
-    {
-      "english": "ledger",
-      "translation": "реестр"
-    }
+    { "original": "cryptocurrency", "english": "Cryptocurrency reshapes global finance.", "translation": "Криптовалюта меняет глобальные финансы." },
+    { "original": "crypto", "english": "Crypto attracts innovative investors.", "translation": "Крипта привлекает инновационных инвесторов." },
+    { "original": "blockchain", "english": "Blockchain ensures data transparency.", "translation": "Блокчейн обеспечивает прозрачность данных." },
+    { "original": "token", "english": "The token gained utility.", "translation": "Токен приобрёл практическую ценность." },
+    { "original": "coin", "english": "The coin increased adoption.", "translation": "Монета увеличила принятие." },
+    { "original": "Bitcoin", "english": "Bitcoin influenced market sentiment.", "translation": "Биткоин повлиял на рыночные настроения." },
+    { "original": "Ethereum", "english": "Ethereum supports smart contracts.", "translation": "Эфириум поддерживает смарт-контракты." },
+    { "original": "altcoin", "english": "The altcoin attracted traders.", "translation": "Альткоин привлёк трейдеров." },
+    { "original": "stablecoin", "english": "Stablecoin provides price stability.", "translation": "Стейблкоин обеспечивает стабильность цены." },
+    { "original": "network", "english": "The network processed transactions efficiently.", "translation": "Сеть обрабатывала транзакции эффективно." },
+    { "original": "wallet", "english": "The wallet stores digital assets.", "translation": "Криптокошелёк хранит цифровые активы." },
+    { "original": "address", "english": "The address identifies recipients.", "translation": "Адрес идентифицирует получателей." },
+    { "original": "private key", "english": "The private key secures access.", "translation": "Приватный ключ защищает доступ." },
+    { "original": "seed phrase", "english": "Seed phrase restores wallets.", "translation": "Сид-фраза восстанавливает кошельки." },
+    { "original": "transaction", "english": "The transaction confirmed quickly.", "translation": "Транзакция быстро подтвердилась." },
+    { "original": "block", "english": "The block recorded new data.", "translation": "Блок зафиксировал новые данные." },
+    { "original": "miner", "english": "The miner validated transactions.", "translation": "Майнер подтвердил транзакции." },
+    { "original": "mining", "english": "Mining supports network security.", "translation": "Майнинг поддерживает безопасность сети." },
+    { "original": "validator", "english": "The validator confirmed consensus.", "translation": "Валидатор подтвердил консенсус." },
+    { "original": "consensus", "english": "Consensus maintains network trust.", "translation": "Консенсус поддерживает доверие сети." },
+    { "original": "proof of work", "english": "Proof of work secures blocks.", "translation": "Доказательство работы защищает блоки." },
+    { "original": "proof of stake", "english": "Proof of stake rewards validators.", "translation": "Доказательство доли вознаграждает валидаторов." },
+    { "original": "hash", "english": "The hash verifies integrity.", "translation": "Хеш подтверждает целостность." },
+    { "original": "node", "english": "Each node strengthens decentralization.", "translation": "Каждый узел усиливает децентрализацию." },
+    { "original": "ledger", "english": "The ledger records transactions permanently.", "translation": "Реестр фиксирует транзакции навсегда." }
   ]
 }

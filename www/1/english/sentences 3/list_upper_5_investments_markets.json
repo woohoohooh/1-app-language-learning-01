@@ -3,165 +3,45 @@
   "level": "Upper-Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "investment",
-      "translation": "инвестиция"
-    },
-    {
-      "english": "investor",
-      "translation": "инвестор"
-    },
-    {
-      "english": "market",
-      "translation": "рынок"
-    },
-    {
-      "english": "asset",
-      "translation": "актив"
-    },
-    {
-      "english": "portfolio",
-      "translation": "портфель"
-    },
-    {
-      "english": "stock",
-      "translation": "акция"
-    },
-    {
-      "english": "bond",
-      "translation": "облигация"
-    },
-    {
-      "english": "fund",
-      "translation": "фонд"
-    },
-    {
-      "english": "ETF",
-      "translation": "биржевой фонд"
-    },
-    {
-      "english": "index",
-      "translation": "индекс"
-    },
-    {
-      "english": "exchange",
-      "translation": "биржа"
-    },
-    {
-      "english": "ticker",
-      "translation": "биржевой тикер"
-    },
-    {
-      "english": "price",
-      "translation": "цена"
-    },
-    {
-      "english": "value",
-      "translation": "стоимость"
-    },
-    {
-      "english": "return",
-      "translation": "доходность"
-    },
-    {
-      "english": "profit",
-      "translation": "прибыль"
-    },
-    {
-      "english": "loss",
-      "translation": "убыток"
-    },
-    {
-      "english": "yield",
-      "translation": "доход"
-    },
-    {
-      "english": "dividend",
-      "translation": "дивиденд"
-    },
-    {
-      "english": "risk",
-      "translation": "риск"
-    },
-    {
-      "english": "volatility",
-      "translation": "волатильность"
-    },
-    {
-      "english": "liquidity",
-      "translation": "ликвидность"
-    },
-    {
-      "english": "exposure",
-      "translation": "подверженность риску"
-    },
-    {
-      "english": "diversification",
-      "translation": "диверсификация"
-    },
-    {
-      "english": "trend",
-      "translation": "тренд"
-    },
-    {
-      "english": "growth",
-      "translation": "рост"
-    },
-    {
-      "english": "decline",
-      "translation": "спад"
-    },
-    {
-      "english": "crash",
-      "translation": "обвал"
-    },
-    {
-      "english": "recovery",
-      "translation": "восстановление"
-    },
-    {
-      "english": "analysis",
-      "translation": "анализ"
-    },
-    {
-      "english": "forecast",
-      "translation": "прогноз"
-    },
-    {
-      "english": "indicator",
-      "translation": "показатель"
-    },
-    {
-      "english": "performance",
-      "translation": "результативность"
-    },
-    {
-      "english": "benchmark",
-      "translation": "ориентир для сравнения"
-    },
-    {
-      "english": "capital",
-      "translation": "капитал"
-    },
-    {
-      "english": "valuation",
-      "translation": "оценка стоимости"
-    },
-    {
-      "english": "allocation",
-      "translation": "распределение"
-    },
-    {
-      "english": "strategy",
-      "translation": "стратегия"
-    },
-    {
-      "english": "long-term",
-      "translation": "долгосрочный"
-    },
-    {
-      "english": "share",
-      "translation": "акция"
-    }
+    { "original": "investment", "english": "The investment delivered steady returns.", "translation": "Инвестиция принесла стабильную доходность." },
+    { "original": "investor", "english": "The investor expanded his portfolio.", "translation": "Инвестор расширил портфель." },
+    { "original": "market", "english": "The market showed resilience.", "translation": "Рынок продемонстрировал устойчивость." },
+    { "original": "asset", "english": "This asset gained value.", "translation": "Этот актив вырос в стоимости." },
+    { "original": "portfolio", "english": "The portfolio remained balanced.", "translation": "Портфель оставался сбалансированным." },
+    { "original": "stock", "english": "The stock attracted attention.", "translation": "Акция привлекла внимание." },
+    { "original": "bond", "english": "The bond provided stability.", "translation": "Облигация обеспечила стабильность." },
+    { "original": "fund", "english": "The fund outperformed expectations.", "translation": "Фонд превзошёл ожидания." },
+    { "original": "ETF", "english": "The ETF tracked the index.", "translation": "Биржевой фонд следовал индексу." },
+    { "original": "index", "english": "The index reached new levels.", "translation": "Индекс достиг новых уровней." },
+    { "original": "exchange", "english": "The exchange increased transparency.", "translation": "Биржа повысила прозрачность." },
+    { "original": "ticker", "english": "The ticker signaled movement.", "translation": "Биржевой тикер показал движение." },
+    { "original": "price", "english": "The price reflected demand.", "translation": "Цена отразила спрос." },
+    { "original": "value", "english": "Value determines long-term growth.", "translation": "Стоимость определяет долгосрочный рост." },
+    { "original": "return", "english": "Return exceeded projections.", "translation": "Доходность превзошла прогнозы." },
+    { "original": "profit", "english": "Profit strengthened capital.", "translation": "Прибыль укрепила капитал." },
+    { "original": "loss", "english": "Loss encouraged strategic review.", "translation": "Убыток подтолкнул к стратегическому пересмотру." },
+    { "original": "yield", "english": "Yield attracted conservative investors.", "translation": "Доход привлёк консервативных инвесторов." },
+    { "original": "dividend", "english": "The dividend rewarded shareholders.", "translation": "Дивиденд вознаградил акционеров." },
+    { "original": "risk", "english": "Risk requires balanced decisions.", "translation": "Риск требует взвешенных решений." },
+    { "original": "volatility", "english": "Volatility created trading opportunities.", "translation": "Волатильность создала торговые возможности." },
+    { "original": "liquidity", "english": "Liquidity ensured smooth transactions.", "translation": "Ликвидность обеспечила плавные сделки." },
+    { "original": "exposure", "english": "Exposure increased diversification.", "translation": "Подверженность повысила диверсификацию." },
+    { "original": "diversification", "english": "Diversification reduced uncertainty.", "translation": "Диверсификация снизила неопределённость." },
+    { "original": "trend", "english": "The trend signaled momentum.", "translation": "Тренд показал импульс." },
+    { "original": "growth", "english": "Growth attracted global capital.", "translation": "Рост привлёк глобальный капитал." },
+    { "original": "decline", "english": "Decline opened buying opportunities.", "translation": "Спад открыл возможности для покупки." },
+    { "original": "crash", "english": "The crash reshaped strategies.", "translation": "Обвал изменил стратегии." },
+    { "original": "recovery", "english": "Recovery restored confidence.", "translation": "Восстановление вернуло уверенность." },
+    { "original": "analysis", "english": "Analysis guided investment choices.", "translation": "Анализ направил инвестиционные решения." },
+    { "original": "forecast", "english": "Forecast supported planning.", "translation": "Прогноз поддержал планирование." },
+    { "original": "indicator", "english": "The indicator confirmed strength.", "translation": "Показатель подтвердил силу." },
+    { "original": "performance", "english": "Performance exceeded benchmarks.", "translation": "Результативность превзошла ориентиры." },
+    { "original": "benchmark", "english": "Benchmark measured progress.", "translation": "Ориентир измерил прогресс." },
+    { "original": "capital", "english": "Capital enabled expansion.", "translation": "Капитал позволил расширение." },
+    { "original": "valuation", "english": "Valuation reflected growth potential.", "translation": "Оценка стоимости отразила потенциал роста." },
+    { "original": "allocation", "english": "Allocation optimized portfolio balance.", "translation": "Распределение оптимизировало баланс портфеля." },
+    { "original": "strategy", "english": "Strategy balanced risk and return.", "translation": "Стратегия сбалансировала риск и доходность." },
+    { "original": "long-term", "english": "Long-term focus increased stability.", "translation": "Долгосрочный фокус повысил стабильность." },
+    { "original": "share", "english": "The share gained momentum.", "translation": "Акция набрала импульс." }
   ]
 }

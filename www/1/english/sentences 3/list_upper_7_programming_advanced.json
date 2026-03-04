@@ -3,85 +3,25 @@
   "level": "Upper-Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "software",
-      "translation": "программное обеспечение"
-    },
-    {
-      "english": "application",
-      "translation": "приложение"
-    },
-    {
-      "english": "codebase",
-      "translation": "кодовая база"
-    },
-    {
-      "english": "repository",
-      "translation": "репозиторий"
-    },
-    {
-      "english": "commit",
-      "translation": "коммит"
-    },
-    {
-      "english": "branch",
-      "translation": "ветка"
-    },
-    {
-      "english": "merge",
-      "translation": "слияние"
-    },
-    {
-      "english": "pull request",
-      "translation": "пулл-реквест"
-    },
-    {
-      "english": "version control",
-      "translation": "контроль версий"
-    },
-    {
-      "english": "deployment",
-      "translation": "развёртывание"
-    },
-    {
-      "english": "build",
-      "translation": "сборка"
-    },
-    {
-      "english": "release",
-      "translation": "релиз"
-    },
-    {
-      "english": "pipeline",
-      "translation": "пайплайн"
-    },
-    {
-      "english": "automation",
-      "translation": "автоматизация"
-    },
-    {
-      "english": "integration",
-      "translation": "интеграция"
-    },
-    {
-      "english": "framework",
-      "translation": "фреймворк"
-    },
-    {
-      "english": "library",
-      "translation": "библиотека"
-    },
-    {
-      "english": "dependency",
-      "translation": "зависимость"
-    },
-    {
-      "english": "package",
-      "translation": "пакет"
-    },
-    {
-      "english": "module",
-      "translation": "модуль"
-    }
+    { "original": "software", "english": "The software improved performance.", "translation": "Программное обеспечение улучшило производительность." },
+    { "original": "application", "english": "The application supports multiple users.", "translation": "Приложение поддерживает нескольких пользователей." },
+    { "original": "codebase", "english": "The codebase became more maintainable.", "translation": "Кодовая база стала более поддерживаемой." },
+    { "original": "repository", "english": "The repository stores project history.", "translation": "Репозиторий хранит историю проекта." },
+    { "original": "commit", "english": "The commit fixed minor issues.", "translation": "Коммит исправил мелкие проблемы." },
+    { "original": "branch", "english": "The branch introduced new features.", "translation": "Ветка добавила новые функции." },
+    { "original": "merge", "english": "The merge completed successfully.", "translation": "Слияние успешно завершилось." },
+    { "original": "pull request", "english": "The pull request passed review.", "translation": "Пулл-реквест прошёл проверку." },
+    { "original": "version control", "english": "Version control tracks changes.", "translation": "Контроль версий отслеживает изменения." },
+    { "original": "deployment", "english": "Deployment moved to production.", "translation": "Развёртывание прошло в продакшн." },
+    { "original": "build", "english": "The build completed quickly.", "translation": "Сборка завершилась быстро." },
+    { "original": "release", "english": "The release added improvements.", "translation": "Релиз добавил улучшения." },
+    { "original": "pipeline", "english": "The pipeline automated testing.", "translation": "Пайплайн автоматизировал тестирование." },
+    { "original": "automation", "english": "Automation increased efficiency.", "translation": "Автоматизация повысила эффективность." },
+    { "original": "integration", "english": "Integration connected external services.", "translation": "Интеграция подключила внешние сервисы." },
+    { "original": "framework", "english": "The framework simplified development.", "translation": "Фреймворк упростил разработку." },
+    { "original": "library", "english": "The library provided reusable components.", "translation": "Библиотека предоставила переиспользуемые компоненты." },
+    { "original": "dependency", "english": "Dependency management improved stability.", "translation": "Управление зависимостями повысило стабильность." },
+    { "original": "package", "english": "The package updated automatically.", "translation": "Пакет обновился автоматически." },
+    { "original": "module", "english": "The module handled authentication.", "translation": "Модуль обрабатывал аутентификацию." }
   ]
 }

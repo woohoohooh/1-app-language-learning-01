@@ -3,165 +3,45 @@
   "level": "Upper-Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "sales",
-      "translation": "продажи"
-    },
-    {
-      "english": "deal",
-      "translation": "сделка"
-    },
-    {
-      "english": "agreement",
-      "translation": "соглашение"
-    },
-    {
-      "english": "contract",
-      "translation": "контракт"
-    },
-    {
-      "english": "proposal",
-      "translation": "коммерческое предложение"
-    },
-    {
-      "english": "offer",
-      "translation": "предложение"
-    },
-    {
-      "english": "pricing",
-      "translation": "ценообразование"
-    },
-    {
-      "english": "price",
-      "translation": "цена"
-    },
-    {
-      "english": "discount",
-      "translation": "скидка"
-    },
-    {
-      "english": "margin",
-      "translation": "маржа"
-    },
-    {
-      "english": "client",
-      "translation": "клиент"
-    },
-    {
-      "english": "customer",
-      "translation": "покупатель"
-    },
-    {
-      "english": "prospect",
-      "translation": "потенциальный клиент"
-    },
-    {
-      "english": "stakeholder",
-      "translation": "заинтересованная сторона"
-    },
-    {
-      "english": "decision maker",
-      "translation": "лицо, принимающее решение"
-    },
-    {
-      "english": "negotiation",
-      "translation": "переговоры"
-    },
-    {
-      "english": "discussion",
-      "translation": "обсуждение"
-    },
-    {
-      "english": "terms",
-      "translation": "условия"
-    },
-    {
-      "english": "conditions",
-      "translation": "условия"
-    },
-    {
-      "english": "requirements",
-      "translation": "требования"
-    },
-    {
-      "english": "objection",
-      "translation": "возражение"
-    },
-    {
-      "english": "concern",
-      "translation": "опасение"
-    },
-    {
-      "english": "counteroffer",
-      "translation": "встречное предложение"
-    },
-    {
-      "english": "compromise",
-      "translation": "компромисс"
-    },
-    {
-      "english": "concession",
-      "translation": "уступка"
-    },
-    {
-      "english": "approval",
-      "translation": "утверждение"
-    },
-    {
-      "english": "confirmation",
-      "translation": "подтверждение"
-    },
-    {
-      "english": "signature",
-      "translation": "подпись"
-    },
-    {
-      "english": "closing",
-      "translation": "закрытие сделки"
-    },
-    {
-      "english": "follow-up",
-      "translation": "дополнительный контакт"
-    },
-    {
-      "english": "pipeline",
-      "translation": "воронка продаж"
-    },
-    {
-      "english": "forecast",
-      "translation": "прогноз"
-    },
-    {
-      "english": "revenue",
-      "translation": "выручка"
-    },
-    {
-      "english": "commission",
-      "translation": "комиссия"
-    },
-    {
-      "english": "quota",
-      "translation": "план продаж"
-    },
-    {
-      "english": "relationship",
-      "translation": "отношения"
-    },
-    {
-      "english": "trust",
-      "translation": "доверие"
-    },
-    {
-      "english": "long-term",
-      "translation": "долгосрочный"
-    },
-    {
-      "english": "partnership",
-      "translation": "партнёрство"
-    },
-    {
-      "english": "renewal",
-      "translation": "продление"
-    }
+    { "original": "sales", "english": "Sales increased steadily this quarter.", "translation": "Продажи стабильно выросли в этом квартале." },
+    { "original": "deal", "english": "The deal created mutual value.", "translation": "Сделка создала взаимную ценность." },
+    { "original": "agreement", "english": "The agreement strengthened cooperation.", "translation": "Соглашение укрепило сотрудничество." },
+    { "original": "contract", "english": "The contract outlined clear terms.", "translation": "Контракт обозначил чёткие условия." },
+    { "original": "proposal", "english": "The proposal addressed client needs.", "translation": "Коммерческое предложение учло потребности клиента." },
+    { "original": "offer", "english": "The offer attracted attention.", "translation": "Предложение привлекло внимание." },
+    { "original": "pricing", "english": "Pricing reflected market conditions.", "translation": "Ценообразование отразило рыночные условия." },
+    { "original": "price", "english": "The price remained competitive.", "translation": "Цена оставалась конкурентной." },
+    { "original": "discount", "english": "The discount encouraged commitment.", "translation": "Скидка стимулировала решение." },
+    { "original": "margin", "english": "Margin supported sustainable growth.", "translation": "Маржа поддержала устойчивый рост." },
+    { "original": "client", "english": "The client appreciated transparency.", "translation": "Клиент оценил прозрачность." },
+    { "original": "customer", "english": "The customer confirmed satisfaction.", "translation": "Покупатель подтвердил удовлетворённость." },
+    { "original": "prospect", "english": "The prospect showed strong interest.", "translation": "Потенциальный клиент проявил сильный интерес." },
+    { "original": "stakeholder", "english": "The stakeholder supported the initiative.", "translation": "Заинтересованная сторона поддержала инициативу." },
+    { "original": "decision maker", "english": "The decision maker approved quickly.", "translation": "Лицо, принимающее решение, быстро одобрило." },
+    { "original": "negotiation", "english": "Negotiation led to alignment.", "translation": "Переговоры привели к согласованности." },
+    { "original": "discussion", "english": "The discussion clarified expectations.", "translation": "Обсуждение прояснило ожидания." },
+    { "original": "terms", "english": "The terms ensured fairness.", "translation": "Условия обеспечили справедливость." },
+    { "original": "conditions", "english": "Conditions remained flexible.", "translation": "Условия оставались гибкими." },
+    { "original": "requirements", "english": "Requirements defined project scope.", "translation": "Требования определили объём проекта." },
+    { "original": "objection", "english": "The objection opened dialogue.", "translation": "Возражение открыло диалог." },
+    { "original": "concern", "english": "The concern encouraged clarification.", "translation": "Опасение подтолкнуло к разъяснению." },
+    { "original": "counteroffer", "english": "The counteroffer balanced expectations.", "translation": "Встречное предложение сбалансировало ожидания." },
+    { "original": "compromise", "english": "Compromise strengthened partnership.", "translation": "Компромисс укрепил партнёрство." },
+    { "original": "concession", "english": "The concession supported agreement.", "translation": "Уступка поддержала соглашение." },
+    { "original": "approval", "english": "Approval accelerated the process.", "translation": "Утверждение ускорило процесс." },
+    { "original": "confirmation", "english": "Confirmation finalized arrangements.", "translation": "Подтверждение завершило договорённости." },
+    { "original": "signature", "english": "The signature marked commitment.", "translation": "Подпись обозначила обязательства." },
+    { "original": "closing", "english": "Closing strengthened business ties.", "translation": "Закрытие сделки укрепило деловые связи." },
+    { "original": "follow-up", "english": "Follow-up maintained momentum.", "translation": "Дополнительный контакт сохранил динамику." },
+    { "original": "pipeline", "english": "The pipeline showed steady growth.", "translation": "Воронка продаж показала стабильный рост." },
+    { "original": "forecast", "english": "Forecast reflected realistic targets.", "translation": "Прогноз отразил реалистичные цели." },
+    { "original": "revenue", "english": "Revenue increased consistently.", "translation": "Выручка росла последовательно." },
+    { "original": "commission", "english": "Commission rewarded performance.", "translation": "Комиссия вознаградила результат." },
+    { "original": "quota", "english": "Quota aligned with strategy.", "translation": "План продаж соответствовал стратегии." },
+    { "original": "relationship", "english": "Relationship built long-term value.", "translation": "Отношения создали долгосрочную ценность." },
+    { "original": "trust", "english": "Trust strengthened cooperation.", "translation": "Доверие укрепило сотрудничество." },
+    { "original": "long-term", "english": "Long-term focus ensured stability.", "translation": "Долгосрочный фокус обеспечил стабильность." },
+    { "original": "partnership", "english": "Partnership expanded opportunities.", "translation": "Партнёрство расширило возможности." },
+    { "original": "renewal", "english": "Renewal confirmed satisfaction.", "translation": "Продление подтвердило удовлетворённость." }
   ]
 }

@@ -3,185 +3,50 @@
   "level": "Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "office",
-      "translation": "офис"
-    },
-    {
-      "english": "workplace",
-      "translation": "рабочее место"
-    },
-    {
-      "english": "department",
-      "translation": "отдел"
-    },
-    {
-      "english": "team",
-      "translation": "команда"
-    },
-    {
-      "english": "staff",
-      "translation": "персонал"
-    },
-    {
-      "english": "meeting",
-      "translation": "встреча"
-    },
-    {
-      "english": "appointment",
-      "translation": "назначенная встреча"
-    },
-    {
-      "english": "agenda",
-      "translation": "повестка"
-    },
-    {
-      "english": "minutes",
-      "translation": "протокол встречи"
-    },
-    {
-      "english": "discussion",
-      "translation": "обсуждение"
-    },
-    {
-      "english": "email",
-      "translation": "электронное письмо"
-    },
-    {
-      "english": "message",
-      "translation": "сообщение"
-    },
-    {
-      "english": "call",
-      "translation": "звонок"
-    },
-    {
-      "english": "conference",
-      "translation": "конференция"
-    },
-    {
-      "english": "video call",
-      "translation": "видеозвонок"
-    },
-    {
-      "english": "request",
-      "translation": "запрос"
-    },
-    {
-      "english": "response",
-      "translation": "ответ"
-    },
-    {
-      "english": "feedback",
-      "translation": "обратная связь"
-    },
-    {
-      "english": "approval",
-      "translation": "одобрение"
-    },
-    {
-      "english": "confirmation",
-      "translation": "подтверждение"
-    },
-    {
-      "english": "agreement",
-      "translation": "соглашение"
-    },
-    {
-      "english": "arrangement",
-      "translation": "договорённость"
-    },
-    {
-      "english": "negotiation",
-      "translation": "переговоры"
-    },
-    {
-      "english": "decision",
-      "translation": "решение"
-    },
-    {
-      "english": "approval",
-      "translation": "утверждение"
-    },
-    {
-      "english": "document",
-      "translation": "документ"
-    },
-    {
-      "english": "report",
-      "translation": "отчёт"
-    },
-    {
-      "english": "presentation",
-      "translation": "презентация"
-    },
-    {
-      "english": "spreadsheet",
-      "translation": "таблица"
-    },
-    {
-      "english": "file",
-      "translation": "файл"
-    },
-    {
-      "english": "policy",
-      "translation": "политика"
-    },
-    {
-      "english": "procedure",
-      "translation": "процедура"
-    },
-    {
-      "english": "guideline",
-      "translation": "инструкция"
-    },
-    {
-      "english": "requirement",
-      "translation": "требование"
-    },
-    {
-      "english": "compliance",
-      "translation": "соответствие правилам"
-    },
-    {
-      "english": "priority",
-      "translation": "приоритет"
-    },
-    {
-      "english": "update",
-      "translation": "обновление"
-    },
-    {
-      "english": "status",
-      "translation": "статус"
-    },
-    {
-      "english": "progress",
-      "translation": "ход выполнения"
-    },
-    {
-      "english": "issue",
-      "translation": "проблема"
-    },
-    {
-      "english": "formal",
-      "translation": "официальный"
-    },
-    {
-      "english": "informal",
-      "translation": "неофициальный"
-    },
-    {
-      "english": "professional",
-      "translation": "профессиональный"
-    },
-    {
-      "english": "internal",
-      "translation": "внутренний"
-    },
-    {
-      "english": "external",
-      "translation": "внешний"
-    }
+    { "original": "office", "english": "She works in an office.", "translation": "Она работает в офисе." },
+    { "original": "workplace", "english": "This workplace feels comfortable.", "translation": "Это рабочее место комфортное." },
+    { "original": "department", "english": "He joined the marketing department.", "translation": "Он присоединился к отделу маркетинга." },
+    { "original": "team", "english": "Our team works well together.", "translation": "Наша команда хорошо работает вместе." },
+    { "original": "staff", "english": "The staff is very helpful.", "translation": "Персонал очень отзывчивый." },
+    { "original": "meeting", "english": "We have a meeting today.", "translation": "У нас сегодня встреча." },
+    { "original": "appointment", "english": "She has an appointment tomorrow.", "translation": "У нее назначенная встреча завтра." },
+    { "original": "agenda", "english": "The agenda looks clear.", "translation": "Повестка выглядит понятной." },
+    { "original": "minutes", "english": "She shared the meeting minutes.", "translation": "Она поделилась протоколом встречи." },
+    { "original": "discussion", "english": "The discussion was productive.", "translation": "Обсуждение было продуктивным." },
+    { "original": "email", "english": "I sent an email.", "translation": "Я отправил электронное письмо." },
+    { "original": "message", "english": "She left a message.", "translation": "Она оставила сообщение." },
+    { "original": "call", "english": "He made a quick call.", "translation": "Он сделал быстрый звонок." },
+    { "original": "conference", "english": "They attended a conference.", "translation": "Они посетили конференцию." },
+    { "original": "video call", "english": "We had a video call.", "translation": "У нас был видеозвонок." },
+    { "original": "request", "english": "He sent a request.", "translation": "Он отправил запрос." },
+    { "original": "response", "english": "We received a response.", "translation": "Мы получили ответ." },
+    { "original": "feedback", "english": "She gave helpful feedback.", "translation": "Она дала полезную обратную связь." },
+    { "original": "approval", "english": "The project received approval.", "translation": "Проект получил одобрение." },
+    { "original": "confirmation", "english": "We got a confirmation.", "translation": "Мы получили подтверждение." },
+    { "original": "agreement", "english": "They signed an agreement.", "translation": "Они подписали соглашение." },
+    { "original": "arrangement", "english": "We made an arrangement.", "translation": "Мы достигли договоренности." },
+    { "original": "negotiation", "english": "The negotiation went smoothly.", "translation": "Переговоры прошли гладко." },
+    { "original": "decision", "english": "They made a decision.", "translation": "Они приняли решение." },
+    { "original": "approval", "english": "Final approval came quickly.", "translation": "Окончательное утверждение пришло быстро." },
+    { "original": "document", "english": "She prepared the document.", "translation": "Она подготовила документ." },
+    { "original": "report", "english": "He finished the report.", "translation": "Он завершил отчет." },
+    { "original": "presentation", "english": "She gave a presentation.", "translation": "Она провела презентацию." },
+    { "original": "spreadsheet", "english": "He updated the spreadsheet.", "translation": "Он обновил таблицу." },
+    { "original": "file", "english": "She saved the file.", "translation": "Она сохранила файл." },
+    { "original": "policy", "english": "The policy seems fair.", "translation": "Политика кажется справедливой." },
+    { "original": "procedure", "english": "Follow the procedure carefully.", "translation": "Следуйте процедуре внимательно." },
+    { "original": "guideline", "english": "These guidelines are clear.", "translation": "Эти инструкции понятные." },
+    { "original": "requirement", "english": "This is a requirement.", "translation": "Это требование." },
+    { "original": "compliance", "english": "The company ensures compliance.", "translation": "Компания обеспечивает соответствие правилам." },
+    { "original": "priority", "english": "Safety is our priority.", "translation": "Безопасность — наш приоритет." },
+    { "original": "update", "english": "She shared an update.", "translation": "Она поделилась обновлением." },
+    { "original": "status", "english": "The status looks good.", "translation": "Статус выглядит хорошим." },
+    { "original": "progress", "english": "We see steady progress.", "translation": "Мы видим стабильный прогресс." },
+    { "original": "issue", "english": "They resolved the issue.", "translation": "Они решили проблему." },
+    { "original": "formal", "english": "This email sounds formal.", "translation": "Это письмо звучит официально." },
+    { "original": "informal", "english": "His tone was informal.", "translation": "Его тон был неофициальным." },
+    { "original": "professional", "english": "She remains professional always.", "translation": "Она всегда остается профессиональной." },
+    { "original": "internal", "english": "This is an internal document.", "translation": "Это внутренний документ." },
+    { "original": "external", "english": "They met external partners.", "translation": "Они встретились с внешними партнерами." }
   ]
 }

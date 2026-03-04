@@ -3,141 +3,39 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "make sense",
-      "translation": "иметь смысл"
-    },
-    {
-      "english": "take responsibility",
-      "translation": "брать ответственность"
-    },
-    {
-      "english": "reach agreement",
-      "translation": "достичь соглашения"
-    },
-    {
-      "english": "raise concern",
-      "translation": "выразить обеспокоенность"
-    },
-    {
-      "english": "meet expectations",
-      "translation": "соответствовать ожиданиям"
-    },
-    {
-      "english": "set priority",
-      "translation": "установить приоритет"
-    },
-    {
-      "english": "gain insight",
-      "translation": "получить понимание"
-    },
-    {
-      "english": "add value",
-      "translation": "добавлять ценность"
-    },
-    {
-      "english": "drive growth",
-      "translation": "стимулировать рост"
-    },
-    {
-      "english": "create impact",
-      "translation": "создавать влияние"
-    },
-    {
-      "english": "make decision",
-      "translation": "принимать решение"
-    },
-    {
-      "english": "solve problem",
-      "translation": "решать проблему"
-    },
-    {
-      "english": "address issue",
-      "translation": "разбирать проблему"
-    },
-    {
-      "english": "identify risk",
-      "translation": "выявлять риск"
-    },
-    {
-      "english": "reduce risk",
-      "translation": "снижать риск"
-    },
-    {
-      "english": "take action",
-      "translation": "предпринимать действие"
-    },
-    {
-      "english": "make progress",
-      "translation": "достигать прогресса"
-    },
-    {
-      "english": "show interest",
-      "translation": "проявлять интерес"
-    },
-    {
-      "english": "build trust",
-      "translation": "строить доверие"
-    },
-    {
-      "english": "lose focus",
-      "translation": "терять фокус"
-    },
-    {
-      "english": "take initiative",
-      "translation": "проявлять инициативу"
-    },
-    {
-      "english": "manage expectations",
-      "translation": "управлять ожиданиями"
-    },
-    {
-      "english": "handle pressure",
-      "translation": "справляться с давлением"
-    },
-    {
-      "english": "deal effectively",
-      "translation": "эффективно справляться"
-    },
-    {
-      "english": "clear direction",
-      "translation": "чёткое направление"
-    },
-    {
-      "english": "strong argument",
-      "translation": "весомый аргумент"
-    },
-    {
-      "english": "key factor",
-      "translation": "ключевой фактор"
-    },
-    {
-      "english": "common practice",
-      "translation": "распространённая практика"
-    },
-    {
-      "english": "real challenge",
-      "translation": "реальный вызов"
-    },
-    {
-      "english": "significant change",
-      "translation": "значительное изменение"
-    },
-    {
-      "english": "positive outcome",
-      "translation": "положительный результат"
-    },
-    {
-      "english": "long-term goal",
-      "translation": "долгосрочная цель"
-    },
-    {
-      "english": "natural flow",
-      "translation": "естественный поток речи"
-    },
-    {
-      "english": "spoken English",
-      "translation": "разговорный английский"
-    }
+    { "original": "make sense", "english": "That approach makes sense.", "translation": "Этот подход имеет смысл." },
+    { "original": "take responsibility", "english": "She took responsibility immediately.", "translation": "Она сразу взяла ответственность." },
+    { "original": "reach agreement", "english": "They reached agreement quickly.", "translation": "Они быстро достигли соглашения." },
+    { "original": "raise concern", "english": "He raised a valid concern.", "translation": "Он выразил обоснованную обеспокоенность." },
+    { "original": "meet expectations", "english": "The results met expectations.", "translation": "Результаты соответствовали ожиданиям." },
+    { "original": "set priority", "english": "We set clear priorities.", "translation": "Мы установили чёткие приоритеты." },
+    { "original": "gain insight", "english": "We gained valuable insight.", "translation": "Мы получили ценное понимание." },
+    { "original": "add value", "english": "This feature adds value.", "translation": "Эта функция добавляет ценность." },
+    { "original": "drive growth", "english": "Innovation drives sustainable growth.", "translation": "Инновации стимулируют устойчивый рост." },
+    { "original": "create impact", "english": "The campaign created impact.", "translation": "Кампания создала влияние." },
+    { "original": "make decision", "english": "We made a decision.", "translation": "Мы приняли решение." },
+    { "original": "solve problem", "english": "They solved the problem.", "translation": "Они решили проблему." },
+    { "original": "address issue", "english": "We addressed the issue.", "translation": "Мы разобрали проблему." },
+    { "original": "identify risk", "english": "The team identified key risks.", "translation": "Команда выявила ключевые риски." },
+    { "original": "reduce risk", "english": "Insurance reduces financial risk.", "translation": "Страхование снижает финансовый риск." },
+    { "original": "take action", "english": "We took immediate action.", "translation": "Мы предприняли немедленные действия." },
+    { "original": "make progress", "english": "The project made progress.", "translation": "Проект продвинулся вперёд." },
+    { "original": "show interest", "english": "She showed genuine interest.", "translation": "Она проявила искренний интерес." },
+    { "original": "build trust", "english": "Transparency builds long-term trust.", "translation": "Прозрачность строит долгосрочное доверие." },
+    { "original": "lose focus", "english": "He lost focus briefly.", "translation": "Он ненадолго потерял фокус." },
+    { "original": "take initiative", "english": "She took initiative early.", "translation": "Она рано проявила инициативу." },
+    { "original": "manage expectations", "english": "Leaders manage expectations carefully.", "translation": "Лидеры осторожно управляют ожиданиями." },
+    { "original": "handle pressure", "english": "He handled pressure calmly.", "translation": "Он спокойно справился с давлением." },
+    { "original": "deal effectively", "english": "She dealt effectively with challenges.", "translation": "Она эффективно справилась с вызовами." },
+    { "original": "clear direction", "english": "We need clear direction.", "translation": "Нам нужно чёткое направление." },
+    { "original": "strong argument", "english": "He presented a strong argument.", "translation": "Он представил весомый аргумент." },
+    { "original": "key factor", "english": "Timing was a key factor.", "translation": "Время было ключевым фактором." },
+    { "original": "common practice", "english": "This is common practice.", "translation": "Это распространённая практика." },
+    { "original": "real challenge", "english": "Scaling remains a real challenge.", "translation": "Масштабирование остаётся реальным вызовом." },
+    { "original": "significant change", "english": "The update brought significant change.", "translation": "Обновление принесло значительные изменения." },
+    { "original": "positive outcome", "english": "We achieved a positive outcome.", "translation": "Мы достигли положительного результата." },
+    { "original": "long-term goal", "english": "Growth is our long-term goal.", "translation": "Рост — наша долгосрочная цель." },
+    { "original": "natural flow", "english": "The conversation had natural flow.", "translation": "Разговор имел естественный поток." },
+    { "original": "spoken English", "english": "He practices spoken English daily.", "translation": "Он ежедневно практикует разговорный английский." }
   ]
 }

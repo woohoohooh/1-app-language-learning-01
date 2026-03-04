@@ -3,165 +3,45 @@
   "level": "Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "hobby",
-      "translation": "хобби"
-    },
-    {
-      "english": "interest",
-      "translation": "интерес"
-    },
-    {
-      "english": "leisure",
-      "translation": "досуг"
-    },
-    {
-      "english": "free time",
-      "translation": "свободное время"
-    },
-    {
-      "english": "entertainment",
-      "translation": "развлечение"
-    },
-    {
-      "english": "fun",
-      "translation": "веселье"
-    },
-    {
-      "english": "relaxation",
-      "translation": "расслабление"
-    },
-    {
-      "english": "challenge",
-      "translation": "вызов"
-    },
-    {
-      "english": "music",
-      "translation": "музыка"
-    },
-    {
-      "english": "concert",
-      "translation": "концерт"
-    },
-    {
-      "english": "playlist",
-      "translation": "плейлист"
-    },
-    {
-      "english": "podcast",
-      "translation": "подкаст"
-    },
-    {
-      "english": "audiobook",
-      "translation": "аудиокнига"
-    },
-    {
-      "english": "movie",
-      "translation": "фильм"
-    },
-    {
-      "english": "series",
-      "translation": "сериал"
-    },
-    {
-      "english": "streaming",
-      "translation": "стриминг"
-    },
-    {
-      "english": "episode",
-      "translation": "эпизод"
-    },
-    {
-      "english": "genre",
-      "translation": "жанр"
-    },
-    {
-      "english": "game",
-      "translation": "игра"
-    },
-    {
-      "english": "gaming",
-      "translation": "гейминг"
-    },
-    {
-      "english": "console",
-      "translation": "игровая консоль"
-    },
-    {
-      "english": "multiplayer",
-      "translation": "многопользовательский"
-    },
-    {
-      "english": "strategy",
-      "translation": "стратегия"
-    },
-    {
-      "english": "reading",
-      "translation": "чтение"
-    },
-    {
-      "english": "writing",
-      "translation": "письмо"
-    },
-    {
-      "english": "blog",
-      "translation": "блог"
-    },
-    {
-      "english": "photography",
-      "translation": "фотография"
-    },
-    {
-      "english": "editing",
-      "translation": "редактирование"
-    },
-    {
-      "english": "traveling",
-      "translation": "путешествия"
-    },
-    {
-      "english": "adventure",
-      "translation": "приключение"
-    },
-    {
-      "english": "exploration",
-      "translation": "исследование"
-    },
-    {
-      "english": "camping",
-      "translation": "кемпинг"
-    },
-    {
-      "english": "hiking",
-      "translation": "походы"
-    },
-    {
-      "english": "creative",
-      "translation": "творческий"
-    },
-    {
-      "english": "collection",
-      "translation": "коллекция"
-    },
-    {
-      "english": "design",
-      "translation": "дизайн"
-    },
-    {
-      "english": "DIY",
-      "translation": "сделай сам"
-    },
-    {
-      "english": "activity",
-      "translation": "активность"
-    },
-    {
-      "english": "experience",
-      "translation": "опыт"
-    },
-    {
-      "english": "craft",
-      "translation": "рукоделие"
-    }
+    { "original": "hobby", "english": "Her hobby brings joy.", "translation": "Её хобби приносит радость." },
+    { "original": "interest", "english": "This interest feels inspiring.", "translation": "Этот интерес вдохновляет." },
+    { "original": "leisure", "english": "Leisure improves balance.", "translation": "Досуг улучшает баланс." },
+    { "original": "free time", "english": "Free time feels valuable.", "translation": "Свободное время ценно." },
+    { "original": "entertainment", "english": "Entertainment helps people relax.", "translation": "Развлечение помогает людям расслабиться." },
+    { "original": "fun", "english": "Fun creates happy moments.", "translation": "Веселье создаёт приятные моменты." },
+    { "original": "relaxation", "english": "Relaxation reduces tension.", "translation": "Расслабление снижает напряжение." },
+    { "original": "challenge", "english": "This challenge feels exciting.", "translation": "Этот вызов кажется захватывающим." },
+    { "original": "music", "english": "Music changes the mood.", "translation": "Музыка меняет настроение." },
+    { "original": "concert", "english": "The concert was amazing.", "translation": "Концерт был потрясающим." },
+    { "original": "playlist", "english": "She updated her playlist.", "translation": "Она обновила свой плейлист." },
+    { "original": "podcast", "english": "The podcast sounds interesting.", "translation": "Подкаст звучит интересно." },
+    { "original": "audiobook", "english": "The audiobook feels engaging.", "translation": "Аудиокнига увлекает." },
+    { "original": "movie", "english": "The movie was inspiring.", "translation": "Фильм был вдохновляющим." },
+    { "original": "series", "english": "The series looks promising.", "translation": "Сериал выглядит многообещающим." },
+    { "original": "streaming", "english": "Streaming makes access easy.", "translation": "Стриминг делает доступ простым." },
+    { "original": "episode", "english": "This episode was exciting.", "translation": "Этот эпизод был захватывающим." },
+    { "original": "genre", "english": "This genre suits me.", "translation": "Этот жанр мне подходит." },
+    { "original": "game", "english": "The game feels dynamic.", "translation": "Игра ощущается динамичной." },
+    { "original": "gaming", "english": "Gaming builds strategy skills.", "translation": "Гейминг развивает стратегические навыки." },
+    { "original": "console", "english": "The console works smoothly.", "translation": "Консоль работает стабильно." },
+    { "original": "multiplayer", "english": "Multiplayer mode feels interactive.", "translation": "Многопользовательский режим ощущается интерактивным." },
+    { "original": "strategy", "english": "Strategy requires careful planning.", "translation": "Стратегия требует тщательного планирования." },
+    { "original": "reading", "english": "Reading expands imagination.", "translation": "Чтение расширяет воображение." },
+    { "original": "writing", "english": "Writing develops creativity.", "translation": "Письмо развивает креативность." },
+    { "original": "blog", "english": "Her blog attracts readers.", "translation": "Её блог привлекает читателей." },
+    { "original": "photography", "english": "Photography captures memories.", "translation": "Фотография сохраняет воспоминания." },
+    { "original": "editing", "english": "Editing improves quality.", "translation": "Редактирование улучшает качество." },
+    { "original": "traveling", "english": "Traveling broadens perspectives.", "translation": "Путешествия расширяют кругозор." },
+    { "original": "adventure", "english": "Adventure brings new experiences.", "translation": "Приключение приносит новые впечатления." },
+    { "original": "exploration", "english": "Exploration feels exciting.", "translation": "Исследование ощущается захватывающим." },
+    { "original": "camping", "english": "Camping connects people with nature.", "translation": "Кемпинг соединяет людей с природой." },
+    { "original": "hiking", "english": "Hiking improves endurance.", "translation": "Походы улучшают выносливость." },
+    { "original": "creative", "english": "She enjoys creative projects.", "translation": "Ей нравятся творческие проекты." },
+    { "original": "collection", "english": "His collection keeps growing.", "translation": "Его коллекция продолжает расти." },
+    { "original": "design", "english": "Design shapes visual identity.", "translation": "Дизайн формирует визуальную идентичность." },
+    { "original": "DIY", "english": "DIY projects feel rewarding.", "translation": "Проекты «сделай сам» приносят удовлетворение." },
+    { "original": "activity", "english": "This activity feels refreshing.", "translation": "Эта активность ощущается освежающей." },
+    { "original": "experience", "english": "The experience feels meaningful.", "translation": "Этот опыт ощущается значимым." },
+    { "original": "craft", "english": "Craft improves fine skills.", "translation": "Рукоделие развивает мелкую моторику." }
   ]
 }

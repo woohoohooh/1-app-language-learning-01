@@ -3,185 +3,50 @@
   "level": "Upper-Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "startup",
-      "translation": "стартап"
-    },
-    {
-      "english": "founder",
-      "translation": "основатель"
-    },
-    {
-      "english": "co-founder",
-      "translation": "сооснователь"
-    },
-    {
-      "english": "entrepreneur",
-      "translation": "предприниматель"
-    },
-    {
-      "english": "vision",
-      "translation": "видение"
-    },
-    {
-      "english": "idea",
-      "translation": "идея"
-    },
-    {
-      "english": "concept",
-      "translation": "концепция"
-    },
-    {
-      "english": "problem",
-      "translation": "проблема"
-    },
-    {
-      "english": "solution",
-      "translation": "решение"
-    },
-    {
-      "english": "value",
-      "translation": "ценность"
-    },
-    {
-      "english": "market",
-      "translation": "рынок"
-    },
-    {
-      "english": "niche",
-      "translation": "ниша"
-    },
-    {
-      "english": "demand",
-      "translation": "спрос"
-    },
-    {
-      "english": "competition",
-      "translation": "конкуренция"
-    },
-    {
-      "english": "advantage",
-      "translation": "преимущество"
-    },
-    {
-      "english": "product",
-      "translation": "продукт"
-    },
-    {
-      "english": "service",
-      "translation": "сервис"
-    },
-    {
-      "english": "platform",
-      "translation": "платформа"
-    },
-    {
-      "english": "feature",
-      "translation": "функция"
-    },
-    {
-      "english": "roadmap",
-      "translation": "дорожная карта"
-    },
-    {
-      "english": "launch",
-      "translation": "запуск"
-    },
-    {
-      "english": "growth",
-      "translation": "рост"
-    },
-    {
-      "english": "scaling",
-      "translation": "масштабирование"
-    },
-    {
-      "english": "pivot",
-      "translation": "смена стратегии"
-    },
-    {
-      "english": "revenue",
-      "translation": "выручка"
-    },
-    {
-      "english": "profit",
-      "translation": "прибыль"
-    },
-    {
-      "english": "pricing",
-      "translation": "ценообразование"
-    },
-    {
-      "english": "monetization",
-      "translation": "монетизация"
-    },
-    {
-      "english": "subscription",
-      "translation": "подписка"
-    },
-    {
-      "english": "investment",
-      "translation": "инвестиции"
-    },
-    {
-      "english": "investor",
-      "translation": "инвестор"
-    },
-    {
-      "english": "funding",
-      "translation": "финансирование"
-    },
-    {
-      "english": "valuation",
-      "translation": "оценка компании"
-    },
-    {
-      "english": "equity",
-      "translation": "доля"
-    },
-    {
-      "english": "pitch",
-      "translation": "питч"
-    },
-    {
-      "english": "deck",
-      "translation": "презентация"
-    },
-    {
-      "english": "metrics",
-      "translation": "метрики"
-    },
-    {
-      "english": "KPIs",
-      "translation": "ключевые показатели"
-    },
-    {
-      "english": "feedback",
-      "translation": "обратная связь"
-    },
-    {
-      "english": "risk",
-      "translation": "риск"
-    },
-    {
-      "english": "failure",
-      "translation": "провал"
-    },
-    {
-      "english": "opportunity",
-      "translation": "возможность"
-    },
-    {
-      "english": "decision",
-      "translation": "решение"
-    },
-    {
-      "english": "strategy",
-      "translation": "стратегия"
-    },
-    {
-      "english": "traction",
-      "translation": "рост интереса"
-    }
+    { "original": "startup", "english": "The startup gained traction quickly.", "translation": "Стартап быстро набрал обороты." },
+    { "original": "founder", "english": "The founder shared bold plans.", "translation": "Основатель поделился смелыми планами." },
+    { "original": "co-founder", "english": "Her co-founder strengthened strategy.", "translation": "Её сооснователь усилил стратегию." },
+    { "original": "entrepreneur", "english": "The entrepreneur embraced uncertainty.", "translation": "Предприниматель принял неопределённость." },
+    { "original": "vision", "english": "Their vision shaped direction.", "translation": "Их видение задало направление." },
+    { "original": "idea", "english": "The idea sparked momentum.", "translation": "Идея запустила импульс." },
+    { "original": "concept", "english": "The concept attracted attention.", "translation": "Концепция привлекла внимание." },
+    { "original": "problem", "english": "The problem inspired innovation.", "translation": "Проблема вдохновила на инновации." },
+    { "original": "solution", "english": "The solution delivered value.", "translation": "Решение принесло ценность." },
+    { "original": "value", "english": "Value drives customer loyalty.", "translation": "Ценность формирует лояльность клиентов." },
+    { "original": "market", "english": "The market responded positively.", "translation": "Рынок отреагировал положительно." },
+    { "original": "niche", "english": "The niche expanded steadily.", "translation": "Ниша стабильно расширялась." },
+    { "original": "demand", "english": "Demand grew organically.", "translation": "Спрос рос естественно." },
+    { "original": "competition", "english": "Competition encouraged differentiation.", "translation": "Конкуренция подтолкнула к отличию." },
+    { "original": "advantage", "english": "This advantage strengthened position.", "translation": "Это преимущество усилило позицию." },
+    { "original": "product", "english": "The product evolved rapidly.", "translation": "Продукт быстро развивался." },
+    { "original": "service", "english": "The service exceeded expectations.", "translation": "Сервис превзошёл ожидания." },
+    { "original": "platform", "english": "The platform scaled efficiently.", "translation": "Платформа эффективно масштабировалась." },
+    { "original": "feature", "english": "The feature improved usability.", "translation": "Функция улучшила удобство." },
+    { "original": "roadmap", "english": "The roadmap clarified priorities.", "translation": "Дорожная карта прояснила приоритеты." },
+    { "original": "launch", "english": "The launch attracted investors.", "translation": "Запуск привлёк инвесторов." },
+    { "original": "growth", "english": "Growth accelerated this quarter.", "translation": "Рост ускорился в этом квартале." },
+    { "original": "scaling", "english": "Scaling opened global markets.", "translation": "Масштабирование открыло глобальные рынки." },
+    { "original": "pivot", "english": "The pivot unlocked potential.", "translation": "Смена стратегии раскрыла потенциал." },
+    { "original": "revenue", "english": "Revenue increased steadily.", "translation": "Выручка стабильно росла." },
+    { "original": "profit", "english": "Profit reached new heights.", "translation": "Прибыль достигла новых высот." },
+    { "original": "pricing", "english": "Pricing reflected market value.", "translation": "Ценообразование отражало рыночную ценность." },
+    { "original": "monetization", "english": "Monetization strengthened sustainability.", "translation": "Монетизация усилила устойчивость." },
+    { "original": "subscription", "english": "Subscriptions boosted retention.", "translation": "Подписка повысила удержание клиентов." },
+    { "original": "investment", "english": "Investment fueled expansion.", "translation": "Инвестиции ускорили расширение." },
+    { "original": "investor", "english": "The investor expressed confidence.", "translation": "Инвестор выразил уверенность." },
+    { "original": "funding", "english": "Funding secured future plans.", "translation": "Финансирование обеспечило будущие планы." },
+    { "original": "valuation", "english": "Valuation reflected strong performance.", "translation": "Оценка компании отразила сильные результаты." },
+    { "original": "equity", "english": "Equity aligned long-term interests.", "translation": "Доля согласовала долгосрочные интересы." },
+    { "original": "pitch", "english": "The pitch captured attention.", "translation": "Питч привлёк внимание." },
+    { "original": "deck", "english": "The deck presented clear metrics.", "translation": "Презентация показала чёткие метрики." },
+    { "original": "metrics", "english": "Metrics revealed progress.", "translation": "Метрики показали прогресс." },
+    { "original": "KPIs", "english": "KPIs tracked performance closely.", "translation": "Ключевые показатели внимательно отслеживали результативность." },
+    { "original": "feedback", "english": "Feedback shaped improvements.", "translation": "Обратная связь сформировала улучшения." },
+    { "original": "risk", "english": "Risk encouraged bold decisions.", "translation": "Риск подтолкнул к смелым решениям." },
+    { "original": "failure", "english": "Failure strengthened resilience.", "translation": "Провал укрепил устойчивость." },
+    { "original": "opportunity", "english": "Opportunity changed trajectory.", "translation": "Возможность изменила траекторию." },
+    { "original": "decision", "english": "The decision shaped growth.", "translation": "Решение определило рост." },
+    { "original": "strategy", "english": "Strategy guided expansion.", "translation": "Стратегия направила расширение." },
+    { "original": "traction", "english": "Traction attracted new partners.", "translation": "Рост интереса привлёк новых партнёров." }
   ]
 }

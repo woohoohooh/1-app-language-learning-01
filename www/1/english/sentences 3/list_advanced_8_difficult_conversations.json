@@ -3,145 +3,40 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "conflict",
-      "translation": "конфликт"
-    },
-    {
-      "english": "tension",
-      "translation": "напряжение"
-    },
-    {
-      "english": "disagreement",
-      "translation": "разногласие"
-    },
-    {
-      "english": "confrontation",
-      "translation": "противостояние"
-    },
-    {
-      "english": "clash",
-      "translation": "столкновение"
-    },
-    {
-      "english": "misunderstanding",
-      "translation": "недопонимание"
-    },
-    {
-      "english": "sensitivity",
-      "translation": "чувствительность темы"
-    },
-    {
-      "english": "discomfort",
-      "translation": "дискомфорт"
-    },
-    {
-      "english": "awkwardness",
-      "translation": "неловкость"
-    },
-    {
-      "english": "pressure",
-      "translation": "давление"
-    },
-    {
-      "english": "criticism",
-      "translation": "критика"
-    },
-    {
-      "english": "complaint",
-      "translation": "жалоба"
-    },
-    {
-      "english": "accusation",
-      "translation": "обвинение"
-    },
-    {
-      "english": "blame",
-      "translation": "вина"
-    },
-    {
-      "english": "responsibility",
-      "translation": "ответственность"
-    },
-    {
-      "english": "boundaries",
-      "translation": "границы"
-    },
-    {
-      "english": "expectations",
-      "translation": "ожидания"
-    },
-    {
-      "english": "demands",
-      "translation": "требования"
-    },
-    {
-      "english": "objections",
-      "translation": "возражения"
-    },
-    {
-      "english": "concerns",
-      "translation": "опасения"
-    },
-    {
-      "english": "compromise",
-      "translation": "компромисс"
-    },
-    {
-      "english": "resolution",
-      "translation": "урегулирование"
-    },
-    {
-      "english": "negotiation",
-      "translation": "переговоры"
-    },
-    {
-      "english": "mediation",
-      "translation": "посредничество"
-    },
-    {
-      "english": "agreement",
-      "translation": "соглашение"
-    },
-    {
-      "english": "assertiveness",
-      "translation": "уверенная позиция"
-    },
-    {
-      "english": "defensiveness",
-      "translation": "оборонительная реакция"
-    },
-    {
-      "english": "openness",
-      "translation": "открытость"
-    },
-    {
-      "english": "empathy",
-      "translation": "эмпатия"
-    },
-    {
-      "english": "respect",
-      "translation": "уважение"
-    },
-    {
-      "english": "escalation",
-      "translation": "обострение"
-    },
-    {
-      "english": "de-escalation",
-      "translation": "снижение напряжения"
-    },
-    {
-      "english": "consequences",
-      "translation": "последствия"
-    },
-    {
-      "english": "outcome",
-      "translation": "итог"
-    },
-    {
-      "english": "closure",
-      "translation": "завершение"
-    }
+    { "original": "conflict", "english": "The conflict required dialogue.", "translation": "Конфликт потребовал диалога." },
+    { "original": "tension", "english": "Tension filled the room.", "translation": "Напряжение заполнило комнату." },
+    { "original": "disagreement", "english": "We handled the disagreement calmly.", "translation": "Мы спокойно справились с разногласием." },
+    { "original": "confrontation", "english": "The confrontation stayed respectful.", "translation": "Противостояние оставалось уважительным." },
+    { "original": "clash", "english": "Their clash revealed differences.", "translation": "Их столкновение выявило различия." },
+    { "original": "misunderstanding", "english": "It was a misunderstanding.", "translation": "Это было недопонимание." },
+    { "original": "sensitivity", "english": "The topic requires sensitivity.", "translation": "Тема требует деликатности." },
+    { "original": "discomfort", "english": "There was slight discomfort.", "translation": "Был небольшой дискомфорт." },
+    { "original": "awkwardness", "english": "Awkwardness faded quickly.", "translation": "Неловкость быстро исчезла." },
+    { "original": "pressure", "english": "They felt external pressure.", "translation": "Они чувствовали внешнее давление." },
+    { "original": "criticism", "english": "Constructive criticism improved trust.", "translation": "Конструктивная критика укрепила доверие." },
+    { "original": "complaint", "english": "She voiced a complaint.", "translation": "Она озвучила жалобу." },
+    { "original": "accusation", "english": "The accusation sparked discussion.", "translation": "Обвинение вызвало обсуждение." },
+    { "original": "blame", "english": "Avoid assigning blame quickly.", "translation": "Не стоит сразу перекладывать вину." },
+    { "original": "responsibility", "english": "He accepted responsibility openly.", "translation": "Он открыто принял ответственность." },
+    { "original": "boundaries", "english": "We clarified our boundaries.", "translation": "Мы прояснили наши границы." },
+    { "original": "expectations", "english": "Clear expectations prevent conflict.", "translation": "Чёткие ожидания предотвращают конфликты." },
+    { "original": "demands", "english": "The demands seemed reasonable.", "translation": "Требования казались разумными." },
+    { "original": "objections", "english": "They addressed the objections.", "translation": "Они рассмотрели возражения." },
+    { "original": "concerns", "english": "She shared her concerns.", "translation": "Она поделилась своими опасениями." },
+    { "original": "compromise", "english": "They reached a compromise.", "translation": "Они пришли к компромиссу." },
+    { "original": "resolution", "english": "The resolution strengthened trust.", "translation": "Урегулирование укрепило доверие." },
+    { "original": "negotiation", "english": "The negotiation remained constructive.", "translation": "Переговоры оставались конструктивными." },
+    { "original": "mediation", "english": "Mediation helped both sides.", "translation": "Посредничество помогло обеим сторонам." },
+    { "original": "agreement", "english": "They signed an agreement.", "translation": "Они подписали соглашение." },
+    { "original": "assertiveness", "english": "Assertiveness improved communication.", "translation": "Уверенная позиция улучшила коммуникацию." },
+    { "original": "defensiveness", "english": "Defensiveness slowed progress.", "translation": "Оборонительная реакция замедлила прогресс." },
+    { "original": "openness", "english": "Openness created understanding.", "translation": "Открытость создала понимание." },
+    { "original": "empathy", "english": "Empathy builds connection.", "translation": "Эмпатия укрепляет связь." },
+    { "original": "respect", "english": "Respect guides tough conversations.", "translation": "Уважение направляет сложные разговоры." },
+    { "original": "escalation", "english": "Escalation increased tension.", "translation": "Обострение усилило напряжение." },
+    { "original": "de-escalation", "english": "De-escalation restored balance.", "translation": "Снижение напряжения восстановило баланс." },
+    { "original": "consequences", "english": "Actions have consequences.", "translation": "Действия имеют последствия." },
+    { "original": "outcome", "english": "The outcome surprised everyone.", "translation": "Итог удивил всех." },
+    { "original": "closure", "english": "The conversation brought closure.", "translation": "Разговор принёс завершение." }
   ]
 }

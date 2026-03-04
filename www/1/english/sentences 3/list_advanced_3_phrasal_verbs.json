@@ -3,145 +3,40 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "carry out",
-      "translation": "выполнять"
-    },
-    {
-      "english": "figure out",
-      "translation": "понять"
-    },
-    {
-      "english": "point out",
-      "translation": "указывать"
-    },
-    {
-      "english": "back up",
-      "translation": "подтверждать"
-    },
-    {
-      "english": "set up",
-      "translation": "организовывать"
-    },
-    {
-      "english": "break down",
-      "translation": "разбирать"
-    },
-    {
-      "english": "follow up",
-      "translation": "доводить до конца"
-    },
-    {
-      "english": "bring up",
-      "translation": "поднимать тему"
-    },
-    {
-      "english": "cut back",
-      "translation": "сокращать"
-    },
-    {
-      "english": "rule out",
-      "translation": "исключать"
-    },
-    {
-      "english": "deal with",
-      "translation": "иметь дело с"
-    },
-    {
-      "english": "run into",
-      "translation": "сталкиваться с"
-    },
-    {
-      "english": "come up with",
-      "translation": "придумывать"
-    },
-    {
-      "english": "step down",
-      "translation": "уходить с должности"
-    },
-    {
-      "english": "take over",
-      "translation": "брать на себя управление"
-    },
-    {
-      "english": "hold back",
-      "translation": "сдерживать"
-    },
-    {
-      "english": "push back",
-      "translation": "возражать"
-    },
-    {
-      "english": "phase out",
-      "translation": "постепенно выводить"
-    },
-    {
-      "english": "opt out",
-      "translation": "отказываться от участия"
-    },
-    {
-      "english": "wind down",
-      "translation": "сворачивать"
-    },
-    {
-      "english": "lay off",
-      "translation": "увольнять"
-    },
-    {
-      "english": "take on",
-      "translation": "браться за"
-    },
-    {
-      "english": "hand over",
-      "translation": "передавать"
-    },
-    {
-      "english": "turn down",
-      "translation": "отклонять"
-    },
-    {
-      "english": "work out",
-      "translation": "получиться"
-    },
-    {
-      "english": "sort out",
-      "translation": "разобраться"
-    },
-    {
-      "english": "step up",
-      "translation": "активизироваться"
-    },
-    {
-      "english": "slow down",
-      "translation": "замедляться"
-    },
-    {
-      "english": "move forward",
-      "translation": "двигаться дальше"
-    },
-    {
-      "english": "fall apart",
-      "translation": "разваливаться"
-    },
-    {
-      "english": "stick to",
-      "translation": "придерживаться"
-    },
-    {
-      "english": "give up",
-      "translation": "сдаваться"
-    },
-    {
-      "english": "pull off",
-      "translation": "успешно осуществить"
-    },
-    {
-      "english": "check out",
-      "translation": "проверять"
-    },
-    {
-      "english": "look into",
-      "translation": "изучать"
-    }
+    { "original": "carry out", "english": "They carried out the plan.", "translation": "Они выполнили план." },
+    { "original": "figure out", "english": "She figured out the solution.", "translation": "Она поняла решение." },
+    { "original": "point out", "english": "He pointed out a mistake.", "translation": "Он указал на ошибку." },
+    { "original": "back up", "english": "Data backed up the claim.", "translation": "Данные подтвердили утверждение." },
+    { "original": "set up", "english": "They set up the meeting.", "translation": "Они организовали встречу." },
+    { "original": "break down", "english": "She broke down the process.", "translation": "Она разобрала процесс." },
+    { "original": "follow up", "english": "I will follow up tomorrow.", "translation": "Я доведу это до конца завтра." },
+    { "original": "bring up", "english": "He brought up the issue.", "translation": "Он поднял тему проблемы." },
+    { "original": "cut back", "english": "They cut back expenses.", "translation": "Они сократили расходы." },
+    { "original": "rule out", "english": "We ruled out alternatives.", "translation": "Мы исключили альтернативы." },
+    { "original": "deal with", "english": "She dealt with clients.", "translation": "Она имела дело с клиентами." },
+    { "original": "run into", "english": "They ran into difficulties.", "translation": "Они столкнулись с трудностями." },
+    { "original": "come up with", "english": "He came up with ideas.", "translation": "Он придумал идеи." },
+    { "original": "step down", "english": "The CEO stepped down.", "translation": "Генеральный директор ушёл с должности." },
+    { "original": "take over", "english": "She took over leadership.", "translation": "Она взяла на себя управление." },
+    { "original": "hold back", "english": "He held back emotions.", "translation": "Он сдержал эмоции." },
+    { "original": "push back", "english": "They pushed back gently.", "translation": "Они мягко возразили." },
+    { "original": "phase out", "english": "They phased out old systems.", "translation": "Они постепенно вывели старые системы." },
+    { "original": "opt out", "english": "She opted out voluntarily.", "translation": "Она добровольно отказалась от участия." },
+    { "original": "wind down", "english": "They wound down operations.", "translation": "Они свернули деятельность." },
+    { "original": "lay off", "english": "The company laid off staff.", "translation": "Компания уволила сотрудников." },
+    { "original": "take on", "english": "She took on responsibility.", "translation": "Она взялась за ответственность." },
+    { "original": "hand over", "english": "He handed over documents.", "translation": "Он передал документы." },
+    { "original": "turn down", "english": "She turned down the offer.", "translation": "Она отклонила предложение." },
+    { "original": "work out", "english": "Everything worked out well.", "translation": "Всё хорошо получилось." },
+    { "original": "sort out", "english": "We sorted out details.", "translation": "Мы разобрались с деталями." },
+    { "original": "step up", "english": "She stepped up confidently.", "translation": "Она активно включилась." },
+    { "original": "slow down", "english": "The process slowed down.", "translation": "Процесс замедлился." },
+    { "original": "move forward", "english": "We moved forward together.", "translation": "Мы двигались дальше вместе." },
+    { "original": "fall apart", "english": "The plan fell apart.", "translation": "План развалился." },
+    { "original": "stick to", "english": "They stuck to strategy.", "translation": "Они придерживались стратегии." },
+    { "original": "give up", "english": "He never gave up.", "translation": "Он никогда не сдавался." },
+    { "original": "pull off", "english": "They pulled off success.", "translation": "Им удалось успешно осуществить задуманное." },
+    { "original": "check out", "english": "She checked out options.", "translation": "Она проверила варианты." },
+    { "original": "look into", "english": "They looked into the issue.", "translation": "Они изучили проблему." }
   ]
 }

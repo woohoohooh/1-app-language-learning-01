@@ -3,145 +3,40 @@
   "level": "Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "social media",
-      "translation": "социальные сети"
-    },
-    {
-      "english": "platform",
-      "translation": "платформа"
-    },
-    {
-      "english": "profile",
-      "translation": "профиль"
-    },
-    {
-      "english": "account",
-      "translation": "аккаунт"
-    },
-    {
-      "english": "username",
-      "translation": "имя пользователя"
-    },
-    {
-      "english": "story",
-      "translation": "история"
-    },
-    {
-      "english": "feed",
-      "translation": "лента"
-    },
-    {
-      "english": "content",
-      "translation": "контент"
-    },
-    {
-      "english": "upload",
-      "translation": "загружать"
-    },
-    {
-      "english": "comment",
-      "translation": "комментарий"
-    },
-    {
-      "english": "reply",
-      "translation": "ответ"
-    },
-    {
-      "english": "message",
-      "translation": "сообщение"
-    },
-    {
-      "english": "chat",
-      "translation": "чат"
-    },
-    {
-      "english": "notification",
-      "translation": "уведомление"
-    },
-    {
-      "english": "like",
-      "translation": "лайк"
-    },
-    {
-      "english": "reaction",
-      "translation": "реакция"
-    },
-    {
-      "english": "post",
-      "translation": "пост"
-    },
-    {
-      "english": "share",
-      "translation": "делиться"
-    },
-    {
-      "english": "report",
-      "translation": "жалоба"
-    },
-    {
-      "english": "repost",
-      "translation": "репост"
-    },
-    {
-      "english": "save",
-      "translation": "сохранять"
-    },
-    {
-      "english": "follower",
-      "translation": "подписчик"
-    },
-    {
-      "english": "following",
-      "translation": "подписки"
-    },
-    {
-      "english": "subscribe",
-      "translation": "подписываться"
-    },
-    {
-      "english": "unsubscribe",
-      "translation": "отписываться"
-    },
-    {
-      "english": "block",
-      "translation": "блокировать"
-    },
-    {
-      "english": "online",
-      "translation": "в сети"
-    },
-    {
-      "english": "offline",
-      "translation": "не в сети"
-    },
-    {
-      "english": "status",
-      "translation": "статус"
-    },
-    {
-      "english": "privacy",
-      "translation": "приватность"
-    },
-    {
-      "english": "settings",
-      "translation": "настройки"
-    },
-    {
-      "english": "trend",
-      "translation": "тренд"
-    },
-    {
-      "english": "viral",
-      "translation": "вирусный"
-    },
-    {
-      "english": "community",
-      "translation": "сообщество"
-    },
-    {
-      "english": "moderation",
-      "translation": "модерация"
-    }
+    { "original": "social media", "english": "Social media connects people.", "translation": "Социальные сети соединяют людей." },
+    { "original": "platform", "english": "The platform supports creators.", "translation": "Платформа поддерживает создателей." },
+    { "original": "profile", "english": "Her profile looks professional.", "translation": "Её профиль выглядит профессионально." },
+    { "original": "account", "english": "He created a new account.", "translation": "Он создал новый аккаунт." },
+    { "original": "username", "english": "She chose a unique username.", "translation": "Она выбрала уникальное имя пользователя." },
+    { "original": "story", "english": "She posted a story.", "translation": "Она опубликовала историю." },
+    { "original": "feed", "english": "My feed looks interesting.", "translation": "Моя лента выглядит интересной." },
+    { "original": "content", "english": "The content attracts followers.", "translation": "Контент привлекает подписчиков." },
+    { "original": "upload", "english": "She uploaded new photos.", "translation": "Она загрузила новые фотографии." },
+    { "original": "comment", "english": "He left a comment.", "translation": "Он оставил комментарий." },
+    { "original": "reply", "english": "She wrote a reply.", "translation": "Она написала ответ." },
+    { "original": "message", "english": "I received a message.", "translation": "Я получил сообщение." },
+    { "original": "chat", "english": "We started a chat.", "translation": "Мы начали чат." },
+    { "original": "notification", "english": "I saw a notification.", "translation": "Я увидел уведомление." },
+    { "original": "like", "english": "She gave a like.", "translation": "Она поставила лайк." },
+    { "original": "reaction", "english": "He added a reaction.", "translation": "Он добавил реакцию." },
+    { "original": "post", "english": "She shared a post.", "translation": "Она поделилась постом." },
+    { "original": "share", "english": "They shared useful tips.", "translation": "Они поделились полезными советами." },
+    { "original": "report", "english": "She sent a report.", "translation": "Она отправила жалобу." },
+    { "original": "repost", "english": "He made a repost.", "translation": "Он сделал репост." },
+    { "original": "save", "english": "She saved the post.", "translation": "Она сохранила пост." },
+    { "original": "follower", "english": "She gained a follower.", "translation": "Она получила подписчика." },
+    { "original": "following", "english": "Her following keeps growing.", "translation": "Её подписки продолжают расти." },
+    { "original": "subscribe", "english": "Many users subscribe daily.", "translation": "Многие пользователи подписываются ежедневно." },
+    { "original": "unsubscribe", "english": "He chose to unsubscribe.", "translation": "Он решил отписаться." },
+    { "original": "block", "english": "She blocked the account.", "translation": "Она заблокировала аккаунт." },
+    { "original": "online", "english": "She is online now.", "translation": "Она сейчас в сети." },
+    { "original": "offline", "english": "He is offline now.", "translation": "Он сейчас не в сети." },
+    { "original": "status", "english": "She updated her status.", "translation": "Она обновила свой статус." },
+    { "original": "privacy", "english": "Privacy is very important.", "translation": "Приватность очень важна." },
+    { "original": "settings", "english": "Check your settings carefully.", "translation": "Проверьте свои настройки внимательно." },
+    { "original": "trend", "english": "This trend looks popular.", "translation": "Этот тренд выглядит популярным." },
+    { "original": "viral", "english": "The video went viral.", "translation": "Видео стало вирусным." },
+    { "original": "community", "english": "The community feels supportive.", "translation": "Сообщество ощущается поддерживающим." },
+    { "original": "moderation", "english": "Moderation keeps balance.", "translation": "Модерация поддерживает баланс." }
   ]
 }

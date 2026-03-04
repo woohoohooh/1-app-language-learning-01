@@ -3,121 +3,34 @@
   "level": "Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "education",
-      "translation": "образование"
-    },
-    {
-      "english": "learning",
-      "translation": "обучение"
-    },
-    {
-      "english": "knowledge",
-      "translation": "знания"
-    },
-    {
-      "english": "skill",
-      "translation": "навык"
-    },
-    {
-      "english": "student",
-      "translation": "студент"
-    },
-    {
-      "english": "instructor",
-      "translation": "инструктор"
-    },
-    {
-      "english": "mentor",
-      "translation": "наставник"
-    },
-    {
-      "english": "classmate",
-      "translation": "одногруппник"
-    },
-    {
-      "english": "course",
-      "translation": "курс"
-    },
-    {
-      "english": "lesson",
-      "translation": "урок"
-    },
-    {
-      "english": "lecture",
-      "translation": "лекция"
-    },
-    {
-      "english": "practice",
-      "translation": "практика"
-    },
-    {
-      "english": "assignment",
-      "translation": "задание"
-    },
-    {
-      "english": "homework",
-      "translation": "домашнее задание"
-    },
-    {
-      "english": "exam",
-      "translation": "экзамен"
-    },
-    {
-      "english": "test",
-      "translation": "тест"
-    },
-    {
-      "english": "grade",
-      "translation": "оценка"
-    },
-    {
-      "english": "certificate",
-      "translation": "сертификат"
-    },
-    {
-      "english": "qualification",
-      "translation": "квалификация"
-    },
-    {
-      "english": "progress",
-      "translation": "прогресс"
-    },
-    {
-      "english": "result",
-      "translation": "результат"
-    },
-    {
-      "english": "online course",
-      "translation": "онлайн-курс"
-    },
-    {
-      "english": "platform",
-      "translation": "платформа"
-    },
-    {
-      "english": "material",
-      "translation": "учебный материал"
-    },
-    {
-      "english": "resource",
-      "translation": "ресурс"
-    },
-    {
-      "english": "schedule",
-      "translation": "расписание"
-    },
-    {
-      "english": "deadline",
-      "translation": "дедлайн"
-    },
-    {
-      "english": "feedback",
-      "translation": "обратная связь"
-    },
-    {
-      "english": "improvement",
-      "translation": "улучшение"
-    }
+    { "original": "education", "english": "Education opens many opportunities.", "translation": "Образование открывает многие возможности." },
+    { "original": "learning", "english": "Learning takes time and effort.", "translation": "Обучение требует времени и усилий." },
+    { "original": "knowledge", "english": "Knowledge builds confidence.", "translation": "Знания формируют уверенность." },
+    { "original": "skill", "english": "This skill is valuable.", "translation": "Этот навык ценен." },
+    { "original": "student", "english": "The student studies regularly.", "translation": "Студент занимается регулярно." },
+    { "original": "instructor", "english": "The instructor explains clearly.", "translation": "Инструктор объясняет ясно." },
+    { "original": "mentor", "english": "A mentor shares experience.", "translation": "Наставник делится опытом." },
+    { "original": "classmate", "english": "My classmate is supportive.", "translation": "Мой одногруппник поддерживает." },
+    { "original": "course", "english": "The course looks practical.", "translation": "Курс выглядит практичным." },
+    { "original": "lesson", "english": "The lesson was useful.", "translation": "Урок был полезным." },
+    { "original": "lecture", "english": "The lecture was informative.", "translation": "Лекция была информативной." },
+    { "original": "practice", "english": "Practice improves results.", "translation": "Практика улучшает результаты." },
+    { "original": "assignment", "english": "The assignment seems interesting.", "translation": "Задание кажется интересным." },
+    { "original": "homework", "english": "She completed her homework.", "translation": "Она выполнила домашнее задание." },
+    { "original": "exam", "english": "The exam went well.", "translation": "Экзамен прошёл хорошо." },
+    { "original": "test", "english": "The test was manageable.", "translation": "Тест был выполнимым." },
+    { "original": "grade", "english": "She received a good grade.", "translation": "Она получила хорошую оценку." },
+    { "original": "certificate", "english": "He earned a certificate.", "translation": "Он получил сертификат." },
+    { "original": "qualification", "english": "This qualification is recognized.", "translation": "Эта квалификация признана." },
+    { "original": "progress", "english": "Her progress is visible.", "translation": "Её прогресс заметен." },
+    { "original": "result", "english": "The result looks promising.", "translation": "Результат выглядит многообещающим." },
+    { "original": "online course", "english": "The online course is flexible.", "translation": "Онлайн-курс гибкий." },
+    { "original": "platform", "english": "The platform provides tools.", "translation": "Платформа предоставляет инструменты." },
+    { "original": "material", "english": "The material is clear.", "translation": "Учебный материал понятный." },
+    { "original": "resource", "english": "This resource is helpful.", "translation": "Этот ресурс полезен." },
+    { "original": "schedule", "english": "The schedule looks organized.", "translation": "Расписание выглядит организованным." },
+    { "original": "deadline", "english": "The deadline is tomorrow.", "translation": "Дедлайн завтра." },
+    { "original": "feedback", "english": "She received helpful feedback.", "translation": "Она получила полезную обратную связь." },
+    { "original": "improvement", "english": "Improvement takes consistent practice.", "translation": "Улучшение требует регулярной практики." }
   ]
 }

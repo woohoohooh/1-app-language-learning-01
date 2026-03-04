@@ -3,185 +3,50 @@
   "level": "Upper-Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "approach",
-      "translation": "подход"
-    },
-    {
-      "english": "impact",
-      "translation": "влияние"
-    },
-    {
-      "english": "context",
-      "translation": "контекст"
-    },
-    {
-      "english": "strategy",
-      "translation": "стратегия"
-    },
-    {
-      "english": "objective",
-      "translation": "цель"
-    },
-    {
-      "english": "priority",
-      "translation": "приоритет"
-    },
-    {
-      "english": "resource",
-      "translation": "ресурс"
-    },
-    {
-      "english": "constraint",
-      "translation": "ограничение"
-    },
-    {
-      "english": "assumption",
-      "translation": "предположение"
-    },
-    {
-      "english": "evidence",
-      "translation": "доказательство"
-    },
-    {
-      "english": "analysis",
-      "translation": "анализ"
-    },
-    {
-      "english": "perspective",
-      "translation": "точка зрения"
-    },
-    {
-      "english": "factor",
-      "translation": "фактор"
-    },
-    {
-      "english": "trend",
-      "translation": "тенденция"
-    },
-    {
-      "english": "pattern",
-      "translation": "закономерность"
-    },
-    {
-      "english": "scenario",
-      "translation": "сценарий"
-    },
-    {
-      "english": "stakeholder",
-      "translation": "заинтересованная сторона"
-    },
-    {
-      "english": "alignment",
-      "translation": "согласованность"
-    },
-    {
-      "english": "execution",
-      "translation": "реализация"
-    },
-    {
-      "english": "implementation",
-      "translation": "внедрение"
-    },
-    {
-      "english": "optimization",
-      "translation": "оптимизация"
-    },
-    {
-      "english": "efficiency",
-      "translation": "эффективность"
-    },
-    {
-      "english": "trade-off",
-      "translation": "компромисс"
-    },
-    {
-      "english": "limitation",
-      "translation": "ограничение"
-    },
-    {
-      "english": "dependency",
-      "translation": "зависимость"
-    },
-    {
-      "english": "complexity",
-      "translation": "сложность"
-    },
-    {
-      "english": "uncertainty",
-      "translation": "неопределенность"
-    },
-    {
-      "english": "risk",
-      "translation": "риск"
-    },
-    {
-      "english": "opportunity",
-      "translation": "возможность"
-    },
-    {
-      "english": "requirement",
-      "translation": "требование"
-    },
-    {
-      "english": "evaluation",
-      "translation": "оценка"
-    },
-    {
-      "english": "assessment",
-      "translation": "оценивание"
-    },
-    {
-      "english": "feedback",
-      "translation": "обратная связь"
-    },
-    {
-      "english": "adjustment",
-      "translation": "корректировка"
-    },
-    {
-      "english": "improvement",
-      "translation": "улучшение"
-    },
-    {
-      "english": "decision-making",
-      "translation": "принятие решений"
-    },
-    {
-      "english": "responsibility",
-      "translation": "ответственность"
-    },
-    {
-      "english": "commitment",
-      "translation": "обязательство"
-    },
-    {
-      "english": "accountability",
-      "translation": "подотчетность"
-    },
-    {
-      "english": "issue",
-      "translation": "проблема"
-    },
-    {
-      "english": "outcome",
-      "translation": "результат"
-    },
-    {
-      "english": "insight",
-      "translation": "понимание"
-    },
-    {
-      "english": "framework",
-      "translation": "структура"
-    },
-    {
-      "english": "challenge",
-      "translation": "вызов"
-    },
-    {
-      "english": "ownership",
-      "translation": "ответственность"
-    }
+    { "original": "approach", "english": "This approach brings clarity.", "translation": "Этот подход приносит ясность." },
+    { "original": "impact", "english": "The impact proved meaningful.", "translation": "Влияние оказалось значимым." },
+    { "original": "context", "english": "Context shapes interpretation.", "translation": "Контекст формирует интерпретацию." },
+    { "original": "strategy", "english": "Their strategy delivered results.", "translation": "Их стратегия принесла результаты." },
+    { "original": "objective", "english": "Our objective stays focused.", "translation": "Наша цель остаётся сфокусированной." },
+    { "original": "priority", "english": "Quality remains a priority.", "translation": "Качество остаётся приоритетом." },
+    { "original": "resource", "english": "Resources support innovation.", "translation": "Ресурсы поддерживают инновации." },
+    { "original": "constraint", "english": "Constraints encourage creativity.", "translation": "Ограничения стимулируют креативность." },
+    { "original": "assumption", "english": "That assumption sparked discussion.", "translation": "Это предположение вызвало обсуждение." },
+    { "original": "evidence", "english": "The evidence feels convincing.", "translation": "Доказательства выглядят убедительно." },
+    { "original": "analysis", "english": "Analysis uncovered new insights.", "translation": "Анализ открыл новые инсайты." },
+    { "original": "perspective", "english": "A fresh perspective emerged.", "translation": "Появилась новая точка зрения." },
+    { "original": "factor", "english": "Several factors influenced growth.", "translation": "Несколько факторов повлияли на рост." },
+    { "original": "trend", "english": "The trend signals change.", "translation": "Тенденция сигнализирует об изменениях." },
+    { "original": "pattern", "english": "Patterns became more visible.", "translation": "Закономерности стали более заметными." },
+    { "original": "scenario", "english": "Imagine a positive scenario.", "translation": "Представьте позитивный сценарий." },
+    { "original": "stakeholder", "english": "Stakeholders welcomed the update.", "translation": "Заинтересованные стороны приветствовали обновление." },
+    { "original": "alignment", "english": "Alignment strengthened partnerships.", "translation": "Согласованность укрепила партнёрство." },
+    { "original": "execution", "english": "Execution turned plans real.", "translation": "Реализация воплотила планы." },
+    { "original": "implementation", "english": "Implementation moved smoothly.", "translation": "Внедрение прошло гладко." },
+    { "original": "optimization", "english": "Optimization refined performance.", "translation": "Оптимизация улучшила результативность." },
+    { "original": "efficiency", "english": "Efficiency boosted output.", "translation": "Эффективность повысила результат." },
+    { "original": "trade-off", "english": "Every trade-off shapes direction.", "translation": "Каждый компромисс формирует направление." },
+    { "original": "limitation", "english": "Limitations define boundaries.", "translation": "Ограничения определяют границы." },
+    { "original": "dependency", "english": "Dependency highlighted collaboration.", "translation": "Зависимость подчеркнула сотрудничество." },
+    { "original": "complexity", "english": "Complexity inspires deeper thinking.", "translation": "Сложность вдохновляет на более глубокое мышление." },
+    { "original": "uncertainty", "english": "Uncertainty invites exploration.", "translation": "Неопределённость приглашает к исследованию." },
+    { "original": "risk", "english": "Risk opens new paths.", "translation": "Риск открывает новые пути." },
+    { "original": "opportunity", "english": "Opportunity changed everything.", "translation": "Возможность изменила всё." },
+    { "original": "requirement", "english": "Requirements guide development.", "translation": "Требования направляют развитие." },
+    { "original": "evaluation", "english": "Evaluation highlighted progress.", "translation": "Оценка подчеркнула прогресс." },
+    { "original": "assessment", "english": "Assessment revealed strengths.", "translation": "Оценивание выявило сильные стороны." },
+    { "original": "feedback", "english": "Feedback sparked improvement.", "translation": "Обратная связь запустила улучшение." },
+    { "original": "adjustment", "english": "Adjustment enhanced results.", "translation": "Корректировка улучшила результаты." },
+    { "original": "improvement", "english": "Improvement became measurable.", "translation": "Улучшение стало измеримым." },
+    { "original": "decision-making", "english": "Decision-making shaped outcomes.", "translation": "Принятие решений сформировало результаты." },
+    { "original": "responsibility", "english": "Responsibility builds confidence.", "translation": "Ответственность формирует уверенность." },
+    { "original": "commitment", "english": "Commitment fuels success.", "translation": "Обязательство подпитывает успех." },
+    { "original": "accountability", "english": "Accountability strengthened trust.", "translation": "Подотчётность укрепила доверие." },
+    { "original": "issue", "english": "The issue led improvements.", "translation": "Проблема привела к улучшениям." },
+    { "original": "outcome", "english": "The outcome impressed everyone.", "translation": "Результат впечатлил всех." },
+    { "original": "insight", "english": "Insight changed our direction.", "translation": "Понимание изменило наше направление." },
+    { "original": "framework", "english": "The framework supports decisions.", "translation": "Структура поддерживает решения." },
+    { "original": "challenge", "english": "Challenge motivates growth.", "translation": "Вызов мотивирует рост." },
+    { "original": "ownership", "english": "Ownership encourages initiative.", "translation": "Ответственность за зону поощряет инициативу." }
   ]
 }

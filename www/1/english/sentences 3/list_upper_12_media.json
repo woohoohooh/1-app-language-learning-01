@@ -3,165 +3,45 @@
   "level": "Upper-Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "news",
-      "translation": "новости"
-    },
-    {
-      "english": "media",
-      "translation": "медиа"
-    },
-    {
-      "english": "press",
-      "translation": "пресса"
-    },
-    {
-      "english": "journalism",
-      "translation": "журналистика"
-    },
-    {
-      "english": "headline",
-      "translation": "заголовок"
-    },
-    {
-      "english": "article",
-      "translation": "статья"
-    },
-    {
-      "english": "coverage",
-      "translation": "освещение"
-    },
-    {
-      "english": "broadcast",
-      "translation": "трансляция"
-    },
-    {
-      "english": "publication",
-      "translation": "публикация"
-    },
-    {
-      "english": "source",
-      "translation": "источник"
-    },
-    {
-      "english": "statement",
-      "translation": "заявление"
-    },
-    {
-      "english": "announcement",
-      "translation": "объявление"
-    },
-    {
-      "english": "update",
-      "translation": "обновление"
-    },
-    {
-      "english": "breaking news",
-      "translation": "срочные новости"
-    },
-    {
-      "english": "interview",
-      "translation": "интервью"
-    },
-    {
-      "english": "commentary",
-      "translation": "комментарий"
-    },
-    {
-      "english": "analysis",
-      "translation": "анализ"
-    },
-    {
-      "english": "opinion",
-      "translation": "мнение"
-    },
-    {
-      "english": "editorial",
-      "translation": "редакционная статья"
-    },
-    {
-      "english": "fact",
-      "translation": "факт"
-    },
-    {
-      "english": "claim",
-      "translation": "утверждение"
-    },
-    {
-      "english": "evidence",
-      "translation": "доказательство"
-    },
-    {
-      "english": "context",
-      "translation": "контекст"
-    },
-    {
-      "english": "background",
-      "translation": "предыстория"
-    },
-    {
-      "english": "bias",
-      "translation": "предвзятость"
-    },
-    {
-      "english": "misinformation",
-      "translation": "дезинформация"
-    },
-    {
-      "english": "disinformation",
-      "translation": "умышленная дезинформация"
-    },
-    {
-      "english": "fake news",
-      "translation": "фейковые новости"
-    },
-    {
-      "english": "trend",
-      "translation": "тренд"
-    },
-    {
-      "english": "public opinion",
-      "translation": "общественное мнение"
-    },
-    {
-      "english": "audience",
-      "translation": "аудитория"
-    },
-    {
-      "english": "reach",
-      "translation": "охват"
-    },
-    {
-      "english": "engagement",
-      "translation": "вовлечённость"
-    },
-    {
-      "english": "platform",
-      "translation": "платформа"
-    },
-    {
-      "english": "social media",
-      "translation": "социальные сети"
-    },
-    {
-      "english": "viral",
-      "translation": "вирусный"
-    },
-    {
-      "english": "feed",
-      "translation": "лента"
-    },
-    {
-      "english": "algorithm",
-      "translation": "алгоритм"
-    },
-    {
-      "english": "report",
-      "translation": "отчёт"
-    },
-    {
-      "english": "narrative",
-      "translation": "нарратив"
-    }
+    { "original": "news", "english": "News spreads rapidly online.", "translation": "Новости быстро распространяются онлайн." },
+    { "original": "media", "english": "Media shapes public perception.", "translation": "Медиа формируют общественное восприятие." },
+    { "original": "press", "english": "The press covered the event.", "translation": "Пресса осветила событие." },
+    { "original": "journalism", "english": "Journalism supports informed decisions.", "translation": "Журналистика поддерживает осознанные решения." },
+    { "original": "headline", "english": "The headline captured attention.", "translation": "Заголовок привлёк внимание." },
+    { "original": "article", "english": "The article explained key details.", "translation": "Статья объяснила ключевые детали." },
+    { "original": "coverage", "english": "Coverage increased public awareness.", "translation": "Освещение повысило общественную осведомлённость." },
+    { "original": "broadcast", "english": "The broadcast reached millions.", "translation": "Трансляция достигла миллионов." },
+    { "original": "publication", "english": "The publication gained credibility.", "translation": "Публикация получила доверие." },
+    { "original": "source", "english": "The source provided clarification.", "translation": "Источник предоставил разъяснение." },
+    { "original": "statement", "english": "The statement addressed concerns.", "translation": "Заявление затронуло важные вопросы." },
+    { "original": "announcement", "english": "The announcement attracted attention.", "translation": "Объявление привлекло внимание." },
+    { "original": "update", "english": "The update provided new insights.", "translation": "Обновление дало новые данные." },
+    { "original": "breaking news", "english": "Breaking news interrupted programming.", "translation": "Срочные новости прервали эфир." },
+    { "original": "interview", "english": "The interview revealed new perspectives.", "translation": "Интервью раскрыло новые точки зрения." },
+    { "original": "commentary", "english": "Commentary added expert analysis.", "translation": "Комментарий добавил экспертный анализ." },
+    { "original": "analysis", "english": "Analysis clarified complex issues.", "translation": "Анализ прояснил сложные вопросы." },
+    { "original": "opinion", "english": "Opinion reflected diverse viewpoints.", "translation": "Мнение отразило разные точки зрения." },
+    { "original": "editorial", "english": "The editorial expressed a position.", "translation": "Редакционная статья выразила позицию." },
+    { "original": "fact", "english": "Fact supported the argument.", "translation": "Факт поддержал аргумент." },
+    { "original": "claim", "english": "The claim required verification.", "translation": "Утверждение потребовало проверки." },
+    { "original": "evidence", "english": "Evidence strengthened credibility.", "translation": "Доказательства усилили доверие." },
+    { "original": "context", "english": "Context improved understanding.", "translation": "Контекст улучшил понимание." },
+    { "original": "background", "english": "Background explained the situation.", "translation": "Предыстория объяснила ситуацию." },
+    { "original": "bias", "english": "Bias influenced interpretation.", "translation": "Предвзятость повлияла на интерпретацию." },
+    { "original": "misinformation", "english": "Misinformation confused the audience.", "translation": "Дезинформация ввела аудиторию в заблуждение." },
+    { "original": "disinformation", "english": "Disinformation affected public debate.", "translation": "Умышленная дезинформация повлияла на общественную дискуссию." },
+    { "original": "fake news", "english": "Fake news reduced trust.", "translation": "Фейковые новости снизили доверие." },
+    { "original": "trend", "english": "The trend gained momentum.", "translation": "Тренд набрал популярность." },
+    { "original": "public opinion", "english": "Public opinion shifted gradually.", "translation": "Общественное мнение постепенно изменилось." },
+    { "original": "audience", "english": "The audience reacted actively.", "translation": "Аудитория активно отреагировала." },
+    { "original": "reach", "english": "Reach expanded across platforms.", "translation": "Охват расширился на разных платформах." },
+    { "original": "engagement", "english": "Engagement increased significantly.", "translation": "Вовлечённость значительно выросла." },
+    { "original": "platform", "english": "The platform supported distribution.", "translation": "Платформа поддержала распространение." },
+    { "original": "social media", "english": "Social media amplified discussion.", "translation": "Социальные сети усилили обсуждение." },
+    { "original": "viral", "english": "The story went viral.", "translation": "История стала вирусной." },
+    { "original": "feed", "english": "The feed updated continuously.", "translation": "Лента обновлялась непрерывно." },
+    { "original": "algorithm", "english": "Algorithm prioritized relevant content.", "translation": "Алгоритм приоритизировал релевантный контент." },
+    { "original": "report", "english": "The report summarized findings.", "translation": "Отчёт подытожил выводы." },
+    { "original": "narrative", "english": "The narrative shaped perception.", "translation": "Нарратив сформировал восприятие." }
   ]
 }

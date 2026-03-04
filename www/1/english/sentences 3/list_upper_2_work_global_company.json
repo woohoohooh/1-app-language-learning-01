@@ -3,185 +3,50 @@
   "level": "Upper-Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "organization",
-      "translation": "организация"
-    },
-    {
-      "english": "headquarters",
-      "translation": "штаб-квартира"
-    },
-    {
-      "english": "subsidiary",
-      "translation": "дочерняя компания"
-    },
-    {
-      "english": "department",
-      "translation": "отдел"
-    },
-    {
-      "english": "division",
-      "translation": "подразделение"
-    },
-    {
-      "english": "management",
-      "translation": "руководство"
-    },
-    {
-      "english": "leadership",
-      "translation": "лидерство"
-    },
-    {
-      "english": "supervisor",
-      "translation": "руководитель"
-    },
-    {
-      "english": "colleague",
-      "translation": "коллега"
-    },
-    {
-      "english": "counterpart",
-      "translation": "коллега"
-    },
-    {
-      "english": "stakeholder",
-      "translation": "заинтересованная сторона"
-    },
-    {
-      "english": "decision-maker",
-      "translation": "лицо, принимающее решения"
-    },
-    {
-      "english": "reporting",
-      "translation": "подотчетность"
-    },
-    {
-      "english": "alignment",
-      "translation": "согласованность"
-    },
-    {
-      "english": "coordination",
-      "translation": "координация"
-    },
-    {
-      "english": "process",
-      "translation": "процесс"
-    },
-    {
-      "english": "procedure",
-      "translation": "процедура"
-    },
-    {
-      "english": "workflow",
-      "translation": "рабочий процесс"
-    },
-    {
-      "english": "deliverable",
-      "translation": "результат работы"
-    },
-    {
-      "english": "milestone",
-      "translation": "этап"
-    },
-    {
-      "english": "deadline",
-      "translation": "крайний срок"
-    },
-    {
-      "english": "timeline",
-      "translation": "график"
-    },
-    {
-      "english": "workload",
-      "translation": "рабочая нагрузка"
-    },
-    {
-      "english": "availability",
-      "translation": "доступность"
-    },
-    {
-      "english": "meeting",
-      "translation": "встреча"
-    },
-    {
-      "english": "agenda",
-      "translation": "повестка"
-    },
-    {
-      "english": "minutes",
-      "translation": "протокол встречи"
-    },
-    {
-      "english": "follow-up",
-      "translation": "последующие действия"
-    },
-    {
-      "english": "action item",
-      "translation": "пункт к выполнению"
-    },
-    {
-      "english": "communication",
-      "translation": "коммуникация"
-    },
-    {
-      "english": "clarification",
-      "translation": "уточнение"
-    },
-    {
-      "english": "alignment call",
-      "translation": "созвон для синхронизации"
-    },
-    {
-      "english": "escalation",
-      "translation": "эскалация"
-    },
-    {
-      "english": "approval",
-      "translation": "утверждение"
-    },
-    {
-      "english": "responsibility",
-      "translation": "ответственность"
-    },
-    {
-      "english": "ownership",
-      "translation": "ответственность за зону"
-    },
-    {
-      "english": "accountability",
-      "translation": "подотчетность"
-    },
-    {
-      "english": "compliance",
-      "translation": "соответствие требованиям"
-    },
-    {
-      "english": "policy",
-      "translation": "политика компании"
-    },
-    {
-      "english": "performance",
-      "translation": "результативность"
-    },
-    {
-      "english": "evaluation",
-      "translation": "оценка"
-    },
-    {
-      "english": "feedback",
-      "translation": "обратная связь"
-    },
-    {
-      "english": "improvement",
-      "translation": "улучшение"
-    },
-    {
-      "english": "growth",
-      "translation": "рост"
-    },
-    {
-      "english": "capacity",
-      "translation": "загрузка"
-    }
+    { "original": "organization", "english": "The organization operates globally.", "translation": "Организация работает глобально." },
+    { "original": "headquarters", "english": "Headquarters expanded recently.", "translation": "Штаб-квартира недавно расширилась." },
+    { "original": "subsidiary", "english": "The subsidiary performs steadily.", "translation": "Дочерняя компания работает стабильно." },
+    { "original": "department", "english": "Our department drives innovation.", "translation": "Наш отдел продвигает инновации." },
+    { "original": "division", "english": "The division leads key projects.", "translation": "Подразделение ведёт ключевые проекты." },
+    { "original": "management", "english": "Management supported the initiative.", "translation": "Руководство поддержало инициативу." },
+    { "original": "leadership", "english": "Leadership inspires the team.", "translation": "Лидерство вдохновляет команду." },
+    { "original": "supervisor", "english": "My supervisor provided guidance.", "translation": "Мой руководитель дал рекомендации." },
+    { "original": "colleague", "english": "A colleague offered assistance.", "translation": "Коллега предложил помощь." },
+    { "original": "counterpart", "english": "Her counterpart shared expertise.", "translation": "Её коллега поделился экспертизой." },
+    { "original": "stakeholder", "english": "Stakeholders expressed support.", "translation": "Заинтересованные стороны выразили поддержку." },
+    { "original": "decision-maker", "english": "The decision-maker approved swiftly.", "translation": "Лицо, принимающее решения, быстро утвердило." },
+    { "original": "reporting", "english": "Reporting ensures transparency.", "translation": "Подотчётность обеспечивает прозрачность." },
+    { "original": "alignment", "english": "Alignment strengthened collaboration.", "translation": "Согласованность укрепила сотрудничество." },
+    { "original": "coordination", "english": "Coordination improved efficiency.", "translation": "Координация повысила эффективность." },
+    { "original": "process", "english": "The process runs smoothly.", "translation": "Процесс проходит гладко." },
+    { "original": "procedure", "english": "The procedure ensures consistency.", "translation": "Процедура обеспечивает последовательность." },
+    { "original": "workflow", "english": "Workflow supports productivity.", "translation": "Рабочий процесс поддерживает продуктивность." },
+    { "original": "deliverable", "english": "The deliverable exceeded expectations.", "translation": "Результат работы превзошёл ожидания." },
+    { "original": "milestone", "english": "We celebrated a milestone.", "translation": "Мы отметили важный этап." },
+    { "original": "deadline", "english": "The deadline was successfully met.", "translation": "Крайний срок был успешно соблюдён." },
+    { "original": "timeline", "english": "The timeline remains achievable.", "translation": "График остаётся выполнимым." },
+    { "original": "workload", "english": "Workload feels manageable.", "translation": "Рабочая нагрузка выглядит управляемой." },
+    { "original": "availability", "english": "Her availability improved.", "translation": "Её доступность улучшилась." },
+    { "original": "meeting", "english": "The meeting generated ideas.", "translation": "Встреча принесла идеи." },
+    { "original": "agenda", "english": "The agenda looks clear.", "translation": "Повестка выглядит чёткой." },
+    { "original": "minutes", "english": "Minutes captured key points.", "translation": "Протокол зафиксировал ключевые моменты." },
+    { "original": "follow-up", "english": "The follow-up clarified details.", "translation": "Последующие действия прояснили детали." },
+    { "original": "action item", "english": "Each action item adds value.", "translation": "Каждый пункт к выполнению приносит пользу." },
+    { "original": "communication", "english": "Communication strengthened relationships.", "translation": "Коммуникация укрепила отношения." },
+    { "original": "clarification", "english": "Clarification improved understanding.", "translation": "Уточнение улучшило понимание." },
+    { "original": "alignment call", "english": "The alignment call streamlined tasks.", "translation": "Созвон для синхронизации упростил задачи." },
+    { "original": "escalation", "english": "Escalation accelerated resolution.", "translation": "Эскалация ускорила решение." },
+    { "original": "approval", "english": "Approval moved the project forward.", "translation": "Утверждение продвинуло проект вперёд." },
+    { "original": "responsibility", "english": "Responsibility fosters trust.", "translation": "Ответственность укрепляет доверие." },
+    { "original": "ownership", "english": "Ownership increased engagement.", "translation": "Ответственность за зону повысила вовлечённость." },
+    { "original": "accountability", "english": "Accountability reinforces credibility.", "translation": "Подотчётность усиливает доверие." },
+    { "original": "compliance", "english": "Compliance protects the organization.", "translation": "Соответствие требованиям защищает организацию." },
+    { "original": "policy", "english": "The policy supports fairness.", "translation": "Политика компании поддерживает справедливость." },
+    { "original": "performance", "english": "Performance reached new levels.", "translation": "Результативность вышла на новый уровень." },
+    { "original": "evaluation", "english": "Evaluation highlighted strengths.", "translation": "Оценка выявила сильные стороны." },
+    { "original": "feedback", "english": "Feedback encouraged improvement.", "translation": "Обратная связь способствовала улучшению." },
+    { "original": "improvement", "english": "Improvement became visible.", "translation": "Улучшение стало заметным." },
+    { "original": "growth", "english": "Growth opened new opportunities.", "translation": "Рост открыл новые возможности." },
+    { "original": "capacity", "english": "Capacity expanded gradually.", "translation": "Загрузка постепенно расширилась." }
   ]
 }

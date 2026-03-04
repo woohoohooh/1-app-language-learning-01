@@ -3,145 +3,40 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "analysis",
-      "translation": "анализ"
-    },
-    {
-      "english": "reasoning",
-      "translation": "рассуждение"
-    },
-    {
-      "english": "logic",
-      "translation": "логика"
-    },
-    {
-      "english": "judgment",
-      "translation": "суждение"
-    },
-    {
-      "english": "evaluation",
-      "translation": "оценка"
-    },
-    {
-      "english": "assumption",
-      "translation": "предположение"
-    },
-    {
-      "english": "premise",
-      "translation": "исходное утверждение"
-    },
-    {
-      "english": "hypothesis",
-      "translation": "гипотеза"
-    },
-    {
-      "english": "conclusion",
-      "translation": "вывод"
-    },
-    {
-      "english": "inference",
-      "translation": "умозаключение"
-    },
-    {
-      "english": "evidence",
-      "translation": "доказательство"
-    },
-    {
-      "english": "proof",
-      "translation": "подтверждение"
-    },
-    {
-      "english": "data",
-      "translation": "данные"
-    },
-    {
-      "english": "fact",
-      "translation": "факт"
-    },
-    {
-      "english": "claim",
-      "translation": "утверждение"
-    },
-    {
-      "english": "bias",
-      "translation": "предвзятость"
-    },
-    {
-      "english": "distortion",
-      "translation": "искажение"
-    },
-    {
-      "english": "misinterpretation",
-      "translation": "неверная интерпретация"
-    },
-    {
-      "english": "fallacy",
-      "translation": "логическая ошибка"
-    },
-    {
-      "english": "flaw",
-      "translation": "изъян"
-    },
-    {
-      "english": "objectivity",
-      "translation": "объективность"
-    },
-    {
-      "english": "subjectivity",
-      "translation": "субъективность"
-    },
-    {
-      "english": "perspective",
-      "translation": "точка зрения"
-    },
-    {
-      "english": "context",
-      "translation": "контекст"
-    },
-    {
-      "english": "framework",
-      "translation": "система"
-    },
-    {
-      "english": "skepticism",
-      "translation": "скептицизм"
-    },
-    {
-      "english": "doubt",
-      "translation": "сомнение"
-    },
-    {
-      "english": "questioning",
-      "translation": "постановка вопросов"
-    },
-    {
-      "english": "verification",
-      "translation": "проверка"
-    },
-    {
-      "english": "validation",
-      "translation": "подтверждение"
-    },
-    {
-      "english": "consistency",
-      "translation": "последовательность"
-    },
-    {
-      "english": "coherence",
-      "translation": "связность"
-    },
-    {
-      "english": "clarity",
-      "translation": "ясность"
-    },
-    {
-      "english": "accuracy",
-      "translation": "точность"
-    },
-    {
-      "english": "reliability",
-      "translation": "надежность"
-    }
+    { "original": "analysis", "english": "Careful analysis revealed patterns.", "translation": "Тщательный анализ выявил закономерности." },
+    { "original": "reasoning", "english": "Her reasoning sounds logical.", "translation": "Её рассуждение звучит логично." },
+    { "original": "logic", "english": "The logic appears consistent.", "translation": "Логика выглядит последовательной." },
+    { "original": "judgment", "english": "Use balanced judgment here.", "translation": "Здесь нужно взвешенное суждение." },
+    { "original": "evaluation", "english": "Independent evaluation improved accuracy.", "translation": "Независимая оценка повысила точность." },
+    { "original": "assumption", "english": "That assumption needs review.", "translation": "Это предположение требует пересмотра." },
+    { "original": "premise", "english": "The premise seems reasonable.", "translation": "Исходное утверждение кажется разумным." },
+    { "original": "hypothesis", "english": "We tested the hypothesis.", "translation": "Мы проверили гипотезу." },
+    { "original": "conclusion", "english": "They reached a conclusion.", "translation": "Они пришли к выводу." },
+    { "original": "inference", "english": "The inference follows logically.", "translation": "Умозаключение логично вытекает." },
+    { "original": "evidence", "english": "Strong evidence supports this.", "translation": "Сильные доказательства это подтверждают." },
+    { "original": "proof", "english": "We found clear proof.", "translation": "Мы нашли явное подтверждение." },
+    { "original": "data", "english": "The data shows trends.", "translation": "Данные показывают тенденции." },
+    { "original": "fact", "english": "That fact changes perspective.", "translation": "Этот факт меняет точку зрения." },
+    { "original": "claim", "english": "They backed the claim.", "translation": "Они подкрепили утверждение." },
+    { "original": "bias", "english": "We reduced bias significantly.", "translation": "Мы значительно снизили предвзятость." },
+    { "original": "distortion", "english": "This caused slight distortion.", "translation": "Это вызвало небольшое искажение." },
+    { "original": "misinterpretation", "english": "That was a misinterpretation.", "translation": "Это была неверная интерпретация." },
+    { "original": "fallacy", "english": "The argument contained a fallacy.", "translation": "Аргумент содержал логическую ошибку." },
+    { "original": "flaw", "english": "We identified a flaw.", "translation": "Мы выявили изъян." },
+    { "original": "objectivity", "english": "Objectivity strengthens analysis.", "translation": "Объективность усиливает анализ." },
+    { "original": "subjectivity", "english": "Subjectivity influences perception.", "translation": "Субъективность влияет на восприятие." },
+    { "original": "perspective", "english": "Perspective shapes interpretation.", "translation": "Точка зрения формирует интерпретацию." },
+    { "original": "context", "english": "Everything depends on context.", "translation": "Всё зависит от контекста." },
+    { "original": "framework", "english": "The framework clarified structure.", "translation": "Система прояснила структуру." },
+    { "original": "skepticism", "english": "Healthy skepticism improves decisions.", "translation": "Здоровый скептицизм улучшает решения." },
+    { "original": "doubt", "english": "Reasonable doubt encourages verification.", "translation": "Разумное сомнение поощряет проверку." },
+    { "original": "questioning", "english": "Active questioning deepens understanding.", "translation": "Активная постановка вопросов углубляет понимание." },
+    { "original": "verification", "english": "We completed full verification.", "translation": "Мы завершили полную проверку." },
+    { "original": "validation", "english": "External validation increased confidence.", "translation": "Внешнее подтверждение повысило уверенность." },
+    { "original": "consistency", "english": "Consistency builds credibility.", "translation": "Последовательность укрепляет доверие." },
+    { "original": "coherence", "english": "The report gained coherence.", "translation": "Отчёт стал более связным." },
+    { "original": "clarity", "english": "Clear structure improves clarity.", "translation": "Чёткая структура повышает ясность." },
+    { "original": "accuracy", "english": "Accuracy matters in analysis.", "translation": "Точность важна в анализе." },
+    { "original": "reliability", "english": "Reliability increases trust.", "translation": "Надёжность повышает доверие." }
   ]
 }

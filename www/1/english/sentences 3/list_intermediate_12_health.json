@@ -3,165 +3,45 @@
   "level": "Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "healthcare",
-      "translation": "здравоохранение"
-    },
-    {
-      "english": "medical",
-      "translation": "медицинский"
-    },
-    {
-      "english": "condition",
-      "translation": "состояние"
-    },
-    {
-      "english": "symptom",
-      "translation": "симптом"
-    },
-    {
-      "english": "diagnosis",
-      "translation": "диагноз"
-    },
-    {
-      "english": "treatment",
-      "translation": "лечение"
-    },
-    {
-      "english": "therapy",
-      "translation": "терапия"
-    },
-    {
-      "english": "recovery",
-      "translation": "восстановление"
-    },
-    {
-      "english": "prevention",
-      "translation": "профилактика"
-    },
-    {
-      "english": "checkup",
-      "translation": "осмотр"
-    },
-    {
-      "english": "appointment",
-      "translation": "приём"
-    },
-    {
-      "english": "consultation",
-      "translation": "консультация"
-    },
-    {
-      "english": "specialist",
-      "translation": "специалист"
-    },
-    {
-      "english": "prescription",
-      "translation": "рецепт"
-    },
-    {
-      "english": "referral",
-      "translation": "направление"
-    },
-    {
-      "english": "medicine",
-      "translation": "лекарство"
-    },
-    {
-      "english": "medication",
-      "translation": "медикаменты"
-    },
-    {
-      "english": "dosage",
-      "translation": "дозировка"
-    },
-    {
-      "english": "side effect",
-      "translation": "побочный эффект"
-    },
-    {
-      "english": "allergy",
-      "translation": "аллергия"
-    },
-    {
-      "english": "infection",
-      "translation": "инфекция"
-    },
-    {
-      "english": "inflammation",
-      "translation": "воспаление"
-    },
-    {
-      "english": "chronic",
-      "translation": "хронический"
-    },
-    {
-      "english": "acute",
-      "translation": "острый"
-    },
-    {
-      "english": "injury",
-      "translation": "травма"
-    },
-    {
-      "english": "emergency",
-      "translation": "экстренная ситуация"
-    },
-    {
-      "english": "ambulance",
-      "translation": "скорая помощь"
-    },
-    {
-      "english": "hospitalization",
-      "translation": "госпитализация"
-    },
-    {
-      "english": "surgery",
-      "translation": "операция"
-    },
-    {
-      "english": "procedure",
-      "translation": "медицинская процедура"
-    },
-    {
-      "english": "insurance",
-      "translation": "страховка"
-    },
-    {
-      "english": "coverage",
-      "translation": "страховое покрытие"
-    },
-    {
-      "english": "claim",
-      "translation": "страховое заявление"
-    },
-    {
-      "english": "policy",
-      "translation": "страховой полис"
-    },
-    {
-      "english": "provider",
-      "translation": "поставщик услуг"
-    },
-    {
-      "english": "mental health",
-      "translation": "психическое здоровье"
-    },
-    {
-      "english": "stress",
-      "translation": "стресс"
-    },
-    {
-      "english": "anxiety",
-      "translation": "тревожность"
-    },
-    {
-      "english": "fatigue",
-      "translation": "усталость"
-    },
-    {
-      "english": "well-being",
-      "translation": "общее самочувствие"
-    }
+    { "original": "healthcare", "english": "Healthcare services are accessible.", "translation": "Услуги здравоохранения доступны." },
+    { "original": "medical", "english": "She needs medical support.", "translation": "Ей нужна медицинская помощь." },
+    { "original": "condition", "english": "His condition is stable.", "translation": "Его состояние стабильное." },
+    { "original": "symptom", "english": "The symptom seems mild.", "translation": "Симптом кажется лёгким." },
+    { "original": "diagnosis", "english": "The diagnosis was accurate.", "translation": "Диагноз был точным." },
+    { "original": "treatment", "english": "The treatment works well.", "translation": "Лечение работает хорошо." },
+    { "original": "therapy", "english": "Therapy supports recovery.", "translation": "Терапия поддерживает восстановление." },
+    { "original": "recovery", "english": "Recovery takes patience.", "translation": "Восстановление требует терпения." },
+    { "original": "prevention", "english": "Prevention is very important.", "translation": "Профилактика очень важна." },
+    { "original": "checkup", "english": "She scheduled a checkup.", "translation": "Она записалась на осмотр." },
+    { "original": "appointment", "english": "The appointment was helpful.", "translation": "Приём был полезным." },
+    { "original": "consultation", "english": "The consultation felt informative.", "translation": "Консультация была информативной." },
+    { "original": "specialist", "english": "The specialist provided guidance.", "translation": "Специалист дал рекомендации." },
+    { "original": "prescription", "english": "The prescription is ready.", "translation": "Рецепт готов." },
+    { "original": "referral", "english": "She received a referral.", "translation": "Она получила направление." },
+    { "original": "medicine", "english": "The medicine is effective.", "translation": "Лекарство эффективное." },
+    { "original": "medication", "english": "The medication works gently.", "translation": "Медикаменты действуют мягко." },
+    { "original": "dosage", "english": "Follow the dosage instructions.", "translation": "Следуйте инструкции по дозировке." },
+    { "original": "side effect", "english": "Side effects are rare.", "translation": "Побочные эффекты редки." },
+    { "original": "allergy", "english": "She has a mild allergy.", "translation": "У неё лёгкая аллергия." },
+    { "original": "infection", "english": "The infection is treated.", "translation": "Инфекция лечится." },
+    { "original": "inflammation", "english": "The inflammation decreased.", "translation": "Воспаление уменьшилось." },
+    { "original": "chronic", "english": "Chronic conditions need care.", "translation": "Хронические состояния требуют ухода." },
+    { "original": "acute", "english": "Acute symptoms need attention.", "translation": "Острые симптомы требуют внимания." },
+    { "original": "injury", "english": "The injury healed well.", "translation": "Травма хорошо зажила." },
+    { "original": "emergency", "english": "Emergency services responded quickly.", "translation": "Экстренные службы быстро отреагировали." },
+    { "original": "ambulance", "english": "The ambulance arrived quickly.", "translation": "Скорая помощь прибыла быстро." },
+    { "original": "hospitalization", "english": "Hospitalization ensured proper care.", "translation": "Госпитализация обеспечила надлежащий уход." },
+    { "original": "surgery", "english": "The surgery was successful.", "translation": "Операция прошла успешно." },
+    { "original": "procedure", "english": "The procedure was smooth.", "translation": "Процедура прошла спокойно." },
+    { "original": "insurance", "english": "Insurance provides coverage.", "translation": "Страховка обеспечивает покрытие." },
+    { "original": "coverage", "english": "The coverage seems sufficient.", "translation": "Покрытие кажется достаточным." },
+    { "original": "claim", "english": "The claim was approved.", "translation": "Страховое заявление было одобрено." },
+    { "original": "policy", "english": "The policy covers treatment.", "translation": "Полис покрывает лечение." },
+    { "original": "provider", "english": "The provider offers services.", "translation": "Поставщик услуг предлагает сервис." },
+    { "original": "mental health", "english": "Mental health matters greatly.", "translation": "Психическое здоровье очень важно." },
+    { "original": "stress", "english": "Stress affects well-being.", "translation": "Стресс влияет на самочувствие." },
+    { "original": "anxiety", "english": "Anxiety requires support.", "translation": "Тревожность требует поддержки." },
+    { "original": "fatigue", "english": "Fatigue decreases with rest.", "translation": "Усталость уменьшается с отдыхом." },
+    { "original": "well-being", "english": "Well-being improves gradually.", "translation": "Общее самочувствие постепенно улучшается." }
   ]
 }

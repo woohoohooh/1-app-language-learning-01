@@ -3,145 +3,40 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "decision",
-      "translation": "решение"
-    },
-    {
-      "english": "choice",
-      "translation": "выбор"
-    },
-    {
-      "english": "option",
-      "translation": "вариант"
-    },
-    {
-      "english": "alternative",
-      "translation": "альтернатива"
-    },
-    {
-      "english": "selection",
-      "translation": "выбор"
-    },
-    {
-      "english": "approach",
-      "translation": "подход"
-    },
-    {
-      "english": "strategy",
-      "translation": "стратегия"
-    },
-    {
-      "english": "plan",
-      "translation": "план"
-    },
-    {
-      "english": "direction",
-      "translation": "направление"
-    },
-    {
-      "english": "priority",
-      "translation": "приоритет"
-    },
-    {
-      "english": "criteria",
-      "translation": "критерии"
-    },
-    {
-      "english": "constraint",
-      "translation": "ограничение"
-    },
-    {
-      "english": "trade-off",
-      "translation": "компромисс"
-    },
-    {
-      "english": "feasibility",
-      "translation": "осуществимость"
-    },
-    {
-      "english": "viability",
-      "translation": "жизнеспособность"
-    },
-    {
-      "english": "risk",
-      "translation": "риск"
-    },
-    {
-      "english": "uncertainty",
-      "translation": "неопределенность"
-    },
-    {
-      "english": "probability",
-      "translation": "вероятность"
-    },
-    {
-      "english": "impact",
-      "translation": "влияние"
-    },
-    {
-      "english": "outcome",
-      "translation": "результат"
-    },
-    {
-      "english": "consequence",
-      "translation": "последствие"
-    },
-    {
-      "english": "implication",
-      "translation": "возможное последствие"
-    },
-    {
-      "english": "benefit",
-      "translation": "выгода"
-    },
-    {
-      "english": "drawback",
-      "translation": "недостаток"
-    },
-    {
-      "english": "cost",
-      "translation": "стоимость"
-    },
-    {
-      "english": "judgment",
-      "translation": "суждение"
-    },
-    {
-      "english": "evaluation",
-      "translation": "оценивание"
-    },
-    {
-      "english": "assessment",
-      "translation": "оценка"
-    },
-    {
-      "english": "consideration",
-      "translation": "рассмотрение"
-    },
-    {
-      "english": "deliberation",
-      "translation": "обдумывание"
-    },
-    {
-      "english": "commitment",
-      "translation": "принятие обязательства"
-    },
-    {
-      "english": "responsibility",
-      "translation": "ответственность"
-    },
-    {
-      "english": "accountability",
-      "translation": "ответственность за результат"
-    },
-    {
-      "english": "confidence",
-      "translation": "уверенность"
-    },
-    {
-      "english": "hesitation",
-      "translation": "колебание"
-    }
+    { "original": "decision", "english": "We made a confident decision.", "translation": "Мы приняли уверенное решение." },
+    { "original": "choice", "english": "That choice shaped results.", "translation": "Этот выбор повлиял на результаты." },
+    { "original": "option", "english": "Several options remain open.", "translation": "Несколько вариантов остаются открытыми." },
+    { "original": "alternative", "english": "We considered an alternative.", "translation": "Мы рассмотрели альтернативу." },
+    { "original": "selection", "english": "The final selection impressed everyone.", "translation": "Окончательный выбор впечатлил всех." },
+    { "original": "approach", "english": "This approach feels practical.", "translation": "Этот подход кажется практичным." },
+    { "original": "strategy", "english": "Their strategy ensured growth.", "translation": "Их стратегия обеспечила рост." },
+    { "original": "plan", "english": "The plan looks realistic.", "translation": "План выглядит реалистичным." },
+    { "original": "direction", "english": "We changed our direction.", "translation": "Мы изменили направление." },
+    { "original": "priority", "english": "Quality became our priority.", "translation": "Качество стало нашим приоритетом." },
+    { "original": "criteria", "english": "Clear criteria guided selection.", "translation": "Чёткие критерии направляли выбор." },
+    { "original": "constraint", "english": "Time was the main constraint.", "translation": "Время было главным ограничением." },
+    { "original": "trade-off", "english": "Every trade-off requires balance.", "translation": "Каждый компромисс требует баланса." },
+    { "original": "feasibility", "english": "We tested the feasibility.", "translation": "Мы проверили осуществимость." },
+    { "original": "viability", "english": "The idea proved viability.", "translation": "Идея доказала жизнеспособность." },
+    { "original": "risk", "english": "We managed the risk carefully.", "translation": "Мы аккуратно управляли риском." },
+    { "original": "uncertainty", "english": "Markets operate with uncertainty.", "translation": "Рынки работают в условиях неопределённости." },
+    { "original": "probability", "english": "The probability seems high.", "translation": "Вероятность кажется высокой." },
+    { "original": "impact", "english": "This decision had impact.", "translation": "Это решение оказало влияние." },
+    { "original": "outcome", "english": "The outcome met expectations.", "translation": "Результат соответствовал ожиданиям." },
+    { "original": "consequence", "english": "Every action has consequence.", "translation": "Каждое действие имеет последствия." },
+    { "original": "implication", "english": "The change has implications.", "translation": "Изменение имеет возможные последствия." },
+    { "original": "benefit", "english": "The benefit outweighs effort.", "translation": "Выгода превышает усилия." },
+    { "original": "drawback", "english": "We discussed the drawback openly.", "translation": "Мы открыто обсудили недостаток." },
+    { "original": "cost", "english": "The cost remains reasonable.", "translation": "Стоимость остаётся разумной." },
+    { "original": "judgment", "english": "Use sound judgment here.", "translation": "Здесь нужно взвешенное суждение." },
+    { "original": "evaluation", "english": "Careful evaluation improved accuracy.", "translation": "Тщательная оценка повысила точность." },
+    { "original": "assessment", "english": "Initial assessment showed promise.", "translation": "Первичная оценка показала потенциал." },
+    { "original": "consideration", "english": "Safety requires careful consideration.", "translation": "Безопасность требует тщательного рассмотрения." },
+    { "original": "deliberation", "english": "After deliberation, we agreed.", "translation": "После обдумывания мы согласились." },
+    { "original": "commitment", "english": "This requires strong commitment.", "translation": "Это требует серьёзного обязательства." },
+    { "original": "responsibility", "english": "Leadership carries responsibility.", "translation": "Лидерство несёт ответственность." },
+    { "original": "accountability", "english": "Accountability strengthens trust.", "translation": "Ответственность за результат укрепляет доверие." },
+    { "original": "confidence", "english": "She spoke with confidence.", "translation": "Она говорила уверенно." },
+    { "original": "hesitation", "english": "There was slight hesitation.", "translation": "Было небольшое колебание." }
   ]
 }

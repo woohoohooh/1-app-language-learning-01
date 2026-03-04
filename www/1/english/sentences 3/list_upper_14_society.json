@@ -3,165 +3,45 @@
   "level": "Upper-Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "society",
-      "translation": "общество"
-    },
-    {
-      "english": "community",
-      "translation": "сообщество"
-    },
-    {
-      "english": "population",
-      "translation": "население"
-    },
-    {
-      "english": "generation",
-      "translation": "поколение"
-    },
-    {
-      "english": "culture",
-      "translation": "культура"
-    },
-    {
-      "english": "values",
-      "translation": "ценности"
-    },
-    {
-      "english": "norms",
-      "translation": "социальные нормы"
-    },
-    {
-      "english": "identity",
-      "translation": "идентичность"
-    },
-    {
-      "english": "diversity",
-      "translation": "разнообразие"
-    },
-    {
-      "english": "inclusion",
-      "translation": "инклюзивность"
-    },
-    {
-      "english": "inequality",
-      "translation": "неравенство"
-    },
-    {
-      "english": "opportunity",
-      "translation": "возможность"
-    },
-    {
-      "english": "access",
-      "translation": "доступ"
-    },
-    {
-      "english": "standard of living",
-      "translation": "уровень жизни"
-    },
-    {
-      "english": "quality of life",
-      "translation": "качество жизни"
-    },
-    {
-      "english": "globalization",
-      "translation": "глобализация"
-    },
-    {
-      "english": "urbanization",
-      "translation": "урбанизация"
-    },
-    {
-      "english": "migration",
-      "translation": "миграция"
-    },
-    {
-      "english": "demographics",
-      "translation": "демография"
-    },
-    {
-      "english": "middle class",
-      "translation": "средний класс"
-    },
-    {
-      "english": "technology",
-      "translation": "технологии"
-    },
-    {
-      "english": "digitalization",
-      "translation": "цифровизация"
-    },
-    {
-      "english": "automation",
-      "translation": "автоматизация"
-    },
-    {
-      "english": "artificial intelligence",
-      "translation": "искусственный интеллект"
-    },
-    {
-      "english": "social impact",
-      "translation": "социальное влияние"
-    },
-    {
-      "english": "media",
-      "translation": "медиа"
-    },
-    {
-      "english": "information",
-      "translation": "информация"
-    },
-    {
-      "english": "misinformation",
-      "translation": "дезинформация"
-    },
-    {
-      "english": "public opinion",
-      "translation": "общественное мнение"
-    },
-    {
-      "english": "trust",
-      "translation": "доверие"
-    },
-    {
-      "english": "climate change",
-      "translation": "изменение климата"
-    },
-    {
-      "english": "environment",
-      "translation": "окружающая среда"
-    },
-    {
-      "english": "sustainability",
-      "translation": "устойчивое развитие"
-    },
-    {
-      "english": "resources",
-      "translation": "ресурсы"
-    },
-    {
-      "english": "energy",
-      "translation": "энергия"
-    },
-    {
-      "english": "lifestyle",
-      "translation": "образ жизни"
-    },
-    {
-      "english": "work-life balance",
-      "translation": "баланс работы и жизни"
-    },
-    {
-      "english": "consumerism",
-      "translation": "потребительство"
-    },
-    {
-      "english": "social change",
-      "translation": "социальные изменения"
-    },
-    {
-      "english": "future",
-      "translation": "будущее"
-    }
+    { "original": "society", "english": "Society evolves continuously.", "translation": "Общество постоянно развивается." },
+    { "original": "community", "english": "Community strengthens social bonds.", "translation": "Сообщество укрепляет социальные связи." },
+    { "original": "population", "english": "Population growth affects infrastructure.", "translation": "Рост населения влияет на инфраструктуру." },
+    { "original": "generation", "english": "Generation shapes cultural trends.", "translation": "Поколение формирует культурные тренды." },
+    { "original": "culture", "english": "Culture reflects shared values.", "translation": "Культура отражает общие ценности." },
+    { "original": "values", "english": "Values influence social behavior.", "translation": "Ценности влияют на социальное поведение." },
+    { "original": "norms", "english": "Norms guide acceptable conduct.", "translation": "Социальные нормы направляют допустимое поведение." },
+    { "original": "identity", "english": "Identity shapes personal perspective.", "translation": "Идентичность формирует личную перспективу." },
+    { "original": "diversity", "english": "Diversity enriches communities.", "translation": "Разнообразие обогащает сообщества." },
+    { "original": "inclusion", "english": "Inclusion promotes equal participation.", "translation": "Инклюзивность способствует равному участию." },
+    { "original": "inequality", "english": "Inequality limits opportunities.", "translation": "Неравенство ограничивает возможности." },
+    { "original": "opportunity", "english": "Opportunity drives social mobility.", "translation": "Возможность способствует социальной мобильности." },
+    { "original": "access", "english": "Access improves educational outcomes.", "translation": "Доступ улучшает образовательные результаты." },
+    { "original": "standard of living", "english": "Standard of living increased gradually.", "translation": "Уровень жизни постепенно повысился." },
+    { "original": "quality of life", "english": "Quality of life improved significantly.", "translation": "Качество жизни значительно улучшилось." },
+    { "original": "globalization", "english": "Globalization connected distant markets.", "translation": "Глобализация связала удалённые рынки." },
+    { "original": "urbanization", "english": "Urbanization transformed city landscapes.", "translation": "Урбанизация изменила городские ландшафты." },
+    { "original": "migration", "english": "Migration influenced cultural exchange.", "translation": "Миграция повлияла на культурный обмен." },
+    { "original": "demographics", "english": "Demographics determine policy priorities.", "translation": "Демография определяет приоритеты политики." },
+    { "original": "middle class", "english": "Middle class expanded steadily.", "translation": "Средний класс стабильно расширялся." },
+    { "original": "technology", "english": "Technology reshaped communication patterns.", "translation": "Технологии изменили модели коммуникации." },
+    { "original": "digitalization", "english": "Digitalization accelerated business processes.", "translation": "Цифровизация ускорила бизнес-процессы." },
+    { "original": "automation", "english": "Automation increased productivity.", "translation": "Автоматизация повысила продуктивность." },
+    { "original": "artificial intelligence", "english": "Artificial intelligence enhanced efficiency.", "translation": "Искусственный интеллект повысил эффективность." },
+    { "original": "social impact", "english": "Social impact influenced policy decisions.", "translation": "Социальное влияние повлияло на политические решения." },
+    { "original": "media", "english": "Media shapes public dialogue.", "translation": "Медиа формируют общественный диалог." },
+    { "original": "information", "english": "Information spreads instantly worldwide.", "translation": "Информация мгновенно распространяется по миру." },
+    { "original": "misinformation", "english": "Misinformation distorts public understanding.", "translation": "Дезинформация искажает общественное понимание." },
+    { "original": "public opinion", "english": "Public opinion shifted rapidly.", "translation": "Общественное мнение быстро изменилось." },
+    { "original": "trust", "english": "Trust strengthens institutions.", "translation": "Доверие укрепляет институты." },
+    { "original": "climate change", "english": "Climate change requires global cooperation.", "translation": "Изменение климата требует глобального сотрудничества." },
+    { "original": "environment", "english": "Environment needs sustainable policies.", "translation": "Окружающая среда требует устойчивой политики." },
+    { "original": "sustainability", "english": "Sustainability supports long-term development.", "translation": "Устойчивое развитие поддерживает долгосрочное развитие." },
+    { "original": "resources", "english": "Resources require careful management.", "translation": "Ресурсы требуют внимательного управления." },
+    { "original": "energy", "english": "Energy demand continues rising.", "translation": "Спрос на энергию продолжает расти." },
+    { "original": "lifestyle", "english": "Lifestyle influences consumption patterns.", "translation": "Образ жизни влияет на модели потребления." },
+    { "original": "work-life balance", "english": "Work-life balance improves wellbeing.", "translation": "Баланс работы и жизни улучшает благополучие." },
+    { "original": "consumerism", "english": "Consumerism shapes economic behavior.", "translation": "Потребительство формирует экономическое поведение." },
+    { "original": "social change", "english": "Social change transforms institutions.", "translation": "Социальные изменения трансформируют институты." },
+    { "original": "future", "english": "Future depends on collective choices.", "translation": "Будущее зависит от коллективных решений." }
   ]
 }

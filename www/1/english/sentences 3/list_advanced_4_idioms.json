@@ -3,145 +3,40 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "a big deal",
-      "translation": "большое значение"
-    },
-    {
-      "english": "make sense",
-      "translation": "иметь смысл"
-    },
-    {
-      "english": "on the same page",
-      "translation": "быть на одной волне"
-    },
-    {
-      "english": "in the long run",
-      "translation": "в долгосрочной перспективе"
-    },
-    {
-      "english": "at the end of the day",
-      "translation": "в конечном итоге"
-    },
-    {
-      "english": "a win-win",
-      "translation": "взаимовыгодная ситуация"
-    },
-    {
-      "english": "the bottom line",
-      "translation": "суть"
-    },
-    {
-      "english": "make a difference",
-      "translation": "иметь значение"
-    },
-    {
-      "english": "a tough call",
-      "translation": "сложное решение"
-    },
-    {
-      "english": "no brainer",
-      "translation": "очевидное решение"
-    },
-    {
-      "english": "a gray area",
-      "translation": "спорная зона"
-    },
-    {
-      "english": "by the book",
-      "translation": "по правилам"
-    },
-    {
-      "english": "behind the scenes",
-      "translation": "за кулисами"
-    },
-    {
-      "english": "on the table",
-      "translation": "на рассмотрении"
-    },
-    {
-      "english": "off the record",
-      "translation": "неофициально"
-    },
-    {
-      "english": "think outside the box",
-      "translation": "мыслить нестандартно"
-    },
-    {
-      "english": "touch base",
-      "translation": "связаться"
-    },
-    {
-      "english": "raise a concern",
-      "translation": "выразить обеспокоенность"
-    },
-    {
-      "english": "push the limits",
-      "translation": "расширять границы"
-    },
-    {
-      "english": "call it a day",
-      "translation": "закончить на сегодня"
-    },
-    {
-      "english": "in the loop",
-      "translation": "в курсе"
-    },
-    {
-      "english": "out of the loop",
-      "translation": "не в курсе"
-    },
-    {
-      "english": "ahead of the curve",
-      "translation": "опережать других"
-    },
-    {
-      "english": "under the radar",
-      "translation": "незаметно"
-    },
-    {
-      "english": "on short notice",
-      "translation": "в короткие сроки"
-    },
-    {
-      "english": "a learning curve",
-      "translation": "кривая обучения"
-    },
-    {
-      "english": "make room for",
-      "translation": "освободить место для"
-    },
-    {
-      "english": "hit the ground running",
-      "translation": "быстро включиться в работу"
-    },
-    {
-      "english": "keep in mind",
-      "translation": "иметь в виду"
-    },
-    {
-      "english": "set the tone",
-      "translation": "задавать тон"
-    },
-    {
-      "english": "play it safe",
-      "translation": "действовать осторожно"
-    },
-    {
-      "english": "take it seriously",
-      "translation": "относиться серьёзно"
-    },
-    {
-      "english": "make a point",
-      "translation": "подчеркнуть мысль"
-    },
-    {
-      "english": "cross the line",
-      "translation": "перейти границу"
-    },
-    {
-      "english": "draw the line",
-      "translation": "провести границу"
-    }
+    { "original": "a big deal", "english": "This is a big deal.", "translation": "Это имеет большое значение." },
+    { "original": "make sense", "english": "Your proposal makes sense.", "translation": "Твоё предложение имеет смысл." },
+    { "original": "on the same page", "english": "We are on the same page.", "translation": "Мы на одной волне." },
+    { "original": "in the long run", "english": "It helps in the long run.", "translation": "Это помогает в долгосрочной перспективе." },
+    { "original": "at the end of the day", "english": "At the end of the day, results matter.", "translation": "В конечном итоге важны результаты." },
+    { "original": "a win-win", "english": "The deal became a win-win.", "translation": "Сделка стала взаимовыгодной." },
+    { "original": "the bottom line", "english": "The bottom line is growth.", "translation": "Суть — рост." },
+    { "original": "make a difference", "english": "Small changes make a difference.", "translation": "Небольшие изменения имеют значение." },
+    { "original": "a tough call", "english": "That was a tough call.", "translation": "Это было сложное решение." },
+    { "original": "no brainer", "english": "For us, it is a no brainer.", "translation": "Для нас это очевидное решение." },
+    { "original": "a gray area", "english": "This remains a gray area.", "translation": "Это остаётся спорной зоной." },
+    { "original": "by the book", "english": "They did it by the book.", "translation": "Они сделали это по правилам." },
+    { "original": "behind the scenes", "english": "Work happens behind the scenes.", "translation": "Работа происходит за кулисами." },
+    { "original": "on the table", "english": "Several options are on the table.", "translation": "Несколько вариантов на рассмотрении." },
+    { "original": "off the record", "english": "This is off the record.", "translation": "Это неофициально." },
+    { "original": "think outside the box", "english": "We must think outside the box.", "translation": "Мы должны мыслить нестандартно." },
+    { "original": "touch base", "english": "Let's touch base tomorrow.", "translation": "Давай свяжемся завтра." },
+    { "original": "raise a concern", "english": "She raised a concern calmly.", "translation": "Она спокойно выразила обеспокоенность." },
+    { "original": "push the limits", "english": "The team pushed the limits.", "translation": "Команда расширила границы." },
+    { "original": "call it a day", "english": "Let's call it a day.", "translation": "Давайте закончим на сегодня." },
+    { "original": "in the loop", "english": "Keep me in the loop.", "translation": "Держи меня в курсе." },
+    { "original": "out of the loop", "english": "I felt out of the loop.", "translation": "Я чувствовал себя не в курсе." },
+    { "original": "ahead of the curve", "english": "They stayed ahead of the curve.", "translation": "Они опередили других." },
+    { "original": "under the radar", "english": "The project stayed under the radar.", "translation": "Проект остался незаметным." },
+    { "original": "on short notice", "english": "She responded on short notice.", "translation": "Она ответила в короткие сроки." },
+    { "original": "a learning curve", "english": "There was a learning curve.", "translation": "Была кривая обучения." },
+    { "original": "make room for", "english": "We made room for innovation.", "translation": "Мы освободили место для инноваций." },
+    { "original": "hit the ground running", "english": "She hit the ground running.", "translation": "Она быстро включилась в работу." },
+    { "original": "keep in mind", "english": "Keep this in mind.", "translation": "Имей это в виду." },
+    { "original": "set the tone", "english": "Leadership sets the tone.", "translation": "Лидерство задаёт тон." },
+    { "original": "play it safe", "english": "Sometimes we play it safe.", "translation": "Иногда мы действуем осторожно." },
+    { "original": "take it seriously", "english": "We take it seriously.", "translation": "Мы относимся к этому серьёзно." },
+    { "original": "make a point", "english": "He made a strong point.", "translation": "Он подчеркнул важную мысль." },
+    { "original": "cross the line", "english": "That crossed the line.", "translation": "Это перешло границу." },
+    { "original": "draw the line", "english": "We draw the line here.", "translation": "Мы проводим границу здесь." }
   ]
 }

@@ -3,185 +3,50 @@
   "level": "Upper-Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "marketing",
-      "translation": "маркетинг"
-    },
-    {
-      "english": "advertising",
-      "translation": "реклама"
-    },
-    {
-      "english": "brand",
-      "translation": "бренд"
-    },
-    {
-      "english": "branding",
-      "translation": "брендинг"
-    },
-    {
-      "english": "awareness",
-      "translation": "узнаваемость"
-    },
-    {
-      "english": "campaign",
-      "translation": "кампания"
-    },
-    {
-      "english": "promotion",
-      "translation": "продвижение"
-    },
-    {
-      "english": "launch",
-      "translation": "запуск"
-    },
-    {
-      "english": "reach",
-      "translation": "охват"
-    },
-    {
-      "english": "impression",
-      "translation": "показ"
-    },
-    {
-      "english": "audience",
-      "translation": "аудитория"
-    },
-    {
-      "english": "target audience",
-      "translation": "целевая аудитория"
-    },
-    {
-      "english": "segment",
-      "translation": "сегмент"
-    },
-    {
-      "english": "demographics",
-      "translation": "демография"
-    },
-    {
-      "english": "persona",
-      "translation": "персона"
-    },
-    {
-      "english": "channel",
-      "translation": "канал"
-    },
-    {
-      "english": "platform",
-      "translation": "платформа"
-    },
-    {
-      "english": "social media",
-      "translation": "социальные сети"
-    },
-    {
-      "english": "email marketing",
-      "translation": "email-маркетинг"
-    },
-    {
-      "english": "content",
-      "translation": "контент"
-    },
-    {
-      "english": "copy",
-      "translation": "рекламный текст"
-    },
-    {
-      "english": "headline",
-      "translation": "заголовок"
-    },
-    {
-      "english": "message",
-      "translation": "сообщение"
-    },
-    {
-      "english": "visual",
-      "translation": "визуал"
-    },
-    {
-      "english": "creative",
-      "translation": "креатив"
-    },
-    {
-      "english": "traffic",
-      "translation": "трафик"
-    },
-    {
-      "english": "lead",
-      "translation": "лид"
-    },
-    {
-      "english": "lead generation",
-      "translation": "лидогенерация"
-    },
-    {
-      "english": "conversion rate",
-      "translation": "коэффициент конверсии"
-    },
-    {
-      "english": "bounce rate",
-      "translation": "показатель отказов"
-    },
-    {
-      "english": "cost",
-      "translation": "стоимость"
-    },
-    {
-      "english": "budget",
-      "translation": "бюджет"
-    },
-    {
-      "english": "ROI",
-      "translation": "окупаемость инвестиций"
-    },
-    {
-      "english": "CPA",
-      "translation": "стоимость за действие"
-    },
-    {
-      "english": "CTR",
-      "translation": "кликабельность"
-    },
-    {
-      "english": "optimization",
-      "translation": "оптимизация"
-    },
-    {
-      "english": "testing",
-      "translation": "тестирование"
-    },
-    {
-      "english": "performance",
-      "translation": "эффективность"
-    },
-    {
-      "english": "growth",
-      "translation": "рост"
-    },
-    {
-      "english": "scaling",
-      "translation": "масштабирование"
-    },
-    {
-      "english": "retargeting",
-      "translation": "ретаргетинг"
-    },
-    {
-      "english": "remarketing",
-      "translation": "ремаркетинг"
-    },
-    {
-      "english": "influencer",
-      "translation": "инфлюенсер"
-    },
-    {
-      "english": "partnership",
-      "translation": "партнёрство"
-    },
-    {
-      "english": "affiliate",
-      "translation": "партнёр"
-    }
+    { "original": "marketing", "english": "Marketing drives sustainable growth.", "translation": "Маркетинг стимулирует устойчивый рост." },
+    { "original": "advertising", "english": "Advertising increased brand visibility.", "translation": "Реклама повысила видимость бренда." },
+    { "original": "brand", "english": "The brand built trust.", "translation": "Бренд сформировал доверие." },
+    { "original": "branding", "english": "Branding shaped customer perception.", "translation": "Брендинг сформировал восприятие клиентов." },
+    { "original": "awareness", "english": "Awareness expanded across markets.", "translation": "Узнаваемость расширилась на разных рынках." },
+    { "original": "campaign", "english": "The campaign delivered strong results.", "translation": "Кампания принесла сильные результаты." },
+    { "original": "promotion", "english": "Promotion boosted engagement.", "translation": "Продвижение повысило вовлечённость." },
+    { "original": "launch", "english": "The launch attracted attention.", "translation": "Запуск привлёк внимание." },
+    { "original": "reach", "english": "Reach grew organically.", "translation": "Охват рос естественно." },
+    { "original": "impression", "english": "Impressions increased significantly.", "translation": "Показы значительно выросли." },
+    { "original": "audience", "english": "The audience responded positively.", "translation": "Аудитория отреагировала положительно." },
+    { "original": "target audience", "english": "Target audience showed interest.", "translation": "Целевая аудитория проявила интерес." },
+    { "original": "segment", "english": "The segment expanded rapidly.", "translation": "Сегмент быстро расширился." },
+    { "original": "demographics", "english": "Demographics shaped campaign strategy.", "translation": "Демография сформировала стратегию кампании." },
+    { "original": "persona", "english": "Persona clarified user needs.", "translation": "Персона прояснила потребности пользователя." },
+    { "original": "channel", "english": "The channel improved distribution.", "translation": "Канал улучшил распространение." },
+    { "original": "platform", "english": "The platform increased visibility.", "translation": "Платформа повысила видимость." },
+    { "original": "social media", "english": "Social media amplified engagement.", "translation": "Социальные сети усилили вовлечённость." },
+    { "original": "email marketing", "english": "Email marketing nurtured leads.", "translation": "Email-маркетинг развил лиды." },
+    { "original": "content", "english": "Content delivered clear value.", "translation": "Контент принёс понятную ценность." },
+    { "original": "copy", "english": "Copy strengthened the message.", "translation": "Рекламный текст усилил сообщение." },
+    { "original": "headline", "english": "The headline captured attention.", "translation": "Заголовок привлёк внимание." },
+    { "original": "message", "english": "The message resonated strongly.", "translation": "Сообщение вызвало сильный отклик." },
+    { "original": "visual", "english": "Visual elements enhanced impact.", "translation": "Визуал усилил эффект." },
+    { "original": "creative", "english": "Creative concepts inspired action.", "translation": "Креатив вдохновил на действие." },
+    { "original": "traffic", "english": "Traffic increased steadily.", "translation": "Трафик стабильно рос." },
+    { "original": "lead", "english": "The lead converted successfully.", "translation": "Лид успешно сконвертировался." },
+    { "original": "lead generation", "english": "Lead generation accelerated growth.", "translation": "Лидогенерация ускорила рост." },
+    { "original": "conversion rate", "english": "Conversion rate improved significantly.", "translation": "Коэффициент конверсии значительно улучшился." },
+    { "original": "bounce rate", "english": "Bounce rate decreased gradually.", "translation": "Показатель отказов постепенно снизился." },
+    { "original": "cost", "english": "Cost remained manageable.", "translation": "Стоимость оставалась управляемой." },
+    { "original": "budget", "english": "The budget supported expansion.", "translation": "Бюджет поддержал расширение." },
+    { "original": "ROI", "english": "ROI exceeded expectations.", "translation": "Окупаемость инвестиций превзошла ожидания." },
+    { "original": "CPA", "english": "CPA improved over time.", "translation": "Стоимость за действие улучшилась со временем." },
+    { "original": "CTR", "english": "CTR reached new highs.", "translation": "Кликабельность достигла новых значений." },
+    { "original": "optimization", "english": "Optimization increased performance.", "translation": "Оптимизация повысила эффективность." },
+    { "original": "testing", "english": "Testing validated campaign ideas.", "translation": "Тестирование подтвердило идеи кампании." },
+    { "original": "performance", "english": "Performance exceeded benchmarks.", "translation": "Эффективность превзошла ориентиры." },
+    { "original": "growth", "english": "Growth accelerated across channels.", "translation": "Рост ускорился по всем каналам." },
+    { "original": "scaling", "english": "Scaling expanded market reach.", "translation": "Масштабирование расширило рыночный охват." },
+    { "original": "retargeting", "english": "Retargeting improved conversions.", "translation": "Ретаргетинг улучшил конверсии." },
+    { "original": "remarketing", "english": "Remarketing strengthened engagement.", "translation": "Ремаркетинг усилил вовлечённость." },
+    { "original": "influencer", "english": "The influencer increased awareness.", "translation": "Инфлюенсер повысил узнаваемость." },
+    { "original": "partnership", "english": "Partnership created new opportunities.", "translation": "Партнёрство создало новые возможности." },
+    { "original": "affiliate", "english": "The affiliate generated revenue.", "translation": "Партнёр принёс выручку." }
   ]
 }

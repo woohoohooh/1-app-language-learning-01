@@ -3,113 +3,32 @@
   "level": "Beginner",
   "name": "Sentences",
   "items": [
-    {
-      "english": "weather",
-      "translation": "погода"
-    },
-    {
-      "english": "nature",
-      "translation": "природа"
-    },
-    {
-      "english": "sun",
-      "translation": "солнце"
-    },
-    {
-      "english": "sunny",
-      "translation": "солнечно"
-    },
-    {
-      "english": "cloud",
-      "translation": "облако"
-    },
-    {
-      "english": "cloudy",
-      "translation": "облачно"
-    },
-    {
-      "english": "rain",
-      "translation": "дождь"
-    },
-    {
-      "english": "rainy",
-      "translation": "дождливо"
-    },
-    {
-      "english": "snow",
-      "translation": "снег"
-    },
-    {
-      "english": "snowy",
-      "translation": "снежно"
-    },
-    {
-      "english": "wind",
-      "translation": "ветер"
-    },
-    {
-      "english": "windy",
-      "translation": "ветрено"
-    },
-    {
-      "english": "hot",
-      "translation": "жарко"
-    },
-    {
-      "english": "warm",
-      "translation": "тепло"
-    },
-    {
-      "english": "cool",
-      "translation": "прохладно"
-    },
-    {
-      "english": "cold",
-      "translation": "холодно"
-    },
-    {
-      "english": "sky",
-      "translation": "небо"
-    },
-    {
-      "english": "air",
-      "translation": "воздух"
-    },
-    {
-      "english": "tree",
-      "translation": "дерево"
-    },
-    {
-      "english": "forest",
-      "translation": "лес"
-    },
-    {
-      "english": "field",
-      "translation": "поле"
-    },
-    {
-      "english": "river",
-      "translation": "река"
-    },
-    {
-      "english": "lake",
-      "translation": "озеро"
-    },
-    {
-      "english": "sea",
-      "translation": "море"
-    },
-    {
-      "english": "mountain",
-      "translation": "гора"
-    },
-    {
-      "english": "day",
-      "translation": "день"
-    },
-    {
-      "english": "night",
-      "translation": "ночь"
-    }
+    { "original": "weather", "english": "The weather is nice today.", "translation": "Погода сегодня хорошая." },
+    { "original": "nature", "english": "Nature is amazing.", "translation": "Природа удивительная." },
+    { "original": "sun", "english": "The sun is bright.", "translation": "Солнце яркое." },
+    { "original": "sunny", "english": "It is sunny today.", "translation": "Сегодня солнечно." },
+    { "original": "cloud", "english": "A cloud is in the sky.", "translation": "Облако в небе." },
+    { "original": "cloudy", "english": "It is cloudy but beautiful.", "translation": "Облачно, но красиво." },
+    { "original": "rain", "english": "The rain is light and fresh.", "translation": "Дождь лёгкий и освежающий." },
+    { "original": "rainy", "english": "It is rainy and calm today.", "translation": "Сегодня дождливо и спокойно." },
+    { "original": "snow", "english": "The snow is soft and white.", "translation": "Снег мягкий и белый." },
+    { "original": "snowy", "english": "It is snowy outside.", "translation": "На улице снежно." },
+    { "original": "wind", "english": "The wind is cool and fresh.", "translation": "Ветер прохладный и свежий." },
+    { "original": "windy", "english": "It is windy but pleasant.", "translation": "Ветрено, но приятно." },
+    { "original": "hot", "english": "It is hot and sunny today.", "translation": "Сегодня жарко и солнечно." },
+    { "original": "warm", "english": "It is warm in the room.", "translation": "В комнате тепло." },
+    { "original": "cool", "english": "It is cool and fresh outside.", "translation": "На улице прохладно и свежо." },
+    { "original": "cold", "english": "It is cold but clear today.", "translation": "Сегодня холодно, но ясно." },
+    { "original": "sky", "english": "The sky is clear and blue.", "translation": "Небо ясное и голубое." },
+    { "original": "air", "english": "The air is fresh.", "translation": "Воздух свежий." },
+    { "original": "tree", "english": "The tree is tall and green.", "translation": "Дерево высокое и зелёное." },
+    { "original": "forest", "english": "The forest is green and quiet.", "translation": "Лес зелёный и тихий." },
+    { "original": "field", "english": "The field is wide and bright.", "translation": "Поле широкое и светлое." },
+    { "original": "river", "english": "The river is clean and calm.", "translation": "Река чистая и спокойная." },
+    { "original": "lake", "english": "The lake is calm and blue.", "translation": "Озеро спокойное и голубое." },
+    { "original": "sea", "english": "The sea is blue and beautiful.", "translation": "Море голубое и красивое." },
+    { "original": "mountain", "english": "The mountain is high and strong.", "translation": "Гора высокая и величественная." },
+    { "original": "day", "english": "It is a sunny day.", "translation": "Это солнечный день." },
+    { "original": "night", "english": "The night is quiet and peaceful.", "translation": "Ночь тихая и спокойная." }
   ]
 }

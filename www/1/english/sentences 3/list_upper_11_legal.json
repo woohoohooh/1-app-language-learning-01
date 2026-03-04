@@ -3,165 +3,45 @@
   "level": "Upper-Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "law",
-      "translation": "закон"
-    },
-    {
-      "english": "legal",
-      "translation": "юридический"
-    },
-    {
-      "english": "contract",
-      "translation": "договор"
-    },
-    {
-      "english": "agreement",
-      "translation": "соглашение"
-    },
-    {
-      "english": "clause",
-      "translation": "пункт договора"
-    },
-    {
-      "english": "terms",
-      "translation": "условия"
-    },
-    {
-      "english": "conditions",
-      "translation": "условия"
-    },
-    {
-      "english": "obligation",
-      "translation": "обязательство"
-    },
-    {
-      "english": "liability",
-      "translation": "ответственность"
-    },
-    {
-      "english": "penalty",
-      "translation": "штраф"
-    },
-    {
-      "english": "breach",
-      "translation": "нарушение"
-    },
-    {
-      "english": "violation",
-      "translation": "нарушение"
-    },
-    {
-      "english": "compliance",
-      "translation": "соответствие требованиям"
-    },
-    {
-      "english": "regulation",
-      "translation": "регулирование"
-    },
-    {
-      "english": "policy",
-      "translation": "политика"
-    },
-    {
-      "english": "rights",
-      "translation": "права"
-    },
-    {
-      "english": "duties",
-      "translation": "обязанности"
-    },
-    {
-      "english": "party",
-      "translation": "сторона"
-    },
-    {
-      "english": "third party",
-      "translation": "третья сторона"
-    },
-    {
-      "english": "counterparty",
-      "translation": "контрагент"
-    },
-    {
-      "english": "signature",
-      "translation": "подпись"
-    },
-    {
-      "english": "amendment",
-      "translation": "поправка"
-    },
-    {
-      "english": "termination",
-      "translation": "расторжение"
-    },
-    {
-      "english": "expiration",
-      "translation": "истечение срока"
-    },
-    {
-      "english": "renewal",
-      "translation": "продление"
-    },
-    {
-      "english": "dispute",
-      "translation": "спор"
-    },
-    {
-      "english": "claim",
-      "translation": "претензия"
-    },
-    {
-      "english": "lawsuit",
-      "translation": "судебный иск"
-    },
-    {
-      "english": "court",
-      "translation": "суд"
-    },
-    {
-      "english": "settlement",
-      "translation": "мировое соглашение"
-    },
-    {
-      "english": "jurisdiction",
-      "translation": "юрисдикция"
-    },
-    {
-      "english": "intellectual property",
-      "translation": "интеллектуальная собственность"
-    },
-    {
-      "english": "copyright",
-      "translation": "авторское право"
-    },
-    {
-      "english": "trademark",
-      "translation": "товарный знак"
-    },
-    {
-      "english": "confidentiality",
-      "translation": "конфиденциальность"
-    },
-    {
-      "english": "privacy",
-      "translation": "приватность"
-    },
-    {
-      "english": "consent",
-      "translation": "согласие"
-    },
-    {
-      "english": "authorization",
-      "translation": "разрешение"
-    },
-    {
-      "english": "representation",
-      "translation": "заявление/гарантия"
-    },
-    {
-      "english": "warranty",
-      "translation": "гарантия"
-    }
+    { "original": "law", "english": "Law protects fundamental rights.", "translation": "Закон защищает основные права." },
+    { "original": "legal", "english": "Legal advice ensured compliance.", "translation": "Юридическая консультация обеспечила соответствие требованиям." },
+    { "original": "contract", "english": "The contract defined obligations clearly.", "translation": "Договор чётко определил обязательства." },
+    { "original": "agreement", "english": "The agreement reflected mutual interests.", "translation": "Соглашение отразило взаимные интересы." },
+    { "original": "clause", "english": "The clause clarified responsibilities.", "translation": "Пункт договора прояснил ответственность." },
+    { "original": "terms", "english": "The terms remained transparent.", "translation": "Условия оставались прозрачными." },
+    { "original": "conditions", "english": "Conditions ensured legal certainty.", "translation": "Условия обеспечили юридическую определённость." },
+    { "original": "obligation", "english": "Obligation required timely performance.", "translation": "Обязательство требовало своевременного исполнения." },
+    { "original": "liability", "english": "Liability covered potential risks.", "translation": "Ответственность охватывала возможные риски." },
+    { "original": "penalty", "english": "The penalty encouraged compliance.", "translation": "Штраф способствовал соблюдению требований." },
+    { "original": "breach", "english": "The breach triggered negotiations.", "translation": "Нарушение инициировало переговоры." },
+    { "original": "violation", "english": "The violation required clarification.", "translation": "Нарушение потребовало разъяснения." },
+    { "original": "compliance", "english": "Compliance strengthened corporate governance.", "translation": "Соответствие требованиям укрепило корпоративное управление." },
+    { "original": "regulation", "english": "Regulation shaped industry standards.", "translation": "Регулирование сформировало отраслевые стандарты." },
+    { "original": "policy", "english": "The policy guided internal procedures.", "translation": "Политика направила внутренние процедуры." },
+    { "original": "rights", "english": "Rights remained protected by law.", "translation": "Права оставались защищёнными законом." },
+    { "original": "duties", "english": "Duties required responsible conduct.", "translation": "Обязанности требовали ответственного поведения." },
+    { "original": "party", "english": "Each party confirmed participation.", "translation": "Каждая сторона подтвердила участие." },
+    { "original": "third party", "english": "Third party ensured neutrality.", "translation": "Третья сторона обеспечила нейтральность." },
+    { "original": "counterparty", "english": "The counterparty fulfilled obligations.", "translation": "Контрагент исполнил обязательства." },
+    { "original": "signature", "english": "The signature formalized the agreement.", "translation": "Подпись формализовала соглашение." },
+    { "original": "amendment", "english": "The amendment updated contract terms.", "translation": "Поправка обновила условия договора." },
+    { "original": "termination", "english": "Termination followed legal procedure.", "translation": "Расторжение прошло по юридической процедуре." },
+    { "original": "expiration", "english": "Expiration ended contractual obligations.", "translation": "Истечение срока завершило обязательства." },
+    { "original": "renewal", "english": "Renewal extended the agreement.", "translation": "Продление продлило соглашение." },
+    { "original": "dispute", "english": "The dispute required mediation.", "translation": "Спор потребовал медиации." },
+    { "original": "claim", "english": "The claim initiated legal review.", "translation": "Претензия инициировала юридическую проверку." },
+    { "original": "lawsuit", "english": "The lawsuit proceeded to court.", "translation": "Судебный иск перешёл в суд." },
+    { "original": "court", "english": "The court issued a decision.", "translation": "Суд вынес решение." },
+    { "original": "settlement", "english": "Settlement resolved the conflict.", "translation": "Мировое соглашение урегулировало конфликт." },
+    { "original": "jurisdiction", "english": "Jurisdiction determined applicable law.", "translation": "Юрисдикция определила применимое право." },
+    { "original": "intellectual property", "english": "Intellectual property protected innovations.", "translation": "Интеллектуальная собственность защитила инновации." },
+    { "original": "copyright", "english": "Copyright safeguarded creative works.", "translation": "Авторское право защитило творческие работы." },
+    { "original": "trademark", "english": "Trademark secured brand identity.", "translation": "Товарный знак защитил идентичность бренда." },
+    { "original": "confidentiality", "english": "Confidentiality ensured data protection.", "translation": "Конфиденциальность обеспечила защиту данных." },
+    { "original": "privacy", "english": "Privacy remained a priority.", "translation": "Приватность оставалась приоритетом." },
+    { "original": "consent", "english": "Consent validated data processing.", "translation": "Согласие узаконило обработку данных." },
+    { "original": "authorization", "english": "Authorization granted access rights.", "translation": "Разрешение предоставило права доступа." },
+    { "original": "representation", "english": "Representation confirmed factual accuracy.", "translation": "Заявление подтвердило фактическую точность." },
+    { "original": "warranty", "english": "Warranty guaranteed product quality.", "translation": "Гарантия обеспечила качество продукта." }
   ]
 }

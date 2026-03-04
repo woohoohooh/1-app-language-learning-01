@@ -3,177 +3,48 @@
   "level": "Beginner",
   "name": "Sentences",
   "items": [
-    {
-      "english": "food",
-      "translation": "еда"
-    },
-    {
-      "english": "meal",
-      "translation": "приём пищи"
-    },
-    {
-      "english": "breakfast",
-      "translation": "завтрак"
-    },
-    {
-      "english": "lunch",
-      "translation": "обед"
-    },
-    {
-      "english": "dinner",
-      "translation": "ужин"
-    },
-    {
-      "english": "bread",
-      "translation": "хлеб"
-    },
-    {
-      "english": "butter",
-      "translation": "масло"
-    },
-    {
-      "english": "cheese",
-      "translation": "сыр"
-    },
-    {
-      "english": "egg",
-      "translation": "яйцо"
-    },
-    {
-      "english": "meat",
-      "translation": "мясо"
-    },
-    {
-      "english": "chicken",
-      "translation": "курица"
-    },
-    {
-      "english": "fish",
-      "translation": "рыба"
-    },
-    {
-      "english": "rice",
-      "translation": "рис"
-    },
-    {
-      "english": "soup",
-      "translation": "суп"
-    },
-    {
-      "english": "vegetable",
-      "translation": "овощ"
-    },
-    {
-      "english": "potato",
-      "translation": "картофель"
-    },
-    {
-      "english": "tomato",
-      "translation": "помидор"
-    },
-    {
-      "english": "onion",
-      "translation": "лук"
-    },
-    {
-      "english": "fruit",
-      "translation": "фрукты"
-    },
-    {
-      "english": "apple",
-      "translation": "яблоко"
-    },
-    {
-      "english": "banana",
-      "translation": "банан"
-    },
-    {
-      "english": "orange",
-      "translation": "апельсин"
-    },
-    {
-      "english": "salt",
-      "translation": "соль"
-    },
-    {
-      "english": "sugar",
-      "translation": "сахар"
-    },
-    {
-      "english": "oil",
-      "translation": "масло"
-    },
-    {
-      "english": "sauce",
-      "translation": "соус"
-    },
-    {
-      "english": "cake",
-      "translation": "торт"
-    },
-    {
-      "english": "cookie",
-      "translation": "печенье"
-    },
-    {
-      "english": "chocolate",
-      "translation": "шоколад"
-    },
-    {
-      "english": "dessert",
-      "translation": "десерт"
-    },
-    {
-      "english": "water",
-      "translation": "вода"
-    },
-    {
-      "english": "tea",
-      "translation": "чай"
-    },
-    {
-      "english": "coffee",
-      "translation": "кофе"
-    },
-    {
-      "english": "milk",
-      "translation": "молоко"
-    },
-    {
-      "english": "juice",
-      "translation": "сок"
-    },
-    {
-      "english": "hungry",
-      "translation": "голодный"
-    },
-    {
-      "english": "full",
-      "translation": "сытый"
-    },
-    {
-      "english": "taste",
-      "translation": "вкус"
-    },
-    {
-      "english": "sweet",
-      "translation": "сладкий"
-    },
-    {
-      "english": "hot",
-      "translation": "горячий"
-    },
-    {
-      "english": "cold",
-      "translation": "холодный"
-    },
-    {
-      "english": "drink",
-      "translation": "пить"
-    },
-    {
-      "english": "pasta",
-      "translation": "паста"
-    }
+    { "original": "food", "english": "The food is tasty.", "translation": "Еда вкусная." },
+    { "original": "meal", "english": "This meal is ready.", "translation": "Этот приём пищи готов." },
+    { "original": "breakfast", "english": "Breakfast is ready.", "translation": "Завтрак готов." },
+    { "original": "lunch", "english": "I have lunch at noon.", "translation": "Я обедаю в полдень." },
+    { "original": "dinner", "english": "We eat dinner together.", "translation": "Мы ужинаем вместе." },
+    { "original": "bread", "english": "I eat bread every day.", "translation": "Я ем хлеб каждый день." },
+    { "original": "butter", "english": "Butter is on the bread.", "translation": "Масло на хлебе." },
+    { "original": "cheese", "english": "The cheese smells nice.", "translation": "Сыр приятно пахнет." },
+    { "original": "egg", "english": "I eat an egg for breakfast.", "translation": "Я ем яйцо на завтрак." },
+    { "original": "meat", "english": "The meat is warm.", "translation": "Мясо тёплое." },
+    { "original": "chicken", "english": "We cook chicken at home.", "translation": "Мы готовим курицу дома." },
+    { "original": "fish", "english": "The fish is fresh.", "translation": "Рыба свежая." },
+    { "original": "rice", "english": "I like rice with vegetables.", "translation": "Мне нравится рис с овощами." },
+    { "original": "soup", "english": "The soup is hot.", "translation": "Суп горячий." },
+    { "original": "vegetable", "english": "This vegetable is green.", "translation": "Этот овощ зелёный." },
+    { "original": "potato", "english": "The potato is on the plate.", "translation": "Картофель на тарелке." },
+    { "original": "tomato", "english": "The tomato is red.", "translation": "Помидор красный." },
+    { "original": "onion", "english": "The onion is in the soup.", "translation": "Лук в супе." },
+    { "original": "fruit", "english": "Fruit is healthy.", "translation": "Фрукты полезные." },
+    { "original": "apple", "english": "I eat an apple every day.", "translation": "Я ем яблоко каждый день." },
+    { "original": "banana", "english": "The banana is sweet.", "translation": "Банан сладкий." },
+    { "original": "orange", "english": "The orange is juicy.", "translation": "Апельсин сочный." },
+    { "original": "salt", "english": "I add some salt.", "translation": "Я добавляю немного соли." },
+    { "original": "sugar", "english": "I put sugar in my tea.", "translation": "Я кладу сахар в свой чай." },
+    { "original": "oil", "english": "I put oil in the pan.", "translation": "Я наливаю масло в сковороду." },
+    { "original": "sauce", "english": "The sauce tastes nice.", "translation": "Соус приятный на вкус." },
+    { "original": "cake", "english": "The cake is for you.", "translation": "Торт для тебя." },
+    { "original": "cookie", "english": "I eat a cookie.", "translation": "Я ем печенье." },
+    { "original": "chocolate", "english": "This chocolate is sweet.", "translation": "Этот шоколад сладкий." },
+    { "original": "dessert", "english": "Dessert is my favorite.", "translation": "Десерт — мой любимый." },
+    { "original": "water", "english": "I drink water every day.", "translation": "Я пью воду каждый день." },
+    { "original": "tea", "english": "I drink tea in the morning.", "translation": "Я пью чай утром." },
+    { "original": "coffee", "english": "He drinks coffee at work.", "translation": "Он пьёт кофе на работе." },
+    { "original": "milk", "english": "The milk is cold.", "translation": "Молоко холодное." },
+    { "original": "juice", "english": "The juice is fresh.", "translation": "Сок свежий." },
+    { "original": "hungry", "english": "I feel hungry before dinner.", "translation": "Я чувствую голод перед ужином." },
+    { "original": "full", "english": "I am full now.", "translation": "Я сейчас сыт." },
+    { "original": "taste", "english": "The taste is great.", "translation": "Вкус отличный." },
+    { "original": "sweet", "english": "The dessert is sweet.", "translation": "Десерт сладкий." },
+    { "original": "hot", "english": "The tea is hot.", "translation": "Чай горячий." },
+    { "original": "cold", "english": "The water is cold.", "translation": "Вода холодная." },
+    { "original": "drink", "english": "I drink milk every morning.", "translation": "Я пью молоко каждое утро." },
+    { "original": "pasta", "english": "We eat pasta for dinner.", "translation": "Мы едим пасту на ужин." }
   ]
 }

@@ -3,357 +3,93 @@
   "level": "Beginner",
   "name": "Sentences",
   "items": [
-    {
-      "english": "I",
-      "translation": "я"
-    },
-    {
-      "english": "you",
-      "translation": "ты"
-    },
-    {
-      "english": "he",
-      "translation": "он"
-    },
-    {
-      "english": "she",
-      "translation": "она"
-    },
-    {
-      "english": "we",
-      "translation": "мы"
-    },
-    {
-      "english": "they",
-      "translation": "они"
-    },
-    {
-      "english": "be",
-      "translation": "быть"
-    },
-    {
-      "english": "have",
-      "translation": "иметь"
-    },
-    {
-      "english": "do",
-      "translation": "делать"
-    },
-    {
-      "english": "say",
-      "translation": "говорить"
-    },
-    {
-      "english": "come",
-      "translation": "приходить"
-    },
-    {
-      "english": "see",
-      "translation": "видеть"
-    },
-    {
-      "english": "hear",
-      "translation": "слышать"
-    },
-    {
-      "english": "know",
-      "translation": "знать"
-    },
-    {
-      "english": "think",
-      "translation": "думать"
-    },
-    {
-      "english": "want",
-      "translation": "хотеть"
-    },
-    {
-      "english": "need",
-      "translation": "нуждаться"
-    },
-    {
-      "english": "like",
-      "translation": "нравиться"
-    },
-    {
-      "english": "use",
-      "translation": "использовать"
-    },
-    {
-      "english": "try",
-      "translation": "пытаться"
-    },
-    {
-      "english": "ask",
-      "translation": "спрашивать"
-    },
-    {
-      "english": "give",
-      "translation": "давать"
-    },
-    {
-      "english": "take",
-      "translation": "брать"
-    },
-    {
-      "english": "find",
-      "translation": "находить"
-    },
-    {
-      "english": "tell",
-      "translation": "рассказывать"
-    },
-    {
-      "english": "feel",
-      "translation": "чувствовать"
-    },
-    {
-      "english": "bring",
-      "translation": "приносить"
-    },
-    {
-      "english": "time",
-      "translation": "время"
-    },
-    {
-      "english": "day",
-      "translation": "день"
-    },
-    {
-      "english": "year",
-      "translation": "год"
-    },
-    {
-      "english": "people",
-      "translation": "люди"
-    },
-    {
-      "english": "person",
-      "translation": "человек"
-    },
-    {
-      "english": "life",
-      "translation": "жизнь"
-    },
-    {
-      "english": "thing",
-      "translation": "вещь"
-    },
-    {
-      "english": "place",
-      "translation": "место"
-    },
-    {
-      "english": "problem",
-      "translation": "проблема"
-    },
-    {
-      "english": "question",
-      "translation": "вопрос"
-    },
-    {
-      "english": "home",
-      "translation": "дом"
-    },
-    {
-      "english": "world",
-      "translation": "мир"
-    },
-    {
-      "english": "friend",
-      "translation": "друг"
-    },
-    {
-      "english": "family",
-      "translation": "семья"
-    },
-    {
-      "english": "good",
-      "translation": "хороший"
-    },
-    {
-      "english": "bad",
-      "translation": "плохой"
-    },
-    {
-      "english": "big",
-      "translation": "большой"
-    },
-    {
-      "english": "small",
-      "translation": "маленький"
-    },
-    {
-      "english": "new",
-      "translation": "новый"
-    },
-    {
-      "english": "old",
-      "translation": "старый"
-    },
-    {
-      "english": "same",
-      "translation": "одинаковый"
-    },
-    {
-      "english": "different",
-      "translation": "разный"
-    },
-    {
-      "english": "important",
-      "translation": "важный"
-    },
-    {
-      "english": "easy",
-      "translation": "лёгкий"
-    },
-    {
-      "english": "hard",
-      "translation": "трудный"
-    },
-    {
-      "english": "wrong",
-      "translation": "неправильный"
-    },
-    {
-      "english": "very",
-      "translation": "очень"
-    },
-    {
-      "english": "really",
-      "translation": "действительно"
-    },
-    {
-      "english": "only",
-      "translation": "только"
-    },
-    {
-      "english": "now",
-      "translation": "сейчас"
-    },
-    {
-      "english": "here",
-      "translation": "здесь"
-    },
-    {
-      "english": "there",
-      "translation": "там"
-    },
-    {
-      "english": "always",
-      "translation": "всегда"
-    },
-    {
-      "english": "often",
-      "translation": "часто"
-    },
-    {
-      "english": "sometimes",
-      "translation": "иногда"
-    },
-    {
-      "english": "never",
-      "translation": "никогда"
-    },
-    {
-      "english": "in",
-      "translation": "в"
-    },
-    {
-      "english": "on",
-      "translation": "на"
-    },
-    {
-      "english": "with",
-      "translation": "с"
-    },
-    {
-      "english": "without",
-      "translation": "без"
-    },
-    {
-      "english": "for",
-      "translation": "для"
-    },
-    {
-      "english": "before",
-      "translation": "до"
-    },
-    {
-      "english": "after",
-      "translation": "после"
-    },
-    {
-      "english": "what",
-      "translation": "что"
-    },
-    {
-      "english": "who",
-      "translation": "кто"
-    },
-    {
-      "english": "where",
-      "translation": "где"
-    },
-    {
-      "english": "when",
-      "translation": "когда"
-    },
-    {
-      "english": "why",
-      "translation": "почему"
-    },
-    {
-      "english": "how",
-      "translation": "как"
-    },
-    {
-      "english": "it",
-      "translation": "это"
-    },
-    {
-      "english": "make",
-      "translation": "делать"
-    },
-    {
-      "english": "go",
-      "translation": "идти"
-    },
-    {
-      "english": "work",
-      "translation": "работать"
-    },
-    {
-      "english": "leave",
-      "translation": "уходить"
-    },
-    {
-      "english": "way",
-      "translation": "способ"
-    },
-    {
-      "english": "right",
-      "translation": "правильный"
-    },
-    {
-      "english": "just",
-      "translation": "только что"
-    },
-    {
-      "english": "at",
-      "translation": "у"
-    },
-    {
-      "english": "to",
-      "translation": "к"
-    },
-    {
-      "english": "from",
-      "translation": "из"
-    },
-    {
-      "english": "about",
-      "translation": "о"
-    }
+    { "original": "I", "english": "I am here now.", "translation": "Я сейчас здесь." },
+    { "original": "you", "english": "You are my friend.", "translation": "Ты мой друг." },
+    { "original": "he", "english": "He is at home.", "translation": "Он дома." },
+    { "original": "she", "english": "She is very kind.", "translation": "Она очень добрая." },
+    { "original": "we", "english": "We are a family.", "translation": "Мы семья." },
+    { "original": "they", "english": "They are in the room.", "translation": "Они в комнате." },
+    { "original": "be", "english": "I want to be happy.", "translation": "Я хочу быть счастливым." },
+    { "original": "have", "english": "I have a new job.", "translation": "У меня новая работа." },
+    { "original": "do", "english": "I do my homework.", "translation": "Я делаю домашнюю работу." },
+    { "original": "say", "english": "She says hello.", "translation": "Она говорит привет." },
+    { "original": "come", "english": "Come to my place.", "translation": "Приходи ко мне." },
+    { "original": "see", "english": "I see a tall building.", "translation": "Я вижу высокое здание." },
+    { "original": "hear", "english": "I hear music.", "translation": "Я слышу музыку." },
+    { "original": "know", "english": "I know this person.", "translation": "Я знаю этого человека." },
+    { "original": "think", "english": "I think it is useful.", "translation": "Я думаю, это полезно." },
+    { "original": "want", "english": "I want a new phone.", "translation": "Я хочу новый телефон." },
+    { "original": "need", "english": "We need more time.", "translation": "Нам нужно больше времени." },
+    { "original": "like", "english": "I like this song.", "translation": "Мне нравится эта песня." },
+    { "original": "use", "english": "I use this app.", "translation": "Я использую это приложение." },
+    { "original": "try", "english": "Try again.", "translation": "Попробуй снова." },
+    { "original": "ask", "english": "I ask my teacher.", "translation": "Я спрашиваю учителя." },
+    { "original": "give", "english": "Give me a minute.", "translation": "Дай мне минуту." },
+    { "original": "take", "english": "Take your bag.", "translation": "Возьми свою сумку." },
+    { "original": "find", "english": "I find my keys.", "translation": "Я нахожу свои ключи." },
+    { "original": "tell", "english": "Tell me your name.", "translation": "Скажи мне своё имя." },
+    { "original": "feel", "english": "I feel calm.", "translation": "Я чувствую себя спокойно." },
+    { "original": "bring", "english": "Bring some water.", "translation": "Принеси воды." },
+    { "original": "time", "english": "It is time to start.", "translation": "Пора начинать." },
+    { "original": "day", "english": "Today is a sunny day.", "translation": "Сегодня солнечный день." },
+    { "original": "year", "english": "This year is special.", "translation": "Этот год особенный." },
+    { "original": "people", "english": "People are friendly.", "translation": "Люди дружелюбные." },
+    { "original": "person", "english": "She is a kind person.", "translation": "Она добрый человек." },
+    { "original": "life", "english": "Life is interesting.", "translation": "Жизнь интересная." },
+    { "original": "thing", "english": "This thing is useful.", "translation": "Эта вещь полезная." },
+    { "original": "place", "english": "This place is quiet.", "translation": "Это место тихое." },
+    { "original": "problem", "english": "The problem is simple.", "translation": "Проблема простая." },
+    { "original": "question", "english": "I have a question.", "translation": "У меня есть вопрос." },
+    { "original": "home", "english": "Home is warm.", "translation": "Дома уютно." },
+    { "original": "world", "english": "The world is wide.", "translation": "Мир огромный." },
+    { "original": "friend", "english": "My friend is funny.", "translation": "Мой друг весёлый." },
+    { "original": "family", "english": "My family is supportive.", "translation": "Моя семья поддерживает меня." },
+    { "original": "good", "english": "This book is good.", "translation": "Эта книга хорошая." },
+    { "original": "bad", "english": "This weather is not bad.", "translation": "Погода неплохая." },
+    { "original": "big", "english": "It is a big city.", "translation": "Это большой город." },
+    { "original": "small", "english": "I have a small dog.", "translation": "У меня маленькая собака." },
+    { "original": "new", "english": "This phone is new.", "translation": "Этот телефон новый." },
+    { "original": "old", "english": "This house is old.", "translation": "Этот дом старый." },
+    { "original": "same", "english": "We have the same plan.", "translation": "У нас одинаковый план." },
+    { "original": "different", "english": "They have different ideas.", "translation": "У них разные идеи." },
+    { "original": "important", "english": "This step is important.", "translation": "Этот шаг важный." },
+    { "original": "easy", "english": "English is easy.", "translation": "Английский лёгкий." },
+    { "original": "hard", "english": "This puzzle is hard but fun.", "translation": "Этот пазл сложный, но интересный." },
+    { "original": "wrong", "english": "The answer is not wrong.", "translation": "Ответ правильный." },
+    { "original": "very", "english": "It is very warm today.", "translation": "Сегодня очень тепло." },
+    { "original": "really", "english": "I really enjoy this.", "translation": "Мне правда это нравится." },
+    { "original": "only", "english": "I have only one ticket.", "translation": "У меня только один билет." },
+    { "original": "now", "english": "I am busy now.", "translation": "Я занят сейчас." },
+    { "original": "here", "english": "Sit here.", "translation": "Сядь здесь." },
+    { "original": "there", "english": "The park is there.", "translation": "Парк там." },
+    { "original": "always", "english": "I always wake up early.", "translation": "Я всегда встаю рано." },
+    { "original": "often", "english": "We often cook at home.", "translation": "Мы часто готовим дома." },
+    { "original": "sometimes", "english": "I sometimes read at night.", "translation": "Иногда я читаю ночью." },
+    { "original": "never", "english": "I never skip breakfast.", "translation": "Я никогда не пропускаю завтрак." },
+    { "original": "in", "english": "The keys are in the bag.", "translation": "Ключи в сумке." },
+    { "original": "on", "english": "The phone is on the table.", "translation": "Телефон на столе." },
+    { "original": "with", "english": "I am with my friend.", "translation": "Я с другом." },
+    { "original": "without", "english": "I came without my jacket.", "translation": "Я пришёл без куртки." },
+    { "original": "for", "english": "This gift is for you.", "translation": "Этот подарок для тебя." },
+    { "original": "before", "english": "Wash your hands before lunch.", "translation": "Помой руки перед обедом." },
+    { "original": "after", "english": "Call me after class.", "translation": "Позвони мне после занятия." },
+    { "original": "what", "english": "What is your name?", "translation": "Как тебя зовут?" },
+    { "original": "who", "english": "Who is that?", "translation": "Кто это?" },
+    { "original": "where", "english": "Where are you now?", "translation": "Где ты сейчас?" },
+    { "original": "when", "english": "When is the meeting?", "translation": "Когда встреча?" },
+    { "original": "why", "english": "Why are you smiling?", "translation": "Почему ты улыбаешься?" },
+    { "original": "how", "english": "How do you feel?", "translation": "Как ты себя чувствуешь?" },
+    { "original": "it", "english": "It is warm outside.", "translation": "На улице тепло." },
+    { "original": "make", "english": "I make breakfast.", "translation": "Я готовлю завтрак." },
+    { "original": "go", "english": "I go home now.", "translation": "Я иду домой сейчас." },
+    { "original": "work", "english": "I work every day.", "translation": "Я работаю каждый день." },
+    { "original": "leave", "english": "I leave at eight.", "translation": "Я ухожу в восемь." },
+    { "original": "way", "english": "This is the best way.", "translation": "Это лучший способ." },
+    { "original": "right", "english": "You are right.", "translation": "Ты прав." },
+    { "original": "just", "english": "I just arrived.", "translation": "Я только что пришёл." },
+    { "original": "at", "english": "I am at school.", "translation": "Я в школе." },
+    { "original": "to", "english": "I want to learn English.", "translation": "Я хочу изучать английский." },
+    { "original": "from", "english": "I am from Russia.", "translation": "Я из России." },
+    { "original": "about", "english": "We talk about travel.", "translation": "Мы говорим о путешествиях." }
   ]
 }

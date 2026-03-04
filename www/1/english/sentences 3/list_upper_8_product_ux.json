@@ -3,185 +3,50 @@
   "level": "Upper-Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "product",
-      "translation": "продукт"
-    },
-    {
-      "english": "feature",
-      "translation": "функция"
-    },
-    {
-      "english": "functionality",
-      "translation": "функциональность"
-    },
-    {
-      "english": "roadmap",
-      "translation": "дорожная карта"
-    },
-    {
-      "english": "vision",
-      "translation": "видение продукта"
-    },
-    {
-      "english": "strategy",
-      "translation": "стратегия"
-    },
-    {
-      "english": "goal",
-      "translation": "цель"
-    },
-    {
-      "english": "priority",
-      "translation": "приоритет"
-    },
-    {
-      "english": "scope",
-      "translation": "объём работ"
-    },
-    {
-      "english": "requirement",
-      "translation": "требование"
-    },
-    {
-      "english": "user",
-      "translation": "пользователь"
-    },
-    {
-      "english": "customer",
-      "translation": "клиент"
-    },
-    {
-      "english": "user experience",
-      "translation": "пользовательский опыт"
-    },
-    {
-      "english": "user interface",
-      "translation": "пользовательский интерфейс"
-    },
-    {
-      "english": "usability",
-      "translation": "удобство использования"
-    },
-    {
-      "english": "design",
-      "translation": "дизайн"
-    },
-    {
-      "english": "layout",
-      "translation": "расположение элементов"
-    },
-    {
-      "english": "prototype",
-      "translation": "прототип"
-    },
-    {
-      "english": "wireframe",
-      "translation": "вайрфрейм"
-    },
-    {
-      "english": "mockup",
-      "translation": "макет"
-    },
-    {
-      "english": "feedback",
-      "translation": "обратная связь"
-    },
-    {
-      "english": "iteration",
-      "translation": "итерация"
-    },
-    {
-      "english": "improvement",
-      "translation": "улучшение"
-    },
-    {
-      "english": "update",
-      "translation": "обновление"
-    },
-    {
-      "english": "metric",
-      "translation": "метрика"
-    },
-    {
-      "english": "analytics",
-      "translation": "аналитика"
-    },
-    {
-      "english": "conversion",
-      "translation": "конверсия"
-    },
-    {
-      "english": "retention",
-      "translation": "удержание пользователей"
-    },
-    {
-      "english": "engagement",
-      "translation": "вовлечённость"
-    },
-    {
-      "english": "hypothesis",
-      "translation": "гипотеза"
-    },
-    {
-      "english": "experiment",
-      "translation": "эксперимент"
-    },
-    {
-      "english": "A/B testing",
-      "translation": "A/B тестирование"
-    },
-    {
-      "english": "validation",
-      "translation": "проверка"
-    },
-    {
-      "english": "assumption",
-      "translation": "предположение"
-    },
-    {
-      "english": "backlog",
-      "translation": "бэклог"
-    },
-    {
-      "english": "task",
-      "translation": "задача"
-    },
-    {
-      "english": "ticket",
-      "translation": "тикет"
-    },
-    {
-      "english": "estimate",
-      "translation": "оценка"
-    },
-    {
-      "english": "deadline",
-      "translation": "дедлайн"
-    },
-    {
-      "english": "stakeholder",
-      "translation": "заинтересованная сторона"
-    },
-    {
-      "english": "alignment",
-      "translation": "согласованность"
-    },
-    {
-      "english": "decision",
-      "translation": "решение"
-    },
-    {
-      "english": "trade-off",
-      "translation": "компромисс"
-    },
-    {
-      "english": "outcome",
-      "translation": "результат"
-    },
-    {
-      "english": "review",
-      "translation": "ревью"
-    }
+    { "original": "product", "english": "The product solved real problems.", "translation": "Продукт решил реальные проблемы." },
+    { "original": "feature", "english": "The feature increased engagement.", "translation": "Функция повысила вовлечённость." },
+    { "original": "functionality", "english": "Functionality improved user satisfaction.", "translation": "Функциональность повысила удовлетворённость пользователей." },
+    { "original": "roadmap", "english": "The roadmap clarified priorities.", "translation": "Дорожная карта прояснила приоритеты." },
+    { "original": "vision", "english": "The vision shaped long-term direction.", "translation": "Видение определило долгосрочное направление." },
+    { "original": "strategy", "english": "Strategy guided product growth.", "translation": "Стратегия направила рост продукта." },
+    { "original": "goal", "english": "The goal remained measurable.", "translation": "Цель оставалась измеримой." },
+    { "original": "priority", "english": "Priority shifted toward retention.", "translation": "Приоритет сместился к удержанию." },
+    { "original": "scope", "english": "The scope stayed manageable.", "translation": "Объём работ оставался управляемым." },
+    { "original": "requirement", "english": "Requirement defined core functionality.", "translation": "Требование определило основную функциональность." },
+    { "original": "user", "english": "The user completed onboarding smoothly.", "translation": "Пользователь успешно прошёл онбординг." },
+    { "original": "customer", "english": "The customer shared positive feedback.", "translation": "Клиент оставил положительную обратную связь." },
+    { "original": "user experience", "english": "User experience improved significantly.", "translation": "Пользовательский опыт значительно улучшился." },
+    { "original": "user interface", "english": "User interface became more intuitive.", "translation": "Пользовательский интерфейс стал более интуитивным." },
+    { "original": "usability", "english": "Usability increased task completion.", "translation": "Удобство повысило завершение задач." },
+    { "original": "design", "english": "Design supported brand identity.", "translation": "Дизайн поддержал айдентику бренда." },
+    { "original": "layout", "english": "The layout improved readability.", "translation": "Расположение элементов улучшило читаемость." },
+    { "original": "prototype", "english": "The prototype validated assumptions.", "translation": "Прототип подтвердил предположения." },
+    { "original": "wireframe", "english": "The wireframe structured content clearly.", "translation": "Вайрфрейм чётко структурировал контент." },
+    { "original": "mockup", "english": "The mockup visualized the concept.", "translation": "Макет визуализировал концепцию." },
+    { "original": "feedback", "english": "Feedback inspired improvements.", "translation": "Обратная связь вдохновила на улучшения." },
+    { "original": "iteration", "english": "Iteration strengthened usability.", "translation": "Итерация усилила удобство использования." },
+    { "original": "improvement", "english": "Improvement increased conversion.", "translation": "Улучшение повысило конверсию." },
+    { "original": "update", "english": "The update enhanced performance.", "translation": "Обновление повысило производительность." },
+    { "original": "metric", "english": "Metric revealed growth trends.", "translation": "Метрика показала тренды роста." },
+    { "original": "analytics", "english": "Analytics provided actionable insights.", "translation": "Аналитика дала практические инсайты." },
+    { "original": "conversion", "english": "Conversion reached new levels.", "translation": "Конверсия достигла новых уровней." },
+    { "original": "retention", "english": "Retention improved steadily.", "translation": "Удержание стабильно улучшалось." },
+    { "original": "engagement", "english": "Engagement reflected product value.", "translation": "Вовлечённость отразила ценность продукта." },
+    { "original": "hypothesis", "english": "The hypothesis guided experimentation.", "translation": "Гипотеза направила эксперименты." },
+    { "original": "experiment", "english": "The experiment confirmed assumptions.", "translation": "Эксперимент подтвердил предположения." },
+    { "original": "A/B testing", "english": "A/B testing optimized conversion.", "translation": "A/B тестирование оптимизировало конверсию." },
+    { "original": "validation", "english": "Validation strengthened confidence.", "translation": "Проверка усилила уверенность." },
+    { "original": "assumption", "english": "Assumption triggered discussion.", "translation": "Предположение вызвало обсуждение." },
+    { "original": "backlog", "english": "The backlog reflected priorities.", "translation": "Бэклог отразил приоритеты." },
+    { "original": "task", "english": "The task moved forward.", "translation": "Задача продвинулась вперёд." },
+    { "original": "ticket", "english": "The ticket described the issue.", "translation": "Тикет описал задачу." },
+    { "original": "estimate", "english": "The estimate clarified scope.", "translation": "Оценка прояснила объём работ." },
+    { "original": "deadline", "english": "The deadline remained achievable.", "translation": "Дедлайн оставался достижимым." },
+    { "original": "stakeholder", "english": "The stakeholder supported the decision.", "translation": "Заинтересованная сторона поддержала решение." },
+    { "original": "alignment", "english": "Alignment improved collaboration.", "translation": "Согласованность улучшила сотрудничество." },
+    { "original": "decision", "english": "The decision shaped direction.", "translation": "Решение определило направление." },
+    { "original": "trade-off", "english": "Trade-off balanced speed and quality.", "translation": "Компромисс сбалансировал скорость и качество." },
+    { "original": "outcome", "english": "The outcome exceeded expectations.", "translation": "Результат превзошёл ожидания." },
+    { "original": "review", "english": "The review highlighted progress.", "translation": "Ревью подчеркнуло прогресс." }
   ]
 }

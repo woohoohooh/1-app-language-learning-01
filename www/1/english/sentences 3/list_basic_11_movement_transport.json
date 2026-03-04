@@ -1,107 +1,32 @@
 {
   "theme": "Движение и транспорт",
-  "level": "",
+  "level": "Beginner",
   "name": "Sentences",
   "items": [
-    {
-      "english": "move",
-      "translation": "двигаться"
-    },
-    {
-      "english": "walk",
-      "translation": "идти пешком"
-    },
-    {
-      "english": "run",
-      "translation": "бежать"
-    },
-    {
-      "english": "stop",
-      "translation": "останавливаться"
-    },
-    {
-      "english": "road",
-      "translation": "дорога"
-    },
-    {
-      "english": "street",
-      "translation": "улица"
-    },
-    {
-      "english": "way",
-      "translation": "путь"
-    },
-    {
-      "english": "direction",
-      "translation": "направление"
-    },
-    {
-      "english": "car",
-      "translation": "машина"
-    },
-    {
-      "english": "bus",
-      "translation": "автобус"
-    },
-    {
-      "english": "train",
-      "translation": "поезд"
-    },
-    {
-      "english": "taxi",
-      "translation": "такси"
-    },
-    {
-      "english": "subway",
-      "translation": "метро"
-    },
-    {
-      "english": "bike",
-      "translation": "велосипед"
-    },
-    {
-      "english": "bicycle",
-      "translation": "велосипед"
-    },
-    {
-      "english": "station",
-      "translation": "станция"
-    },
-    {
-      "english": "stop",
-      "translation": "остановка"
-    },
-    {
-      "english": "ticket",
-      "translation": "билет"
-    },
-    {
-      "english": "ride",
-      "translation": "поездка"
-    },
-    {
-      "english": "trip",
-      "translation": "путешествие"
-    },
-    {
-      "english": "drive",
-      "translation": "вести машину"
-    },
-    {
-      "english": "arrive",
-      "translation": "прибывать"
-    },
-    {
-      "english": "go",
-      "translation": "идти"
-    },
-    {
-      "english": "come",
-      "translation": "приходить"
-    },
-    {
-      "english": "leave",
-      "translation": "уезжать"
-    }
+    { "original": "move", "english": "I move every day.", "translation": "Я двигаюсь каждый день." },
+    { "original": "walk", "english": "I walk to school.", "translation": "Я иду в школу пешком." },
+    { "original": "run", "english": "He can run very fast.", "translation": "Он может бежать очень быстро." },
+    { "original": "stop", "english": "Please stop here.", "translation": "Пожалуйста, остановись здесь." },
+    { "original": "road", "english": "The road is wide and clean.", "translation": "Дорога широкая и чистая." },
+    { "original": "street", "english": "This street is bright and busy.", "translation": "Эта улица светлая и оживлённая." },
+    { "original": "way", "english": "This is the right way.", "translation": "Это правильный путь." },
+    { "original": "direction", "english": "Show me the direction, please.", "translation": "Покажи мне направление, пожалуйста." },
+    { "original": "car", "english": "The car is new and comfortable.", "translation": "Машина новая и удобная." },
+    { "original": "bus", "english": "The bus is here now.", "translation": "Автобус сейчас здесь." },
+    { "original": "train", "english": "The train arrives soon.", "translation": "Поезд скоро прибывает." },
+    { "original": "taxi", "english": "I take a taxi home.", "translation": "Я беру такси домой." },
+    { "original": "subway", "english": "The subway is fast and modern.", "translation": "Метро быстрое и современное." },
+    { "original": "bike", "english": "I ride a bike in the park.", "translation": "Я катаюсь на велосипеде в парке." },
+    { "original": "bicycle", "english": "She has a bicycle.", "translation": "У неё есть велосипед." },
+    { "original": "station", "english": "The station is big and modern.", "translation": "Станция большая и современная." },
+    { "original": "stop", "english": "The bus stop is near my house.", "translation": "Остановка рядом с моим домом." },
+    { "original": "ticket", "english": "I buy a ticket online.", "translation": "Я покупаю билет онлайн." },
+    { "original": "ride", "english": "It is a short ride to the city.", "translation": "Это короткая поездка до города." },
+    { "original": "trip", "english": "The trip is fun and easy.", "translation": "Путешествие весёлое и лёгкое." },
+    { "original": "drive", "english": "I drive a car every day.", "translation": "Я вожу машину каждый день." },
+    { "original": "arrive", "english": "We arrive early in the morning.", "translation": "Мы прибываем рано утром." },
+    { "original": "go", "english": "I go to work every day.", "translation": "Я хожу на работу каждый день." },
+    { "original": "come", "english": "Come with me to the park.", "translation": "Пойдём со мной в парк." },
+    { "original": "leave", "english": "They leave in the morning.", "translation": "Они уезжают утром." }
   ]
 }

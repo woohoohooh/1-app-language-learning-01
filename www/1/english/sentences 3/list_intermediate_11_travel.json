@@ -3,165 +3,45 @@
   "level": "Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "destination",
-      "translation": "пункт назначения"
-    },
-    {
-      "english": "trip",
-      "translation": "поездка"
-    },
-    {
-      "english": "route",
-      "translation": "маршрут"
-    },
-    {
-      "english": "schedule",
-      "translation": "расписание"
-    },
-    {
-      "english": "reservation",
-      "translation": "бронирование"
-    },
-    {
-      "english": "booking",
-      "translation": "бронирование"
-    },
-    {
-      "english": "confirmation",
-      "translation": "подтверждение"
-    },
-    {
-      "english": "cancellation",
-      "translation": "отмена"
-    },
-    {
-      "english": "accommodation",
-      "translation": "проживание"
-    },
-    {
-      "english": "hostel",
-      "translation": "хостел"
-    },
-    {
-      "english": "apartment",
-      "translation": "апартаменты"
-    },
-    {
-      "english": "check-in",
-      "translation": "регистрация заезда"
-    },
-    {
-      "english": "check-out",
-      "translation": "выезд"
-    },
-    {
-      "english": "border",
-      "translation": "граница"
-    },
-    {
-      "english": "customs",
-      "translation": "таможня"
-    },
-    {
-      "english": "immigration",
-      "translation": "иммиграционный контроль"
-    },
-    {
-      "english": "visa",
-      "translation": "виза"
-    },
-    {
-      "english": "document",
-      "translation": "документ"
-    },
-    {
-      "english": "luggage",
-      "translation": "багаж"
-    },
-    {
-      "english": "baggage",
-      "translation": "багаж"
-    },
-    {
-      "english": "carry-on",
-      "translation": "ручная кладь"
-    },
-    {
-      "english": "lost",
-      "translation": "потерянный"
-    },
-    {
-      "english": "damage",
-      "translation": "повреждение"
-    },
-    {
-      "english": "transportation",
-      "translation": "транспорт"
-    },
-    {
-      "english": "public transport",
-      "translation": "общественный транспорт"
-    },
-    {
-      "english": "transfer",
-      "translation": "трансфер"
-    },
-    {
-      "english": "car rental",
-      "translation": "аренда автомобиля"
-    },
-    {
-      "english": "navigation",
-      "translation": "навигация"
-    },
-    {
-      "english": "currency",
-      "translation": "валюта"
-    },
-    {
-      "english": "exchange",
-      "translation": "обмен"
-    },
-    {
-      "english": "payment",
-      "translation": "оплата"
-    },
-    {
-      "english": "receipt",
-      "translation": "чек"
-    },
-    {
-      "english": "insurance",
-      "translation": "страховка"
-    },
-    {
-      "english": "emergency",
-      "translation": "чрезвычайная ситуация"
-    },
-    {
-      "english": "assistance",
-      "translation": "помощь"
-    },
-    {
-      "english": "complaint",
-      "translation": "жалоба"
-    },
-    {
-      "english": "support",
-      "translation": "поддержка"
-    },
-    {
-      "english": "journey",
-      "translation": "путешествие"
-    },
-    {
-      "english": "availability",
-      "translation": "наличие"
-    },
-    {
-      "english": "fee",
-      "translation": "комиссия"
-    }
+    { "original": "destination", "english": "Our destination looks beautiful.", "translation": "Наш пункт назначения выглядит красивым." },
+    { "original": "trip", "english": "The trip was enjoyable.", "translation": "Поездка была приятной." },
+    { "original": "route", "english": "The route seems convenient.", "translation": "Маршрут кажется удобным." },
+    { "original": "schedule", "english": "The schedule looks organized.", "translation": "Расписание выглядит организованным." },
+    { "original": "reservation", "english": "The reservation is confirmed.", "translation": "Бронирование подтверждено." },
+    { "original": "booking", "english": "She made a booking.", "translation": "Она сделала бронирование." },
+    { "original": "confirmation", "english": "We received a confirmation.", "translation": "Мы получили подтверждение." },
+    { "original": "cancellation", "english": "The cancellation was processed.", "translation": "Отмена была обработана." },
+    { "original": "accommodation", "english": "The accommodation feels comfortable.", "translation": "Проживание кажется комфортным." },
+    { "original": "hostel", "english": "The hostel looks cozy.", "translation": "Хостел выглядит уютным." },
+    { "original": "apartment", "english": "The apartment seems spacious.", "translation": "Апартаменты кажутся просторными." },
+    { "original": "check-in", "english": "Check-in was quick.", "translation": "Регистрация заезда прошла быстро." },
+    { "original": "check-out", "english": "Check-out was smooth.", "translation": "Выезд прошел спокойно." },
+    { "original": "border", "english": "We crossed the border.", "translation": "Мы пересекли границу." },
+    { "original": "customs", "english": "Customs control was efficient.", "translation": "Таможенный контроль был эффективным." },
+    { "original": "immigration", "english": "Immigration process was organized.", "translation": "Иммиграционный контроль был организован." },
+    { "original": "visa", "english": "She received her visa.", "translation": "Она получила визу." },
+    { "original": "document", "english": "Keep your document ready.", "translation": "Держите документ наготове." },
+    { "original": "luggage", "english": "Her luggage arrived safely.", "translation": "Её багаж прибыл безопасно." },
+    { "original": "baggage", "english": "The baggage was delivered.", "translation": "Багаж был доставлен." },
+    { "original": "carry-on", "english": "My carry-on is light.", "translation": "Моя ручная кладь легкая." },
+    { "original": "lost", "english": "The lost item was returned.", "translation": "Потерянная вещь была возвращена." },
+    { "original": "damage", "english": "The damage was minimal.", "translation": "Повреждение было минимальным." },
+    { "original": "transportation", "english": "Transportation was convenient.", "translation": "Транспорт был удобным." },
+    { "original": "public transport", "english": "Public transport works well.", "translation": "Общественный транспорт работает хорошо." },
+    { "original": "transfer", "english": "The transfer was arranged.", "translation": "Трансфер был организован." },
+    { "original": "car rental", "english": "Car rental was affordable.", "translation": "Аренда автомобиля была доступной." },
+    { "original": "navigation", "english": "Navigation helped us.", "translation": "Навигация помогла нам." },
+    { "original": "currency", "english": "The currency is stable.", "translation": "Валюта стабильна." },
+    { "original": "exchange", "english": "The exchange rate looks fair.", "translation": "Курс обмена выглядит справедливым." },
+    { "original": "payment", "english": "The payment was successful.", "translation": "Оплата прошла успешно." },
+    { "original": "receipt", "english": "Keep the receipt safe.", "translation": "Сохраните чек." },
+    { "original": "insurance", "english": "Insurance provides protection.", "translation": "Страховка обеспечивает защиту." },
+    { "original": "emergency", "english": "Emergency services responded quickly.", "translation": "Службы экстренной помощи отреагировали быстро." },
+    { "original": "assistance", "english": "Assistance was available.", "translation": "Помощь была доступна." },
+    { "original": "complaint", "english": "The complaint was handled professionally.", "translation": "Жалоба была рассмотрена профессионально." },
+    { "original": "support", "english": "Support was very helpful.", "translation": "Поддержка была очень полезной." },
+    { "original": "journey", "english": "The journey felt exciting.", "translation": "Путешествие было захватывающим." },
+    { "original": "availability", "english": "Availability looks promising.", "translation": "Наличие выглядит обнадеживающим." },
+    { "original": "fee", "english": "The fee seems reasonable.", "translation": "Комиссия кажется разумной." }
   ]
 }

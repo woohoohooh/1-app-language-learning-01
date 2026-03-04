@@ -3,165 +3,45 @@
   "level": "Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "business",
-      "translation": "бизнес"
-    },
-    {
-      "english": "company",
-      "translation": "компания"
-    },
-    {
-      "english": "firm",
-      "translation": "фирма"
-    },
-    {
-      "english": "enterprise",
-      "translation": "предприятие"
-    },
-    {
-      "english": "organization",
-      "translation": "организация"
-    },
-    {
-      "english": "market",
-      "translation": "рынок"
-    },
-    {
-      "english": "industry",
-      "translation": "отрасль"
-    },
-    {
-      "english": "competition",
-      "translation": "конкуренция"
-    },
-    {
-      "english": "competitor",
-      "translation": "конкурент"
-    },
-    {
-      "english": "demand",
-      "translation": "спрос"
-    },
-    {
-      "english": "supply",
-      "translation": "предложение"
-    },
-    {
-      "english": "customer",
-      "translation": "клиент"
-    },
-    {
-      "english": "client",
-      "translation": "клиент"
-    },
-    {
-      "english": "consumer",
-      "translation": "потребитель"
-    },
-    {
-      "english": "partner",
-      "translation": "партнёр"
-    },
-    {
-      "english": "product",
-      "translation": "продукт"
-    },
-    {
-      "english": "service",
-      "translation": "услуга"
-    },
-    {
-      "english": "value",
-      "translation": "ценность"
-    },
-    {
-      "english": "price",
-      "translation": "цена"
-    },
-    {
-      "english": "cost",
-      "translation": "затраты"
-    },
-    {
-      "english": "revenue",
-      "translation": "выручка"
-    },
-    {
-      "english": "profit",
-      "translation": "прибыль"
-    },
-    {
-      "english": "loss",
-      "translation": "убыток"
-    },
-    {
-      "english": "budget",
-      "translation": "бюджет"
-    },
-    {
-      "english": "expense",
-      "translation": "расход"
-    },
-    {
-      "english": "investment",
-      "translation": "инвестиция"
-    },
-    {
-      "english": "funding",
-      "translation": "финансирование"
-    },
-    {
-      "english": "capital",
-      "translation": "капитал"
-    },
-    {
-      "english": "cash flow",
-      "translation": "денежный поток"
-    },
-    {
-      "english": "assets",
-      "translation": "активы"
-    },
-    {
-      "english": "deal",
-      "translation": "сделка"
-    },
-    {
-      "english": "contract",
-      "translation": "контракт"
-    },
-    {
-      "english": "agreement",
-      "translation": "соглашение"
-    },
-    {
-      "english": "terms",
-      "translation": "условия"
-    },
-    {
-      "english": "conditions",
-      "translation": "условия"
-    },
-    {
-      "english": "strategy",
-      "translation": "стратегия"
-    },
-    {
-      "english": "growth",
-      "translation": "рост"
-    },
-    {
-      "english": "performance",
-      "translation": "эффективность"
-    },
-    {
-      "english": "forecast",
-      "translation": "прогноз"
-    },
-    {
-      "english": "risk",
-      "translation": "риск"
-    }
+    { "original": "business", "english": "She started a small business.", "translation": "Она открыла небольшой бизнес." },
+    { "original": "company", "english": "The company is growing fast.", "translation": "Компания быстро растет." },
+    { "original": "firm", "english": "He joined a consulting firm.", "translation": "Он присоединился к консалтинговой фирме." },
+    { "original": "enterprise", "english": "The enterprise employs many people.", "translation": "Предприятие нанимает много людей." },
+    { "original": "organization", "english": "The organization supports education.", "translation": "Организация поддерживает образование." },
+    { "original": "market", "english": "The market looks stable.", "translation": "Рынок выглядит стабильным." },
+    { "original": "industry", "english": "The industry is evolving quickly.", "translation": "Отрасль быстро развивается." },
+    { "original": "competition", "english": "Competition drives innovation.", "translation": "Конкуренция стимулирует инновации." },
+    { "original": "competitor", "english": "The competitor launched a product.", "translation": "Конкурент запустил продукт." },
+    { "original": "demand", "english": "Demand is increasing steadily.", "translation": "Спрос стабильно растет." },
+    { "original": "supply", "english": "Supply meets demand.", "translation": "Предложение соответствует спросу." },
+    { "original": "customer", "english": "The customer left satisfied.", "translation": "Клиент остался доволен." },
+    { "original": "client", "english": "The client approved the proposal.", "translation": "Клиент одобрил предложение." },
+    { "original": "consumer", "english": "Consumers trust the brand.", "translation": "Потребители доверяют бренду." },
+    { "original": "partner", "english": "They found a reliable partner.", "translation": "Они нашли надежного партнера." },
+    { "original": "product", "english": "The product gained popularity.", "translation": "Продукт набрал популярность." },
+    { "original": "service", "english": "The service works smoothly.", "translation": "Услуга работает стабильно." },
+    { "original": "value", "english": "This product offers value.", "translation": "Этот продукт дает ценность." },
+    { "original": "price", "english": "The price seems reasonable.", "translation": "Цена кажется разумной." },
+    { "original": "cost", "english": "The cost remains manageable.", "translation": "Затраты остаются управляемыми." },
+    { "original": "revenue", "english": "Revenue increased this quarter.", "translation": "Выручка выросла в этом квартале." },
+    { "original": "profit", "english": "The company made profit.", "translation": "Компания получила прибыль." },
+    { "original": "loss", "english": "The loss was minimal.", "translation": "Убыток был минимальным." },
+    { "original": "budget", "english": "We approved the budget.", "translation": "Мы утвердили бюджет." },
+    { "original": "expense", "english": "They reduced expenses wisely.", "translation": "Они разумно сократили расходы." },
+    { "original": "investment", "english": "This investment looks promising.", "translation": "Эта инвестиция выглядит многообещающей." },
+    { "original": "funding", "english": "The startup secured funding.", "translation": "Стартап получил финансирование." },
+    { "original": "capital", "english": "The company raised capital.", "translation": "Компания привлекла капитал." },
+    { "original": "cash flow", "english": "Cash flow remains stable.", "translation": "Денежный поток остается стабильным." },
+    { "original": "assets", "english": "The company owns valuable assets.", "translation": "Компания владеет ценными активами." },
+    { "original": "deal", "english": "They closed a deal.", "translation": "Они заключили сделку." },
+    { "original": "contract", "english": "She signed the contract.", "translation": "Она подписала контракт." },
+    { "original": "agreement", "english": "The agreement benefits both sides.", "translation": "Соглашение выгодно обеим сторонам." },
+    { "original": "terms", "english": "The terms seem fair.", "translation": "Условия кажутся справедливыми." },
+    { "original": "conditions", "english": "The conditions are clear.", "translation": "Условия понятны." },
+    { "original": "strategy", "english": "Their strategy ensures growth.", "translation": "Их стратегия обеспечивает рост." },
+    { "original": "growth", "english": "The company shows growth.", "translation": "Компания демонстрирует рост." },
+    { "original": "performance", "english": "Performance improved this year.", "translation": "Эффективность улучшилась в этом году." },
+    { "original": "forecast", "english": "The forecast looks optimistic.", "translation": "Прогноз выглядит оптимистичным." },
+    { "original": "risk", "english": "They managed the risk well.", "translation": "Они хорошо управляли риском." }
   ]
 }

@@ -3,149 +3,41 @@
   "level": "Beginner",
   "name": "Sentences",
   "items": [
-    {
-      "english": "shop",
-      "translation": "магазин"
-    },
-    {
-      "english": "store",
-      "translation": "магазин"
-    },
-    {
-      "english": "market",
-      "translation": "рынок"
-    },
-    {
-      "english": "mall",
-      "translation": "торговый центр"
-    },
-    {
-      "english": "supermarket",
-      "translation": "супермаркет"
-    },
-    {
-      "english": "buy",
-      "translation": "покупать"
-    },
-    {
-      "english": "sell",
-      "translation": "продавать"
-    },
-    {
-      "english": "pay",
-      "translation": "платить"
-    },
-    {
-      "english": "order",
-      "translation": "заказывать"
-    },
-    {
-      "english": "choose",
-      "translation": "выбирать"
-    },
-    {
-      "english": "price",
-      "translation": "цена"
-    },
-    {
-      "english": "cost",
-      "translation": "стоимость"
-    },
-    {
-      "english": "cheap",
-      "translation": "дешёвый"
-    },
-    {
-      "english": "expensive",
-      "translation": "дорогой"
-    },
-    {
-      "english": "discount",
-      "translation": "скидка"
-    },
-    {
-      "english": "sale",
-      "translation": "распродажа"
-    },
-    {
-      "english": "cash",
-      "translation": "наличные"
-    },
-    {
-      "english": "card",
-      "translation": "карта"
-    },
-    {
-      "english": "receipt",
-      "translation": "чек"
-    },
-    {
-      "english": "change",
-      "translation": "сдача"
-    },
-    {
-      "english": "customer",
-      "translation": "покупатель"
-    },
-    {
-      "english": "seller",
-      "translation": "продавец"
-    },
-    {
-      "english": "cashier",
-      "translation": "кассир"
-    },
-    {
-      "english": "product",
-      "translation": "товар"
-    },
-    {
-      "english": "brand",
-      "translation": "бренд"
-    },
-    {
-      "english": "size",
-      "translation": "размер"
-    },
-    {
-      "english": "color",
-      "translation": "цвет"
-    },
-    {
-      "english": "cart",
-      "translation": "тележка"
-    },
-    {
-      "english": "basket",
-      "translation": "корзина"
-    },
-    {
-      "english": "open",
-      "translation": "открыто"
-    },
-    {
-      "english": "closed",
-      "translation": "закрыто"
-    },
-    {
-      "english": "online",
-      "translation": "онлайн"
-    },
-    {
-      "english": "delivery",
-      "translation": "доставка"
-    },
-    {
-      "english": "return",
-      "translation": "возврат"
-    },
-    {
-      "english": "item",
-      "translation": "товар"
-    },
-    {
-      "english": "bag",
-      "translation": "пакет"
-    }
+    { "original": "shop", "english": "The shop is open.", "translation": "Магазин открыт." },
+    { "original": "store", "english": "This store is big.", "translation": "Этот магазин большой." },
+    { "original": "market", "english": "The market is near my house.", "translation": "Рынок рядом с моим домом." },
+    { "original": "mall", "english": "The mall is busy.", "translation": "Торговый центр оживлённый." },
+    { "original": "supermarket", "english": "I go to the supermarket.", "translation": "Я иду в супермаркет." },
+    { "original": "buy", "english": "I buy food here.", "translation": "Я покупаю еду здесь." },
+    { "original": "sell", "english": "They sell clothes.", "translation": "Они продают одежду." },
+    { "original": "pay", "english": "I pay by card.", "translation": "Я плачу картой." },
+    { "original": "order", "english": "I order food online.", "translation": "Я заказываю еду онлайн." },
+    { "original": "choose", "english": "I choose a blue shirt.", "translation": "Я выбираю синюю рубашку." },
+    { "original": "price", "english": "The price is fair.", "translation": "Цена справедливая." },
+    { "original": "cost", "english": "The cost is high.", "translation": "Стоимость высокая." },
+    { "original": "cheap", "english": "This product is cheap.", "translation": "Этот товар дешёвый." },
+    { "original": "expensive", "english": "This bag is expensive.", "translation": "Эта сумка дорогая." },
+    { "original": "discount", "english": "There is a discount today.", "translation": "Сегодня есть скидка." },
+    { "original": "sale", "english": "The sale starts today.", "translation": "Распродажа начинается сегодня." },
+    { "original": "cash", "english": "I pay in cash.", "translation": "Я плачу наличными." },
+    { "original": "card", "english": "I use my card.", "translation": "Я использую свою карту." },
+    { "original": "receipt", "english": "I keep the receipt.", "translation": "Я сохраняю чек." },
+    { "original": "change", "english": "Here is your change.", "translation": "Вот ваша сдача." },
+    { "original": "customer", "english": "The customer is happy.", "translation": "Покупатель доволен." },
+    { "original": "seller", "english": "The seller is friendly.", "translation": "Продавец дружелюбный." },
+    { "original": "cashier", "english": "The cashier is polite.", "translation": "Кассир вежливый." },
+    { "original": "product", "english": "This product is new.", "translation": "Этот товар новый." },
+    { "original": "brand", "english": "This brand is popular.", "translation": "Этот бренд популярный." },
+    { "original": "size", "english": "The size is large.", "translation": "Размер большой." },
+    { "original": "color", "english": "The color is red.", "translation": "Цвет красный." },
+    { "original": "cart", "english": "The cart is full.", "translation": "Тележка полная." },
+    { "original": "basket", "english": "The basket is light.", "translation": "Корзина лёгкая." },
+    { "original": "open", "english": "The shop is open now.", "translation": "Магазин сейчас открыт." },
+    { "original": "closed", "english": "The store is closed today.", "translation": "Магазин сегодня закрыт." },
+    { "original": "online", "english": "I shop online.", "translation": "Я покупаю онлайн." },
+    { "original": "delivery", "english": "The delivery is fast.", "translation": "Доставка быстрая." },
+    { "original": "return", "english": "I return the item.", "translation": "Я возвращаю товар." },
+    { "original": "item", "english": "This item is on sale.", "translation": "Этот товар по скидке." },
+    { "original": "bag", "english": "The bag is new.", "translation": "Пакет новый." }
   ]
 }

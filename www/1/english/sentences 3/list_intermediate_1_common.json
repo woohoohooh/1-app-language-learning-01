@@ -3,185 +3,50 @@
   "level": "Intermediate",
   "name": "Sentences",
   "items": [
-    {
-      "english": "manage",
-      "translation": "управлять"
-    },
-    {
-      "english": "improve",
-      "translation": "улучшать"
-    },
-    {
-      "english": "increase",
-      "translation": "увеличивать"
-    },
-    {
-      "english": "reduce",
-      "translation": "уменьшать"
-    },
-    {
-      "english": "affect",
-      "translation": "влиять"
-    },
-    {
-      "english": "depend",
-      "translation": "зависеть"
-    },
-    {
-      "english": "support",
-      "translation": "поддерживать"
-    },
-    {
-      "english": "require",
-      "translation": "требовать"
-    },
-    {
-      "english": "expect",
-      "translation": "ожидать"
-    },
-    {
-      "english": "avoid",
-      "translation": "избегать"
-    },
-    {
-      "english": "suggest",
-      "translation": "предлагать"
-    },
-    {
-      "english": "decide",
-      "translation": "решать"
-    },
-    {
-      "english": "allow",
-      "translation": "разрешать"
-    },
-    {
-      "english": "prevent",
-      "translation": "предотвращать"
-    },
-    {
-      "english": "consider",
-      "translation": "рассматривать"
-    },
-    {
-      "english": "reason",
-      "translation": "причина"
-    },
-    {
-      "english": "result",
-      "translation": "результат"
-    },
-    {
-      "english": "purpose",
-      "translation": "цель"
-    },
-    {
-      "english": "choice",
-      "translation": "выбор"
-    },
-    {
-      "english": "opportunity",
-      "translation": "возможность"
-    },
-    {
-      "english": "challenge",
-      "translation": "вызов"
-    },
-    {
-      "english": "experience",
-      "translation": "опыт"
-    },
-    {
-      "english": "risk",
-      "translation": "риск"
-    },
-    {
-      "english": "benefit",
-      "translation": "польза"
-    },
-    {
-      "english": "impact",
-      "translation": "влияние"
-    },
-    {
-      "english": "issue",
-      "translation": "проблема"
-    },
-    {
-      "english": "solution",
-      "translation": "решение"
-    },
-    {
-      "english": "process",
-      "translation": "процесс"
-    },
-    {
-      "english": "progress",
-      "translation": "прогресс"
-    },
-    {
-      "english": "result",
-      "translation": "итог"
-    },
-    {
-      "english": "available",
-      "translation": "доступный"
-    },
-    {
-      "english": "common",
-      "translation": "доступный"
-    },
-    {
-      "english": "general",
-      "translation": "общий"
-    },
-    {
-      "english": "specific",
-      "translation": "конкретный"
-    },
-    {
-      "english": "similar",
-      "translation": "похожий"
-    },
-    {
-      "english": "likely",
-      "translation": "вероятный"
-    },
-    {
-      "english": "possible",
-      "translation": "возможный"
-    },
-    {
-      "english": "effective",
-      "translation": "эффективный"
-    },
-    {
-      "english": "efficient",
-      "translation": "результативный"
-    },
-    {
-      "english": "important",
-      "translation": "важный"
-    },
-    {
-      "english": "recently",
-      "translation": "недавно"
-    },
-    {
-      "english": "currently",
-      "translation": "в настоящее время"
-    },
-    {
-      "english": "especially",
-      "translation": "особенно"
-    },
-    {
-      "english": "eventually",
-      "translation": "в конечном итоге"
-    },
-    {
-      "english": "approximately",
-      "translation": "примерно"
-    }
+    { "original": "manage", "english": "She manages her time effectively.", "translation": "Она эффективно управляет своим временем." },
+    { "original": "improve", "english": "We improve our skills every week.", "translation": "Мы улучшаем свои навыки каждую неделю." },
+    { "original": "increase", "english": "Sales increase every month.", "translation": "Продажи увеличиваются каждый месяц." },
+    { "original": "reduce", "english": "We reduce unnecessary steps.", "translation": "Мы сокращаем лишние шаги." },
+    { "original": "affect", "english": "Your actions affect the outcome.", "translation": "Твои действия влияют на результат." },
+    { "original": "depend", "english": "Success depends on consistent effort.", "translation": "Успех зависит от постоянных усилий." },
+    { "original": "support", "english": "They support creative ideas.", "translation": "Они поддерживают креативные идеи." },
+    { "original": "require", "english": "This task requires attention.", "translation": "Эта задача требует внимания." },
+    { "original": "expect", "english": "We expect positive results.", "translation": "Мы ожидаем позитивные результаты." },
+    { "original": "avoid", "english": "She avoids distractions during work.", "translation": "Она избегает отвлекающих факторов во время работы." },
+    { "original": "suggest", "english": "I suggest a practical solution.", "translation": "Я предлагаю практичное решение." },
+    { "original": "decide", "english": "They decide together with confidence.", "translation": "Они принимают решение вместе и уверенно." },
+    { "original": "allow", "english": "This system allows flexibility.", "translation": "Эта система допускает гибкость." },
+    { "original": "prevent", "english": "Good planning can prevent delays.", "translation": "Хорошее планирование может предотвратить задержки." },
+    { "original": "consider", "english": "Please consider this idea carefully.", "translation": "Пожалуйста, внимательно рассмотрите эту идею." },
+    { "original": "reason", "english": "There is a clear reason.", "translation": "Есть понятная причина." },
+    { "original": "result", "english": "The result shows clear improvement.", "translation": "Результат показывает явное улучшение." },
+    { "original": "purpose", "english": "This project has a clear purpose.", "translation": "У этого проекта есть чёткая цель." },
+    { "original": "choice", "english": "You always have a choice.", "translation": "У тебя всегда есть выбор." },
+    { "original": "opportunity", "english": "This is a great opportunity for growth.", "translation": "Это отличная возможность для роста." },
+    { "original": "challenge", "english": "Every challenge brings new experience.", "translation": "Каждый вызов приносит новый опыт." },
+    { "original": "experience", "english": "She gained valuable experience.", "translation": "Она получила ценный опыт." },
+    { "original": "risk", "english": "We take a calculated risk.", "translation": "Мы идём на просчитанный риск." },
+    { "original": "benefit", "english": "This change brings real benefit.", "translation": "Это изменение приносит реальную пользу." },
+    { "original": "impact", "english": "The project has a positive impact.", "translation": "Проект оказывает положительное влияние." },
+    { "original": "issue", "english": "We discussed the issue calmly.", "translation": "Мы спокойно обсудили вопрос." },
+    { "original": "solution", "english": "They found an effective solution.", "translation": "Они нашли эффективное решение." },
+    { "original": "process", "english": "The process takes time and effort.", "translation": "Процесс требует времени и усилий." },
+    { "original": "progress", "english": "We see steady progress.", "translation": "Мы видим стабильный прогресс." },
+    { "original": "result", "english": "The final result is excellent.", "translation": "Итоговый результат отличный." },
+    { "original": "available", "english": "The service is available now.", "translation": "Сервис доступен сейчас." },
+    { "original": "common", "english": "This is a common approach.", "translation": "Это распространённый подход." },
+    { "original": "general", "english": "This is general information.", "translation": "Это общая информация." },
+    { "original": "specific", "english": "We need specific details.", "translation": "Нам нужны конкретные детали." },
+    { "original": "similar", "english": "They have similar goals.", "translation": "У них похожие цели." },
+    { "original": "likely", "english": "Success is likely with preparation.", "translation": "Успех вероятен при подготовке." },
+    { "original": "possible", "english": "Everything is possible with effort.", "translation": "Всё возможно при усилиях." },
+    { "original": "effective", "english": "This strategy is effective.", "translation": "Эта стратегия эффективна." },
+    { "original": "efficient", "english": "She works in an efficient way.", "translation": "Она работает эффективным способом." },
+    { "original": "important", "english": "Health is important.", "translation": "Здоровье важно." },
+    { "original": "recently", "english": "She started a new project recently.", "translation": "Она недавно начала новый проект." },
+    { "original": "currently", "english": "We are currently working on improvements.", "translation": "Мы в настоящее время работаем над улучшениями." },
+    { "original": "especially", "english": "I enjoy this especially in the morning.", "translation": "Мне это особенно нравится утром." },
+    { "original": "eventually", "english": "Everything worked eventually.", "translation": "В итоге всё сработало." },
+    { "original": "approximately", "english": "It takes approximately five minutes.", "translation": "Это занимает примерно пять минут." }
   ]
 }
