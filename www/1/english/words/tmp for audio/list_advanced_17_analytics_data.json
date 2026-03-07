@@ -3,50 +3,230 @@
   "level": "Advanced",
   "name": "Phrase",
   "items": [
-    { "id": "big-data", "original": "data", "english": "big data", "translation": "большие данные" },
-    { "id": "business-analytics", "original": "analytics", "english": "business analytics", "translation": "бизнес-аналитика" },
-    { "id": "training-dataset", "original": "dataset", "english": "training dataset", "translation": "обучающий набор данных" },
-    { "id": "relational-database", "original": "database", "english": "relational database", "translation": "реляционная база данных" },
-    { "id": "data-table", "original": "table", "english": "data table", "translation": "таблица данных" },
-    { "id": "customer-record", "original": "record", "english": "customer record", "translation": "запись клиента" },
-    { "id": "data-field", "original": "field", "english": "data field", "translation": "поле данных" },
-    { "id": "table-column", "original": "column", "english": "table column", "translation": "столбец таблицы" },
-    { "id": "table-row", "original": "row", "english": "table row", "translation": "строка таблицы" },
-    { "id": "numeric-value", "original": "value", "english": "numeric value", "translation": "числовое значение" },
-    { "id": "key-metric", "original": "metric", "english": "key metric", "translation": "ключевая метрика" },
-    { "id": "core-kpi", "original": "KPI", "english": "core KPI", "translation": "ключевой KPI" },
-    { "id": "performance-indicator", "original": "indicator", "english": "performance indicator", "translation": "показатель эффективности" },
-    { "id": "data-measurement", "original": "measurement", "english": "data measurement", "translation": "измерение данных" },
-    { "id": "industry-benchmark", "original": "benchmark", "english": "industry benchmark", "translation": "отраслевой бенчмарк" },
-    { "id": "market-trend", "original": "trend", "english": "market trend", "translation": "рыночный тренд" },
-    { "id": "usage-pattern", "original": "pattern", "english": "usage pattern", "translation": "поведенческая закономерность" },
-    { "id": "strong-correlation", "original": "correlation", "english": "strong correlation", "translation": "сильная корреляция" },
-    { "id": "data-distribution", "original": "distribution", "english": "data distribution", "translation": "распределение данных" },
-    { "id": "high-variance", "original": "variance", "english": "high variance", "translation": "высокая дисперсия" },
-    { "id": "calculated-average", "original": "average", "english": "calculated average", "translation": "рассчитанное среднее значение" },
-    { "id": "statistical-median", "original": "median", "english": "statistical median", "translation": "статистическая медиана" },
-    { "id": "data-outlier", "original": "outlier", "english": "data outlier", "translation": "выброс данных" },
-    { "id": "random-sample", "original": "sample", "english": "random sample", "translation": "случайная выборка" },
-    { "id": "target-population", "original": "population", "english": "target population", "translation": "целевая генеральная совокупность" },
-    { "id": "data-analysis", "original": "analysis", "english": "data analysis", "translation": "анализ данных" },
-    { "id": "actionable-insight", "original": "insight", "english": "actionable insight", "translation": "практический инсайт" },
-    { "id": "data-interpretation", "original": "interpretation", "english": "data interpretation", "translation": "интерпретация данных" },
-    { "id": "research-hypothesis", "original": "hypothesis", "english": "research hypothesis", "translation": "исследовательская гипотеза" },
-    { "id": "model-validation", "original": "validation", "english": "model validation", "translation": "валидация модели" },
-    { "id": "interactive-dashboard", "original": "dashboard", "english": "interactive dashboard", "translation": "интерактивный дашборд" },
-    { "id": "monthly-report", "original": "report", "english": "monthly report", "translation": "ежемесячный отчёт" },
-    { "id": "data-visualization", "original": "visualization", "english": "data visualization", "translation": "визуализация данных" },
-    { "id": "line-chart", "original": "chart", "english": "line chart", "translation": "линейный график" },
-    { "id": "flow-diagram", "original": "diagram", "english": "flow diagram", "translation": "блок-схема" },
-    { "id": "sql-query", "original": "query", "english": "SQL query", "translation": "SQL-запрос" },
-    { "id": "data-filter", "original": "filter", "english": "data filter", "translation": "фильтр данных" },
-    { "id": "data-aggregation", "original": "aggregation", "english": "data aggregation", "translation": "агрегация данных" },
-    { "id": "customer-segmentation", "original": "segmentation", "english": "customer segmentation", "translation": "сегментация клиентов" },
-    { "id": "data-pipeline", "original": "pipeline", "english": "data pipeline", "translation": "конвейер данных" },
-    { "id": "high-data-quality", "original": "data quality", "english": "high data quality", "translation": "высокое качество данных" },
-    { "id": "primary-data-source", "original": "data source", "english": "primary data source", "translation": "основной источник данных" },
-    { "id": "raw-data", "original": "raw data", "english": "raw data", "translation": "сырые данные" },
-    { "id": "processed-data", "original": "processed data", "english": "processed data", "translation": "обработанные данные" },
-    { "id": "data-integrity-check", "original": "data integrity", "english": "data integrity check", "translation": "проверка целостности данных" }
+    {
+      "original": "data",
+      "english": "big data",
+      "translation": "большие данные"
+    },
+    {
+      "original": "analytics",
+      "english": "business analytics",
+      "translation": "бизнес-аналитика"
+    },
+    {
+      "original": "dataset",
+      "english": "training dataset",
+      "translation": "обучающий набор данных"
+    },
+    {
+      "original": "database",
+      "english": "relational database",
+      "translation": "реляционная база данных"
+    },
+    {
+      "original": "table",
+      "english": "data table",
+      "translation": "таблица данных"
+    },
+    {
+      "original": "record",
+      "english": "customer record",
+      "translation": "запись клиента"
+    },
+    {
+      "original": "field",
+      "english": "data field",
+      "translation": "поле данных"
+    },
+    {
+      "original": "column",
+      "english": "table column",
+      "translation": "столбец таблицы"
+    },
+    {
+      "original": "row",
+      "english": "table row",
+      "translation": "строка таблицы"
+    },
+    {
+      "original": "value",
+      "english": "numeric value",
+      "translation": "числовое значение"
+    },
+    {
+      "original": "metric",
+      "english": "key metric",
+      "translation": "ключевая метрика"
+    },
+    {
+      "original": "KPI",
+      "english": "core KPI",
+      "translation": "ключевой KPI"
+    },
+    {
+      "original": "indicator",
+      "english": "performance indicator",
+      "translation": "показатель эффективности"
+    },
+    {
+      "original": "measurement",
+      "english": "data measurement",
+      "translation": "измерение данных"
+    },
+    {
+      "original": "benchmark",
+      "english": "industry benchmark",
+      "translation": "отраслевой бенчмарк"
+    },
+    {
+      "original": "trend",
+      "english": "market trend",
+      "translation": "рыночный тренд"
+    },
+    {
+      "original": "pattern",
+      "english": "usage pattern",
+      "translation": "поведенческая закономерность"
+    },
+    {
+      "original": "correlation",
+      "english": "strong correlation",
+      "translation": "сильная корреляция"
+    },
+    {
+      "original": "distribution",
+      "english": "data distribution",
+      "translation": "распределение данных"
+    },
+    {
+      "original": "variance",
+      "english": "high variance",
+      "translation": "высокая дисперсия"
+    },
+    {
+      "original": "average",
+      "english": "calculated average",
+      "translation": "рассчитанное среднее значение"
+    },
+    {
+      "original": "median",
+      "english": "statistical median",
+      "translation": "статистическая медиана"
+    },
+    {
+      "original": "outlier",
+      "english": "data outlier",
+      "translation": "выброс данных"
+    },
+    {
+      "original": "sample",
+      "english": "random sample",
+      "translation": "случайная выборка"
+    },
+    {
+      "original": "population",
+      "english": "target population",
+      "translation": "целевая генеральная совокупность"
+    },
+    {
+      "original": "analysis",
+      "english": "data analysis",
+      "translation": "анализ данных"
+    },
+    {
+      "original": "insight",
+      "english": "actionable insight",
+      "translation": "практический инсайт"
+    },
+    {
+      "original": "interpretation",
+      "english": "data interpretation",
+      "translation": "интерпретация данных"
+    },
+    {
+      "original": "hypothesis",
+      "english": "research hypothesis",
+      "translation": "исследовательская гипотеза"
+    },
+    {
+      "original": "validation",
+      "english": "model validation",
+      "translation": "валидация модели"
+    },
+    {
+      "original": "dashboard",
+      "english": "interactive dashboard",
+      "translation": "интерактивный дашборд"
+    },
+    {
+      "original": "report",
+      "english": "monthly report",
+      "translation": "ежемесячный отчёт"
+    },
+    {
+      "original": "visualization",
+      "english": "data visualization",
+      "translation": "визуализация данных"
+    },
+    {
+      "original": "chart",
+      "english": "line chart",
+      "translation": "линейный график"
+    },
+    {
+      "original": "diagram",
+      "english": "flow diagram",
+      "translation": "блок-схема"
+    },
+    {
+      "original": "query",
+      "english": "SQL query",
+      "translation": "SQL-запрос"
+    },
+    {
+      "original": "filter",
+      "english": "data filter",
+      "translation": "фильтр данных"
+    },
+    {
+      "original": "aggregation",
+      "english": "data aggregation",
+      "translation": "агрегация данных"
+    },
+    {
+      "original": "segmentation",
+      "english": "customer segmentation",
+      "translation": "сегментация клиентов"
+    },
+    {
+      "original": "pipeline",
+      "english": "data pipeline",
+      "translation": "конвейер данных"
+    },
+    {
+      "original": "data quality",
+      "english": "high data quality",
+      "translation": "высокое качество данных"
+    },
+    {
+      "original": "data source",
+      "english": "primary data source",
+      "translation": "основной источник данных"
+    },
+    {
+      "original": "raw data",
+      "english": "raw data",
+      "translation": "сырые данные"
+    },
+    {
+      "original": "processed data",
+      "english": "processed data",
+      "translation": "обработанные данные"
+    },
+    {
+      "original": "data integrity",
+      "english": "data integrity check",
+      "translation": "проверка целостности данных"
+    }
   ]
 }

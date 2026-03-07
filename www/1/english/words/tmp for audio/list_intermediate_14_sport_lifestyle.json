@@ -3,50 +3,230 @@
   "level": "Intermediate",
   "name": "Phrases",
   "items": [
-    { "id": "do-sport", "original": "sport", "english": "do sport", "translation": "заниматься спортом" },
-    { "id": "daily-fitness", "original": "fitness", "english": "daily fitness", "translation": "ежедневный фитнес" },
-    { "id": "physical-activity", "original": "activity", "english": "physical activity", "translation": "физическая активность" },
-    { "id": "healthy-lifestyle", "original": "lifestyle", "english": "healthy lifestyle", "translation": "здоровый образ жизни" },
-    { "id": "body-movement", "original": "movement", "english": "body movement", "translation": "движение тела" },
-    { "id": "strength-training", "original": "training", "english": "strength training", "translation": "силовая тренировка" },
-    { "id": "morning-workout", "original": "workout", "english": "morning workout", "translation": "утренняя тренировка" },
-    { "id": "simple-exercise", "original": "exercise", "english": "simple exercise", "translation": "простое упражнение" },
-    { "id": "training-program", "original": "program", "english": "training program", "translation": "тренировочная программа" },
-    { "id": "go-gym", "original": "gym", "english": "go gym", "translation": "идти в спортзал" },
-    { "id": "fitness-equipment", "original": "equipment", "english": "fitness equipment", "translation": "фитнес-оборудование" },
-    { "id": "use-treadmill", "original": "treadmill", "english": "use treadmill", "translation": "использовать беговую дорожку" },
-    { "id": "yoga-mat", "original": "mat", "english": "yoga mat", "translation": "коврик для йоги" },
-    { "id": "build-strength", "original": "strength", "english": "build strength", "translation": "развивать силу" },
-    { "id": "increase-endurance", "original": "endurance", "english": "increase endurance", "translation": "повышать выносливость" },
-    { "id": "improve-flexibility", "original": "flexibility", "english": "improve flexibility", "translation": "улучшать гибкость" },
-    { "id": "keep-balance", "original": "balance", "english": "keep balance", "translation": "держать баланс" },
-    { "id": "body-coordination", "original": "coordination", "english": "body coordination", "translation": "координация тела" },
-    { "id": "morning-running", "original": "running", "english": "morning running", "translation": "утренний бег" },
-    { "id": "evening-jogging", "original": "jogging", "english": "evening jogging", "translation": "вечерний лёгкий бег" },
-    { "id": "road-cycling", "original": "cycling", "english": "road cycling", "translation": "велоспорт на дороге" },
-    { "id": "go-swimming", "original": "swimming", "english": "go swimming", "translation": "ходить плавать" },
-    { "id": "practice-yoga", "original": "yoga", "english": "practice yoga", "translation": "заниматься йогой" },
-    { "id": "sports-team", "original": "team", "english": "sports team", "translation": "спортивная команда" },
-    { "id": "sports-competition", "original": "competition", "english": "sports competition", "translation": "спортивное соревнование" },
-    { "id": "football-match", "original": "match", "english": "football match", "translation": "футбольный матч" },
-    { "id": "big-tournament", "original": "tournament", "english": "big tournament", "translation": "большой турнир" },
-    { "id": "personal-coach", "original": "coach", "english": "personal coach", "translation": "личный тренер" },
-    { "id": "fitness-goal", "original": "goal", "english": "fitness goal", "translation": "фитнес-цель" },
-    { "id": "track-progress", "original": "progress", "english": "track progress", "translation": "отслеживать прогресс" },
-    { "id": "final-result", "original": "result", "english": "final result", "translation": "итоговый результат" },
-    { "id": "high-performance", "original": "performance", "english": "high performance", "translation": "высокая результативность" },
-    { "id": "personal-achievement", "original": "achievement", "english": "personal achievement", "translation": "личное достижение" },
-    { "id": "muscle-recovery", "original": "recovery", "english": "muscle recovery", "translation": "восстановление мышц" },
-    { "id": "take-rest", "original": "rest", "english": "take rest", "translation": "отдыхать" },
-    { "id": "full-stretching", "original": "stretching", "english": "full stretching", "translation": "полная растяжка" },
-    { "id": "morning-warm-up", "original": "warm-up", "english": "morning warm-up", "translation": "утренняя разминка" },
-    { "id": "cool-down-phase", "original": "cool-down", "english": "cool-down phase", "translation": "фаза заминки" },
-    { "id": "daily-steps", "original": "steps", "english": "daily steps", "translation": "ежедневные шаги" },
-    { "id": "burn-calories", "original": "calories", "english": "burn calories", "translation": "сжигать калории" },
-    { "id": "check-heart-rate", "original": "heart rate", "english": "check heart rate", "translation": "проверять пульс" },
-    { "id": "fitness-tracker", "original": "tracker", "english": "fitness tracker", "translation": "фитнес-трекер" },
-    { "id": "training-schedule", "original": "schedule", "english": "training schedule", "translation": "расписание тренировок" },
-    { "id": "daily-routine", "original": "routine", "english": "daily routine", "translation": "ежедневный режим" },
-    { "id": "lift-weights", "original": "weights", "english": "lift weights", "translation": "поднимать веса" }
+    {
+      "original": "sport",
+      "english": "do sport",
+      "translation": "заниматься спортом"
+    },
+    {
+      "original": "fitness",
+      "english": "daily fitness",
+      "translation": "ежедневный фитнес"
+    },
+    {
+      "original": "activity",
+      "english": "physical activity",
+      "translation": "физическая активность"
+    },
+    {
+      "original": "lifestyle",
+      "english": "healthy lifestyle",
+      "translation": "здоровый образ жизни"
+    },
+    {
+      "original": "movement",
+      "english": "body movement",
+      "translation": "движение тела"
+    },
+    {
+      "original": "training",
+      "english": "strength training",
+      "translation": "силовая тренировка"
+    },
+    {
+      "original": "workout",
+      "english": "morning workout",
+      "translation": "утренняя тренировка"
+    },
+    {
+      "original": "exercise",
+      "english": "simple exercise",
+      "translation": "простое упражнение"
+    },
+    {
+      "original": "program",
+      "english": "training program",
+      "translation": "тренировочная программа"
+    },
+    {
+      "original": "gym",
+      "english": "go gym",
+      "translation": "идти в спортзал"
+    },
+    {
+      "original": "equipment",
+      "english": "fitness equipment",
+      "translation": "фитнес-оборудование"
+    },
+    {
+      "original": "treadmill",
+      "english": "use treadmill",
+      "translation": "использовать беговую дорожку"
+    },
+    {
+      "original": "mat",
+      "english": "yoga mat",
+      "translation": "коврик для йоги"
+    },
+    {
+      "original": "strength",
+      "english": "build strength",
+      "translation": "развивать силу"
+    },
+    {
+      "original": "endurance",
+      "english": "increase endurance",
+      "translation": "повышать выносливость"
+    },
+    {
+      "original": "flexibility",
+      "english": "improve flexibility",
+      "translation": "улучшать гибкость"
+    },
+    {
+      "original": "balance",
+      "english": "keep balance",
+      "translation": "держать баланс"
+    },
+    {
+      "original": "coordination",
+      "english": "body coordination",
+      "translation": "координация тела"
+    },
+    {
+      "original": "running",
+      "english": "morning running",
+      "translation": "утренний бег"
+    },
+    {
+      "original": "jogging",
+      "english": "evening jogging",
+      "translation": "вечерний лёгкий бег"
+    },
+    {
+      "original": "cycling",
+      "english": "road cycling",
+      "translation": "велоспорт на дороге"
+    },
+    {
+      "original": "swimming",
+      "english": "go swimming",
+      "translation": "ходить плавать"
+    },
+    {
+      "original": "yoga",
+      "english": "practice yoga",
+      "translation": "заниматься йогой"
+    },
+    {
+      "original": "team",
+      "english": "sports team",
+      "translation": "спортивная команда"
+    },
+    {
+      "original": "competition",
+      "english": "sports competition",
+      "translation": "спортивное соревнование"
+    },
+    {
+      "original": "match",
+      "english": "football match",
+      "translation": "футбольный матч"
+    },
+    {
+      "original": "tournament",
+      "english": "big tournament",
+      "translation": "большой турнир"
+    },
+    {
+      "original": "coach",
+      "english": "personal coach",
+      "translation": "личный тренер"
+    },
+    {
+      "original": "goal",
+      "english": "fitness goal",
+      "translation": "фитнес-цель"
+    },
+    {
+      "original": "progress",
+      "english": "track progress",
+      "translation": "отслеживать прогресс"
+    },
+    {
+      "original": "result",
+      "english": "final result",
+      "translation": "итоговый результат"
+    },
+    {
+      "original": "performance",
+      "english": "high performance",
+      "translation": "высокая результативность"
+    },
+    {
+      "original": "achievement",
+      "english": "personal achievement",
+      "translation": "личное достижение"
+    },
+    {
+      "original": "recovery",
+      "english": "muscle recovery",
+      "translation": "восстановление мышц"
+    },
+    {
+      "original": "rest",
+      "english": "take rest",
+      "translation": "отдыхать"
+    },
+    {
+      "original": "stretching",
+      "english": "full stretching",
+      "translation": "полная растяжка"
+    },
+    {
+      "original": "warm-up",
+      "english": "morning warm-up",
+      "translation": "утренняя разминка"
+    },
+    {
+      "original": "cool-down",
+      "english": "cool-down phase",
+      "translation": "фаза заминки"
+    },
+    {
+      "original": "steps",
+      "english": "daily steps",
+      "translation": "ежедневные шаги"
+    },
+    {
+      "original": "calories",
+      "english": "burn calories",
+      "translation": "сжигать калории"
+    },
+    {
+      "original": "heart rate",
+      "english": "check heart rate",
+      "translation": "проверять пульс"
+    },
+    {
+      "original": "tracker",
+      "english": "fitness tracker",
+      "translation": "фитнес-трекер"
+    },
+    {
+      "original": "schedule",
+      "english": "training schedule",
+      "translation": "расписание тренировок"
+    },
+    {
+      "original": "routine",
+      "english": "daily routine",
+      "translation": "ежедневный режим"
+    },
+    {
+      "original": "weights",
+      "english": "lift weights",
+      "translation": "поднимать веса"
+    }
   ]
 }

@@ -3,45 +3,205 @@
   "level": "Upper-Intermediate",
   "name": "Phrase",
   "items": [
-    { "id": "modern-society", "original": "society", "english": "modern society", "translation": "современное общество" },
-    { "id": "online-community", "original": "community", "english": "online community", "translation": "онлайн сообщество" },
-    { "id": "global-population", "original": "population", "english": "global population", "translation": "мировое население" },
-    { "id": "young-generation", "original": "generation", "english": "young generation", "translation": "молодое поколение" },
-    { "id": "local-culture", "original": "culture", "english": "local culture", "translation": "местная культура" },
-    { "id": "core-values", "original": "values", "english": "core values", "translation": "ключевые ценности" },
-    { "id": "social-norms", "original": "norms", "english": "social norms", "translation": "социальные нормы" },
-    { "id": "personal-identity", "original": "identity", "english": "personal identity", "translation": "личная идентичность" },
-    { "id": "cultural-diversity", "original": "diversity", "english": "cultural diversity", "translation": "культурное разнообразие" },
-    { "id": "social-inclusion", "original": "inclusion", "english": "social inclusion", "translation": "социальная инклюзивность" },
-    { "id": "economic-inequality", "original": "inequality", "english": "economic inequality", "translation": "экономическое неравенство" },
-    { "id": "equal-opportunity", "original": "opportunity", "english": "equal opportunity", "translation": "равная возможность" },
-    { "id": "open-access", "original": "access", "english": "open access", "translation": "открытый доступ" },
-    { "id": "high-standard-of-living", "original": "standard of living", "english": "high standard of living", "translation": "высокий уровень жизни" },
-    { "id": "better-quality-of-life", "original": "quality of life", "english": "better quality of life", "translation": "лучшее качество жизни" },
-    { "id": "global-globalization", "original": "globalization", "english": "global globalization", "translation": "глобальная глобализация" },
-    { "id": "rapid-urbanization", "original": "urbanization", "english": "rapid urbanization", "translation": "быстрая урбанизация" },
-    { "id": "mass-migration", "original": "migration", "english": "mass migration", "translation": "массовая миграция" },
-    { "id": "changing-demographics", "original": "demographics", "english": "changing demographics", "translation": "изменяющаяся демография" },
-    { "id": "growing-middle-class", "original": "middle class", "english": "growing middle class", "translation": "растущий средний класс" },
-    { "id": "new-technology", "original": "technology", "english": "new technology", "translation": "новые технологии" },
-    { "id": "digital-transformation", "original": "digitalization", "english": "digital transformation", "translation": "цифровая трансформация" },
-    { "id": "industrial-automation", "original": "automation", "english": "industrial automation", "translation": "промышленная автоматизация" },
-    { "id": "artificial-intelligence-systems", "original": "artificial intelligence", "english": "artificial intelligence systems", "translation": "системы искусственного интеллекта" },
-    { "id": "positive-social-impact", "original": "social impact", "english": "positive social impact", "translation": "положительное социальное влияние" },
-    { "id": "mass-media", "original": "media", "english": "mass media", "translation": "массовые медиа" },
-    { "id": "digital-information", "original": "information", "english": "digital information", "translation": "цифровая информация" },
-    { "id": "online-misinformation", "original": "misinformation", "english": "online misinformation", "translation": "онлайн дезинформация" },
-    { "id": "public-opinion-poll", "original": "public opinion", "english": "public opinion poll", "translation": "опрос общественного мнения" },
-    { "id": "public-trust", "original": "trust", "english": "public trust", "translation": "общественное доверие" },
-    { "id": "global-climate-change", "original": "climate change", "english": "global climate change", "translation": "глобальное изменение климата" },
-    { "id": "natural-environment", "original": "environment", "english": "natural environment", "translation": "природная среда" },
-    { "id": "environmental-sustainability", "original": "sustainability", "english": "environmental sustainability", "translation": "экологическая устойчивость" },
-    { "id": "natural-resources", "original": "resources", "english": "natural resources", "translation": "природные ресурсы" },
-    { "id": "renewable-energy", "original": "energy", "english": "renewable energy", "translation": "возобновляемая энергия" },
-    { "id": "healthy-lifestyle", "original": "lifestyle", "english": "healthy lifestyle", "translation": "здоровый образ жизни" },
-    { "id": "work-life-balance-goals", "original": "work-life balance", "english": "work life balance goals", "translation": "цели баланса работы и жизни" },
-    { "id": "mass-consumerism", "original": "consumerism", "english": "mass consumerism", "translation": "массовое потребительство" },
-    { "id": "rapid-social-change", "original": "social change", "english": "rapid social change", "translation": "быстрые социальные изменения" },
-    { "id": "future-trends", "original": "future", "english": "future trends", "translation": "будущие тенденции" }
+    {
+      "original": "society",
+      "english": "modern society",
+      "translation": "современное общество"
+    },
+    {
+      "original": "community",
+      "english": "online community",
+      "translation": "онлайн сообщество"
+    },
+    {
+      "original": "population",
+      "english": "global population",
+      "translation": "мировое население"
+    },
+    {
+      "original": "generation",
+      "english": "young generation",
+      "translation": "молодое поколение"
+    },
+    {
+      "original": "culture",
+      "english": "local culture",
+      "translation": "местная культура"
+    },
+    {
+      "original": "values",
+      "english": "core values",
+      "translation": "ключевые ценности"
+    },
+    {
+      "original": "norms",
+      "english": "social norms",
+      "translation": "социальные нормы"
+    },
+    {
+      "original": "identity",
+      "english": "personal identity",
+      "translation": "личная идентичность"
+    },
+    {
+      "original": "diversity",
+      "english": "cultural diversity",
+      "translation": "культурное разнообразие"
+    },
+    {
+      "original": "inclusion",
+      "english": "social inclusion",
+      "translation": "социальная инклюзивность"
+    },
+    {
+      "original": "inequality",
+      "english": "economic inequality",
+      "translation": "экономическое неравенство"
+    },
+    {
+      "original": "opportunity",
+      "english": "equal opportunity",
+      "translation": "равная возможность"
+    },
+    {
+      "original": "access",
+      "english": "open access",
+      "translation": "открытый доступ"
+    },
+    {
+      "original": "standard of living",
+      "english": "high standard of living",
+      "translation": "высокий уровень жизни"
+    },
+    {
+      "original": "quality of life",
+      "english": "better quality of life",
+      "translation": "лучшее качество жизни"
+    },
+    {
+      "original": "globalization",
+      "english": "global globalization",
+      "translation": "глобальная глобализация"
+    },
+    {
+      "original": "urbanization",
+      "english": "rapid urbanization",
+      "translation": "быстрая урбанизация"
+    },
+    {
+      "original": "migration",
+      "english": "mass migration",
+      "translation": "массовая миграция"
+    },
+    {
+      "original": "demographics",
+      "english": "changing demographics",
+      "translation": "изменяющаяся демография"
+    },
+    {
+      "original": "middle class",
+      "english": "growing middle class",
+      "translation": "растущий средний класс"
+    },
+    {
+      "original": "technology",
+      "english": "new technology",
+      "translation": "новые технологии"
+    },
+    {
+      "original": "digitalization",
+      "english": "digital transformation",
+      "translation": "цифровая трансформация"
+    },
+    {
+      "original": "automation",
+      "english": "industrial automation",
+      "translation": "промышленная автоматизация"
+    },
+    {
+      "original": "artificial intelligence",
+      "english": "artificial intelligence systems",
+      "translation": "системы искусственного интеллекта"
+    },
+    {
+      "original": "social impact",
+      "english": "positive social impact",
+      "translation": "положительное социальное влияние"
+    },
+    {
+      "original": "media",
+      "english": "mass media",
+      "translation": "массовые медиа"
+    },
+    {
+      "original": "information",
+      "english": "digital information",
+      "translation": "цифровая информация"
+    },
+    {
+      "original": "misinformation",
+      "english": "online misinformation",
+      "translation": "онлайн дезинформация"
+    },
+    {
+      "original": "public opinion",
+      "english": "public opinion poll",
+      "translation": "опрос общественного мнения"
+    },
+    {
+      "original": "trust",
+      "english": "public trust",
+      "translation": "общественное доверие"
+    },
+    {
+      "original": "climate change",
+      "english": "global climate change",
+      "translation": "глобальное изменение климата"
+    },
+    {
+      "original": "environment",
+      "english": "natural environment",
+      "translation": "природная среда"
+    },
+    {
+      "original": "sustainability",
+      "english": "environmental sustainability",
+      "translation": "экологическая устойчивость"
+    },
+    {
+      "original": "resources",
+      "english": "natural resources",
+      "translation": "природные ресурсы"
+    },
+    {
+      "original": "energy",
+      "english": "renewable energy",
+      "translation": "возобновляемая энергия"
+    },
+    {
+      "original": "lifestyle",
+      "english": "healthy lifestyle",
+      "translation": "здоровый образ жизни"
+    },
+    {
+      "original": "work-life balance",
+      "english": "work life balance goals",
+      "translation": "цели баланса работы и жизни"
+    },
+    {
+      "original": "consumerism",
+      "english": "mass consumerism",
+      "translation": "массовое потребительство"
+    },
+    {
+      "original": "social change",
+      "english": "rapid social change",
+      "translation": "быстрые социальные изменения"
+    },
+    {
+      "original": "future",
+      "english": "future trends",
+      "translation": "будущие тенденции"
+    }
   ]
 }

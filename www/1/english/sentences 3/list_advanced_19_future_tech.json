@@ -3,165 +3,45 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "technology",
-      "translation": "технология"
-    },
-    {
-      "english": "innovation",
-      "translation": "инновация"
-    },
-    {
-      "english": "future",
-      "translation": "будущее"
-    },
-    {
-      "english": "trend",
-      "translation": "тренд"
-    },
-    {
-      "english": "development",
-      "translation": "развитие"
-    },
-    {
-      "english": "automation",
-      "translation": "автоматизация"
-    },
-    {
-      "english": "digitalization",
-      "translation": "цифровизация"
-    },
-    {
-      "english": "transformation",
-      "translation": "трансформация"
-    },
-    {
-      "english": "disruption",
-      "translation": "радикальное изменение"
-    },
-    {
-      "english": "scalability",
-      "translation": "масштабируемость"
-    },
-    {
-      "english": "platform",
-      "translation": "платформа"
-    },
-    {
-      "english": "ecosystem",
-      "translation": "экосистема"
-    },
-    {
-      "english": "infrastructure",
-      "translation": "инфраструктура"
-    },
-    {
-      "english": "architecture",
-      "translation": "архитектура"
-    },
-    {
-      "english": "integration",
-      "translation": "интеграция"
-    },
-    {
-      "english": "cloud",
-      "translation": "облако"
-    },
-    {
-      "english": "edge computing",
-      "translation": "периферийные вычисления"
-    },
-    {
-      "english": "virtualization",
-      "translation": "виртуализация"
-    },
-    {
-      "english": "automation tools",
-      "translation": "инструменты автоматизации"
-    },
-    {
-      "english": "smart systems",
-      "translation": "умные системы"
-    },
-    {
-      "english": "robotics",
-      "translation": "робототехника"
-    },
-    {
-      "english": "autonomy",
-      "translation": "автономность"
-    },
-    {
-      "english": "connectivity",
-      "translation": "связанность"
-    },
-    {
-      "english": "5G",
-      "translation": "5G"
-    },
-    {
-      "english": "internet of things",
-      "translation": "интернет вещей"
-    },
-    {
-      "english": "virtual reality",
-      "translation": "виртуальная реальность"
-    },
-    {
-      "english": "augmented reality",
-      "translation": "дополненная реальность"
-    },
-    {
-      "english": "metaverse",
-      "translation": "метавселенная"
-    },
-    {
-      "english": "digital twin",
-      "translation": "цифровой двойник"
-    },
-    {
-      "english": "simulation",
-      "translation": "симуляция"
-    },
-    {
-      "english": "sustainability",
-      "translation": "устойчивое развитие"
-    },
-    {
-      "english": "green technology",
-      "translation": "зелёные технологии"
-    },
-    {
-      "english": "energy efficiency",
-      "translation": "энергоэффективность"
-    },
-    {
-      "english": "smart city",
-      "translation": "умный город"
-    },
-    {
-      "english": "mobility",
-      "translation": "мобильность"
-    },
-    {
-      "english": "user experience",
-      "translation": "пользовательский опыт"
-    },
-    {
-      "english": "human-centered design",
-      "translation": "ориентированный на человека дизайн"
-    },
-    {
-      "english": "adaptation",
-      "translation": "адаптация"
-    },
-    {
-      "english": "adoption",
-      "translation": "внедрение"
-    },
-    {
-      "english": "impact",
-      "translation": "влияние"
-    }
+    { "original": "technology", "english": "Modern technology changes industries.", "translation": "Современные технологии меняют индустрии." },
+    { "original": "innovation", "english": "Real innovation drives progress.", "translation": "Настоящие инновации двигают прогресс." },
+    { "original": "future", "english": "People imagine the future.", "translation": "Люди представляют будущее." },
+    { "original": "trend", "english": "Remote work becomes trend.", "translation": "Удалённая работа становится трендом." },
+    { "original": "development", "english": "Fast development improves platforms.", "translation": "Быстрое развитие улучшает платформы." },
+    { "original": "automation", "english": "Automation saves company resources.", "translation": "Автоматизация экономит ресурсы компании." },
+    { "original": "digitalization", "english": "Digitalization transforms many businesses.", "translation": "Цифровизация трансформирует многие бизнесы." },
+    { "original": "transformation", "english": "Digital transformation starts gradually.", "translation": "Цифровая трансформация начинается постепенно." },
+    { "original": "disruption", "english": "Startups create market disruption.", "translation": "Стартапы создают рыночные изменения." },
+    { "original": "scalability", "english": "Systems require good scalability.", "translation": "Системам нужна хорошая масштабируемость." },
+    { "original": "platform", "english": "Developers build digital platform.", "translation": "Разработчики создают цифровую платформу." },
+    { "original": "ecosystem", "english": "Strong ecosystem supports innovation.", "translation": "Сильная экосистема поддерживает инновации." },
+    { "original": "infrastructure", "english": "Cloud infrastructure supports services.", "translation": "Облачная инфраструктура поддерживает сервисы." },
+    { "original": "architecture", "english": "Engineers design system architecture.", "translation": "Инженеры проектируют архитектуру системы." },
+    { "original": "integration", "english": "Integration connects different platforms.", "translation": "Интеграция соединяет разные платформы." },
+    { "original": "cloud", "english": "Many companies adopt cloud.", "translation": "Многие компании переходят в облако." },
+    { "original": "edge computing", "english": "Edge computing processes data locally.", "translation": "Периферийные вычисления обрабатывают данные локально." },
+    { "original": "virtualization", "english": "Virtualization optimizes server resources.", "translation": "Виртуализация оптимизирует серверные ресурсы." },
+    { "original": "automation tools", "english": "Teams use automation tools.", "translation": "Команды используют инструменты автоматизации." },
+    { "original": "smart systems", "english": "Smart systems analyze information.", "translation": "Умные системы анализируют информацию." },
+    { "original": "robotics", "english": "Robotics transforms modern factories.", "translation": "Робототехника трансформирует современные фабрики." },
+    { "original": "autonomy", "english": "Vehicles gain higher autonomy.", "translation": "Транспорт получает большую автономность." },
+    { "original": "connectivity", "english": "Global connectivity enables communication.", "translation": "Глобальная связанность обеспечивает коммуникацию." },
+    { "original": "5G", "english": "5G expands mobile networks.", "translation": "5G расширяет мобильные сети." },
+    { "original": "internet of things", "english": "Internet of things connects devices.", "translation": "Интернет вещей соединяет устройства." },
+    { "original": "virtual reality", "english": "Virtual reality creates immersion.", "translation": "Виртуальная реальность создаёт погружение." },
+    { "original": "augmented reality", "english": "Augmented reality enhances experiences.", "translation": "Дополненная реальность улучшает опыт." },
+    { "original": "metaverse", "english": "Companies explore the metaverse.", "translation": "Компании изучают метавселенную." },
+    { "original": "digital twin", "english": "Factories simulate digital twin.", "translation": "Фабрики моделируют цифровой двойник." },
+    { "original": "simulation", "english": "Simulation tests complex systems.", "translation": "Симуляция тестирует сложные системы." },
+    { "original": "sustainability", "english": "Sustainability guides modern innovation.", "translation": "Устойчивое развитие направляет современные инновации." },
+    { "original": "green technology", "english": "Green technology protects environment.", "translation": "Зелёные технологии защищают окружающую среду." },
+    { "original": "energy efficiency", "english": "Energy efficiency saves resources.", "translation": "Энергоэффективность экономит ресурсы." },
+    { "original": "smart city", "english": "Smart city improves transport.", "translation": "Умный город улучшает транспорт." },
+    { "original": "mobility", "english": "Electric cars change mobility.", "translation": "Электромобили меняют мобильность." },
+    { "original": "user experience", "english": "Great user experience matters.", "translation": "Хороший пользовательский опыт важен." },
+    { "original": "human-centered design", "english": "Human-centered design improves products.", "translation": "Дизайн, ориентированный на человека, улучшает продукты." },
+    { "original": "adaptation", "english": "Fast adaptation supports growth.", "translation": "Быстрая адаптация поддерживает рост." },
+    { "original": "adoption", "english": "Technology adoption grows globally.", "translation": "Внедрение технологий растёт во всём мире." },
+    { "original": "impact", "english": "AI has global impact.", "translation": "ИИ имеет глобальное влияние." }
   ]
 }

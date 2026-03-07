@@ -3,30 +3,130 @@
   "level": "Upper-Intermediate",
   "name": "Phrase",
   "items": [
-{ "id": "use-cryptocurrency", "original": "cryptocurrency", "english": "use cryptocurrency", "translation": "использовать криптовалюту" },
-{ "id": "trade-crypto", "original": "crypto", "english": "trade crypto", "translation": "торговать криптой" },
-{ "id": "blockchain-technology", "original": "blockchain", "english": "blockchain technology", "translation": "технология блокчейн" },
-{ "id": "issue-token", "original": "token", "english": "issue token", "translation": "выпускать токен" },
-{ "id": "new-coin", "original": "coin", "english": "new coin", "translation": "новая монета" },
-{ "id": "buy-bitcoin", "original": "bitcoin", "english": "buy bitcoin", "translation": "купить биткоин" },
-{ "id": "use-ethereum", "original": "ethereum", "english": "use ethereum", "translation": "использовать эфириум" },
-{ "id": "popular-altcoin", "original": "altcoin", "english": "popular altcoin", "translation": "популярный альткоин" },
-{ "id": "stablecoin-price", "original": "stablecoin", "english": "stablecoin price", "translation": "цена стейблкоина" },
-{ "id": "crypto-network", "original": "network", "english": "crypto network", "translation": "криптосеть" },
-{ "id": "crypto-wallet", "original": "wallet", "english": "crypto wallet", "translation": "криптокошелёк" },
-{ "id": "wallet-address", "original": "address", "english": "wallet address", "translation": "адрес кошелька" },
-{ "id": "private-key-security", "original": "private-key", "english": "private key security", "translation": "безопасность приватного ключа" },
-{ "id": "save-seed-phrase", "original": "seed-phrase", "english": "save seed phrase", "translation": "сохранить сид-фразу" },
-{ "id": "send-transaction", "original": "transaction", "english": "send transaction", "translation": "отправить транзакцию" },
-{ "id": "new-block", "original": "block", "english": "new block", "translation": "новый блок" },
-{ "id": "crypto-miner", "original": "miner", "english": "crypto miner", "translation": "криптомайнер" },
-{ "id": "start-mining", "original": "mining", "english": "start mining", "translation": "начать майнинг" },
-{ "id": "network-validator", "original": "validator", "english": "network validator", "translation": "валидатор сети" },
-{ "id": "reach-consensus", "original": "consensus", "english": "reach consensus", "translation": "достигать консенсуса" },
-{ "id": "proof-of-work-system", "original": "proof-of-work", "english": "proof of work system", "translation": "система proof of work" },
-{ "id": "proof-of-stake-system", "original": "proof-of-stake", "english": "proof of stake system", "translation": "система proof of stake" },
-{ "id": "hash-function", "original": "hash", "english": "hash function", "translation": "хеш-функция" },
-{ "id": "run-node", "original": "node", "english": "run node", "translation": "запускать узел" },
-{ "id": "distributed-ledger", "original": "ledger", "english": "distributed ledger", "translation": "распределённый реестр" }
+    {
+      "original": "cryptocurrency",
+      "english": "use cryptocurrency",
+      "translation": "использовать криптовалюту"
+    },
+    {
+      "original": "crypto",
+      "english": "trade crypto",
+      "translation": "торговать криптой"
+    },
+    {
+      "original": "blockchain",
+      "english": "blockchain technology",
+      "translation": "технология блокчейн"
+    },
+    {
+      "original": "token",
+      "english": "issue token",
+      "translation": "выпускать токен"
+    },
+    {
+      "original": "coin",
+      "english": "new coin",
+      "translation": "новая монета"
+    },
+    {
+      "original": "bitcoin",
+      "english": "buy bitcoin",
+      "translation": "купить биткоин"
+    },
+    {
+      "original": "ethereum",
+      "english": "use ethereum",
+      "translation": "использовать эфириум"
+    },
+    {
+      "original": "altcoin",
+      "english": "popular altcoin",
+      "translation": "популярный альткоин"
+    },
+    {
+      "original": "stablecoin",
+      "english": "stablecoin price",
+      "translation": "цена стейблкоина"
+    },
+    {
+      "original": "network",
+      "english": "crypto network",
+      "translation": "криптосеть"
+    },
+    {
+      "original": "wallet",
+      "english": "crypto wallet",
+      "translation": "криптокошелёк"
+    },
+    {
+      "original": "address",
+      "english": "wallet address",
+      "translation": "адрес кошелька"
+    },
+    {
+      "original": "private-key",
+      "english": "private key security",
+      "translation": "безопасность приватного ключа"
+    },
+    {
+      "original": "seed-phrase",
+      "english": "save seed phrase",
+      "translation": "сохранить сид-фразу"
+    },
+    {
+      "original": "transaction",
+      "english": "send transaction",
+      "translation": "отправить транзакцию"
+    },
+    {
+      "original": "block",
+      "english": "new block",
+      "translation": "новый блок"
+    },
+    {
+      "original": "miner",
+      "english": "crypto miner",
+      "translation": "криптомайнер"
+    },
+    {
+      "original": "mining",
+      "english": "start mining",
+      "translation": "начать майнинг"
+    },
+    {
+      "original": "validator",
+      "english": "network validator",
+      "translation": "валидатор сети"
+    },
+    {
+      "original": "consensus",
+      "english": "reach consensus",
+      "translation": "достигать консенсуса"
+    },
+    {
+      "original": "proof-of-work",
+      "english": "proof of work system",
+      "translation": "система proof of work"
+    },
+    {
+      "original": "proof-of-stake",
+      "english": "proof of stake system",
+      "translation": "система proof of stake"
+    },
+    {
+      "original": "hash",
+      "english": "hash function",
+      "translation": "хеш-функция"
+    },
+    {
+      "original": "node",
+      "english": "run node",
+      "translation": "запускать узел"
+    },
+    {
+      "original": "ledger",
+      "english": "distributed ledger",
+      "translation": "распределённый реестр"
+    }
   ]
 }

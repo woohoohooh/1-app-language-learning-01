@@ -3,50 +3,230 @@
   "level": "Intermediate",
   "name": "Phrase",
   "items": [
-    { "id": "use-computer", "original": "computer", "english": "use computer", "translation": "использовать компьютер" },
-    { "id": "new-laptop", "original": "laptop", "english": "new laptop", "translation": "новый ноутбук" },
-    { "id": "desktop-pc", "original": "desktop", "english": "desktop PC", "translation": "стационарный компьютер" },
-    { "id": "tablet-device", "original": "tablet", "english": "tablet device", "translation": "планшет" },
-    { "id": "smartphone-user", "original": "smartphone", "english": "smartphone user", "translation": "пользователь смартфона" },
-    { "id": "modern-device", "original": "device", "english": "modern device", "translation": "современное устройство" },
-    { "id": "cool-gadget", "original": "gadget", "english": "cool gadget", "translation": "крутой гаджет" },
-    { "id": "large-screen", "original": "screen", "english": "large screen", "translation": "большой экран" },
-    { "id": "bright-display", "original": "display", "english": "bright display", "translation": "яркий дисплей" },
-    { "id": "touch-screen", "original": "touchscreen", "english": "touch screen", "translation": "сенсорный экран" },
-    { "id": "type-keyboard", "original": "keyboard", "english": "type on keyboard", "translation": "печатать на клавиатуре" },
-    { "id": "use-mouse", "original": "mouse", "english": "use mouse", "translation": "использовать мышь" },
-    { "id": "touchpad-control", "original": "touchpad", "english": "touchpad control", "translation": "управление тачпадом" },
-    { "id": "external-monitor", "original": "monitor", "english": "external monitor", "translation": "внешний монитор" },
-    { "id": "loud-speaker", "original": "speaker", "english": "loud speaker", "translation": "громкий динамик" },
-    { "id": "wear-headphones", "original": "headphones", "english": "wear headphones", "translation": "носить наушники" },
-    { "id": "usb-microphone", "original": "microphone", "english": "USB microphone", "translation": "USB-микрофон" },
-    { "id": "hd-webcam", "original": "webcam", "english": "HD webcam", "translation": "HD веб-камера" },
-    { "id": "office-printer", "original": "printer", "english": "office printer", "translation": "офисный принтер" },
-    { "id": "document-scanner", "original": "scanner", "english": "document scanner", "translation": "сканер документов" },
-    { "id": "fast-processor", "original": "processor", "english": "fast processor", "translation": "быстрый процессор" },
-    { "id": "system-memory", "original": "memory", "english": "system memory", "translation": "оперативная память" },
-    { "id": "cloud-storage", "original": "storage", "english": "cloud storage", "translation": "облачное хранилище" },
-    { "id": "hard-drive-space", "original": "hard-drive", "english": "hard drive space", "translation": "место на жёстком диске" },
-    { "id": "ssd-drive", "original": "ssd", "english": "SSD drive", "translation": "SSD-накопитель" },
-    { "id": "battery-life", "original": "battery", "english": "battery life", "translation": "время работы батареи" },
-    { "id": "phone-charger", "original": "charger", "english": "phone charger", "translation": "зарядное устройство телефона" },
-    { "id": "power-cable-connect", "original": "power-cable", "english": "connect power cable", "translation": "подключить кабель питания" },
-    { "id": "usb-cable-connect", "original": "usb-cable", "english": "USB cable connect", "translation": "подключить USB-кабель" },
-    { "id": "power-adapter", "original": "adapter", "english": "power adapter", "translation": "адаптер питания" },
-    { "id": "operating-system-update", "original": "operating-system", "english": "operating system update", "translation": "обновление ОС" },
-    { "id": "install-software", "original": "software", "english": "install software", "translation": "установить ПО" },
-    { "id": "computer-hardware", "original": "hardware", "english": "computer hardware", "translation": "аппаратное обеспечение" },
-    { "id": "mobile-application", "original": "application", "english": "mobile application", "translation": "мобильное приложение" },
-    { "id": "device-driver", "original": "driver", "english": "device driver", "translation": "драйвер устройства" },
-    { "id": "system-performance", "original": "performance", "english": "system performance", "translation": "производительность системы" },
-    { "id": "screen-resolution", "original": "resolution", "english": "screen resolution", "translation": "разрешение экрана" },
-    { "id": "system-settings", "original": "settings", "english": "system settings", "translation": "настройки системы" },
-    { "id": "software-update", "original": "update", "english": "software update", "translation": "обновление ПО" },
-    { "id": "device-compatibility", "original": "compatibility", "english": "device compatibility", "translation": "совместимость устройства" },
-    { "id": "wireless-connection", "original": "wireless", "english": "wireless connection", "translation": "беспроводное соединение" },
-    { "id": "bluetooth-device", "original": "bluetooth", "english": "Bluetooth device", "translation": "Bluetooth-устройство" },
-    { "id": "wi-fi-network", "original": "wi-fi", "english": "Wi-Fi network", "translation": "Wi-Fi сеть" },
-    { "id": "portable-device", "original": "portable", "english": "portable device", "translation": "портативное устройство" },
-    { "id": "built-in-camera", "original": "built-in", "english": "built-in camera", "translation": "встроенная камера" }
+    {
+      "original": "computer",
+      "english": "use computer",
+      "translation": "использовать компьютер"
+    },
+    {
+      "original": "laptop",
+      "english": "new laptop",
+      "translation": "новый ноутбук"
+    },
+    {
+      "original": "desktop",
+      "english": "desktop PC",
+      "translation": "стационарный компьютер"
+    },
+    {
+      "original": "tablet",
+      "english": "tablet device",
+      "translation": "планшет"
+    },
+    {
+      "original": "smartphone",
+      "english": "smartphone user",
+      "translation": "пользователь смартфона"
+    },
+    {
+      "original": "device",
+      "english": "modern device",
+      "translation": "современное устройство"
+    },
+    {
+      "original": "gadget",
+      "english": "cool gadget",
+      "translation": "крутой гаджет"
+    },
+    {
+      "original": "screen",
+      "english": "large screen",
+      "translation": "большой экран"
+    },
+    {
+      "original": "display",
+      "english": "bright display",
+      "translation": "яркий дисплей"
+    },
+    {
+      "original": "touchscreen",
+      "english": "touch screen",
+      "translation": "сенсорный экран"
+    },
+    {
+      "original": "keyboard",
+      "english": "type on keyboard",
+      "translation": "печатать на клавиатуре"
+    },
+    {
+      "original": "mouse",
+      "english": "use mouse",
+      "translation": "использовать мышь"
+    },
+    {
+      "original": "touchpad",
+      "english": "touchpad control",
+      "translation": "управление тачпадом"
+    },
+    {
+      "original": "monitor",
+      "english": "external monitor",
+      "translation": "внешний монитор"
+    },
+    {
+      "original": "speaker",
+      "english": "loud speaker",
+      "translation": "громкий динамик"
+    },
+    {
+      "original": "headphones",
+      "english": "wear headphones",
+      "translation": "носить наушники"
+    },
+    {
+      "original": "microphone",
+      "english": "USB microphone",
+      "translation": "USB-микрофон"
+    },
+    {
+      "original": "webcam",
+      "english": "HD webcam",
+      "translation": "HD веб-камера"
+    },
+    {
+      "original": "printer",
+      "english": "office printer",
+      "translation": "офисный принтер"
+    },
+    {
+      "original": "scanner",
+      "english": "document scanner",
+      "translation": "сканер документов"
+    },
+    {
+      "original": "processor",
+      "english": "fast processor",
+      "translation": "быстрый процессор"
+    },
+    {
+      "original": "memory",
+      "english": "system memory",
+      "translation": "оперативная память"
+    },
+    {
+      "original": "storage",
+      "english": "cloud storage",
+      "translation": "облачное хранилище"
+    },
+    {
+      "original": "hard-drive",
+      "english": "hard drive space",
+      "translation": "место на жёстком диске"
+    },
+    {
+      "original": "ssd",
+      "english": "SSD drive",
+      "translation": "SSD-накопитель"
+    },
+    {
+      "original": "battery",
+      "english": "battery life",
+      "translation": "время работы батареи"
+    },
+    {
+      "original": "charger",
+      "english": "phone charger",
+      "translation": "зарядное устройство телефона"
+    },
+    {
+      "original": "power-cable",
+      "english": "connect power cable",
+      "translation": "подключить кабель питания"
+    },
+    {
+      "original": "usb-cable",
+      "english": "USB cable connect",
+      "translation": "подключить USB-кабель"
+    },
+    {
+      "original": "adapter",
+      "english": "power adapter",
+      "translation": "адаптер питания"
+    },
+    {
+      "original": "operating-system",
+      "english": "operating system update",
+      "translation": "обновление ОС"
+    },
+    {
+      "original": "software",
+      "english": "install software",
+      "translation": "установить ПО"
+    },
+    {
+      "original": "hardware",
+      "english": "computer hardware",
+      "translation": "аппаратное обеспечение"
+    },
+    {
+      "original": "application",
+      "english": "mobile application",
+      "translation": "мобильное приложение"
+    },
+    {
+      "original": "driver",
+      "english": "device driver",
+      "translation": "драйвер устройства"
+    },
+    {
+      "original": "performance",
+      "english": "system performance",
+      "translation": "производительность системы"
+    },
+    {
+      "original": "resolution",
+      "english": "screen resolution",
+      "translation": "разрешение экрана"
+    },
+    {
+      "original": "settings",
+      "english": "system settings",
+      "translation": "настройки системы"
+    },
+    {
+      "original": "update",
+      "english": "software update",
+      "translation": "обновление ПО"
+    },
+    {
+      "original": "compatibility",
+      "english": "device compatibility",
+      "translation": "совместимость устройства"
+    },
+    {
+      "original": "wireless",
+      "english": "wireless connection",
+      "translation": "беспроводное соединение"
+    },
+    {
+      "original": "bluetooth",
+      "english": "Bluetooth device",
+      "translation": "Bluetooth-устройство"
+    },
+    {
+      "original": "wi-fi",
+      "english": "Wi-Fi network",
+      "translation": "Wi-Fi сеть"
+    },
+    {
+      "original": "portable",
+      "english": "portable device",
+      "translation": "портативное устройство"
+    },
+    {
+      "original": "built-in",
+      "english": "built-in camera",
+      "translation": "встроенная камера"
+    }
   ]
 }

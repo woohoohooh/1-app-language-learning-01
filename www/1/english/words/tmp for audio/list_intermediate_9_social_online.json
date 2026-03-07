@@ -3,40 +3,180 @@
   "level": "Intermediate",
   "name": "Phrase",
   "items": [
-    { "id": "use-social-media", "original": "social media", "english": "use social media", "translation": "использовать социальные сети" },
-    { "id": "new-platform", "original": "platform", "english": "new platform", "translation": "новая платформа" },
-    { "id": "open-profile", "original": "profile", "english": "open profile", "translation": "открыть профиль" },
-    { "id": "create-account", "original": "account", "english": "create account", "translation": "создать аккаунт" },
-    { "id": "change-username", "original": "username", "english": "change username", "translation": "изменить имя пользователя" },
-    { "id": "post-story", "original": "story", "english": "post story", "translation": "опубликовать историю" },
-    { "id": "scroll-feed", "original": "feed", "english": "scroll feed", "translation": "листать ленту" },
-    { "id": "create-content", "original": "content", "english": "create content", "translation": "создавать контент" },
-    { "id": "upload-video", "original": "upload", "english": "upload video", "translation": "загружать видео" },
-    { "id": "write-comment", "original": "comment", "english": "write comment", "translation": "написать комментарий" },
-    { "id": "send-reply", "original": "reply", "english": "send reply", "translation": "отправить ответ" },
-    { "id": "send-message", "original": "message", "english": "send message", "translation": "отправить сообщение" },
-    { "id": "open-chat", "original": "chat", "english": "open chat", "translation": "открыть чат" },
-    { "id": "get-notification", "original": "notification", "english": "get notification", "translation": "получить уведомление" },
-    { "id": "give-like", "original": "like", "english": "give like", "translation": "поставить лайк" },
-    { "id": "add-reaction", "original": "reaction", "english": "add reaction", "translation": "добавить реакцию" },
-    { "id": "make-post", "original": "post", "english": "make post", "translation": "сделать пост" },
-    { "id": "share-post", "original": "share", "english": "share post", "translation": "поделиться постом" },
-    { "id": "send-report", "original": "report", "english": "send report", "translation": "отправить жалобу" },
-    { "id": "repost-content", "original": "repost", "english": "repost content", "translation": "сделать репост" },
-    { "id": "save-post", "original": "save", "english": "save post", "translation": "сохранить пост" },
-    { "id": "new-follower", "original": "follower", "english": "new follower", "translation": "новый подписчик" },
-    { "id": "check-following", "original": "following", "english": "check following", "translation": "проверить подписки" },
-    { "id": "subscribe-channel", "original": "subscribe", "english": "subscribe channel", "translation": "подписаться на канал" },
-    { "id": "unsubscribe-user", "original": "unsubscribe", "english": "unsubscribe user", "translation": "отписаться от пользователя" },
-    { "id": "block-user", "original": "block", "english": "block user", "translation": "заблокировать пользователя" },
-    { "id": "be-online", "original": "online", "english": "be online", "translation": "быть в сети" },
-    { "id": "go-offline", "original": "offline", "english": "go offline", "translation": "быть не в сети" },
-    { "id": "update-status", "original": "status", "english": "update status", "translation": "обновить статус" },
-    { "id": "privacy-settings", "original": "privacy", "english": "privacy settings", "translation": "настройки приватности" },
-    { "id": "open-settings", "original": "settings", "english": "open settings", "translation": "открыть настройки" },
-    { "id": "new-trend", "original": "trend", "english": "new trend", "translation": "новый тренд" },
-    { "id": "go-viral", "original": "viral", "english": "go viral", "translation": "стать вирусным" },
-    { "id": "online-community", "original": "community", "english": "online community", "translation": "онлайн сообщество" },
-    { "id": "content-moderation", "original": "moderation", "english": "content moderation", "translation": "модерация контента" }
+    {
+      "original": "social media",
+      "english": "use social media",
+      "translation": "использовать социальные сети"
+    },
+    {
+      "original": "platform",
+      "english": "new platform",
+      "translation": "новая платформа"
+    },
+    {
+      "original": "profile",
+      "english": "open profile",
+      "translation": "открыть профиль"
+    },
+    {
+      "original": "account",
+      "english": "create account",
+      "translation": "создать аккаунт"
+    },
+    {
+      "original": "username",
+      "english": "change username",
+      "translation": "изменить имя пользователя"
+    },
+    {
+      "original": "story",
+      "english": "post story",
+      "translation": "опубликовать историю"
+    },
+    {
+      "original": "feed",
+      "english": "scroll feed",
+      "translation": "листать ленту"
+    },
+    {
+      "original": "content",
+      "english": "create content",
+      "translation": "создавать контент"
+    },
+    {
+      "original": "upload",
+      "english": "upload video",
+      "translation": "загружать видео"
+    },
+    {
+      "original": "comment",
+      "english": "write comment",
+      "translation": "написать комментарий"
+    },
+    {
+      "original": "reply",
+      "english": "send reply",
+      "translation": "отправить ответ"
+    },
+    {
+      "original": "message",
+      "english": "send message",
+      "translation": "отправить сообщение"
+    },
+    {
+      "original": "chat",
+      "english": "open chat",
+      "translation": "открыть чат"
+    },
+    {
+      "original": "notification",
+      "english": "get notification",
+      "translation": "получить уведомление"
+    },
+    {
+      "original": "like",
+      "english": "give like",
+      "translation": "поставить лайк"
+    },
+    {
+      "original": "reaction",
+      "english": "add reaction",
+      "translation": "добавить реакцию"
+    },
+    {
+      "original": "post",
+      "english": "make post",
+      "translation": "сделать пост"
+    },
+    {
+      "original": "share",
+      "english": "share post",
+      "translation": "поделиться постом"
+    },
+    {
+      "original": "report",
+      "english": "send report",
+      "translation": "отправить жалобу"
+    },
+    {
+      "original": "repost",
+      "english": "repost content",
+      "translation": "сделать репост"
+    },
+    {
+      "original": "save",
+      "english": "save post",
+      "translation": "сохранить пост"
+    },
+    {
+      "original": "follower",
+      "english": "new follower",
+      "translation": "новый подписчик"
+    },
+    {
+      "original": "following",
+      "english": "check following",
+      "translation": "проверить подписки"
+    },
+    {
+      "original": "subscribe",
+      "english": "subscribe channel",
+      "translation": "подписаться на канал"
+    },
+    {
+      "original": "unsubscribe",
+      "english": "unsubscribe user",
+      "translation": "отписаться от пользователя"
+    },
+    {
+      "original": "block",
+      "english": "block user",
+      "translation": "заблокировать пользователя"
+    },
+    {
+      "original": "online",
+      "english": "be online",
+      "translation": "быть в сети"
+    },
+    {
+      "original": "offline",
+      "english": "go offline",
+      "translation": "быть не в сети"
+    },
+    {
+      "original": "status",
+      "english": "update status",
+      "translation": "обновить статус"
+    },
+    {
+      "original": "privacy",
+      "english": "privacy settings",
+      "translation": "настройки приватности"
+    },
+    {
+      "original": "settings",
+      "english": "open settings",
+      "translation": "открыть настройки"
+    },
+    {
+      "original": "trend",
+      "english": "new trend",
+      "translation": "новый тренд"
+    },
+    {
+      "original": "viral",
+      "english": "go viral",
+      "translation": "стать вирусным"
+    },
+    {
+      "original": "community",
+      "english": "online community",
+      "translation": "онлайн сообщество"
+    },
+    {
+      "original": "moderation",
+      "english": "content moderation",
+      "translation": "модерация контента"
+    }
   ]
 }

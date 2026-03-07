@@ -3,165 +3,45 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "international",
-      "translation": "международный"
-    },
-    {
-      "english": "global",
-      "translation": "глобальный"
-    },
-    {
-      "english": "cross-cultural",
-      "translation": "межкультурный"
-    },
-    {
-      "english": "multinational",
-      "translation": "многонациональный"
-    },
-    {
-      "english": "foreign",
-      "translation": "иностранный"
-    },
-    {
-      "english": "colleague",
-      "translation": "коллега"
-    },
-    {
-      "english": "counterpart",
-      "translation": "коллега с другой стороны"
-    },
-    {
-      "english": "stakeholder",
-      "translation": "заинтересованная сторона"
-    },
-    {
-      "english": "client",
-      "translation": "клиент"
-    },
-    {
-      "english": "partner",
-      "translation": "партнёр"
-    },
-    {
-      "english": "timezone",
-      "translation": "часовой пояс"
-    },
-    {
-      "english": "schedule",
-      "translation": "график"
-    },
-    {
-      "english": "availability",
-      "translation": "доступность"
-    },
-    {
-      "english": "deadline",
-      "translation": "дедлайн"
-    },
-    {
-      "english": "overlap",
-      "translation": "пересечение"
-    },
-    {
-      "english": "remote",
-      "translation": "удалённый"
-    },
-    {
-      "english": "distributed team",
-      "translation": "распределённая команда"
-    },
-    {
-      "english": "headquarters",
-      "translation": "штаб-квартира"
-    },
-    {
-      "english": "branch",
-      "translation": "филиал"
-    },
-    {
-      "english": "office",
-      "translation": "офис"
-    },
-    {
-      "english": "language barrier",
-      "translation": "языковой барьер"
-    },
-    {
-      "english": "accent",
-      "translation": "акцент"
-    },
-    {
-      "english": "fluency",
-      "translation": "беглость речи"
-    },
-    {
-      "english": "clarity",
-      "translation": "ясность"
-    },
-    {
-      "english": "misunderstanding",
-      "translation": "недопонимание"
-    },
-    {
-      "english": "expectations",
-      "translation": "ожидания"
-    },
-    {
-      "english": "requirements",
-      "translation": "требования"
-    },
-    {
-      "english": "responsibility",
-      "translation": "ответственность"
-    },
-    {
-      "english": "authority",
-      "translation": "полномочия"
-    },
-    {
-      "english": "decision",
-      "translation": "решение"
-    },
-    {
-      "english": "work permit",
-      "translation": "разрешение на работу"
-    },
-    {
-      "english": "visa",
-      "translation": "виза"
-    },
-    {
-      "english": "relocation",
-      "translation": "релокация"
-    },
-    {
-      "english": "contract",
-      "translation": "контракт"
-    },
-    {
-      "english": "compliance",
-      "translation": "соответствие требованиям"
-    },
-    {
-      "english": "business trip",
-      "translation": "командировка"
-    },
-    {
-      "english": "negotiation",
-      "translation": "переговоры"
-    },
-    {
-      "english": "agreement",
-      "translation": "соглашение"
-    },
-    {
-      "english": "approval",
-      "translation": "утверждение"
-    },
-    {
-      "english": "coordination",
-      "translation": "координация"
-    }
+    { "original": "international", "english": "International projects require coordination.", "translation": "Международные проекты требуют координации." },
+    { "original": "global", "english": "Global teams share common goals.", "translation": "Глобальные команды разделяют общие цели." },
+    { "original": "cross-cultural", "english": "Cross-cultural experience improves collaboration.", "translation": "Межкультурный опыт улучшает сотрудничество." },
+    { "original": "multinational", "english": "Multinational teams encourage diverse ideas.", "translation": "Многонациональные команды поощряют разнообразные идеи." },
+    { "original": "foreign", "english": "Foreign markets offer new opportunities.", "translation": "Иностранные рынки предлагают новые возможности." },
+    { "original": "colleague", "english": "A colleague shared useful insights.", "translation": "Коллега поделился полезными идеями." },
+    { "original": "counterpart", "english": "Our counterpart approved the proposal.", "translation": "Наш коллега с другой стороны утвердил предложение." },
+    { "original": "stakeholder", "english": "Every stakeholder supported the decision.", "translation": "Каждая заинтересованная сторона поддержала решение." },
+    { "original": "client", "english": "The client appreciated clear communication.", "translation": "Клиент оценил чёткую коммуникацию." },
+    { "original": "partner", "english": "The partner confirmed long-term cooperation.", "translation": "Партнёр подтвердил долгосрочное сотрудничество." },
+    { "original": "timezone", "english": "Timezone differences require careful planning.", "translation": "Разница часовых поясов требует тщательного планирования." },
+    { "original": "schedule", "english": "The schedule aligned international meetings.", "translation": "График согласовал международные встречи." },
+    { "original": "availability", "english": "Availability helped coordinate discussions.", "translation": "Доступность помогла скоординировать обсуждения." },
+    { "original": "deadline", "english": "The deadline guided project priorities.", "translation": "Дедлайн направил приоритеты проекта." },
+    { "original": "overlap", "english": "Timezone overlap enabled live collaboration.", "translation": "Пересечение часовых поясов позволило живое сотрудничество." },
+    { "original": "remote", "english": "Remote collaboration increased productivity.", "translation": "Удалённое сотрудничество повысило продуктивность." },
+    { "original": "distributed team", "english": "The distributed team shared responsibilities.", "translation": "Распределённая команда разделила обязанности." },
+    { "original": "headquarters", "english": "Headquarters approved the expansion plan.", "translation": "Штаб-квартира утвердила план расширения." },
+    { "original": "branch", "english": "The branch expanded regional operations.", "translation": "Филиал расширил региональные операции." },
+    { "original": "office", "english": "The office welcomed international staff.", "translation": "Офис приветствовал международных сотрудников." },
+    { "original": "language barrier", "english": "Language barriers encourage clearer communication.", "translation": "Языковые барьеры поощряют более чёткую коммуникацию." },
+    { "original": "accent", "english": "Different accents enrich conversations.", "translation": "Разные акценты обогащают разговоры." },
+    { "original": "fluency", "english": "Fluency improves international communication.", "translation": "Беглость речи улучшает международную коммуникацию." },
+    { "original": "clarity", "english": "Clarity prevents unnecessary confusion.", "translation": "Ясность предотвращает лишнюю путаницу." },
+    { "original": "misunderstanding", "english": "Misunderstandings require patient clarification.", "translation": "Недопонимания требуют терпеливого разъяснения." },
+    { "original": "expectations", "english": "Clear expectations guide collaboration.", "translation": "Чёткие ожидания направляют сотрудничество." },
+    { "original": "requirements", "english": "Requirements defined project objectives.", "translation": "Требования определили цели проекта." },
+    { "original": "responsibility", "english": "Responsibility strengthened team trust.", "translation": "Ответственность укрепила доверие команды." },
+    { "original": "authority", "english": "Authority enabled faster decisions.", "translation": "Полномочия позволили быстрее принимать решения." },
+    { "original": "decision", "english": "The decision improved global coordination.", "translation": "Решение улучшило глобальную координацию." },
+    { "original": "work permit", "english": "The work permit enabled international employment.", "translation": "Разрешение на работу позволило международную занятость." },
+    { "original": "visa", "english": "The visa supported global mobility.", "translation": "Виза поддержала международную мобильность." },
+    { "original": "relocation", "english": "Relocation opened new career opportunities.", "translation": "Релокация открыла новые карьерные возможности." },
+    { "original": "contract", "english": "The contract confirmed partnership terms.", "translation": "Контракт подтвердил условия партнёрства." },
+    { "original": "compliance", "english": "Compliance ensured legal operations.", "translation": "Соответствие требованиям обеспечило законную деятельность." },
+    { "original": "business trip", "english": "The business trip strengthened relationships.", "translation": "Командировка укрепила деловые отношения." },
+    { "original": "negotiation", "english": "Negotiation clarified mutual interests.", "translation": "Переговоры прояснили взаимные интересы." },
+    { "original": "agreement", "english": "The agreement strengthened cooperation.", "translation": "Соглашение укрепило сотрудничество." },
+    { "original": "approval", "english": "Approval accelerated project progress.", "translation": "Утверждение ускорило прогресс проекта." },
+    { "original": "coordination", "english": "Coordination aligned international teams.", "translation": "Координация согласовала международные команды." }
   ]
 }

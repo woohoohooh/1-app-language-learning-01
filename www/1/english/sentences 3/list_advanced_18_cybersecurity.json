@@ -3,185 +3,50 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "security",
-      "translation": "безопасность"
-    },
-    {
-      "english": "cybersecurity",
-      "translation": "кибербезопасность"
-    },
-    {
-      "english": "privacy",
-      "translation": "конфиденциальность"
-    },
-    {
-      "english": "protection",
-      "translation": "защита"
-    },
-    {
-      "english": "threat",
-      "translation": "угроза"
-    },
-    {
-      "english": "attack",
-      "translation": "атака"
-    },
-    {
-      "english": "breach",
-      "translation": "утечка"
-    },
-    {
-      "english": "vulnerability",
-      "translation": "уязвимость"
-    },
-    {
-      "english": "risk",
-      "translation": "риск"
-    },
-    {
-      "english": "incident",
-      "translation": "инцидент"
-    },
-    {
-      "english": "malware",
-      "translation": "вредоносное ПО"
-    },
-    {
-      "english": "virus",
-      "translation": "вирус"
-    },
-    {
-      "english": "ransomware",
-      "translation": "вымогательское ПО"
-    },
-    {
-      "english": "spyware",
-      "translation": "шпионское ПО"
-    },
-    {
-      "english": "trojan",
-      "translation": "троян"
-    },
-    {
-      "english": "phishing",
-      "translation": "фишинг"
-    },
-    {
-      "english": "scam",
-      "translation": "мошенничество"
-    },
-    {
-      "english": "fraud",
-      "translation": "мошенничество"
-    },
-    {
-      "english": "spoofing",
-      "translation": "подмена"
-    },
-    {
-      "english": "social engineering",
-      "translation": "социальная инженерия"
-    },
-    {
-      "english": "authentication",
-      "translation": "аутентификация"
-    },
-    {
-      "english": "authorization",
-      "translation": "авторизация"
-    },
-    {
-      "english": "password",
-      "translation": "пароль"
-    },
-    {
-      "english": "credentials",
-      "translation": "учётные данные"
-    },
-    {
-      "english": "access",
-      "translation": "доступ"
-    },
-    {
-      "english": "encryption",
-      "translation": "шифрование"
-    },
-    {
-      "english": "decryption",
-      "translation": "расшифровка"
-    },
-    {
-      "english": "key",
-      "translation": "ключ"
-    },
-    {
-      "english": "certificate",
-      "translation": "сертификат"
-    },
-    {
-      "english": "hash",
-      "translation": "хэш"
-    },
-    {
-      "english": "firewall",
-      "translation": "межсетевой экран"
-    },
-    {
-      "english": "antivirus",
-      "translation": "антивирус"
-    },
-    {
-      "english": "VPN",
-      "translation": "VPN"
-    },
-    {
-      "english": "network",
-      "translation": "сеть"
-    },
-    {
-      "english": "endpoint",
-      "translation": "конечное устройство"
-    },
-    {
-      "english": "monitoring",
-      "translation": "мониторинг"
-    },
-    {
-      "english": "logging",
-      "translation": "журналирование"
-    },
-    {
-      "english": "detection",
-      "translation": "обнаружение"
-    },
-    {
-      "english": "response",
-      "translation": "реагирование"
-    },
-    {
-      "english": "mitigation",
-      "translation": "снижение риска"
-    },
-    {
-      "english": "backup",
-      "translation": "резервная копия"
-    },
-    {
-      "english": "recovery",
-      "translation": "восстановление"
-    },
-    {
-      "english": "compliance",
-      "translation": "соответствие требованиям"
-    },
-    {
-      "english": "policy",
-      "translation": "политика"
-    },
-    {
-      "english": "regulation",
-      "translation": "регулирование"
-    }
+    { "original": "security", "english": "Strong security protects user data.", "translation": "Надёжная безопасность защищает данные пользователей." },
+    { "original": "cybersecurity", "english": "Companies invest in cybersecurity.", "translation": "Компании инвестируют в кибербезопасность." },
+    { "original": "privacy", "english": "Users value online privacy.", "translation": "Пользователи ценят конфиденциальность в интернете." },
+    { "original": "protection", "english": "Encryption provides strong protection.", "translation": "Шифрование обеспечивает надёжную защиту." },
+    { "original": "threat", "english": "Analysts monitor every potential threat.", "translation": "Аналитики отслеживают каждую потенциальную угрозу." },
+    { "original": "attack", "english": "The system stopped the attack.", "translation": "Система остановила атаку." },
+    { "original": "breach", "english": "Teams prevented a data breach.", "translation": "Команды предотвратили утечку данных." },
+    { "original": "vulnerability", "english": "Engineers fixed the vulnerability quickly.", "translation": "Инженеры быстро исправили уязвимость." },
+    { "original": "risk", "english": "Regular audits reduce security risk.", "translation": "Регулярные аудиты снижают риск безопасности." },
+    { "original": "incident", "english": "The team resolved the incident.", "translation": "Команда устранила инцидент." },
+    { "original": "malware", "english": "Antivirus detected hidden malware.", "translation": "Антивирус обнаружил скрытое вредоносное ПО." },
+    { "original": "virus", "english": "The antivirus removed the virus.", "translation": "Антивирус удалил вирус." },
+    { "original": "ransomware", "english": "Backups protect systems from ransomware.", "translation": "Резервные копии защищают системы от вымогательского ПО." },
+    { "original": "spyware", "english": "Security tools detected spyware.", "translation": "Инструменты безопасности обнаружили шпионское ПО." },
+    { "original": "trojan", "english": "The firewall blocked the trojan.", "translation": "Межсетевой экран заблокировал троян." },
+    { "original": "phishing", "english": "Employees learned to recognize phishing.", "translation": "Сотрудники научились распознавать фишинг." },
+    { "original": "scam", "english": "Users quickly reported the scam.", "translation": "Пользователи быстро сообщили о мошенничестве." },
+    { "original": "fraud", "english": "Systems detect online fraud.", "translation": "Системы обнаруживают онлайн-мошенничество." },
+    { "original": "spoofing", "english": "Filters prevent email spoofing.", "translation": "Фильтры предотвращают подмену email." },
+    { "original": "social engineering", "english": "Training reduces social engineering risks.", "translation": "Обучение снижает риски социальной инженерии." },
+    { "original": "authentication", "english": "Multi-factor authentication improves security.", "translation": "Многофакторная аутентификация повышает безопасность." },
+    { "original": "authorization", "english": "Authorization controls system access.", "translation": "Авторизация контролирует доступ к системе." },
+    { "original": "password", "english": "Users created strong passwords.", "translation": "Пользователи создали надёжные пароли." },
+    { "original": "credentials", "english": "Attackers target login credentials.", "translation": "Злоумышленники нацелены на учётные данные." },
+    { "original": "access", "english": "Admins manage system access.", "translation": "Администраторы управляют доступом к системе." },
+    { "original": "encryption", "english": "Encryption secures sensitive communication.", "translation": "Шифрование защищает конфиденциальную связь." },
+    { "original": "decryption", "english": "Systems perform fast decryption.", "translation": "Системы выполняют быструю расшифровку." },
+    { "original": "key", "english": "The system stores the key.", "translation": "Система хранит ключ." },
+    { "original": "certificate", "english": "Browsers verify the certificate.", "translation": "Браузеры проверяют сертификат." },
+    { "original": "hash", "english": "Passwords are stored as hash.", "translation": "Пароли хранятся в виде хэша." },
+    { "original": "firewall", "english": "The firewall filters network traffic.", "translation": "Межсетевой экран фильтрует сетевой трафик." },
+    { "original": "antivirus", "english": "Antivirus software scans files.", "translation": "Антивирусное ПО сканирует файлы." },
+    { "original": "VPN", "english": "Employees connect through VPN.", "translation": "Сотрудники подключаются через VPN." },
+    { "original": "network", "english": "Security protects the network.", "translation": "Безопасность защищает сеть." },
+    { "original": "endpoint", "english": "Security tools monitor each endpoint.", "translation": "Инструменты безопасности отслеживают каждое устройство." },
+    { "original": "monitoring", "english": "Continuous monitoring improves defense.", "translation": "Постоянный мониторинг улучшает защиту." },
+    { "original": "logging", "english": "Systems record events through logging.", "translation": "Системы записывают события через журналирование." },
+    { "original": "detection", "english": "AI improves threat detection.", "translation": "ИИ улучшает обнаружение угроз." },
+    { "original": "response", "english": "Teams coordinate incident response.", "translation": "Команды координируют реагирование на инциденты." },
+    { "original": "mitigation", "english": "Updates support risk mitigation.", "translation": "Обновления помогают снижать риски." },
+    { "original": "backup", "english": "Daily backups protect information.", "translation": "Ежедневные резервные копии защищают информацию." },
+    { "original": "recovery", "english": "Systems support fast recovery.", "translation": "Системы поддерживают быстрое восстановление." },
+    { "original": "compliance", "english": "Companies maintain compliance standards.", "translation": "Компании поддерживают стандарты соответствия." },
+    { "original": "policy", "english": "The company updated security policy.", "translation": "Компания обновила политику безопасности." },
+    { "original": "regulation", "english": "Organizations follow digital regulation.", "translation": "Организации соблюдают цифровое регулирование." }
   ]
 }

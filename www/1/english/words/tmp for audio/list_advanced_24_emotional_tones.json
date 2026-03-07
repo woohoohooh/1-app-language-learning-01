@@ -3,42 +3,190 @@
   "level": "Advanced",
   "name": "Phrases",
   "items": [
-    { "id": "strong-emotion", "original": "emotion", "english": "strong emotion", "translation": "сильная эмоция" },
-    { "id": "high-emotionality", "original": "emotionality", "english": "high emotionality", "translation": "высокая эмоциональность" },
-    { "id": "gentle-tone", "original": "tone", "english": "gentle tone", "translation": "мягкий тон" },
-    { "id": "emotional-undertone", "original": "undertone", "english": "emotional undertone", "translation": "эмоциональный подтекст" },
-    { "id": "slight-nuance", "original": "nuance", "english": "slight nuance", "translation": "лёгкий нюанс" },
-    { "id": "positive-attitude", "original": "attitude", "english": "positive attitude", "translation": "позитивное отношение" },
-    { "id": "cheerful-mood", "original": "mood", "english": "cheerful mood", "translation": "весёлое настроение" },
-    { "id": "calm-state", "original": "state", "english": "calm state", "translation": "спокойное состояние" },
-    { "id": "quick-reaction", "original": "reaction", "english": "quick reaction", "translation": "быстрая реакция" },
-    { "id": "deep-affection", "original": "affection", "english": "deep affection", "translation": "глубокая привязанность" },
-    { "id": "human-warmth", "original": "warmth", "english": "human warmth", "translation": "человеческая теплота" },
-    { "id": "true-empathy", "original": "empathy", "english": "true empathy", "translation": "искренняя эмпатия" },
-    { "id": "sincere-sympathy", "original": "sympathy", "english": "sincere sympathy", "translation": "искреннее сочувствие" },
-    { "id": "strict-neutrality", "original": "neutrality", "english": "strict neutrality", "translation": "строгая нейтральность" },
-    { "id": "emotional-detachment", "original": "detachment", "english": "emotional detachment", "translation": "эмоциональная отстранённость" },
-    { "id": "social-distance", "original": "distance", "english": "social distance", "translation": "социальная дистанция" },
-    { "id": "emotional-coldness", "original": "coldness", "english": "emotional coldness", "translation": "эмоциональная холодность" },
-    { "id": "inner-tension", "original": "tension", "english": "inner tension", "translation": "внутреннее напряжение" },
-    { "id": "external-pressure", "original": "pressure", "english": "external pressure", "translation": "внешнее давление" },
-    { "id": "high-stress", "original": "stress", "english": "high stress", "translation": "сильный стресс" },
-    { "id": "deep-frustration", "original": "frustration", "english": "deep frustration", "translation": "глубокое раздражение" },
-    { "id": "mild-annoyance", "original": "annoyance", "english": "mild annoyance", "translation": "лёгкое раздражение" },
-    { "id": "sudden-irritation", "original": "irritation", "english": "sudden irritation", "translation": "внезапная раздражённость" },
-    { "id": "silent-resentment", "original": "resentment", "english": "silent resentment", "translation": "скрытая обида" },
-    { "id": "deep-disappointment", "original": "disappointment", "english": "deep disappointment", "translation": "глубокое разочарование" },
-    { "id": "public-approval", "original": "approval", "english": "public approval", "translation": "публичное одобрение" },
-    { "id": "strong-disapproval", "original": "disapproval", "english": "strong disapproval", "translation": "сильное неодобрение" },
-    { "id": "full-support", "original": "support", "english": "full support", "translation": "полная поддержка" },
-    { "id": "warm-encouragement", "original": "encouragement", "english": "warm encouragement", "translation": "тёплое ободрение" },
-    { "id": "inner-confidence", "original": "confidence", "english": "inner confidence", "translation": "внутренняя уверенность" },
-    { "id": "deep-uncertainty", "original": "uncertainty", "english": "deep uncertainty", "translation": "глубокая неуверенность" },
-    { "id": "brief-hesitation", "original": "hesitation", "english": "brief hesitation", "translation": "краткое колебание" },
-    { "id": "serious-doubt", "original": "doubt", "english": "serious doubt", "translation": "серьёзное сомнение" },
-    { "id": "genuine-enthusiasm", "original": "enthusiasm", "english": "genuine enthusiasm", "translation": "искренний энтузиазм" },
-    { "id": "total-indifference", "original": "indifference", "english": "total indifference", "translation": "полное безразличие" },
-    { "id": "clear-reluctance", "original": "reluctance", "english": "clear reluctance", "translation": "явная неохота" },
-    { "id": "great-relief", "original": "relief", "english": "great relief", "translation": "большое облегчение" }
+    {
+      "original": "emotion",
+      "english": "strong emotion",
+      "translation": "сильная эмоция"
+    },
+    {
+      "original": "emotionality",
+      "english": "high emotionality",
+      "translation": "высокая эмоциональность"
+    },
+    {
+      "original": "tone",
+      "english": "gentle tone",
+      "translation": "мягкий тон"
+    },
+    {
+      "original": "undertone",
+      "english": "emotional undertone",
+      "translation": "эмоциональный подтекст"
+    },
+    {
+      "original": "nuance",
+      "english": "slight nuance",
+      "translation": "лёгкий нюанс"
+    },
+    {
+      "original": "attitude",
+      "english": "positive attitude",
+      "translation": "позитивное отношение"
+    },
+    {
+      "original": "mood",
+      "english": "cheerful mood",
+      "translation": "весёлое настроение"
+    },
+    {
+      "original": "state",
+      "english": "calm state",
+      "translation": "спокойное состояние"
+    },
+    {
+      "original": "reaction",
+      "english": "quick reaction",
+      "translation": "быстрая реакция"
+    },
+    {
+      "original": "affection",
+      "english": "deep affection",
+      "translation": "глубокая привязанность"
+    },
+    {
+      "original": "warmth",
+      "english": "human warmth",
+      "translation": "человеческая теплота"
+    },
+    {
+      "original": "empathy",
+      "english": "true empathy",
+      "translation": "искренняя эмпатия"
+    },
+    {
+      "original": "sympathy",
+      "english": "sincere sympathy",
+      "translation": "искреннее сочувствие"
+    },
+    {
+      "original": "neutrality",
+      "english": "strict neutrality",
+      "translation": "строгая нейтральность"
+    },
+    {
+      "original": "detachment",
+      "english": "emotional detachment",
+      "translation": "эмоциональная отстранённость"
+    },
+    {
+      "original": "distance",
+      "english": "social distance",
+      "translation": "социальная дистанция"
+    },
+    {
+      "original": "coldness",
+      "english": "emotional coldness",
+      "translation": "эмоциональная холодность"
+    },
+    {
+      "original": "tension",
+      "english": "inner tension",
+      "translation": "внутреннее напряжение"
+    },
+    {
+      "original": "pressure",
+      "english": "external pressure",
+      "translation": "внешнее давление"
+    },
+    {
+      "original": "stress",
+      "english": "high stress",
+      "translation": "сильный стресс"
+    },
+    {
+      "original": "frustration",
+      "english": "deep frustration",
+      "translation": "глубокое раздражение"
+    },
+    {
+      "original": "annoyance",
+      "english": "mild annoyance",
+      "translation": "лёгкое раздражение"
+    },
+    {
+      "original": "irritation",
+      "english": "sudden irritation",
+      "translation": "внезапная раздражённость"
+    },
+    {
+      "original": "resentment",
+      "english": "silent resentment",
+      "translation": "скрытая обида"
+    },
+    {
+      "original": "disappointment",
+      "english": "deep disappointment",
+      "translation": "глубокое разочарование"
+    },
+    {
+      "original": "approval",
+      "english": "public approval",
+      "translation": "публичное одобрение"
+    },
+    {
+      "original": "disapproval",
+      "english": "strong disapproval",
+      "translation": "сильное неодобрение"
+    },
+    {
+      "original": "support",
+      "english": "full support",
+      "translation": "полная поддержка"
+    },
+    {
+      "original": "encouragement",
+      "english": "warm encouragement",
+      "translation": "тёплое ободрение"
+    },
+    {
+      "original": "confidence",
+      "english": "inner confidence",
+      "translation": "внутренняя уверенность"
+    },
+    {
+      "original": "uncertainty",
+      "english": "deep uncertainty",
+      "translation": "глубокая неуверенность"
+    },
+    {
+      "original": "hesitation",
+      "english": "brief hesitation",
+      "translation": "краткое колебание"
+    },
+    {
+      "original": "doubt",
+      "english": "serious doubt",
+      "translation": "серьёзное сомнение"
+    },
+    {
+      "original": "enthusiasm",
+      "english": "genuine enthusiasm",
+      "translation": "искренний энтузиазм"
+    },
+    {
+      "original": "indifference",
+      "english": "total indifference",
+      "translation": "полное безразличие"
+    },
+    {
+      "original": "reluctance",
+      "english": "clear reluctance",
+      "translation": "явная неохота"
+    },
+    {
+      "original": "relief",
+      "english": "great relief",
+      "translation": "большое облегчение"
+    }
   ]
 }

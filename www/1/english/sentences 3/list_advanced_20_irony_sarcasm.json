@@ -3,145 +3,40 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "irony",
-      "translation": "ирония"
-    },
-    {
-      "english": "sarcasm",
-      "translation": "сарказм"
-    },
-    {
-      "english": "mockery",
-      "translation": "насмешка"
-    },
-    {
-      "english": "ridicule",
-      "translation": "высмеивание"
-    },
-    {
-      "english": "satire",
-      "translation": "сатира"
-    },
-    {
-      "english": "humor",
-      "translation": "юмор"
-    },
-    {
-      "english": "wit",
-      "translation": "остроумие"
-    },
-    {
-      "english": "dry humor",
-      "translation": "сухой юмор"
-    },
-    {
-      "english": "dark humor",
-      "translation": "чёрный юмор"
-    },
-    {
-      "english": "deadpan",
-      "translation": "невозмутимая подача"
-    },
-    {
-      "english": "tone",
-      "translation": "тон"
-    },
-    {
-      "english": "context",
-      "translation": "контекст"
-    },
-    {
-      "english": "delivery",
-      "translation": "подача"
-    },
-    {
-      "english": "exaggeration",
-      "translation": "преувеличение"
-    },
-    {
-      "english": "understatement",
-      "translation": "преуменьшение"
-    },
-    {
-      "english": "double meaning",
-      "translation": "двойной смысл"
-    },
-    {
-      "english": "subtlety",
-      "translation": "тонкость"
-    },
-    {
-      "english": "ambiguity",
-      "translation": "двусмысленность"
-    },
-    {
-      "english": "implication",
-      "translation": "подразумеваемый смысл"
-    },
-    {
-      "english": "innuendo",
-      "translation": "намёк"
-    },
-    {
-      "english": "cynicism",
-      "translation": "цинизм"
-    },
-    {
-      "english": "skepticism",
-      "translation": "скептицизм"
-    },
-    {
-      "english": "detachment",
-      "translation": "отстранённость"
-    },
-    {
-      "english": "contempt",
-      "translation": "презрение"
-    },
-    {
-      "english": "dismissiveness",
-      "translation": "пренебрежительность"
-    },
-    {
-      "english": "playfulness",
-      "translation": "игривость"
-    },
-    {
-      "english": "teasing",
-      "translation": "поддразнивание"
-    },
-    {
-      "english": "banter",
-      "translation": "шутливая перепалка"
-    },
-    {
-      "english": "self-irony",
-      "translation": "самоирония"
-    },
-    {
-      "english": "self-deprecation",
-      "translation": "самоироничное принижение"
-    },
-    {
-      "english": "overstatement",
-      "translation": "чрезмерное утверждение"
-    },
-    {
-      "english": "contrast",
-      "translation": "контраст"
-    },
-    {
-      "english": "absurdity",
-      "translation": "абсурдность"
-    },
-    {
-      "english": "parody",
-      "translation": "пародия"
-    },
-    {
-      "english": "caricature",
-      "translation": "карикатура"
-    }
+    { "original": "irony", "english": "His comment carried irony.", "translation": "Его комментарий содержал иронию." },
+    { "original": "sarcasm", "english": "Her sarcasm surprised everyone.", "translation": "Её сарказм удивил всех." },
+    { "original": "mockery", "english": "The joke sounded like mockery.", "translation": "Шутка звучала как насмешка." },
+    { "original": "ridicule", "english": "Public ridicule followed the speech.", "translation": "Публичное высмеивание последовало за речью." },
+    { "original": "satire", "english": "Writers use satire often.", "translation": "Писатели часто используют сатиру." },
+    { "original": "humor", "english": "Good humor relaxes tension.", "translation": "Хороший юмор снимает напряжение." },
+    { "original": "wit", "english": "His wit impressed colleagues.", "translation": "Его остроумие впечатлило коллег." },
+    { "original": "dry humor", "english": "He enjoys dry humor.", "translation": "Ему нравится сухой юмор." },
+    { "original": "dark humor", "english": "Dark humor appears sometimes.", "translation": "Чёрный юмор иногда появляется." },
+    { "original": "deadpan", "english": "Deadpan delivery sounds serious.", "translation": "Невозмутимая подача звучит серьёзно." },
+    { "original": "tone", "english": "The tone felt sarcastic.", "translation": "Тон казался саркастичным." },
+    { "original": "context", "english": "Context changes the meaning.", "translation": "Контекст меняет значение." },
+    { "original": "delivery", "english": "Delivery makes jokes effective.", "translation": "Подача делает шутки эффективными." },
+    { "original": "exaggeration", "english": "Exaggeration makes stories funny.", "translation": "Преувеличение делает истории смешными." },
+    { "original": "understatement", "english": "British humor loves understatement.", "translation": "Британский юмор любит преуменьшение." },
+    { "original": "double meaning", "english": "Writers enjoy double meaning.", "translation": "Писатели любят двойной смысл." },
+    { "original": "subtlety", "english": "Good jokes require subtlety.", "translation": "Хорошие шутки требуют тонкости." },
+    { "original": "ambiguity", "english": "Ambiguity sometimes creates humor.", "translation": "Двусмысленность иногда создаёт юмор." },
+    { "original": "implication", "english": "The implication sounded ironic.", "translation": "Подразумеваемый смысл звучал иронично." },
+    { "original": "innuendo", "english": "The joke contained innuendo.", "translation": "Шутка содержала намёк." },
+    { "original": "cynicism", "english": "His words showed cynicism.", "translation": "Его слова показали цинизм." },
+    { "original": "skepticism", "english": "Her reply expressed skepticism.", "translation": "Её ответ выразил скептицизм." },
+    { "original": "detachment", "english": "Detachment shapes ironic tone.", "translation": "Отстранённость формирует ироничный тон." },
+    { "original": "contempt", "english": "His tone suggested contempt.", "translation": "Его тон намекал на презрение." },
+    { "original": "dismissiveness", "english": "Dismissiveness ruined the conversation.", "translation": "Пренебрежительность испортила разговор." },
+    { "original": "playfulness", "english": "Playfulness softens sharp sarcasm.", "translation": "Игривость смягчает резкий сарказм." },
+    { "original": "teasing", "english": "Friendly teasing builds rapport.", "translation": "Дружеское поддразнивание укрепляет общение." },
+    { "original": "banter", "english": "Colleagues enjoyed light banter.", "translation": "Коллеги наслаждались лёгкой шутливой перепалкой." },
+    { "original": "self-irony", "english": "Self-irony shows confidence.", "translation": "Самоирония показывает уверенность." },
+    { "original": "self-deprecation", "english": "Self-deprecation makes humor relatable.", "translation": "Самоироничное принижение делает юмор понятным." },
+    { "original": "overstatement", "english": "Overstatement creates comic effect.", "translation": "Чрезмерное утверждение создаёт комический эффект." },
+    { "original": "contrast", "english": "Contrast strengthens ironic humor.", "translation": "Контраст усиливает ироничный юмор." },
+    { "original": "absurdity", "english": "Absurdity often sparks laughter.", "translation": "Абсурдность часто вызывает смех." },
+    { "original": "parody", "english": "Parody imitates famous styles.", "translation": "Пародия имитирует известные стили." },
+    { "original": "caricature", "english": "Caricature exaggerates human traits.", "translation": "Карикатура преувеличивает человеческие черты." }
   ]
 }

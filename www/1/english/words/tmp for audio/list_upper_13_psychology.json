@@ -3,45 +3,205 @@
   "level": "Upper-Intermediate",
   "name": "Phrase",
   "items": [
-    { "id": "clear-mind", "original": "mind", "english": "clear mind", "translation": "ясный разум" },
-    { "id": "critical-thinking", "original": "thinking", "english": "critical thinking", "translation": "критическое мышление" },
-    { "id": "positive-thought", "original": "thought", "english": "positive thought", "translation": "позитивная мысль" },
-    { "id": "self-awareness", "original": "awareness", "english": "self awareness", "translation": "самоосознанность" },
-    { "id": "pay-attention", "original": "attention", "english": "pay attention", "translation": "обращать внимание" },
-    { "id": "deep-concentration", "original": "concentration", "english": "deep concentration", "translation": "глубокая концентрация" },
-    { "id": "long-term-memory", "original": "memory", "english": "long term memory", "translation": "долговременная память" },
-    { "id": "visual-perception", "original": "perception", "english": "visual perception", "translation": "зрительное восприятие" },
-    { "id": "vivid-imagination", "original": "imagination", "english": "vivid imagination", "translation": "яркое воображение" },
-    { "id": "strong-emotion", "original": "emotion", "english": "strong emotion", "translation": "сильная эмоция" },
-    { "id": "mixed-feeling", "original": "feeling", "english": "mixed feeling", "translation": "смешанное чувство" },
-    { "id": "good-mood", "original": "mood", "english": "good mood", "translation": "хорошее настроение" },
-    { "id": "high-stress", "original": "stress", "english": "high stress", "translation": "высокий стресс" },
-    { "id": "social-anxiety", "original": "anxiety", "english": "social anxiety", "translation": "социальная тревожность" },
-    { "id": "strong-motivation", "original": "motivation", "english": "strong motivation", "translation": "сильная мотивация" },
-    { "id": "inner-drive", "original": "drive", "english": "inner drive", "translation": "внутренний стимул" },
-    { "id": "self-discipline", "original": "discipline", "english": "self discipline", "translation": "самодисциплина" },
-    { "id": "bad-habit", "original": "habit", "english": "bad habit", "translation": "плохая привычка" },
-    { "id": "daily-routine", "original": "routine", "english": "daily routine", "translation": "ежедневная рутина" },
-    { "id": "human-behavior", "original": "behavior", "english": "human behavior", "translation": "человеческое поведение" },
-    { "id": "quick-reaction", "original": "reaction", "english": "quick reaction", "translation": "быстрая реакция" },
-    { "id": "final-decision", "original": "decision", "english": "final decision", "translation": "окончательное решение" },
-    { "id": "make-choice", "original": "choice", "english": "make choice", "translation": "сделать выбор" },
-    { "id": "core-belief", "original": "belief", "english": "core belief", "translation": "основное убеждение" },
-    { "id": "wrong-assumption", "original": "assumption", "english": "wrong assumption", "translation": "неверное предположение" },
-    { "id": "high-expectation", "original": "expectation", "english": "high expectation", "translation": "высокое ожидание" },
-    { "id": "cognitive-bias", "original": "bias", "english": "cognitive bias", "translation": "когнитивное искажение" },
-    { "id": "growth-mindset", "original": "mindset", "english": "growth mindset", "translation": "мышление роста" },
-    { "id": "healthy-self-esteem", "original": "self-esteem", "english": "healthy self esteem", "translation": "здоровая самооценка" },
-    { "id": "build-confidence", "original": "confidence", "english": "build confidence", "translation": "развивать уверенность" },
-    { "id": "feel-insecurity", "original": "insecurity", "english": "feel insecurity", "translation": "чувствовать неуверенность" },
-    { "id": "self-control-skills", "original": "self-control", "english": "self control skills", "translation": "навыки самоконтроля" },
-    { "id": "mental-resilience", "original": "resilience", "english": "mental resilience", "translation": "психологическая устойчивость" },
-    { "id": "daily-reflection", "original": "reflection", "english": "daily reflection", "translation": "ежедневный самоанализ" },
-    { "id": "deep-introspection", "original": "introspection", "english": "deep introspection", "translation": "глубокая интроспекция" },
-    { "id": "constant-overthinking", "original": "overthinking", "english": "constant overthinking", "translation": "постоянное чрезмерное обдумывание" },
-    { "id": "work-burnout", "original": "burnout", "english": "work burnout", "translation": "рабочее выгорание" },
-    { "id": "mental-health-care", "original": "mental health", "english": "mental health care", "translation": "забота о психическом здоровье" },
-    { "id": "sharp-focus", "original": "focus", "english": "sharp focus", "translation": "острая концентрация" },
-    { "id": "emotional-response", "original": "response", "english": "emotional response", "translation": "эмоциональная реакция" }
+    {
+      "original": "mind",
+      "english": "clear mind",
+      "translation": "ясный разум"
+    },
+    {
+      "original": "thinking",
+      "english": "critical thinking",
+      "translation": "критическое мышление"
+    },
+    {
+      "original": "thought",
+      "english": "positive thought",
+      "translation": "позитивная мысль"
+    },
+    {
+      "original": "awareness",
+      "english": "self awareness",
+      "translation": "самоосознанность"
+    },
+    {
+      "original": "attention",
+      "english": "pay attention",
+      "translation": "обращать внимание"
+    },
+    {
+      "original": "concentration",
+      "english": "deep concentration",
+      "translation": "глубокая концентрация"
+    },
+    {
+      "original": "memory",
+      "english": "long term memory",
+      "translation": "долговременная память"
+    },
+    {
+      "original": "perception",
+      "english": "visual perception",
+      "translation": "зрительное восприятие"
+    },
+    {
+      "original": "imagination",
+      "english": "vivid imagination",
+      "translation": "яркое воображение"
+    },
+    {
+      "original": "emotion",
+      "english": "strong emotion",
+      "translation": "сильная эмоция"
+    },
+    {
+      "original": "feeling",
+      "english": "mixed feeling",
+      "translation": "смешанное чувство"
+    },
+    {
+      "original": "mood",
+      "english": "good mood",
+      "translation": "хорошее настроение"
+    },
+    {
+      "original": "stress",
+      "english": "high stress",
+      "translation": "высокий стресс"
+    },
+    {
+      "original": "anxiety",
+      "english": "social anxiety",
+      "translation": "социальная тревожность"
+    },
+    {
+      "original": "motivation",
+      "english": "strong motivation",
+      "translation": "сильная мотивация"
+    },
+    {
+      "original": "drive",
+      "english": "inner drive",
+      "translation": "внутренний стимул"
+    },
+    {
+      "original": "discipline",
+      "english": "self discipline",
+      "translation": "самодисциплина"
+    },
+    {
+      "original": "habit",
+      "english": "bad habit",
+      "translation": "плохая привычка"
+    },
+    {
+      "original": "routine",
+      "english": "daily routine",
+      "translation": "ежедневная рутина"
+    },
+    {
+      "original": "behavior",
+      "english": "human behavior",
+      "translation": "человеческое поведение"
+    },
+    {
+      "original": "reaction",
+      "english": "quick reaction",
+      "translation": "быстрая реакция"
+    },
+    {
+      "original": "decision",
+      "english": "final decision",
+      "translation": "окончательное решение"
+    },
+    {
+      "original": "choice",
+      "english": "make choice",
+      "translation": "сделать выбор"
+    },
+    {
+      "original": "belief",
+      "english": "core belief",
+      "translation": "основное убеждение"
+    },
+    {
+      "original": "assumption",
+      "english": "wrong assumption",
+      "translation": "неверное предположение"
+    },
+    {
+      "original": "expectation",
+      "english": "high expectation",
+      "translation": "высокое ожидание"
+    },
+    {
+      "original": "bias",
+      "english": "cognitive bias",
+      "translation": "когнитивное искажение"
+    },
+    {
+      "original": "mindset",
+      "english": "growth mindset",
+      "translation": "мышление роста"
+    },
+    {
+      "original": "self-esteem",
+      "english": "healthy self esteem",
+      "translation": "здоровая самооценка"
+    },
+    {
+      "original": "confidence",
+      "english": "build confidence",
+      "translation": "развивать уверенность"
+    },
+    {
+      "original": "insecurity",
+      "english": "feel insecurity",
+      "translation": "чувствовать неуверенность"
+    },
+    {
+      "original": "self-control",
+      "english": "self control skills",
+      "translation": "навыки самоконтроля"
+    },
+    {
+      "original": "resilience",
+      "english": "mental resilience",
+      "translation": "психологическая устойчивость"
+    },
+    {
+      "original": "reflection",
+      "english": "daily reflection",
+      "translation": "ежедневный самоанализ"
+    },
+    {
+      "original": "introspection",
+      "english": "deep introspection",
+      "translation": "глубокая интроспекция"
+    },
+    {
+      "original": "overthinking",
+      "english": "constant overthinking",
+      "translation": "постоянное чрезмерное обдумывание"
+    },
+    {
+      "original": "burnout",
+      "english": "work burnout",
+      "translation": "рабочее выгорание"
+    },
+    {
+      "original": "mental health",
+      "english": "mental health care",
+      "translation": "забота о психическом здоровье"
+    },
+    {
+      "original": "focus",
+      "english": "sharp focus",
+      "translation": "острая концентрация"
+    },
+    {
+      "original": "response",
+      "english": "emotional response",
+      "translation": "эмоциональная реакция"
+    }
   ]
 }

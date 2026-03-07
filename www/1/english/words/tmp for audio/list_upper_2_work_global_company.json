@@ -3,50 +3,230 @@
   "level": "Upper-Intermediate",
   "name": "Phrase",
   "items": [
-{ "id": "large-organization", "original": "organization", "english": "large organization", "translation": "крупная организация" },
-{ "id": "main-headquarters", "original": "headquarters", "english": "main headquarters", "translation": "главная штаб-квартира" },
-{ "id": "foreign-subsidiary", "original": "subsidiary", "english": "foreign subsidiary", "translation": "иностранная дочерняя компания" },
-{ "id": "marketing-department", "original": "department", "english": "marketing department", "translation": "маркетинговый отдел" },
-{ "id": "business-division", "original": "division", "english": "business division", "translation": "бизнес-подразделение" },
-{ "id": "company-management", "original": "management", "english": "company management", "translation": "руководство компании" },
-{ "id": "strong-leadership", "original": "leadership", "english": "strong leadership", "translation": "сильное лидерство" },
-{ "id": "team-supervisor", "original": "supervisor", "english": "team supervisor", "translation": "руководитель команды" },
-{ "id": "close-colleague", "original": "colleague", "english": "close colleague", "translation": "близкий коллега" },
-{ "id": "business-counterpart", "original": "counterpart", "english": "business counterpart", "translation": "деловой коллега" },
-{ "id": "key-stakeholder", "original": "stakeholder", "english": "key stakeholder", "translation": "ключевая заинтересованная сторона" },
-{ "id": "main-decision-maker", "original": "decision-maker", "english": "main decision maker", "translation": "главное лицо принимающее решения" },
-{ "id": "clear-reporting", "original": "reporting", "english": "clear reporting", "translation": "четкая подотчетность" },
-{ "id": "team-alignment", "original": "alignment", "english": "team alignment", "translation": "согласованность команды" },
-{ "id": "project-coordination", "original": "coordination", "english": "project coordination", "translation": "координация проекта" },
-{ "id": "work-process", "original": "process", "english": "work process", "translation": "рабочий процесс" },
-{ "id": "standard-procedure", "original": "procedure", "english": "standard procedure", "translation": "стандартная процедура" },
-{ "id": "daily-workflow", "original": "workflow", "english": "daily workflow", "translation": "ежедневный рабочий процесс" },
-{ "id": "final-deliverable", "original": "deliverable", "english": "final deliverable", "translation": "итоговый результат работы" },
-{ "id": "project-milestone", "original": "milestone", "english": "project milestone", "translation": "этап проекта" },
-{ "id": "miss-deadline", "original": "deadline", "english": "miss deadline", "translation": "пропустить дедлайн" },
-{ "id": "project-timeline", "original": "timeline", "english": "project timeline", "translation": "график проекта" },
-{ "id": "heavy-workload", "original": "workload", "english": "heavy workload", "translation": "большая рабочая нагрузка" },
-{ "id": "team-availability", "original": "availability", "english": "team availability", "translation": "доступность команды" },
-{ "id": "team-meeting", "original": "meeting", "english": "team meeting", "translation": "встреча команды" },
-{ "id": "meeting-agenda", "original": "agenda", "english": "meeting agenda", "translation": "повестка встречи" },
-{ "id": "meeting-minutes", "original": "minutes", "english": "meeting minutes", "translation": "протокол встречи" },
-{ "id": "send-follow-up", "original": "follow-up", "english": "send follow up", "translation": "отправить последующие действия" },
-{ "id": "action-item", "original": "action item", "english": "action item", "translation": "пункт к выполнению" },
-{ "id": "clear-communication", "original": "communication", "english": "clear communication", "translation": "четкая коммуникация" },
-{ "id": "need-clarification", "original": "clarification", "english": "need clarification", "translation": "нужно уточнение" },
-{ "id": "alignment-call", "original": "alignment call", "english": "alignment call", "translation": "созвон для синхронизации" },
-{ "id": "urgent-escalation", "original": "escalation", "english": "urgent escalation", "translation": "срочная эскалация" },
-{ "id": "final-approval", "original": "approval", "english": "final approval", "translation": "финальное утверждение" },
-{ "id": "personal-responsibility", "original": "responsibility", "english": "personal responsibility", "translation": "личная ответственность" },
-{ "id": "take-ownership", "original": "ownership", "english": "take ownership", "translation": "взять ответственность" },
-{ "id": "full-accountability", "original": "accountability", "english": "full accountability", "translation": "полная подотчетность" },
-{ "id": "legal-compliance", "original": "compliance", "english": "legal compliance", "translation": "соответствие требованиям" },
-{ "id": "company-policy", "original": "policy", "english": "company policy", "translation": "политика компании" },
-{ "id": "high-performance", "original": "performance", "english": "high performance", "translation": "высокая результативность" },
-{ "id": "annual-evaluation", "original": "evaluation", "english": "annual evaluation", "translation": "ежегодная оценка" },
-{ "id": "give-feedback", "original": "feedback", "english": "give feedback", "translation": "дать обратную связь" },
-{ "id": "continuous-improvement", "original": "improvement", "english": "continuous improvement", "translation": "постоянное улучшение" },
-{ "id": "business-growth", "original": "growth", "english": "business growth", "translation": "рост бизнеса" },
-{ "id": "team-capacity", "original": "capacity", "english": "team capacity", "translation": "загрузка команды" }
+    {
+      "original": "organization",
+      "english": "large organization",
+      "translation": "крупная организация"
+    },
+    {
+      "original": "headquarters",
+      "english": "main headquarters",
+      "translation": "главная штаб-квартира"
+    },
+    {
+      "original": "subsidiary",
+      "english": "foreign subsidiary",
+      "translation": "иностранная дочерняя компания"
+    },
+    {
+      "original": "department",
+      "english": "marketing department",
+      "translation": "маркетинговый отдел"
+    },
+    {
+      "original": "division",
+      "english": "business division",
+      "translation": "бизнес-подразделение"
+    },
+    {
+      "original": "management",
+      "english": "company management",
+      "translation": "руководство компании"
+    },
+    {
+      "original": "leadership",
+      "english": "strong leadership",
+      "translation": "сильное лидерство"
+    },
+    {
+      "original": "supervisor",
+      "english": "team supervisor",
+      "translation": "руководитель команды"
+    },
+    {
+      "original": "colleague",
+      "english": "close colleague",
+      "translation": "близкий коллега"
+    },
+    {
+      "original": "counterpart",
+      "english": "business counterpart",
+      "translation": "деловой коллега"
+    },
+    {
+      "original": "stakeholder",
+      "english": "key stakeholder",
+      "translation": "ключевая заинтересованная сторона"
+    },
+    {
+      "original": "decision-maker",
+      "english": "main decision maker",
+      "translation": "главное лицо принимающее решения"
+    },
+    {
+      "original": "reporting",
+      "english": "clear reporting",
+      "translation": "четкая подотчетность"
+    },
+    {
+      "original": "alignment",
+      "english": "team alignment",
+      "translation": "согласованность команды"
+    },
+    {
+      "original": "coordination",
+      "english": "project coordination",
+      "translation": "координация проекта"
+    },
+    {
+      "original": "process",
+      "english": "work process",
+      "translation": "рабочий процесс"
+    },
+    {
+      "original": "procedure",
+      "english": "standard procedure",
+      "translation": "стандартная процедура"
+    },
+    {
+      "original": "workflow",
+      "english": "daily workflow",
+      "translation": "ежедневный рабочий процесс"
+    },
+    {
+      "original": "deliverable",
+      "english": "final deliverable",
+      "translation": "итоговый результат работы"
+    },
+    {
+      "original": "milestone",
+      "english": "project milestone",
+      "translation": "этап проекта"
+    },
+    {
+      "original": "deadline",
+      "english": "miss deadline",
+      "translation": "пропустить дедлайн"
+    },
+    {
+      "original": "timeline",
+      "english": "project timeline",
+      "translation": "график проекта"
+    },
+    {
+      "original": "workload",
+      "english": "heavy workload",
+      "translation": "большая рабочая нагрузка"
+    },
+    {
+      "original": "availability",
+      "english": "team availability",
+      "translation": "доступность команды"
+    },
+    {
+      "original": "meeting",
+      "english": "team meeting",
+      "translation": "встреча команды"
+    },
+    {
+      "original": "agenda",
+      "english": "meeting agenda",
+      "translation": "повестка встречи"
+    },
+    {
+      "original": "minutes",
+      "english": "meeting minutes",
+      "translation": "протокол встречи"
+    },
+    {
+      "original": "follow-up",
+      "english": "send follow up",
+      "translation": "отправить последующие действия"
+    },
+    {
+      "original": "action item",
+      "english": "action item",
+      "translation": "пункт к выполнению"
+    },
+    {
+      "original": "communication",
+      "english": "clear communication",
+      "translation": "четкая коммуникация"
+    },
+    {
+      "original": "clarification",
+      "english": "need clarification",
+      "translation": "нужно уточнение"
+    },
+    {
+      "original": "alignment call",
+      "english": "alignment call",
+      "translation": "созвон для синхронизации"
+    },
+    {
+      "original": "escalation",
+      "english": "urgent escalation",
+      "translation": "срочная эскалация"
+    },
+    {
+      "original": "approval",
+      "english": "final approval",
+      "translation": "финальное утверждение"
+    },
+    {
+      "original": "responsibility",
+      "english": "personal responsibility",
+      "translation": "личная ответственность"
+    },
+    {
+      "original": "ownership",
+      "english": "take ownership",
+      "translation": "взять ответственность"
+    },
+    {
+      "original": "accountability",
+      "english": "full accountability",
+      "translation": "полная подотчетность"
+    },
+    {
+      "original": "compliance",
+      "english": "legal compliance",
+      "translation": "соответствие требованиям"
+    },
+    {
+      "original": "policy",
+      "english": "company policy",
+      "translation": "политика компании"
+    },
+    {
+      "original": "performance",
+      "english": "high performance",
+      "translation": "высокая результативность"
+    },
+    {
+      "original": "evaluation",
+      "english": "annual evaluation",
+      "translation": "ежегодная оценка"
+    },
+    {
+      "original": "feedback",
+      "english": "give feedback",
+      "translation": "дать обратную связь"
+    },
+    {
+      "original": "improvement",
+      "english": "continuous improvement",
+      "translation": "постоянное улучшение"
+    },
+    {
+      "original": "growth",
+      "english": "business growth",
+      "translation": "рост бизнеса"
+    },
+    {
+      "original": "capacity",
+      "english": "team capacity",
+      "translation": "загрузка команды"
+    }
   ]
 }

@@ -3,165 +3,45 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "artificial intelligence",
-      "translation": "искусственный интеллект"
-    },
-    {
-      "english": "AI",
-      "translation": "ИИ"
-    },
-    {
-      "english": "machine learning",
-      "translation": "машинное обучение"
-    },
-    {
-      "english": "deep learning",
-      "translation": "глубинное обучение"
-    },
-    {
-      "english": "neural network",
-      "translation": "нейронная сеть"
-    },
-    {
-      "english": "algorithm",
-      "translation": "алгоритм"
-    },
-    {
-      "english": "model",
-      "translation": "модель"
-    },
-    {
-      "english": "dataset",
-      "translation": "набор данных"
-    },
-    {
-      "english": "training",
-      "translation": "обучение"
-    },
-    {
-      "english": "inference",
-      "translation": "инференс"
-    },
-    {
-      "english": "input",
-      "translation": "входные данные"
-    },
-    {
-      "english": "output",
-      "translation": "выходные данные"
-    },
-    {
-      "english": "feature",
-      "translation": "признак"
-    },
-    {
-      "english": "parameter",
-      "translation": "параметр"
-    },
-    {
-      "english": "weight",
-      "translation": "вес"
-    },
-    {
-      "english": "accuracy",
-      "translation": "точность"
-    },
-    {
-      "english": "performance",
-      "translation": "производительность"
-    },
-    {
-      "english": "prediction",
-      "translation": "предсказание"
-    },
-    {
-      "english": "classification",
-      "translation": "классификация"
-    },
-    {
-      "english": "regression",
-      "translation": "регрессия"
-    },
-    {
-      "english": "automation",
-      "translation": "автоматизация"
-    },
-    {
-      "english": "optimization",
-      "translation": "оптимизация"
-    },
-    {
-      "english": "scalability",
-      "translation": "масштабируемость"
-    },
-    {
-      "english": "deployment",
-      "translation": "развёртывание"
-    },
-    {
-      "english": "integration",
-      "translation": "интеграция"
-    },
-    {
-      "english": "natural language processing",
-      "translation": "обработка естественного языка"
-    },
-    {
-      "english": "computer vision",
-      "translation": "компьютерное зрение"
-    },
-    {
-      "english": "speech recognition",
-      "translation": "распознавание речи"
-    },
-    {
-      "english": "chatbot",
-      "translation": "чат-бот"
-    },
-    {
-      "english": "assistant",
-      "translation": "ассистент"
-    },
-    {
-      "english": "bias",
-      "translation": "предвзятость"
-    },
-    {
-      "english": "ethics",
-      "translation": "этика"
-    },
-    {
-      "english": "privacy",
-      "translation": "конфиденциальность"
-    },
-    {
-      "english": "security",
-      "translation": "безопасность"
-    },
-    {
-      "english": "transparency",
-      "translation": "прозрачность"
-    },
-    {
-      "english": "use case",
-      "translation": "сценарий использования"
-    },
-    {
-      "english": "application",
-      "translation": "применение"
-    },
-    {
-      "english": "limitation",
-      "translation": "ограничение"
-    },
-    {
-      "english": "capability",
-      "translation": "возможность"
-    },
-    {
-      "english": "impact",
-      "translation": "влияние"
-    }
+    { "original": "artificial intelligence", "english": "Many companies adopt artificial intelligence.", "translation": "Многие компании внедряют искусственный интеллект." },
+    { "original": "AI", "english": "AI helps solve complex tasks.", "translation": "ИИ помогает решать сложные задачи." },
+    { "original": "machine learning", "english": "Many systems rely on machine learning.", "translation": "Многие системы опираются на машинное обучение." },
+    { "original": "deep learning", "english": "Image recognition uses deep learning.", "translation": "Распознавание изображений использует глубинное обучение." },
+    { "original": "neural network", "english": "The system trained a neural network.", "translation": "Система обучила нейронную сеть." },
+    { "original": "algorithm", "english": "Engineers improved the algorithm.", "translation": "Инженеры улучшили алгоритм." },
+    { "original": "model", "english": "The model predicts future trends.", "translation": "Модель предсказывает будущие тенденции." },
+    { "original": "dataset", "english": "Researchers analyzed a large dataset.", "translation": "Исследователи проанализировали большой набор данных." },
+    { "original": "training", "english": "The system finished training successfully.", "translation": "Система успешно завершила обучение." },
+    { "original": "inference", "english": "Real-time inference supports applications.", "translation": "Инференс в реальном времени поддерживает приложения." },
+    { "original": "input", "english": "Clean input improves predictions.", "translation": "Чистые входные данные улучшают предсказания." },
+    { "original": "output", "english": "The output confirmed the hypothesis.", "translation": "Выходные данные подтвердили гипотезу." },
+    { "original": "feature", "english": "Each feature influences the result.", "translation": "Каждый признак влияет на результат." },
+    { "original": "parameter", "english": "The engineer adjusted several parameters.", "translation": "Инженер настроил несколько параметров." },
+    { "original": "weight", "english": "Training updated the network weights.", "translation": "Обучение обновило веса сети." },
+    { "original": "accuracy", "english": "The model reached high accuracy.", "translation": "Модель достигла высокой точности." },
+    { "original": "performance", "english": "Optimization improved system performance.", "translation": "Оптимизация улучшила производительность системы." },
+    { "original": "prediction", "english": "Accurate prediction supports planning.", "translation": "Точное предсказание поддерживает планирование." },
+    { "original": "classification", "english": "The model performs image classification.", "translation": "Модель выполняет классификацию изображений." },
+    { "original": "regression", "english": "Regression models estimate values.", "translation": "Модели регрессии оценивают значения." },
+    { "original": "automation", "english": "Automation accelerates routine processes.", "translation": "Автоматизация ускоряет рутинные процессы." },
+    { "original": "optimization", "english": "Continuous optimization improves results.", "translation": "Непрерывная оптимизация улучшает результаты." },
+    { "original": "scalability", "english": "Cloud platforms ensure scalability.", "translation": "Облачные платформы обеспечивают масштабируемость." },
+    { "original": "deployment", "english": "The team prepared model deployment.", "translation": "Команда подготовила развёртывание модели." },
+    { "original": "integration", "english": "Integration connected several services.", "translation": "Интеграция связала несколько сервисов." },
+    { "original": "natural language processing", "english": "Chat systems use natural language processing.", "translation": "Чат-системы используют обработку естественного языка." },
+    { "original": "computer vision", "english": "Modern cameras apply computer vision.", "translation": "Современные камеры применяют компьютерное зрение." },
+    { "original": "speech recognition", "english": "Smart devices rely on speech recognition.", "translation": "Умные устройства полагаются на распознавание речи." },
+    { "original": "chatbot", "english": "The company launched a chatbot.", "translation": "Компания запустила чат-бота." },
+    { "original": "assistant", "english": "The assistant organizes daily tasks.", "translation": "Ассистент организует ежедневные задачи." },
+    { "original": "bias", "english": "Engineers monitor bias carefully.", "translation": "Инженеры внимательно отслеживают предвзятость." },
+    { "original": "ethics", "english": "AI development follows ethics guidelines.", "translation": "Разработка ИИ следует этическим принципам." },
+    { "original": "privacy", "english": "Privacy protects sensitive data.", "translation": "Конфиденциальность защищает чувствительные данные." },
+    { "original": "security", "english": "Strong security protects AI systems.", "translation": "Надёжная безопасность защищает системы ИИ." },
+    { "original": "transparency", "english": "Transparency increases user trust.", "translation": "Прозрачность повышает доверие пользователей." },
+    { "original": "use case", "english": "Each project starts with a use case.", "translation": "Каждый проект начинается со сценария использования." },
+    { "original": "application", "english": "This application analyzes documents.", "translation": "Это приложение анализирует документы." },
+    { "original": "limitation", "english": "Every technology has limitations.", "translation": "У каждой технологии есть ограничения." },
+    { "original": "capability", "english": "New models expand system capabilities.", "translation": "Новые модели расширяют возможности системы." },
+    { "original": "impact", "english": "AI creates global technological impact.", "translation": "ИИ создаёт глобальное технологическое влияние." }
   ]
 }

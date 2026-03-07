@@ -3,50 +3,230 @@
   "level": "Upper-Intermediate",
   "name": "Phrases",
   "items": [
-    { "id": "digital-marketing", "original": "marketing", "english": "digital marketing", "translation": "цифровой маркетинг" },
-    { "id": "online-advertising", "original": "advertising", "english": "online advertising", "translation": "онлайн реклама" },
-    { "id": "strong-brand", "original": "brand", "english": "strong brand", "translation": "сильный бренд" },
-    { "id": "brand-branding", "original": "branding", "english": "brand branding", "translation": "брендинг бренда" },
-    { "id": "brand-awareness", "original": "awareness", "english": "brand awareness", "translation": "узнаваемость бренда" },
-    { "id": "run-campaign", "original": "campaign", "english": "run campaign", "translation": "запустить кампанию" },
-    { "id": "product-promotion", "original": "promotion", "english": "product promotion", "translation": "продвижение продукта" },
-    { "id": "product-launch", "original": "launch", "english": "product launch", "translation": "запуск продукта" },
-    { "id": "increase-reach", "original": "reach", "english": "increase reach", "translation": "увеличить охват" },
-    { "id": "ad-impression", "original": "impression", "english": "ad impression", "translation": "показ рекламы" },
-    { "id": "large-audience", "original": "audience", "english": "large audience", "translation": "большая аудитория" },
-    { "id": "target-audience", "original": "target audience", "english": "target audience", "translation": "целевая аудитория" },
-    { "id": "market-segment", "original": "segment", "english": "market segment", "translation": "рыночный сегмент" },
-    { "id": "user-demographics", "original": "demographics", "english": "user demographics", "translation": "демография пользователей" },
-    { "id": "user-persona", "original": "persona", "english": "user persona", "translation": "персона пользователя" },
-    { "id": "marketing-channel", "original": "channel", "english": "marketing channel", "translation": "маркетинговый канал" },
-    { "id": "ad-platform", "original": "platform", "english": "ad platform", "translation": "рекламная платформа" },
-    { "id": "social-media", "original": "social media", "english": "social media", "translation": "социальные сети" },
-    { "id": "email-marketing", "original": "email marketing", "english": "email marketing", "translation": "email-маркетинг" },
-    { "id": "create-content", "original": "content", "english": "create content", "translation": "создавать контент" },
-    { "id": "write-copy", "original": "copy", "english": "write copy", "translation": "писать рекламный текст" },
-    { "id": "catchy-headline", "original": "headline", "english": "catchy headline", "translation": "цепляющий заголовок" },
-    { "id": "brand-message", "original": "message", "english": "brand message", "translation": "сообщение бренда" },
-    { "id": "ad-visual", "original": "visual", "english": "ad visual", "translation": "рекламный визуал" },
-    { "id": "ad-creative", "original": "creative", "english": "ad creative", "translation": "рекламный креатив" },
-    { "id": "website-traffic", "original": "traffic", "english": "website traffic", "translation": "трафик сайта" },
-    { "id": "new-lead", "original": "lead", "english": "new lead", "translation": "новый лид" },
-    { "id": "lead-generation", "original": "lead generation", "english": "lead generation", "translation": "лидогенерация" },
-    { "id": "conversion-rate", "original": "conversion rate", "english": "conversion rate", "translation": "коэффициент конверсии" },
-    { "id": "bounce-rate", "original": "bounce rate", "english": "bounce rate", "translation": "показатель отказов" },
-    { "id": "ad-cost", "original": "cost", "english": "ad cost", "translation": "стоимость рекламы" },
-    { "id": "marketing-budget", "original": "budget", "english": "marketing budget", "translation": "маркетинговый бюджет" },
-    { "id": "high-roi", "original": "ROI", "english": "high ROI", "translation": "высокая окупаемость" },
-    { "id": "lower-cpa", "original": "CPA", "english": "lower CPA", "translation": "снизить CPA" },
-    { "id": "increase-ctr", "original": "CTR", "english": "increase CTR", "translation": "увеличить CTR" },
-    { "id": "ad-optimization", "original": "optimization", "english": "ad optimization", "translation": "оптимизация рекламы" },
-    { "id": "run-testing", "original": "testing", "english": "run testing", "translation": "проводить тестирование" },
-    { "id": "campaign-performance", "original": "performance", "english": "campaign performance", "translation": "эффективность кампании" },
-    { "id": "business-growth", "original": "growth", "english": "business growth", "translation": "рост бизнеса" },
-    { "id": "campaign-scaling", "original": "scaling", "english": "campaign scaling", "translation": "масштабирование кампании" },
-    { "id": "ad-retargeting", "original": "retargeting", "english": "ad retargeting", "translation": "ретаргетинг рекламы" },
-    { "id": "ad-remarketing", "original": "remarketing", "english": "ad remarketing", "translation": "ремаркетинг" },
-    { "id": "hire-influencer", "original": "influencer", "english": "hire influencer", "translation": "нанять инфлюенсера" },
-    { "id": "brand-partnership", "original": "partnership", "english": "brand partnership", "translation": "партнёрство брендов" },
-    { "id": "affiliate-program", "original": "affiliate", "english": "affiliate program", "translation": "партнёрская программа" }
+    {
+      "original": "marketing",
+      "english": "digital marketing",
+      "translation": "цифровой маркетинг"
+    },
+    {
+      "original": "advertising",
+      "english": "online advertising",
+      "translation": "онлайн реклама"
+    },
+    {
+      "original": "brand",
+      "english": "strong brand",
+      "translation": "сильный бренд"
+    },
+    {
+      "original": "branding",
+      "english": "brand branding",
+      "translation": "брендинг бренда"
+    },
+    {
+      "original": "awareness",
+      "english": "brand awareness",
+      "translation": "узнаваемость бренда"
+    },
+    {
+      "original": "campaign",
+      "english": "run campaign",
+      "translation": "запустить кампанию"
+    },
+    {
+      "original": "promotion",
+      "english": "product promotion",
+      "translation": "продвижение продукта"
+    },
+    {
+      "original": "launch",
+      "english": "product launch",
+      "translation": "запуск продукта"
+    },
+    {
+      "original": "reach",
+      "english": "increase reach",
+      "translation": "увеличить охват"
+    },
+    {
+      "original": "impression",
+      "english": "ad impression",
+      "translation": "показ рекламы"
+    },
+    {
+      "original": "audience",
+      "english": "large audience",
+      "translation": "большая аудитория"
+    },
+    {
+      "original": "target audience",
+      "english": "target audience",
+      "translation": "целевая аудитория"
+    },
+    {
+      "original": "segment",
+      "english": "market segment",
+      "translation": "рыночный сегмент"
+    },
+    {
+      "original": "demographics",
+      "english": "user demographics",
+      "translation": "демография пользователей"
+    },
+    {
+      "original": "persona",
+      "english": "user persona",
+      "translation": "персона пользователя"
+    },
+    {
+      "original": "channel",
+      "english": "marketing channel",
+      "translation": "маркетинговый канал"
+    },
+    {
+      "original": "platform",
+      "english": "ad platform",
+      "translation": "рекламная платформа"
+    },
+    {
+      "original": "social media",
+      "english": "social media",
+      "translation": "социальные сети"
+    },
+    {
+      "original": "email marketing",
+      "english": "email marketing",
+      "translation": "email-маркетинг"
+    },
+    {
+      "original": "content",
+      "english": "create content",
+      "translation": "создавать контент"
+    },
+    {
+      "original": "copy",
+      "english": "write copy",
+      "translation": "писать рекламный текст"
+    },
+    {
+      "original": "headline",
+      "english": "catchy headline",
+      "translation": "цепляющий заголовок"
+    },
+    {
+      "original": "message",
+      "english": "brand message",
+      "translation": "сообщение бренда"
+    },
+    {
+      "original": "visual",
+      "english": "ad visual",
+      "translation": "рекламный визуал"
+    },
+    {
+      "original": "creative",
+      "english": "ad creative",
+      "translation": "рекламный креатив"
+    },
+    {
+      "original": "traffic",
+      "english": "website traffic",
+      "translation": "трафик сайта"
+    },
+    {
+      "original": "lead",
+      "english": "new lead",
+      "translation": "новый лид"
+    },
+    {
+      "original": "lead generation",
+      "english": "lead generation",
+      "translation": "лидогенерация"
+    },
+    {
+      "original": "conversion rate",
+      "english": "conversion rate",
+      "translation": "коэффициент конверсии"
+    },
+    {
+      "original": "bounce rate",
+      "english": "bounce rate",
+      "translation": "показатель отказов"
+    },
+    {
+      "original": "cost",
+      "english": "ad cost",
+      "translation": "стоимость рекламы"
+    },
+    {
+      "original": "budget",
+      "english": "marketing budget",
+      "translation": "маркетинговый бюджет"
+    },
+    {
+      "original": "ROI",
+      "english": "high ROI",
+      "translation": "высокая окупаемость"
+    },
+    {
+      "original": "CPA",
+      "english": "lower CPA",
+      "translation": "снизить CPA"
+    },
+    {
+      "original": "CTR",
+      "english": "increase CTR",
+      "translation": "увеличить CTR"
+    },
+    {
+      "original": "optimization",
+      "english": "ad optimization",
+      "translation": "оптимизация рекламы"
+    },
+    {
+      "original": "testing",
+      "english": "run testing",
+      "translation": "проводить тестирование"
+    },
+    {
+      "original": "performance",
+      "english": "campaign performance",
+      "translation": "эффективность кампании"
+    },
+    {
+      "original": "growth",
+      "english": "business growth",
+      "translation": "рост бизнеса"
+    },
+    {
+      "original": "scaling",
+      "english": "campaign scaling",
+      "translation": "масштабирование кампании"
+    },
+    {
+      "original": "retargeting",
+      "english": "ad retargeting",
+      "translation": "ретаргетинг рекламы"
+    },
+    {
+      "original": "remarketing",
+      "english": "ad remarketing",
+      "translation": "ремаркетинг"
+    },
+    {
+      "original": "influencer",
+      "english": "hire influencer",
+      "translation": "нанять инфлюенсера"
+    },
+    {
+      "original": "partnership",
+      "english": "brand partnership",
+      "translation": "партнёрство брендов"
+    },
+    {
+      "original": "affiliate",
+      "english": "affiliate program",
+      "translation": "партнёрская программа"
+    }
   ]
 }

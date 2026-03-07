@@ -3,36 +3,160 @@
   "level": "Advanced",
   "name": "Phrases",
   "items": [
-    { "id": "dark-humor", "original": "humor", "english": "dark humor", "translation": "чёрный юмор" },
-    { "id": "funny-joke", "original": "joke", "english": "funny joke", "translation": "смешная шутка" },
-    { "id": "quick-wit", "original": "wit", "english": "quick wit", "translation": "быстрое остроумие" },
-    { "id": "natural-wittiness", "original": "wittiness", "english": "natural wittiness", "translation": "естественная остроумность" },
-    { "id": "light-playfulness", "original": "playfulness", "english": "light playfulness", "translation": "лёгкая игривость" },
-    { "id": "sharp-sarcasm", "original": "sarcasm", "english": "sharp sarcasm", "translation": "резкий сарказм" },
-    { "id": "subtle-irony", "original": "irony", "english": "subtle irony", "translation": "тонкая ирония" },
-    { "id": "gentle-mockery", "original": "mockery", "english": "gentle mockery", "translation": "лёгкая насмешка" },
-    { "id": "friendly-teasing", "original": "teasing", "english": "friendly teasing", "translation": "дружеское поддразнивание" },
-    { "id": "witty-banter", "original": "banter", "english": "witty banter", "translation": "остроумная перепалка" },
-    { "id": "slight-exaggeration", "original": "exaggeration", "english": "slight exaggeration", "translation": "небольшое преувеличение" },
-    { "id": "pure-absurdity", "original": "absurdity", "english": "pure absurdity", "translation": "чистый абсурд" },
-    { "id": "playful-nonsense", "original": "nonsense", "english": "playful nonsense", "translation": "игривая нелепица" },
-    { "id": "comic-parody", "original": "parody", "english": "comic parody", "translation": "комическая пародия" },
-    { "id": "political-satire", "original": "satire", "english": "political satire", "translation": "политическая сатира" },
-    { "id": "gentle-self-irony", "original": "self-irony", "english": "gentle self-irony", "translation": "лёгкая самоирония" },
-    { "id": "open-self-mockery", "original": "self-mockery", "english": "self-mockery", "translation": "самоироничное высмеивание" },
-    { "id": "mild-understatement", "original": "understatement", "english": "mild understatement", "translation": "лёгкое преуменьшение" },
-    { "id": "bold-overstatement", "original": "overstatement", "english": "bold overstatement", "translation": "смелая гипербола" },
-    { "id": "comic-delivery", "original": "delivery", "english": "comic delivery", "translation": "комическая подача" },
-    { "id": "perfect-timing", "original": "timing", "english": "perfect timing", "translation": "идеальное чувство момента" },
-    { "id": "sarcastic-tone", "original": "tone", "english": "sarcastic tone", "translation": "саркастический тон" },
-    { "id": "facial-expression", "original": "expression", "english": "facial expression", "translation": "выражение лица" },
-    { "id": "social-awkwardness", "original": "awkwardness", "english": "social awkwardness", "translation": "социальная неловкость" },
-    { "id": "serious-offense", "original": "offense", "english": "serious offense", "translation": "серьёзное оскорбление" },
-    { "id": "possible-misinterpretation", "original": "misinterpretation", "english": "possible misinterpretation", "translation": "возможное неверное понимание" },
-    { "id": "high-sensitivity", "original": "sensitivity", "english": "high sensitivity", "translation": "высокая чувствительность" },
-    { "id": "deadpan-delivery", "original": "deadpan", "english": "deadpan delivery", "translation": "сухая подача" },
-    { "id": "natural-lightheartedness", "original": "lightheartedness", "english": "natural lightheartedness", "translation": "естественная лёгкость" },
-    { "id": "genuine-amusement", "original": "amusement", "english": "genuine amusement", "translation": "искреннее веселье" },
-    { "id": "live-entertainment", "original": "entertainment", "english": "live entertainment", "translation": "живое развлечение" }
+    {
+      "original": "humor",
+      "english": "dark humor",
+      "translation": "чёрный юмор"
+    },
+    {
+      "original": "joke",
+      "english": "funny joke",
+      "translation": "смешная шутка"
+    },
+    {
+      "original": "wit",
+      "english": "quick wit",
+      "translation": "быстрое остроумие"
+    },
+    {
+      "original": "wittiness",
+      "english": "natural wittiness",
+      "translation": "естественная остроумность"
+    },
+    {
+      "original": "playfulness",
+      "english": "light playfulness",
+      "translation": "лёгкая игривость"
+    },
+    {
+      "original": "sarcasm",
+      "english": "sharp sarcasm",
+      "translation": "резкий сарказм"
+    },
+    {
+      "original": "irony",
+      "english": "subtle irony",
+      "translation": "тонкая ирония"
+    },
+    {
+      "original": "mockery",
+      "english": "gentle mockery",
+      "translation": "лёгкая насмешка"
+    },
+    {
+      "original": "teasing",
+      "english": "friendly teasing",
+      "translation": "дружеское поддразнивание"
+    },
+    {
+      "original": "banter",
+      "english": "witty banter",
+      "translation": "остроумная перепалка"
+    },
+    {
+      "original": "exaggeration",
+      "english": "slight exaggeration",
+      "translation": "небольшое преувеличение"
+    },
+    {
+      "original": "absurdity",
+      "english": "pure absurdity",
+      "translation": "чистый абсурд"
+    },
+    {
+      "original": "nonsense",
+      "english": "playful nonsense",
+      "translation": "игривая нелепица"
+    },
+    {
+      "original": "parody",
+      "english": "comic parody",
+      "translation": "комическая пародия"
+    },
+    {
+      "original": "satire",
+      "english": "political satire",
+      "translation": "политическая сатира"
+    },
+    {
+      "original": "self-irony",
+      "english": "gentle self-irony",
+      "translation": "лёгкая самоирония"
+    },
+    {
+      "original": "self-mockery",
+      "english": "self-mockery",
+      "translation": "самоироничное высмеивание"
+    },
+    {
+      "original": "understatement",
+      "english": "mild understatement",
+      "translation": "лёгкое преуменьшение"
+    },
+    {
+      "original": "overstatement",
+      "english": "bold overstatement",
+      "translation": "смелая гипербола"
+    },
+    {
+      "original": "delivery",
+      "english": "comic delivery",
+      "translation": "комическая подача"
+    },
+    {
+      "original": "timing",
+      "english": "perfect timing",
+      "translation": "идеальное чувство момента"
+    },
+    {
+      "original": "tone",
+      "english": "sarcastic tone",
+      "translation": "саркастический тон"
+    },
+    {
+      "original": "expression",
+      "english": "facial expression",
+      "translation": "выражение лица"
+    },
+    {
+      "original": "awkwardness",
+      "english": "social awkwardness",
+      "translation": "социальная неловкость"
+    },
+    {
+      "original": "offense",
+      "english": "serious offense",
+      "translation": "серьёзное оскорбление"
+    },
+    {
+      "original": "misinterpretation",
+      "english": "possible misinterpretation",
+      "translation": "возможное неверное понимание"
+    },
+    {
+      "original": "sensitivity",
+      "english": "high sensitivity",
+      "translation": "высокая чувствительность"
+    },
+    {
+      "original": "deadpan",
+      "english": "deadpan delivery",
+      "translation": "сухая подача"
+    },
+    {
+      "original": "lightheartedness",
+      "english": "natural lightheartedness",
+      "translation": "естественная лёгкость"
+    },
+    {
+      "original": "amusement",
+      "english": "genuine amusement",
+      "translation": "искреннее веселье"
+    },
+    {
+      "original": "entertainment",
+      "english": "live entertainment",
+      "translation": "живое развлечение"
+    }
   ]
 }

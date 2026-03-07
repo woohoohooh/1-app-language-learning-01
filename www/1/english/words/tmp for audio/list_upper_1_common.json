@@ -3,50 +3,230 @@
   "level": "Upper-Intermediate",
   "name": "Phrases",
   "items": [
-    { "id": "new-approach", "original": "approach", "english": "new approach", "translation": "новый подход" },
-    { "id": "big-impact", "original": "impact", "english": "big impact", "translation": "большое влияние" },
-    { "id": "right-context", "original": "context", "english": "right context", "translation": "правильный контекст" },
-    { "id": "business-strategy", "original": "strategy", "english": "business strategy", "translation": "бизнес-стратегия" },
-    { "id": "clear-objective", "original": "objective", "english": "clear objective", "translation": "чёткая цель" },
-    { "id": "top-priority", "original": "priority", "english": "top priority", "translation": "главный приоритет" },
-    { "id": "limited-resource", "original": "resource", "english": "limited resource", "translation": "ограниченный ресурс" },
-    { "id": "major-constraint", "original": "constraint", "english": "major constraint", "translation": "основное ограничение" },
-    { "id": "basic-assumption", "original": "assumption", "english": "basic assumption", "translation": "основное предположение" },
-    { "id": "strong-evidence", "original": "evidence", "english": "strong evidence", "translation": "сильное доказательство" },
-    { "id": "deep-analysis", "original": "analysis", "english": "deep analysis", "translation": "глубокий анализ" },
-    { "id": "different-perspective", "original": "perspective", "english": "different perspective", "translation": "другая точка зрения" },
-    { "id": "key-factor", "original": "factor", "english": "key factor", "translation": "ключевой фактор" },
-    { "id": "market-trend", "original": "trend", "english": "market trend", "translation": "рыночная тенденция" },
-    { "id": "common-pattern", "original": "pattern", "english": "common pattern", "translation": "распространённая закономерность" },
-    { "id": "possible-scenario", "original": "scenario", "english": "possible scenario", "translation": "возможный сценарий" },
-    { "id": "main-stakeholder", "original": "stakeholder", "english": "main stakeholder", "translation": "основная заинтересованная сторона" },
-    { "id": "team-alignment", "original": "alignment", "english": "team alignment", "translation": "согласованность команды" },
-    { "id": "project-execution", "original": "execution", "english": "project execution", "translation": "реализация проекта" },
-    { "id": "system-implementation", "original": "implementation", "english": "system implementation", "translation": "внедрение системы" },
-    { "id": "process-optimization", "original": "optimization", "english": "process optimization", "translation": "оптимизация процесса" },
-    { "id": "high-efficiency", "original": "efficiency", "english": "high efficiency", "translation": "высокая эффективность" },
-    { "id": "strategic-trade-off", "original": "trade-off", "english": "strategic trade-off", "translation": "стратегический компромисс" },
-    { "id": "technical-limitation", "original": "limitation", "english": "technical limitation", "translation": "техническое ограничение" },
-    { "id": "critical-dependency", "original": "dependency", "english": "critical dependency", "translation": "критическая зависимость" },
-    { "id": "system-complexity", "original": "complexity", "english": "system complexity", "translation": "сложность системы" },
-    { "id": "high-uncertainty", "original": "uncertainty", "english": "high uncertainty", "translation": "высокая неопределенность" },
-    { "id": "business-risk", "original": "risk", "english": "business risk", "translation": "бизнес-риск" },
-    { "id": "growth-opportunity", "original": "opportunity", "english": "growth opportunity", "translation": "возможность роста" },
-    { "id": "core-requirement", "original": "requirement", "english": "core requirement", "translation": "основное требование" },
-    { "id": "final-evaluation", "original": "evaluation", "english": "final evaluation", "translation": "финальная оценка" },
-    { "id": "performance-assessment", "original": "assessment", "english": "performance assessment", "translation": "оценивание эффективности" },
-    { "id": "user-feedback", "original": "feedback", "english": "user feedback", "translation": "обратная связь от пользователей" },
-    { "id": "small-adjustment", "original": "adjustment", "english": "small adjustment", "translation": "небольшая корректировка" },
-    { "id": "continuous-improvement", "original": "improvement", "english": "continuous improvement", "translation": "постоянное улучшение" },
-    { "id": "fast-decision-making", "original": "decision-making", "english": "fast decision-making", "translation": "быстрое принятие решений" },
-    { "id": "full-responsibility", "original": "responsibility", "english": "full responsibility", "translation": "полная ответственность" },
-    { "id": "strong-commitment", "original": "commitment", "english": "strong commitment", "translation": "сильное обязательство" },
-    { "id": "team-accountability", "original": "accountability", "english": "team accountability", "translation": "подотчетность команды" },
-    { "id": "serious-issue", "original": "issue", "english": "serious issue", "translation": "серьёзная проблема" },
-    { "id": "positive-outcome", "original": "outcome", "english": "positive outcome", "translation": "положительный результат" },
-    { "id": "valuable-insight", "original": "insight", "english": "valuable insight", "translation": "ценное понимание" },
-    { "id": "conceptual-framework", "original": "framework", "english": "conceptual framework", "translation": "концептуальная структура" },
-    { "id": "big-challenge", "original": "challenge", "english": "big challenge", "translation": "большой вызов" },
-    { "id": "project-ownership", "original": "ownership", "english": "project ownership", "translation": "ответственность за проект" }
+    {
+      "original": "approach",
+      "english": "new approach",
+      "translation": "новый подход"
+    },
+    {
+      "original": "impact",
+      "english": "big impact",
+      "translation": "большое влияние"
+    },
+    {
+      "original": "context",
+      "english": "right context",
+      "translation": "правильный контекст"
+    },
+    {
+      "original": "strategy",
+      "english": "business strategy",
+      "translation": "бизнес-стратегия"
+    },
+    {
+      "original": "objective",
+      "english": "clear objective",
+      "translation": "чёткая цель"
+    },
+    {
+      "original": "priority",
+      "english": "top priority",
+      "translation": "главный приоритет"
+    },
+    {
+      "original": "resource",
+      "english": "limited resource",
+      "translation": "ограниченный ресурс"
+    },
+    {
+      "original": "constraint",
+      "english": "major constraint",
+      "translation": "основное ограничение"
+    },
+    {
+      "original": "assumption",
+      "english": "basic assumption",
+      "translation": "основное предположение"
+    },
+    {
+      "original": "evidence",
+      "english": "strong evidence",
+      "translation": "сильное доказательство"
+    },
+    {
+      "original": "analysis",
+      "english": "deep analysis",
+      "translation": "глубокий анализ"
+    },
+    {
+      "original": "perspective",
+      "english": "different perspective",
+      "translation": "другая точка зрения"
+    },
+    {
+      "original": "factor",
+      "english": "key factor",
+      "translation": "ключевой фактор"
+    },
+    {
+      "original": "trend",
+      "english": "market trend",
+      "translation": "рыночная тенденция"
+    },
+    {
+      "original": "pattern",
+      "english": "common pattern",
+      "translation": "распространённая закономерность"
+    },
+    {
+      "original": "scenario",
+      "english": "possible scenario",
+      "translation": "возможный сценарий"
+    },
+    {
+      "original": "stakeholder",
+      "english": "main stakeholder",
+      "translation": "основная заинтересованная сторона"
+    },
+    {
+      "original": "alignment",
+      "english": "team alignment",
+      "translation": "согласованность команды"
+    },
+    {
+      "original": "execution",
+      "english": "project execution",
+      "translation": "реализация проекта"
+    },
+    {
+      "original": "implementation",
+      "english": "system implementation",
+      "translation": "внедрение системы"
+    },
+    {
+      "original": "optimization",
+      "english": "process optimization",
+      "translation": "оптимизация процесса"
+    },
+    {
+      "original": "efficiency",
+      "english": "high efficiency",
+      "translation": "высокая эффективность"
+    },
+    {
+      "original": "trade-off",
+      "english": "strategic trade-off",
+      "translation": "стратегический компромисс"
+    },
+    {
+      "original": "limitation",
+      "english": "technical limitation",
+      "translation": "техническое ограничение"
+    },
+    {
+      "original": "dependency",
+      "english": "critical dependency",
+      "translation": "критическая зависимость"
+    },
+    {
+      "original": "complexity",
+      "english": "system complexity",
+      "translation": "сложность системы"
+    },
+    {
+      "original": "uncertainty",
+      "english": "high uncertainty",
+      "translation": "высокая неопределенность"
+    },
+    {
+      "original": "risk",
+      "english": "business risk",
+      "translation": "бизнес-риск"
+    },
+    {
+      "original": "opportunity",
+      "english": "growth opportunity",
+      "translation": "возможность роста"
+    },
+    {
+      "original": "requirement",
+      "english": "core requirement",
+      "translation": "основное требование"
+    },
+    {
+      "original": "evaluation",
+      "english": "final evaluation",
+      "translation": "финальная оценка"
+    },
+    {
+      "original": "assessment",
+      "english": "performance assessment",
+      "translation": "оценивание эффективности"
+    },
+    {
+      "original": "feedback",
+      "english": "user feedback",
+      "translation": "обратная связь от пользователей"
+    },
+    {
+      "original": "adjustment",
+      "english": "small adjustment",
+      "translation": "небольшая корректировка"
+    },
+    {
+      "original": "improvement",
+      "english": "continuous improvement",
+      "translation": "постоянное улучшение"
+    },
+    {
+      "original": "decision-making",
+      "english": "fast decision-making",
+      "translation": "быстрое принятие решений"
+    },
+    {
+      "original": "responsibility",
+      "english": "full responsibility",
+      "translation": "полная ответственность"
+    },
+    {
+      "original": "commitment",
+      "english": "strong commitment",
+      "translation": "сильное обязательство"
+    },
+    {
+      "original": "accountability",
+      "english": "team accountability",
+      "translation": "подотчетность команды"
+    },
+    {
+      "original": "issue",
+      "english": "serious issue",
+      "translation": "серьёзная проблема"
+    },
+    {
+      "original": "outcome",
+      "english": "positive outcome",
+      "translation": "положительный результат"
+    },
+    {
+      "original": "insight",
+      "english": "valuable insight",
+      "translation": "ценное понимание"
+    },
+    {
+      "original": "framework",
+      "english": "conceptual framework",
+      "translation": "концептуальная структура"
+    },
+    {
+      "original": "challenge",
+      "english": "big challenge",
+      "translation": "большой вызов"
+    },
+    {
+      "original": "ownership",
+      "english": "project ownership",
+      "translation": "ответственность за проект"
+    }
   ]
 }

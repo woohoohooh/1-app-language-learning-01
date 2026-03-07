@@ -3,44 +3,200 @@
   "level": "Intermediate",
   "name": "Phrase",
   "items": [
-    { "id": "learn-programming", "original": "programming", "english": "learn programming", "translation": "изучать программирование" },
-    { "id": "good-developer", "original": "developer", "english": "good developer", "translation": "хороший разработчик" },
-    { "id": "use-software", "original": "software", "english": "use software", "translation": "использовать программное обеспечение" },
-    { "id": "open-application", "original": "application", "english": "open application", "translation": "открыть приложение" },
-    { "id": "system-update", "original": "system", "english": "system update", "translation": "обновление системы" },
-    { "id": "write-code", "original": "code", "english": "write code", "translation": "писать код" },
-    { "id": "check-source-code", "original": "source-code", "english": "check source code", "translation": "проверить исходный код" },
-    { "id": "define-function", "original": "function", "english": "define function", "translation": "определить функцию" },
-    { "id": "use-method", "original": "method", "english": "use method", "translation": "использовать метод" },
-    { "id": "set-variable", "original": "variable", "english": "set variable", "translation": "задать переменную" },
-    { "id": "follow-logic", "original": "logic", "english": "follow logic", "translation": "следовать логике" },
-    { "id": "create-algorithm", "original": "algorithm", "english": "create algorithm", "translation": "создать алгоритм" },
-    { "id": "data-structure", "original": "structure", "english": "data structure", "translation": "структура данных" },
-    { "id": "store-data", "original": "data", "english": "store data", "translation": "сохранять данные" },
-    { "id": "use-database", "original": "database", "english": "use database", "translation": "использовать базу данных" },
-    { "id": "connect-server", "original": "server", "english": "connect server", "translation": "подключить сервер" },
-    { "id": "frontend-client", "original": "client", "english": "frontend client", "translation": "клиент фронтенда" },
-    { "id": "build-backend", "original": "backend", "english": "build backend", "translation": "создавать бэкенд" },
-    { "id": "develop-frontend", "original": "frontend", "english": "develop frontend", "translation": "разрабатывать фронтенд" },
-    { "id": "use-api", "original": "api", "english": "use API", "translation": "использовать API" },
-    { "id": "send-request", "original": "request", "english": "send request", "translation": "отправить запрос" },
-    { "id": "get-response", "original": "response", "english": "get response", "translation": "получить ответ" },
-    { "id": "integration-test", "original": "integration", "english": "integration test", "translation": "тест интеграции" },
-    { "id": "deploy-application", "original": "deployment", "english": "deploy application", "translation": "развёртывать приложение" },
-    { "id": "setup-environment", "original": "environment", "english": "setup environment", "translation": "настроить окружение" },
-    { "id": "use-framework", "original": "framework", "english": "use framework", "translation": "использовать фреймворк" },
-    { "id": "import-library", "original": "library", "english": "import library", "translation": "подключить библиотеку" },
-    { "id": "check-dependency", "original": "dependency", "english": "check dependency", "translation": "проверить зависимость" },
-    { "id": "install-package", "original": "package", "english": "install package", "translation": "установить пакет" },
-    { "id": "update-version", "original": "version", "english": "update version", "translation": "обновить версию" },
-    { "id": "fix-bug", "original": "bug", "english": "fix bug", "translation": "исправить баг" },
-    { "id": "report-issue", "original": "issue", "english": "report issue", "translation": "сообщить о проблеме" },
-    { "id": "debug-code", "original": "debugging", "english": "debug code", "translation": "отлаживать код" },
-    { "id": "run-testing", "original": "testing", "english": "run testing", "translation": "запуск тестирования" },
-    { "id": "check-performance", "original": "performance", "english": "check performance", "translation": "проверить производительность" },
-    { "id": "optimize-code", "original": "optimization", "english": "optimize code", "translation": "оптимизировать код" },
-    { "id": "ensure-security", "original": "security", "english": "ensure security", "translation": "обеспечить безопасность" },
-    { "id": "grant-access", "original": "access", "english": "grant access", "translation": "дать доступ" },
-    { "id": "set-permission", "original": "permission", "english": "set permission", "translation": "установить разрешение" }
+    {
+      "original": "programming",
+      "english": "learn programming",
+      "translation": "изучать программирование"
+    },
+    {
+      "original": "developer",
+      "english": "good developer",
+      "translation": "хороший разработчик"
+    },
+    {
+      "original": "software",
+      "english": "use software",
+      "translation": "использовать программное обеспечение"
+    },
+    {
+      "original": "application",
+      "english": "open application",
+      "translation": "открыть приложение"
+    },
+    {
+      "original": "system",
+      "english": "system update",
+      "translation": "обновление системы"
+    },
+    {
+      "original": "code",
+      "english": "write code",
+      "translation": "писать код"
+    },
+    {
+      "original": "source-code",
+      "english": "check source code",
+      "translation": "проверить исходный код"
+    },
+    {
+      "original": "function",
+      "english": "define function",
+      "translation": "определить функцию"
+    },
+    {
+      "original": "method",
+      "english": "use method",
+      "translation": "использовать метод"
+    },
+    {
+      "original": "variable",
+      "english": "set variable",
+      "translation": "задать переменную"
+    },
+    {
+      "original": "logic",
+      "english": "follow logic",
+      "translation": "следовать логике"
+    },
+    {
+      "original": "algorithm",
+      "english": "create algorithm",
+      "translation": "создать алгоритм"
+    },
+    {
+      "original": "structure",
+      "english": "data structure",
+      "translation": "структура данных"
+    },
+    {
+      "original": "data",
+      "english": "store data",
+      "translation": "сохранять данные"
+    },
+    {
+      "original": "database",
+      "english": "use database",
+      "translation": "использовать базу данных"
+    },
+    {
+      "original": "server",
+      "english": "connect server",
+      "translation": "подключить сервер"
+    },
+    {
+      "original": "client",
+      "english": "frontend client",
+      "translation": "клиент фронтенда"
+    },
+    {
+      "original": "backend",
+      "english": "build backend",
+      "translation": "создавать бэкенд"
+    },
+    {
+      "original": "frontend",
+      "english": "develop frontend",
+      "translation": "разрабатывать фронтенд"
+    },
+    {
+      "original": "api",
+      "english": "use API",
+      "translation": "использовать API"
+    },
+    {
+      "original": "request",
+      "english": "send request",
+      "translation": "отправить запрос"
+    },
+    {
+      "original": "response",
+      "english": "get response",
+      "translation": "получить ответ"
+    },
+    {
+      "original": "integration",
+      "english": "integration test",
+      "translation": "тест интеграции"
+    },
+    {
+      "original": "deployment",
+      "english": "deploy application",
+      "translation": "развёртывать приложение"
+    },
+    {
+      "original": "environment",
+      "english": "setup environment",
+      "translation": "настроить окружение"
+    },
+    {
+      "original": "framework",
+      "english": "use framework",
+      "translation": "использовать фреймворк"
+    },
+    {
+      "original": "library",
+      "english": "import library",
+      "translation": "подключить библиотеку"
+    },
+    {
+      "original": "dependency",
+      "english": "check dependency",
+      "translation": "проверить зависимость"
+    },
+    {
+      "original": "package",
+      "english": "install package",
+      "translation": "установить пакет"
+    },
+    {
+      "original": "version",
+      "english": "update version",
+      "translation": "обновить версию"
+    },
+    {
+      "original": "bug",
+      "english": "fix bug",
+      "translation": "исправить баг"
+    },
+    {
+      "original": "issue",
+      "english": "report issue",
+      "translation": "сообщить о проблеме"
+    },
+    {
+      "original": "debugging",
+      "english": "debug code",
+      "translation": "отлаживать код"
+    },
+    {
+      "original": "testing",
+      "english": "run testing",
+      "translation": "запуск тестирования"
+    },
+    {
+      "original": "performance",
+      "english": "check performance",
+      "translation": "проверить производительность"
+    },
+    {
+      "original": "optimization",
+      "english": "optimize code",
+      "translation": "оптимизировать код"
+    },
+    {
+      "original": "security",
+      "english": "ensure security",
+      "translation": "обеспечить безопасность"
+    },
+    {
+      "original": "access",
+      "english": "grant access",
+      "translation": "дать доступ"
+    },
+    {
+      "original": "permission",
+      "english": "set permission",
+      "translation": "установить разрешение"
+    }
   ]
 }

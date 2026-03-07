@@ -3,40 +3,180 @@
   "level": "Advanced",
   "name": "Phrases",
   "items": [
-    { "id": "subtle-irony", "original": "irony", "english": "subtle irony", "translation": "тонкая ирония" },
-    { "id": "sharp-sarcasm", "original": "sarcasm", "english": "sharp sarcasm", "translation": "резкий сарказм" },
-    { "id": "open-mockery", "original": "mockery", "english": "open mockery", "translation": "открытая насмешка" },
-    { "id": "public-ridicule", "original": "ridicule", "english": "public ridicule", "translation": "публичное высмеивание" },
-    { "id": "political-satire", "original": "satire", "english": "political satire", "translation": "политическая сатира" },
-    { "id": "dark-humor", "original": "humor", "english": "dark humor", "translation": "чёрный юмор" },
-    { "id": "quick-wit", "original": "wit", "english": "quick wit", "translation": "быстрое остроумие" },
-    { "id": "dry-humor-style", "original": "dry-humor", "english": "dry humor", "translation": "сухой юмор" },
-    { "id": "dark-humor-style", "original": "dark-humor", "english": "dark humor", "translation": "чёрный юмор" },
-    { "id": "deadpan-delivery", "original": "deadpan", "english": "deadpan delivery", "translation": "невозмутимая подача" },
-    { "id": "sarcastic-tone", "original": "tone", "english": "sarcastic tone", "translation": "саркастический тон" },
-    { "id": "clear-context", "original": "context", "english": "clear context", "translation": "ясный контекст" },
-    { "id": "comic-delivery", "original": "delivery", "english": "comic delivery", "translation": "комическая подача" },
-    { "id": "slight-exaggeration", "original": "exaggeration", "english": "slight exaggeration", "translation": "небольшое преувеличение" },
-    { "id": "mild-understatement", "original": "understatement", "english": "mild understatement", "translation": "лёгкое преуменьшение" },
-    { "id": "hidden-double-meaning", "original": "double-meaning", "english": "double meaning", "translation": "двойной смысл" },
-    { "id": "fine-subtlety", "original": "subtlety", "english": "fine subtlety", "translation": "тонкая деликатность" },
-    { "id": "intentional-ambiguity", "original": "ambiguity", "english": "intentional ambiguity", "translation": "намеренная двусмысленность" },
-    { "id": "hidden-implication", "original": "implication", "english": "hidden implication", "translation": "скрытый подтекст" },
-    { "id": "subtle-innuendo", "original": "innuendo", "english": "subtle innuendo", "translation": "тонкий намёк" },
-    { "id": "open-cynicism", "original": "cynicism", "english": "open cynicism", "translation": "открытый цинизм" },
-    { "id": "healthy-skepticism", "original": "skepticism", "english": "healthy skepticism", "translation": "здоровый скептицизм" },
-    { "id": "emotional-detachment", "original": "detachment", "english": "emotional detachment", "translation": "эмоциональная отстранённость" },
-    { "id": "deep-contempt", "original": "contempt", "english": "deep contempt", "translation": "глубокое презрение" },
-    { "id": "cold-dismissiveness", "original": "dismissiveness", "english": "cold dismissiveness", "translation": "холодная пренебрежительность" },
-    { "id": "light-playfulness", "original": "playfulness", "english": "light playfulness", "translation": "лёгкая игривость" },
-    { "id": "friendly-teasing", "original": "teasing", "english": "friendly teasing", "translation": "дружеское поддразнивание" },
-    { "id": "witty-banter", "original": "banter", "english": "witty banter", "translation": "остроумная перепалка" },
-    { "id": "gentle-self-irony", "original": "self-irony", "english": "gentle self-irony", "translation": "лёгкая самоирония" },
-    { "id": "open-self-deprecation", "original": "self-deprecation", "english": "self-deprecation", "translation": "самоироничное принижение" },
-    { "id": "bold-overstatement", "original": "overstatement", "english": "bold overstatement", "translation": "смелое преувеличение" },
-    { "id": "sharp-contrast", "original": "contrast", "english": "sharp contrast", "translation": "резкий контраст" },
-    { "id": "pure-absurdity", "original": "absurdity", "english": "pure absurdity", "translation": "чистая абсурдность" },
-    { "id": "comic-parody", "original": "parody", "english": "comic parody", "translation": "комическая пародия" },
-    { "id": "political-caricature", "original": "caricature", "english": "political caricature", "translation": "политическая карикатура" }
+    {
+      "original": "irony",
+      "english": "subtle irony",
+      "translation": "тонкая ирония"
+    },
+    {
+      "original": "sarcasm",
+      "english": "sharp sarcasm",
+      "translation": "резкий сарказм"
+    },
+    {
+      "original": "mockery",
+      "english": "open mockery",
+      "translation": "открытая насмешка"
+    },
+    {
+      "original": "ridicule",
+      "english": "public ridicule",
+      "translation": "публичное высмеивание"
+    },
+    {
+      "original": "satire",
+      "english": "political satire",
+      "translation": "политическая сатира"
+    },
+    {
+      "original": "humor",
+      "english": "dark humor",
+      "translation": "чёрный юмор"
+    },
+    {
+      "original": "wit",
+      "english": "quick wit",
+      "translation": "быстрое остроумие"
+    },
+    {
+      "original": "dry-humor",
+      "english": "dry humor",
+      "translation": "сухой юмор"
+    },
+    {
+      "original": "dark-humor",
+      "english": "dark humor",
+      "translation": "чёрный юмор"
+    },
+    {
+      "original": "deadpan",
+      "english": "deadpan delivery",
+      "translation": "невозмутимая подача"
+    },
+    {
+      "original": "tone",
+      "english": "sarcastic tone",
+      "translation": "саркастический тон"
+    },
+    {
+      "original": "context",
+      "english": "clear context",
+      "translation": "ясный контекст"
+    },
+    {
+      "original": "delivery",
+      "english": "comic delivery",
+      "translation": "комическая подача"
+    },
+    {
+      "original": "exaggeration",
+      "english": "slight exaggeration",
+      "translation": "небольшое преувеличение"
+    },
+    {
+      "original": "understatement",
+      "english": "mild understatement",
+      "translation": "лёгкое преуменьшение"
+    },
+    {
+      "original": "double-meaning",
+      "english": "double meaning",
+      "translation": "двойной смысл"
+    },
+    {
+      "original": "subtlety",
+      "english": "fine subtlety",
+      "translation": "тонкая деликатность"
+    },
+    {
+      "original": "ambiguity",
+      "english": "intentional ambiguity",
+      "translation": "намеренная двусмысленность"
+    },
+    {
+      "original": "implication",
+      "english": "hidden implication",
+      "translation": "скрытый подтекст"
+    },
+    {
+      "original": "innuendo",
+      "english": "subtle innuendo",
+      "translation": "тонкий намёк"
+    },
+    {
+      "original": "cynicism",
+      "english": "open cynicism",
+      "translation": "открытый цинизм"
+    },
+    {
+      "original": "skepticism",
+      "english": "healthy skepticism",
+      "translation": "здоровый скептицизм"
+    },
+    {
+      "original": "detachment",
+      "english": "emotional detachment",
+      "translation": "эмоциональная отстранённость"
+    },
+    {
+      "original": "contempt",
+      "english": "deep contempt",
+      "translation": "глубокое презрение"
+    },
+    {
+      "original": "dismissiveness",
+      "english": "cold dismissiveness",
+      "translation": "холодная пренебрежительность"
+    },
+    {
+      "original": "playfulness",
+      "english": "light playfulness",
+      "translation": "лёгкая игривость"
+    },
+    {
+      "original": "teasing",
+      "english": "friendly teasing",
+      "translation": "дружеское поддразнивание"
+    },
+    {
+      "original": "banter",
+      "english": "witty banter",
+      "translation": "остроумная перепалка"
+    },
+    {
+      "original": "self-irony",
+      "english": "gentle self-irony",
+      "translation": "лёгкая самоирония"
+    },
+    {
+      "original": "self-deprecation",
+      "english": "self-deprecation",
+      "translation": "самоироничное принижение"
+    },
+    {
+      "original": "overstatement",
+      "english": "bold overstatement",
+      "translation": "смелое преувеличение"
+    },
+    {
+      "original": "contrast",
+      "english": "sharp contrast",
+      "translation": "резкий контраст"
+    },
+    {
+      "original": "absurdity",
+      "english": "pure absurdity",
+      "translation": "чистая абсурдность"
+    },
+    {
+      "original": "parody",
+      "english": "comic parody",
+      "translation": "комическая пародия"
+    },
+    {
+      "original": "caricature",
+      "english": "political caricature",
+      "translation": "политическая карикатура"
+    }
   ]
 }

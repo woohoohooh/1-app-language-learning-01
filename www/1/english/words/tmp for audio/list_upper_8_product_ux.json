@@ -3,50 +3,230 @@
   "level": "Upper-Intermediate",
   "name": "Phrases",
   "items": [
-    { "id": "build-product", "original": "product", "english": "build product", "translation": "создавать продукт" },
-    { "id": "add-feature", "original": "feature", "english": "add feature", "translation": "добавить функцию" },
-    { "id": "improve-functionality", "original": "functionality", "english": "improve functionality", "translation": "улучшить функциональность" },
-    { "id": "plan-roadmap", "original": "roadmap", "english": "plan roadmap", "translation": "планировать дорожную карту" },
-    { "id": "define-vision", "original": "vision", "english": "define vision", "translation": "определить видение" },
-    { "id": "set-strategy", "original": "strategy", "english": "set strategy", "translation": "задать стратегию" },
-    { "id": "set-goal", "original": "goal", "english": "set goal", "translation": "поставить цель" },
-    { "id": "set-priority", "original": "priority", "english": "set priority", "translation": "задать приоритет" },
-    { "id": "define-scope", "original": "scope", "english": "define scope", "translation": "определить объём работ" },
-    { "id": "write-requirement", "original": "requirement", "english": "write requirement", "translation": "описать требование" },
-    { "id": "target-user", "original": "user", "english": "target user", "translation": "целевой пользователь" },
-    { "id": "paying-customer", "original": "customer", "english": "paying customer", "translation": "платящий клиент" },
-    { "id": "improve-user-experience", "original": "user experience", "english": "improve user experience", "translation": "улучшить пользовательский опыт" },
-    { "id": "design-user-interface", "original": "user interface", "english": "design user interface", "translation": "разработать интерфейс" },
-    { "id": "test-usability", "original": "usability", "english": "test usability", "translation": "тестировать удобство" },
-    { "id": "modern-design", "original": "design", "english": "modern design", "translation": "современный дизайн" },
-    { "id": "clean-layout", "original": "layout", "english": "clean layout", "translation": "чистый макет" },
-    { "id": "build-prototype", "original": "prototype", "english": "build prototype", "translation": "создать прототип" },
-    { "id": "draw-wireframe", "original": "wireframe", "english": "draw wireframe", "translation": "сделать вайрфрейм" },
-    { "id": "create-mockup", "original": "mockup", "english": "create mockup", "translation": "создать макет" },
-    { "id": "collect-feedback", "original": "feedback", "english": "collect feedback", "translation": "собирать обратную связь" },
-    { "id": "next-iteration", "original": "iteration", "english": "next iteration", "translation": "следующая итерация" },
-    { "id": "continuous-improvement", "original": "improvement", "english": "continuous improvement", "translation": "постоянное улучшение" },
-    { "id": "release-update", "original": "update", "english": "release update", "translation": "выпустить обновление" },
-    { "id": "track-metric", "original": "metric", "english": "track metric", "translation": "отслеживать метрику" },
-    { "id": "analyze-analytics", "original": "analytics", "english": "analyze analytics", "translation": "анализировать аналитику" },
-    { "id": "increase-conversion", "original": "conversion", "english": "increase conversion", "translation": "увеличить конверсию" },
-    { "id": "boost-retention", "original": "retention", "english": "boost retention", "translation": "повысить удержание" },
-    { "id": "grow-engagement", "original": "engagement", "english": "grow engagement", "translation": "увеличить вовлечённость" },
-    { "id": "test-hypothesis", "original": "hypothesis", "english": "test hypothesis", "translation": "проверить гипотезу" },
-    { "id": "run-experiment", "original": "experiment", "english": "run experiment", "translation": "провести эксперимент" },
-    { "id": "do-ab-testing", "original": "A/B testing", "english": "do A/B testing", "translation": "делать A/B тестирование" },
-    { "id": "perform-validation", "original": "validation", "english": "perform validation", "translation": "провести проверку" },
-    { "id": "make-assumption", "original": "assumption", "english": "make assumption", "translation": "сделать предположение" },
-    { "id": "manage-backlog", "original": "backlog", "english": "manage backlog", "translation": "управлять бэклогом" },
-    { "id": "assign-task", "original": "task", "english": "assign task", "translation": "назначить задачу" },
-    { "id": "open-ticket", "original": "ticket", "english": "open ticket", "translation": "открыть тикет" },
-    { "id": "give-estimate", "original": "estimate", "english": "give estimate", "translation": "дать оценку" },
-    { "id": "meet-deadline", "original": "deadline", "english": "meet deadline", "translation": "уложиться в дедлайн" },
-    { "id": "talk-stakeholder", "original": "stakeholder", "english": "talk stakeholder", "translation": "общаться со стейкхолдером" },
-    { "id": "team-alignment", "original": "alignment", "english": "team alignment", "translation": "согласованность команды" },
-    { "id": "make-decision", "original": "decision", "english": "make decision", "translation": "принять решение" },
-    { "id": "accept-trade-off", "original": "trade-off", "english": "accept trade-off", "translation": "принять компромисс" },
-    { "id": "deliver-outcome", "original": "outcome", "english": "deliver outcome", "translation": "дать результат" },
-    { "id": "code-review", "original": "review", "english": "code review", "translation": "код-ревью" }
+    {
+      "original": "product",
+      "english": "build product",
+      "translation": "создавать продукт"
+    },
+    {
+      "original": "feature",
+      "english": "add feature",
+      "translation": "добавить функцию"
+    },
+    {
+      "original": "functionality",
+      "english": "improve functionality",
+      "translation": "улучшить функциональность"
+    },
+    {
+      "original": "roadmap",
+      "english": "plan roadmap",
+      "translation": "планировать дорожную карту"
+    },
+    {
+      "original": "vision",
+      "english": "define vision",
+      "translation": "определить видение"
+    },
+    {
+      "original": "strategy",
+      "english": "set strategy",
+      "translation": "задать стратегию"
+    },
+    {
+      "original": "goal",
+      "english": "set goal",
+      "translation": "поставить цель"
+    },
+    {
+      "original": "priority",
+      "english": "set priority",
+      "translation": "задать приоритет"
+    },
+    {
+      "original": "scope",
+      "english": "define scope",
+      "translation": "определить объём работ"
+    },
+    {
+      "original": "requirement",
+      "english": "write requirement",
+      "translation": "описать требование"
+    },
+    {
+      "original": "user",
+      "english": "target user",
+      "translation": "целевой пользователь"
+    },
+    {
+      "original": "customer",
+      "english": "paying customer",
+      "translation": "платящий клиент"
+    },
+    {
+      "original": "user experience",
+      "english": "improve user experience",
+      "translation": "улучшить пользовательский опыт"
+    },
+    {
+      "original": "user interface",
+      "english": "design user interface",
+      "translation": "разработать интерфейс"
+    },
+    {
+      "original": "usability",
+      "english": "test usability",
+      "translation": "тестировать удобство"
+    },
+    {
+      "original": "design",
+      "english": "modern design",
+      "translation": "современный дизайн"
+    },
+    {
+      "original": "layout",
+      "english": "clean layout",
+      "translation": "чистый макет"
+    },
+    {
+      "original": "prototype",
+      "english": "build prototype",
+      "translation": "создать прототип"
+    },
+    {
+      "original": "wireframe",
+      "english": "draw wireframe",
+      "translation": "сделать вайрфрейм"
+    },
+    {
+      "original": "mockup",
+      "english": "create mockup",
+      "translation": "создать макет"
+    },
+    {
+      "original": "feedback",
+      "english": "collect feedback",
+      "translation": "собирать обратную связь"
+    },
+    {
+      "original": "iteration",
+      "english": "next iteration",
+      "translation": "следующая итерация"
+    },
+    {
+      "original": "improvement",
+      "english": "continuous improvement",
+      "translation": "постоянное улучшение"
+    },
+    {
+      "original": "update",
+      "english": "release update",
+      "translation": "выпустить обновление"
+    },
+    {
+      "original": "metric",
+      "english": "track metric",
+      "translation": "отслеживать метрику"
+    },
+    {
+      "original": "analytics",
+      "english": "analyze analytics",
+      "translation": "анализировать аналитику"
+    },
+    {
+      "original": "conversion",
+      "english": "increase conversion",
+      "translation": "увеличить конверсию"
+    },
+    {
+      "original": "retention",
+      "english": "boost retention",
+      "translation": "повысить удержание"
+    },
+    {
+      "original": "engagement",
+      "english": "grow engagement",
+      "translation": "увеличить вовлечённость"
+    },
+    {
+      "original": "hypothesis",
+      "english": "test hypothesis",
+      "translation": "проверить гипотезу"
+    },
+    {
+      "original": "experiment",
+      "english": "run experiment",
+      "translation": "провести эксперимент"
+    },
+    {
+      "original": "A/B testing",
+      "english": "do A/B testing",
+      "translation": "делать A/B тестирование"
+    },
+    {
+      "original": "validation",
+      "english": "perform validation",
+      "translation": "провести проверку"
+    },
+    {
+      "original": "assumption",
+      "english": "make assumption",
+      "translation": "сделать предположение"
+    },
+    {
+      "original": "backlog",
+      "english": "manage backlog",
+      "translation": "управлять бэклогом"
+    },
+    {
+      "original": "task",
+      "english": "assign task",
+      "translation": "назначить задачу"
+    },
+    {
+      "original": "ticket",
+      "english": "open ticket",
+      "translation": "открыть тикет"
+    },
+    {
+      "original": "estimate",
+      "english": "give estimate",
+      "translation": "дать оценку"
+    },
+    {
+      "original": "deadline",
+      "english": "meet deadline",
+      "translation": "уложиться в дедлайн"
+    },
+    {
+      "original": "stakeholder",
+      "english": "talk stakeholder",
+      "translation": "общаться со стейкхолдером"
+    },
+    {
+      "original": "alignment",
+      "english": "team alignment",
+      "translation": "согласованность команды"
+    },
+    {
+      "original": "decision",
+      "english": "make decision",
+      "translation": "принять решение"
+    },
+    {
+      "original": "trade-off",
+      "english": "accept trade-off",
+      "translation": "принять компромисс"
+    },
+    {
+      "original": "outcome",
+      "english": "deliver outcome",
+      "translation": "дать результат"
+    },
+    {
+      "original": "review",
+      "english": "code review",
+      "translation": "код-ревью"
+    }
   ]
 }

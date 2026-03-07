@@ -3,165 +3,45 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "corporate culture",
-      "translation": "корпоративная культура"
-    },
-    {
-      "english": "company culture",
-      "translation": "культура компании"
-    },
-    {
-      "english": "workplace",
-      "translation": "рабочая среда"
-    },
-    {
-      "english": "environment",
-      "translation": "среда"
-    },
-    {
-      "english": "organization",
-      "translation": "организация"
-    },
-    {
-      "english": "values",
-      "translation": "ценности"
-    },
-    {
-      "english": "principles",
-      "translation": "принципы"
-    },
-    {
-      "english": "mission",
-      "translation": "миссия"
-    },
-    {
-      "english": "vision",
-      "translation": "видение"
-    },
-    {
-      "english": "ethics",
-      "translation": "этика"
-    },
-    {
-      "english": "standards",
-      "translation": "стандарты"
-    },
-    {
-      "english": "policies",
-      "translation": "правила"
-    },
-    {
-      "english": "guidelines",
-      "translation": "рекомендации"
-    },
-    {
-      "english": "compliance",
-      "translation": "соблюдение правил"
-    },
-    {
-      "english": "code of conduct",
-      "translation": "кодекс поведения"
-    },
-    {
-      "english": "hierarchy",
-      "translation": "иерархия"
-    },
-    {
-      "english": "structure",
-      "translation": "структура"
-    },
-    {
-      "english": "management",
-      "translation": "управление"
-    },
-    {
-      "english": "leadership",
-      "translation": "руководство"
-    },
-    {
-      "english": "decision-making",
-      "translation": "принятие решений"
-    },
-    {
-      "english": "collaboration",
-      "translation": "сотрудничество"
-    },
-    {
-      "english": "teamwork",
-      "translation": "командная работа"
-    },
-    {
-      "english": "ownership",
-      "translation": "ответственность"
-    },
-    {
-      "english": "accountability",
-      "translation": "подотчётность"
-    },
-    {
-      "english": "initiative",
-      "translation": "инициатива"
-    },
-    {
-      "english": "work-life balance",
-      "translation": "баланс работы и жизни"
-    },
-    {
-      "english": "flexibility",
-      "translation": "гибкость"
-    },
-    {
-      "english": "remote work",
-      "translation": "удалённая работа"
-    },
-    {
-      "english": "hybrid work",
-      "translation": "гибридная работа"
-    },
-    {
-      "english": "schedule",
-      "translation": "график"
-    },
-    {
-      "english": "onboarding",
-      "translation": "введение в компанию"
-    },
-    {
-      "english": "adaptation",
-      "translation": "адаптация"
-    },
-    {
-      "english": "career growth",
-      "translation": "карьерный рост"
-    },
-    {
-      "english": "performance",
-      "translation": "эффективность"
-    },
-    {
-      "english": "evaluation",
-      "translation": "оценка"
-    },
-    {
-      "english": "diversity",
-      "translation": "разнообразие"
-    },
-    {
-      "english": "inclusion",
-      "translation": "инклюзивность"
-    },
-    {
-      "english": "respect",
-      "translation": "уважение"
-    },
-    {
-      "english": "trust",
-      "translation": "доверие"
-    },
-    {
-      "english": "transparency",
-      "translation": "прозрачность"
-    }
+    { "original": "corporate culture", "english": "Corporate culture shapes daily decisions.", "translation": "Корпоративная культура формирует ежедневные решения." },
+    { "original": "company culture", "english": "Company culture influences team behavior.", "translation": "Культура компании влияет на поведение команды." },
+    { "original": "workplace", "english": "The workplace encourages open communication.", "translation": "Рабочая среда поощряет открытую коммуникацию." },
+    { "original": "environment", "english": "A supportive environment improves motivation.", "translation": "Поддерживающая среда повышает мотивацию." },
+    { "original": "organization", "english": "The organization values transparent leadership.", "translation": "Организация ценит прозрачное руководство." },
+    { "original": "values", "english": "Shared values guide daily decisions.", "translation": "Общие ценности направляют ежедневные решения." },
+    { "original": "principles", "english": "Clear principles build organizational trust.", "translation": "Чёткие принципы формируют доверие в организации." },
+    { "original": "mission", "english": "The mission unites the team.", "translation": "Миссия объединяет команду." },
+    { "original": "vision", "english": "A strong vision inspires employees.", "translation": "Сильное видение вдохновляет сотрудников." },
+    { "original": "ethics", "english": "Ethics guide responsible decisions.", "translation": "Этика направляет ответственные решения." },
+    { "original": "standards", "english": "High standards drive professional behavior.", "translation": "Высокие стандарты формируют профессиональное поведение." },
+    { "original": "policies", "english": "Policies clarify workplace expectations.", "translation": "Правила проясняют ожидания на работе." },
+    { "original": "guidelines", "english": "Guidelines support consistent decisions.", "translation": "Рекомендации поддерживают последовательные решения." },
+    { "original": "compliance", "english": "Compliance protects organizational integrity.", "translation": "Соблюдение правил защищает целостность организации." },
+    { "original": "code of conduct", "english": "The code of conduct defines behavior.", "translation": "Кодекс поведения определяет нормы поведения." },
+    { "original": "hierarchy", "english": "Hierarchy defines reporting relationships.", "translation": "Иерархия определяет подчинённость." },
+    { "original": "structure", "english": "Organizational structure clarifies responsibilities.", "translation": "Структура организации проясняет обязанности." },
+    { "original": "management", "english": "Management encourages strategic thinking.", "translation": "Руководство поощряет стратегическое мышление." },
+    { "original": "leadership", "english": "Leadership shapes corporate culture.", "translation": "Лидерство формирует корпоративную культуру." },
+    { "original": "decision-making", "english": "Decision-making requires balanced judgment.", "translation": "Принятие решений требует взвешенного суждения." },
+    { "original": "collaboration", "english": "Collaboration improves team performance.", "translation": "Сотрудничество улучшает результаты команды." },
+    { "original": "teamwork", "english": "Teamwork strengthens organizational success.", "translation": "Командная работа укрепляет успех организации." },
+    { "original": "ownership", "english": "Ownership encourages proactive behavior.", "translation": "Ответственность поощряет проактивное поведение." },
+    { "original": "accountability", "english": "Accountability builds professional credibility.", "translation": "Подотчётность формирует профессиональное доверие." },
+    { "original": "initiative", "english": "Initiative accelerates organizational progress.", "translation": "Инициатива ускоряет развитие организации." },
+    { "original": "work-life balance", "english": "Work-life balance improves employee wellbeing.", "translation": "Баланс работы и жизни улучшает благополучие сотрудников." },
+    { "original": "flexibility", "english": "Flexibility supports modern workplaces.", "translation": "Гибкость поддерживает современные рабочие среды." },
+    { "original": "remote work", "english": "Remote work expands hiring opportunities.", "translation": "Удалённая работа расширяет возможности найма." },
+    { "original": "hybrid work", "english": "Hybrid work combines flexibility and collaboration.", "translation": "Гибридная работа сочетает гибкость и сотрудничество." },
+    { "original": "schedule", "english": "A clear schedule improves productivity.", "translation": "Чёткий график повышает продуктивность." },
+    { "original": "onboarding", "english": "Effective onboarding supports new employees.", "translation": "Эффективное введение в компанию поддерживает новых сотрудников." },
+    { "original": "adaptation", "english": "Adaptation helps employees integrate faster.", "translation": "Адаптация помогает сотрудникам быстрее интегрироваться." },
+    { "original": "career growth", "english": "Career growth motivates talented employees.", "translation": "Карьерный рост мотивирует талантливых сотрудников." },
+    { "original": "performance", "english": "Performance reflects consistent effort.", "translation": "Эффективность отражает постоянные усилия." },
+    { "original": "evaluation", "english": "Evaluation measures professional progress.", "translation": "Оценка измеряет профессиональный прогресс." },
+    { "original": "diversity", "english": "Diversity strengthens organizational creativity.", "translation": "Разнообразие усиливает креативность организации." },
+    { "original": "inclusion", "english": "Inclusion creates a respectful environment.", "translation": "Инклюзивность создаёт уважительную среду." },
+    { "original": "respect", "english": "Respect builds strong professional relationships.", "translation": "Уважение формирует сильные профессиональные отношения." },
+    { "original": "trust", "english": "Trust strengthens team collaboration.", "translation": "Доверие укрепляет сотрудничество команды." },
+    { "original": "transparency", "english": "Transparency increases organizational credibility.", "translation": "Прозрачность повышает доверие к организации." }
   ]
 }

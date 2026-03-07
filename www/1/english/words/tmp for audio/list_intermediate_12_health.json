@@ -3,45 +3,205 @@
   "level": "Intermediate",
   "name": "Phrases",
   "items": [
-    { "id": "good-healthcare", "original": "healthcare", "english": "good healthcare", "translation": "хорошее здравоохранение" },
-    { "id": "medical-care", "original": "medical", "english": "medical care", "translation": "медицинская помощь" },
-    { "id": "health-condition", "original": "condition", "english": "health condition", "translation": "состояние здоровья" },
-    { "id": "have-symptom", "original": "symptom", "english": "have symptom", "translation": "иметь симптом" },
-    { "id": "make-diagnosis", "original": "diagnosis", "english": "make diagnosis", "translation": "поставить диагноз" },
-    { "id": "get-treatment", "original": "treatment", "english": "get treatment", "translation": "получить лечение" },
-    { "id": "physical-therapy", "original": "therapy", "english": "physical therapy", "translation": "физиотерапия" },
-    { "id": "fast-recovery", "original": "recovery", "english": "fast recovery", "translation": "быстрое восстановление" },
-    { "id": "disease-prevention", "original": "prevention", "english": "disease prevention", "translation": "профилактика заболеваний" },
-    { "id": "annual-checkup", "original": "checkup", "english": "annual checkup", "translation": "ежегодный осмотр" },
-    { "id": "doctor-appointment", "original": "appointment", "english": "doctor appointment", "translation": "прием у врача" },
-    { "id": "medical-consultation", "original": "consultation", "english": "medical consultation", "translation": "медицинская консультация" },
-    { "id": "see-specialist", "original": "specialist", "english": "see specialist", "translation": "посетить специалиста" },
-    { "id": "get-prescription", "original": "prescription", "english": "get prescription", "translation": "получить рецепт" },
-    { "id": "doctor-referral", "original": "referral", "english": "doctor referral", "translation": "направление от врача" },
-    { "id": "take-medicine", "original": "medicine", "english": "take medicine", "translation": "принимать лекарство" },
-    { "id": "daily-medication", "original": "medication", "english": "daily medication", "translation": "ежедневные медикаменты" },
-    { "id": "correct-dosage", "original": "dosage", "english": "correct dosage", "translation": "правильная дозировка" },
-    { "id": "side-effect-risk", "original": "side effect", "english": "side effect risk", "translation": "риск побочного эффекта" },
-    { "id": "food-allergy", "original": "allergy", "english": "food allergy", "translation": "пищевая аллергия" },
-    { "id": "viral-infection", "original": "infection", "english": "viral infection", "translation": "вирусная инфекция" },
-    { "id": "skin-inflammation", "original": "inflammation", "english": "skin inflammation", "translation": "воспаление кожи" },
-    { "id": "chronic-disease", "original": "chronic", "english": "chronic disease", "translation": "хроническое заболевание" },
-    { "id": "acute-pain", "original": "acute", "english": "acute pain", "translation": "острая боль" },
-    { "id": "sports-injury", "original": "injury", "english": "sports injury", "translation": "спортивная травма" },
-    { "id": "medical-emergency", "original": "emergency", "english": "medical emergency", "translation": "медицинская экстренная ситуация" },
-    { "id": "call-ambulance", "original": "ambulance", "english": "call ambulance", "translation": "вызвать скорую" },
-    { "id": "need-hospitalization", "original": "hospitalization", "english": "need hospitalization", "translation": "нужна госпитализация" },
-    { "id": "heart-surgery", "original": "surgery", "english": "heart surgery", "translation": "операция на сердце" },
-    { "id": "medical-procedure", "original": "procedure", "english": "medical procedure", "translation": "медицинская процедура" },
-    { "id": "health-insurance", "original": "insurance", "english": "health insurance", "translation": "медицинская страховка" },
-    { "id": "full-coverage", "original": "coverage", "english": "full coverage", "translation": "полное страховое покрытие" },
-    { "id": "insurance-claim", "original": "claim", "english": "insurance claim", "translation": "страховое заявление" },
-    { "id": "insurance-policy", "original": "policy", "english": "insurance policy", "translation": "страховой полис" },
-    { "id": "service-provider", "original": "provider", "english": "service provider", "translation": "поставщик услуг" },
-    { "id": "mental-health-care", "original": "mental health", "english": "mental health care", "translation": "психическое здоровье" },
-    { "id": "reduce-stress", "original": "stress", "english": "reduce stress", "translation": "снизить стресс" },
-    { "id": "high-anxiety", "original": "anxiety", "english": "high anxiety", "translation": "сильная тревожность" },
-    { "id": "chronic-fatigue", "original": "fatigue", "english": "chronic fatigue", "translation": "хроническая усталость" },
-    { "id": "personal-well-being", "original": "well-being", "english": "personal well-being", "translation": "личное благополучие" }
+    {
+      "original": "healthcare",
+      "english": "good healthcare",
+      "translation": "хорошее здравоохранение"
+    },
+    {
+      "original": "medical",
+      "english": "medical care",
+      "translation": "медицинская помощь"
+    },
+    {
+      "original": "condition",
+      "english": "health condition",
+      "translation": "состояние здоровья"
+    },
+    {
+      "original": "symptom",
+      "english": "have symptom",
+      "translation": "иметь симптом"
+    },
+    {
+      "original": "diagnosis",
+      "english": "make diagnosis",
+      "translation": "поставить диагноз"
+    },
+    {
+      "original": "treatment",
+      "english": "get treatment",
+      "translation": "получить лечение"
+    },
+    {
+      "original": "therapy",
+      "english": "physical therapy",
+      "translation": "физиотерапия"
+    },
+    {
+      "original": "recovery",
+      "english": "fast recovery",
+      "translation": "быстрое восстановление"
+    },
+    {
+      "original": "prevention",
+      "english": "disease prevention",
+      "translation": "профилактика заболеваний"
+    },
+    {
+      "original": "checkup",
+      "english": "annual checkup",
+      "translation": "ежегодный осмотр"
+    },
+    {
+      "original": "appointment",
+      "english": "doctor appointment",
+      "translation": "прием у врача"
+    },
+    {
+      "original": "consultation",
+      "english": "medical consultation",
+      "translation": "медицинская консультация"
+    },
+    {
+      "original": "specialist",
+      "english": "see specialist",
+      "translation": "посетить специалиста"
+    },
+    {
+      "original": "prescription",
+      "english": "get prescription",
+      "translation": "получить рецепт"
+    },
+    {
+      "original": "referral",
+      "english": "doctor referral",
+      "translation": "направление от врача"
+    },
+    {
+      "original": "medicine",
+      "english": "take medicine",
+      "translation": "принимать лекарство"
+    },
+    {
+      "original": "medication",
+      "english": "daily medication",
+      "translation": "ежедневные медикаменты"
+    },
+    {
+      "original": "dosage",
+      "english": "correct dosage",
+      "translation": "правильная дозировка"
+    },
+    {
+      "original": "side effect",
+      "english": "side effect risk",
+      "translation": "риск побочного эффекта"
+    },
+    {
+      "original": "allergy",
+      "english": "food allergy",
+      "translation": "пищевая аллергия"
+    },
+    {
+      "original": "infection",
+      "english": "viral infection",
+      "translation": "вирусная инфекция"
+    },
+    {
+      "original": "inflammation",
+      "english": "skin inflammation",
+      "translation": "воспаление кожи"
+    },
+    {
+      "original": "chronic",
+      "english": "chronic disease",
+      "translation": "хроническое заболевание"
+    },
+    {
+      "original": "acute",
+      "english": "acute pain",
+      "translation": "острая боль"
+    },
+    {
+      "original": "injury",
+      "english": "sports injury",
+      "translation": "спортивная травма"
+    },
+    {
+      "original": "emergency",
+      "english": "medical emergency",
+      "translation": "медицинская экстренная ситуация"
+    },
+    {
+      "original": "ambulance",
+      "english": "call ambulance",
+      "translation": "вызвать скорую"
+    },
+    {
+      "original": "hospitalization",
+      "english": "need hospitalization",
+      "translation": "нужна госпитализация"
+    },
+    {
+      "original": "surgery",
+      "english": "heart surgery",
+      "translation": "операция на сердце"
+    },
+    {
+      "original": "procedure",
+      "english": "medical procedure",
+      "translation": "медицинская процедура"
+    },
+    {
+      "original": "insurance",
+      "english": "health insurance",
+      "translation": "медицинская страховка"
+    },
+    {
+      "original": "coverage",
+      "english": "full coverage",
+      "translation": "полное страховое покрытие"
+    },
+    {
+      "original": "claim",
+      "english": "insurance claim",
+      "translation": "страховое заявление"
+    },
+    {
+      "original": "policy",
+      "english": "insurance policy",
+      "translation": "страховой полис"
+    },
+    {
+      "original": "provider",
+      "english": "service provider",
+      "translation": "поставщик услуг"
+    },
+    {
+      "original": "mental health",
+      "english": "mental health care",
+      "translation": "психическое здоровье"
+    },
+    {
+      "original": "stress",
+      "english": "reduce stress",
+      "translation": "снизить стресс"
+    },
+    {
+      "original": "anxiety",
+      "english": "high anxiety",
+      "translation": "сильная тревожность"
+    },
+    {
+      "original": "fatigue",
+      "english": "chronic fatigue",
+      "translation": "хроническая усталость"
+    },
+    {
+      "original": "well-being",
+      "english": "personal well-being",
+      "translation": "личное благополучие"
+    }
   ]
 }

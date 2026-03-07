@@ -3,40 +3,180 @@
   "level": "Advanced",
   "name": "Phrase",
   "items": [
-    { "id": "positive-influence", "original": "influence", "english": "positive influence", "translation": "позитивное влияние" },
-    { "id": "strong-persuasion", "original": "persuasion", "english": "strong persuasion", "translation": "сильное убеждение" },
-    { "id": "highly-persuasive", "original": "persuasive", "english": "highly persuasive", "translation": "очень убедительный" },
-    { "id": "deep-conviction", "original": "conviction", "english": "deep conviction", "translation": "глубокая убеждённость" },
-    { "id": "strong-credibility", "original": "credibility", "english": "strong credibility", "translation": "высокий авторитет" },
-    { "id": "recognized-authority", "original": "authority", "english": "recognized authority", "translation": "признанный авторитет" },
-    { "id": "high-trustworthiness", "original": "trustworthiness", "english": "high trustworthiness", "translation": "высокая надёжность" },
-    { "id": "strong-confidence", "original": "confidence", "english": "strong confidence", "translation": "сильная уверенность" },
-    { "id": "natural-charisma", "original": "charisma", "english": "natural charisma", "translation": "естественная харизма" },
-    { "id": "strong-presence", "original": "presence", "english": "strong presence", "translation": "сильное присутствие" },
-    { "id": "broad-appeal", "original": "appeal", "english": "broad appeal", "translation": "широкая привлекательность" },
-    { "id": "clear-reasoning", "original": "reasoning", "english": "clear reasoning", "translation": "чёткая логика рассуждений" },
-    { "id": "solid-logic", "original": "logic", "english": "solid logic", "translation": "убедительная логика" },
-    { "id": "strong-emotion", "original": "emotion", "english": "strong emotion", "translation": "сильная эмоция" },
-    { "id": "powerful-emotional-impact", "original": "emotional impact", "english": "powerful emotional impact", "translation": "мощное эмоциональное воздействие" },
-    { "id": "strategic-framing", "original": "framing", "english": "strategic framing", "translation": "стратегическая подача" },
-    { "id": "clear-positioning", "original": "positioning", "english": "clear positioning", "translation": "чёткое позиционирование" },
-    { "id": "strong-emphasis", "original": "emphasis", "english": "strong emphasis", "translation": "сильный акцент" },
-    { "id": "confident-tone", "original": "tone", "english": "confident tone", "translation": "уверенный тон" },
-    { "id": "clear-messaging", "original": "messaging", "english": "clear messaging", "translation": "чёткая передача идеи" },
-    { "id": "intrinsic-motivation", "original": "motivation", "english": "intrinsic motivation", "translation": "внутренняя мотивация" },
-    { "id": "financial-incentive", "original": "incentive", "english": "financial incentive", "translation": "финансовый стимул" },
-    { "id": "strategic-leverage", "original": "leverage", "english": "strategic leverage", "translation": "стратегический рычаг влияния" },
-    { "id": "external-pressure", "original": "pressure", "english": "external pressure", "translation": "внешнее давление" },
-    { "id": "strong-resistance", "original": "resistance", "english": "strong resistance", "translation": "сильное сопротивление" },
-    { "id": "serious-objection", "original": "objection", "english": "serious objection", "translation": "серьёзное возражение" },
-    { "id": "full-acceptance", "original": "acceptance", "english": "full acceptance", "translation": "полное принятие" },
-    { "id": "mutual-agreement", "original": "agreement", "english": "mutual agreement", "translation": "взаимное согласие" },
-    { "id": "strategic-alignment", "original": "alignment", "english": "strategic alignment", "translation": "стратегическая согласованность" },
-    { "id": "stakeholder-buy-in", "original": "buy-in", "english": "stakeholder buy-in", "translation": "согласие заинтересованных сторон" },
-    { "id": "subtle-manipulation", "original": "manipulation", "english": "subtle manipulation", "translation": "тонкая манипуляция" },
-    { "id": "ethical-influence-approach", "original": "ethical influence", "english": "ethical influence approach", "translation": "подход к этичному влиянию" },
-    { "id": "full-transparency", "original": "transparency", "english": "full transparency", "translation": "полная прозрачность" },
-    { "id": "clear-intent", "original": "intent", "english": "clear intent", "translation": "чёткое намерение" },
-    { "id": "public-perception", "original": "perception", "english": "public perception", "translation": "общественное восприятие" }
+    {
+      "original": "influence",
+      "english": "positive influence",
+      "translation": "позитивное влияние"
+    },
+    {
+      "original": "persuasion",
+      "english": "strong persuasion",
+      "translation": "сильное убеждение"
+    },
+    {
+      "original": "persuasive",
+      "english": "highly persuasive",
+      "translation": "очень убедительный"
+    },
+    {
+      "original": "conviction",
+      "english": "deep conviction",
+      "translation": "глубокая убеждённость"
+    },
+    {
+      "original": "credibility",
+      "english": "strong credibility",
+      "translation": "высокий авторитет"
+    },
+    {
+      "original": "authority",
+      "english": "recognized authority",
+      "translation": "признанный авторитет"
+    },
+    {
+      "original": "trustworthiness",
+      "english": "high trustworthiness",
+      "translation": "высокая надёжность"
+    },
+    {
+      "original": "confidence",
+      "english": "strong confidence",
+      "translation": "сильная уверенность"
+    },
+    {
+      "original": "charisma",
+      "english": "natural charisma",
+      "translation": "естественная харизма"
+    },
+    {
+      "original": "presence",
+      "english": "strong presence",
+      "translation": "сильное присутствие"
+    },
+    {
+      "original": "appeal",
+      "english": "broad appeal",
+      "translation": "широкая привлекательность"
+    },
+    {
+      "original": "reasoning",
+      "english": "clear reasoning",
+      "translation": "чёткая логика рассуждений"
+    },
+    {
+      "original": "logic",
+      "english": "solid logic",
+      "translation": "убедительная логика"
+    },
+    {
+      "original": "emotion",
+      "english": "strong emotion",
+      "translation": "сильная эмоция"
+    },
+    {
+      "original": "emotional impact",
+      "english": "powerful emotional impact",
+      "translation": "мощное эмоциональное воздействие"
+    },
+    {
+      "original": "framing",
+      "english": "strategic framing",
+      "translation": "стратегическая подача"
+    },
+    {
+      "original": "positioning",
+      "english": "clear positioning",
+      "translation": "чёткое позиционирование"
+    },
+    {
+      "original": "emphasis",
+      "english": "strong emphasis",
+      "translation": "сильный акцент"
+    },
+    {
+      "original": "tone",
+      "english": "confident tone",
+      "translation": "уверенный тон"
+    },
+    {
+      "original": "messaging",
+      "english": "clear messaging",
+      "translation": "чёткая передача идеи"
+    },
+    {
+      "original": "motivation",
+      "english": "intrinsic motivation",
+      "translation": "внутренняя мотивация"
+    },
+    {
+      "original": "incentive",
+      "english": "financial incentive",
+      "translation": "финансовый стимул"
+    },
+    {
+      "original": "leverage",
+      "english": "strategic leverage",
+      "translation": "стратегический рычаг влияния"
+    },
+    {
+      "original": "pressure",
+      "english": "external pressure",
+      "translation": "внешнее давление"
+    },
+    {
+      "original": "resistance",
+      "english": "strong resistance",
+      "translation": "сильное сопротивление"
+    },
+    {
+      "original": "objection",
+      "english": "serious objection",
+      "translation": "серьёзное возражение"
+    },
+    {
+      "original": "acceptance",
+      "english": "full acceptance",
+      "translation": "полное принятие"
+    },
+    {
+      "original": "agreement",
+      "english": "mutual agreement",
+      "translation": "взаимное согласие"
+    },
+    {
+      "original": "alignment",
+      "english": "strategic alignment",
+      "translation": "стратегическая согласованность"
+    },
+    {
+      "original": "buy-in",
+      "english": "stakeholder buy-in",
+      "translation": "согласие заинтересованных сторон"
+    },
+    {
+      "original": "manipulation",
+      "english": "subtle manipulation",
+      "translation": "тонкая манипуляция"
+    },
+    {
+      "original": "ethical influence",
+      "english": "ethical influence approach",
+      "translation": "подход к этичному влиянию"
+    },
+    {
+      "original": "transparency",
+      "english": "full transparency",
+      "translation": "полная прозрачность"
+    },
+    {
+      "original": "intent",
+      "english": "clear intent",
+      "translation": "чёткое намерение"
+    },
+    {
+      "original": "perception",
+      "english": "public perception",
+      "translation": "общественное восприятие"
+    }
   ]
 }
