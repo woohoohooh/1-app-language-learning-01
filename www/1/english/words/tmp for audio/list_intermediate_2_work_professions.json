@@ -3,230 +3,50 @@
   "level": "Intermediate",
   "name": "Phrase",
   "items": [
-    {
-      "original": "job",
-      "english": "find job",
-      "translation": "найти работу"
-    },
-    {
-      "original": "work",
-      "english": "daily work",
-      "translation": "ежедневная работа"
-    },
-    {
-      "original": "career",
-      "english": "build career",
-      "translation": "строить карьеру"
-    },
-    {
-      "original": "profession",
-      "english": "choose profession",
-      "translation": "выбрать профессию"
-    },
-    {
-      "original": "occupation",
-      "english": "main occupation",
-      "translation": "основной род занятий"
-    },
-    {
-      "original": "employee",
-      "english": "company employee",
-      "translation": "сотрудник компании"
-    },
-    {
-      "original": "employer",
-      "english": "new employer",
-      "translation": "новый работодатель"
-    },
-    {
-      "original": "colleague",
-      "english": "friendly colleague",
-      "translation": "дружелюбный коллега"
-    },
-    {
-      "original": "manager",
-      "english": "project manager",
-      "translation": "менеджер проекта"
-    },
-    {
-      "original": "supervisor",
-      "english": "team supervisor",
-      "translation": "руководитель команды"
-    },
-    {
-      "original": "position",
-      "english": "job position",
-      "translation": "должность"
-    },
-    {
-      "original": "role",
-      "english": "key role",
-      "translation": "ключевая роль"
-    },
-    {
-      "original": "responsibility",
-      "english": "take responsibility",
-      "translation": "брать ответственность"
-    },
-    {
-      "original": "duty",
-      "english": "daily duty",
-      "translation": "ежедневная обязанность"
-    },
-    {
-      "original": "task",
-      "english": "complete task",
-      "translation": "выполнить задачу"
-    },
-    {
-      "original": "experience",
-      "english": "work experience",
-      "translation": "опыт работы"
-    },
-    {
-      "original": "qualification",
-      "english": "high qualification",
-      "translation": "высокая квалификация"
-    },
-    {
-      "original": "skill",
-      "english": "technical skill",
-      "translation": "технический навык"
-    },
-    {
-      "original": "background",
-      "english": "professional background",
-      "translation": "профессиональный опыт"
-    },
-    {
-      "original": "salary",
-      "english": "monthly salary",
-      "translation": "ежемесячная зарплата"
-    },
-    {
-      "original": "wage",
-      "english": "hourly wage",
-      "translation": "почасовая оплата"
-    },
-    {
-      "original": "income",
-      "english": "stable income",
-      "translation": "стабильный доход"
-    },
-    {
-      "original": "bonus",
-      "english": "yearly bonus",
-      "translation": "годовая премия"
-    },
-    {
-      "original": "benefits",
-      "english": "employee benefits",
-      "translation": "льготы для сотрудников"
-    },
-    {
-      "original": "schedule",
-      "english": "work schedule",
-      "translation": "график работы"
-    },
-    {
-      "original": "shift",
-      "english": "night shift",
-      "translation": "ночная смена"
-    },
-    {
-      "original": "workload",
-      "english": "heavy workload",
-      "translation": "большая нагрузка"
-    },
-    {
-      "original": "deadline",
-      "english": "meet deadline",
-      "translation": "успеть к сроку"
-    },
-    {
-      "original": "overtime",
-      "english": "do overtime",
-      "translation": "работать сверхурочно"
-    },
-    {
-      "original": "full-time",
-      "english": "full time job",
-      "translation": "полная занятость"
-    },
-    {
-      "original": "part-time",
-      "english": "part time job",
-      "translation": "частичная занятость"
-    },
-    {
-      "original": "freelance",
-      "english": "freelance project",
-      "translation": "фриланс проект"
-    },
-    {
-      "original": "contract",
-      "english": "sign contract",
-      "translation": "подписать договор"
-    },
-    {
-      "original": "temporary",
-      "english": "temporary job",
-      "translation": "временная работа"
-    },
-    {
-      "original": "hire",
-      "english": "hire employee",
-      "translation": "нанимать сотрудника"
-    },
-    {
-      "original": "fire",
-      "english": "fire worker",
-      "translation": "увольнять работника"
-    },
-    {
-      "original": "quit",
-      "english": "quit job",
-      "translation": "увольняться с работы"
-    },
-    {
-      "original": "promotion",
-      "english": "get promotion",
-      "translation": "получить повышение"
-    },
-    {
-      "original": "demotion",
-      "english": "get demotion",
-      "translation": "получить понижение"
-    },
-    {
-      "original": "resume",
-      "english": "send resume",
-      "translation": "отправить резюме"
-    },
-    {
-      "original": "cv",
-      "english": "update cv",
-      "translation": "обновить резюме"
-    },
-    {
-      "original": "interview",
-      "english": "job interview",
-      "translation": "собеседование"
-    },
-    {
-      "original": "vacancy",
-      "english": "open vacancy",
-      "translation": "открытая вакансия"
-    },
-    {
-      "original": "application",
-      "english": "job application",
-      "translation": "заявка на работу"
-    },
-    {
-      "original": "expertise",
-      "english": "technical expertise",
-      "translation": "профессиональные знания"
-    }
+    {"original":"job","english":"find job","translation":"найти работу"},
+    {"original":"work","english":"daily work","translation":"ежедневная работа"},
+    {"original":"career","english":"build career","translation":"строить карьеру"},
+    {"original":"profession","english":"choose profession","translation":"выбрать профессию"},
+    {"original":"occupation","english":"main occupation","translation":"основной род занятий"},
+    {"original":"employee","english":"company employee","translation":"сотрудник компании"},
+    {"original":"employer","english":"new employer","translation":"новый работодатель"},
+    {"original":"colleague","english":"friendly colleague","translation":"дружелюбный коллега"},
+    {"original":"manager","english":"project manager","translation":"менеджер проекта"},
+    {"original":"supervisor","english":"team supervisor","translation":"руководитель команды"},
+    {"original":"position","english":"job position","translation":"должность"},
+    {"original":"role","english":"key role","translation":"ключевая роль"},
+    {"original":"responsibility","english":"take responsibility","translation":"брать ответственность"},
+    {"original":"duty","english":"job duties","translation":"рабочие обязанности"},
+    {"original":"task","english":"complete task","translation":"выполнить задачу"},
+    {"original":"experience","english":"work experience","translation":"опыт работы"},
+    {"original":"qualification","english":"professional qualification","translation":"профессиональная квалификация"},
+    {"original":"skill","english":"technical skill","translation":"технический навык"},
+    {"original":"background","english":"professional background","translation":"профессиональный опыт"},
+    {"original":"salary","english":"monthly salary","translation":"ежемесячная зарплата"},
+    {"original":"wage","english":"hourly wage","translation":"почасовая оплата"},
+    {"original":"income","english":"stable income","translation":"стабильный доход"},
+    {"original":"bonus","english":"yearly bonus","translation":"годовая премия"},
+    {"original":"benefits","english":"employee benefits","translation":"льготы для сотрудников"},
+    {"original":"schedule","english":"work schedule","translation":"график работы"},
+    {"original":"shift","english":"night shift","translation":"ночная смена"},
+    {"original":"workload","english":"heavy workload","translation":"большая нагрузка"},
+    {"original":"deadline","english":"meet deadline","translation":"успеть к сроку"},
+    {"original":"overtime","english":"do overtime","translation":"работать сверхурочно"},
+    {"original":"full-time","english":"full time job","translation":"полная занятость"},
+    {"original":"part-time","english":"part time job","translation":"частичная занятость"},
+    {"original":"freelance","english":"freelance project","translation":"фриланс проект"},
+    {"original":"contract","english":"sign contract","translation":"подписать договор"},
+    {"original":"temporary","english":"temporary job","translation":"временная работа"},
+    {"original":"hire","english":"hire staff","translation":"нанимать сотрудника"},
+    {"original":"fire","english":"fire employee","translation":"увольнять работника"},
+    {"original":"quit","english":"quit job","translation":"увольняться с работы"},
+    {"original":"promotion","english":"get promotion","translation":"получить повышение"},
+    {"original":"demotion","english":"get demotion","translation":"получить понижение"},
+    {"original":"resume","english":"send resume","translation":"отправить резюме"},
+    {"original":"cv","english":"update cv","translation":"обновить резюме"},
+    {"original":"interview","english":"job interview","translation":"собеседование"},
+    {"original":"vacancy","english":"open vacancy","translation":"открытая вакансия"},
+    {"original":"application","english":"job application","translation":"заявка на работу"},
+    {"original":"expertise","english":"technical expertise","translation":"профессиональные знания"}
   ]
 }

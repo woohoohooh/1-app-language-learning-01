@@ -3,205 +3,45 @@
   "level": "Advanced",
   "name": "Phrase",
   "items": [
-    {
-      "original": "artificial intelligence",
-      "english": "artificial intelligence system",
-      "translation": "система искусственного интеллекта"
-    },
-    {
-      "original": "AI",
-      "english": "advanced AI",
-      "translation": "продвинутый ИИ"
-    },
-    {
-      "original": "machine learning",
-      "english": "machine learning model",
-      "translation": "модель машинного обучения"
-    },
-    {
-      "original": "deep learning",
-      "english": "deep learning model",
-      "translation": "модель глубинного обучения"
-    },
-    {
-      "original": "neural network",
-      "english": "neural network architecture",
-      "translation": "архитектура нейронной сети"
-    },
-    {
-      "original": "algorithm",
-      "english": "optimization algorithm",
-      "translation": "алгоритм оптимизации"
-    },
-    {
-      "original": "model",
-      "english": "prediction model",
-      "translation": "прогностическая модель"
-    },
-    {
-      "original": "dataset",
-      "english": "large dataset",
-      "translation": "большой набор данных"
-    },
-    {
-      "original": "training",
-      "english": "model training",
-      "translation": "обучение модели"
-    },
-    {
-      "original": "inference",
-      "english": "real-time inference",
-      "translation": "инференс в реальном времени"
-    },
-    {
-      "original": "input",
-      "english": "input data",
-      "translation": "входные данные"
-    },
-    {
-      "original": "output",
-      "english": "model output",
-      "translation": "выход модели"
-    },
-    {
-      "original": "feature",
-      "english": "key feature",
-      "translation": "ключевой признак"
-    },
-    {
-      "original": "parameter",
-      "english": "model parameter",
-      "translation": "параметр модели"
-    },
-    {
-      "original": "weight",
-      "english": "network weight",
-      "translation": "вес сети"
-    },
-    {
-      "original": "accuracy",
-      "english": "high accuracy",
-      "translation": "высокая точность"
-    },
-    {
-      "original": "performance",
-      "english": "system performance",
-      "translation": "производительность системы"
-    },
-    {
-      "original": "prediction",
-      "english": "accurate prediction",
-      "translation": "точное предсказание"
-    },
-    {
-      "original": "classification",
-      "english": "image classification",
-      "translation": "классификация изображений"
-    },
-    {
-      "original": "regression",
-      "english": "linear regression",
-      "translation": "линейная регрессия"
-    },
-    {
-      "original": "automation",
-      "english": "process automation",
-      "translation": "автоматизация процессов"
-    },
-    {
-      "original": "optimization",
-      "english": "model optimization",
-      "translation": "оптимизация модели"
-    },
-    {
-      "original": "scalability",
-      "english": "system scalability",
-      "translation": "масштабируемость системы"
-    },
-    {
-      "original": "deployment",
-      "english": "model deployment",
-      "translation": "развёртывание модели"
-    },
-    {
-      "original": "integration",
-      "english": "system integration",
-      "translation": "интеграция системы"
-    },
-    {
-      "original": "natural language processing",
-      "english": "natural language processing system",
-      "translation": "система обработки естественного языка"
-    },
-    {
-      "original": "computer vision",
-      "english": "computer vision system",
-      "translation": "система компьютерного зрения"
-    },
-    {
-      "original": "speech recognition",
-      "english": "speech recognition system",
-      "translation": "система распознавания речи"
-    },
-    {
-      "original": "chatbot",
-      "english": "AI chatbot",
-      "translation": "ИИ чат-бот"
-    },
-    {
-      "original": "assistant",
-      "english": "virtual assistant",
-      "translation": "виртуальный ассистент"
-    },
-    {
-      "original": "bias",
-      "english": "algorithmic bias",
-      "translation": "алгоритмическая предвзятость"
-    },
-    {
-      "original": "ethics",
-      "english": "AI ethics",
-      "translation": "этика ИИ"
-    },
-    {
-      "original": "privacy",
-      "english": "data privacy",
-      "translation": "конфиденциальность данных"
-    },
-    {
-      "original": "security",
-      "english": "system security",
-      "translation": "безопасность системы"
-    },
-    {
-      "original": "transparency",
-      "english": "model transparency",
-      "translation": "прозрачность модели"
-    },
-    {
-      "original": "use case",
-      "english": "practical use case",
-      "translation": "практический сценарий использования"
-    },
-    {
-      "original": "application",
-      "english": "real-world application",
-      "translation": "реальное применение"
-    },
-    {
-      "original": "limitation",
-      "english": "technical limitation",
-      "translation": "техническое ограничение"
-    },
-    {
-      "original": "capability",
-      "english": "system capability",
-      "translation": "возможность системы"
-    },
-    {
-      "original": "impact",
-      "english": "social impact",
-      "translation": "социальное влияние"
-    }
+    { "original": "artificial intelligence", "english": "artificial intelligence system", "translation": "система искусственного интеллекта" },
+    { "original": "AI", "english": "advanced AI", "translation": "продвинутый ИИ" },
+    { "original": "machine learning", "english": "machine learning model", "translation": "модель машинного обучения" },
+    { "original": "deep learning", "english": "deep learning model", "translation": "модель глубинного обучения" },
+    { "original": "neural network", "english": "neural network architecture", "translation": "архитектура нейронной сети" },
+    { "original": "algorithm", "english": "optimization algorithm", "translation": "алгоритм оптимизации" },
+    { "original": "model", "english": "prediction model", "translation": "прогностическая модель" },
+    { "original": "dataset", "english": "training dataset", "translation": "большой набор данных" },
+    { "original": "training", "english": "model training", "translation": "обучение модели" },
+    { "original": "inference", "english": "real-time inference", "translation": "инференс в реальном времени" },
+    { "original": "input", "english": "input data", "translation": "входные данные" },
+    { "original": "output", "english": "model output", "translation": "выход модели" },
+    { "original": "feature", "english": "key feature", "translation": "ключевой признак" },
+    { "original": "parameter", "english": "model parameter", "translation": "параметр модели" },
+    { "original": "weight", "english": "network weight", "translation": "вес сети" },
+    { "original": "accuracy", "english": "model accuracy", "translation": "высокая точность" },
+    { "original": "performance", "english": "system performance", "translation": "производительность системы" },
+    { "original": "prediction", "english": "accurate prediction", "translation": "точное предсказание" },
+    { "original": "classification", "english": "image classification", "translation": "классификация изображений" },
+    { "original": "regression", "english": "linear regression", "translation": "линейная регрессия" },
+    { "original": "automation", "english": "process automation", "translation": "автоматизация процессов" },
+    { "original": "optimization", "english": "model optimization", "translation": "оптимизация модели" },
+    { "original": "scalability", "english": "system scalability", "translation": "масштабируемость системы" },
+    { "original": "deployment", "english": "model deployment", "translation": "развёртывание модели" },
+    { "original": "integration", "english": "system integration", "translation": "интеграция системы" },
+    { "original": "natural language processing", "english": "natural language processing system", "translation": "система обработки естественного языка" },
+    { "original": "computer vision", "english": "computer vision system", "translation": "система компьютерного зрения" },
+    { "original": "speech recognition", "english": "speech recognition system", "translation": "система распознавания речи" },
+    { "original": "chatbot", "english": "AI chatbot", "translation": "ИИ чат-бот" },
+    { "original": "assistant", "english": "virtual assistant", "translation": "виртуальный ассистент" },
+    { "original": "bias", "english": "algorithmic bias", "translation": "алгоритмическая предвзятость" },
+    { "original": "ethics", "english": "AI ethics", "translation": "этика ИИ" },
+    { "original": "privacy", "english": "data privacy", "translation": "конфиденциальность данных" },
+    { "original": "security", "english": "system security", "translation": "безопасность системы" },
+    { "original": "transparency", "english": "model transparency", "translation": "прозрачность модели" },
+    { "original": "use case", "english": "practical use case", "translation": "практический сценарий использования" },
+    { "original": "application", "english": "real-world application", "translation": "реальное применение" },
+    { "original": "limitation", "english": "technical limitation", "translation": "техническое ограничение" },
+    { "original": "capability", "english": "system capability", "translation": "возможность системы" },
+    { "original": "impact", "english": "social impact", "translation": "социальное влияние" }
   ]
 }

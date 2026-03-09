@@ -21,7 +21,7 @@
     {"original":"reason","english":"main reason","translation":"основная причина"},
     {"original":"result","english":"final result","translation":"итоговый результат"},
     {"original":"purpose","english":"clear purpose","translation":"ясная цель"},
-    {"original":"choice","english":"make decision","translation":"сделать выбор"},
+    {"original":"choice","english":"make choice","translation":"сделать выбор"},
     {"original":"opportunity","english":"new opportunity","translation":"новая возможность"},
     {"original":"challenge","english":"major challenge","translation":"большой вызов"},
     {"original":"experience","english":"work experience","translation":"опыт работы"},
@@ -45,7 +45,7 @@
     {"original":"recently","english":"recently updated","translation":"недавно обновлённый"},
     {"original":"currently","english":"currently working","translation":"в настоящее время работает"},
     {"original":"especially","english":"especially useful","translation":"особенно полезный"},
-    {"original":"eventually","english":"eventual success","translation":"в конечном итоге успех"},
-    {"original":"approximately","english":"approximately ten","translation":"примерно десять"}
+    {"original":"eventually","english":"eventually succeed","translation":"в конечном итоге добиться успеха"},
+    {"original":"approximately","english":"approximately ten units","translation":"примерно десять единиц"}
   ]
 }

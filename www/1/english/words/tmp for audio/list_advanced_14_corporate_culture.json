@@ -3,205 +3,45 @@
   "level": "Advanced",
   "name": "Phrase",
   "items": [
-    {
-      "original": "corporate culture",
-      "english": "strong corporate culture",
-      "translation": "сильная корпоративная культура"
-    },
-    {
-      "original": "company culture",
-      "english": "positive company culture",
-      "translation": "позитивная культура компании"
-    },
-    {
-      "original": "workplace",
-      "english": "modern workplace",
-      "translation": "современная рабочая среда"
-    },
-    {
-      "original": "environment",
-      "english": "supportive environment",
-      "translation": "поддерживающая среда"
-    },
-    {
-      "original": "organization",
-      "english": "global organization",
-      "translation": "глобальная организация"
-    },
-    {
-      "original": "values",
-      "english": "core values",
-      "translation": "ключевые ценности"
-    },
-    {
-      "original": "principles",
-      "english": "guiding principles",
-      "translation": "руководящие принципы"
-    },
-    {
-      "original": "mission",
-      "english": "company mission",
-      "translation": "миссия компании"
-    },
-    {
-      "original": "vision",
-      "english": "long-term vision",
-      "translation": "долгосрочное видение"
-    },
-    {
-      "original": "ethics",
-      "english": "business ethics",
-      "translation": "деловая этика"
-    },
-    {
-      "original": "standards",
-      "english": "quality standards",
-      "translation": "стандарты качества"
-    },
-    {
-      "original": "policies",
-      "english": "company policies",
-      "translation": "политики компании"
-    },
-    {
-      "original": "guidelines",
-      "english": "clear guidelines",
-      "translation": "чёткие рекомендации"
-    },
-    {
-      "original": "compliance",
-      "english": "full compliance",
-      "translation": "полное соблюдение правил"
-    },
-    {
-      "original": "code of conduct",
-      "english": "internal code of conduct",
-      "translation": "внутренний кодекс поведения"
-    },
-    {
-      "original": "hierarchy",
-      "english": "organizational hierarchy",
-      "translation": "организационная иерархия"
-    },
-    {
-      "original": "structure",
-      "english": "company structure",
-      "translation": "структура компании"
-    },
-    {
-      "original": "management",
-      "english": "effective management",
-      "translation": "эффективное управление"
-    },
-    {
-      "original": "leadership",
-      "english": "strong leadership",
-      "translation": "сильное руководство"
-    },
-    {
-      "original": "decision-making",
-      "english": "strategic decision-making",
-      "translation": "стратегическое принятие решений"
-    },
-    {
-      "original": "collaboration",
-      "english": "cross-team collaboration",
-      "translation": "межкомандное сотрудничество"
-    },
-    {
-      "original": "teamwork",
-      "english": "effective teamwork",
-      "translation": "эффективная командная работа"
-    },
-    {
-      "original": "ownership",
-      "english": "personal ownership",
-      "translation": "личная ответственность"
-    },
-    {
-      "original": "accountability",
-      "english": "clear accountability",
-      "translation": "чёткая подотчётность"
-    },
-    {
-      "original": "initiative",
-      "english": "personal initiative",
-      "translation": "личная инициатива"
-    },
-    {
-      "original": "work-life balance",
-      "english": "healthy work-life balance",
-      "translation": "здоровый баланс работы и жизни"
-    },
-    {
-      "original": "flexibility",
-      "english": "flexible work flexibility",
-      "translation": "гибкость в работе"
-    },
-    {
-      "original": "remote work",
-      "english": "full remote work",
-      "translation": "полностью удалённая работа"
-    },
-    {
-      "original": "hybrid work",
-      "english": "hybrid work model",
-      "translation": "гибридная модель работы"
-    },
-    {
-      "original": "schedule",
-      "english": "flexible schedule",
-      "translation": "гибкий график"
-    },
-    {
-      "original": "onboarding",
-      "english": "structured onboarding",
-      "translation": "структурированное введение в компанию"
-    },
-    {
-      "original": "adaptation",
-      "english": "smooth adaptation",
-      "translation": "плавная адаптация"
-    },
-    {
-      "original": "career growth",
-      "english": "career growth opportunities",
-      "translation": "возможности карьерного роста"
-    },
-    {
-      "original": "performance",
-      "english": "high performance",
-      "translation": "высокая эффективность"
-    },
-    {
-      "original": "evaluation",
-      "english": "annual evaluation",
-      "translation": "ежегодная оценка"
-    },
-    {
-      "original": "diversity",
-      "english": "cultural diversity",
-      "translation": "культурное разнообразие"
-    },
-    {
-      "original": "inclusion",
-      "english": "workplace inclusion",
-      "translation": "инклюзивность на рабочем месте"
-    },
-    {
-      "original": "respect",
-      "english": "mutual respect",
-      "translation": "взаимное уважение"
-    },
-    {
-      "original": "trust",
-      "english": "mutual trust",
-      "translation": "взаимное доверие"
-    },
-    {
-      "original": "transparency",
-      "english": "full transparency",
-      "translation": "полная прозрачность"
-    }
+    { "original": "corporate culture", "english": "healthy corporate culture", "translation": "сильная корпоративная культура" },
+    { "original": "company culture", "english": "positive company culture", "translation": "позитивная культура компании" },
+    { "original": "workplace", "english": "modern workplace", "translation": "современная рабочая среда" },
+    { "original": "environment", "english": "supportive environment", "translation": "поддерживающая среда" },
+    { "original": "organization", "english": "global organization", "translation": "глобальная организация" },
+    { "original": "values", "english": "core values", "translation": "ключевые ценности" },
+    { "original": "principles", "english": "guiding principles", "translation": "руководящие принципы" },
+    { "original": "mission", "english": "company mission", "translation": "миссия компании" },
+    { "original": "vision", "english": "long-term vision", "translation": "долгосрочное видение" },
+    { "original": "ethics", "english": "business ethics", "translation": "деловая этика" },
+    { "original": "standards", "english": "quality standards", "translation": "стандарты качества" },
+    { "original": "policies", "english": "company policies", "translation": "политики компании" },
+    { "original": "guidelines", "english": "internal guidelines", "translation": "чёткие рекомендации" },
+    { "original": "compliance", "english": "regulatory compliance", "translation": "полное соблюдение правил" },
+    { "original": "code of conduct", "english": "internal code of conduct", "translation": "внутренний кодекс поведения" },
+    { "original": "hierarchy", "english": "organizational hierarchy", "translation": "организационная иерархия" },
+    { "original": "structure", "english": "company structure", "translation": "структура компании" },
+    { "original": "management", "english": "effective management", "translation": "эффективное управление" },
+    { "original": "leadership", "english": "executive leadership", "translation": "сильное руководство" },
+    { "original": "decision-making", "english": "strategic decision-making", "translation": "стратегическое принятие решений" },
+    { "original": "collaboration", "english": "cross-team collaboration", "translation": "межкомандное сотрудничество" },
+    { "original": "teamwork", "english": "teamwork culture", "translation": "эффективная командная работа" },
+    { "original": "ownership", "english": "personal ownership", "translation": "личная ответственность" },
+    { "original": "accountability", "english": "team accountability", "translation": "чёткая подотчётность" },
+    { "original": "initiative", "english": "personal initiative", "translation": "личная инициатива" },
+    { "original": "work-life balance", "english": "healthy work-life balance", "translation": "здоровый баланс работы и жизни" },
+    { "original": "flexibility", "english": "work flexibility", "translation": "гибкость в работе" },
+    { "original": "remote work", "english": "remote work model", "translation": "полностью удалённая работа" },
+    { "original": "hybrid work", "english": "hybrid work model", "translation": "гибридная модель работы" },
+    { "original": "schedule", "english": "flexible schedule", "translation": "гибкий график" },
+    { "original": "onboarding", "english": "structured onboarding", "translation": "структурированное введение в компанию" },
+    { "original": "adaptation", "english": "smooth adaptation", "translation": "плавная адаптация" },
+    { "original": "career growth", "english": "career growth opportunities", "translation": "возможности карьерного роста" },
+    { "original": "performance", "english": "organizational performance", "translation": "высокая эффективность" },
+    { "original": "evaluation", "english": "annual evaluation", "translation": "ежегодная оценка" },
+    { "original": "diversity", "english": "cultural diversity", "translation": "культурное разнообразие" },
+    { "original": "inclusion", "english": "workplace inclusion", "translation": "инклюзивность на рабочем месте" },
+    { "original": "respect", "english": "mutual respect", "translation": "взаимное уважение" },
+    { "original": "trust", "english": "mutual trust", "translation": "взаимное доверие" },
+    { "original": "transparency", "english": "organizational transparency", "translation": "полная прозрачность" }
   ]
 }

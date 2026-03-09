@@ -3,105 +3,25 @@
   "level": "Intermediate",
   "name": "Phrase",
   "items": [
-    {
-      "original": "office",
-      "english": "in the office",
-      "translation": "в офисе"
-    },
-    {
-      "original": "workplace",
-      "english": "my workplace",
-      "translation": "мое рабочее место"
-    },
-    {
-      "original": "department",
-      "english": "our department",
-      "translation": "наш отдел"
-    },
-    {
-      "original": "team",
-      "english": "team meeting",
-      "translation": "командная встреча"
-    },
-    {
-      "original": "staff",
-      "english": "office staff",
-      "translation": "персонал офиса"
-    },
-    {
-      "original": "meeting",
-      "english": "schedule meeting",
-      "translation": "назначить встречу"
-    },
-    {
-      "original": "appointment",
-      "english": "make an appointment",
-      "translation": "назначить встречу"
-    },
-    {
-      "original": "agenda",
-      "english": "meeting agenda",
-      "translation": "повестка встречи"
-    },
-    {
-      "original": "minutes",
-      "english": "meeting minutes",
-      "translation": "протокол встречи"
-    },
-    {
-      "original": "email",
-      "english": "email message",
-      "translation": "электронное письмо"
-    },
-    {
-      "original": "message",
-      "english": "send a message",
-      "translation": "отправить сообщение"
-    },
-    {
-      "original": "call",
-      "english": "make a call",
-      "translation": "сделать звонок"
-    },
-    {
-      "original": "video call",
-      "english": "video call now",
-      "translation": "видеозвонок сейчас"
-    },
-    {
-      "original": "request",
-      "english": "send a request",
-      "translation": "отправить запрос"
-    },
-    {
-      "original": "feedback",
-      "english": "give feedback",
-      "translation": "дать обратную связь"
-    },
-    {
-      "original": "decision",
-      "english": "make a decision",
-      "translation": "принять решение"
-    },
-    {
-      "original": "report",
-      "english": "write a report",
-      "translation": "написать отчет"
-    },
-    {
-      "original": "presentation",
-      "english": "give a presentation",
-      "translation": "сделать презентацию"
-    },
-    {
-      "original": "status",
-      "english": "update status",
-      "translation": "обновить статус"
-    },
-    {
-      "original": "progress",
-      "english": "project progress",
-      "translation": "прогресс проекта"
-    }
+    { "original": "office", "english": "in the office", "translation": "в офисе" },
+    { "original": "workplace", "english": "my workplace", "translation": "мое рабочее место" },
+    { "original": "department", "english": "our department", "translation": "наш отдел" },
+    { "original": "team", "english": "team meeting", "translation": "командная встреча" },
+    { "original": "staff", "english": "office staff", "translation": "персонал офиса" },
+    { "original": "meeting", "english": "schedule meeting", "translation": "назначить встречу" },
+    { "original": "appointment", "english": "make appointment", "translation": "назначить встречу" },
+    { "original": "agenda", "english": "meeting agenda", "translation": "повестка встречи" },
+    { "original": "minutes", "english": "meeting minutes", "translation": "протокол встречи" },
+    { "original": "email", "english": "email message", "translation": "электронное письмо" },
+    { "original": "message", "english": "send message", "translation": "отправить сообщение" },
+    { "original": "call", "english": "make call", "translation": "сделать звонок" },
+    { "original": "video call", "english": "video call now", "translation": "видеозвонок сейчас" },
+    { "original": "request", "english": "send request", "translation": "отправить запрос" },
+    { "original": "feedback", "english": "give feedback", "translation": "дать обратную связь" },
+    { "original": "decision", "english": "make decision", "translation": "принять решение" },
+    { "original": "report", "english": "write report", "translation": "написать отчет" },
+    { "original": "presentation", "english": "give presentation", "translation": "сделать презентацию" },
+    { "original": "status", "english": "update status", "translation": "обновить статус" },
+    { "original": "progress", "english": "project progress", "translation": "прогресс проекта" }
   ]
 }

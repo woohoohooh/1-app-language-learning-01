@@ -3,129 +3,36 @@
   "level": "Advanced",
   "name": "Sentences",
   "items": [
-    {
-      "english": "politeness",
-      "translation": "вежливость"
-    },
-    {
-      "english": "courtesy",
-      "translation": "учтивость"
-    },
-    {
-      "english": "respect",
-      "translation": "уважение"
-    },
-    {
-      "english": "formality",
-      "translation": "формальность"
-    },
-    {
-      "english": "informality",
-      "translation": "неформальность"
-    },
-    {
-      "english": "distance",
-      "translation": "дистанция"
-    },
-    {
-      "english": "boundary",
-      "translation": "граница"
-    },
-    {
-      "english": "professionalism",
-      "translation": "профессионализм"
-    },
-    {
-      "english": "neutrality",
-      "translation": "нейтральность"
-    },
-    {
-      "english": "objectivity",
-      "translation": "объективность"
-    },
-    {
-      "english": "tone",
-      "translation": "тон"
-    },
-    {
-      "english": "manner",
-      "translation": "манера"
-    },
-    {
-      "english": "attitude",
-      "translation": "отношение"
-    },
-    {
-      "english": "approach",
-      "translation": "подход"
-    },
-    {
-      "english": "consideration",
-      "translation": "тактичность"
-    },
-    {
-      "english": "tact",
-      "translation": "такт"
-    },
-    {
-      "english": "diplomacy",
-      "translation": "дипломатичность"
-    },
-    {
-      "english": "restraint",
-      "translation": "сдержанность"
-    },
-    {
-      "english": "discretion",
-      "translation": "деликатность"
-    },
-    {
-      "english": "directness",
-      "translation": "прямота"
-    },
-    {
-      "english": "indirectness",
-      "translation": "косвенность"
-    },
-    {
-      "english": "softness",
-      "translation": "мягкость"
-    },
-    {
-      "english": "firmness",
-      "translation": "твёрдость"
-    },
-    {
-      "english": "appropriateness",
-      "translation": "уместность"
-    },
-    {
-      "english": "context",
-      "translation": "контекст"
-    },
-    {
-      "english": "hierarchy",
-      "translation": "иерархия"
-    },
-    {
-      "english": "seniority",
-      "translation": "старшинство"
-    },
-    {
-      "english": "distance-keeping",
-      "translation": "соблюдение дистанции"
-    },
-    {
-      "english": "familiarity",
-      "translation": "фамильярность"
-    },
-    {
-      "english": "detachment",
-      "translation": "отстранённость"
-    },
-    {
-      "english": "reserve",
-      "translation": "сдержанность"
-    }
+    { "original": "politeness", "english": "Politeness builds trust.", "translation": "Вежливость создаёт доверие." },
+    { "original": "courtesy", "english": "People appreciate courtesy.", "translation": "Люди ценят учтивость." },
+    { "original": "respect", "english": "Teams rely on respect.", "translation": "Команды опираются на уважение." },
+    { "original": "formality", "english": "This meeting requires formality.", "translation": "Эта встреча требует формальности." },
+    { "original": "informality", "english": "Their chat showed informality.", "translation": "Их разговор показал неформальность." },
+    { "original": "distance", "english": "Keep distance in negotiations.", "translation": "Сохраняйте дистанцию на переговорах." },
+    { "original": "boundary", "english": "Everyone respected that boundary.", "translation": "Все уважали эту границу." },
+    { "original": "professionalism", "english": "Clients notice professionalism quickly.", "translation": "Клиенты быстро замечают профессионализм." },
+    { "original": "neutrality", "english": "Mediators must keep neutrality.", "translation": "Посредники должны сохранять нейтральность." },
+    { "original": "objectivity", "english": "Judges value objectivity highly.", "translation": "Судьи высоко ценят объективность." },
+    { "original": "tone", "english": "Her tone stayed calm.", "translation": "Её тон оставался спокойным." },
+    { "original": "manner", "english": "His manner seemed polite.", "translation": "Его манера казалась вежливой." },
+    { "original": "attitude", "english": "Your attitude matters here.", "translation": "Ваше отношение здесь важно." },
+    { "original": "approach", "english": "We liked that approach.", "translation": "Нам понравился этот подход." },
+    { "original": "consideration", "english": "She showed real consideration.", "translation": "Она проявила настоящую тактичность." },
+    { "original": "tact", "english": "He answered with tact.", "translation": "Он ответил с тактом." },
+    { "original": "diplomacy", "english": "They handled conflict with diplomacy.", "translation": "Они уладили конфликт дипломатично." },
+    { "original": "restraint", "english": "She reacted with restraint.", "translation": "Она отреагировала сдержанно." },
+    { "original": "discretion", "english": "He spoke with discretion.", "translation": "Он говорил деликатно." },
+    { "original": "directness", "english": "I prefer honest directness.", "translation": "Я предпочитаю честную прямоту." },
+    { "original": "indirectness", "english": "Diplomats often use indirectness.", "translation": "Дипломаты часто используют косвенность." },
+    { "original": "softness", "english": "Her voice carried softness.", "translation": "В её голосе была мягкость." },
+    { "original": "firmness", "english": "His reply showed firmness.", "translation": "Его ответ показал твёрдость." },
+    { "original": "appropriateness", "english": "That comment lacked appropriateness.", "translation": "Этому комментарию не хватало уместности." },
+    { "original": "context", "english": "Meaning depends on context.", "translation": "Смысл зависит от контекста." },
+    { "original": "hierarchy", "english": "Office culture reflects hierarchy.", "translation": "Культура офиса отражает иерархию." },
+    { "original": "seniority", "english": "Respect often follows seniority.", "translation": "Уважение часто следует за старшинством." },
+    { "original": "distance-keeping", "english": "They practice distance-keeping carefully.", "translation": "Они аккуратно соблюдают дистанцию." },
+    { "original": "familiarity", "english": "Too much familiarity annoys colleagues.", "translation": "Чрезмерная фамильярность раздражает коллег." },
+    { "original": "detachment", "english": "His calm detachment helped.", "translation": "Его спокойная отстранённость помогла." },
+    { "original": "reserve", "english": "She answered with reserve.", "translation": "Она ответила сдержанно." }
   ]
 }

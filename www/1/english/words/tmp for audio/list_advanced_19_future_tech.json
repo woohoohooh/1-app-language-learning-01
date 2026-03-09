@@ -3,205 +3,45 @@
   "level": "Advanced",
   "name": "Phrase",
   "items": [
-    {
-      "original": "technology",
-      "english": "advanced technology",
-      "translation": "передовая технология"
-    },
-    {
-      "original": "innovation",
-      "english": "tech innovation",
-      "translation": "технологическая инновация"
-    },
-    {
-      "original": "future",
-      "english": "digital future",
-      "translation": "цифровое будущее"
-    },
-    {
-      "original": "trend",
-      "english": "emerging trend",
-      "translation": "зарождающийся тренд"
-    },
-    {
-      "original": "development",
-      "english": "rapid development",
-      "translation": "быстрое развитие"
-    },
-    {
-      "original": "automation",
-      "english": "process automation",
-      "translation": "автоматизация процессов"
-    },
-    {
-      "original": "digitalization",
-      "english": "business digitalization",
-      "translation": "цифровизация бизнеса"
-    },
-    {
-      "original": "transformation",
-      "english": "digital transformation",
-      "translation": "цифровая трансформация"
-    },
-    {
-      "original": "disruption",
-      "english": "market disruption",
-      "translation": "рыночное радикальное изменение"
-    },
-    {
-      "original": "scalability",
-      "english": "system scalability",
-      "translation": "масштабируемость системы"
-    },
-    {
-      "original": "platform",
-      "english": "digital platform",
-      "translation": "цифровая платформа"
-    },
-    {
-      "original": "ecosystem",
-      "english": "tech ecosystem",
-      "translation": "технологическая экосистема"
-    },
-    {
-      "original": "infrastructure",
-      "english": "cloud infrastructure",
-      "translation": "облачная инфраструктура"
-    },
-    {
-      "original": "architecture",
-      "english": "system architecture",
-      "translation": "архитектура системы"
-    },
-    {
-      "original": "integration",
-      "english": "system integration",
-      "translation": "интеграция системы"
-    },
-    {
-      "original": "cloud",
-      "english": "cloud computing",
-      "translation": "облачные вычисления"
-    },
-    {
-      "original": "edge computing",
-      "english": "edge computing",
-      "translation": "периферийные вычисления"
-    },
-    {
-      "original": "virtualization",
-      "english": "server virtualization",
-      "translation": "виртуализация серверов"
-    },
-    {
-      "original": "automation tools",
-      "english": "automation tools",
-      "translation": "инструменты автоматизации"
-    },
-    {
-      "original": "smart systems",
-      "english": "smart systems",
-      "translation": "умные системы"
-    },
-    {
-      "original": "robotics",
-      "english": "advanced robotics",
-      "translation": "передовая робототехника"
-    },
-    {
-      "original": "autonomy",
-      "english": "system autonomy",
-      "translation": "автономность системы"
-    },
-    {
-      "original": "connectivity",
-      "english": "global connectivity",
-      "translation": "глобальная связанность"
-    },
-    {
-      "original": "5G",
-      "english": "5G network",
-      "translation": "сеть 5G"
-    },
-    {
-      "original": "internet of things",
-      "english": "internet of things",
-      "translation": "интернет вещей"
-    },
-    {
-      "original": "virtual reality",
-      "english": "virtual reality",
-      "translation": "виртуальная реальность"
-    },
-    {
-      "original": "augmented reality",
-      "english": "augmented reality",
-      "translation": "дополненная реальность"
-    },
-    {
-      "original": "metaverse",
-      "english": "global metaverse",
-      "translation": "глобальная метавселенная"
-    },
-    {
-      "original": "digital twin",
-      "english": "digital twin",
-      "translation": "цифровой двойник"
-    },
-    {
-      "original": "simulation",
-      "english": "system simulation",
-      "translation": "симуляция системы"
-    },
-    {
-      "original": "sustainability",
-      "english": "long-term sustainability",
-      "translation": "долгосрочное устойчивое развитие"
-    },
-    {
-      "original": "green technology",
-      "english": "green technology",
-      "translation": "зелёные технологии"
-    },
-    {
-      "original": "energy efficiency",
-      "english": "energy efficiency",
-      "translation": "энергоэффективность"
-    },
-    {
-      "original": "smart city",
-      "english": "smart city",
-      "translation": "умный город"
-    },
-    {
-      "original": "mobility",
-      "english": "urban mobility",
-      "translation": "городская мобильность"
-    },
-    {
-      "original": "user experience",
-      "english": "user experience",
-      "translation": "пользовательский опыт"
-    },
-    {
-      "original": "human-centered design",
-      "english": "human-centered design",
-      "translation": "дизайн, ориентированный на человека"
-    },
-    {
-      "original": "adaptation",
-      "english": "market adaptation",
-      "translation": "адаптация к рынку"
-    },
-    {
-      "original": "adoption",
-      "english": "technology adoption",
-      "translation": "внедрение технологий"
-    },
-    {
-      "original": "impact",
-      "english": "global impact",
-      "translation": "глобальное влияние"
-    }
+    { "original": "technology", "english": "modern technology", "translation": "передовая технология" },
+    { "original": "innovation", "english": "tech innovation", "translation": "технологическая инновация" },
+    { "original": "future", "english": "digital future", "translation": "цифровое будущее" },
+    { "original": "trend", "english": "emerging trend", "translation": "зарождающийся тренд" },
+    { "original": "development", "english": "technology development", "translation": "быстрое развитие" },
+    { "original": "automation", "english": "process automation", "translation": "автоматизация процессов" },
+    { "original": "digitalization", "english": "business digitalization", "translation": "цифровизация бизнеса" },
+    { "original": "transformation", "english": "digital transformation", "translation": "цифровая трансформация" },
+    { "original": "disruption", "english": "market disruption", "translation": "рыночное радикальное изменение" },
+    { "original": "scalability", "english": "system scalability", "translation": "масштабируемость системы" },
+    { "original": "platform", "english": "digital platform", "translation": "цифровая платформа" },
+    { "original": "ecosystem", "english": "tech ecosystem", "translation": "технологическая экосистема" },
+    { "original": "infrastructure", "english": "cloud infrastructure", "translation": "облачная инфраструктура" },
+    { "original": "architecture", "english": "system architecture", "translation": "архитектура системы" },
+    { "original": "integration", "english": "system integration", "translation": "интеграция системы" },
+    { "original": "cloud", "english": "cloud computing", "translation": "облачные вычисления" },
+    { "original": "edge computing", "english": "edge computing", "translation": "периферийные вычисления" },
+    { "original": "virtualization", "english": "server virtualization", "translation": "виртуализация серверов" },
+    { "original": "automation tools", "english": "automation tools", "translation": "инструменты автоматизации" },
+    { "original": "smart systems", "english": "smart systems", "translation": "умные системы" },
+    { "original": "robotics", "english": "robotic systems", "translation": "передовая робототехника" },
+    { "original": "autonomy", "english": "system autonomy", "translation": "автономность системы" },
+    { "original": "connectivity", "english": "network connectivity", "translation": "глобальная связанность" },
+    { "original": "5G", "english": "5G network", "translation": "сеть 5G" },
+    { "original": "internet of things", "english": "internet of things", "translation": "интернет вещей" },
+    { "original": "virtual reality", "english": "virtual reality", "translation": "виртуальная реальность" },
+    { "original": "augmented reality", "english": "augmented reality", "translation": "дополненная реальность" },
+    { "original": "metaverse", "english": "shared metaverse", "translation": "глобальная метавселенная" },
+    { "original": "digital twin", "english": "digital twin", "translation": "цифровой двойник" },
+    { "original": "simulation", "english": "system simulation", "translation": "симуляция системы" },
+    { "original": "sustainability", "english": "sustainable development", "translation": "долгосрочное устойчивое развитие" },
+    { "original": "green technology", "english": "green technology", "translation": "зелёные технологии" },
+    { "original": "energy efficiency", "english": "energy efficiency", "translation": "энергоэффективность" },
+    { "original": "smart city", "english": "smart city", "translation": "умный город" },
+    { "original": "mobility", "english": "urban mobility", "translation": "городская мобильность" },
+    { "original": "user experience", "english": "user experience", "translation": "пользовательский опыт" },
+    { "original": "human-centered design", "english": "human-centered design", "translation": "дизайн, ориентированный на человека" },
+    { "original": "adaptation", "english": "market adaptation", "translation": "адаптация к рынку" },
+    { "original": "adoption", "english": "technology adoption", "translation": "внедрение технологий" },
+    { "original": "impact", "english": "societal impact", "translation": "глобальное влияние" }
   ]
 }

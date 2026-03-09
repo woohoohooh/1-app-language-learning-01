@@ -3,150 +3,34 @@
   "level": "Intermediate",
   "name": "Phrase",
   "items": [
-    {
-      "original": "education",
-      "english": "get education",
-      "translation": "получить образование"
-    },
-    {
-      "original": "learning",
-      "english": "start learning",
-      "translation": "начать обучение"
-    },
-    {
-      "original": "knowledge",
-      "english": "share knowledge",
-      "translation": "делиться знаниями"
-    },
-    {
-      "original": "skill",
-      "english": "learn skill",
-      "translation": "учить навык"
-    },
-    {
-      "original": "student",
-      "english": "new student",
-      "translation": "новый студент"
-    },
-    {
-      "original": "instructor",
-      "english": "meet instructor",
-      "translation": "встретить инструктора"
-    },
-    {
-      "original": "mentor",
-      "english": "find mentor",
-      "translation": "найти наставника"
-    },
-    {
-      "original": "classmate",
-      "english": "talk to classmate",
-      "translation": "поговорить с одногруппником"
-    },
-    {
-      "original": "course",
-      "english": "take course",
-      "translation": "пройти курс"
-    },
-    {
-      "original": "lesson",
-      "english": "start lesson",
-      "translation": "начать урок"
-    },
-    {
-      "original": "lecture",
-      "english": "attend lecture",
-      "translation": "посетить лекцию"
-    },
-    {
-      "original": "practice",
-      "english": "do practice",
-      "translation": "делать практику"
-    },
-    {
-      "original": "assignment",
-      "english": "finish assignment",
-      "translation": "закончить задание"
-    },
-    {
-      "original": "homework",
-      "english": "do homework",
-      "translation": "делать домашнее задание"
-    },
-    {
-      "original": "exam",
-      "english": "pass exam",
-      "translation": "сдать экзамен"
-    },
-    {
-      "original": "test",
-      "english": "take test",
-      "translation": "сдать тест"
-    },
-    {
-      "original": "grade",
-      "english": "get grade",
-      "translation": "получить оценку"
-    },
-    {
-      "original": "certificate",
-      "english": "get certificate",
-      "translation": "получить сертификат"
-    },
-    {
-      "original": "qualification",
-      "english": "gain qualification",
-      "translation": "получить квалификацию"
-    },
-    {
-      "original": "progress",
-      "english": "track progress",
-      "translation": "отслеживать прогресс"
-    },
-    {
-      "original": "result",
-      "english": "see result",
-      "translation": "увидеть результат"
-    },
-    {
-      "original": "online course",
-      "english": "join online course",
-      "translation": "записаться на онлайн-курс"
-    },
-    {
-      "original": "platform",
-      "english": "learning platform",
-      "translation": "платформа обучения"
-    },
-    {
-      "original": "material",
-      "english": "study material",
-      "translation": "изучать материал"
-    },
-    {
-      "original": "resource",
-      "english": "use resource",
-      "translation": "использовать ресурс"
-    },
-    {
-      "original": "schedule",
-      "english": "check schedule",
-      "translation": "проверить расписание"
-    },
-    {
-      "original": "deadline",
-      "english": "meet deadline",
-      "translation": "успеть к дедлайну"
-    },
-    {
-      "original": "feedback",
-      "english": "give feedback",
-      "translation": "дать обратную связь"
-    },
-    {
-      "original": "improvement",
-      "english": "show improvement",
-      "translation": "показать улучшение"
-    }
+    {"original":"education","english":"get education","translation":"получить образование"},
+    {"original":"learning","english":"start learning","translation":"начать обучение"},
+    {"original":"knowledge","english":"share knowledge","translation":"делиться знаниями"},
+    {"original":"skill","english":"learn new skill","translation":"учить навык"},
+    {"original":"student","english":"new student","translation":"новый студент"},
+    {"original":"instructor","english":"meet instructor","translation":"встретить инструктора"},
+    {"original":"mentor","english":"find mentor","translation":"найти наставника"},
+    {"original":"classmate","english":"talk to classmate","translation":"поговорить с одногруппником"},
+    {"original":"course","english":"take course","translation":"пройти курс"},
+    {"original":"lesson","english":"start lesson","translation":"начать урок"},
+    {"original":"lecture","english":"attend lecture","translation":"посетить лекцию"},
+    {"original":"practice","english":"do exercises","translation":"делать практику"},
+    {"original":"assignment","english":"finish assignment","translation":"закончить задание"},
+    {"original":"homework","english":"do homework","translation":"делать домашнее задание"},
+    {"original":"exam","english":"pass exam","translation":"сдать экзамен"},
+    {"original":"test","english":"take test","translation":"сдать тест"},
+    {"original":"grade","english":"get grade","translation":"получить оценку"},
+    {"original":"certificate","english":"get certificate","translation":"получить сертификат"},
+    {"original":"qualification","english":"gain qualification","translation":"получить квалификацию"},
+    {"original":"progress","english":"track progress","translation":"отслеживать прогресс"},
+    {"original":"result","english":"see results","translation":"увидеть результат"},
+    {"original":"online course","english":"join online course","translation":"записаться на онлайн-курс"},
+    {"original":"platform","english":"learning platform","translation":"платформа обучения"},
+    {"original":"material","english":"study material","translation":"изучать материал"},
+    {"original":"resource","english":"use resources","translation":"использовать ресурс"},
+    {"original":"schedule","english":"check schedule","translation":"проверить расписание"},
+    {"original":"deadline","english":"meet deadline","translation":"успеть к дедлайну"},
+    {"original":"feedback","english":"give feedback","translation":"дать обратную связь"},
+    {"original":"improvement","english":"show improvement","translation":"показать улучшение"}
   ]
 }

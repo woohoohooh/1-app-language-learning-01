@@ -3,205 +3,45 @@
   "level": "Advanced",
   "name": "Phrase",
   "items": [
-    {
-      "original": "international",
-      "english": "international project",
-      "translation": "международный проект"
-    },
-    {
-      "original": "global",
-      "english": "global market",
-      "translation": "глобальный рынок"
-    },
-    {
-      "original": "cross-cultural",
-      "english": "cross-cultural communication",
-      "translation": "межкультурная коммуникация"
-    },
-    {
-      "original": "multinational",
-      "english": "multinational company",
-      "translation": "многонациональная компания"
-    },
-    {
-      "original": "foreign",
-      "english": "foreign partner",
-      "translation": "иностранный партнёр"
-    },
-    {
-      "original": "colleague",
-      "english": "senior colleague",
-      "translation": "старший коллега"
-    },
-    {
-      "original": "counterpart",
-      "english": "local counterpart",
-      "translation": "местный коллега с другой стороны"
-    },
-    {
-      "original": "stakeholder",
-      "english": "key stakeholder",
-      "translation": "ключевая заинтересованная сторона"
-    },
-    {
-      "original": "client",
-      "english": "major client",
-      "translation": "крупный клиент"
-    },
-    {
-      "original": "partner",
-      "english": "strategic partner",
-      "translation": "стратегический партнёр"
-    },
-    {
-      "original": "timezone",
-      "english": "different timezone",
-      "translation": "другой часовой пояс"
-    },
-    {
-      "original": "schedule",
-      "english": "flexible schedule",
-      "translation": "гибкий график"
-    },
-    {
-      "original": "availability",
-      "english": "limited availability",
-      "translation": "ограниченная доступность"
-    },
-    {
-      "original": "deadline",
-      "english": "tight deadline",
-      "translation": "жёсткий дедлайн"
-    },
-    {
-      "original": "overlap",
-      "english": "time overlap",
-      "translation": "временное пересечение"
-    },
-    {
-      "original": "remote",
-      "english": "remote position",
-      "translation": "удалённая позиция"
-    },
-    {
-      "original": "distributed team",
-      "english": "distributed team",
-      "translation": "распределённая команда"
-    },
-    {
-      "original": "headquarters",
-      "english": "company headquarters",
-      "translation": "штаб-квартира компании"
-    },
-    {
-      "original": "branch",
-      "english": "local branch",
-      "translation": "местный филиал"
-    },
-    {
-      "original": "office",
-      "english": "regional office",
-      "translation": "региональный офис"
-    },
-    {
-      "original": "language barrier",
-      "english": "language barrier",
-      "translation": "языковой барьер"
-    },
-    {
-      "original": "accent",
-      "english": "strong accent",
-      "translation": "сильный акцент"
-    },
-    {
-      "original": "fluency",
-      "english": "high fluency",
-      "translation": "высокая беглость речи"
-    },
-    {
-      "original": "clarity",
-      "english": "clear clarity",
-      "translation": "полная ясность"
-    },
-    {
-      "original": "misunderstanding",
-      "english": "serious misunderstanding",
-      "translation": "серьёзное недопонимание"
-    },
-    {
-      "original": "expectations",
-      "english": "high expectations",
-      "translation": "высокие ожидания"
-    },
-    {
-      "original": "requirements",
-      "english": "strict requirements",
-      "translation": "строгие требования"
-    },
-    {
-      "original": "responsibility",
-      "english": "full responsibility",
-      "translation": "полная ответственность"
-    },
-    {
-      "original": "authority",
-      "english": "decision authority",
-      "translation": "полномочия принимать решения"
-    },
-    {
-      "original": "decision",
-      "english": "final decision",
-      "translation": "окончательное решение"
-    },
-    {
-      "original": "work permit",
-      "english": "valid work permit",
-      "translation": "действующее разрешение на работу"
-    },
-    {
-      "original": "visa",
-      "english": "entry visa",
-      "translation": "въездная виза"
-    },
-    {
-      "original": "relocation",
-      "english": "employee relocation",
-      "translation": "релокация сотрудника"
-    },
-    {
-      "original": "contract",
-      "english": "employment contract",
-      "translation": "трудовой контракт"
-    },
-    {
-      "original": "compliance",
-      "english": "regulatory compliance",
-      "translation": "соответствие нормативным требованиям"
-    },
-    {
-      "original": "business trip",
-      "english": "business trip",
-      "translation": "командировка"
-    },
-    {
-      "original": "negotiation",
-      "english": "price negotiation",
-      "translation": "переговоры по цене"
-    },
-    {
-      "original": "agreement",
-      "english": "formal agreement",
-      "translation": "официальное соглашение"
-    },
-    {
-      "original": "approval",
-      "english": "final approval",
-      "translation": "окончательное утверждение"
-    },
-    {
-      "original": "coordination",
-      "english": "team coordination",
-      "translation": "координация команды"
-    }
+    { "original": "international", "english": "international project", "translation": "международный проект" },
+    { "original": "global", "english": "global market", "translation": "глобальный рынок" },
+    { "original": "cross-cultural", "english": "cross-cultural communication", "translation": "межкультурная коммуникация" },
+    { "original": "multinational", "english": "multinational company", "translation": "многонациональная компания" },
+    { "original": "foreign", "english": "foreign partner", "translation": "иностранный партнёр" },
+    { "original": "colleague", "english": "senior colleague", "translation": "старший коллега" },
+    { "original": "counterpart", "english": "local counterpart", "translation": "местный коллега с другой стороны" },
+    { "original": "stakeholder", "english": "key stakeholder", "translation": "ключевая заинтересованная сторона" },
+    { "original": "client", "english": "major client", "translation": "крупный клиент" },
+    { "original": "partner", "english": "strategic partner", "translation": "стратегический партнёр" },
+    { "original": "timezone", "english": "different timezone", "translation": "другой часовой пояс" },
+    { "original": "schedule", "english": "flexible schedule", "translation": "гибкий график" },
+    { "original": "availability", "english": "limited availability", "translation": "ограниченная доступность" },
+    { "original": "deadline", "english": "tight deadline", "translation": "жёсткий дедлайн" },
+    { "original": "overlap", "english": "time overlap", "translation": "временное пересечение" },
+    { "original": "remote", "english": "remote position", "translation": "удалённая позиция" },
+    { "original": "distributed team", "english": "global distributed team", "translation": "распределённая команда" },
+    { "original": "headquarters", "english": "company headquarters", "translation": "штаб-квартира компании" },
+    { "original": "branch", "english": "local branch", "translation": "местный филиал" },
+    { "original": "office", "english": "regional office", "translation": "региональный офис" },
+    { "original": "language barrier", "english": "language barrier issue", "translation": "языковой барьер" },
+    { "original": "accent", "english": "noticeable accent", "translation": "сильный акцент" },
+    { "original": "fluency", "english": "professional fluency", "translation": "высокая беглость речи" },
+    { "original": "clarity", "english": "message clarity", "translation": "полная ясность" },
+    { "original": "misunderstanding", "english": "serious misunderstanding", "translation": "серьёзное недопонимание" },
+    { "original": "expectations", "english": "client expectations", "translation": "высокие ожидания" },
+    { "original": "requirements", "english": "strict requirements", "translation": "строгие требования" },
+    { "original": "responsibility", "english": "personal responsibility", "translation": "полная ответственность" },
+    { "original": "authority", "english": "decision authority", "translation": "полномочия принимать решения" },
+    { "original": "decision", "english": "final decision", "translation": "окончательное решение" },
+    { "original": "work permit", "english": "valid work permit", "translation": "действующее разрешение на работу" },
+    { "original": "visa", "english": "entry visa", "translation": "въездная виза" },
+    { "original": "relocation", "english": "employee relocation", "translation": "релокация сотрудника" },
+    { "original": "contract", "english": "employment contract", "translation": "трудовой контракт" },
+    { "original": "compliance", "english": "regulatory compliance", "translation": "соответствие нормативным требованиям" },
+    { "original": "business trip", "english": "international business trip", "translation": "командировка" },
+    { "original": "negotiation", "english": "price negotiation", "translation": "переговоры по цене" },
+    { "original": "agreement", "english": "formal agreement", "translation": "официальное соглашение" },
+    { "original": "approval", "english": "final approval", "translation": "окончательное утверждение" },
+    { "original": "coordination", "english": "team coordination", "translation": "координация команды" }
   ]
 }

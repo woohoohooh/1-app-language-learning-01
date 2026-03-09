@@ -3,205 +3,45 @@
   "level": "Intermediate",
   "name": "Phrases",
   "items": [
-    {
-      "original": "hobby",
-      "english": "my hobby",
-      "translation": "мое хобби"
-    },
-    {
-      "original": "interest",
-      "english": "main interest",
-      "translation": "основной интерес"
-    },
-    {
-      "original": "leisure",
-      "english": "leisure time",
-      "translation": "досуг"
-    },
-    {
-      "original": "free time",
-      "english": "free time",
-      "translation": "свободное время"
-    },
-    {
-      "original": "entertainment",
-      "english": "live entertainment",
-      "translation": "живое развлечение"
-    },
-    {
-      "original": "fun",
-      "english": "have fun",
-      "translation": "веселиться"
-    },
-    {
-      "original": "relaxation",
-      "english": "deep relaxation",
-      "translation": "глубокое расслабление"
-    },
-    {
-      "original": "challenge",
-      "english": "new challenge",
-      "translation": "новый вызов"
-    },
-    {
-      "original": "music",
-      "english": "listen music",
-      "translation": "слушать музыку"
-    },
-    {
-      "original": "concert",
-      "english": "live concert",
-      "translation": "живой концерт"
-    },
-    {
-      "original": "playlist",
-      "english": "favorite playlist",
-      "translation": "любимый плейлист"
-    },
-    {
-      "original": "podcast",
-      "english": "popular podcast",
-      "translation": "популярный подкаст"
-    },
-    {
-      "original": "audiobook",
-      "english": "audio book",
-      "translation": "аудиокнига"
-    },
-    {
-      "original": "movie",
-      "english": "watch movie",
-      "translation": "смотреть фильм"
-    },
-    {
-      "original": "series",
-      "english": "tv series",
-      "translation": "сериал"
-    },
-    {
-      "original": "streaming",
-      "english": "online streaming",
-      "translation": "онлайн-стриминг"
-    },
-    {
-      "original": "episode",
-      "english": "new episode",
-      "translation": "новый эпизод"
-    },
-    {
-      "original": "genre",
-      "english": "movie genre",
-      "translation": "жанр фильма"
-    },
-    {
-      "original": "game",
-      "english": "play game",
-      "translation": "играть в игру"
-    },
-    {
-      "original": "gaming",
-      "english": "online gaming",
-      "translation": "онлайн-гейминг"
-    },
-    {
-      "original": "console",
-      "english": "game console",
-      "translation": "игровая консоль"
-    },
-    {
-      "original": "multiplayer",
-      "english": "multiplayer mode",
-      "translation": "многопользовательский режим"
-    },
-    {
-      "original": "strategy",
-      "english": "game strategy",
-      "translation": "игровая стратегия"
-    },
-    {
-      "original": "reading",
-      "english": "love reading",
-      "translation": "любить читать"
-    },
-    {
-      "original": "writing",
-      "english": "creative writing",
-      "translation": "творческое письмо"
-    },
-    {
-      "original": "blog",
-      "english": "personal blog",
-      "translation": "личный блог"
-    },
-    {
-      "original": "photography",
-      "english": "digital photography",
-      "translation": "цифровая фотография"
-    },
-    {
-      "original": "editing",
-      "english": "video editing",
-      "translation": "видеомонтаж"
-    },
-    {
-      "original": "traveling",
-      "english": "travel abroad",
-      "translation": "путешествовать за границу"
-    },
-    {
-      "original": "adventure",
-      "english": "new adventure",
-      "translation": "новое приключение"
-    },
-    {
-      "original": "exploration",
-      "english": "nature exploration",
-      "translation": "исследование природы"
-    },
-    {
-      "original": "camping",
-      "english": "go camping",
-      "translation": "ехать в кемпинг"
-    },
-    {
-      "original": "hiking",
-      "english": "mountain hiking",
-      "translation": "горный поход"
-    },
-    {
-      "original": "creative",
-      "english": "creative project",
-      "translation": "творческий проект"
-    },
-    {
-      "original": "collection",
-      "english": "stamp collection",
-      "translation": "коллекция марок"
-    },
-    {
-      "original": "design",
-      "english": "graphic design",
-      "translation": "графический дизайн"
-    },
-    {
-      "original": "DIY",
-      "english": "diy project",
-      "translation": "проект сделай сам"
-    },
-    {
-      "original": "activity",
-      "english": "outdoor activity",
-      "translation": "активность на улице"
-    },
-    {
-      "original": "experience",
-      "english": "new experience",
-      "translation": "новый опыт"
-    },
-    {
-      "original": "craft",
-      "english": "handmade craft",
-      "translation": "ручное рукоделие"
-    }
+    {"original":"hobby","english":"my hobby","translation":"мое хобби"},
+    {"original":"interest","english":"main interest","translation":"основной интерес"},
+    {"original":"leisure","english":"leisure time","translation":"досуг"},
+    {"original":"free time","english":"free time","translation":"свободное время"},
+    {"original":"entertainment","english":"live entertainment","translation":"живое развлечение"},
+    {"original":"fun","english":"have fun","translation":"веселиться"},
+    {"original":"relaxation","english":"deep relaxation","translation":"глубокое расслабление"},
+    {"original":"challenge","english":"new challenge","translation":"новый вызов"},
+    {"original":"music","english":"listen to music","translation":"слушать музыку"},
+    {"original":"concert","english":"live concert","translation":"живой концерт"},
+    {"original":"playlist","english":"favorite playlist","translation":"любимый плейлист"},
+    {"original":"podcast","english":"popular podcast","translation":"популярный подкаст"},
+    {"original":"audiobook","english":"audiobook","translation":"аудиокнига"},
+    {"original":"movie","english":"watch movies","translation":"смотреть фильм"},
+    {"original":"series","english":"tv series","translation":"сериал"},
+    {"original":"streaming","english":"online streaming","translation":"онлайн-стриминг"},
+    {"original":"episode","english":"new episode","translation":"новый эпизод"},
+    {"original":"genre","english":"movie genre","translation":"жанр фильма"},
+    {"original":"game","english":"play games","translation":"играть в игру"},
+    {"original":"gaming","english":"online gaming","translation":"онлайн-гейминг"},
+    {"original":"console","english":"game console","translation":"игровая консоль"},
+    {"original":"multiplayer","english":"multiplayer mode","translation":"многопользовательский режим"},
+    {"original":"strategy","english":"game strategy","translation":"игровая стратегия"},
+    {"original":"reading","english":"love reading","translation":"любить читать"},
+    {"original":"writing","english":"creative writing","translation":"творческое письмо"},
+    {"original":"blog","english":"personal blog","translation":"личный блог"},
+    {"original":"photography","english":"digital photography","translation":"цифровая фотография"},
+    {"original":"editing","english":"video editing","translation":"видеомонтаж"},
+    {"original":"traveling","english":"travel abroad","translation":"путешествовать за границу"},
+    {"original":"adventure","english":"new adventure","translation":"новое приключение"},
+    {"original":"exploration","english":"nature exploration","translation":"исследование природы"},
+    {"original":"camping","english":"go camping","translation":"ехать в кемпинг"},
+    {"original":"hiking","english":"mountain hiking","translation":"горный поход"},
+    {"original":"creative","english":"creative project","translation":"творческий проект"},
+    {"original":"collection","english":"stamp collection","translation":"коллекция марок"},
+    {"original":"design","english":"graphic design","translation":"графический дизайн"},
+    {"original":"DIY","english":"DIY project","translation":"проект сделай сам"},
+    {"original":"activity","english":"outdoor activity","translation":"активность на улице"},
+    {"original":"experience","english":"new experience","translation":"новый опыт"},
+    {"original":"craft","english":"handmade craft","translation":"ручное рукоделие"}
   ]
 }

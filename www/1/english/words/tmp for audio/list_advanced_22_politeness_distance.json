@@ -3,160 +3,36 @@
   "level": "Advanced",
   "name": "Phrases",
   "items": [
-    {
-      "original": "politeness",
-      "english": "basic politeness",
-      "translation": "базовая вежливость"
-    },
-    {
-      "original": "courtesy",
-      "english": "professional courtesy",
-      "translation": "профессиональная учтивость"
-    },
-    {
-      "original": "respect",
-      "english": "mutual respect",
-      "translation": "взаимное уважение"
-    },
-    {
-      "original": "formality",
-      "english": "strict formality",
-      "translation": "строгая формальность"
-    },
-    {
-      "original": "informality",
-      "english": "casual informality",
-      "translation": "неформальное общение"
-    },
-    {
-      "original": "distance",
-      "english": "emotional distance",
-      "translation": "эмоциональная дистанция"
-    },
-    {
-      "original": "boundary",
-      "english": "clear boundary",
-      "translation": "чёткая граница"
-    },
-    {
-      "original": "professionalism",
-      "english": "high professionalism",
-      "translation": "высокий профессионализм"
-    },
-    {
-      "original": "neutrality",
-      "english": "strict neutrality",
-      "translation": "строгая нейтральность"
-    },
-    {
-      "original": "objectivity",
-      "english": "full objectivity",
-      "translation": "полная объективность"
-    },
-    {
-      "original": "tone",
-      "english": "formal tone",
-      "translation": "официальный тон"
-    },
-    {
-      "original": "manner",
-      "english": "polite manner",
-      "translation": "вежливая манера"
-    },
-    {
-      "original": "attitude",
-      "english": "respectful attitude",
-      "translation": "уважительное отношение"
-    },
-    {
-      "original": "approach",
-      "english": "careful approach",
-      "translation": "осторожный подход"
-    },
-    {
-      "original": "consideration",
-      "english": "deep consideration",
-      "translation": "глубокая тактичность"
-    },
-    {
-      "original": "tact",
-      "english": "natural tact",
-      "translation": "естественный такт"
-    },
-    {
-      "original": "diplomacy",
-      "english": "quiet diplomacy",
-      "translation": "тихая дипломатичность"
-    },
-    {
-      "original": "restraint",
-      "english": "emotional restraint",
-      "translation": "эмоциональная сдержанность"
-    },
-    {
-      "original": "discretion",
-      "english": "professional discretion",
-      "translation": "профессиональная деликатность"
-    },
-    {
-      "original": "directness",
-      "english": "honest directness",
-      "translation": "честная прямота"
-    },
-    {
-      "original": "indirectness",
-      "english": "polite indirectness",
-      "translation": "вежливая косвенность"
-    },
-    {
-      "original": "softness",
-      "english": "gentle softness",
-      "translation": "мягкость в общении"
-    },
-    {
-      "original": "firmness",
-      "english": "calm firmness",
-      "translation": "спокойная твёрдость"
-    },
-    {
-      "original": "appropriateness",
-      "english": "social appropriateness",
-      "translation": "социальная уместность"
-    },
-    {
-      "original": "context",
-      "english": "cultural context",
-      "translation": "культурный контекст"
-    },
-    {
-      "original": "hierarchy",
-      "english": "corporate hierarchy",
-      "translation": "корпоративная иерархия"
-    },
-    {
-      "original": "seniority",
-      "english": "professional seniority",
-      "translation": "профессиональное старшинство"
-    },
-    {
-      "original": "distance-keeping",
-      "english": "strict distance-keeping",
-      "translation": "строгое соблюдение дистанции"
-    },
-    {
-      "original": "familiarity",
-      "english": "excessive familiarity",
-      "translation": "чрезмерная фамильярность"
-    },
-    {
-      "original": "detachment",
-      "english": "emotional detachment",
-      "translation": "эмоциональная отстранённость"
-    },
-    {
-      "original": "reserve",
-      "english": "quiet reserve",
-      "translation": "спокойная сдержанность"
-    }
+    { "original": "politeness", "english": "everyday politeness", "translation": "базовая вежливость" },
+    { "original": "courtesy", "english": "professional courtesy", "translation": "профессиональная учтивость" },
+    { "original": "respect", "english": "mutual respect", "translation": "взаимное уважение" },
+    { "original": "formality", "english": "professional formality", "translation": "строгая формальность" },
+    { "original": "informality", "english": "casual informality", "translation": "неформальное общение" },
+    { "original": "distance", "english": "emotional distance", "translation": "эмоциональная дистанция" },
+    { "original": "boundary", "english": "personal boundary", "translation": "чёткая граница" },
+    { "original": "professionalism", "english": "professional conduct", "translation": "высокий профессионализм" },
+    { "original": "neutrality", "english": "political neutrality", "translation": "строгая нейтральность" },
+    { "original": "objectivity", "english": "professional objectivity", "translation": "полная объективность" },
+    { "original": "tone", "english": "formal tone", "translation": "официальный тон" },
+    { "original": "manner", "english": "polite manner", "translation": "вежливая манера" },
+    { "original": "attitude", "english": "respectful attitude", "translation": "уважительное отношение" },
+    { "original": "approach", "english": "measured approach", "translation": "осторожный подход" },
+    { "original": "consideration", "english": "thoughtful consideration", "translation": "глубокая тактичность" },
+    { "original": "tact", "english": "natural tact", "translation": "естественный такт" },
+    { "original": "diplomacy", "english": "tactful diplomacy", "translation": "тихая дипломатичность" },
+    { "original": "restraint", "english": "emotional restraint", "translation": "эмоциональная сдержанность" },
+    { "original": "discretion", "english": "professional discretion", "translation": "профессиональная деликатность" },
+    { "original": "directness", "english": "plain directness", "translation": "честная прямота" },
+    { "original": "indirectness", "english": "polite indirectness", "translation": "вежливая косвенность" },
+    { "original": "softness", "english": "verbal softness", "translation": "мягкость в общении" },
+    { "original": "firmness", "english": "measured firmness", "translation": "спокойная твёрдость" },
+    { "original": "appropriateness", "english": "social appropriateness", "translation": "социальная уместность" },
+    { "original": "context", "english": "cultural context", "translation": "культурный контекст" },
+    { "original": "hierarchy", "english": "corporate hierarchy", "translation": "корпоративная иерархия" },
+    { "original": "seniority", "english": "professional seniority", "translation": "профессиональное старшинство" },
+    { "original": "distance-keeping", "english": "professional distance", "translation": "строгое соблюдение дистанции" },
+    { "original": "familiarity", "english": "excessive familiarity", "translation": "чрезмерная фамильярность" },
+    { "original": "detachment", "english": "emotional detachment", "translation": "эмоциональная отстранённость" },
+    { "original": "reserve", "english": "personal reserve", "translation": "спокойная сдержанность" }
   ]
 }

@@ -3,150 +3,34 @@
   "level": "Advanced",
   "name": "Phrases",
   "items": [
-    {
-      "original": "subtext",
-      "english": "hidden subtext",
-      "translation": "скрытый подтекст"
-    },
-    {
-      "original": "hint",
-      "english": "subtle hint",
-      "translation": "тонкий намёк"
-    },
-    {
-      "original": "signal",
-      "english": "clear signal",
-      "translation": "чёткий сигнал"
-    },
-    {
-      "original": "cue",
-      "english": "visual cue",
-      "translation": "визуальная подсказка"
-    },
-    {
-      "original": "clue",
-      "english": "small clue",
-      "translation": "небольшая зацепка"
-    },
-    {
-      "original": "meaning",
-      "english": "hidden meaning",
-      "translation": "скрытый смысл"
-    },
-    {
-      "original": "interpretation",
-      "english": "personal interpretation",
-      "translation": "личная интерпретация"
-    },
-    {
-      "original": "reading",
-      "english": "critical reading",
-      "translation": "критическая трактовка"
-    },
-    {
-      "original": "intention",
-      "english": "true intention",
-      "translation": "истинное намерение"
-    },
-    {
-      "original": "message",
-      "english": "core message",
-      "translation": "основной посыл"
-    },
-    {
-      "original": "suggestion",
-      "english": "subtle suggestion",
-      "translation": "тонкое предложение"
-    },
-    {
-      "original": "reference",
-      "english": "cultural reference",
-      "translation": "культурная отсылка"
-    },
-    {
-      "original": "allusion",
-      "english": "literary allusion",
-      "translation": "литературная аллюзия"
-    },
-    {
-      "original": "implication",
-      "english": "hidden implication",
-      "translation": "скрытый подтекст"
-    },
-    {
-      "original": "assumption",
-      "english": "common assumption",
-      "translation": "распространённое предположение"
-    },
-    {
-      "original": "emphasis",
-      "english": "strong emphasis",
-      "translation": "сильный акцент"
-    },
-    {
-      "original": "choice-of-words",
-      "english": "careful choice",
-      "translation": "тщательный выбор слов"
-    },
-    {
-      "original": "framing",
-      "english": "strategic framing",
-      "translation": "стратегическая подача"
-    },
-    {
-      "original": "positioning",
-      "english": "smart positioning",
-      "translation": "грамотное позиционирование"
-    },
-    {
-      "original": "hesitation",
-      "english": "brief hesitation",
-      "translation": "краткая заминка"
-    },
-    {
-      "original": "pause",
-      "english": "awkward pause",
-      "translation": "неловкая пауза"
-    },
-    {
-      "original": "silence",
-      "english": "meaningful silence",
-      "translation": "значительное молчание"
-    },
-    {
-      "original": "avoidance",
-      "english": "topic avoidance",
-      "translation": "уход от темы"
-    },
-    {
-      "original": "evasion",
-      "english": "direct evasion",
-      "translation": "прямое уклонение"
-    },
-    {
-      "original": "indirectness",
-      "english": "deliberate indirectness",
-      "translation": "намеренная косвенность"
-    },
-    {
-      "original": "implicitness",
-      "english": "subtle implicitness",
-      "translation": "тонкая неявность"
-    },
-    {
-      "original": "nuance",
-      "english": "slight nuance",
-      "translation": "лёгкий нюанс"
-    },
-    {
-      "original": "subtlety",
-      "english": "fine subtlety",
-      "translation": "тонкая деталь"
-    },
-    {
-      "original": "undertone",
-      "english": "emotional undertone",
-      "translation": "эмоциональный подтекст"
-    }
+    { "original": "subtext", "english": "hidden subtext", "translation": "скрытый подтекст" },
+    { "original": "hint", "english": "subtle hint", "translation": "тонкий намёк" },
+    { "original": "signal", "english": "direct signal", "translation": "чёткий сигнал" },
+    { "original": "cue", "english": "visual cue", "translation": "визуальная подсказка" },
+    { "original": "clue", "english": "subtle clue", "translation": "небольшая зацепка" },
+    { "original": "meaning", "english": "hidden meaning", "translation": "скрытый смысл" },
+    { "original": "interpretation", "english": "personal interpretation", "translation": "личная интерпретация" },
+    { "original": "reading", "english": "critical reading", "translation": "критическая трактовка" },
+    { "original": "intention", "english": "real intention", "translation": "истинное намерение" },
+    { "original": "message", "english": "main message", "translation": "основной посыл" },
+    { "original": "suggestion", "english": "subtle suggestion", "translation": "тонкое предложение" },
+    { "original": "reference", "english": "cultural reference", "translation": "культурная отсылка" },
+    { "original": "allusion", "english": "literary allusion", "translation": "литературная аллюзия" },
+    { "original": "implication", "english": "hidden implication", "translation": "скрытый подтекст" },
+    { "original": "assumption", "english": "common assumption", "translation": "распространённое предположение" },
+    { "original": "emphasis", "english": "verbal emphasis", "translation": "сильный акцент" },
+    { "original": "choice-of-words", "english": "careful choice", "translation": "тщательный выбор слов" },
+    { "original": "framing", "english": "strategic framing", "translation": "стратегическая подача" },
+    { "original": "positioning", "english": "strategic positioning", "translation": "грамотное позиционирование" },
+    { "original": "hesitation", "english": "momentary hesitation", "translation": "краткая заминка" },
+    { "original": "pause", "english": "awkward pause", "translation": "неловкая пауза" },
+    { "original": "silence", "english": "meaningful silence", "translation": "значительное молчание" },
+    { "original": "avoidance", "english": "topic avoidance", "translation": "уход от темы" },
+    { "original": "evasion", "english": "direct evasion", "translation": "прямое уклонение" },
+    { "original": "indirectness", "english": "deliberate indirectness", "translation": "намеренная косвенность" },
+    { "original": "implicitness", "english": "subtle implicitness", "translation": "тонкая неявность" },
+    { "original": "nuance", "english": "subtle nuance", "translation": "лёгкий нюанс" },
+    { "original": "subtlety", "english": "verbal subtlety", "translation": "тонкая деталь" },
+    { "original": "undertone", "english": "emotional undertone", "translation": "эмоциональный подтекст" }
   ]
 }
