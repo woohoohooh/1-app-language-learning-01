@@ -1,31 +1,1122 @@
-Понял, извини. Давай сначала внимательно изучу оригинал, чтобы понять КАК там сделаны кошки и объекты — их хитрое слияние, разнообразие поз, отсутствие очевидных глаз.Файл не загружен в систему, он был в тексте диалога. Давай я тщательно проанализирую оригинал прямо из разговора.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>Find the Farm Kittens! — Level 2</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+body { background: #1a1208; overflow: hidden; font-family: 'Caveat', cursive; touch-action: pan-x pan-y; }
 
-Вот что я вижу в level 1 и что нужно воспроизвести правильно:
+#scene { position: fixed; inset: 0; overflow: hidden; }
 
-**Как устроены кошки в оригинале:**
-- `cat-001` — лежит в сене, СВЕРХУ стога, форма тела = просто вытянутый эллипс цвета сена, голова маленькая сбоку, хвост — просто изогнутая линия
-- `cat-002` — в тёмном окне с паутиной, тёмный круг = почти невидим, только жёлто-зелёные глаза-щёлочки
-- `cat-003` — на каменной стене, горизонтальный прямоугольник цвета камня, уши еле видны
-- `cat-004` — у ведра с краской, горизонтальный эллипс серого цвета = сливается с ведром
-- `cat-005` — на лилии в пруду, зелёная кошка = выглядит как сама лилия
-- `cat-006` — на бельё, висит вертикально = выглядит как ещё один предмет одежды
-- `cat-007` — в фонаре, маленький оранжевый, похож на пламя
-- `cat-008` — на мешках, цвет мешковины, лежит поверх
-- `cat-009` — в молочном ведре, смотрит изнутри, ТОЛЬКО голова
-- `cat-010` — в бухте верёвки, коричневый эллипс = выглядит как слой верёвкиПеределал с нуля, теперь правильно:
+#world {
+  position: absolute;
+  width: 1200px; height: 800px;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+}
 
-**Главное здание — мельница** (ветряная, круглая каменная башня с конической крышей и парусами), совсем не похожа на амбар.
+#bg-layer, #fg-layer {
+  position: absolute; top: 0; left: 0;
+  width: 1200px; height: 800px;
+}
+#fg-layer { pointer-events: none; z-index: 15; }
 
-**10 кошек с настоящим камуфляжем:**
-1. 🌾 **Стог сена** — кошка = просто ещё один слой сена, голова отвёрнута
-2. 🌑 **Тёмное окно мельницы** — почти чёрная на чёрном, видно только янтарные щёлки глаз
-3. 🪨 **Каменная стена** — серая кошка = ещё один камень, уши как бугорки
-4. 💧 **Лейка** — сине-серая кошка = цвет металла, спиной к игроку
-5. 🌿 **Кувшинка на пруду** — зелёная кошка = сама кувшинка
-6. 👗 **Бельё на верёвке** — кремовая кошка = льняная простыня, лицом вбок
-7. 🔥 **Костёр** — оранжевая кошка = форма языка пламени, кошка IS огонь
-8. 🌽 **Мешки с зерном** — кошка цвета мешковины, ушами вниз
-9. 🪣 **Молочное ведро** — голова торчит изнутри, смотрит вбок
-10. 🪢 **Бухта верёвки** — коричневый эллипс = ещё один виток верёвки, профиль
+.cat-wrap {
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  transition: left 1.05s cubic-bezier(0.4,0,0.5,1),
+              top  0.9s cubic-bezier(0.3,0,0.5,1),
+              transform 0.8s ease-in,
+              opacity 0.35s;
+  touch-action: manipulation;
+  -webkit-touch-callout: none;
+  --hit-padding: 25px;
+}
+.cat-wrap::before {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--hit-padding));
+  left: calc(-1 * var(--hit-padding));
+  right: calc(-1 * var(--hit-padding));
+  bottom: calc(-1 * var(--hit-padding));
+  pointer-events: auto;
+  background: transparent;
+  z-index: -1;
+}
+.cat-wrap > * {
+  pointer-events: none;
+}
+.cat-wrap.found { pointer-events: none; z-index: 30; }
 
-**Нигде нет круглых глаз, смотрящих на игрока.**
+@keyframes catReveal {
+  from { opacity: 0.3; transform: scale(0.85); filter: blur(3px); }
+  to   { opacity: 1;   transform: scale(1);    filter: blur(0);   }
+}
+
+#ui {
+  position: fixed;
+  top: max(12px, env(safe-area-inset-top, 12px));
+  left: max(12px, env(safe-area-inset-left, 12px));
+  background: rgba(248,244,230,0.95);
+  border: 2px solid #2a1a0a;
+  border-radius: 2px;
+  padding: 10px 18px 12px;
+  box-shadow: 3px 3px 0 #2a1a0a;
+  z-index: 40;
+  backdrop-filter: blur(2px);
+}
+#ui h2 {
+  font-family: 'IM Fell English', serif;
+  font-size: 14px; font-style: italic;
+  color: #1a0800;
+  border-bottom: 1px solid #b0905a;
+  padding-bottom: 4px; margin-bottom: 6px;
+}
+#score-line {
+  font-size: 27px;
+  color: #1a0800;
+  letter-spacing: 2px;
+}
+#score-line span {
+  font-family: 'IM Fell English', serif;
+}
+#hint { font-size: 12px; color: #88603a; font-style: italic; margin-top: 5px; }
+
+.paw {
+  position: absolute; pointer-events: none;
+  font-size: 12px; opacity: 0; z-index: 35;
+  animation: pawAnim 1.3s ease-out forwards;
+}
+@keyframes pawAnim {
+  0%   { opacity: 0.85; transform: scale(1) rotate(var(--r)); }
+  100% { opacity: 0;    transform: scale(0.3) rotate(var(--r)) translateY(14px); }
+}
+
+#door-flash {
+  position: absolute;
+  left: 806px; top: 468px;
+  width: 128px; height: 98px;
+  background: radial-gradient(ellipse, #fffde0 0%, transparent 70%);
+  pointer-events: none; z-index: 25;
+  opacity: 0; transition: opacity 0.18s;
+  border-radius: 4px;
+}
+
+#win {
+  display: none; position: fixed; inset: 0;
+  background: rgba(245,238,215,0.97);
+  z-index: 100; align-items: center; justify-content: center;
+  flex-direction: column; gap: 16px;
+  padding: 20px;
+}
+#win.show { display: flex; }
+#win h1 {
+  font-family: 'IM Fell English', serif;
+  font-size: min(52px, 12vw); color: #1a0800; font-style: italic;
+  text-align: center;
+  animation: winPop 0.7s cubic-bezier(0.2,0.8,0.3,1.3) both;
+}
+#win p { font-size: min(22px, 6vw); color: #664420; text-align: center; }
+@keyframes winPop { from { transform: scale(0.3); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+#win button {
+  font-family: 'Caveat', cursive; font-size: min(22px, 6vw);
+  padding: 10px 36px; background: #2a1a0a; color: #f8f2e0;
+  border: none; border-radius: 2px; cursor: pointer;
+  box-shadow: 3px 3px 0 #664420; letter-spacing: 1px;
+  transition: transform 0.1s, box-shadow 0.1s;
+  min-width: 200px;
+  -webkit-appearance: none;
+}
+#win button:active { transform: translate(1px,1px); box-shadow: 2px 2px 0 #664420; }
+
+#cat-tooltip {
+  position: fixed;
+  background: rgba(42,26,10,0.95);
+  color: #f8f2e0;
+  font-family: 'Caveat', cursive;
+  font-size: 26px;
+  padding: 6px 16px 8px;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 99999;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.12s;
+  letter-spacing: 0.5px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  border: 1px solid #b0905a;
+  transform: translateZ(0);
+  left: 0; top: 0;
+}
+
+@media (max-width: 600px) {
+  #cat-tooltip { font-size: 14px; padding: 4px 12px 6px; }
+  #ui { padding: 8px 14px 10px; }
+  #score-line { font-size: 20px; }
+}
+</style>
+</head>
+<body>
+<div id="scene">
+<div id="world">
+
+<!-- ========== BACKGROUND (unchanged) ========== -->
+<svg id="bg-layer" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="b-sk" x="-8%" y="-8%" width="116%" height="116%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="3" seed="7"/>
+    <feDisplacementMap in="SourceGraphic" scale="2"/>
+  </filter>
+  <filter id="b-sk2" x="-6%" y="-6%" width="112%" height="112%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.055" numOctaves="2" seed="11"/>
+    <feDisplacementMap in="SourceGraphic" scale="1.4"/>
+  </filter>
+  <filter id="b-sk3" x="-4%" y="-4%" width="108%" height="108%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.07" numOctaves="2" seed="17"/>
+    <feDisplacementMap in="SourceGraphic" scale="1"/>
+  </filter>
+</defs>
+
+<!-- SKY -->
+<rect x="0" y="0" width="1200" height="800" fill="#ede8da"/>
+<rect x="0" y="0" width="1200" height="460" fill="#ccdde8"/>
+
+<!-- SUN -->
+<circle cx="980" cy="105" r="40" fill="#fff5b0" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk3)"/>
+<g stroke="#2a1a0a" stroke-width="1.5" stroke-linecap="round">
+  <line x1="980" y1="48" x2="980" y2="36"/><line x1="980" y1="174" x2="980" y2="162"/>
+  <line x1="922" y1="105" x2="910" y2="105"/><line x1="1038" y1="105" x2="1050" y2="105"/>
+  <line x1="939" y1="64" x2="930" y2="55"/><line x1="1021" y1="146" x2="1030" y2="155"/>
+  <line x1="1021" y1="64" x2="1030" y2="55"/><line x1="939" y1="146" x2="930" y2="155"/>
+</g>
+
+<!-- BIRDS -->
+<g stroke="#2a1a0a" stroke-width="1.3" fill="none">
+  <path d="M130,95 Q138,89 146,95"/><path d="M153,84 Q161,78 169,84"/>
+  <path d="M320,74 Q328,68 336,74"/><path d="M620,100 Q628,94 636,100"/>
+</g>
+
+<!-- CLOUDS -->
+<g filter="url(#b-sk2)" opacity="0.88">
+  <ellipse cx="210" cy="75" rx="60" ry="28" fill="white" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="255" cy="63" rx="44" ry="24" fill="white" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="175" cy="84" rx="38" ry="21" fill="white" stroke="#2a1a0a" stroke-width="1.5"/>
+</g>
+<g filter="url(#b-sk2)" opacity="0.82">
+  <ellipse cx="650" cy="52" rx="54" ry="24" fill="white" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="690" cy="42" rx="40" ry="20" fill="white" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="622" cy="60" rx="32" ry="17" fill="white" stroke="#2a1a0a" stroke-width="1.4"/>
+</g>
+<g filter="url(#b-sk2)" opacity="0.78">
+  <ellipse cx="820" cy="88" rx="45" ry="22" fill="white" stroke="#2a1a0a" stroke-width="1.4"/>
+  <ellipse cx="855" cy="76" rx="33" ry="18" fill="white" stroke="#2a1a0a" stroke-width="1.3"/>
+</g>
+
+<!-- FAR HILLS -->
+<path d="M0,415 Q120,358 280,390 Q440,422 600,374 Q760,330 930,366 Q1080,398 1200,358 L1200,505 L0,505 Z"
+      fill="#bfcf98" stroke="#2a1a0a" stroke-width="1.5" filter="url(#b-sk)"/>
+
+<!-- NEAR GROUND -->
+<path d="M0,476 Q220,452 460,470 Q700,488 940,462 Q1080,450 1200,460 L1200,800 L0,800 Z"
+      fill="#aec080" stroke="#2a1a0a" stroke-width="2" filter="url(#b-sk)"/>
+
+<!-- DIRT PATH to barn -->
+<path d="M460,800 Q540,742 628,698 Q700,662 752,640"
+      stroke="#c9a348" stroke-width="32" fill="none" stroke-linecap="round" opacity="0.68"/>
+<path d="M462,800 Q542,742 630,698 Q702,662 754,640"
+      stroke="#b08830" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-dasharray="10,9" opacity="0.5"/>
+
+<!-- BARN -->
+<rect x="690" y="555" width="350" height="58" fill="#d2bc94" stroke="#2a1a0a" stroke-width="2" filter="url(#b-sk)"/>
+<rect x="706" y="272" width="318" height="288" fill="#f2e8d8" stroke="#2a1a0a" stroke-width="2.5" filter="url(#b-sk)"/>
+<g stroke="#2a1a0a" stroke-width="0.75" opacity="0.3">
+  <line x1="738" y1="272" x2="738" y2="560"/><line x1="770" y1="272" x2="770" y2="560"/>
+  <line x1="802" y1="272" x2="802" y2="560"/><line x1="834" y1="272" x2="834" y2="560"/>
+  <line x1="866" y1="272" x2="866" y2="560"/><line x1="898" y1="272" x2="898" y2="560"/>
+  <line x1="930" y1="272" x2="930" y2="560"/><line x1="962" y1="272" x2="962" y2="560"/>
+  <line x1="994" y1="272" x2="994" y2="560"/>
+</g>
+<polygon points="690,277 866,135 1042,277" fill="#e4d2a2" stroke="#2a1a0a" stroke-width="2.5" filter="url(#b-sk)"/>
+<g stroke="#2a1a0a" stroke-width="0.85" opacity="0.28">
+  <path d="M726,265 Q743,250 760,265"/><path d="M760,265 Q777,250 794,265"/>
+  <path d="M794,265 Q811,250 828,265"/><path d="M828,265 Q845,250 862,265"/>
+  <path d="M862,265 Q879,250 896,265"/><path d="M896,265 Q913,250 930,265"/>
+  <path d="M930,265 Q947,250 964,265"/><path d="M964,265 Q981,250 998,265"/>
+  <path d="M744,240 Q759,227 774,240"/><path d="M774,240 Q789,227 804,240"/>
+  <path d="M804,240 Q819,227 834,240"/><path d="M834,240 Q849,227 864,240"/>
+</g>
+<line x1="866" y1="135" x2="866" y2="101" stroke="#2a1a0a" stroke-width="2"/>
+<line x1="846" y1="115" x2="886" y2="115" stroke="#2a1a0a" stroke-width="1.8"/>
+<polygon points="846,115 834,110 834,120" fill="#2a1a0a"/>
+<circle cx="866" cy="115" r="4" fill="#2a1a0a"/>
+<!-- Left barn window -->
+<rect x="728" y="312" width="70" height="58" fill="#d8e8c0" stroke="#2a1a0a" stroke-width="2" rx="2" filter="url(#b-sk)"/>
+<line x1="763" y1="312" x2="763" y2="370" stroke="#2a1a0a" stroke-width="1.5"/>
+<line x1="728" y1="341" x2="798" y2="341" stroke="#2a1a0a" stroke-width="1.5"/>
+<line x1="733" y1="317" x2="741" y2="331" stroke="white" stroke-width="1.5" opacity="0.65"/>
+<!-- Right barn window -->
+<rect x="878" y="308" width="74" height="62" fill="#d8e8c0" stroke="#2a1a0a" stroke-width="2" rx="2" filter="url(#b-sk)"/>
+<line x1="915" y1="308" x2="915" y2="370" stroke="#2a1a0a" stroke-width="1.5"/>
+<line x1="878" y1="339" x2="952" y2="339" stroke="#2a1a0a" stroke-width="1.5"/>
+<line x1="883" y1="313" x2="891" y2="327" stroke="white" stroke-width="1.5" opacity="0.65"/>
+<!-- BARN DOORS -->
+<rect x="796" y="464" width="140" height="96" fill="#d8cc9c" stroke="#2a1a0a" stroke-width="2.5" filter="url(#b-sk)"/>
+<line x1="866" y1="464" x2="866" y2="560" stroke="#2a1a0a" stroke-width="2"/>
+<line x1="796" y1="464" x2="864" y2="560" stroke="#2a1a0a" stroke-width="1.5"/>
+<line x1="864" y1="464" x2="796" y2="560" stroke="#2a1a0a" stroke-width="1.5"/>
+<line x1="868" y1="464" x2="936" y2="560" stroke="#2a1a0a" stroke-width="1.5"/>
+<line x1="936" y1="464" x2="868" y2="560" stroke="#2a1a0a" stroke-width="1.5"/>
+<rect x="796" y="482" width="14" height="6" fill="#888" rx="1"/>
+<rect x="796" y="534" width="14" height="6" fill="#888" rx="1"/>
+<rect x="918" y="482" width="14" height="6" fill="#888" rx="1"/>
+<rect x="918" y="534" width="14" height="6" fill="#888" rx="1"/>
+<path d="M796,560 Q866,550 936,560 L936,608 Q866,620 796,608 Z" fill="#100a06" opacity="0.7"/>
+
+<!-- TALL PINE -->
+<path d="M64,558 Q61,490 65,418 Q68,360 63,300 Q60,255 66,212" stroke="#2a1a0a" stroke-width="9" fill="none" stroke-linecap="round" filter="url(#b-sk)"/>
+<polygon points="66,212 34,280 98,280" fill="#90a868" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk)"/>
+<polygon points="66,252 22,336 110,336" fill="#98b070" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk)"/>
+<polygon points="64,302 14,400 116,400" fill="#a0b878" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk)"/>
+<polygon points="64,352 8,468 122,468" fill="#a8c080" stroke="#2a1a0a" stroke-width="2" filter="url(#b-sk)"/>
+<path d="M64,558 Q46,576 28,592" stroke="#2a1a0a" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M64,558 Q82,570 100,580" stroke="#2a1a0a" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+<!-- APPLE TREE -->
+<path d="M318,548 Q315,478 320,410 Q323,352 318,295 Q314,248 320,206"
+      stroke="#2a1a0a" stroke-width="12" fill="none" stroke-linecap="round" filter="url(#b-sk)"/>
+<path d="M319,340 Q290,315 268,290" stroke="#2a1a0a" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M320,320 Q352,298 372,274" stroke="#2a1a0a" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M319,268 Q304,240 298,214" stroke="#2a1a0a" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<path d="M319,258 Q342,234 350,210" stroke="#2a1a0a" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<ellipse cx="320" cy="200" rx="88" ry="72" fill="#b4ca84" stroke="#2a1a0a" stroke-width="2" filter="url(#b-sk)"/>
+<ellipse cx="264" cy="240" rx="56" ry="48" fill="#acc27c" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk)"/>
+<ellipse cx="378" cy="234" rx="60" ry="52" fill="#b8ce88" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk)"/>
+<ellipse cx="320" cy="142" rx="50" ry="40" fill="#bccc8c" stroke="#2a1a0a" stroke-width="1.8" filter="url(#b-sk)"/>
+<circle cx="295" cy="220" r="7" fill="#d84030" stroke="#2a1a0a" stroke-width="1.2" filter="url(#b-sk3)"/>
+<circle cx="342" cy="212" r="6" fill="#c83828" stroke="#2a1a0a" stroke-width="1.1" filter="url(#b-sk3)"/>
+<circle cx="270" cy="248" r="6.5" fill="#d44038" stroke="#2a1a0a" stroke-width="1.1" filter="url(#b-sk3)"/>
+<circle cx="362" cy="248" r="7" fill="#c83030" stroke="#2a1a0a" stroke-width="1.2" filter="url(#b-sk3)"/>
+<path d="M318,548 Q300,566 282,580" stroke="#2a1a0a" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M318,548 Q336,562 354,574" stroke="#2a1a0a" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+
+<!-- FENCE -->
+<g stroke="#2a1a0a" stroke-width="2" fill="#ede4c8">
+  <rect x="0"   y="466" width="14" height="100" rx="1" filter="url(#b-sk)"/>
+  <rect x="80"  y="464" width="14" height="102" rx="1" filter="url(#b-sk)"/>
+  <rect x="160" y="466" width="14" height="100" rx="1" filter="url(#b-sk)"/>
+  <rect x="240" y="464" width="14" height="102" rx="1" filter="url(#b-sk)"/>
+  <rect x="320" y="465" width="14" height="100" rx="1" filter="url(#b-sk)"/>
+  <rect x="400" y="463" width="14" height="103" rx="1" filter="url(#b-sk)"/>
+  <rect x="480" y="465" width="14" height="101" rx="1" filter="url(#b-sk)"/>
+  <rect x="560" y="464" width="14" height="102" rx="1" filter="url(#b-sk)"/>
+  <rect x="640" y="465" width="14" height="100" rx="1" filter="url(#b-sk)"/>
+  <rect x="690" y="463" width="14" height="102" rx="1" filter="url(#b-sk)"/>
+</g>
+<g fill="#ede4c8" stroke="#2a1a0a" stroke-width="1.5">
+  <polygon points="7,466 0,452 14,452"/>
+  <polygon points="87,464 80,450 94,450"/>
+  <polygon points="167,466 160,450 174,450"/>
+  <polygon points="247,464 240,449 254,449"/>
+  <polygon points="327,465 320,449 334,449"/>
+  <polygon points="407,463 400,447 414,447"/>
+  <polygon points="487,465 480,449 494,449"/>
+  <polygon points="567,464 560,448 574,448"/>
+  <polygon points="647,465 640,449 654,449"/>
+  <polygon points="697,463 690,447 704,447"/>
+</g>
+<rect x="0" y="471" width="704" height="9" fill="#ede4c8" stroke="#2a1a0a" stroke-width="1.8" rx="1" filter="url(#b-sk)"/>
+<rect x="0" y="505" width="704" height="9" fill="#ede4c8" stroke="#2a1a0a" stroke-width="1.8" rx="1" filter="url(#b-sk)"/>
+
+<!-- COW (neutral) -->
+<g filter="url(#b-sk2)" transform="translate(1035,572) scale(0.85)">
+  <ellipse cx="52" cy="32" rx="50" ry="28" fill="#f0eae0" stroke="#2a1a0a" stroke-width="2"/>
+  <ellipse cx="35" cy="28" rx="13" ry="8" fill="#8a6040" stroke="#2a1a0a" stroke-width="0.8" opacity="0.7"/>
+  <ellipse cx="64" cy="38" rx="9" ry="6" fill="#8a6040" stroke="#2a1a0a" stroke-width="0.8" opacity="0.6"/>
+  <ellipse cx="-6" cy="24" rx="18" ry="15" fill="#f0eae0" stroke="#2a1a0a" stroke-width="1.8"/>
+  <path d="M-14,12 Q-20,4 -12,2" stroke="#2a1a0a" stroke-width="1.5" fill="none"/>
+  <path d="M-2,10 Q4,2 2,0" stroke="#2a1a0a" stroke-width="1.5" fill="none"/>
+  <circle cx="-10" cy="22" r="2.5" fill="#2a1a0a"/>
+  <ellipse cx="-16" cy="30" rx="6" ry="4" fill="#e0a898" stroke="#2a1a0a" stroke-width="1"/>
+  <rect x="14" y="56" width="8" height="20" fill="#f0eae0" stroke="#2a1a0a" stroke-width="1.5" rx="2"/>
+  <rect x="30" y="56" width="8" height="20" fill="#f0eae0" stroke="#2a1a0a" stroke-width="1.5" rx="2"/>
+  <rect x="68" y="56" width="8" height="20" fill="#f0eae0" stroke="#2a1a0a" stroke-width="1.5" rx="2"/>
+  <rect x="84" y="56" width="8" height="20" fill="#f0eae0" stroke="#2a1a0a" stroke-width="1.5" rx="2"/>
+  <path d="M100,30 Q114,20 108,8" stroke="#2a1a0a" stroke-width="2.5" fill="none"/>
+</g>
+
+<!-- STONE WALL (background) -->
+<g filter="url(#b-sk2)" opacity="0.8">
+  <g fill="#b0a898" stroke="#2a1a0a" stroke-width="1.2">
+    <rect x="820" y="428" width="44" height="16" rx="2"/>
+    <rect x="866" y="428" width="36" height="16" rx="2"/>
+    <rect x="904" y="428" width="50" height="16" rx="2"/>
+    <rect x="956" y="428" width="40" height="16" rx="2"/>
+    <rect x="998" y="428" width="42" height="16" rx="2"/>
+    <rect x="828" y="413" width="50" height="16" rx="2"/>
+    <rect x="880" y="413" width="42" height="16" rx="2"/>
+    <rect x="924" y="413" width="56" height="16" rx="2"/>
+    <rect x="982" y="413" width="48" height="16" rx="2"/>
+  </g>
+  <g fill="#5a7838" opacity="0.4">
+    <ellipse cx="850" cy="415" rx="8" ry="4"/>
+    <ellipse cx="946" cy="416" rx="10" ry="5"/>
+    <ellipse cx="1010" cy="415" rx="7" ry="4"/>
+  </g>
+</g>
+
+<!-- TALL GRASS PATCHES -->
+<g stroke="#4a6a30" stroke-width="1.6" stroke-linecap="round" fill="none">
+  <path d="M180,575 Q178,555 182,535"/><path d="M190,578 Q192,558 188,538"/>
+  <path d="M200,574 Q198,554 202,534"/><path d="M210,577 Q208,557 212,537"/>
+  <path d="M182,535 Q180,526 185,522"/><path d="M188,538 Q190,529 185,525"/>
+  <path d="M202,534 Q204,525 199,521"/><path d="M212,537 Q214,528 209,524"/>
+</g>
+<g stroke="#4a6a30" stroke-width="1.5" stroke-linecap="round" fill="none">
+  <path d="M628,552 Q626,534 630,516"/><path d="M638,555 Q640,537 636,519"/>
+  <path d="M648,552 Q646,534 650,516"/><path d="M658,554 Q660,536 656,518"/>
+  <path d="M630,516 Q628,508 633,504"/><path d="M636,519 Q638,511 633,507"/>
+</g>
+
+<!-- FLOWERS -->
+<g stroke="#2a1a0a" stroke-width="0.9">
+  <circle cx="148" cy="544" r="5" fill="#ffe8c0"/><circle cx="148" cy="544" r="2.5" fill="#e09030" stroke-width="0"/>
+  <line x1="148" y1="531" x2="148" y2="539" stroke-width="1.5"/><line x1="148" y1="549" x2="148" y2="558" stroke-width="1.5"/>
+  <line x1="136" y1="544" x2="143" y2="544"/><line x1="153" y1="544" x2="161" y2="544"/>
+  <line x1="139" y1="535" x2="144" y2="540"/><line x1="152" y1="548" x2="157" y2="553"/>
+  <line x1="157" y1="535" x2="152" y2="540"/><line x1="144" y1="548" x2="139" y2="553"/>
+  <circle cx="560" cy="542" r="4.5" fill="#ffccee"/><circle cx="560" cy="542" r="2.2" fill="#d060a0" stroke-width="0"/>
+  <line x1="560" y1="530" x2="560" y2="537"/><line x1="560" y1="547" x2="560" y2="555"/>
+  <line x1="548" y1="542" x2="555" y2="542"/><line x1="565" y1="542" x2="573" y2="542"/>
+  <circle cx="430" cy="548" r="4" fill="#a0b8f8"/><circle cx="430" cy="548" r="2" fill="#5070e0" stroke-width="0"/>
+  <line x1="430" y1="537" x2="430" y2="544"/><line x1="430" y1="552" x2="430" y2="560"/>
+  <line x1="420" y1="548" x2="426" y2="548"/><line x1="434" y1="548" x2="442" y2="548"/>
+</g>
+
+<!-- STONES -->
+<ellipse cx="255" cy="572" rx="13" ry="8" fill="#c8c0ae" stroke="#2a1a0a" stroke-width="1.2" filter="url(#b-sk3)"/>
+<ellipse cx="280" cy="578" rx="10" ry="6" fill="#ccc4b2" stroke="#2a1a0a" stroke-width="1" filter="url(#b-sk3)"/>
+<ellipse cx="504" cy="568" rx="11" ry="6.5" fill="#c8c0ae" stroke="#2a1a0a" stroke-width="1.1" filter="url(#b-sk3)"/>
+<ellipse cx="740" cy="582" rx="14" ry="8" fill="#c4bcaa" stroke="#2a1a0a" stroke-width="1.2" filter="url(#b-sk3)"/>
+
+<!-- POND -->
+<ellipse cx="188" cy="432" rx="72" ry="20" fill="#7090a0" stroke="#2a1a0a" stroke-width="1.4" filter="url(#b-sk2)" opacity="0.85"/>
+<ellipse cx="188" cy="429" rx="62" ry="14" fill="#80a0b0" opacity="0.5"/>
+<g stroke="#a0c0d0" stroke-width="0.8" opacity="0.4">
+  <path d="M128,429 Q158,425 188,429"/><path d="M196,427 Q226,423 248,427"/>
+</g>
+<ellipse cx="148" cy="428" rx="11" ry="6" fill="#4a7830" stroke="#2a1a0a" stroke-width="1" filter="url(#b-sk3)"/>
+<path d="M148,422 L148,428" stroke="#2a1a0a" stroke-width="0.8"/>
+
+<!-- Ground shadow near barn -->
+<path d="M696,615 Q866,605 1046,612" stroke="#7a6830" stroke-width="1.2" fill="none" opacity="0.35"/>
+
+</svg>
+<!-- /background -->
+
+
+<!-- =========================================================== -->
+<!-- LEVEL 2: 10 NEW OBJECTS + CATS                              -->
+<!-- =========================================================== -->
+
+<!-- ~~~ CAT 001 — Стог сена: рыжая кошка свернулась на верхушке стога, почти как пучок ~~~ -->
+<!-- Стог сена -->
+<svg style="position:absolute;left:36px;top:530px;z-index:9" width="160" height="120" viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="hay-f" x="-6%" y="-6%" width="112%" height="112%"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" seed="13"/><feDisplacementMap in="SourceGraphic" scale="2.5"/></filter></defs>
+  <!-- Основание стога -->
+  <ellipse cx="80" cy="106" rx="74" ry="14" fill="#b8943a" stroke="#2a1a0a" stroke-width="1.8" filter="url(#hay-f)"/>
+  <!-- Тело стога -->
+  <path d="M8,106 Q6,72 12,50 Q38,18 80,12 Q122,18 148,50 Q154,72 152,106 Z"
+        fill="#c8a440" stroke="#2a1a0a" stroke-width="2" filter="url(#hay-f)"/>
+  <!-- Травинки сена -->
+  <g stroke="#a07820" stroke-width="0.9" opacity="0.6">
+    <path d="M30,80 Q36,60 32,40"/><path d="M50,70 Q54,52 48,34"/><path d="M70,65 Q72,44 68,28"/>
+    <path d="M90,64 Q94,42 90,26"/><path d="M110,68 Q116,50 112,32"/><path d="M130,76 Q134,56 128,40"/>
+    <path d="M20,90 Q22,76 18,62"/><path d="M42,82 Q46,70 42,56"/><path d="M62,78 Q64,64 60,50"/>
+    <path d="M100,76 Q104,62 100,48"/><path d="M118,82 Q120,68 118,54"/><path d="M140,88 Q143,74 138,60"/>
+  </g>
+  <!-- Блики -->
+  <path d="M40,40 Q60,22 90,20" stroke="#e0c060" stroke-width="1.5" fill="none" opacity="0.45"/>
+</svg>
+<!-- Кошка на стоге — рыжая, свернулась клубком, спинка видна -->
+<div class="cat-wrap" id="cat-001" style="left:66px; top:524px; z-index:10;">
+  <svg width="68" height="38" viewBox="0 0 68 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><filter id="c1f"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="3" seed="21"/><feDisplacementMap in="SourceGraphic" scale="1.6"/></filter></defs>
+    <!-- Тело свернулось клубком — дуга спины -->
+    <path d="M6,28 Q10,10 28,6 Q46,2 58,14 Q66,22 60,32 Q50,38 36,36 Q18,36 6,28 Z"
+          fill="#c8902c" stroke="#2a1a0a" stroke-width="1.6" filter="url(#c1f)"/>
+    <!-- Полоски на спине -->
+    <g stroke="#9a6a18" stroke-width="0.85" opacity="0.55">
+      <path d="M18,10 Q22,16 18,24"/><path d="M30,6 Q34,12 30,20"/><path d="M42,8 Q46,14 44,22"/>
+    </g>
+    <!-- Хвост, обёрнутый вокруг тела -->
+    <path d="M60,32 Q68,26 66,18 Q64,10 58,14" stroke="#2a1a0a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <!-- Задние лапы чуть видны снизу -->
+    <path d="M22,36 Q18,40 14,38" stroke="#2a1a0a" stroke-width="1.5" fill="none"/>
+    <path d="M42,36 Q46,40 50,38" stroke="#2a1a0a" stroke-width="1.5" fill="none"/>
+    <!-- Голова едва видна — только затылок слева -->
+    <ellipse cx="12" cy="22" rx="9" ry="8" fill="#c8902c" stroke="#2a1a0a" stroke-width="1.5" filter="url(#c1f)"/>
+    <!-- Ушко-треугольник, едва торчит -->
+    <path d="M7,16 L4,10 L12,14" stroke="#2a1a0a" stroke-width="1.1" fill="#c8902c"/>
+  </svg>
+</div>
+
+
+<!-- ~~~ CAT 002 — Тыквы: серая кошка свернулась между тыквами, видна как ещё одна тыква ~~~ -->
+<!-- Три тыквы -->
+<svg style="position:absolute;left:1078px;top:530px;z-index:9" width="118" height="100" viewBox="0 0 118 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="pump-f"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="8"/><feDisplacementMap in="SourceGraphic" scale="1.8"/></filter></defs>
+  <!-- Тыква левая (большая) -->
+  <path d="M4,62 Q2,38 18,28 Q36,18 54,28 Q66,38 64,62 Q50,74 34,72 Q14,72 4,62 Z"
+        fill="#d06010" stroke="#2a1a0a" stroke-width="2" filter="url(#pump-f)"/>
+  <path d="M20,26 Q34,18 54,28" stroke="#8a3808" stroke-width="0.9" fill="none" opacity="0.5"/>
+  <path d="M4,48 Q8,36 18,30" stroke="#ff9050" stroke-width="0.8" fill="none" opacity="0.4"/>
+  <g stroke="#8a3808" stroke-width="1" opacity="0.4">
+    <path d="M16,24 Q14,46 16,68"/><path d="M34,20 Q32,48 34,72"/><path d="M52,24 Q50,46 50,68"/>
+  </g>
+  <!-- Плодоножка -->
+  <path d="M32,20 Q34,12 36,8 Q38,4 34,2" stroke="#4a6820" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M36,8 Q42,6 44,10" stroke="#4a6820" stroke-width="1.8" fill="none"/>
+  <!-- Тыква правая (малая) -->
+  <path d="M64,70 Q62,52 74,44 Q86,38 100,44 Q110,52 108,70 Q96,80 84,80 Q68,80 64,70 Z"
+        fill="#c85810" stroke="#2a1a0a" stroke-width="1.8" filter="url(#pump-f)"/>
+  <g stroke="#8a3808" stroke-width="0.9" opacity="0.4">
+    <path d="M72,44 Q70,60 72,76"/><path d="M84,40 Q82,60 84,78"/><path d="M98,44 Q96,60 96,76"/>
+  </g>
+  <path d="M82,40 Q84,34 86,30 Q88,26 84,24" stroke="#4a6820" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Листик -->
+  <path d="M36,8 Q28,4 22,8 Q28,12 36,8 Z" fill="#5a7828" stroke="#2a1a0a" stroke-width="0.8"/>
+</svg>
+<!-- Кошка — серая, свернулась как ещё одна тыква позади больших двух -->
+<div class="cat-wrap" id="cat-002" style="left:1102px; top:544px; z-index:8;">
+  <svg width="58" height="52" viewBox="0 0 58 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><filter id="c2f"><feTurbulence type="fractalNoise" baseFrequency="0.055" numOctaves="2" seed="42"/><feDisplacementMap in="SourceGraphic" scale="1.7"/></filter></defs>
+    <!-- Круглое тело свернувшейся кошки — форма тыквы -->
+    <path d="M4,34 Q2,16 14,8 Q28,2 44,10 Q54,18 52,36 Q44,50 28,50 Q8,48 4,34 Z"
+          fill="#8a8a82" stroke="#2a1a0a" stroke-width="1.6" filter="url(#c2f)"/>
+    <!-- Шерстяные полоски как «рёбра» тыквы — слегка схожи с тыквенными дольками -->
+    <g stroke="#606058" stroke-width="1" opacity="0.5">
+      <path d="M12,8 Q10,26 12,46"/><path d="M28,4 Q26,26 28,50"/><path d="M44,10 Q42,28 44,46"/>
+    </g>
+    <!-- Хвост — похож на плодоножку тыквы -->
+    <path d="M26,4 Q28,0 30,0 Q32,4 30,8" stroke="#2a1a0a" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Передние лапы сложены — едва видны -->
+    <path d="M8,42 Q12,46 16,44" stroke="#2a1a0a" stroke-width="1.3" fill="none"/>
+    <path d="M40,44 Q44,48 48,46" stroke="#2a1a0a" stroke-width="1.3" fill="none"/>
+    <!-- Голова спрятана — только затылок -->
+    <ellipse cx="10" cy="28" rx="8" ry="7" fill="#8a8a82" stroke="#2a1a0a" stroke-width="1.4" filter="url(#c2f)"/>
+  </svg>
+</div>
+
+
+<!-- ~~~ CAT 003 — Поленница дров: тёмная кошка лежит как полено среди дров ~~~ -->
+<!-- Поленница -->
+<svg style="position:absolute;left:456px;top:524px;z-index:9" width="130" height="100" viewBox="0 0 130 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="log-f"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="16"/><feDisplacementMap in="SourceGraphic" scale="2"/></filter></defs>
+  <!-- Нижний ряд брёвен -->
+  <!-- Бревно 1 -->
+  <path d="M2,80 Q2,62 8,58 Q20,54 32,58 Q38,62 38,80 Q20,86 2,80 Z"
+        fill="#7a5828" stroke="#2a1a0a" stroke-width="1.8" filter="url(#log-f)"/>
+  <ellipse cx="20" cy="58" rx="16" ry="6" fill="#9a7040" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="20" cy="58" rx="10" ry="3.5" fill="#7a5828" stroke="#8a6030" stroke-width="0.7"/>
+  <ellipse cx="20" cy="58" rx="5" ry="1.8" fill="#6a4820" stroke="#7a5828" stroke-width="0.5"/>
+  <!-- Бревно 2 -->
+  <path d="M36,80 Q36,62 42,58 Q54,54 66,58 Q72,62 72,80 Q54,86 36,80 Z"
+        fill="#7a5428" stroke="#2a1a0a" stroke-width="1.8" filter="url(#log-f)"/>
+  <ellipse cx="54" cy="58" rx="16" ry="6" fill="#9a6838" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="54" cy="58" rx="9" ry="3.2" fill="#7a5428" stroke="#7a5828" stroke-width="0.6"/>
+  <!-- Бревно 3 -->
+  <path d="M70,80 Q70,62 76,58 Q88,52 100,58 Q106,62 106,80 Q88,86 70,80 Z"
+        fill="#7a5830" stroke="#2a1a0a" stroke-width="1.8" filter="url(#log-f)"/>
+  <ellipse cx="88" cy="58" rx="16" ry="6" fill="#9a7040" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="88" cy="58" rx="10" ry="3.5" fill="#7a5830" stroke="#7a5828" stroke-width="0.6"/>
+  <!-- Верхний ряд — два бревна -->
+  <path d="M18,58 Q18,44 24,40 Q38,34 52,40 Q58,44 58,58 Q38,64 18,58 Z"
+        fill="#7a5428" stroke="#2a1a0a" stroke-width="1.8" filter="url(#log-f)"/>
+  <ellipse cx="38" cy="40" rx="18" ry="6.5" fill="#9a6838" stroke="#2a1a0a" stroke-width="1.5"/>
+  <ellipse cx="38" cy="40" rx="10" ry="3.5" fill="#6a4820" stroke="#7a5428" stroke-width="0.6"/>
+  <!-- Щепки сбоку -->
+  <path d="M104,74 Q110,68 116,72 Q122,78 116,84 Q112,88 108,84 Q104,80 104,74 Z"
+        fill="#9a7040" stroke="#2a1a0a" stroke-width="1.3" filter="url(#log-f)"/>
+</svg>
+<!-- Кошка — тёмно-коричневая, лежит горизонтально как полено в верхнем ряду -->
+<div class="cat-wrap" id="cat-003" style="left:522px; top:520px; z-index:10;">
+  <svg width="76" height="28" viewBox="0 0 76 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><filter id="c3f"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="33"/><feDisplacementMap in="SourceGraphic" scale="1.5"/></filter></defs>
+    <!-- Тело как бревно — горизонтально -->
+    <path d="M6,6 Q6,2 18,2 Q50,0 68,4 Q74,6 74,14 Q74,22 68,24 Q50,28 18,26 Q6,26 6,22 Q2,14 6,6 Z"
+          fill="#6a4018" stroke="#2a1a0a" stroke-width="1.6" filter="url(#c3f)"/>
+    <!-- Горизонтальные линии шерсти — напоминают кольца бревна -->
+    <g stroke="#4a2c0c" stroke-width="0.85" opacity="0.5">
+      <path d="M20,2 Q22,14 20,26"/><path d="M38,0 Q40,14 38,28"/><path d="M56,2 Q58,14 56,26"/>
+    </g>
+    <!-- Торцевой срез — как у бревна, но с ушками скрытыми -->
+    <ellipse cx="70" cy="14" rx="6" ry="12" fill="#7a5028" stroke="#2a1a0a" stroke-width="1.4" filter="url(#c3f)"/>
+    <ellipse cx="70" cy="14" rx="4" ry="7" fill="#5a3810" stroke="#6a4018" stroke-width="0.6"/>
+    <!-- Хвост выглядывает с левого конца, как сучок -->
+    <path d="M6,14 Q0,8 -4,6 Q-6,10 -2,14" stroke="#2a1a0a" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Лапки снизу едва видны -->
+    <path d="M24,26 Q22,30 20,28" stroke="#2a1a0a" stroke-width="1.3" fill="none"/>
+    <path d="M44,28 Q42,32 40,30" stroke="#2a1a0a" stroke-width="1.3" fill="none"/>
+  </svg>
+</div>
+
+
+<!-- ~~~ CAT 004 — Плетёная корзина: полосатая кошка торчит из-за корзины, видна только спина ~~~ -->
+<!-- Плетёная корзина с крышкой -->
+<svg style="position:absolute;left:142px;top:560px;z-index:9" width="100" height="96" viewBox="0 0 100 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="bsk-f"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="22"/><feDisplacementMap in="SourceGraphic" scale="1.5"/></filter></defs>
+  <!-- Тело корзины -->
+  <path d="M6,50 Q4,76 10,86 Q50,96 90,86 Q96,76 94,50 Q50,42 6,50 Z"
+        fill="#c8a050" stroke="#2a1a0a" stroke-width="2" filter="url(#bsk-f)"/>
+  <!-- Плетёные горизонтальные полосы -->
+  <g stroke="#8a6820" stroke-width="1.4" opacity="0.65">
+    <path d="M8,58 Q50,52 92,58"/>
+    <path d="M8,66 Q50,60 92,66"/>
+    <path d="M8,74 Q50,68 92,74"/>
+    <path d="M8,82 Q50,76 92,82"/>
+  </g>
+  <!-- Вертикальные прутья -->
+  <g stroke="#8a6820" stroke-width="1" opacity="0.5">
+    <line x1="18" y1="44" x2="14" y2="90"/><line x1="30" y1="42" x2="28" y2="90"/>
+    <line x1="42" y1="42" x2="40" y2="92"/><line x1="54" y1="42" x2="52" y2="92"/>
+    <line x1="66" y1="42" x2="64" y2="90"/><line x1="78" y1="42" x2="76" y2="90"/>
+    <line x1="90" y1="44" x2="88" y2="90"/>
+  </g>
+  <!-- Крышка корзины -->
+  <ellipse cx="50" cy="50" rx="44" ry="12" fill="#d4b060" stroke="#2a1a0a" stroke-width="2" filter="url(#bsk-f)"/>
+  <ellipse cx="50" cy="46" rx="38" ry="9" fill="#c8a050" stroke="#2a1a0a" stroke-width="1.5"/>
+  <g stroke="#8a6820" stroke-width="1.1" opacity="0.6">
+    <path d="M14,46 Q50,40 86,46"/>
+    <path d="M12,50 Q50,44 88,50"/>
+    <line x1="20" y1="38" x2="20" y2="54"/><line x1="34" y1="38" x2="34" y2="56"/>
+    <line x1="50" y1="38" x2="50" y2="56"/><line x1="66" y1="38" x2="66" y2="56"/>
+    <line x1="80" y1="38" x2="80" y2="54"/>
+  </g>
+  <!-- Ручки корзины -->
+  <path d="M20,50 Q16,34 24,28 Q36,22 50,28 Q64,22 76,28 Q84,34 80,50"
+        stroke="#2a1a0a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M20,50 Q16,34 24,28 Q36,22 50,28 Q64,22 76,28 Q84,34 80,50"
+        stroke="#c8a050" stroke-width="1.5" fill="none"/>
+</svg>
+<!-- Кошка — полосатая бежевая, видна только горбатая спина сзади корзины -->
+<div class="cat-wrap" id="cat-004" style="left:148px; top:548px; z-index:8;">
+  <svg width="88" height="36" viewBox="0 0 88 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><filter id="c4f"><feTurbulence type="fractalNoise" baseFrequency="0.055" numOctaves="2" seed="54"/><feDisplacementMap in="SourceGraphic" scale="1.5"/></filter></defs>
+    <!-- Дуга спины — только горбик виден над/за корзиной -->
+    <path d="M2,30 Q4,10 22,6 Q44,0 66,6 Q82,10 86,30 Q66,36 44,36 Q16,36 2,30 Z"
+          fill="#d4c098" stroke="#2a1a0a" stroke-width="1.7" filter="url(#c4f)"/>
+    <!-- Полоски -->
+    <g stroke="#a09060" stroke-width="1" opacity="0.55">
+      <path d="M16,8 Q14,20 16,32"/><path d="M30,4 Q28,18 30,34"/>
+      <path d="M44,2 Q42,18 44,36"/><path d="M58,4 Q56,18 58,34"/><path d="M72,8 Q70,20 72,32"/>
+    </g>
+    <!-- Хвост слева — выглядывает -->
+    <path d="M2,30 Q-6,22 -4,14 Q-2,8 4,10" stroke="#2a1a0a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <!-- Лапы у основания -->
+    <path d="M20,36 Q18,40 14,38" stroke="#2a1a0a" stroke-width="1.4" fill="none"/>
+    <path d="M60,36 Q62,40 66,38" stroke="#2a1a0a" stroke-width="1.4" fill="none"/>
+  </svg>
+</div>
+
+
+<!-- ~~~ CAT 005 — Старый деревянный жёлоб/корыто: белая кошка лежит внутри корыта ~~~ -->
+<!-- Деревянное корыто -->
+<svg style="position:absolute;left:376px;top:600px;z-index:9" width="140" height="68" viewBox="0 0 140 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="trf-f"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" seed="18"/><feDisplacementMap in="SourceGraphic" scale="2"/></filter></defs>
+  <!-- Стенки корыта -->
+  <path d="M4,16 Q4,54 8,62 Q70,70 132,62 Q136,54 136,16 Q70,8 4,16 Z"
+        fill="#b09060" stroke="#2a1a0a" stroke-width="2" filter="url(#trf-f)"/>
+  <!-- Внутренность — темнее -->
+  <path d="M12,22 Q12,54 14,60 Q70,66 126,60 Q128,54 128,22 Q70,16 12,22 Z"
+        fill="#887040" stroke="#8a6830" stroke-width="1" opacity="0.8"/>
+  <!-- Доски -->
+  <g stroke="#8a6030" stroke-width="1.2" opacity="0.55">
+    <line x1="28" y1="10" x2="26" y2="64"/><line x1="50" y1="8" x2="48" y2="66"/>
+    <line x1="72" y1="8" x2="70" y2="68"/><line x1="94" y1="8" x2="92" y2="66"/>
+    <line x1="116" y1="10" x2="114" y2="64"/>
+  </g>
+  <!-- Железные обручи -->
+  <path d="M4,30 Q70,24 136,30" stroke="#5a5040" stroke-width="3.5" fill="none" opacity="0.7"/>
+  <path d="M4,30 Q70,24 136,30" stroke="#888070" stroke-width="1" fill="none"/>
+  <path d="M4,50 Q70,44 136,50" stroke="#5a5040" stroke-width="3.5" fill="none" opacity="0.7"/>
+  <path d="M4,50 Q70,44 136,50" stroke="#888070" stroke-width="1" fill="none"/>
+</svg>
+<!-- Кошка — белая, лежит внутри корыта, видны только уши (чуть) и спина -->
+<div class="cat-wrap" id="cat-005" style="left:386px; top:598px; z-index:10;">
+  <svg width="116" height="32" viewBox="0 0 116 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><filter id="c5f"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="65"/><feDisplacementMap in="SourceGraphic" scale="1.4"/></filter></defs>
+    <!-- Тело в корыте — только верхняя часть видна -->
+    <path d="M4,26 Q6,8 22,4 Q58,0 94,4 Q110,8 112,26 Q82,32 58,32 Q26,32 4,26 Z"
+          fill="#e8e4d8" stroke="#2a1a0a" stroke-width="1.6" filter="url(#c5f)"/>
+    <!-- Лёгкие пятнышки — трёхцветная кошка -->
+    <path d="M30,4 Q36,8 32,18 Q28,10 30,4 Z" fill="#c09060" stroke="none" opacity="0.5"/>
+    <path d="M60,2 Q66,6 64,16 Q58,8 60,2 Z" fill="#7a7a72" stroke="none" opacity="0.4"/>
+    <path d="M90,6 Q96,10 92,20 Q88,12 90,6 Z" fill="#c09060" stroke="none" opacity="0.45"/>
+    <!-- Хвост — выглядывает сзади -->
+    <path d="M112,26 Q120,20 118,12 Q116,6 112,10" stroke="#2a1a0a" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Голова очень едва видна слева — чуть нос -->
+    <ellipse cx="10" cy="18" rx="9" ry="9" fill="#e8e4d8" stroke="#2a1a0a" stroke-width="1.5" filter="url(#c5f)"/>
+    <!-- Усы тонкие — едва заметны -->
+    <line x1="2" y1="17" x2="10" y2="18" stroke="#9a9090" stroke-width="0.7" opacity="0.7"/>
+    <line x1="2" y1="20" x2="10" y2="19" stroke="#9a9090" stroke-width="0.7" opacity="0.7"/>
+  </svg>
+</div>
+
+
+<!-- ~~~ CAT 006 — Садовые горшки: рыже-белая кошка свернулась в разбитом горшке ~~~ -->
+<!-- Три глиняных горшка -->
+<svg style="position:absolute;left:590px;top:558px;z-index:9" width="120" height="110" viewBox="0 0 120 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="pot-f"><feTurbulence type="fractalNoise" baseFrequency="0.055" numOctaves="2" seed="11"/><feDisplacementMap in="SourceGraphic" scale="1.6"/></filter></defs>
+  <!-- Горшок большой (по центру) -->
+  <path d="M30,108 Q26,80 30,66 Q44,54 60,54 Q76,54 90,66 Q94,80 90,108 Q60,114 30,108 Z"
+        fill="#b06030" stroke="#2a1a0a" stroke-width="2" filter="url(#pot-f)"/>
+  <!-- Обод горшка -->
+  <ellipse cx="60" cy="54" rx="30" ry="8" fill="#c07038" stroke="#2a1a0a" stroke-width="1.8"/>
+  <path d="M32,72 Q38,68 44,72" stroke="#904820" stroke-width="0.9" fill="none" opacity="0.5"/>
+  <path d="M30,88 Q38,84 50,88" stroke="#904820" stroke-width="0.8" fill="none" opacity="0.45"/>
+  <!-- Маленький горшок слева (опрокинут) -->
+  <path d="M0,90 Q-2,74 4,66 Q14,60 26,64 Q34,70 32,90 Q16,96 0,90 Z"
+        fill="#a85828" stroke="#2a1a0a" stroke-width="1.8" filter="url(#pot-f)"/>
+  <ellipse cx="16" cy="66" rx="16" ry="5" fill="#b86830" stroke="#2a1a0a" stroke-width="1.5"/>
+  <!-- Разбитый горшок справа — наполовину -->
+  <path d="M90,100 Q88,80 92,72 Q100,64 112,68 Q120,74 118,96 Z"
+        fill="#a85028" stroke="#2a1a0a" stroke-width="1.8" filter="url(#pot-f)"/>
+  <path d="M90,80 Q100,74 112,78" stroke="#2a1a0a" stroke-width="1.5" fill="none" stroke-dasharray="3,2"/>
+  <!-- Немного земли/мха -->
+  <path d="M32,108 Q50,104 76,108" stroke="#4a7030" stroke-width="1.8" fill="none" opacity="0.5"/>
+</svg>
+<!-- Кошка — рыже-белая, свернулась в большом горшке, видна сверху только спина -->
+<div class="cat-wrap" id="cat-006" style="left:608px; top:550px; z-index:10;">
+  <svg width="56" height="44" viewBox="0 0 56 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><filter id="c6f"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="76"/><feDisplacementMap in="SourceGraphic" scale="1.4"/></filter></defs>
+    <!-- Тело свернулось в горшке — эллипс сверху -->
+    <ellipse cx="28" cy="26" rx="26" ry="16" fill="#d48840" stroke="#2a1a0a" stroke-width="1.6" filter="url(#c6f)"/>
+    <!-- Белое пятно на спине -->
+    <ellipse cx="28" cy="26" rx="16" ry="9" fill="#f0ece0" stroke="none" opacity="0.5"/>
+    <!-- Тигровые полоски -->
+    <g stroke="#a05820" stroke-width="0.9" opacity="0.55">
+      <path d="M10,18 Q12,26 10,34"/><path d="M22,14 Q24,26 22,38"/><path d="M38,14 Q40,26 38,38"/><path d="M48,18 Q50,26 48,34"/>
+    </g>
+    <!-- Хвост обёрнут вокруг — видна кончик сбоку -->
+    <path d="M52,26 Q58,20 54,12 Q50,8 46,12" stroke="#2a1a0a" stroke-width="2.1" fill="none" stroke-linecap="round"/>
+    <!-- Голова спрятана вниз — только затылок и оба уха сложены плоско -->
+    <ellipse cx="8" cy="26" rx="8" ry="8" fill="#d48840" stroke="#2a1a0a" stroke-width="1.4" filter="url(#c6f)"/>
+    <!-- Лапы снизу чуть видны -->
+    <path d="M16,40 Q14,44 12,42" stroke="#2a1a0a" stroke-width="1.3" fill="none"/>
+    <path d="M40,40 Q42,44 44,42" stroke="#2a1a0a" stroke-width="1.3" fill="none"/>
+  </svg>
+</div>
+
+
+<!-- ~~~ CAT 007 — Садовое чучело (пугало): чёрная кошка висит на руке пугала как тряпка ~~~ -->
+<!-- Пугало -->
+<svg style="position:absolute;left:200px;top:370px;z-index:9" width="120" height="200" viewBox="0 0 120 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="sc-f"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="14"/><feDisplacementMap in="SourceGraphic" scale="1.5"/></filter></defs>
+  <!-- Столб -->
+  <rect x="56" y="30" width="10" height="170" fill="#9a7848" stroke="#2a1a0a" stroke-width="1.8" rx="2" filter="url(#sc-f)"/>
+  <!-- Поперечина -->
+  <rect x="10" y="68" width="102" height="8" fill="#9a7848" stroke="#2a1a0a" stroke-width="1.8" rx="2" filter="url(#sc-f)"/>
+  <!-- Голова — мешок -->
+  <ellipse cx="61" cy="28" rx="20" ry="24" fill="#d4c890" stroke="#2a1a0a" stroke-width="2" filter="url(#sc-f)"/>
+  <!-- Нарисованное лицо пугала -->
+  <line x1="52" y1="22" x2="58" y2="28" stroke="#2a1a0a" stroke-width="2"/>
+  <line x1="58" y1="22" x2="52" y2="28" stroke="#2a1a0a" stroke-width="2"/>
+  <line x1="64" y1="22" x2="70" y2="28" stroke="#2a1a0a" stroke-width="2"/>
+  <line x1="70" y1="22" x2="64" y2="28" stroke="#2a1a0a" stroke-width="2"/>
+  <path d="M50,34 Q61,42 72,34" stroke="#2a1a0a" stroke-width="2" fill="none"/>
+  <!-- Верёвка на шее -->
+  <path d="M46,44 Q61,50 76,44" stroke="#6a5030" stroke-width="2" fill="none"/>
+  <!-- Шляпа-ведро -->
+  <rect x="42" y="2" width="40" height="10" fill="#4a4030" stroke="#2a1a0a" stroke-width="1.5" rx="1" filter="url(#sc-f)"/>
+  <rect x="46" y="-6" width="30" height="10" fill="#3a3028" stroke="#2a1a0a" stroke-width="1.5" rx="1" filter="url(#sc-f)"/>
+  <!-- Тело пугала — рубаха -->
+  <path d="M20,72 Q18,100 22,136 Q36,148 60,146 Q84,148 98,136 Q102,100 100,72 Q60,64 20,72 Z"
+        fill="#c83030" stroke="#2a1a0a" stroke-width="2" filter="url(#sc-f)"/>
+  <!-- Заплатки на рубахе -->
+  <rect x="38" y="88" width="18" height="14" fill="#e84040" rx="1" opacity="0.6"/>
+  <rect x="66" y="104" width="16" height="12" fill="#a02020" rx="1" opacity="0.5"/>
+  <!-- Штаны -->
+  <path d="M30,136 Q28,162 30,180 Q42,186 56,182 L60,140 Z" fill="#3050a0" stroke="#2a1a0a" stroke-width="1.8" filter="url(#sc-f)"/>
+  <path d="M60,140 L64,182 Q78,186 90,180 Q92,162 90,136 Z" fill="#2a4898" stroke="#2a1a0a" stroke-width="1.8" filter="url(#sc-f)"/>
+  <!-- Солома из рукавов/штанов -->
+  <g stroke="#c8a030" stroke-width="1.4" stroke-linecap="round">
+    <path d="M18,72 Q8,76 4,88"/><path d="M18,72 Q10,82 8,96"/><path d="M18,72 Q12,88 14,100"/>
+    <path d="M100,72 Q110,76 116,88"/><path d="M100,72 Q108,84 110,98"/>
+    <path d="M30,180 Q26,190 22,196"/><path d="M30,180 Q28,192 24,198"/>
+    <path d="M90,180 Q94,190 98,196"/><path d="M90,180 Q92,192 96,200"/>
+  </g>
+</svg>
+<!-- Кошка — чёрная, висит на левой руке пугала как «тряпка» — видна только изогнутая спина и хвост -->
+<div class="cat-wrap" id="cat-007" style="left:204px; top:402px; z-index:10;">
+  <svg width="58" height="56" viewBox="0 0 58 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><filter id="c7f"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="87"/><feDisplacementMap in="SourceGraphic" scale="1.4"/></filter></defs>
+    <!-- Тело провисает через руку пугала — S-образная форма -->
+    <path d="M2,14 Q4,4 14,2 Q28,0 38,8 Q48,14 50,28 Q52,44 42,52 Q30,58 20,52 Q10,46 8,34 Q4,22 12,16"
+          fill="#2a2820" stroke="#2a1a0a" stroke-width="1.8" filter="url(#c7f)"/>
+    <!-- Блеск чёрной шерсти -->
+    <path d="M12,6 Q20,2 32,6" stroke="#4a4840" stroke-width="0.9" fill="none" opacity="0.5"/>
+    <path d="M46,20 Q50,32 46,44" stroke="#4a4840" stroke-width="0.8" fill="none" opacity="0.4"/>
+    <!-- Хвост свисает вниз -->
+    <path d="M40,52 Q50,58 52,68 Q54,74 46,72" stroke="#2a1a0a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <!-- Передние лапы свисают -->
+    <path d="M8,34 Q2,40 -2,38" stroke="#2a1a0a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <path d="M14,40 Q8,46 6,44" stroke="#2a1a0a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Задние лапы -->
+    <path d="M28,52 Q24,58 20,56" stroke="#2a1a0a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </svg>
+</div>
+
+
+<!-- ~~~ CAT 008 — Бочка с дождевой водой: кошка свесилась через край, видна снизу ~~~ -->
+<!-- Дубовая бочка -->
+<svg style="position:absolute;left:1054px;top:444px;z-index:9" width="112" height="144" viewBox="0 0 112 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="bar-f"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="19"/><feDisplacementMap in="SourceGraphic" scale="2"/></filter></defs>
+  <!-- Тело бочки -->
+  <path d="M8,20 Q4,72 8,124 Q56,138 104,124 Q108,72 104,20 Q56,8 8,20 Z"
+        fill="#9a7040" stroke="#2a1a0a" stroke-width="2.2" filter="url(#bar-f)"/>
+  <!-- Доски бочки -->
+  <g stroke="#7a5830" stroke-width="1.1" opacity="0.5">
+    <line x1="20" y1="10" x2="16" y2="130"/><line x1="36" y1="8" x2="34" y2="132"/>
+    <line x1="52" y1="8" x2="50" y2="134"/><line x1="68" y1="8" x2="68" y2="134"/>
+    <line x1="84" y1="8" x2="84" y2="132"/><line x1="98" y1="10" x2="96" y2="130"/>
+  </g>
+  <!-- Железные обручи -->
+  <path d="M8,40 Q56,32 104,40" stroke="#4a4030" stroke-width="5" fill="none" opacity="0.8"/>
+  <path d="M8,40 Q56,32 104,40" stroke="#888070" stroke-width="1.5" fill="none"/>
+  <path d="M6,80 Q56,70 106,80" stroke="#4a4030" stroke-width="5" fill="none" opacity="0.8"/>
+  <path d="M6,80 Q56,70 106,80" stroke="#888070" stroke-width="1.5" fill="none"/>
+  <path d="M8,116 Q56,108 104,116" stroke="#4a4030" stroke-width="4.5" fill="none" opacity="0.8"/>
+  <path d="M8,116 Q56,108 104,116" stroke="#888070" stroke-width="1.5" fill="none"/>
+  <!-- Верхний обод и вода -->
+  <ellipse cx="56" cy="20" rx="48" ry="14" fill="#7090a8" stroke="#2a1a0a" stroke-width="2.2"/>
+  <ellipse cx="56" cy="18" rx="42" ry="11" fill="#80a0b8" opacity="0.7"/>
+  <!-- Блик воды -->
+  <path d="M28,16 Q44,12 60,16" stroke="#b0d0e0" stroke-width="1.3" fill="none" opacity="0.6"/>
+</svg>
+<!-- Кошка — серо-голубоватая, свесилась через край бочки, видна только спина и хвост -->
+<div class="cat-wrap" id="cat-008" style="left:1060px; top:436px; z-index:10;">
+  <svg width="96" height="44" viewBox="0 0 96 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><filter id="c8f2"><feTurbulence type="fractalNoise" baseFrequency="0.055" numOctaves="2" seed="98"/><feDisplacementMap in="SourceGraphic" scale="1.5"/></filter></defs>
+    <!-- Тело свесилось через край бочки — видна дуга спины -->
+    <path d="M4,38 Q4,16 18,8 Q48,0 78,8 Q92,16 92,38 Q70,44 48,44 Q20,44 4,38 Z"
+          fill="#909898" stroke="#2a1a0a" stroke-width="1.7" filter="url(#c8f2)"/>
+    <!-- Серый градиент шерсти -->
+    <g stroke="#6a7270" stroke-width="0.9" opacity="0.5">
+      <path d="M18,8 Q16,24 18,40"/><path d="M34,4 Q32,22 34,42"/>
+      <path d="M50,2 Q48,22 50,44"/><path d="M66,4 Q64,22 66,42"/><path d="M80,8 Q78,24 80,40"/>
+    </g>
+    <!-- Хвост задорно поднят вверх-вправо -->
+    <path d="M92,38 Q100,26 98,14 Q96,6 90,8" stroke="#2a1a0a" stroke-width="2.3" fill="none" stroke-linecap="round"/>
+    <!-- Задние лапы спускаются в бочку — едва видны у края -->
+    <path d="M24,42 Q20,48 16,46" stroke="#2a1a0a" stroke-width="1.5" fill="none"/>
+    <path d="M60,44 Q58,50 54,48" stroke="#2a1a0a" stroke-width="1.5" fill="none"/>
+  </svg>
+</div>
+
+
+<!-- ~~~ CAT 009 — Веники/снопы пшеницы: золотая кошка прячется среди снопов ~~~ -->
+<!-- Снопы пшеницы -->
+<svg style="position:absolute;left:820px;top:484px;z-index:8" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="wht-f"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="23"/><feDisplacementMap in="SourceGraphic" scale="1.8"/></filter></defs>
+  <!-- Левый сноп -->
+  <path d="M10,96 Q6,70 10,52 Q18,34 28,24 Q34,18 32,12 Q24,10 18,16 Q8,26 6,52 Q2,76 6,96 Z"
+        fill="#c8a030" stroke="#2a1a0a" stroke-width="1.6" filter="url(#wht-f)"/>
+  <g stroke="#9a7820" stroke-width="0.9" opacity="0.55">
+    <line x1="14" y1="96" x2="20" y2="20"/><line x1="20" y1="96" x2="28" y2="18"/><line x1="26" y1="96" x2="30" y2="22"/>
+  </g>
+  <!-- Обвязка левого снопа -->
+  <path d="M8,60 Q20,56 32,60" stroke="#8a6020" stroke-width="3" fill="none"/>
+  <!-- Колоски левого снопа -->
+  <g stroke="#b89028" stroke-width="1.4" fill="none">
+    <path d="M18,16 Q14,6 16,0"/><path d="M24,14 Q22,4 24,-2"/><path d="M30,18 Q28,8 30,2"/>
+    <path d="M20,12 Q16,4 18,-2"/><path d="M26,10 Q24,2 26,-4"/>
+  </g>
+  <!-- Правый сноп -->
+  <path d="M66,96 Q62,70 66,52 Q74,34 84,24 Q90,18 88,12 Q80,10 74,16 Q64,26 62,52 Q58,76 62,96 Z"
+        fill="#c09828" stroke="#2a1a0a" stroke-width="1.6" filter="url(#wht-f)"/>
+  <g stroke="#9a7820" stroke-width="0.9" opacity="0.5">
+    <line x1="68" y1="96" x2="74" y2="18"/><line x1="74" y1="96" x2="82" y2="20"/><line x1="80" y1="96" x2="86" y2="24"/>
+  </g>
+  <path d="M64,60 Q76,54 88,60" stroke="#8a6020" stroke-width="3" fill="none"/>
+  <g stroke="#b89028" stroke-width="1.4" fill="none">
+    <path d="M72,14 Q68,4 70,-2"/><path d="M78,12 Q76,2 78,-4"/><path d="M84,16 Q82,6 84,0"/>
+  </g>
+</svg>
+<!-- Кошка — золотисто-жёлтая, стоит между снопами, только боковой силуэт спины -->
+<div class="cat-wrap" id="cat-009" style="left:846px; top:490px; z-index:9;">
+  <svg width="46" height="80" viewBox="0 0 46 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><filter id="c9f"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="109"/><feDisplacementMap in="SourceGraphic" scale="1.4"/></filter></defs>
+    <!-- Тело сидящей кошки — видно сбоку как столбик -->
+    <path d="M10,76 Q8,48 12,28 Q16,12 22,8 Q28,12 32,28 Q36,48 34,76 Q22,80 10,76 Z"
+          fill="#c8a028" stroke="#2a1a0a" stroke-width="1.6" filter="url(#c9f)"/>
+    <!-- Полоски -->
+    <g stroke="#9a7010" stroke-width="0.9" opacity="0.55">
+      <path d="M12,72 Q14,50 14,28"/><path d="M20,74 Q22,50 22,26"/><path d="M30,72 Q30,50 28,28"/>
+    </g>
+    <!-- Хвост — обвивает ноги -->
+    <path d="M10,76 Q2,68 4,58 Q6,48 12,52" stroke="#2a1a0a" stroke-width="2.1" fill="none" stroke-linecap="round"/>
+    <!-- Голова — повёрнута в сторону снопа (в профиль), не смотрит на игрока -->
+    <ellipse cx="22" cy="10" rx="11" ry="10" fill="#c8a028" stroke="#2a1a0a" stroke-width="1.5" filter="url(#c9f)"/>
+    <!-- Мордочка смотрит вбок -->
+    <circle cx="16" cy="9" r="2" fill="#2a1a0a" opacity="0.3"/>
+    <!-- Ухо (одно видно, с боку) -->
+    <path d="M20,2 L16,-4 L26,0" stroke="#2a1a0a" stroke-width="1.1" fill="#c8a028"/>
+    <!-- Передние лапы -->
+    <path d="M12,60 Q8,66 6,64" stroke="#2a1a0a" stroke-width="1.4" fill="none"/>
+    <path d="M30,60 Q34,66 36,64" stroke="#2a1a0a" stroke-width="1.4" fill="none"/>
+  </svg>
+</div>
+
+
+<!-- ~~~ CAT 010 — Старый сапог: дымчатая кошка торчит из сапога задней половиной ~~~ -->
+<!-- Старый сапог -->
+<svg style="position:absolute;left:10px;top:640px;z-index:9" width="130" height="108" viewBox="0 0 130 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="boot-f"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="27"/><feDisplacementMap in="SourceGraphic" scale="2"/></filter></defs>
+  <!-- Голенище сапога -->
+  <path d="M30,60 Q26,24 32,8 Q44,2 60,4 Q74,2 80,8 Q86,24 82,60 Q56,66 30,60 Z"
+        fill="#4a3820" stroke="#2a1a0a" stroke-width="2.2" filter="url(#boot-f)"/>
+  <!-- Швы голенища -->
+  <path d="M56,6 L54,60" stroke="#8a7060" stroke-width="1" fill="none" opacity="0.5" stroke-dasharray="4,3"/>
+  <g stroke="#3a2818" stroke-width="0.9" opacity="0.4">
+    <path d="M36,48 Q42,44 48,48"/><path d="M38,36 Q44,32 50,36"/><path d="M40,24 Q46,20 52,24"/>
+  </g>
+  <!-- Подошва и носок -->
+  <path d="M28,60 Q16,62 4,70 Q2,82 8,90 Q40,100 80,96 Q96,92 100,82 Q98,68 88,62 Q86,60 80,60 Q56,64 28,60 Z"
+        fill="#3a2818" stroke="#2a1a0a" stroke-width="2.2" filter="url(#boot-f)"/>
+  <!-- Подошва — ребристая -->
+  <g stroke="#2a1808" stroke-width="1.2" opacity="0.5">
+    <path d="M8,76 Q44,72 88,72"/><path d="M6,84 Q44,80 90,80"/>
+    <path d="M10,70 Q8,90 10,98"/><path d="M30,66 Q28,92 30,100"/>
+    <path d="M56,64 Q54,94 56,100"/><path d="M80,66 Q78,92 80,98"/>
+  </g>
+  <!-- Шнурки -->
+  <path d="M38,10 Q56,14 72,10" stroke="#c8b090" stroke-width="1.8" fill="none"/>
+  <path d="M36,18 Q56,22 74,18" stroke="#c8b090" stroke-width="1.6" fill="none"/>
+  <path d="M36,26 Q56,30 74,26" stroke="#c8b090" stroke-width="1.5" fill="none"/>
+  <path d="M36,34 Q56,38 74,34" stroke="#c8b090" stroke-width="1.4" fill="none"/>
+</svg>
+<!-- Кошка — дымчато-серая, торчит задней частью из голенища сапога — видны попа, хвост, задние лапы -->
+<div class="cat-wrap" id="cat-010" style="left:18px; top:620px; z-index:10;">
+  <svg width="72" height="60" viewBox="0 0 72 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><filter id="c10f"><feTurbulence type="fractalNoise" baseFrequency="0.055" numOctaves="2" seed="120"/><feDisplacementMap in="SourceGraphic" scale="1.6"/></filter></defs>
+    <!-- Задняя половина кошки — круглый зад и бёдра -->
+    <ellipse cx="36" cy="34" rx="32" ry="22" fill="#989090" stroke="#2a1a0a" stroke-width="1.7" filter="url(#c10f)"/>
+    <!-- Шерсть -->
+    <g stroke="#6a6460" stroke-width="0.9" opacity="0.5">
+      <path d="M8,26 Q10,34 8,42"/><path d="M20,18 Q22,34 20,50"/><path d="M36,16 Q38,34 36,52"/>
+      <path d="M52,18 Q54,34 52,50"/><path d="M64,26 Q66,34 64,42"/>
+    </g>
+    <!-- Хвост — поднят вертикально вверх, торчит из голенища -->
+    <path d="M52,16 Q58,4 56,-2 Q52,-6 50,0" stroke="#2a1a0a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <!-- Задние лапы — видны снизу -->
+    <path d="M16,52 Q10,60 6,58" stroke="#2a1a0a" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M26,54 Q22,62 18,60" stroke="#2a1a0a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <path d="M48,54 Q52,62 56,60" stroke="#2a1a0a" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <!-- Белый кончик хвоста -->
+    <circle cx="50" cy="-2" r="3" fill="#d8d4cc" stroke="#2a1a0a" stroke-width="1"/>
+  </svg>
+</div>
+
+
+<!-- ========== FOREGROUND LAYER (unchanged) ========== -->
+<svg id="fg-layer" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="f-sk" x="-6%" y="-6%" width="112%" height="112%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="7"/>
+    <feDisplacementMap in="SourceGraphic" scale="1.3"/>
+  </filter>
+  <filter id="f-sk2" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.065" numOctaves="2" seed="12"/>
+    <feDisplacementMap in="SourceGraphic" scale="1"/>
+  </filter>
+</defs>
+<rect x="0" y="471" width="704" height="9" fill="#ede4c8" stroke="#2a1a0a" stroke-width="1.8" rx="1" filter="url(#f-sk)"/>
+<rect x="0" y="505" width="704" height="9" fill="#ede4c8" stroke="#2a1a0a" stroke-width="1.8" rx="1" filter="url(#f-sk)"/>
+<rect x="1040" y="610" width="200" height="8" fill="#d2bc94" stroke="#2a1a0a" stroke-width="1.5" rx="1" filter="url(#f-sk2)"/>
+<ellipse cx="239" cy="616" rx="27" ry="7" fill="#c0b8a0" stroke="#2a1a0a" stroke-width="2" filter="url(#f-sk2)"/>
+<path d="M214,616 Q239,598 264,616" stroke="#8a8068" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>
+<!-- /foreground -->
+
+<div id="door-flash"></div>
+
+<div id="ui">
+  <div id="score-line">🐾 <span id="found">0</span> / <span id="total">10</span></div>
+  <div id="hint"></div>
+</div>
+
+<div id="win">
+  <h1>All cats are home! 🐱</h1>
+  <p>You found all <span id="win-count">10</span> kittens</p>
+  <button id="next-level-btn">Play next</button>
+</div>
+
+</div><!-- /world -->
+</div><!-- /scene -->
+
+<div id="cat-tooltip"></div>
+
+<script>
+function resizeWorld() {
+  const s = Math.max(window.innerWidth / 1200, window.innerHeight / 800);
+  document.getElementById('world').style.transform =
+    `translate(-50%, -50%) scale(${s})`;
+}
+window.addEventListener('resize', resizeWorld);
+resizeWorld();
+
+let found = 0;
+const TOTAL = 10;
+const DOOR_X = 866;
+const DOOR_Y = 512;
+
+const SAVE_KEY = 'farmKittensProgress';
+
+function loadProgress() {
+  try {
+    const saved = localStorage.getItem(SAVE_KEY);
+    if (saved) {
+      const data = JSON.parse(saved);
+      const currentFile = window.location.pathname.split('/').pop() || 'index002.html';
+      if (data.currentLevel !== currentFile) {
+        localStorage.removeItem(SAVE_KEY + '_cats_' + currentFile);
+      }
+    }
+  } catch (e) { console.warn('Failed to load progress', e); }
+}
+
+function saveLevelStart() {
+  try {
+    const currentFile = window.location.pathname.split('/').pop() || 'index002.html';
+    localStorage.setItem(SAVE_KEY, JSON.stringify({ currentLevel: currentFile }));
+  } catch (e) { console.warn('Failed to save progress', e); }
+}
+
+async function goToNextLevel() {
+  try {
+    const response = await fetch('game-data.json');
+    if (!response.ok) throw new Error('Failed to load game data');
+    const gameData = await response.json();
+    const currentFile = window.location.pathname.split('/').pop() || 'index002.html';
+    const currentLevelData = gameData.levels.find(l => l.file === currentFile);
+    if (currentLevelData && currentLevelData.next) {
+      window.location.href = currentLevelData.next;
+    } else {
+      window.location.reload();
+    }
+  } catch (e) {
+    console.error('Error loading next level:', e);
+    window.location.reload();
+  }
+}
+
+loadProgress();
+saveLevelStart();
+
+const tooltip = document.getElementById('cat-tooltip');
+const LABELS = {
+  'cat-001': '001','cat-002': '002','cat-003': '003','cat-004': '004',
+  'cat-005': '005','cat-006': '006','cat-007': '007','cat-008': '008',
+  'cat-009': '009','cat-010': '010'
+};
+
+document.querySelectorAll('.cat-wrap').forEach(el => {
+  el.addEventListener('mousemove', e => {
+    if (el.classList.contains('found')) return;
+    tooltip.textContent = LABELS[el.id] || el.id;
+    tooltip.style.opacity = '1';
+    tooltip.style.left = (e.clientX + 16) + 'px';
+    tooltip.style.top  = (e.clientY - 32) + 'px';
+  });
+  el.addEventListener('mouseleave', () => { tooltip.style.opacity = '0'; });
+  el.addEventListener('touchstart', e => {
+    if (el.classList.contains('found')) return;
+    e.preventDefault();
+    const touch = e.touches[0];
+    tooltip.textContent = LABELS[el.id] || el.id;
+    tooltip.style.opacity = '1';
+    tooltip.style.left = (touch.clientX + 16) + 'px';
+    tooltip.style.top  = (touch.clientY - 32) + 'px';
+  });
+  el.addEventListener('touchend', () => { tooltip.style.opacity = '0'; });
+  el.addEventListener('touchcancel', () => { tooltip.style.opacity = '0'; });
+});
+
+function spawnPaws(catLocalX, catLocalY, catW, catH) {
+  const world = document.getElementById('world');
+  const cx = catLocalX + catW / 2;
+  const cy = catLocalY + catH / 2;
+  for (let i = 1; i <= 8; i++) {
+    const paw = document.createElement('div');
+    paw.className = 'paw';
+    const t = i / 8;
+    const lx = cx + (DOOR_X - cx) * t + (Math.random() - 0.5) * 32;
+    const ly = cy + (DOOR_Y - cy) * t + (Math.random() - 0.5) * 22;
+    paw.style.left = lx + 'px';
+    paw.style.top  = ly + 'px';
+    paw.style.animationDelay = (i * 0.13) + 's';
+    paw.style.setProperty('--r', (Math.random() * 70 - 35) + 'deg');
+    paw.textContent = '🐾';
+    world.appendChild(paw);
+    setTimeout(() => paw.remove(), 2000);
+  }
+}
+
+function handleClick(el) {
+  if (el.classList.contains('found')) return;
+  el.classList.add('found');
+  tooltip.style.opacity = '0';
+
+  const svg = el.querySelector('svg');
+  if (svg) svg.style.animation = 'catReveal 0.45s ease-out both';
+
+  const lx = el.offsetLeft;
+  const ly = el.offsetTop;
+  const sw = svg ? +svg.getAttribute('width')  : 60;
+  const sh = svg ? +svg.getAttribute('height') : 60;
+
+  setTimeout(() => spawnPaws(lx, ly, sw, sh), 380);
+
+  el.style.left      = (DOOR_X - sw / 2) + 'px';
+  el.style.top       = (DOOR_Y - sh / 2) + 'px';
+  el.style.transform = 'scale(0.55)';
+
+  setTimeout(() => {
+    el.style.opacity = '0';
+    el.style.transform = 'scale(0.12)';
+    const flash = document.getElementById('door-flash');
+    flash.style.opacity = '0.75';
+    setTimeout(() => flash.style.opacity = '0', 350);
+  }, 1050);
+
+  setTimeout(() => {
+    el.remove();
+    found++;
+    document.getElementById('found').textContent = found;
+    document.getElementById('hint').textContent = '';
+    if (found >= TOTAL) {
+      setTimeout(() => document.getElementById('win').classList.add('show'), 500);
+    }
+  }, 1500);
+}
+
+document.querySelectorAll('.cat-wrap').forEach(el => {
+  el.addEventListener('click', (e) => { e.preventDefault(); handleClick(el); });
+  el.addEventListener('touchstart', (e) => { e.preventDefault(); handleClick(el); }, { passive: false });
+});
+
+document.getElementById('total').textContent     = TOTAL;
+document.getElementById('win-count').textContent = TOTAL;
+
+document.getElementById('next-level-btn').addEventListener('click', (e) => {
+  e.preventDefault();
+  goToNextLevel();
+});
+</script>
+</body>
+</html>

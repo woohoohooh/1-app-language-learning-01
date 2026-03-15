@@ -28,10 +28,8 @@
     {"original":"loss","english":"financial loss","translation":"финансовый убыток"},
     {"original":"budget","english":"annual budget","translation":"годовой бюджет"},
     {"original":"expense","english":"extra expense","translation":"дополнительный расход"},
-    {"original":"investment","english":"private investment","translation":"частная инвестиция"},
     {"original":"funding","english":"startup funding","translation":"финансирование стартапа"},
     {"original":"capital","english":"initial capital","translation":"начальный капитал"},
-    {"original":"cash-flow","english":"positive cash flow","translation":"положительный денежный поток"},
     {"original":"assets","english":"company assets","translation":"активы компании"},
     {"original":"deal","english":"close deal","translation":"заключить сделку"},
     {"original":"contract","english":"sign contract","translation":"подписать контракт"},
@@ -40,8 +38,10 @@
     {"original":"conditions","english":"market conditions","translation":"рыночные условия"},
     {"original":"strategy","english":"business strategy","translation":"бизнес-стратегия"},
     {"original":"growth","english":"fast growth","translation":"быстрый рост"},
-    {"original":"performance","english":"high performance","translation":"высокая эффективность"},
     {"original":"forecast","english":"sales forecast","translation":"прогноз продаж"},
-    {"original":"risk","english":"business risk","translation":"бизнес-риск"}
+    {"original":"risk","english":"business risk","translation":"бизнес-риск"},
+    {"original":"investment","english":"private investments","translation":"частные инвестиции"},
+    {"original":"cash-flow","english":"positive cash-flow","translation":"положительный денежный поток"},
+    {"original":"performance","english":"strong performance","translation":"высокая эффективность"}
   ]
 }

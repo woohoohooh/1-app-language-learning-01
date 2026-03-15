@@ -3,105 +3,25 @@
   "level": "Upper-Intermediate",
   "name": "Phrases",
   "items": [
-    {
-      "original": "software",
-      "english": "install software",
-      "translation": "установить ПО"
-    },
-    {
-      "original": "application",
-      "english": "build application",
-      "translation": "создать приложение"
-    },
-    {
-      "original": "codebase",
-      "english": "update codebase",
-      "translation": "обновить кодовую базу"
-    },
-    {
-      "original": "repository",
-      "english": "clone repository",
-      "translation": "клонировать репозиторий"
-    },
-    {
-      "original": "commit",
-      "english": "make commit",
-      "translation": "сделать коммит"
-    },
-    {
-      "original": "branch",
-      "english": "create branch",
-      "translation": "создать ветку"
-    },
-    {
-      "original": "merge",
-      "english": "merge branch",
-      "translation": "слить ветку"
-    },
-    {
-      "original": "pull request",
-      "english": "open pull request",
-      "translation": "открыть пулл-реквест"
-    },
-    {
-      "original": "version control",
-      "english": "use version control",
-      "translation": "использовать контроль версий"
-    },
-    {
-      "original": "deployment",
-      "english": "run deployment",
-      "translation": "запустить деплой"
-    },
-    {
-      "original": "build",
-      "english": "build project",
-      "translation": "собрать проект"
-    },
-    {
-      "original": "release",
-      "english": "make release",
-      "translation": "сделать релиз"
-    },
-    {
-      "original": "pipeline",
-      "english": "setup pipeline",
-      "translation": "настроить пайплайн"
-    },
-    {
-      "original": "automation",
-      "english": "use automation",
-      "translation": "использовать автоматизацию"
-    },
-    {
-      "original": "integration",
-      "english": "add integration",
-      "translation": "добавить интеграцию"
-    },
-    {
-      "original": "framework",
-      "english": "learn framework",
-      "translation": "изучать фреймворк"
-    },
-    {
-      "original": "library",
-      "english": "use library",
-      "translation": "использовать библиотеку"
-    },
-    {
-      "original": "dependency",
-      "english": "install dependency",
-      "translation": "установить зависимость"
-    },
-    {
-      "original": "package",
-      "english": "publish package",
-      "translation": "опубликовать пакет"
-    },
-    {
-      "original": "module",
-      "english": "create module",
-      "translation": "создать модуль"
-    }
+    {"original":"software","english":"software installation","translation":"установка ПО"},
+    {"original":"application","english":"application development","translation":"разработка приложения"},
+    {"original":"codebase","english":"codebase update","translation":"обновление кодовой базы"},
+    {"original":"repository","english":"repository clone","translation":"клонирование репозитория"},
+    {"original":"commit","english":"commit creation","translation":"создание коммита"},
+    {"original":"branch","english":"branch creation","translation":"создание ветки"},
+    {"original":"merge","english":"merge operation","translation":"операция слияния"},
+    {"original":"pull request","english":"pull request review","translation":"проверка пулл-реквеста"},
+    {"original":"version control","english":"version control system","translation":"система контроля версий"},
+    {"original":"deployment","english":"deployment process","translation":"процесс деплоя"},
+    {"original":"build","english":"build process","translation":"процесс сборки"},
+    {"original":"release","english":"release cycle","translation":"цикл релиза"},
+    {"original":"pipeline","english":"pipeline configuration","translation":"конфигурация пайплайна"},
+    {"original":"automation","english":"automation workflow","translation":"процесс автоматизации"},
+    {"original":"integration","english":"integration layer","translation":"слой интеграции"},
+    {"original":"framework","english":"framework selection","translation":"выбор фреймворка"},
+    {"original":"library","english":"library usage","translation":"использование библиотеки"},
+    {"original":"dependency","english":"dependency management","translation":"управление зависимостями"},
+    {"original":"package","english":"package publishing","translation":"публикация пакета"},
+    {"original":"module","english":"module structure","translation":"структура модуля"}
   ]
 }

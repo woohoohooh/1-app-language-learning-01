@@ -26,17 +26,17 @@
     {"original":"save","english":"save post","translation":"сохранить пост"},
     {"original":"follower","english":"new follower","translation":"новый подписчик"},
     {"original":"following","english":"check following","translation":"проверить подписки"},
-    {"original":"subscribe","english":"subscribe to channel","translation":"подписаться на канал"},
-    {"original":"unsubscribe","english":"unsubscribe user","translation":"отписаться от пользователя"},
     {"original":"block","english":"block user","translation":"заблокировать пользователя"},
     {"original":"online","english":"be online","translation":"быть в сети"},
-    {"original":"offline","english":"go offline","translation":"быть не в сети"},
     {"original":"status","english":"update status","translation":"обновить статус"},
     {"original":"privacy","english":"privacy settings","translation":"настройки приватности"},
     {"original":"settings","english":"open settings","translation":"открыть настройки"},
     {"original":"trend","english":"new trend","translation":"новый тренд"},
     {"original":"viral","english":"go viral","translation":"стать вирусным"},
     {"original":"community","english":"online community","translation":"онлайн сообщество"},
-    {"original":"moderation","english":"content moderation","translation":"модерация контента"}
+    {"original":"moderation","english":"content moderation","translation":"модерация контента"},
+    {"original":"subscribe","english":"subscribe channel","translation":"подписаться на канал"},
+    {"original":"offline","english":"be offline","translation":"быть не в сети"},
+    {"original":"unsubscribe","english":"unsubscribe from user","translation":"отписаться от пользователя"}
   ]
 }

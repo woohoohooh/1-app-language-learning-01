@@ -3,7 +3,6 @@
   "level": "Intermediate",
   "name": "Phrase",
   "items": [
-    {"original":"bank","english":"go to the bank","translation":"пойти в банк"},
     {"original":"branch","english":"local branch","translation":"местное отделение"},
     {"original":"account","english":"open account","translation":"открыть счёт"},
     {"original":"balance","english":"check balance","translation":"проверить баланс"},
@@ -15,15 +14,10 @@
     {"original":"payment","english":"monthly payment","translation":"ежемесячный платёж"},
     {"original":"cash","english":"pay in cash","translation":"платить наличными"},
     {"original":"currency","english":"local currency","translation":"местная валюта"},
-    {"original":"exchange-rate","english":"exchange rate today","translation":"курс обмена сегодня"},
-    {"original":"foreign-currency","english":"foreign currency account","translation":"счёт в иностранной валюте"},
     {"original":"funds","english":"available funds","translation":"доступные средства"},
     {"original":"card","english":"bank card","translation":"банковская карта"},
-    {"original":"credit-card","english":"use credit card","translation":"использовать кредитную карту"},
-    {"original":"debit-card","english":"debit card payment","translation":"платёж дебетовой картой"},
     {"original":"pin","english":"enter PIN","translation":"ввести ПИН-код"},
     {"original":"atm","english":"use ATM","translation":"использовать банкомат"},
-    {"original":"loan","english":"take a loan","translation":"взять кредит"},
     {"original":"credit","english":"get credit","translation":"получить кредит"},
     {"original":"interest","english":"pay interest","translation":"платить проценты"},
     {"original":"interest-rate","english":"high interest rate","translation":"высокая процентная ставка"},
@@ -33,8 +27,6 @@
     {"original":"mortgage","english":"mortgage loan","translation":"ипотечный кредит"},
     {"original":"fee","english":"service fee","translation":"комиссия за обслуживание"},
     {"original":"charge","english":"extra charge","translation":"дополнительное списание"},
-    {"original":"online-banking","english":"use online banking","translation":"использовать онлайн-банкинг"},
-    {"original":"mobile-banking","english":"mobile banking app","translation":"мобильное банковское приложение"},
     {"original":"authorization","english":"card authorization","translation":"авторизация карты"},
     {"original":"verification","english":"identity verification","translation":"проверка личности"},
     {"original":"security","english":"account security","translation":"безопасность счёта"},
@@ -42,6 +34,14 @@
     {"original":"refund","english":"request refund","translation":"запросить возврат денег"},
     {"original":"fine","english":"pay fine","translation":"заплатить штраф"},
     {"original":"insurance","english":"buy insurance","translation":"оформить страховку"},
-    {"original":"coverage","english":"full coverage","translation":"полное страховое покрытие"}
+    {"original":"coverage","english":"full coverage","translation":"полное страховое покрытие"},
+    {"original":"bank","english":"visit bank","translation":"пойти в банк"},
+    {"original":"exchange-rate","english":"today exchange-rate","translation":"курс обмена сегодня"},
+    {"original":"foreign-currency","english":"foreign-currency account","translation":"счёт в иностранной валюте"},
+    {"original":"credit-card","english":"use credit-card","translation":"использовать кредитную карту"},
+    {"original":"debit-card","english":"debit-card payment","translation":"платёж дебетовой картой"},
+    {"original":"loan","english":"take loan","translation":"взять кредит"},
+    {"original":"online-banking","english":"use online-banking","translation":"использовать онлайн-банкинг"},
+    {"original":"mobile-banking","english":"mobile-banking app","translation":"мобильное банковское приложение"}
   ]
 }

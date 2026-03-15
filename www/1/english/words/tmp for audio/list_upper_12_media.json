@@ -3,205 +3,45 @@
   "level": "Upper-Intermediate",
   "name": "Phrase",
   "items": [
-    {
-      "original": "news",
-      "english": "latest news",
-      "translation": "последние новости"
-    },
-    {
-      "original": "media",
-      "english": "digital media",
-      "translation": "цифровые медиа"
-    },
-    {
-      "original": "press",
-      "english": "free press",
-      "translation": "свободная пресса"
-    },
-    {
-      "original": "journalism",
-      "english": "investigative journalism",
-      "translation": "расследовательская журналистика"
-    },
-    {
-      "original": "headline",
-      "english": "news headline",
-      "translation": "новостной заголовок"
-    },
-    {
-      "original": "article",
-      "english": "news article",
-      "translation": "новостная статья"
-    },
-    {
-      "original": "coverage",
-      "english": "media coverage",
-      "translation": "освещение в СМИ"
-    },
-    {
-      "original": "broadcast",
-      "english": "live broadcast",
-      "translation": "прямая трансляция"
-    },
-    {
-      "original": "publication",
-      "english": "online publication",
-      "translation": "онлайн-публикация"
-    },
-    {
-      "original": "source",
-      "english": "reliable source",
-      "translation": "надёжный источник"
-    },
-    {
-      "original": "statement",
-      "english": "official statement",
-      "translation": "официальное заявление"
-    },
-    {
-      "original": "announcement",
-      "english": "public announcement",
-      "translation": "публичное объявление"
-    },
-    {
-      "original": "update",
-      "english": "news update",
-      "translation": "обновление новостей"
-    },
-    {
-      "original": "breaking news",
-      "english": "breaking news",
-      "translation": "срочные новости"
-    },
-    {
-      "original": "interview",
-      "english": "exclusive interview",
-      "translation": "эксклюзивное интервью"
-    },
-    {
-      "original": "commentary",
-      "english": "expert commentary",
-      "translation": "комментарий эксперта"
-    },
-    {
-      "original": "analysis",
-      "english": "in-depth analysis",
-      "translation": "глубокий анализ"
-    },
-    {
-      "original": "opinion",
-      "english": "personal opinion",
-      "translation": "личное мнение"
-    },
-    {
-      "original": "editorial",
-      "english": "editorial piece",
-      "translation": "редакционная статья"
-    },
-    {
-      "original": "fact",
-      "english": "verified fact",
-      "translation": "подтверждённый факт"
-    },
-    {
-      "original": "claim",
-      "english": "false claim",
-      "translation": "ложное утверждение"
-    },
-    {
-      "original": "evidence",
-      "english": "strong evidence",
-      "translation": "весомое доказательство"
-    },
-    {
-      "original": "context",
-      "english": "full context",
-      "translation": "полный контекст"
-    },
-    {
-      "original": "background",
-      "english": "story background",
-      "translation": "предыстория события"
-    },
-    {
-      "original": "bias",
-      "english": "media bias",
-      "translation": "предвзятость СМИ"
-    },
-    {
-      "original": "misinformation",
-      "english": "spread misinformation",
-      "translation": "распространять дезинформацию"
-    },
-    {
-      "original": "disinformation",
-      "english": "political disinformation",
-      "translation": "умышленная дезинформация"
-    },
-    {
-      "original": "fake news",
-      "english": "fake news",
-      "translation": "фейковые новости"
-    },
-    {
-      "original": "trend",
-      "english": "media trend",
-      "translation": "медийный тренд"
-    },
-    {
-      "original": "public opinion",
-      "english": "shape public opinion",
-      "translation": "формировать общественное мнение"
-    },
-    {
-      "original": "audience",
-      "english": "target audience",
-      "translation": "целевая аудитория"
-    },
-    {
-      "original": "reach",
-      "english": "global reach",
-      "translation": "глобальный охват"
-    },
-    {
-      "original": "engagement",
-      "english": "user engagement",
-      "translation": "вовлечённость пользователей"
-    },
-    {
-      "original": "platform",
-      "english": "media platform",
-      "translation": "медийная платформа"
-    },
-    {
-      "original": "social media",
-      "english": "social media",
-      "translation": "социальные сети"
-    },
-    {
-      "original": "viral",
-      "english": "go viral",
-      "translation": "стать вирусным"
-    },
-    {
-      "original": "feed",
-      "english": "news feed",
-      "translation": "новостная лента"
-    },
-    {
-      "original": "algorithm",
-      "english": "platform algorithm",
-      "translation": "алгоритм платформы"
-    },
-    {
-      "original": "report",
-      "english": "media report",
-      "translation": "медийный отчёт"
-    },
-    {
-      "original": "narrative",
-      "english": "media narrative",
-      "translation": "медийный нарратив"
-    }
+    {"original":"news","english":"news coverage","translation":"освещение новостей"},
+    {"original":"media","english":"media landscape","translation":"медиапространство"},
+    {"original":"press","english":"press freedom","translation":"свобода прессы"},
+    {"original":"journalism","english":"journalism standards","translation":"стандарты журналистики"},
+    {"original":"headline","english":"headline story","translation":"главная новость"},
+    {"original":"article","english":"article publication","translation":"публикация статьи"},
+    {"original":"coverage","english":"coverage analysis","translation":"анализ освещения"},
+    {"original":"broadcast","english":"broadcast signal","translation":"вещательный сигнал"},
+    {"original":"publication","english":"publication outlet","translation":"издание"},
+    {"original":"source","english":"source verification","translation":"проверка источника"},
+    {"original":"statement","english":"statement release","translation":"публикация заявления"},
+    {"original":"announcement","english":"announcement notice","translation":"объявление"},
+    {"original":"update","english":"update bulletin","translation":"информационное обновление"},
+    {"original":"breaking news","english":"breaking news alert","translation":"срочное новостное сообщение"},
+    {"original":"interview","english":"interview segment","translation":"фрагмент интервью"},
+    {"original":"commentary","english":"commentary section","translation":"раздел комментариев"},
+    {"original":"analysis","english":"analysis report","translation":"аналитический отчёт"},
+    {"original":"opinion","english":"opinion column","translation":"колонка мнений"},
+    {"original":"editorial","english":"editorial article","translation":"редакционная статья"},
+    {"original":"fact","english":"fact verification","translation":"проверка факта"},
+    {"original":"claim","english":"claim assessment","translation":"оценка утверждения"},
+    {"original":"evidence","english":"evidence documentation","translation":"документирование доказательств"},
+    {"original":"context","english":"context explanation","translation":"объяснение контекста"},
+    {"original":"background","english":"background report","translation":"справочный материал"},
+    {"original":"bias","english":"bias detection","translation":"выявление предвзятости"},
+    {"original":"misinformation","english":"misinformation spread","translation":"распространение дезинформации"},
+    {"original":"disinformation","english":"disinformation campaign","translation":"кампания дезинформации"},
+    {"original":"fake news","english":"fake news narrative","translation":"нарратив фейковых новостей"},
+    {"original":"trend","english":"trend monitoring","translation":"отслеживание трендов"},
+    {"original":"public opinion","english":"public opinion influence","translation":"влияние на общественное мнение"},
+    {"original":"audience","english":"audience reach","translation":"охват аудитории"},
+    {"original":"reach","english":"reach expansion","translation":"расширение охвата"},
+    {"original":"engagement","english":"engagement metrics","translation":"метрики вовлечённости"},
+    {"original":"platform","english":"platform distribution","translation":"распространение по платформам"},
+    {"original":"social media","english":"social media platforms","translation":"платформы социальных сетей"},
+    {"original":"viral","english":"viral content","translation":"вирусный контент"},
+    {"original":"feed","english":"feed algorithm","translation":"алгоритм ленты"},
+    {"original":"algorithm","english":"algorithm ranking","translation":"алгоритмическая выдача"},
+    {"original":"report","english":"report coverage","translation":"репортажное освещение"},
+    {"original":"narrative","english":"narrative framing","translation":"формирование нарратива"}
   ]
 }

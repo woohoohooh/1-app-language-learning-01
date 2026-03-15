@@ -3,205 +3,45 @@
   "level": "Upper-Intermediate",
   "name": "Phrase",
   "items": [
-    {
-      "original": "law",
-      "english": "criminal law",
-      "translation": "уголовное право"
-    },
-    {
-      "original": "legal",
-      "english": "legal advice",
-      "translation": "юридическая консультация"
-    },
-    {
-      "original": "contract",
-      "english": "sign contract",
-      "translation": "подписать договор"
-    },
-    {
-      "original": "agreement",
-      "english": "mutual agreement",
-      "translation": "взаимное соглашение"
-    },
-    {
-      "original": "clause",
-      "english": "contract clause",
-      "translation": "пункт договора"
-    },
-    {
-      "original": "terms",
-      "english": "contract terms",
-      "translation": "условия договора"
-    },
-    {
-      "original": "conditions",
-      "english": "delivery conditions",
-      "translation": "условия поставки"
-    },
-    {
-      "original": "obligation",
-      "english": "legal obligation",
-      "translation": "юридическое обязательство"
-    },
-    {
-      "original": "liability",
-      "english": "limited liability",
-      "translation": "ограниченная ответственность"
-    },
-    {
-      "original": "penalty",
-      "english": "pay penalty",
-      "translation": "заплатить штраф"
-    },
-    {
-      "original": "breach",
-      "english": "contract breach",
-      "translation": "нарушение договора"
-    },
-    {
-      "original": "violation",
-      "english": "legal violation",
-      "translation": "юридическое нарушение"
-    },
-    {
-      "original": "compliance",
-      "english": "regulatory compliance",
-      "translation": "соответствие требованиям"
-    },
-    {
-      "original": "regulation",
-      "english": "government regulation",
-      "translation": "государственное регулирование"
-    },
-    {
-      "original": "policy",
-      "english": "company policy",
-      "translation": "политика компании"
-    },
-    {
-      "original": "rights",
-      "english": "legal rights",
-      "translation": "юридические права"
-    },
-    {
-      "original": "duties",
-      "english": "legal duties",
-      "translation": "юридические обязанности"
-    },
-    {
-      "original": "party",
-      "english": "contract party",
-      "translation": "сторона договора"
-    },
-    {
-      "original": "third party",
-      "english": "third party",
-      "translation": "третья сторона"
-    },
-    {
-      "original": "counterparty",
-      "english": "main counterparty",
-      "translation": "основной контрагент"
-    },
-    {
-      "original": "signature",
-      "english": "authorized signature",
-      "translation": "уполномоченная подпись"
-    },
-    {
-      "original": "amendment",
-      "english": "contract amendment",
-      "translation": "поправка к договору"
-    },
-    {
-      "original": "termination",
-      "english": "contract termination",
-      "translation": "расторжение договора"
-    },
-    {
-      "original": "expiration",
-      "english": "contract expiration",
-      "translation": "истечение срока договора"
-    },
-    {
-      "original": "renewal",
-      "english": "contract renewal",
-      "translation": "продление договора"
-    },
-    {
-      "original": "dispute",
-      "english": "legal dispute",
-      "translation": "юридический спор"
-    },
-    {
-      "original": "claim",
-      "english": "file claim",
-      "translation": "подать претензию"
-    },
-    {
-      "original": "lawsuit",
-      "english": "file lawsuit",
-      "translation": "подать иск"
-    },
-    {
-      "original": "court",
-      "english": "district court",
-      "translation": "районный суд"
-    },
-    {
-      "original": "settlement",
-      "english": "reach settlement",
-      "translation": "достичь мирового соглашения"
-    },
-    {
-      "original": "jurisdiction",
-      "english": "legal jurisdiction",
-      "translation": "юрисдикция"
-    },
-    {
-      "original": "intellectual property",
-      "english": "intellectual property",
-      "translation": "интеллектуальная собственность"
-    },
-    {
-      "original": "copyright",
-      "english": "copyright law",
-      "translation": "авторское право"
-    },
-    {
-      "original": "trademark",
-      "english": "registered trademark",
-      "translation": "зарегистрированный товарный знак"
-    },
-    {
-      "original": "confidentiality",
-      "english": "data confidentiality",
-      "translation": "конфиденциальность данных"
-    },
-    {
-      "original": "privacy",
-      "english": "privacy policy",
-      "translation": "политика приватности"
-    },
-    {
-      "original": "consent",
-      "english": "user consent",
-      "translation": "согласие пользователя"
-    },
-    {
-      "original": "authorization",
-      "english": "legal authorization",
-      "translation": "юридическое разрешение"
-    },
-    {
-      "original": "representation",
-      "english": "legal representation",
-      "translation": "юридическое заявление/гарантия"
-    },
-    {
-      "original": "warranty",
-      "english": "product warranty",
-      "translation": "гарантия на продукт"
-    }
+    {"original":"law","english":"law enforcement","translation":"правоприменение"},
+    {"original":"legal","english":"legal framework","translation":"правовая база"},
+    {"original":"contract","english":"contract agreement","translation":"договорное соглашение"},
+    {"original":"agreement","english":"agreement terms","translation":"условия соглашения"},
+    {"original":"clause","english":"clause provision","translation":"положение пункта договора"},
+    {"original":"terms","english":"terms specification","translation":"спецификация условий"},
+    {"original":"conditions","english":"conditions framework","translation":"система условий"},
+    {"original":"obligation","english":"obligation fulfillment","translation":"исполнение обязательства"},
+    {"original":"liability","english":"liability limitation","translation":"ограничение ответственности"},
+    {"original":"penalty","english":"penalty provision","translation":"штрафное положение"},
+    {"original":"breach","english":"breach liability","translation":"ответственность за нарушение"},
+    {"original":"violation","english":"violation record","translation":"фиксация нарушения"},
+    {"original":"compliance","english":"compliance monitoring","translation":"контроль соответствия"},
+    {"original":"regulation","english":"regulation framework","translation":"нормативная система"},
+    {"original":"policy","english":"policy guideline","translation":"политическое руководство"},
+    {"original":"rights","english":"rights protection","translation":"защита прав"},
+    {"original":"duties","english":"duties allocation","translation":"распределение обязанностей"},
+    {"original":"party","english":"party obligation","translation":"обязательство стороны"},
+    {"original":"third party","english":"third party involvement","translation":"участие третьей стороны"},
+    {"original":"counterparty","english":"counterparty verification","translation":"проверка контрагента"},
+    {"original":"signature","english":"signature authority","translation":"полномочие подписи"},
+    {"original":"amendment","english":"amendment provision","translation":"положение о поправке"},
+    {"original":"termination","english":"termination procedure","translation":"процедура расторжения"},
+    {"original":"expiration","english":"expiration date","translation":"дата истечения"},
+    {"original":"renewal","english":"renewal clause","translation":"пункт продления"},
+    {"original":"dispute","english":"dispute resolution","translation":"разрешение спора"},
+    {"original":"claim","english":"claim submission","translation":"подача претензии"},
+    {"original":"lawsuit","english":"lawsuit procedure","translation":"судебная процедура"},
+    {"original":"court","english":"court jurisdiction","translation":"юрисдикция суда"},
+    {"original":"settlement","english":"settlement agreement","translation":"мировое соглашение"},
+    {"original":"jurisdiction","english":"jurisdiction scope","translation":"область юрисдикции"},
+    {"original":"intellectual property","english":"intellectual property protection","translation":"защита интеллектуальной собственности"},
+    {"original":"copyright","english":"copyright protection","translation":"защита авторских прав"},
+    {"original":"trademark","english":"trademark registration","translation":"регистрация товарного знака"},
+    {"original":"confidentiality","english":"confidentiality clause","translation":"пункт конфиденциальности"},
+    {"original":"privacy","english":"privacy regulation","translation":"регулирование приватности"},
+    {"original":"consent","english":"consent requirement","translation":"требование согласия"},
+    {"original":"authorization","english":"authorization document","translation":"документ разрешения"},
+    {"original":"representation","english":"representation rights","translation":"права представительства"},
+    {"original":"warranty","english":"warranty coverage","translation":"гарантийное покрытие"}
   ]
 }

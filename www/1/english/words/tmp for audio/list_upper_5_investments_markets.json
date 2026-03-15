@@ -3,205 +3,45 @@
   "level": "Upper-Intermediate",
   "name": "Phrase",
   "items": [
-    {
-      "original": "investment",
-      "english": "make investment",
-      "translation": "сделать инвестицию"
-    },
-    {
-      "original": "investor",
-      "english": "private investor",
-      "translation": "частный инвестор"
-    },
-    {
-      "original": "market",
-      "english": "global market",
-      "translation": "глобальный рынок"
-    },
-    {
-      "original": "asset",
-      "english": "financial asset",
-      "translation": "финансовый актив"
-    },
-    {
-      "original": "portfolio",
-      "english": "investment portfolio",
-      "translation": "инвестиционный портфель"
-    },
-    {
-      "original": "stock",
-      "english": "buy stock",
-      "translation": "купить акцию"
-    },
-    {
-      "original": "bond",
-      "english": "government bond",
-      "translation": "государственная облигация"
-    },
-    {
-      "original": "fund",
-      "english": "mutual fund",
-      "translation": "паевой фонд"
-    },
-    {
-      "original": "etf",
-      "english": "buy etf",
-      "translation": "купить ETF"
-    },
-    {
-      "original": "index",
-      "english": "market index",
-      "translation": "рыночный индекс"
-    },
-    {
-      "original": "exchange",
-      "english": "stock exchange",
-      "translation": "фондовая биржа"
-    },
-    {
-      "original": "ticker",
-      "english": "ticker symbol",
-      "translation": "биржевой тикер"
-    },
-    {
-      "original": "price",
-      "english": "current price",
-      "translation": "текущая цена"
-    },
-    {
-      "original": "value",
-      "english": "fair value",
-      "translation": "справедливая стоимость"
-    },
-    {
-      "original": "return",
-      "english": "high return",
-      "translation": "высокая доходность"
-    },
-    {
-      "original": "profit",
-      "english": "net profit",
-      "translation": "чистая прибыль"
-    },
-    {
-      "original": "loss",
-      "english": "capital loss",
-      "translation": "убыток капитала"
-    },
-    {
-      "original": "yield",
-      "english": "bond yield",
-      "translation": "доходность облигаций"
-    },
-    {
-      "original": "dividend",
-      "english": "pay dividend",
-      "translation": "выплачивать дивиденд"
-    },
-    {
-      "original": "risk",
-      "english": "market risk",
-      "translation": "рыночный риск"
-    },
-    {
-      "original": "volatility",
-      "english": "high volatility",
-      "translation": "высокая волатильность"
-    },
-    {
-      "original": "liquidity",
-      "english": "market liquidity",
-      "translation": "ликвидность рынка"
-    },
-    {
-      "original": "exposure",
-      "english": "risk exposure",
-      "translation": "подверженность риску"
-    },
-    {
-      "original": "diversification",
-      "english": "portfolio diversification",
-      "translation": "диверсификация портфеля"
-    },
-    {
-      "original": "trend",
-      "english": "market trend",
-      "translation": "рыночный тренд"
-    },
-    {
-      "original": "growth",
-      "english": "economic growth",
-      "translation": "экономический рост"
-    },
-    {
-      "original": "decline",
-      "english": "market decline",
-      "translation": "спад рынка"
-    },
-    {
-      "original": "crash",
-      "english": "market crash",
-      "translation": "обвал рынка"
-    },
-    {
-      "original": "recovery",
-      "english": "market recovery",
-      "translation": "восстановление рынка"
-    },
-    {
-      "original": "analysis",
-      "english": "market analysis",
-      "translation": "анализ рынка"
-    },
-    {
-      "original": "forecast",
-      "english": "price forecast",
-      "translation": "прогноз цены"
-    },
-    {
-      "original": "indicator",
-      "english": "economic indicator",
-      "translation": "экономический показатель"
-    },
-    {
-      "original": "performance",
-      "english": "fund performance",
-      "translation": "результативность фонда"
-    },
-    {
-      "original": "benchmark",
-      "english": "market benchmark",
-      "translation": "рыночный бенчмарк"
-    },
-    {
-      "original": "capital",
-      "english": "raise capital",
-      "translation": "привлекать капитал"
-    },
-    {
-      "original": "valuation",
-      "english": "asset valuation",
-      "translation": "оценка активов"
-    },
-    {
-      "original": "allocation",
-      "english": "asset allocation",
-      "translation": "распределение активов"
-    },
-    {
-      "original": "strategy",
-      "english": "investment strategy",
-      "translation": "инвестиционная стратегия"
-    },
-    {
-      "original": "long-term",
-      "english": "long term investment",
-      "translation": "долгосрочная инвестиция"
-    },
-    {
-      "original": "share",
-      "english": "buy share",
-      "translation": "купить акцию"
-    }
+    {"original":"market","english":"global market","translation":"глобальный рынок"},
+    {"original":"asset","english":"financial asset","translation":"финансовый актив"},
+    {"original":"portfolio","english":"investment portfolio","translation":"инвестиционный портфель"},
+    {"original":"bond","english":"government bond","translation":"государственная облигация"},
+    {"original":"fund","english":"mutual fund","translation":"паевой фонд"},
+    {"original":"index","english":"market index","translation":"рыночный индекс"},
+    {"original":"exchange","english":"stock exchange","translation":"фондовая биржа"},
+    {"original":"ticker","english":"ticker symbol","translation":"биржевой тикер"},
+    {"original":"value","english":"fair value","translation":"справедливая стоимость"},
+    {"original":"profit","english":"net profit","translation":"чистая прибыль"},
+    {"original":"loss","english":"capital loss","translation":"убыток капитала"},
+    {"original":"yield","english":"bond yield","translation":"доходность облигаций"},
+    {"original":"risk","english":"market risk","translation":"рыночный риск"},
+    {"original":"liquidity","english":"market liquidity","translation":"ликвидность рынка"},
+    {"original":"exposure","english":"risk exposure","translation":"подверженность риску"},
+    {"original":"diversification","english":"portfolio diversification","translation":"диверсификация портфеля"},
+    {"original":"indicator","english":"economic indicator","translation":"экономический показатель"},
+    {"original":"benchmark","english":"market benchmark","translation":"рыночный бенчмарк"},
+    {"original":"valuation","english":"asset valuation","translation":"оценка активов"},
+    {"original":"allocation","english":"asset allocation","translation":"распределение активов"},
+    {"original":"strategy","english":"investment strategy","translation":"инвестиционная стратегия"},
+    {"original":"investment","english":"investment activity","translation":"инвестиционная деятельность"},
+  {"original":"investor","english":"institutional investor","translation":"институциональный инвестор"},
+  {"original":"stock","english":"stock purchase","translation":"покупка акции"},
+  {"original":"etf","english":"ETF purchase","translation":"покупка ETF"},
+  {"original":"price","english":"price level","translation":"уровень цены"},
+  {"original":"return","english":"return potential","translation":"потенциал доходности"},
+  {"original":"dividend","english":"dividend payout","translation":"выплата дивиденда"},
+  {"original":"volatility","english":"volatility level","translation":"уровень волатильности"},
+  {"original":"trend","english":"trend direction","translation":"направление тренда"},
+  {"original":"growth","english":"growth rate","translation":"темп роста"},
+  {"original":"decline","english":"decline phase","translation":"фаза снижения"},
+  {"original":"crash","english":"crash scenario","translation":"сценарий обвала"},
+  {"original":"recovery","english":"recovery phase","translation":"фаза восстановления"},
+  {"original":"analysis","english":"analysis report","translation":"аналитический отчет"},
+  {"original":"forecast","english":"forecast model","translation":"модель прогноза"},
+  {"original":"performance","english":"performance metrics","translation":"метрики эффективности"},
+  {"original":"capital","english":"capital inflow","translation":"приток капитала"},
+  {"original":"long-term","english":"long-term strategy","translation":"долгосрочная стратегия"},
+  {"original":"share","english":"share purchase","translation":"покупка акции"}
   ]
 }

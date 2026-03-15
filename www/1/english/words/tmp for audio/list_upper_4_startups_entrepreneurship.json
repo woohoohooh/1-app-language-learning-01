@@ -3,230 +3,50 @@
   "level": "Upper-Intermediate",
   "name": "Phrase",
   "items": [
-    {
-      "original": "startup",
-      "english": "build startup",
-      "translation": "создавать стартап"
-    },
-    {
-      "original": "founder",
-      "english": "startup founder",
-      "translation": "основатель стартапа"
-    },
-    {
-      "original": "co-founder",
-      "english": "co founder role",
-      "translation": "роль сооснователя"
-    },
-    {
-      "original": "entrepreneur",
-      "english": "successful entrepreneur",
-      "translation": "успешный предприниматель"
-    },
-    {
-      "original": "vision",
-      "english": "clear vision",
-      "translation": "четкое видение"
-    },
-    {
-      "original": "idea",
-      "english": "new idea",
-      "translation": "новая идея"
-    },
-    {
-      "original": "concept",
-      "english": "business concept",
-      "translation": "бизнес-концепция"
-    },
-    {
-      "original": "problem",
-      "english": "solve problem",
-      "translation": "решить проблему"
-    },
-    {
-      "original": "solution",
-      "english": "smart solution",
-      "translation": "умное решение"
-    },
-    {
-      "original": "value",
-      "english": "create value",
-      "translation": "создавать ценность"
-    },
-    {
-      "original": "market",
-      "english": "target market",
-      "translation": "целевой рынок"
-    },
-    {
-      "original": "niche",
-      "english": "find niche",
-      "translation": "найти нишу"
-    },
-    {
-      "original": "demand",
-      "english": "market demand",
-      "translation": "рыночный спрос"
-    },
-    {
-      "original": "competition",
-      "english": "high competition",
-      "translation": "высокая конкуренция"
-    },
-    {
-      "original": "advantage",
-      "english": "competitive advantage",
-      "translation": "конкурентное преимущество"
-    },
-    {
-      "original": "product",
-      "english": "launch product",
-      "translation": "запустить продукт"
-    },
-    {
-      "original": "service",
-      "english": "offer service",
-      "translation": "предлагать сервис"
-    },
-    {
-      "original": "platform",
-      "english": "build platform",
-      "translation": "создать платформу"
-    },
-    {
-      "original": "feature",
-      "english": "new feature",
-      "translation": "новая функция"
-    },
-    {
-      "original": "roadmap",
-      "english": "product roadmap",
-      "translation": "дорожная карта продукта"
-    },
-    {
-      "original": "launch",
-      "english": "market launch",
-      "translation": "запуск на рынок"
-    },
-    {
-      "original": "growth",
-      "english": "rapid growth",
-      "translation": "быстрый рост"
-    },
-    {
-      "original": "scaling",
-      "english": "business scaling",
-      "translation": "масштабирование бизнеса"
-    },
-    {
-      "original": "pivot",
-      "english": "strategic pivot",
-      "translation": "стратегический поворот"
-    },
-    {
-      "original": "revenue",
-      "english": "increase revenue",
-      "translation": "увеличить выручку"
-    },
-    {
-      "original": "profit",
-      "english": "generate profit",
-      "translation": "получать прибыль"
-    },
-    {
-      "original": "pricing",
-      "english": "set pricing",
-      "translation": "установить цены"
-    },
-    {
-      "original": "monetization",
-      "english": "app monetization",
-      "translation": "монетизация приложения"
-    },
-    {
-      "original": "subscription",
-      "english": "monthly subscription",
-      "translation": "ежемесячная подписка"
-    },
-    {
-      "original": "investment",
-      "english": "seek investment",
-      "translation": "искать инвестиции"
-    },
-    {
-      "original": "investor",
-      "english": "angel investor",
-      "translation": "ангельский инвестор"
-    },
-    {
-      "original": "funding",
-      "english": "secure funding",
-      "translation": "получить финансирование"
-    },
-    {
-      "original": "valuation",
-      "english": "company valuation",
-      "translation": "оценка компании"
-    },
-    {
-      "original": "equity",
-      "english": "equity share",
-      "translation": "доля в компании"
-    },
-    {
-      "original": "pitch",
-      "english": "startup pitch",
-      "translation": "питч стартапа"
-    },
-    {
-      "original": "deck",
-      "english": "pitch deck",
-      "translation": "презентация для инвесторов"
-    },
-    {
-      "original": "metrics",
-      "english": "track metrics",
-      "translation": "отслеживать метрики"
-    },
-    {
-      "original": "kpis",
-      "english": "key kpis",
-      "translation": "ключевые показатели"
-    },
-    {
-      "original": "feedback",
-      "english": "user feedback",
-      "translation": "обратная связь от пользователей"
-    },
-    {
-      "original": "risk",
-      "english": "business risk",
-      "translation": "бизнес-риск"
-    },
-    {
-      "original": "failure",
-      "english": "startup failure",
-      "translation": "провал стартапа"
-    },
-    {
-      "original": "opportunity",
-      "english": "new opportunity",
-      "translation": "новая возможность"
-    },
-    {
-      "original": "decision",
-      "english": "make decision",
-      "translation": "принять решение"
-    },
-    {
-      "original": "strategy",
-      "english": "growth strategy",
-      "translation": "стратегия роста"
-    },
-    {
-      "original": "traction",
-      "english": "gain traction",
-      "translation": "получить тракцию"
-    }
+    {"original":"founder","english":"startup founder","translation":"основатель стартапа"},
+    {"original":"co-founder","english":"co-founder role","translation":"роль сооснователя"},
+    {"original":"entrepreneur","english":"successful entrepreneur","translation":"успешный предприниматель"},
+    {"original":"market","english":"target market","translation":"целевой рынок"},
+    {"original":"demand","english":"market demand","translation":"рыночный спрос"},
+    {"original":"advantage","english":"competitive advantage","translation":"конкурентное преимущество"},
+    {"original":"roadmap","english":"product roadmap","translation":"дорожная карта продукта"},
+    {"original":"launch","english":"market launch","translation":"запуск на рынок"},
+    {"original":"scaling","english":"business scaling","translation":"масштабирование бизнеса"},
+    {"original":"pivot","english":"strategic pivot","translation":"стратегический поворот"},
+    {"original":"monetization","english":"app monetization","translation":"монетизация приложения"},
+    {"original":"subscription","english":"monthly subscription","translation":"ежемесячная подписка"},
+    {"original":"investor","english":"angel investor","translation":"ангельский инвестор"},
+    {"original":"deck","english":"pitch deck","translation":"презентация для инвесторов"},
+    {"original":"feedback","english":"user feedback","translation":"обратная связь от пользователей"},
+    {"original":"strategy","english":"growth strategy","translation":"стратегия роста"},
+    {"original":"startup","english":"startup launch","translation":"запуск стартапа"},
+    {"original":"vision","english":"vision clarity","translation":"ясность видения"},
+    {"original":"idea","english":"idea validation","translation":"проверка идеи"},
+    {"original":"concept","english":"concept development","translation":"развитие концепции"},
+    {"original":"problem","english":"problem solving","translation":"решение проблем"},
+    {"original":"solution","english":"solution design","translation":"разработка решения"},
+    {"original":"value","english":"value creation","translation":"создание ценности"},
+    {"original":"niche","english":"niche discovery","translation":"поиск ниши"},
+    {"original":"competition","english":"competition level","translation":"уровень конкуренции"},
+    {"original":"product","english":"product launch","translation":"запуск продукта"},
+    {"original":"service","english":"service offering","translation":"предложение сервиса"},
+    {"original":"platform","english":"platform development","translation":"разработка платформы"},
+    {"original":"feature","english":"feature rollout","translation":"выпуск функции"},
+    {"original":"growth","english":"growth trajectory","translation":"траектория роста"},
+    {"original":"revenue","english":"revenue growth","translation":"рост выручки"},
+    {"original":"profit","english":"profit generation","translation":"получение прибыли"},
+    {"original":"pricing","english":"pricing strategy","translation":"ценовая стратегия"},
+    {"original":"investment","english":"investment round","translation":"раунд инвестиций"},
+    {"original":"funding","english":"funding round","translation":"раунд финансирования"},
+    {"original":"valuation","english":"valuation level","translation":"уровень оценки"},
+    {"original":"equity","english":"equity distribution","translation":"распределение долей"},
+    {"original":"pitch","english":"pitch presentation","translation":"презентация питча"},
+    {"original":"metrics","english":"metrics tracking","translation":"отслеживание метрик"},
+    {"original":"kpis","english":"KPIs tracking","translation":"отслеживание KPI"},
+    {"original":"risk","english":"risk exposure","translation":"подверженность риску"},
+    {"original":"failure","english":"failure risk","translation":"риск провала"},
+    {"original":"opportunity","english":"opportunity window","translation":"окно возможностей"},
+    {"original":"decision","english":"decision process","translation":"процесс принятия решения"},
+    {"original":"traction","english":"traction growth","translation":"рост тракции"}
   ]
 }

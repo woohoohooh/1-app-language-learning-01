@@ -2,7 +2,7 @@ import os, json, re
 
 JSON_FOLDER = "."
 AUDIO_FOLDER = "current audio"
-OUTPUT_FILE = "missing_phrases.txt"
+OUTPUT_FILE = "1-missing_phrases.txt"
 
 def normalize_phrase(s):
     s = s.lower()

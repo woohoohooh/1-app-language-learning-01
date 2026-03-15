@@ -5,34 +5,40 @@
   "items": [
     { "original": "humor", "english": "Humor connects people easily.", "translation": "Юмор легко объединяет людей." },
     { "original": "joke", "english": "He told a joke.", "translation": "Он рассказал шутку." },
-    { "original": "wit", "english": "Her wit impressed everyone.", "translation": "Её остроумие впечатлило всех." },
+    { "original": "wit", "english": "Her wit impressed colleagues.", "translation": "Её остроумие впечатлило коллег." },
     { "original": "wittiness", "english": "People admired his wittiness.", "translation": "Люди восхищались его остроумностью." },
-    { "original": "playfulness", "english": "Her voice had playfulness.", "translation": "В её голосе была игривость." },
+    { "original": "playfulness", "english": "Her voice showed playfulness.", "translation": "В её голосе была игривость." },
+
     { "original": "sarcasm", "english": "His sarcasm sounded sharp.", "translation": "Его сарказм звучал резко." },
     { "original": "irony", "english": "She replied with irony.", "translation": "Она ответила с иронией." },
-    { "original": "mockery", "english": "That comment felt like mockery.", "translation": "Этот комментарий звучал как насмешка." },
+    { "original": "mockery", "english": "That comment sounded mockery.", "translation": "Этот комментарий звучал как насмешка." },
     { "original": "teasing", "english": "Friends enjoy playful teasing.", "translation": "Друзья любят дружеское поддразнивание." },
-    { "original": "banter", "english": "Their banter sounded friendly.", "translation": "Их шутливый обмен репликами звучал дружелюбно." },
+    { "original": "banter", "english": "Their banter felt friendly.", "translation": "Их шутливый обмен репликами звучал дружелюбно." },
+
     { "original": "exaggeration", "english": "Stories often use exaggeration.", "translation": "Истории часто используют преувеличение." },
-    { "original": "absurdity", "english": "The joke relied on absurdity.", "translation": "Шутка строилась на абсурде." },
+    { "original": "absurdity", "english": "The joke used absurdity.", "translation": "Шутка использовала абсурд." },
     { "original": "nonsense", "english": "His reply sounded nonsense.", "translation": "Его ответ звучал как нелепица." },
     { "original": "parody", "english": "They created a parody.", "translation": "Они создали пародию." },
     { "original": "satire", "english": "The show used satire.", "translation": "Шоу использовало сатиру." },
+
     { "original": "self-irony", "english": "He spoke with self-irony.", "translation": "Он говорил с самоиронией." },
     { "original": "self-mockery", "english": "She used gentle self-mockery.", "translation": "Она использовала лёгкую самоиронию." },
     { "original": "understatement", "english": "British humor loves understatement.", "translation": "Британский юмор любит недосказанность." },
     { "original": "overstatement", "english": "Comedians often use overstatement.", "translation": "Комики часто используют гиперболу." },
     { "original": "delivery", "english": "His delivery sounded perfect.", "translation": "Его подача была идеальной." },
-    { "original": "timing", "english": "Good timing makes jokes.", "translation": "Хорошее чувство момента делает шутки." },
+
+    { "original": "timing", "english": "Good timing improves jokes.", "translation": "Хорошее чувство момента улучшает шутки." },
     { "original": "tone", "english": "Her tone felt playful.", "translation": "Её тон звучал игриво." },
     { "original": "expression", "english": "His expression caused laughter.", "translation": "Его выражение вызвало смех." },
     { "original": "awkwardness", "english": "The joke created awkwardness.", "translation": "Шутка создала неловкость." },
     { "original": "offense", "english": "Some jokes cause offense.", "translation": "Некоторые шутки вызывают оскорбление." },
+
     { "original": "misinterpretation", "english": "Humor risks misinterpretation sometimes.", "translation": "Юмор иногда рискует быть неправильно понятым." },
     { "original": "sensitivity", "english": "Audience sensitivity matters greatly.", "translation": "Чувствительность аудитории очень важна." },
-    { "original": "deadpan", "english": "He delivered it deadpan.", "translation": "Он подал это с сухой подачей." },
+    { "original": "deadpan", "english": "He delivered joke deadpan.", "translation": "Он подал шутку с невозмутимым лицом." },
     { "original": "lightheartedness", "english": "Lightheartedness filled the room.", "translation": "Лёгкость наполнила комнату." },
     { "original": "amusement", "english": "Her story brought amusement.", "translation": "Её история принесла веселье." },
+
     { "original": "entertainment", "english": "The show offered entertainment.", "translation": "Шоу предложило развлечение." }
   ]
 }

@@ -3,205 +3,45 @@
   "level": "Upper-Intermediate",
   "name": "Phrase",
   "items": [
-    {
-      "original": "sales",
-      "english": "sales strategy",
-      "translation": "стратегия продаж"
-    },
-    {
-      "original": "deal",
-      "english": "close deal",
-      "translation": "закрыть сделку"
-    },
-    {
-      "original": "agreement",
-      "english": "sign agreement",
-      "translation": "подписать соглашение"
-    },
-    {
-      "original": "contract",
-      "english": "service contract",
-      "translation": "сервисный контракт"
-    },
-    {
-      "original": "proposal",
-      "english": "sales proposal",
-      "translation": "коммерческое предложение"
-    },
-    {
-      "original": "offer",
-      "english": "special offer",
-      "translation": "специальное предложение"
-    },
-    {
-      "original": "pricing",
-      "english": "pricing model",
-      "translation": "модель ценообразования"
-    },
-    {
-      "original": "price",
-      "english": "final price",
-      "translation": "окончательная цена"
-    },
-    {
-      "original": "discount",
-      "english": "give discount",
-      "translation": "дать скидку"
-    },
-    {
-      "original": "margin",
-      "english": "profit margin",
-      "translation": "маржа прибыли"
-    },
-    {
-      "original": "client",
-      "english": "new client",
-      "translation": "новый клиент"
-    },
-    {
-      "original": "customer",
-      "english": "loyal customer",
-      "translation": "лояльный покупатель"
-    },
-    {
-      "original": "prospect",
-      "english": "sales prospect",
-      "translation": "потенциальный клиент"
-    },
-    {
-      "original": "stakeholder",
-      "english": "key stakeholder",
-      "translation": "ключевая заинтересованная сторона"
-    },
-    {
-      "original": "decision maker",
-      "english": "decision maker",
-      "translation": "лицо, принимающее решение"
-    },
-    {
-      "original": "negotiation",
-      "english": "price negotiation",
-      "translation": "ценовые переговоры"
-    },
-    {
-      "original": "discussion",
-      "english": "business discussion",
-      "translation": "деловое обсуждение"
-    },
-    {
-      "original": "terms",
-      "english": "contract terms",
-      "translation": "условия контракта"
-    },
-    {
-      "original": "conditions",
-      "english": "delivery conditions",
-      "translation": "условия поставки"
-    },
-    {
-      "original": "requirements",
-      "english": "client requirements",
-      "translation": "требования клиента"
-    },
-    {
-      "original": "objection",
-      "english": "handle objection",
-      "translation": "обработать возражение"
-    },
-    {
-      "original": "concern",
-      "english": "client concern",
-      "translation": "опасение клиента"
-    },
-    {
-      "original": "counteroffer",
-      "english": "make counteroffer",
-      "translation": "сделать встречное предложение"
-    },
-    {
-      "original": "compromise",
-      "english": "find compromise",
-      "translation": "найти компромисс"
-    },
-    {
-      "original": "concession",
-      "english": "make concession",
-      "translation": "сделать уступку"
-    },
-    {
-      "original": "approval",
-      "english": "get approval",
-      "translation": "получить утверждение"
-    },
-    {
-      "original": "confirmation",
-      "english": "deal confirmation",
-      "translation": "подтверждение сделки"
-    },
-    {
-      "original": "signature",
-      "english": "contract signature",
-      "translation": "подпись контракта"
-    },
-    {
-      "original": "closing",
-      "english": "sales closing",
-      "translation": "закрытие сделки"
-    },
-    {
-      "original": "follow-up",
-      "english": "sales follow-up",
-      "translation": "повторный контакт"
-    },
-    {
-      "original": "pipeline",
-      "english": "sales pipeline",
-      "translation": "воронка продаж"
-    },
-    {
-      "original": "forecast",
-      "english": "revenue forecast",
-      "translation": "прогноз выручки"
-    },
-    {
-      "original": "revenue",
-      "english": "monthly revenue",
-      "translation": "месячная выручка"
-    },
-    {
-      "original": "commission",
-      "english": "sales commission",
-      "translation": "комиссия продаж"
-    },
-    {
-      "original": "quota",
-      "english": "sales quota",
-      "translation": "план продаж"
-    },
-    {
-      "original": "relationship",
-      "english": "client relationship",
-      "translation": "отношения с клиентом"
-    },
-    {
-      "original": "trust",
-      "english": "build trust",
-      "translation": "строить доверие"
-    },
-    {
-      "original": "long-term",
-      "english": "long-term deal",
-      "translation": "долгосрочная сделка"
-    },
-    {
-      "original": "partnership",
-      "english": "business partnership",
-      "translation": "деловое партнёрство"
-    },
-    {
-      "original": "renewal",
-      "english": "contract renewal",
-      "translation": "продление контракта"
-    }
+    {"original":"sales","english":"sales strategy","translation":"стратегия продаж"},
+    {"original":"deal","english":"deal closure","translation":"закрытие сделки"},
+    {"original":"agreement","english":"agreement signing","translation":"подписание соглашения"},
+    {"original":"contract","english":"contract agreement","translation":"контрактное соглашение"},
+    {"original":"proposal","english":"proposal submission","translation":"подача предложения"},
+    {"original":"offer","english":"offer structure","translation":"структура предложения"},
+    {"original":"pricing","english":"pricing strategy","translation":"стратегия ценообразования"},
+    {"original":"price","english":"price level","translation":"уровень цены"},
+    {"original":"discount","english":"discount policy","translation":"политика скидок"},
+    {"original":"margin","english":"margin level","translation":"уровень маржи"},
+    {"original":"client","english":"client relationship","translation":"отношения с клиентом"},
+    {"original":"customer","english":"customer loyalty","translation":"лояльность клиента"},
+    {"original":"prospect","english":"prospect qualification","translation":"квалификация потенциального клиента"},
+    {"original":"stakeholder","english":"stakeholder alignment","translation":"согласование со стейкхолдерами"},
+    {"original":"decision maker","english":"decision maker approval","translation":"одобрение лица принимающего решение"},
+    {"original":"negotiation","english":"negotiation process","translation":"процесс переговоров"},
+    {"original":"discussion","english":"discussion round","translation":"раунд обсуждения"},
+    {"original":"terms","english":"terms negotiation","translation":"переговоры по условиям"},
+    {"original":"conditions","english":"conditions agreement","translation":"согласование условий"},
+    {"original":"requirements","english":"requirements clarification","translation":"уточнение требований"},
+    {"original":"objection","english":"objection handling","translation":"работа с возражениями"},
+    {"original":"concern","english":"concern discussion","translation":"обсуждение опасений"},
+    {"original":"counteroffer","english":"counteroffer proposal","translation":"предложение встречных условий"},
+    {"original":"compromise","english":"compromise solution","translation":"компромиссное решение"},
+    {"original":"concession","english":"concession strategy","translation":"стратегия уступок"},
+    {"original":"approval","english":"approval process","translation":"процесс утверждения"},
+    {"original":"confirmation","english":"confirmation message","translation":"подтверждающее сообщение"},
+    {"original":"signature","english":"signature process","translation":"процесс подписания"},
+    {"original":"closing","english":"closing stage","translation":"этап закрытия сделки"},
+    {"original":"follow-up","english":"follow-up communication","translation":"последующая коммуникация"},
+    {"original":"pipeline","english":"pipeline management","translation":"управление воронкой продаж"},
+    {"original":"forecast","english":"forecast model","translation":"модель прогноза"},
+    {"original":"revenue","english":"revenue growth","translation":"рост выручки"},
+    {"original":"commission","english":"commission structure","translation":"структура комиссии"},
+    {"original":"quota","english":"quota target","translation":"целевой план продаж"},
+    {"original":"relationship","english":"relationship management","translation":"управление отношениями"},
+    {"original":"trust","english":"trust building","translation":"формирование доверия"},
+    {"original":"long-term","english":"long-term partnership","translation":"долгосрочное партнерство"},
+    {"original":"partnership","english":"partnership agreement","translation":"партнерское соглашение"},
+    {"original":"renewal","english":"renewal process","translation":"процесс продления"}
   ]
 }

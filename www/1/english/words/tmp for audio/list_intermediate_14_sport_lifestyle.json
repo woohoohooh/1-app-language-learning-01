@@ -3,7 +3,6 @@
   "level": "Intermediate",
   "name": "Phrases",
   "items": [
-    {"original":"sport","english":"do sports","translation":"заниматься спортом"},
     {"original":"fitness","english":"daily fitness","translation":"ежедневный фитнес"},
     {"original":"activity","english":"physical activity","translation":"физическая активность"},
     {"original":"lifestyle","english":"healthy lifestyle","translation":"здоровый образ жизни"},
@@ -37,7 +36,6 @@
     {"original":"performance","english":"high performance","translation":"высокая результативность"},
     {"original":"achievement","english":"personal achievement","translation":"личное достижение"},
     {"original":"recovery","english":"muscle recovery","translation":"восстановление мышц"},
-    {"original":"rest","english":"take a rest","translation":"отдыхать"},
     {"original":"stretching","english":"full stretching","translation":"полная растяжка"},
     {"original":"warm-up","english":"morning warm-up","translation":"утренняя разминка"},
     {"original":"cool-down","english":"cool-down phase","translation":"фаза заминки"},
@@ -47,6 +45,8 @@
     {"original":"tracker","english":"fitness tracker","translation":"фитнес-трекер"},
     {"original":"schedule","english":"training schedule","translation":"расписание тренировок"},
     {"original":"routine","english":"daily routine","translation":"ежедневный режим"},
-    {"original":"weights","english":"lift weights","translation":"поднимать веса"}
+    {"original":"weights","english":"lift weights","translation":"поднимать веса"},
+    {"original":"sport","english":"do sport","translation":"заниматься спортом"},
+{"original":"rest","english":"take rest","translation":"отдыхать"}
   ]
 }

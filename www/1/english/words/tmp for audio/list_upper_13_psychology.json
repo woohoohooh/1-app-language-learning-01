@@ -3,205 +3,45 @@
   "level": "Upper-Intermediate",
   "name": "Phrase",
   "items": [
-    {
-      "original": "mind",
-      "english": "clear mind",
-      "translation": "ясный разум"
-    },
-    {
-      "original": "thinking",
-      "english": "critical thinking",
-      "translation": "критическое мышление"
-    },
-    {
-      "original": "thought",
-      "english": "positive thought",
-      "translation": "позитивная мысль"
-    },
-    {
-      "original": "awareness",
-      "english": "self awareness",
-      "translation": "самоосознанность"
-    },
-    {
-      "original": "attention",
-      "english": "pay attention",
-      "translation": "обращать внимание"
-    },
-    {
-      "original": "concentration",
-      "english": "deep concentration",
-      "translation": "глубокая концентрация"
-    },
-    {
-      "original": "memory",
-      "english": "long term memory",
-      "translation": "долговременная память"
-    },
-    {
-      "original": "perception",
-      "english": "visual perception",
-      "translation": "зрительное восприятие"
-    },
-    {
-      "original": "imagination",
-      "english": "vivid imagination",
-      "translation": "яркое воображение"
-    },
-    {
-      "original": "emotion",
-      "english": "strong emotion",
-      "translation": "сильная эмоция"
-    },
-    {
-      "original": "feeling",
-      "english": "mixed feeling",
-      "translation": "смешанное чувство"
-    },
-    {
-      "original": "mood",
-      "english": "good mood",
-      "translation": "хорошее настроение"
-    },
-    {
-      "original": "stress",
-      "english": "high stress",
-      "translation": "высокий стресс"
-    },
-    {
-      "original": "anxiety",
-      "english": "social anxiety",
-      "translation": "социальная тревожность"
-    },
-    {
-      "original": "motivation",
-      "english": "strong motivation",
-      "translation": "сильная мотивация"
-    },
-    {
-      "original": "drive",
-      "english": "inner drive",
-      "translation": "внутренний стимул"
-    },
-    {
-      "original": "discipline",
-      "english": "self discipline",
-      "translation": "самодисциплина"
-    },
-    {
-      "original": "habit",
-      "english": "bad habit",
-      "translation": "плохая привычка"
-    },
-    {
-      "original": "routine",
-      "english": "daily routine",
-      "translation": "ежедневная рутина"
-    },
-    {
-      "original": "behavior",
-      "english": "human behavior",
-      "translation": "человеческое поведение"
-    },
-    {
-      "original": "reaction",
-      "english": "quick reaction",
-      "translation": "быстрая реакция"
-    },
-    {
-      "original": "decision",
-      "english": "final decision",
-      "translation": "окончательное решение"
-    },
-    {
-      "original": "choice",
-      "english": "make choice",
-      "translation": "сделать выбор"
-    },
-    {
-      "original": "belief",
-      "english": "core belief",
-      "translation": "основное убеждение"
-    },
-    {
-      "original": "assumption",
-      "english": "wrong assumption",
-      "translation": "неверное предположение"
-    },
-    {
-      "original": "expectation",
-      "english": "high expectation",
-      "translation": "высокое ожидание"
-    },
-    {
-      "original": "bias",
-      "english": "cognitive bias",
-      "translation": "когнитивное искажение"
-    },
-    {
-      "original": "mindset",
-      "english": "growth mindset",
-      "translation": "мышление роста"
-    },
-    {
-      "original": "self-esteem",
-      "english": "healthy self esteem",
-      "translation": "здоровая самооценка"
-    },
-    {
-      "original": "confidence",
-      "english": "build confidence",
-      "translation": "развивать уверенность"
-    },
-    {
-      "original": "insecurity",
-      "english": "feel insecurity",
-      "translation": "чувствовать неуверенность"
-    },
-    {
-      "original": "self-control",
-      "english": "self control skills",
-      "translation": "навыки самоконтроля"
-    },
-    {
-      "original": "resilience",
-      "english": "mental resilience",
-      "translation": "психологическая устойчивость"
-    },
-    {
-      "original": "reflection",
-      "english": "daily reflection",
-      "translation": "ежедневный самоанализ"
-    },
-    {
-      "original": "introspection",
-      "english": "deep introspection",
-      "translation": "глубокая интроспекция"
-    },
-    {
-      "original": "overthinking",
-      "english": "constant overthinking",
-      "translation": "постоянное чрезмерное обдумывание"
-    },
-    {
-      "original": "burnout",
-      "english": "work burnout",
-      "translation": "рабочее выгорание"
-    },
-    {
-      "original": "mental health",
-      "english": "mental health care",
-      "translation": "забота о психическом здоровье"
-    },
-    {
-      "original": "focus",
-      "english": "sharp focus",
-      "translation": "острая концентрация"
-    },
-    {
-      "original": "response",
-      "english": "emotional response",
-      "translation": "эмоциональная реакция"
-    }
+    {"original":"mind","english":"mind clarity","translation":"ясность разума"},
+    {"original":"thinking","english":"thinking patterns","translation":"паттерны мышления"},
+    {"original":"thought","english":"thought process","translation":"процесс мышления"},
+    {"original":"awareness","english":"awareness development","translation":"развитие осознанности"},
+    {"original":"attention","english":"attention control","translation":"контроль внимания"},
+    {"original":"concentration","english":"concentration capacity","translation":"способность к концентрации"},
+    {"original":"memory","english":"memory retention","translation":"удержание памяти"},
+    {"original":"perception","english":"perception mechanism","translation":"механизм восприятия"},
+    {"original":"imagination","english":"imagination capacity","translation":"способность воображения"},
+    {"original":"emotion","english":"emotion regulation","translation":"регуляция эмоций"},
+    {"original":"feeling","english":"feeling expression","translation":"выражение чувств"},
+    {"original":"mood","english":"mood fluctuation","translation":"изменение настроения"},
+    {"original":"stress","english":"stress response","translation":"стрессовая реакция"},
+    {"original":"anxiety","english":"anxiety disorder","translation":"тревожное расстройство"},
+    {"original":"motivation","english":"motivation drivers","translation":"факторы мотивации"},
+    {"original":"drive","english":"drive mechanism","translation":"механизм внутреннего стремления"},
+    {"original":"discipline","english":"discipline practice","translation":"практика дисциплины"},
+    {"original":"habit","english":"habit formation","translation":"формирование привычки"},
+    {"original":"routine","english":"routine structure","translation":"структура рутины"},
+    {"original":"behavior","english":"behavior patterns","translation":"паттерны поведения"},
+    {"original":"reaction","english":"reaction pattern","translation":"паттерн реакции"},
+    {"original":"decision","english":"decision process","translation":"процесс принятия решения"},
+    {"original":"choice","english":"choice architecture","translation":"архитектура выбора"},
+    {"original":"belief","english":"belief system","translation":"система убеждений"},
+    {"original":"assumption","english":"assumption bias","translation":"предвзятое предположение"},
+    {"original":"expectation","english":"expectation management","translation":"управление ожиданиями"},
+    {"original":"bias","english":"bias recognition","translation":"распознавание искажений"},
+    {"original":"mindset","english":"mindset shift","translation":"изменение мышления"},
+    {"original":"self-esteem","english":"self-esteem stability","translation":"стабильность самооценки"},
+    {"original":"confidence","english":"confidence development","translation":"развитие уверенности"},
+    {"original":"insecurity","english":"insecurity feeling","translation":"чувство неуверенности"},
+    {"original":"self-control","english":"self-control ability","translation":"способность самоконтроля"},
+    {"original":"resilience","english":"resilience capacity","translation":"способность к устойчивости"},
+    {"original":"reflection","english":"reflection practice","translation":"практика рефлексии"},
+    {"original":"introspection","english":"introspection process","translation":"процесс интроспекции"},
+    {"original":"overthinking","english":"overthinking tendency","translation":"склонность к чрезмерному обдумыванию"},
+    {"original":"burnout","english":"burnout syndrome","translation":"синдром выгорания"},
+    {"original":"mental health","english":"mental health support","translation":"поддержка психического здоровья"},
+    {"original":"focus","english":"focus stability","translation":"устойчивость внимания"},
+    {"original":"response","english":"response pattern","translation":"паттерн реакции"}
   ]
 }
